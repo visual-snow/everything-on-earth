@@ -1,0 +1,87 @@
+{
+  "topic": "Kubernetes Security Tools",
+  "constraints": {
+    "min_stars": 20,
+    "active_since": "2023-01-01",
+    "languages": null
+  },
+  "sub_domains": [
+    {
+      "id": "network-policy",
+      "name": "Network Policy & Service Mesh Security",
+      "seed_queries": [
+        "kubernetes network policy tool open source",
+        "k8s CNI security github",
+        "calico network policy engine",
+        "cilium network security kubernetes",
+        "k8s ingress firewall open source",
+        "service mesh security istio linkerd",
+        "kubernetes microsegmentation tool",
+        "k8s pod network isolation github",
+        "kubernetes egress policy controller",
+        "network policy editor kubernetes open source"
+      ]
+    },
+    {
+      "id": "rbac-access-control",
+      "name": "RBAC & Access Control",
+      "seed_queries": [
+        "kubernetes rbac tool open source",
+        "k8s access control audit github",
+        "kubernetes permission management",
+        "k8s service account security",
+        "kubernetes role binding analyzer",
+        "rbac-manager kubernetes github",
+        "k8s least privilege tool",
+        "kubernetes identity management",
+        "k8s authentication authorization tool",
+        "kubernetes policy engine opa gatekeeper"
+      ]
+    },
+    {
+      "id": "image-scanning",
+      "name": "Container Image Scanning & Vulnerability Detection",
+      "seed_queries": [
+        "container image scanner open source",
+        "kubernetes vulnerability scanner github",
+        "trivy grype container security",
+        "docker image CVE scanner",
+        "k8s admission controller image policy",
+        "container registry security scanning",
+        "sbom container security tool",
+        "kubernetes image signing verification",
+        "container supply chain security",
+        "oci image vulnerability database"
+      ]
+    }
+  ],
+  "agents": {
+    "count": 8,
+    "model": "sonnet",
+    "budget_per_task": {
+      "searches": 10,
+      "scrapes": 30
+    },
+    "tools": ["firecrawl-search", "firecrawl-scrape", "Read", "Write", "Glob"],
+    "mode": "bypassPermissions"
+  },
+  "tasks": {
+    "per_subdomain": 1,
+    "awesome_lists": 1,
+    "total": "sub_domains.length + 1"
+  },
+  "pipeline": {
+    "dedup_key": "repo_url",
+    "normalize": "lowercase, strip trailing slash, remove .git suffix",
+    "pruning": "interactive",
+    "enrichment": "sync",
+    "max_tokens": 1024
+  },
+  "output": {
+    "catalog": "catalog.json",
+    "explorer": "explorer.html",
+    "summary": "RESULTS.md",
+    "directory": "everything-on-earth-output/"
+  },
+  "schema_version": "2.0.0"
+}

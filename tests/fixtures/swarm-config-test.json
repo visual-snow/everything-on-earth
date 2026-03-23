@@ -1,0 +1,29 @@
+{
+  "topic": "Kubernetes Security Tools",
+  "constraints": {
+    "min_stars": 20,
+    "active_since": "2023-01-01",
+    "languages": null
+  },
+  "sub_domains": [
+    { "id": "image-scanning", "name": "Image Scanning", "seed_queries": [] },
+    { "id": "network-policy", "name": "Network Policy", "seed_queries": [] },
+    { "id": "rbac-access-control", "name": "RBAC", "seed_queries": [] },
+    { "id": "runtime-security", "name": "Runtime Security", "seed_queries": [] },
+    { "id": "supply-chain", "name": "Supply Chain", "seed_queries": [] }
+  ],
+  "pipeline": {
+    "dedup_key": "repo_url",
+    "normalize": "lowercase, strip trailing slash, remove .git suffix",
+    "pruning": "interactive",
+    "enrichment": "batch_api",
+    "max_tokens": 1024
+  },
+  "output": {
+    "catalog": "catalog.json",
+    "explorer": "explorer.html",
+    "summary": "RESULTS.md",
+    "directory": "test-output/"
+  },
+  "schema_version": "2.0.0"
+}

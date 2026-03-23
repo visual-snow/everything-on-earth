@@ -1,0 +1,40 @@
+# {{ topic }} — Discovery Results
+
+**Generated:** {{ generated_at }}
+**Total repos:** {{ total }}
+**Sub-domains:** {{ domain_count }}
+**Score range:** {{ min_score }}-{{ max_score }}
+
+---
+
+## Distribution
+
+| Sub-domain | Repos | Avg Score |
+|-----------|-------|-----------|
+{% for domain in domains %}
+| {{ domain.name }} | {{ domain.count }} | {{ domain.avg_score }} |
+{% endfor %}
+
+---
+
+## Top Repos (score >= 8)
+
+{% for entry in top_repos %}
+### {{ entry.name }} ({{ entry.score }}/10)
+
+{{ entry.description }}
+
+- **URL:** {{ entry.repo_url }}
+- **Stars:** {{ entry.stars or 'N/A' }}
+- **Language:** {{ entry.language or 'N/A' }}
+- **Category:** {{ entry.category or 'N/A' }}
+- **Found in:** {{ entry.found_in_domains | join(', ') }}
+
+{% endfor %}
+
+---
+
+## Full Catalog
+
+See `catalog.json` for the complete machine-readable dataset.
+See `explorer.html` to browse interactively.

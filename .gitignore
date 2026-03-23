@@ -1,0 +1,21 @@
+# Runtime outputs
+discovery/
+raw-discovery.json
+dedup.json
+pruned.json
+enriched.json
+swarm-config.json
+everything-on-earth-output/
+test-output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

@@ -14,6 +14,7 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -103,6 +104,71 @@ def run_prune(
     return kept, pruned_log
 
 
+def strip_code_fences(text: str) -> str:
+    """Strip markdown code fences from LLM responses."""
+    text = text.strip()
+    # Remove ```json ... ``` or ``` ... ```
+    pattern = r'^```(?:json)?\s*\n(.*?)\n```$'
+    match = re.match(pattern, text, re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    return text
+
+
+def enrich_single(entry: dict, topic: str, max_tokens: int = 1024) -> dict:
+    """Enrich a single entry using Anthropic API. Returns {tags, category, summary}."""
+    import anthropic
+    client = anthropic.Anthropic()
+    prompt = f"""Given this open-source repository in the "{topic}" domain:
+
+Name: {entry['name']}
+Description: {entry['description']}
+Language: {entry.get('language', 'unknown')}
+Score: {entry.get('score', 'N/A')}
+
+Return a JSON object with:
+- "tags": array of 3-5 lowercase normalized topic tags
+- "category": a human-readable category name (2-4 words)
+- "summary": one-line summary of what makes this repo notable (max 100 chars)
+
+Return ONLY the JSON object, no markdown fences or extra text."""
+
+    response = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=max_tokens,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    raw = response.content[0].text
+    cleaned = strip_code_fences(raw)
+    return json.loads(cleaned)
+
+
+def run_enrich(entries: list[dict], topic: str, max_tokens: int = 1024) -> list[dict]:
+    """Enrich all entries with tags, category, and summary.
+
+    INVARIANT: len(output) == len(input). Enrichment never drops entries.
+    On individual failure, entry gets empty tags/category/summary rather than being dropped.
+    """
+    result = []
+    for i, entry in enumerate(entries):
+        enriched = dict(entry)
+        try:
+            data = enrich_single(entry, topic, max_tokens)
+            enriched["tags"] = data.get("tags", [])
+            enriched["category"] = data.get("category")
+            enriched["summary"] = data.get("summary")
+        except Exception as e:
+            print(f"  [enrich] Failed for {entry.get('name', '?')}: {e}", file=sys.stderr)
+            enriched["tags"] = []
+            enriched["category"] = None
+            enriched["summary"] = None
+        result.append(enriched)
+        print(f"  [enrich] {i+1}/{len(entries)}: {entry.get('name', '?')}")
+
+    assert len(result) == len(entries), f"Enrichment dropped entries: {len(result)} != {len(entries)}"
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser(description="everything-on-earth deterministic pipeline")
     parser.add_argument("--config", required=True, help="Path to swarm-config.json")
@@ -159,8 +225,14 @@ def main():
             pruned_path.write_text(json.dumps(result, indent=2))
             print(f"[prune] Wrote {pruned_path}")
         elif stage == "enrich":
-            print(f"[enrich] Not yet implemented")
-            sys.exit(1)
+            pruned_path = input_dir / "pruned.json"
+            pruned = json.loads(pruned_path.read_text())
+            print(f"[enrich] Input: {len(pruned)} entries")
+            result = run_enrich(pruned, topic=config["topic"], max_tokens=config["pipeline"]["max_tokens"])
+            print(f"[enrich] Output: {len(result)} entries (should equal input)")
+            enriched_path = input_dir / "enriched.json"
+            enriched_path.write_text(json.dumps(result, indent=2))
+            print(f"[enrich] Wrote {enriched_path}")
         elif stage == "finalize":
             print(f"[finalize] Not yet implemented")
             sys.exit(1)

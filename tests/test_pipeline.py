@@ -9,7 +9,7 @@ from pathlib import Path
 # Add pipeline to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
 
-from pipeline import normalize_url, run_dedup, run_prune
+from pipeline import normalize_url, run_dedup, run_prune, run_enrich, strip_code_fences
 
 
 def test_normalize_url_lowercase():
@@ -117,3 +117,44 @@ def test_prune_logs_what_was_removed():
     assert len(pruned_log) == 2
     assert any("no_url" in log["reason"] for log in pruned_log)
     assert any("min_score" in log["reason"] for log in pruned_log)
+
+
+# --- Enrich tests ---
+
+from unittest.mock import patch, MagicMock
+
+
+def test_strip_code_fences_json():
+    raw = '```json\n{"tags": ["security"]}\n```'
+    assert strip_code_fences(raw) == '{"tags": ["security"]}'
+
+
+def test_strip_code_fences_plain():
+    raw = '```\n{"tags": ["security"]}\n```'
+    assert strip_code_fences(raw) == '{"tags": ["security"]}'
+
+
+def test_strip_code_fences_no_fences():
+    raw = '{"tags": ["security"]}'
+    assert strip_code_fences(raw) == '{"tags": ["security"]}'
+
+
+def test_enrich_preserves_count():
+    """Enrichment must NEVER drop entries -- len(output) == len(input)."""
+    entries = [
+        {"repo_url": "https://github.com/a/b", "name": "tool-a", "description": "A security tool", "score": 8},
+        {"repo_url": "https://github.com/c/d", "name": "tool-b", "description": "Another tool", "score": 7},
+    ]
+    mock_response = {
+        "tags": ["kubernetes", "security"],
+        "category": "Security Scanning",
+        "summary": "A Kubernetes security scanning tool"
+    }
+
+    with patch("pipeline.enrich_single") as mock_enrich:
+        mock_enrich.return_value = mock_response
+        result = run_enrich(entries, topic="K8s Security", max_tokens=1024)
+
+    assert len(result) == len(entries), f"Enrichment dropped entries: {len(result)} != {len(entries)}"
+    assert result[0]["tags"] == ["kubernetes", "security"]
+    assert result[0]["category"] == "Security Scanning"

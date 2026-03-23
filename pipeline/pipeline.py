@@ -59,6 +59,50 @@ def run_dedup(entries: list[dict]) -> list[dict]:
     return result
 
 
+def run_prune(
+    entries: list[dict],
+    min_score: int = 0,
+    min_stars: int = 0,
+    active_since: str | None = None,
+) -> tuple[list[dict], list[dict]]:
+    """Prune entries by hard cuts (missing fields) and soft cuts (thresholds).
+
+    Returns (kept, pruned_log) where pruned_log explains each removal.
+    """
+    kept = []
+    pruned_log = []
+
+    for entry in entries:
+        url = entry.get("repo_url", "").strip()
+        desc = entry.get("description", "").strip()
+        score = entry.get("score", 0)
+        stars = entry.get("stars") or 0
+        activity = entry.get("last_activity") or ""
+
+        # Hard cuts
+        if not url:
+            pruned_log.append({"name": entry.get("name", "?"), "reason": "no_url"})
+            continue
+        if not desc:
+            pruned_log.append({"name": entry.get("name", "?"), "reason": "no_description"})
+            continue
+
+        # Soft cuts
+        if min_score and score < min_score:
+            pruned_log.append({"name": entry.get("name", "?"), "reason": f"min_score ({score} < {min_score})"})
+            continue
+        if min_stars and stars < min_stars:
+            pruned_log.append({"name": entry.get("name", "?"), "reason": f"min_stars ({stars} < {min_stars})"})
+            continue
+        if active_since and activity and activity < active_since:
+            pruned_log.append({"name": entry.get("name", "?"), "reason": f"inactive (last: {activity}, cutoff: {active_since})"})
+            continue
+
+        kept.append(entry)
+
+    return kept, pruned_log
+
+
 def main():
     parser = argparse.ArgumentParser(description="everything-on-earth deterministic pipeline")
     parser.add_argument("--config", required=True, help="Path to swarm-config.json")
@@ -99,8 +143,21 @@ def main():
                 print(f"  {domain}: {count}")
 
         elif stage == "prune":
-            print(f"[prune] Not yet implemented")
-            sys.exit(1)
+            dedup_path = input_dir / "dedup.json"
+            dedup = json.loads(dedup_path.read_text())
+            print(f"[prune] Input: {len(dedup)} entries")
+            result, pruned_log = run_prune(
+                dedup,
+                min_score=args.min_score,
+                min_stars=args.min_stars,
+                active_since=args.active_since,
+            )
+            print(f"[prune] Kept: {len(result)}, Pruned: {len(pruned_log)}")
+            for log in pruned_log:
+                print(f"  PRUNED: {log['name']} — {log['reason']}")
+            pruned_path = input_dir / "pruned.json"
+            pruned_path.write_text(json.dumps(result, indent=2))
+            print(f"[prune] Wrote {pruned_path}")
         elif stage == "enrich":
             print(f"[enrich] Not yet implemented")
             sys.exit(1)

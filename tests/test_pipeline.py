@@ -9,7 +9,7 @@ from pathlib import Path
 # Add pipeline to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
 
-from pipeline import normalize_url, run_dedup
+from pipeline import normalize_url, run_dedup, run_prune
 
 
 def test_normalize_url_lowercase():
@@ -56,3 +56,64 @@ def test_dedup_preserves_non_duplicates():
     ]
     result = run_dedup(entries)
     assert len(result) == 2
+
+
+def test_prune_removes_empty_url():
+    entries = [
+        {"repo_url": "", "name": "bad", "description": "No URL", "score": 5},
+        {"repo_url": "https://github.com/a/b", "name": "good", "description": "Has URL", "score": 5},
+    ]
+    result, pruned_log = run_prune(entries)
+    assert len(result) == 1
+    assert result[0]["name"] == "good"
+
+
+def test_prune_removes_empty_description():
+    entries = [
+        {"repo_url": "https://github.com/a/b", "name": "no-desc", "description": "", "score": 5},
+        {"repo_url": "https://github.com/c/d", "name": "has-desc", "description": "A real tool", "score": 5},
+    ]
+    result, pruned_log = run_prune(entries)
+    assert len(result) == 1
+    assert result[0]["name"] == "has-desc"
+
+
+def test_prune_min_score():
+    entries = [
+        {"repo_url": "https://github.com/a/b", "name": "low", "description": "Low score", "score": 2},
+        {"repo_url": "https://github.com/c/d", "name": "high", "description": "High score", "score": 8},
+    ]
+    result, _ = run_prune(entries, min_score=5)
+    assert len(result) == 1
+    assert result[0]["name"] == "high"
+
+
+def test_prune_min_stars():
+    entries = [
+        {"repo_url": "https://github.com/a/b", "name": "few", "description": "Few stars", "score": 5, "stars": 10},
+        {"repo_url": "https://github.com/c/d", "name": "many", "description": "Many stars", "score": 5, "stars": 500},
+    ]
+    result, _ = run_prune(entries, min_stars=100)
+    assert len(result) == 1
+    assert result[0]["name"] == "many"
+
+
+def test_prune_active_since():
+    entries = [
+        {"repo_url": "https://github.com/a/b", "name": "old", "description": "Old repo", "score": 5, "last_activity": "2020-01-01"},
+        {"repo_url": "https://github.com/c/d", "name": "new", "description": "New repo", "score": 5, "last_activity": "2025-06-01"},
+    ]
+    result, _ = run_prune(entries, active_since="2023-01-01")
+    assert len(result) == 1
+    assert result[0]["name"] == "new"
+
+
+def test_prune_logs_what_was_removed():
+    entries = [
+        {"repo_url": "", "name": "no-url", "description": "Missing", "score": 5},
+        {"repo_url": "https://github.com/a/b", "name": "low-score", "description": "OK", "score": 1},
+    ]
+    _, pruned_log = run_prune(entries, min_score=3)
+    assert len(pruned_log) == 2
+    assert any("no_url" in log["reason"] for log in pruned_log)
+    assert any("min_score" in log["reason"] for log in pruned_log)

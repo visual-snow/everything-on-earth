@@ -169,6 +169,73 @@ def run_enrich(entries: list[dict], topic: str, max_tokens: int = 1024) -> list[
     return result
 
 
+def run_finalize(
+    entries: list[dict],
+    topic: str,
+    output_dir: Path,
+    template_dir: Path | None = None,
+) -> None:
+    """Validate, cluster, sort, and produce three output files."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    if template_dir is None:
+        template_dir = Path(__file__).parent / "templates"
+
+    # Sort by score descending
+    entries.sort(key=lambda e: e.get("score", 0), reverse=True)
+
+    # 1. catalog.json
+    catalog_path = output_dir / "catalog.json"
+    catalog_path.write_text(json.dumps(entries, indent=2))
+
+    # 2. RESULTS.md via Jinja
+    from collections import Counter, defaultdict
+    from datetime import datetime
+    from jinja2 import Environment, FileSystemLoader
+
+    domain_entries = defaultdict(list)
+    for e in entries:
+        for d in e.get("found_in_domains", [e.get("sub_domain", "unknown")]):
+            domain_entries[d].append(e)
+
+    domains_summary = []
+    for d_name in sorted(domain_entries.keys()):
+        d_entries = domain_entries[d_name]
+        avg = sum(e.get("score", 0) for e in d_entries) / len(d_entries)
+        domains_summary.append({"name": d_name, "count": len(d_entries), "avg_score": f"{avg:.1f}"})
+
+    scores = [e.get("score", 0) for e in entries]
+    context = {
+        "topic": topic,
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "total": len(entries),
+        "domain_count": len(domain_entries),
+        "min_score": min(scores) if scores else 0,
+        "max_score": max(scores) if scores else 0,
+        "domains": domains_summary,
+        "top_repos": [e for e in entries if e.get("score", 0) >= 8],
+    }
+
+    env = Environment(loader=FileSystemLoader(str(template_dir)))
+    results_tpl = env.get_template("results.md.jinja")
+    results_path = output_dir / "RESULTS.md"
+    results_path.write_text(results_tpl.render(**context))
+
+    # 3. explorer.html via Jinja
+    explorer_tpl = env.get_template("explorer.html")
+    explorer_context = {
+        "topic": topic,
+        "total": len(entries),
+        "domain_count": len(domain_entries),
+        "catalog_json": json.dumps(entries),
+    }
+    explorer_path = output_dir / "explorer.html"
+    explorer_path.write_text(explorer_tpl.render(**explorer_context))
+
+    print(f"[finalize] Wrote {catalog_path} ({len(entries)} entries)")
+    print(f"[finalize] Wrote {results_path}")
+    print(f"[finalize] Wrote {explorer_path}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="everything-on-earth deterministic pipeline")
     parser.add_argument("--config", required=True, help="Path to swarm-config.json")
@@ -234,8 +301,12 @@ def main():
             enriched_path.write_text(json.dumps(result, indent=2))
             print(f"[enrich] Wrote {enriched_path}")
         elif stage == "finalize":
-            print(f"[finalize] Not yet implemented")
-            sys.exit(1)
+            enriched_path = input_dir / "enriched.json"
+            enriched = json.loads(enriched_path.read_text())
+            print(f"[finalize] Input: {len(enriched)} entries")
+            out_dir = Path(args.output_dir) if args.output_dir else output_dir
+            template_dir = Path(__file__).parent / "templates"
+            run_finalize(enriched, topic=config["topic"], output_dir=out_dir, template_dir=template_dir)
         else:
             print(f"Unknown stage: {stage}", file=sys.stderr)
             sys.exit(1)

@@ -9,7 +9,7 @@ from pathlib import Path
 # Add pipeline to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
 
-from pipeline import normalize_url, run_dedup, run_prune, run_enrich, strip_code_fences
+from pipeline import normalize_url, run_dedup, run_prune, run_enrich, strip_code_fences, run_finalize
 
 
 def test_normalize_url_lowercase():
@@ -158,3 +158,33 @@ def test_enrich_preserves_count():
     assert len(result) == len(entries), f"Enrichment dropped entries: {len(result)} != {len(entries)}"
     assert result[0]["tags"] == ["kubernetes", "security"]
     assert result[0]["category"] == "Security Scanning"
+
+
+# --- Finalize tests ---
+
+
+def test_finalize_produces_three_outputs(tmp_path):
+    entries = [
+        {
+            "repo_url": "https://github.com/a/b", "name": "a/b", "description": "Tool A",
+            "sub_domain": "scanning", "score": 9, "stars": 1000, "language": "Go",
+            "license": "MIT", "last_activity": "2025-01-01", "tags": ["security"],
+            "category": "Scanning", "summary": "A scanning tool", "found_in_domains": ["scanning"]
+        },
+        {
+            "repo_url": "https://github.com/c/d", "name": "c/d", "description": "Tool B",
+            "sub_domain": "policy", "score": 7, "stars": 500, "language": "Python",
+            "license": "Apache-2.0", "last_activity": "2025-06-01", "tags": ["policy"],
+            "category": "Policy", "summary": "A policy tool", "found_in_domains": ["policy"]
+        },
+    ]
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_finalize(entries, topic="Test Topic", output_dir=tmp_path, template_dir=template_dir)
+
+    assert (tmp_path / "catalog.json").exists()
+    assert (tmp_path / "explorer.html").exists()
+    assert (tmp_path / "RESULTS.md").exists()
+
+    catalog = json.loads((tmp_path / "catalog.json").read_text())
+    assert len(catalog) == 2
+    assert catalog[0]["score"] >= catalog[1]["score"]  # sorted descending

@@ -16,10 +16,11 @@ NC='\033[0m'
 
 # --- Uninstall mode ---
 if [[ "${1:-}" == "--uninstall" ]]; then
-  echo "Uninstalling massive-crawl..."
+  echo "Uninstalling massive-crawl + map-capabilities..."
   rm -rf "$SKILL_DEST" "$HOOKS_DEST"
+  rm -rf "$HOME/.claude/skills/map-capabilities"
   if [ -f "$SETTINGS" ]; then
-    # Remove our hook entries (entries containing "massive-crawl")
+    # Remove hook entries containing "massive-crawl" or "map-capabilities"
     python3 -c '
 import json, sys
 settings_file = sys.argv[1]
@@ -28,7 +29,8 @@ with open(settings_file) as f:
 hooks = s.get("hooks", {})
 for event in list(hooks.keys()):
     hooks[event] = [h for h in hooks[event]
-                     if not any("massive-crawl" in (hook.get("command",""))
+                     if not any(("massive-crawl" in hook.get("command","")
+                                 or "map-capabilities" in hook.get("command",""))
                                for hook in h.get("hooks", []))]
     if not hooks[event]:
         del hooks[event]
@@ -89,11 +91,15 @@ cp "$SCRIPT_DIR/skill/map-capabilities/SKILL.md" "$MAP_CAP_DEST/"
 
 echo -e "${GREEN}✓ Skill installed to $SKILL_DEST${NC}"
 
-# Copy hooks
+# Copy massive-crawl hooks
 mkdir -p "$HOOKS_DEST"
-cp "$SCRIPT_DIR/hooks/"* "$HOOKS_DEST/"
+cp "$SCRIPT_DIR/hooks/pre-teamcreate.js" "$SCRIPT_DIR/hooks/subagent-context.sh" \
+   "$SCRIPT_DIR/hooks/task-completed.sh" "$SCRIPT_DIR/hooks/teammate-idle.sh" \
+   "$SCRIPT_DIR/hooks/post-concat.js" "$SCRIPT_DIR/hooks/statusline.js" "$HOOKS_DEST/"
 chmod +x "$HOOKS_DEST/"*
 echo -e "${GREEN}✓ Hooks installed to $HOOKS_DEST${NC}"
+
+# Map-capabilities hooks run from $CLAUDE_PROJECT_DIR — no copy needed
 
 # Register hooks in settings.json
 python3 << 'PYEOF'
@@ -110,41 +116,73 @@ else:
     settings = {}
 
 hooks = settings.setdefault("hooks", {})
-hooks_path = "$CLAUDE_PROJECT_DIR/hooks/massive-crawl"
+mc_path = "$CLAUDE_PROJECT_DIR/hooks/massive-crawl"
+cap_path = "$CLAUDE_PROJECT_DIR/hooks/map-capabilities"
 
-# Define our hook registrations
-registrations = {
+# Define massive-crawl hook registrations
+mc_registrations = {
     "PreToolUse": [{
         "matcher": "TeamCreate",
-        "hooks": [{"type": "command", "command": f"node \"{hooks_path}/pre-teamcreate.js\""}]
+        "hooks": [{"type": "command", "command": f"node \"{mc_path}/pre-teamcreate.js\""}]
     }],
     "SubagentStart": [{
-        "hooks": [{"type": "command", "command": f"\"{hooks_path}/subagent-context.sh\""}]
+        "hooks": [{"type": "command", "command": f"\"{mc_path}/subagent-context.sh\""}]
     }],
     "TaskCompleted": [{
-        "hooks": [{"type": "command", "command": f"\"{hooks_path}/task-completed.sh\""}]
+        "hooks": [{"type": "command", "command": f"\"{mc_path}/task-completed.sh\""}]
     }],
     "TeammateIdle": [{
-        "hooks": [{"type": "command", "command": f"\"{hooks_path}/teammate-idle.sh\""}]
+        "hooks": [{"type": "command", "command": f"\"{mc_path}/teammate-idle.sh\""}]
     }],
     "PostToolUse": [{
         "matcher": "Bash",
-        "hooks": [{"type": "command", "command": f"node \"{hooks_path}/post-concat.js\""}]
+        "hooks": [{"type": "command", "command": f"node \"{mc_path}/post-concat.js\""}]
     }],
     "Notification": [{
-        "hooks": [{"type": "command", "command": f"node \"{hooks_path}/statusline.js\""}]
+        "hooks": [{"type": "command", "command": f"node \"{mc_path}/statusline.js\""}]
     }],
 }
 
-# Merge registrations (don't clobber existing hooks)
-for event, new_entries in registrations.items():
-    existing = hooks.get(event, [])
-    # Remove any old massive-crawl entries
-    existing = [e for e in existing
-                if not any("massive-crawl" in h.get("command", "")
-                          for h in e.get("hooks", []))]
-    existing.extend(new_entries)
-    hooks[event] = existing
+# Define map-capabilities hook registrations
+cap_registrations = {
+    "PreToolUse": [{
+        "matcher": "Agent",
+        "hooks": [{"type": "command", "command": f"\"{cap_path}/pre-wave.sh\""}]
+    }],
+    "SubagentStart": [{
+        "hooks": [{"type": "command", "command": f"\"{cap_path}/subagent-context.sh\""}]
+    }],
+    "PostToolUse": [
+        {
+            "matcher": "Bash",
+            "hooks": [{"type": "command", "command": f"\"{cap_path}/wave-completed.sh\""}]
+        },
+        {
+            "matcher": "Write",
+            "hooks": [{"type": "command", "command": f"\"{cap_path}/output-validator.sh\""}]
+        },
+    ],
+    "Notification": [{
+        "hooks": [{"type": "command", "command": f"node \"{cap_path}/statusline.js\""}]
+    }],
+    "SessionStart": [{
+        "hooks": [{"type": "command", "command": f"\"{cap_path}/session-resume.sh\""}]
+    }],
+}
+
+# Helper: merge registrations into hooks dict, deduping by workflow name
+def merge(regs, workflow_name):
+    for event, new_entries in regs.items():
+        existing = hooks.get(event, [])
+        # Remove old entries for this workflow
+        existing = [e for e in existing
+                    if not any(workflow_name in h.get("command", "")
+                              for h in e.get("hooks", []))]
+        existing.extend(new_entries)
+        hooks[event] = existing
+
+merge(mc_registrations, "massive-crawl")
+merge(cap_registrations, "map-capabilities")
 
 with open(settings_path, "w") as f:
     json.dump(settings, f, indent=2)

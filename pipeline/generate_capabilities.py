@@ -15,6 +15,7 @@ Usage:
 
 import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -81,8 +82,25 @@ def get_retry_queue(progress: dict) -> list[str]:
     return list(progress.get("failed", {}).keys())
 
 
-def action_load(entries: list[dict], output_dir: Path) -> None:
+def write_config(catalog_path: Path, output_dir: Path) -> None:
+    """Write map-capabilities-config.json for hooks to discover paths."""
+    config_dir = os.environ.get("CLAUDE_PROJECT_DIR", os.getcwd())
+    config = {
+        "catalog": str(catalog_path.resolve()),
+        "output_dir": str(output_dir.resolve()),
+        "catalog_name": catalog_path.stem,
+    }
+    config_path = Path(config_dir) / "map-capabilities-config.json"
+    config_path.write_text(json.dumps(config, indent=2))
+    print(f"Wrote {config_path}", file=sys.stderr)
+
+
+def action_load(entries: list[dict], output_dir: Path, do_write_config: bool = False,
+                catalog_path: Path | None = None) -> None:
     """Print catalog summary and initialize progress if needed."""
+    if do_write_config and catalog_path:
+        write_config(catalog_path, output_dir)
+
     progress = load_progress(output_dir)
     pending = get_pending(entries, progress)
     retries = get_retry_queue(progress)
@@ -191,6 +209,8 @@ def main():
                         help="Action to perform")
     parser.add_argument("--slugs", default="", help="Comma-separated slugs (for mark-done/mark-failed)")
     parser.add_argument("--reasons", default="{}", help="JSON dict of slug->reason (for mark-failed)")
+    parser.add_argument("--write-config", action="store_true",
+                        help="Write map-capabilities-config.json for hook discovery (use with --action load)")
     args = parser.parse_args()
 
     catalog_path = Path(args.catalog)
@@ -200,7 +220,8 @@ def main():
     entries = load_catalog(catalog_path)
 
     if args.action == "load":
-        action_load(entries, output_dir)
+        action_load(entries, output_dir, do_write_config=args.write_config,
+                    catalog_path=catalog_path)
     elif args.action == "status":
         action_status(entries, output_dir)
     elif args.action == "next-wave":

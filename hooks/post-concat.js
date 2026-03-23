@@ -11,7 +11,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 
 const input = JSON.parse(fs.readFileSync('/dev/stdin', 'utf8'));
 const command = input.tool_input?.command || '';
@@ -34,8 +34,7 @@ try {
   const configPath = path.join(projectDir, 'swarm-config.json');
   const pipelinePath = path.join(projectDir, 'pipeline', 'pipeline.py');
 
-  const result = execSync(
-    `python3 "${pipelinePath}" --config "${configPath}" --stage dedup`,
+  const result = execFileSync('python3', [pipelinePath, '--config', configPath, '--stage', 'dedup'],
     { cwd: projectDir, encoding: 'utf8', timeout: 60000 }
   );
 

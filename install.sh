@@ -20,22 +20,23 @@ if [[ "${1:-}" == "--uninstall" ]]; then
   rm -rf "$SKILL_DEST" "$HOOKS_DEST"
   if [ -f "$SETTINGS" ]; then
     # Remove our hook entries (entries containing "everything-on-earth")
-    python3 -c "
+    python3 -c '
 import json, sys
-with open('$SETTINGS') as f:
+settings_file = sys.argv[1]
+with open(settings_file) as f:
     s = json.load(f)
-hooks = s.get('hooks', {})
+hooks = s.get("hooks", {})
 for event in list(hooks.keys()):
     hooks[event] = [h for h in hooks[event]
-                     if not any('everything-on-earth' in (hook.get('command',''))
-                               for hook in h.get('hooks', []))]
+                     if not any("everything-on-earth" in (hook.get("command",""))
+                               for hook in h.get("hooks", []))]
     if not hooks[event]:
         del hooks[event]
-s['hooks'] = hooks
-with open('$SETTINGS', 'w') as f:
+s["hooks"] = hooks
+with open(settings_file, "w") as f:
     json.dump(s, f, indent=2)
-print('Cleaned settings.json')
-" 2>/dev/null || echo "Could not clean settings.json automatically"
+print("Cleaned settings.json")
+' "$SETTINGS" 2>/dev/null || echo "Could not clean settings.json automatically"
   fi
   echo -e "${GREEN}Uninstalled.${NC}"
   exit 0
@@ -103,29 +104,29 @@ else:
     settings = {}
 
 hooks = settings.setdefault("hooks", {})
-hooks_dir = os.path.expanduser("~/.claude/hooks/everything-on-earth")
+hooks_path = "$CLAUDE_PROJECT_DIR/hooks/everything-on-earth"
 
 # Define our hook registrations
 registrations = {
     "PreToolUse": [{
         "matcher": "TeamCreate",
-        "hooks": [{"type": "command", "command": f"node {hooks_dir}/pre-teamcreate.js"}]
+        "hooks": [{"type": "command", "command": f"node \"{hooks_path}/pre-teamcreate.js\""}]
     }],
     "SubagentStart": [{
-        "hooks": [{"type": "command", "command": f"{hooks_dir}/subagent-context.sh"}]
+        "hooks": [{"type": "command", "command": f"\"{hooks_path}/subagent-context.sh\""}]
     }],
     "TaskCompleted": [{
-        "hooks": [{"type": "command", "command": f"{hooks_dir}/task-completed.sh"}]
+        "hooks": [{"type": "command", "command": f"\"{hooks_path}/task-completed.sh\""}]
     }],
     "TeammateIdle": [{
-        "hooks": [{"type": "command", "command": f"{hooks_dir}/teammate-idle.sh"}]
+        "hooks": [{"type": "command", "command": f"\"{hooks_path}/teammate-idle.sh\""}]
     }],
     "PostToolUse": [{
         "matcher": "Bash",
-        "hooks": [{"type": "command", "command": f"node {hooks_dir}/post-concat.js"}]
+        "hooks": [{"type": "command", "command": f"node \"{hooks_path}/post-concat.js\""}]
     }],
     "Notification": [{
-        "hooks": [{"type": "command", "command": f"node {hooks_dir}/statusline.js"}]
+        "hooks": [{"type": "command", "command": f"node \"{hooks_path}/statusline.js\""}]
     }],
 }
 

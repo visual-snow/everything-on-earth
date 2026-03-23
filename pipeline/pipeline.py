@@ -4,7 +4,8 @@ everything-on-earth deterministic pipeline.
 
 Four stages: dedup -> prune -> enrich -> finalize.
 Each stage reads a file, transforms it, writes a file.
-No LLM touches data after discovery. All operations are exact and auditable.
+The dedup, prune, and finalize stages are deterministic with no LLM involvement.
+The enrich stage uses the Anthropic API to add tags, categories, and summaries.
 
 Usage:
     python pipeline.py --config swarm-config.json
@@ -95,7 +96,7 @@ def run_prune(
         if min_stars and stars < min_stars:
             pruned_log.append({"name": entry.get("name", "?"), "reason": f"min_stars ({stars} < {min_stars})"})
             continue
-        if active_since and activity and activity < active_since:
+        if active_since and (not activity or activity < active_since):
             pruned_log.append({"name": entry.get("name", "?"), "reason": f"inactive (last: {activity}, cutoff: {active_since})"})
             continue
 
@@ -108,7 +109,7 @@ def strip_code_fences(text: str) -> str:
     """Strip markdown code fences from LLM responses."""
     text = text.strip()
     # Remove ```json ... ``` or ``` ... ```
-    pattern = r'^```(?:json)?\s*\n(.*?)\n```$'
+    pattern = r'^```(?:json)?\s*\n(.*?)\n```'
     match = re.match(pattern, text, re.DOTALL)
     if match:
         return match.group(1).strip()
@@ -116,7 +117,10 @@ def strip_code_fences(text: str) -> str:
 
 
 def enrich_single(entry: dict, topic: str, max_tokens: int = 1024) -> dict:
-    """Enrich a single entry using Anthropic API. Returns {tags, category, summary}."""
+    """Enrich a single entry using Anthropic API (synchronous, one call per entry).
+
+    Returns {tags, category, summary}.
+    """
     import anthropic
     client = anthropic.Anthropic()
     prompt = f"""Given this open-source repository in the "{topic}" domain:
@@ -261,7 +265,7 @@ def main():
             print(f"[dedup] Input: {len(raw)} entries")
             result = run_dedup(raw)
             print(f"[dedup] Output: {len(result)} unique entries ({len(raw) - len(result)} duplicates removed)")
-            dedup_path = input_dir / "dedup.json"
+            dedup_path = output_dir / "dedup.json"
             dedup_path.write_text(json.dumps(result, indent=2))
             print(f"[dedup] Wrote {dedup_path}")
 
@@ -276,7 +280,7 @@ def main():
                 print(f"  {domain}: {count}")
 
         elif stage == "prune":
-            dedup_path = input_dir / "dedup.json"
+            dedup_path = output_dir / "dedup.json"
             dedup = json.loads(dedup_path.read_text())
             print(f"[prune] Input: {len(dedup)} entries")
             result, pruned_log = run_prune(
@@ -288,20 +292,20 @@ def main():
             print(f"[prune] Kept: {len(result)}, Pruned: {len(pruned_log)}")
             for log in pruned_log:
                 print(f"  PRUNED: {log['name']} — {log['reason']}")
-            pruned_path = input_dir / "pruned.json"
+            pruned_path = output_dir / "pruned.json"
             pruned_path.write_text(json.dumps(result, indent=2))
             print(f"[prune] Wrote {pruned_path}")
         elif stage == "enrich":
-            pruned_path = input_dir / "pruned.json"
+            pruned_path = output_dir / "pruned.json"
             pruned = json.loads(pruned_path.read_text())
             print(f"[enrich] Input: {len(pruned)} entries")
             result = run_enrich(pruned, topic=config["topic"], max_tokens=config["pipeline"]["max_tokens"])
             print(f"[enrich] Output: {len(result)} entries (should equal input)")
-            enriched_path = input_dir / "enriched.json"
+            enriched_path = output_dir / "enriched.json"
             enriched_path.write_text(json.dumps(result, indent=2))
             print(f"[enrich] Wrote {enriched_path}")
         elif stage == "finalize":
-            enriched_path = input_dir / "enriched.json"
+            enriched_path = output_dir / "enriched.json"
             enriched = json.loads(enriched_path.read_text())
             print(f"[finalize] Input: {len(enriched)} entries")
             out_dir = Path(args.output_dir) if args.output_dir else output_dir

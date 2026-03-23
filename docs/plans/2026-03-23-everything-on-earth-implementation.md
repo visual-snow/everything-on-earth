@@ -10,7 +10,38 @@
 
 **Design Doc:** `docs/plans/2026-03-23-everything-on-earth-design.md`
 
-**Working Directory:** `/Users/emolero/Documents/GitHub/ot/everything-on-earth/`
+**Working Directory:** `$PROJECT_DIR/`
+
+---
+
+## Table of Contents
+
+- [Phase 1: Schema & Skeleton](#phase-1-schema--skeleton)
+  - [Task 1.1: Create folder structure](#task-11-create-folder-structure)
+  - [Task 1.2: Create output-schema.json](#task-12-create-output-schemajson)
+  - [Task 1.3: Create agent-prompt-template.md](#task-13-create-agent-prompt-templatemd)
+  - [Task 1.4: Create swarm-config.example.json](#task-14-create-swarm-configexamplejson)
+- [Phase 2: Pipeline](#phase-2-pipeline)
+  - [Task 2.1: Create test fixtures](#task-21-create-test-fixtures)
+  - [Task 2.2: Write pipeline.py — Stage 1 (dedup)](#task-22-write-pipelinepy--stage-1-dedup)
+  - [Task 2.3: Write pipeline.py — Stage 2 (prune)](#task-23-write-pipelinepy--stage-2-prune)
+  - [Task 2.4: Write pipeline.py — Stage 3 (enrich)](#task-24-write-pipelinepy--stage-3-enrich)
+  - [Task 2.5: Write pipeline.py — Stage 4 (finalize)](#task-25-write-pipelinepy--stage-4-finalize)
+  - [Task 2.6: Create requirements.txt and verify full pipeline end-to-end](#task-26-create-requirementstxt-and-verify-full-pipeline-end-to-end)
+- [Phase 3: SKILL.md](#phase-3-skillmd)
+  - [Task 3.1: Write SKILL.md](#task-31-write-skillmd)
+- [Phase 4: Hooks](#phase-4-hooks)
+  - [Task 4.1: Write pre-teamcreate.js (gate hook)](#task-41-write-pre-teamcreatejs-gate-hook)
+  - [Task 4.2: Write subagent-context.sh (context injection hook)](#task-42-write-subagent-contextsh-context-injection-hook)
+  - [Task 4.3: Write task-completed.sh (output validation hook)](#task-43-write-task-completedsh-output-validation-hook)
+  - [Task 4.4: Write teammate-idle.sh (task claiming redirector)](#task-44-write-teammate-idlesh-task-claiming-redirector)
+  - [Task 4.5: Write post-concat.js (pipeline auto-trigger)](#task-45-write-post-concatjs-pipeline-auto-trigger)
+  - [Task 4.6: Write statusline.js (progress display)](#task-46-write-statuslinejs-progress-display)
+- [Phase 5: Install & Integration](#phase-5-install--integration)
+  - [Task 5.1: Write install.sh](#task-51-write-installsh)
+  - [Task 5.2: Add .gitignore and finalize repo structure](#task-52-add-gitignore-and-finalize-repo-structure)
+  - [Task 5.3: Update README with install instructions](#task-53-update-readme-with-install-instructions)
+- [Summary](#summary)
 
 ---
 
@@ -29,7 +60,7 @@
 **Step 1: Create all directories**
 
 ```bash
-cd /Users/emolero/Documents/GitHub/ot/everything-on-earth
+cd $PROJECT_DIR
 mkdir -p skill/references hooks pipeline/templates examples tests/fixtures
 ```
 
@@ -725,7 +756,7 @@ def test_dedup_preserves_non_duplicates():
 **Step 2: Run test to verify it fails**
 
 ```bash
-cd /Users/emolero/Documents/GitHub/ot/everything-on-earth
+cd $PROJECT_DIR
 python3 -m pytest tests/test_pipeline.py -v
 ```
 
@@ -855,7 +886,7 @@ if __name__ == "__main__":
 **Step 4: Run tests to verify they pass**
 
 ```bash
-cd /Users/emolero/Documents/GitHub/ot/everything-on-earth
+cd $PROJECT_DIR
 python3 -m pytest tests/test_pipeline.py -v
 ```
 
@@ -864,7 +895,7 @@ Expected: All 7 tests PASS
 **Step 5: Run dedup on the test fixture to verify end-to-end**
 
 ```bash
-cd /Users/emolero/Documents/GitHub/ot/everything-on-earth
+cd $PROJECT_DIR
 cp tests/fixtures/raw-discovery.json .
 python3 pipeline/pipeline.py --config tests/fixtures/swarm-config-test.json --stage dedup --output-dir test-output
 ```
@@ -1560,7 +1591,7 @@ jinja2>=3.1.0
 **Step 2: Run the full pipeline on fixtures (dedup + prune only — enrich needs API key)**
 
 ```bash
-cd /Users/emolero/Documents/GitHub/ot/everything-on-earth
+cd $PROJECT_DIR
 cp tests/fixtures/raw-discovery.json .
 python3 pipeline/pipeline.py --config tests/fixtures/swarm-config-test.json --stage dedup --output-dir test-output
 python3 pipeline/pipeline.py --config tests/fixtures/swarm-config-test.json --stage prune --min-score 3 --min-stars 20 --output-dir test-output
@@ -1957,7 +1988,7 @@ jq -n --arg tpl "$TEMPLATE" --arg sch "$SCHEMA" --arg cfg "$CONFIG" '{
 
 ```bash
 chmod +x hooks/subagent-context.sh
-echo '{"team_name":"eoe-test"}' | CLAUDE_PROJECT_DIR=/Users/emolero/Documents/GitHub/ot/everything-on-earth bash hooks/subagent-context.sh | jq .
+echo '{"team_name":"eoe-test"}' | CLAUDE_PROJECT_DIR=$PROJECT_DIR bash hooks/subagent-context.sh | jq .
 ```
 
 Expected: JSON with `hookSpecificOutput.additionalContext` containing the template, schema, and config.
@@ -2532,7 +2563,7 @@ Expected:
 **Step 3: Run all tests one final time**
 
 ```bash
-cd /Users/emolero/Documents/GitHub/ot/everything-on-earth
+cd $PROJECT_DIR
 python3 -m pytest tests/test_pipeline.py -v
 ```
 

@@ -74,7 +74,7 @@
     "dedup_key": "repo_url",
     "normalize": "lowercase, strip trailing slash, remove .git suffix",
     "pruning": "interactive",
-    "enrichment": "batch_api",
+    "enrichment": "sync",
     "max_tokens": 1024
   },
   "output": {

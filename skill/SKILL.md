@@ -9,6 +9,8 @@ description: >-
   reconnaissance, asks clarifying questions, then deploys 6-8 Sonnet teammates
   in a self-claiming swarm. Deterministic pipeline handles dedup, pruning,
   enrichment, and finalization. Outputs catalog.json, explorer.html, RESULTS.md.
+disable-model-invocation: true
+context: fork
 allowed-tools:
   - Agent
   - TeamCreate
@@ -115,11 +117,39 @@ Agent({
   name: "discoverer-{n}",
   model: "sonnet",
   mode: "bypassPermissions",
-  prompt: "You are a discovery agent. Check TaskList for unclaimed tasks, claim one, search using firecrawl, write results, then claim the next task. Stop when no tasks remain."
+  prompt: "You are a discovery agent in an everything-on-earth swarm.
+
+Workflow:
+1. Call TaskList, claim a pending task via TaskUpdate (status: in_progress).
+2. Read seed queries from the task description.
+3. Search using firecrawl-search (budget: 10 searches per task).
+4. Scrape promising results with firecrawl-scrape (budget: 30 scrapes per task).
+5. Score each repo 0-10 (0=tangential, 5=relevant, 10=essential) with a 1-sentence rationale.
+6. Write results as a JSON array to discovery/{sub-domain-id}.json.
+7. Mark task completed, claim the next pending task. Stop when none remain.
+
+Output schema — each entry in the JSON array MUST have these fields:
+  repo_url (string, canonical GitHub/GitLab URL, lowercase, no trailing slash, no .git)
+  name (string, owner/repo format)
+  description (string, 1-2 sentences, min 10 chars)
+  sub_domain (string, matches the task sub-domain id)
+  score (integer 1-10, do NOT include score-0 repos)
+  score_rationale (string, 1-sentence justification)
+  stars (integer or null)
+  language (string or null)
+  license (string or null, SPDX identifier)
+  last_activity (string or null, YYYY-MM-DD)
+Do NOT include tags, category, summary, or found_in_domains — these are added by the pipeline later.
+
+Rules:
+- Use ALL seed queries. Look beyond the first page of results.
+- Use exact repo_url from GitHub/GitLab. Never guess URLs or fabricate repos.
+- No duplicates within your output file. Cross-agent dedup happens later.
+- Be thorough but stay within search/scrape budgets."
 })
 ```
 
-The SubagentStart hook automatically injects `agent-prompt-template.md`, `output-schema.json`, and `swarm-config.json` into each teammate.
+The SubagentStart hook additionally injects `agent-prompt-template.md`, `output-schema.json`, and `swarm-config.json` into each teammate for full reference.
 
 5. **Wait** for all tasks to complete. Monitor via TaskList.
 

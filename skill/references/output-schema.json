@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "everything-on-earth discovery entry",
+  "description": "Schema for a single repository entry discovered by an agent",
+  "type": "object",
+  "required": ["repo_url", "name", "description", "sub_domain", "score"],
+  "properties": {
+    "repo_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical GitHub/GitLab URL (lowercase, no trailing slash, no .git suffix)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Repository name (owner/repo format preferred)"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "description": "What this repo does in 1-2 sentences"
+    },
+    "sub_domain": {
+      "type": "string",
+      "description": "Which sub-domain task discovered this repo (matches sub_domain.id in swarm-config)"
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10,
+      "description": "Relevance score: 0=tangential, 5=relevant, 10=essential"
+    },
+    "score_rationale": {
+      "type": "string",
+      "description": "1-sentence justification for the score"
+    },
+    "stars": {
+      "type": ["integer", "null"],
+      "description": "GitHub/GitLab star count at discovery time"
+    },
+    "language": {
+      "type": ["string", "null"],
+      "description": "Primary programming language"
+    },
+    "license": {
+      "type": ["string", "null"],
+      "description": "SPDX license identifier"
+    },
+    "last_activity": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Last commit or release date (YYYY-MM-DD)"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Added during enrichment stage — normalized topic tags"
+    },
+    "category": {
+      "type": ["string", "null"],
+      "description": "Added during enrichment stage — human-readable category"
+    },
+    "summary": {
+      "type": ["string", "null"],
+      "description": "Added during enrichment stage — one-line summary"
+    },
+    "found_in_domains": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "All sub-domains that discovered this repo (populated during dedup)"
+    }
+  },
+  "additionalProperties": false
+}

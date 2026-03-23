@@ -30,6 +30,13 @@ def slugify(name: str) -> str:
     return s
 
 
+def slug_dir(output_dir: Path, slug: str) -> Path:
+    """Return and ensure the per-slug output directory exists."""
+    d = output_dir / slug
+    d.mkdir(parents=True, exist_ok=True)
+    return d
+
+
 def load_catalog(catalog_path: Path) -> list[dict]:
     """Load catalog.json and add slug field to each entry."""
     entries = json.loads(catalog_path.read_text())

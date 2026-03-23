@@ -548,3 +548,39 @@ Each Teammate:
   10. TaskList() -> claim next unclaimed task or go idle
       -> HOOK: teammate-idle.sh checks for remaining tasks [TeammateIdle]
 ```
+
+## Implementation Phases
+
+Pipeline-first ordering: validate the deterministic core before building LLM orchestration.
+
+### Phase 1: Schema & Skeleton
+- Create folder structure (skill/, hooks/, pipeline/, examples/)
+- `skill/references/output-schema.json` — repo entry schema (the universal contract)
+- `skill/references/agent-prompt-template.md` — teammate prompt template
+- `examples/swarm-config.example.json` — config contract with example topic
+
+### Phase 2: Pipeline
+- `pipeline/pipeline.py` — 4 stages (dedup, prune, enrich, finalize)
+- `pipeline/templates/explorer.html` — browser-based catalog viewer
+- `pipeline/templates/results.md.jinja` — markdown summary template
+- `pipeline/requirements.txt`
+- Test with synthetic mock data (no LLM needed)
+
+### Phase 3: SKILL.md
+- Frontmatter (name, description, trigger keywords, allowed-tools)
+- Phase 1 brainstorm logic (3 Haiku scout agents → interactive questions → mental model diagram)
+- Phase 2 orchestration (write config → TeamCreate → TaskCreate × N → Agent × 8)
+- Phase 3 pipeline trigger and Phase 4 gap review
+
+### Phase 4: Hooks
+1. `hooks/pre-teamcreate.js` — gate validation
+2. `hooks/subagent-context.sh` — template injection into teammates
+3. `hooks/task-completed.sh` — output file validation
+4. `hooks/teammate-idle.sh` — task claiming redirector
+5. `hooks/post-concat.js` — pipeline auto-trigger
+6. `hooks/statusline.js` — progress display
+
+### Phase 5: Install & Integration
+- `install.sh` — copies skill + hooks, registers in settings.json, checks deps
+- End-to-end test with a small topic
+- README polish

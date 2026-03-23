@@ -1,12 +1,12 @@
 #!/bin/bash
 set -euo pipefail
 
-# everything-on-earth installer
+# massive-crawl installer
 # Copies skill and hooks to ~/.claude/, registers hooks in settings.json
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-SKILL_DEST="$HOME/.claude/skills/everything-on-earth"
-HOOKS_DEST="$HOME/.claude/hooks/everything-on-earth"
+SKILL_DEST="$HOME/.claude/skills/massive-crawl"
+HOOKS_DEST="$HOME/.claude/hooks/massive-crawl"
 SETTINGS="$HOME/.claude/settings.json"
 
 RED='\033[0;31m'
@@ -16,10 +16,10 @@ NC='\033[0m'
 
 # --- Uninstall mode ---
 if [[ "${1:-}" == "--uninstall" ]]; then
-  echo "Uninstalling everything-on-earth..."
+  echo "Uninstalling massive-crawl..."
   rm -rf "$SKILL_DEST" "$HOOKS_DEST"
   if [ -f "$SETTINGS" ]; then
-    # Remove our hook entries (entries containing "everything-on-earth")
+    # Remove our hook entries (entries containing "massive-crawl")
     python3 -c '
 import json, sys
 settings_file = sys.argv[1]
@@ -28,7 +28,7 @@ with open(settings_file) as f:
 hooks = s.get("hooks", {})
 for event in list(hooks.keys()):
     hooks[event] = [h for h in hooks[event]
-                     if not any("everything-on-earth" in (hook.get("command",""))
+                     if not any("massive-crawl" in (hook.get("command",""))
                                for hook in h.get("hooks", []))]
     if not hooks[event]:
         del hooks[event]
@@ -43,7 +43,7 @@ print("Cleaned settings.json")
 fi
 
 # --- Install mode ---
-echo "Installing everything-on-earth..."
+echo "Installing massive-crawl..."
 
 # Check dependencies
 MISSING=()
@@ -79,7 +79,7 @@ fi
 
 # Copy skill
 mkdir -p "$SKILL_DEST"
-cp "$SCRIPT_DIR/skill/SKILL.md" "$SKILL_DEST/"
+cp "$SCRIPT_DIR/skill/massive-crawl/SKILL.md" "$SKILL_DEST/"
 cp -r "$SCRIPT_DIR/skill/references" "$SKILL_DEST/"
 
 # Copy map-capabilities sub-skill
@@ -110,7 +110,7 @@ else:
     settings = {}
 
 hooks = settings.setdefault("hooks", {})
-hooks_path = "$CLAUDE_PROJECT_DIR/hooks/everything-on-earth"
+hooks_path = "$CLAUDE_PROJECT_DIR/hooks/massive-crawl"
 
 # Define our hook registrations
 registrations = {
@@ -139,9 +139,9 @@ registrations = {
 # Merge registrations (don't clobber existing hooks)
 for event, new_entries in registrations.items():
     existing = hooks.get(event, [])
-    # Remove any old everything-on-earth entries
+    # Remove any old massive-crawl entries
     existing = [e for e in existing
-                if not any("everything-on-earth" in h.get("command", "")
+                if not any("massive-crawl" in h.get("command", "")
                           for h in e.get("hooks", []))]
     existing.extend(new_entries)
     hooks[event] = existing
@@ -155,7 +155,7 @@ PYEOF
 echo ""
 echo -e "${GREEN}Installation complete!${NC}"
 echo ""
-echo "Usage: /everything-on-earth \"your topic\""
+echo "Usage: /massive-crawl \"your topic\""
 echo ""
 echo "Pipeline code stays in this repo: $SCRIPT_DIR/pipeline/"
 echo "Update: git pull && ./install.sh"

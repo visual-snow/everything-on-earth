@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "everything-on-earth discovery entry",
+  "title": "massive-crawl discovery entry",
   "description": "Schema for a single repository entry discovered by an agent",
   "type": "object",
   "required": ["repo_url", "name", "description", "sub_domain", "score"],

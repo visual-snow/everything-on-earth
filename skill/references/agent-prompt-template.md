@@ -1,6 +1,6 @@
 # Discovery Agent Instructions
 
-You are a discovery agent in an everything-on-earth swarm. Your job: find every relevant open-source repo for your assigned sub-domain.
+You are a discovery agent in an massive-crawl swarm. Your job: find every relevant open-source repo for your assigned sub-domain.
 
 ## Your Workflow
 

@@ -5,7 +5,7 @@ dedup.json
 pruned.json
 enriched.json
 swarm-config.json
-everything-on-earth-output/
+massive-crawl-output/
 test-output/
 
 # Python

@@ -15,7 +15,6 @@ allowed-tools:
   - Glob
   - Grep
   - Bash
-  - WebFetch
   - AskUserQuestion
 ---
 
@@ -67,7 +66,25 @@ python3 pipeline/generate_capabilities.py --catalog $CATALOG --output-dir $OUTPU
 ```
 This returns up to 15 catalog entries (retries first, then pending).
 
-### Step 2: Researcher phase (parallel)
+### Step 2: Scrape phase (sequential)
+
+For each entry in the wave, the orchestrator fetches external content using firecrawl.
+Create the `{slug}/` directory first, then save the catalog entry to `$OUTPUT_DIR/{slug}/entry.json`.
+
+```bash
+# 1. Scrape the repo README
+firecrawl scrape {repo_url} --format markdown > $OUTPUT_DIR/{slug}/readme-raw.md
+
+# 2. Attempt docker-compose.yml (ignore failure)
+firecrawl scrape "https://raw.githubusercontent.com/{owner}/{repo}/main/docker-compose.yml" --format markdown > $OUTPUT_DIR/{slug}/compose-raw.md 2>/dev/null || true
+
+# 3. If README is thin (<50 lines), supplement with search
+if [ $(wc -l < $OUTPUT_DIR/{slug}/readme-raw.md) -lt 50 ]; then
+  firecrawl search "{name} {description}" --limit 1 --format markdown >> $OUTPUT_DIR/{slug}/readme-raw.md
+fi
+```
+
+### Step 3: Researcher phase (parallel)
 
 Spawn up to 15 Researcher agents in parallel:
 
@@ -75,7 +92,7 @@ Spawn up to 15 Researcher agents in parallel:
 Agent({
   model: "sonnet",
   name: "researcher-{slug}",
-  allowed-tools: ["WebSearch", "WebFetch", "Read", "Grep", "Glob"],
+  allowed-tools: [],
   prompt:
     # Reference injected by SubagentStart hook: capability-researcher.md, capability-factsheet-schema.json
 
@@ -83,14 +100,18 @@ Agent({
     ```json
     {entry_json}
     ```
+
+    ## README CONTENT
+    {contents of $OUTPUT_DIR/{slug}/readme-raw.md}
+
+    ## DOCKER COMPOSE (if available)
+    {contents of $OUTPUT_DIR/{slug}/compose-raw.md, or "No docker-compose.yml found."}
 })
 ```
 
-Collect each agent's FACTSHEET JSON output. Save to `$OUTPUT_DIR/{slug}/factsheet.json` (create the `{slug}/` directory first).
+Collect each agent's FACTSHEET JSON output. Save to `$OUTPUT_DIR/{slug}/factsheet.json`.
 
-Also save the catalog entry JSON to `$OUTPUT_DIR/{slug}/entry.json`.
-
-### Step 3: Writer phase (parallel)
+### Step 4: Writer phase (parallel)
 
 Spawn up to 15 Writer agents in parallel:
 
@@ -116,7 +137,7 @@ Agent({
 
 Save each output to `$OUTPUT_DIR/{slug}/capability.md`.
 
-### Step 4: Judge phase (single agent)
+### Step 5: Judge phase (single agent)
 
 Spawn 1 Judge agent to batch-review all outputs from this wave:
 
@@ -141,7 +162,7 @@ Agent({
 })
 ```
 
-### Step 5: Process results
+### Step 6: Process results
 
 Parse Judge output. For each entry:
 
@@ -157,7 +178,7 @@ python3 pipeline/generate_capabilities.py --catalog $CATALOG --output-dir $OUTPU
 
 Failed entries are re-queued with Judge feedback for the next wave.
 
-### Step 6: Report wave results
+### Step 7: Report wave results
 
 Show: X passed, Y failed, Z total remaining.
 Ask: "Continue to next wave?" (AskUserQuestion)

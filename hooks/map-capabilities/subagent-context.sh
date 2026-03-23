@@ -19,49 +19,39 @@ esac
 PROJECT_DIR="${CLAUDE_PROJECT_DIR:-.}"
 REF_DIR="$PROJECT_DIR/skill/references"
 
+# Emit SubagentStart context JSON from two reference files
+emit_context() {
+  local label="$1" key1="$2" file1="$3" key2="$4" file2="$5"
+  local content1 content2
+  content1=$(cat "$file1" 2>/dev/null)
+  content2=$(cat "$file2" 2>/dev/null)
+  if [[ -z "$content1" || -z "$content2" ]]; then
+    echo "Warning: Could not read reference files for $label from $REF_DIR" >&2
+    exit 0
+  fi
+  jq -n --arg c1 "$content1" --arg c2 "$content2" \
+    --arg label "$label" --arg k1 "$key1" --arg k2 "$key2" '{
+    hookSpecificOutput: {
+      hookEventName: "SubagentStart",
+      additionalContext: ("CAPABILITY " + $label + " REFERENCE:\n\n## " + $k1 + "\n" + $c1 + "\n\n## " + $k2 + "\n" + $c2)
+    }
+  }'
+}
+
 case "$AGENT_NAME" in
   researcher-*)
-    RESEARCHER_PROMPT=$(cat "$REF_DIR/capability-researcher.md" 2>/dev/null)
-    SCHEMA=$(cat "$REF_DIR/capability-factsheet-schema.json" 2>/dev/null)
-    if [[ -z "$RESEARCHER_PROMPT" || -z "$SCHEMA" ]]; then
-      echo "Warning: Could not read researcher reference files from $REF_DIR" >&2
-      exit 0
-    fi
-    jq -n --arg prompt "$RESEARCHER_PROMPT" --arg schema "$SCHEMA" '{
-      hookSpecificOutput: {
-        hookEventName: "SubagentStart",
-        additionalContext: ("CAPABILITY RESEARCHER REFERENCE:\n\n## Researcher Prompt\n" + $prompt + "\n\n## Factsheet Schema\n" + $schema)
-      }
-    }'
+    emit_context "RESEARCHER" \
+      "Researcher Prompt" "$REF_DIR/capability-researcher.md" \
+      "Factsheet Schema"  "$REF_DIR/capability-factsheet-schema.json"
     ;;
-
   writer-*)
-    WRITER_PROMPT=$(cat "$REF_DIR/capability-writer.md" 2>/dev/null)
-    GOLD=$(cat "$REF_DIR/gold_sandbox_capabilities.md" 2>/dev/null)
-    if [[ -z "$WRITER_PROMPT" || -z "$GOLD" ]]; then
-      echo "Warning: Could not read writer reference files from $REF_DIR" >&2
-      exit 0
-    fi
-    jq -n --arg prompt "$WRITER_PROMPT" --arg gold "$GOLD" '{
-      hookSpecificOutput: {
-        hookEventName: "SubagentStart",
-        additionalContext: ("CAPABILITY WRITER REFERENCE:\n\n## Writer Prompt\n" + $prompt + "\n\n## Style Exemplar\n" + $gold)
-      }
-    }'
+    emit_context "WRITER" \
+      "Writer Prompt"   "$REF_DIR/capability-writer.md" \
+      "Style Exemplar"  "$REF_DIR/gold_sandbox_capabilities.md"
     ;;
-
   judge-wave-*)
-    JUDGE_PROMPT=$(cat "$REF_DIR/capability-judge.md" 2>/dev/null)
-    GOLD=$(cat "$REF_DIR/gold_sandbox_capabilities.md" 2>/dev/null)
-    if [[ -z "$JUDGE_PROMPT" || -z "$GOLD" ]]; then
-      echo "Warning: Could not read judge reference files from $REF_DIR" >&2
-      exit 0
-    fi
-    jq -n --arg prompt "$JUDGE_PROMPT" --arg gold "$GOLD" '{
-      hookSpecificOutput: {
-        hookEventName: "SubagentStart",
-        additionalContext: ("CAPABILITY JUDGE REFERENCE:\n\n## Judge Prompt\n" + $prompt + "\n\n## Style Exemplar\n" + $gold)
-      }
-    }'
+    emit_context "JUDGE" \
+      "Judge Prompt"    "$REF_DIR/capability-judge.md" \
+      "Style Exemplar"  "$REF_DIR/gold_sandbox_capabilities.md"
     ;;
 esac

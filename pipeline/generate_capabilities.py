@@ -82,13 +82,14 @@ def get_retry_queue(progress: dict) -> list[str]:
     return list(progress.get("failed", {}).keys())
 
 
-def write_config(catalog_path: Path, output_dir: Path) -> None:
+def write_config(catalog_path: Path, output_dir: Path, total_entries: int) -> None:
     """Write map-capabilities-config.json for hooks to discover paths."""
     config_dir = os.environ.get("CLAUDE_PROJECT_DIR", os.getcwd())
     config = {
         "catalog": str(catalog_path.resolve()),
         "output_dir": str(output_dir.resolve()),
         "catalog_name": catalog_path.stem,
+        "total_entries": total_entries,
     }
     config_path = Path(config_dir) / "map-capabilities-config.json"
     config_path.write_text(json.dumps(config, indent=2))
@@ -99,7 +100,7 @@ def action_load(entries: list[dict], output_dir: Path, do_write_config: bool = F
                 catalog_path: Path | None = None) -> None:
     """Print catalog summary and initialize progress if needed."""
     if do_write_config and catalog_path:
-        write_config(catalog_path, output_dir)
+        write_config(catalog_path, output_dir, len(entries))
 
     progress = load_progress(output_dir)
     pending = get_pending(entries, progress)

@@ -27,13 +27,15 @@ settings_file = sys.argv[1]
 with open(settings_file) as f:
     s = json.load(f)
 hooks = s.get("hooks", {})
-for event in list(hooks.keys()):
-    hooks[event] = [h for h in hooks[event]
-                     if not any(("massive-crawl" in hook.get("command","")
-                                 or "map-capabilities" in hook.get("command",""))
-                               for hook in h.get("hooks", []))]
-    if not hooks[event]:
-        del hooks[event]
+def remove_workflow(workflow_name):
+    for event in list(hooks.keys()):
+        hooks[event] = [h for h in hooks[event]
+                        if not any(workflow_name in hook.get("command","")
+                                   for hook in h.get("hooks", []))]
+        if not hooks[event]:
+            del hooks[event]
+remove_workflow("massive-crawl")
+remove_workflow("map-capabilities")
 s["hooks"] = hooks
 with open(settings_file, "w") as f:
     json.dump(s, f, indent=2)

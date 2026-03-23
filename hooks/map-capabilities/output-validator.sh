@@ -25,16 +25,16 @@ fi
 
 OUTPUT_DIR=$(jq -r '.output_dir' "$CONFIG_PATH")
 
-# Path traversal check
-if [[ "$FILE_PATH" == *..* ]]; then
-  echo "output-validator: path traversal detected in file path" >&2
-  exit 2
-fi
+# Normalize paths to prevent traversal via embedded .. sequences (portable, no realpath -m)
+IN_OUTPUT=$(python3 -c "
+import os, sys
+f, o = os.path.normpath(sys.argv[1]), os.path.normpath(sys.argv[2])
+print('yes' if f.startswith(o + '/') else 'no')
+" "$FILE_PATH" "$OUTPUT_DIR")
 
-# Check file is within output directory
-case "$FILE_PATH" in
-  "$OUTPUT_DIR"/*) ;;
-  *) exit 0 ;;  # Not our file — passthrough
+case "$IN_OUTPUT" in
+  yes) ;;
+  *) exit 0 ;;  # Not our file or traversal attempt — passthrough
 esac
 
 # Extract content from tool_input (available in PostToolUse on Write)

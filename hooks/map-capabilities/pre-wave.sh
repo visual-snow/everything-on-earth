@@ -35,8 +35,10 @@ if [[ ! -f "$CONFIG_PATH" ]]; then
   exit 0
 fi
 
-CATALOG=$(jq -r '.catalog' "$CONFIG_PATH")
-OUTPUT_DIR=$(jq -r '.output_dir' "$CONFIG_PATH")
+# Read config once, parse twice — avoids two jq subprocess spawns per agent spawn
+CONFIG=$(cat "$CONFIG_PATH")
+CATALOG=$(echo "$CONFIG" | jq -r '.catalog')
+OUTPUT_DIR=$(echo "$CONFIG" | jq -r '.output_dir')
 
 # Validate config paths exist
 if [[ ! -f "$CATALOG" ]]; then

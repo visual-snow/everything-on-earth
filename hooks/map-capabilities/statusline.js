@@ -24,14 +24,9 @@ try {
   const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
   const catalogName = config.catalog_name || 'unknown';
   const outputDir = config.output_dir;
-  const catalogPath = config.catalog;
 
-  // Read catalog for total count
-  if (!fs.existsSync(catalogPath)) {
-    process.exit(0);
-  }
-  const catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
-  const total = Array.isArray(catalog) ? catalog.length : 0;
+  // Use cached total from config (written once at run start) to avoid re-reading catalog
+  const total = typeof config.total_entries === 'number' ? config.total_entries : 0;
 
   if (total === 0) {
     process.exit(0);
@@ -48,6 +43,11 @@ try {
     done = Array.isArray(progress.completed) ? progress.completed.length : 0;
     failed = progress.failed ? Object.keys(progress.failed).length : 0;
     inProgress = Array.isArray(progress.in_progress) ? progress.in_progress.length : 0;
+  }
+
+  // Silent exit once run is fully complete — avoids work between runs
+  if (done >= total && failed === 0) {
+    process.exit(0);
   }
 
   const pct = Math.round((done / total) * 100);

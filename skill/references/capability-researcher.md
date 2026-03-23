@@ -9,15 +9,20 @@ You receive a catalog entry as JSON with these fields:
 - `slug` — URL-safe identifier
 - `repo_url` — GitHub repository URL
 - `description` — brief description
-- `provides` — claimed capabilities
-- `needs` — dependencies
-- `docker_support` — Dockerfile/compose info
-- `eval_notes` — evaluation context
+- `sub_domain` — discovery domain
+- `score` — relevance score (0-10)
+- `stars` — GitHub star count (may be null)
+- `language` — primary programming language (may be null)
+- `license` — SPDX license identifier (may be null)
+- `last_activity` — last commit date (may be null)
+- `tags` — normalized topic tags (array, may be empty)
+- `category` — human-readable category (may be null)
+- `summary` — one-line summary (may be null)
 
 ## Workflow
 
-1. Read the catalog entry to understand claimed capabilities
-2. Scrape the repo README using firecrawl (`{repo_url}`)
+1. Read the catalog entry to understand the tool's purpose and metadata
+2. Fetch the repo README using WebFetch (`{repo_url}`)
 3. Scrape docker-compose.yml or Dockerfile from raw GitHub URL:
    - Try: `https://raw.githubusercontent.com/{owner}/{repo}/main/docker-compose.yml`
    - If that fails, try `master` branch or `Dockerfile`
@@ -46,7 +51,7 @@ Return ONLY a JSON code block matching this schema:
 
 ## Rules
 
-- **2 firecrawl calls maximum** (README + compose/Dockerfile)
+- **2 WebFetch calls maximum** (README + compose/Dockerfile)
 - Stick to what documentation actually says — no inference
 - No hallucinated services or features
 - If compose doesn't exist, leave `docker_services` as empty array

@@ -34,12 +34,12 @@ Generate capability documentation from a catalog using a Researcher → Writer �
 ## Inputs
 
 Required arguments:
-- `--catalog PATH` — path to catalog.json (array of entries with name, repo_url, description, provides, needs, docker_support)
+- `--catalog PATH` — path to catalog.json (array of entries — minimum required fields: name, repo_url, description)
 - `--output-dir PATH` — directory where capability .md files and wave-progress.json are written
 
 Example:
 ```
-/map-capabilities --catalog ../ot/task-designer/data/catalog.json --output-dir ../ot/task-designer/data/sandbox_capabilities
+/map-capabilities --catalog path/to/catalog.json --output-dir path/to/output
 ```
 
 ## Phase 1: Prepare

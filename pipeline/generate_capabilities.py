@@ -36,6 +36,15 @@ def load_catalog(catalog_path: Path) -> list[dict]:
     for entry in entries:
         if "slug" not in entry:
             entry["slug"] = slugify(entry["name"])
+    # Detect and resolve slug collisions by appending numeric suffixes
+    seen: dict[str, int] = {}
+    for entry in entries:
+        slug = entry["slug"]
+        if slug in seen:
+            seen[slug] += 1
+            entry["slug"] = f"{slug}-{seen[slug]}"
+        else:
+            seen[slug] = 1
     return entries
 
 
@@ -98,6 +107,15 @@ def action_status(entries: list[dict], output_dir: Path) -> None:
 def action_next_wave(entries: list[dict], output_dir: Path) -> None:
     """Output the next wave of entries to process (retries first, then pending)."""
     progress = load_progress(output_dir)
+
+    # Recover stranded in_progress entries from a previous interrupted run
+    stranded = progress.get("in_progress", [])
+    if stranded:
+        for slug in stranded:
+            progress["failed"][slug] = "interrupted — recovered by next-wave"
+        progress["in_progress"] = []
+        save_progress(output_dir, progress)
+
     retries = get_retry_queue(progress)
     pending = get_pending(entries, progress)
 
@@ -145,12 +163,16 @@ def action_mark_done(output_dir: Path, slugs: list[str]) -> None:
 def action_mark_failed(output_dir: Path, slugs: list[str], reasons: dict) -> None:
     """Mark slugs as failed with reasons."""
     progress = load_progress(output_dir)
+    valid_slugs = []
     for slug in slugs:
+        if slug not in progress.get("in_progress", []):
+            print(f"WARNING: slug '{slug}' is not in in_progress, skipping", file=sys.stderr)
+            continue
+        valid_slugs.append(slug)
         progress["failed"][slug] = reasons.get(slug, "unknown failure")
-        if slug in progress.get("in_progress", []):
-            progress["in_progress"].remove(slug)
+        progress["in_progress"].remove(slug)
     save_progress(output_dir, progress)
-    print(json.dumps({"marked_failed": slugs, "total_failed": len(progress["failed"])}))
+    print(json.dumps({"marked_failed": valid_slugs, "total_failed": len(progress["failed"])}))
 
 
 def main():

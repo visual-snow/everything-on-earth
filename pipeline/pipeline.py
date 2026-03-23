@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-everything-on-earth deterministic pipeline.
+massive-crawl deterministic pipeline.
 
 Four stages: dedup -> prune -> enrich -> finalize.
 Each stage reads a file, transforms it, writes a file.
@@ -241,7 +241,7 @@ def run_finalize(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="everything-on-earth deterministic pipeline")
+    parser = argparse.ArgumentParser(description="massive-crawl deterministic pipeline")
     parser.add_argument("--config", required=True, help="Path to swarm-config.json")
     parser.add_argument("--stage", default="dedup,prune,enrich,finalize",
                         help="Comma-separated stages to run (default: all)")

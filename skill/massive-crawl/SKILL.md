@@ -1,9 +1,9 @@
 ---
-name: everything-on-earth
+name: massive-crawl
 description: >-
   Discovers every open-source GitHub/GitLab repository for any topic using a
   TeamCreate agent swarm and deterministic Python synthesis pipeline. Use when
-  the user says "find every repo", "discover all tools", "everything on earth",
+  the user says "find every repo", "discover all tools", "massive crawl", "find every repo",
   "catalog all open source", "survey the landscape", or wants comprehensive
   GitHub/GitLab discovery for a broad domain. Launches 3 Haiku scouts for
   reconnaissance, asks clarifying questions, then deploys 6-8 Sonnet teammates
@@ -30,7 +30,7 @@ allowed-tools:
   - WebFetch
 ---
 
-# everything-on-earth
+# massive-crawl
 
 Discover every open-source repo for any topic. LLM swarm for discovery, deterministic Python for synthesis.
 
@@ -117,7 +117,7 @@ Agent({
   name: "discoverer-{n}",
   model: "sonnet",
   mode: "bypassPermissions",
-  prompt: "You are a discovery agent in an everything-on-earth swarm.
+  prompt: "You are a discovery agent in a massive-crawl swarm.
 
 Workflow:
 1. Call TaskList, claim a pending task via TaskUpdate (status: in_progress).

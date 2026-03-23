@@ -5,8 +5,8 @@ description: >-
   agent pipeline (Researcher, Writer, Judge) executed in batched waves of 15.
   Use when the user says "map capabilities", "generate capability docs",
   "capability mapper", or wants to pre-generate sandbox capability files from
-  a catalog. Reads catalog.json as input, writes one {slug}_capability.md per
-  entry. Handles resumability via wave-progress.json and retries failed entries
+  a catalog. Reads catalog.json as input, writes one {slug}/capability.md per
+  entry inside a per-slug directory. Handles resumability via wave-progress.json and retries failed entries
   with Judge feedback.
 allowed-tools:
   - Agent
@@ -84,7 +84,9 @@ Agent({
 })
 ```
 
-Collect each agent's FACTSHEET JSON output. Save to `$OUTPUT_DIR/{slug}_factsheet.json`.
+Collect each agent's FACTSHEET JSON output. Save to `$OUTPUT_DIR/{slug}/factsheet.json` (create the `{slug}/` directory first).
+
+Also save the catalog entry JSON to `$OUTPUT_DIR/{slug}/entry.json`.
 
 ### Step 3: Writer phase (parallel)
 
@@ -111,7 +113,7 @@ Agent({
 })
 ```
 
-Save each output to `$OUTPUT_DIR/{slug}_capability.md`.
+Save each output to `$OUTPUT_DIR/{slug}/capability.md`.
 
 ### Step 4: Judge phase (single agent)
 

@@ -3,10 +3,10 @@
 /**
  * Hook: statusline.js
  * Trigger: Notification
- * Purpose: Real-time progress display for everything-on-earth runs.
+ * Purpose: Real-time progress display for massive-crawl runs.
  *
  * Output format:
- *   everything-on-earth | {topic} | tasks: {done}/{total} | repos: {count} | {pct}%
+ *   massive-crawl | {topic} | tasks: {done}/{total} | repos: {count} | {pct}%
  */
 
 const fs = require('fs');
@@ -45,7 +45,7 @@ try {
   }
 
   const pct = totalDomains > 0 ? Math.round((completedFiles / totalDomains) * 100) : 0;
-  const status = `everything-on-earth | ${topic} | tasks: ${completedFiles}/${totalDomains} | repos: ${totalRepos} | ${pct}%`;
+  const status = `massive-crawl | ${topic} | tasks: ${completedFiles}/${totalDomains} | repos: ${totalRepos} | ${pct}%`;
 
   const hookOutput = {
     hookSpecificOutput: {

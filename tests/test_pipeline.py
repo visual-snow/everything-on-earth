@@ -1,4 +1,4 @@
-"""Tests for the everything-on-earth deterministic pipeline."""
+"""Tests for the massive-crawl deterministic pipeline."""
 
 import json
 import os

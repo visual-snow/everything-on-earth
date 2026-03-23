@@ -81,6 +81,12 @@ fi
 mkdir -p "$SKILL_DEST"
 cp "$SCRIPT_DIR/skill/SKILL.md" "$SKILL_DEST/"
 cp -r "$SCRIPT_DIR/skill/references" "$SKILL_DEST/"
+
+# Copy map-capabilities sub-skill
+MAP_CAP_DEST="$HOME/.claude/skills/map-capabilities"
+mkdir -p "$MAP_CAP_DEST"
+cp "$SCRIPT_DIR/skill/map-capabilities/SKILL.md" "$MAP_CAP_DEST/"
+
 echo -e "${GREEN}✓ Skill installed to $SKILL_DEST${NC}"
 
 # Copy hooks

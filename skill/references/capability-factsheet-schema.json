@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Capability Factsheet",
+  "description": "Structured research output from the Researcher agent — one per catalog entry",
+  "type": "object",
+  "required": [
+    "slug",
+    "name",
+    "what_it_is",
+    "components",
+    "protocols",
+    "measurement",
+    "configuration",
+    "constraints",
+    "notable_absences"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "description": "URL-safe identifier matching the catalog entry (lowercase, hyphens)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the tool/framework"
+    },
+    "what_it_is": {
+      "type": "string",
+      "description": "1-2 sentences: what the tool is and its primary purpose"
+    },
+    "components": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Major components or services the tool provides"
+    },
+    "protocols": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Protocols the tool speaks or implements"
+    },
+    "measurement": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Observable metrics, KPIs, or measurement capabilities"
+    },
+    "configuration": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "What can be tuned or configured"
+    },
+    "fault_injection": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Impairments or fault scenarios possible (empty if none)",
+      "default": []
+    },
+    "modes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Operational modes (empty if single-mode)",
+      "default": []
+    },
+    "constraints": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Hard limitations — what the tool cannot do"
+    },
+    "docker_services": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Services from docker-compose (empty if no compose file)",
+      "default": []
+    },
+    "notable_absences": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "What the tool explicitly does NOT include"
+    }
+  },
+  "additionalProperties": false
+}

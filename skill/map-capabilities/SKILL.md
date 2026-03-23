@@ -46,7 +46,7 @@ Example:
 
 1. **Load catalog and check progress:**
 ```bash
-python3 pipeline/generate_capabilities.py --catalog $CATALOG --output-dir $OUTPUT_DIR --action load
+python3 pipeline/generate_capabilities.py --catalog $CATALOG --output-dir $OUTPUT_DIR --action load --write-config
 ```
 
 2. **Show status to user:**
@@ -75,7 +75,9 @@ Spawn up to 15 Researcher agents in parallel:
 Agent({
   model: "sonnet",
   name: "researcher-{slug}",
-  prompt: !`cat skill/references/capability-researcher.md`
+  allowed-tools: ["WebSearch", "WebFetch", "Read", "Grep", "Glob"],
+  prompt:
+    # Reference injected by SubagentStart hook: capability-researcher.md, capability-factsheet-schema.json
 
     ## CATALOG ENTRY
     ```json
@@ -96,15 +98,14 @@ Spawn up to 15 Writer agents in parallel:
 Agent({
   model: "sonnet",
   name: "writer-{slug}",
-  prompt: !`cat skill/references/capability-writer.md`
+  allowed-tools: ["Read"],
+  prompt:
+    # Reference injected by SubagentStart hook: capability-writer.md, gold_sandbox_capabilities.md
 
     ## FACTSHEET
     ```json
     {factsheet_json}
     ```
-
-    ## STYLE EXEMPLAR
-    !`cat skill/references/gold_sandbox_capabilities.md`
 
     ## JUDGE FEEDBACK (if retry)
     {feedback_or_empty}
@@ -123,10 +124,9 @@ Spawn 1 Judge agent to batch-review all outputs from this wave:
 Agent({
   model: "sonnet",
   name: "judge-wave-{n}",
-  prompt: !`cat skill/references/capability-judge.md`
-
-    ## STYLE EXEMPLAR
-    !`cat skill/references/gold_sandbox_capabilities.md`
+  allowed-tools: ["Read"],
+  prompt:
+    # Reference injected by SubagentStart hook: capability-judge.md, gold_sandbox_capabilities.md
 
     ## FILES TO REVIEW
     {for each slug in wave:}
@@ -178,6 +178,21 @@ Show final summary: total completed, total failed, any remaining.
 - Re-running the skill picks up where it left off
 - Failed entries are retried with Judge feedback injected into the Writer prompt
 - The `next-wave` action prioritizes retries over new entries
+
+## Hooks
+
+Six hooks enforce deterministic guarantees at every boundary (installed by `install.sh`):
+
+| Event | Matcher | Hook | Purpose |
+|-------|---------|------|---------|
+| PreToolUse | Agent | `pre-wave.sh` | Validates preconditions before agent spawn (catalog entry, factsheet, capability files) |
+| SubagentStart | — | `subagent-context.sh` | Injects prompt templates + reference files into agents |
+| PostToolUse | Write | `output-validator.sh` | Validates capability.md structure and abstraction level at write-time |
+| PostToolUse | Bash | `wave-completed.sh` | Detects mark-done and injects wave progress summary |
+| Notification | — | `statusline.js` | Real-time status bar: catalog name, wave, done/total, pct% |
+| SessionStart | — | `session-resume.sh` | Detects incomplete work and injects resumability prompt |
+
+All hooks read `map-capabilities-config.json` (written by `--write-config` during Phase 1) for catalog and output directory paths.
 
 ## Reference Files
 

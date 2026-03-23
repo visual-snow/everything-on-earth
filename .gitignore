@@ -5,6 +5,7 @@ dedup.json
 pruned.json
 enriched.json
 swarm-config.json
+map-capabilities-config.json
 massive-crawl-output/
 test-output/
 

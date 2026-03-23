@@ -7,11 +7,6 @@
  *
  * Output format:
  *   map-capabilities | {catalog_name} | {done}/{total} | {pct}%
- *
- * Mutual exclusion: This hook and massive-crawl/statusline.js both register on
- * Notification without matchers. Each checks for its own config file
- * (map-capabilities-config.json vs swarm-config.json) and exits 0 if absent.
- * No runtime collision is possible — only one config exists at a time.
  */
 
 const fs = require('fs');

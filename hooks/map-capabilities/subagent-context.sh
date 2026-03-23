@@ -4,10 +4,6 @@
 # Purpose: Inject prompt templates + reference files into map-capabilities agents.
 # Only activates for agents named researcher-*, writer-*, judge-wave-*.
 # The parent conversation never sees this content, keeping context lean.
-#
-# Note: set -euo pipefail is intentionally omitted. This hook uses
-# cat ... 2>/dev/null with empty-string fallback checks for graceful
-# degradation. Pipefail would cause early exit before fallback logic runs.
 
 INPUT=$(cat)
 

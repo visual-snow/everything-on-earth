@@ -1,10 +1,28 @@
+# README Redesign Implementation Plan
+
+> **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
+
+**Goal:** Rewrite README.md from 155-line cluttered format to ~110-line product-page structure with GSD-style formatting.
+
+**Architecture:** Single file rewrite of `README.md`. No new files. Content derived from approved design doc at `docs/plans/2026-03-23-readme-redesign-design.md`. Hero image path unchanged.
+
+**Tech Stack:** GitHub-flavored markdown, HTML `<div align="center">`, `<details>/<summary>`, GitHub alert blocks (`> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`).
+
+---
+
+### Task 1: Write the complete README.md
+
+**Files:**
+- Modify: `README.md` (full rewrite, lines 1-155)
+
+**Step 1: Replace README.md with the redesigned content**
+
+Write the entire file with this exact content:
+
+````markdown
 <div align="center">
 
 # everything-on-earth
-
-[![npm version](https://img.shields.io/badge/npm-v0.1.0-cb3837)](https://www.npmjs.com/package/everything-on-earth)
-[![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
-[![claude code](https://img.shields.io/badge/Claude_Code-plugin-7c3aed)](https://claude.ai/claude-code)
 
 **Max the fuck out of your Claude subscription by doing a massive parallel crawl that searches everything on earth about whatever you want.**
 
@@ -25,7 +43,13 @@ cd everything-on-earth && ./install.sh
 
 ## Getting Started
 
-After installing, run your first crawl:
+```bash
+git clone https://github.com/eaguaida/everything-on-earth.git
+cd everything-on-earth
+./install.sh
+```
+
+Then run your first crawl:
 
 ```
 /massive-crawl "Kubernetes security tools"
@@ -34,10 +58,7 @@ After installing, run your first crawl:
 Scouts research your topic → you approve the plan → a swarm of agents discovers everything → a deterministic pipeline deduplicates, prunes, and finalizes → you get a complete catalog.
 
 > [!NOTE]
-> **Requirements**
-> - [Claude Code](https://claude.ai/claude-code) v2.1.32+ with `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`
-> - [Firecrawl CLI](https://firecrawl.dev) with `FIRECRAWL_API_KEY`
-> - Node >= 18, Python >= 3.9
+> **Requirements:** [Claude Code](https://claude.ai/claude-code) v2.1.32+ with `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`, [Firecrawl CLI](https://firecrawl.dev) with `FIRECRAWL_API_KEY`, Node >= 18, Python >= 3.9
 
 Uninstall: `./install.sh --uninstall`
 
@@ -103,9 +124,7 @@ Processes entries in batched waves of 15 with full resumability.
 | `*_capability.md` | Markdown | Per-tool capability docs (via `/map-capabilities`) |
 
 > [!IMPORTANT]
-> This plugin uses Claude Code's experimental Agent Teams feature (`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`).
-> It spawns 6-8 Sonnet agents in parallel and will burn tokens.
-> One run builds a knowledge base that pays for itself across every future session.
+> This plugin uses Claude Code's experimental Agent Teams feature (`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`). It spawns 6-8 Sonnet agents in parallel and will burn tokens. This is a deliberate investment — one run builds a knowledge base that pays for itself across every future session.
 
 ---
 
@@ -128,3 +147,36 @@ Make sure Python >= 3.9 is installed and run `pip install -r requirements.txt`.
 ## License
 
 MIT
+````
+
+**Step 2: Verify the rewrite**
+
+Run these checks:
+
+```bash
+# Line count should be ~110 (target 100-120)
+wc -l README.md
+
+# Verify no stale section headers survived
+grep -n "Why I Built\|Who This Is For\|Why It Works\|Heads Up\|Requirements$\|Research once" README.md
+
+# Verify all new formatting elements are present
+grep -c "!\[NOTE\]\|!\[TIP\]\|!\[IMPORTANT\]\|<details>\|<div align" README.md
+```
+
+Expected:
+- Line count: 105-115
+- Stale headers: no matches
+- Formatting elements: 5 matches (1 NOTE, 1 TIP, 1 IMPORTANT, 1 details open + 1 details close... grep will find at least 5)
+
+**Step 3: Commit**
+
+```bash
+git add README.md
+git commit -m "docs: rewrite README with product-page structure and GSD-style formatting
+
+Removes philosophy sections (Why I Built This, Who This Is For, Why It Works).
+Adds GitHub alert blocks, collapsible sections, centered hero.
+Requirements merged into Getting Started. Troubleshooting collapsed.
+~110 lines, down from 155."
+```

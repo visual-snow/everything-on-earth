@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+
+{% block title %}{{ entry.name }} — Everything on Earth{% endblock %}
+
+{% block head %}
+<style>
+  .main-content { padding: 2rem; max-width: 900px; }
+  .repo-header { margin-bottom: 1.5rem; }
+  .repo-header h1 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.75rem;
+  }
+  .meta-row {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  .tags-row { margin-bottom: 1rem; }
+  .last-active { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.5rem 0;
+  }
+  .nearby-list { list-style: none; }
+  .nearby-list li { margin-bottom: 0.25rem; }
+  .nearby-list a {
+    display: block;
+    padding: 0.35rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    transition: background 0.15s;
+  }
+  .nearby-list a:hover { background: var(--bg-base); color: var(--text-primary); text-decoration: none; }
+
+  /* Markdown content */
+  .capability-content {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+  }
+  .capability-content h1, .capability-content h2, .capability-content h3 {
+    font-family: var(--font-heading);
+    color: #fff;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .capability-content h1 { font-size: 1.5rem; }
+  .capability-content h2 { font-size: 1.25rem; }
+  .capability-content h3 { font-size: 1.1rem; }
+  .capability-content p { margin-bottom: 0.75rem; }
+  .capability-content ul, .capability-content ol {
+    margin-left: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .capability-content li { margin-bottom: 0.25rem; }
+  .capability-content code {
+    background: var(--bg-elevated);
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.85em;
+  }
+  .capability-content pre {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+  }
+  .capability-content pre code { background: none; padding: 0; }
+  .capability-content a { color: var(--accent); }
+  .fallback-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-layout">
+  <aside class="sidebar">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html">{{ domain_name }}</a>
+      <span class="sep">/</span>
+      <span class="current">{{ entry.name.split('/')[1] if '/' in entry.name else entry.name }}</span>
+    </nav>
+
+    <input type="text" class="search-input" id="search" placeholder="Search repos..."
+           onkeydown="if(event.key==='Enter')window.location.href='../index.html?q='+encodeURIComponent(this.value)">
+
+    {% if nearby_repos %}
+    <div class="sidebar-section">
+      <h3>Nearby repos</h3>
+      <ul class="nearby-list">
+        {% for repo in nearby_repos %}
+        <li><a href="{{ repo.slug }}.html">{{ repo.name.split('/')[1] if '/' in repo.name else repo.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    <div class="sidebar-section" style="margin-top: auto;">
+      <a href="../index.html" class="btn" style="width: 100%; justify-content: center;">&larr; Back to graph</a>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div class="repo-header">
+      <h1>{{ entry.name }}</h1>
+      <div class="meta-row">
+        {% set score = entry.quality_score if entry.quality_score is defined else entry.score %}
+        <span class="score-badge {% if score >= 70 %}score-high{% elif score >= 40 %}score-mid{% else %}score-low{% endif %}">{{ score }}</span>
+        {% if entry.stars %}<span class="pill">&#9733; {{ "{:,}".format(entry.stars) }}</span>{% endif %}
+        {% if entry.language %}<span class="pill">{{ entry.language }}</span>{% endif %}
+        {% if entry.license %}<span class="pill">{{ entry.license }}</span>{% endif %}
+      </div>
+      <div class="meta-row tags-row">
+        {% for tag in entry.tags or [] %}
+        <span class="pill tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% if entry.last_activity %}<p class="last-active">Last active: {{ entry.last_activity }}</p>{% endif %}
+      <a href="{{ entry.repo_url }}" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub &rarr;</a>
+    </div>
+
+    <hr class="divider">
+
+    {% if capability_md %}
+    <div class="capability-content" id="capability-content"></div>
+    <script id="capability-md" type="text/markdown">{{ capability_md }}</script>
+    {% else %}
+    <div class="fallback-desc">
+      <p>{{ entry.description }}</p>
+      {% if entry.summary and entry.summary != entry.description %}
+      <p>{{ entry.summary }}</p>
+      {% endif %}
+    </div>
+    {% endif %}
+  </main>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% if capability_md %}
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  const md = document.getElementById('capability-md').textContent;
+  document.getElementById('capability-content').innerHTML = marked.parse(md);
+</script>
+{% endif %}
+{% endblock %}

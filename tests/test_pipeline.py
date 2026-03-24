@@ -7,7 +7,7 @@ from pathlib import Path
 # Add pipeline to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
 
-from pipeline import normalize_url, run_dedup, run_score, run_finalize
+from pipeline import normalize_url, run_dedup, run_score, run_finalize, compute_edges, run_site
 
 
 def test_normalize_url_lowercase():
@@ -109,7 +109,7 @@ def test_score_logs_removals():
 # --- Finalize tests ---
 
 
-def test_finalize_produces_three_outputs(tmp_path):
+def test_finalize_produces_catalog_and_results(tmp_path):
     entries = [
         {
             "repo_url": "https://github.com/a/b", "name": "a/b", "description": "Tool A",
@@ -130,9 +130,137 @@ def test_finalize_produces_three_outputs(tmp_path):
     run_finalize(entries, topic="Test Topic", output_dir=tmp_path, template_dir=template_dir)
 
     assert (tmp_path / "catalog.json").exists()
-    assert (tmp_path / "explorer.html").exists()
     assert (tmp_path / "RESULTS.md").exists()
+    assert not (tmp_path / "explorer.html").exists()
 
     catalog = json.loads((tmp_path / "catalog.json").read_text())
     assert len(catalog) == 2
-    assert catalog[0]["quality_score"] >= catalog[1]["quality_score"]  # sorted descending
+    assert catalog[0]["quality_score"] >= catalog[1]["quality_score"]
+
+
+# --- Edge computation tests ---
+
+
+def test_compute_edges_shared_subdomain():
+    entries = [
+        {"slug": "a", "found_in_domains": ["network"], "tags": ["x"]},
+        {"slug": "b", "found_in_domains": ["network"], "tags": ["y"]},
+        {"slug": "c", "found_in_domains": ["web"], "tags": ["z"]},
+    ]
+    edges = compute_edges(entries)
+    pairs = {frozenset((e["source"], e["target"])) for e in edges}
+    assert frozenset(("a", "b")) in pairs
+    assert frozenset(("a", "c")) not in pairs
+
+
+def test_compute_edges_shared_tags():
+    entries = [
+        {"slug": "a", "found_in_domains": ["d1"], "tags": ["x", "y"]},
+        {"slug": "b", "found_in_domains": ["d2"], "tags": ["x", "y"]},
+        {"slug": "c", "found_in_domains": ["d3"], "tags": ["x"]},
+    ]
+    edges = compute_edges(entries)
+    pairs = {frozenset((e["source"], e["target"])) for e in edges}
+    assert frozenset(("a", "b")) in pairs
+    assert frozenset(("a", "c")) not in pairs
+
+
+def test_compute_edges_dedup():
+    entries = [
+        {"slug": "a", "found_in_domains": ["net"], "tags": ["x", "y"]},
+        {"slug": "b", "found_in_domains": ["net"], "tags": ["x", "y"]},
+    ]
+    edges = compute_edges(entries)
+    assert len(edges) == 1
+
+
+def test_compute_edges_empty():
+    assert compute_edges([]) == []
+
+
+# --- Site generation tests ---
+
+
+def _make_catalog(tmp_path, domain, entries):
+    """Helper: write a catalog.json for testing."""
+    domain_dir = tmp_path / "catalog" / domain
+    domain_dir.mkdir(parents=True)
+    (domain_dir / "catalog.json").write_text(json.dumps(entries))
+    return domain_dir
+
+
+SAMPLE_ENTRIES = [
+    {
+        "repo_url": "https://github.com/a/tool1", "name": "a/tool1",
+        "description": "First tool", "sub_domain": "scan",
+        "score": 9, "quality_score": 85, "stars": 1000,
+        "language": "Go", "license": "MIT", "tags": ["sec", "scan"],
+        "found_in_domains": ["scan"],
+    },
+    {
+        "repo_url": "https://github.com/b/tool2", "name": "b/tool2",
+        "description": "Second tool", "sub_domain": "scan",
+        "score": 7, "quality_score": 55, "stars": 500,
+        "language": "Python", "license": "Apache-2.0", "tags": ["sec", "scan"],
+        "found_in_domains": ["scan"],
+    },
+]
+
+
+def test_site_generates_landing(tmp_path):
+    _make_catalog(tmp_path, "test-domain", SAMPLE_ENTRIES)
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_site(tmp_path / "catalog", template_dir=template_dir)
+
+    landing = tmp_path / "index.html"
+    assert landing.exists()
+    content = landing.read_text()
+    assert "Everything on Earth" in content
+    assert "Test Domain" in content
+
+
+def test_site_generates_graph_page(tmp_path):
+    _make_catalog(tmp_path, "mydom", SAMPLE_ENTRIES)
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_site(tmp_path / "catalog", template_dir=template_dir)
+
+    graph = tmp_path / "catalog" / "mydom" / "index.html"
+    assert graph.exists()
+    content = graph.read_text()
+    assert "force-graph" in content
+    assert "EDGES" in content
+
+
+def test_site_generates_detail_pages(tmp_path):
+    _make_catalog(tmp_path, "mydom", SAMPLE_ENTRIES)
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_site(tmp_path / "catalog", template_dir=template_dir)
+
+    detail_dir = tmp_path / "catalog" / "mydom" / "detail"
+    assert detail_dir.exists()
+    files = list(detail_dir.glob("*.html"))
+    assert len(files) == 2
+
+
+def test_site_reads_capability_md(tmp_path):
+    _make_catalog(tmp_path, "mydom", SAMPLE_ENTRIES[:1])
+    cap_dir = tmp_path / "caps" / "mydom" / "a-tool1"
+    cap_dir.mkdir(parents=True)
+    (cap_dir / "capability.md").write_text("# Tool1 Capabilities\n\nDoes great things.")
+
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_site(tmp_path / "catalog", template_dir=template_dir, capability_root=tmp_path / "caps")
+
+    detail = (tmp_path / "catalog" / "mydom" / "detail" / "a-tool1.html").read_text()
+    assert "capability-md" in detail
+    assert "Tool1 Capabilities" in detail
+
+
+def test_site_fallback_no_capability(tmp_path):
+    _make_catalog(tmp_path, "mydom", SAMPLE_ENTRIES[:1])
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_site(tmp_path / "catalog", template_dir=template_dir)
+
+    detail = (tmp_path / "catalog" / "mydom" / "detail" / "a-tool1.html").read_text()
+    assert "First tool" in detail
+    assert "capability-md" not in detail

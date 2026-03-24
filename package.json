@@ -1,0 +1,47 @@
+{
+  "name": "everything-on-earth",
+  "version": "0.1.0",
+  "description": "A Claude Code plugin that sends a swarm of agents to research any topic once, producing structured catalogs your agents can retrieve from forever.",
+  "license": "MIT",
+  "author": "eaguaida",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eaguaida/everything-on-earth.git"
+  },
+  "homepage": "https://github.com/eaguaida/everything-on-earth#readme",
+  "bugs": {
+    "url": "https://github.com/eaguaida/everything-on-earth/issues"
+  },
+  "bin": {
+    "everything-on-earth": "./install.sh"
+  },
+  "files": [
+    "install.sh",
+    "skill/",
+    "hooks/",
+    "pipeline/",
+    "examples/",
+    "assets/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "agent",
+    "swarm",
+    "research",
+    "catalog",
+    "context-engineering",
+    "firecrawl",
+    "discovery"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install-plugin": "./install.sh",
+    "uninstall-plugin": "./install.sh --uninstall",
+    "test": "python3 -m pytest tests/"
+  }
+}

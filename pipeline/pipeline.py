@@ -5,8 +5,8 @@ massive-crawl deterministic pipeline.
 Three stages: dedup -> score -> finalize.
 Each stage reads a file, transforms it, writes a file.
 All stages are deterministic with no LLM involvement.
-Enrichment (tags, category, summary) is handled by Claude Code subagents
-between score and finalize — see skill/massive-crawl/SKILL.md.
+Enrichment (tags, category, summary) is handled in workflow orchestration
+between score and finalize — see workflows/massive-crawl/contract.md.
 
 Usage:
     python pipeline.py --config swarm-config.json

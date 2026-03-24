@@ -14,9 +14,10 @@ if [[ "$TEAM_NAME" != eoe-* ]]; then
 fi
 
 PROJECT_DIR="${CLAUDE_PROJECT_DIR:-.}"
+WORKFLOW_DIR="$PROJECT_DIR/workflows/massive-crawl"
 
-TEMPLATE=$(cat "$PROJECT_DIR/skill/references/agent-prompt-template.md" 2>/dev/null)
-SCHEMA=$(cat "$PROJECT_DIR/skill/references/output-schema.json" 2>/dev/null)
+TEMPLATE=$(cat "$WORKFLOW_DIR/prompts/agent-prompt-template.md" 2>/dev/null)
+SCHEMA=$(cat "$WORKFLOW_DIR/schemas/output-schema.json" 2>/dev/null)
 CONFIG=$(cat "$PROJECT_DIR/swarm-config.json" 2>/dev/null)
 
 if [[ -z "$TEMPLATE" || -z "$SCHEMA" ]]; then

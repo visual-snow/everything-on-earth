@@ -1,0 +1,30 @@
+{
+  "workflow": "map-capabilities",
+  "stages": [
+    "prepare",
+    "scrape",
+    "research",
+    "write",
+    "judge",
+    "report"
+  ],
+  "roles": [
+    "researcher",
+    "writer",
+    "judge"
+  ],
+  "artifacts": {
+    "config": "map-capabilities-config.json",
+    "entry": "entry.json",
+    "readme_raw": "readme-raw.md",
+    "compose_raw": "compose-raw.md",
+    "factsheet": "factsheet.json",
+    "capability": "capability.md",
+    "progress": "wave-progress.json"
+  },
+  "invariants": {
+    "writer_requires_factsheet": true,
+    "judge_reviews_wave_outputs": true,
+    "wave_progress_is_resumable": true
+  }
+}

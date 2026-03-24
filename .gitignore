@@ -2,7 +2,6 @@
 discovery/
 raw-discovery.json
 dedup.json
-pruned.json
 enriched.json
 swarm-config.json
 map-capabilities-config.json

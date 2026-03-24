@@ -1,0 +1,25 @@
+{
+  "massive-crawl": {
+    "scout": {
+      "model": "haiku"
+    },
+    "discoverer": {
+      "model": "sonnet"
+    },
+    "enricher": {
+      "model": "haiku",
+      "allow_override": true
+    }
+  },
+  "map-capabilities": {
+    "researcher": {
+      "model": "sonnet"
+    },
+    "writer": {
+      "model": "sonnet"
+    },
+    "judge": {
+      "model": "sonnet"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "workflow": "massive-crawl",
+  "stages": [
+    "brainstorm",
+    "discover",
+    "dedup",
+    "score",
+    "enrich",
+    "finalize",
+    "gap_review"
+  ],
+  "roles": [
+    "scout",
+    "discoverer",
+    "enricher"
+  ],
+  "artifacts": {
+    "config": "swarm-config.json",
+    "raw_discovery": "raw-discovery.json",
+    "dedup": "dedup.json",
+    "scored": "scored.json",
+    "enriched": "enriched.json",
+    "catalog": "catalog.json",
+    "results": "RESULTS.md",
+    "explorer": "explorer.html"
+  },
+  "invariants": {
+    "dedup_normalizes_repo_url": true,
+    "enrichment_preserves_count": true,
+    "enrichment_preserves_order": true,
+    "finalize_reads_enriched_json": true
+  }
+}

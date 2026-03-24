@@ -17,10 +17,10 @@
 
 ---
 
-## Top Repos (score >= 8)
+## Top Repos (quality score >= 70)
 
 {% for entry in top_repos %}
-### {{ entry.name }} ({{ entry.score }}/10)
+### {{ entry.name }} ({{ entry.quality_score | default(entry.score, true) }})
 
 {{ entry.description }}
 

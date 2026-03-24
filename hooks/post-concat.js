@@ -50,7 +50,7 @@ try {
       `  After dedup: ${dedup.length}`,
       `  Duplicates removed: ${raw.length - dedup.length}`,
       ``,
-      `Ask the user for pruning thresholds (min score, min stars, active since) before running Stage 2.`,
+      `Run the scoring pipeline: python3 pipeline/pipeline.py --config swarm-config.json --stage score,enrich,finalize`,
     ].join('\n');
 
     const hookOutput = {

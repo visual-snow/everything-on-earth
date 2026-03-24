@@ -150,6 +150,43 @@ def run_finalize(
     print(f"[finalize] Wrote {results_path}")
 
 
+def run_explorer(
+    catalog_root: Path,
+    template_dir: Path | None = None,
+) -> None:
+    """Merge all domain catalogs and render a single top-level explorer.html."""
+    if template_dir is None:
+        template_dir = Path(__file__).parent / "templates"
+
+    all_entries = []
+    for catalog_path in sorted(catalog_root.glob("*/catalog.json")):
+        domain_name = catalog_path.parent.name
+        entries = json.loads(catalog_path.read_text())
+        for entry in entries:
+            entry["domain"] = domain_name
+        all_entries.extend(entries)
+
+    all_entries.sort(key=lambda e: e.get("quality_score", e.get("score", 0)), reverse=True)
+
+    domains = sorted(set(e["domain"] for e in all_entries))
+
+    from jinja2 import Environment, FileSystemLoader
+
+    env = Environment(loader=FileSystemLoader(str(template_dir)))
+    explorer_tpl = env.get_template("explorer.html")
+    context = {
+        "topic": "Everything on Earth",
+        "total": len(all_entries),
+        "domain_count": len(domains),
+        "catalog_json": json.dumps(all_entries),
+    }
+    explorer_path = catalog_root / "explorer.html"
+    explorer_path.write_text(explorer_tpl.render(**context))
+
+    print(f"[explorer] Merged {len(all_entries)} entries from {len(domains)} domains")
+    print(f"[explorer] Wrote {explorer_path}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="massive-crawl deterministic pipeline")
     parser.add_argument("--config", required=True, help="Path to swarm-config.json")

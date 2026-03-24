@@ -2,16 +2,14 @@
 """
 massive-crawl deterministic pipeline.
 
-Three stages: dedup -> score -> finalize.
-Each stage reads a file, transforms it, writes a file.
-All stages are deterministic with no LLM involvement.
-Enrichment (tags, category, summary) is handled by Claude Code subagents
-between score and finalize — see skill/massive-crawl/SKILL.md.
+Four stages: dedup -> score -> finalize -> explorer.
+dedup, score, finalize operate per-domain via --config.
+explorer aggregates all domains via --catalog-root.
 
 Usage:
     python pipeline.py --config swarm-config.json
     python pipeline.py --config swarm-config.json --stage dedup
-    python pipeline.py --config swarm-config.json --stage score
+    python pipeline.py --stage explorer --catalog-root catalog/
 """
 
 import argparse
@@ -107,7 +105,7 @@ def run_finalize(
     output_dir: Path,
     template_dir: Path | None = None,
 ) -> None:
-    """Sort, cluster, and produce catalog.json, RESULTS.md, explorer.html."""
+    """Validate, cluster, sort, and produce catalog.json and RESULTS.md."""
     output_dir.mkdir(parents=True, exist_ok=True)
     if template_dir is None:
         template_dir = Path(__file__).parent / "templates"
@@ -118,17 +116,17 @@ def run_finalize(
     catalog_path.write_text(json.dumps(entries, indent=2))
 
     domain_entries = defaultdict(list)
-    for e in entries:
-        for d in entry_domains(e):
-            domain_entries[d].append(e)
+    for entry in entries:
+        for domain in entry_domains(entry):
+            domain_entries[domain].append(entry)
 
     domains_summary = []
-    for d_name in sorted(domain_entries.keys()):
-        d_entries = domain_entries[d_name]
-        avg = sum(e.get("score", 0) for e in d_entries) / len(d_entries)
-        domains_summary.append({"name": d_name, "count": len(d_entries), "avg_score": f"{avg:.1f}"})
+    for domain_name in sorted(domain_entries.keys()):
+        domain_items = domain_entries[domain_name]
+        avg = sum(item.get("score", 0) for item in domain_items) / len(domain_items)
+        domains_summary.append({"name": domain_name, "count": len(domain_items), "avg_score": f"{avg:.1f}"})
 
-    scores = [effective_score(e) for e in entries]
+    scores = [effective_score(entry) for entry in entries]
     context = {
         "topic": topic,
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -137,36 +135,83 @@ def run_finalize(
         "min_score": min(scores) if scores else 0,
         "max_score": max(scores) if scores else 0,
         "domains": domains_summary,
-        "top_repos": [e for e in entries if effective_score(e) >= 70],
+        "top_repos": [entry for entry in entries if effective_score(entry) >= 70],
     }
 
     env = Environment(loader=FileSystemLoader(str(template_dir)))
-
     results_path = output_dir / "RESULTS.md"
     results_path.write_text(env.get_template("results.md.jinja").render(**context))
 
-    explorer_path = output_dir / "explorer.html"
-    explorer_path.write_text(env.get_template("explorer.html").render(
-        topic=topic, total=len(entries),
-        domain_count=len(domain_entries), catalog_json=json.dumps(entries),
-    ))
-
     print(f"[finalize] Wrote {catalog_path} ({len(entries)} entries)")
     print(f"[finalize] Wrote {results_path}")
-    print(f"[finalize] Wrote {explorer_path}")
+
+
+def run_explorer(
+    catalog_root: Path,
+    template_dir: Path | None = None,
+) -> None:
+    """Merge all domain catalogs and render a single top-level explorer.html."""
+    if template_dir is None:
+        template_dir = Path(__file__).parent / "templates"
+
+    all_entries = []
+    for catalog_path in sorted(catalog_root.glob("*/catalog.json")):
+        domain_name = catalog_path.parent.name
+        entries = json.loads(catalog_path.read_text())
+        for entry in entries:
+            entry["domain"] = domain_name
+        all_entries.extend(entries)
+
+    all_entries.sort(key=effective_score, reverse=True)
+    domains = sorted({entry["domain"] for entry in all_entries})
+
+    env = Environment(loader=FileSystemLoader(str(template_dir)))
+    explorer_path = catalog_root / "explorer.html"
+    explorer_path.write_text(
+        env.get_template("explorer.html").render(
+            topic="Everything on Earth",
+            total=len(all_entries),
+            domain_count=len(domains),
+            catalog_json=json.dumps(all_entries),
+        )
+    )
+
+    print(f"[explorer] Merged {len(all_entries)} entries from {len(domains)} domains")
+    print(f"[explorer] Wrote {explorer_path}")
 
 
 def main():
     parser = argparse.ArgumentParser(description="massive-crawl deterministic pipeline")
-    parser.add_argument("--config", required=True, help="Path to swarm-config.json")
-    parser.add_argument("--stage", default="dedup,score,finalize",
-                        help="Comma-separated stages to run (default: all)")
+    parser.add_argument("--config", default=None, help="Path to swarm-config.json")
+    parser.add_argument(
+        "--stage",
+        default="dedup,score,finalize",
+        help="Comma-separated stages to run (default: dedup,score,finalize)",
+    )
     parser.add_argument("--input-dir", default=".", help="Directory containing input files")
     parser.add_argument("--output-dir", default=None, help="Output directory (default: from config)")
+    parser.add_argument("--catalog-root", default=None, help="Root catalog dir for explorer stage")
     args = parser.parse_args()
 
+    stages = [stage.strip() for stage in args.stage.split(",")]
+
+    if "explorer" in stages:
+        if not args.catalog_root:
+            print("--catalog-root is required for explorer stage", file=sys.stderr)
+            sys.exit(1)
+        catalog_root = Path(args.catalog_root)
+        template_dir = Path(__file__).parent / "templates"
+        run_explorer(catalog_root=catalog_root, template_dir=template_dir)
+        stages = [stage for stage in stages if stage != "explorer"]
+
+    if not stages:
+        return
+
+    if not args.config:
+        print("--config is required for dedup/score/finalize stages", file=sys.stderr)
+        sys.exit(1)
+
     config = json.loads(Path(args.config).read_text())
-    stages = [s.strip() for s in args.stage.split(",")]
     input_dir = Path(args.input_dir)
     output_dir = Path(args.output_dir) if args.output_dir else Path(config["output"]["directory"])
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -184,8 +229,8 @@ def main():
 
             domains = Counter()
             for entry in result:
-                for d in entry_domains(entry):
-                    domains[d] += 1
+                for domain in entry_domains(entry):
+                    domains[domain] += 1
             print("\n[dedup] Distribution by sub-domain:")
             for domain, count in domains.most_common():
                 print(f"  {domain}: {count}")

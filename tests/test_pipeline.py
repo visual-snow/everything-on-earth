@@ -92,7 +92,8 @@ def test_score_higher_stars_higher_score():
         {"repo_url": "https://github.com/c/d", "name": "many", "description": "Many stars", "score": 5, "stars": 10000},
     ]
     result, _ = run_score(entries)
-    assert result[1]["quality_score"] > result[0]["quality_score"]
+    by_name = {r["name"]: r for r in result}
+    assert by_name["many"]["quality_score"] > by_name["few"]["quality_score"]
 
 
 def test_score_logs_removals():

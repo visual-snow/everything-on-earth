@@ -16,8 +16,21 @@ Usage:
 
 import argparse
 import json
+import math
 import sys
+from collections import Counter, defaultdict
+from datetime import datetime
 from pathlib import Path
+
+from jinja2 import Environment, FileSystemLoader
+
+
+def effective_score(entry: dict) -> float:
+    return entry.get("quality_score", entry.get("score", 0))
+
+
+def entry_domains(entry: dict) -> list[str]:
+    return entry.get("found_in_domains", [entry.get("sub_domain", "unknown")])
 
 
 def normalize_url(url: str) -> str:
@@ -39,19 +52,16 @@ def run_dedup(entries: list[dict]) -> list[dict]:
         if not key:
             continue
 
-        # Track all sub-domains that found this URL
         if key not in domain_tracker:
             domain_tracker[key] = []
         sub_domain = entry.get("sub_domain", "unknown")
         if sub_domain not in domain_tracker[key]:
             domain_tracker[key].append(sub_domain)
 
-        # Keep entry with highest score
         if key not in seen or entry.get("score", 0) > seen[key].get("score", 0):
             seen[key] = dict(entry)
-            seen[key]["repo_url"] = key  # Normalize the URL in the kept entry
+            seen[key]["repo_url"] = key
 
-    # Attach found_in_domains to each surviving entry
     result = []
     for key, entry in seen.items():
         entry["found_in_domains"] = domain_tracker[key]
@@ -81,16 +91,12 @@ def run_score(entries: list[dict]) -> tuple[list[dict], list[dict]]:
             removed_log.append({"name": entry.get("name", "?"), "reason": "no_description"})
             continue
 
-        enriched = dict(entry)
         agent_score = entry.get("score", 0)
         stars = entry.get("stars") or 0
 
-        # Composite score: agent relevance (0-10 scaled to 0-60) + log-scaled stars (0-40)
-        import math
+        # Weights: agent relevance (0-10 scaled to 0-60) + log-scaled stars (0-40)
         star_component = min(math.log10(max(stars, 1) + 1) / 5.0, 1.0) * 40
-        enriched["quality_score"] = round(agent_score * 6 + star_component, 1)
-
-        scored.append(enriched)
+        scored.append({**entry, "quality_score": round(agent_score * 6 + star_component, 1)})
 
     return scored, removed_log
 
@@ -101,26 +107,19 @@ def run_finalize(
     output_dir: Path,
     template_dir: Path | None = None,
 ) -> None:
-    """Validate, cluster, sort, and produce three output files."""
+    """Sort, cluster, and produce catalog.json, RESULTS.md, explorer.html."""
     output_dir.mkdir(parents=True, exist_ok=True)
     if template_dir is None:
         template_dir = Path(__file__).parent / "templates"
 
-    # Sort by quality_score descending (falls back to agent score for legacy data)
-    entries.sort(key=lambda e: e.get("quality_score", e.get("score", 0)), reverse=True)
+    entries = sorted(entries, key=effective_score, reverse=True)
 
-    # 1. catalog.json
     catalog_path = output_dir / "catalog.json"
     catalog_path.write_text(json.dumps(entries, indent=2))
 
-    # 2. RESULTS.md via Jinja
-    from collections import Counter, defaultdict
-    from datetime import datetime
-    from jinja2 import Environment, FileSystemLoader
-
     domain_entries = defaultdict(list)
     for e in entries:
-        for d in e.get("found_in_domains", [e.get("sub_domain", "unknown")]):
+        for d in entry_domains(e):
             domain_entries[d].append(e)
 
     domains_summary = []
@@ -129,7 +128,7 @@ def run_finalize(
         avg = sum(e.get("score", 0) for e in d_entries) / len(d_entries)
         domains_summary.append({"name": d_name, "count": len(d_entries), "avg_score": f"{avg:.1f}"})
 
-    scores = [e.get("quality_score", e.get("score", 0)) for e in entries]
+    scores = [effective_score(e) for e in entries]
     context = {
         "topic": topic,
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -138,24 +137,19 @@ def run_finalize(
         "min_score": min(scores) if scores else 0,
         "max_score": max(scores) if scores else 0,
         "domains": domains_summary,
-        "top_repos": [e for e in entries if e.get("quality_score", e.get("score", 0)) >= 70],
+        "top_repos": [e for e in entries if effective_score(e) >= 70],
     }
 
     env = Environment(loader=FileSystemLoader(str(template_dir)))
-    results_tpl = env.get_template("results.md.jinja")
-    results_path = output_dir / "RESULTS.md"
-    results_path.write_text(results_tpl.render(**context))
 
-    # 3. explorer.html via Jinja
-    explorer_tpl = env.get_template("explorer.html")
-    explorer_context = {
-        "topic": topic,
-        "total": len(entries),
-        "domain_count": len(domain_entries),
-        "catalog_json": json.dumps(entries),
-    }
+    results_path = output_dir / "RESULTS.md"
+    results_path.write_text(env.get_template("results.md.jinja").render(**context))
+
     explorer_path = output_dir / "explorer.html"
-    explorer_path.write_text(explorer_tpl.render(**explorer_context))
+    explorer_path.write_text(env.get_template("explorer.html").render(
+        topic=topic, total=len(entries),
+        domain_count=len(domain_entries), catalog_json=json.dumps(entries),
+    ))
 
     print(f"[finalize] Wrote {catalog_path} ({len(entries)} entries)")
     print(f"[finalize] Wrote {results_path}")
@@ -188,11 +182,9 @@ def main():
             dedup_path.write_text(json.dumps(result, indent=2))
             print(f"[dedup] Wrote {dedup_path}")
 
-            # Print distribution summary
-            from collections import Counter
             domains = Counter()
             for entry in result:
-                for d in entry.get("found_in_domains", [entry.get("sub_domain", "unknown")]):
+                for d in entry_domains(entry):
                     domains[d] += 1
             print("\n[dedup] Distribution by sub-domain:")
             for domain, count in domains.most_common():
@@ -213,9 +205,8 @@ def main():
             enriched_path = output_dir / "enriched.json"
             enriched = json.loads(enriched_path.read_text())
             print(f"[finalize] Input: {len(enriched)} entries")
-            out_dir = Path(args.output_dir) if args.output_dir else output_dir
             template_dir = Path(__file__).parent / "templates"
-            run_finalize(enriched, topic=config["topic"], output_dir=out_dir, template_dir=template_dir)
+            run_finalize(enriched, topic=config["topic"], output_dir=output_dir, template_dir=template_dir)
         else:
             print(f"Unknown stage: {stage}", file=sys.stderr)
             sys.exit(1)

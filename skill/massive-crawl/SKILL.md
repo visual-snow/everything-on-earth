@@ -8,7 +8,7 @@ description: >-
   GitHub/GitLab discovery for a broad domain. Launches 3 Haiku scouts for
   reconnaissance, asks clarifying questions, then deploys 6-8 Sonnet teammates
   in a self-claiming swarm. Deterministic pipeline handles dedup, pruning,
-  enrichment, and finalization. Outputs catalog.json, explorer.html, RESULTS.md.
+  and finalization. Enrichment is handled inline via Haiku subagents. Outputs catalog.json, explorer.html, RESULTS.md.
 disable-model-invocation: true
 context: fork
 allowed-tools:
@@ -164,12 +164,33 @@ echo "Concatenated $(jq length raw-discovery.json) entries from $(ls discovery/*
 The post-concat hook auto-triggers dedup. After dedup completes:
 
 1. **Show distribution summary** to user
-2. **Run scoring and enrichment** (no thresholds needed — everything stays, scored by GitHub API signals):
+2. **Run scoring**:
 ```bash
-python3 pipeline/pipeline.py --config swarm-config.json --stage score,enrich,finalize
+python3 pipeline/pipeline.py --config swarm-config.json --stage score
 ```
-Scores entries using agent relevance + stars. No API keys needed.
-3. **Present results**: Show RESULTS.md summary, link to explorer.html
+3. **Enrich via subagents** — read `scored.json`, chunk entries into batches of ~30, launch parallel Haiku agents:
+```
+For each batch, spawn:
+Agent({
+  model: "haiku",
+  prompt: "Topic: \"{topic}\"
+
+Enrich each repository entry below. For each, return:
+- tags: 3-5 lowercase normalized topic tags
+- category: human-readable category name (2-4 words)
+- summary: one-line summary of what makes this notable (max 100 chars)
+
+Return a JSON array in the SAME ORDER as input. Return ONLY the JSON array.
+
+{batch_json}"
+})
+```
+4. **Merge results** — parse each agent's JSON response, merge `tags`, `category`, `summary` onto original entries. If a batch returns malformed JSON or wrong count, fall back to empty values (tags=[], category=null, summary=null). Write `enriched.json`.
+5. **Finalize**:
+```bash
+python3 pipeline/pipeline.py --config swarm-config.json --stage finalize
+```
+6. **Present results**: Show RESULTS.md summary, link to explorer.html
 
 ## Phase 4: Gap Review
 

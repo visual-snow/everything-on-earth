@@ -3,12 +3,11 @@
 import json
 import sys
 from pathlib import Path
-from unittest.mock import patch
 
 # Add pipeline to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
 
-from pipeline import normalize_url, run_dedup, run_score, run_enrich, strip_code_fences, run_finalize
+from pipeline import normalize_url, run_dedup, run_score, run_finalize
 
 
 def test_normalize_url_lowercase():
@@ -104,45 +103,6 @@ def test_score_logs_removals():
     _, removed_log = run_score(entries)
     assert len(removed_log) == 1
     assert any("no_url" in log["reason"] for log in removed_log)
-
-
-# --- Enrich tests ---
-
-
-def test_strip_code_fences_json():
-    raw = '```json\n{"tags": ["security"]}\n```'
-    assert strip_code_fences(raw) == '{"tags": ["security"]}'
-
-
-def test_strip_code_fences_plain():
-    raw = '```\n{"tags": ["security"]}\n```'
-    assert strip_code_fences(raw) == '{"tags": ["security"]}'
-
-
-def test_strip_code_fences_no_fences():
-    raw = '{"tags": ["security"]}'
-    assert strip_code_fences(raw) == '{"tags": ["security"]}'
-
-
-def test_enrich_preserves_count():
-    """Enrichment must NEVER drop entries -- len(output) == len(input)."""
-    entries = [
-        {"repo_url": "https://github.com/a/b", "name": "tool-a", "description": "A security tool", "score": 8},
-        {"repo_url": "https://github.com/c/d", "name": "tool-b", "description": "Another tool", "score": 7},
-    ]
-    mock_response = {
-        "tags": ["kubernetes", "security"],
-        "category": "Security Scanning",
-        "summary": "A Kubernetes security scanning tool"
-    }
-
-    with patch("pipeline.enrich_single") as mock_enrich:
-        mock_enrich.return_value = mock_response
-        result = run_enrich(entries, topic="K8s Security", max_tokens=1024)
-
-    assert len(result) == len(entries), f"Enrichment dropped entries: {len(result)} != {len(entries)}"
-    assert result[0]["tags"] == ["kubernetes", "security"]
-    assert result[0]["category"] == "Security Scanning"
 
 
 # --- Finalize tests ---

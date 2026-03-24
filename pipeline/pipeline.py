@@ -2,20 +2,20 @@
 """
 massive-crawl deterministic pipeline.
 
-Four stages: dedup -> prune -> enrich -> finalize.
+Three stages: dedup -> score -> finalize.
 Each stage reads a file, transforms it, writes a file.
-The dedup, prune, and finalize stages are deterministic with no LLM involvement.
-The enrich stage uses the Anthropic API to add tags, categories, and summaries.
+All stages are deterministic with no LLM involvement.
+Enrichment (tags, category, summary) is handled by Claude Code subagents
+between score and finalize — see skill/massive-crawl/SKILL.md.
 
 Usage:
     python pipeline.py --config swarm-config.json
     python pipeline.py --config swarm-config.json --stage dedup
-    python pipeline.py --config swarm-config.json --stage prune --min-score 5 --min-stars 20
+    python pipeline.py --config swarm-config.json --stage score
 """
 
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
 
@@ -95,74 +95,6 @@ def run_score(entries: list[dict]) -> tuple[list[dict], list[dict]]:
     return scored, removed_log
 
 
-def strip_code_fences(text: str) -> str:
-    """Strip markdown code fences from LLM responses."""
-    text = text.strip()
-    # Remove ```json ... ``` or ``` ... ```
-    pattern = r'^```(?:json)?\s*\n(.*?)\n```'
-    match = re.match(pattern, text, re.DOTALL)
-    if match:
-        return match.group(1).strip()
-    return text
-
-
-def enrich_single(entry: dict, topic: str, max_tokens: int = 1024) -> dict:
-    """Enrich a single entry using Anthropic API (synchronous, one call per entry).
-
-    Returns {tags, category, summary}.
-    """
-    import anthropic
-    client = anthropic.Anthropic()
-    prompt = f"""Given this open-source repository in the "{topic}" domain:
-
-Name: {entry['name']}
-Description: {entry['description']}
-Language: {entry.get('language', 'unknown')}
-Score: {entry.get('score', 'N/A')}
-
-Return a JSON object with:
-- "tags": array of 3-5 lowercase normalized topic tags
-- "category": a human-readable category name (2-4 words)
-- "summary": one-line summary of what makes this repo notable (max 100 chars)
-
-Return ONLY the JSON object, no markdown fences or extra text."""
-
-    response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=max_tokens,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = response.content[0].text
-    cleaned = strip_code_fences(raw)
-    return json.loads(cleaned)
-
-
-def run_enrich(entries: list[dict], topic: str, max_tokens: int = 1024) -> list[dict]:
-    """Enrich all entries with tags, category, and summary.
-
-    INVARIANT: len(output) == len(input). Enrichment never drops entries.
-    On individual failure, entry gets empty tags/category/summary rather than being dropped.
-    """
-    result = []
-    for i, entry in enumerate(entries):
-        enriched = dict(entry)
-        try:
-            data = enrich_single(entry, topic, max_tokens)
-            enriched["tags"] = data.get("tags", [])
-            enriched["category"] = data.get("category")
-            enriched["summary"] = data.get("summary")
-        except Exception as e:
-            print(f"  [enrich] Failed for {entry.get('name', '?')}: {e}", file=sys.stderr)
-            enriched["tags"] = []
-            enriched["category"] = None
-            enriched["summary"] = None
-        result.append(enriched)
-        print(f"  [enrich] {i+1}/{len(entries)}: {entry.get('name', '?')}")
-
-    assert len(result) == len(entries), f"Enrichment dropped entries: {len(result)} != {len(entries)}"
-    return result
-
-
 def run_finalize(
     entries: list[dict],
     topic: str,
@@ -233,7 +165,7 @@ def run_finalize(
 def main():
     parser = argparse.ArgumentParser(description="massive-crawl deterministic pipeline")
     parser.add_argument("--config", required=True, help="Path to swarm-config.json")
-    parser.add_argument("--stage", default="dedup,score,enrich,finalize",
+    parser.add_argument("--stage", default="dedup,score,finalize",
                         help="Comma-separated stages to run (default: all)")
     parser.add_argument("--input-dir", default=".", help="Directory containing input files")
     parser.add_argument("--output-dir", default=None, help="Output directory (default: from config)")
@@ -277,15 +209,6 @@ def main():
             scored_path = output_dir / "scored.json"
             scored_path.write_text(json.dumps(result, indent=2))
             print(f"[score] Wrote {scored_path}")
-        elif stage == "enrich":
-            scored_path = output_dir / "scored.json"
-            pruned = json.loads(scored_path.read_text())
-            print(f"[enrich] Input: {len(pruned)} entries")
-            result = run_enrich(pruned, topic=config["topic"], max_tokens=config["pipeline"]["max_tokens"])
-            print(f"[enrich] Output: {len(result)} entries (should equal input)")
-            enriched_path = output_dir / "enriched.json"
-            enriched_path.write_text(json.dumps(result, indent=2))
-            print(f"[enrich] Wrote {enriched_path}")
         elif stage == "finalize":
             enriched_path = output_dir / "enriched.json"
             enriched = json.loads(enriched_path.read_text())

@@ -2,16 +2,14 @@
 """
 massive-crawl deterministic pipeline.
 
-Three stages: dedup -> score -> finalize.
-Each stage reads a file, transforms it, writes a file.
-All stages are deterministic with no LLM involvement.
-Enrichment (tags, category, summary) is handled by Claude Code subagents
-between score and finalize — see skill/massive-crawl/SKILL.md.
+Four stages: dedup -> score -> finalize -> explorer.
+dedup, score, finalize operate per-domain via --config.
+explorer aggregates all domains via --catalog-root.
 
 Usage:
     python pipeline.py --config swarm-config.json
     python pipeline.py --config swarm-config.json --stage dedup
-    python pipeline.py --config swarm-config.json --stage score
+    python pipeline.py --stage explorer --catalog-root catalog/
 """
 
 import argparse

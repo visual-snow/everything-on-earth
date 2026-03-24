@@ -6,16 +6,11 @@
 [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 [![claude code](https://img.shields.io/badge/Claude_Code-plugin-7c3aed)](https://claude.ai/claude-code)
 
-**Max the fuck out of your Claude subscription by doing a massive parallel crawl that searches everything on earth about whatever you want.**
-
 <p>
   <img src="assets/everything-on-earth.png" alt="everything-on-earth" width="600">
 </p>
 
-```bash
-git clone https://github.com/eaguaida/everything-on-earth.git
-cd everything-on-earth && ./install.sh
-```
+**Max the fuck out of your AI subscriptions by doing a massive parallel crawl that searches everything on earth about whatever you want.**
 
 [Getting Started](#getting-started) · [How It Works](#how-it-works) · [What You Get](#what-you-get)
 

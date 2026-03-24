@@ -1,10 +1,14 @@
 ---
 name: map-capabilities
 description: >-
-  Claude adapter entry point for the shared map-capabilities workflow. Use when
-  the user wants capability documentation generated from a catalog. Follow the
-  shared contract under workflows/map-capabilities/ and use Claude-specific
-  hooks plus models from adapters/claude/.
+  Generates capability documentation from a catalog through the Claude
+  adapter. Use when the user says "map capabilities", "generate capability
+  docs", "capability mapper", or wants pre-generated capability files from a
+  catalog. Follow the shared contract under workflows/map-capabilities/ and
+  use Claude-specific hooks, model defaults, and researcher sandboxing from
+  adapters/claude/.
+disable-model-invocation: true
+context: fork
 allowed-tools:
   - Agent
   - Read
@@ -30,6 +34,7 @@ This is the Claude adapter wrapper, not the workflow source of truth.
 
 - Claude hook configuration is project-local in `.claude/settings.local.json`.
 - Hook scripts live under `adapters/claude/hooks/map-capabilities/`.
+- Researchers must run on prefetched entry, README, and compose inputs with `allowed-tools: []`.
 
 ## Boundary
 

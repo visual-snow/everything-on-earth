@@ -31,7 +31,7 @@ The Python pipeline is deterministic. Enrichment is not in `pipeline.py`; it is 
 Install the Claude wrapper skills:
 
 ```bash
-./install.sh
+./install.sh --claude
 ```
 
 The repo keeps Claude hook configuration project-local in `.claude/settings.local.json`.
@@ -42,6 +42,12 @@ Entry points:
 - `/map-capabilities`
 
 ## Codex
+
+Install the Codex wrapper skills:
+
+```bash
+./install.sh --codex
+```
 
 See:
 
@@ -54,6 +60,8 @@ Entry points:
 - `$map-capabilities`
 
 The Codex adapter keeps model defaults in `adapters/codex/models.json`.
+
+The installer copies wrapper skills into `$CODEX_HOME/skills` (default `~/.codex/skills`) and does not edit `~/.codex/config.toml`.
 
 ## Shared Source Of Truth
 

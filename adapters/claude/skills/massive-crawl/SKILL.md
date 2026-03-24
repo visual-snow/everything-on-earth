@@ -1,10 +1,12 @@
 ---
 name: massive-crawl
 description: >-
-  Claude adapter entry point for the shared massive-crawl workflow. Use when
-  the user wants broad GitHub/GitLab discovery for a topic. Follow the shared
-  contract under workflows/massive-crawl/ and use Claude-specific hooks plus
-  models from adapters/claude/.
+  Discovers every open-source GitHub/GitLab repository for a topic through the
+  Claude adapter. Use when the user says "find every repo", "discover all
+  tools", "massive crawl", "catalog all open source", or "survey the
+  landscape". Follow the shared workflow under workflows/massive-crawl/ and
+  use Claude-specific hooks, task claiming, and model defaults from
+  adapters/claude/.
 disable-model-invocation: true
 context: fork
 allowed-tools:
@@ -42,6 +44,7 @@ This is the Claude adapter wrapper, not the workflow source of truth.
 - Claude discovery uses TeamCreate plus task claiming.
 - Claude hook configuration is project-local in `.claude/settings.local.json`.
 - Hook scripts live under `adapters/claude/hooks/`.
+- Discovery-agent instructions live under `adapters/claude/prompts/`.
 
 ## Boundary
 

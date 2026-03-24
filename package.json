@@ -40,7 +40,8 @@
     "node": ">=18"
   },
   "scripts": {
-    "install-plugin": "./install.sh",
+    "install:claude": "./install.sh --claude",
+    "install:codex": "./install.sh --codex",
     "test": "python3 -m pytest tests/"
   }
 }

@@ -35,6 +35,8 @@ For each wave:
 
 ## Hard Invariants
 
+- Researchers operate only on prefetched entry, README, and compose artifacts.
+- Researchers must be spawned with `allowed-tools: []`.
 - Writers require a valid factsheet.
 - Judges review generated capability docs, not prompts alone.
 - Output validation can reject malformed `capability.md`.

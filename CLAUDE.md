@@ -17,6 +17,8 @@ pipeline/                 # deterministic Python pipeline
 ## Path Rules
 
 - Claude hook scripts live under `adapters/claude/hooks/`
+- Claude adapter prompts live under `adapters/claude/prompts/`
 - Claude skill wrappers live under `adapters/claude/skills/`
 - Shared source-of-truth files live under `workflows/<workflow>/`
 - If you change a hook path, update [`.claude/settings.local.json`](./.claude/settings.local.json) in the same change
+- Verify every referenced hook target exists on disk before changing `.claude/settings.local.json`

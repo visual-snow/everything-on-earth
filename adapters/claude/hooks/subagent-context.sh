@@ -14,14 +14,15 @@ if [[ "$TEAM_NAME" != eoe-* ]]; then
 fi
 
 PROJECT_DIR="${CLAUDE_PROJECT_DIR:-.}"
+PROMPT_DIR="$PROJECT_DIR/adapters/claude/prompts"
 WORKFLOW_DIR="$PROJECT_DIR/workflows/massive-crawl"
 
-TEMPLATE=$(cat "$WORKFLOW_DIR/prompts/agent-prompt-template.md" 2>/dev/null)
+TEMPLATE=$(cat "$PROMPT_DIR/massive-crawl-discovery-agent.md" 2>/dev/null)
 SCHEMA=$(cat "$WORKFLOW_DIR/schemas/output-schema.json" 2>/dev/null)
 CONFIG=$(cat "$PROJECT_DIR/swarm-config.json" 2>/dev/null)
 
 if [[ -z "$TEMPLATE" || -z "$SCHEMA" ]]; then
-  echo "Warning: Could not read reference files from $PROJECT_DIR" >&2
+  echo "Warning: Could not read Claude adapter prompt or massive-crawl schema from adapters/claude/prompts or workflows/massive-crawl" >&2
   exit 0
 fi
 

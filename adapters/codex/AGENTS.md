@@ -1,12 +1,13 @@
 # Codex Adapter Notes
 
-This repository uses a thin Codex adapter. Treat the files in `adapters/codex/` as entry points and configuration, not as the source of truth for workflow behavior.
+This repository uses a Codex adapter layered on top of shared workflow contracts. Treat the files in `adapters/codex/` as the Codex entry points, install surface, and platform-specific orchestration notes.
 
 ## Rules
 
 - Use Codex-native invocation names: `$massive-crawl` and `$map-capabilities`.
+- Install the adapter with `./install.sh --codex`.
 - Prefer repo-relative references to shared workflow assets under `workflows/<workflow>/`.
-- Do not duplicate prompt, schema, or example content in the adapter unless there is no shared alternative.
+- Keep shared contracts platform-neutral. Claude-only task APIs do not belong in `workflows/`.
 - Keep the current pipeline model in mind: deterministic `dedup -> score -> finalize`.
 - Treat enrichment as workflow orchestration. The adapter may select the enricher model, but it should not redefine the enrichment logic here.
 - The default enricher model is `gpt-5.4-mini` with `medium` reasoning, unless `adapters/codex/models.json` overrides it.
@@ -21,4 +22,4 @@ This repository uses a thin Codex adapter. Treat the files in `adapters/codex/` 
 ## Failure mode
 
 - If a shared workflow path is missing or inconsistent, stop and report the exact missing file.
-- Do not invent hook behavior, extra runtime integration, or hidden model wiring.
+- Do not invent Claude hook behavior or hidden model wiring.

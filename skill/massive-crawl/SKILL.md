@@ -56,9 +56,9 @@ Agent(model: "haiku", name: "landscape-scout", prompt: "Check if any existing ca
 
 **While scouts run**, ask the user one question at a time:
 
-1. **Constraints**: "What minimum star count, language filter, or activity recency do you want?" (offer: >=20 stars + active since 2023 as default)
-2. **Known sub-domains**: "What sub-categories do you already know about?"
-3. **Seed repos**: "Any repos you've already found that I should know about?"
+1. **Known sub-domains**: "What sub-categories do you already know about?"
+2. **Seed repos**: "Any repos you've already found that I should know about?"
+3. **Exclusions**: "Any repos or categories you want to exclude entirely?"
 
 **When scouts return**, incorporate their findings:
 - Show any awesome-lists found (awesome-scout)
@@ -164,15 +164,12 @@ echo "Concatenated $(jq length raw-discovery.json) entries from $(ls discovery/*
 The post-concat hook auto-triggers dedup. After dedup completes:
 
 1. **Show distribution summary** to user
-2. **Ask for pruning thresholds** using AskUserQuestion:
-   - Minimum score (default: 3)
-   - Minimum stars (default: 0)
-   - Active since (default: none)
-3. **Run remaining stages**:
+2. **Run scoring and enrichment** (no thresholds needed — everything stays, scored by GitHub API signals):
 ```bash
-python3 pipeline/pipeline.py --config swarm-config.json --stage prune,enrich,finalize --min-score {score} --min-stars {stars}
+python3 pipeline/pipeline.py --config swarm-config.json --stage score,enrich,finalize
 ```
-4. **Present results**: Show RESULTS.md summary, link to explorer.html
+Requires `GITHUB_TOKEN` env var for full scoring. Without it, entries get agent-score-only (max 30/100).
+3. **Present results**: Show RESULTS.md summary, link to explorer.html
 
 ## Phase 4: Gap Review
 

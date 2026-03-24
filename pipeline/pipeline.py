@@ -61,48 +61,81 @@ def run_dedup(entries: list[dict]) -> list[dict]:
     return result
 
 
-def run_prune(
+def run_score(
     entries: list[dict],
-    min_score: int = 0,
-    min_stars: int = 0,
-    active_since: str | None = None,
+    github_token: str | None = None,
+    batch_size: int = 800,
 ) -> tuple[list[dict], list[dict]]:
-    """Prune entries by hard cuts (missing fields) and soft cuts (thresholds).
+    """Score entries using GitHub API signals. Hard cuts for data quality only.
 
-    Returns (kept, pruned_log) where pruned_log explains each removal.
+    No soft thresholds. Everything that passes hard cuts is kept and scored.
+    Returns (scored_entries, removed_log).
     """
-    kept = []
-    pruned_log = []
+    from github_signals import GitHubClient, compute_score, fetch_signals, parse_github_url
 
-    for entry in entries:
+    client = GitHubClient(token=github_token)
+    scored = []
+    removed_log = []
+    api_count = 0
+
+    for i, entry in enumerate(entries):
         url = entry.get("repo_url", "").strip()
         desc = entry.get("description", "").strip()
-        score = entry.get("score", 0)
-        stars = entry.get("stars") or 0
-        activity = entry.get("last_activity") or ""
 
-        # Hard cuts
+        # Hard cut: no URL
         if not url:
-            pruned_log.append({"name": entry.get("name", "?"), "reason": "no_url"})
+            removed_log.append({"name": entry.get("name", "?"), "reason": "no_url"})
             continue
+
+        # Hard cut: no description
         if not desc:
-            pruned_log.append({"name": entry.get("name", "?"), "reason": "no_description"})
+            removed_log.append({"name": entry.get("name", "?"), "reason": "no_description"})
             continue
 
-        # Soft cuts
-        if min_score and score < min_score:
-            pruned_log.append({"name": entry.get("name", "?"), "reason": f"min_score ({score} < {min_score})"})
-            continue
-        if min_stars and stars < min_stars:
-            pruned_log.append({"name": entry.get("name", "?"), "reason": f"min_stars ({stars} < {min_stars})"})
-            continue
-        if active_since and (not activity or activity < active_since):
-            pruned_log.append({"name": entry.get("name", "?"), "reason": f"inactive (last: {activity}, cutoff: {active_since})"})
-            continue
+        enriched = dict(entry)
+        parsed = parse_github_url(url)
 
-        kept.append(entry)
+        if parsed and api_count < batch_size:
+            owner, repo = parsed
+            signals = fetch_signals(client, owner, repo)
+            api_count += 1
 
-    return kept, pruned_log
+            if signals is None:
+                removed_log.append({"name": entry.get("name", "?"), "reason": "github_404"})
+                continue
+
+            # Hard cut: blank repo (no README and tiny size)
+            if not signals.get("has_readme") and signals.get("size_kb", 100) < 10:
+                removed_log.append({"name": entry.get("name", "?"), "reason": "blank_repo"})
+                continue
+
+            # Hard cut: fork with zero community (likely unmodified)
+            if (
+                signals.get("is_fork")
+                and signals.get("stars", 0) == 0
+                and signals.get("forks", 0) == 0
+            ):
+                removed_log.append({"name": entry.get("name", "?"), "reason": "unmodified_fork"})
+                continue
+
+            enriched["github_signals"] = signals
+            enriched["stars"] = signals["stars"]
+            enriched["license"] = signals.get("license_spdx") or entry.get("license")
+            last_push = signals.get("last_push")
+            enriched["last_activity"] = last_push[:10] if last_push else entry.get("last_activity")
+        else:
+            enriched["github_signals"] = None
+
+        agent_score = entry.get("score", 5)
+        enriched["quality_score"] = compute_score(agent_score, enriched.get("github_signals"))
+        enriched["discovery_score"] = agent_score
+
+        scored.append(enriched)
+
+        if (i + 1) % 50 == 0:
+            print(f"  [score] {i+1}/{len(entries)} processed ({api_count} API calls)")
+
+    return scored, removed_log
 
 
 def strip_code_fences(text: str) -> str:
@@ -184,8 +217,8 @@ def run_finalize(
     if template_dir is None:
         template_dir = Path(__file__).parent / "templates"
 
-    # Sort by score descending
-    entries.sort(key=lambda e: e.get("score", 0), reverse=True)
+    # Sort by quality_score descending (falls back to agent score for legacy data)
+    entries.sort(key=lambda e: e.get("quality_score", e.get("score", 0)), reverse=True)
 
     # 1. catalog.json
     catalog_path = output_dir / "catalog.json"
@@ -207,7 +240,7 @@ def run_finalize(
         avg = sum(e.get("score", 0) for e in d_entries) / len(d_entries)
         domains_summary.append({"name": d_name, "count": len(d_entries), "avg_score": f"{avg:.1f}"})
 
-    scores = [e.get("score", 0) for e in entries]
+    scores = [e.get("quality_score", e.get("score", 0)) for e in entries]
     context = {
         "topic": topic,
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -216,7 +249,7 @@ def run_finalize(
         "min_score": min(scores) if scores else 0,
         "max_score": max(scores) if scores else 0,
         "domains": domains_summary,
-        "top_repos": [e for e in entries if e.get("score", 0) >= 8],
+        "top_repos": [e for e in entries if e.get("quality_score", e.get("score", 0)) >= 70],
     }
 
     env = Environment(loader=FileSystemLoader(str(template_dir)))
@@ -243,11 +276,12 @@ def run_finalize(
 def main():
     parser = argparse.ArgumentParser(description="massive-crawl deterministic pipeline")
     parser.add_argument("--config", required=True, help="Path to swarm-config.json")
-    parser.add_argument("--stage", default="dedup,prune,enrich,finalize",
+    parser.add_argument("--stage", default="dedup,score,enrich,finalize",
                         help="Comma-separated stages to run (default: all)")
-    parser.add_argument("--min-score", type=int, default=0, help="Minimum score for pruning")
-    parser.add_argument("--min-stars", type=int, default=0, help="Minimum stars for pruning")
-    parser.add_argument("--active-since", default=None, help="Minimum last_activity date (YYYY-MM-DD)")
+    parser.add_argument("--github-batch-size", type=int, default=800,
+                        help="Max entries to score via GitHub API (default: 800)")
+    parser.add_argument("--github-token", default=None,
+                        help="GitHub API token (default: GITHUB_TOKEN env var)")
     parser.add_argument("--input-dir", default=".", help="Directory containing input files")
     parser.add_argument("--output-dir", default=None, help="Output directory (default: from config)")
     args = parser.parse_args()
@@ -279,25 +313,24 @@ def main():
             for domain, count in domains.most_common():
                 print(f"  {domain}: {count}")
 
-        elif stage == "prune":
+        elif stage == "score":
             dedup_path = output_dir / "dedup.json"
             dedup = json.loads(dedup_path.read_text())
-            print(f"[prune] Input: {len(dedup)} entries")
-            result, pruned_log = run_prune(
+            print(f"[score] Input: {len(dedup)} entries")
+            result, removed_log = run_score(
                 dedup,
-                min_score=args.min_score,
-                min_stars=args.min_stars,
-                active_since=args.active_since,
+                github_token=args.github_token,
+                batch_size=args.github_batch_size,
             )
-            print(f"[prune] Kept: {len(result)}, Pruned: {len(pruned_log)}")
-            for log in pruned_log:
-                print(f"  PRUNED: {log['name']} — {log['reason']}")
-            pruned_path = output_dir / "pruned.json"
-            pruned_path.write_text(json.dumps(result, indent=2))
-            print(f"[prune] Wrote {pruned_path}")
+            print(f"[score] Kept: {len(result)}, Removed: {len(removed_log)}")
+            for log in removed_log:
+                print(f"  REMOVED: {log['name']} — {log['reason']}")
+            scored_path = output_dir / "scored.json"
+            scored_path.write_text(json.dumps(result, indent=2))
+            print(f"[score] Wrote {scored_path}")
         elif stage == "enrich":
-            pruned_path = output_dir / "pruned.json"
-            pruned = json.loads(pruned_path.read_text())
+            scored_path = output_dir / "scored.json"
+            pruned = json.loads(scored_path.read_text())
             print(f"[enrich] Input: {len(pruned)} entries")
             result = run_enrich(pruned, topic=config["topic"], max_tokens=config["pipeline"]["max_tokens"])
             print(f"[enrich] Output: {len(result)} entries (should equal input)")

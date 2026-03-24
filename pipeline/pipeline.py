@@ -28,6 +28,33 @@ from jinja2 import Environment, FileSystemLoader
 from utils import load_catalog, slugify
 
 
+def normalize_entry(entry: dict) -> dict:
+    """Normalize catalog entry to the schema expected by graph templates."""
+    e = dict(entry)
+    # sub_domain / found_in_domains (telecoms uses domain / secondary_domains)
+    if "sub_domain" not in e and "domain" in e:
+        e["sub_domain"] = e["domain"]
+    if "found_in_domains" not in e and "secondary_domains" in e:
+        e["found_in_domains"] = e["secondary_domains"]
+    # quality_score (telecoms uses eval_potential_score on 1-10 scale, normalize to 0-100)
+    if "quality_score" not in e:
+        raw = float(e.get("eval_potential_score", e.get("score", 0)))
+        e["quality_score"] = raw * 10.0 if raw <= 10 else raw
+    # stars (telecoms nests under github_metrics)
+    if "stars" not in e and "github_metrics" in e:
+        e["stars"] = e["github_metrics"].get("stars", 0)
+    # summary fallback
+    if "summary" not in e:
+        desc = e.get("description", "")
+        e["summary"] = desc[:120] if len(desc) > 120 else desc
+    # tags / category fallback
+    if "tags" not in e:
+        e["tags"] = []
+    if "category" not in e:
+        e["category"] = e.get("sub_domain", "")
+    return e
+
+
 def effective_score(entry: dict) -> float:
     return entry.get("quality_score", entry.get("score", 0))
 
@@ -206,7 +233,7 @@ def run_site(
         if domain_slug == "telecom" and "telecoms" in domain_dirs:
             print("[site] Skipping telecom: legacy catalog shadowed by telecoms")
             continue
-        entries = load_catalog(catalog_path)
+        entries = [normalize_entry(e) for e in load_catalog(catalog_path)]
         entries = sorted(entries, key=effective_score, reverse=True)
         sub_domains_set = set()
         for e in entries:

@@ -6,11 +6,97 @@
 <title>{{ topic }} — Explorer</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1117; color: #c9d1d9; padding: 2rem; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #0d1117;
+    color: #c9d1d9;
+    padding: 2rem;
+  }
+  .page {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .sidebar {
+    position: sticky;
+    top: 2rem;
+    background: #11161d;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 1rem;
+  }
+  .sidebar-eyebrow {
+    color: #58a6ff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.72rem;
+    margin-bottom: 0.4rem;
+  }
+  .sidebar h2 {
+    font-size: 1.05rem;
+    margin-bottom: 0.35rem;
+  }
+  .sidebar-copy {
+    color: #8b949e;
+    font-size: 0.84rem;
+    line-height: 1.45;
+    margin-bottom: 1rem;
+  }
+  .domain-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+  .sidebar-domain-button {
+    width: 100%;
+    border: 1px solid #30363d;
+    background: #161b22;
+    color: #c9d1d9;
+    border-radius: 10px;
+    padding: 0.7rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    align-items: center;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s, transform 0.2s;
+    text-align: left;
+  }
+  .sidebar-domain-button:hover {
+    border-color: hsl(var(--domain-hue, 210), 72%, 68%);
+    transform: translateY(-1px);
+  }
+  .sidebar-domain-button.active {
+    border-color: hsl(var(--domain-hue, 210), 72%, 68%);
+    background: hsla(var(--domain-hue, 210), 55%, 18%, 0.95);
+  }
+  .sidebar-domain-label {
+    text-transform: capitalize;
+    font-size: 0.92rem;
+    line-height: 1.2;
+  }
+  .sidebar-domain-count {
+    background: rgba(255, 255, 255, 0.08);
+    color: #8b949e;
+    border-radius: 999px;
+    padding: 0.15rem 0.55rem;
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+  .main-panel { min-width: 0; }
   h1 { color: #58a6ff; margin-bottom: 0.5rem; }
   .stats { color: #8b949e; margin-bottom: 1.5rem; }
   .controls { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
-  input, select { background: #161b22; border: 1px solid #30363d; color: #c9d1d9; padding: 0.5rem 1rem; border-radius: 6px; font-size: 0.9rem; }
+  .domain-type-mobile { display: none; }
+  input, select {
+    background: #161b22;
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
   input:focus, select:focus { border-color: #58a6ff; outline: none; }
   input[type="text"] { min-width: 300px; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1rem; }
@@ -27,30 +113,60 @@
   .domain-badge { padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; white-space: nowrap; }
   .count { color: #8b949e; margin-bottom: 1rem; }
   .hidden { display: none; }
+
+  @media (max-width: 980px) {
+    body { padding: 1rem; }
+    .page { grid-template-columns: 1fr; }
+    .sidebar { position: static; }
+    .domain-sidebar {
+      flex-direction: row;
+      overflow-x: auto;
+      padding-bottom: 0.2rem;
+    }
+    .sidebar-domain-button {
+      min-width: max-content;
+      width: auto;
+    }
+    .domain-type-mobile { display: block; }
+    input[type="text"] { min-width: 0; width: 100%; }
+  }
 </style>
 </head>
 <body>
-<h1>{{ topic }}</h1>
-<p class="stats">{{ total }} repos across {{ domain_count }} domains</p>
+<div class="page">
+  <aside class="sidebar">
+    <p class="sidebar-eyebrow">Domains</p>
+    <h2>Browse the catalog</h2>
+    <p class="sidebar-copy">Use the domain rail to jump between top-level catalog domains without losing the full search and sort controls.</p>
+    <div class="domain-sidebar" id="domain-sidebar"></div>
+  </aside>
 
-<div class="controls">
-  <input type="text" id="search" placeholder="Filter by name, description, or tag...">
-  <select id="domain-type-filter">
-    <option value="">All domains</option>
-  </select>
-  <select id="domain-filter">
-    <option value="">All sub-domains</option>
-  </select>
-  <select id="sort-by">
-    <option value="score">Sort by quality score</option>
-    <option value="stars">Sort by stars</option>
-    <option value="activity">Sort by activity</option>
-    <option value="name">Sort by name</option>
-  </select>
+  <main class="main-panel">
+    <h1>{{ topic }}</h1>
+    <p class="stats">{{ total }} repos across {{ domain_count }} domains</p>
+
+    <div class="controls">
+      <input type="text" id="search" placeholder="Filter by name, description, or tag...">
+      <div class="domain-type-mobile">
+        <select id="domain-type-filter">
+          <option value="">All domains</option>
+        </select>
+      </div>
+      <select id="domain-filter">
+        <option value="">All sub-domains</option>
+      </select>
+      <select id="sort-by">
+        <option value="score">Sort by quality score</option>
+        <option value="stars">Sort by stars</option>
+        <option value="activity">Sort by activity</option>
+        <option value="name">Sort by name</option>
+      </select>
+    </div>
+
+    <p class="count" id="count"></p>
+    <div class="grid" id="grid"></div>
+  </main>
 </div>
-
-<p class="count" id="count"></p>
-<div class="grid" id="grid"></div>
 
 <script>
 const CATALOG = {{ catalog_json }};
@@ -62,13 +178,48 @@ function domainHue(name) {
 }
 
 const domainTypeFilter = document.getElementById('domain-type-filter');
+const domainSidebar = document.getElementById('domain-sidebar');
 const domainTypes = [...new Set(CATALOG.map(e => e.domain).filter(Boolean))].sort();
+const domainCounts = CATALOG.reduce((counts, entry) => {
+  const key = entry.domain || 'unknown';
+  counts[key] = (counts[key] || 0) + 1;
+  return counts;
+}, {});
+
 domainTypes.forEach(d => {
   const opt = document.createElement('option');
   opt.value = d;
   opt.textContent = d;
   domainTypeFilter.appendChild(opt);
 });
+
+function renderDomainSidebar(activeDomain) {
+  const items = [{ value: '', label: 'All domains', count: CATALOG.length }]
+    .concat(domainTypes.map(domain => ({ value: domain, label: domain, count: domainCounts[domain] || 0 })));
+
+  domainSidebar.innerHTML = items.map(item => {
+    const hue = item.value ? domainHue(item.value) : 210;
+    const activeClass = item.value === activeDomain ? 'active' : '';
+    return `
+      <button
+        type="button"
+        class="sidebar-domain-button ${activeClass}"
+        data-domain="${item.value}"
+        style="--domain-hue:${hue}"
+      >
+        <span class="sidebar-domain-label">${item.label}</span>
+        <span class="sidebar-domain-count">${item.count}</span>
+      </button>
+    `;
+  }).join('');
+
+  domainSidebar.querySelectorAll('.sidebar-domain-button').forEach(button => {
+    button.addEventListener('click', () => {
+      domainTypeFilter.value = button.dataset.domain;
+      applyFilters();
+    });
+  });
+}
 
 const domainFilter = document.getElementById('domain-filter');
 const subDomains = [...new Set(CATALOG.flatMap(e => e.found_in_domains || [e.sub_domain]))].sort();
@@ -130,6 +281,7 @@ function applyFilters() {
   else if (sort === 'activity') filtered.sort((a, b) => (b.last_activity || '').localeCompare(a.last_activity || ''));
   else if (sort === 'name') filtered.sort((a, b) => a.name.localeCompare(b.name));
 
+  renderDomainSidebar(domainType);
   render(filtered);
 }
 

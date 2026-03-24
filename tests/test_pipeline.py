@@ -306,7 +306,7 @@ def test_explorer_sorts_by_quality_score(tmp_path):
     run_explorer(catalog_root=tmp_path, template_dir=template_dir)
 
     content = (tmp_path / "explorer.html").read_text()
-    assert content.index("high") < content.index("low")
+    assert content.index('"name": "high"') < content.index('"name": "low"')
 
 
 def test_cli_explorer_stage(tmp_path):
@@ -398,3 +398,34 @@ def test_explorer_template_has_domain_badge(tmp_path):
 
     content = (tmp_path / "explorer.html").read_text()
     assert "domain-badge" in content
+
+
+def test_explorer_template_has_domain_sidebar(tmp_path):
+    """The rendered explorer.html contains a sidebar for domain navigation."""
+    for name in ("cybersecurity", "telecom"):
+        domain = tmp_path / name
+        domain.mkdir()
+        (domain / "catalog.json").write_text(
+            json.dumps(
+                [
+                    {
+                        "repo_url": f"https://github.com/example/{name}",
+                        "name": name,
+                        "description": f"{name} tool",
+                        "quality_score": 70,
+                        "score": 7,
+                        "stars": 100,
+                        "sub_domain": "sub",
+                        "found_in_domains": ["sub"],
+                        "tags": [],
+                    },
+                ]
+            )
+        )
+
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_explorer(catalog_root=tmp_path, template_dir=template_dir)
+
+    content = (tmp_path / "explorer.html").read_text()
+    assert 'id="domain-sidebar"' in content
+    assert "sidebar-domain-button" in content

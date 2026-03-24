@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hashicorp/vault",
+  "name": "hashicorp/vault",
+  "description": "A comprehensive secrets management and data encryption platform providing secure secret storage, dynamic credentials generation, and encryption-as-a-service. Industry standard for enterprise key and secrets lifecycle management.",
+  "sub_domain": "cryptography",
+  "score": 9,
+  "score_rationale": "Essential enterprise secrets management tool with 35k+ stars, actively maintained with a March 2026 release, and widely deployed across the industry.",
+  "stars": 35300,
+  "language": "Go",
+  "license": "MPL-2.0",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 90.4,
+  "tags": [
+    "password-cracking",
+    "hash-recovery",
+    "brute-force",
+    "wordlist"
+  ],
+  "category": "Password Cracker",
+  "summary": "Hash cracking and password recovery",
+  "slug": "hashicorp-vault"
+}

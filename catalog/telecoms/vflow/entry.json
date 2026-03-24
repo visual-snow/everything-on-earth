@@ -1,0 +1,48 @@
+{
+  "name": "vFlow",
+  "repo_url": "https://github.com/edgio/vflow",
+  "description": "Enterprise Network Flow Collector supporting IPFIX, sFlow, and Netflow. High-performance, scalable collector written in pure Go.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "network-flow"
+  ],
+  "protocols": [
+    "IPFIX",
+    "sFlow",
+    "NetFlow"
+  ],
+  "provides": [
+    "ipfix-collector",
+    "netflow-collector",
+    "sflow-collector",
+    "multi-protocol-flow-collection",
+    "kafka-output",
+    "flow-data-processing",
+    "udp-listener"
+  ],
+  "needs": [
+    "kafka-broker",
+    "docker-runtime",
+    "compose-stack-manual-setup"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "mehrdadrad/vflow",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker image available as mehrdadrad/vflow with port mappings for IPFIX (4739), NetFlow (4729), sFlow (6343)."
+  },
+  "github_metrics": {
+    "stars": 1100,
+    "last_commit": "2023-06-01",
+    "language": "Go",
+    "license": "MIT"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Enterprise-grade flow collector from Verizon/Edgio. Good for evaluations requiring multi-protocol flow collection with Kafka output.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "vflow"
+}

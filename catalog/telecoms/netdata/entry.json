@@ -1,0 +1,51 @@
+{
+  "name": "Netdata",
+  "repo_url": "https://github.com/netdata/netdata",
+  "description": "Real-time infrastructure monitoring platform providing AI-powered full-stack observability. Most energy-efficient monitoring tool for Docker-based systems.",
+  "domain": "infrastructure-monitoring",
+  "secondary_domains": [
+    "netconf"
+  ],
+  "protocols": [
+    "SNMP",
+    "HTTP",
+    "StatsD"
+  ],
+  "provides": [
+    "real-time-monitoring",
+    "snmp-collection",
+    "metrics-visualization",
+    "web-dashboard",
+    "statsd-server",
+    "http-api",
+    "system-metrics",
+    "network-metrics",
+    "docker-monitoring",
+    "alerting"
+  ],
+  "needs": [
+    "linux-host",
+    "privileged-container-access",
+    "target-hosts-or-agents"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "netdata/netdata",
+    "compose_services_count": 1,
+    "docker_evidence": "Most energy-efficient tool for monitoring Docker-based systems, excels in CPU/RAM usage and execution time."
+  },
+  "github_metrics": {
+    "stars": 73000,
+    "last_commit": "2026-03-20",
+    "language": "C",
+    "license": "GPL-3.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Extremely popular real-time monitoring. Could serve as a dashboard component for agentic evaluations requiring system and network metrics visualization.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "netdata"
+}

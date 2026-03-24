@@ -1,0 +1,53 @@
+{
+  "name": "Polycube",
+  "repo_url": "https://github.com/polycube-network/polycube",
+  "description": "eBPF/XDP-based software framework for fast network services running in Linux kernel. Includes Kubernetes CNI plugin.",
+  "domain": "ebpf",
+  "secondary_domains": [
+    "kubernetes-networking",
+    "programmable-network-functions",
+    "xdp-dataplane"
+  ],
+  "protocols": [
+    "eBPF",
+    "XDP"
+  ],
+  "provides": [
+    "ebpf-network-functions",
+    "xdp-packet-processing",
+    "kubernetes-cni-plugin",
+    "software-firewall",
+    "nat-service",
+    "load-balancer",
+    "virtual-router",
+    "ddos-protection",
+    "network-function-framework"
+  ],
+  "needs": [
+    "linux-kernel-4.15+",
+    "k8s-cluster",
+    "ebpf-capable-kernel",
+    "cmake-build-system",
+    "clang-llvm"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present in root directory. .dockerignore file included. pcn-k8s CNI plugin for Kubernetes container networking."
+  },
+  "github_metrics": {
+    "stars": 530,
+    "last_commit": "2023-03-07",
+    "language": "C++",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "eBPF-based network function platform. Useful for evals involving programmable network functions and Kubernetes CNI debugging.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "polycube"
+}

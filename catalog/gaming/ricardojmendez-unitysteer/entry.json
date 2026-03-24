@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ricardojmendez/unitysteer",
+  "name": "ricardojmendez/UnitySteer",
+  "description": "A toolkit for steering, obstacle avoidance, and path-following behaviors for autonomous agents in Unity, reworked from OpenSteer to follow Unity's component-oriented philosophy.",
+  "sub_domain": "behavior-ai",
+  "score": 7,
+  "score_rationale": "1.2k stars and well-regarded in the Unity ecosystem for agent steering, though last actively maintained several years ago.",
+  "stars": 1200,
+  "language": "C#",
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 66.6,
+  "tags": [
+    "steering",
+    "agent",
+    "unity",
+    "pathfinding",
+    "game-ai"
+  ],
+  "category": "Agent Steering",
+  "summary": "Unity steering behaviors for autonomous agents and NPCs",
+  "slug": "ricardojmendez-unitysteer"
+}

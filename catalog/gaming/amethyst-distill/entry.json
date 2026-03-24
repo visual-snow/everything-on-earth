@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/amethyst/distill",
+  "name": "amethyst/distill",
+  "description": "Asset pipeline system for game engines that reads artist-friendly source formats, processes them into engine-ready formats, handles dependency tracking, hot-reloading, and asset packing for shipping.",
+  "sub_domain": "asset-formats",
+  "score": 6,
+  "score_rationale": "Well-architected Rust asset pipeline with 373 stars addressing the full production pipeline use case, though development is tied to the now-inactive Amethyst engine project.",
+  "stars": 373,
+  "language": "Rust",
+  "license": "MIT OR Apache-2.0",
+  "last_activity": "2022-12-01",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 56.6,
+  "tags": [
+    "asset-pipeline",
+    "hot-reloading",
+    "rust"
+  ],
+  "category": "Asset Pipeline System",
+  "summary": "Rust asset pipeline with dependency tracking, hot-reload, and engine conversion",
+  "slug": "amethyst-distill"
+}

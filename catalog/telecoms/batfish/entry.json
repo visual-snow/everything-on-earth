@@ -1,0 +1,77 @@
+{
+  "name": "Batfish",
+  "repo_url": "https://github.com/batfish/batfish",
+  "description": "Offline network configuration analysis tool that finds bugs and guarantees correctness of planned or current network configurations. Builds a vendor-neutral model from device configs and performs multi-dimensional analysis (reachability, routing, ACLs, BGP/OSPF sessions) without accessing live devices.",
+  "domain": "network-configuration-verification",
+  "secondary_domains": [
+    "offline-analysis",
+    "pre-deployment-testing",
+    "routing-protocol-validation"
+  ],
+  "protocols": [
+    "ACLs",
+    "BGP",
+    "EIGRP",
+    "Firewalls",
+    "IS-IS",
+    "OSPF",
+    "Offline config analysis",
+    "RIP"
+  ],
+  "provides": [
+    "isis-analysis",
+    "acl-verification",
+    "rip-analysis",
+    "eigrp-analysis",
+    "route-analysis",
+    "multi-vendor-config-parsing",
+    "rest-api",
+    "ospf-analysis",
+    "offline-config-analysis",
+    "network-config-analysis",
+    "protocol-analysis",
+    "change-impact-analysis",
+    "compliance-checking",
+    "jupyter-notebook-interface",
+    "reachability-analysis",
+    "pre-deployment-validation",
+    "bgp-analysis",
+    "firewall-policy-analysis"
+  ],
+  "needs": [
+    "docker-runtime",
+    "8gb-ram-minimum",
+    "python-pybatfish-client",
+    "network-config-files"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "batfish/allinone",
+    "compose_services_count": 0,
+    "docker_evidence": "docker pull batfish/allinone; docker run --name batfish -v batfish-data:/data -p 8888:8888 -p 9997:9997 -p 9996:9996 batfish/allinone"
+  },
+  "github_metrics": {
+    "stars": 3000,
+    "last_commit": "2026-03-22",
+    "language": "Java",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Offline configuration analysis (no device access needed). Validates security, reliability, compliance. Supports 12+ vendors. Excellent for agentic evaluations involving configuration verification and change impact analysis. Pre-deployment config validation without live devices. Runs in Docker (batfish/allinone). Jupyter notebook interface at port 8888. Requires 8GB RAM minimum, 32GB for production. Complementary to containerlab -- validates configs before deployment.",
+  "related_repos": [
+    "automateyournetwork/yatfish",
+    "batfish/docker",
+    "batfish/pybatfish",
+    "https://github.com/batfish/pybatfish",
+    "martimy/bat-q"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-compliance.json",
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/netauto-frameworks.json",
+    "discovery/transport.json"
+  ],
+  "slug": "batfish"
+}

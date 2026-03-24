@@ -1,0 +1,48 @@
+{
+  "name": "O-RAN SC SMO VES Collector",
+  "repo_url": "https://github.com/o-ran-sc/smo-ves",
+  "description": "O-RAN VES (Virtual Event Streaming) collector with Grafana dashboard and InfluxDB persistence for collecting VES events from O-RAN components.",
+  "domain": "event-streaming",
+  "secondary_domains": [
+    "o-ran",
+    "smo",
+    "telemetry",
+    "ves"
+  ],
+  "protocols": [
+    "VES",
+    "REST"
+  ],
+  "provides": [
+    "ves-collector",
+    "rest-api-endpoint",
+    "grafana-dashboard",
+    "influxdb-persistence",
+    "oran-event-streaming",
+    "smo-monitoring"
+  ],
+  "needs": [
+    "docker-compose",
+    "ves-event-source"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 3,
+    "docker_evidence": "makes use of three containers, the ves-collector container that collects VES events, Grafana for display, and InfluxDB"
+  },
+  "github_metrics": {
+    "stars": 2,
+    "last_commit": "2024-04-23",
+    "language": "Python",
+    "license": "unknown"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "3-container docker-compose for O-RAN VES event collection and visualization. Simple setup for testing O-RAN SMO monitoring and event-driven workflows.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/oran-ric.json"
+  ],
+  "slug": "o-ran-sc-smo-ves-collector"
+}

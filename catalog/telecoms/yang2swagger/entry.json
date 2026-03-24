@@ -1,0 +1,51 @@
+{
+  "name": "yang2swagger",
+  "repo_url": "https://github.com/amartus/yang2swagger",
+  "description": "YANG to Swagger (OpenAPI Specification) generator producing RESTCONF-compliant API definitions. Handles enums, leafrefs, groupings, and augmentations with model inheritance optimization.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "network-model",
+    "swagger"
+  ],
+  "protocols": [
+    "YANG",
+    "RESTCONF",
+    "OpenAPI/Swagger"
+  ],
+  "provides": [
+    "yang-to-openapi-conversion",
+    "restconf-api-generation",
+    "swagger-spec-generator",
+    "yang-model-parser",
+    "openapi-stub-generator"
+  ],
+  "needs": [
+    "java-runtime",
+    "yang-model-files",
+    "maven-or-docker"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Docker run command documented: docker run -it -v $(pwd):. yang2swagger <arguments>"
+  },
+  "github_metrics": {
+    "stars": 80,
+    "last_commit": "2024-06",
+    "language": "Java",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 4,
+  "eval_notes": "Primary tool for generating OpenAPI/Swagger specs from YANG models. Useful for building REST API documentation and client/server stubs from YANG-defined interfaces. Docker support makes it easy to integrate into CI/CD.",
+  "related_repos": [
+    "https://github.com/etnt/yang2openapi",
+    "https://github.com/netgroup-polito/pyang-swagger",
+    "https://github.com/opennetworkingfoundation/eagleyangopenapi"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "yang2swagger"
+}

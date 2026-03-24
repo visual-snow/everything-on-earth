@@ -1,0 +1,65 @@
+{
+  "slug": "beszel",
+  "name": "Beszel",
+  "what_it_is": "Beszel is a lightweight server monitoring platform built on PocketBase that provides a web dashboard (hub) for viewing historical metrics from remote agents. It collects CPU, memory, disk, network, GPU, temperature, battery, and Docker/Podman container statistics with configurable alerts.",
+  "components": [
+    "beszel (hub) — PocketBase-backed web application serving dashboard on port 8090",
+    "beszel-agent — per-host daemon that collects and streams metrics to the hub",
+    "beszel-agent-nvidia — variant of the agent with Nvidia GPU support"
+  ],
+  "protocols": [
+    "SSH (ED25519 key pair) for hub-to-agent communication",
+    "HTTP/REST on port 8090 for the PocketBase-backed web UI and API",
+    "Docker socket (/var/run/docker.sock) read-only mount for container stats"
+  ],
+  "measurement": [
+    "CPU usage — host and per Docker/Podman container",
+    "Memory usage — host and containers, including swap and ZFS ARC",
+    "Disk usage — host, multiple partitions/devices",
+    "Disk I/O — host, multiple partitions/devices",
+    "Network usage — host and containers",
+    "Load average — host",
+    "Temperature — host sensors",
+    "GPU usage and power draw — Nvidia (NVML/nvtop), AMD, Intel",
+    "Battery charge — host",
+    "S.M.A.R.T. disk health — including eMMC wear/EOL and Linux mdraid array health",
+    "Container status and metrics for all running Docker/Podman containers",
+    "Systemd service status"
+  ],
+  "configuration": [
+    "Agent PORT env var (default 45876) — TCP port the agent listens on",
+    "Agent KEY env var — SSH ED25519 public key from the hub (required)",
+    "Agent FILESYSTEM env var — override filesystem device for disk I/O stats (e.g. /dev/sda1)",
+    "Agent NVIDIA_VISIBLE_DEVICES env var — GPU selection for nvidia variant",
+    "Agent NVIDIA_DRIVER_CAPABILITIES env var — capabilities for nvidia variant",
+    "Hub persists data in /beszel_data volume (PocketBase SQLite database)",
+    "Extra filesystems monitored by mounting paths under /extra-filesystems/ in the agent container",
+    "Multi-user: users manage own systems; admins can share systems across users",
+    "OAuth/OIDC providers configurable; password auth can be disabled",
+    "Automatic backups to disk or S3-compatible storage"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Separate deployment: hub and agent on different hosts (hub docker-compose + agent docker-compose)",
+    "Same-system deployment: hub and agent co-located via extra_hosts host-gateway bridge",
+    "Binary/systemd install: agent can run as a systemd service without Docker",
+    "Nvidia GPU mode: use henrygd/beszel-agent-nvidia image with runtime: nvidia"
+  ],
+  "constraints": [
+    "Agent requires a valid SSH ED25519 public KEY env var to start — hub must generate the key pair first before deploying the agent",
+    "Agent container must use network_mode: host to allow host-level network and hardware metric collection",
+    "Docker socket must be mounted read-only (/var/run/docker.sock:/var/run/docker.sock:ro) for container stats; without it, container metrics are unavailable",
+    "Hub and agent communicate only via SSH; the hub port (8090) is for the web UI only and is not used for agent data collection",
+    "Disk I/O stats require explicit FILESYSTEM env var when auto-detection is insufficient or in containerized environments"
+  ],
+  "docker_services": [
+    "beszel — hub image (henrygd/beszel), exposes port 8090, volume ./beszel_data:/beszel_data",
+    "beszel-agent — agent image (henrygd/beszel-agent or henrygd/beszel-agent-nvidia), network_mode host, mounts /var/run/docker.sock:ro"
+  ],
+  "notable_absences": [
+    "No built-in log aggregation or log tailing — metrics only, no log management",
+    "No active fault injection or chaos engineering capabilities",
+    "No push-based alerting integrations in the docker-compose files (configured via web UI)",
+    "No Prometheus-compatible scrape endpoint exposed by default"
+  ]
+}

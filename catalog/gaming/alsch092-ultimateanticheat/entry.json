@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alsch092/ultimateanticheat",
+  "name": "AlSch092/UltimateAntiCheat",
+  "description": "An educational open-source usermode anti-cheat framework for Windows games in C++, detecting and preventing common attack vectors including memory manipulation and DLL injection. Supports optional kernel-mode integration.",
+  "sub_domain": "game-devops-analytics",
+  "score": 5,
+  "score_rationale": "589 stars, AGPL-3.0, useful reference implementation for understanding anti-cheat techniques in game security research.",
+  "stars": 589,
+  "language": "C++",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-08-12",
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 52.2,
+  "tags": [
+    "anti-cheat",
+    "security",
+    "windows",
+    "cpp",
+    "cheating-detection"
+  ],
+  "category": "Anti-Cheat Framework",
+  "summary": "Educational usermode anti-cheat framework for Windows game security",
+  "slug": "alsch092-ultimateanticheat"
+}

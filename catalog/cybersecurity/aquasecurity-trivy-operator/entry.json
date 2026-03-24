@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/aquasecurity/trivy-operator",
+  "name": "aquasecurity/trivy-operator",
+  "description": "Kubernetes-native security toolkit that continuously scans clusters for security issues using Trivy, generating security reports as Kubernetes Custom Resource Definitions triggered by state changes.",
+  "sub_domain": "container-cloud-security",
+  "score": 8,
+  "score_rationale": "1.8k stars with active development into March 2026, provides native Kubernetes integration for continuous Trivy-based security scanning.",
+  "stars": 1800,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 74.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "aquasecurity-trivy-operator"
+}

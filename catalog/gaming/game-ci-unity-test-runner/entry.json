@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/game-ci/unity-test-runner",
+  "name": "game-ci/unity-test-runner",
+  "description": "A GitHub Action that runs PlayMode and EditMode tests for Unity projects as part of automated CI pipelines. Part of the GameCI open source project.",
+  "sub_domain": "game-devops-analytics",
+  "score": 6,
+  "score_rationale": "247 stars, MIT, widely-used CI tool that enables automated testing of Unity games in GitHub Actions workflows.",
+  "stars": 247,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-07-05",
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 55.2,
+  "tags": [
+    "testing",
+    "ci-cd",
+    "unity",
+    "github-actions",
+    "automation"
+  ],
+  "category": "Unity Test Automation",
+  "summary": "GitHub Action for running Unity PlayMode and EditMode tests",
+  "slug": "game-ci-unity-test-runner"
+}

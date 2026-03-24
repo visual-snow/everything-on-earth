@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/meshula/opensteer",
+  "name": "meshula/OpenSteer",
+  "description": "A C++ library for building steering behaviors for autonomous characters in games and animation, originally developed at Sony with an OpenGL demo application.",
+  "sub_domain": "behavior-ai",
+  "score": 6,
+  "score_rationale": "360 stars, the canonical C++ steering behaviors reference library with long history in game AI, though no longer actively maintained.",
+  "stars": 360,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 56.5,
+  "tags": [
+    "steering",
+    "autonomous-agents",
+    "c++",
+    "game-ai",
+    "classic"
+  ],
+  "category": "Agent Steering",
+  "summary": "Canonical C++ steering library by Sony for game characters",
+  "slug": "meshula-opensteer"
+}

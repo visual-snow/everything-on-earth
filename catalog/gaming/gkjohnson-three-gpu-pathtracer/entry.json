@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gkjohnson/three-gpu-pathtracer",
+  "name": "gkjohnson/three-gpu-pathtracer",
+  "description": "GPU-accelerated path tracing renderer and utilities for three.js built on three-mesh-bvh, supporting physically-based GGX materials, skinned meshes, area lights, volumes, and depth of field in WebGL 2.",
+  "sub_domain": "ray-tracing",
+  "score": 8,
+  "score_rationale": "1.7k-star actively maintained WebGL path tracer for three.js with broad feature coverage and production-quality output.",
+  "stars": 1700,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 73.8,
+  "tags": [
+    "path-tracing",
+    "three.js",
+    "webgl2",
+    "gpu-acceleration",
+    "pbr"
+  ],
+  "category": "Three.js Path Tracer",
+  "summary": "GPU-accelerated three.js path tracer with PBR materials and advanced WebGL 2 features.",
+  "slug": "gkjohnson-three-gpu-pathtracer"
+}

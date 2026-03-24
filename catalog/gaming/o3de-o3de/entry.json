@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/o3de/o3de",
+  "name": "o3de/o3de",
+  "description": "Open 3D Engine (O3DE) is an Apache 2.0-licensed multi-platform 3D engine for AAA games, cinema-quality 3D worlds, and high-fidelity simulations. Successor to Amazon Lumberyard, backed by the Linux Foundation.",
+  "sub_domain": "game-engines-3d",
+  "score": 9,
+  "score_rationale": "Linux Foundation-backed AAA-grade engine with 9k stars, professional toolset, and active industry adoption for high-fidelity 3D content.",
+  "stars": 9000,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 85.6,
+  "tags": [
+    "3d-game-engine",
+    "aaa-game",
+    "professional",
+    "cross-platform",
+    "simulation"
+  ],
+  "category": "AAA 3D Game Engine",
+  "summary": "Linux Foundation-backed AAA-grade engine for high-fidelity simulations",
+  "slug": "o3de-o3de"
+}

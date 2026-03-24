@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/enablesecurity/wafw00f",
+  "name": "EnableSecurity/wafw00f",
+  "description": "Tool to identify and fingerprint Web Application Firewall products protecting a website by analyzing HTTP responses to detect 200+ different WAF solutions.",
+  "sub_domain": "webapp-security",
+  "score": 8,
+  "score_rationale": "6.2k stars, essential recon tool for identifying WAF presence before security testing, actively maintained.",
+  "stars": 6200,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-01-26",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 78.3,
+  "tags": [
+    "web-security",
+    "vulnerability",
+    "injection"
+  ],
+  "category": "Web Security",
+  "summary": "Web application security testing",
+  "slug": "enablesecurity-wafw00f"
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "yanger",
+  "name": "Yanger",
+  "what_it_is": "Yanger is an extensible YANG module validator written in Erlang that parses and validates YANG data models. It supports format conversion (tree, swagger, YIN, YANG) and transformations (expand, restconf) via a plugin architecture.",
+  "components": [
+    "yanger.erl — main entry point and CLI driver",
+    "yang.erl — core YANG parser and type system",
+    "yang_parser.erl — low-level YANG grammar parser",
+    "yang_types.erl — built-in YANG type handling",
+    "yang_xpath.erl — XPath evaluation for YANG constraints",
+    "yanger_plugin.erl — plugin interface definition",
+    "plugins/ — output-format and transform plugins (swagger, tree, yin, yang, restconf, smiv2, sn, structure, expand, depend)"
+  ],
+  "protocols": [
+    "YANG (RFC 7950) — primary data modeling language parsed and validated",
+    "RESTCONF (RFC 8040) — restconf plugin generates RESTCONF-compatible output",
+    "Swagger/OpenAPI 2.0 — swagger plugin converts YANG to Swagger JSON",
+    "YIN — XML-based alternate YANG syntax (input and output)",
+    "SMIv2 — SNMP SMIv2 module support via yanger_smiv2 plugin"
+  ],
+  "measurement": [
+    "Validation error count and error codes (--print-error-code flag)",
+    "Warning counts per module (configurable -W / -w flags)",
+    "No built-in metrics export; output is textual error/warning messages"
+  ],
+  "configuration": [
+    "-p <path> — search path for YANG modules",
+    "-P <plugindir> — additional plugin directory",
+    "-f <format> — output format: tree, swagger, yin, yang, depend (default: none)",
+    "-t <transform> — transform to apply: expand, restconf, structure",
+    "--max-status <max_status> — filter nodes by YANG status (current, deprecated, obsolete)",
+    "-F <features> — enable specific YANG features (module:feature,...)",
+    "-C <conformance> — set module conformance (implement or import)",
+    "--deviation-module <module> — apply deviation module",
+    "--no-deviation-apply — load deviations without applying them",
+    "-o <outfile> — write output to file instead of stdout",
+    "--strict — enforce strict YANG compliance",
+    "-e — treat warnings as errors",
+    "YANG_MODPATH env var — colon-separated module search path (set in Docker image)"
+  ],
+  "fault_injection": [
+    "No built-in fault injection; validation itself surfaces YANG schema errors",
+    "Invalid YANG syntax causes parse errors reported with line numbers and error codes"
+  ],
+  "modes": [
+    "Validation-only mode (default, no -f): parses and validates, reports errors/warnings",
+    "Format conversion mode (-f <format>): outputs tree, swagger JSON, YIN XML, or canonical YANG",
+    "Transform mode (-t <transform>): applies expand or restconf transforms before output",
+    "Verbose mode (-V): prints detailed processing information",
+    "Strict mode (--strict): enforces stricter YANG compliance rules",
+    "Docker container mode: single-binary ENTRYPOINT with /workdir volume mount"
+  ],
+  "constraints": [
+    "Requires Erlang runtime and libxml2 at runtime; no pure-binary distribution",
+    "Docker image based on erlang:23-alpine; YANG_MODPATH must include bundled modules directory or module resolution fails",
+    "Plugin discovery requires plugins to be on the Erlang code path or specified via -P; no hot-reload",
+    "Output format and transform combinations are not all valid; e.g., restconf transform requires subsequent format plugin",
+    "Feature flags (-F) use module:feature syntax; unknown features cause warnings unless --ignore-unknown-features is set",
+    "Max line length of 80 chars enforced in codebase; no tabs — contributors must follow this for patches to be accepted"
+  ],
+  "docker_services": [
+    "Single container: mbj4668/yanger — built from official erlang:23-alpine base, ENTRYPOINT yanger, WORKDIR /workdir, user mounts YANG files via -v ${PWD}:/workdir"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — single standalone container only, no multi-service orchestration",
+    "No NETCONF protocol support despite YANG being NETCONF's schema language",
+    "No JSON/XML instance data validation — validates schema only, not instance documents",
+    "No REST API or daemon mode — purely a CLI batch tool",
+    "No YANG 1.1 (RFC 7950) full feature parity documented; primary target appears to be YANG 1.0 (RFC 6020)",
+    "No pre-built binary releases — must build from source or use Docker"
+  ]
+}

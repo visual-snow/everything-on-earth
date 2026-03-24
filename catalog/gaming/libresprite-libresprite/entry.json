@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/libresprite/libresprite",
+  "name": "LibreSprite/LibreSprite",
+  "description": "LibreSprite is a free, open-source animated sprite editor and pixel art tool, forked from the last GPL-licensed version of Aseprite. Supports layers, frames, onion skinning, and multiple platforms.",
+  "sub_domain": "asset-tools",
+  "score": 8,
+  "score_rationale": "7.4k stars, the leading free/open-source alternative to Aseprite for pixel art, with active development and broad platform support.",
+  "stars": 7400,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "asset-tools"
+  ],
+  "quality_score": 79.0,
+  "tags": [
+    "sprite-editor",
+    "pixel-art",
+    "animation"
+  ],
+  "category": "Sprite Animation Editor",
+  "summary": "Free GPL Aseprite fork with layers, frames, and onion skinning",
+  "slug": "libresprite-libresprite"
+}

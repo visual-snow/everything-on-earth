@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/software-mansion/typegpu",
+  "name": "software-mansion/TypeGPU",
+  "description": "Modular WebGPU toolkit with advanced TypeScript type inference, allowing developers to write GPU shaders directly in TypeScript with automatic WGSL generation and type-safe buffer management.",
+  "sub_domain": "graphics-rendering",
+  "score": 7,
+  "score_rationale": "Innovative TypeScript-first WebGPU toolkit with 2.3k stars, recently released (v0.10 in 2026) and filling a unique niche for type-safe GPU programming on the web.",
+  "stars": 2300,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 68.9,
+  "tags": [
+    "webgpu",
+    "typescript",
+    "gpu-programming"
+  ],
+  "category": "WebGPU Toolkit",
+  "summary": "TypeScript-first WebGPU toolkit with type-safe shaders",
+  "slug": "software-mansion-typegpu"
+}

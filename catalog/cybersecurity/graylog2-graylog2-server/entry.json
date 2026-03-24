@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/graylog2/graylog2-server",
+  "name": "Graylog2/graylog2-server",
+  "description": "Graylog is a free and open log management platform for collecting, managing, and analyzing log data from various sources, serving thousands of organizations for security monitoring and operational insights. It provides centralized log aggregation with powerful search and alerting capabilities.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 8,
+  "score_rationale": "Widely deployed open log management platform with 8k stars, commonly used as a SIEM backend in enterprise security operations.",
+  "stars": 8000,
+  "language": "Java",
+  "license": "LicenseRef-SSPL-1.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 79.2,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Graylog is a free and open log management platform for collecting, managing, and analyzing log data ",
+  "slug": "graylog2-graylog2-server"
+}

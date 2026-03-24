@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fyroxengine/fyrox",
+  "name": "FyroxEngine/Fyrox",
+  "description": "A feature-rich, production-ready, general purpose 2D/3D game engine written in Rust with a scene editor. Supports Windows, Linux, macOS, and WebAssembly.",
+  "sub_domain": "game-engines-3d",
+  "score": 8,
+  "score_rationale": "9k stars, production-ready Rust 3D engine with an integrated scene editor and active development \u2014 a rare combination in the Rust ecosystem.",
+  "stars": 9000,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 79.6,
+  "tags": [
+    "3d-game-engine",
+    "rust",
+    "2d-game-engine",
+    "editor",
+    "production-ready"
+  ],
+  "category": "Production Rust Game Engine",
+  "summary": "Production-ready Rust 3D/2D engine with integrated scene editor",
+  "slug": "fyroxengine-fyrox"
+}

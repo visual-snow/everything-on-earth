@@ -1,0 +1,80 @@
+{
+  "name": "FRRouting (FRR)",
+  "repo_url": "https://github.com/frrouting/frr",
+  "description": "Free software implementing IPv4/IPv6 routing protocols (BGP, OSPF, IS-IS, RIP, PIM, LDP, BFD, EIGRP, NHRP, Babel, PBR, VRRP). Runs on Linux/BSD with YANG/NETCONF support via northbound plugins.",
+  "domain": "ip-routing",
+  "secondary_domains": [
+    "mpls",
+    "netconf",
+    "network-protocols",
+    "routing-stack"
+  ],
+  "protocols": [
+    "BFD",
+    "BGP",
+    "Babel",
+    "EIGRP",
+    "IS-IS",
+    "LDP",
+    "MSDP",
+    "NHRP",
+    "OSPFv2",
+    "OSPFv3",
+    "OpenFabric",
+    "PBR",
+    "PIM-SM",
+    "RIPng",
+    "RIPv1",
+    "RIPv2",
+    "VRRP"
+  ],
+  "provides": [
+    "bfd-support",
+    "pim-multicast",
+    "ldp-signaling",
+    "vtysh-cli",
+    "bgp-routing",
+    "restconf-api",
+    "eigrp-routing",
+    "docker-image",
+    "netconf-server",
+    "vrrp-redundancy",
+    "ipv6-routing",
+    "route-policy-engine",
+    "mpls-forwarding",
+    "config-mutation",
+    "isis-routing",
+    "ospf-routing",
+    "yang-datastore",
+    "rip-routing"
+  ],
+  "needs": [
+    "linux-kernel-5.4+",
+    "containerlab-topology",
+    "sysrepo-netconf-backend",
+    "netopeer2-server",
+    "linux-namespaces",
+    "docker-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "frrouting/frr",
+    "compose_services_count": 0,
+    "docker_evidence": "The repository contains a /docker directory and .dockerignore file, confirming Docker support is available."
+  },
+  "github_metrics": {
+    "stars": 4100,
+    "last_commit": "2026-03-14",
+    "language": "C",
+    "license": "GPL-2.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "The most widely-used open-source routing stack. Ideal for agentic evaluations involving multi-protocol routing configuration, troubleshooting, and verification. Can be combined with containerlab for complex topology labs. Most popular open-source routing suite. YANG models in /yang directory. NETCONF/RESTCONF via sysrepo/netopeer2 northbound plugins. Native Docker images available. Supports BGP, OSPF, IS-IS, LDP, BFD, PIM, and many more protocols.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/netconf-mgmt/virtual-nos.json",
+    "discovery/transport.json"
+  ],
+  "slug": "frrouting-frr"
+}

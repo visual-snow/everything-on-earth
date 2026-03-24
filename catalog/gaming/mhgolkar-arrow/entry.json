@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mhgolkar/arrow",
+  "name": "mhgolkar/Arrow",
+  "description": "Arrow is a free open-source game narrative design tool built on Godot for creating text adventures, interactive stories, and visual novels. Features a visual node editor and HTML export.",
+  "sub_domain": "dialogue-narrative",
+  "score": 8,
+  "score_rationale": "Strong 1.3k star narrative design tool with active maintenance through 2025, offering an accessible visual approach to game storytelling.",
+  "stars": 1300,
+  "language": "GDScript",
+  "license": "MIT",
+  "last_activity": "2025-07-30",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 72.9,
+  "tags": [
+    "narrative-design",
+    "godot",
+    "visual-editor",
+    "dialogue"
+  ],
+  "category": "Narrative Design Tool",
+  "summary": "Godot-based visual narrative design for games and interactive stories",
+  "slug": "mhgolkar-arrow"
+}

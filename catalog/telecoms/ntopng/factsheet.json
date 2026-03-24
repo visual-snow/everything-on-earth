@@ -1,0 +1,58 @@
+{
+  "slug": "ntopng",
+  "name": "ntopng",
+  "what_it_is": "ntopng is a web-based network traffic monitoring application (GPLv3) that performs deep packet inspection via nDPI, real-time flow analysis, and alerting. It is the modernized successor to the original ntop project, supporting NetFlow, IPFIX, sFlow, SNMP, and eBPF-based packet capture.",
+  "components": [
+    "ntopng web UI (Vue.js + Lua backend)",
+    "nDPI deep-packet-inspection library",
+    "Redis (required in-process state store for flows and alerts)",
+    "C++ core engine for packet/flow processing",
+    "Lua scripting layer for checks, alerts, and dashboards",
+    "Python utilities (minor, support scripts)"
+  ],
+  "protocols": [
+    "NetFlow v5",
+    "NetFlow v9",
+    "IPFIX",
+    "sFlow",
+    "SNMP",
+    "nDPI / Deep Packet Inspection (application-layer protocol detection)",
+    "eBPF (kernel-level packet capture on Linux)"
+  ],
+  "measurement": [
+    "Real-time per-flow traffic statistics (bytes, packets, duration)",
+    "Top talkers and application-layer protocol breakdown",
+    "Historical flow data with configurable retention",
+    "Alert generation on threshold breaches, anomalies, and security events",
+    "Host behavioral analysis and reputation scoring",
+    "Interface-level and aggregate throughput graphs"
+  ],
+  "configuration": [
+    "Network interface or probe input selection at startup (-i flag)",
+    "Redis connection endpoint (--redis host:port)",
+    "HTTP/HTTPS listening port (--http-port / --https-port)",
+    "Community vs Enterprise edition feature gates (license key)",
+    "Lua-based behavioral checks and alert thresholds (editable scripts)",
+    "Data retention period for flow records"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Packet capture mode (live interface via libpcap/PF_RING/eBPF)",
+    "Flow collector mode (receives NetFlow/IPFIX/sFlow from external probes)",
+    "Community edition (free, GPLv3, limited feature set)",
+    "Enterprise/Professional edition (extended features, requires license)"
+  ],
+  "constraints": [
+    "Requires a running Redis instance — ntopng will not start without it",
+    "No built-in docker-compose file found in main/dev branches; deployment must be scripted manually or via third-party images",
+    "Enterprise features (e.g., extended retention, advanced analytics) are not available under the GPLv3 community build",
+    "High-throughput environments require PF_RING or eBPF; standard libpcap becomes a bottleneck at multi-Gbps rates"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No official docker-compose.yml found in the repository (checked main and dev branches)",
+    "No built-in fault or traffic replay injection mechanism",
+    "No native Kubernetes manifests in the repository",
+    "SNMP polling depth (MIB support) not documented in README"
+  ]
+}

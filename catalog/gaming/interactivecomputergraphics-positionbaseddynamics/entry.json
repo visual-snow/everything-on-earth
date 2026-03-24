@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/interactivecomputergraphics/positionbaseddynamics",
+  "name": "InteractiveComputerGraphics/PositionBasedDynamics",
+  "description": "Library for physically-based simulation of rigid bodies, deformable solids, cloth, and fluids using position-based and XPBD constraint methods. Prioritizes speed and stability for interactive applications with Python bindings.",
+  "sub_domain": "fluid-cloth-simulation",
+  "score": 8,
+  "score_rationale": "2.2k-star unified PBD simulation library covering cloth, soft body, rigid body, and fluids \u2014 the reference implementation for PBD methods.",
+  "stars": 2200,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2022-12-13",
+  "found_in_domains": [
+    "fluid-cloth-simulation",
+    "physics-engines"
+  ],
+  "quality_score": 74.7,
+  "tags": [
+    "physics",
+    "cloth-simulation",
+    "pbd",
+    "deformable"
+  ],
+  "category": "Physics Engine",
+  "summary": "Unified PBD library for cloth, fluids, and rigid body simulation",
+  "slug": "interactivecomputergraphics-positionbaseddynamics"
+}

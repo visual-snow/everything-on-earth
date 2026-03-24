@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bleubleu/famistudio",
+  "name": "BleuBleu/FamiStudio",
+  "description": "A NES/Famicom music editor for chiptune artists and NES homebrewers, featuring a piano-roll interface instead of traditional tracker columns. Supports Windows, macOS, Linux, and Android.",
+  "sub_domain": "chiptune-trackers",
+  "score": 9,
+  "score_rationale": "The premier NES chiptune editor with 1.9k stars, actively maintained through 2025, with broad platform support and a welcoming interface for composers.",
+  "stars": 1900,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-11-15",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 80.2,
+  "tags": [
+    "nes-music",
+    "chiptune",
+    "music-editor",
+    "homebrew",
+    "cross-platform"
+  ],
+  "category": "Music Editors",
+  "summary": "Premier NES/Famicom music editor with piano-roll interface",
+  "slug": "bleubleu-famistudio"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sw33tlie/bbscope",
+  "name": "sw33tLie/bbscope",
+  "description": "Scope aggregation tool for HackerOne, Bugcrowd, Intigriti, YesWeHack, and Immunefi that fetches program scopes with PostgreSQL storage, change tracking, and LLM-assisted normalization.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 7,
+  "score_rationale": "Unique scope management tool with 1.3k stars addressing a real bug bounty pain point, actively maintained and supporting all major bug bounty platforms.",
+  "stars": 1300,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2024-12-24",
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 66.9,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "Scope aggregation tool for HackerOne, Bugcrowd, Intigriti, YesWeHack, and Immunefi that fetches prog",
+  "slug": "sw33tlie-bbscope"
+}

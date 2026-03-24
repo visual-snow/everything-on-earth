@@ -1,0 +1,54 @@
+{
+  "name": "LiveKit SIP",
+  "repo_url": "https://github.com/livekit/sip",
+  "description": "SIP to WebRTC bridge for LiveKit, connecting telephony networks with WebRTC-based communication rooms. Supports dialing in/out, DTMF, and digest authentication.",
+  "domain": "rtp-media",
+  "secondary_domains": [
+    "sip-webrtc-bridging",
+    "telephony-integration",
+    "voip-gateway"
+  ],
+  "protocols": [
+    "SIP",
+    "WebRTC",
+    "RTP",
+    "DTMF"
+  ],
+  "provides": [
+    "sip-digest-authentication",
+    "sip-inbound-trunk",
+    "dtmf-support",
+    "config-mutation",
+    "sip-outbound-trunk",
+    "rtp-media-handling",
+    "telephony-room-integration",
+    "webrtc-bridge",
+    "sip-gateway"
+  ],
+  "needs": [
+    "redis",
+    "livekit-server",
+    "udp-host-networking",
+    "sip-trunking-provider"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "livekit/sip",
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile and docker-compose.yaml present. Official image livekit/sip on Docker Hub. Requires host networking for UDP ports 5060 and 10000-20000."
+  },
+  "github_metrics": {
+    "stars": 375,
+    "last_commit": "2025-01-01",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Modern SIP-WebRTC bridge with Go implementation. Useful for testing telephony-to-WebRTC integration scenarios. Redis-backed session state enables distributed deployments.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/signaling.json"
+  ],
+  "slug": "livekit-sip"
+}

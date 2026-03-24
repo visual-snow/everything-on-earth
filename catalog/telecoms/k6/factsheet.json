@@ -1,0 +1,68 @@
+{
+  "slug": "k6",
+  "name": "k6",
+  "what_it_is": "k6 is a modern open-source load testing tool built by Grafana Labs that uses an embedded JavaScript/ES6 engine backed by a Go runtime, enabling developers and testers to write performance tests as code. It is designed for developer experience in DevOps workflows, supporting CLI execution, CI pipeline integration, and distributed Kubernetes-based runs.",
+  "components": [
+    "JavaScript/ES6 scripting engine (Goja, Go-based JS runtime)",
+    "Virtual User (VU) execution engine",
+    "Scenario scheduler (open model, closed model, constant RPS, fixed iterations)",
+    "Threshold engine for pass/fail assertions",
+    "Built-in metrics collector",
+    "Output connectors (InfluxDB, Prometheus, Grafana Cloud, CSV, JSON, StatsD)",
+    "k6 Studio (code-free script generation companion tool)",
+    "k6 Cloud / Grafana Cloud integration for distributed runs and result analysis"
+  ],
+  "protocols": [
+    "HTTP/1.1",
+    "HTTP/2",
+    "WebSocket",
+    "gRPC",
+    "Browser (Chromium via k6 browser module)"
+  ],
+  "measurement": [
+    "http_req_duration (response time, including p50/p90/p95/p99 percentiles)",
+    "http_req_failed (error rate)",
+    "http_reqs (request throughput/RPS)",
+    "vus / vus_max (virtual user concurrency)",
+    "iteration_duration",
+    "data_sent / data_received (bandwidth)",
+    "Custom metrics (Counter, Gauge, Rate, Trend types)",
+    "Threshold-based pass/fail assertions on any metric"
+  ],
+  "configuration": [
+    "options export object in JS script (vus, duration, stages, thresholds, scenarios)",
+    "CLI flags override script options (--vus, --duration, --iterations)",
+    "Environment variables via -e / --env flags",
+    "TLS certificate and insecureSkipTLSVerify settings",
+    "HTTP/2 negotiation via protocol settings",
+    "Output targets configured via -o / --out flag",
+    "Config file (k6 run --config) for reusable option sets"
+  ],
+  "fault_injection": [
+    "sleep() calls in scripts to simulate think time and pacing",
+    "Custom error rate simulation via check() and deliberate bad requests",
+    "Scenario ramping (stages) to model sudden traffic spikes and drops"
+  ],
+  "modes": [
+    "CLI local execution (k6 run script.js)",
+    "CI pipeline integration (outputs exit codes for pass/fail)",
+    "Distributed cloud execution (Grafana Cloud k6 / k6 Cloud)",
+    "Kubernetes operator-based distributed run",
+    "Browser performance testing mode (k6 browser module)"
+  ],
+  "constraints": [
+    "No built-in chaos/fault injection primitives — fault simulation must be coded manually in JS",
+    "No native database protocol support (SQL, MongoDB, Redis) in core — requires community extensions (xk6)",
+    "JavaScript execution is single-threaded per VU; CPU-bound JS logic limits achievable concurrency on a single machine",
+    "Browser module requires Chromium and significantly higher resource usage than protocol-level tests",
+    "Distributed runs beyond a single machine require Grafana Cloud k6 or self-managed Kubernetes operator — no built-in peer-to-peer coordination"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml in the grafana/k6 repository (404) — k6 is distributed as a standalone binary/Docker image, not a multi-service stack",
+    "No built-in result storage — requires external time-series DB (InfluxDB, Prometheus) or Grafana Cloud",
+    "No GUI in core — k6 Studio is a separate companion application",
+    "No native MQTT, AMQP, or TCP protocol support in core (available only via xk6 community extensions)",
+    "No built-in test data generation library — users must implement or import data generation in JS"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sploreg/goap",
+  "name": "sploreg/goap",
+  "description": "A widely-referenced Unity implementation of Goal Oriented Action Planning (GOAP) AI, providing a foundational example of agent-based action planning for game NPCs.",
+  "sub_domain": "behavior-ai",
+  "score": 6,
+  "score_rationale": "674 stars and widely cited as a learning reference for GOAP in Unity, though no longer actively maintained.",
+  "stars": 674,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 58.6,
+  "tags": [
+    "goap",
+    "action-planning",
+    "unity",
+    "npc-ai",
+    "learning"
+  ],
+  "category": "Action Planning",
+  "summary": "Learning reference for goal-oriented action planning in Unity",
+  "slug": "sploreg-goap"
+}

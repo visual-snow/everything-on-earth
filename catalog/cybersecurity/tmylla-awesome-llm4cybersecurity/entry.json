@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tmylla/awesome-llm4cybersecurity",
+  "name": "tmylla/Awesome-LLM4Cybersecurity",
+  "description": "A systematic overview of LLMs for cybersecurity compiling 612+ papers across 11 research categories covering threat intelligence, vulnerability detection, malware analysis, and network intrusion detection.",
+  "sub_domain": "ai-security",
+  "score": 7,
+  "score_rationale": "Comprehensive academic survey resource with 1.3k stars updated through early 2026, spanning the full breadth of LLM applications in security.",
+  "stars": 1300,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-02-09",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 66.9,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "A systematic overview of LLMs for cybersecurity compiling 612+ papers across 11 research categories ",
+  "slug": "tmylla-awesome-llm4cybersecurity"
+}

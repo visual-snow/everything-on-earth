@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/interactivecomputergraphics/splishsplash",
+  "name": "InteractiveComputerGraphics/SPlisHSPlasH",
+  "description": "Open-source library for physics-based fluid simulation using Smoothed Particle Hydrodynamics (SPH), implementing state-of-the-art pressure solvers with support for viscosity, surface tension, and vorticity effects in 2D and 3D.",
+  "sub_domain": "fluid-cloth-simulation",
+  "score": 8,
+  "score_rationale": "1.8k-star research-grade SPH fluid library actively maintained through 2025, implementing cutting-edge simulation methods.",
+  "stars": 1800,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-08-12",
+  "found_in_domains": [
+    "fluid-cloth-simulation"
+  ],
+  "quality_score": 74.0,
+  "tags": [
+    "fluid-simulation",
+    "sph",
+    "research",
+    "3d"
+  ],
+  "category": "Fluid Simulation",
+  "summary": "Research-grade SPH fluid simulation with cutting-edge solvers",
+  "slug": "interactivecomputergraphics-splishsplash"
+}

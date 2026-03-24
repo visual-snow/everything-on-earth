@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cleverhans-lab/cleverhans",
+  "name": "cleverhans-lab/cleverhans",
+  "description": "Python library for benchmarking machine learning systems' vulnerability to adversarial examples, enabling construction of attacks and defenses across JAX, PyTorch, and TensorFlow 2 frameworks. Foundational research tool for adversarial ML security.",
+  "sub_domain": "ai-security",
+  "score": 7,
+  "score_rationale": "Foundational adversarial ML library with 6.4k stars and wide academic adoption, though last updated in 2021 it remains a key reference for adversarial ML research.",
+  "stars": 6400,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2021-07-24",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 72.4,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Python library for benchmarking machine learning systems' vulnerability to adversarial examples, ena",
+  "slug": "cleverhans-lab-cleverhans"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/rpcs3/rpcs3",
+  "name": "RPCS3/rpcs3",
+  "description": "The world's first free and open-source PlayStation 3 emulator and debugger, written in C++ for Windows, Linux, macOS, and FreeBSD. Supports over 3500 games with active development.",
+  "sub_domain": "emulators-retro",
+  "score": 9,
+  "score_rationale": "Landmark open-source achievement with 18.4k stars; the definitive PS3 emulator maintained through early 2026 with broad game compatibility.",
+  "stars": 18400,
+  "language": "C++",
+  "license": "GPL-2.0-only",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 88.1,
+  "tags": [
+    "emulator",
+    "playstation-3",
+    "ps3",
+    "game-emulation"
+  ],
+  "category": "PlayStation Emulator",
+  "summary": "Definitive open-source PlayStation 3 emulator with 3500+ game support",
+  "slug": "rpcs3-rpcs3"
+}

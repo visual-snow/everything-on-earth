@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/kcat/openal-soft",
+  "name": "kcat/openal-soft",
+  "description": "Software implementation of the OpenAL 3D audio API providing distance attenuation, Doppler shift, directional emitters, environmental reverb via EFX, and cross-platform support as the standard open-source 3D audio API.",
+  "sub_domain": "game-audio",
+  "score": 9,
+  "score_rationale": "The canonical open-source implementation of the OpenAL standard with 2.6k stars, actively maintained through January 2026, and the go-to LGPL alternative to proprietary audio SDKs.",
+  "stars": 2600,
+  "language": "C++",
+  "license": "LGPL-2.0",
+  "last_activity": "2026-01-20",
+  "found_in_domains": [
+    "game-audio"
+  ],
+  "quality_score": 81.3,
+  "tags": [
+    "audio",
+    "3d-audio",
+    "openal",
+    "cross-platform"
+  ],
+  "category": "Audio Library",
+  "summary": "Standard OpenAL software implementation for 3D game audio",
+  "slug": "kcat-openal-soft"
+}

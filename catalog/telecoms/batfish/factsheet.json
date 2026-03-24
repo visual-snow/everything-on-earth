@@ -1,0 +1,67 @@
+{
+  "slug": "batfish",
+  "name": "Batfish",
+  "what_it_is": "Batfish is an offline network configuration analysis tool that builds a vendor-neutral model from device configuration files and performs correctness verification (reachability, routing, ACLs, BGP/OSPF sessions) without accessing live devices. It is used for pre-deployment validation, compliance checking, and change impact analysis.",
+  "components": [
+    "Batfish analysis engine",
+    "Pybatfish Python 3 SDK/client",
+    "REST API (ports 9996 and 9997)",
+    "Jupyter Notebook interface (port 8888)",
+    "allinone Docker container (bundles engine + Jupyter + supporting services)"
+  ],
+  "protocols": [
+    "BGP",
+    "OSPF",
+    "IS-IS",
+    "EIGRP",
+    "RIP",
+    "ACLs",
+    "Firewall policies",
+    "IPsec/VPN (config parsing)",
+    "iptables"
+  ],
+  "measurement": [
+    "Reachability between hosts/subnets",
+    "Route advertisement and propagation correctness",
+    "ACL permit/deny outcomes",
+    "BGP session establishment validity",
+    "OSPF/IS-IS neighbor correctness",
+    "Firewall policy traversal",
+    "Configuration compliance against defined standards (MTU, AAA, NTP, logging, SSH)",
+    "Undefined or unreferenced configuration structures",
+    "Functional equivalence between two configuration snapshots",
+    "Service availability under single-link or single-device failure"
+  ],
+  "configuration": [
+    "Network snapshot directory (device config files)",
+    "Reference snapshot for differential/change analysis",
+    "Network name and snapshot name passed via Pybatfish",
+    "Analysis questions (reachability, differential, compliance, etc.) specified programmatically",
+    "Docker environment variables for JVM heap size (allinone container)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Offline config analysis (no live device access)",
+    "Pre-deployment validation (analyze candidate configs before push)",
+    "Post-deployment analysis (analyze current production configs)",
+    "Differential/change impact analysis (compare two snapshots)",
+    "Compliance auditing (check configs against policy rules)"
+  ],
+  "constraints": [
+    "Requires device configuration files as input — cannot analyze live traffic or packet captures",
+    "Minimum 8 GB RAM required; production workloads recommend 32 GB RAM",
+    "No real-time or streaming telemetry — analysis is always point-in-time snapshot-based",
+    "Limited vendor support for Aruba, Dell Force10, and Foundry (partial parsing only)",
+    "Pybatfish client must be installed separately — not bundled in base Docker image",
+    "No built-in GUI beyond Jupyter notebooks; all automation requires Python or REST API"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No live device access or SSH/NETCONF connectivity",
+    "No real-time traffic monitoring or packet analysis",
+    "No network emulation or topology simulation with live data plane",
+    "No built-in alerting or continuous monitoring daemon",
+    "No Windows-native installer — Docker is the recommended deployment method",
+    "No docker-compose file in the main repository"
+  ]
+}

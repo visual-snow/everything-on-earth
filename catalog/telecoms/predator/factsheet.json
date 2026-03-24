@@ -1,0 +1,54 @@
+{
+  "slug": "predator",
+  "name": "Predator",
+  "what_it_is": "Open-source platform for managing the full lifecycle of API load testing, from authoring and scheduling tests to distributed execution and real-time reporting. Built on Artillery as its load-test engine and deployable on Kubernetes, DC/OS, or Docker.",
+  "components": [
+    "Predator manager (single orchestrator, Node.js)",
+    "Predator-Runner (worker container, runs Artillery tests)",
+    "React-based web UI",
+    "Relational database (PostgreSQL / MySQL / MSSQL / SQLite)",
+    "Kafka streaming integration for resource production",
+    "Kubernetes Chaos Mesh integration (v1.7.0+)"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS"
+  ],
+  "measurement": [
+    "Latency (min, max, median, p95, p99)",
+    "Requests per second (RPS)",
+    "HTTP status code distribution",
+    "Concurrent run aggregation across multiple runners",
+    "Real-time reporting dashboard"
+  ],
+  "configuration": [
+    "Cron expression scheduling for recurring test runs",
+    "Distributed load generation across unlimited runner instances",
+    "REST API for CI/CD integration",
+    "Prometheus and InfluxDB metrics export",
+    "Webhooks: Slack, Microsoft Teams, Discord, generic JSON",
+    "Helm chart for Kubernetes deployment",
+    "One-click Docker Engine installation"
+  ],
+  "fault_injection": [
+    "Kubernetes Chaos Mesh integration to inject faults and failures into the target environment during load tests (introduced v1.7.0)"
+  ],
+  "modes": [
+    "Load testing (stress / performance)",
+    "Functional testing with assertions"
+  ],
+  "constraints": [
+    "Predator-Runner Docker image version MUST match the manager's major.minor version — mismatches cause failures",
+    "Only tagged Docker image releases are supported; 'latest' tag is explicitly unsupported",
+    "Cassandra database support was dropped in v1.5.0 — only PostgreSQL, MySQL, MSSQL, SQLite are supported",
+    "Chaos Mesh fault injection requires a Kubernetes deployment; not available on plain Docker or DC/OS"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found in master or main branches (404)",
+    "No documented support for gRPC, WebSockets, or non-HTTP protocols",
+    "No explicit concurrency or test-duration hard limits documented",
+    "No built-in authentication mechanism details documented",
+    "Specific Artillery assertion types available through functional mode are not enumerated in the README"
+  ]
+}

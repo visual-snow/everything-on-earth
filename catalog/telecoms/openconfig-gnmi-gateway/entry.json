@@ -1,0 +1,54 @@
+{
+  "name": "OpenConfig gNMI Gateway",
+  "repo_url": "https://github.com/openconfig/gnmi-gateway",
+  "description": "Modular, distributed, and highly available service for connecting to multiple gNMI targets for network telemetry. Supports clustering via Zookeeper with Prometheus and Kafka exporters.",
+  "domain": "netconf",
+  "secondary_domains": [],
+  "protocols": [
+    "OpenConfig",
+    "gNMI",
+    "gRPC"
+  ],
+  "provides": [
+    "gnmi-gateway",
+    "gnmi-aggregator",
+    "telemetry-collection",
+    "prometheus-exporter",
+    "kafka-exporter",
+    "openconfig-streaming",
+    "grpc-telemetry-proxy",
+    "high-availability-clustering"
+  ],
+  "needs": [
+    "zookeeper-cluster",
+    "gnmi-targets",
+    "prometheus-server",
+    "kafka-broker"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 2,
+    "docker_evidence": "Examples showing Docker network bridges, gnmi-gateway and Prometheus containers on shared network."
+  },
+  "github_metrics": {
+    "stars": 200,
+    "last_commit": "2025-06",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Distributed gNMI gateway for scaling telemetry collection. Useful for evaluations involving high-availability telemetry architectures. Marked as experimental pre-release. Less active development since 2021. Designed for collecting and distributing gNMI telemetry at scale. Prometheus integration example included. Not a NOS itself but essential gNMI infrastructure.",
+  "related_repos": [
+    "https://github.com/openconfig/gnmi",
+    "https://github.com/openconfig/gnmic"
+  ],
+  "_sources": [
+    "discovery/monitoring.json",
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/restconf-gnmi-config.json",
+    "discovery/netconf-mgmt/virtual-nos.json"
+  ],
+  "slug": "openconfig-gnmi-gateway"
+}

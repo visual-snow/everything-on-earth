@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/scipag/vulscan",
+  "name": "scipag/vulscan",
+  "description": "Advanced vulnerability scanning Nmap NSE script that augments Nmap with CVE and vulnerability database lookups during port and service scanning.",
+  "sub_domain": "vuln-scanners",
+  "score": 6,
+  "score_rationale": "Useful Nmap extension for CVE-enriched scanning with 3.7k stars, actively maintained, providing a lightweight way to add vulnerability context to existing Nmap workflows.",
+  "stars": 3700,
+  "language": "Lua",
+  "license": null,
+  "last_activity": "2026-02-06",
+  "found_in_domains": [
+    "vuln-scanners"
+  ],
+  "quality_score": 64.5,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "scipag-vulscan"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/samueltardieu/pathfinding",
+  "name": "samueltardieu/pathfinding",
+  "description": "A Rust crate implementing pathfinding, flow, and graph algorithms including A*, Dijkstra, BFS, DFS, Edmonds-Karp, and Kuhn-Munkres with generic graph interfaces.",
+  "sub_domain": "pathfinding-navmesh",
+  "score": 7,
+  "score_rationale": "1k stars, Apache-2.0/MIT dual license, the standard pathfinding crate in the Rust game development ecosystem with active maintenance.",
+  "stars": 1000,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "pathfinding-navmesh"
+  ],
+  "quality_score": 66.0,
+  "tags": [
+    "rust",
+    "pathfinding",
+    "graph-algorithms"
+  ],
+  "category": "Pathfinding",
+  "summary": "Rust crate with pathfinding and graph algorithms for game development",
+  "slug": "samueltardieu-pathfinding"
+}

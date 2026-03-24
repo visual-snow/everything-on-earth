@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/kismetwireless/kismet",
+  "name": "kismetwireless/kismet",
+  "description": "Wireless network detector, sniffer, and intrusion detection system supporting WiFi, Bluetooth, BTLE, ZigBee, and other RF protocols via software-defined radio.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 8,
+  "score_rationale": "Industry-standard passive wireless monitoring and IDS platform with 2k+ stars on GitHub mirror; the reference tool for wireless network detection.",
+  "stars": 2079,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 74.5,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "kismetwireless-kismet"
+}

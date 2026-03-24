@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/davy7125/polyphone",
+  "name": "davy7125/polyphone",
+  "description": "A multiplatform open-source SoundFont editor for creating musical instruments, supporting sf2, sf3, sfz, and sfArk formats with a built-in MIDI synthesizer and automatic tuning tools.",
+  "sub_domain": "chiptune-trackers",
+  "score": 7,
+  "score_rationale": "The leading open-source SoundFont editor with 452 stars, actively maintained through 2025, filling a niche role in game audio asset creation.",
+  "stars": 452,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-19",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 63.2,
+  "tags": [
+    "soundfont",
+    "audio-editor",
+    "instrument",
+    "sf2-sf3",
+    "midi"
+  ],
+  "category": "Sound Editors",
+  "summary": "Leading SoundFont editor for game audio asset creation",
+  "slug": "davy7125-polyphone"
+}

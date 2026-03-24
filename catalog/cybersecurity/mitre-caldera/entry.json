@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mitre/caldera",
+  "name": "mitre/caldera",
+  "description": "Automated adversary emulation platform built on the MITRE ATT&CK framework, enabling red teams to automate attack chains and test defensive controls. Maintained by MITRE as the reference implementation for ATT&CK-based emulation.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 10,
+  "score_rationale": "MITRE-maintained, industry-standard adversary emulation platform with 6.8k stars and active development through 2025.",
+  "stars": 6800,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-04-24",
+  "found_in_domains": [
+    "pentest-frameworks",
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 90.7,
+  "tags": [
+    "security-tool",
+    "open-source",
+    "analysis"
+  ],
+  "category": "Security Tool",
+  "summary": "Automated adversary emulation platform built on the MITRE ATT&CK framework, enabling red teams to...",
+  "slug": "mitre-caldera"
+}

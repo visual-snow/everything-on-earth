@@ -1,0 +1,56 @@
+{
+  "name": "ODTN-emulator",
+  "repo_url": "https://github.com/opennetworkinglab/odtn-emulator",
+  "description": "ODTN project emulator running OpenConfig-compliant NETCONF devices using Netopeer2. Docker-compose creates multiple emulated optical transport nodes.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "odtn",
+    "optical-transport",
+    "tapi"
+  ],
+  "protocols": [
+    "NETCONF",
+    "YANG",
+    "SSH",
+    "TAPI"
+  ],
+  "provides": [
+    "openconfig-device-emulator",
+    "netconf-server",
+    "optical-transport-emulation",
+    "netopeer2-server",
+    "config-mutation",
+    "yang-datastore",
+    "ssh-server",
+    "tapi-emulator",
+    "multi-node-topology",
+    "sysrepo-datastore"
+  ],
+  "needs": [
+    "docker-compose",
+    "docker-engine",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "onosproject/oc-cassini",
+    "compose_services_count": 3,
+    "docker_evidence": "docker-compose up -d starts two OpenConfig emulators (ports 11002, 11003) and one TAPI emulator (port 11000). Built on libyang, libssh, libnetconf2, sysrepo, Netopeer."
+  },
+  "github_metrics": {
+    "stars": 0,
+    "last_commit": "unknown",
+    "language": "Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Optical transport-specific NETCONF emulators with OpenConfig models. Multi-device topology via docker-compose. Emulated node has 16 client QSFP28 + 16 line CFP2_ACO ports \u2014 realistic for optical transport config evals.",
+  "related_repos": [
+    "https://github.com/cesnet/netopeer2"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/netconf-servers.json"
+  ],
+  "slug": "odtn-emulator"
+}

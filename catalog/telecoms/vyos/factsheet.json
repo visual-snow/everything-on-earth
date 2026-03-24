@@ -1,0 +1,61 @@
+{
+  "slug": "vyos",
+  "name": "VyOS",
+  "what_it_is": "VyOS is an open-source network operating system for routers and firewalls built as a Debian-based GNU/Linux distribution. It packages a Linux kernel, FRR (Free Range Routing), and Netfilter into a unified, configurable network OS supporting a wide range of routing and VPN protocols.",
+  "components": [
+    "Linux Kernel",
+    "FRR (Free Range Routing) — handles BGP, OSPF, IS-IS, RIP",
+    "Netfilter — firewall and NAT",
+    "StrongSwan / libreswan — IPsec",
+    "OpenVPN",
+    "WireGuard",
+    "VRRP (keepalived)",
+    "Custom VyOS CLI and configuration system"
+  ],
+  "protocols": [
+    "BGP",
+    "OSPF",
+    "IS-IS",
+    "RIP",
+    "IPsec",
+    "OpenVPN",
+    "WireGuard",
+    "VRRP"
+  ],
+  "measurement": [
+    "No built-in metrics exporter confirmed in README",
+    "Interface statistics available via CLI show commands",
+    "Log output via syslog"
+  ],
+  "configuration": [
+    "Hierarchical CLI (similar to Junos-style set/commit/rollback model)",
+    "Configuration stored as a structured text file (config.boot)",
+    "Supports loading configuration at boot from config.boot",
+    "Build-time configuration via scripts/ and data/ directories",
+    "ISO build produces embedded Debian + VyOS packages"
+  ],
+  "fault_injection": [
+    "No fault injection tooling identified in the repository"
+  ],
+  "modes": [
+    "Operational mode — monitoring, show commands, ping, traceroute",
+    "Configuration mode — set/delete/commit/rollback",
+    "Docker container mode — build environment for compiling VyOS packages and ISO"
+  ],
+  "constraints": [
+    "Requires Docker for the standard build workflow; bare-metal builds are not the recommended path",
+    "Build targets Debian-based systems; non-Debian host environments may require additional setup",
+    "Separate git repositories for VyOS packages are managed as submodules, requiring recursive clone",
+    "Active development branch is 'current'; LTS branches (sagitta/1.4, equuleus/1.3) are maintained separately and may differ in feature availability"
+  ],
+  "docker_services": [
+    "vyos-build container — Debian-based build environment used to compile packages and produce the VyOS ISO; no docker-compose.yml found at root or docker/ paths on the current branch"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml found in the repository (404 at both root and docker/ paths on current branch)",
+    "No built-in network traffic generation or simulation tooling",
+    "No native metrics/telemetry exporter (e.g., Prometheus) confirmed in build repo",
+    "No fault injection or chaos engineering hooks identified",
+    "No GUI management interface — CLI only"
+  ]
+}

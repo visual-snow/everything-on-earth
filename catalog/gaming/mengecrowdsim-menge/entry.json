@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mengecrowdsim/menge",
+  "name": "MengeCrowdSim/Menge",
+  "description": "An open-source modular crowd simulation framework in C++ supporting multiple pedestrian behavior models with visualization and extensible plugin architecture.",
+  "sub_domain": "behavior-ai",
+  "score": 5,
+  "score_rationale": "151 stars and no longer actively maintained since 2018, but remains a solid reference implementation for game crowd simulation.",
+  "stars": 151,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2018-05-28",
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 47.5,
+  "tags": [
+    "crowd-simulation",
+    "pedestrian",
+    "behavior-modeling",
+    "c++",
+    "reference"
+  ],
+  "category": "Crowd Simulation",
+  "summary": "Modular crowd simulation framework with behavior models",
+  "slug": "mengecrowdsim-menge"
+}

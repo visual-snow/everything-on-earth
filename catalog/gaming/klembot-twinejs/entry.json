@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/klembot/twinejs",
+  "name": "klembot/twinejs",
+  "description": "Twine is an open-source tool for creating interactive, nonlinear stories without coding, publishing directly to HTML. The most widely used interactive fiction authoring platform with multiple story formats.",
+  "sub_domain": "dialogue-narrative",
+  "score": 9,
+  "score_rationale": "Dominant interactive fiction authoring tool with 2.7k stars, widely used in education and indie game development, actively maintained through late 2025.",
+  "stars": 2700,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2025-11-08",
+  "found_in_domains": [
+    "dialogue-narrative",
+    "visual-novel-engines"
+  ],
+  "quality_score": 81.5,
+  "tags": [
+    "interactive-fiction",
+    "story-authoring",
+    "visual-novel",
+    "narrative"
+  ],
+  "category": "Story & Fiction Authoring",
+  "summary": "Industry-leading interactive fiction authoring platform for nonlinear stories",
+  "slug": "klembot-twinejs"
+}

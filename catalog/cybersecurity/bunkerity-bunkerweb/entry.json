@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/bunkerity/bunkerweb",
+  "name": "bunkerity/bunkerweb",
+  "description": "Next-generation open-source Web Application Firewall built on NGINX with ModSecurity integration, bot blocking, Let's Encrypt HTTPS, supporting Docker, Kubernetes, and Linux deployments.",
+  "sub_domain": "webapp-security",
+  "score": 9,
+  "score_rationale": "10.2k stars, actively maintained modern WAF with multi-deployment support and recent 2026 activity.",
+  "stars": 10200,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 86.1,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "bunkerity-bunkerweb"
+}

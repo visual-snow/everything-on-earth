@@ -1,0 +1,65 @@
+{
+  "name": "Slice-Aware NTN",
+  "repo_url": "https://github.com/shynuu/slice-aware-ntn",
+  "description": "A Docker-based testbed integrating Non-Terrestrial Networks as slice-aware backhaul links in 5G networks, using free5GC and UERANSIM. Published at IEEE LCN 2021.",
+  "domain": "5g-network-slicing",
+  "secondary_domains": [
+    "non-terrestrial-network",
+    "ntn-integration",
+    "satellite-backhaul",
+    "slice-aware-qos"
+  ],
+  "protocols": [
+    "5G NR",
+    "NTN",
+    "network slicing"
+  ],
+  "provides": [
+    "slice-aware-routing",
+    "config-mutation",
+    "5g-core-amf",
+    "qos-management",
+    "traffic-generation",
+    "free5gc-core",
+    "multi-slice-orchestration",
+    "5g-core-smf",
+    "5g-core-pcf",
+    "gnb-simulation",
+    "network-slicing",
+    "5g-core-upf",
+    "ntn-backhaul",
+    "satellite-link-emulation",
+    "ue-simulation",
+    "ueransim-integration"
+  ],
+  "needs": [
+    "docker-compose",
+    "linux-kernel-5.4+",
+    "sctp-support",
+    "gtp-kernel-module",
+    "docker-hub-access"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "shynuu/sa-ntn",
+    "compose_services_count": 64,
+    "docker_evidence": "Pre-built images available on Docker HUB at https://hub.docker.com/r/shynuu/sa-ntn. Deploys 64 containers across scenarios including gNB, UEs, 5G control plane components (AMF, SMF, PCF), and application servers."
+  },
+  "github_metrics": {
+    "stars": 21,
+    "last_commit": "unknown",
+    "language": "Python",
+    "license": "unknown"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Directly relevant for NTN-5G integration evaluation. Agents could configure network slices over satellite backhaul, diagnose QoS issues, and manage slice-aware routing across terrestrial-satellite boundaries.",
+  "related_repos": [
+    "https://github.com/free5gc/free5gc",
+    "https://github.com/aligungr/ueransim"
+  ],
+  "_sources": [
+    "discovery/ntn-satellite.json"
+  ],
+  "slug": "slice-aware-ntn"
+}

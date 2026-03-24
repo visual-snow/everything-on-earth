@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/cpetry/normalmap-online",
+  "name": "cpetry/NormalMap-Online",
+  "description": "Browser-based normal map generator that runs entirely locally using WebGL, converting diffuse/height images into normal maps without any server uploads.",
+  "sub_domain": "asset-formats",
+  "score": 5,
+  "score_rationale": "Handy browser-based normal map tool with 533 stars, widely linked by artists, though it is a simple utility rather than a production pipeline component.",
+  "stars": 533,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2019-01-01",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 51.8,
+  "tags": [
+    "normal-maps",
+    "webgl",
+    "texture-generation"
+  ],
+  "category": "Normal Map Generator",
+  "summary": "Browser-based WebGL normal map generator with local client-side processing",
+  "slug": "cpetry-normalmap-online"
+}

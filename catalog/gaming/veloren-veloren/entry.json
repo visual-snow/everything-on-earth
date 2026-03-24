@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/veloren/veloren",
+  "name": "veloren/veloren",
+  "description": "Veloren is a multiplayer open-world voxel RPG written in Rust, inspired by Cube World, Dwarf Fortress, and Minecraft. Features procedural world generation and a full action-adventure experience.",
+  "sub_domain": "voxel-engines",
+  "score": 9,
+  "score_rationale": "7.1k stars, ambitious production-quality voxel RPG in Rust with active development and a large contributor community, showcasing what open-source voxel engines can achieve.",
+  "stars": 7100,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "voxel-engines"
+  ],
+  "quality_score": 84.8,
+  "tags": [
+    "voxel",
+    "rust",
+    "mmo",
+    "procedural-generation",
+    "action-rpg"
+  ],
+  "category": "Voxel Action RPG",
+  "summary": "Production-quality voxel RPG in Rust with procedural world generation",
+  "slug": "veloren-veloren"
+}

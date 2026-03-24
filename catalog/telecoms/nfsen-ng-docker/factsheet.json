@@ -1,0 +1,59 @@
+{
+  "slug": "nfsen-ng-docker",
+  "name": "nfsen-ng-docker",
+  "what_it_is": "A Docker Compose setup that runs nfsen-ng (a PHP/Apache NetFlow visualizer with RRD-backed graphs) alongside nfdump (a NetFlow/sFlow collector) with support for multiple concurrent flow sources. Each source is defined in a CSV config file and gets a dedicated capture daemon bound to a UDP port in the 9000–9099 range.",
+  "components": [
+    "nfsen-ng (PHP 7.4/Apache web UI — mbolli/nfsen-ng cloned at build time)",
+    "nfdump (Debian 10 package: nfdump + nfdump-sflow)",
+    "RRDtool (time-series storage for flow metrics)",
+    "nfsen entrypoint.sh (sources.conf parser that seeds nfsen-ng config at startup)",
+    "nfdump entrypoint.sh (launches sfcapd/nfcapd per source, watchdog loop every 60 s)"
+  ],
+  "protocols": [
+    "NetFlow v5/v9 (nfcapd collector)",
+    "IPFIX (nfcapd collector)",
+    "sFlow (sfcapd collector via nfdump-sflow)"
+  ],
+  "measurement": [
+    "Per-source RRD graphs (flows, packets, bytes) with configurable display: sources | protocols | ports",
+    "Flow table queries via nfdump binary (max 1 concurrent process by default)",
+    "Statistics view orderable by bytes",
+    "Frontend reload interval: 60 seconds",
+    "Default flow query limit: 200 records",
+    "Monitored ports for protocol breakdown: 80, 22, 53, 443"
+  ],
+  "configuration": [
+    "sources.conf — CSV file: 'device;port;proto' (proto: nflow | sflow), ports must be unique in 9000–9099",
+    "settings.php — nfsen-ng config: sources list, RRD DB, nfdump binary path, frontend defaults",
+    "docker-compose.yaml — exposes port 81→80 (web UI) and UDP 9000–9099 (collectors); shared profiles-data volume",
+    "ENV PROFILES_DATA_PATH=/var/nfdump/profiles-data (nfsen container)",
+    "Live reload: edit sources.conf then run 'docker-compose restart' — no rebuild required"
+  ],
+  "fault_injection": [
+    "Watchdog loop in nfdump entrypoint detects missing sfcapd/nfcapd processes every 60 s and exits (triggering Docker restart policy)",
+    "restart: unless-stopped on both services ensures automatic recovery after process failure"
+  ],
+  "modes": [
+    "graphs view (default) — RRD time-series per source, protocol, or port",
+    "flows view — paginated flow record table via nfdump query",
+    "statistics view — aggregated stats ordered by bytes/packets/flows"
+  ],
+  "constraints": [
+    "Source ports must be unique and within the UDP range 9000–9099; values outside this range are not mapped by docker-compose",
+    "Maximum 1 concurrent nfdump query process (max-processes: 1 in settings.php) — parallel flow queries are serialized",
+    "nfsen-ng source list is rewritten from sources.conf only at container startup; adding/removing sources requires a full stack restart",
+    "No authentication or TLS on the web UI — HTTP only on port 81",
+    "nfsen-ng is cloned from GitHub at image build time (no pinned version/commit), so builds are not reproducible without caching"
+  ],
+  "docker_services": [
+    "nfsen — PHP 7.4/Apache web UI, port 81:80/tcp, volume: ./profiles-data:/var/nfdump/profiles-data",
+    "nfdump — Debian 10 collector daemon(s), ports 9000-9099:9000-9099/udp, volume: ./profiles-data:/data"
+  ],
+  "notable_absences": [
+    "No authentication or access control on the web interface",
+    "No TLS/HTTPS configuration",
+    "No pinned upstream nfsen-ng version (git clone HEAD at build time)",
+    "No healthcheck directives in docker-compose.yaml",
+    "No support for NetFlow sources outside the 9000–9099 port range without editing docker-compose.yaml"
+  ]
+}

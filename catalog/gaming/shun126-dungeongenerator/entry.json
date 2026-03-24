@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shun126/dungeongenerator",
+  "name": "shun126/DungeonGenerator",
+  "description": "A procedural 3D dungeon generator Unreal Engine 5 plugin that creates levels, mini-maps, and mission graphs for roguelike games. Supports runtime generation with Blueprint integration and automatic room connectivity.",
+  "sub_domain": "procedural-generation",
+  "score": 7,
+  "score_rationale": "The leading open-source UE5 dungeon generation plugin with mission graph support and Blueprint-friendly API.",
+  "stars": 380,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2024-10-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 62.6,
+  "tags": [
+    "dungeon-generation",
+    "ue5",
+    "unreal",
+    "blueprint",
+    "mission-graph"
+  ],
+  "category": "UE5 Dungeon Plugin",
+  "summary": "UE5 plugin generating procedural dungeons with mission graphs and Blueprint integration.",
+  "slug": "shun126-dungeongenerator"
+}

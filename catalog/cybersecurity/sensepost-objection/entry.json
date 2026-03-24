@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/sensepost/objection",
+  "name": "sensepost/objection",
+  "description": "Runtime mobile exploration toolkit powered by Frida for assessing Android and iOS app security posture without requiring a jailbroken/rooted device; supports SSL pinning bypass, keychain dumping, and heap exploration.",
+  "sub_domain": "Mobile Security",
+  "score": 9,
+  "score_rationale": "Essential mobile pentesting tool with 9k stars providing pre-built Frida workflows; v1.12.3 released January 2026 confirms active maintenance.",
+  "stars": 9000,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 85.6,
+  "tags": [
+    "security-tool",
+    "open-source",
+    "analysis"
+  ],
+  "category": "Security Tool",
+  "summary": "Runtime mobile exploration toolkit powered by Frida for assessing Android and iOS app security po...",
+  "slug": "sensepost-objection"
+}

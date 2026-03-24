@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bomomby/optick",
+  "name": "bomomby/optick",
+  "description": "A super-lightweight C++ profiler for games providing instrumentation, context switching, sampling, and GPU counters. Features a standalone viewer and supports Direct3D 12 and Vulkan GPU profiling.",
+  "sub_domain": "game-devops-analytics",
+  "score": 8,
+  "score_rationale": "3.1k stars, MIT, popular lightweight game profiler used in commercial engines with good cross-platform support.",
+  "stars": 3100,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 75.9,
+  "tags": [
+    "profiling",
+    "performance",
+    "gpu",
+    "lightweight",
+    "cpp"
+  ],
+  "category": "Lightweight Game Profiler",
+  "summary": "Embeddable CPU/GPU profiler with standalone viewer for game optimization",
+  "slug": "bomomby-optick"
+}

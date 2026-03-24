@@ -1,0 +1,63 @@
+{
+  "name": "Contiv-VPP",
+  "repo_url": "https://github.com/contiv/vpp",
+  "description": "A Kubernetes CNI plugin employing FD.io VPP as a programmable CNF vSwitch, offering high-performance cloud-native networking and services for Kubernetes clusters.",
+  "domain": "cloud-native-networking",
+  "secondary_domains": [
+    "high-performance-vswitch",
+    "kubernetes-cni",
+    "network-emulation",
+    "vpp-dataplane"
+  ],
+  "protocols": [
+    "VPP",
+    "memif",
+    "TAP",
+    "VXLAN",
+    "SRv6",
+    "IPsec"
+  ],
+  "provides": [
+    "cni-plugin",
+    "vpp-vswitch",
+    "kubernetes-networking",
+    "vxlan-overlay",
+    "srv6-routing",
+    "ipsec-tunneling",
+    "memif-interface",
+    "tap-interface",
+    "network-policy-enforcement",
+    "service-load-balancing"
+  ],
+  "needs": [
+    "k8s-cluster",
+    "linux-kernel-4.15+",
+    "vagrant-environment",
+    "helm",
+    "etcd",
+    "vpp-compatible-nic"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "contivvpp/vswitch",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker folder contains Docker files and scripts for building Contiv-VPP Docker images (also available on Dockerhub). Deploys as system PODs in kube-system namespace."
+  },
+  "github_metrics": {
+    "stars": 263,
+    "last_commit": "unknown",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Kubernetes-native VPP networking. Good for testing CNI plugin scenarios and high-performance container networking. Vagrant-based development environment available.",
+  "related_repos": [
+    "https://github.com/fdio/vpp",
+    "https://github.com/ligato/vpp-agent"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "contiv-vpp"
+}

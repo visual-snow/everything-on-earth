@@ -1,0 +1,57 @@
+{
+  "name": "Ground Station",
+  "repo_url": "https://github.com/sgoudelis/ground-station",
+  "description": "Full-featured open-source satellite monitoring suite with web UI for satellite tracking, SDR waterfall display, signal decoding, TLE synchronization, antenna rotator control, and multi-SDR device management.",
+  "domain": "antenna-control",
+  "secondary_domains": [
+    "satellite-ground-station",
+    "sdr",
+    "telemetry-decoding"
+  ],
+  "protocols": [
+    "SDR",
+    "SoapySDR",
+    "GMSK",
+    "AX.25"
+  ],
+  "provides": [
+    "satellite-tracking",
+    "sdr-waterfall-display",
+    "signal-decoding",
+    "tle-synchronization",
+    "antenna-rotator-control",
+    "multi-sdr-device-management",
+    "ax25-decoding",
+    "gmsk-demodulation",
+    "web-dashboard",
+    "satellite-pass-scheduling"
+  ],
+  "needs": [
+    "sdr-hardware-or-emulator",
+    "soapysdr-driver",
+    "tle-data-source",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Multi-stage Dockerfile that builds the React frontend and a Python environment with SDR libraries. Supports AMD64 and ARM64 architectures."
+  },
+  "github_metrics": {
+    "stars": 3100,
+    "last_commit": "2025",
+    "language": "Python",
+    "license": "GPL-3.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Highly popular ground station software with Docker deployment. Agents could manage satellite pass scheduling, configure SDR parameters, decode telemetry, and troubleshoot signal reception issues.",
+  "related_repos": [
+    "https://github.com/daniestevez/gr-satellites"
+  ],
+  "_sources": [
+    "discovery/ntn-satellite.json"
+  ],
+  "slug": "ground-station"
+}

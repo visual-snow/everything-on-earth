@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/nvidiagameworks/flow",
+  "name": "NVIDIAGameWorks/Flow",
+  "description": "NVIDIA's sparse grid-based gaseous fluid simulation library for real-time interactive applications. Superseded by Flow 2 integrated into NVIDIA-Omniverse/PhysX, but the original provides a standalone reference implementation.",
+  "sub_domain": "fluid-cloth-simulation",
+  "score": 5,
+  "score_rationale": "215-star NVIDIA gas fluid library; historically notable but superseded by Flow 2 in the PhysX SDK and no longer standalone.",
+  "stars": 215,
+  "language": "C",
+  "license": "LicenseRef-NVIDIA",
+  "last_activity": "2017-06-14",
+  "found_in_domains": [
+    "fluid-cloth-simulation"
+  ],
+  "quality_score": 48.7,
+  "tags": [
+    "fluid-simulation",
+    "gas",
+    "nvidia",
+    "real-time"
+  ],
+  "category": "Fluid Simulation",
+  "summary": "NVIDIA gaseous fluid simulation library for real-time effects",
+  "slug": "nvidiagameworks-flow"
+}

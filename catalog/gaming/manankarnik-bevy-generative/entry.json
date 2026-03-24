@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/manankarnik/bevy_generative",
+  "name": "manankarnik/bevy_generative",
+  "description": "A Bevy engine plugin for real-time procedural generation of maps, textures, terrain, and planets using noise and configurable parameters. Provides a unified API for multiple generation types within the Bevy ECS framework.",
+  "sub_domain": "procedural-generation",
+  "score": 7,
+  "score_rationale": "The primary procedural generation plugin for the rapidly growing Bevy ecosystem covering terrain, planets, and textures in one package.",
+  "stars": 180,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2024-06-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 60.1,
+  "tags": [
+    "bevy",
+    "procedural-generation",
+    "terrain",
+    "plugin",
+    "ecs"
+  ],
+  "category": "Bevy Generation Plugin",
+  "summary": "Bevy plugin for real-time procedural generation of terrain, planets, maps, and textures.",
+  "slug": "manankarnik-bevy-generative"
+}

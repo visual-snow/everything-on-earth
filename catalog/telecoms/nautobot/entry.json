@@ -1,0 +1,66 @@
+{
+  "name": "Nautobot",
+  "repo_url": "https://github.com/nautobot/nautobot",
+  "description": "Network Source of Truth and Network Automation Platform built on Django. Fork/evolution of NetBox with enhanced automation capabilities, plugin system, GraphQL, and native Git integration.",
+  "domain": "infrastructure-modeling",
+  "secondary_domains": [
+    "netconf"
+  ],
+  "protocols": [
+    "GraphQL",
+    "HTTP/REST API"
+  ],
+  "provides": [
+    "rest-api-server",
+    "graphql-api",
+    "network-source-of-truth",
+    "ip-address-management",
+    "dcim-modeling",
+    "network-automation-platform",
+    "web-dashboard",
+    "plugin-system",
+    "git-integration",
+    "device-inventory",
+    "circuit-management",
+    "vlan-management",
+    "prefix-management"
+  ],
+  "needs": [
+    "postgresql",
+    "redis"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "networktocode/nautobot",
+    "compose_services_count": 5,
+    "docker_evidence": "Docker Compose deploys Nautobot application, worker container, Redis, and PostgreSQL."
+  },
+  "github_metrics": {
+    "stars": 2400,
+    "last_commit": "2026-03-22",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Modern network automation platform with plugin system. Useful for evaluations involving network data modeling, automation workflows, and API-driven network management.",
+  "related_repos": [
+    "https://github.com/nautobot/nautobot-docker-compose",
+    "https://github.com/nautobot/nautobot-lab",
+    "https://github.com/nautobot/nornir-nautobot",
+    "nautobot/nautobot-app-golden-config",
+    "nautobot/nautobot-app-nornir",
+    "nautobot/nautobot-app-ssot",
+    "nautobot/nautobot-docker-compose",
+    "nautobot/nautobot-lab",
+    "nautobot/nornir-nautobot",
+    "networktocode/diffsync"
+  ],
+  "_sources": [
+    "discovery/monitoring.json",
+    "discovery/netconf-mgmt/config-compliance.json",
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/netauto-frameworks.json"
+  ],
+  "slug": "nautobot"
+}

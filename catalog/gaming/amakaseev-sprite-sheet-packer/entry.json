@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/amakaseev/sprite-sheet-packer",
+  "name": "amakaseev/sprite-sheet-packer",
+  "description": "Qt-based GUI and CLI sprite sheet packer supporting multiple resolutions, batch packing, and transparency trimming across macOS, Windows, and Linux.",
+  "sub_domain": "asset-formats",
+  "score": 4,
+  "score_rationale": "Reasonable sprite sheet tool with 329 stars but abandoned since 2017 and lacking modern engine export formats compared to alternatives.",
+  "stars": 329,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2017-05-22",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 44.1,
+  "tags": [
+    "sprite-atlas",
+    "batch-packing",
+    "qt"
+  ],
+  "category": "Sprite Sheet Packer",
+  "summary": "Qt sprite sheet packer with batch processing and transparency trimming",
+  "slug": "amakaseev-sprite-sheet-packer"
+}

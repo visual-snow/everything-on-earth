@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/intuitem/ciso-assistant-community",
+  "name": "intuitem/ciso-assistant-community",
+  "description": "One-stop-shop GRC platform for Risk Management, AppSec, Compliance, Audit, TPRM, Privacy, and Reporting with support for 100+ global frameworks including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, and HIPAA with automatic control mapping.",
+  "sub_domain": "compliance-policy",
+  "score": 8,
+  "score_rationale": "Rapidly growing open-source GRC platform with 3.7k stars, actively maintained through March 2026, supporting the broadest framework coverage of any open-source GRC tool.",
+  "stars": 3700,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "compliance-policy"
+  ],
+  "quality_score": 76.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "intuitem-ciso-assistant-community"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gaijinentertainment/quirrel",
+  "name": "GaijinEntertainment/quirrel",
+  "description": "A stricter, safer, faster evolution of Squirrel developed by Gaijin Entertainment (War Thunder), featuring coroutines, exception handling, and improved static analysis tooling.",
+  "sub_domain": "game-scripting",
+  "score": 6,
+  "score_rationale": "217 stars, niche but production-proven in major titles from Gaijin Entertainment, represents the modern evolution of the Squirrel language.",
+  "stars": 217,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-scripting"
+  ],
+  "quality_score": 54.7,
+  "tags": [
+    "squirrel-variant",
+    "gaijin",
+    "war-thunder",
+    "strict",
+    "analysis"
+  ],
+  "category": "Squirrel Variant",
+  "summary": "Enhanced Squirrel variant by War Thunder developers",
+  "slug": "gaijinentertainment-quirrel"
+}

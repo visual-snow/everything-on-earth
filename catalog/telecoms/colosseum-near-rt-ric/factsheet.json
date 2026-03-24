@@ -1,0 +1,64 @@
+{
+  "slug": "colosseum-near-rt-ric",
+  "name": "Colosseum Near-Real-Time RIC",
+  "what_it_is": "A minimal O-RAN Software Community near-real-time RIC (Bronze release) adapted for the Colosseum wireless network emulator, providing E2 termination, E2 manager, routing manager, and Redis database as Docker containers. Part of the OpenRAN Gym project, it supports concurrent multi-base-station and multi-xApp connections with improved E2AP message encoding/decoding.",
+  "components": [
+    "e2term — E2 termination container (handles SCTP connections from RAN nodes, port 36422)",
+    "e2mgr — E2 manager container (manages E2 node lifecycle, RMR port 3801/38010/4801)",
+    "e2rtmansim — Routing manager simulator container",
+    "db — Redis database container (dbaas, port 6379)",
+    "sample-xapp — Sample xApp container connecting to SCOPE RAN via E2 termination",
+    "xapp-sm-connector — Service model connector performing ASN.1 encoding/decoding of E2AP messages"
+  ],
+  "protocols": [
+    "E2AP — E2 application protocol between RAN nodes and e2term",
+    "SCTP — Transport for E2 interface (e2term listens on port 36422)",
+    "RMR — RIC Message Router for inter-container messaging (routes keyed by message type IDs)",
+    "Redis (RESP) — In-memory state store between e2mgr and db on port 6379"
+  ],
+  "measurement": [
+    "RIC Indication Messages received from RAN node at 250 ms periodicity (default xApp subscription interval)",
+    "e2term container logs expose gNB connection events and message processing latency (nanosecond resolution shown in debug logs)"
+  ],
+  "configuration": [
+    "RIC_INTERFACE — network interface e2term binds to for SCTP (e.g., col0, can0, brric); passed as CLI arg to setup-ric.sh",
+    "RIC_SUBNET=10.0.2.0/24, RIC_IP=10.0.2.1 — Docker bridge network subnet defined in setup-lib.sh",
+    "E2TERM_IP=10.0.2.10, E2TERM_SCTP_PORT=36422 — E2 termination address",
+    "E2MGR_IP=10.0.2.11, DBAAS_IP=10.0.2.12, DBAAS_PORT=6379, E2RTMANSIM_IP=10.0.2.15, XAPP_IP=10.0.2.24",
+    "RIC_ID env var for e2mgr (default 7b0000-000000/18)",
+    "router.txt — static RMR routing table mounted read-only into e2term and e2mgr containers; maps message type IDs to container IPs/ports",
+    "e2term_config.conf — mounted into e2term; sets nano port, loglevel, local-ip, sctp-port, trace mode, external-fqdn",
+    "GNB_ID — gNB identifier (format gnb:MCC-MNC-ID, e.g., gnb:311-048-01000501) injected into xApp at startup via sed",
+    "XAPP_ID — last octet of XAPP_IP used as xApp identifier for RMR routing"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanisms documented; containers can be killed/restarted individually via docker kill/docker rm to simulate component failures"
+  ],
+  "modes": [
+    "Colosseum mode (default) — e2term exposes SCTP port via Docker NAT on the physical RIC_INTERFACE (e.g., col0)",
+    "Arena mode (--arena flag) — e2term runs without Docker NAT rules for co-located RIC and DU on the same machine (uses brric bridge interface)"
+  ],
+  "constraints": [
+    "Designed exclusively for Colosseum LXC container environment; base Docker images are only available to Colosseum users via the coloran-near-rt-ric-prebuilt container image",
+    "No docker-compose file — containers are orchestrated exclusively through shell scripts (setup-ric.sh, setup-sample-xapp.sh); no Kubernetes or Helm support at this layer",
+    "Static RMR routing table (router.txt) must be manually regenerated and containers restarted if xApp IP or message type assignments change",
+    "Single xApp IP slot pre-allocated (10.0.2.24); running multiple xApps requires modifying setup-lib.sh and regenerating routing table",
+    "Bronze release baseline — does not include A1 interface, O1 interface, or SDL (Shared Data Layer) federation present in later O-RAN SC releases"
+  ],
+  "docker_services": [
+    "db — Redis (dbaas:latest), IP 10.0.2.12, port 6379, network: ric",
+    "e2rtmansim — Routing manager simulator (e2rtmansim:latest), IP 10.0.2.15, network: ric",
+    "e2mgr — E2 manager (e2mgr:latest), IP 10.0.2.11, env: RIC_ID, DBAAS_PORT_6379_TCP_ADDR, mounts router.txt, network: ric",
+    "e2term — E2 termination (e2term:latest), IP 10.0.2.10, SCTP port 36422 published on RIC_INTERFACE, mounts router.txt + e2term_config.conf, network: ric",
+    "sample-xapp-24 — Sample xApp (sample-xapp:latest), IP 10.0.2.24, env: DBAAS_SERVICE_HOST/PORT, GNB_ID injected at runtime, network: ric"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — container lifecycle managed entirely by shell scripts",
+    "No A1 interface or A1 mediator component",
+    "No O1/NETCONF management interface",
+    "No AppMgr (xApp manager/onboarder) from standard O-RAN SC stack",
+    "No built-in metrics/monitoring stack (no Prometheus, Grafana, or VES collector)",
+    "No SDL (Shared Data Layer) cluster — single Redis instance only",
+    "No xApp descriptor or onboarding workflow — xApp is hardcoded and started via shell script"
+  ]
+}

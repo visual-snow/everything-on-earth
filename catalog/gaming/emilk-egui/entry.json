@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/emilk/egui",
+  "name": "emilk/egui",
+  "description": "An easy-to-use immediate mode GUI in Rust that runs on both web (WASM) and native platforms. Widely used for game tooling via bevy_egui integration.",
+  "sub_domain": "game-ui",
+  "score": 9,
+  "score_rationale": "The go-to immediate mode GUI for Rust game development with 28.5k stars and active maintenance as of March 2026.",
+  "stars": 28500,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 89.6,
+  "tags": [
+    "rust",
+    "immediate-mode",
+    "gui",
+    "wasm",
+    "bevy"
+  ],
+  "category": "Rust Game UI",
+  "summary": "Cross-platform immediate-mode GUI for Rust games",
+  "slug": "emilk-egui"
+}

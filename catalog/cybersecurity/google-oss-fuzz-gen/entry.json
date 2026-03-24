@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/oss-fuzz-gen",
+  "name": "google/oss-fuzz-gen",
+  "description": "LLM-powered framework for automatically generating and evaluating fuzz targets for C/C++/Java/Python projects using large language models, benchmarked via the OSS-Fuzz platform.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 7,
+  "score_rationale": "Emerging AI-driven fuzzing automation from Google with 1.4k stars, representing the cutting edge of LLM-assisted vulnerability discovery.",
+  "stars": 1400,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-06-01",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 67.2,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "google-oss-fuzz-gen"
+}

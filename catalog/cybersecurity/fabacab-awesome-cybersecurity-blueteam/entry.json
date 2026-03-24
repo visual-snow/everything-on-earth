@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/fabacab/awesome-cybersecurity-blueteam",
+  "name": "fabacab/awesome-cybersecurity-blueteam",
+  "description": "A curated collection of awesome resources, tools, and other shiny things for cybersecurity blue teams, emphasizing free and open-source projects across defensive security domains including incident response, monitoring, and threat intelligence.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 9,
+  "score_rationale": "The canonical blue team resource list with 5.2k stars, widely referenced as the starting point for defensive security tooling.",
+  "stars": 5200,
+  "language": "Markdown",
+  "license": "CC-BY-4.0",
+  "last_activity": "2024-07-15",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 83.7,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated collection of awesome resources, tools, and other shiny things for cybersecurity blue team",
+  "slug": "fabacab-awesome-cybersecurity-blueteam"
+}

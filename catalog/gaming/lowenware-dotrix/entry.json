@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lowenware/dotrix",
+  "name": "lowenware/dotrix",
+  "description": "A 3D game engine with ECS architecture and Vulkan renderer for Rust developers, focused on multithreaded performance and modern graphics.",
+  "sub_domain": "game-engines-3d",
+  "score": 4,
+  "score_rationale": "311 stars, Rust Vulkan engine with ECS that is still in early development and migration phase with limited production readiness.",
+  "stars": 311,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2023-01-01",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 44.0,
+  "tags": [
+    "3d-game-engine",
+    "rust",
+    "vulkan",
+    "ecs",
+    "early-stage"
+  ],
+  "category": "Rust Vulkan ECS Engine",
+  "summary": "Early-stage Rust 3D engine with Vulkan and ECS architecture",
+  "slug": "lowenware-dotrix"
+}

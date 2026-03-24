@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/turanszkij/wickedengine",
+  "name": "turanszkij/WickedEngine",
+  "description": "Open-source 3D engine with modern graphics using DirectX 12, Vulkan, and Metal; supports ray tracing, global illumination, LUA scripting, and runs on Windows, Linux, macOS, and consoles.",
+  "sub_domain": "graphics-rendering",
+  "score": 9,
+  "score_rationale": "Feature-rich modern rendering engine with 6.9k stars, actively maintained with console support and cutting-edge rendering techniques.",
+  "stars": 6900,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-01-22",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 84.7,
+  "tags": [
+    "graphics",
+    "rendering",
+    "ray-tracing"
+  ],
+  "category": "3D Engine",
+  "summary": "Modern 3D engine with ray tracing and global illumination",
+  "slug": "turanszkij-wickedengine"
+}

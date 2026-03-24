@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/boardgameio/boardgame.io",
+  "name": "boardgameio/boardgame.io",
+  "description": "An open-source state management and multiplayer networking engine for turn-based games including card and board games, handling game logic, networking, and storage in JavaScript/TypeScript.",
+  "sub_domain": "visual-novel-engines",
+  "score": 8,
+  "score_rationale": "12.3k stars, widely used for turn-based and card game development with built-in multiplayer \u2014 highly relevant for the card game framework query.",
+  "stars": 12300,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "visual-novel-engines"
+  ],
+  "quality_score": 80.7,
+  "tags": [
+    "boardgame",
+    "turn-based",
+    "multiplayer",
+    "card-game",
+    "networking"
+  ],
+  "category": "Board Game Framework",
+  "summary": "Multiplayer turn-based game engine for card and board games in JavaScript",
+  "slug": "boardgameio-boardgame-io"
+}

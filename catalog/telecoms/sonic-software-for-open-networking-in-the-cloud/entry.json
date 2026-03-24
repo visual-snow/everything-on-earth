@@ -1,0 +1,74 @@
+{
+  "name": "SONiC (Software for Open Networking in the Cloud)",
+  "repo_url": "https://github.com/sonic-net/sonic",
+  "description": "Free and open-source network operating system based on Linux for switches from multiple vendors. Modular Docker container architecture with each network function in its own container.",
+  "domain": "data-center-networking",
+  "secondary_domains": [
+    "hyperscaler-infrastructure",
+    "open-networking",
+    "switch-os"
+  ],
+  "protocols": [
+    "BGP",
+    "ECMP",
+    "LACP",
+    "LLDP",
+    "OSPF",
+    "PFC",
+    "QoS",
+    "RDMA",
+    "SNMP",
+    "sFlow"
+  ],
+  "provides": [
+    "virtual-switch-sonic-vs",
+    "network-operating-system",
+    "qos-management",
+    "snmp-agent",
+    "containerized-nos",
+    "containerlab-integration",
+    "data-center-switching",
+    "lacp-bonding",
+    "rdma-support",
+    "config-mutation",
+    "ospf-routing",
+    "lldp-discovery",
+    "ecmp-load-balancing",
+    "pfc-flow-control",
+    "modular-docker-architecture",
+    "bgp-routing",
+    "sflow-telemetry"
+  ],
+  "needs": [
+    "linux-kernel-5.4+",
+    "containerlab",
+    "docker-engine",
+    "x86-64-host",
+    "privileged-container-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "docker-sonic-vs",
+    "compose_services_count": 0,
+    "docker_evidence": "Each network function runs in its own Docker container. SONiC-VS (Virtual Switch) available as Docker container for containerlab integration."
+  },
+  "github_metrics": {
+    "stars": 2700,
+    "last_commit": "2026-03",
+    "language": "HTML",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Production NOS used by hyperscalers (Azure, etc.). Docker-native architecture makes it ideal for studying modular switch OS design. Build system creates Docker images per network function. GNS3 and containerlab support for virtual labs. Linux Foundation project used in hyperscaler data centers (Azure, etc). SONiC-VS container runs in containerlab for virtual testing. Good for data center networking evaluations.",
+  "related_repos": [
+    "https://github.com/sonic-net/sonic-buildimage",
+    "https://github.com/sonic-net/sonic-swss",
+    "https://github.com/sonic-net/sonic-utilities"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json",
+    "discovery/transport.json"
+  ],
+  "slug": "sonic-software-for-open-networking-in-the-cloud"
+}

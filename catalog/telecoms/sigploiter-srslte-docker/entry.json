@@ -1,0 +1,56 @@
+{
+  "name": "SigPloiter srsLTE-docker",
+  "repo_url": "https://github.com/sigploiter/srslte-docker",
+  "description": "Docker implementation for srsRAN Project. Includes srsUE, srsENB and srsEPC applications with configuration files.",
+  "domain": "epc",
+  "secondary_domains": [
+    "lte",
+    "security-testing",
+    "srsran"
+  ],
+  "protocols": [
+    "LTE",
+    "S1AP",
+    "GTP-U",
+    "NAS"
+  ],
+  "provides": [
+    "lte-enb",
+    "lte-ue-simulation",
+    "lte-epc",
+    "s1ap-signaling",
+    "gtp-u-tunneling",
+    "nas-emulation",
+    "virtual-network-interface",
+    "pre-configured-lte-stack"
+  ],
+  "needs": [
+    "docker-engine",
+    "docker-compose",
+    "linux-host",
+    "sctp-support",
+    "tun-tap-kernel-module"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 3,
+    "docker_evidence": "Installation script for Docker setup. Contains srsUE, srsENB, srsEPC with example configurations. Creates virtual network interface 'srs_spgw_sgi' with IP 172.16.0.1."
+  },
+  "github_metrics": {
+    "stars": 20,
+    "last_commit": "unknown",
+    "language": "Dockerfile",
+    "license": "unknown"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Telecom security-focused Docker deployment from SigPloiter. Good for security testing evals. Pre-configured with default settings for quick startup.",
+  "related_repos": [
+    "https://github.com/srsran/srsran_4g"
+  ],
+  "_sources": [
+    "discovery/ran-ue.json"
+  ],
+  "slug": "sigploiter-srslte-docker"
+}

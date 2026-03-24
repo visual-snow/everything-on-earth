@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/wolfssl/wolfssl",
+  "name": "wolfSSL/wolfssl",
+  "description": "A lightweight, fast TLS/SSL library for embedded devices and IoT, supporting TLS 1.3 and DTLS 1.3. Up to 20x smaller than OpenSSL with FIPS certifications and post-quantum TLS support.",
+  "sub_domain": "cryptography",
+  "score": 8,
+  "score_rationale": "Strong embedded TLS library with 2.8k stars, actively maintained through March 2026, widely used in IoT and embedded security applications.",
+  "stars": 2800,
+  "language": "C",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 75.6,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "wolfssl-wolfssl"
+}

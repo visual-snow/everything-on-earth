@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/binomialllc/crunch",
+  "name": "BinomialLLC/crunch",
+  "description": "Advanced DXTn texture compression library and tool providing lossy compression for DXT1/5/N and 3DC formats, enabling transcoding at 100-250 megatexels/sec for game texture pipelines.",
+  "sub_domain": "asset-formats",
+  "score": 6,
+  "score_rationale": "Historically significant DXT compression tool with 895 stars; now archived but still referenced as a baseline for DXTn compression techniques.",
+  "stars": 895,
+  "language": "C++",
+  "license": "LicenseRef-crunch",
+  "last_activity": "2026-02-02",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 59.6,
+  "tags": [
+    "dxt-compression",
+    "texture-compression",
+    "legacy"
+  ],
+  "category": "DXT Compression",
+  "summary": "DXT1/5/N texture compression at 100-250 megatexels/sec for legacy formats",
+  "slug": "binomialllc-crunch"
+}

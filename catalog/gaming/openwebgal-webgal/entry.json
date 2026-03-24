@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openwebgal/webgal",
+  "name": "OpenWebGAL/WebGAL",
+  "description": "A modern web-based visual novel engine with a graphical editor and scripting language, supporting cross-platform publishing and Pixi.js effects without requiring programming knowledge.",
+  "sub_domain": "visual-novel-engines",
+  "score": 8,
+  "score_rationale": "3.7k stars, actively maintained through early 2026 with a visual editor making it accessible to non-programmers.",
+  "stars": 3700,
+  "language": "TypeScript",
+  "license": "MPL-2.0",
+  "last_activity": "2026-02-16",
+  "found_in_domains": [
+    "visual-novel-engines"
+  ],
+  "quality_score": 76.5,
+  "tags": [
+    "visual-novel",
+    "web",
+    "graphical-editor",
+    "pixi.js",
+    "typescript"
+  ],
+  "category": "Web Visual Novel Engine",
+  "summary": "Web-based visual novel engine with graphical editor for non-programmers",
+  "slug": "openwebgal-webgal"
+}

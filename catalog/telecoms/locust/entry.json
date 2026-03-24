@@ -1,0 +1,52 @@
+{
+  "name": "Locust",
+  "repo_url": "https://github.com/locustio/locust",
+  "description": "Open-source performance/load testing tool allowing test scenarios defined in regular Python code, with event-based architecture and web-based UI.",
+  "domain": "api-stress-testing",
+  "secondary_domains": [
+    "load-testing",
+    "performance-benchmarking"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS",
+    "SocketIO",
+    "Custom"
+  ],
+  "provides": [
+    "load-testing",
+    "traffic-generation",
+    "http-client",
+    "distributed-testing",
+    "web-dashboard",
+    "custom-protocol-client",
+    "python-test-scripting",
+    "real-time-metrics",
+    "performance-benchmarking"
+  ],
+  "needs": [
+    "target-service-under-test",
+    "python-3.8+",
+    "compose-stack-for-multi-node"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "locustio/locust",
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present; Dockerfile.ci and Dockerfile.otel variants; Docker Hub: locustio/locust"
+  },
+  "github_metrics": {
+    "stars": 27600,
+    "last_commit": "2026-02-12",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Python-native load testing (27k+ stars) with distributed testing support. Custom client implementations allow testing any protocol. Real-time web UI. Excellent for writing agentic evaluation scenarios in Python.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "locust"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/greenbone/openvas-scanner",
+  "name": "greenbone/openvas-scanner",
+  "description": "Full-featured network vulnerability scanner component of the Greenbone Community Edition, executing over 150,000 continuously updated vulnerability tests.",
+  "sub_domain": "vuln-scanners",
+  "score": 8,
+  "score_rationale": "The open source reference network vulnerability scanner with 4.5k stars, GPL-2.0 licensed, actively maintained with the largest free vulnerability test feed available.",
+  "stars": 4500,
+  "language": "Rust",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "vuln-scanners"
+  ],
+  "quality_score": 77.2,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "greenbone-openvas-scanner"
+}

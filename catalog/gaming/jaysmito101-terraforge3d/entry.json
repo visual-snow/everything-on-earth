@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jaysmito101/terraforge3d",
+  "name": "Jaysmito101/TerraForge3D",
+  "description": "A cross-platform procedural terrain generation and texturing tool featuring a node editor with 40+ nodes, hydraulic and wind erosion algorithms, and GLSL shader export. Fully free and open-source as a standalone application.",
+  "sub_domain": "procedural-generation",
+  "score": 8,
+  "score_rationale": "Feature-rich standalone terrain tool rivaling commercial products, with node-based editing and multiple erosion simulations.",
+  "stars": 1800,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2023-12-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 74.0,
+  "tags": [
+    "terrain-generation",
+    "node-editor",
+    "erosion-simulation",
+    "texturing",
+    "tool"
+  ],
+  "category": "Terrain Generation Tool",
+  "summary": "Cross-platform terrain tool with node editor, 40+ nodes, and hydraulic/wind erosion simulation.",
+  "slug": "jaysmito101-terraforge3d"
+}

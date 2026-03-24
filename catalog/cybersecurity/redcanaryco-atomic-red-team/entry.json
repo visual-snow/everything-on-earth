@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/redcanaryco/atomic-red-team",
+  "name": "redcanaryco/atomic-red-team",
+  "description": "Library of small, highly portable detection tests mapped to MITRE ATT&CK, allowing security teams to rapidly validate detection controls across techniques. The most widely used ATT&CK test corpus in the industry.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 10,
+  "score_rationale": "11.7k stars, maintained by Red Canary, and the de-facto standard for ATT&CK-aligned detection validation across the industry.",
+  "stars": 11700,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-03-18",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 92.5,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "redcanaryco-atomic-red-team"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/valvesoftware/gamenetworkingsockets",
+  "name": "ValveSoftware/GameNetworkingSockets",
+  "description": "Valve's internal game networking transport layer providing reliable/unreliable UDP messages, P2P NAT traversal, message fragmentation, and AES-GCM encryption; same API as Steam Datagram Relay.",
+  "sub_domain": "game-networking",
+  "score": 10,
+  "score_rationale": "Essential networking library from Valve with 9.3k stars, battle-tested in production on Steam with encrypted P2P NAT traversal and the same API as the commercial Steam SDK.",
+  "stars": 9300,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-09-09",
+  "found_in_domains": [
+    "game-networking"
+  ],
+  "quality_score": 91.7,
+  "tags": [
+    "game-networking",
+    "p2p",
+    "nat-traversal",
+    "encryption",
+    "steam"
+  ],
+  "category": "Game Networking Library",
+  "summary": "Valve's battle-tested P2P networking with encrypted NAT traversal",
+  "slug": "valvesoftware-gamenetworkingsockets"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "poseidon",
+  "name": "Poseidon",
+  "what_it_is": "Poseidon is an SDN-based network situational awareness tool that uses Software Defined Networking and machine learning to automatically capture network traffic via port mirroring, extract IP header features, and classify devices on the network. It integrates tightly with the FAUCET SDN controller to dynamically reconfigure mirroring and apply ACLs based on ML-derived device roles.",
+  "components": [
+    "poseidon (core orchestrator, exposes Prometheus metrics on :9304)",
+    "poseidon_api (REST API on :5000/:8000)",
+    "network_tap (traffic capture orchestrator, manages ncapture containers)",
+    "workers (ML classification workers, spawns Docker containers per capture job)",
+    "rabbit / RabbitMQ (message broker for FAUCET events and internal coordination)",
+    "rabbitmq_adapter / event-adapter-rabbitmq (bridges FAUCET event socket to RabbitMQ)",
+    "faucetconfrpc (gRPC server for remote FAUCET config management, :59999)",
+    "faucet_certstrap (one-shot TLS cert generator for faucetconfrpc)",
+    "NetworkML (external ML classifier, referenced via network-tools)",
+    "ncapture (per-host pcap capture sidecar, from IQTLabs/network-tools)"
+  ],
+  "protocols": [
+    "OpenFlow 1.3 (SDN data plane via FAUCET)",
+    "RabbitMQ AMQP (FAUCET.Event messages, routing key FAUCET.Event)",
+    "gRPC / faucetconfrpc (remote FAUCET YAML config updates, port 59999)",
+    "REST HTTP (poseidon_api on port 5000)",
+    "Prometheus exposition format (metrics scrape on port 9304)",
+    "PCAP / libpcap (raw traffic capture via ncapture)"
+  ],
+  "measurement": [
+    "Prometheus metrics endpoint at :9304 (poseidon container)",
+    "poseidon_last_rabbitmq_routing_key_time gauge tracks last FAUCET.Event received timestamp",
+    "pcap files accumulated in /opt/poseidon_files (configurable via POSEIDON_PREFIX)",
+    "Per-host traffic captures written as trace_<hash>_<timestamp>.pcap",
+    "reinvestigation_frequency (default 900s) controls periodic re-classification cadence",
+    "scan_frequency (default 5s) controls polling interval"
+  ],
+  "configuration": [
+    "Primary config: /opt/poseidon/poseidon.config (INI format, sections: Poseidon, Faucet, VOLOS, PIPETTE)",
+    "controller_type: must be set to 'faucet'",
+    "collector_nic: NIC interface name receiving mirrored traffic (must be up before Poseidon starts)",
+    "controller_mirror_ports: JSON dict mapping switch name to mirror port number",
+    "controller_proxy_mirror_ports: JSON dict for switches without dedicated mirror ports",
+    "faucetconfrpc_address: gRPC endpoint for FAUCET config (default faucetconfrpc:59999)",
+    "tunnel_vlan / tunnel_name: VLAN ID and ACL name for FAUCET remote mirroring tunnels",
+    "POSEIDON_PREFIX env var: installation prefix (default /opt)",
+    "FAUCET_EVENT_SOCK=1 and FAUCET_CONFIG_STAT_RELOAD=1 must be set on the FAUCET container",
+    "automated_acls: whether Poseidon automatically applies ACL rules (default False)",
+    "ignore_vlans, ignore_ports, trunk_ports: JSON dicts/lists for exclusions"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework; no chaos or failure simulation features documented",
+    "Troubleshooting relies on inspecting RabbitMQ adapter status and pcap accumulation manually"
+  ],
+  "modes": [
+    "poseidon start: full mode — Poseidon manages and starts FAUCET alongside itself",
+    "poseidon start --standalone: standalone mode — connects to a separately-managed FAUCET instance",
+    "Faucet stacking mode: single Poseidon mirror port on root switch with loopback plugs on non-root switches; Poseidon auto-detects and uses FAUCET tunneling",
+    "Remote FAUCET mode: faucetconfrpc and rabbitmq_adapter run on Faucet host, Poseidon on separate host"
+  ],
+  "constraints": [
+    "Requires a physical or virtual FAUCET SDN controller running OpenFlow 1.3; not compatible with arbitrary SDN controllers",
+    "collector_nic interface must be up and connected to the switch mirror port BEFORE Poseidon starts — it will not detect hosts if the interface is down at startup",
+    "Only one collector_nic supported per Poseidon instance; to mirror multiple switches centrally, FAUCET stacking must be used",
+    "Requires ~10 GB free disk space for pcap storage in /opt/poseidon_files",
+    "Docker overlay network required (docker-compose uses driver: overlay) — typically needs Docker Swarm mode or equivalent",
+    "Installation on macOS is possible but not officially supported",
+    "Installation from .deb package no longer supported; must use the poseidon shell script",
+    "faucetconfrpc TLS certificates must be provisioned (via faucet_certstrap) before poseidon container becomes healthy"
+  ],
+  "docker_services": [
+    "rabbit (iqtlabs/rabbitmq, ports 15672/5672)",
+    "network_tap (iqtlabs/network_tap:v0.11.33, mounts docker.sock and poseidon_files volume)",
+    "poseidon_api (iqtlabs/poseidon-api, port 5000->8000)",
+    "poseidon (iqtlabs/poseidon, port 9304 Prometheus, mounts config and faucetconfrpc certs)",
+    "workers (iqtlabs/poseidon-workers, mounts docker.sock, spawns ML worker containers)",
+    "rabbitmq_adapter / event-adapter-rabbitmq (c65sdn/event-adapter-rabbitmq:1.0.56, bridges FAUCET socket)",
+    "faucetconfrpc (iqtlabs/faucetconfrpc:v0.55.56, gRPC port 59999, mounts /etc/faucet)",
+    "faucet_certstrap (iqtlabs/faucet-certstrap:v0.55.56, one-shot TLS cert generation)"
+  ],
+  "notable_absences": [
+    "No built-in FAUCET simulator or OpenFlow software switch (e.g., Open vSwitch) in docker-compose — a real or external FAUCET+switch setup is required",
+    "No included ML model training pipeline — NetworkML models must be pre-trained externally",
+    "No built-in network traffic replay or pcap injection mechanism for testing without live traffic",
+    "No HTTPS/TLS on the poseidon_api REST endpoint by default",
+    "No native support for non-FAUCET SDN controllers (e.g., ONOS, OpenDaylight)"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pygame/pygame",
+  "name": "pygame/pygame",
+  "description": "A free, open-source Python library for multimedia and game development built on SDL, supporting graphics, sound, input, and sprite management. The standard Python game development library.",
+  "sub_domain": "game-engines-2d",
+  "score": 9,
+  "score_rationale": "8.7k stars, the canonical Python game development library used worldwide in education and indie game development.",
+  "stars": 8700,
+  "language": "C",
+  "license": "LGPL-2.1",
+  "last_activity": "2024-09-29",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 85.5,
+  "tags": [
+    "2d-engine",
+    "python",
+    "sdl",
+    "education",
+    "multimedia"
+  ],
+  "category": "Python Game Library",
+  "summary": "Standard Python library for 2D games and multimedia applications",
+  "slug": "pygame-pygame"
+}

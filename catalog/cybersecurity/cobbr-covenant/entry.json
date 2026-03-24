@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/cobbr/covenant",
+  "name": "cobbr/Covenant",
+  "description": "Collaborative .NET C2 framework for red teamers with a web-based interface supporting multi-user operations and ASP.NET Core cross-platform deployment. A key reference implementation for .NET-based offensive tradecraft.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 8,
+  "score_rationale": "4.7k stars and a well-regarded collaborative C2 with strong .NET tradecraft focus, though update frequency has slowed in recent years.",
+  "stars": 4700,
+  "language": "C#",
+  "license": "GPL-3.0",
+  "last_activity": "2023-06-15",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 77.4,
+  "tags": [
+    "c2",
+    "command-control",
+    "beaconing"
+  ],
+  "category": "C2 Framework",
+  "summary": "Command and control infrastructure",
+  "slug": "cobbr-covenant"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mikewesthad/navmesh",
+  "name": "mikewesthad/navmesh",
+  "description": "A JS plugin for fast navmesh pathfinding with Phaser 2/3 wrappers, achieving 5x\u2013150x faster path searches compared to grid-based A* for the same walkable area.",
+  "sub_domain": "pathfinding-navmesh",
+  "score": 6,
+  "score_rationale": "374 stars, MIT, useful navmesh-based pathfinding plugin for the popular Phaser game framework with significant performance benefits.",
+  "stars": 374,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2023-01-07",
+  "found_in_domains": [
+    "pathfinding-navmesh"
+  ],
+  "quality_score": 56.6,
+  "tags": [
+    "phaser",
+    "navmesh",
+    "performance"
+  ],
+  "category": "Pathfinding",
+  "summary": "Phaser navmesh plugin 5x-150x faster than grid-based pathfinding",
+  "slug": "mikewesthad-navmesh"
+}

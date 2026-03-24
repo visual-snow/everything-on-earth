@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/castle-engine/castle-engine",
+  "name": "castle-engine/castle-engine",
+  "description": "Cross-platform 3D and 2D game engine using modern Pascal with a visual editor, supporting glTF, X3D, desktop, mobile, console, and web. Free and open-source under LGPL.",
+  "sub_domain": "game-engines-3d",
+  "score": 6,
+  "score_rationale": "1.2k stars, actively maintained Pascal engine with broad platform support and unique glTF/X3D focus appealing to a loyal niche community.",
+  "stars": 1200,
+  "language": "Pascal",
+  "license": "LGPL-2.0",
+  "last_activity": "2024-08-21",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 60.6,
+  "tags": [
+    "3d-game-engine",
+    "pascal",
+    "gltf-x3d",
+    "cross-platform",
+    "2d-3d"
+  ],
+  "category": "Pascal 3D/2D Engine",
+  "summary": "Pascal engine with glTF/X3D support across desktop, mobile, web",
+  "slug": "castle-engine-castle-engine"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/liana-p/narrat-engine",
+  "name": "liana-p/narrat-engine",
+  "description": "Narrat is a TypeScript/Vue game engine for building interactive narrative RPGs with skill checks, inventory, quests, and a scripting syntax for branching dialogue and story flow.",
+  "sub_domain": "dialogue-narrative",
+  "score": 6,
+  "score_rationale": "A dedicated narrative RPG engine with a complete feature set, though modest community size at 177 stars; a solid niche tool for browser-based narrative games.",
+  "stars": 177,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 54.0,
+  "tags": [
+    "narrative-engine",
+    "rpg",
+    "web-based",
+    "branching-dialogue"
+  ],
+  "category": "Narrative RPG Engine",
+  "summary": "TypeScript/Vue narrative RPG engine with inventory and dialogue systems",
+  "slug": "liana-p-narrat-engine"
+}

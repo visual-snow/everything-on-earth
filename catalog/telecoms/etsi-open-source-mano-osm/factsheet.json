@@ -1,0 +1,85 @@
+{
+  "slug": "etsi-open-source-mano-osm",
+  "name": "ETSI Open Source MANO (OSM)",
+  "what_it_is": "OSM is an ETSI-hosted open source NFV Management and Orchestration stack (Apache 2.0) that implements the ETSI NFV MANO architecture. It orchestrates the lifecycle of Virtualised Network Functions (VNFs) and Network Services across heterogeneous cloud and container infrastructure.",
+  "components": [
+    "NBI (North Bound Interface) — SOL005-aligned REST API consumed by OSS/BSS",
+    "RO (Resource Orchestrator) — allocates compute/network/storage across VIMs",
+    "LCM (Lifecycle Manager) — drives VNF/NS instantiation, scaling, healing, termination",
+    "MON (Monitoring module) — collects metrics from VNFs and VIMs, feeds autoscaling policies",
+    "POL (Policy module) — enforces autoscaling and healing rules",
+    "VCA (VNF Configuration and Abstraction) — Juju-based Day-1/Day-2 config primitives",
+    "NG-UI (Next-Generation Web UI) — browser-based dashboard",
+    "OSM Client (osmclient) — Python CLI and library for remote API access",
+    "Keystone — OpenStack identity service used for multi-tenant RBAC",
+    "WIM (Wide-area Network Inter-VIM SDN) — optional SDN controller integration",
+    "Prometheus exporter — exposes OSM metrics for external scraping"
+  ],
+  "protocols": [
+    "SOL005 (Os-Ma-nfvo) — NBI API for NS lifecycle and VNF package management",
+    "SOL006 — YANG-based NSD/VNFD information model (OSM IM)",
+    "SOL002 / SOL003 — Ve-Vnfm interfaces for VNF lifecycle (via LCM)",
+    "Juju remote procedure calls — VCA communication with charms",
+    "Prometheus remote-write / scrape — metrics collection",
+    "Kafka — internal event bus between OSM microservices",
+    "gRPC — inter-service communication for some modules",
+    "OpenStack REST APIs (Nova, Neutron, Cinder, Glance, Heat)",
+    "Kubernetes API — for KNF (Kubernetes-based NF) orchestration",
+    "Helm v3 — packaging and deployment of KNFs on Kubernetes"
+  ],
+  "measurement": [
+    "MON module polls VIM telemetry (OpenStack Ceilometer/Gnocchi, Prometheus) and exposes aggregated metrics",
+    "Prometheus exporter endpoint on OSM for scraping orchestration-layer KPIs (NS count, VNF state, alarm counts)",
+    "Autoscaling decisions driven by threshold-based rules defined in the VNFD scaling policy",
+    "Audit log stream records all NBI API calls with timestamps and user identity for compliance measurement"
+  ],
+  "configuration": [
+    "Day-1 config delivered via Juju charms attached to VNF descriptors (VCA)",
+    "Day-2 config primitives (exec-env actions) invokable through NBI after instantiation",
+    "LDAP external authentication integration for enterprise identity providers",
+    "Role-Based Access Control (RBAC) with project/user scoping via Keystone",
+    "Helm values overrides for KNF parametrisation at instantiation time",
+    "OSM installed via single-script installer, Charmed OSM (Juju bundle), or Helm chart for Kubernetes-hosted control plane"
+  ],
+  "fault_injection": [
+    "No native fault-injection framework; OSM does not ship a chaos or fault-injection module",
+    "VDU rebuild and VDU migrate operations can simulate failure recovery workflows via NBI",
+    "Healing policies in POL module can be triggered manually to test self-healing paths"
+  ],
+  "modes": [
+    "Single-node all-in-one deployment (default installer target)",
+    "HA cluster mode with distributed microservices across multiple nodes",
+    "Charmed OSM — Juju-bundle deployment for production-grade installs",
+    "Helm-based deployment — OSM control plane running inside Kubernetes",
+    "Development mode — lightweight environment for contributor testing"
+  ],
+  "constraints": [
+    "Release NINETEEN is the current stable version as of early 2026; older releases are unsupported and may lack SOL006 YANG model features",
+    "VCA (Juju) is a hard runtime dependency for Day-2 config primitives; environments without outbound Juju controller access lose Day-2 capability",
+    "OpenVIM and VMware vCloud Director VIM drivers are deprecated and may be removed in future releases",
+    "OSM does not natively implement SOL004 (VNF package format) validation tooling — external validators are required",
+    "Kubernetes KNF support requires Helm v3; Helm v2 deployments are unsupported",
+    "Multi-site WAN stitching via WIM requires a compatible SDN controller (e.g., ONOS, ODL); OSM does not include one"
+  ],
+  "docker_services": [
+    "osm-nbi",
+    "osm-ro",
+    "osm-lcm",
+    "osm-mon",
+    "osm-pol",
+    "osm-ng-ui",
+    "osm-keystone",
+    "osm-kafka (Apache Kafka broker)",
+    "osm-zookeeper",
+    "osm-mongodb",
+    "osm-prometheus",
+    "osm-grafana"
+  ],
+  "notable_absences": [
+    "No built-in fault injection or chaos engineering tooling",
+    "No native SOL004 VNF package validator shipped with the platform",
+    "No SDN controller bundled — WIM integration requires an external controller",
+    "No built-in CI/CD pipeline for onboarding VNF packages; relies on external tooling",
+    "No GUI-based network topology editor for composing Network Service Descriptors"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/snort3/snort3",
+  "name": "snort3/snort3",
+  "description": "The next generation Snort IPS with multi-threaded packet processing, pluggable components, and service autodetection for high-performance intrusion prevention and detection.",
+  "sub_domain": "network-security",
+  "score": 8,
+  "score_rationale": "Authoritative open-source IPS from Cisco/Snort with 3.3k stars representing the actively developed successor to one of the most widely deployed IDS/IPS systems.",
+  "stars": 3300,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2025-12-01",
+  "found_in_domains": [
+    "network-security"
+  ],
+  "quality_score": 76.1,
+  "tags": [
+    "packet-capture",
+    "pe-format",
+    "security-tool"
+  ],
+  "category": "Network Analysis",
+  "summary": "The next generation Snort IPS with multi-threaded packet processing, pluggable components, and se...",
+  "slug": "snort3-snort3"
+}

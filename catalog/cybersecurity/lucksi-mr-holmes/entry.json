@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/lucksi/mr.holmes",
+  "name": "Lucksi/Mr.Holmes",
+  "description": "Complete OSINT information gathering tool for domains, usernames, and phone numbers using public internet sources, Google dorks, WHOIS API, and optional anonymous proxies.",
+  "sub_domain": "osint-recon",
+  "score": 6,
+  "score_rationale": "3.2k stars with active maintenance into 2026, covers multiple OSINT targets but has a smaller community than leading tools.",
+  "stars": 3200,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-02-21",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 64.0,
+  "tags": [
+    "api-security",
+    "osint",
+    "security-tool"
+  ],
+  "category": "OSINT Platform",
+  "summary": "Complete OSINT information gathering tool for domains, usernames, and phone numbers using public ...",
+  "slug": "lucksi-mr-holmes"
+}

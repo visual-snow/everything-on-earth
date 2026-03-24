@@ -1,0 +1,574 @@
+[
+  {
+    "repo_url": "https://github.com/excaliburjs/excalibur",
+    "name": "excaliburjs/Excalibur",
+    "description": "A friendly TypeScript 2D game engine for the web, built on HTML5 Canvas and WebGL, designed to simplify game creation for both beginners and experienced developers.",
+    "sub_domain": "web-game-engines",
+    "score": 7,
+    "score_rationale": "2.2k stars, well-designed TypeScript-first 2D engine with active development, good documentation, and clean API targeting web developers.",
+    "stars": 2200,
+    "language": "TypeScript",
+    "license": "BSD-2-Clause",
+    "last_activity": "2025-12-23",
+    "found_in_domains": [
+      "game-engines-2d",
+      "web-game-engines"
+    ],
+    "quality_score": 68.7,
+    "tags": ["2d-game-engine", "typescript", "web-game", "html5", "webgl"],
+    "category": "Web 2D Game Engine",
+    "summary": "TypeScript-first 2D web engine with Canvas/WebGL support and clean API"
+  },
+  {
+    "repo_url": "https://github.com/gosu/gosu",
+    "name": "gosu/gosu",
+    "description": "A 2D game development library for Ruby and C++, providing windowing, OpenGL-accelerated 2D graphics, audio, and input. Primarily used for teaching Ruby and game jams.",
+    "sub_domain": "game-engines-2d",
+    "score": 6,
+    "score_rationale": "2.1k stars, MIT, niche but unique as the primary 2D game library for the Ruby language.",
+    "stars": 2100,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2023-05-20",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 62.6,
+    "tags": ["2d-game-engine", "ruby", "opengl", "game-jam", "graphics"],
+    "category": "Ruby 2D Game Library",
+    "summary": "Primary 2D library for Ruby with OpenGL graphics and game jam focus"
+  },
+  {
+    "repo_url": "https://github.com/kaplayjs/kaplay",
+    "name": "kaplayjs/kaplay",
+    "description": "A fun-first JavaScript/TypeScript 2D game library with an intuitive API and web-based editor, successor to the popular Kaboom.js. Includes 90+ examples and active development.",
+    "sub_domain": "game-engines-2d",
+    "score": 6,
+    "score_rationale": "1.5k stars, MIT, actively maintained successor to Kaboom.js with growing community and beginner-friendly design.",
+    "stars": 1500,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2026-03-19",
+    "found_in_domains": [
+      "game-engines-2d",
+      "web-game-engines"
+    ],
+    "quality_score": 61.4,
+    "tags": ["2d-game-engine", "javascript", "typescript", "web-game", "beginner-friendly"],
+    "category": "Fun Web Game Engine",
+    "summary": "Kaboom.js successor with web editor and 90+ beginner-friendly examples"
+  },
+  {
+    "repo_url": "https://github.com/engoengine/engo",
+    "name": "EngoEngine/engo",
+    "description": "A cross-platform 2D game engine written in Go using Entity-Component-System architecture, supporting Mac, Linux, Windows, and WebAssembly.",
+    "sub_domain": "game-engines-2d",
+    "score": 5,
+    "score_rationale": "1.8k stars, MIT, solid ECS-based Go engine but last active in 2022, less maintained than Ebitengine.",
+    "stars": 1800,
+    "language": "Go",
+    "license": "MIT",
+    "last_activity": "2022-11-12",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 56.0,
+    "tags": ["2d-game-engine", "go", "ecs", "cross-platform", "wasm"],
+    "category": "Go ECS Game Engine",
+    "summary": "Cross-platform Go 2D engine with ECS architecture and WASM support"
+  },
+  {
+    "repo_url": "https://github.com/torquegameengines/torque2d",
+    "name": "TorqueGameEngines/Torque2D",
+    "description": "A C++-based open-source 2D game engine with Box2D physics, OpenAL audio, and skeletal animation, supporting Windows, macOS, Linux, iOS, and Android.",
+    "sub_domain": "game-engines-2d",
+    "score": 5,
+    "score_rationale": "1.6k stars, MIT, proven engine heritage from Torque technology but last commit in 2023 indicates slowing development.",
+    "stars": 1600,
+    "language": "C",
+    "license": "MIT",
+    "last_activity": "2023-05-03",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 55.6,
+    "tags": ["2d-game-engine", "c++", "physics", "mobile-game", "animation"],
+    "category": "Torque 2D Game Engine",
+    "summary": "C++ 2D engine with Box2D physics, skeletal animation, mobile support"
+  },
+  {
+    "repo_url": "https://github.com/gurkenlabs/litiengine",
+    "name": "gurkenlabs/litiengine",
+    "description": "A pure Java 2D game engine with a comprehensive library and dedicated tile-based map editor, designed for desktop game development.",
+    "sub_domain": "game-engines-2d",
+    "score": 5,
+    "score_rationale": "820 stars, MIT, niche but actively maintained Java-native 2D engine with a dedicated map editor tool.",
+    "stars": 820,
+    "language": "Java",
+    "license": "MIT",
+    "last_activity": "2025-12-05",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 53.3,
+    "tags": ["2d-game-engine", "java", "tile-based", "map-editor", "desktop"],
+    "category": "Java 2D Game Engine",
+    "summary": "Pure Java 2D engine with integrated tile-based map editor"
+  },
+  {
+    "repo_url": "https://github.com/ct-js/ct-js",
+    "name": "ct-js/ct-js",
+    "description": "A desktop 2D game engine and IDE with visual editors for learning programming, supporting TypeScript, JavaScript, and a visual scripting language called Catnip.",
+    "sub_domain": "game-engines-2d",
+    "score": 5,
+    "score_rationale": "280 stars but actively maintained with recent 2025 commits; strong educational focus with visual editor and beginner-friendly design.",
+    "stars": 280,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2025-01-21",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 49.6,
+    "tags": ["2d-game-engine", "visual-scripting", "educational", "ide", "beginner"],
+    "category": "Visual 2D Game IDE",
+    "summary": "Educational 2D IDE with visual scripting and Catnip language"
+  },
+  {
+    "repo_url": "https://github.com/godotengine/godot",
+    "name": "godotengine/godot",
+    "description": "Godot Engine is a feature-packed, multi-platform 2D and 3D game engine with a complete editor and MIT license. It supports export to desktop, mobile, and web platforms with GDScript, C#, and C++ bindings.",
+    "sub_domain": "game-engines-3d",
+    "score": 10,
+    "score_rationale": "The most popular open-source 3D game engine in the world with 108k stars, MIT license, complete editor, and massive active community.",
+    "stars": 108000,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2026-03-19",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 100.0,
+    "tags": ["3d-game-engine", "2d-game-engine", "gdscript", "open-source", "cross-platform"],
+    "category": "Multi-platform Game Engine",
+    "summary": "World's most popular open-source 3D/2D engine with complete editor"
+  },
+  {
+    "repo_url": "https://github.com/bevyengine/bevy",
+    "name": "bevyengine/bevy",
+    "description": "A refreshingly simple data-driven game engine built in Rust with an Entity Component System (ECS) architecture. Supports 2D/3D, WASM, and modern Vulkan/Metal/DX12 rendering.",
+    "sub_domain": "game-engines-3d",
+    "score": 9,
+    "score_rationale": "45k stars, extremely active development, leading ECS-based Rust game engine with strong community and modern rendering architecture.",
+    "stars": 45300,
+    "language": "Rust",
+    "license": "MIT",
+    "last_activity": "2026-03-02",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 91.2,
+    "tags": ["3d-game-engine", "rust", "ecs", "data-driven", "modern-graphics"],
+    "category": "Rust ECS Game Engine",
+    "summary": "Leading Rust ECS game engine with Vulkan/Metal/DX12 rendering"
+  },
+  {
+    "repo_url": "https://github.com/o3de/o3de",
+    "name": "o3de/o3de",
+    "description": "Open 3D Engine (O3DE) is an Apache 2.0-licensed multi-platform 3D engine for AAA games, cinema-quality 3D worlds, and high-fidelity simulations. Successor to Amazon Lumberyard, backed by the Linux Foundation.",
+    "sub_domain": "game-engines-3d",
+    "score": 9,
+    "score_rationale": "Linux Foundation-backed AAA-grade engine with 9k stars, professional toolset, and active industry adoption for high-fidelity 3D content.",
+    "stars": 9000,
+    "language": "C++",
+    "license": "Apache-2.0",
+    "last_activity": "2026-01-27",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 85.6,
+    "tags": ["3d-game-engine", "aaa-game", "professional", "cross-platform", "simulation"],
+    "category": "AAA 3D Game Engine",
+    "summary": "Linux Foundation-backed AAA-grade engine for high-fidelity simulations"
+  },
+  {
+    "repo_url": "https://github.com/openra/openra",
+    "name": "OpenRA/OpenRA",
+    "description": "Open Source real-time strategy game engine for classic Westwood games (Command & Conquer, Red Alert) written in C# using SDL and OpenGL. Runs on Windows, Linux, macOS, and BSD.",
+    "sub_domain": "game-engines-3d",
+    "score": 8,
+    "score_rationale": "16.5k stars, highly polished RTS engine with active community, production-quality releases, and full support for classic C&C titles.",
+    "stars": 16500,
+    "language": "C#",
+    "license": "GPL-3.0",
+    "last_activity": "2025-03-30",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 81.7,
+    "tags": ["rts-game-engine", "c#", "strategy-game", "command-conquer", "classic"],
+    "category": "RTS Game Engine",
+    "summary": "Polished RTS engine for Command & Conquer and Red Alert games"
+  },
+  {
+    "repo_url": "https://github.com/stride3d/stride",
+    "name": "stride3d/stride",
+    "description": "Stride (formerly Xenko) is a free, open-source cross-platform C# game engine with a full Game Studio editor, realistic rendering, and VR support. Backed by the .NET Foundation.",
+    "sub_domain": "game-engines-3d",
+    "score": 8,
+    "score_rationale": "7.5k stars, full-featured C# engine with complete editor and VR support, actively maintained with .NET Foundation backing.",
+    "stars": 7500,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2025-12-01",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 79.0,
+    "tags": ["3d-game-engine", "c#", "vr-game", "editor", "cross-platform"],
+    "category": "C# 3D Game Engine",
+    "summary": ".NET-backed C# engine with full editor and VR support"
+  },
+  {
+    "repo_url": "https://github.com/fyroxengine/fyrox",
+    "name": "FyroxEngine/Fyrox",
+    "description": "A feature-rich, production-ready, general purpose 2D/3D game engine written in Rust with a scene editor. Supports Windows, Linux, macOS, and WebAssembly.",
+    "sub_domain": "game-engines-3d",
+    "score": 8,
+    "score_rationale": "9k stars, production-ready Rust 3D engine with an integrated scene editor and active development — a rare combination in the Rust ecosystem.",
+    "stars": 9000,
+    "language": "Rust",
+    "license": "MIT",
+    "last_activity": "2026-01-01",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 79.6,
+    "tags": ["3d-game-engine", "rust", "2d-game-engine", "editor", "production-ready"],
+    "category": "Production Rust Game Engine",
+    "summary": "Production-ready Rust 3D/2D engine with integrated scene editor"
+  },
+  {
+    "repo_url": "https://github.com/redot-engine/redot-engine",
+    "name": "Redot-Engine/redot-engine",
+    "description": "Redot Engine is a community-driven MIT-licensed fork of Godot Engine for multi-platform 2D and 3D game development. Launched in 2024 with independent governance.",
+    "sub_domain": "game-engines-3d",
+    "score": 7,
+    "score_rationale": "5.8k stars as a fresh Godot fork with growing community and independent roadmap, providing a viable alternative to the upstream project.",
+    "stars": 5800,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2026-01-29",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 72.1,
+    "tags": ["3d-game-engine", "godot-fork", "community-driven", "cross-platform", "2d-3d"],
+    "category": "Godot Community Fork",
+    "summary": "Community-driven Godot fork with independent governance and roadmap"
+  },
+  {
+    "repo_url": "https://github.com/gameplay3d/gameplay",
+    "name": "gameplay3d/GamePlay",
+    "description": "Open-source, cross-platform C++ game engine for creating 2D/3D games targeting desktop and mobile platforms. Focused on simplicity and portability.",
+    "sub_domain": "game-engines-3d",
+    "score": 5,
+    "score_rationale": "4.8k stars but last release in 2015 — historically significant cross-platform C++ engine now largely inactive.",
+    "stars": 4800,
+    "language": "C++",
+    "license": "Apache-2.0",
+    "last_activity": "2015-01-24",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 59.5,
+    "tags": ["3d-game-engine", "c++", "mobile-game", "cross-platform", "legacy"],
+    "category": "Legacy 3D Game Engine",
+    "summary": "Historically significant but inactive C++ cross-platform game engine"
+  },
+  {
+    "repo_url": "https://github.com/spring/spring",
+    "name": "spring/spring",
+    "description": "A powerful free cross-platform RTS game engine written in C++ used as the foundation for many community RTS games. Supports Lua scripting for game logic.",
+    "sub_domain": "game-engines-3d",
+    "score": 7,
+    "score_rationale": "3.9k stars with a large ecosystem of games built on it; the de-facto open-source RTS engine with decades of development history.",
+    "stars": 3900,
+    "language": "C++",
+    "license": "GPL-2.0",
+    "last_activity": "2024-01-01",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 70.7,
+    "tags": ["rts-game-engine", "c++", "lua-scripting", "cross-platform", "community-games"],
+    "category": "Open Source RTS Engine",
+    "summary": "De-facto open-source RTS engine with decades of development history"
+  },
+  {
+    "repo_url": "https://github.com/nem0/lumixengine",
+    "name": "nem0/LumixEngine",
+    "description": "A 3D C++ game engine focused on performance and developer experience with a built-in editor and Lua scripting. Minimalist design with modern rendering.",
+    "sub_domain": "game-engines-3d",
+    "score": 7,
+    "score_rationale": "3.8k stars, actively maintained single-developer C++ engine with consistent releases and a clear focus on editor usability.",
+    "stars": 3800,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2026-01-01",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 70.6,
+    "tags": ["3d-game-engine", "c++", "editor", "lua-scripting", "minimalist"],
+    "category": "Lightweight C++ Game Engine",
+    "summary": "Minimalist C++ engine focused on performance and editor usability"
+  },
+  {
+    "repo_url": "https://github.com/armory3d/armory",
+    "name": "armory3d/armory",
+    "description": "An open-source 3D game engine with full Blender integration, turning Blender into a complete game development environment. Targets web, mobile, and desktop platforms.",
+    "sub_domain": "game-engines-3d",
+    "score": 7,
+    "score_rationale": "3.3k stars with a unique Blender-native workflow that appeals to 3D artists wanting to create games without leaving Blender.",
+    "stars": 3300,
+    "language": "C++",
+    "license": "Zlib",
+    "last_activity": "2026-02-16",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 70.1,
+    "tags": ["3d-game-engine", "blender-integration", "game-development", "cross-platform", "artist-friendly"],
+    "category": "Blender Game Engine",
+    "summary": "Blender-integrated 3D engine for artists developing games natively"
+  },
+  {
+    "repo_url": "https://github.com/permafrost-engine/permafrost-engine",
+    "name": "eduard-permyakov/permafrost-engine",
+    "description": "An OpenGL RTS game engine written in C, inspired by classic RTS games like Warcraft III and Age of Empires. Includes pathfinding, fog of war, and unit AI.",
+    "sub_domain": "game-engines-3d",
+    "score": 6,
+    "score_rationale": "2.7k stars, a carefully crafted niche RTS engine in pure C with impressive feature completeness for its scope.",
+    "stars": 2700,
+    "language": "C",
+    "license": "GPL-3.0",
+    "last_activity": "2024-01-01",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 63.5,
+    "tags": ["rts-game-engine", "c", "opengl", "ai-pathfinding", "fog-of-war"],
+    "category": "C-based RTS Engine",
+    "summary": "Pure C RTS engine with pathfinding, fog of war, and unit AI"
+  },
+  {
+    "repo_url": "https://github.com/overload-technologies/overload",
+    "name": "Overload-Technologies/Overload",
+    "description": "A free, open-source 3D game engine built in C++ with Lua scripting, designed for ease of use and simplicity with a complete editor environment.",
+    "sub_domain": "game-engines-3d",
+    "score": 6,
+    "score_rationale": "2.4k stars, clean MIT-licensed C++ engine with good editor support though limited in production use cases.",
+    "stars": 2400,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2025-01-01",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 63.0,
+    "tags": ["3d-game-engine", "c++", "lua-scripting", "editor", "beginner-friendly"],
+    "category": "User-Friendly 3D Engine",
+    "summary": "Beginner-friendly C++ 3D engine with Lua scripting and editor"
+  },
+  {
+    "repo_url": "https://github.com/ezengine/ezengine",
+    "name": "ezEngine/ezEngine",
+    "description": "An open-source, modular C++ game engine supporting Windows and Linux with a plugin-based architecture, PBR rendering, and a full editor suite.",
+    "sub_domain": "game-engines-3d",
+    "score": 6,
+    "score_rationale": "1.9k stars, actively maintained modular C++ engine with March 2026 release, though limited community adoption beyond its core users.",
+    "stars": 1900,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2026-03-07",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 62.2,
+    "tags": ["3d-game-engine", "c++", "modular-architecture", "pbr-rendering", "plugin-based"],
+    "category": "Modular Plugin Engine",
+    "summary": "Modular C++ engine with plugin architecture and PBR rendering"
+  },
+  {
+    "repo_url": "https://github.com/opensage/opensage",
+    "name": "OpenSAGE/OpenSAGE",
+    "description": "A free, open-source re-implementation of SAGE, the 3D RTS engine used in Command & Conquer: Generals and other EA Pacific titles. Written in C#.",
+    "sub_domain": "game-engines-3d",
+    "score": 5,
+    "score_rationale": "1.6k stars, niche re-implementation engine of historical importance for C&C fans but still in early development stages.",
+    "stars": 1600,
+    "language": "C#",
+    "license": "LGPL-3.0",
+    "last_activity": "2024-01-01",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 55.6,
+    "tags": ["rts-game-engine", "c#", "sage-engine", "command-conquer", "re-implementation"],
+    "category": "SAGE RTS Re-implementation",
+    "summary": "C# re-implementation of C&C Generals SAGE engine"
+  },
+  {
+    "repo_url": "https://github.com/castle-engine/castle-engine",
+    "name": "castle-engine/castle-engine",
+    "description": "Cross-platform 3D and 2D game engine using modern Pascal with a visual editor, supporting glTF, X3D, desktop, mobile, console, and web. Free and open-source under LGPL.",
+    "sub_domain": "game-engines-3d",
+    "score": 6,
+    "score_rationale": "1.2k stars, actively maintained Pascal engine with broad platform support and unique glTF/X3D focus appealing to a loyal niche community.",
+    "stars": 1200,
+    "language": "Pascal",
+    "license": "LGPL-2.0",
+    "last_activity": "2024-08-21",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 60.6,
+    "tags": ["3d-game-engine", "pascal", "gltf-x3d", "cross-platform", "2d-3d"],
+    "category": "Pascal 3D/2D Engine",
+    "summary": "Pascal engine with glTF/X3D support across desktop, mobile, web"
+  },
+  {
+    "repo_url": "https://github.com/thunder-engine/thunder",
+    "name": "thunder-engine/thunder",
+    "description": "A cross-platform 2D and 3D game engine with modular architecture and visual editor, written in C++. Supports scripting and multiple rendering backends.",
+    "sub_domain": "game-engines-3d",
+    "score": 5,
+    "score_rationale": "640 stars, small but actively maintained modular C++ engine with recent 2026 release, limited community traction.",
+    "stars": 640,
+    "language": "C++",
+    "license": "Apache-2.0",
+    "last_activity": "2026-01-04",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 52.5,
+    "tags": ["3d-game-engine", "c++", "2d-game-engine", "modular", "visual-editor"],
+    "category": "Modular 2D/3D Engine",
+    "summary": "Modular C++ 2D/3D engine with visual editor and scripting"
+  },
+  {
+    "repo_url": "https://github.com/prowlengine/prowl",
+    "name": "ProwlEngine/Prowl",
+    "description": "An open-source C# 3D game engine under MIT license inspired by Unity, featuring a complete editor environment for Windows and Linux.",
+    "sub_domain": "game-engines-3d",
+    "score": 5,
+    "score_rationale": "738 stars, Unity-inspired C# engine with active development and full editor, but still early-stage with limited production use.",
+    "stars": 738,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 52.9,
+    "tags": ["3d-game-engine", "c#", "unity-inspired", "editor", "early-stage"],
+    "category": "Unity-inspired C# Engine",
+    "summary": "Early-stage Unity-inspired C# 3D engine with full editor"
+  },
+  {
+    "repo_url": "https://github.com/beyond-all-reason/recoilengine",
+    "name": "beyond-all-reason/RecoilEngine",
+    "description": "A powerful free cross-platform RTS game engine forked from the Spring engine, maintained by the Beyond All Reason community with modern improvements and active support.",
+    "sub_domain": "game-engines-3d",
+    "score": 6,
+    "score_rationale": "544 stars but actively maintained Spring fork powering the popular Beyond All Reason RTS game with regular production releases.",
+    "stars": 544,
+    "language": "C++",
+    "license": "GPL-2.0",
+    "last_activity": "2025-08-16",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 57.9,
+    "tags": ["rts-game-engine", "c++", "spring-fork", "beyond-all-reason", "cross-platform"],
+    "category": "Spring RTS Fork",
+    "summary": "Active Spring fork powering the Beyond All Reason RTS game"
+  },
+  {
+    "repo_url": "https://github.com/lowenware/dotrix",
+    "name": "lowenware/dotrix",
+    "description": "A 3D game engine with ECS architecture and Vulkan renderer for Rust developers, focused on multithreaded performance and modern graphics.",
+    "sub_domain": "game-engines-3d",
+    "score": 4,
+    "score_rationale": "311 stars, Rust Vulkan engine with ECS that is still in early development and migration phase with limited production readiness.",
+    "stars": 311,
+    "language": "Rust",
+    "license": "MIT",
+    "last_activity": "2023-01-01",
+    "found_in_domains": [
+      "game-engines-3d"
+    ],
+    "quality_score": 44.0,
+    "tags": ["3d-game-engine", "rust", "vulkan", "ecs", "early-stage"],
+    "category": "Rust Vulkan ECS Engine",
+    "summary": "Early-stage Rust 3D engine with Vulkan and ECS architecture"
+  },
+  {
+    "repo_url": "https://github.com/valvesoftware/gamenetworkingsockets",
+    "name": "ValveSoftware/GameNetworkingSockets",
+    "description": "Valve's internal game networking transport layer providing reliable/unreliable UDP messages, P2P NAT traversal, message fragmentation, and AES-GCM encryption; same API as Steam Datagram Relay.",
+    "sub_domain": "game-networking",
+    "score": 10,
+    "score_rationale": "Essential networking library from Valve with 9.3k stars, battle-tested in production on Steam with encrypted P2P NAT traversal and the same API as the commercial Steam SDK.",
+    "stars": 9300,
+    "language": "C++",
+    "license": "BSD-3-Clause",
+    "last_activity": "2025-09-09",
+    "found_in_domains": [
+      "game-networking"
+    ],
+    "quality_score": 91.7,
+    "tags": ["game-networking", "p2p", "nat-traversal", "encryption", "steam"],
+    "category": "Game Networking Library",
+    "summary": "Valve's battle-tested P2P networking with encrypted NAT traversal"
+  },
+  {
+    "repo_url": "https://github.com/mirrornetworking/mirror",
+    "name": "MirrorNetworking/Mirror",
+    "description": "The #1 open-source Unity networking library, battle-tested since 2014 in 1000+ Steam games including Population: ONE; provides synced variables, RPCs, and dozens of transport adapters.",
+    "sub_domain": "game-networking",
+    "score": 9,
+    "score_rationale": "De facto standard Unity multiplayer library with 6.1k stars and 9,000+ commits; proven in major commercial titles and actively maintained.",
+    "stars": 6100,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2025-03-24",
+    "found_in_domains": [
+      "game-networking"
+    ],
+    "quality_score": 84.3,
+    "tags": ["game-networking", "unity-networking", "multiplayer", "rpc", "transport-adapter"],
+    "category": "Unity Networking Library",
+    "summary": "Standard Unity multiplayer library battle-tested in 1000+ games"
+  },
+  {
+    "repo_url": "https://github.com/lsalzman/enet",
+    "name": "lsalzman/enet",
+    "description": "ENet reliable UDP networking library providing sequenced reliable and unreliable packet delivery over UDP, designed for simplicity and robustness in game networking.",
+    "sub_domain": "game-networking",
+    "score": 8,
+    "score_rationale": "Classic, widely-used game UDP library with 3.2k stars, powering countless game engines and still actively maintained after 20+ years.",
+    "stars": 3200,
+    "language": "C",
+    "license": "MIT",
+    "last_activity": "2024-04-13",
+    "found_in_domains": [
+      "game-networking"
+    ],
+    "quality_score": 76.0,
+    "tags": ["game-networking", "udp", "reliable-packets", "low-latency", "classic"],
+    "category": "Classic Game Networking",
+    "summary": "20+ year-old reliable UDP library trusted by countless game engines"
+  }
+]

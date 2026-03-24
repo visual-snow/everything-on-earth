@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/bulletphysics/bullet3",
+  "name": "bulletphysics/bullet3",
+  "description": "Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, and machine learning. Long-standing industry standard used in hundreds of games and film VFX pipelines.",
+  "sub_domain": "physics-engines",
+  "score": 10,
+  "score_rationale": "14.3k-star industry-standard physics engine with decades of game/film use and deep Python (PyBullet) robotics ecosystem.",
+  "stars": 14300,
+  "language": "C++",
+  "license": "Zlib",
+  "last_activity": "2022-04-24",
+  "found_in_domains": [
+    "physics-engines"
+  ],
+  "quality_score": 93.2,
+  "tags": [
+    "physics",
+    "simulation",
+    "collision-detection"
+  ],
+  "category": "Physics Engine",
+  "summary": "Industry-standard physics and collision detection for games and VFX",
+  "slug": "bulletphysics-bullet3"
+}

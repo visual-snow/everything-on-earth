@@ -1,0 +1,68 @@
+{
+  "name": "pmacct",
+  "repo_url": "https://github.com/pmacct/pmacct",
+  "description": "Multi-purpose passive network monitoring tools for accounting, classifying, aggregating, and exporting forwarding-plane data with BGP/BMP control-plane correlation.",
+  "domain": "bgp-telemetry",
+  "secondary_domains": [
+    "flow-accounting",
+    "forwarding-plane-analysis",
+    "netconf"
+  ],
+  "protocols": [
+    "NetFlow",
+    "IPFIX",
+    "sFlow",
+    "BGP",
+    "BMP",
+    "RPKI",
+    "libpcap"
+  ],
+  "provides": [
+    "traffic-aggregation",
+    "database-export",
+    "bgp-correlation",
+    "ipfix-collection",
+    "network-data-enrichment",
+    "flow-accounting",
+    "streaming-telemetry",
+    "packet-capture",
+    "rpki-validation",
+    "netflow-collection",
+    "flow-classification",
+    "sflow-collection",
+    "protocol-analysis",
+    "kafka-export",
+    "bmp-monitoring",
+    "rabbitmq-export"
+  ],
+  "needs": [
+    "kafka-broker",
+    "rabbitmq-broker",
+    "postgresql-or-mysql",
+    "bgp-peer",
+    "flow-exporter",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "pmacct/pmacctd",
+    "compose_services_count": 0,
+    "docker_evidence": "Official pmacct docker images on Docker Hub (pmacct/sfacctd, pmacct/nfacctd, pmacct/pmacctd). Dockerfiles in docker/ folder."
+  },
+  "github_metrics": {
+    "stars": 900,
+    "last_commit": "2025-12-01",
+    "language": "C",
+    "license": "GPL-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Powerful for evaluations involving flow accounting, BGP correlation, and network data enrichment. Supports Kafka, RabbitMQ, and database outputs.",
+  "related_repos": [
+    "https://github.com/tamasv/pmacct-docker"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "pmacct"
+}

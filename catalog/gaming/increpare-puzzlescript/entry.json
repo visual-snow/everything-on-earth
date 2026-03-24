@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/increpare/puzzlescript",
+  "name": "increpare/PuzzleScript",
+  "description": "An open-source HTML5 puzzle game engine with a simple domain-specific language for creating and sharing grid-based puzzle games entirely in the browser.",
+  "sub_domain": "web-game-engines",
+  "score": 6,
+  "score_rationale": "1k stars, a beloved niche engine with a dedicated community for creating and sharing grid puzzle games, widely used in game jams.",
+  "stars": 1000,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "web-game-engines"
+  ],
+  "quality_score": 60.0,
+  "tags": [
+    "puzzle-games",
+    "html5",
+    "dsl",
+    "grid-based",
+    "game-jams"
+  ],
+  "category": "Puzzle Game DSL",
+  "summary": "Beloved niche DSL for grid-based puzzle games with dedicated game jam community",
+  "slug": "increpare-puzzlescript"
+}

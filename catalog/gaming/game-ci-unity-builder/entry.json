@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/game-ci/unity-builder",
+  "name": "game-ci/unity-builder",
+  "description": "A GitHub Action for building Unity projects for multiple platforms as part of automated CI/CD pipelines. Part of the GameCI open source initiative for game development automation.",
+  "sub_domain": "game-devops-analytics",
+  "score": 7,
+  "score_rationale": "1k stars, MIT, the standard open-source GitHub Action for automated Unity game builds used by thousands of Unity developers.",
+  "stars": 1000,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-11-22",
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 66.0,
+  "tags": [
+    "ci-cd",
+    "unity",
+    "automation",
+    "github-actions",
+    "build"
+  ],
+  "category": "Unity CI/CD Automation",
+  "summary": "GitHub Action for automated multi-platform Unity game builds",
+  "slug": "game-ci-unity-builder"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ct-js/ct-js",
+  "name": "ct-js/ct-js",
+  "description": "A desktop 2D game engine and IDE with visual editors for learning programming, supporting TypeScript, JavaScript, and a visual scripting language called Catnip.",
+  "sub_domain": "game-engines-2d",
+  "score": 5,
+  "score_rationale": "280 stars but actively maintained with recent 2025 commits; strong educational focus with visual editor and beginner-friendly design.",
+  "stars": 280,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-01-21",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 49.6,
+  "tags": [
+    "2d-game-engine",
+    "visual-scripting",
+    "educational",
+    "ide",
+    "beginner"
+  ],
+  "category": "Visual 2D Game IDE",
+  "summary": "Educational 2D IDE with visual scripting and Catnip language",
+  "slug": "ct-js-ct-js"
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "cgrates",
+  "name": "CGRateS",
+  "what_it_is": "CGRateS is a real-time Online/Offline Charging System (OCS) for Telecom and ISP environments, implemented in Go. It provides rating, session charging, CDR processing, fraud detection, and LCR (Least Cost Routing) as independent micro-services accessible via a rich RPC API.",
+  "components": [
+    "cgr-engine (main process hosting all services)",
+    "cgr-loader (tariff plan loader)",
+    "RALs (Rating and Accounting Logic)",
+    "CDRs (Call Detail Record server)",
+    "SessionS (session manager with reservation)",
+    "AttributeS (attribute processing pipeline)",
+    "ChargerS (charging profile assignment)",
+    "ResourceS (resource allocation and limiting)",
+    "StatS (real-time call statistics)",
+    "ThresholdS (threshold monitoring and alerting)",
+    "RouteS / LCR (route and least-cost routing)",
+    "DispatcherS (request routing across cluster nodes)",
+    "LoaderS (dynamic data loader from files/DB)",
+    "ERS (Event Reader Service — ingest from Kafka, AMQP, NATS, file, HTTP)",
+    "EES (Event Exporter Service — export CDRs/events to various targets)",
+    "Agents: DiameterAgent, RADIUSAgent, AsteriskAgent, HTTPAgent, DNSAgent, SIPAgent"
+  ],
+  "protocols": [
+    "Diameter (port configurable, DiameterAgent)",
+    "RADIUS (RADIUSAgent)",
+    "JSON-RPC over TCP (port 2012)",
+    "GOB-RPC over TCP (port 2013)",
+    "HTTP/REST (port 2080)",
+    "AMQP (RabbitMQ integration via ERS/EES)",
+    "NATS (NATS server integration via ERS/EES)",
+    "Kafka (ERS/EES)",
+    "SIP (redirect-only SIPAgent)"
+  ],
+  "measurement": [
+    "StatS: real-time metrics queues (ASR, ACD, TCD, ACC, TCC, PDD, DDC, custom)",
+    "ThresholdS: event-driven threshold breach detection with configurable actions",
+    "CDR logging: full CDR storage with interim records support",
+    "Caps stats: concurrent request monitoring with configurable sampling interval",
+    "Performance target: 5000+ requests/sec on a single machine"
+  ],
+  "configuration": [
+    "Primary config file: /usr/share/cgrates/conf/cgrates/cgrates.json (JSON with comments)",
+    "data_db: runtime data store — *redis (default, port 6379) or *mongo",
+    "stor_db: tariff plan and CDR store — *mysql (default, port 3306), *postgres, *mongo, *internal",
+    "RPC JSON listener: 127.0.0.1:2012",
+    "RPC GOB listener: 127.0.0.1:2013",
+    "HTTP listener: 127.0.0.1:2080",
+    "Encoding: *msgpack (default) or *json for object storage",
+    "Default request types: *prepaid, *postpaid, *pseudoprepaid, *rated",
+    "max_call_duration: default 3h; min_call_duration: default 0s",
+    "Tariff plans loaded from CSV files via cgr-loader or LoaderS service"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework; testing relies on integration test suite (integration_test.sh)",
+    "DiameterAgent and RADIUSAgent can be tested with external traffic generators",
+    "poster_attempts and failed_posts_dir provide retry/dead-letter handling for export failures",
+    "Caps strategy (*busy or *queue) can simulate overload scenarios by capping concurrent requests"
+  ],
+  "modes": [
+    "Online charging (prepaid/pseudoprepaid): real-time session reservation and debit",
+    "Offline charging (postpaid/rated): post-call CDR-based billing",
+    "Clustered/dispatcher mode: DispatcherS routes requests across multiple cgr-engine nodes",
+    "Standalone mode: all services in a single cgr-engine process",
+    "Admin mode: cgradmin sample config enables administrative API access"
+  ],
+  "constraints": [
+    "data_db (Redis or MongoDB) MUST be running before cgr-engine starts; no built-in data_db",
+    "stor_db (MySQL/MariaDB, PostgreSQL, or MongoDB) required for tariff plans and CDR persistence",
+    "Tariff plans must be pre-loaded via cgr-loader or LoaderS before rating can function",
+    "DiameterAgent requires external Diameter peer; RADIUSAgent requires RADIUS client — neither is self-contained",
+    "Session charging requires an upstream VoIP platform (e.g., FreeSWITCH, Asterisk, Kamailio) to drive session events",
+    "No docker-compose file in the repository; the devel Docker image bundles Redis, MySQL, MongoDB, PostgreSQL, and FreeSWITCH in a single container"
+  ],
+  "docker_services": [
+    "cgrates/cgrates (single devel image): bundles cgr-engine, Redis, MySQL/MariaDB, MongoDB, PostgreSQL, FreeSWITCH",
+    "Integration test image (data/docker/integration): adds RabbitMQ, Kafka 3.5, NATS 2.9, MongoDB 7.0, MariaDB, PostgreSQL",
+    "Exposed ports (devel): 3306 (MySQL), 6379 (Redis), 2012 (JSON-RPC), 2013 (GOB-RPC), 2080 (HTTP), 27017 (MongoDB)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml or docker-compose.yaml file in the repository",
+    "No built-in web UI or dashboard; API-only interface",
+    "No native Kafka or NATS broker bundled in the devel image (only in integration test image)",
+    "No built-in billing invoice generation; CDR export is raw data only",
+    "No Kubernetes manifests or Helm charts provided"
+  ]
+}

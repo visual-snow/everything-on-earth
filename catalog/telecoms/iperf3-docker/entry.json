@@ -1,0 +1,54 @@
+{
+  "name": "iperf3 (Docker)",
+  "repo_url": "https://github.com/nerdalert/iperf3",
+  "description": "Docker containerization of iperf3, a standard tool for active measurements of maximum achievable bandwidth on IP networks supporting TCP, UDP, and SCTP.",
+  "domain": "5g-transport-validation",
+  "secondary_domains": [
+    "bandwidth-measurement",
+    "ip-performance",
+    "network-throughput"
+  ],
+  "protocols": [
+    "TCP",
+    "UDP",
+    "SCTP"
+  ],
+  "provides": [
+    "bandwidth-measurement",
+    "tcp-throughput-testing",
+    "udp-throughput-testing",
+    "sctp-throughput-testing",
+    "iperf3-server",
+    "traffic-generation",
+    "network-performance-testing"
+  ],
+  "needs": [
+    "external-iperf3-client",
+    "network-connectivity",
+    "sctp-kernel-module"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "networkstatic/iperf3",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker Hub image networkstatic/iperf3 with Dockerfile present; runs iperf3 in server mode to listen for connections"
+  },
+  "github_metrics": {
+    "stars": 215,
+    "last_commit": "unknown",
+    "language": "Dockerfile",
+    "license": "unknown"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "The standard tool for measuring network bandwidth between endpoints. Essential for validating throughput in simulated 5G environments. Lightweight Docker image allows easy deployment alongside core network simulators.",
+  "related_repos": [
+    "https://github.com/esnet/iperf",
+    "https://github.com/michellabbe/docker-iperf3",
+    "https://github.com/loganmarchione/docker-iperf3"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "iperf3-docker"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Cisco DevNet MDT TIG",
+  "repo_url": "https://github.com/xaviervalette/cisco-devnet-mdt-tig",
+  "description": "Telegraf, InfluxDB and Grafana (TIG) setup via Docker to collect Cisco Model Driven Telemetry (MDT).",
+  "domain": "cisco-mdt",
+  "secondary_domains": [
+    "grpc-streaming",
+    "model-driven-telemetry",
+    "tig-stack",
+    "yang-telemetry"
+  ],
+  "protocols": [
+    "gRPC",
+    "MDT",
+    "YANG"
+  ],
+  "provides": [
+    "yang-model-telemetry",
+    "mdt-telemetry-collection",
+    "influxdb-timeseries-storage",
+    "grafana-dashboard",
+    "streaming-telemetry",
+    "telegraf-pipeline",
+    "docker-compose-stack",
+    "grpc-telemetry-receiver",
+    "cisco-ios-xe-telemetry"
+  ],
+  "needs": [
+    "cisco-ios-xe-device",
+    "grpc-enabled-router",
+    "mdt-capable-network-device"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 3,
+    "docker_evidence": "TIG stack via Docker for Cisco MDT collection."
+  },
+  "github_metrics": {
+    "stars": 30,
+    "last_commit": "2024-01-01",
+    "language": "Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Cisco-specific MDT collection stack. Good for evaluations involving Cisco IOS XE telemetry with TIG visualization.",
+  "related_repos": [
+    "https://github.com/network-automate/tig-network-monitoring",
+    "https://github.com/jeremycohoe/cisco-ios-xe-mdt"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "cisco-devnet-mdt-tig"
+}

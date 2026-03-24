@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/thedmd/imgui-node-editor",
+  "name": "thedmd/imgui-node-editor",
+  "description": "A node editor implementation using Dear ImGui's API, designed as a basis for blueprint editors. Handles node placement, dragging, zooming, and Bezier curve links with full ImGui integration.",
+  "sub_domain": "game-ui",
+  "score": 7,
+  "score_rationale": "Widely adopted imgui-based node editor with 4.4k stars, actively maintained and commonly used for visual scripting tools in game engines.",
+  "stars": 4400,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2024-07-21",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 71.1,
+  "tags": [
+    "imgui",
+    "node-editor",
+    "visual-scripting",
+    "blueprint",
+    "game-tools"
+  ],
+  "category": "Node Graph Editor",
+  "summary": "ImGui-based node editor for visual scripting",
+  "slug": "thedmd-imgui-node-editor"
+}

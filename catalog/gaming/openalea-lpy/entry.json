@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openalea/lpy",
+  "name": "openalea/lpy",
+  "description": "An open-source Python implementation of Lindenmayer Systems for modeling plant growth and morphogenesis, mixing L-system construction with Python scripting. Used in botany research and 3D virtual plant simulation.",
+  "sub_domain": "procedural-generation",
+  "score": 8,
+  "score_rationale": "The primary scientific L-system toolkit with active botanical research community and full Python integration.",
+  "stars": 220,
+  "language": "Python",
+  "license": "CeCILL-C",
+  "last_activity": "2024-11-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 66.8,
+  "tags": [
+    "l-systems",
+    "plant-modeling",
+    "botany",
+    "morphogenesis",
+    "python"
+  ],
+  "category": "L-System Plant Modeling",
+  "summary": "Python L-system implementation for plant growth modeling and morphogenesis research.",
+  "slug": "openalea-lpy"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nelarius/imnodes",
+  "name": "Nelarius/imnodes",
+  "description": "A small, dependency-free node editor extension for Dear ImGui, supporting customizable nodes, pins, links, and a minimap for navigating large graphs in an immediate-mode style.",
+  "sub_domain": "game-ui",
+  "score": 6,
+  "score_rationale": "Solid lightweight node editor for ImGui with 2.4k stars, though development slowed after 2022.",
+  "stars": 2400,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2022-03-09",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 63.0,
+  "tags": [
+    "imgui",
+    "node-editor",
+    "lightweight",
+    "graph",
+    "dependency-free"
+  ],
+  "category": "ImGui Node Editor",
+  "summary": "Lightweight dependency-free node editor for ImGui",
+  "slug": "nelarius-imnodes"
+}

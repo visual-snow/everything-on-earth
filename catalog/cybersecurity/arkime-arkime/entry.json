@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/arkime/arkime",
+  "name": "arkime/arkime",
+  "description": "An open source, large-scale full packet capture, indexing, and database system with a web interface for PCAP browsing, searching, and exporting for network analysis and forensics.",
+  "sub_domain": "network-security",
+  "score": 9,
+  "score_rationale": "Production-grade full packet capture platform with 7.3k stars and active v6.1.0 release in March 2026.",
+  "stars": 7300,
+  "language": "C",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "network-security"
+  ],
+  "quality_score": 84.9,
+  "tags": [
+    "forensics",
+    "network-analysis",
+    "packet-capture",
+    "pe-format",
+    "web-security"
+  ],
+  "category": "Forensics Tool",
+  "summary": "An open source, large-scale full packet capture, indexing, and database system with a web interfa...",
+  "slug": "arkime-arkime"
+}

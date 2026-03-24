@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/yarnspinnertool/yarnspinner-rust",
+  "name": "YarnSpinnerTool/YarnSpinner-Rust",
+  "description": "A Rust implementation of Yarn Spinner with first-class Bevy game engine support, enabling dialogue systems in Rust-based games with full Yarn Spinner script compatibility.",
+  "sub_domain": "dialogue-narrative",
+  "score": 6,
+  "score_rationale": "Official Rust/Bevy port of the popular Yarn Spinner dialogue system with 273 stars, actively maintained through 2026 as Rust game dev grows.",
+  "stars": 273,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 55.5,
+  "tags": [
+    "yarn-spinner",
+    "rust",
+    "bevy",
+    "dialogue"
+  ],
+  "category": "Rust Game Dialogue",
+  "summary": "Official Yarn Spinner port for Rust and Bevy game engine",
+  "slug": "yarnspinnertool-yarnspinner-rust"
+}

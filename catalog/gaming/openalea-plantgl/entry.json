@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openalea/plantgl",
+  "name": "openalea/plantgl",
+  "description": "An open-source C++/Python graphic toolkit for the creation, simulation, and analysis of 3D virtual plants, providing geometric primitives, L-system integration, and visualization tools. Foundation of the OpenAlea plant modeling platform.",
+  "sub_domain": "procedural-generation",
+  "score": 7,
+  "score_rationale": "Comprehensive 3D plant modeling library combining geometry, simulation, and visualization used in plant science research.",
+  "stars": 150,
+  "language": "C++",
+  "license": "CeCILL-C",
+  "last_activity": "2024-10-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 59.4,
+  "tags": [
+    "plant-modeling",
+    "3d-graphics",
+    "l-systems",
+    "simulation",
+    "visualization"
+  ],
+  "category": "Plant Visualization Toolkit",
+  "summary": "C++/Python toolkit for 3D plant creation, simulation, and analysis with L-system integration.",
+  "slug": "openalea-plantgl"
+}

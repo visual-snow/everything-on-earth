@@ -1,0 +1,104 @@
+{
+  "slug": "gradiant-5g-images",
+  "name": "Gradiant 5G Images",
+  "what_it_is": "A collection of Dockerfiles and Docker Compose deployment examples for Cloud-Native Network Functions (CNFs) targeting 5G (and 4G/EPC) networks, maintained by Gradiant for its Lab5G platform. It provides pre-built container images for two complete 5G core stacks (Open5GS and free5GC) plus simulated RAN/UE components (UERANSIM, PacketRusher, srsRAN) that can be composed into end-to-end 5G testbeds.",
+  "components": [
+    "open5gs (AMF, SMF, UPF, NRF, AUSF, UDM, UDR, PCF, BSF, NSSF, SCP)",
+    "free5GC (AMF, SMF, UPF, NRF, AUSF, UDM, UDR, PCF, NSSF)",
+    "UERANSIM gNB (simulated 5G base station)",
+    "UERANSIM UE (simulated 5G user equipment, supports multiple UEs per container)",
+    "PacketRusher (simulated gNB + UE, HP open-source tool)",
+    "srsRAN 5G",
+    "srsRAN 4G / srsLTE",
+    "open5gs-webui (subscriber management UI, port 9999)",
+    "free5GC webconsole (subscriber management UI, port 5000)",
+    "MongoDB (subscriber/session database for both cores)",
+    "iperf3 (traffic generation/measurement)",
+    "kamailio-ims",
+    "FHoSS (Femtocell Home Subscriber Server)",
+    "Ettus UHD (USRP hardware driver)"
+  ],
+  "protocols": [
+    "5G NR (New Radio) over simulated RF",
+    "N2 (AMF–gNB control plane, NGAP)",
+    "N3 (UPF–gNB user plane, GTP-U, port 2152)",
+    "SBI (Service-Based Interface, HTTP/2) between 5GC NFs",
+    "NAS (Non-Access Stratum) via UERANSIM/PacketRusher",
+    "GTP-U tunneling (upf privileged mode, /dev/ogstun tun device)",
+    "MongoDB wire protocol (DB_URI env var)"
+  ],
+  "measurement": [
+    "End-to-end UE connectivity verified via ping and traceroute over uesimtun0 interface",
+    "Throughput testing via iperf3 through UE VRF (ip vrf exec vrf<IMSI> iperf3 -c <server>)",
+    "Multiple simultaneous UE tunnels observable as separate tun interfaces (uesimtun0, uesimtun1, …)"
+  ],
+  "configuration": [
+    "MCC/MNC set via environment variables (MCC, MNC); defaults 999/70",
+    "TAC configured via TAC env var on gNB container",
+    "Slice selection via SST and SD env vars (default SST=1, SD=0xffffff)",
+    "UE credentials via KEY, OP_TYPE (OPC/OP), OP env vars",
+    "APN/DNN configured via APN env var on UE container",
+    "MSISDN/IMSI via MSISDN env var",
+    "AMF address resolved by AMF_HOSTNAME env var (DNS lookup inside Docker network)",
+    "gNB address resolved by GNB_HOSTNAME env var",
+    "N2/N3/RADIO bind IPs configurable via N2_BIND_IP, N3_BIND_IP, RADIO_BIND_IP or derived from named interfaces (N2_IFACE, N3_IFACE, RADIO_IFACE)",
+    "SMF config overridden by mounting custom smf.yaml volume",
+    "DB_URI env var controls MongoDB connection for PCF, SCP, UDR, WebUI",
+    "Multi-UE count set via -n flag on ueransim ue command",
+    "NSSF and AMF yaml overrides required for multi-slice deployments",
+    "NAT on UPF can be disabled via ENABLE_NAT=false env var (commented out by default)"
+  ],
+  "fault_injection": [
+    "No dedicated fault injection tooling present in the repository",
+    "Individual NF containers can be stopped/restarted independently (restart: on-failure policy) to simulate NF outages",
+    "PacketRusher and UERANSIM UE deregistration on SIGTERM can simulate UE detach events"
+  ],
+  "modes": [
+    "Single-gNB single-slice (gnb1.yaml: 1 gNB + 3 UEs)",
+    "Dual-gNB single-slice (gnb1.yaml + gnb2.yaml: 2 gNBs + 6 UEs)",
+    "Two-slice deployment (open5gs-and-ueransim-two-slices: custom NSSF/AMF/SMF configs)",
+    "PacketRusher mode (1 simulated gNB + 1 UE, VRF-based isolation)",
+    "OAI CN5G with UERANSIM (oai-cn5g-and-ueransim)",
+    "Open5GS with OAI gNB + USRP hardware (open5gs-and-oai-gnb-usrp)",
+    "Open5GS with srsRAN 4G USRP hardware (open5gs-and-srsran-4g-usrp)",
+    "Open5GS with srsRAN 5G (open5gs-and-srsran-5g)",
+    "IMS stack (ims-open5gs-srsran)",
+    "free5GC with UERANSIM (free5gc-and-ueransim)"
+  ],
+  "constraints": [
+    "UPF container must run privileged (privileged: true, cap_add: all) and requires access to /dev/ogstun tun device on the host",
+    "PacketRusher requires Ubuntu 20.04 host with gtp5g kernel module installed and privileged container mode",
+    "USRP-based deployments (OAI, srsRAN with hardware) require physical Ettus USRP hardware attached to host",
+    "Subscriber registration is a manual prerequisite step (register_subscriber.sh or populate container) before UEs can attach",
+    "free5GC deployment uses docker-compose v2.4 (legacy syntax); Open5GS uses v3",
+    "Multi-slice operation requires manual override of NSSF and AMF YAML configuration files via volume mounts"
+  ],
+  "docker_services": [
+    "mongo",
+    "amf",
+    "smf",
+    "upf",
+    "nrf",
+    "ausf",
+    "udm",
+    "udr",
+    "pcf",
+    "bsf",
+    "nssf",
+    "scp",
+    "webui (open5gs-webui, port 9999)",
+    "webconsole (free5gc-webconsole, port 5000)",
+    "gnb1 (ueransim gNB)",
+    "gnb2 (ueransim gNB, optional)",
+    "ues1 (ueransim UE x3)",
+    "ues2 (ueransim UE x3, optional)",
+    "packetrusher"
+  ],
+  "notable_absences": [
+    "No Prometheus/Grafana observability stack included",
+    "No automated subscriber provisioning (registration is a manual shell script step)",
+    "No traffic shaping or network emulation (tc/netem) for degraded-link testing",
+    "No pre-built test suite or CI pipeline for end-to-end validation",
+    "UERANSIM image has no dedicated README (only Dockerfile and entrypoint)"
+  ]
+}

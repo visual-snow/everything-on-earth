@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/patriciogonzalezvivo/lygia",
+  "name": "patriciogonzalezvivo/lygia",
+  "description": "Granular, multi-language shader library supporting GLSL, HLSL, Metal, WGSL, and CUDA, designed for performance and flexibility to enable rapid prototyping across game engines and creative tools.",
+  "sub_domain": "graphics-rendering",
+  "score": 8,
+  "score_rationale": "Unique cross-language shader utility library with 3.3k stars, battle-tested across multiple platforms \u2014 fills a gap no other shader library covers.",
+  "stars": 3300,
+  "language": "GLSL",
+  "license": "LicenseRef-Prosperity",
+  "last_activity": "2025-03-01",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 76.1,
+  "tags": [
+    "shaders",
+    "glsl",
+    "cross-platform"
+  ],
+  "category": "Shader Library",
+  "summary": "Multi-language shader library supporting GLSL to WGSL",
+  "slug": "patriciogonzalezvivo-lygia"
+}

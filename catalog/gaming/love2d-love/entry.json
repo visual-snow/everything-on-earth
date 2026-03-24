@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/love2d/love",
+  "name": "love2d/love",
+  "description": "LOVE is a free, open-source 2D game framework using Lua, supporting Windows, macOS, Linux, Android, and iOS. Known for its simplicity, portability, and active game-jam community.",
+  "sub_domain": "game-engines-2d",
+  "score": 8,
+  "score_rationale": "7.9k stars with a dedicated community; Lua-based framework widely used in game jams and indie development.",
+  "stars": 7900,
+  "language": "C++",
+  "license": "Zlib",
+  "last_activity": "2025-01-26",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 79.2,
+  "tags": [
+    "2d-engine",
+    "lua",
+    "game-jam",
+    "cross-platform",
+    "indie"
+  ],
+  "category": "Lua 2D Game Framework",
+  "summary": "Simple Lua-based 2D framework beloved by game jam developers",
+  "slug": "love2d-love"
+}

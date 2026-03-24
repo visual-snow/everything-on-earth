@@ -1,0 +1,88 @@
+{
+  "slug": "goflow2",
+  "name": "GoFlow2",
+  "what_it_is": "A high-performance, modular network flow collector written in Go that ingests sFlow v5, NetFlow v5/v9, and IPFIX packets and serializes them into protobuf or JSON for downstream transport (Kafka, file, stdout). It is the entry point of a flow telemetry pipeline; storage, enrichment, and alerting are left to external systems.",
+  "components": [
+    "goflow2 collector binary (cmd/goflow2)",
+    "enricher binary with MaxMind GeoIP ASN/Country support (cmd/enricher)",
+    "protobuf producer (pb/flow.pb)",
+    "raw producer (debug/protocol inspection mode)",
+    "format layer (JSON, binary/protobuf, text)",
+    "transport layer (Kafka via Sarama, file/stdout)",
+    "Prometheus metrics server (default :8080)",
+    "HTTP server for health/metrics",
+    "decoder libraries (decoders/)",
+    "mapping YAML for custom IPFIX/NetFlow template fields"
+  ],
+  "protocols": [
+    "sFlow v5",
+    "NetFlow v5",
+    "NetFlow v9",
+    "IPFIX"
+  ],
+  "measurement": [
+    "Prometheus metrics exposed on HTTP port 8080 (/metrics)",
+    "Metrics modules: decoder, producer, receiver, templates (metrics/ directory)",
+    "Per-flow fields: bytes, packets, sampling_rate, sequence_num, time_flow_start_ns, time_flow_end_ns, time_received_ns",
+    "Interface metrics: in_if, out_if",
+    "BGP/routing: src_as, dst_as, as_path, bgp_communities, next_hop, bgp_next_hop",
+    "Layer-2/VLAN: src_mac, dst_mac, src_vlan, dst_vlan, vlan_id, etype",
+    "Transport: proto, src_port, dst_port, tcp_flags, icmp_type, icmp_code",
+    "IP metadata: ip_tos, ip_ttl, ipv6_flow_label, fragment_id, fragment_offset, forwarding_status",
+    "MPLS: mpls_label, mpls_ttl"
+  ],
+  "configuration": [
+    "-listen URI flag: scheme sflow://, netflow://, or flow:// with host:port and optional ?count=N for parallel sockets",
+    "-transport flag: 'kafka' or 'file' (default stdout)",
+    "-transport.kafka.brokers: comma-separated broker list",
+    "-transport.kafka.topic: Kafka topic name",
+    "-transport.kafka.compression.type: gzip, snappy, lz4, zstd (default disabled)",
+    "-transport.file: path to output log file",
+    "-transport.file.sep: record separator (empty string for binary streaming)",
+    "-format flag: 'json', 'bin' (protobuf), or 'text'",
+    "-mapping mapping.yaml: custom field mappings for exotic IPFIX/NetFlow template fields",
+    "-produce raw: enables raw producer mode for protocol debugging",
+    "Default ports: sFlow :6343/udp, NetFlow/IPFIX :2055/udp, HTTP :8080",
+    "Default UDP buffer: 9000 bytes"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism; protocol fuzzing must be done externally by sending malformed UDP packets",
+    "DOS protections on sFlow: 32-bit length fields are bounded; limits on records and list items per sample (e.g., AS-Path length)"
+  ],
+  "modes": [
+    "Stdout/JSON mode (default): human-readable JSON lines on stdout",
+    "File mode: JSON written to a log file for log-shipping integrations (Loki, Splunk, Fluentd, GCP Logs)",
+    "Kafka+protobuf mode: binary protobuf records sent to Kafka for scalable pipelines",
+    "Raw producer mode (-produce raw): emits unprocessed decoded packets as JSON for debugging",
+    "Enricher pipeline mode: goflow2 binary output piped into enricher for GeoIP ASN/Country annotation",
+    "Multi-socket mode: multiple parallel UDP listeners per protocol via ?count=N URI parameter"
+  ],
+  "constraints": [
+    "NetFlow v9/IPFIX requires Option Data Sets (sampling rate templates) before flows can be decoded; cold-start delay of several minutes until all templates are received",
+    "NetFlow v1, v7, and v8 are not supported (under evaluation)",
+    "JSON format is advised only for low-volume consumption; protobuf is required for high-throughput workloads",
+    "Kafka partitioning by field requires explicit key configuration in the formatter; default distribution is random",
+    "Custom protobuf field IDs must be >= 1000 to avoid conflicts with built-in fields",
+    "GoFlow2 is the pipeline entry point only — storage, transport enrichment, aggregation, graphing, and alerting are out of scope and must be provided externally",
+    "UDP buffer is fixed at 9000 bytes by default"
+  ],
+  "docker_services": [
+    "goflow2 (netsampler/goflow2, built from Dockerfile, ports 6343/udp, 2055/udp, 8080)",
+    "kafka (apache/kafka:3.9.0, KRaft mode, port 9092) [kcg pipeline]",
+    "db / clickhouse (clickhouse/clickhouse-server:25.11-alpine, port 8123) [kcg pipeline]",
+    "grafana (grafana/grafana:12.1 with vertamedia-clickhouse-datasource, port 3000) [kcg pipeline]",
+    "prometheus (prom/prometheus:v3.7.3, port 9090) [kcg pipeline]",
+    "elasticsearch (docker.elastic.co/elasticsearch:7.13.0, port 9200) [elk pipeline]",
+    "logstash (docker.elastic.co/logstash:7.13.0, GELF UDP port 12201) [elk pipeline]",
+    "kibana (docker.elastic.co/kibana:7.13.0, port 5601) [elk pipeline]"
+  ],
+  "notable_absences": [
+    "No built-in aggregation or flow stitching — raw samples only",
+    "No alerting or threshold-based triggering",
+    "No web UI or built-in dashboard (Grafana/Kibana provided only via compose examples)",
+    "No authentication or TLS on UDP collection endpoints",
+    "No NetFlow v1/v7/v8 support",
+    "No native OpenTelemetry export (mentioned as possible extension point only)",
+    "No fault injection or traffic generation capability"
+  ]
+}

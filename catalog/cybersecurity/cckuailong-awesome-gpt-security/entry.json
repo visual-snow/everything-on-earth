@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cckuailong/awesome-gpt-security",
+  "name": "cckuailong/awesome-gpt-security",
+  "description": "A curated list of security tools, experimental cases, and interesting projects leveraging LLMs and GPT for vulnerability auditing, penetration testing, code analysis, and prompt injection detection.",
+  "sub_domain": "ai-security",
+  "score": 5,
+  "score_rationale": "Early GPT security resource with 653 stars that has limited recent updates but provides useful historical context of GPT-era security tooling.",
+  "stars": 653,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2023-04-13",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 52.5,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "A curated list of security tools, experimental cases, and interesting projects leveraging LLMs and G",
+  "slug": "cckuailong-awesome-gpt-security"
+}

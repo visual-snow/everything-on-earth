@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/corazawaf/coraza",
+  "name": "corazawaf/coraza",
+  "description": "OWASP Coraza WAF - enterprise-grade, high-performance web application firewall library written in Go, compatible with ModSecurity SecLang rulesets and OWASP Core Rule Set v4.",
+  "sub_domain": "webapp-security",
+  "score": 8,
+  "score_rationale": "3.4k stars, the modern Go-based WAF from OWASP with active 2026 development and broad deployment integrations.",
+  "stars": 3400,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 76.3,
+  "tags": [
+    "web-security",
+    "vulnerability",
+    "injection"
+  ],
+  "category": "Web Security",
+  "summary": "Web application security testing",
+  "slug": "corazawaf-coraza"
+}

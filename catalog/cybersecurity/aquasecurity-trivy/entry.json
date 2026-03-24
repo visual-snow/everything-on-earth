@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/aquasecurity/trivy",
+  "name": "aquasecurity/trivy",
+  "description": "Comprehensive and versatile security scanner finding vulnerabilities, misconfigurations, secrets, and SBOM in containers, Kubernetes, code repositories, clouds, and more. The de facto standard for container and IaC scanning.",
+  "sub_domain": "container-cloud-security",
+  "score": 10,
+  "score_rationale": "Industry-standard container security scanner with 33.9k stars, actively maintained into 2026, covering containers, Kubernetes, IaC, and cloud in a single tool.",
+  "stars": 33900,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "container-cloud-security",
+    "Supply Chain Security",
+    "vuln-scanners"
+  ],
+  "quality_score": 96.2,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "aquasecurity-trivy"
+}

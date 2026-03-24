@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/microsoft/ai-red-teaming-playground-labs",
+  "name": "microsoft/AI-Red-Teaming-Playground-Labs",
+  "description": "Microsoft's AI Red Teaming playground labs providing hands-on training infrastructure for practicing AI red teaming techniques against LLMs.",
+  "sub_domain": "ai-security",
+  "score": 7,
+  "score_rationale": "Microsoft-official AI red teaming training lab with 1.9k stars providing structured hands-on security education for LLM attack scenarios.",
+  "stars": 1900,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 68.2,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "Microsoft's AI Red Teaming playground labs providing hands-on training infrastructure for practicing",
+  "slug": "microsoft-ai-red-teaming-playground-labs"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chr15m/jsfxr",
+  "name": "chr15m/jsfxr",
+  "description": "A JavaScript port of the classic sfxr retro sound effect generator, available as a web app at sfxr.me and as a Node.js/browser library for generating 8-bit game sounds programmatically.",
+  "sub_domain": "chiptune-trackers",
+  "score": 6,
+  "score_rationale": "Popular JavaScript sfxr port with 395 stars, widely used for quick retro sound generation in web games, though not updated since 2021.",
+  "stars": 395,
+  "language": "JavaScript",
+  "license": "Unlicense",
+  "last_activity": "2021-02-17",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 56.8,
+  "tags": [
+    "sound-effects",
+    "sfxr",
+    "javascript",
+    "web-audio",
+    "game-dev"
+  ],
+  "category": "Sound Tools",
+  "summary": "JavaScript sfxr port for 8-bit sound generation in games",
+  "slug": "chr15m-jsfxr"
+}

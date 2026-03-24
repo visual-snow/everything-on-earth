@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nvidia/q2rtx",
+  "name": "NVIDIA/Q2RTX",
+  "description": "NVIDIA's fully path-traced implementation of Quake II with RTX global illumination, demonstrating real-world ray tracing in a complete game. Historically significant as an early showcase of consumer RTX hardware.",
+  "sub_domain": "ray-tracing",
+  "score": 7,
+  "score_rationale": "1.3k-star landmark project showing real-time path tracing in a full game, significant historical reference for RTX adoption.",
+  "stars": 1300,
+  "language": "C",
+  "license": "GPL-2.0",
+  "last_activity": "2025-12-11",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 66.9,
+  "tags": [
+    "path-tracing",
+    "rtx",
+    "quake",
+    "gpu",
+    "game"
+  ],
+  "category": "Ray Traced Game",
+  "summary": "Full path-traced Quake II implementation demonstrating real-time RTX ray tracing",
+  "slug": "nvidia-q2rtx"
+}

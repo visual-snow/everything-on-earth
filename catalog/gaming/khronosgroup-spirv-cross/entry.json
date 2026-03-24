@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/khronosgroup/spirv-cross",
+  "name": "KhronosGroup/SPIRV-Cross",
+  "description": "Practical tool and library for performing reflection on SPIR-V and disassembling it back to GLSL, Metal Shading Language, HLSL, and JSON, supporting all shader stages.",
+  "sub_domain": "graphics-rendering",
+  "score": 9,
+  "score_rationale": "Essential Khronos toolchain component with 2.4k stars, required by nearly every cross-platform graphics pipeline to convert SPIR-V to target shader languages.",
+  "stars": 2400,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-03-01",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 81.0,
+  "tags": [
+    "shaders",
+    "spirv",
+    "tools"
+  ],
+  "category": "Shader Tools",
+  "summary": "Khronos SPIR-V reflection and transpilation tool",
+  "slug": "khronosgroup-spirv-cross"
+}

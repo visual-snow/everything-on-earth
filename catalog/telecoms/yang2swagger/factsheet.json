@@ -1,0 +1,57 @@
+{
+  "slug": "yang2swagger",
+  "name": "Yang2Swagger",
+  "what_it_is": "A YANG to Swagger (OpenAPI 2.0) generator tool that converts YANG data models into RESTful API specifications compliant with the RESTCONF (RFC 8040) specification. It uses the OpenDaylight yang-tools YANG parser and can output definitions as Java objects, YAML, or JSON.",
+  "components": [
+    "swagger-generator (core SwaggerGenerator library)",
+    "cli (command-line executable JAR)",
+    "swagger-maven-plugin (Maven build integration)",
+    "swagger-codegen-jaxrs (customized Jersey/JAX-RS server scaffolding code generator)",
+    "common (shared utilities)",
+    "examples (sample YANG modules and usage)"
+  ],
+  "protocols": [
+    "RESTCONF (RFC 8040)",
+    "OpenAPI / Swagger 2.0"
+  ],
+  "measurement": [],
+  "configuration": [
+    "-yang-dir: directory to search for YANG modules (colon-separated for multiple)",
+    "-output: output file path (defaults to stdout)",
+    "-format [YAML|JSON]: output format (default YAML)",
+    "-elements [DATA|RPC|DATA_AND_RPC]: YANG elements to include (default DATA_AND_RPC)",
+    "-api-version: API version string (default 1.0)",
+    "-authentication [BASIC|NONE]: authentication definition (default NONE)",
+    "-content-type: MIME type for API requests/responses (default application/yang-data+json)",
+    "-fullCrud: if false, only GET paths are generated (default true)",
+    "-reuse-groupings: attempt to reuse structurally identical grouping types (default false)",
+    "-simplify-hierarchy: simplified inheritance model for standard code generators (default false)",
+    "-use-namespaces: include namespaces in resource URIs (default false)",
+    "-use-odl-path-format: use bierman-02 RESTCONF path format (default false)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "CLI (standalone JAR): java -jar swagger-generator-cli-<version>-executable.jar <args>",
+    "Docker: build image with 'docker build -t yang2swagger .' then mount YANG dir and run",
+    "Maven plugin: MavenSwaggerGenerator integrated into yang-maven-plugin build lifecycle",
+    "Programmatic: use SwaggerGenerator as a Java library returning Swagger object"
+  ],
+  "constraints": [
+    "Requires Java 11 (eclipse-temurin:11-jdk) to run the JAR; Maven 3 required to build from source",
+    "OpenDaylight Maven repository configuration (settings.xml) may be required for build dependencies",
+    "Docker image allocates a fixed 256MB JVM heap (-Xms256m -Xmx256m); large YANG models may hit OutOfMemoryError",
+    "swagger-maven-plugin and swagger-codegen-jaxrs must be present in local Maven repository when used as plugins",
+    "Generated Swagger targets OpenAPI 2.0 only — not OpenAPI 3.x",
+    "Maven plugin integration is noted as not thoroughly checked in current release"
+  ],
+  "docker_services": [
+    "yang2swagger (single-container, multi-stage build: maven:3-eclipse-temurin-11 for build, eclipse-temurin:11-jdk for runtime; ENTRYPOINT runs yang-to-swagger.jar; YANG files must be volume-mounted)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — no multi-service orchestration",
+    "No test/validation service or CI runner image",
+    "No OpenAPI 3.x output support",
+    "No built-in Swagger UI or live documentation server",
+    "No network exposure — tool is purely a file-in/file-out transformer"
+  ]
+}

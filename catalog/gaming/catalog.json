@@ -22,7 +22,8 @@
       "cross-platform"
     ],
     "category": "Multi-platform Game Engine",
-    "summary": "World's most popular open-source 3D/2D engine with complete editor"
+    "summary": "World's most popular open-source 3D/2D engine with complete editor",
+    "slug": "godotengine-godot"
   },
   {
     "repo_url": "https://github.com/ocornut/imgui",
@@ -47,7 +48,8 @@
       "industry-standard"
     ],
     "category": "Game UI Library",
-    "summary": "Industry-standard immediate-mode GUI for game tools"
+    "summary": "Industry-standard immediate-mode GUI for game tools",
+    "slug": "ocornut-imgui"
   },
   {
     "repo_url": "https://github.com/pixijs/pixijs",
@@ -72,7 +74,8 @@
       "web-games"
     ],
     "category": "Web Graphics Renderer",
-    "summary": "Industry-standard 2D WebGL renderer powering thousands of web games"
+    "summary": "Industry-standard 2D WebGL renderer powering thousands of web games",
+    "slug": "pixijs-pixijs"
   },
   {
     "repo_url": "https://github.com/phaserjs/phaser",
@@ -97,7 +100,8 @@
       "webgl"
     ],
     "category": "Web 2D Game Framework",
-    "summary": "Industry-standard HTML5 2D game framework with 39k stars and decade of active development"
+    "summary": "Industry-standard HTML5 2D game framework with 39k stars and decade of active development",
+    "slug": "phaserjs-phaser"
   },
   {
     "repo_url": "https://github.com/raysan5/raylib",
@@ -122,7 +126,8 @@
       "prototyping"
     ],
     "category": "2D Game Library",
-    "summary": "Simple, dependency-free 2D game library for education and indie games"
+    "summary": "Simple, dependency-free 2D game library for education and indie games",
+    "slug": "raysan5-raylib"
   },
   {
     "repo_url": "https://github.com/mxgmn/wavefunctioncollapse",
@@ -147,7 +152,8 @@
       "game-dev"
     ],
     "category": "Procedural Generation Algorithm",
-    "summary": "Canonical WFC algorithm for procedural tile/bitmap generation widely adopted in commercial games."
+    "summary": "Canonical WFC algorithm for procedural tile/bitmap generation widely adopted in commercial games.",
+    "slug": "mxgmn-wavefunctioncollapse"
   },
   {
     "repo_url": "https://github.com/google/filament",
@@ -170,7 +176,8 @@
       "mobile"
     ],
     "category": "Rendering Engine",
-    "summary": "Google PBR rendering engine optimized for mobile"
+    "summary": "Google PBR rendering engine optimized for mobile",
+    "slug": "google-filament"
   },
   {
     "repo_url": "https://github.com/liabru/matter-js",
@@ -193,7 +200,8 @@
       "javascript"
     ],
     "category": "Physics Engine",
-    "summary": "Industry standard 2D physics engine for web games and projects"
+    "summary": "Industry standard 2D physics engine for web games and projects",
+    "slug": "liabru-matter-js"
   },
   {
     "repo_url": "https://github.com/bkaradzic/bgfx",
@@ -216,7 +224,8 @@
       "cross-platform"
     ],
     "category": "Graphics API",
-    "summary": "Cross-platform graphics abstraction supporting all APIs"
+    "summary": "Cross-platform graphics abstraction supporting all APIs",
+    "slug": "bkaradzic-bgfx"
   },
   {
     "repo_url": "https://github.com/gfx-rs/wgpu",
@@ -239,7 +248,8 @@
       "webgpu"
     ],
     "category": "Graphics API",
-    "summary": "Safe Rust WebGPU implementation used by Firefox"
+    "summary": "Safe Rust WebGPU implementation used by Firefox",
+    "slug": "gfx-rs-wgpu"
   },
   {
     "repo_url": "https://github.com/wolfpld/tracy",
@@ -264,7 +274,8 @@
       "debugging"
     ],
     "category": "Game Performance Profiler",
-    "summary": "Industry-standard profiler for CPU/GPU performance analysis across APIs"
+    "summary": "Industry-standard profiler for CPU/GPU performance analysis across APIs",
+    "slug": "wolfpld-tracy"
   },
   {
     "repo_url": "https://github.com/bulletphysics/bullet3",
@@ -287,7 +298,8 @@
       "collision-detection"
     ],
     "category": "Physics Engine",
-    "summary": "Industry-standard physics and collision detection for games and VFX"
+    "summary": "Industry-standard physics and collision detection for games and VFX",
+    "slug": "bulletphysics-bullet3"
   },
   {
     "repo_url": "https://github.com/assimp/assimp",
@@ -310,7 +322,8 @@
       "format-loader"
     ],
     "category": "3D Import Library",
-    "summary": "Industry-standard 3D asset importer for 40+ formats with unified data structure"
+    "summary": "Industry-standard 3D asset importer for 40+ formats with unified data structure",
+    "slug": "assimp-assimp"
   },
   {
     "repo_url": "https://github.com/libretro/retroarch",
@@ -334,7 +347,8 @@
       "libretro"
     ],
     "category": "Multi-System Emulator",
-    "summary": "Industry-standard cross-platform emulator frontend for retro gaming"
+    "summary": "Industry-standard cross-platform emulator frontend for retro gaming",
+    "slug": "libretro-retroarch"
   },
   {
     "repo_url": "https://github.com/luanti-org/luanti",
@@ -359,7 +373,8 @@
       "game-creation"
     ],
     "category": "Voxel Game Platform",
-    "summary": "Open-source voxel platform with Lua modding and massive content ecosystem"
+    "summary": "Open-source voxel platform with Lua modding and massive content ecosystem",
+    "slug": "luanti-org-luanti"
   },
   {
     "repo_url": "https://github.com/mapeditor/tiled",
@@ -382,7 +397,8 @@
       "tmx"
     ],
     "category": "Tile Map Editor",
-    "summary": "Industry-standard tile map editor with orthogonal, isometric, hexagonal support"
+    "summary": "Industry-standard tile map editor with orthogonal, isometric, hexagonal support",
+    "slug": "mapeditor-tiled"
   },
   {
     "repo_url": "https://github.com/skypjack/entt",
@@ -406,7 +422,8 @@
       "game-architecture"
     ],
     "category": "Entity Component System",
-    "summary": "Industry-standard C++ ECS library used in Minecraft and major engines"
+    "summary": "Industry-standard C++ ECS library used in Minecraft and major engines",
+    "slug": "skypjack-entt"
   },
   {
     "repo_url": "https://github.com/heroiclabs/nakama",
@@ -432,7 +449,8 @@
       "server"
     ],
     "category": "Game Backend Server",
-    "summary": "Leading open-source game backend with multiplayer and BaaS features"
+    "summary": "Leading open-source game backend with multiplayer and BaaS features",
+    "slug": "heroiclabs-nakama"
   },
   {
     "repo_url": "https://github.com/baldurk/renderdoc",
@@ -457,7 +475,8 @@
       "vulkan"
     ],
     "category": "Graphics Debugger Tool",
-    "summary": "Frame-capture GPU debugger for Vulkan, D3D, OpenGL on all platforms"
+    "summary": "Frame-capture GPU debugger for Vulkan, D3D, OpenGL on all platforms",
+    "slug": "baldurk-renderdoc"
   },
   {
     "repo_url": "https://github.com/raytracing/raytracing.github.io",
@@ -482,7 +501,8 @@
       "graphics"
     ],
     "category": "Ray Tracing Education",
-    "summary": "Industry-standard 'Ray Tracing in One Weekend' book series with full C++ source code."
+    "summary": "Industry-standard 'Ray Tracing in One Weekend' book series with full C++ source code.",
+    "slug": "raytracing-raytracing-github-io"
   },
   {
     "repo_url": "https://github.com/jrouwe/joltphysics",
@@ -505,7 +525,8 @@
       "aaa-games"
     ],
     "category": "Physics Engine",
-    "summary": "Modern physics engine used in AAA titles with GPU simulation"
+    "summary": "Modern physics engine used in AAA titles with GPU simulation",
+    "slug": "jrouwe-joltphysics"
   },
   {
     "repo_url": "https://github.com/erincatto/box2d",
@@ -528,7 +549,8 @@
       "collision-detection"
     ],
     "category": "Physics Engine",
-    "summary": "Gold-standard 2D physics engine used in Angry Birds and countless games"
+    "summary": "Gold-standard 2D physics engine used in Angry Birds and countless games",
+    "slug": "erincatto-box2d"
   },
   {
     "repo_url": "https://github.com/valvesoftware/gamenetworkingsockets",
@@ -553,7 +575,8 @@
       "steam"
     ],
     "category": "Game Networking Library",
-    "summary": "Valve's battle-tested P2P networking with encrypted NAT traversal"
+    "summary": "Valve's battle-tested P2P networking with encrypted NAT traversal",
+    "slug": "valvesoftware-gamenetworkingsockets"
   },
   {
     "repo_url": "https://github.com/bevyengine/bevy",
@@ -578,7 +601,8 @@
       "modern-graphics"
     ],
     "category": "Rust ECS Game Engine",
-    "summary": "Leading Rust ECS game engine with Vulkan/Metal/DX12 rendering"
+    "summary": "Leading Rust ECS game engine with Vulkan/Metal/DX12 rendering",
+    "slug": "bevyengine-bevy"
   },
   {
     "repo_url": "https://github.com/bepinex/bepinex",
@@ -601,7 +625,8 @@
       "plugin-framework"
     ],
     "category": "Modding Framework",
-    "summary": "Industry-leading Unity modding framework powering thousands of game mods"
+    "summary": "Industry-leading Unity modding framework powering thousands of game mods",
+    "slug": "bepinex-bepinex"
   },
   {
     "repo_url": "https://github.com/recastnavigation/recastnavigation",
@@ -624,7 +649,8 @@
       "ai-navigation"
     ],
     "category": "Pathfinding",
-    "summary": "Industry-standard navmesh generation and pathfinding for all major engines"
+    "summary": "Industry-standard navmesh generation and pathfinding for all major engines",
+    "slug": "recastnavigation-recastnavigation"
   },
   {
     "repo_url": "https://github.com/aseprite/aseprite",
@@ -647,7 +673,8 @@
       "animation"
     ],
     "category": "Sprite Animation Editor",
-    "summary": "Industry-standard sprite editor with layers, animations, onion skinning"
+    "summary": "Industry-standard sprite editor with layers, animations, onion skinning",
+    "slug": "aseprite-aseprite"
   },
   {
     "repo_url": "https://github.com/mackron/miniaudio",
@@ -671,7 +698,8 @@
       "cross-platform"
     ],
     "category": "Audio Library",
-    "summary": "De facto standard single-header audio library for games"
+    "summary": "De facto standard single-header audio library for games",
+    "slug": "mackron-miniaudio"
   },
   {
     "repo_url": "https://github.com/renpy/renpy",
@@ -696,7 +724,8 @@
       "scripting"
     ],
     "category": "Visual Novel Engine",
-    "summary": "Industry-standard visual novel engine powering 8000+ published games"
+    "summary": "Industry-standard visual novel engine powering 8000+ published games",
+    "slug": "renpy-renpy"
   },
   {
     "repo_url": "https://github.com/emilk/egui",
@@ -721,7 +750,8 @@
       "bevy"
     ],
     "category": "Rust Game UI",
-    "summary": "Cross-platform immediate-mode GUI for Rust games"
+    "summary": "Cross-platform immediate-mode GUI for Rust games",
+    "slug": "emilk-egui"
   },
   {
     "repo_url": "https://github.com/inkle/ink",
@@ -747,7 +777,8 @@
       "unity"
     ],
     "category": "Dialogue Systems",
-    "summary": "Industry-standard narrative scripting language for games"
+    "summary": "Industry-standard narrative scripting language for games",
+    "slug": "inkle-ink"
   },
   {
     "repo_url": "https://github.com/babylonjs/babylon.js",
@@ -772,7 +803,8 @@
       "webxr"
     ],
     "category": "Web 3D Game Engine",
-    "summary": "Leading web 3D engine with Microsoft backing, WebGPU/WebXR support, 25k stars"
+    "summary": "Leading web 3D engine with Microsoft backing, WebGPU/WebXR support, 25k stars",
+    "slug": "babylonjs-babylon-js"
   },
   {
     "repo_url": "https://github.com/libgdx/libgdx",
@@ -797,7 +829,8 @@
       "html5"
     ],
     "category": "Java Game Framework",
-    "summary": "Production-proven Java framework for 2D games across desktop/mobile/web"
+    "summary": "Production-proven Java framework for 2D games across desktop/mobile/web",
+    "slug": "libgdx-libgdx"
   },
   {
     "repo_url": "https://github.com/4ian/gdevelop",
@@ -823,7 +856,8 @@
       "cross-platform"
     ],
     "category": "No-Code Game Engine",
-    "summary": "Visual event-based game engine for 2D/3D games across all platforms"
+    "summary": "Visual event-based game engine for 2D/3D games across all platforms",
+    "slug": "4ian-gdevelop"
   },
   {
     "repo_url": "https://github.com/tildearrow/furnace",
@@ -848,7 +882,8 @@
       "music-editor"
     ],
     "category": "Music Trackers",
-    "summary": "Industry-leading multi-system chiptune tracker with 200+ chips"
+    "summary": "Industry-leading multi-system chiptune tracker with 200+ chips",
+    "slug": "tildearrow-furnace"
   },
   {
     "repo_url": "https://github.com/auburn/fastnoiselite",
@@ -873,7 +908,8 @@
       "procedural"
     ],
     "category": "Noise Generation Library",
-    "summary": "Dominant portable noise library supporting 9+ languages and noise types for terrain/texture generation."
+    "summary": "Dominant portable noise library supporting 9+ languages and noise types for terrain/texture generation.",
+    "slug": "auburn-fastnoiselite"
   },
   {
     "repo_url": "https://github.com/mmp/pbrt-v4",
@@ -897,7 +933,8 @@
       "reference"
     ],
     "category": "Ray Tracer",
-    "summary": "Canonical physically-based ray tracer reference implementation"
+    "summary": "Canonical physically-based ray tracer reference implementation",
+    "slug": "mmp-pbrt-v4"
   },
   {
     "repo_url": "https://github.com/cocos2d/cocos2d-x",
@@ -922,7 +959,8 @@
       "industry-standard"
     ],
     "category": "C++ 2D Game Engine",
-    "summary": "Global-scale C++ 2D framework powering millions of mobile games"
+    "summary": "Global-scale C++ 2D framework powering millions of mobile games",
+    "slug": "cocos2d-cocos2d-x"
   },
   {
     "repo_url": "https://github.com/rpcs3/rpcs3",
@@ -946,7 +984,8 @@
       "game-emulation"
     ],
     "category": "PlayStation Emulator",
-    "summary": "Definitive open-source PlayStation 3 emulator with 3500+ game support"
+    "summary": "Definitive open-source PlayStation 3 emulator with 3500+ game support",
+    "slug": "rpcs3-rpcs3"
   },
   {
     "repo_url": "https://github.com/dolphin-emu/dolphin",
@@ -970,7 +1009,8 @@
       "retro-gaming"
     ],
     "category": "Nintendo Emulator",
-    "summary": "Legendary GameCube and Wii emulator with decades of development"
+    "summary": "Legendary GameCube and Wii emulator with decades of development",
+    "slug": "dolphin-emu-dolphin"
   },
   {
     "repo_url": "https://github.com/playcanvas/engine",
@@ -995,7 +1035,8 @@
       "cloud-gaming"
     ],
     "category": "Production Web 3D Engine",
-    "summary": "Production-grade 3D engine powering PlayCanvas cloud editor with 14.6k stars"
+    "summary": "Production-grade 3D engine powering PlayCanvas cloud editor with 14.6k stars",
+    "slug": "playcanvas-engine"
   },
   {
     "repo_url": "https://github.com/monogame/monogame",
@@ -1020,7 +1061,8 @@
       "indie-games"
     ],
     "category": ".NET Game Framework",
-    "summary": "C# XNA successor powering indie hits like Celeste and Stardew Valley"
+    "summary": "C# XNA successor powering indie hits like Celeste and Stardew Valley",
+    "slug": "monogame-monogame"
   },
   {
     "repo_url": "https://github.com/google-deepmind/mujoco",
@@ -1044,7 +1086,8 @@
       "ml"
     ],
     "category": "Physics Engine",
-    "summary": "DeepMind physics simulator for robotics, graphics, and ML research"
+    "summary": "DeepMind physics simulator for robotics, graphics, and ML research",
+    "slug": "google-deepmind-mujoco"
   },
   {
     "repo_url": "https://github.com/floooh/sokol",
@@ -1067,7 +1110,8 @@
       "webassembly"
     ],
     "category": "Graphics Library",
-    "summary": "Single-header C graphics library with WebAssembly support"
+    "summary": "Single-header C graphics library with WebAssembly support",
+    "slug": "floooh-sokol"
   },
   {
     "repo_url": "https://github.com/o3de/o3de",
@@ -1092,7 +1136,8 @@
       "simulation"
     ],
     "category": "AAA 3D Game Engine",
-    "summary": "Linux Foundation-backed AAA-grade engine for high-fidelity simulations"
+    "summary": "Linux Foundation-backed AAA-grade engine for high-fidelity simulations",
+    "slug": "o3de-o3de"
   },
   {
     "repo_url": "https://github.com/pygame/pygame",
@@ -1117,7 +1162,8 @@
       "multimedia"
     ],
     "category": "Python Game Library",
-    "summary": "Standard Python library for 2D games and multimedia applications"
+    "summary": "Standard Python library for 2D games and multimedia applications",
+    "slug": "pygame-pygame"
   },
   {
     "repo_url": "https://github.com/sandermertens/flecs",
@@ -1141,7 +1187,8 @@
       "game-architecture"
     ],
     "category": "Entity Component System",
-    "summary": "Feature-rich C/C++ ECS with built-in explorer UI and REST API"
+    "summary": "Feature-rich C/C++ ECS with built-in explorer UI and REST API",
+    "slug": "sandermertens-flecs"
   },
   {
     "repo_url": "https://github.com/mxgmn/markovjunior",
@@ -1166,7 +1213,8 @@
       "generation"
     ],
     "category": "Procedural Generation Language",
-    "summary": "Probabilistic language unifying constructive and constraint-based procedural generation with 153 examples."
+    "summary": "Probabilistic language unifying constructive and constraint-based procedural generation with 153 examples.",
+    "slug": "mxgmn-markovjunior"
   },
   {
     "repo_url": "https://github.com/wren-lang/wren",
@@ -1191,7 +1239,8 @@
       "lightweight"
     ],
     "category": "Embeddable Scripting Language",
-    "summary": "Modern embedded scripting with fibers and clean C API"
+    "summary": "Modern embedded scripting with fibers and clean C API",
+    "slug": "wren-lang-wren"
   },
   {
     "repo_url": "https://github.com/zeux/meshoptimizer",
@@ -1214,7 +1263,8 @@
       "gltf"
     ],
     "category": "Mesh Optimization",
-    "summary": "Mesh compression and optimization for faster rendering with vertex cache tuning"
+    "summary": "Mesh compression and optimization for faster rendering with vertex cache tuning",
+    "slug": "zeux-meshoptimizer"
   },
   {
     "repo_url": "https://github.com/veloren/veloren",
@@ -1239,7 +1289,8 @@
       "action-rpg"
     ],
     "category": "Voxel Action RPG",
-    "summary": "Production-quality voxel RPG in Rust with procedural world generation"
+    "summary": "Production-quality voxel RPG in Rust with procedural world generation",
+    "slug": "veloren-veloren"
   },
   {
     "repo_url": "https://github.com/colyseus/colyseus",
@@ -1264,7 +1315,8 @@
       "synchronization"
     ],
     "category": "Multiplayer Framework",
-    "summary": "Node.js multiplayer framework with real-time state synchronization"
+    "summary": "Node.js multiplayer framework with real-time state synchronization",
+    "slug": "colyseus-colyseus"
   },
   {
     "repo_url": "https://github.com/turanszkij/wickedengine",
@@ -1287,7 +1339,8 @@
       "ray-tracing"
     ],
     "category": "3D Engine",
-    "summary": "Modern 3D engine with ray tracing and global illumination"
+    "summary": "Modern 3D engine with ray tracing and global illumination",
+    "slug": "turanszkij-wickedengine"
   },
   {
     "repo_url": "https://github.com/libtcod/libtcod",
@@ -1312,7 +1365,8 @@
       "terminal"
     ],
     "category": "Roguelike Toolkit",
-    "summary": "Industry-standard roguelike library with pathfinding, FOV, and multi-language support"
+    "summary": "Industry-standard roguelike library with pathfinding, FOV, and multi-language support",
+    "slug": "libtcod-libtcod"
   },
   {
     "repo_url": "https://github.com/googleforgames/agones",
@@ -1337,7 +1391,8 @@
       "infrastructure"
     ],
     "category": "Game Server Orchestration",
-    "summary": "Kubernetes-native game server hosting and autoscaling platform"
+    "summary": "Kubernetes-native game server hosting and autoscaling platform",
+    "slug": "googleforgames-agones"
   },
   {
     "repo_url": "https://github.com/mirrornetworking/mirror",
@@ -1362,7 +1417,8 @@
       "transport-adapter"
     ],
     "category": "Unity Networking Library",
-    "summary": "Standard Unity multiplayer library battle-tested in 1000+ games"
+    "summary": "Standard Unity multiplayer library battle-tested in 1000+ games",
+    "slug": "mirrornetworking-mirror"
   },
   {
     "repo_url": "https://github.com/luau-lang/luau",
@@ -1387,7 +1443,8 @@
       "embeddable"
     ],
     "category": "Typed Lua Variant",
-    "summary": "Roblox-scale typed Lua for AAA game scripting"
+    "summary": "Roblox-scale typed Lua for AAA game scripting",
+    "slug": "luau-lang-luau"
   },
   {
     "repo_url": "https://github.com/confettifx/the-forge",
@@ -1410,7 +1467,8 @@
       "cross-platform"
     ],
     "category": "Rendering Framework",
-    "summary": "Professional framework supporting all gaming platforms"
+    "summary": "Professional framework supporting all gaming platforms",
+    "slug": "confettifx-the-forge"
   },
   {
     "repo_url": "https://github.com/sezanzeb/input-remapper",
@@ -1433,7 +1491,8 @@
       "linux"
     ],
     "category": "Input Remapper",
-    "summary": "Linux input remapper for accessibility and gaming"
+    "summary": "Linux input remapper for accessibility and gaming",
+    "slug": "sezanzeb-input-remapper"
   },
   {
     "repo_url": "https://github.com/mmp/pbrt-v3",
@@ -1458,7 +1517,8 @@
       "textbook"
     ],
     "category": "PBR Reference Renderer",
-    "summary": "Reference renderer for landmark 'Physically Based Rendering' textbook with 5k+ stars."
+    "summary": "Reference renderer for landmark 'Physically Based Rendering' textbook with 5k+ stars.",
+    "slug": "mmp-pbrt-v3"
   },
   {
     "repo_url": "https://github.com/dimforge/rapier",
@@ -1481,7 +1541,8 @@
       "wasm"
     ],
     "category": "Physics Engine",
-    "summary": "Rust physics engine with deterministic WASM support for Bevy"
+    "summary": "Rust physics engine with deterministic WASM support for Bevy",
+    "slug": "dimforge-rapier"
   },
   {
     "repo_url": "https://github.com/thephd/sol2",
@@ -1506,7 +1567,8 @@
       "type-safe"
     ],
     "category": "Lua C++ Binding",
-    "summary": "Standard high-performance Lua to C++ binding library"
+    "summary": "Standard high-performance Lua to C++ binding library",
+    "slug": "thephd-sol2"
   },
   {
     "repo_url": "https://github.com/praydog/reframework",
@@ -1529,7 +1591,8 @@
       "lua"
     ],
     "category": "Modding Framework",
-    "summary": "Essential mod loader for Capcom RE Engine games with Lua scripting"
+    "summary": "Essential mod loader for Capcom RE Engine games with Lua scripting",
+    "slug": "praydog-reframework"
   },
   {
     "repo_url": "https://github.com/nvidia-omniverse/physx",
@@ -1552,7 +1615,8 @@
       "nvidia"
     ],
     "category": "Physics Engine",
-    "summary": "NVIDIA PhysX 5 with GPU acceleration for Unreal and Unity"
+    "summary": "NVIDIA PhysX 5 with GPU acceleration for Unreal and Unity",
+    "slug": "nvidia-omniverse-physx"
   },
   {
     "repo_url": "https://github.com/behaviortree/behaviortree.cpp",
@@ -1575,7 +1639,8 @@
       "xml"
     ],
     "category": "Behavior Tree Library",
-    "summary": "Battle-tested C++ behavior tree library with XML-defined trees and logging"
+    "summary": "Battle-tested C++ behavior tree library with XML-defined trees and logging",
+    "slug": "behaviortree-behaviortree-cpp"
   },
   {
     "repo_url": "https://github.com/pond3r/ggpo",
@@ -1600,7 +1665,8 @@
       "low-latency"
     ],
     "category": "P2P Game Networking",
-    "summary": "Pioneering rollback netcode library for peer-to-peer fighting games"
+    "summary": "Pioneering rollback netcode library for peer-to-peer fighting games",
+    "slug": "pond3r-ggpo"
   },
   {
     "repo_url": "https://github.com/khronosgroup/glslang",
@@ -1623,7 +1689,8 @@
       "spirv"
     ],
     "category": "Shader Compiler",
-    "summary": "Official Khronos GLSL to SPIR-V compiler"
+    "summary": "Official Khronos GLSL to SPIR-V compiler",
+    "slug": "khronosgroup-glslang"
   },
   {
     "repo_url": "https://github.com/nathanhoad/godot_dialogue_manager",
@@ -1648,7 +1715,8 @@
       "stateless"
     ],
     "category": "Dialogue Systems",
-    "summary": "De-facto dialogue manager for Godot 4 with stateless design"
+    "summary": "De-facto dialogue manager for Godot 4 with stateless design",
+    "slug": "nathanhoad-godot-dialogue-manager"
   },
   {
     "repo_url": "https://github.com/kitao/pyxel",
@@ -1672,7 +1740,8 @@
       "game-engine"
     ],
     "category": "Retro Game Engine",
-    "summary": "Python-based retro fantasy console with pixel-art tools and editing"
+    "summary": "Python-based retro fantasy console with pixel-art tools and editing",
+    "slug": "kitao-pyxel"
   },
   {
     "repo_url": "https://github.com/openemu/openemu",
@@ -1696,7 +1765,8 @@
       "multi-platform"
     ],
     "category": "Retro Game Emulator",
-    "summary": "Premier macOS retro emulator supporting 30+ platforms with native UI"
+    "summary": "Premier macOS retro emulator supporting 30+ platforms with native UI",
+    "slug": "openemu-openemu"
   },
   {
     "repo_url": "https://github.com/binomialllc/basis_universal",
@@ -1719,7 +1789,8 @@
       "ktx2"
     ],
     "category": "Texture Compression",
-    "summary": "Supercompressed GPU texture codec for portable cross-platform distribution"
+    "summary": "Supercompressed GPU texture codec for portable cross-platform distribution",
+    "slug": "binomialllc-basis-universal"
   },
   {
     "repo_url": "https://github.com/tencent/behaviac",
@@ -1742,7 +1813,8 @@
       "visual-editor"
     ],
     "category": "AI Development Framework",
-    "summary": "Tencent game AI framework with BT, FSM, HTN and visual editor"
+    "summary": "Tencent game AI framework with BT, FSM, HTN and visual editor",
+    "slug": "tencent-behaviac"
   },
   {
     "repo_url": "https://github.com/bitbrain/beehave",
@@ -1765,7 +1837,8 @@
       "visual-editor"
     ],
     "category": "Godot AI Addon",
-    "summary": "Godot 4 behavior tree addon with node-based visual workflow"
+    "summary": "Godot 4 behavior tree addon with node-based visual workflow",
+    "slug": "bitbrain-beehave"
   },
   {
     "repo_url": "https://github.com/paveldogreat/webgl-fluid-simulation",
@@ -1789,7 +1862,8 @@
       "interactive"
     ],
     "category": "Fluid Simulation",
-    "summary": "GPU-powered web-based Navier-Stokes fluid simulation demo"
+    "summary": "GPU-powered web-based Navier-Stokes fluid simulation demo",
+    "slug": "paveldogreat-webgl-fluid-simulation"
   },
   {
     "repo_url": "https://github.com/openra/openra",
@@ -1814,7 +1888,8 @@
       "classic"
     ],
     "category": "RTS Game Engine",
-    "summary": "Polished RTS engine for Command & Conquer and Red Alert games"
+    "summary": "Polished RTS engine for Command & Conquer and Red Alert games",
+    "slug": "openra-openra"
   },
   {
     "repo_url": "https://github.com/valvesoftware/steam-audio",
@@ -1838,7 +1913,8 @@
       "middleware"
     ],
     "category": "Spatial Audio SDK",
-    "summary": "Valve spatial audio SDK with HRTF and physics-based propagation"
+    "summary": "Valve spatial audio SDK with HRTF and physics-based propagation",
+    "slug": "valvesoftware-steam-audio"
   },
   {
     "repo_url": "https://github.com/ondras/rot.js",
@@ -1863,7 +1939,8 @@
       "terminal"
     ],
     "category": "JavaScript Roguelike",
-    "summary": "Web-based roguelike toolkit with procedural generation and browser-native display"
+    "summary": "Web-based roguelike toolkit with procedural generation and browser-native display",
+    "slug": "ondras-rot-js"
   },
   {
     "repo_url": "https://github.com/yarnspinnertool/yarnspinner",
@@ -1887,7 +1964,8 @@
       "game-scripting"
     ],
     "category": "Dialogue & Narrative",
-    "summary": "Multi-engine branching dialogue framework used in Night in the Woods, A Short Hike"
+    "summary": "Multi-engine branching dialogue framework used in Night in the Woods, A Short Hike",
+    "slug": "yarnspinnertool-yarnspinner"
   },
   {
     "repo_url": "https://github.com/klembot/twinejs",
@@ -1912,7 +1990,8 @@
       "narrative"
     ],
     "category": "Story & Fiction Authoring",
-    "summary": "Industry-leading interactive fiction authoring platform for nonlinear stories"
+    "summary": "Industry-leading interactive fiction authoring platform for nonlinear stories",
+    "slug": "klembot-twinejs"
   },
   {
     "repo_url": "https://github.com/kcat/openal-soft",
@@ -1936,7 +2015,8 @@
       "cross-platform"
     ],
     "category": "Audio Library",
-    "summary": "Standard OpenAL software implementation for 3D game audio"
+    "summary": "Standard OpenAL software implementation for 3D game audio",
+    "slug": "kcat-openal-soft"
   },
   {
     "repo_url": "https://github.com/khronosgroup/spirv-cross",
@@ -1959,7 +2039,8 @@
       "tools"
     ],
     "category": "Shader Tools",
-    "summary": "Khronos SPIR-V reflection and transpilation tool"
+    "summary": "Khronos SPIR-V reflection and transpilation tool",
+    "slug": "khronosgroup-spirv-cross"
   },
   {
     "repo_url": "https://github.com/fluidsynth/fluidsynth",
@@ -1984,7 +2065,8 @@
       "game-audio"
     ],
     "category": "MIDI Synthesizers",
-    "summary": "De-facto SoundFont/MIDI synthesizer used in game audio"
+    "summary": "De-facto SoundFont/MIDI synthesizer used in game audio",
+    "slug": "fluidsynth-fluidsynth"
   },
   {
     "repo_url": "https://github.com/hajimehoshi/ebiten",
@@ -2009,7 +2091,8 @@
       "simple-api"
     ],
     "category": "Go 2D Game Engine",
-    "summary": "Standard 2D game engine for Go with cross-platform web support"
+    "summary": "Standard 2D game engine for Go with cross-platform web support",
+    "slug": "hajimehoshi-ebiten"
   },
   {
     "repo_url": "https://github.com/piskelapp/piskel",
@@ -2032,7 +2115,8 @@
       "web-editor"
     ],
     "category": "Pixel Art Editor",
-    "summary": "Web-based pixel art and sprite animation editor with live preview"
+    "summary": "Web-based pixel art and sprite animation editor with live preview",
+    "slug": "piskelapp-piskel"
   },
   {
     "repo_url": "https://github.com/boardgameio/boardgame.io",
@@ -2057,7 +2141,8 @@
       "networking"
     ],
     "category": "Board Game Framework",
-    "summary": "Multiplayer turn-based game engine for card and board games in JavaScript"
+    "summary": "Multiplayer turn-based game engine for card and board games in JavaScript",
+    "slug": "boardgameio-boardgame-io"
   },
   {
     "repo_url": "https://github.com/fogleman/craft",
@@ -2082,7 +2167,8 @@
       "multiplayer"
     ],
     "category": "Minecraft Clone Engine",
-    "summary": "Clean C voxel engine with OpenGL rendering and multiplayer support"
+    "summary": "Clean C voxel engine with OpenGL rendering and multiplayer support",
+    "slug": "fogleman-craft"
   },
   {
     "repo_url": "https://github.com/immediate-mode-ui/nuklear",
@@ -2107,7 +2193,8 @@
       "lightweight"
     ],
     "category": "C Game UI Toolkit",
-    "summary": "Single-header C GUI toolkit for game tools"
+    "summary": "Single-header C GUI toolkit for game tools",
+    "slug": "immediate-mode-ui-nuklear"
   },
   {
     "repo_url": "https://github.com/bleubleu/famistudio",
@@ -2132,7 +2219,8 @@
       "cross-platform"
     ],
     "category": "Music Editors",
-    "summary": "Premier NES/Famicom music editor with piano-roll interface"
+    "summary": "Premier NES/Famicom music editor with piano-roll interface",
+    "slug": "bleubleu-famistudio"
   },
   {
     "repo_url": "https://github.com/nvpro-samples/vk_raytracing_tutorial_khr",
@@ -2157,7 +2245,8 @@
       "graphics"
     ],
     "category": "Vulkan Ray Tracing",
-    "summary": "Official NVIDIA Vulkan ray tracing tutorial with 18+ progressive lessons and advanced techniques."
+    "summary": "Official NVIDIA Vulkan ray tracing tutorial with 18+ progressive lessons and advanced techniques.",
+    "slug": "nvpro-samples-vk-raytracing-tutorial-khr"
   },
   {
     "repo_url": "https://github.com/amethyst/bracket-lib",
@@ -2182,7 +2271,8 @@
       "opengl"
     ],
     "category": "Rust Roguelike Toolkit",
-    "summary": "Rust roguelike toolkit with pathfinding, noise, and multi-backend rendering support"
+    "summary": "Rust roguelike toolkit with pathfinding, noise, and multi-backend rendering support",
+    "slug": "amethyst-bracket-lib"
   },
   {
     "repo_url": "https://github.com/airtestproject/airtest",
@@ -2207,7 +2297,8 @@
       "python"
     ],
     "category": "Game Testing Automation",
-    "summary": "Image-based UI automation framework for cross-platform game testing"
+    "summary": "Image-based UI automation framework for cross-platform game testing",
+    "slug": "airtestproject-airtest"
   },
   {
     "repo_url": "https://github.com/fyroxengine/fyrox",
@@ -2232,7 +2323,8 @@
       "production-ready"
     ],
     "category": "Production Rust Game Engine",
-    "summary": "Production-ready Rust 3D/2D engine with integrated scene editor"
+    "summary": "Production-ready Rust 3D/2D engine with integrated scene editor",
+    "slug": "fyroxengine-fyrox"
   },
   {
     "repo_url": "https://github.com/pterodactyl/panel",
@@ -2257,7 +2349,8 @@
       "hosting"
     ],
     "category": "Game Server Manager",
-    "summary": "Open-source game server management with Docker"
+    "summary": "Open-source game server management with Docker",
+    "slug": "pterodactyl-panel"
   },
   {
     "repo_url": "https://github.com/qiao/pathfinding.js",
@@ -2280,7 +2373,8 @@
       "grid-based"
     ],
     "category": "Pathfinding",
-    "summary": "JavaScript library with 10 pathfinding algorithms for grid-based games"
+    "summary": "JavaScript library with 10 pathfinding algorithms for grid-based games",
+    "slug": "qiao-pathfinding-js"
   },
   {
     "repo_url": "https://github.com/love2d/love",
@@ -2305,7 +2399,8 @@
       "indie"
     ],
     "category": "Lua 2D Game Framework",
-    "summary": "Simple Lua-based 2D framework beloved by game jam developers"
+    "summary": "Simple Lua-based 2D framework beloved by game jam developers",
+    "slug": "love2d-love"
   },
   {
     "repo_url": "https://github.com/libresprite/libresprite",
@@ -2328,7 +2423,8 @@
       "animation"
     ],
     "category": "Sprite Animation Editor",
-    "summary": "Free GPL Aseprite fork with layers, frames, and onion skinning"
+    "summary": "Free GPL Aseprite fork with layers, frames, and onion skinning",
+    "slug": "libresprite-libresprite"
   },
   {
     "repo_url": "https://github.com/sschmid/entitas",
@@ -2352,7 +2448,8 @@
       "code-generation"
     ],
     "category": "Unity Architecture",
-    "summary": "Dominant Unity ECS framework with code generation and type safety"
+    "summary": "Dominant Unity ECS framework with code generation and type safety",
+    "slug": "sschmid-entitas"
   },
   {
     "repo_url": "https://github.com/stride3d/stride",
@@ -2377,7 +2474,8 @@
       "cross-platform"
     ],
     "category": "C# 3D Game Engine",
-    "summary": ".NET-backed C# engine with full editor and VR support"
+    "summary": ".NET-backed C# engine with full editor and VR support",
+    "slug": "stride3d-stride"
   },
   {
     "repo_url": "https://github.com/mgba-emu/mgba",
@@ -2401,7 +2499,8 @@
       "accurate"
     ],
     "category": "Handheld Emulator",
-    "summary": "Best-in-class accurate GBA/Game Boy emulator with debugging tools"
+    "summary": "Best-in-class accurate GBA/Game Boy emulator with debugging tools",
+    "slug": "mgba-emu-mgba"
   },
   {
     "repo_url": "https://github.com/melonjs/melonjs",
@@ -2427,7 +2526,8 @@
       "modern-api"
     ],
     "category": "HTML5 2D Game Engine",
-    "summary": "Modern lightweight HTML5 2D engine with Canvas2D-inspired API"
+    "summary": "Modern lightweight HTML5 2D engine with Canvas2D-inspired API",
+    "slug": "melonjs-melonjs"
   },
   {
     "repo_url": "https://github.com/renderkit/ospray",
@@ -2452,7 +2552,8 @@
       "portable"
     ],
     "category": "Scientific Ray Tracer",
-    "summary": "Intel production ray tracer for scientific visualization with HPC and GPU support."
+    "summary": "Intel production ray tracer for scientific visualization with HPC and GPU support.",
+    "slug": "renderkit-ospray"
   },
   {
     "repo_url": "https://github.com/nesbox/tic-80",
@@ -2476,7 +2577,8 @@
       "education"
     ],
     "category": "Fantasy Console",
-    "summary": "Open-source fantasy console with integrated editors for retro game dev"
+    "summary": "Open-source fantasy console with integrated editors for retro game dev",
+    "slug": "nesbox-tic-80"
   },
   {
     "repo_url": "https://github.com/defold/defold",
@@ -2501,7 +2603,8 @@
       "web"
     ],
     "category": "Lua-Based Game Engine",
-    "summary": "Production game engine with Lua scripting across desktop/mobile/web"
+    "summary": "Production game engine with Lua scripting across desktop/mobile/web",
+    "slug": "defold-defold"
   },
   {
     "repo_url": "https://github.com/embarkstudios/kajiya",
@@ -2526,7 +2629,8 @@
       "real-time"
     ],
     "category": "Global Illumination Renderer",
-    "summary": "Experimental real-time GI renderer implementing ReSTIR and IRCACHE techniques in Rust."
+    "summary": "Experimental real-time GI renderer implementing ReSTIR and IRCACHE techniques in Rust.",
+    "slug": "embarkstudios-kajiya"
   },
   {
     "repo_url": "https://github.com/nvidia-rtx/rtxpt",
@@ -2551,7 +2655,8 @@
       "denoising"
     ],
     "category": "NVIDIA Production Tracer",
-    "summary": "NVIDIA production path tracer with DLSS, RTXDI denoising, and DirectX 12/Vulkan support."
+    "summary": "NVIDIA production path tracer with DLSS, RTXDI denoising, and DirectX 12/Vulkan support.",
+    "slug": "nvidia-rtx-rtxpt"
   },
   {
     "repo_url": "https://github.com/rhaiscript/rhai",
@@ -2576,7 +2681,8 @@
       "wasm"
     ],
     "category": "Rust Scripting Engine",
-    "summary": "Sandboxed JavaScript-like scripting for Rust games"
+    "summary": "Sandboxed JavaScript-like scripting for Rust games",
+    "slug": "rhaiscript-rhai"
   },
   {
     "repo_url": "https://github.com/mosra/magnum",
@@ -2599,7 +2705,8 @@
       "opengl"
     ],
     "category": "Graphics Middleware",
-    "summary": "Lightweight modular graphics middleware with OpenGL/WebGL"
+    "summary": "Lightweight modular graphics middleware with OpenGL/WebGL",
+    "slug": "mosra-magnum"
   },
   {
     "repo_url": "https://github.com/google/liquidfun",
@@ -2623,7 +2730,8 @@
       "box2d"
     ],
     "category": "Physics Engine",
-    "summary": "Google 2D fluid simulation extending Box2D with soft bodies"
+    "summary": "Google 2D fluid simulation extending Box2D with soft bodies",
+    "slug": "google-liquidfun"
   },
   {
     "repo_url": "https://github.com/ogrecave/ogre",
@@ -2646,7 +2754,8 @@
       "modular"
     ],
     "category": "Rendering Engine",
-    "summary": "Veteran multi-API rendering engine with language bindings"
+    "summary": "Veteran multi-API rendering engine with language bindings",
+    "slug": "ogrecave-ogre"
   },
   {
     "repo_url": "https://github.com/diligentgraphics/diligentengine",
@@ -2669,7 +2778,8 @@
       "api"
     ],
     "category": "Graphics Abstraction",
-    "summary": "Modern graphics abstraction supporting legacy to WebGPU"
+    "summary": "Modern graphics abstraction supporting legacy to WebGPU",
+    "slug": "diligentgraphics-diligentengine"
   },
   {
     "repo_url": "https://github.com/deepnight/ldtk",
@@ -2692,7 +2802,8 @@
       "json"
     ],
     "category": "2D Level Editor",
-    "summary": "Modern 2D level editor with clean JSON format from Dead Cells creator"
+    "summary": "Modern 2D level editor with clean JSON format from Dead Cells creator",
+    "slug": "deepnight-ldtk"
   },
   {
     "repo_url": "https://github.com/mikke89/rmlui",
@@ -2717,7 +2828,8 @@
       "production"
     ],
     "category": "HTML/CSS Game UI",
-    "summary": "Production-proven HTML/CSS UI library for games"
+    "summary": "Production-proven HTML/CSS UI library for games",
+    "slug": "mikke89-rmlui"
   },
   {
     "repo_url": "https://github.com/cedricguillemet/imguizmo",
@@ -2742,7 +2854,8 @@
       "game-tools"
     ],
     "category": "3D Editor Gizmo",
-    "summary": "Standard ImGui-based 3D transformation gizmo"
+    "summary": "Standard ImGui-based 3D transformation gizmo",
+    "slug": "cedricguillemet-imguizmo"
   },
   {
     "repo_url": "https://github.com/lavagang/melonloader",
@@ -2765,7 +2878,8 @@
       "il2cpp"
     ],
     "category": "Modding Framework",
-    "summary": "Universal Unity mod loader supporting IL2CPP and Mono backends"
+    "summary": "Universal Unity mod loader supporting IL2CPP and Mono backends",
+    "slug": "lavagang-melonloader"
   },
   {
     "repo_url": "https://github.com/openwebgal/webgal",
@@ -2790,7 +2904,8 @@
       "typescript"
     ],
     "category": "Web Visual Novel Engine",
-    "summary": "Web-based visual novel engine with graphical editor for non-programmers"
+    "summary": "Web-based visual novel engine with graphical editor for non-programmers",
+    "slug": "openwebgal-webgal"
   },
   {
     "repo_url": "https://github.com/zylann/godot_voxel",
@@ -2815,7 +2930,8 @@
       "streaming"
     ],
     "category": "Godot Voxel Extension",
-    "summary": "Godot voxel terrain extension with LOD and infinite streaming support"
+    "summary": "Godot voxel terrain extension with LOD and infinite streaming support",
+    "slug": "zylann-godot-voxel"
   },
   {
     "repo_url": "https://github.com/antimicrox/antimicrox",
@@ -2838,7 +2954,8 @@
       "cross-platform"
     ],
     "category": "Input Mapper",
-    "summary": "Gamepad-to-keyboard mapper for Windows and Linux"
+    "summary": "Gamepad-to-keyboard mapper for Windows and Linux",
+    "slug": "antimicrox-antimicrox"
   },
   {
     "repo_url": "https://github.com/revenantx/litenetlib",
@@ -2863,7 +2980,8 @@
       "multiplayer"
     ],
     "category": ".NET Game Networking",
-    "summary": "Lightweight UDP networking library for .NET game engines"
+    "summary": "Lightweight UDP networking library for .NET game engines",
+    "slug": "revenantx-litenetlib"
   },
   {
     "repo_url": "https://github.com/googleforgames/open-match",
@@ -2888,7 +3006,8 @@
       "microservices"
     ],
     "category": "Game Backend Server",
-    "summary": "Kubernetes matchmaking framework for custom game logic"
+    "summary": "Kubernetes matchmaking framework for custom game logic",
+    "slug": "googleforgames-open-match"
   },
   {
     "repo_url": "https://github.com/patriciogonzalezvivo/lygia",
@@ -2911,7 +3030,8 @@
       "cross-platform"
     ],
     "category": "Shader Library",
-    "summary": "Multi-language shader library supporting GLSL to WGSL"
+    "summary": "Multi-language shader library supporting GLSL to WGSL",
+    "slug": "patriciogonzalezvivo-lygia"
   },
   {
     "repo_url": "https://github.com/lsalzman/enet",
@@ -2936,7 +3056,8 @@
       "classic"
     ],
     "category": "Classic Game Networking",
-    "summary": "20+ year-old reliable UDP library trusted by countless game engines"
+    "summary": "20+ year-old reliable UDP library trusted by countless game engines",
+    "slug": "lsalzman-enet"
   },
   {
     "repo_url": "https://github.com/bomomby/optick",
@@ -2961,7 +3082,8 @@
       "cpp"
     ],
     "category": "Lightweight Game Profiler",
-    "summary": "Embeddable CPU/GPU profiler with standalone viewer for game optimization"
+    "summary": "Embeddable CPU/GPU profiler with standalone viewer for game optimization",
+    "slug": "bomomby-optick"
   },
   {
     "repo_url": "https://github.com/nvidiagameworks/falcor",
@@ -2984,7 +3106,8 @@
       "dlss"
     ],
     "category": "Rendering Framework",
-    "summary": "NVIDIA research framework with ray tracing and DLSS"
+    "summary": "NVIDIA research framework with ray tracing and DLSS",
+    "slug": "nvidiagameworks-falcor"
   },
   {
     "repo_url": "https://github.com/gdquest-demos/godot-procedural-generation",
@@ -3009,7 +3132,8 @@
       "demos"
     ],
     "category": "Godot PCG Educational",
-    "summary": "GDQuest's educational collection of PCG algorithms with runnable Godot demos."
+    "summary": "GDQuest's educational collection of PCG algorithms with runnable Godot demos.",
+    "slug": "gdquest-demos-godot-procedural-generation"
   },
   {
     "repo_url": "https://github.com/limbonaut/limboai",
@@ -3032,7 +3156,8 @@
       "state-machine"
     ],
     "category": "Godot AI Plugin",
-    "summary": "Godot 4 C++ plugin with behavior trees and hierarchical state machines"
+    "summary": "Godot 4 C++ plugin with behavior trees and hierarchical state machines",
+    "slug": "limbonaut-limboai"
   },
   {
     "repo_url": "https://github.com/inkle/inky",
@@ -3057,7 +3182,8 @@
       "game-development"
     ],
     "category": "Narrative Editor",
-    "summary": "Professional IDE for ink narrative scripting language with real-time preview"
+    "summary": "Professional IDE for ink narrative scripting language with real-time preview",
+    "slug": "inkle-inky"
   },
   {
     "repo_url": "https://github.com/trenchbroom/trenchbroom",
@@ -3080,7 +3206,8 @@
       "3d-editing"
     ],
     "category": "3D Level Editor",
-    "summary": "Cross-platform 3D level editor for classic Quake engine games"
+    "summary": "Cross-platform 3D level editor for classic Quake engine games",
+    "slug": "trenchbroom-trenchbroom"
   },
   {
     "repo_url": "https://github.com/syoyo/tinygltf",
@@ -3103,7 +3230,8 @@
       "3d-loading"
     ],
     "category": "glTF Loader",
-    "summary": "Lightweight header-only glTF 2.0 loader for minimal-dependency C++ projects"
+    "summary": "Lightweight header-only glTF 2.0 loader for minimal-dependency C++ projects",
+    "slug": "syoyo-tinygltf"
   },
   {
     "repo_url": "https://github.com/slembcke/chipmunk2d",
@@ -3126,7 +3254,8 @@
       "lightweight"
     ],
     "category": "Physics Engine",
-    "summary": "Lightweight 2D physics library used in hundreds of shipped games"
+    "summary": "Lightweight 2D physics library used in hundreds of shipped games",
+    "slug": "slembcke-chipmunk2d"
   },
   {
     "repo_url": "https://github.com/appleseedhq/appleseed",
@@ -3150,7 +3279,8 @@
       "pbr"
     ],
     "category": "Rendering Engine",
-    "summary": "Production-grade PBR renderer for animation and VFX"
+    "summary": "Production-grade PBR renderer for animation and VFX",
+    "slug": "appleseedhq-appleseed"
   },
   {
     "repo_url": "https://github.com/erichlof/three.js-pathtracing-renderer",
@@ -3175,7 +3305,8 @@
       "global-illumination"
     ],
     "category": "Browser Path Tracer",
-    "summary": "Browser-based path tracer with global illumination running in WebGL at 30-60 FPS."
+    "summary": "Browser-based path tracer with global illumination running in WebGL at 30-60 FPS.",
+    "slug": "erichlof-three-js-pathtracing-renderer"
   },
   {
     "repo_url": "https://github.com/interactivecomputergraphics/positionbaseddynamics",
@@ -3200,7 +3331,8 @@
       "deformable"
     ],
     "category": "Physics Engine",
-    "summary": "Unified PBD library for cloth, fluids, and rigid body simulation"
+    "summary": "Unified PBD library for cloth, fluids, and rigid body simulation",
+    "slug": "interactivecomputergraphics-positionbaseddynamics"
   },
   {
     "repo_url": "https://github.com/jarikomppa/soloud",
@@ -3224,7 +3356,8 @@
       "indie"
     ],
     "category": "Audio Engine",
-    "summary": "Feature-rich portable audio engine with DSP effects and synthesis"
+    "summary": "Feature-rich portable audio engine with DSP effects and synthesis",
+    "slug": "jarikomppa-soloud"
   },
   {
     "repo_url": "https://github.com/google/shaderc",
@@ -3247,7 +3380,8 @@
       "compilation"
     ],
     "category": "Shader Tools",
-    "summary": "Google shader compilation toolkit for Vulkan"
+    "summary": "Google shader compilation toolkit for Vulkan",
+    "slug": "google-shaderc"
   },
   {
     "repo_url": "https://github.com/knightcrawler25/glsl-pathtracer",
@@ -3272,7 +3406,8 @@
       "learning"
     ],
     "category": "GLSL Path Tracer",
-    "summary": "GPU path tracer in GLSL with Disney BSDF, supporting learning without RTX hardware."
+    "summary": "GPU path tracer in GLSL with Disney BSDF, supporting learning without RTX hardware.",
+    "slug": "knightcrawler25-glsl-pathtracer"
   },
   {
     "repo_url": "https://github.com/evennia/evennia",
@@ -3297,7 +3432,8 @@
       "mush"
     ],
     "category": "MUD Framework",
-    "summary": "Python framework for building text-based multiplayer games with WebSocket support"
+    "summary": "Python framework for building text-based multiplayer games with WebSocket support",
+    "slug": "evennia-evennia"
   },
   {
     "repo_url": "https://github.com/ebkr/r2modmanplus",
@@ -3320,7 +3456,8 @@
       "profiles"
     ],
     "category": "Mod Manager",
-    "summary": "Standard mod manager for Thunderstore ecosystem with profile support"
+    "summary": "Standard mod manager for Thunderstore ecosystem with profile support",
+    "slug": "ebkr-r2modmanplus"
   },
   {
     "repo_url": "https://github.com/donmccurdy/gltf-transform",
@@ -3343,7 +3480,8 @@
       "asset-processing"
     ],
     "category": "glTF Processing",
-    "summary": "JavaScript/TypeScript glTF 2.0 SDK for compression, optimization, and conversion"
+    "summary": "JavaScript/TypeScript glTF 2.0 SDK for compression, optimization, and conversion",
+    "slug": "donmccurdy-gltf-transform"
   },
   {
     "repo_url": "https://github.com/jaysmito101/terraforge3d",
@@ -3368,7 +3506,8 @@
       "tool"
     ],
     "category": "Terrain Generation Tool",
-    "summary": "Cross-platform terrain tool with node editor, 40+ nodes, and hydraulic/wind erosion simulation."
+    "summary": "Cross-platform terrain tool with node editor, 40+ nodes, and hydraulic/wind erosion simulation.",
+    "slug": "jaysmito101-terraforge3d"
   },
   {
     "repo_url": "https://github.com/interactivecomputergraphics/splishsplash",
@@ -3392,7 +3531,8 @@
       "3d"
     ],
     "category": "Fluid Simulation",
-    "summary": "Research-grade SPH fluid simulation with cutting-edge solvers"
+    "summary": "Research-grade SPH fluid simulation with cutting-edge solvers",
+    "slug": "interactivecomputergraphics-splishsplash"
   },
   {
     "repo_url": "https://github.com/crashkonijn/goap",
@@ -3415,7 +3555,8 @@
       "unity"
     ],
     "category": "GOAP AI System",
-    "summary": "Multi-threaded GOAP system for Unity with visual debugger"
+    "summary": "Multi-threaded GOAP system for Unity with visual debugger",
+    "slug": "crashkonijn-goap"
   },
   {
     "repo_url": "https://github.com/kdotjpg/opensimplex2",
@@ -3440,7 +3581,8 @@
       "coherent-noise"
     ],
     "category": "Noise Algorithm Library",
-    "summary": "Patent-free Simplex noise alternative with multi-language support for procedural generation."
+    "summary": "Patent-free Simplex noise alternative with multi-language support for procedural generation.",
+    "slug": "kdotjpg-opensimplex2"
   },
   {
     "repo_url": "https://github.com/gkjohnson/three-gpu-pathtracer",
@@ -3465,7 +3607,8 @@
       "pbr"
     ],
     "category": "Three.js Path Tracer",
-    "summary": "GPU-accelerated three.js path tracer with PBR materials and advanced WebGL 2 features."
+    "summary": "GPU-accelerated three.js path tracer with PBR materials and advanced WebGL 2 features.",
+    "slug": "gkjohnson-three-gpu-pathtracer"
   },
   {
     "repo_url": "https://github.com/mdqinc/sdl_gamecontrollerdb",
@@ -3488,7 +3631,8 @@
       "database"
     ],
     "category": "Game Input Database",
-    "summary": "Community controller mapping database for SDL games"
+    "summary": "Community controller mapping database for SDL games",
+    "slug": "mdqinc-sdl-gamecontrollerdb"
   },
   {
     "repo_url": "https://github.com/ganelson/inform",
@@ -3513,7 +3657,8 @@
       "narrative"
     ],
     "category": "Interactive Fiction",
-    "summary": "Historically significant IF language with natural language syntax"
+    "summary": "Historically significant IF language with natural language syntax",
+    "slug": "ganelson-inform"
   },
   {
     "repo_url": "https://github.com/inspiaaa/unityhfsm",
@@ -3538,7 +3683,8 @@
       "zero-gc"
     ],
     "category": "AI State Machines",
-    "summary": "Fast zero-GC hierarchical FSM library for Unity game AI"
+    "summary": "Fast zero-GC hierarchical FSM library for Unity game AI",
+    "slug": "inspiaaa-unityhfsm"
   },
   {
     "repo_url": "https://github.com/dimforge/bevy_rapier",
@@ -3561,7 +3707,8 @@
       "rust"
     ],
     "category": "Physics Engine",
-    "summary": "Official Rapier physics plugin for Bevy game engine"
+    "summary": "Official Rapier physics plugin for Bevy game engine",
+    "slug": "dimforge-bevy-rapier"
   },
   {
     "repo_url": "https://github.com/thraka/sadconsole",
@@ -3586,7 +3733,8 @@
       "terminal"
     ],
     "category": "C# Console Engine",
-    "summary": ".NET terminal and ASCII game engine with GUI and entity system support"
+    "summary": ".NET terminal and ASCII game engine with GUI and entity system support",
+    "slug": "thraka-sadconsole"
   },
   {
     "repo_url": "https://github.com/libgdx/gdx-ai",
@@ -3611,7 +3759,8 @@
       "java"
     ],
     "category": "AI Framework",
-    "summary": "Comprehensive Java AI framework with trees, pathfinding, steering"
+    "summary": "Comprehensive Java AI framework with trees, pathfinding, steering",
+    "slug": "libgdx-gdx-ai"
   },
   {
     "repo_url": "https://github.com/mhgolkar/arrow",
@@ -3635,7 +3784,8 @@
       "dialogue"
     ],
     "category": "Narrative Design Tool",
-    "summary": "Godot-based visual narrative design for games and interactive stories"
+    "summary": "Godot-based visual narrative design for games and interactive stories",
+    "slug": "mhgolkar-arrow"
   },
   {
     "repo_url": "https://github.com/nexus-mods/vortex",
@@ -3658,7 +3808,8 @@
       "nexus-mods"
     ],
     "category": "Mod Manager",
-    "summary": "Most popular mod manager for 250+ games with automated load ordering"
+    "summary": "Most popular mod manager for 250+ games with automated load ordering",
+    "slug": "nexus-mods-vortex"
   },
   {
     "repo_url": "https://github.com/khronosgroup/ktx-software",
@@ -3681,7 +3832,8 @@
       "khronos"
     ],
     "category": "Texture Format Tools",
-    "summary": "Official Khronos KTX2 texture format library for GPU API transcoding"
+    "summary": "Official Khronos KTX2 texture format library for GPU API transcoding",
+    "slug": "khronosgroup-ktx-software"
   },
   {
     "repo_url": "https://github.com/boristhebrave/debroglie",
@@ -3706,7 +3858,8 @@
       "library"
     ],
     "category": "WFC Library for Unity",
-    "summary": "Production-ready WFC library for .NET/Unity with backtracking and constraint support."
+    "summary": "Production-ready WFC library for .NET/Unity with backtracking and constraint support.",
+    "slug": "boristhebrave-debroglie"
   },
   {
     "repo_url": "https://github.com/steffest/bassoontracker",
@@ -3731,7 +3884,8 @@
       "mod-xm"
     ],
     "category": "Music Trackers",
-    "summary": "Browser-based Amiga module tracker for MOD and XM files"
+    "summary": "Browser-based Amiga module tracker for MOD and XM files",
+    "slug": "steffest-bassoontracker"
   },
   {
     "repo_url": "https://github.com/redot-engine/redot-engine",
@@ -3756,7 +3910,8 @@
       "2d-3d"
     ],
     "category": "Godot Community Fork",
-    "summary": "Community-driven Godot fork with independent governance and roadmap"
+    "summary": "Community-driven Godot fork with independent governance and roadmap",
+    "slug": "redot-engine-redot-engine"
   },
   {
     "repo_url": "https://github.com/kbengine/kbengine",
@@ -3780,7 +3935,8 @@
       "distributed"
     ],
     "category": "Game Backend Server",
-    "summary": "MMORPG server engine with distributed load balancing"
+    "summary": "MMORPG server engine with distributed load balancing",
+    "slug": "kbengine-kbengine"
   },
   {
     "repo_url": "https://github.com/rxi/microui",
@@ -3805,7 +3961,8 @@
       "no-allocation"
     ],
     "category": "Minimal UI Library",
-    "summary": "Tiny reference-quality immediate-mode UI library"
+    "summary": "Tiny reference-quality immediate-mode UI library",
+    "slug": "rxi-microui"
   },
   {
     "repo_url": "https://github.com/mruby/mruby",
@@ -3830,7 +3987,8 @@
       "interpreter"
     ],
     "category": "Embedded Ruby Runtime",
-    "summary": "Lightweight embeddable Ruby interpreter for games"
+    "summary": "Lightweight embeddable Ruby interpreter for games",
+    "slug": "mruby-mruby"
   },
   {
     "repo_url": "https://github.com/orillusion/orillusion",
@@ -3853,7 +4011,8 @@
       "typescript"
     ],
     "category": "Web Engine",
-    "summary": "WebGPU-native 3D engine for browsers in beta"
+    "summary": "WebGPU-native 3D engine for browsers in beta",
+    "slug": "orillusion-orillusion"
   },
   {
     "repo_url": "https://github.com/almasb/fxgl",
@@ -3878,7 +4037,8 @@
       "cross-platform"
     ],
     "category": "Java/Kotlin 2D Engine",
-    "summary": "JavaFX-based 2D engine with ECS and modern API for JVM games"
+    "summary": "JavaFX-based 2D engine with ECS and modern API for JVM games",
+    "slug": "almasb-fxgl"
   },
   {
     "repo_url": "https://github.com/raysan5/raygui",
@@ -3903,7 +4063,8 @@
       "indie"
     ],
     "category": "Raylib UI Module",
-    "summary": "Official UI companion library for raylib"
+    "summary": "Official UI companion library for raylib",
+    "slug": "raysan5-raygui"
   },
   {
     "repo_url": "https://github.com/schellingb/tinysoundfont",
@@ -3928,7 +4089,8 @@
       "lightweight"
     ],
     "category": "MIDI Synthesizers",
-    "summary": "Single-header SoundFont synthesizer for game MIDI playback"
+    "summary": "Single-header SoundFont synthesizer for game MIDI playback",
+    "slug": "schellingb-tinysoundfont"
   },
   {
     "repo_url": "https://github.com/thedmd/imgui-node-editor",
@@ -3953,7 +4115,8 @@
       "game-tools"
     ],
     "category": "Node Graph Editor",
-    "summary": "ImGui-based node editor for visual scripting"
+    "summary": "ImGui-based node editor for visual scripting",
+    "slug": "thedmd-imgui-node-editor"
   },
   {
     "repo_url": "https://github.com/seblague/procedural-planets",
@@ -3978,7 +4141,8 @@
       "biomes"
     ],
     "category": "Planet Generation Tutorial",
-    "summary": "Educational Unity planet generator with LOD mesh and biome-based coloring with YouTube series."
+    "summary": "Educational Unity planet generator with LOD mesh and biome-based coloring with YouTube series.",
+    "slug": "seblague-procedural-planets"
   },
   {
     "repo_url": "https://github.com/killedbyapixel/littlejs",
@@ -4004,7 +4168,8 @@
       "game-jam"
     ],
     "category": "Minimal JS Game Engine",
-    "summary": "Tiny no-dependency HTML5 engine optimized for game jams and js13k"
+    "summary": "Tiny no-dependency HTML5 engine optimized for game jams and js13k",
+    "slug": "killedbyapixel-littlejs"
   },
   {
     "repo_url": "https://github.com/libsdl-org/sdl_mixer",
@@ -4028,7 +4193,8 @@
       "cross-platform"
     ],
     "category": "Audio Library",
-    "summary": "Official SDL audio mixer with multi-format support"
+    "summary": "Official SDL audio mixer with multi-format support",
+    "slug": "libsdl-org-sdl-mixer"
   },
   {
     "repo_url": "https://github.com/spring/spring",
@@ -4053,7 +4219,8 @@
       "community-games"
     ],
     "category": "Open Source RTS Engine",
-    "summary": "De-facto open-source RTS engine with decades of development history"
+    "summary": "De-facto open-source RTS engine with decades of development history",
+    "slug": "spring-spring"
   },
   {
     "repo_url": "https://github.com/movingblocks/terasology",
@@ -4078,7 +4245,8 @@
       "minecraft-inspired"
     ],
     "category": "Java Voxel Platform",
-    "summary": "Java voxel platform with modular architecture and procedural generation"
+    "summary": "Java voxel platform with modular architecture and procedural generation",
+    "slug": "movingblocks-terasology"
   },
   {
     "repo_url": "https://github.com/amzeratul/halley",
@@ -4103,7 +4271,8 @@
       "commercial"
     ],
     "category": "C++17 Game Engine",
-    "summary": "Commercially-proven C++ engine shipping Wargroove on consoles"
+    "summary": "Commercially-proven C++ engine shipping Wargroove on consoles",
+    "slug": "amzeratul-halley"
   },
   {
     "repo_url": "https://github.com/nem0/lumixengine",
@@ -4128,7 +4297,8 @@
       "minimalist"
     ],
     "category": "Lightweight C++ Game Engine",
-    "summary": "Minimalist C++ engine focused on performance and editor usability"
+    "summary": "Minimalist C++ engine focused on performance and editor usability",
+    "slug": "nem0-lumixengine"
   },
   {
     "repo_url": "https://github.com/armory3d/armory",
@@ -4153,7 +4323,8 @@
       "artist-friendly"
     ],
     "category": "Blender Game Engine",
-    "summary": "Blender-integrated 3D engine for artists developing games natively"
+    "summary": "Blender-integrated 3D engine for artists developing games natively",
+    "slug": "armory3d-armory"
   },
   {
     "repo_url": "https://github.com/guillaumechereau/goxel",
@@ -4178,7 +4349,8 @@
       "magicavoxel"
     ],
     "category": "3D Voxel Editor",
-    "summary": "Cross-platform voxel editor with ray tracing and multi-format export"
+    "summary": "Cross-platform voxel editor with ray tracing and multi-format export",
+    "slug": "guillaumechereau-goxel"
   },
   {
     "repo_url": "https://github.com/snes9xgit/snes9x",
@@ -4202,7 +4374,8 @@
       "libretro"
     ],
     "category": "Console Emulator",
-    "summary": "Established SNES emulator with libretro core support"
+    "summary": "Established SNES emulator with libretro core support",
+    "slug": "snes9xgit-snes9x"
   },
   {
     "repo_url": "https://github.com/chaiscript/chaiscript",
@@ -4227,7 +4400,8 @@
       "native"
     ],
     "category": "C++ Scripting Language",
-    "summary": "Header-only C++ scripting with native type integration"
+    "summary": "Header-only C++ scripting with native type integration",
+    "slug": "chaiscript-chaiscript"
   },
   {
     "repo_url": "https://github.com/fairygui/fairygui-unity",
@@ -4252,7 +4426,8 @@
       "vr"
     ],
     "category": "Unity UI Framework",
-    "summary": "Production-grade Unity UI with draw-call optimization"
+    "summary": "Production-grade Unity UI with draw-call optimization",
+    "slug": "fairygui-fairygui-unity"
   },
   {
     "repo_url": "https://github.com/mas-bandwidth/yojimbo",
@@ -4277,7 +4452,8 @@
       "multiplayer"
     ],
     "category": "Client-Server Networking",
-    "summary": "Professional client/server networking library with encryption"
+    "summary": "Professional client/server networking library with encryption",
+    "slug": "mas-bandwidth-yojimbo"
   },
   {
     "repo_url": "https://github.com/libtcod/python-tcod",
@@ -4302,7 +4478,8 @@
       "libtcod"
     ],
     "category": "Python Roguelike Bindings",
-    "summary": "Official libtcod Python bindings with NumPy integration for fast operations"
+    "summary": "Official libtcod Python bindings with NumPy integration for fast operations",
+    "slug": "libtcod-python-tcod"
   },
   {
     "repo_url": "https://github.com/yasirkula/unityingamedebugconsole",
@@ -4327,7 +4504,8 @@
       "development"
     ],
     "category": "Unity Debug Console",
-    "summary": "Popular Unity runtime debug console for logs"
+    "summary": "Popular Unity runtime debug console for logs",
+    "slug": "yasirkula-unityingamedebugconsole"
   },
   {
     "repo_url": "https://github.com/lukasbanana/llgl",
@@ -4350,7 +4528,8 @@
       "abstraction"
     ],
     "category": "Graphics Library",
-    "summary": "Thin multi-API graphics abstraction layer"
+    "summary": "Thin multi-API graphics abstraction layer",
+    "slug": "lukasbanana-llgl"
   },
   {
     "repo_url": "https://github.com/software-mansion/typegpu",
@@ -4373,7 +4552,8 @@
       "gpu-programming"
     ],
     "category": "WebGPU Toolkit",
-    "summary": "TypeScript-first WebGPU toolkit with type-safe shaders"
+    "summary": "TypeScript-first WebGPU toolkit with type-safe shaders",
+    "slug": "software-mansion-typegpu"
   },
   {
     "repo_url": "https://github.com/haxeflixel/flixel",
@@ -4398,7 +4578,8 @@
       "indie"
     ],
     "category": "Haxe 2D Game Engine",
-    "summary": "Cross-platform 2D engine for Haxe with native and web deployment"
+    "summary": "Cross-platform 2D engine for Haxe with native and web deployment",
+    "slug": "haxeflixel-flixel"
   },
   {
     "repo_url": "https://github.com/excaliburjs/excalibur",
@@ -4424,7 +4605,8 @@
       "webgl"
     ],
     "category": "Web 2D Game Engine",
-    "summary": "TypeScript-first 2D web engine with Canvas/WebGL support and clean API"
+    "summary": "TypeScript-first 2D web engine with Canvas/WebGL support and clean API",
+    "slug": "excaliburjs-excalibur"
   },
   {
     "repo_url": "https://github.com/h8man/navmeshplus",
@@ -4447,7 +4629,8 @@
       "2d-games"
     ],
     "category": "Pathfinding",
-    "summary": "Unity 2D navmesh generation and pathfinding for top-down games"
+    "summary": "Unity 2D navmesh generation and pathfinding for top-down games",
+    "slug": "h8man-navmeshplus"
   },
   {
     "repo_url": "https://github.com/doyubkim/fluid-engine-dev",
@@ -4471,7 +4654,8 @@
       "sdk"
     ],
     "category": "Fluid Simulation",
-    "summary": "Fluid simulation SDK with textbook covering SPH, FLIP, PIC methods"
+    "summary": "Fluid simulation SDK with textbook covering SPH, FLIP, PIC methods",
+    "slug": "doyubkim-fluid-engine-dev"
   },
   {
     "repo_url": "https://github.com/audinowho/rogueelements",
@@ -4496,7 +4680,8 @@
       "engine-agnostic"
     ],
     "category": "Roguelike Map Generator",
-    "summary": "Engine-agnostic roguelike map generation library with modular GenStep pipeline architecture."
+    "summary": "Engine-agnostic roguelike map generation library with modular GenStep pipeline architecture.",
+    "slug": "audinowho-rogueelements"
   },
   {
     "repo_url": "https://github.com/pythonarcade/arcade",
@@ -4521,7 +4706,8 @@
       "modern-api"
     ],
     "category": "Python Game Framework",
-    "summary": "Modern Python framework with clean API for 2D arcade games"
+    "summary": "Modern Python framework with clean API for 2D arcade games",
+    "slug": "pythonarcade-arcade"
   },
   {
     "repo_url": "https://github.com/bsnes-emu/bsnes",
@@ -4545,7 +4731,8 @@
       "preservation"
     ],
     "category": "Console Emulator",
-    "summary": "Gold standard cycle-accurate SNES emulator for preservation"
+    "summary": "Gold standard cycle-accurate SNES emulator for preservation",
+    "slug": "bsnes-emu-bsnes"
   },
   {
     "repo_url": "https://github.com/firstgeargames/fishnet",
@@ -4570,7 +4757,8 @@
       "console"
     ],
     "category": "Unity Multiplayer Framework",
-    "summary": "Full-featured Unity networking with prediction and console support"
+    "summary": "Full-featured Unity networking with prediction and console support",
+    "slug": "firstgeargames-fishnet"
   },
   {
     "repo_url": "https://github.com/themaister/granite",
@@ -4593,7 +4781,8 @@
       "render-graph"
     ],
     "category": "Vulkan Renderer",
-    "summary": "Vulkan renderer with sophisticated render graph system"
+    "summary": "Vulkan renderer with sophisticated render graph system",
+    "slug": "themaister-granite"
   },
   {
     "repo_url": "https://github.com/prettymuchbryce/easystarjs",
@@ -4616,7 +4805,8 @@
       "astar"
     ],
     "category": "Pathfinding",
-    "summary": "Lightweight async A* pathfinding for HTML5 games with custom costs"
+    "summary": "Lightweight async A* pathfinding for HTML5 games with custom costs",
+    "slug": "prettymuchbryce-easystarjs"
   },
   {
     "repo_url": "https://github.com/fungos/cr",
@@ -4639,7 +4829,8 @@
       "live-coding"
     ],
     "category": "Hot Reload",
-    "summary": "Header-only C/C++ library for runtime hot-reloading with crash detection"
+    "summary": "Header-only C/C++ library for runtime hot-reloading with crash detection",
+    "slug": "fungos-cr"
   },
   {
     "repo_url": "https://github.com/danielchappuis/reactphysics3d",
@@ -4662,7 +4853,8 @@
       "collision-detection"
     ],
     "category": "Physics Engine",
-    "summary": "Self-contained 3D physics library with no external dependencies"
+    "summary": "Self-contained 3D physics library with no external dependencies",
+    "slug": "danielchappuis-reactphysics3d"
   },
   {
     "repo_url": "https://github.com/genaray/arch",
@@ -4686,7 +4878,8 @@
       "performance"
     ],
     "category": "Archetype ECS",
-    "summary": "High-performance C# ECS with multithreading and cache optimization"
+    "summary": "High-performance C# ECS with multithreading and cache optimization",
+    "slug": "genaray-arch"
   },
   {
     "repo_url": "https://github.com/gpsnopy/raytracinginvulkan",
@@ -4711,7 +4904,8 @@
       "learning"
     ],
     "category": "Vulkan RTX Reference",
-    "summary": "Vulkan RTX implementation of 'Ray Tracing in One Weekend' achieving ~140fps on RTX 2080."
+    "summary": "Vulkan RTX implementation of 'Ray Tracing in One Weekend' achieving ~140fps on RTX 2080.",
+    "slug": "gpsnoopy-raytracinginvulkan"
   },
   {
     "repo_url": "https://github.com/googleforgames/quilkin",
@@ -4736,7 +4930,8 @@
       "google"
     ],
     "category": "Game UDP Proxy",
-    "summary": "Google-backed UDP proxy for game server scaling"
+    "summary": "Google-backed UDP proxy for game server scaling",
+    "slug": "googleforgames-quilkin"
   },
   {
     "repo_url": "https://github.com/sebas77/svelto.ecs",
@@ -4760,7 +4955,8 @@
       "c#"
     ],
     "category": "Data-Oriented ECS",
-    "summary": "Data-oriented C# ECS emphasizing cache efficiency and explicit management"
+    "summary": "Data-oriented C# ECS emphasizing cache efficiency and explicit management",
+    "slug": "sebas77-svelto-ecs"
   },
   {
     "repo_url": "https://github.com/tencent/gautomator",
@@ -4785,7 +4981,8 @@
       "engine-integration"
     ],
     "category": "Mobile Game Test Automation",
-    "summary": "Engine-level test automation via GameObject API for Unity/Unreal"
+    "summary": "Engine-level test automation via GameObject API for Unity/Unreal",
+    "slug": "tencent-gautomator"
   },
   {
     "repo_url": "https://github.com/nem0/openfbx",
@@ -4808,7 +5005,8 @@
       "skeleton"
     ],
     "category": "FBX Import Library",
-    "summary": "Open-source FBX importer for geometry, skeletons, animations without SDK"
+    "summary": "Open-source FBX importer for geometry, skeletons, animations without SDK",
+    "slug": "nem0-openfbx"
   },
   {
     "repo_url": "https://github.com/auburn/fastnoisesimd",
@@ -4833,7 +5031,8 @@
       "vectorization"
     ],
     "category": "High-Performance Noise",
-    "summary": "SIMD-accelerated noise library achieving 700% speedup using CPU intrinsics (SSE2-AVX512)."
+    "summary": "SIMD-accelerated noise library achieving 700% speedup using CPU intrinsics (SSE2-AVX512).",
+    "slug": "auburn-fastnoisesimd"
   },
   {
     "repo_url": "https://github.com/nvidia/q2rtx",
@@ -4858,7 +5057,8 @@
       "game"
     ],
     "category": "Ray Traced Game",
-    "summary": "Full path-traced Quake II implementation demonstrating real-time RTX ray tracing"
+    "summary": "Full path-traced Quake II implementation demonstrating real-time RTX ray tracing",
+    "slug": "nvidia-q2rtx"
   },
   {
     "repo_url": "https://github.com/db0/godot-card-game-framework",
@@ -4883,7 +5083,8 @@
       "deckbuilding"
     ],
     "category": "Godot Card Framework",
-    "summary": "Godot card game framework with drag-and-drop mechanics and ability scripting"
+    "summary": "Godot card game framework with drag-and-drop mechanics and ability scripting",
+    "slug": "db0-godot-card-game-framework"
   },
   {
     "repo_url": "https://github.com/openalea/lpy",
@@ -4908,7 +5109,8 @@
       "python"
     ],
     "category": "L-System Plant Modeling",
-    "summary": "Python L-system implementation for plant growth modeling and morphogenesis research."
+    "summary": "Python L-system implementation for plant growth modeling and morphogenesis research.",
+    "slug": "openalea-lpy"
   },
   {
     "repo_url": "https://github.com/azagaya/laigter",
@@ -4931,7 +5133,8 @@
       "texture-generation"
     ],
     "category": "2D Texture Generation",
-    "summary": "Auto-generates normal/parallax/occlusion maps for 2D sprites with preview"
+    "summary": "Auto-generates normal/parallax/occlusion maps for 2D sprites with preview",
+    "slug": "azagaya-laigter"
   },
   {
     "repo_url": "https://github.com/ricardojmendez/unitysteer",
@@ -4956,7 +5159,8 @@
       "game-ai"
     ],
     "category": "Agent Steering",
-    "summary": "Unity steering behaviors for autonomous agents and NPCs"
+    "summary": "Unity steering behaviors for autonomous agents and NPCs",
+    "slug": "ricardojmendez-unitysteer"
   },
   {
     "repo_url": "https://github.com/ashblue/fluid-behavior-tree",
@@ -4981,7 +5185,8 @@
       "testable"
     ],
     "category": "Behavior Trees",
-    "summary": "Fluent behavior tree library for Unity with testability focus"
+    "summary": "Fluent behavior tree library for Unity with testability focus",
+    "slug": "ashblue-fluid-behavior-tree"
   },
   {
     "repo_url": "https://github.com/game-ci/unity-builder",
@@ -5006,7 +5211,8 @@
       "build"
     ],
     "category": "Unity CI/CD Automation",
-    "summary": "GitHub Action for automated multi-platform Unity game builds"
+    "summary": "GitHub Action for automated multi-platform Unity game builds",
+    "slug": "game-ci-unity-builder"
   },
   {
     "repo_url": "https://github.com/albertodemichelis/squirrel",
@@ -5031,7 +5237,8 @@
       "oop"
     ],
     "category": "Scripting Language",
-    "summary": "Production-proven scripting language for Valve games"
+    "summary": "Production-proven scripting language for Valve games",
+    "slug": "albertodemichelis-squirrel"
   },
   {
     "repo_url": "https://github.com/samueltardieu/pathfinding",
@@ -5054,7 +5261,8 @@
       "graph-algorithms"
     ],
     "category": "Pathfinding",
-    "summary": "Rust crate with pathfinding and graph algorithms for game development"
+    "summary": "Rust crate with pathfinding and graph algorithms for game development",
+    "slug": "samueltardieu-pathfinding"
   },
   {
     "repo_url": "https://github.com/marcofaziorandom/virtual-joystick-godot",
@@ -5077,7 +5285,8 @@
       "virtual-joystick"
     ],
     "category": "Game Input Plugin",
-    "summary": "Virtual joystick plugin for Godot mobile games"
+    "summary": "Virtual joystick plugin for Godot mobile games",
+    "slug": "marcofaziorandom-virtual-joystick-godot"
   },
   {
     "repo_url": "https://github.com/reloaded-project/reloaded-ii",
@@ -5100,7 +5309,8 @@
       "nuget"
     ],
     "category": "Mod Loader",
-    "summary": "Universal .NET mod loader with isolation architecture and NuGet support"
+    "summary": "Universal .NET mod loader with isolation architecture and NuGet support",
+    "slug": "reloaded-project-reloaded-ii"
   },
   {
     "repo_url": "https://github.com/ikpil/dotrecast",
@@ -5123,7 +5333,8 @@
       "csharp"
     ],
     "category": "Pathfinding",
-    "summary": "C# port of industry-standard Recast for .NET and Unity servers"
+    "summary": "C# port of industry-standard Recast for .NET and Unity servers",
+    "slug": "ikpil-dotrecast"
   },
   {
     "repo_url": "https://github.com/monogatari/monogatari",
@@ -5148,7 +5359,8 @@
       "mobile"
     ],
     "category": "PWA Visual Novel Engine",
-    "summary": "PWA-compatible web visual novel engine with mobile installability"
+    "summary": "PWA-compatible web visual novel engine with mobile installability",
+    "slug": "monogatari-monogatari"
   },
   {
     "repo_url": "https://github.com/yarnspinnertool/yarnspinner-unity",
@@ -5172,7 +5384,8 @@
       "dialogue-system"
     ],
     "category": "Unity Dialogue",
-    "summary": "Official Unity integration for Yarn Spinner branching dialogue system"
+    "summary": "Official Unity integration for Yarn Spinner branching dialogue system",
+    "slug": "yarnspinnertool-yarnspinner-unity"
   },
   {
     "repo_url": "https://github.com/inkle/ink-unity-integration",
@@ -5196,7 +5409,8 @@
       "dialogue-system"
     ],
     "category": "Unity Integration",
-    "summary": "Official ink language integration for Unity with full C# API access"
+    "summary": "Official ink language integration for Unity with full C# API access",
+    "slug": "inkle-ink-unity-integration"
   },
   {
     "repo_url": "https://github.com/devdogio/quest-system-pro",
@@ -5220,7 +5434,8 @@
       "npc-behavior"
     ],
     "category": "Quest & Dialogue",
-    "summary": "Full-featured quest and dialogue system formerly on Unity Asset Store"
+    "summary": "Full-featured quest and dialogue system formerly on Unity Asset Store",
+    "slug": "devdogio-quest-system-pro"
   },
   {
     "repo_url": "https://github.com/kirilllive/tuesday-js",
@@ -5244,7 +5459,8 @@
       "interactive-fiction"
     ],
     "category": "Web Visual Novel",
-    "summary": "No-dependency HTML5 visual novel editor with desktop and Android export"
+    "summary": "No-dependency HTML5 visual novel editor with desktop and Android export",
+    "slug": "kirilllive-tuesday-js"
   },
   {
     "repo_url": "https://github.com/autodesk/aurora",
@@ -5269,7 +5485,8 @@
       "real-time"
     ],
     "category": "Ray Tracing Engine",
-    "summary": "Autodesk real-time GPU path tracer with USD Hydra integration for DCC pipelines"
+    "summary": "Autodesk real-time GPU path tracer with USD Hydra integration for DCC pipelines",
+    "slug": "autodesk-aurora"
   },
   {
     "repo_url": "https://github.com/notyetgames/dlgsystem",
@@ -5293,7 +5510,8 @@
       "dialogue-system"
     ],
     "category": "Unreal Dialogue",
-    "summary": "Production-proven dialogue plugin for Unreal Engine with graph editing"
+    "summary": "Production-proven dialogue plugin for Unreal Engine with graph editing",
+    "slug": "notyetgames-dlgsystem"
   },
   {
     "repo_url": "https://github.com/tsahyt/surfacelab",
@@ -5318,7 +5536,8 @@
       "asset-pipeline"
     ],
     "category": "Procedural Texture Editor",
-    "summary": "Rust-native node-based procedural texture generation tool for artists and game pipelines."
+    "summary": "Rust-native node-based procedural texture generation tool for artists and game pipelines.",
+    "slug": "tsahyt-surfacelab"
   },
   {
     "repo_url": "https://github.com/imgui-rs/imgui-rs",
@@ -5343,7 +5562,8 @@
       "safe"
     ],
     "category": "Rust ImGui Binding",
-    "summary": "Safe Rust bindings for Dear ImGui"
+    "summary": "Safe Rust bindings for Dear ImGui",
+    "slug": "imgui-rs-imgui-rs"
   },
   {
     "repo_url": "https://github.com/chris3606/gorogue",
@@ -5368,7 +5588,8 @@
       "algorithms"
     ],
     "category": "C# Roguelike Library",
-    "summary": "Modular C# roguelike library with FOV, pathfinding, and map generation algorithms"
+    "summary": "Modular C# roguelike library with FOV, pathfinding, and map generation algorithms",
+    "slug": "chris3606-gorogue"
   },
   {
     "repo_url": "https://github.com/linkdd/aitoolkit",
@@ -5393,7 +5614,8 @@
       "header-only"
     ],
     "category": "AI Toolkit",
-    "summary": "Header-only C++ AI library with FSM, trees, GOAP"
+    "summary": "Header-only C++ AI library with FSM, trees, GOAP",
+    "slug": "linkdd-aitoolkit"
   },
   {
     "repo_url": "https://github.com/raysan5/rfxgen",
@@ -5418,7 +5640,8 @@
       "raylib"
     ],
     "category": "Sound Tools",
-    "summary": "Modern sfxr-style sound effect generator by raylib author"
+    "summary": "Modern sfxr-style sound effect generator by raylib author",
+    "slug": "raysan5-rfxgen"
   },
   {
     "repo_url": "https://github.com/permafrost-engine/permafrost-engine",
@@ -5443,7 +5666,8 @@
       "fog-of-war"
     ],
     "category": "C-based RTS Engine",
-    "summary": "Pure C RTS engine with pathfinding, fog of war, and unit AI"
+    "summary": "Pure C RTS engine with pathfinding, fog of war, and unit AI",
+    "slug": "eduard-permyakov-permafrost-engine"
   },
   {
     "repo_url": "https://github.com/hoimar/planet-generator",
@@ -5468,7 +5692,8 @@
       "lod"
     ],
     "category": "Godot Planet Plugin",
-    "summary": "Godot addon for procedural planet generation with LOD and dynamic chunk streaming."
+    "summary": "Godot addon for procedural planet generation with LOD and dynamic chunk streaming.",
+    "slug": "hoimar-planet-generator"
   },
   {
     "repo_url": "https://github.com/mmontag/chip-player-js",
@@ -5493,7 +5718,8 @@
       "multi-format"
     ],
     "category": "Music Players",
-    "summary": "Web chiptune player supporting 50+ retro game music formats"
+    "summary": "Web chiptune player supporting 50+ retro game music formats",
+    "slug": "mmontag-chip-player-js"
   },
   {
     "repo_url": "https://github.com/davy7125/polyphone",
@@ -5518,7 +5744,8 @@
       "midi"
     ],
     "category": "Sound Editors",
-    "summary": "Leading SoundFont editor for game audio asset creation"
+    "summary": "Leading SoundFont editor for game audio asset creation",
+    "slug": "davy7125-polyphone"
   },
   {
     "repo_url": "https://github.com/t-mw/citygen",
@@ -5543,7 +5770,8 @@
       "algorithm"
     ],
     "category": "Browser City Generator",
-    "summary": "Browser-based city generation implementing Parish-Muller street network algorithm."
+    "summary": "Browser-based city generation implementing Parish-Muller street network algorithm.",
+    "slug": "t-mw-citygen"
   },
   {
     "repo_url": "https://github.com/overload-technologies/overload",
@@ -5568,7 +5796,8 @@
       "beginner-friendly"
     ],
     "category": "User-Friendly 3D Engine",
-    "summary": "Beginner-friendly C++ 3D engine with Lua scripting and editor"
+    "summary": "Beginner-friendly C++ 3D engine with Lua scripting and editor",
+    "slug": "overload-technologies-overload"
   },
   {
     "repo_url": "https://github.com/nelarius/imnodes",
@@ -5593,7 +5822,8 @@
       "dependency-free"
     ],
     "category": "ImGui Node Editor",
-    "summary": "Lightweight dependency-free node editor for ImGui"
+    "summary": "Lightweight dependency-free node editor for ImGui",
+    "slug": "nelarius-imnodes"
   },
   {
     "repo_url": "https://github.com/shun126/dungeongenerator",
@@ -5618,7 +5848,8 @@
       "mission-graph"
     ],
     "category": "UE5 Dungeon Plugin",
-    "summary": "UE5 plugin generating procedural dungeons with mission graphs and Blueprint integration."
+    "summary": "UE5 plugin generating procedural dungeons with mission graphs and Blueprint integration.",
+    "slug": "shun126-dungeongenerator"
   },
   {
     "repo_url": "https://github.com/libxmp/libxmp",
@@ -5643,7 +5874,8 @@
       "embedded"
     ],
     "category": "Audio Libraries",
-    "summary": "Essential C library for 90+ tracker module formats playback"
+    "summary": "Essential C library for 90+ tracker module formats playback",
+    "slug": "libxmp-libxmp"
   },
   {
     "repo_url": "https://github.com/gosu/gosu",
@@ -5668,7 +5900,8 @@
       "graphics"
     ],
     "category": "Ruby 2D Game Library",
-    "summary": "Primary 2D library for Ruby with OpenGL graphics and game jam focus"
+    "summary": "Primary 2D library for Ruby with OpenGL graphics and game jam focus",
+    "slug": "gosu-gosu"
   },
   {
     "repo_url": "https://github.com/classicube/classicube",
@@ -5693,7 +5926,8 @@
       "retro"
     ],
     "category": "Minecraft Classic Client",
-    "summary": "Lightweight Minecraft Classic client with broad platform support"
+    "summary": "Lightweight Minecraft Classic client with broad platform support",
+    "slug": "classicube-classicube"
   },
   {
     "repo_url": "https://github.com/ezengine/ezengine",
@@ -5718,7 +5952,8 @@
       "plugin-based"
     ],
     "category": "Modular Plugin Engine",
-    "summary": "Modular C++ engine with plugin architecture and PBR rendering"
+    "summary": "Modular C++ engine with plugin architecture and PBR rendering",
+    "slug": "ezengine-ezengine"
   },
   {
     "repo_url": "https://github.com/spessasus/spessasynth",
@@ -5743,7 +5978,8 @@
       "web-audio"
     ],
     "category": "MIDI Synthesizers",
-    "summary": "TypeScript web SoundFont synthesizer with MIDI support"
+    "summary": "TypeScript web SoundFont synthesizer with MIDI support",
+    "slug": "spessasus-spessasynth"
   },
   {
     "repo_url": "https://github.com/lance-gg/lance",
@@ -5768,7 +6004,8 @@
       "typescript"
     ],
     "category": "Multiplayer Server Framework",
-    "summary": "Real-time multiplayer server framework with network sync and lag compensation"
+    "summary": "Real-time multiplayer server framework with network sync and lag compensation",
+    "slug": "lance-gg-lance"
   },
   {
     "repo_url": "https://github.com/embarkstudios/puffin",
@@ -5793,7 +6030,8 @@
       "telemetry"
     ],
     "category": "Rust Game Profiler",
-    "summary": "Lightweight Rust profiler with flamegraph and in-game visualization"
+    "summary": "Lightweight Rust profiler with flamegraph and in-game visualization",
+    "slug": "embarkstudios-puffin"
   },
   {
     "repo_url": "https://github.com/zeux/niagara",
@@ -5816,7 +6054,8 @@
       "educational"
     ],
     "category": "Vulkan Renderer",
-    "summary": "Educational Vulkan renderer with GPU culling techniques"
+    "summary": "Educational Vulkan renderer with GPU culling techniques",
+    "slug": "zeux-niagara"
   },
   {
     "repo_url": "https://github.com/kaplayjs/kaplay",
@@ -5842,7 +6081,8 @@
       "beginner-friendly"
     ],
     "category": "Fun Web Game Engine",
-    "summary": "Kaboom.js successor with web editor and 90+ beginner-friendly examples"
+    "summary": "Kaboom.js successor with web editor and 90+ beginner-friendly examples",
+    "slug": "kaplayjs-kaplay"
   },
   {
     "repo_url": "https://github.com/riptidenetworking/riptide",
@@ -5867,7 +6107,8 @@
       "indie"
     ],
     "category": ".NET Multiplayer Library",
-    "summary": "Lightweight .NET networking for indie multiplayer games"
+    "summary": "Lightweight .NET networking for indie multiplayer games",
+    "slug": "riptidenetworking-riptide"
   },
   {
     "repo_url": "https://github.com/odrick/free-tex-packer",
@@ -5891,7 +6132,8 @@
       "spritesheet"
     ],
     "category": "Sprite Sheet Packer",
-    "summary": "Multi-format sprite atlas packer with rotation and trim for game engines"
+    "summary": "Multi-format sprite atlas packer with rotation and trim for game engines",
+    "slug": "odrick-free-tex-packer"
   },
   {
     "repo_url": "https://github.com/castle-engine/castle-engine",
@@ -5916,7 +6158,8 @@
       "2d-3d"
     ],
     "category": "Pascal 3D/2D Engine",
-    "summary": "Pascal engine with glTF/X3D support across desktop, mobile, web"
+    "summary": "Pascal engine with glTF/X3D support across desktop, mobile, web",
+    "slug": "castle-engine-castle-engine"
   },
   {
     "repo_url": "https://github.com/drhelius/gearboy",
@@ -5940,7 +6183,8 @@
       "homebrew"
     ],
     "category": "Handheld Emulator",
-    "summary": "Accurate Game Boy emulator with built-in debugging tools"
+    "summary": "Accurate Game Boy emulator with built-in debugging tools",
+    "slug": "drhelius-gearboy"
   },
   {
     "repo_url": "https://github.com/manankarnik/bevy_generative",
@@ -5965,7 +6209,8 @@
       "ecs"
     ],
     "category": "Bevy Generation Plugin",
-    "summary": "Bevy plugin for real-time procedural generation of terrain, planets, maps, and textures."
+    "summary": "Bevy plugin for real-time procedural generation of terrain, planets, maps, and textures.",
+    "slug": "manankarnik-bevy-generative"
   },
   {
     "repo_url": "https://github.com/increpare/puzzlescript",
@@ -5990,7 +6235,8 @@
       "game-jams"
     ],
     "category": "Puzzle Game DSL",
-    "summary": "Beloved niche DSL for grid-based puzzle games with dedicated game jam community"
+    "summary": "Beloved niche DSL for grid-based puzzle games with dedicated game jam community",
+    "slug": "increpare-puzzlescript"
   },
   {
     "repo_url": "https://github.com/lameguy64/psn00bsdk",
@@ -6014,7 +6260,8 @@
       "development"
     ],
     "category": "Game Development SDK",
-    "summary": "Essential open-source SDK for PS1 homebrew game development"
+    "summary": "Essential open-source SDK for PS1 homebrew game development",
+    "slug": "lameguy64-psn00bsdk"
   },
   {
     "repo_url": "https://github.com/binomialllc/crunch",
@@ -6037,7 +6284,8 @@
       "legacy"
     ],
     "category": "DXT Compression",
-    "summary": "DXT1/5/N texture compression at 100-250 megatexels/sec for legacy formats"
+    "summary": "DXT1/5/N texture compression at 100-250 megatexels/sec for legacy formats",
+    "slug": "binomialllc-crunch"
   },
   {
     "repo_url": "https://github.com/libgme/game-music-emu",
@@ -6062,7 +6310,8 @@
       "c++"
     ],
     "category": "Audio Libraries",
-    "summary": "Console music emulation library for NES, SNES, Genesis"
+    "summary": "Console music emulation library for NES, SNES, Genesis",
+    "slug": "libgme-game-music-emu"
   },
   {
     "repo_url": "https://github.com/jkuhlmann/gainput",
@@ -6085,7 +6334,8 @@
       "cross-platform"
     ],
     "category": "Input Handling",
-    "summary": "Cross-platform C++ input library for keyboard, mouse, gamepad, and touch"
+    "summary": "Cross-platform C++ input library for keyboard, mouse, gamepad, and touch",
+    "slug": "jkuhlmann-gainput"
   },
   {
     "repo_url": "https://github.com/gameplay3d/gameplay",
@@ -6110,7 +6360,8 @@
       "legacy"
     ],
     "category": "Legacy 3D Game Engine",
-    "summary": "Historically significant but inactive C++ cross-platform game engine"
+    "summary": "Historically significant but inactive C++ cross-platform game engine",
+    "slug": "gameplay3d-gameplay"
   },
   {
     "repo_url": "https://github.com/openalea/plantgl",
@@ -6135,7 +6386,8 @@
       "visualization"
     ],
     "category": "Plant Visualization Toolkit",
-    "summary": "C++/Python toolkit for 3D plant creation, simulation, and analysis with L-system integration."
+    "summary": "C++/Python toolkit for 3D plant creation, simulation, and analysis with L-system integration.",
+    "slug": "openalea-plantgl"
   },
   {
     "repo_url": "https://github.com/shadowblip/opengamepadui",
@@ -6158,7 +6410,8 @@
       "godot"
     ],
     "category": "Game Launcher",
-    "summary": "Gamepad-native game launcher and overlay for Godot"
+    "summary": "Gamepad-native game launcher and overlay for Godot",
+    "slug": "shadowblip-opengamepadui"
   },
   {
     "repo_url": "https://github.com/labsound/labsound",
@@ -6182,7 +6435,8 @@
       "web-audio"
     ],
     "category": "Audio Engine",
-    "summary": "Graph-based audio engine with Web Audio-style API"
+    "summary": "Graph-based audio engine with Web Audio-style API",
+    "slug": "labsound-labsound"
   },
   {
     "repo_url": "https://github.com/sploreg/goap",
@@ -6207,7 +6461,8 @@
       "learning"
     ],
     "category": "Action Planning",
-    "summary": "Learning reference for goal-oriented action planning in Unity"
+    "summary": "Learning reference for goal-oriented action planning in Unity",
+    "slug": "sploreg-goap"
   },
   {
     "repo_url": "https://github.com/scellecs/morpeh",
@@ -6231,7 +6486,8 @@
       "minimal-boilerplate"
     ],
     "category": "Simple Unity ECS",
-    "summary": "Lightweight Unity ECS with no code generation and minimal boilerplate"
+    "summary": "Lightweight Unity ECS with no code generation and minimal boilerplate",
+    "slug": "scellecs-morpeh"
   },
   {
     "repo_url": "https://github.com/stolk/gpgoap",
@@ -6256,7 +6512,8 @@
       "npc-ai"
     ],
     "category": "Action Planning",
-    "summary": "Engine-agnostic C library for goal-oriented action planning"
+    "summary": "Engine-agnostic C library for goal-oriented action planning",
+    "slug": "stolk-gpgoap"
   },
   {
     "repo_url": "https://github.com/ogmo-editor-3/ogmoeditor3-ce",
@@ -6279,7 +6536,8 @@
       "layers"
     ],
     "category": "2D Level Editor",
-    "summary": "Project-oriented 2D level editor with tile and entity layer support"
+    "summary": "Project-oriented 2D level editor with tile and entity layer support",
+    "slug": "ogmo-editor-3-ogmoeditor3-ce"
   },
   {
     "repo_url": "https://github.com/beyond-all-reason/recoilengine",
@@ -6304,7 +6562,8 @@
       "cross-platform"
     ],
     "category": "Spring RTS Fork",
-    "summary": "Active Spring fork powering the Beyond All Reason RTS game"
+    "summary": "Active Spring fork powering the Beyond All Reason RTS game",
+    "slug": "beyond-all-reason-recoilengine"
   },
   {
     "repo_url": "https://github.com/getsentry/sentry-native",
@@ -6329,7 +6588,8 @@
       "cpp"
     ],
     "category": "Native Crash Reporting",
-    "summary": "Sentry SDK for C/C++ crash reporting and error tracking in games"
+    "summary": "Sentry SDK for C/C++ crash reporting and error tracking in games",
+    "slug": "getsentry-sentry-native"
   },
   {
     "repo_url": "https://github.com/zielon/pbrvulkan",
@@ -6354,7 +6614,8 @@
       "brdf"
     ],
     "category": "Vulkan Path Tracer",
-    "summary": "Vulkan-based PBR path tracer sandbox with Disney BRDF and custom shader support"
+    "summary": "Vulkan-based PBR path tracer sandbox with Disney BRDF and custom shader support",
+    "slug": "zielon-pbrvulkan"
   },
   {
     "repo_url": "https://github.com/quabug/entitiesbt",
@@ -6379,7 +6640,8 @@
       "data-oriented"
     ],
     "category": "ECS AI Systems",
-    "summary": "DOTS behavior tree framework for data-oriented game AI"
+    "summary": "DOTS behavior tree framework for data-oriented game AI",
+    "slug": "quabug-entitiesbt"
   },
   {
     "repo_url": "https://github.com/sollimann/bonsai",
@@ -6404,7 +6666,8 @@
       "game-ai"
     ],
     "category": "Behavior Trees",
-    "summary": "Composable Rust behavior tree library for game AI"
+    "summary": "Composable Rust behavior tree library for game AI",
+    "slug": "sollimann-bonsai"
   },
   {
     "repo_url": "https://github.com/mywave82/opencubicplayer",
@@ -6429,7 +6692,8 @@
       "visualizer"
     ],
     "category": "Music Players",
-    "summary": "Unix tracker music player with 100+ formats and visualizer"
+    "summary": "Unix tracker music player with 100+ formats and visualizer",
+    "slug": "mywave82-opencubicplayer"
   },
   {
     "repo_url": "https://github.com/chr15m/jsfxr",
@@ -6454,7 +6718,8 @@
       "game-dev"
     ],
     "category": "Sound Tools",
-    "summary": "JavaScript sfxr port for 8-bit sound generation in games"
+    "summary": "JavaScript sfxr port for 8-bit sound generation in games",
+    "slug": "chr15m-jsfxr"
   },
   {
     "repo_url": "https://github.com/amethyst/distill",
@@ -6477,7 +6742,8 @@
       "rust"
     ],
     "category": "Asset Pipeline System",
-    "summary": "Rust asset pipeline with dependency tracking, hot-reload, and engine conversion"
+    "summary": "Rust asset pipeline with dependency tracking, hot-reload, and engine conversion",
+    "slug": "amethyst-distill"
   },
   {
     "repo_url": "https://github.com/alipbcs/zetaray",
@@ -6502,7 +6768,8 @@
       "dxr"
     ],
     "category": "DirectX Path Tracer",
-    "summary": "DX12 path tracer with ReSTIR sampling and FSR2 upscaling research implementation"
+    "summary": "DX12 path tracer with ReSTIR sampling and FSR2 upscaling research implementation",
+    "slug": "alipbcs-zetaray"
   },
   {
     "repo_url": "https://github.com/mikewesthad/navmesh",
@@ -6525,7 +6792,8 @@
       "performance"
     ],
     "category": "Pathfinding",
-    "summary": "Phaser navmesh plugin 5x-150x faster than grid-based pathfinding"
+    "summary": "Phaser navmesh plugin 5x-150x faster than grid-based pathfinding",
+    "slug": "mikewesthad-navmesh"
   },
   {
     "repo_url": "https://github.com/meshula/opensteer",
@@ -6550,7 +6818,8 @@
       "classic"
     ],
     "category": "Agent Steering",
-    "summary": "Canonical C++ steering library by Sony for game characters"
+    "summary": "Canonical C++ steering library by Sony for game characters",
+    "slug": "meshula-opensteer"
   },
   {
     "repo_url": "https://github.com/mountea-framework/mounteadialoguesystem",
@@ -6574,7 +6843,8 @@
       "dialogue"
     ],
     "category": "Unreal Dialogue Trees",
-    "summary": "Feature-rich Unreal Engine dialogue tree plugin with visual editor"
+    "summary": "Feature-rich Unreal Engine dialogue tree plugin with visual editor",
+    "slug": "mountea-framework-mounteadialoguesystem"
   },
   {
     "repo_url": "https://github.com/leethomason/micropather",
@@ -6597,7 +6867,8 @@
       "minimal"
     ],
     "category": "Pathfinding",
-    "summary": "Minimal two-file C++ A* implementation for easy game integration"
+    "summary": "Minimal two-file C++ A* implementation for easy game integration",
+    "slug": "leethomason-micropather"
   },
   {
     "repo_url": "https://github.com/microsoft/jericho",
@@ -6621,7 +6892,8 @@
       "text-adventure"
     ],
     "category": "AI Research Platform",
-    "summary": "Python interface for AI/RL research on interactive fiction games"
+    "summary": "Python interface for AI/RL research on interactive fiction games",
+    "slug": "microsoft-jericho"
   },
   {
     "repo_url": "https://github.com/inkle/ink-library",
@@ -6645,7 +6917,8 @@
       "documentation"
     ],
     "category": "Narrative Resource Hub",
-    "summary": "Central collection of ink samples, ports, and ecosystem tools"
+    "summary": "Central collection of ink samples, ports, and ecosystem tools",
+    "slug": "inkle-ink-library"
   },
   {
     "repo_url": "https://github.com/engoengine/engo",
@@ -6670,7 +6943,8 @@
       "wasm"
     ],
     "category": "Go ECS Game Engine",
-    "summary": "Cross-platform Go 2D engine with ECS architecture and WASM support"
+    "summary": "Cross-platform Go 2D engine with ECS architecture and WASM support",
+    "slug": "engoengine-engo"
   },
   {
     "repo_url": "https://github.com/grimfang4/sfxr",
@@ -6695,7 +6969,8 @@
       "generator"
     ],
     "category": "Sound Tools",
-    "summary": "Original sfxr sound effect generator spawning entire ecosystem"
+    "summary": "Original sfxr sound effect generator spawning entire ecosystem",
+    "slug": "grimfang4-sfxr"
   },
   {
     "repo_url": "https://github.com/jice-nospam/doryen-rs",
@@ -6720,7 +6995,8 @@
       "ascii"
     ],
     "category": "Rust WebAssembly Roguelike",
-    "summary": "Rust+WASM roguelike library from libtcod's creator with GLSL rendering"
+    "summary": "Rust+WASM roguelike library from libtcod's creator with GLSL rendering",
+    "slug": "jice-nospam-doryen-rs"
   },
   {
     "repo_url": "https://github.com/cubbyflow/cubbyflow",
@@ -6744,7 +7020,8 @@
       "sph"
     ],
     "category": "Fluid Simulation",
-    "summary": "Voxel-based fluid engine for games with multiple solvers"
+    "summary": "Voxel-based fluid engine for games with multiple solvers",
+    "slug": "cubbyflow-cubbyflow"
   },
   {
     "repo_url": "https://github.com/tlhunter/node-roguelike",
@@ -6769,7 +7046,8 @@
       "javascript"
     ],
     "category": "JavaScript Dungeon Generator",
-    "summary": "Node.js library for 2D dungeon generation using BSP trees and room placement algorithms."
+    "summary": "Node.js library for 2D dungeon generation using BSP trees and room placement algorithms.",
+    "slug": "tlhunter-node-roguelike"
   },
   {
     "repo_url": "https://github.com/torquegameengines/torque2d",
@@ -6794,7 +7072,8 @@
       "animation"
     ],
     "category": "Torque 2D Game Engine",
-    "summary": "C++ 2D engine with Box2D physics, skeletal animation, mobile support"
+    "summary": "C++ 2D engine with Box2D physics, skeletal animation, mobile support",
+    "slug": "torquegameengines-torque2d"
   },
   {
     "repo_url": "https://github.com/opensage/opensage",
@@ -6819,7 +7098,8 @@
       "re-implementation"
     ],
     "category": "SAGE RTS Re-implementation",
-    "summary": "C# re-implementation of C&C Generals SAGE engine"
+    "summary": "C# re-implementation of C&C Generals SAGE engine",
+    "slug": "opensage-opensage"
   },
   {
     "repo_url": "https://github.com/yarnspinnertool/yarnspinner-rust",
@@ -6843,7 +7123,8 @@
       "dialogue"
     ],
     "category": "Rust Game Dialogue",
-    "summary": "Official Yarn Spinner port for Rust and Bevy game engine"
+    "summary": "Official Yarn Spinner port for Rust and Bevy game engine",
+    "slug": "yarnspinnertool-yarnspinner-rust"
   },
   {
     "repo_url": "https://github.com/tmedwards/sugarcube-2",
@@ -6868,7 +7149,8 @@
       "sugarcube"
     ],
     "category": "Twine Story Format",
-    "summary": "Feature-rich Twine story format with JavaScript extensibility and rich media"
+    "summary": "Feature-rich Twine story format with JavaScript extensibility and rich media",
+    "slug": "tmedwards-sugarcube-2"
   },
   {
     "repo_url": "https://github.com/raysan5/raudio",
@@ -6892,7 +7174,8 @@
       "raylib"
     ],
     "category": "Audio Library",
-    "summary": "Minimal audio wrapper around miniaudio for games"
+    "summary": "Minimal audio wrapper around miniaudio for games",
+    "slug": "raysan5-raudio"
   },
   {
     "repo_url": "https://github.com/game-ci/unity-test-runner",
@@ -6917,7 +7200,8 @@
       "automation"
     ],
     "category": "Unity Test Automation",
-    "summary": "GitHub Action for running Unity PlayMode and EditMode tests"
+    "summary": "GitHub Action for running Unity PlayMode and EditMode tests",
+    "slug": "game-ci-unity-test-runner"
   },
   {
     "repo_url": "https://github.com/tudelft3d/random3dcity",
@@ -6942,7 +7226,8 @@
       "gis"
     ],
     "category": "CityGML Generation Tool",
-    "summary": "Academic tool generating standards-compliant CityGML synthetic city datasets for GIS research."
+    "summary": "Academic tool generating standards-compliant CityGML synthetic city datasets for GIS research.",
+    "slug": "tudelft3d-random3dcity"
   },
   {
     "repo_url": "https://github.com/gaijinentertainment/quirrel",
@@ -6967,7 +7252,8 @@
       "analysis"
     ],
     "category": "Squirrel Variant",
-    "summary": "Enhanced Squirrel variant by War Thunder developers"
+    "summary": "Enhanced Squirrel variant by War Thunder developers",
+    "slug": "gaijinentertainment-quirrel"
   },
   {
     "repo_url": "https://github.com/bixilon/minosoft",
@@ -6992,7 +7278,8 @@
       "voxel"
     ],
     "category": "Minecraft Reimplementation",
-    "summary": "Kotlin Minecraft reimplementation with custom rendering and protocol"
+    "summary": "Kotlin Minecraft reimplementation with custom rendering and protocol",
+    "slug": "bixilon-minosoft"
   },
   {
     "repo_url": "https://github.com/ecsyjs/ecsy",
@@ -7016,7 +7303,8 @@
       "web-game"
     ],
     "category": "Web Game ECS",
-    "summary": "Pioneering JavaScript ECS framework archived in 2025 after ecosystem shift"
+    "summary": "Pioneering JavaScript ECS framework archived in 2025 after ecosystem shift",
+    "slug": "ecsyjs-ecsy"
   },
   {
     "repo_url": "https://github.com/liana-p/narrat-engine",
@@ -7040,7 +7328,8 @@
       "branching-dialogue"
     ],
     "category": "Narrative RPG Engine",
-    "summary": "TypeScript/Vue narrative RPG engine with inventory and dialogue systems"
+    "summary": "TypeScript/Vue narrative RPG engine with inventory and dialogue systems",
+    "slug": "liana-p-narrat-engine"
   },
   {
     "repo_url": "https://github.com/mminer/consolation",
@@ -7063,7 +7352,8 @@
       "console"
     ],
     "category": "Debug Tools",
-    "summary": "In-game debug console for Unity mobile development"
+    "summary": "In-game debug console for Unity mobile development",
+    "slug": "mminer-consolation"
   },
   {
     "repo_url": "https://github.com/gurkenlabs/litiengine",
@@ -7088,7 +7378,8 @@
       "desktop"
     ],
     "category": "Java 2D Game Engine",
-    "summary": "Pure Java 2D engine with integrated tile-based map editor"
+    "summary": "Pure Java 2D engine with integrated tile-based map editor",
+    "slug": "gurkenlabs-litiengine"
   },
   {
     "repo_url": "https://github.com/ktstephano/stratusgfx",
@@ -7111,7 +7402,8 @@
       "opengl"
     ],
     "category": "3D Engine",
-    "summary": "Real-time 3D engine with global illumination research"
+    "summary": "Real-time 3D engine with global illumination research",
+    "slug": "ktstephano-stratusgfx"
   },
   {
     "repo_url": "https://github.com/prowlengine/prowl",
@@ -7136,7 +7428,8 @@
       "early-stage"
     ],
     "category": "Unity-inspired C# Engine",
-    "summary": "Early-stage Unity-inspired C# 3D engine with full editor"
+    "summary": "Early-stage Unity-inspired C# 3D engine with full editor",
+    "slug": "prowlengine-prowl"
   },
   {
     "repo_url": "https://github.com/behavior3/behavior3editor",
@@ -7161,7 +7454,8 @@
       "game-dev"
     ],
     "category": "Tree Editors",
-    "summary": "Web-based visual behavior tree editor with JSON export"
+    "summary": "Web-based visual behavior tree editor with JSON export",
+    "slug": "behavior3-behavior3editor"
   },
   {
     "repo_url": "https://github.com/adrian104/dungeon-generator",
@@ -7186,7 +7480,8 @@
       "cpp"
     ],
     "category": "Deterministic Dungeon Gen",
-    "summary": "Seed-driven BSP dungeon generator with deterministic reproducible layouts."
+    "summary": "Seed-driven BSP dungeon generator with deterministic reproducible layouts.",
+    "slug": "adrian104-dungeon-generator"
   },
   {
     "repo_url": "https://github.com/thunder-engine/thunder",
@@ -7211,7 +7506,8 @@
       "visual-editor"
     ],
     "category": "Modular 2D/3D Engine",
-    "summary": "Modular C++ 2D/3D engine with visual editor and scripting"
+    "summary": "Modular C++ 2D/3D engine with visual editor and scripting",
+    "slug": "thunder-engine-thunder"
   },
   {
     "repo_url": "https://github.com/yankooliveira/uiframework",
@@ -7234,7 +7530,8 @@
       "unity"
     ],
     "category": "UI Framework",
-    "summary": "Flexible UI architecture with navigation history and animations"
+    "summary": "Flexible UI architecture with navigation history and animations",
+    "slug": "yankooliveira-uiframework"
   },
   {
     "repo_url": "https://github.com/microsoft/gltf-sdk",
@@ -7257,7 +7554,8 @@
       "schema-validation"
     ],
     "category": "glTF SDK",
-    "summary": "Microsoft C++ SDK for glTF/glb with schema validation and Base64 support"
+    "summary": "Microsoft C++ SDK for glTF/glb with schema validation and Base64 support",
+    "slug": "microsoft-gltf-sdk"
   },
   {
     "repo_url": "https://github.com/facebookarchive/raknet",
@@ -7282,7 +7580,8 @@
       "aaa-games"
     ],
     "category": "Legacy Game Networking",
-    "summary": "Historic AAA game networking library, now archived"
+    "summary": "Historic AAA game networking library, now archived",
+    "slug": "facebookarchive-raknet"
   },
   {
     "repo_url": "https://github.com/alsch092/ultimateanticheat",
@@ -7307,7 +7606,8 @@
       "cheating-detection"
     ],
     "category": "Anti-Cheat Framework",
-    "summary": "Educational usermode anti-cheat framework for Windows game security"
+    "summary": "Educational usermode anti-cheat framework for Windows game security",
+    "slug": "alsch092-ultimateanticheat"
   },
   {
     "repo_url": "https://github.com/rameshvarun/netplayjs",
@@ -7332,7 +7632,8 @@
       "typescript"
     ],
     "category": "Browser Multiplayer Framework",
-    "summary": "WebRTC P2P rollback netcode for browser games"
+    "summary": "WebRTC P2P rollback netcode for browser games",
+    "slug": "rameshvarun-netplayjs"
   },
   {
     "repo_url": "https://github.com/cpetry/normalmap-online",
@@ -7355,7 +7656,8 @@
       "texture-generation"
     ],
     "category": "Normal Map Generator",
-    "summary": "Browser-based WebGL normal map generator with local client-side processing"
+    "summary": "Browser-based WebGL normal map generator with local client-side processing",
+    "slug": "cpetry-normalmap-online"
   },
   {
     "repo_url": "https://github.com/zeux/microprofile",
@@ -7380,7 +7682,8 @@
       "visualization"
     ],
     "category": "Embeddable Game Profiler",
-    "summary": "Lightweight CPU/GPU profiler with HTML visualization for game engines"
+    "summary": "Lightweight CPU/GPU profiler with HTML visualization for game engines",
+    "slug": "zeux-microprofile"
   },
   {
     "repo_url": "https://github.com/replit/kaboom",
@@ -7405,7 +7708,8 @@
       "kaplay"
     ],
     "category": "Archived Game Library",
-    "summary": "Archived 2D game library now superseded by KaPlay community fork"
+    "summary": "Archived 2D game library now superseded by KaPlay community fork",
+    "slug": "replit-kaboom"
   },
   {
     "repo_url": "https://github.com/talodev/backend",
@@ -7431,7 +7735,8 @@
       "indie"
     ],
     "category": "Self-Hosted Game Backend",
-    "summary": "Complete indie game backend with auth, leaderboards, saves, and multiplayer"
+    "summary": "Complete indie game backend with auth, leaderboards, saves, and multiplayer",
+    "slug": "talodev-backend"
   },
   {
     "repo_url": "https://github.com/gametechdev/ispctexturecompressor",
@@ -7454,7 +7759,8 @@
       "intel"
     ],
     "category": "SIMD Texture Compression",
-    "summary": "Intel ISPC SIMD texture compressor for BC/ASTC/ETC formats offline"
+    "summary": "Intel ISPC SIMD texture compressor for BC/ASTC/ETC formats offline",
+    "slug": "gametechdev-ispctexturecompressor"
   },
   {
     "repo_url": "https://github.com/kumarrobotics/jps3d",
@@ -7477,7 +7783,8 @@
       "optimization"
     ],
     "category": "Pathfinding",
-    "summary": "C++ Jump Point Search for optimized 2D/3D grid pathfinding"
+    "summary": "C++ Jump Point Search for optimized 2D/3D grid pathfinding",
+    "slug": "kumarrobotics-jps3d"
   },
   {
     "repo_url": "https://github.com/vss2sn/path_planning",
@@ -7500,7 +7807,8 @@
       "educational"
     ],
     "category": "Pathfinding",
-    "summary": "Educational C++ collection of pathfinding algorithms with visualization"
+    "summary": "Educational C++ collection of pathfinding algorithms with visualization",
+    "slug": "vss2sn-path-planning"
   },
   {
     "repo_url": "https://github.com/textadventures/quest",
@@ -7524,7 +7832,8 @@
       "game-engine"
     ],
     "category": "Text Adventure Engine",
-    "summary": "No-code platform for creating text adventure and interactive fiction"
+    "summary": "No-code platform for creating text adventure and interactive fiction",
+    "slug": "textadventures-quest"
   },
   {
     "repo_url": "https://github.com/ct-js/ct-js",
@@ -7549,7 +7858,8 @@
       "beginner"
     ],
     "category": "Visual 2D Game IDE",
-    "summary": "Educational 2D IDE with visual scripting and Catnip language"
+    "summary": "Educational 2D IDE with visual scripting and Catnip language",
+    "slug": "ct-js-ct-js"
   },
   {
     "repo_url": "https://github.com/recast4j/recast4j",
@@ -7572,7 +7882,8 @@
       "navmesh"
     ],
     "category": "Pathfinding",
-    "summary": "Java port of Recast for JVM game servers and development"
+    "summary": "Java port of Recast for JVM game servers and development",
+    "slug": "recast4j-recast4j"
   },
   {
     "repo_url": "https://github.com/nvidiagameworks/flow",
@@ -7596,7 +7907,8 @@
       "real-time"
     ],
     "category": "Fluid Simulation",
-    "summary": "NVIDIA gaseous fluid simulation library for real-time effects"
+    "summary": "NVIDIA gaseous fluid simulation library for real-time effects",
+    "slug": "nvidiagameworks-flow"
   },
   {
     "repo_url": "https://github.com/liko-12/liko-12",
@@ -7620,7 +7932,8 @@
       "lua"
     ],
     "category": "Fantasy Console",
-    "summary": "PICO-8 alternative with DOS-like OS for retro game creation"
+    "summary": "PICO-8 alternative with DOS-like OS for retro game creation",
+    "slug": "liko-12-liko-12"
   },
   {
     "repo_url": "https://github.com/ebttech/elo-mmr",
@@ -7645,7 +7958,8 @@
       "rating"
     ],
     "category": "Competitive Ranking System",
-    "summary": "Multi-algorithm ranking system for multiplayer games"
+    "summary": "Multi-algorithm ranking system for multiplayer games",
+    "slug": "ebtech-elo-mmr"
   },
   {
     "repo_url": "https://github.com/tajmone/awesome-interactive-fiction",
@@ -7669,7 +7983,8 @@
       "framework-guide"
     ],
     "category": "Fiction Framework Guide",
-    "summary": "Comprehensive curated guide to interactive fiction tools and platforms"
+    "summary": "Comprehensive curated guide to interactive fiction tools and platforms",
+    "slug": "tajmone-awesome-interactive-fiction"
   },
   {
     "repo_url": "https://github.com/mengecrowdsim/menge",
@@ -7694,7 +8009,8 @@
       "reference"
     ],
     "category": "Crowd Simulation",
-    "summary": "Modular crowd simulation framework with behavior models"
+    "summary": "Modular crowd simulation framework with behavior models",
+    "slug": "mengecrowdsim-menge"
   },
   {
     "repo_url": "https://github.com/pandr/unity-debug-overlay",
@@ -7717,7 +8033,8 @@
       "unity"
     ],
     "category": "Debug Tools",
-    "summary": "Zero-allocation debug overlay with metrics and console"
+    "summary": "Zero-allocation debug overlay with metrics and console",
+    "slug": "pandr-unity-debug-overlay"
   },
   {
     "repo_url": "https://github.com/caesuric/mountain-goap",
@@ -7742,7 +8059,8 @@
       "npc-ai"
     ],
     "category": "Action Planning",
-    "summary": "Generic C# GOAP library with A* pathfinding for AI"
+    "summary": "Generic C# GOAP library with A* pathfinding for AI",
+    "slug": "caesuric-mountain-goap"
   },
   {
     "repo_url": "https://github.com/theverat/normalmapgenerator",
@@ -7765,7 +8083,8 @@
       "texture-generation"
     ],
     "category": "Normal Map Editor",
-    "summary": "Qt desktop tool for normal map generation with multithreading"
+    "summary": "Qt desktop tool for normal map generation with multithreading",
+    "slug": "theverat-normalmapgenerator"
   },
   {
     "repo_url": "https://github.com/amakaseev/sprite-sheet-packer",
@@ -7788,7 +8107,8 @@
       "qt"
     ],
     "category": "Sprite Sheet Packer",
-    "summary": "Qt sprite sheet packer with batch processing and transparency trimming"
+    "summary": "Qt sprite sheet packer with batch processing and transparency trimming",
+    "slug": "amakaseev-sprite-sheet-packer"
   },
   {
     "repo_url": "https://github.com/fritzy/ape-ecs",
@@ -7812,7 +8132,8 @@
       "abandoned"
     ],
     "category": "Legacy Web ECS",
-    "summary": "Well-designed JavaScript ECS abandoned in 2020, now superseded"
+    "summary": "Well-designed JavaScript ECS abandoned in 2020, now superseded",
+    "slug": "fritzy-ape-ecs"
   },
   {
     "repo_url": "https://github.com/lowenware/dotrix",
@@ -7837,7 +8158,8 @@
       "early-stage"
     ],
     "category": "Rust Vulkan ECS Engine",
-    "summary": "Early-stage Rust 3D engine with Vulkan and ECS architecture"
+    "summary": "Early-stage Rust 3D engine with Vulkan and ECS architecture",
+    "slug": "lowenware-dotrix"
   },
   {
     "repo_url": "https://github.com/davidwilliams81/cubiquity",
@@ -7862,7 +8184,8 @@
       "raytracing"
     ],
     "category": "Research Voxel Engine",
-    "summary": "Research-focused micro-voxel engine using sparse voxel DAGs"
+    "summary": "Research-focused micro-voxel engine using sparse voxel DAGs",
+    "slug": "davidwilliams81-cubiquity"
   },
   {
     "repo_url": "https://github.com/gwaredd/unium",
@@ -7887,7 +8210,8 @@
       "remote-control"
     ],
     "category": "Unity Runtime Automation",
-    "summary": "HTTP API for runtime control and testing of Unity game scenes"
+    "summary": "HTTP API for runtime control and testing of Unity game scenes",
+    "slug": "gwaredd-unium"
   },
   {
     "repo_url": "https://github.com/tomassedovic/tcod-rs",
@@ -7912,7 +8236,8 @@
       "roguelike"
     ],
     "category": "Rust Libtcod Bindings",
-    "summary": "Archived Rust bindings for libtcod; superseded by bracket-lib"
+    "summary": "Archived Rust bindings for libtcod; superseded by bracket-lib",
+    "slug": "tomassedovic-tcod-rs"
   },
   {
     "repo_url": "https://github.com/sasq64/chipmachine",
@@ -7937,7 +8262,8 @@
       "jukebox"
     ],
     "category": "Music Players",
-    "summary": "Multi-format retro music player with 40+ supported formats"
+    "summary": "Multi-format retro music player with 40+ supported formats",
+    "slug": "sasq64-chipmachine"
   },
   {
     "repo_url": "https://github.com/leafwing-studios/leafwing_input_playback",
@@ -7960,7 +8286,8 @@
       "testing"
     ],
     "category": "Input Recording",
-    "summary": "Bevy plugin for recording and replaying input for testing and TAS"
+    "summary": "Bevy plugin for recording and replaying input for testing and TAS",
+    "slug": "leafwing-studios-leafwing-input-playback"
   },
   {
     "repo_url": "https://github.com/eddiecameron/inputvcr",
@@ -7983,7 +8310,8 @@
       "replays"
     ],
     "category": "Input Recording",
-    "summary": "Unity tool for recording and replaying input for kill cams and replays"
+    "summary": "Unity tool for recording and replaying input for kill cams and replays",
+    "slug": "eddiecameron-inputvcr"
   },
   {
     "repo_url": "https://github.com/tomclabault/hiprt-path-tracer",
@@ -8008,7 +8336,8 @@
       "rendering"
     ],
     "category": "AMD Path Tracer",
-    "summary": "AMD HIPRT-based GPU path tracer supporting RDNA2+ and NVIDIA hardware"
+    "summary": "AMD HIPRT-based GPU path tracer supporting RDNA2+ and NVIDIA hardware",
+    "slug": "tomclabault-hiprt-path-tracer"
   },
   {
     "repo_url": "https://github.com/mmmovania/opencloth",
@@ -8032,7 +8361,8 @@
       "algorithms"
     ],
     "category": "Cloth Simulation",
-    "summary": "Educational cloth simulation collection covering multiple algorithms"
+    "summary": "Educational cloth simulation collection covering multiple algorithms",
+    "slug": "mmmovania-opencloth"
   },
   {
     "repo_url": "https://github.com/microsoft/gltf-toolkit",
@@ -8055,7 +8385,8 @@
       "wmr"
     ],
     "category": "glTF Optimization Tools",
-    "summary": "glTF optimization tools for packing, compression, and LOD merging"
+    "summary": "glTF optimization tools for packing, compression, and LOD merging",
+    "slug": "microsoft-gltf-toolkit"
   },
   {
     "repo_url": "https://github.com/james-e-kelly/sound-bakery",
@@ -8079,7 +8410,8 @@
       "audio"
     ],
     "category": "Audio Middleware",
-    "summary": "Early-stage open-source audio middleware alternative to FMOD"
+    "summary": "Early-stage open-source audio middleware alternative to FMOD",
+    "slug": "james-e-kelly-sound-bakery"
   },
   {
     "repo_url": "https://github.com/jrbedard/3d-converter",
@@ -8102,7 +8434,8 @@
       "cli"
     ],
     "category": "3D Format Converter",
-    "summary": "Command-line converter for legacy 3D formats (OBJ, DAE, STL, LWO)"
+    "summary": "Command-line converter for legacy 3D formats (OBJ, DAE, STL, LWO)",
+    "slug": "jrbedard-3d-converter"
   },
   {
     "repo_url": "https://github.com/skyaphid/cleardialogue",
@@ -8126,7 +8459,8 @@
       "json-export"
     ],
     "category": "Dialogue Editor",
-    "summary": "Legacy engine-agnostic branching dialogue editor abandoned in 2019"
+    "summary": "Legacy engine-agnostic branching dialogue editor abandoned in 2019",
+    "slug": "skyaphid-cleardialogue"
   },
   {
     "repo_url": "https://github.com/lrq3000/oacs",
@@ -8151,7 +8485,8 @@
       "research"
     ],
     "category": "ML Anti-Cheat System",
-    "summary": "ML-based anomaly detection framework for server-side anti-cheat systems"
+    "summary": "ML-based anomaly detection framework for server-side anti-cheat systems",
+    "slug": "lrq3000-oacs"
   },
   {
     "repo_url": "https://github.com/mrdrbob/2b2d",
@@ -8176,6 +8511,7 @@
       "experimental"
     ],
     "category": "Experimental ECS Engine",
-    "summary": "Early-stage WebGPU engine with Bevy-inspired ECS and zero dependencies"
+    "summary": "Early-stage WebGPU engine with Bevy-inspired ECS and zero dependencies",
+    "slug": "mrdrbob-2b2d"
   }
 ]

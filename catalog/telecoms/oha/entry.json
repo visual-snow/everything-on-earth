@@ -1,0 +1,51 @@
+{
+  "name": "oha",
+  "repo_url": "https://github.com/hatoo/oha",
+  "description": "HTTP load generator written in Rust with real-time TUI animation, supporting HTTP/0.9 through HTTP/3, inspired by rakyll/hey.",
+  "domain": "load-testing",
+  "secondary_domains": [],
+  "protocols": [
+    "HTTP/0.9",
+    "HTTP/1.0",
+    "HTTP/1.1",
+    "HTTP/2",
+    "HTTP/3 (experimental)",
+    "HTTPS"
+  ],
+  "provides": [
+    "http-load-generation",
+    "traffic-generation",
+    "latency-measurement",
+    "throughput-benchmarking",
+    "tui-dashboard",
+    "http3-support",
+    "rate-limiting",
+    "real-time-metrics"
+  ],
+  "needs": [
+    "http-target-server",
+    "network-connectivity"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ghcr.io/hatoo/oha",
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present; official image ghcr.io/hatoo/oha"
+  },
+  "github_metrics": {
+    "stars": 10100,
+    "last_commit": "2025-01-13",
+    "language": "Rust",
+    "license": "MIT"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Modern Rust-based HTTP load generator with TUI visualization and HTTP/3 support (10k stars). Rate limiting and latency correction. Useful for testing HTTP API endpoints in network evaluation scenarios.",
+  "related_repos": [
+    "https://github.com/rakyll/hey"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "oha"
+}

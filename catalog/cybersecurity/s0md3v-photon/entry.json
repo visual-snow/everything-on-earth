@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/s0md3v/photon",
+  "name": "s0md3v/Photon",
+  "description": "Incredibly fast OSINT web crawler that extracts URLs, email addresses, files, API keys, and other intelligence artifacts from target websites.",
+  "sub_domain": "osint-recon",
+  "score": 8,
+  "score_rationale": "12.8k stars with a specialized crawler niche for OSINT data extraction, recently showing activity into 2026.",
+  "stars": 12800,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-10",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 80.9,
+  "tags": [
+    "api-security",
+    "osint",
+    "web-security"
+  ],
+  "category": "OSINT Platform",
+  "summary": "Incredibly fast OSINT web crawler that extracts URLs, email addresses, files, API keys, and other...",
+  "slug": "s0md3v-photon"
+}

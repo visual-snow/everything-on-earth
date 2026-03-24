@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/jkuhlmann/gainput",
+  "name": "jkuhlmann/gainput",
+  "description": "Cross-platform C++ input library for games supporting keyboard, mouse, gamepad, and multi-touch across Android, iOS, Linux, macOS, and Windows with a unified button mapping and remapping API.",
+  "sub_domain": "input-controllers",
+  "score": 6,
+  "score_rationale": "Solid cross-platform C++ input library with 884 stars and MIT license, though it has been archived since 2021 and superseded by SDL3's built-in input handling for many use cases.",
+  "stars": 884,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2021-09-07",
+  "found_in_domains": [
+    "input-controllers"
+  ],
+  "quality_score": 59.6,
+  "tags": [
+    "input",
+    "gamepad",
+    "cross-platform"
+  ],
+  "category": "Input Handling",
+  "summary": "Cross-platform C++ input library for keyboard, mouse, gamepad, and touch",
+  "slug": "jkuhlmann-gainput"
+}

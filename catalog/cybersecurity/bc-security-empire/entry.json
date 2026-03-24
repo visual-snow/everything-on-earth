@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/bc-security/empire",
+  "name": "BC-SECURITY/Empire",
+  "description": "A post-exploitation and adversary emulation framework supporting multiple agent languages (PowerShell, Python, C#, IronPython, Go) with 400+ offensive modules and an encrypted C2 architecture.",
+  "sub_domain": "pentest-frameworks",
+  "score": 9,
+  "score_rationale": "Feature-rich post-exploitation framework with 5.1k stars, actively maintained with v6.4.1 released in February 2026.",
+  "stars": 5100,
+  "language": "PowerShell",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-02-16",
+  "found_in_domains": [
+    "pentest-frameworks",
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 83.7,
+  "tags": [
+    "command-control",
+    "exploit-dev",
+    "security-tool"
+  ],
+  "category": "C2 Framework",
+  "summary": "A post-exploitation and adversary emulation framework supporting multiple agent languages (PowerS...",
+  "slug": "bc-security-empire"
+}

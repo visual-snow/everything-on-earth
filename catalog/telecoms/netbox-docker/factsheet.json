@@ -1,0 +1,92 @@
+{
+  "slug": "netbox-docker",
+  "name": "NetBox Docker",
+  "what_it_is": "A community-maintained Docker/Compose packaging of NetBox, a network source-of-truth application providing IP address management (IPAM) and data-center infrastructure management (DCIM). It orchestrates the NetBox web application, background worker, PostgreSQL database, and two Valkey (Redis-compatible) cache instances.",
+  "components": [
+    "netbox — Django/Gunicorn application server serving the web UI and REST/GraphQL APIs on port 8080",
+    "netbox-worker — RQ background task processor for async jobs (webhooks, scripts, reports)",
+    "postgres — PostgreSQL 18 relational database storing all NetBox data",
+    "redis — Valkey 9.0 instance used as the primary message broker and job queue",
+    "redis-cache — Valkey 9.0 instance used as the application object cache (separate from the queue)"
+  ],
+  "protocols": [
+    "HTTP REST API — full CRUD over /api/ endpoints for all NetBox objects",
+    "GraphQL — available at /graphql/ for flexible query-based data retrieval",
+    "HTTP — web UI served on container port 8080 (no TLS termination in compose; handled externally)"
+  ],
+  "measurement": [
+    "No built-in metrics exporter in the compose stack; NetBox exposes no Prometheus endpoint by default",
+    "Health state is checked via HTTP GET on the NetBox container every 15 s after a 90 s startup window",
+    "Worker liveness is verified by checking the RQWorker process every 15 s after a 20 s startup window",
+    "Database readiness is polled with pg_isready every 10 s",
+    "Redis/Valkey liveness is confirmed via PING every 1 s"
+  ],
+  "configuration": [
+    "Runtime settings injected via env files: env/netbox.env, env/postgres.env, env/redis.env, env/redis-cache.env",
+    "docker-compose.override.yml pattern used for local customisation without modifying the base file",
+    "SUPERUSER_* environment variables enable automated admin account creation on first run",
+    "TLS termination must be configured externally (reverse proxy); the compose stack does not expose TLS",
+    "LDAP integration available via additional configuration in netbox.env / custom plugin settings",
+    "Image version pinned via VERSION build-arg (default v4.5-4.0.2); must match the Git tag checked out"
+  ],
+  "fault_injection": [
+    "No native fault-injection tooling included; network partitions between services can be simulated by removing the shared Docker network or stopping individual containers",
+    "Stopping the redis container while netbox is running triggers job-queue failures observable in the worker logs",
+    "Stopping postgres simulates a database-unavailable scenario; NetBox returns 500 errors on data operations"
+  ],
+  "modes": [
+    "release — tracks the latest stable vX.Y.Z tag, rebuilt ~every 24 h",
+    "latest — production-ready builds from the most recent release branch",
+    "snapshot — pre-release builds from the main development branch; may be unstable"
+  ],
+  "constraints": [
+    "Docker >= 20.10.10 and containerd >= 1.5.6 are required; older Docker versions are unsupported",
+    "docker-compose >= 1.28.0 is required for the override-file merge behaviour to work correctly",
+    "The container image version tag must match the Git repository tag checked out; mismatches cause migration errors",
+    "No port is published to the host in the default compose file — a separate reverse proxy or override is required for external access",
+    "The stack uses six named volumes; data is not portable without explicit volume backup/restore procedures",
+    "Kubernetes deployments are documented separately and are not covered by the base compose configuration"
+  ],
+  "docker_services": [
+    {
+      "name": "netbox",
+      "image": "docker.io/netboxcommunity/netbox:${VERSION-v4.5-4.0.2}",
+      "ports": [],
+      "internal_port": 8080,
+      "volumes": ["configuration (ro)", "media-files", "reports", "scripts"],
+      "depends_on": ["postgres", "redis", "redis-cache"]
+    },
+    {
+      "name": "netbox-worker",
+      "image": "docker.io/netboxcommunity/netbox:${VERSION-v4.5-4.0.2}",
+      "ports": [],
+      "volumes": ["configuration (ro)", "media-files", "reports", "scripts"],
+      "depends_on": ["netbox (healthy)"]
+    },
+    {
+      "name": "postgres",
+      "image": "docker.io/postgres:18-alpine",
+      "ports": [],
+      "volumes": ["netbox-postgres"]
+    },
+    {
+      "name": "redis",
+      "image": "docker.io/valkey/valkey:9.0-alpine",
+      "ports": [],
+      "volumes": ["netbox-redis-data"]
+    },
+    {
+      "name": "redis-cache",
+      "image": "docker.io/valkey/valkey:9.0-alpine",
+      "ports": [],
+      "volumes": ["netbox-redis-cache-data"]
+    }
+  ],
+  "notable_absences": [
+    "No Prometheus/metrics sidecar or exporter in the default stack",
+    "No TLS termination — HTTPS requires an external reverse proxy (nginx, Traefik, etc.)",
+    "No netbox-housekeeping service in the compose file (must be added manually for scheduled cleanup tasks)",
+    "No log aggregation or structured log shipping configured",
+    "No seed/fixture data loader — the database starts empty and requires manual bootstrapping or API imports"
+  ]
+}

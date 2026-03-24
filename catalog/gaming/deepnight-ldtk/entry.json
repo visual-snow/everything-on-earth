@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/deepnight/ldtk",
+  "name": "deepnight/ldtk",
+  "description": "LDtk is a modern, lightweight, and efficient 2D level editor from the director of Dead Cells, with strong focus on user-friendliness and a clean JSON-based level format.",
+  "sub_domain": "asset-tools",
+  "score": 8,
+  "score_rationale": "3.9k stars, a widely loved 2D level editor with a clean format adopted across many game engines and frameworks, especially in the indie scene.",
+  "stars": 3900,
+  "language": "Haxe",
+  "license": "MIT",
+  "last_activity": "2024-01-15",
+  "found_in_domains": [
+    "asset-tools"
+  ],
+  "quality_score": 76.7,
+  "tags": [
+    "level-editor",
+    "2d-design",
+    "json"
+  ],
+  "category": "2D Level Editor",
+  "summary": "Modern 2D level editor with clean JSON format from Dead Cells creator",
+  "slug": "deepnight-ldtk"
+}

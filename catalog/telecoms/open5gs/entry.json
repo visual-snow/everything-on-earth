@@ -1,0 +1,85 @@
+{
+  "name": "Open5GS",
+  "repo_url": "https://github.com/open5gs/open5gs",
+  "description": "C-language open source implementation of 5G Core (5GC) and EPC for LTE/NR networks, conforming to 3GPP Release-17. Mature, widely-used project with both 4G and 5G support.",
+  "domain": "4g-epc",
+  "secondary_domains": [
+    "5g-core",
+    "mobile-core-network",
+    "multi-generation-interworking"
+  ],
+  "protocols": [
+    "Diameter",
+    "GTP-C",
+    "GTP-U",
+    "NAS",
+    "NAS-5GS",
+    "NGAP",
+    "PFCP",
+    "S1AP",
+    "SBI"
+  ],
+  "provides": [
+    "multi-compose-stack",
+    "4g-epc-sgw",
+    "gtp-c-plane",
+    "pfcp-endpoint",
+    "ngap-endpoint",
+    "5g-core-nrf",
+    "s1ap-endpoint",
+    "4g-epc-pgw",
+    "5g-core-udm",
+    "dual-mode-4g-5g-core",
+    "5g-core-pcf",
+    "diameter-server",
+    "5g-core-udr",
+    "nas-5gs-stack",
+    "gtp-u-plane",
+    "4g-epc-pcrf",
+    "subscriber-management",
+    "config-mutation",
+    "5g-core-amf",
+    "4g-epc-mme",
+    "5g-core-nssf",
+    "5g-core-bsf",
+    "4g-epc-hss",
+    "5g-core-smf",
+    "sbi-rest-api",
+    "5g-core-upf",
+    "5g-core-ausf"
+  ],
+  "needs": [
+    "mongodb",
+    "sctp-support",
+    "linux-kernel-5.4+",
+    "tun-tap-kernel-module",
+    "ip-forwarding-enabled"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "openverso/open5gs",
+    "compose_services_count": 15,
+    "docker_evidence": "Official /docker directory with docker-compose.yml in the main repository; multiple community Docker wrappers exist"
+  },
+  "github_metrics": {
+    "stars": 2500,
+    "last_commit": "2025-03",
+    "language": "C",
+    "license": "AGPL-3.0"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Most mature open-source 5G core. Supports both 4G EPC and 5G SA, making it ideal for testing cross-generation scenarios. Excellent for agentic evaluations requiring a realistic, fully-featured core. Mature 5G/4G dual-mode core. Widely used in academic and testing environments. Good for agentic evals involving core network configuration and multi-generation interworking.",
+  "related_repos": [
+    "https://github.com/borjis131/docker-open5gs",
+    "https://github.com/gradiant/5g-charts",
+    "https://github.com/herlesupreeth/docker_open5gs",
+    "https://github.com/miaoski/docker_open5gs",
+    "https://github.com/niloysh/open5gs-k8s"
+  ],
+  "_sources": [
+    "discovery/5g-core.json",
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "open5gs"
+}

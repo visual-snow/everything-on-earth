@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mountea-framework/mounteadialoguesystem",
+  "name": "Mountea-Framework/MounteaDialogueSystem",
+  "description": "An open-source Unreal Engine plugin for building complex dialogue trees with a visual graph editor, validation, real-time preview, and decorator-based event triggers for cutscenes.",
+  "sub_domain": "dialogue-narrative",
+  "score": 6,
+  "score_rationale": "Actively maintained Unreal dialogue plugin through 2026 with 360 stars, offering strong editor tooling for complex narrative scenarios.",
+  "stars": 360,
+  "language": "C++",
+  "license": "MPL-2.0",
+  "last_activity": "2026-01-17",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 56.5,
+  "tags": [
+    "unreal-engine",
+    "dialogue-tree",
+    "graph-editor",
+    "dialogue"
+  ],
+  "category": "Unreal Dialogue Trees",
+  "summary": "Feature-rich Unreal Engine dialogue tree plugin with visual editor",
+  "slug": "mountea-framework-mounteadialoguesystem"
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "oha",
+  "name": "oha",
+  "what_it_is": "oha is a Rust-based HTTP load generator inspired by rakyll/hey that sends configurable bursts of requests to a target URL. It features a real-time terminal UI (TUI) built with ratatui and an async runtime powered by tokio.",
+  "components": [
+    "CLI binary (oha) — single executable, no daemon",
+    "Real-time TUI — ratatui-based live dashboard (disable with --no-tui)",
+    "Async HTTP engine — tokio runtime with keep-alive connection pooling",
+    "SQLite sink — optional per-request result storage via --db-url",
+    "JSON output schema — machine-readable results defined in schema.json"
+  ],
+  "protocols": [
+    "HTTP/0.9",
+    "HTTP/1.0",
+    "HTTP/1.1",
+    "HTTP/2",
+    "HTTP/3 (experimental, requires --features http3)",
+    "HTTPS via rustls (default) or native-tls (optional feature)",
+    "Unix domain sockets (non-HTTPS only, via --unix-socket)",
+    "VSOCK (optional feature)",
+    "HTTP/HTTPS through proxy (--proxy, supports HTTP/1.1 and HTTP/2 to proxy)"
+  ],
+  "measurement": [
+    "Total duration (seconds)",
+    "Requests per second (mean, stddev, min, max, percentiles p10–p99.99)",
+    "Response time histogram and percentiles (p10–p99.99)",
+    "First-byte time histogram and percentiles (p10–p99.99)",
+    "DNS dialup time (avg/fastest/slowest)",
+    "DNS lookup time (avg/fastest/slowest)",
+    "Time to first byte (avg/fastest/slowest)",
+    "Success rate (successful / total non-deadline requests)",
+    "Status code distribution",
+    "Error distribution",
+    "Total body data transferred (bytes), size per request, size per second",
+    "Optional success/failure breakdown histograms (--stats-success-breakdown)"
+  ],
+  "configuration": [
+    "-n <N_REQUESTS>: total requests to send (default 200; supports k/m suffixes)",
+    "-c <N_CONNECTIONS>: concurrent connections (default 50)",
+    "-p <N_HTTP2_PARALLEL>: parallel requests per HTTP/2 connection (default 1)",
+    "-z <DURATION>: time-bounded run instead of fixed request count (e.g. 10s, 3m)",
+    "-q <QPS>: global rate limit in queries per second",
+    "--burst-delay / --burst-rate: send N requests every D seconds",
+    "--latency-correction: corrected latency to avoid coordinated omission (requires -q)",
+    "--disable-keepalive: new TCP connection per request",
+    "--http-version: force HTTP version (0.9/1.0/1.1/2/3)",
+    "--rand-regex-url: generate random URLs per request using regex syntax",
+    "--urls-from-file: read target URLs from a newline-delimited file",
+    "-m <METHOD>: HTTP method (default GET)",
+    "-H <HEADER>: custom request headers (repeatable)",
+    "-d / -D / -Z / -F: request body from string, file, file-per-line, or multipart form",
+    "-t <TIMEOUT>: per-request timeout (default infinite)",
+    "--connect-timeout: TCP connect timeout (default 5s)",
+    "-a <BASIC_AUTH>: basic auth or AWS credentials (access_key:secret_key)",
+    "--aws-sigv4: AWS SigV4 signing (format aws:amz:region:service)",
+    "--cacert / --cert / --key / --insecure: TLS certificate options",
+    "--connect-to: override DNS and port (host:port:target_host:target_port)",
+    "--proxy / --proxy-header / --proxy-http-version: proxy configuration",
+    "--db-url <SQLITE_URL>: persist successful requests to SQLite",
+    "--output-format: text (default), json, csv, quiet",
+    "--no-tui: disable live dashboard for higher throughput",
+    "--fps <FPS>: TUI refresh rate (default 16)",
+    "--debug: single request with full request/response dump",
+    "--ipv4 / --ipv6: restrict DNS resolution to one address family"
+  ],
+  "fault_injection": [
+    "No built-in fault injection; oha is a client-side load generator only",
+    "Errors are recorded and reported (errorDistribution field in JSON output)",
+    "Requests aborted at deadline are counted separately from errors"
+  ],
+  "modes": [
+    "TUI mode (default): real-time dashboard with live latency histograms and status codes",
+    "No-TUI mode (--no-tui): headless, higher throughput, avoids per-request data aggregation overhead",
+    "Fixed-count mode (-n): run until N requests are completed",
+    "Duration mode (-z): run for a fixed wall-clock duration",
+    "Rate-limited mode (-q): cap throughput at a global QPS ceiling",
+    "Burst mode (--burst-delay + --burst-rate): send N requests every D seconds",
+    "Coordinated-omission-corrected mode (--latency-correction, requires -q)",
+    "Debug mode (--debug): single request with full request/response dump",
+    "Docker mode: official image ghcr.io/hatoo/oha, run with --network=host"
+  ],
+  "constraints": [
+    "HTTP/3 support is experimental and only works with rustls TLS backend",
+    "Redirect following is not supported for HTTP/2",
+    "--disable-keepalive is not supported for HTTP/2",
+    "Dynamic scheme/host/port in --rand-regex-url do not work well with keep-alive",
+    "--latency-correction is silently ignored when -q is not set",
+    "--burst-delay and --burst-rate are ignored when -q (QPS) is specified",
+    "On HTTP/1 with -z, ongoing requests are aborted at deadline (use -w to wait); on HTTP/2 ongoing requests are always waited and -w is ignored",
+    "-p (HTTP/2 parallel streams) multiplies total concurrency: total workers = c * p",
+    "Connection limit (-c) may require raising OS open-file limits for large values",
+    "Unix socket (--unix-socket) only works with non-HTTPS URLs"
+  ],
+  "docker_services": [
+    "ghcr.io/hatoo/oha — official pre-built image (multi-arch); ENTRYPOINT is /bin/oha, pass arguments directly; use --network=host to reach services on the host"
+  ],
+  "notable_absences": [
+    "No docker-compose file in the repository — oha ships only a single-stage Dockerfile",
+    "No built-in server or target service — oha requires an external HTTP target",
+    "No distributed/multi-node load generation support",
+    "No scripting or scenario DSL (unlike k6 or Gatling)",
+    "No persistent configuration file — all options via CLI flags only"
+  ]
+}

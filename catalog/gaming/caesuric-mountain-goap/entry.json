@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/caesuric/mountain-goap",
+  "name": "caesuric/mountain-goap",
+  "description": "A generic C# GOAP library for game AI agents that uses A* pathfinding through action sequences and supports multiple weighted competing goals.",
+  "sub_domain": "behavior-ai",
+  "score": 5,
+  "score_rationale": "126 stars, actively maintained with clean composition-over-inheritance design suitable for C# game projects outside Unity.",
+  "stars": 126,
+  "language": "C#",
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 46.8,
+  "tags": [
+    "goap",
+    "action-planning",
+    "csharp",
+    "pathfinding",
+    "npc-ai"
+  ],
+  "category": "Action Planning",
+  "summary": "Generic C# GOAP library with A* pathfinding for AI",
+  "slug": "caesuric-mountain-goap"
+}

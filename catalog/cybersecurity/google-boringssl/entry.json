@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/boringssl",
+  "name": "google/boringssl",
+  "description": "Google's OpenSSL fork powering Chrome/Chromium, Android, and other Google products with a focus on clean, maintainable code. Provides a QUIC API and is used in high-performance production environments.",
+  "sub_domain": "cryptography",
+  "score": 7,
+  "score_rationale": "Widely deployed TLS library with 2.1k stars and active 2026 releases, though explicitly not intended for general third-party use due to no API/ABI stability guarantees.",
+  "stars": 2100,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 68.6,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "google-boringssl"
+}

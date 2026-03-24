@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ghostmanager/ghostwriter",
+  "name": "GhostManager/Ghostwriter",
+  "description": "An offensive security operations platform that streamlines pentest report writing, asset tracking, and assessment management with role-based access controls and multi-format report generation.",
+  "sub_domain": "pentest-frameworks",
+  "score": 7,
+  "score_rationale": "Professional red team operations management platform with 1.8k stars, actively maintained with v6.2.8 in March 2026.",
+  "stars": 1800,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "pentest-frameworks"
+  ],
+  "quality_score": 68.0,
+  "tags": [
+    "pe-format",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Security Tool",
+  "summary": "An offensive security operations platform that streamlines pentest report writing, asset tracking...",
+  "slug": "ghostmanager-ghostwriter"
+}

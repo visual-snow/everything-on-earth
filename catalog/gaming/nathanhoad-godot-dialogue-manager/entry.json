@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nathanhoad/godot_dialogue_manager",
+  "name": "nathanhoad/godot_dialogue_manager",
+  "description": "A powerful, nonlinear, stateless branching dialogue addon for Godot 4 with its own script-like editor and runtime. Widely adopted by Godot game developers for NPC conversations.",
+  "sub_domain": "dialogue-narrative",
+  "score": 9,
+  "score_rationale": "The de-facto dialogue manager for Godot 4 with 3.4k stars, actively maintained through 2026, and clean stateless design ideal for complex dialogue trees.",
+  "stars": 3400,
+  "language": "GDScript",
+  "license": "MIT",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 82.3,
+  "tags": [
+    "dialogue",
+    "godot",
+    "branching-dialogue",
+    "npc",
+    "stateless"
+  ],
+  "category": "Dialogue Systems",
+  "summary": "De-facto dialogue manager for Godot 4 with stateless design",
+  "slug": "nathanhoad-godot-dialogue-manager"
+}

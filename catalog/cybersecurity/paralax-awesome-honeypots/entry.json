@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/paralax/awesome-honeypots",
+  "name": "paralax/awesome-honeypots",
+  "description": "A curated list of awesome honeypots, related components, and honeypot resources divided into categories including web, service, SSH, and database honeypots, with a focus on free and open source projects. The definitive reference for honeypot tooling.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 8,
+  "score_rationale": "The canonical honeypot resource list with 10.2k stars, comprehensive coverage of deception technology for defenders.",
+  "stars": 10200,
+  "language": "Markdown",
+  "license": null,
+  "last_activity": "2025-04-01",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 80.1,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "A curated list of awesome honeypots, related components, and honeypot resources divided into categor",
+  "slug": "paralax-awesome-honeypots"
+}

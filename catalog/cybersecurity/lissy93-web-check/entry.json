@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/lissy93/web-check",
+  "name": "Lissy93/web-check",
+  "description": "All-in-one OSINT tool for analysing any website, providing insights into IP info, SSL certificates, DNS records, server architecture, security configurations, and technology stack.",
+  "sub_domain": "osint-recon",
+  "score": 9,
+  "score_rationale": "32.5k stars with active maintenance into 2026, highly popular single-tool solution for comprehensive website reconnaissance and OSINT.",
+  "stars": 32500,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-01-31",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 90.1,
+  "tags": [
+    "osint",
+    "web-security",
+    "security-tool"
+  ],
+  "category": "OSINT Platform",
+  "summary": "All-in-one OSINT tool for analysing any website, providing insights into IP info, SSL certificate...",
+  "slug": "lissy93-web-check"
+}

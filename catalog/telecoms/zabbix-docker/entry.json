@@ -1,0 +1,61 @@
+{
+  "name": "Zabbix Docker",
+  "repo_url": "https://github.com/zabbix/zabbix-docker",
+  "description": "Official Zabbix Dockerfiles for deploying the complete monitoring stack including server, web interface, database, agents, and SNMP trap support.",
+  "domain": "fault-management",
+  "secondary_domains": [
+    "netconf"
+  ],
+  "protocols": [
+    "SNMP",
+    "SNMPv3",
+    "SNMP Traps",
+    "IPMI",
+    "HTTP",
+    "JMX"
+  ],
+  "provides": [
+    "zabbix-agent",
+    "snmpv3-support",
+    "snmp-monitoring",
+    "snmp-trap-receiver",
+    "ipmi-monitoring",
+    "web-dashboard",
+    "device-discovery",
+    "network-monitoring-system",
+    "metrics-collection",
+    "streaming-telemetry",
+    "zabbix-server",
+    "jmx-monitoring",
+    "multi-service-compose-stack",
+    "alerting-engine"
+  ],
+  "needs": [
+    "postgresql-or-mysql",
+    "docker-compose",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "zabbix/zabbix-server-pgsql",
+    "compose_services_count": 8,
+    "docker_evidence": "Docker Compose deploying complete Zabbix stack: server, web, database, agents. SNMP traps via zabbix-snmptraps container."
+  },
+  "github_metrics": {
+    "stars": 2000,
+    "last_commit": "2026-03-15",
+    "language": "Dockerfile",
+    "license": "GPL-2.0"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Enterprise NMS with extensive SNMP support. Agents can configure monitoring, set up alerts, and troubleshoot network devices in a full-featured environment.",
+  "related_repos": [
+    "https://github.com/zabbix/zabbix",
+    "https://github.com/v-zhuravlev/zbx_snmpsim"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "zabbix-docker"
+}

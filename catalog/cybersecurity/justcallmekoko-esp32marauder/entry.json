@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/justcallmekoko/esp32marauder",
+  "name": "justcallmekoko/esp32marauder",
+  "description": "A suite of WiFi and Bluetooth offensive and defensive tools for the ESP32 microcontroller, enabling portable wireless attacks and monitoring from embedded hardware.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 9,
+  "score_rationale": "Highly popular embedded wireless hacking platform with 10k+ stars and active updates through 2026.",
+  "stars": 10261,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 86.1,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "justcallmekoko-esp32marauder"
+}

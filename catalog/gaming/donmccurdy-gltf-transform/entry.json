@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/donmccurdy/gltf-transform",
+  "name": "donmccurdy/glTF-Transform",
+  "description": "glTF 2.0 SDK for JavaScript and TypeScript (Node.js and Web) providing fast, reproducible, lossless control over low-level glTF model details including compression, optimization, and format conversion.",
+  "sub_domain": "asset-formats",
+  "score": 8,
+  "score_rationale": "The go-to JS/TS toolchain for glTF asset processing with 1.8k stars, actively maintained, and widely used in web-based game and 3D tooling pipelines.",
+  "stars": 1800,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-01-09",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 74.0,
+  "tags": [
+    "gltf",
+    "typescript",
+    "asset-processing"
+  ],
+  "category": "glTF Processing",
+  "summary": "JavaScript/TypeScript glTF 2.0 SDK for compression, optimization, and conversion",
+  "slug": "donmccurdy-gltf-transform"
+}

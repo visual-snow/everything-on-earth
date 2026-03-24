@@ -1,0 +1,63 @@
+{
+  "slug": "sd-ran-ran-simulator",
+  "name": "SD-RAN RAN Simulator",
+  "what_it_is": "A simulator for RAN CU/DU nodes and RU cells from ONF's SD-RAN project that communicates over the O-RAN E2AP standard. It creates virtual gNodeB (gNB) environments for testing xApps and E2 termination points without physical radio hardware.",
+  "components": [
+    "ran-simulator (core simulation engine for CU/DU nodes and RU cells)",
+    "onos-e2t (E2 termination point — receives E2AP messages from simulated nodes)",
+    "onos-e2sub (E2 subscription service — manages service model subscriptions)",
+    "onos-topo (topology service — stores node/cell graph)",
+    "onos-config (configuration service)",
+    "onos-consensus-db (Raft-based consensus store)",
+    "onos-cli (CLI for runtime control via `onos-cli ransim` commands)",
+    "YAML topology model loader (defines simulated environment at startup)",
+    "gRPC API (enables dynamic environment changes at runtime)"
+  ],
+  "protocols": [
+    "O-RAN E2AP (primary protocol between simulated gNBs and onos-e2t)",
+    "SCTP (transport layer for E2AP connections to onos-e2t endpoint)",
+    "gRPC (internal API for runtime control and dynamic scenario changes)",
+    "Helm/Kubernetes APIs (deployment orchestration)"
+  ],
+  "measurement": [
+    "KPM (Key Performance Measurement) service model — periodic UE/cell metrics reports",
+    "PCI (Physical Cell Identity) values generated per cell",
+    "RC (Radio Control) service model — control-loop interactions"
+  ],
+  "configuration": [
+    "YAML topology model file loaded at startup (defines node count, cell layout, neighbor relations)",
+    "Helm values: `--set import.ran-simulator.enabled=true`",
+    "Namespace selection (e.g., sd-ran, micro-onos)",
+    "gNodeB type set to G_NB for E2 node registration",
+    "Runtime modifications via gRPC API (change topology/metrics without restart)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Integrated SD-RAN mode (full stack with onos-e2t, onos-e2sub, onos-topo)",
+    "Standalone simulation mode (load YAML model, expose gRPC API only)",
+    "Dynamic scenario mode (runtime gRPC calls mutate topology/metrics mid-run)"
+  ],
+  "constraints": [
+    "Released source code (v1.1.1 snapshot) cannot build functional binaries — depends on private ONF repositories",
+    "Active development branches require ONF membership access",
+    "Requires a running Kubernetes cluster and Helm 3.0+ for deployment (no bare-metal docker-compose path documented)",
+    "No fault injection or failure scenario modeling documented",
+    "Read-only open-source mirror — no pull requests accepted upstream"
+  ],
+  "docker_services": [
+    "ran-simulator",
+    "onos-e2t",
+    "onos-e2sub",
+    "onos-topo",
+    "onos-config",
+    "onos-consensus-db",
+    "onos-cli"
+  ],
+  "notable_absences": [
+    "No docker-compose file — Kubernetes/Helm is the only supported deployment method",
+    "No fault injection or node failure simulation capability",
+    "No performance benchmarking or load-generation tooling",
+    "No multi-tenancy or isolation features documented",
+    "No RRC/NAS layer simulation (E2AP only, no full protocol stack)"
+  ]
+}

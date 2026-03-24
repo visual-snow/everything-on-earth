@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/shellphish/how2heap",
+  "name": "shellphish/how2heap",
+  "description": "A hands-on educational repository demonstrating 40+ heap exploitation techniques across glibc versions 2.23\u20132.42, covering fastbin attacks, tcache poisoning, house-of-techniques, and unsafe unlink.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 9,
+  "score_rationale": "The definitive reference for heap exploitation techniques with 8.5k stars, frequently updated for new glibc versions.",
+  "stars": 8500,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-01-17",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 85.4,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "shellphish-how2heap"
+}

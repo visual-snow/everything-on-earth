@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/t-mw/citygen",
+  "name": "t-mw/citygen",
+  "description": "An interactive procedural city generation demo using road network growth algorithms inspired by the 2001 Parish & Muller paper, rendered in the browser. Generates organic and grid street layouts with building footprints.",
+  "sub_domain": "procedural-generation",
+  "score": 7,
+  "score_rationale": "One of the most faithful open-source implementations of the seminal Parish-Muller city generation algorithm, usable in the browser.",
+  "stars": 420,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2022-10-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 63.0,
+  "tags": [
+    "city-generation",
+    "road-networks",
+    "browser",
+    "rust",
+    "algorithm"
+  ],
+  "category": "Browser City Generator",
+  "summary": "Browser-based city generation implementing Parish-Muller street network algorithm.",
+  "slug": "t-mw-citygen"
+}

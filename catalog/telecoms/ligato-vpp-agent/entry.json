@@ -1,0 +1,62 @@
+{
+  "name": "Ligato VPP Agent",
+  "repo_url": "https://github.com/ligato/vpp-agent",
+  "description": "Control plane management agent for FD.io's VPP. A set of VPP-specific plugins using CN-Infra framework to interact with other services/microservices in the cloud.",
+  "domain": "cloud-native-vnf",
+  "secondary_domains": [
+    "data-plane-management",
+    "microservice-networking",
+    "vpp"
+  ],
+  "protocols": [
+    "gRPC",
+    "REST",
+    "etcd",
+    "Kafka"
+  ],
+  "provides": [
+    "vpp-control-plane",
+    "grpc-server",
+    "rest-api",
+    "etcd-integration",
+    "kafka-integration",
+    "vnf-management",
+    "interface-configuration",
+    "l2-bridging",
+    "l3-routing",
+    "acl-management",
+    "nat-configuration",
+    "ipsec-management",
+    "cloud-native-agent"
+  ],
+  "needs": [
+    "vpp-dataplane",
+    "etcd-cluster",
+    "kafka-broker",
+    "linux-kernel-5.4+"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "ligato/vpp-agent",
+    "compose_services_count": 0,
+    "docker_evidence": "Pre-built Docker images ligato/vpp-agent and ligato/dev-vpp-agent on DockerHub, with both standard and ARM64 variants available."
+  },
+  "github_metrics": {
+    "stars": 275,
+    "last_commit": "2025",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Go-based management agent for VPP data plane. Good for testing cloud-native VNF management scenarios. Pre-built Docker images with ARM64 support. Integrates with etcd and Kafka.",
+  "related_repos": [
+    "https://github.com/fdio/vpp",
+    "https://github.com/ligato/vpp-base",
+    "https://github.com/ligato/cn-infra"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "ligato-vpp-agent"
+}

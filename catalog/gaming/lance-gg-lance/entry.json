@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lance-gg/lance",
+  "name": "lance-gg/lance",
+  "description": "A real-time multiplayer game server framework for Node.js that handles network synchronization, lag compensation, and physics prediction so developers can focus on game logic.",
+  "sub_domain": "game-backends",
+  "score": 6,
+  "score_rationale": "1.7k stars, solid JavaScript-native multiplayer server library with good documentation and example games.",
+  "stars": 1700,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-backends"
+  ],
+  "quality_score": 61.8,
+  "tags": [
+    "multiplayer",
+    "networking",
+    "server",
+    "lag-compensation",
+    "typescript"
+  ],
+  "category": "Multiplayer Server Framework",
+  "summary": "Real-time multiplayer server framework with network sync and lag compensation",
+  "slug": "lance-gg-lance"
+}

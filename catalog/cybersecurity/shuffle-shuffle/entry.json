@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shuffle/shuffle",
+  "name": "Shuffle/Shuffle",
+  "description": "Shuffle is an open-source security automation and SOAR platform that enables teams to create and execute automated workflows integrating multiple security tools. It emphasizes ease of use and collaboration for security operations teams.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 8,
+  "score_rationale": "Leading open-source SOAR platform with 2.2k stars, actively developed with regular releases and strong community adoption.",
+  "stars": 2200,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-02-10",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 74.7,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Shuffle is an open-source security automation and SOAR platform that enables teams to create and exe",
+  "slug": "shuffle-shuffle"
+}

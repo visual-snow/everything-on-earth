@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/softwaredesignlab/sbom-landscape-study",
+  "name": "SoftwareDesignLab/SBOM-Landscape-Study",
+  "description": "Research repository accumulating data and analysis results for assessing the landscape of open-source and proprietary SBOM tools, with a comprehensive spreadsheet detailing 86 tools and their use cases.",
+  "sub_domain": "Supply Chain Security",
+  "score": 5,
+  "score_rationale": "Useful academic reference cataloging 86 SBOM tools, relevant for researchers but not a production tool.",
+  "stars": 362,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 50.5,
+  "tags": [
+    "malware",
+    "analysis",
+    "detection"
+  ],
+  "category": "Malware Analysis",
+  "summary": "Malware analysis and detection tools",
+  "slug": "softwaredesignlab-sbom-landscape-study"
+}

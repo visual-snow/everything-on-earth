@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/behavior3/behavior3editor",
+  "name": "behavior3/behavior3editor",
+  "description": "A web-based visual editor for creating and editing behavior trees compatible with Behavior3 libraries, supporting JSON export and multi-tree project management.",
+  "sub_domain": "behavior-ai",
+  "score": 5,
+  "score_rationale": "700 stars but last updated in 2015; still useful as a reference visual editor for behavior trees.",
+  "stars": 700,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2015-06-15",
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 52.8,
+  "tags": [
+    "behavior-tree",
+    "visual-editor",
+    "web",
+    "json",
+    "game-dev"
+  ],
+  "category": "Tree Editors",
+  "summary": "Web-based visual behavior tree editor with JSON export",
+  "slug": "behavior3-behavior3editor"
+}

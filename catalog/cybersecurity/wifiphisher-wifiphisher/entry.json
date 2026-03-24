@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/wifiphisher/wifiphisher",
+  "name": "wifiphisher/wifiphisher",
+  "description": "The Rogue Access Point Framework \u2014 automates phishing attacks against WiFi clients by creating rogue APs and captive portals to capture credentials.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 9,
+  "score_rationale": "Essential evil-twin/rogue-AP framework with 14k+ stars, widely used in wireless pentesting courses and engagements.",
+  "stars": 14517,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-02-04",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 87.3,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "wifiphisher-wifiphisher"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/odrick/free-tex-packer",
+  "name": "odrick/free-tex-packer",
+  "description": "Free texture packer and sprite sheet generator supporting rotation, trimming, multipacking, and export to json, xml, pixi.js, godot, phaser, and cocos2d formats.",
+  "sub_domain": "asset-formats",
+  "score": 6,
+  "score_rationale": "Popular sprite atlas tool with 1.2k stars and broad engine export support, though it is no longer actively maintained as of 2021.",
+  "stars": 1200,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2021-04-29",
+  "found_in_domains": [
+    "asset-formats",
+    "asset-tools"
+  ],
+  "quality_score": 60.6,
+  "tags": [
+    "sprite-atlas",
+    "texture-packing",
+    "spritesheet"
+  ],
+  "category": "Sprite Sheet Packer",
+  "summary": "Multi-format sprite atlas packer with rotation and trim for game engines",
+  "slug": "odrick-free-tex-packer"
+}

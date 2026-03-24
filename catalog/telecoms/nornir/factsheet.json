@@ -1,0 +1,59 @@
+{
+  "slug": "nornir",
+  "name": "Nornir",
+  "what_it_is": "Nornir is a pure-Python, pluggable multi-threaded automation framework for network devices that lets engineers write and run automation workflows entirely in Python without a DSL. It handles inventory management and concurrent task dispatching across many devices, with an extensible plugin architecture for connections, runners, and inventory backends.",
+  "components": [
+    "Core framework (nornir PyPI package)",
+    "Inventory plugins (e.g. nornir-utils SimpleInventory, nornir-napalm, nornir-netbox)",
+    "Connection plugins (e.g. nornir-netmiko, nornir-napalm, nornir-scrapli, nornir-paramiko)",
+    "Runner plugins (ThreadedRunner, SerialRunner)",
+    "Task plugins (user-defined Python functions or community plugins)",
+    "Plugin directory at https://nornir.tech/nornir/plugins/"
+  ],
+  "protocols": [
+    "SSH/CLI (via nornir-netmiko, nornir-paramiko, nornir-scrapli)",
+    "NETCONF (via nornir-scrapli or nornir-napalm)",
+    "RESTCONF (via nornir-napalm or custom HTTP tasks)",
+    "gNMI (via nornir-scrapli-gnmi or custom plugins)",
+    "SNMP (via custom task plugins)",
+    "HTTP/REST (via requests-based task plugins)"
+  ],
+  "measurement": [
+    "No built-in metrics collection — timing must be instrumented in custom task code",
+    "AggregatedResult and MultiResult objects expose per-host task results and exception details",
+    "Failed-host tracking via Result.failed and AggregatedResult.failed_hosts"
+  ],
+  "configuration": [
+    "config.yaml file for core settings (runner, inventory, logging, ssh)",
+    "hosts.yaml for per-device inventory (hostname, port, platform, groups, data)",
+    "groups.yaml for shared device-group defaults",
+    "defaults.yaml for global inventory defaults",
+    "In-code configuration via InitNornir() kwargs (overrides file-based config)",
+    "Python version 3.10+ required"
+  ],
+  "fault_injection": [
+    "No native fault-injection primitives — failures are simulated by raising exceptions inside custom task functions",
+    "Serial runner can be used to isolate per-device failures without thread-pool interference"
+  ],
+  "modes": [
+    "ThreadedRunner: parallel execution across hosts with configurable num_workers",
+    "SerialRunner: sequential execution, one host at a time",
+    "Dry-run behaviour is protocol/plugin-dependent (e.g. NAPALM supports dry-run commits)"
+  ],
+  "constraints": [
+    "Python 3.10 or higher is required; older Python versions are not supported",
+    "No plugins are bundled since v3.0.0 — all connection/inventory plugins must be installed separately via pip",
+    "No built-in CLI or REPL; automation logic must be expressed as Python scripts or notebooks",
+    "No native Docker image or docker-compose provided in the core repository",
+    "Concurrency model is thread-based (GIL-bound), not async/process-based — CPU-heavy tasks do not scale linearly",
+    "Inventory data is static at runtime by default; dynamic inventory requires a custom plugin"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml in the repository (neither master nor main branch)",
+    "No built-in protocol implementations — all device communication delegated to connection plugins",
+    "No built-in test/assertion framework — test logic must be written in task functions",
+    "No built-in secret/credential vault integration (must wire in externally)",
+    "No built-in change-rollback mechanism (protocol plugins like NAPALM provide this optionally)"
+  ]
+}

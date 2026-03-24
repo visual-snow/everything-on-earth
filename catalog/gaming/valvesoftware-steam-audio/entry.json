@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/valvesoftware/steam-audio",
+  "name": "ValveSoftware/steam-audio",
+  "description": "Valve's open-source spatial audio SDK providing HRTF-based binaural rendering, physics-based sound propagation, occlusion, and reverb with plugins for Unity, Unreal, FMOD, and Wwise.",
+  "sub_domain": "game-audio",
+  "score": 9,
+  "score_rationale": "Industry-grade spatial audio SDK from Valve with 2.8k stars, actively maintained through February 2026, Apache-2.0 licensed, and integrated into major engines and audio middleware.",
+  "stars": 2800,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "game-audio"
+  ],
+  "quality_score": 81.6,
+  "tags": [
+    "spatial-audio",
+    "audio",
+    "hrtf",
+    "middleware"
+  ],
+  "category": "Spatial Audio SDK",
+  "summary": "Valve spatial audio SDK with HRTF and physics-based propagation",
+  "slug": "valvesoftware-steam-audio"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/s0lst1c3/eaphammer",
+  "name": "s0lst1c3/eaphammer",
+  "description": "Targeted evil twin attack toolkit against WPA2-Enterprise networks, supporting hostile portal attacks to steal RADIUS credentials and perform indirect wireless pivots.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 8,
+  "score_rationale": "Strong enterprise WiFi attack tool with 2.5k stars; fills a unique niche for WPA-Enterprise assessments not covered by most other tools.",
+  "stars": 2475,
+  "language": "C",
+  "license": "GPL-3.0",
+  "last_activity": "2024-09-22",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 75.2,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "s0lst1c3-eaphammer"
+}

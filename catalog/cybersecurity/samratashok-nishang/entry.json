@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/samratashok/nishang",
+  "name": "samratashok/nishang",
+  "description": "Collection of offensive PowerShell scripts and payloads for red teaming and penetration testing, covering backdoors, shells, data gathering, privilege escalation, and exploitation. A foundational PowerShell offensive toolkit with 9.8k stars.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 8,
+  "score_rationale": "9.8k stars, last updated February 2023, and remains a foundational reference for PowerShell-based offensive tradecraft.",
+  "stars": 9800,
+  "language": "PowerShell",
+  "license": "GPL-3.0",
+  "last_activity": "2023-02-02",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 79.9,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "samratashok-nishang"
+}

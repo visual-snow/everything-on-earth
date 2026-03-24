@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/containers/skopeo",
+  "name": "containers/skopeo",
+  "description": "Command-line utility for working with remote container image registries, supporting image inspection, copying, signing, and verification without pulling full images. Key tool for supply chain registry operations.",
+  "sub_domain": "Supply Chain Security",
+  "score": 7,
+  "score_rationale": "Well-established container registry operations tool with 814+ stars, widely used for container supply chain workflows.",
+  "stars": 814,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 65.3,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "containers-skopeo"
+}

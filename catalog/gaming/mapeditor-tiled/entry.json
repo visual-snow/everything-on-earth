@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mapeditor/tiled",
+  "name": "mapeditor/tiled",
+  "description": "Tiled is a flexible, general-purpose tile map and level editor for tile-based games (RPGs, platformers, etc.), supporting orthogonal, isometric, and hexagonal maps with a rich TMX format.",
+  "sub_domain": "asset-tools",
+  "score": 10,
+  "score_rationale": "12.4k stars, the industry-standard tile map editor with 15+ years of active development, March 2026 release, and near-universal adoption in 2D game development.",
+  "stars": 12400,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "asset-tools"
+  ],
+  "quality_score": 92.7,
+  "tags": [
+    "tilemap-editor",
+    "level-design",
+    "tmx"
+  ],
+  "category": "Tile Map Editor",
+  "summary": "Industry-standard tile map editor with orthogonal, isometric, hexagonal support",
+  "slug": "mapeditor-tiled"
+}

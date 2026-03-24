@@ -1,0 +1,55 @@
+{
+  "slug": "mininet-wifi",
+  "name": "Mininet-WiFi",
+  "what_it_is": "A fork of Mininet that adds WiFi Station and Access Point emulation to enable wireless SDN experiments. It extends Mininet's virtual network framework with 802.11 wireless medium simulation while retaining full compatibility with OpenFlow and OpenvSwitch.",
+  "components": [
+    "WiFi Stations (software-emulated wireless clients)",
+    "Access Points (hostapd-backed virtual APs)",
+    "wmediumd (wireless medium simulation daemon)",
+    "hostapd (access point and authentication daemon)",
+    "OpenvSwitch (OpenFlow-capable virtual switch)",
+    "MiniEdit (GUI topology editor)",
+    "install.sh (modular dependency installer)"
+  ],
+  "protocols": [
+    "IEEE 802.11 (WiFi)",
+    "OpenFlow (SDN control plane)",
+    "WPA/WPA2 (via wpa_supplicant)",
+    "IEEE 802.15.4 / 6LoWPAN (optional, via wpan tools)",
+    "P4 (optional, via P4 dependencies)"
+  ],
+  "measurement": [
+    "iw — wireless interface statistics and link information",
+    "iwconfig — legacy wireless interface monitoring",
+    "Standard Mininet host-level traffic measurement via iperf/ping"
+  ],
+  "configuration": [
+    "Python script-based topology definition (Mininet API extended for wireless)",
+    "install.sh flags: -W (wireless deps), -n (mininet-wifi deps), -f (OpenFlow), -v (OpenvSwitch), -l (wmediumd), -P (P4), -6 (wpan tools)",
+    "MiniEdit GUI for interactive topology creation",
+    "Pre-built Lubuntu 20.04 VM image for out-of-box deployment",
+    "Docker-based deployment as alternative installation path"
+  ],
+  "fault_injection": [
+    "wmediumd supports configurable wireless medium conditions (signal attenuation, interference) to simulate degraded links"
+  ],
+  "modes": [
+    "Script mode: Python API defining stations, APs, and links programmatically",
+    "GUI mode: MiniEdit graphical topology builder",
+    "VM mode: pre-built Lubuntu 20.04 virtual machine image",
+    "Docker mode: containerized deployment with host kernel module access"
+  ],
+  "constraints": [
+    "Requires Ubuntu 16.04 or higher; some hostapd features are broken on Ubuntu 14.04",
+    "Docker deployment requires --privileged mode and access to host kernel wireless modules (mac80211_hwsim)",
+    "Network Manager must be stopped on certain Ubuntu distributions to avoid interference with virtual wireless interfaces",
+    "Wireless emulation relies on mac80211_hwsim kernel module — not available in all container or VM kernels"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found in the repository (404); Docker usage is manual docker run only",
+    "No built-in packet loss or link failure injection API (must be done via wmediumd configuration or tc/netem manually)",
+    "No native traffic generation — depends on external tools (iperf, ping, etc.)",
+    "No built-in support for LTE/5G radio access network emulation"
+  ]
+}

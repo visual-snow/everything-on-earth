@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/sherlock-project/sherlock",
+  "name": "sherlock-project/sherlock",
+  "description": "Hunt down social media accounts by username across 400+ social networks. Widely used username enumeration tool for OSINT investigations.",
+  "sub_domain": "osint-recon",
+  "score": 10,
+  "score_rationale": "Industry-standard OSINT username lookup tool with 74k stars, actively maintained, and one of the most referenced tools in the field.",
+  "stars": 74000,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 99.0,
+  "tags": [
+    "network-analysis",
+    "osint",
+    "security-tool"
+  ],
+  "category": "OSINT Platform",
+  "summary": "Hunt down social media accounts by username across 400+ social networks. Widely used username enu...",
+  "slug": "sherlock-project-sherlock"
+}

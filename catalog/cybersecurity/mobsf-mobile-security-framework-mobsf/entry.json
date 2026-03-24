@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mobsf/mobile-security-framework-mobsf",
+  "name": "MobSF/Mobile-Security-Framework-MobSF",
+  "description": "All-in-one automated mobile application security framework for Android, iOS, and Windows performing static and dynamic analysis, malware detection, and MASVS-aligned security assessment via REST API and web UI.",
+  "sub_domain": "Mobile Security",
+  "score": 10,
+  "score_rationale": "The dominant open-source mobile security platform with 20.7k stars, actively maintained with v4.4.6 released in March 2026, and featured at Black Hat Arsenal.",
+  "stars": 20700,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "malware-reversing",
+    "Mobile Security"
+  ],
+  "quality_score": 94.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "mobsf-mobile-security-framework-mobsf"
+}

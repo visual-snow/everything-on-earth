@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/googleforgames/agones",
+  "name": "googleforgames/agones",
+  "description": "A Kubernetes-native library for hosting, running, and scaling dedicated game servers, providing custom resource definitions for fleets, autoscaling, and game server lifecycle management.",
+  "sub_domain": "game-backends",
+  "score": 9,
+  "score_rationale": "6.7k stars, co-developed with Ubisoft and Google, the standard solution for Kubernetes-based dedicated game server orchestration.",
+  "stars": 6700,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-26",
+  "found_in_domains": [
+    "game-backends",
+    "game-server-orchestration"
+  ],
+  "quality_score": 84.6,
+  "tags": [
+    "kubernetes",
+    "game-servers",
+    "orchestration",
+    "infrastructure"
+  ],
+  "category": "Game Server Orchestration",
+  "summary": "Kubernetes-native game server hosting and autoscaling platform",
+  "slug": "googleforgames-agones"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openbao/openbao",
+  "name": "openbao/openbao",
+  "description": "Linux Foundation-managed open source fork of HashiCorp Vault for managing, storing, and distributing secrets, certificates, and keys under the MPL-2.0 license.",
+  "sub_domain": "iam-auth",
+  "score": 8,
+  "score_rationale": "Community-driven Vault fork with 5.7k stars, MPL-2.0 licensed, actively maintained under the Linux Foundation as the OSS successor to Vault after HashiCorp's license change.",
+  "stars": 5700,
+  "language": "Go",
+  "license": "MPL-2.0",
+  "last_activity": "2026-02-23",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 78.0,
+  "tags": [
+    "penetration-testing",
+    "assessment",
+    "security-testing",
+    "automation"
+  ],
+  "category": "Testing Tool",
+  "summary": "Security assessment and testing",
+  "slug": "openbao-openbao"
+}

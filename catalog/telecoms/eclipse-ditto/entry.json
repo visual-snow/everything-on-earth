@@ -1,0 +1,58 @@
+{
+  "name": "Eclipse Ditto",
+  "repo_url": "https://github.com/eclipse-ditto/ditto",
+  "description": "Digital Twin framework for IoT that provides virtual cloud-based representations of real-world devices. Mirrors physical devices as digital representations with HTTP, WebSocket, AMQP, MQTT, and Kafka APIs.",
+  "domain": "iot-device-management",
+  "secondary_domains": [
+    "network-device-state",
+    "telemetry-mirroring"
+  ],
+  "protocols": [
+    "HTTP",
+    "WebSocket",
+    "AMQP",
+    "MQTT",
+    "Kafka"
+  ],
+  "provides": [
+    "digital-twin-framework",
+    "iot-device-modeling",
+    "rest-api-gateway",
+    "websocket-api",
+    "mqtt-connectivity",
+    "amqp-connectivity",
+    "kafka-connectivity",
+    "device-state-management",
+    "things-search-api",
+    "policy-based-access-control",
+    "telemetry-mirroring",
+    "web-dashboard"
+  ],
+  "needs": [
+    "mongodb",
+    "docker-compose",
+    "jvm-17+"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "eclipse/ditto-*",
+    "compose_services_count": 7,
+    "docker_evidence": "In order to start the latest built Docker images from Docker Hub, simply execute: cd deployment/docker/ docker-compose up -d"
+  },
+  "github_metrics": {
+    "stars": 859,
+    "last_commit": "2026-02-11",
+    "language": "Java",
+    "license": "EPL-2.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Mature IoT digital twin platform that scales to millions of twins. Could be used for modeling network device state, telemetry mirroring, and what-if scenarios. Microservice architecture (Policies, Things, Things-Search, Gateway, Connectivity + MongoDB + nginx).",
+  "related_repos": [
+    "https://github.com/eclipse-ditto/ditto-examples"
+  ],
+  "_sources": [
+    "discovery/digital-twin.json"
+  ],
+  "slug": "eclipse-ditto"
+}

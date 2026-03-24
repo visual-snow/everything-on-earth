@@ -1,0 +1,70 @@
+{
+  "name": "VyOS",
+  "repo_url": "https://github.com/vyos/vyos-build",
+  "description": "Open source network operating system for routers and firewalls based on Debian GNU/Linux. Supports running in Docker containers for testing and packet routing.",
+  "domain": "multi-protocol-routing",
+  "secondary_domains": [
+    "network-operating-system",
+    "router-firewall",
+    "vpn-gateway"
+  ],
+  "protocols": [
+    "BGP",
+    "IPsec",
+    "IS-IS",
+    "OSPF",
+    "OpenVPN",
+    "RIP",
+    "VRRP",
+    "WireGuard"
+  ],
+  "provides": [
+    "router-os",
+    "vrrp-ha",
+    "ipsec-vpn",
+    "network-operating-system",
+    "wireguard-vpn",
+    "containerlab-node",
+    "openvpn-server",
+    "bgp-routing",
+    "commit-rollback-config",
+    "firewall-policy",
+    "cli-config-management",
+    "config-mutation",
+    "isis-routing",
+    "ospf-routing",
+    "packet-routing",
+    "nat-gateway",
+    "rip-routing"
+  ],
+  "needs": [
+    "ipv6-enabled-docker-network",
+    "privileged-container",
+    "linux-kernel-5.4+",
+    "docker-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Docker directory exists at /docker/. VyOS requires an IPv6-enabled Docker network. Documented Docker container deployment in official docs."
+  },
+  "github_metrics": {
+    "stars": 1200,
+    "last_commit": "2026-03",
+    "language": "Python",
+    "license": "GPL-2.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Full router/firewall OS in a container. Supports containerlab integration. Rich CLI with commit/rollback model makes it excellent for configuration management evaluations. Full-featured router/firewall OS. Docker image via vyos/vyos-build. Also available via ravens/docker-vyos and Aminiok/vyos-docker community containers. Supports BGP, OSPF, IS-IS, VRRP, IPsec, OpenVPN, WireGuard.",
+  "related_repos": [
+    "https://github.com/aminiok/vyos-docker",
+    "https://github.com/ravens/docker-vyos"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/virtual-nos.json",
+    "discovery/transport.json"
+  ],
+  "slug": "vyos"
+}

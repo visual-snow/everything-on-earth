@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/googleforgames/open-match",
+  "name": "googleforgames/open-match",
+  "description": "A flexible and scalable open-source matchmaking framework running on Kubernetes, enabling game developers to write custom match-making logic as microservices without managing infrastructure.",
+  "sub_domain": "game-backends",
+  "score": 8,
+  "score_rationale": "3.4k stars, Google-backed production-ready matchmaking framework designed to be paired with dedicated game server orchestration.",
+  "stars": 3400,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2023-12-13",
+  "found_in_domains": [
+    "game-backends",
+    "game-server-orchestration"
+  ],
+  "quality_score": 76.3,
+  "tags": [
+    "matchmaking",
+    "kubernetes",
+    "backend",
+    "microservices"
+  ],
+  "category": "Game Backend Server",
+  "summary": "Kubernetes matchmaking framework for custom game logic",
+  "slug": "googleforgames-open-match"
+}

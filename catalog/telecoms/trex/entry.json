@@ -1,0 +1,96 @@
+{
+  "name": "TRex",
+  "repo_url": "https://github.com/cisco-system-traffic-generator/trex-core",
+  "description": "A low-cost, high-speed stateful and stateless traffic generator built on DPDK, capable of L3-7 traffic generation at line rate on physical and virtual interfaces.",
+  "domain": "dpdk",
+  "secondary_domains": [
+    "load-testing",
+    "nfv-performance-testing",
+    "telecom-load-testing"
+  ],
+  "protocols": [
+    "ARP",
+    "BGP",
+    "DHCP",
+    "DHCPv4",
+    "DHCPv6",
+    "DNS",
+    "DPDK",
+    "GRE",
+    "HTTP",
+    "HTTPS",
+    "ICMP",
+    "ICMPv6",
+    "IGMP",
+    "IPv4",
+    "IPv6",
+    "MLD",
+    "MPLS",
+    "NSH",
+    "OSPF",
+    "RIP",
+    "RTSP",
+    "SIP",
+    "TCP",
+    "UDP",
+    "VXLAN"
+  ],
+  "provides": [
+    "flow-simulation",
+    "bgp-simulation",
+    "stateful-traffic-generation",
+    "line-rate-packet-generation",
+    "ipv6-traffic",
+    "mpls-traffic",
+    "rest-api-control",
+    "dpdk-packet-processing",
+    "load-testing",
+    "pcap-replay",
+    "sip-traffic",
+    "l2-l7-traffic-generation",
+    "protocol-emulation",
+    "traffic-generation",
+    "python-automation-api",
+    "vxlan-traffic",
+    "ospf-simulation",
+    "stateless-traffic-generation",
+    "http-traffic-generation",
+    "ipv4-traffic",
+    "network-performance-testing"
+  ],
+  "needs": [
+    "dpdk-compatible-nic",
+    "linux-kernel-hugepages",
+    "linux-kernel-5.4+",
+    "cpu-with-sse4-2",
+    "privileged-docker-mode",
+    "physical-or-virt-network-interface"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "trexcisco/trex",
+    "compose_services_count": 0,
+    "docker_evidence": "A /docker directory exists in the repository; run TRex inside docker with low performance/low footprint with a few commands"
+  },
+  "github_metrics": {
+    "stars": 1500,
+    "last_commit": "2025-01-29",
+    "language": "C++",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Industry-standard traffic generator by Cisco. Docker support enables containerized traffic testing scenarios for agentic network performance evals. Premier open-source traffic generator for telecom/NFV testing. Supports stateful and stateless modes, DPDK line-rate performance, and extensive protocol coverage. Ideal for agentic evaluations requiring realistic L2-L7 traffic generation.",
+  "related_repos": [
+    "https://github.com/bestateless/traffic-generator",
+    "https://github.com/cisco-system-traffic-generator/trex-emu",
+    "https://github.com/cisco-system-traffic-generator/trex-stateless-gui",
+    "https://github.com/datmanslo/docker-trex",
+    "https://github.com/mksmki/trex-docker"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/traffic.json"
+  ],
+  "slug": "trex"
+}

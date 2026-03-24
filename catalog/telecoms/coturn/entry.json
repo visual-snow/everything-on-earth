@@ -1,0 +1,53 @@
+{
+  "name": "coturn",
+  "repo_url": "https://github.com/coturn/coturn",
+  "description": "Free open source implementation of TURN and STUN servers for VoIP and WebRTC NAT traversal.",
+  "domain": "ice",
+  "secondary_domains": [
+    "turn-stun",
+    "voip",
+    "webrtc"
+  ],
+  "protocols": [
+    "TURN",
+    "STUN",
+    "ICE"
+  ],
+  "provides": [
+    "turn-server",
+    "stun-server",
+    "ice-negotiation",
+    "nat-traversal",
+    "webrtc-relay",
+    "voip-signaling-support",
+    "tls-dtls-termination",
+    "udp-tcp-relay"
+  ],
+  "needs": [
+    "network-port-access",
+    "stun-client",
+    "turn-credentials",
+    "optional-redis-backend",
+    "optional-postgresql-backend"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "coturn/coturn",
+    "compose_services_count": 0,
+    "docker_evidence": "docker run -d -p 3478:3478 -p 3478:3478/udp -p 5349:5349 -p 5349:5349/udp coturn/coturn. Available on Docker Hub, GitHub Container Registry, and Quay.io."
+  },
+  "github_metrics": {
+    "stars": 13800,
+    "last_commit": "unknown",
+    "language": "C",
+    "license": "open-source"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Very popular TURN/STUN server with excellent Docker support. Essential for WebRTC and VoIP NAT traversal evals.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "coturn"
+}

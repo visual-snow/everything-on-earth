@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/4ndersonlin/awesome-cloud-security",
+  "name": "4ndersonLin/awesome-cloud-security",
+  "description": "A curated collection of cloud security resources covering AWS, Azure, and GCP security tooling, penetration testing environments, container security, and native cloud provider security services with standards, free courses, and certifications.",
+  "sub_domain": "awesome-lists",
+  "score": 7,
+  "score_rationale": "Well-structured cloud security resource collection with 2.4k stars covering multi-cloud security tooling, though last updated in 2022.",
+  "stars": 2400,
+  "language": null,
+  "license": null,
+  "last_activity": "2022-06-03",
+  "found_in_domains": [
+    "awesome-lists"
+  ],
+  "quality_score": 69.0,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated collection of cloud security resources covering AWS, Azure, and GCP security tooling, pene",
+  "slug": "4ndersonlin-awesome-cloud-security"
+}

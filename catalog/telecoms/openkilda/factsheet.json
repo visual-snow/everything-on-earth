@@ -1,0 +1,61 @@
+{
+  "slug": "openkilda",
+  "name": "OpenKilda",
+  "what_it_is": "OpenKilda is a web-scale Software-Defined Networking (SDN) controller built by Telstra, capable of managing tens of thousands of OpenFlow switches simultaneously and controlling millions of flows. It is based on Floodlight and uses Kafka and Apache Storm for distributed processing.",
+  "components": [
+    "Floodlight Controllers (Floodlight 1 and 2) — OpenFlow switch controllers",
+    "Apache Storm Topology — distributed workflow and flow-rule computation",
+    "Apache Kafka — message bus between components",
+    "Zookeeper — coordination and leader election",
+    "OrientDB — graph database for topology and flow state",
+    "Path Computation Engine — calculates routes using configurable cost functions",
+    "confd — template-based configuration management (YAML + Go templates)",
+    "REST API — programmatic management interface",
+    "GUI — web-based network monitoring and management",
+    "Telemetry and Reporting — sub-second network metrics visualization"
+  ],
+  "protocols": [
+    "OpenFlow (primary switch control protocol)"
+  ],
+  "measurement": [
+    "Sub-second network telemetry",
+    "Visualized network monitoring via built-in reporting component",
+    "Flow-level statistics collection",
+    "Mirroring and data gathering for traffic analysis"
+  ],
+  "configuration": [
+    "confd with YAML variable files and Go-template formatting for all service configuration",
+    "Multi-table pipeline mode (default; single-table mode deprecated since release 1.126.2)",
+    "Blue-green deployment configuration for zero-downtime upgrades",
+    "Remote debug configuration via JDWP",
+    "Path cost functions are configurable in the Path Computation Engine",
+    "Flow groups configurable for backup route diversity"
+  ],
+  "fault_injection": [
+    "Virtual topology creation for test mode (simulated switch/link failures)",
+    "Flow groups with backup routes to validate failover behaviour",
+    "Path recalculation triggered on hardware change events"
+  ],
+  "modes": [
+    "Standard mode — single active deployment",
+    "Blue-green mode — two simultaneous controller versions for zero-downtime deployment",
+    "Debug mode — JDWP remote debugging enabled",
+    "Test mode — virtual topology creation for automated testing"
+  ],
+  "constraints": [
+    "Linux kernel 4.18+ required for Open vSwitch (OVS) meters support",
+    "Open vSwitch 2.9+ required",
+    "Single-table switch mode is deprecated since release 1.126.2; new features are multi-table mode only",
+    "Build requires Gradle 7.0+, Maven 3.3.9+, JDK 8+, Python 3.8+, Docker 19.03.3+, GNU Make 4.1+",
+    "Supports up to tens of thousands of switches — not validated beyond that scale boundary"
+  ],
+  "docker_services": [
+    "docker-compose.yml not found at master or main branch roots; service count of ~10 sourced from entry metadata only — individual service names could not be verified from raw file fetch"
+  ],
+  "notable_absences": [
+    "No documented fault injection tooling beyond virtual topology and path recalculation",
+    "No explicit IPv6 support documentation",
+    "No documented performance benchmarks or latency thresholds",
+    "docker-compose.yml not accessible via raw GitHub (404 on both master and main branches), so service details are unverified"
+  ]
+}

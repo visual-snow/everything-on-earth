@@ -1,0 +1,69 @@
+{
+  "slug": "rousette",
+  "name": "Rousette",
+  "what_it_is": "A full RESTCONF server (RFC 8040) built on top of sysrepo, providing XML and JSON data encoding, YANG module library access, NACM access control, and NETCONF notification streams over cleartext HTTP/2. It is designed to run behind a reverse proxy (e.g., nghttpx) that handles TLS termination.",
+  "components": [
+    "rousette binary (RESTCONF server)",
+    "sysrepo (YANG-based datastore backend)",
+    "libyang (YANG data modeling library)",
+    "nghttp2-asio (async HTTP/2 server library)",
+    "PAM (authentication backend)",
+    "nghttpx (recommended reverse proxy for TLS termination)"
+  ],
+  "protocols": [
+    "HTTP/2 (cleartext, prior-knowledge)",
+    "RESTCONF (RFC 8040)",
+    "YANG module library (RFC 8525)",
+    "NMDA datastore access (RFC 8527)",
+    "YANG Patch (RFC 8072)",
+    "NACM access control (RFC 8341)",
+    "NETCONF notification streams",
+    "IETF Subscribed Notifications (RFC 8639)"
+  ],
+  "measurement": [
+    "No built-in metrics endpoint; logging via spdlog to stdout, syslog, or systemd journal",
+    "Sysrepo operation timeout configurable via --timeout <SECONDS> CLI flag",
+    "Test suite uses doctest framework with per-test server port assignment starting at 10080"
+  ],
+  "configuration": [
+    "Server binds to ::1 (IPv6 loopback) on port 10080 by default (hardcoded in main.cpp)",
+    "Anonymous access user/group configurable at build time via CMake options ANONYMOUS_USER (default: yangnobody) and ANONYMOUS_USER_GROUP (default: yangnobody)",
+    "Authentication via PAM Basic HTTP auth; pam_wrapper used for test mocking",
+    "NACM rules configured through ietf-netconf-acm YANG model in sysrepo",
+    "Reverse proxy must forward the Authorization header unchanged",
+    "Required YANG models must be pre-installed in sysrepo: ietf-yang-library@2019-01-04, ietf-netconf, ietf-restconf@2017-01-26, ietf-restconf-monitoring@2017-01-26, ietf-yang-patch@2017-02-22",
+    "Logging destination selectable via --syslog flag or auto-detected journald"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism",
+    "Tests use unshare + mount (Linux namespaces) to isolate PAM and tmpfs environments",
+    "pam_matrix/pam_wrapper used to mock PAM authentication outcomes in tests",
+    "trompeloeil mock objects used for C++ unit test stubbing"
+  ],
+  "modes": [
+    "Normal operation: cleartext HTTP/2 behind reverse proxy",
+    "Debug mode: direct curl --http2-prior-knowledge access without proxy",
+    "Anonymous access mode: request without Authorization header mapped to ANONYMOUS_USER if NACM rules allow",
+    "Authenticated mode: HTTP Basic auth via PAM"
+  ],
+  "constraints": [
+    "TLS termination is NOT implemented; a reverse proxy is required for HTTPS",
+    "TLS certificate authentication is NOT supported",
+    "Last-Modified and ETag headers for edit collision prevention are NOT implemented",
+    "with-operational-default and with-origin NMDA capabilities are NOT implemented",
+    "Binds only to ::1 (IPv6 loopback) by default; external access requires reverse proxy or code change",
+    "Requires Linux (uses unshare/mount for test isolation; PAM is Linux-specific)",
+    "Requires C++20 compiler (GCC 10+ or clang 10+) and CMake 3.19+",
+    "Anonymous access requires very specific NACM rule ordering to be enabled"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose or Dockerfile in the repository",
+    "No REST API for metrics or health checks",
+    "No built-in TLS support",
+    "No built-in rate limiting or connection throttling",
+    "No support for Last-Modified/ETag edit collision prevention headers",
+    "No YANG datastore diff or audit log endpoint",
+    "Development is done on Gerrit (not GitHub); GitHub PRs are not accepted"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/monogatari/monogatari",
+  "name": "Monogatari/Monogatari",
+  "description": "A web-first visual novel engine built with JavaScript/TypeScript that delivers responsive, PWA-compatible VN games playable in browsers and installable on mobile devices.",
+  "sub_domain": "visual-novel-engines",
+  "score": 7,
+  "score_rationale": "831 stars, unique web-native approach delivering installable PWA visual novels, though development slowed after 2021.",
+  "stars": 831,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2021-02-27",
+  "found_in_domains": [
+    "visual-novel-engines"
+  ],
+  "quality_score": 65.4,
+  "tags": [
+    "visual-novel",
+    "web",
+    "pwa",
+    "javascript",
+    "mobile"
+  ],
+  "category": "PWA Visual Novel Engine",
+  "summary": "PWA-compatible web visual novel engine with mobile installability",
+  "slug": "monogatari-monogatari"
+}

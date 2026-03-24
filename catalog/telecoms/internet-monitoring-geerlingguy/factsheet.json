@@ -1,0 +1,57 @@
+{
+  "slug": "internet-monitoring-geerlingguy",
+  "name": "Internet Monitoring (Geerlingguy)",
+  "what_it_is": "A Docker Compose stack that runs Prometheus, Grafana, blackbox-exporter, speedtest-exporter, and node-exporter to monitor home internet reliability and throughput. The repository is archived; its contents have been merged into the geerlingguy/internet-pi project.",
+  "components": [
+    "Prometheus v2.25.2 (metrics collection and storage)",
+    "Grafana (dashboarding, auto-provisioned datasource and dashboard)",
+    "blackbox-exporter (HTTP/ICMP/TCP probing, exposed on :9115)",
+    "speedtest-exporter by MiguelNdeCarvalho (Ookla speedtest scraping, exposed on :9798)",
+    "node-exporter (host system metrics, exposed on :9100)"
+  ],
+  "protocols": [
+    "HTTP (http_2xx and http_post_2xx blackbox modules)",
+    "HTTPS (TLS-enabled HTTP probing)",
+    "ICMP (icmp blackbox module)",
+    "TCP (tcp_connect, pop3s_banner, ssh_banner, irc_banner blackbox modules)"
+  ],
+  "measurement": [
+    "HTTP probe status codes and latency (probe_http_status_code)",
+    "Internet download/upload speed and latency via Ookla speedtest (scraped every 30 minutes)",
+    "Host system metrics via node-exporter (CPU, memory, disk, filesystem)",
+    "Ping/reachability of configurable target URLs with humanname, routing, and switching labels"
+  ],
+  "configuration": [
+    "Ping targets defined in prometheus/pinghosts.yaml using format url;humanname;routing;switch",
+    "Speedtest scrape interval set in prometheus/prometheus.yml under the speedtest job (default 30m)",
+    "Global Prometheus scrape interval defaults to 15s; ping job overrides to 5s",
+    "Grafana credentials stored in grafana/config.monitoring env file (default user: admin, password: wonka)",
+    "Blackbox prober modules defined in blackbox/config/blackbox.yml"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Default mode: HTTP 2xx probing for external targets (Google, GitHub, Apple)",
+    "Optional local network probing (commented-out targets in pinghosts.yaml)",
+    "Optional Shelly smart-plug power monitoring (requires internet-pi companion config)",
+    "Optional Starlink dish monitoring (requires internet-pi companion config)"
+  ],
+  "constraints": [
+    "Repository is archived; no new development occurs here — active development is in geerlingguy/internet-pi",
+    "No authentication or TLS on Grafana or Prometheus endpoints — intended for non-public/home networks only",
+    "Speedtest scrape_timeout is 60s and each run consumes real bandwidth — default 30m interval may be too frequent on capped connections",
+    "Prometheus image is pinned to v2.25.2 (released ~2021); Grafana image is unpinned (latest)"
+  ],
+  "docker_services": [
+    "prometheus (prom/prometheus:v2.25.2, port 9090, back-tier network)",
+    "grafana (grafana/grafana:latest, ports 3030->3000, front-tier + back-tier networks)",
+    "ping (prom/blackbox-exporter:latest, port 9115, back-tier network)",
+    "speedtest (miguelndecarvalho/speedtest-exporter:latest, port 9798, back-tier network)",
+    "nodeexp (prom/node-exporter:latest, port 9100, privileged, back-tier network)"
+  ],
+  "notable_absences": [
+    "No DNS-specific probing job (DNS protocol listed in project description but no dns blackbox module is configured in the active prometheus.yml)",
+    "No alerting configuration wired up (alert.rules file referenced but not included in repo)",
+    "No authentication or reverse-proxy setup provided",
+    "No IPv6 probing (blackbox http_2xx module forces ip4)"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "eUPF",
+  "repo_url": "https://github.com/edgecomllc/eupf",
+  "description": "Open-source 5G User Plane Function using eBPF technology for high-performance packet forwarding. Supports N3 (GTP-U), N4 (PFCP), and N6 interfaces with Prometheus metrics.",
+  "domain": "5g-user-plane",
+  "secondary_domains": [
+    "ebpf-networking",
+    "packet-forwarding"
+  ],
+  "protocols": [
+    "PFCP",
+    "GTP-U",
+    "IPv4"
+  ],
+  "provides": [
+    "5g-upf",
+    "pfcp-server",
+    "gtp-u-forwarding",
+    "ebpf-packet-forwarding",
+    "n3-interface",
+    "n4-interface",
+    "n6-interface",
+    "prometheus-metrics",
+    "far-processing",
+    "qer-processing",
+    "sdf-filtering",
+    "rest-api"
+  ],
+  "needs": [
+    "linux-kernel-5.15+",
+    "ebpf-support",
+    "privileged-container",
+    "bpf-filesystem",
+    "5g-core-smf",
+    "ran-simulator-or-gnb"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ghcr.io/edgecomllc/eupf:main",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker image at ghcr.io/edgecomllc/eupf:main. Run: sudo docker run -d --rm --privileged -v /sys/fs/bpf:/sys/fs/bpf -p 8080 -p 9090 ghcr.io/edgecomllc/eupf:main"
+  },
+  "github_metrics": {
+    "stars": 164,
+    "last_commit": "2025-01-01",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "eBPF-based UPF with 164 stars. Supports FAR, QER, SDF filters. Compatible with Free5GC, Open5GS, OAI. High-performance PFCP/GTP-U processing ideal for user plane evaluation scenarios.",
+  "related_repos": [
+    "https://github.com/free5gc/free5gc",
+    "https://github.com/open5gs/open5gs"
+  ],
+  "_sources": [
+    "discovery/signaling.json"
+  ],
+  "slug": "eupf"
+}

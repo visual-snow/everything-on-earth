@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mxgmn/wavefunctioncollapse",
+  "name": "mxgmn/WaveFunctionCollapse",
+  "description": "The original Wave Function Collapse algorithm generating bitmap and tilemap output from a single example image, drawing on ideas from quantum mechanics. Widely used in commercial games including Bad North, Caves of Qud, and Townscaper; ported to every major language and engine.",
+  "sub_domain": "procedural-generation",
+  "score": 10,
+  "score_rationale": "The canonical WFC implementation with massive community adoption and ports to C++, Rust, Unity, Godot, and Unreal.",
+  "stars": 23000,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2024-06-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 94.9,
+  "tags": [
+    "wave-function-collapse",
+    "procedural-generation",
+    "tilemap",
+    "algorithm",
+    "game-dev"
+  ],
+  "category": "Procedural Generation Algorithm",
+  "summary": "Canonical WFC algorithm for procedural tile/bitmap generation widely adopted in commercial games.",
+  "slug": "mxgmn-wavefunctioncollapse"
+}

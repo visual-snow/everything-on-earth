@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/lanmaster53/recon-ng",
+  "name": "lanmaster53/recon-ng",
+  "description": "Full-featured web reconnaissance framework written in Python with a modular architecture similar to Metasploit, aimed at reducing time spent harvesting information from open sources.",
+  "sub_domain": "osint-recon",
+  "score": 7,
+  "score_rationale": "5.5k stars and a widely-known modular OSINT framework, though last commit was 2021 indicating reduced active maintenance.",
+  "stars": 5500,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2021-08-25",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 71.9,
+  "tags": [
+    "pe-format",
+    "reconnaissance",
+    "web-security"
+  ],
+  "category": "OSINT Platform",
+  "summary": "Full-featured web reconnaissance framework written in Python with a modular architecture similar ...",
+  "slug": "lanmaster53-recon-ng"
+}

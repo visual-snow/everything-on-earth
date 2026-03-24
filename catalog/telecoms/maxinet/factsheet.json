@@ -1,0 +1,67 @@
+{
+  "slug": "maxinet",
+  "name": "MaxiNet",
+  "what_it_is": "MaxiNet is a distributed SDN network emulator that extends Mininet across multiple physical machines (workers), enabling large-scale network experiments that exceed the capacity of a single host. A FrontendServer orchestrates topology partitioning via METIS and distributes subtopologies to worker nodes connected over GRE or STT tunnels.",
+  "components": [
+    "MaxiNetFrontendServer — central coordinator running the Pyro4 nameserver, MaxiNetManager, and topology partitioner",
+    "MaxiNetWorker — per-machine daemon that runs a Mininet instance for its assigned subtopology",
+    "Partitioner (METIS-backed) — splits a single Mininet topology graph into per-worker subgraphs",
+    "SSH Manager — spawns a per-worker sshd (port 5345 by default) for X11 and file transfer",
+    "CLI — interactive shell for inspecting and controlling a running experiment",
+    "Docker/ContainerNet node wrapper — optional; allows Docker containers as emulated hosts",
+    "libvirt node wrapper — optional; allows libvirt-managed VMs as emulated hosts"
+  ],
+  "protocols": [
+    "Pyro4 RPC — control plane between FrontendServer and WorkerServers (nameserver port 9090)",
+    "GRE tunnels — default inter-worker data-plane tunnels linking switch ports across machines",
+    "STT (Stateless Transport Tunneling) — optional alternative to GRE via OpenVSwitch (useSTT=True)",
+    "OpenFlow — southbound SDN control protocol between OVSSwitch/UserSwitch and an external controller (default port 6633)",
+    "SSH — file transfer and X11 forwarding between frontend and workers (port 5345)"
+  ],
+  "measurement": [
+    "exp.monitor() — starts per-worker CPU, memory, and network-interface utilisation logging to /tmp/maxinet_logs/ on the frontend",
+    "maxinet_plot.py — post-experiment plotting of monitored resource data",
+    "iperf — bandwidth measurement between emulated hosts (used in examples)",
+    "ping / ICMP RTT — reachability and latency checks between emulated hosts"
+  ],
+  "configuration": [
+    "~/.MaxiNet.cfg (INI format) — single file shared across all nodes; sections: [all], [FrontendServer], and one section per worker hostname",
+    "password — HMAC secret shared between frontend and all workers for Pyro4 authentication",
+    "controller — OpenFlow controller endpoint (ip:port)",
+    "port_ns (default 9090) — Pyro4 nameserver port",
+    "port_sshd (default 5345) — per-worker SSH daemon port",
+    "runWith1500MTU — set True when physical network cannot handle MTU > 1500 (GRE overhead)",
+    "useSTT — enable STT tunneling instead of GRE (OVS only; bandwidth limiting does not work with STT)",
+    "deactivateTSO — disable TCP Segmentation Offload on emulated host interfaces",
+    "useMultipleIPs — RSS load-balancing across multiple IP addresses per worker",
+    "share — relative weight for topology partitioning per worker node",
+    "threadpool (FrontendServer, default 256) — Pyro4 thread pool; each worker consumes 2 threads",
+    "sshuser / usesudo — controls whether worker SSH operations run as root or via passwordless sudo"
+  ],
+  "fault_injection": [
+    "exp.configLinkStatus(src, dst, 'down'/'up') — dynamically brings an emulated link up or down at runtime",
+    "addHost/addSwitch/addTunnel at runtime — dynamic topology modification to add nodes and tunnels during an experiment"
+  ],
+  "modes": [
+    "Static mapping — user explicitly assigns nodes to specific workers via static_mapping example pattern",
+    "Automatic METIS partitioning — default mode; FrontendServer partitions topology graph and assigns subgraphs to workers based on their share weight",
+    "Docker-node mode — hosts replaced by Docker containers (requires ContainerNet/containernet fork of Mininet)",
+    "libvirt-node mode — hosts replaced by libvirt-managed VMs"
+  ],
+  "constraints": [
+    "Requires Python 2 (python2) — codebase uses Python 2 syntax throughout; incompatible with Python 3",
+    "Supported OS is Debian 8 or Ubuntu 14.04 — installer and dependencies are tested only on these versions",
+    "STT tunnels do not support bandwidth limiting or other TC-based link parameters",
+    "Physical network MTU must be > 1500 bytes to carry GRE-encapsulated 1500-byte packets; otherwise runWith1500MTU must be set True (reduces effective MTU)",
+    "MaxiNet provides no multi-tenancy isolation — any cluster can interact with any worker; must run on a trusted private network",
+    "Each worker requires 2 threads on the FrontendServer; default threadpool of 256 limits cluster to ~128 workers",
+    "METIS must be installed separately (not a pip dependency); topology partitioning fails without it"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose file — MaxiNet has no containerised deployment; installation is bare-metal only via installer.sh or manual steps",
+    "No built-in traffic generation beyond iperf/ping examples — users must supply their own traffic tools",
+    "No native packet capture or loss/delay statistics API — users must invoke tcpdump or tc directly on emulated hosts",
+    "No REST or gRPC management API — control is exclusively via the Python API or the interactive CLI"
+  ]
+}

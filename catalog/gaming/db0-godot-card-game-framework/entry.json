@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/db0/godot-card-game-framework",
+  "name": "db0/godot-card-game-framework",
+  "description": "A comprehensive Godot framework for building card games with drag-and-drop mechanics, a dictionary-based scripting engine for card abilities, animations, token systems, and deck building.",
+  "sub_domain": "visual-novel-engines",
+  "score": 7,
+  "score_rationale": "1.3k stars, the most complete card game framework for Godot covering rules enforcement, UI, and game mechanics.",
+  "stars": 1300,
+  "language": "GDScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2022-06-05",
+  "found_in_domains": [
+    "visual-novel-engines"
+  ],
+  "quality_score": 66.9,
+  "tags": [
+    "godot",
+    "card-game",
+    "drag-and-drop",
+    "scripting",
+    "deckbuilding"
+  ],
+  "category": "Godot Card Framework",
+  "summary": "Godot card game framework with drag-and-drop mechanics and ability scripting",
+  "slug": "db0-godot-card-game-framework"
+}

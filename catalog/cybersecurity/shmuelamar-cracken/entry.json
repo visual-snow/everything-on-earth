@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/shmuelamar/cracken",
+  "name": "shmuelamar/cracken",
+  "description": "Fast password wordlist generator written in pure safe Rust with Smartlist creation and password hybrid-mask analysis capabilities for advanced password cracking workflows.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 5,
+  "score_rationale": "Niche Rust-based wordlist generator with 369 stars, MIT license, but no releases since November 2021.",
+  "stars": 369,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2021-11-17",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 50.5,
+  "tags": [
+    "password-cracking",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Password Cracker",
+  "summary": "Fast password wordlist generator written in pure safe Rust with Smartlist creation and password h...",
+  "slug": "shmuelamar-cracken"
+}

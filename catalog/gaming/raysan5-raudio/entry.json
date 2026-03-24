@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/raysan5/raudio",
+  "name": "raysan5/raudio",
+  "description": "Simple, easy-to-use audio library built on top of miniaudio, supporting WAV, OGG, MP3, FLAC, MOD, and XM playback \u2014 originally the audio module of raylib.",
+  "sub_domain": "game-audio",
+  "score": 6,
+  "score_rationale": "Clean, minimal audio API with 247 stars from the raylib author, useful as a standalone library or as a reference for embedding miniaudio in a game engine.",
+  "stars": 247,
+  "language": "C",
+  "license": "Zlib",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "game-audio"
+  ],
+  "quality_score": 55.2,
+  "tags": [
+    "audio",
+    "miniaudio",
+    "simple",
+    "raylib"
+  ],
+  "category": "Audio Library",
+  "summary": "Minimal audio wrapper around miniaudio for games",
+  "slug": "raysan5-raudio"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/projectdiscovery/nuclei-templates",
+  "name": "projectdiscovery/nuclei-templates",
+  "description": "Community-curated list of YAML templates for the Nuclei engine covering 1,496+ known exploited vulnerabilities for fast, accurate security scanning.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 9,
+  "score_rationale": "Essential companion to Nuclei with 12.1k stars and updates as recently as March 2026, providing the vulnerability detection logic for the entire Nuclei ecosystem.",
+  "stars": 12100,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "Bug Bounty Tools",
+    "vuln-scanners"
+  ],
+  "quality_score": 86.7,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Community-curated list of YAML templates for the Nuclei engine covering 1,496+ known exploited vulne",
+  "slug": "projectdiscovery-nuclei-templates"
+}

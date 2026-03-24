@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/themaister/granite",
+  "name": "Themaister/Granite",
+  "description": "Personal Vulkan renderer with a sophisticated render graph implementation featuring automatic barrier placement, async compute, shader recompilation, and multi-platform support.",
+  "sub_domain": "graphics-rendering",
+  "score": 7,
+  "score_rationale": "Well-regarded Vulkan renderer with 1.9k stars, influential for its render graph design patterns studied and referenced by graphics engineers.",
+  "stars": 1900,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-03-01",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 68.2,
+  "tags": [
+    "vulkan",
+    "rendering",
+    "render-graph"
+  ],
+  "category": "Vulkan Renderer",
+  "summary": "Vulkan renderer with sophisticated render graph system",
+  "slug": "themaister-granite"
+}

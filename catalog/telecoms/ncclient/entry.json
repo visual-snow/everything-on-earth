@@ -1,0 +1,54 @@
+{
+  "name": "ncclient",
+  "repo_url": "https://github.com/ncclient/ncclient",
+  "description": "Python library for NETCONF clients. Facilitates client-side scripting and application development around the NETCONF protocol (RFC 6241). Supports vendor extensions for Juniper, Cisco, Huawei, Nokia, and others.",
+  "domain": "netconf",
+  "secondary_domains": [],
+  "protocols": [
+    "NETCONF 1.0 (RFC 4741)",
+    "NETCONF 1.1 (RFC 6241)",
+    "SSH"
+  ],
+  "provides": [
+    "netconf-client",
+    "yang-rpc-execution",
+    "vendor-extension-support",
+    "netconf-session-management",
+    "python-netconf-library"
+  ],
+  "needs": [
+    "netconf-server",
+    "ssh-target-device",
+    "network-device-simulator"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Commonly included in network automation Docker images; used as backend in netpalm"
+  },
+  "github_metrics": {
+    "stars": 750,
+    "last_commit": "2025-12",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 4,
+  "eval_notes": "The de-facto standard Python NETCONF client library. Foundation for most Python-based NETCONF testing tools. Not Docker-native itself but trivially containerizable.",
+  "related_repos": [
+    "ciscodevnet/ncc",
+    "ciscodevnet/ncclient",
+    "https://github.com/bspendlove/netconf-tool",
+    "https://github.com/ciscodevnet/ncc",
+    "https://github.com/h4ndzdatm0ld/nornir_netconf",
+    "https://github.com/vkosuri/robotframework-ncclient",
+    "juniper/ncclient"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/netauto-frameworks.json",
+    "discovery/netconf-mgmt/netconf-testing.json"
+  ],
+  "slug": "ncclient"
+}

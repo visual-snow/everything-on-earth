@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wazuh/wazuh",
+  "name": "wazuh/wazuh",
+  "description": "Wazuh is a free and open source unified XDR and SIEM platform for threat prevention, detection, and response across endpoints and cloud workloads. It combines endpoint agents with a centralized management server for security monitoring.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 10,
+  "score_rationale": "Industry-standard open source XDR/SIEM with 15k stars, actively maintained, and deployed worldwide as a core defensive security platform.",
+  "stars": 15000,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 93.4,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Wazuh is a free and open source unified XDR and SIEM platform for threat prevention, detection, and ",
+  "slug": "wazuh-wazuh"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mruby/mruby",
+  "name": "mruby/mruby",
+  "description": "A lightweight, embeddable implementation of the Ruby language designed to be linked into applications, featuring a bytecode compiler, interactive shell, and amalgamation build for easy integration.",
+  "sub_domain": "game-scripting",
+  "score": 7,
+  "score_rationale": "5.5k stars, the canonical embedded Ruby runtime used in game engines and tools requiring Ruby scripting.",
+  "stars": 5500,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-scripting"
+  ],
+  "quality_score": 71.9,
+  "tags": [
+    "ruby",
+    "embeddable",
+    "lightweight",
+    "bytecode",
+    "interpreter"
+  ],
+  "category": "Embedded Ruby Runtime",
+  "summary": "Lightweight embeddable Ruby interpreter for games",
+  "slug": "mruby-mruby"
+}

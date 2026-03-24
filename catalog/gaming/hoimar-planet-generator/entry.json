@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hoimar/planet-generator",
+  "name": "Hoimar/Planet-Generator",
+  "description": "A procedural planet generator Godot addon using layered noise with dynamic terrain LOD and chunk streaming, written in GDScript. Drop-in plugin for Godot 3 projects needing spherical world generation.",
+  "sub_domain": "procedural-generation",
+  "score": 7,
+  "score_rationale": "The primary Godot-native procedural planet plugin with LOD support and clean addon architecture.",
+  "stars": 450,
+  "language": "GDScript",
+  "license": "MIT",
+  "last_activity": "2023-03-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 63.2,
+  "tags": [
+    "planet-generation",
+    "godot",
+    "addon",
+    "chunk-streaming",
+    "lod"
+  ],
+  "category": "Godot Planet Plugin",
+  "summary": "Godot addon for procedural planet generation with LOD and dynamic chunk streaming.",
+  "slug": "hoimar-planet-generator"
+}

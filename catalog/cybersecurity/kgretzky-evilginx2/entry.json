@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/kgretzky/evilginx2",
+  "name": "kgretzky/evilginx2",
+  "description": "Standalone man-in-the-middle attack framework for phishing login credentials along with session cookies, enabling bypass of two-factor authentication. Acts as a reverse proxy between victims and target services to harvest credentials in authorized penetration testing.",
+  "sub_domain": "Phishing & Social Engineering",
+  "score": 9,
+  "score_rationale": "Leading AiTM phishing framework with 14.8k stars; widely referenced in red team operations and security research for MFA bypass simulation.",
+  "stars": 14800,
+  "language": "Go",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-04-02",
+  "found_in_domains": [
+    "Phishing & Social Engineering"
+  ],
+  "quality_score": 87.4,
+  "tags": [
+    "pe-format",
+    "reverse-engineering",
+    "security-tool"
+  ],
+  "category": "Security Tool",
+  "summary": "Standalone man-in-the-middle attack framework for phishing login credentials along with session c...",
+  "slug": "kgretzky-evilginx2"
+}

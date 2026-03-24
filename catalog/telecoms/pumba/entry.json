@@ -1,0 +1,59 @@
+{
+  "name": "Pumba",
+  "repo_url": "https://github.com/alexei-led/pumba",
+  "description": "Chaos testing and network emulation tool for Docker containers. Inject latency, packet loss, corruption, rate limiting. Kill, stop, pause containers.",
+  "domain": "chaos-engineering",
+  "secondary_domains": [
+    "fault-injection",
+    "network-emulation",
+    "resilience-testing"
+  ],
+  "protocols": [
+    "Any (tc/netem based)",
+    "TCP",
+    "TCP/IP",
+    "UDP",
+    "netem"
+  ],
+  "provides": [
+    "chaos-engineering",
+    "network-fault-injection",
+    "latency-injection",
+    "packet-loss-emulation",
+    "packet-corruption-emulation",
+    "bandwidth-rate-limiting",
+    "container-kill",
+    "container-pause",
+    "container-stop",
+    "netem-emulation",
+    "docker-container-management"
+  ],
+  "needs": [
+    "docker-daemon",
+    "linux-kernel-with-netem",
+    "tc-iproute2",
+    "privileged-container-mode",
+    "docker-socket-access"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ghcr.io/alexei-led/pumba:latest",
+    "compose_services_count": 0,
+    "docker_evidence": "Official Docker image: ghcr.io/alexei-led/pumba:latest; deprecated Docker Hub: alexeiled/pumba; multi-platform (amd64, arm64)"
+  },
+  "github_metrics": {
+    "stars": 3000,
+    "last_commit": "2026-03-14",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Netflix Chaos Monkey-inspired container chaos tool. Network emulation via tc/netem allows injecting latency, packet loss, and corruption into Docker container networks. Essential for testing agent resilience in degraded network conditions. Network chaos injection tool. Perfect for fault injection in agentic evaluations - inject latency, packet loss, and container failures to test agent troubleshooting capabilities.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/traffic.json",
+    "discovery/transport.json"
+  ],
+  "slug": "pumba"
+}

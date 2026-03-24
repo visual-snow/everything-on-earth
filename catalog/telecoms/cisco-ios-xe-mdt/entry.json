@@ -1,0 +1,52 @@
+{
+  "name": "Cisco IOS XE MDT",
+  "repo_url": "https://github.com/jeremycohoe/cisco-ios-xe-mdt",
+  "description": "Cisco IOS XE YANG-based Model Driven Telemetry with Docker containers for gRPC Dial-Out and TLS use cases.",
+  "domain": "ios-xe",
+  "secondary_domains": [
+    "model-driven-telemetry",
+    "netconf",
+    "network-observability"
+  ],
+  "protocols": [
+    "gRPC",
+    "YANG",
+    "NETCONF",
+    "MDT"
+  ],
+  "provides": [
+    "grpc-dial-out-receiver",
+    "yang-model-driven-telemetry",
+    "tls-grpc-endpoint",
+    "ios-xe-mdt-lab",
+    "netconf-client",
+    "telemetry-pipeline"
+  ],
+  "needs": [
+    "cisco-ios-xe-device",
+    "grpc-capable-router",
+    "yang-capable-network-node"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Docker container with gRPC configured for Dial-Out + TLS on ports 57500 and 57501."
+  },
+  "github_metrics": {
+    "stars": 100,
+    "last_commit": "2024-01-01",
+    "language": "Python",
+    "license": "unknown"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Complete IOS XE telemetry lab environment. Useful for evaluations involving YANG model-driven telemetry configuration.",
+  "related_repos": [
+    "https://github.com/cisco-ie/pipeline-gnmi"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "cisco-ios-xe-mdt"
+}

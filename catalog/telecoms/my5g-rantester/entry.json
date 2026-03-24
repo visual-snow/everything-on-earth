@@ -1,0 +1,64 @@
+{
+  "name": "my5G-RANTester",
+  "repo_url": "https://github.com/my5g/my5g-rantester",
+  "description": "gNB/UE simulator for studying 3GPP standards and stressing a 5G core. Implements NGAP and NAS protocols from 3GPP Release 15+. Supports large-scale UE emulation.",
+  "domain": "3gpp-compliance",
+  "secondary_domains": [
+    "5g-ran-testing",
+    "core-stress-testing",
+    "ngap",
+    "ue-emulation"
+  ],
+  "protocols": [
+    "GTP-U",
+    "NAS",
+    "NAS-5GS",
+    "NGAP"
+  ],
+  "provides": [
+    "gtp-u-tunneling",
+    "5g-ran-simulation",
+    "3gpp-compliance-testing",
+    "multi-core-compatibility",
+    "nas-5gs-protocol",
+    "ngap-protocol",
+    "traffic-generation",
+    "gnb-emulation",
+    "load-testing",
+    "large-scale-ue-load-testing",
+    "ue-emulation"
+  ],
+  "needs": [
+    "5g-core-network",
+    "sctp-support",
+    "linux-kernel-5.4+",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Three dedicated Docker repos: free5gc-my5G-RANTester-docker, open5gs-my5G-RANTester-docker, oai-my5G-RANTester-docker. Each provides docker-compose for running with a specific 5G core."
+  },
+  "github_metrics": {
+    "stars": 128,
+    "last_commit": "unknown",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Focused on 3GPP standard compliance testing. Good companion to free5GC-based core deployments for agentic testing scenarios. Flexible 5GC stress tester supporting free5GC, Open5GS, and OAI cores. Scalable UE emulation for load testing scenarios. Good for evaluating core network adherence to 3GPP standards.",
+  "related_repos": [
+    "https://github.com/free5gc/free5gc",
+    "https://github.com/my5g/free5gc-my5g-rantester-docker",
+    "https://github.com/my5g/my5g-core",
+    "https://github.com/my5g/oai-my5g-rantester-docker",
+    "https://github.com/my5g/open5gs-my5g-rantester-docker"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/ran-ue.json"
+  ],
+  "slug": "my5g-rantester"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/nvidia/garak",
+  "name": "NVIDIA/garak",
+  "description": "The LLM vulnerability scanner \u2014 a framework for probing large language models for weaknesses including hallucination, data leakage, prompt injection, toxicity, and jailbreaks. Maintained by NVIDIA.",
+  "sub_domain": "ai-security",
+  "score": 9,
+  "score_rationale": "NVIDIA-backed, industry-recognized LLM vulnerability scanner with 7.4k stars covering a comprehensive range of AI security probes.",
+  "stars": 7400,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-12-05",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 85.0,
+  "tags": [
+    "llm-vulnerability",
+    "jailbreak-detection",
+    "prompt-injection",
+    "hallucination"
+  ],
+  "category": "LLM Vulnerability Scanner",
+  "summary": "Framework for probing LLMs for weaknesses including hallucination & prompt injection",
+  "slug": "nvidia-garak"
+}

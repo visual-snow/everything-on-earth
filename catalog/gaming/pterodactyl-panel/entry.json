@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pterodactyl/panel",
+  "name": "pterodactyl/panel",
+  "description": "A free, open-source game server management panel built with PHP, React, and Go that isolates game servers in Docker containers, supporting Minecraft, Rust, Terraria, and many more titles via a community ecosystem.",
+  "sub_domain": "game-server-orchestration",
+  "score": 8,
+  "score_rationale": "The most popular self-hosted game server management panel with 8.7k stars, MIT-licensed, widely used by gaming communities and hosting companies.",
+  "stars": 8700,
+  "language": "PHP",
+  "license": "MIT",
+  "last_activity": "2026-02-14",
+  "found_in_domains": [
+    "game-server-orchestration"
+  ],
+  "quality_score": 79.5,
+  "tags": [
+    "server-management",
+    "docker",
+    "panel",
+    "minecraft",
+    "hosting"
+  ],
+  "category": "Game Server Manager",
+  "summary": "Open-source game server management with Docker",
+  "slug": "pterodactyl-panel"
+}

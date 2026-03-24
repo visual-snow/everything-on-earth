@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/ossf/scorecard",
+  "name": "ossf/scorecard",
+  "description": "OpenSSF Scorecard automatically assesses open source projects against a set of security best practices and generates a risk score. Widely used to evaluate supply chain risk of dependencies.",
+  "sub_domain": "Supply Chain Security",
+  "score": 9,
+  "score_rationale": "OpenSSF flagship project with 10k+ stars; canonical tool for evaluating open source dependency security posture.",
+  "stars": 10600,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 86.2,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "openssf scorecard automatically assesses open source projects against a set of security best practic...",
+  "slug": "ossf-scorecard"
+}

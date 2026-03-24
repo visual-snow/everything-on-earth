@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/audinowho/rogueelements",
+  "name": "audinowho/RogueElements",
+  "description": "A game-agnostic roguelike map generation library using a modular pipeline of GenSteps, supporting room placement, BSP splitting, mazes, corridors, and content population. Designed to be engine-independent and fully customizable.",
+  "sub_domain": "procedural-generation",
+  "score": 8,
+  "score_rationale": "The most complete game-agnostic roguelike map generation library with a composable pipeline architecture.",
+  "stars": 350,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2024-09-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 68.4,
+  "tags": [
+    "roguelike",
+    "dungeon-generation",
+    "map-generation",
+    "pipeline",
+    "engine-agnostic"
+  ],
+  "category": "Roguelike Map Generator",
+  "summary": "Engine-agnostic roguelike map generation library with modular GenStep pipeline architecture.",
+  "slug": "audinowho-rogueelements"
+}

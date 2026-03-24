@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/infosecb/awesome-detection-engineering",
+  "name": "infosecB/awesome-detection-engineering",
+  "description": "Curated list of detection engineering resources covering frameworks, detection rulesets, logging guidance, monitoring tools, and industry best practices for building detective controls.",
+  "sub_domain": "SIEM / SOC / Threat Detection",
+  "score": 6,
+  "score_rationale": "Focused detection engineering reference with 1.2k stars covering the full spectrum of modern detection program resources from MITRE ATT&CK to Sigma and beyond.",
+  "stars": 1200,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 60.6,
+  "tags": [
+    "framework",
+    "pentesting",
+    "modules"
+  ],
+  "category": "Pentesting Framework",
+  "summary": "Comprehensive penetration testing framework",
+  "slug": "infosecb-awesome-detection-engineering"
+}

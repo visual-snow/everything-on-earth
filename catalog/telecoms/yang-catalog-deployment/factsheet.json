@@ -1,0 +1,63 @@
+{
+  "slug": "yang-catalog-deployment",
+  "name": "YANG Catalog (deployment)",
+  "what_it_is": "Docker Compose-based deployment of the YANG Catalog platform, a centralized repository that aggregates YANG configuration models with validation services, module search, and a web UI. Provides both development and production deployment modes including optional Kubernetes and OpenShift targets.",
+  "components": [
+    "backend (API server)",
+    "frontend (Angular web UI + admin UI)",
+    "yangre-gui (YANG regex validation tool)",
+    "yangvalidator (YANG file validation application)",
+    "module-compilation (YANG file analysis scripts)"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS",
+    "NETCONF",
+    "RESTCONF",
+    "YANG"
+  ],
+  "measurement": [
+    "All logs stored in /var/yang/logs (configurable via yangcatalog.conf)",
+    "Admin UI provides log filtering and review",
+    "CRON_MAIL_TO for cron failure email alerts"
+  ],
+  "configuration": [
+    "opensearch-aws (boolean), opensearch-host, opensearch-port",
+    "RABBITMQ_USER, RABBITMQ_PASSWORD",
+    "KEY_FILE, CERT_FILE, CA_CERT_FILE (TLS certificates)",
+    "YANG_ID, YANG_GID, OPENSEARCH_ID, OPENSEARCH_GID (system identities)",
+    "REDIS_VOLUME, OPENSEARCH_DATA, OPENSEARCH_LOG, NGINX_LOG, CONFD_LOG (storage paths)",
+    "GIT_USER_NAME, GIT_USER_EMAIL (git integration)",
+    "CONFD_VERSION, YANGLINT_VERSION, XYM_VERSION (software versions)",
+    "COMPOSE_PROJECT_NAME=yc (Docker Compose project name)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Local development: Docker Compose with containerized OpenSearch",
+    "Production: AWS OpenSearch Service integration",
+    "Kubernetes: alternative deployment via k8s guide",
+    "OpenShift: multi-tenant Kubernetes variant with non-root constraints"
+  ],
+  "constraints": [
+    "ConfD (Tail-F proprietary software) is required but cannot be freely distributed — must be separately acquired",
+    "Development environment requires at least 10 GB RAM and 45 GB module data capacity",
+    "Production environment requires 24 GB RAM and 250 GB data capacity",
+    "IPv4 required for Docker Hub connectivity",
+    "Shared volume at /var/yang required for inter-container data access"
+  ],
+  "docker_services": [
+    "yc-backend",
+    "yc-frontend",
+    "opensearch",
+    "rabbitmq",
+    "redis",
+    "nginx"
+  ],
+  "notable_absences": [
+    "No fault injection or chaos testing mechanisms documented",
+    "No health check endpoint specifications",
+    "No API rate-limiting documentation",
+    "No backup or disaster recovery procedures",
+    "No auto-scaling mechanisms"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ebttech/elo-mmr",
+  "name": "EbTech/Elo-MMR",
+  "description": "A Rust/C++ package implementing multiple rating systems for multiplayer competitions including Elo-MMR, Glicko, TrueSkill, and Codeforces algorithms designed for scalable competitive ranking.",
+  "sub_domain": "game-server-orchestration",
+  "score": 5,
+  "score_rationale": "Solid multi-algorithm rating system implementation for competitive games with 211 stars, relevant but narrowly scoped to skill ranking rather than orchestration.",
+  "stars": 211,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-01-20",
+  "found_in_domains": [
+    "game-server-orchestration"
+  ],
+  "quality_score": 48.6,
+  "tags": [
+    "ranking",
+    "elo",
+    "trueskill",
+    "competitive",
+    "rating"
+  ],
+  "category": "Competitive Ranking System",
+  "summary": "Multi-algorithm ranking system for multiplayer games",
+  "slug": "ebtech-elo-mmr"
+}

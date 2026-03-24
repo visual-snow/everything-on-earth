@@ -1,0 +1,89 @@
+{
+  "slug": "netlab",
+  "name": "netlab",
+  "what_it_is": "netlab is an infrastructure-as-code tool for virtual networking labs that converts high-level YAML topology descriptions into fully configured lab environments. It generates Vagrantfile, containerlab topology files, Ansible inventory, IPv4/IPv6 addressing plans, and deploys device configurations automatically.",
+  "components": [
+    "netlab CLI (up/down/restart/config/collect/connect/exec/capture/tc/report/graph/show/defaults/usage commands)",
+    "Vagrantfile generator (libvirt/KVM backend)",
+    "containerlab topology file generator (Docker backend)",
+    "Ansible inventory and playbook generator",
+    "IPv4/IPv6 address plan generator",
+    "Jinja2 device configuration templates",
+    "topology graph generator (Graphviz and D2 formats)",
+    "routing report generator (BGP, IS-IS, OSPF)",
+    "link impairment manager (netlab tc)",
+    "packet capture interface (netlab capture)"
+  ],
+  "protocols": [
+    "OSPFv2",
+    "OSPFv3",
+    "EIGRP",
+    "IS-IS",
+    "RIPv2",
+    "RIPng",
+    "BGP",
+    "BGP-LU",
+    "L3VPN (VPNv4/VPNv6)",
+    "6PE",
+    "EVPN",
+    "SR-MPLS",
+    "SRv6",
+    "MPLS",
+    "VXLAN",
+    "VLANs",
+    "VRFs",
+    "VRRP",
+    "LLDP",
+    "BFD",
+    "LACP",
+    "LAG",
+    "MLAG",
+    "STP",
+    "DHCP",
+    "DHCPv6",
+    "IPv4",
+    "IPv6",
+    "static routes",
+    "route redistribution"
+  ],
+  "measurement": [
+    "topology graph output (Graphviz/D2 format)",
+    "routing reports (BGP, IS-IS, OSPF adjacencies and prefixes)",
+    "collected device configurations (via netlab collect)",
+    "link impairment parameters (delay, loss, bandwidth via netlab tc)",
+    "packet captures on VM and container interfaces"
+  ],
+  "configuration": [
+    "YAML lab topology file (nodes, links, protocols, addressing)",
+    "system defaults via netlab defaults command",
+    "device-specific Ansible group_vars and host_vars",
+    "custom Jinja2 configuration templates per device type",
+    "per-link impairment settings (netem parameters)",
+    "NETLAB_DEVICES_FRR_CLAB_GROUP__VARS_NETLAB__MGMT__VRF environment variable",
+    "ANSIBLE_CONFIG environment variable",
+    "PIP_OPTIONS build argument for package installation"
+  ],
+  "fault_injection": [
+    "link impairment via netlab tc (delay, packet loss, bandwidth limiting using Linux netem)"
+  ],
+  "modes": [
+    "libvirt/KVM mode (VM-based labs via Vagrant)",
+    "containerlab mode (Docker-based labs)",
+    "devcontainer mode (VS Code development container)"
+  ],
+  "constraints": [
+    "requires external lab runtime: either libvirt/KVM with Vagrant or Docker with containerlab — netlab does not include a built-in hypervisor or container engine",
+    "network device images (VM or container) must be separately obtained and installed; netlab does not provide or bundle device images",
+    "Ansible is required for device configuration deployment; without it, configuration generation is possible but not deployment",
+    "devcontainer Dockerfile is based on Python 3.11 on Debian Bookworm — other base OS combinations are not officially provided",
+    "link impairment (netlab tc) relies on Linux kernel netem, so it is only functional on Linux hosts or Linux-based container environments"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "no built-in GUI or web dashboard — topology visualization is output-only (Graphviz/D2 files)",
+    "no bundled network device images — users must supply vendor OS images separately",
+    "no docker-compose.yml — the project ships only a devcontainer Dockerfile, not a multi-service compose stack",
+    "no real-time telemetry streaming or SNMP collection built in",
+    "no Windows-native support — designed for Linux environments (KVM or Docker on Linux)"
+  ]
+}

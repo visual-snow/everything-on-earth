@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/osv-scanner",
+  "name": "google/osv-scanner",
+  "description": "Vulnerability scanner from Google that queries the OSV database for vulnerabilities in project dependencies. Supports lockfiles from multiple ecosystems and container image scanning.",
+  "sub_domain": "Supply Chain Security",
+  "score": 8,
+  "score_rationale": "Google-backed OSV database scanner with strong ecosystem coverage and active development.",
+  "stars": 315,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "Supply Chain Security",
+    "vuln-scanners"
+  ],
+  "quality_score": 68.0,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "google-osv-scanner"
+}

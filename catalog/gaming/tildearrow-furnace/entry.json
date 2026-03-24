@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tildearrow/furnace",
+  "name": "tildearrow/furnace",
+  "description": "The biggest multi-system chiptune tracker ever made, supporting over 200 sound chips from classic consoles, computers, and arcade hardware. Compatible with DefleMask modules and supports VGM export.",
+  "sub_domain": "chiptune-trackers",
+  "score": 10,
+  "score_rationale": "Industry-leading multi-system chiptune tracker with 3.6k stars, actively maintained, and unmatched in scope of supported hardware.",
+  "stars": 3600,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2025-01-10",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 88.5,
+  "tags": [
+    "chiptune",
+    "tracker",
+    "multi-system",
+    "audio",
+    "music-editor"
+  ],
+  "category": "Music Trackers",
+  "summary": "Industry-leading multi-system chiptune tracker with 200+ chips",
+  "slug": "tildearrow-furnace"
+}

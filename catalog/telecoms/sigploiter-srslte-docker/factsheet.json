@@ -1,0 +1,54 @@
+{
+  "slug": "sigploiter-srslte-docker",
+  "name": "srsLTE Docker (sigploiter)",
+  "what_it_is": "A Docker Compose environment that builds and runs srsRAN (srsLTE) components — srsEPC and srsENB — in separate privileged containers connected via isolated bridge networks. Supports SoapySDR and BladeRF for SDR-based LTE research and testing.",
+  "components": [
+    "srsEPC (Evolved Packet Core)",
+    "srsENB (eNodeB / LTE base station)",
+    "srsUE (referenced in description but not a docker-compose service)",
+    "srsRAN source build (from srsran/srsRAN.git)"
+  ],
+  "protocols": [
+    "GTP-U (UDP 2152) — user-plane tunneling",
+    "S1-MME (UDP 2123) — control-plane signaling between eNB and EPC",
+    "LTE air interface (via srsENB)"
+  ],
+  "measurement": [
+    "No built-in metrics or logging pipeline defined in docker-compose",
+    "Manual inspection via container attach (docker container attach)"
+  ],
+  "configuration": [
+    "srsEPC config: /etc/srslte/epc.conf (copied by srslte_install_configs.sh service)",
+    "srsENB config: /etc/srslte/enb.conf (copied by srslte_install_configs.sh service)",
+    "Host /etc, /usr, /lib, /bin, /sbin, /var, /lib64, /sys bind-mounted into both containers",
+    "srsenb additionally bind-mounts /dev for SDR device access",
+    "Static IPs: srsepc at 10.2.1.2/24 (core01 network), srsenb at 10.1.1.2/24 (ran01 network)"
+  ],
+  "fault_injection": [
+    "No explicit fault injection mechanisms provided"
+  ],
+  "modes": [
+    "Containerized EPC + eNB on same host (default docker-compose topology)",
+    "Standalone EPC mode: ports 2152/udp and 2123/udp exposed to host for isolated core testing"
+  ],
+  "constraints": [
+    "Both containers run in privileged mode — full host kernel access required",
+    "Host filesystem bind-mounted wholesale (/bin, /etc, /lib, /usr, etc.) — not portable across divergent host OS versions",
+    "srsRAN source must be cloned and placed at ./srsRAN before building (not fetched in Dockerfile)",
+    "Built from ubuntu:latest — no pinned base image, reproducibility may degrade over time",
+    "No srsUE service defined in docker-compose despite being listed in repo description",
+    "No inter-container network between core01 and ran01 — EPC and eNB cannot communicate via Docker networking as configured"
+  ],
+  "docker_services": [
+    "srsepc (container: srsepc01) — srsEPC core, network core01 10.2.1.2, ports 2152/udp + 2123/udp exposed",
+    "srsenb (container: srsenb01) — srsENB base station, network ran01 10.1.1.2, /dev bind-mounted for SDR"
+  ],
+  "notable_absences": [
+    "srsUE container not defined in docker-compose",
+    "No shared network between srsepc and srsenb containers (S1 interface not routable between them by default)",
+    "No ZeroMQ (ZMQ) virtual RF mode configured despite libzmq being installed",
+    "No health checks or restart policies",
+    "No volume for persistent config or logs",
+    "No example epc.conf or enb.conf provided in the repo"
+  ]
+}

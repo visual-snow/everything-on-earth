@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/morrownr/usb-wifi",
+  "name": "morrownr/usb-wifi",
+  "description": "Comprehensive reference guide for USB WiFi adapter support on Linux, documenting chipsets with monitor mode and packet injection capabilities essential for wireless security testing.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 6,
+  "score_rationale": "Highly practical hardware compatibility guide with 4.1k stars and updated through 2026; critical for anyone setting up wireless security testing rigs.",
+  "stars": 4151,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-02-22",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 64.9,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "morrownr-usb-wifi"
+}

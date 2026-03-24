@@ -1,0 +1,52 @@
+{
+  "name": "yanger",
+  "repo_url": "https://github.com/mbj4668/yanger",
+  "description": "Extensible YANG validator written in Erlang by the creator of pyang. Faster than pyang for large module sets. Supports plugins for Swagger/OpenAPI generation.",
+  "domain": "model-validation",
+  "secondary_domains": [
+    "netconf",
+    "network-modeling"
+  ],
+  "protocols": [
+    "DSDL",
+    "Swagger",
+    "YANG",
+    "YIN"
+  ],
+  "provides": [
+    "yang-validation",
+    "yang-to-yin-conversion",
+    "openapi-generation",
+    "swagger-plugin",
+    "dsdl-schema-generation",
+    "yang-linting"
+  ],
+  "needs": [
+    "erlang-runtime",
+    "yang-modules"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "broadbandforum/yangtools",
+    "compose_services_count": 0,
+    "docker_evidence": "Bundled in broadbandforum/yangtools Docker image alongside pyang and yanglint"
+  },
+  "github_metrics": {
+    "stars": 100,
+    "last_commit": "2025-06",
+    "language": "Erlang",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 4,
+  "eval_notes": "Erlang-based YANG validator. Complementary to pyang for cross-validation of YANG models. Less commonly used but provides independent validation perspective. Same author as pyang but implemented in Erlang for better performance. Includes swagger plugin for OpenAPI generation from YANG. Less widely adopted than pyang but faster for CI validation pipelines.",
+  "related_repos": [
+    "https://github.com/mbj4668/pyang",
+    "https://hub.docker.com/r/broadbandforum/yangtools"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/netconf-testing.json",
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "yanger"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "ntopng",
+  "repo_url": "https://github.com/ntop/ntopng",
+  "description": "Web-based traffic and security network traffic monitoring with deep packet inspection (nDPI), flow analysis, and real-time alerting.",
+  "domain": "deep-packet-inspection",
+  "secondary_domains": [
+    "netconf",
+    "network-security",
+    "network-traffic-monitoring",
+    "traffic-analytics"
+  ],
+  "protocols": [
+    "NetFlow v5/v9",
+    "IPFIX",
+    "sFlow",
+    "SNMP",
+    "nDPI/DPI"
+  ],
+  "provides": [
+    "traffic-visualization",
+    "flow-analysis",
+    "snmp-monitoring",
+    "ipfix-collection",
+    "web-dashboard",
+    "security-monitoring",
+    "real-time-alerting",
+    "ndpi-classification",
+    "packet-capture",
+    "netflow-collection",
+    "deep-packet-inspection",
+    "sflow-collection",
+    "protocol-analysis"
+  ],
+  "needs": [
+    "redis",
+    "clickhouse",
+    "nprobe",
+    "linux-host",
+    "network-interface-access"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "ntop/ntopng",
+    "compose_services_count": 3,
+    "docker_evidence": "Official ntop/docker-ntop repository provides Docker Compose for running ntopng with nprobe and ClickHouse."
+  },
+  "github_metrics": {
+    "stars": 6500,
+    "last_commit": "2026-02-01",
+    "language": "C++",
+    "license": "GPL-3.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Rich web UI for network traffic analysis. Agents could troubleshoot network issues using DPI data, flow analysis, and security alerts in an interactive environment.",
+  "related_repos": [
+    "https://github.com/ntop/docker-ntop",
+    "https://github.com/ntop/ndpi",
+    "https://github.com/theplexus/ntopng-docker",
+    "https://github.com/sphamid/ntopng-network-monitoring-stack"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "ntopng"
+}

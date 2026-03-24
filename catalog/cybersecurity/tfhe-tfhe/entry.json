@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tfhe/tfhe",
+  "name": "tfhe/tfhe",
+  "description": "The original Fast Fully Homomorphic Encryption library over the torus, enabling evaluation of any binary gate on encrypted data in approximately 13 milliseconds per gate on a single core.",
+  "sub_domain": "cryptography",
+  "score": 6,
+  "score_rationale": "Foundational FHE library with 1.3k stars that introduced the TFHE scheme, though largely superseded by newer implementations like TFHE-rs and OpenFHE.",
+  "stars": 1300,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 60.9,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "tfhe-tfhe"
+}

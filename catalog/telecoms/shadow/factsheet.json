@@ -1,0 +1,50 @@
+{
+  "slug": "shadow",
+  "name": "Shadow",
+  "what_it_is": "Shadow is a discrete-event network simulator that executes real, unmodified application code as native Linux processes by intercepting system calls and integrating them into a virtual simulated network. It is designed to scale to thousands (up to hundreds of thousands) of network-connected processes while maintaining deterministic, reproducible simulation runs.",
+  "components": [
+    "discrete-event simulation core",
+    "system call interposition layer (over 150 syscalls implemented)",
+    "virtual network stack (private simulated network per run)",
+    "process execution engine (runs unmodified Linux binaries)",
+    "YAML-based configuration loader (shadow.yaml)",
+    "network graph specification engine",
+    "output manager (shadow.data/ directory hierarchy)"
+  ],
+  "protocols": [
+    "TCP",
+    "UDP",
+    "TLS (used by applications via intercepted syscalls)",
+    "HTTP (demonstrated in examples via real curl/python processes)"
+  ],
+  "measurement": [
+    "Per-host output directories under shadow.data/hosts/[hostname]/",
+    "Per-process stdout/stderr captured in host subdirectories",
+    "Simulation-wide log output to shadow.data/"
+  ],
+  "configuration": [
+    "YAML format (shadow.yaml)",
+    "Network graph specification (built-in or custom graph)",
+    "Host/process definitions (hostname, executable, arguments)",
+    "Multiple virtual hosts supported in a single config"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Discrete-event simulation with virtual (simulated) time",
+    "Deterministic replay — same config produces identical runs"
+  ],
+  "constraints": [
+    "Only runs on Linux (uses Linux syscall interposition)",
+    "Does not yet fully support all Linux syscall API features — applications relying on unsupported or complex syscall behavior may fail",
+    "Fault injection capabilities (packet loss, latency, jitter, bandwidth limits) not confirmed in fetched documentation",
+    "Docker-compose configuration not found in fetched documentation"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No confirmed docker-compose.yml or containerized deployment found in fetched docs",
+    "Fault injection fields (packet loss %, latency ms, jitter, bandwidth cap) not confirmed — shadow_config_spec.md referenced but not fetched",
+    "No Windows or macOS support (Linux-only)",
+    "QUIC and other modern transport protocols not explicitly confirmed as natively simulated",
+    "No built-in GUI or web dashboard mentioned"
+  ]
+}

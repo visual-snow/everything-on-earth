@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/lukasbanana/llgl",
+  "name": "LukasBanana/LLGL",
+  "description": "Low Level Graphics Library \u2014 thin abstraction layer for modern graphics APIs including OpenGL, Direct3D, Vulkan, and Metal across desktop and mobile platforms.",
+  "sub_domain": "graphics-rendering",
+  "score": 7,
+  "score_rationale": "Clean, thin multi-API abstraction with 2.6k stars and active development, useful for developers needing portable low-level GPU access.",
+  "stars": 2600,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-03-01",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 69.3,
+  "tags": [
+    "graphics",
+    "low-level",
+    "abstraction"
+  ],
+  "category": "Graphics Library",
+  "summary": "Thin multi-API graphics abstraction layer",
+  "slug": "lukasbanana-llgl"
+}

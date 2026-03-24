@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/derv82/wifite2",
+  "name": "derv82/wifite2",
+  "description": "A rewrite of the popular automated wireless network auditor Wifite, supporting WEP/WPA/WPA2/WPS attacks with automated handshake capture and cracking workflows.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 8,
+  "score_rationale": "Strong community adoption with 7.7k stars; best-in-class automated WiFi auditing tool for Linux.",
+  "stars": 7704,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2024-08-20",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 79.1,
+  "tags": [
+    "password",
+    "cracking",
+    "hashing"
+  ],
+  "category": "Credential Testing",
+  "summary": "Password cracking and hash analysis",
+  "slug": "derv82-wifite2"
+}

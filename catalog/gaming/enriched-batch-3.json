@@ -1,0 +1,575 @@
+[
+  {
+    "repo_url": "https://github.com/yarnspinnertool/yarnspinner",
+    "name": "YarnSpinnerTool/YarnSpinner",
+    "description": "Yarn Spinner is a friendly, screenplay-like tool for writing branching dialogue in games, used in Night in the Woods, A Short Hike, and Dredge. Supports Unity, Godot, and Rust integrations.",
+    "sub_domain": "dialogue-narrative",
+    "score": 9,
+    "score_rationale": "Industry-recognized dialogue framework used in many successful indie games, actively maintained with 2.7k stars and a growing cross-engine ecosystem.",
+    "stars": 2700,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2025-12-02",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 81.5,
+    "tags": ["dialogue", "narrative", "branching-dialogue", "game-scripting"],
+    "category": "Dialogue & Narrative",
+    "summary": "Multi-engine branching dialogue framework used in Night in the Woods, A Short Hike"
+  },
+  {
+    "repo_url": "https://github.com/klembot/twinejs",
+    "name": "klembot/twinejs",
+    "description": "Twine is an open-source tool for creating interactive, nonlinear stories without coding, publishing directly to HTML. The most widely used interactive fiction authoring platform with multiple story formats.",
+    "sub_domain": "dialogue-narrative",
+    "score": 9,
+    "score_rationale": "Dominant interactive fiction authoring tool with 2.7k stars, widely used in education and indie game development, actively maintained through late 2025.",
+    "stars": 2700,
+    "language": "TypeScript",
+    "license": "GPL-3.0",
+    "last_activity": "2025-11-08",
+    "found_in_domains": [
+      "dialogue-narrative",
+      "visual-novel-engines"
+    ],
+    "quality_score": 81.5,
+    "tags": ["interactive-fiction", "story-authoring", "visual-novel", "narrative"],
+    "category": "Story & Fiction Authoring",
+    "summary": "Industry-leading interactive fiction authoring platform for nonlinear stories"
+  },
+  {
+    "repo_url": "https://github.com/inkle/inky",
+    "name": "inkle/inky",
+    "description": "The official IDE for the ink narrative scripting language, featuring a live play-through editor, syntax highlighting, real-time error detection, and JSON export. Essential companion to the ink runtime.",
+    "sub_domain": "dialogue-narrative",
+    "score": 8,
+    "score_rationale": "The primary authoring tool for ink with 2.6k stars, tightly integrated with the ink ecosystem and used in professional game development workflows.",
+    "stars": 2600,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2024-06-17",
+    "found_in_domains": [
+      "dialogue-narrative",
+      "visual-novel-engines"
+    ],
+    "quality_score": 75.3,
+    "tags": ["dialogue", "narrative-editor", "ink-language", "game-development"],
+    "category": "Narrative Editor",
+    "summary": "Professional IDE for ink narrative scripting language with real-time preview"
+  },
+  {
+    "repo_url": "https://github.com/ganelson/inform",
+    "name": "ganelson/inform",
+    "description": "Inform 7 is a programming language for creating interactive fiction using natural language syntax, one of the most influential IF authoring systems. Open-sourced in 2022 after decades of commercial use.",
+    "sub_domain": "dialogue-narrative",
+    "score": 8,
+    "score_rationale": "One of the most historically significant interactive fiction languages with 1.6k stars, used in academia and by serious IF authors, open-sourced and actively maintained.",
+    "stars": 1600,
+    "language": "C",
+    "license": "Artistic-2.0",
+    "last_activity": null,
+    "found_in_domains": [
+      "dialogue-narrative",
+      "visual-novel-engines"
+    ],
+    "quality_score": 73.6,
+    "tags": ["interactive-fiction", "natural-language", "text-adventure", "narrative"],
+    "category": "Interactive Fiction",
+    "summary": "Historically significant IF language with natural language syntax"
+  },
+  {
+    "repo_url": "https://github.com/mhgolkar/arrow",
+    "name": "mhgolkar/Arrow",
+    "description": "Arrow is a free open-source game narrative design tool built on Godot for creating text adventures, interactive stories, and visual novels. Features a visual node editor and HTML export.",
+    "sub_domain": "dialogue-narrative",
+    "score": 8,
+    "score_rationale": "Strong 1.3k star narrative design tool with active maintenance through 2025, offering an accessible visual approach to game storytelling.",
+    "stars": 1300,
+    "language": "GDScript",
+    "license": "MIT",
+    "last_activity": "2025-07-30",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 72.9,
+    "tags": ["narrative-design", "godot", "visual-editor", "dialogue"],
+    "category": "Narrative Design Tool",
+    "summary": "Godot-based visual narrative design for games and interactive stories"
+  },
+  {
+    "repo_url": "https://github.com/yarnspinnertool/yarnspinner-unity",
+    "name": "YarnSpinnerTool/YarnSpinner-Unity",
+    "description": "The official Unity integration for Yarn Spinner, providing components, editors, and runtime support for branching dialogue in Unity games. Used in Night in the Woods and A Short Hike.",
+    "sub_domain": "dialogue-narrative",
+    "score": 7,
+    "score_rationale": "Official Unity integration for the popular Yarn Spinner framework with 749 stars, actively maintained into late 2025.",
+    "stars": 749,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2025-12-04",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 65.0,
+    "tags": ["yarn-spinner", "unity", "dialogue", "dialogue-system"],
+    "category": "Unity Dialogue",
+    "summary": "Official Unity integration for Yarn Spinner branching dialogue system"
+  },
+  {
+    "repo_url": "https://github.com/inkle/ink-unity-integration",
+    "name": "inkle/ink-unity-integration",
+    "description": "Official Unity package for integrating the ink narrative scripting language, supporting automatic compilation, a story player window, and full C# API access for controlling narratives in Unity games.",
+    "sub_domain": "dialogue-narrative",
+    "score": 7,
+    "score_rationale": "Official ink-Unity bridge with 682 stars and strong adoption among Unity developers building narrative games.",
+    "stars": 682,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2024-07-31",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 64.7,
+    "tags": ["ink", "unity", "narrative", "dialogue-system"],
+    "category": "Unity Integration",
+    "summary": "Official ink language integration for Unity with full C# API access"
+  },
+  {
+    "repo_url": "https://github.com/devdogio/quest-system-pro",
+    "name": "devdogio/Quest-System-Pro",
+    "description": "A previously commercial Unity quest and conversation tree system, now open-sourced, featuring built-in quest types (gather, kill, talk), conversation trees, achievements, and NPC waypoint behavior.",
+    "sub_domain": "dialogue-narrative",
+    "score": 7,
+    "score_rationale": "Mature, feature-rich Unity quest and dialogue system with 642 stars, formerly on the Asset Store and now freely open-sourced.",
+    "stars": 642,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": null,
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 64.5,
+    "tags": ["unity", "quest-system", "dialogue", "npc-behavior"],
+    "category": "Quest & Dialogue",
+    "summary": "Full-featured quest and dialogue system formerly on Unity Asset Store"
+  },
+  {
+    "repo_url": "https://github.com/kirilllive/tuesday-js",
+    "name": "Kirilllive/tuesday-js",
+    "description": "Tuesday JS is a free, browser-based visual novel editor using standard HTML5 elements with no dependencies. Supports SVG, GIF animations, CSS styling and exports to desktop and Android.",
+    "sub_domain": "dialogue-narrative",
+    "score": 7,
+    "score_rationale": "Accessible no-dependency visual novel tool with 636 stars, actively maintained through 2026 and suitable for web-first interactive fiction projects.",
+    "stars": 636,
+    "language": "HTML",
+    "license": "Apache-2.0",
+    "last_activity": "2026-02-01",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 64.4,
+    "tags": ["visual-novel", "web-based", "html5", "interactive-fiction"],
+    "category": "Web Visual Novel",
+    "summary": "No-dependency HTML5 visual novel editor with desktop and Android export"
+  },
+  {
+    "repo_url": "https://github.com/notyetgames/dlgsystem",
+    "name": "NotYetGames/DlgSystem",
+    "description": "A free, source-available dialogue plugin for Unreal Engine 5 with graph-based editing, Blueprint and C++ support, event/condition systems, and plain-text import/export. Used in commercial titles like The Ascent.",
+    "sub_domain": "dialogue-narrative",
+    "score": 7,
+    "score_rationale": "Well-established Unreal Engine dialogue plugin with 597 stars, actively maintained for UE 5.x, proven in commercial game development.",
+    "stars": 597,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": null,
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 64.2,
+    "tags": ["unreal-engine", "dialogue", "graph-editor", "dialogue-system"],
+    "category": "Unreal Dialogue",
+    "summary": "Production-proven dialogue plugin for Unreal Engine with graph editing"
+  },
+  {
+    "repo_url": "https://github.com/liana-p/narrat-engine",
+    "name": "liana-p/narrat-engine",
+    "description": "Narrat is a TypeScript/Vue game engine for building interactive narrative RPGs with skill checks, inventory, quests, and a scripting syntax for branching dialogue and story flow.",
+    "sub_domain": "dialogue-narrative",
+    "score": 6,
+    "score_rationale": "A dedicated narrative RPG engine with a complete feature set, though modest community size at 177 stars; a solid niche tool for browser-based narrative games.",
+    "stars": 177,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": null,
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 54.0,
+    "tags": ["narrative-engine", "rpg", "web-based", "branching-dialogue"],
+    "category": "Narrative RPG Engine",
+    "summary": "TypeScript/Vue narrative RPG engine with inventory and dialogue systems"
+  },
+  {
+    "repo_url": "https://github.com/mountea-framework/mounteadialoguesystem",
+    "name": "Mountea-Framework/MounteaDialogueSystem",
+    "description": "An open-source Unreal Engine plugin for building complex dialogue trees with a visual graph editor, validation, real-time preview, and decorator-based event triggers for cutscenes.",
+    "sub_domain": "dialogue-narrative",
+    "score": 6,
+    "score_rationale": "Actively maintained Unreal dialogue plugin through 2026 with 360 stars, offering strong editor tooling for complex narrative scenarios.",
+    "stars": 360,
+    "language": "C++",
+    "license": "MPL-2.0",
+    "last_activity": "2026-01-17",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 56.5,
+    "tags": ["unreal-engine", "dialogue-tree", "graph-editor", "dialogue"],
+    "category": "Unreal Dialogue Trees",
+    "summary": "Feature-rich Unreal Engine dialogue tree plugin with visual editor"
+  },
+  {
+    "repo_url": "https://github.com/inkle/ink-library",
+    "name": "inkle/ink-library",
+    "description": "A curated collection of ink code samples, tools, engine ports (Unity, JS, Godot, Rust), editor extensions, and a list of games built with ink. The central resource hub for the ink ecosystem.",
+    "sub_domain": "dialogue-narrative",
+    "score": 6,
+    "score_rationale": "Essential reference repository for the ink narrative ecosystem with 319 stars, cataloging ports, tools, and real-world usage examples.",
+    "stars": 319,
+    "language": "Ink",
+    "license": "MIT",
+    "last_activity": "2022-02-26",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 56.0,
+    "tags": ["ink", "narrative", "resource-collection", "documentation"],
+    "category": "Narrative Resource Hub",
+    "summary": "Central collection of ink samples, ports, and ecosystem tools"
+  },
+  {
+    "repo_url": "https://github.com/microsoft/jericho",
+    "name": "microsoft/jericho",
+    "description": "A lightweight Python interface connecting reinforcement learning agents with interactive fiction games, enabling AI research on text-based adventure game environments.",
+    "sub_domain": "dialogue-narrative",
+    "score": 6,
+    "score_rationale": "Valuable research platform for AI and interactive fiction with 322 stars, actively maintained through 2025 by Microsoft Research.",
+    "stars": 322,
+    "language": "C",
+    "license": "GPL-2.0",
+    "last_activity": "2025-11-11",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 56.1,
+    "tags": ["interactive-fiction", "ai-research", "reinforcement-learning", "text-adventure"],
+    "category": "AI Research Platform",
+    "summary": "Python interface for AI/RL research on interactive fiction games"
+  },
+  {
+    "repo_url": "https://github.com/yarnspinnertool/yarnspinner-rust",
+    "name": "YarnSpinnerTool/YarnSpinner-Rust",
+    "description": "A Rust implementation of Yarn Spinner with first-class Bevy game engine support, enabling dialogue systems in Rust-based games with full Yarn Spinner script compatibility.",
+    "sub_domain": "dialogue-narrative",
+    "score": 6,
+    "score_rationale": "Official Rust/Bevy port of the popular Yarn Spinner dialogue system with 273 stars, actively maintained through 2026 as Rust game dev grows.",
+    "stars": 273,
+    "language": "Rust",
+    "license": "MIT",
+    "last_activity": "2026-03-02",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 55.5,
+    "tags": ["yarn-spinner", "rust", "bevy", "dialogue"],
+    "category": "Rust Game Dialogue",
+    "summary": "Official Yarn Spinner port for Rust and Bevy game engine"
+  },
+  {
+    "repo_url": "https://github.com/tajmone/awesome-interactive-fiction",
+    "name": "tajmone/awesome-interactive-fiction",
+    "description": "A comprehensive curated list of interactive fiction frameworks, tools, interpreters, authoring systems, and community resources covering all major IF platforms and languages.",
+    "sub_domain": "dialogue-narrative",
+    "score": 5,
+    "score_rationale": "Valuable discovery resource for the IF ecosystem with 206 stars, useful as a meta-catalog but not a tool or engine itself.",
+    "stars": 206,
+    "language": null,
+    "license": "CC0-1.0",
+    "last_activity": null,
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 48.5,
+    "tags": ["interactive-fiction", "curated-list", "resource-collection", "framework-guide"],
+    "category": "Fiction Framework Guide",
+    "summary": "Comprehensive curated guide to interactive fiction tools and platforms"
+  },
+  {
+    "repo_url": "https://github.com/textadventures/quest",
+    "name": "textadventures/quest",
+    "description": "Quest Viva is an open-source platform for creating and playing text adventure games without programming experience, supporting multimedia and cross-platform play via web and desktop.",
+    "sub_domain": "dialogue-narrative",
+    "score": 5,
+    "score_rationale": "Actively maintained accessible text adventure engine with 333 stars, targeting non-programmers and maintaining regular releases into 2026.",
+    "stars": 333,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2026-03-17",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 50.2,
+    "tags": ["text-adventure", "interactive-fiction", "no-code", "game-engine"],
+    "category": "Text Adventure Engine",
+    "summary": "No-code platform for creating text adventure and interactive fiction"
+  },
+  {
+    "repo_url": "https://github.com/skyaphid/cleardialogue",
+    "name": "SkyAphid/ClearDialogue",
+    "description": "A free open-source engine-agnostic branching dialogue editor for video games, built with Java, featuring node-based editing and JSON export for any game engine integration.",
+    "sub_domain": "dialogue-narrative",
+    "score": 3,
+    "score_rationale": "Engine-agnostic branching dialogue editor with only 34 stars, last updated in 2019 — effectively abandoned and superseded by more active tools.",
+    "stars": 34,
+    "language": "Java",
+    "license": null,
+    "last_activity": "2019-05-07",
+    "found_in_domains": [
+      "dialogue-narrative"
+    ],
+    "quality_score": 30.4,
+    "tags": ["dialogue-editor", "branching-dialogue", "node-based", "json-export"],
+    "category": "Dialogue Editor",
+    "summary": "Legacy engine-agnostic branching dialogue editor abandoned in 2019"
+  },
+  {
+    "repo_url": "https://github.com/skypjack/entt",
+    "name": "skypjack/entt",
+    "description": "Header-only C++20 ECS library providing a fast sparse-set based entity component system, RTTI, reflection, resource management, event handling, and scheduling. Used in Minecraft (Mojang) and ArcGIS Runtime SDKs.",
+    "sub_domain": "ecs-frameworks",
+    "score": 10,
+    "score_rationale": "Industry-leading C++ ECS with 12.4k stars, MIT licensed, actively maintained through December 2024, and production-proven by Minecraft's Bedrock Edition — the benchmark for C++ ECS performance.",
+    "stars": 12400,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2024-12-20",
+    "found_in_domains": [
+      "ecs-frameworks"
+    ],
+    "quality_score": 92.7,
+    "tags": ["ecs", "entity-component-system", "c++", "game-architecture"],
+    "category": "Entity Component System",
+    "summary": "Industry-standard C++ ECS library used in Minecraft and major engines"
+  },
+  {
+    "repo_url": "https://github.com/sandermertens/flecs",
+    "name": "SanderMertens/flecs",
+    "description": "Fast entity component system for C and C++ supporting millions of entities with archetype-based storage, hierarchies, prefabs, queries, and a pipeline system. Includes a built-in REST API and explorer UI.",
+    "sub_domain": "ecs-frameworks",
+    "score": 9,
+    "score_rationale": "One of the most featured and actively maintained ECS frameworks with 8.1k stars, MIT licensed, updated through March 2026, and uniquely offering built-in tooling like an ECS explorer.",
+    "stars": 8100,
+    "language": "C",
+    "license": "MIT",
+    "last_activity": "2026-03-15",
+    "found_in_domains": [
+      "ecs-frameworks"
+    ],
+    "quality_score": 85.3,
+    "tags": ["ecs", "entity-component-system", "c", "game-architecture"],
+    "category": "Entity Component System",
+    "summary": "Feature-rich C/C++ ECS with built-in explorer UI and REST API"
+  },
+  {
+    "repo_url": "https://github.com/sschmid/entitas",
+    "name": "sschmid/Entitas",
+    "description": "Super fast ECS framework for C# and Unity with code generation that produces type-safe, boilerplate-free component and system classes. The most widely used ECS framework in the Unity ecosystem.",
+    "sub_domain": "ecs-frameworks",
+    "score": 8,
+    "score_rationale": "The dominant Unity ECS framework with 7.6k stars and MIT license, though active development slowed after 2023 as Unity's DOTS gained traction — still widely used in existing projects.",
+    "stars": 7600,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2023-06-20",
+    "found_in_domains": [
+      "ecs-frameworks"
+    ],
+    "quality_score": 79.0,
+    "tags": ["ecs", "unity", "entity-component-system", "code-generation"],
+    "category": "Unity Architecture",
+    "summary": "Dominant Unity ECS framework with code generation and type safety"
+  },
+  {
+    "repo_url": "https://github.com/genaray/arch",
+    "name": "genaray/Arch",
+    "description": "High-performance C# archetype and chunks ECS framework with optional multithreading, supporting .NET Standard 2.1, .NET 6/8, Unity, and Godot. Focuses on cache efficiency and minimal allocations.",
+    "sub_domain": "ecs-frameworks",
+    "score": 7,
+    "score_rationale": "Best-in-class C# archetype ECS with 1.6k stars, Apache-2.0 licensed, actively maintained through May 2025, and growing adoption in Unity and Godot projects as a modern Entitas alternative.",
+    "stars": 1600,
+    "language": "C#",
+    "license": "Apache-2.0",
+    "last_activity": "2025-05-27",
+    "found_in_domains": [
+      "ecs-frameworks"
+    ],
+    "quality_score": 67.6,
+    "tags": ["ecs", "entity-component-system", "c#", "performance"],
+    "category": "Archetype ECS",
+    "summary": "High-performance C# ECS with multithreading and cache optimization"
+  },
+  {
+    "repo_url": "https://github.com/sebas77/svelto.ecs",
+    "name": "sebas77/Svelto.ECS",
+    "description": "Real ECS framework for C# using static archetypes and explicit group-based entity management for encapsulated, cache-friendly data-oriented design. Compatible with Unity, Godot, and .NET Standard 2.0+.",
+    "sub_domain": "ecs-frameworks",
+    "score": 7,
+    "score_rationale": "Solid C# ECS with 1.4k stars promoting strict data-oriented discipline, used in production games, and offering unique design patterns for maintainable ECS code.",
+    "stars": 1400,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2024-06-01",
+    "found_in_domains": [
+      "ecs-frameworks"
+    ],
+    "quality_score": 67.2,
+    "tags": ["ecs", "entity-component-system", "data-oriented", "c#"],
+    "category": "Data-Oriented ECS",
+    "summary": "Data-oriented C# ECS emphasizing cache efficiency and explicit management"
+  },
+  {
+    "repo_url": "https://github.com/scellecs/morpeh",
+    "name": "scellecs/morpeh",
+    "description": "ECS framework for Unity and .NET with a simple, struct-based API requiring no code generation and minimal setup. Offers cache-friendly storage and straightforward system/filter architecture.",
+    "sub_domain": "ecs-frameworks",
+    "score": 6,
+    "score_rationale": "Clean, no-codegen Unity ECS with 641 stars, MIT licensed, maintained through January 2025, appealing to developers who find Entitas boilerplate excessive.",
+    "stars": 641,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2025-01-07",
+    "found_in_domains": [
+      "ecs-frameworks"
+    ],
+    "quality_score": 58.5,
+    "tags": ["ecs", "unity", "entity-component-system", "minimal-boilerplate"],
+    "category": "Simple Unity ECS",
+    "summary": "Lightweight Unity ECS with no code generation and minimal boilerplate"
+  },
+  {
+    "repo_url": "https://github.com/ecsyjs/ecsy",
+    "name": "ecsyjs/ecsy",
+    "description": "Experimental Entity Component System framework for JavaScript/TypeScript designed to be lightweight, easy to use, and engine-agnostic for web-based game development.",
+    "sub_domain": "ecs-frameworks",
+    "score": 5,
+    "score_rationale": "Pioneer JavaScript ECS library with 1.2k stars and MIT license, but archived in April 2025 after the ecosystem moved toward more performant alternatives like bitECS.",
+    "stars": 1200,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2025-04-13",
+    "found_in_domains": [
+      "ecs-frameworks"
+    ],
+    "quality_score": 54.6,
+    "tags": ["ecs", "javascript", "entity-component-system", "web-game"],
+    "category": "Web Game ECS",
+    "summary": "Pioneering JavaScript ECS framework archived in 2025 after ecosystem shift"
+  },
+  {
+    "repo_url": "https://github.com/fritzy/ape-ecs",
+    "name": "fritzy/ape-ecs",
+    "description": "Performant Entity-Component-System library for JavaScript with advanced entity queries, persistent indexes, component references, and 100% test coverage for game and simulation development.",
+    "sub_domain": "ecs-frameworks",
+    "score": 4,
+    "score_rationale": "Well-designed JavaScript ECS with 311 stars and MIT license but abandoned since November 2020, superseded by more active projects.",
+    "stars": 311,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2020-11-30",
+    "found_in_domains": [
+      "ecs-frameworks"
+    ],
+    "quality_score": 44.0,
+    "tags": ["ecs", "javascript", "entity-component-system", "abandoned"],
+    "category": "Legacy Web ECS",
+    "summary": "Well-designed JavaScript ECS abandoned in 2020, now superseded"
+  },
+  {
+    "repo_url": "https://github.com/libretro/retroarch",
+    "name": "libretro/RetroArch",
+    "description": "The reference frontend for the libretro API, providing a cross-platform emulator frontend that loads game systems as dynamic library cores. Supports real-time rewind, multi-pass shaders, video recording, and run-ahead latency reduction across dozens of platforms.",
+    "sub_domain": "emulators-retro",
+    "score": 10,
+    "score_rationale": "The industry-standard emulator frontend with 12.8k stars, underpinning the entire libretro ecosystem used by millions for retro gaming.",
+    "stars": 12800,
+    "language": "C",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 92.9,
+    "tags": ["emulator", "retro-gaming", "multi-platform", "libretro"],
+    "category": "Multi-System Emulator",
+    "summary": "Industry-standard cross-platform emulator frontend for retro gaming"
+  },
+  {
+    "repo_url": "https://github.com/rpcs3/rpcs3",
+    "name": "RPCS3/rpcs3",
+    "description": "The world's first free and open-source PlayStation 3 emulator and debugger, written in C++ for Windows, Linux, macOS, and FreeBSD. Supports over 3500 games with active development.",
+    "sub_domain": "emulators-retro",
+    "score": 9,
+    "score_rationale": "Landmark open-source achievement with 18.4k stars; the definitive PS3 emulator maintained through early 2026 with broad game compatibility.",
+    "stars": 18400,
+    "language": "C++",
+    "license": "GPL-2.0-only",
+    "last_activity": "2026-03-03",
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 88.1,
+    "tags": ["emulator", "playstation-3", "ps3", "game-emulation"],
+    "category": "PlayStation Emulator",
+    "summary": "Definitive open-source PlayStation 3 emulator with 3500+ game support"
+  },
+  {
+    "repo_url": "https://github.com/dolphin-emu/dolphin",
+    "name": "dolphin-emu/dolphin",
+    "description": "A GameCube and Wii emulator for Windows, Linux, macOS, and Android, allowing play of games from those systems on PC with graphical improvements and enhancements over original hardware.",
+    "sub_domain": "emulators-retro",
+    "score": 9,
+    "score_rationale": "Legendary emulator with 14.8k stars and 45k+ commits; the definitive open-source GameCube/Wii emulator with decades of active development.",
+    "stars": 14800,
+    "language": "C++",
+    "license": "GPL-2.0-or-later",
+    "last_activity": "2024-12-15",
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 87.4,
+    "tags": ["emulator", "gamecube", "wii", "retro-gaming"],
+    "category": "Nintendo Emulator",
+    "summary": "Legendary GameCube and Wii emulator with decades of development"
+  },
+  {
+    "repo_url": "https://github.com/kitao/pyxel",
+    "name": "kitao/pyxel",
+    "description": "A retro game engine for Python inspired by PICO-8 and TIC-80, featuring a 16-color palette, 4-channel audio, and built-in sprite/sound editors. Makes pixel-art game creation accessible to Python developers.",
+    "sub_domain": "emulators-retro",
+    "score": 8,
+    "score_rationale": "The most accessible retro fantasy console for Python developers with 17.4k stars, MIT-licensed and actively maintained.",
+    "stars": 17400,
+    "language": "Rust",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 81.9,
+    "tags": ["retro-gaming", "python", "pixel-art", "game-engine"],
+    "category": "Retro Game Engine",
+    "summary": "Python-based retro fantasy console with pixel-art tools and editing"
+  }
+]

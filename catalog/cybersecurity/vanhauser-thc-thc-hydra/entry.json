@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/vanhauser-thc/thc-hydra",
+  "name": "vanhauser-thc/thc-hydra",
+  "description": "Fast and flexible online password cracking tool supporting 50+ protocols including SSH, FTP, HTTP, SMTP, RDP, and more. The go-to tool for network service brute-force during penetration tests.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 10,
+  "score_rationale": "Essential network brute-force tool with 11.7k stars, AGPL-3.0 license, actively maintained through September 2025.",
+  "stars": 11700,
+  "language": "C",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-09-03",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 92.5,
+  "tags": [
+    "network-analysis",
+    "password-cracking",
+    "pe-format"
+  ],
+  "category": "Password Cracker",
+  "summary": "Fast and flexible online password cracking tool supporting 50+ protocols including SSH, FTP, HTTP...",
+  "slug": "vanhauser-thc-thc-hydra"
+}

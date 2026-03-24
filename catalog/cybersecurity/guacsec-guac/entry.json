@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/guacsec/guac",
+  "name": "guacsec/guac",
+  "description": "GUAC (Graph for Understanding Artifact Composition) aggregates software security metadata into a high-fidelity graph database, enabling supply chain risk queries across SBOMs, SLSA provenance, and vulnerability data.",
+  "sub_domain": "Supply Chain Security",
+  "score": 8,
+  "score_rationale": "Innovative supply chain graph analysis tool from Google/CNCF ecosystem with strong momentum and 555+ stars.",
+  "stars": 555,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 70.0,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "guac (graph for understanding artifact composition) aggregates software security metadata into a hig...",
+  "slug": "guacsec-guac"
+}

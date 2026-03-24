@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tencent/ai-infra-guard",
+  "name": "Tencent/AI-Infra-Guard",
+  "description": "A full-stack AI red teaming platform by Tencent securing AI ecosystems via OpenClaw security scanning, agent scan, MCP scan, AI infrastructure scan, and LLM jailbreak evaluation covering 589+ known CVEs.",
+  "sub_domain": "ai-security",
+  "score": 8,
+  "score_rationale": "Tencent-backed comprehensive AI security scanner with 3.3k stars covering the full AI stack from infrastructure to LLM jailbreak testing.",
+  "stars": 3300,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 76.1,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "A full-stack AI red teaming platform by Tencent securing AI ecosystems via OpenClaw security scannin",
+  "slug": "tencent-ai-infra-guard"
+}

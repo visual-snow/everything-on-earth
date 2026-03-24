@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/yogeshojha/rengine",
+  "name": "yogeshojha/rengine",
+  "description": "Automated reconnaissance framework for web applications with highly configurable recon engines, data correlation, continuous monitoring, and a database-backed UI.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 8,
+  "score_rationale": "Well-regarded full-stack recon platform with 8.5k stars providing end-to-end bug bounty workflow management with persistent storage and scheduling.",
+  "stars": 8500,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-19",
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 79.4,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Automated reconnaissance framework for web applications with highly configurable recon engines, data",
+  "slug": "yogeshojha-rengine"
+}

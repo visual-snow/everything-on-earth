@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/consensys/gnark",
+  "name": "consensys/gnark",
+  "description": "A high-performance zero-knowledge proof library in Go supporting Groth16 and PLONK proving systems. Powers the Linea zk-rollup and provides a high-level API for circuit design, compilation, proving, and verification.",
+  "sub_domain": "cryptography",
+  "score": 8,
+  "score_rationale": "Leading production-grade ZK proof library with 1.7k stars, actively used in real blockchain infrastructure and well-maintained through 2025.",
+  "stars": 1700,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2025-08-22",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 73.8,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "consensys-gnark"
+}

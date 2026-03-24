@@ -1,0 +1,101 @@
+{
+  "slug": "eupf",
+  "name": "eUPF",
+  "what_it_is": "eUPF is an open-source 5G User Plane Function (UPF) that uses eBPF XDP hooks for high-performance packet forwarding between the 5G core and data networks. It separates into a userspace control plane (PFCP session management) and an in-kernel forwarding plane (XDP-based PDR/FAR/QER processing), and has been validated with Free5GC, Open5GS, and OpenAirInterface.",
+  "components": [
+    "eupf (UPF binary — control plane + eBPF forwarding plane)",
+    "REST API server (default :8080) — session/rule inspection",
+    "PFCP server (default :8805) — N4 interface to SMF",
+    "Prometheus metrics endpoint (default :9090)",
+    "eBPF XDP hook — attached per network interface for packet processing"
+  ],
+  "protocols": [
+    "PFCP (N4 — SMF↔UPF control)",
+    "GTP-U (N3 — gNB↔UPF encapsulation, N9 — I-UPF/A-UPF chaining)",
+    "IPv4 (data plane; IPv6 counted but not forwarded as of current release)",
+    "GTP Echo (path management toward neighbour GTP nodes)",
+    "HTTP/REST (management API)"
+  ],
+  "measurement": [
+    "upf_pfcp_rx / upf_pfcp_tx — PFCP message counters",
+    "upf_pfcp_rx_errors — PFCP messages with cause code",
+    "upf_pfcp_rx_latency — PFCP processing duration histogram",
+    "upf_xdp_aborted / upf_xdp_drop / upf_xdp_pass / upf_xdp_tx / upf_xdp_redirect — XDP action counters",
+    "upf_rx_arp / upf_rx_icmp / upf_rx_ip4 / upf_rx_ip6 / upf_rx_tcp / upf_rx_udp / upf_rx_other — per-protocol RX counters",
+    "upf_rx_gtp_echo / upf_rx_gtp_pdu / upf_rx_gtp_other / upf_rx_gtp_error — GTP RX counters",
+    "upf_pfcp_sessions — current active PFCP sessions gauge",
+    "upf_pfcp_associations — current PFCP associations gauge"
+  ],
+  "configuration": [
+    "UPF_INTERFACE_NAME — list of N3/N6 interfaces for XDP attachment (mandatory)",
+    "UPF_N3_ADDRESS — IPv4 address of N3 interface (mandatory)",
+    "UPF_N9_ADDRESS — IPv4 address of N9 interface (optional, defaults to N3 address)",
+    "UPF_XDP_ATTACH_MODE — generic | native | offload (default: generic)",
+    "UPF_API_ADDRESS — REST API listen address (default: :8080)",
+    "UPF_PFCP_ADDRESS — PFCP listen address (default: :8805)",
+    "UPF_PFCP_NODE_ID — local NodeID for PFCP (IPv4 format, default: 127.0.0.1)",
+    "UPF_METRICS_ADDRESS — Prometheus endpoint (default: :9090)",
+    "UPF_MAX_SESSIONS — max sessions; auto-sizes eBPF maps (PDR=2×, FAR=PDR, QER=1×, URR=3×); default 65535",
+    "UPF_QER_MAP_SIZE / UPF_FAR_MAP_SIZE / UPF_PDR_MAP_SIZE / UPF_URR_MAP_SIZE — override individual eBPF map sizes",
+    "UPF_FEATURE_UEIP — enable UE IP address allocation (default: false)",
+    "UPF_FEATURE_FTUP — enable F-TEID allocation in UP function (default: false)",
+    "UPF_UEIP_POOL — UE IP pool CIDR when UEIP enabled (default: 10.60.0.0/24)",
+    "UPF_TEID_POOL — TEID pool size when FTUP enabled (default: 65535)",
+    "UPF_GTP_PEER — list of GTP peer addresses for echo requests",
+    "UPF_ECHO_INTERVAL — GTP echo interval in seconds (default: 10)",
+    "UPF_LOGGING_LEVEL — log verbosity (default: info)",
+    "Config accepted via YAML file, environment variables, or CLI flags (Viper precedence: CLI > env > file > default)"
+  ],
+  "fault_injection": [
+    "No built-in fault injection primitives documented in the repository",
+    "XDP drop/abort counters (upf_xdp_drop, upf_xdp_aborted) are observable but not controllable via API",
+    "Packet loss can be induced externally via tc/iptables rules on the host interfaces attached by XDP",
+    "PFCP error responses observable via upf_pfcp_rx_errors with cause codes (see PfcpCauseCodes.md)"
+  ],
+  "modes": [
+    "Standalone — single eupf container with default loopback interface (quick-start/demo)",
+    "Integrated with Open5GS — eupf replaces open5gs-upfd, SMF connects via PFCP",
+    "Integrated with Free5GC — free5gc-compose variant available in docs/deployments/free5gc-ulcl",
+    "Integrated with OpenAirInterface — oai compose variant available in docs/deployments/oai",
+    "I-UPF/A-UPF ULCL/Branching mode — N9 interface for uplink classifier and anchor UPF chaining",
+    "XDP generic mode — kernel-level, any NIC, lower performance (default/evaluation)",
+    "XDP native mode — driver-level, requires driver support, higher performance",
+    "XDP offload mode — NIC-level execution, requires NIC support"
+  ],
+  "constraints": [
+    "Requires Linux kernel >= 5.15.0-25-generic; earlier kernels not supported",
+    "Requires privileged container (NET_ADMIN + SYS_ADMIN capabilities) to load eBPF objects and set rlimits",
+    "eBPF filesystem must be mounted at /sys/fs/bpf on the host for persistence across restarts",
+    "Currently only IPv4 NodeID is supported for PFCP",
+    "Only one FAR rule per PDR is supported",
+    "Only one QER rule per PDR is supported",
+    "Only one SDF filter per GTP tunnel is supported",
+    "XDP generic mode only is fully validated; native/offload depend on NIC driver support",
+    "Kernel FIB lookup used for routing; unresolvable routes fall back to kernel (performance penalty)",
+    "No built-in monitoring/debugging via tcpdump or CLI (listed as not-yet-implemented in roadmap)"
+  ],
+  "docker_services": [
+    "eupf — ghcr.io/edgecomllc/eupf:main (or versioned tag), privileged, mounts /sys/fs/bpf",
+    "mongodb — mongo:5.0.10-focal, subscriber database for Open5GS",
+    "nrf — gradiant/open5gs:2.7.2, NF repository function",
+    "amf — gradiant/open5gs:2.7.2, access and mobility management",
+    "ausf — gradiant/open5gs:2.7.2, authentication server",
+    "smf — gradiant/open5gs:2.7.2, session management (controls eupf via PFCP)",
+    "pcf / udm / udr / bsf / nssf — gradiant/open5gs:2.7.2, policy/data management functions",
+    "gnb — gradiant/ueransim:3.2.6, simulated gNB (N2/N3 interfaces)",
+    "ue — gradiant/ueransim:3.2.6, simulated UE",
+    "nat — wbitt/network-multitool:alpine-minimal, NAT/masquerade for N6 traffic",
+    "populate — gradiant/open5gs-dbctl:0.10.3, seeds subscriber records into MongoDB",
+    "webui — gradiant/open5gs-webui:2.7.2, subscriber management UI"
+  ],
+  "notable_absences": [
+    "No tcpdump or CLI-based debugging built in (roadmap item, not yet implemented)",
+    "No IPv6 data-plane forwarding (IPv6 packets counted but not routed)",
+    "No UPF-initiated PFCP association (roadmap item)",
+    "No multi-SMF set support (SSET / MPAS features not implemented)",
+    "No per-QoS-flow or per-GTP-path QoS monitoring (QFQM / GPQM not implemented)",
+    "No RTT measurement toward UE without PMF (RTTWP not implemented)",
+    "No built-in traffic generation or load-testing tooling in the main image",
+    "Helm chart and Grafana dashboards available under .deploy/ but no pre-wired observability stack in the basic compose"
+  ]
+}

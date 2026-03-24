@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mackron/miniaudio",
+  "name": "mackron/miniaudio",
+  "description": "Single-file C audio playback and capture library with no dependencies, supporting WAV, FLAC, and MP3 decoding, 3D spatialization, effects, and backends for all major platforms. The de-facto standard for lightweight C game audio.",
+  "sub_domain": "game-audio",
+  "score": 10,
+  "score_rationale": "Extremely widely adopted single-header C audio library with 6.5k stars, actively maintained through March 2026, and used as the audio backbone for raylib, Godot, and many indie engines.",
+  "stars": 6500,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "game-audio"
+  ],
+  "quality_score": 90.5,
+  "tags": [
+    "audio",
+    "game-audio",
+    "lightweight",
+    "cross-platform"
+  ],
+  "category": "Audio Library",
+  "summary": "De facto standard single-header audio library for games",
+  "slug": "mackron-miniaudio"
+}

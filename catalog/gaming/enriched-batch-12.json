@@ -1,0 +1,116 @@
+[
+  {
+    "repo_url": "https://github.com/phaserjs/phaser",
+    "name": "phaserjs/phaser",
+    "description": "Phaser is a fun, free, and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering. The most popular dedicated HTML5 game framework.",
+    "sub_domain": "web-game-engines",
+    "score": 10,
+    "score_rationale": "39.2k stars, the de-facto standard for HTML5 2D game development with 10+ years of active development, vast community, and extensive plugin library.",
+    "stars": 39200,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2025-05-23",
+    "found_in_domains": [
+      "web-game-engines"
+    ],
+    "quality_score": 96.7,
+    "tags": ["html5", "2d-games", "javascript", "canvas", "webgl"],
+    "category": "Web 2D Game Framework",
+    "summary": "Industry-standard HTML5 2D game framework with 39k stars and decade of active development"
+  },
+  {
+    "repo_url": "https://github.com/babylonjs/babylon.js",
+    "name": "BabylonJS/Babylon.js",
+    "description": "Babylon.js is a powerful, beautiful, simple, and open 3D game and rendering engine for the web, packed into a friendly TypeScript framework. Supports WebGL, WebGPU, and WebXR.",
+    "sub_domain": "web-game-engines",
+    "score": 9,
+    "score_rationale": "25.3k stars, leading web 3D game engine with Microsoft heritage, active development, WebGPU support, and comprehensive tooling ecosystem.",
+    "stars": 25300,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "web-game-engines"
+    ],
+    "quality_score": 89.2,
+    "tags": ["3d-games", "typescript", "webgl", "webgpu", "webxr"],
+    "category": "Web 3D Game Engine",
+    "summary": "Leading web 3D engine with Microsoft backing, WebGPU/WebXR support, 25k stars"
+  },
+  {
+    "repo_url": "https://github.com/playcanvas/engine",
+    "name": "playcanvas/engine",
+    "description": "PlayCanvas is a powerful web graphics runtime built on WebGL, WebGPU, WebXR, and glTF, used as the rendering engine behind the PlayCanvas cloud-hosted game editor.",
+    "sub_domain": "web-game-engines",
+    "score": 9,
+    "score_rationale": "14.6k stars, production-grade web 3D engine supporting WebGPU and WebXR with active March 2026 releases backing a professional cloud game platform.",
+    "stars": 14600,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2026-03-19",
+    "found_in_domains": [
+      "web-game-engines"
+    ],
+    "quality_score": 87.3,
+    "tags": ["3d-games", "javascript", "webgl", "webgpu", "cloud-gaming"],
+    "category": "Production Web 3D Engine",
+    "summary": "Production-grade 3D engine powering PlayCanvas cloud editor with 14.6k stars"
+  },
+  {
+    "repo_url": "https://github.com/increpare/puzzlescript",
+    "name": "increpare/PuzzleScript",
+    "description": "An open-source HTML5 puzzle game engine with a simple domain-specific language for creating and sharing grid-based puzzle games entirely in the browser.",
+    "sub_domain": "web-game-engines",
+    "score": 6,
+    "score_rationale": "1k stars, a beloved niche engine with a dedicated community for creating and sharing grid puzzle games, widely used in game jams.",
+    "stars": 1000,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2024-01-01",
+    "found_in_domains": [
+      "web-game-engines"
+    ],
+    "quality_score": 60.0,
+    "tags": ["puzzle-games", "html5", "dsl", "grid-based", "game-jams"],
+    "category": "Puzzle Game DSL",
+    "summary": "Beloved niche DSL for grid-based puzzle games with dedicated game jam community"
+  },
+  {
+    "repo_url": "https://github.com/replit/kaboom",
+    "name": "replit/kaboom",
+    "description": "Kaboom.js was a JavaScript game library for making fun 2D web games, now archived and superseded by the community fork KaPlay.",
+    "sub_domain": "web-game-engines",
+    "score": 4,
+    "score_rationale": "2.7k stars but archived November 2024 by Replit — historically relevant as the predecessor of the active KaPlay fork.",
+    "stars": 2700,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2024-11-12",
+    "found_in_domains": [
+      "web-game-engines"
+    ],
+    "quality_score": 51.5,
+    "tags": ["2d-games", "typescript", "archived", "predecessor", "kaplay"],
+    "category": "Archived Game Library",
+    "summary": "Archived 2D game library now superseded by KaPlay community fork"
+  },
+  {
+    "repo_url": "https://github.com/mrdrbob/2b2d",
+    "name": "mrdrbob/2b2d",
+    "description": "A simple 2D from-scratch WebGPU/TypeScript game engine inspired by Bevy with ECS architecture, zero dependencies, and LDtk/Aseprite integration.",
+    "sub_domain": "web-game-engines",
+    "score": 3,
+    "score_rationale": "Only 23 stars, very early-stage experimental WebGPU engine with minimal community traction, though technically interesting as a Bevy-inspired web ECS engine.",
+    "stars": 23,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2024-01-01",
+    "found_in_domains": [
+      "web-game-engines"
+    ],
+    "quality_score": 29.0,
+    "tags": ["webgpu", "ecs", "2d-games", "typescript", "experimental"],
+    "category": "Experimental ECS Engine",
+    "summary": "Early-stage WebGPU engine with Bevy-inspired ECS and zero dependencies"
+  }
+]

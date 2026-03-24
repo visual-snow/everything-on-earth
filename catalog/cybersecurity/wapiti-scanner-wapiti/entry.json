@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/wapiti-scanner/wapiti",
+  "name": "wapiti-scanner/wapiti",
+  "description": "Black-box web vulnerability scanner written in Python that crawls web applications and injects payloads to detect SQL injection, XSS, LDAP injection, CSRF, and 30+ other vulnerability types.",
+  "sub_domain": "vuln-scanners",
+  "score": 6,
+  "score_rationale": "Solid open source DAST scanner with 1.7k stars, GPL-2.0 licensed, actively maintained with broad vulnerability module coverage though smaller community than ZAP or Nuclei.",
+  "stars": 1700,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2025-11-13",
+  "found_in_domains": [
+    "vuln-scanners"
+  ],
+  "quality_score": 61.8,
+  "tags": [
+    "payload",
+    "shellcode",
+    "injection"
+  ],
+  "category": "Payload Generator",
+  "summary": "Payload and shellcode generation",
+  "slug": "wapiti-scanner-wapiti"
+}

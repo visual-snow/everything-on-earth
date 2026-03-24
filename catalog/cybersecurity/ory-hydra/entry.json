@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ory/hydra",
+  "name": "ory/hydra",
+  "description": "Internet-scale OpenID Certified OAuth2.1 and OpenID Connect provider that integrates with existing user management systems through headless APIs, trusted by OpenAI at scale.",
+  "sub_domain": "iam-auth",
+  "score": 8,
+  "score_rationale": "Production-proven OAuth2/OIDC server with 17k stars, actively maintained by Ory, trusted by large-scale deployments and the go-to open source OAuth2 server for Go-based stacks.",
+  "stars": 17000,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 81.8,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "ory-hydra"
+}

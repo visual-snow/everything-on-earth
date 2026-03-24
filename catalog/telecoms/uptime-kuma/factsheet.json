@@ -1,0 +1,72 @@
+{
+  "slug": "uptime-kuma",
+  "name": "Uptime Kuma",
+  "what_it_is": "A self-hosted monitoring tool providing uptime tracking and alerting across HTTP(s), TCP, Ping, DNS, WebSocket, Docker containers, and more. It is a self-hosted alternative to services like Uptime Robot, with a reactive UI and 90+ notification integrations.",
+  "components": [
+    "Web UI (Node.js + Vue)",
+    "Monitoring engine (background check loops)",
+    "SQLite database (persistent state)",
+    "Notification dispatcher (90+ services)",
+    "Status page server (custom domain support)",
+    "Certificate expiry tracker"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS",
+    "HTTP(s) Keyword match",
+    "HTTP(s) JSON Query",
+    "TCP",
+    "WebSocket",
+    "Ping (ICMP)",
+    "DNS record check",
+    "Push (agent pushes heartbeat)",
+    "Steam Game Server query",
+    "Docker container health"
+  ],
+  "measurement": [
+    "Up/down status",
+    "Response time (ms)",
+    "Ping round-trip time with charts",
+    "SSL/TLS certificate expiry countdown",
+    "DNS record resolution result"
+  ],
+  "configuration": [
+    "Check interval (default 20 seconds)",
+    "Notification channels per monitor",
+    "Proxy settings per monitor",
+    "Two-factor authentication (2FA)",
+    "Custom status pages with custom domain mapping",
+    "Port binding (can restrict to localhost)",
+    "Multi-language locale selection",
+    "Light/dark UI theme"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Active polling (HTTP, TCP, Ping, DNS, WebSocket, Steam)",
+    "Passive push (agent sends heartbeat to Uptime Kuma endpoint)",
+    "Docker socket monitoring (container health)"
+  ],
+  "constraints": [
+    "NFS (Network File System) is explicitly not supported as a data volume",
+    "Unsupported platforms: FreeBSD, OpenBSD, NetBSD, Replit, Heroku",
+    "Requires Node.js >= 20.4 for non-Docker deployments",
+    "No built-in fault injection or synthetic failure simulation",
+    "No native SLA calculation or alert history reporting"
+  ],
+  "docker_services": [
+    {
+      "name": "uptime-kuma",
+      "image": "louislam/uptime-kuma:1",
+      "ports": ["3001:3001"],
+      "volumes": ["uptime-kuma:/app/data"],
+      "notes": "Official single-service compose; docker-compose.yml lives at repository root, not under docker/ subdirectory"
+    }
+  ],
+  "notable_absences": [
+    "No fault injection or chaos engineering support",
+    "No SLA / uptime percentage reporting built in",
+    "No built-in alert history or incident timeline",
+    "No support for NFS volumes",
+    "docker/docker-compose.yml path returned 404; compose file is at repository root"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/floooh/sokol",
+  "name": "floooh/sokol",
+  "description": "Minimal cross-platform standalone C headers for graphics (GL/Metal/D3D11/WebGPU), app windowing, audio, and more. Emphasizes WebAssembly as first-class platform.",
+  "sub_domain": "graphics-rendering",
+  "score": 9,
+  "score_rationale": "Highly popular single-header C graphics library with 9.7k stars, beloved for simplicity and broad platform coverage including web.",
+  "stars": 9700,
+  "language": "C",
+  "license": "Zlib",
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 85.9,
+  "tags": [
+    "graphics",
+    "minimal",
+    "webassembly"
+  ],
+  "category": "Graphics Library",
+  "summary": "Single-header C graphics library with WebAssembly support",
+  "slug": "floooh-sokol"
+}

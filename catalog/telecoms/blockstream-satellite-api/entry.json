@@ -1,0 +1,51 @@
+{
+  "name": "Blockstream Satellite API",
+  "repo_url": "https://github.com/blockstream/satellite-api",
+  "description": "RESTful API and transmitter daemon for the Blockstream Satellite network, enabling global message broadcast via satellite with Bitcoin Lightning payments. Full docker-compose orchestration.",
+  "domain": "dvb-s2",
+  "secondary_domains": [
+    "lightning-payments",
+    "message-transmission"
+  ],
+  "protocols": [
+    "REST API",
+    "Lightning Network",
+    "DVB-S2"
+  ],
+  "provides": [
+    "rest-api-server",
+    "message-queue-management",
+    "lightning-payment-processing",
+    "satellite-broadcast-scheduling",
+    "transmitter-daemon",
+    "redis-backed-queue",
+    "bitcoin-lightning-charge"
+  ],
+  "needs": [
+    "bitcoin-lightning-node",
+    "redis",
+    "dvb-s2-satellite-hardware"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 4,
+    "docker_evidence": "docker-compose.yml launches API server, transmitter daemon, Bitcoin Lightning Charge, and Redis with a single docker-compose up command."
+  },
+  "github_metrics": {
+    "stars": 37,
+    "last_commit": "2023-05-23",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Satellite messaging API with payment integration. Agents could manage message transmission queues, troubleshoot payment processing, and optimize satellite broadcast scheduling.",
+  "related_repos": [
+    "https://github.com/blockstream/satellite"
+  ],
+  "_sources": [
+    "discovery/ntn-satellite.json"
+  ],
+  "slug": "blockstream-satellite-api"
+}

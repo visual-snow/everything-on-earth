@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mas-bandwidth/yojimbo",
+  "name": "mas-bandwidth/yojimbo",
+  "description": "Network library for client/server games with dedicated servers, built on reliable UDP with encrypted packets, connection management, and support for competitive multiplayer games by Glenn Fiedler.",
+  "sub_domain": "game-networking",
+  "score": 7,
+  "score_rationale": "Well-regarded C++ networking library with 2.7k stars by a respected game networking expert, actively maintained through 2023 with a clean client/server model.",
+  "stars": 2700,
+  "language": "C",
+  "license": "BSD-3-Clause",
+  "last_activity": "2023-12-26",
+  "found_in_domains": [
+    "game-networking"
+  ],
+  "quality_score": 69.5,
+  "tags": [
+    "client-server",
+    "reliable-udp",
+    "encryption",
+    "competitive",
+    "multiplayer"
+  ],
+  "category": "Client-Server Networking",
+  "summary": "Professional client/server networking library with encryption",
+  "slug": "mas-bandwidth-yojimbo"
+}

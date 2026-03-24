@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zielon/pbrvulkan",
+  "name": "Zielon/PBRVulkan",
+  "description": "Vulkan-based real-time physically based path tracing sandbox for developing and testing custom shaders, featuring Disney BRDF, denoising compute shaders, and predefined test environments with meshes and materials.",
+  "sub_domain": "ray-tracing",
+  "score": 6,
+  "score_rationale": "520-star educational Vulkan PBR sandbox useful for shader development; last updated 2021.",
+  "stars": 520,
+  "language": "C++",
+  "license": "BSD-2-Clause",
+  "last_activity": "2021-08-07",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 57.7,
+  "tags": [
+    "vulkan",
+    "path-tracing",
+    "pbr",
+    "shaders",
+    "brdf"
+  ],
+  "category": "Vulkan Path Tracer",
+  "summary": "Vulkan-based PBR path tracer sandbox with Disney BRDF and custom shader support",
+  "slug": "zielon-pbrvulkan"
+}

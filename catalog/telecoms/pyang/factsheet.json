@@ -1,0 +1,73 @@
+{
+  "slug": "pyang",
+  "name": "pyang",
+  "what_it_is": "pyang is a YANG validator, transformer, and code generator written in Python. It validates YANG modules for RFC compliance, converts between YANG/YIN formats, generates tree diagrams, DSDL schemas, UML diagrams, sample XML, and JSON representations via a plugin framework.",
+  "components": [
+    "pyang CLI tool (pyang.scripts.pyang_tool)",
+    "yang2dsdl shell script (YANG to DSDL/RELAX NG/Schematron)",
+    "Plugin framework (pyang/plugins/)",
+    "Translator framework (pyang/translators/: yang, yin, dsdl)",
+    "XSLT stylesheets for DSDL schema generation and instance validation",
+    "RELAX NG schemas (schema/)",
+    "Bundled IANA and IETF standard YANG modules (modules/)"
+  ],
+  "protocols": [
+    "YANG (RFC 6020, RFC 7950)",
+    "YIN (XML encoding of YANG, RFC 6020)",
+    "NETCONF (RFC 6241)",
+    "RESTCONF (RFC 8040)",
+    "DSDL (Document Schema Definition Languages, RFC 6110)",
+    "SMIv2 (Structure of Management Information v2, RFC 6643)",
+    "JSON (via jtox/jsonxsl plugins)"
+  ],
+  "measurement": [
+    "Validation error and warning counts emitted to stderr",
+    "RFC compliance lint checks (lint.py plugin with --lint flag)",
+    "check_update plugin for detecting non-backward-compatible YANG module changes",
+    "No built-in metrics export; output is textual diagnostics"
+  ],
+  "configuration": [
+    "YANG_INSTALL env var: prefix directory for finding standard YANG modules",
+    "YANG_MODPATH env var: colon-separated search path for YANG modules",
+    "PYANG_XSLT_DIR env var: path to XSLT stylesheets",
+    "PYANG_RNG_LIBDIR env var: path to RELAX NG schema library",
+    "PYTHONPATH must include site-packages when installed to custom prefix",
+    "Plugin path configurable via --plugindir CLI option",
+    "Output format selected with -f <format> CLI flag"
+  ],
+  "fault_injection": [
+    "No built-in fault injection; pyang is a static analysis tool",
+    "check_update plugin can detect backward-incompatible changes between module revisions"
+  ],
+  "modes": [
+    "validate: check YANG module syntax and RFC compliance (default)",
+    "lint: stricter RFC 8407 style and guideline checks (--lint / lint plugin)",
+    "transform: convert YANG to YIN or YIN to YANG",
+    "tree: generate compact ASCII tree visualization of the data model",
+    "uml: generate PlantUML class diagram source",
+    "dsdl / yang2dsdl: translate to DSDL (RELAX NG + Schematron + DSRL) for XML instance validation",
+    "sample-xml-skeleton: generate skeleton XML instance document",
+    "jtox / jsonxsl: schema-aware YANG-to-JSON translation",
+    "jstree: generate HTML/JS tree browser",
+    "sid: generate SID file for YANG module identifiers (CoAP/COMI)",
+    "depend: print module dependency list",
+    "flatten: flatten groupings and augments into a single module view",
+    "capability: generate NETCONF capability URI list",
+    "check_update: non-backward-compatible change detection between two module versions"
+  ],
+  "constraints": [
+    "Requires Python 3.7+ and lxml as the only runtime dependency",
+    "No docker-compose or containerized environment provided; must be installed via pip or source",
+    "YANG_MODPATH / YANG_INSTALL must be set correctly or standard modules will not be found when installed to a non-default prefix",
+    "yang2dsdl requires xsltproc (libxslt) and xmllint (libxml2) system binaries at runtime",
+    "Plugin framework supports custom output plugins but they must be placed in the plugins directory or on --plugindir path",
+    "SMIv2 translation (smi plugin) depends on the external libsmi library"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml or Dockerfile in the repository",
+    "No runtime NETCONF/RESTCONF server — pyang is a static analysis and transformation tool only",
+    "No GUI; all interaction is via CLI or Python library API",
+    "No built-in CI configuration beyond GitHub Actions test workflow"
+  ]
+}

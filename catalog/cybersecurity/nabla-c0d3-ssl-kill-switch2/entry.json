@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nabla-c0d3/ssl-kill-switch2",
+  "name": "nabla-c0d3/ssl-kill-switch2",
+  "description": "Blackbox Cydia Substrate tweak to disable SSL/TLS certificate validation and certificate pinning within iOS and macOS applications for traffic interception during security assessments.",
+  "sub_domain": "Mobile Security",
+  "score": 6,
+  "score_rationale": "Widely referenced SSL pinning bypass for iOS with 3.3k stars; no longer actively maintained but still used in iOS assessments on older versions.",
+  "stars": 3300,
+  "language": "Objective-C",
+  "license": "MIT",
+  "last_activity": "2019-12-03",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 64.1,
+  "tags": [
+    "security-tool",
+    "open-source",
+    "analysis"
+  ],
+  "category": "Security Tool",
+  "summary": "Blackbox Cydia Substrate tweak to disable SSL/TLS certificate validation and certificate pinning ...",
+  "slug": "nabla-c0d3-ssl-kill-switch2"
+}

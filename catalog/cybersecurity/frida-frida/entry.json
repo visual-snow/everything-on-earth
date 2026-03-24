@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/frida/frida",
+  "name": "frida/frida",
+  "description": "World-class dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers supporting Windows, macOS, GNU/Linux, iOS, watchOS, tvOS, Android, FreeBSD, and QNX.",
+  "sub_domain": "Mobile Security",
+  "score": 10,
+  "score_rationale": "The industry-standard dynamic instrumentation toolkit with 20.1k stars, powering most modern mobile security tools (Objection, Medusa, r2frida); 647 releases.",
+  "stars": 20100,
+  "language": "C",
+  "license": "LGPL-2.0",
+  "last_activity": "2025-01-10",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 94.4,
+  "tags": [
+    "dynamic-analysis",
+    "pe-format",
+    "reverse-engineering"
+  ],
+  "category": "Security Tool",
+  "summary": "World-class dynamic instrumentation toolkit for developers, reverse-engineers, and security resea...",
+  "slug": "frida-frida"
+}

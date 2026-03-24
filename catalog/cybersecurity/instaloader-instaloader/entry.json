@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/instaloader/instaloader",
+  "name": "instaloader/instaloader",
+  "description": "Downloads pictures, videos, captions, and metadata from Instagram including stories and private accounts. Supports automatic profile name change detection and rich metadata export.",
+  "sub_domain": "osint-recon",
+  "score": 8,
+  "score_rationale": "11.9k stars with active maintenance through March 2026, widely used for Instagram data collection in OSINT investigations.",
+  "stars": 11900,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 80.6,
+  "tags": [
+    "security-tool",
+    "open-source",
+    "analysis"
+  ],
+  "category": "Security Tool",
+  "summary": "Downloads pictures, videos, captions, and metadata from Instagram including stories and private a...",
+  "slug": "instaloader-instaloader"
+}

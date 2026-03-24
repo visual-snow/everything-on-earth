@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/drhelius/gearboy",
+  "name": "drhelius/Gearboy",
+  "description": "A cross-platform Game Boy and Game Boy Color emulator with high accuracy (passes Blargg's CPU tests), debugging tools including breakpoints and a just-in-time disassembler, available for Windows, macOS, Linux, BSD, and RetroArch.",
+  "sub_domain": "emulators-retro",
+  "score": 6,
+  "score_rationale": "Accurate Game Boy emulator with 1.1k stars, valuable for both gameplay and Game Boy homebrew development due to its debugging tools.",
+  "stars": 1100,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 60.3,
+  "tags": [
+    "emulation",
+    "game-boy",
+    "debugging",
+    "homebrew"
+  ],
+  "category": "Handheld Emulator",
+  "summary": "Accurate Game Boy emulator with built-in debugging tools",
+  "slug": "drhelius-gearboy"
+}

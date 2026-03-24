@@ -1,0 +1,73 @@
+{
+  "slug": "akvorado",
+  "name": "Akvorado",
+  "what_it_is": "Akvorado is a network flow collection, enrichment, and visualization platform that ingests NetFlow/IPFIX/sFlow traffic, enriches flows with SNMP-derived interface names and IPinfo geolocation data, stores them in ClickHouse, and exposes a web UI with timeseries and Sankey diagram views. It was developed and is maintained by Free, a French ISP, and is licensed under AGPLv3.",
+  "components": [
+    "akvorado-inlet: receives raw flow datagrams (NetFlow/IPFIX on UDP 2055 and 4739, sFlow on UDP 6343), decodes and forwards to Kafka",
+    "akvorado-orchestrator: central configuration authority that distributes config to other components and manages SNMP polling schedules",
+    "akvorado-console: web UI service backed by SQLite (console DB); renders timeseries and Sankey diagrams querying ClickHouse",
+    "akvorado-outlet: BGP-based metadata/state exporter (TCP 10179), persists flow state and metadata cache to disk",
+    "clickhouse: columnar database storing enriched flow records; accessed by console and outlet",
+    "kafka: message bus (KRaft mode, no ZooKeeper) bridging inlet to ClickHouse ingestion pipeline",
+    "kafka-ui: browser UI for inspecting Kafka topics and consumer lag",
+    "redis: in-memory store used for inter-component coordination/caching",
+    "traefik: reverse proxy routing HTTP traffic to orchestrator, console, kafka-ui, and clickhouse with Prometheus metrics endpoint"
+  ],
+  "protocols": [
+    "NetFlow v5/v9 (UDP 2055)",
+    "IPFIX (UDP 4739)",
+    "sFlow (UDP 6343)",
+    "SNMP (polling network devices for interface metadata)",
+    "BGP (akvorado-outlet exposes TCP 10179 for route/metadata exchange)"
+  ],
+  "measurement": [
+    "Per-flow byte and packet counters stored in ClickHouse",
+    "Interface-level traffic aggregation via SNMP-enriched interface names",
+    "Geolocation tagging per source/destination IP using IPinfo.io databases",
+    "Timeseries visualization of flow volumes in web console",
+    "Sankey diagram visualization of traffic distribution across AS/interface/geo dimensions",
+    "Kafka consumer lag observable via kafka-ui",
+    "Traefik exposes Prometheus metrics (port 8081) for proxy-level observability"
+  ],
+  "configuration": [
+    "YAML configuration file mounted into akvorado-orchestrator; distributed at runtime to inlet, console, outlet",
+    "Environment variable overrides supported (AKVORADO_CFG_* prefix observed in compose)",
+    "Console database DSN set via AKVORADO_CFG_CONSOLE_DATABASE_DSN",
+    "Branding customizable via AKVORADO_CFG_CONSOLE_BRANDING",
+    "Outlet persist paths set via AKVORADO_CFG_OUTLET_METADATA_CACHEPERSISTFILE and AKVORADO_CFG_OUTLET_FLOW_STATEPERSISTFILE",
+    "ClickHouse init timeout and user setup controlled via CLICKHOUSE_INIT_TIMEOUT / CLICKHOUSE_SKIP_USER_SETUP",
+    "Kafka runs in KRaft mode; node ID and roles set via KAFKA_NODE_ID, KAFKA_PROCESS_ROLES, KAFKA_LISTENERS"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Production/demo: full 9-service docker-compose stack with Traefik ingress and persistent volumes",
+    "Public demo instance available at demo.akvorado.net with sample data (read-only)",
+    "Grafana plugin integration available for embedding flow data into Grafana dashboards"
+  ],
+  "constraints": [
+    "No built-in fault injection or traffic replay mechanism — no way to simulate device failures or malformed flow packets from within the stack",
+    "Requires external IPinfo.io license/database for geolocation enrichment; without it geo fields are absent",
+    "Changelog must be reviewed before every upgrade — the project explicitly warns that schema/config migrations are not automatic",
+    "Kafka runs without ZooKeeper (KRaft) but uses a fixed custom bridge subnet (247.16.14.0/24 / fd1c:8ce3:6fb:1::/64), which may conflict with existing network ranges",
+    "akvorado-inlet listens only on UDP — flow sources must be configured to send to the inlet's host IP; no TCP flow collection supported",
+    "All HTTP services are routed exclusively through Traefik; direct port exposure to the host is limited to Traefik's ports 8080 and 8081"
+  ],
+  "docker_services": [
+    {"name": "akvorado-inlet", "role": "Flow receiver", "ports": ["2055/udp", "4739/udp", "6343/udp"]},
+    {"name": "akvorado-orchestrator", "role": "Config distributor and SNMP poller", "ports": ["traefik-routed"]},
+    {"name": "akvorado-console", "role": "Web UI (timeseries, Sankey)", "ports": ["traefik-routed"]},
+    {"name": "akvorado-outlet", "role": "BGP metadata/state exporter", "ports": ["10179/tcp"]},
+    {"name": "clickhouse", "role": "Columnar flow storage", "ports": ["traefik-routed"]},
+    {"name": "kafka", "role": "Message bus between inlet and ClickHouse", "ports": ["9092/internal", "9093/internal"]},
+    {"name": "kafka-ui", "role": "Kafka topic browser", "ports": ["traefik-routed"]},
+    {"name": "redis", "role": "Inter-component cache/coordination", "ports": ["internal"]},
+    {"name": "traefik", "role": "Reverse proxy and metrics", "ports": ["127.0.0.1:8080/tcp", "8081/tcp"]}
+  ],
+  "notable_absences": [
+    "No NETCONF/YANG or gRPC telemetry ingestion — only UDP-based flow protocols supported",
+    "No built-in alerting or threshold-based notifications — purely a collection and visualization tool",
+    "No flow replay or pcap import capability for offline analysis",
+    "No multi-tenant access control in the open-source version",
+    "No native TLS termination on flow receiver ports (inlet uses plain UDP)"
+  ]
+}

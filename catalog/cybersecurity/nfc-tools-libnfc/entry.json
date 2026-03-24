@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nfc-tools/libnfc",
+  "name": "nfc-tools/libnfc",
+  "description": "Platform-independent open-source library for Near Field Communication (NFC) and RFID communication, supporting a wide range of hardware readers on Linux, Windows, and macOS.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 7,
+  "score_rationale": "Foundational NFC library with 1.9k stars and active maintenance into 2025; underpins many NFC security research toolchains.",
+  "stars": 1944,
+  "language": "C",
+  "license": "LGPL-3.0",
+  "last_activity": "2025-03-05",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 68.3,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "nfc-tools-libnfc"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/azure/pyrit",
+  "name": "Azure/PyRIT",
+  "description": "The Python Risk Identification Tool for generative AI (PyRIT) \u2014 an open-source framework from Microsoft/Azure to proactively identify safety and security risks in generative AI systems.",
+  "sub_domain": "ai-security",
+  "score": 8,
+  "score_rationale": "Microsoft-backed generative AI risk assessment framework with 3.6k stars widely used for systematic red teaming of LLM applications.",
+  "stars": 3600,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 76.5,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "The Python Risk Identification Tool for generative AI (PyRIT) \u2014 an open-source framework from Micros",
+  "slug": "azure-pyrit"
+}

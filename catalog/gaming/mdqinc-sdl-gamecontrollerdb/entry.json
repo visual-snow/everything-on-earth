@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mdqinc/sdl_gamecontrollerdb",
+  "name": "mdqinc/SDL_GameControllerDB",
+  "description": "Community-sourced database of game controller mappings for SDL2 and SDL3, providing button/axis mappings for hundreds of controllers across Windows, macOS, Linux, Android, and iOS.",
+  "sub_domain": "input-controllers",
+  "score": 8,
+  "score_rationale": "Indispensable SDL controller mapping database with 1.7k stars, continuously updated by the community, and integrated into virtually every SDL-based game for out-of-the-box controller support.",
+  "stars": 1700,
+  "language": "Python",
+  "license": "Zlib",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "input-controllers"
+  ],
+  "quality_score": 73.8,
+  "tags": [
+    "sdl",
+    "gamepad-mapping",
+    "database"
+  ],
+  "category": "Game Input Database",
+  "summary": "Community controller mapping database for SDL games",
+  "slug": "mdqinc-sdl-gamecontrollerdb"
+}

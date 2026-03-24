@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/zeux/meshoptimizer",
+  "name": "zeux/meshoptimizer",
+  "description": "Mesh optimization library that makes meshes smaller and faster to render by optimizing vertex cache, overdraw, and vertex fetch, with built-in geometry compression. Includes gltfpack CLI for full glTF pipeline optimization.",
+  "sub_domain": "asset-formats",
+  "score": 9,
+  "score_rationale": "Widely adopted, high-quality mesh compression and optimization library with 7.4k stars, MIT licensed, and actively maintained \u2014 essential for production asset pipelines.",
+  "stars": 7400,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-12-01",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 85.0,
+  "tags": [
+    "mesh-compression",
+    "vertex-optimization",
+    "gltf"
+  ],
+  "category": "Mesh Optimization",
+  "summary": "Mesh compression and optimization for faster rendering with vertex cache tuning",
+  "slug": "zeux-meshoptimizer"
+}

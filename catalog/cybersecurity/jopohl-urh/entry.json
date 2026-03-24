@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/jopohl/urh",
+  "name": "jopohl/urh",
+  "description": "Universal Radio Hacker: a complete suite for wireless protocol investigation with native SDR support, signal demodulation, protocol analysis, and fuzzing capabilities.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 9,
+  "score_rationale": "Gold-standard RF protocol analysis tool with 12k+ stars, actively updated through late 2025, widely used in RF security research.",
+  "stars": 12299,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-19",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 86.7,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "jopohl-urh"
+}

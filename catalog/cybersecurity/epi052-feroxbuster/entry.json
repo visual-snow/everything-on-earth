@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/epi052/feroxbuster",
+  "name": "epi052/feroxbuster",
+  "description": "Fast, simple, recursive content discovery tool written in Rust performing forced browsing to enumerate unlinked web resources and hidden directories.",
+  "sub_domain": "webapp-security",
+  "score": 8,
+  "score_rationale": "7.6k stars, fast Rust-based web content discovery tool widely used in bug bounty and pentesting.",
+  "stars": 7600,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2025-06-01",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 79.0,
+  "tags": [
+    "web-security",
+    "vulnerability",
+    "injection"
+  ],
+  "category": "Web Security",
+  "summary": "Web application security testing",
+  "slug": "epi052-feroxbuster"
+}

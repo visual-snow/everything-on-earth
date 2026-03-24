@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/notyetgames/dlgsystem",
+  "name": "NotYetGames/DlgSystem",
+  "description": "A free, source-available dialogue plugin for Unreal Engine 5 with graph-based editing, Blueprint and C++ support, event/condition systems, and plain-text import/export. Used in commercial titles like The Ascent.",
+  "sub_domain": "dialogue-narrative",
+  "score": 7,
+  "score_rationale": "Well-established Unreal Engine dialogue plugin with 597 stars, actively maintained for UE 5.x, proven in commercial game development.",
+  "stars": 597,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 64.2,
+  "tags": [
+    "unreal-engine",
+    "dialogue",
+    "graph-editor",
+    "dialogue-system"
+  ],
+  "category": "Unreal Dialogue",
+  "summary": "Production-proven dialogue plugin for Unreal Engine with graph editing",
+  "slug": "notyetgames-dlgsystem"
+}

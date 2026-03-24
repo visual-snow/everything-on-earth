@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/phaserjs/phaser",
+  "name": "phaserjs/phaser",
+  "description": "Phaser is a fun, free, and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering. The most popular dedicated HTML5 game framework.",
+  "sub_domain": "web-game-engines",
+  "score": 10,
+  "score_rationale": "39.2k stars, the de-facto standard for HTML5 2D game development with 10+ years of active development, vast community, and extensive plugin library.",
+  "stars": 39200,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-05-23",
+  "found_in_domains": [
+    "web-game-engines"
+  ],
+  "quality_score": 96.7,
+  "tags": [
+    "html5",
+    "2d-games",
+    "javascript",
+    "canvas",
+    "webgl"
+  ],
+  "category": "Web 2D Game Framework",
+  "summary": "Industry-standard HTML5 2D game framework with 39k stars and decade of active development",
+  "slug": "phaserjs-phaser"
+}

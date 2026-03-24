@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/yara-rules/rules",
+  "name": "Yara-Rules/rules",
+  "description": "Community-maintained centralized repository of YARA signatures for malware detection, covering malware families, anti-analysis techniques, exploit kits, and webshells.",
+  "sub_domain": "SIEM / SOC / Threat Detection",
+  "score": 8,
+  "score_rationale": "Well-established YARA rule collection with 4.7k stars serving as a community standard for malware detection signatures integrated into many security tools.",
+  "stars": 4700,
+  "language": "YARA",
+  "license": "GPL-2.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 77.4,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "yara-rules-rules"
+}

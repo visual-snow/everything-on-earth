@@ -1,0 +1,57 @@
+{
+  "name": "Kamailio",
+  "repo_url": "https://github.com/kamailio/kamailio",
+  "description": "Open-source SIP signaling server for large-scale VoIP and real-time communication deployments, originally SIP Express Router (SER). Supports telephony carriers and communication service providers with flexibility, robustness, and strong security.",
+  "domain": "real-time-communications",
+  "secondary_domains": [
+    "sip-signaling",
+    "telephony-carrier",
+    "voip-routing"
+  ],
+  "protocols": [
+    "SIP",
+    "SIP-T",
+    "WebSocket"
+  ],
+  "provides": [
+    "sip-proxy",
+    "websocket-sip-gateway",
+    "ims-core-support",
+    "sip-registrar",
+    "sip-b2bua",
+    "config-mutation",
+    "voip-signaling",
+    "sip-router",
+    "tls-sip-termination",
+    "kamailio-scripting"
+  ],
+  "needs": [
+    "sip-ua-client",
+    "rtp-media-server",
+    "database-backend",
+    "dns-server"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "kamailio/kamailio-ci",
+    "compose_services_count": 0,
+    "docker_evidence": "Official docker images repository at kamailio/kamailio-docker; Docker Hub images with tags master, master-alpine, latest, latest-alpine, and versioned releases (5.4, 5.3, etc.)"
+  },
+  "github_metrics": {
+    "stars": 2800,
+    "last_commit": "2024-12-08",
+    "language": "C",
+    "license": "GPLv2"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Industry-standard SIP server with 2.8k stars and 20+ years of development. Perfect for testing SIP routing, registration, and call processing scenarios in agentic evaluations. Extensive module ecosystem for IMS, WebSocket, TLS.",
+  "related_repos": [
+    "https://github.com/kamailio/kamailio-docker",
+    "https://github.com/kamailio/pkg-kamailio-docker"
+  ],
+  "_sources": [
+    "discovery/signaling.json"
+  ],
+  "slug": "kamailio"
+}

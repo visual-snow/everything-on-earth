@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/matanolabs/matano",
+  "name": "matanolabs/matano",
+  "description": "Matano is an open-source, serverless security data lake platform built on AWS that normalizes and stores security logs from 50+ sources using Apache Iceberg with ECS schemas. It enables threat hunting and detection through Python-based rules with full data ownership.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 7,
+  "score_rationale": "Innovative cloud-native security data lake with 1.7k stars, filling a gap for organizations needing scalable open-source SIEM alternatives on AWS.",
+  "stars": 1700,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2024-05-26",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 67.8,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Matano is an open-source, serverless security data lake platform built on AWS that normalizes and st",
+  "slug": "matanolabs-matano"
+}

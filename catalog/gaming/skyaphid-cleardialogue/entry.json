@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/skyaphid/cleardialogue",
+  "name": "SkyAphid/ClearDialogue",
+  "description": "A free open-source engine-agnostic branching dialogue editor for video games, built with Java, featuring node-based editing and JSON export for any game engine integration.",
+  "sub_domain": "dialogue-narrative",
+  "score": 3,
+  "score_rationale": "Engine-agnostic branching dialogue editor with only 34 stars, last updated in 2019 \u2014 effectively abandoned and superseded by more active tools.",
+  "stars": 34,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2019-05-07",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 30.4,
+  "tags": [
+    "dialogue-editor",
+    "branching-dialogue",
+    "node-based",
+    "json-export"
+  ],
+  "category": "Dialogue Editor",
+  "summary": "Legacy engine-agnostic branching dialogue editor abandoned in 2019",
+  "slug": "skyaphid-cleardialogue"
+}

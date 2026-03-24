@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/meirwah/awesome-incident-response",
+  "name": "meirwah/awesome-incident-response",
+  "description": "A curated list of tools and resources for security incident response and DFIR teams, covering adversary emulation, forensic analysis, memory investigation, log analysis, and incident response playbooks across Windows, Linux, and macOS.",
+  "sub_domain": "awesome-lists",
+  "score": 8,
+  "score_rationale": "Authoritative incident response and DFIR resource list with 8.9k stars, last updated February 2024, covering the full IR lifecycle.",
+  "stars": 8900,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-02-14",
+  "found_in_domains": [
+    "awesome-lists",
+    "forensics-ir"
+  ],
+  "quality_score": 79.6,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated list of tools and resources for security incident response and DFIR teams, covering advers",
+  "slug": "meirwah-awesome-incident-response"
+}

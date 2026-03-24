@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/n0kovo/awesome-password-cracking",
+  "name": "n0kovo/awesome-password-cracking",
+  "description": "Curated list of tools, research, papers, and other projects related to password cracking and password security, organized into categories covering hashcat, John the Ripper, wordlists, and ML approaches.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 7,
+  "score_rationale": "Comprehensive reference list with 908 stars that serves as the canonical index for the password cracking ecosystem.",
+  "stars": 908,
+  "language": null,
+  "license": null,
+  "last_activity": "2022-08-22",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 65.7,
+  "tags": [
+    "hash-cracking",
+    "password-cracking",
+    "pe-format"
+  ],
+  "category": "Password Cracker",
+  "summary": "Curated list of tools, research, papers, and other projects related to password cracking and pass...",
+  "slug": "n0kovo-awesome-password-cracking"
+}

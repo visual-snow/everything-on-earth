@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/auburn/fastnoiselite",
+  "name": "Auburn/FastNoiseLite",
+  "description": "An extremely portable noise generation library supporting Perlin, Simplex, Value, Cellular, and Domain Warp noise across C#, C++, C, Java, HLSL, GLSL, JavaScript, Rust, and Go from a single header or file. Designed for real-time terrain and texture generation.",
+  "sub_domain": "procedural-generation",
+  "score": 10,
+  "score_rationale": "The dominant portable noise library with multi-language support and widespread adoption across game engines and graphics pipelines.",
+  "stars": 3500,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2024-08-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 88.4,
+  "tags": [
+    "noise-generation",
+    "perlin",
+    "simplex",
+    "multi-language",
+    "procedural"
+  ],
+  "category": "Noise Generation Library",
+  "summary": "Dominant portable noise library supporting 9+ languages and noise types for terrain/texture generation.",
+  "slug": "auburn-fastnoiselite"
+}

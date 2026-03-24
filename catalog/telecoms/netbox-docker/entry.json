@@ -1,0 +1,56 @@
+{
+  "name": "NetBox Docker",
+  "repo_url": "https://github.com/netbox-community/netbox-docker",
+  "description": "Docker image of NetBox, the premier network source of truth powering network automation with IPAM and DCIM.",
+  "domain": "infrastructure-management",
+  "secondary_domains": [
+    "netconf"
+  ],
+  "protocols": [
+    "HTTP/REST API",
+    "GraphQL"
+  ],
+  "provides": [
+    "ipam-management",
+    "dcim-inventory",
+    "network-source-of-truth",
+    "rest-api-server",
+    "graphql-api",
+    "web-dashboard",
+    "ip-prefix-management",
+    "vlan-management",
+    "rack-management",
+    "device-inventory",
+    "cable-management",
+    "circuit-tracking",
+    "virtualization-inventory"
+  ],
+  "needs": [
+    "postgresql",
+    "redis",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "netboxcommunity/netbox",
+    "compose_services_count": 5,
+    "docker_evidence": "Images built regularly and pushed to Docker Hub, Quay.io and GitHub Container Registry."
+  },
+  "github_metrics": {
+    "stars": 2500,
+    "last_commit": "2026-03-10",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Network source of truth and IPAM/DCIM. Essential for evaluations involving network inventory management, IP address planning, and automation integration.",
+  "related_repos": [
+    "https://github.com/netbox-community/netbox",
+    "https://github.com/netbox-community/awesome-netbox"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "netbox-docker"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mikke89/rmlui",
+  "name": "mikke89/RmlUi",
+  "description": "A C++ user interface library implementing HTML/CSS standards for creating interactive in-game UIs. Generates rendering primitives for integration into any renderer, used in shipped games like Killing Time Resurrected.",
+  "sub_domain": "game-ui",
+  "score": 8,
+  "score_rationale": "Production-proven HTML/CSS-based in-game UI library with 3.9k stars, MIT-licensed and actively maintained with real shipped-game usage.",
+  "stars": 3900,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2024-12-17",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 76.7,
+  "tags": [
+    "html-css",
+    "ui",
+    "game-ui",
+    "shipped-games",
+    "production"
+  ],
+  "category": "HTML/CSS Game UI",
+  "summary": "Production-proven HTML/CSS UI library for games",
+  "slug": "mikke89-rmlui"
+}

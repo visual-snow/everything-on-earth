@@ -1,0 +1,67 @@
+{
+  "name": "Osmocom Docker Playground",
+  "repo_url": "https://github.com/osmocom/docker-playground",
+  "description": "Docker containers for the Osmocom cellular telecommunications project. 126 containerized services covering GSM/UMTS infrastructure, SS7/SIGTRAN signaling, and TTCN3 test automation.",
+  "domain": "gsm",
+  "secondary_domains": [
+    "osmocom",
+    "ss7-sigtran",
+    "ttcn3-testing",
+    "umts"
+  ],
+  "protocols": [
+    "SS7",
+    "SIGTRAN",
+    "M3UA",
+    "SCCP",
+    "GSM",
+    "UMTS",
+    "SCTP"
+  ],
+  "provides": [
+    "gsm-sgsn",
+    "gsm-bts",
+    "gsm-msc",
+    "ttcn3-test-automation",
+    "gsm-bsc",
+    "sigtran-sccp",
+    "containerized-telecom-stack",
+    "gsm-hlr",
+    "ss7-stp",
+    "config-mutation",
+    "media-gateway",
+    "umts-core-network",
+    "osmocom-ecosystem",
+    "sigtran-m3ua"
+  ],
+  "needs": [
+    "sctp-support",
+    "linux-kernel-sctp",
+    "docker-engine",
+    "compose-orchestration",
+    "privileged-container-mode"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 126,
+    "docker_evidence": "52.8% of repository is Dockerfiles. 126 directories with containerized services including osmo-bsc, osmo-bts, osmo-msc, osmo-sgsn, osmo-hlr, osmo-mgw, osmo-stp, and TTCN3 test suites."
+  },
+  "github_metrics": {
+    "stars": 23,
+    "last_commit": "2025-01-01",
+    "language": "Dockerfile",
+    "license": "unknown"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Massive Osmocom Docker ecosystem with 126 containerized telecom components. Covers entire GSM/UMTS stack including SS7 STP, BSC, MSC, HLR. TTCN3 test automation provides built-in evaluation framework.",
+  "related_repos": [
+    "https://github.com/osmocom/libosmo-sccp",
+    "https://github.com/osmocom/osmo-hlr"
+  ],
+  "_sources": [
+    "discovery/signaling.json"
+  ],
+  "slug": "osmocom-docker-playground"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/r3nt0n/bopscrk",
+  "name": "r3nt0n/bopscrk",
+  "description": "Targeted-attack wordlist creator that combines personal information about a target with leet-speak transforms, case variations, and lyric integration to generate highly tailored password lists.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 6,
+  "score_rationale": "Useful targeted wordlist generator with 1.1k stars, GPL-3.0 license, and maintained with a 2024 release.",
+  "stars": 1100,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-02-09",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 60.3,
+  "tags": [
+    "password-cracking",
+    "pe-format",
+    "security-tool"
+  ],
+  "category": "Password Cracker",
+  "summary": "Targeted-attack wordlist creator that combines personal information about a target with leet-spea...",
+  "slug": "r3nt0n-bopscrk"
+}

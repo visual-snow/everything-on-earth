@@ -1,0 +1,77 @@
+{
+  "slug": "5g-mag-mbs-examples",
+  "name": "5G-MAG MBS Examples",
+  "what_it_is": "A set of Docker Compose examples for deploying 3GPP Release 17 Multicast-Broadcast Services (MBS) on top of a modified Open5GS 5G core, including MB-SMF, MB-UPF, and MBS-capable gNB/UE simulations. It enables end-to-end testing of point-to-multipoint (PTM) and point-to-point (PTP) 5G MBS delivery within a fully containerized environment.",
+  "components": [
+    "NRF (Network Repository Function, Open5GS)",
+    "AUSF (Authentication Server Function, Open5GS)",
+    "UDM (Unified Data Management, Open5GS)",
+    "UDR (Unified Data Repository, Open5GS)",
+    "NSSF (Network Slice Selection Function, Open5GS)",
+    "BSF (Binding Support Function, Open5GS)",
+    "PCF (Policy Control Function, Open5GS)",
+    "WebUI (Open5GS subscriber management UI)",
+    "AMF with MBS (Access and Mobility Management Function, MBS-enhanced)",
+    "SMF + MB-SMF (Session Management Function + Multicast-Broadcast SMF, MBS-enhanced)",
+    "UPF + MB-UPF (User Plane Function + Multicast-Broadcast UPF, MBS-enhanced)",
+    "Test MBS AF/AS (Application Function / Application Server for MBS testing)",
+    "gNB with MBS (srsRAN_Project-based gNB with MBS support)",
+    "UE with MBS (srsRAN_4G-based UE with MBS support)",
+    "MongoDB (subscriber and policy data store)"
+  ],
+  "protocols": [
+    "NAS",
+    "NGAP",
+    "PFCP",
+    "GTP-U",
+    "SBI (Service-Based Interface, HTTP/2)",
+    "MBS (Multicast-Broadcast Services, 3GPP Rel-17)"
+  ],
+  "measurement": [],
+  "configuration": [
+    "FIVEG_MAG_MBS_VERSION environment variable (controls MBS-enhanced component image tag)",
+    "OPEN5GS_VERSION environment variable (controls standard Open5GS component image tag)",
+    "MONGODB_VERSION environment variable (controls MongoDB image tag)",
+    "Host IP address in .env file (required for UPF NAT routing)",
+    "YAML config files per network function under configs/",
+    "Internal mode (full stack including gNB and UE) vs. external mode (core only, accepts external gNB)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Internal deployment: complete end-to-end stack (5G core + gNB + UE) in a single Docker Compose environment",
+    "External deployment: 5G core only, accepting connections from an external gNB implementation"
+  ],
+  "constraints": [
+    "Requires amd64/x86-64 or arm64 host architecture — no other platforms documented",
+    "Requires Docker with buildx and compose v2 plugins",
+    "UPF and gNB/UE containers require NET_ADMIN capabilities (privileged-mode networking)",
+    "Host IP must be manually specified in .env for UPF NAT routing — no auto-detection",
+    "MBS-enhanced components are pinned to the '5mbs' development branch of upstream projects, not a stable release",
+    "All components run on a single bridge network (10.33.33.0/24) — no multi-host or distributed deployment support documented"
+  ],
+  "docker_services": [
+    "db",
+    "nrf",
+    "ausf",
+    "udm",
+    "udr",
+    "nssf",
+    "bsf",
+    "pcf",
+    "webui",
+    "amf_with_mbs",
+    "smf_mb-smf",
+    "upf_mb-upf",
+    "test_mbs_af_as",
+    "gnb_with_mbs",
+    "ue_with_mbs"
+  ],
+  "notable_absences": [
+    "No built-in traffic generation or load testing beyond the test MBS AF/AS container",
+    "No metrics/observability stack (no Prometheus, Grafana, or equivalent)",
+    "No documented support for 5G SA non-MBS unicast-only scenarios",
+    "No support for N2/N3 interfaces to commercial or third-party RAN other than via the external deployment mode",
+    "No SCTP configuration guidance despite SCTP being required for NGAP",
+    "No Windows or macOS native support — Linux host assumed"
+  ]
+}

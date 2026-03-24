@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/raytracing/raytracing.github.io",
+  "name": "RayTracing/raytracing.github.io",
+  "description": "Official home of the 'Ray Tracing in One Weekend' book series with full C++ source code and free online books covering path tracing fundamentals. The de-facto educational starting point for anyone learning ray tracing.",
+  "sub_domain": "ray-tracing",
+  "score": 10,
+  "score_rationale": "Industry-standard educational resource for ray tracing with 10k+ stars, widely referenced in academia and industry, actively maintained.",
+  "stars": 10200,
+  "language": "C++",
+  "license": "CC0-1.0",
+  "last_activity": "2025-04-25",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 92.1,
+  "tags": [
+    "ray-tracing",
+    "path-tracing",
+    "educational",
+    "rendering",
+    "graphics"
+  ],
+  "category": "Ray Tracing Education",
+  "summary": "Industry-standard 'Ray Tracing in One Weekend' book series with full C++ source code.",
+  "slug": "raytracing-raytracing-github-io"
+}

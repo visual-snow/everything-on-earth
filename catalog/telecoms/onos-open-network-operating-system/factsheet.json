@@ -1,0 +1,61 @@
+{
+  "slug": "onos-open-network-operating-system",
+  "name": "ONOS (Open Network Operating System)",
+  "what_it_is": "ONOS is an open-source SDN controller platform that supports the transition from legacy brown-field networks to SDN green-field networks, providing high availability through clustering, distributed state management, and a pluggable southbound architecture. It exposes northbound abstractions including a global network view, network graph, and application intents, and supports both proactive and reactive flow setup modes.",
+  "components": [
+    "Clustering and distributed state management engine",
+    "Device control sharding for scalability",
+    "Northbound intent framework (global network view, network graph, application intents)",
+    "Southbound provider framework (pluggable protocol drivers)",
+    "REST API server",
+    "CLI (command-line interface)",
+    "Graphical UI with multi-layer topology viewing",
+    "SDN-IP application (BGP interworking with legacy IP networks)",
+    "IP-Optical use case modules",
+    "Bazel-based build system (minimum Bazel 1.0.0, Python 3 required)"
+  ],
+  "protocols": [
+    "OpenFlow",
+    "P4Runtime",
+    "gNMI",
+    "NETCONF",
+    "RESTCONF",
+    "OVSDB",
+    "BGP (via SDN-IP application)"
+  ],
+  "measurement": [
+    "No built-in telemetry or streaming metrics pipeline documented in README",
+    "gNMI southbound support enables device-level telemetry subscription",
+    "REST API can be polled for topology and flow state"
+  ],
+  "configuration": [
+    "Network configuration pushed via REST API (JSON-based network config subsystem)",
+    "CLI for runtime configuration and debugging",
+    "Bazel build configuration for component inclusion",
+    "Environment variables and JVM flags for cluster node discovery"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework documented",
+    "Cluster node removal/isolation can be simulated manually via network partitioning"
+  ],
+  "modes": [
+    "Proactive flow setup (pre-programmed forwarding rules)",
+    "Reactive flow setup (on-demand rule installation triggered by packet-in events)",
+    "Standalone single-node mode",
+    "Clustered high-availability mode (multi-node)"
+  ],
+  "constraints": [
+    "Requires Bazel minimum version 1.0.0 and Python 3 for building from source",
+    "High-availability clustering requires manual cluster formation and node address configuration",
+    "No documented built-in fault injection or chaos testing support",
+    "Southbound protocol support is driver-dependent — not all protocols available for all device types"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found at repository root (404 on master branch)",
+    "No built-in network traffic measurement or telemetry aggregation pipeline",
+    "No documented security or authentication configuration beyond basic UI credentials",
+    "No built-in fault injection or chaos engineering tooling",
+    "No documented performance benchmarks or scalability limits in README"
+  ]
+}

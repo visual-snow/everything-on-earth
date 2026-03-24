@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/honggfuzz",
+  "name": "google/honggfuzz",
+  "description": "Google's security-oriented, feedback-driven evolutionary fuzzer using both software and hardware code coverage (Intel BTS/PT), supporting multi-process/multi-threaded persistent fuzzing.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 9,
+  "score_rationale": "Production-grade fuzzer from Google with 3.3k stars, proven to find vulnerabilities in OpenSSL, Apache HTTPD, and other critical software.",
+  "stars": 3300,
+  "language": "C",
+  "license": "Apache-2.0",
+  "last_activity": "2024-07-20",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 82.1,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "google-honggfuzz"
+}

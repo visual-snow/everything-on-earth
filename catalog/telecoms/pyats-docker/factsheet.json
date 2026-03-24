@@ -1,0 +1,60 @@
+{
+  "slug": "pyats-docker",
+  "name": "Cisco pyATS Docker Image",
+  "what_it_is": "Official Docker image for Cisco's pyATS (Python Automated Test Systems) framework, providing a pre-configured Python virtual environment for network test automation. Ships as ciscotestautomation/pyats on Docker Hub with multiple image variants targeting different use cases and architectures.",
+  "components": [
+    "pyATS core framework (installed in /pyats virtualenv)",
+    "pyATS full extras variant (pyats[full])",
+    "tini init process (v0.18.0, zombie process reaper)",
+    "docker-entrypoint.sh (workspace activation and one-time init logic)",
+    "easypy test runner (CLI for running pyATS job files)",
+    "Python 3.9 runtime (slim base image)"
+  ],
+  "protocols": [
+    "SSH (openssh-client installed for device connectivity)",
+    "ICMP/ping (iputils-ping installed)",
+    "Telnet (telnet client installed)"
+  ],
+  "measurement": [
+    "Test job execution via easypy runner (pass/fail results)",
+    "No built-in metrics export or time-series measurement; results captured by pyATS job output"
+  ],
+  "configuration": [
+    "WORKSPACE env var (default /pyats) — sets virtualenv and working directory",
+    "pyats_version build arg — controls installed pyATS version",
+    "Volume-mount /pyats/requirements.txt to auto-install pip packages on first container start",
+    "Volume-mount /pyats/workspace.init bash script for custom initialization (git clone, ssh-keyscan, dev installs)",
+    "One-time init guarded by /pyats/.initialized sentinel file — re-mount new container to re-run init"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Python interactive shell (default CMD: python)",
+    "Bash shell (docker run ... /bin/bash)",
+    "Direct test job execution (docker run ... easypy <job.py>)",
+    "Standard image (python:3.9-slim base, release/Dockerfile)",
+    "Full image variant (pyats[full] extras, release/full/Dockerfile)",
+    "Alpine image variant (musl-based, lighter footprint)",
+    "Alpine-full image variant (full extras on Alpine)",
+    "aarch64 image variant (ARM64 architecture)"
+  ],
+  "constraints": [
+    "One-time initialization: /pyats/.initialized sentinel prevents requirements.txt and workspace.init from re-running on container restart — must start a fresh container to re-trigger init",
+    "No docker-compose.yml provided in the repository — single-container usage only; multi-container orchestration must be user-defined",
+    "Workspace volume (/pyats) declared as Docker volume, so container content persists between reloads but init scripts only execute once per container lifecycle",
+    "Network device connections depend on external device availability — the image provides SSH/Telnet clients but no simulated device environment"
+  ],
+  "docker_services": [
+    "ciscotestautomation/pyats:latest (standard slim image)",
+    "ciscotestautomation/pyats:<version>-full (full extras variant)",
+    "ciscotestautomation/pyats:<version>-alpine (Alpine-based)",
+    "ciscotestautomation/pyats:<version>-alpine-full (Alpine full extras)",
+    "ciscotestautomation/pyats:<version> (pinned version tags available on Docker Hub)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in repo — no pre-built multi-service topology",
+    "No simulated/virtual network devices bundled — real or separately provisioned devices required for end-to-end testing",
+    "No test result export integrations (e.g., JUnit XML, Prometheus) out of the box",
+    "No pre-installed Genie or unicon libraries in base image (available in full variant only)",
+    "No CI/CD pipeline configuration examples in the repository"
+  ]
+}

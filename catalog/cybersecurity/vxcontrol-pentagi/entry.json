@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/vxcontrol/pentagi",
+  "name": "vxcontrol/pentagi",
+  "description": "A fully autonomous AI agents system capable of performing complex penetration testing tasks, integrating 20+ professional security tools including nmap, metasploit, and sqlmap with an AI orchestration layer.",
+  "sub_domain": "pentest-frameworks",
+  "score": 8,
+  "score_rationale": "Emerging AI-powered autonomous pentest platform with 13.3k stars and active development, representing next-generation automation in security testing.",
+  "stars": 13300,
+  "language": "Go",
+  "license": "proprietary",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "pentest-frameworks"
+  ],
+  "quality_score": 81.0,
+  "tags": [
+    "pe-format",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Security Tool",
+  "summary": "A fully autonomous AI agents system capable of performing complex penetration testing tasks, inte...",
+  "slug": "vxcontrol-pentagi"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mxgmn/markovjunior",
+  "name": "mxgmn/MarkovJunior",
+  "description": "A probabilistic language based on pattern matching and constraint propagation that unifies constructive and constraint-based procedural generation with 153 included examples. Generates everything from mazes to voxel scenes entirely through rewrite rules.",
+  "sub_domain": "procedural-generation",
+  "score": 9,
+  "score_rationale": "Highly original system from the WFC author pushing the state of the art in grid-based procedural generation with broad academic and game-dev interest.",
+  "stars": 8000,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2024-03-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 85.2,
+  "tags": [
+    "markov-chain",
+    "procedural-generation",
+    "constraint-propagation",
+    "dsl",
+    "generation"
+  ],
+  "category": "Procedural Generation Language",
+  "summary": "Probabilistic language unifying constructive and constraint-based procedural generation with 153 examples.",
+  "slug": "mxgmn-markovjunior"
+}

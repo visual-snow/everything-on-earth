@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/megadose/toutatis",
+  "name": "megadose/toutatis",
+  "description": "Tool that extracts information from Instagram accounts including emails, phone numbers and other metadata by leveraging Instagram's API.",
+  "sub_domain": "osint-recon",
+  "score": 6,
+  "score_rationale": "3.8k stars for a specialized Instagram OSINT tool, but last active in 2024 and narrowly scoped to a single platform.",
+  "stars": 3800,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-12-05",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 64.6,
+  "tags": [
+    "api-security",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Security Tool",
+  "summary": "Tool that extracts information from Instagram accounts including emails, phone numbers and other ...",
+  "slug": "megadose-toutatis"
+}

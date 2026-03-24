@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/bishopfox/cloudfox",
+  "name": "BishopFox/cloudfox",
+  "description": "Open-source command-line tool for penetration testers to find exploitable attack paths in cloud infrastructure across AWS (34 commands), Azure, and GCP (60 commands).",
+  "sub_domain": "container-cloud-security",
+  "score": 8,
+  "score_rationale": "2.3k stars by Bishop Fox (leading security firm), providing specialized cloud penetration testing capabilities across multiple providers with active development.",
+  "stars": 2300,
+  "language": "Go",
+  "license": null,
+  "last_activity": "2024-12-08",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 74.9,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "bishopfox-cloudfox"
+}

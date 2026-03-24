@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/assimp/assimp",
+  "name": "assimp/assimp",
+  "description": "The Open Asset Import Library (Assimp) loads 40+ 3D file formats into one unified and clean data structure. Industry-standard C++ library widely used in game engines, editors, and converters.",
+  "sub_domain": "asset-formats",
+  "score": 10,
+  "score_rationale": "Industry-standard 3D asset importer supporting 40+ formats, actively maintained with 12.8k stars and used across countless game engines and tools.",
+  "stars": 12800,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-01-24",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 92.9,
+  "tags": [
+    "3d-formats",
+    "asset-import",
+    "format-loader"
+  ],
+  "category": "3D Import Library",
+  "summary": "Industry-standard 3D asset importer for 40+ formats with unified data structure",
+  "slug": "assimp-assimp"
+}

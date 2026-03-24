@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tomnomnom/waybackurls",
+  "name": "tomnomnom/waybackurls",
+  "description": "Accepts line-delimited domains on stdin and fetches all known URLs from the Wayback Machine for wildcard domain patterns, outputting them to stdout.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 7,
+  "score_rationale": "Classic and reliable URL discovery tool with 4.4k stars from tomnomnom, a foundational tool in bug bounty recon workflows despite its minimal footprint.",
+  "stars": 4400,
+  "language": "Go",
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 71.1,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Accepts line-delimited domains on stdin and fetches all known URLs from the Wayback Machine for wild",
+  "slug": "tomnomnom-waybackurls"
+}

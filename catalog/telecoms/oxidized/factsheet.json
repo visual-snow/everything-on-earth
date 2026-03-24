@@ -1,0 +1,62 @@
+{
+  "slug": "oxidized",
+  "name": "Oxidized",
+  "what_it_is": "Oxidized is a network device configuration backup tool and modern RANCID replacement that automatically retrieves and versions configurations from 130+ network OS types. It provides Git-based versioning, a REST API, syslog-driven change detection, and an extensible hook system for notifications.",
+  "components": [
+    "Threading engine for parallel device retrieval (auto-scales thread count to meet configured interval)",
+    "REST API server for node management and configuration fetching",
+    "Syslog UDP/file listener for change-event capture with user attribution",
+    "Model-based device handlers (130+ OS types)",
+    "YAML configuration parser with layered merge (system-wide + user-specific)",
+    "Hook system for external integrations (Exec, GitHub, AWS SNS, Slack, XMPP, Cisco Spark/Webex)"
+  ],
+  "protocols": [
+    "SSH (with optional exec-channel disabling)",
+    "Telnet",
+    "SNMP (implied via broad OS support)",
+    "HTTP/HTTPS (source input and output destination)"
+  ],
+  "measurement": [
+    "No built-in metrics endpoint documented",
+    "Version history and diffs via REST API (/node/version)",
+    "Git blame tracks which user triggered configuration changes",
+    "Syslog events capture config-change timestamps and user attribution"
+  ],
+  "configuration": [
+    "Primary config file: /etc/oxidized/config (YAML) or ~/.config/oxidized/config, merged in order",
+    "OXIDIZED_HOME env var overrides default config directory",
+    "Sources configurable: CSV (RANCID router.db), SQLite, MySQL, HTTP endpoint",
+    "Outputs configurable: file, Git, Git-Crypt, HTTP POST",
+    "Credentials and privileged-mode access defined per model or group",
+    "Threading interval and concurrency tunable in YAML config"
+  ],
+  "fault_injection": [
+    "No native fault-injection or chaos capabilities documented",
+    "Hook system (Exec hook) can run arbitrary commands on events, enabling external fault triggers",
+    "Syslog listener can be targeted with synthetic syslog messages to simulate config-change events"
+  ],
+  "modes": [
+    "Continuous polling mode (default): retrieves configs on a recurring interval",
+    "On-demand fetch via REST API (GET /node/fetch/[NODE])",
+    "Priority queue mode: PUT /node/next/[NODE] moves a node to the head of the queue",
+    "Daemon mode with systemd service file provided"
+  ],
+  "constraints": [
+    "Must NOT be run as root; a dedicated non-root system user is required",
+    "Requires Ruby runtime and optional gems for web UI and script extensions",
+    "Supported only on Debian 12+, Ubuntu 22.04+, Rocky Linux 9+, RHEL, Fedora, FreeBSD 14.2+ (or from source)",
+    "No documented hard cap on concurrent devices, but thread count must be tuned to meet retrieval interval",
+    "Git output backend requires a pre-initialized Git repository accessible by the oxidized user"
+  ],
+  "docker_services": [
+    "Docker and Podman deployment supported (referenced in README as documented separately); no docker-compose.yml found in repository root"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in repository root (404 on fetch)",
+    "No built-in metrics or Prometheus endpoint",
+    "No native fault-injection or network simulation capabilities",
+    "No TLS/HTTPS on the REST API documented natively",
+    "No scalability benchmarks or hard concurrency limits documented",
+    "No built-in backup recovery or restore workflow documented"
+  ]
+}

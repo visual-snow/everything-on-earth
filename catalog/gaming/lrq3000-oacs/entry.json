@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lrq3000/oacs",
+  "name": "lrq3000/oacs",
+  "description": "An open-source Python/ML framework for developing server-side anti-cheating systems, originally built for anomaly detection in real-time games using machine learning algorithms.",
+  "sub_domain": "game-devops-analytics",
+  "score": 3,
+  "score_rationale": "29 stars, research-grade proof-of-concept ML anti-cheat framework with limited adoption and unclear maintenance status.",
+  "stars": 29,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 29.8,
+  "tags": [
+    "anti-cheat",
+    "machine-learning",
+    "anomaly-detection",
+    "python",
+    "research"
+  ],
+  "category": "ML Anti-Cheat System",
+  "summary": "ML-based anomaly detection framework for server-side anti-cheat systems",
+  "slug": "lrq3000-oacs"
+}

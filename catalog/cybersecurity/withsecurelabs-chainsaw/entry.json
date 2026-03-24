@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/withsecurelabs/chainsaw",
+  "name": "WithSecureLabs/chainsaw",
+  "description": "A rapid Windows forensic artifact searching and threat hunting tool written in Rust. Provides fast Sigma rule detection against event logs, MFT analysis, and Shimcache/Amcache execution timeline creation for quick incident triage.",
+  "sub_domain": "forensics-ir",
+  "score": 8,
+  "score_rationale": "Widely-used Windows forensic triage tool with 3.5k stars and a February 2026 release, favored for its speed and integration with Sigma detection rules.",
+  "stars": 3500,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-14",
+  "found_in_domains": [
+    "forensics-ir"
+  ],
+  "quality_score": 76.4,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "withsecurelabs-chainsaw"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zylann/godot_voxel",
+  "name": "Zylann/godot_voxel",
+  "description": "A C++ module/GDExtension for creating volumetric terrains in Godot Engine 4, supporting blocky Minecraft-style terrain, smooth marching-cube terrain, level of detail, and infinite streaming.",
+  "sub_domain": "voxel-engines",
+  "score": 8,
+  "score_rationale": "3.6k stars, the definitive voxel terrain solution for Godot with active February 2026 releases and comprehensive LOD/streaming capabilities.",
+  "stars": 3600,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-02-04",
+  "found_in_domains": [
+    "voxel-engines"
+  ],
+  "quality_score": 76.5,
+  "tags": [
+    "godot",
+    "voxel",
+    "terrain",
+    "lod",
+    "streaming"
+  ],
+  "category": "Godot Voxel Extension",
+  "summary": "Godot voxel terrain extension with LOD and infinite streaming support",
+  "slug": "zylann-godot-voxel"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "ETSI Open Source MANO (OSM)",
+  "repo_url": "https://osm.etsi.org/gitweb",
+  "description": "ETSI-hosted project providing an open source NFV Management and Orchestration (MANO) software stack aligned with ETSI NFV standards. Supports cloud-native orchestration with Docker-based deployment.",
+  "domain": "cloud-native-nfv",
+  "secondary_domains": [
+    "etsi-mano",
+    "network-service-lifecycle"
+  ],
+  "protocols": [
+    "ETSI NFV MANO",
+    "SOL005",
+    "SOL006",
+    "OpenStack",
+    "Kubernetes"
+  ],
+  "provides": [
+    "vnf-lifecycle-management",
+    "vnf-onboarding",
+    "nbi-sol005-api",
+    "web-dashboard",
+    "config-mutation",
+    "resource-orchestrator",
+    "policy-management",
+    "vnf-monitoring",
+    "cloud-native-orchestration",
+    "network-service-orchestration",
+    "nfv-mano-orchestration",
+    "multi-vim-support"
+  ],
+  "needs": [
+    "mongodb",
+    "kafka",
+    "kubernetes-cluster",
+    "openstack-endpoint",
+    "docker-compose-v2",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "opensourcemano",
+    "compose_services_count": 10,
+    "docker_evidence": "OSM installations use pre-built docker images. Installation creates multiple docker containers: NBI, RO, LCM, MON, POL, and supporting services. Configured via /etc/osm/docker/docker-compose.yaml."
+  },
+  "github_metrics": {
+    "stars": 0,
+    "last_commit": "2026-02",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "The reference ETSI NFV MANO implementation. Release NINETEEN (Feb 2026) extends cloud-native orchestration. Complex multi-service docker-compose. Good for testing NFV lifecycle management, VNF onboarding, and network service orchestration.",
+  "related_repos": [
+    "https://github.com/containernet/vim-emu",
+    "https://github.com/nfvlabs/openmano",
+    "https://github.com/akkodis/osm"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "etsi-open-source-mano-osm"
+}

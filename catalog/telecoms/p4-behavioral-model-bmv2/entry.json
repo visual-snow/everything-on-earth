@@ -1,0 +1,57 @@
+{
+  "name": "P4 Behavioral Model (bmv2)",
+  "repo_url": "https://github.com/p4lang/behavioral-model",
+  "description": "The reference P4 software switch. Takes JSON from P4 compiler and interprets it to implement packet-processing behavior. Includes simple_switch, simple_switch_grpc, and psa_switch targets.",
+  "domain": "network-function-prototyping",
+  "secondary_domains": [
+    "p4-programmable-dataplane",
+    "sdn-data-plane",
+    "software-switch"
+  ],
+  "protocols": [
+    "P4",
+    "P4Runtime",
+    "Thrift"
+  ],
+  "provides": [
+    "p4-software-switch",
+    "programmable-dataplane",
+    "p4runtime-server",
+    "packet-processing-pipeline",
+    "simple-switch-target",
+    "psa-switch-target",
+    "thrift-control-plane",
+    "grpc-control-plane"
+  ],
+  "needs": [
+    "p4-compiler-output",
+    "p4c-json-artifacts",
+    "control-plane-application",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "p4lang/behavioral-model",
+    "compose_services_count": 0,
+    "docker_evidence": "Official Docker image p4lang/behavioral-model on Docker Hub. Multiple Dockerfiles: Dockerfile and Dockerfile.noPI. Community image cslev/p4-bmv2-docker also available."
+  },
+  "github_metrics": {
+    "stars": 630,
+    "last_commit": "2025-01-09",
+    "language": "C++",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Reference P4 switch for developing and testing P4 data planes. Not production-grade but essential for P4 development and education. Docker images enable quick lab setup for programmable data plane testing.",
+  "related_repos": [
+    "https://github.com/p4lang/p4c",
+    "https://github.com/p4lang/pi",
+    "https://github.com/stratum/stratum",
+    "https://github.com/cslev/p4-bmv2-docker"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "p4-behavioral-model-bmv2"
+}

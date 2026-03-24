@@ -1,0 +1,66 @@
+{
+  "name": "Telegraf",
+  "repo_url": "https://github.com/influxdata/telegraf",
+  "description": "Plugin-driven server agent for collecting, processing, aggregating, and writing metrics. Over 300 plugins covering SNMP, NetFlow, gNMI, system stats, and more.",
+  "domain": "netconf",
+  "secondary_domains": [],
+  "protocols": [
+    "SNMP",
+    "SNMPv3",
+    "NetFlow v5/v9",
+    "IPFIX",
+    "gNMI",
+    "OpenConfig",
+    "sFlow",
+    "MQTT",
+    "HTTP"
+  ],
+  "provides": [
+    "sflow-collection",
+    "snmpv3-polling",
+    "plugin-driven-agent",
+    "ipfix-collection",
+    "prometheus-output",
+    "mqtt-ingestion",
+    "snmp-polling",
+    "metrics-aggregation",
+    "metrics-pipeline",
+    "gnmi-subscription",
+    "streaming-telemetry",
+    "system-stats-collection",
+    "netflow-collection",
+    "openconfig-telemetry",
+    "influxdb-output"
+  ],
+  "needs": [
+    "metrics-backend",
+    "influxdb-or-prometheus",
+    "network-device-with-snmp",
+    "gnmi-capable-device",
+    "netflow-exporter"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "telegraf",
+    "compose_services_count": 0,
+    "docker_evidence": "Official Docker image available on Docker Hub. Docker Log Input Plugin tails container logs in real-time."
+  },
+  "github_metrics": {
+    "stars": 15000,
+    "last_commit": "2026-03-01",
+    "language": "Go",
+    "license": "MIT"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Swiss-army knife for network telemetry collection. Agents can evaluate SNMP polling, NetFlow collection, gNMI subscriptions, and data pipeline configuration tasks.",
+  "related_repos": [
+    "https://github.com/influxdata/influxdb",
+    "https://github.com/network-automate/tig-network-monitoring",
+    "https://github.com/xaviervalette/cisco-devnet-mdt-tig"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "telegraf"
+}

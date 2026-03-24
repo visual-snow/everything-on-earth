@@ -1,0 +1,68 @@
+{
+  "name": "Ella Core",
+  "repo_url": "https://github.com/ellanetworks/core",
+  "description": "Lightweight 5G core for private networks. Single binary with embedded database, eBPF-based data plane delivering 10+ Gbps throughput and sub-millisecond latency.",
+  "domain": "5g-core",
+  "secondary_domains": [
+    "ebpf-upf",
+    "lightweight-core",
+    "private-network",
+    "standalone-5g"
+  ],
+  "protocols": [
+    "NAS",
+    "NGAP",
+    "PFCP",
+    "GTP-U",
+    "SBI"
+  ],
+  "provides": [
+    "nas-protocol-handling",
+    "sbi-rest-interface",
+    "5g-core-nrf",
+    "embedded-database",
+    "single-binary-core",
+    "ebpf-data-plane",
+    "web-dashboard",
+    "5g-core-udm",
+    "pfcp-session-management",
+    "gtp-u-tunneling",
+    "private-5g-core",
+    "5g-core-amf",
+    "config-mutation",
+    "ngap-protocol-handling",
+    "5g-core-smf",
+    "5g-core-upf",
+    "5g-core-ausf"
+  ],
+  "needs": [
+    "linux-kernel-5.15+",
+    "ebpf-support",
+    "sctp-support",
+    "ueransim-or-gnb-simulator",
+    "privileged-container-mode"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Packaged as a container image; docker-compose examples in documentation for end-to-end testing with UERANSIM"
+  },
+  "github_metrics": {
+    "stars": 68,
+    "last_commit": "2026",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Unique single-binary approach makes it the simplest to deploy. Minimal resource requirements (1 CPU, 1GB RAM). eBPF data plane is cutting-edge. Good for testing private 5G network scenarios.",
+  "related_repos": [
+    "https://github.com/free5gc/free5gc",
+    "https://github.com/edgecomllc/eupf"
+  ],
+  "_sources": [
+    "discovery/5g-core.json"
+  ],
+  "slug": "ella-core"
+}

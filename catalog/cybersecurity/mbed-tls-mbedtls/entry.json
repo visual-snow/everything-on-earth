@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mbed-tls/mbedtls",
+  "name": "Mbed-TLS/mbedtls",
+  "description": "A portable, easy-to-use TLS library and reference implementation of the PSA Cryptography API, designed for embedded systems with a footprint under 60KB. Supports X.509, TLS/DTLS, and a wide range of cipher suites.",
+  "sub_domain": "cryptography",
+  "score": 9,
+  "score_rationale": "Industry-standard embedded TLS library with 6.5k stars, reaching the major 4.0.0 milestone in October 2025 and actively maintained.",
+  "stars": 6500,
+  "language": "C",
+  "license": "Apache-2.0",
+  "last_activity": "2025-10-15",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 84.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "mbed-tls-mbedtls"
+}

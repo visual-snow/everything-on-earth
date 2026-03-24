@@ -34,11 +34,11 @@ Generate capability documentation from a catalog using a Researcher → Writer �
 
 Required arguments:
 - `--catalog PATH` — path to catalog.json (array of entries — minimum required fields: name, repo_url, description)
-- `--output-dir PATH` — directory where capability .md files and wave-progress.json are written
+- `--output-dir PATH` — domain directory where per-framework folders and `wave-progress.json` are written
 
 Example:
 ```
-/map-capabilities --catalog path/to/catalog.json --output-dir path/to/output
+/map-capabilities --catalog catalog/gaming/catalog.json --output-dir catalog/gaming
 ```
 
 ## Phase 1: Prepare

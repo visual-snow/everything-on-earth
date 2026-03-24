@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mandiant/flare-vm",
+  "name": "mandiant/flare-vm",
+  "description": "Collection of software installation scripts for setting up and maintaining a Windows-based reverse engineering and malware analysis environment on a VM.",
+  "sub_domain": "malware-reversing",
+  "score": 8,
+  "score_rationale": "8.5k stars from Mandiant, the standard environment setup for Windows malware analysis labs.",
+  "stars": 8500,
+  "language": "PowerShell",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 79.4,
+  "tags": [
+    "malware-analysis",
+    "reverse-engineering",
+    "security-tool"
+  ],
+  "category": "Malware Analysis Tool",
+  "summary": "Collection of software installation scripts for setting up and maintaining a Windows-based revers...",
+  "slug": "mandiant-flare-vm"
+}

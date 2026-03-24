@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/bureado/awesome-software-supply-chain-security",
+  "name": "bureado/awesome-software-supply-chain-security",
+  "description": "Curated compilation of resources in the software supply chain security domain with emphasis on open source tools, standards, research, and community initiatives.",
+  "sub_domain": "Supply Chain Security",
+  "score": 7,
+  "score_rationale": "Well-maintained supply chain security resource index with 350+ stars, good entry point for the domain.",
+  "stars": 350,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 62.4,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "curated compilation of resources in the software supply chain security domain with emphasis on open ...",
+  "slug": "bureado-awesome-software-supply-chain-security"
+}

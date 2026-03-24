@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jiep/offensive-ai-compilation",
+  "name": "jiep/offensive-ai-compilation",
+  "description": "A curated list of resources covering Offensive AI including adversarial machine learning attacks, generative AI misuse, AI-powered pentesting, malware, OSINT, and phishing automation.",
+  "sub_domain": "ai-security",
+  "score": 7,
+  "score_rationale": "Comprehensive offensive AI resource compilation with 1.4k stars covering the full landscape of AI-assisted attack techniques and tools.",
+  "stars": 1400,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-12-05",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 67.2,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "A curated list of resources covering Offensive AI including adversarial machine learning attacks, ge",
+  "slug": "jiep-offensive-ai-compilation"
+}

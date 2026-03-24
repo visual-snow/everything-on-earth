@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/textadventures/quest",
+  "name": "textadventures/quest",
+  "description": "Quest Viva is an open-source platform for creating and playing text adventure games without programming experience, supporting multimedia and cross-platform play via web and desktop.",
+  "sub_domain": "dialogue-narrative",
+  "score": 5,
+  "score_rationale": "Actively maintained accessible text adventure engine with 333 stars, targeting non-programmers and maintaining regular releases into 2026.",
+  "stars": 333,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 50.2,
+  "tags": [
+    "text-adventure",
+    "interactive-fiction",
+    "no-code",
+    "game-engine"
+  ],
+  "category": "Text Adventure Engine",
+  "summary": "No-code platform for creating text adventure and interactive fiction",
+  "slug": "textadventures-quest"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/prettymuchbryce/easystarjs",
+  "name": "prettymuchbryce/easystarjs",
+  "description": "An asynchronous A* pathfinding API for JavaScript HTML5 games with grid-based movement, diagonal support, custom tile costs, and small footprint (~7kb).",
+  "sub_domain": "pathfinding-navmesh",
+  "score": 7,
+  "score_rationale": "1.9k stars, MIT, popular beginner-friendly async pathfinding library widely used in HTML5 game projects.",
+  "stars": 1900,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "pathfinding-navmesh"
+  ],
+  "quality_score": 68.2,
+  "tags": [
+    "pathfinding",
+    "javascript",
+    "astar"
+  ],
+  "category": "Pathfinding",
+  "summary": "Lightweight async A* pathfinding for HTML5 games with custom costs",
+  "slug": "prettymuchbryce-easystarjs"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/inkle/ink",
+  "name": "inkle/ink",
+  "description": "inkle's open-source narrative scripting language for writing interactive fiction in games. Supports complex branching, conditions, variables, and integrates with Unity and other engines.",
+  "sub_domain": "dialogue-narrative",
+  "score": 10,
+  "score_rationale": "Industry-standard narrative scripting language used in commercial titles like 80 Days, actively maintained, with 4.7k stars and a rich ecosystem of integrations.",
+  "stars": 4700,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2024-06-10",
+  "found_in_domains": [
+    "dialogue-narrative",
+    "visual-novel-engines"
+  ],
+  "quality_score": 89.4,
+  "tags": [
+    "narrative",
+    "dialogue",
+    "scripting",
+    "interactive-fiction",
+    "unity"
+  ],
+  "category": "Dialogue Systems",
+  "summary": "Industry-standard narrative scripting language for games",
+  "slug": "inkle-ink"
+}

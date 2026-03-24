@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/virustotal/yara",
+  "name": "VirusTotal/yara",
+  "description": "Pattern matching tool for malware researchers to identify and classify malware samples using textual or binary pattern rules across Windows, Linux, and macOS.",
+  "sub_domain": "malware-reversing",
+  "score": 9,
+  "score_rationale": "9.5k stars, the industry-standard malware pattern matching tool used in nearly every malware analysis pipeline.",
+  "stars": 9500,
+  "language": "C",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-10-30",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 85.8,
+  "tags": [
+    "binary-analysis",
+    "malware-analysis",
+    "pattern-matching"
+  ],
+  "category": "Malware Tool",
+  "summary": "Pattern matching tool for malware researchers to identify and classify malware samples using text...",
+  "slug": "virustotal-yara"
+}

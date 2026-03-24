@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/falcosecurity/falco",
+  "name": "falcosecurity/falco",
+  "description": "Cloud-native runtime security tool for Linux that detects and alerts on abnormal behavior and security threats in real-time by monitoring kernel syscalls. CNCF graduated project used widely in Kubernetes production environments.",
+  "sub_domain": "container-cloud-security",
+  "score": 10,
+  "score_rationale": "8.8k stars as a CNCF graduated project, the industry standard for Kubernetes and container runtime security monitoring with active development through 2026.",
+  "stars": 8800,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-28",
+  "found_in_domains": [
+    "container-cloud-security",
+    "network-security"
+  ],
+  "quality_score": 91.6,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "falcosecurity-falco"
+}

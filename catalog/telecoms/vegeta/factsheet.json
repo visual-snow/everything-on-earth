@@ -1,0 +1,97 @@
+{
+  "slug": "vegeta",
+  "name": "Vegeta",
+  "what_it_is": "Vegeta is a constant-rate HTTP load testing tool and Go library that issues requests at a user-specified rate per second, explicitly avoiding coordinated omission. It outputs binary result streams that can be piped into its own report, encode, and plot sub-commands.",
+  "components": [
+    "attack — sends HTTP requests at a fixed or infinite rate and writes binary result stream to stdout or a file",
+    "report — reads result stream and outputs text summary, JSON metrics, histogram, or HDR histogram plot data",
+    "encode — converts result stream between gob (binary), JSON, and CSV encodings",
+    "plot — generates an interactive HTML latency-over-time chart from result stream",
+    "Go library (github.com/tsenart/vegeta/v12/lib) — embeds the attacker, metrics, and targeter types for programmatic use",
+    "built-in Prometheus exporter — optional HTTP endpoint (prometheus-addr flag) exposing request_bytes_in, request_bytes_out, request_seconds, request_fail_count metrics during an active attack"
+  ],
+  "protocols": [
+    "HTTP/1.1",
+    "HTTP/2 (default, negotiated via ALPN)",
+    "HTTP/2 cleartext (h2c, unencrypted)",
+    "HTTPS with mutual TLS (client cert + key flags)",
+    "Unix domain sockets (unix-socket flag overrides host address)"
+  ],
+  "measurement": [
+    "Latency percentiles: min, mean, 50th, 90th, 95th, 99th, max",
+    "Total / attack / wait duration breakdown",
+    "Requests: total count, sustained rate, throughput (successful only)",
+    "Bytes in / out: total and mean per request",
+    "Success ratio (2xx–3xx responses)",
+    "Status code histogram",
+    "Error set (unique error strings)",
+    "Histogram buckets (user-defined nanosecond boundaries via -buckets)",
+    "HDR histogram output compatible with hdrhistogram.github.io plotter",
+    "Prometheus metrics: request_bytes_in, request_bytes_out, request_seconds (histogram), request_fail_count"
+  ],
+  "configuration": [
+    "-rate: requests per time unit, e.g. 50/1s or 0/infinity for max speed (default 50/1s)",
+    "-duration: how long to run the attack; 0 = run forever (default 0)",
+    "-workers / -max-workers: initial and maximum goroutine count (default 10 / unlimited)",
+    "-connections: max idle connections per target host (default 10000)",
+    "-max-connections: hard cap on connections per host",
+    "-timeout: per-request timeout, 0 = disabled (default 30s)",
+    "-targets / -format: target list file in http or json format (default stdin / http)",
+    "-header: repeatable flag to inject request headers for all targets",
+    "-body: file whose content is the default request body",
+    "-output: result file path (default stdout)",
+    "-http2 / -h2c: toggle HTTP/2 with or without TLS",
+    "-insecure: skip TLS certificate validation",
+    "-keepalive: reuse TCP connections (default true)",
+    "-redirects: max redirect hops, -1 = do not follow but count as success (default 10)",
+    "-dns-ttl: DNS cache TTL, -1 = disable, 0 = cache forever (default 0)",
+    "-resolvers: comma-separated custom DNS server addresses (non-Windows only)",
+    "-root-certs: trusted CA certificate files (comma-separated)",
+    "-session-tickets: enable TLS session resumption",
+    "-max-body: cap on response body bytes captured, -1 = no limit (default -1)",
+    "-lazy: stream targets lazily to reduce memory at cost of per-hit latency",
+    "-name: label attached to all results for identification in reports",
+    "-prometheus-addr: address for Prometheus scrape endpoint (empty = disabled)",
+    "-connect-to: static host:port override mapping (round-robins duplicates)",
+    "-unix-socket: route all connections through a Unix socket",
+    "-laddr: local IP address to bind (default 0.0.0.0)",
+    "-cpus: number of CPUs to use (default = system CPU count)",
+    "-profile: enable cpu or heap profiling"
+  ],
+  "fault_injection": [
+    "No built-in fault injection; vegeta is a load generator, not a chaos tool",
+    "Can target deliberately slow or error-returning endpoints to simulate degraded upstream behaviour",
+    "Configurable redirect handling (-redirects -1) to treat redirects as successes without following",
+    "Custom DNS resolvers allow redirecting traffic to different hosts without code changes"
+  ],
+  "modes": [
+    "Constant-rate mode: -rate N/s sends exactly N requests per second regardless of response time",
+    "Infinite-rate mode: -rate 0 combined with -max-workers models N concurrent users sending as fast as possible",
+    "Finite duration: -duration stops the attack after the specified wall time",
+    "Infinite duration: -duration 0 runs until the process is killed",
+    "Streaming targets: -lazy reads targets one at a time to support unlimited or dynamically generated target lists",
+    "Distributed mode: run one vegeta instance per machine at rate/N, collect .bin files, report on aggregated files",
+    "Library mode: embed vegeta attacker in Go code for custom orchestration"
+  ],
+  "constraints": [
+    "No docker-compose file in the repository; the Dockerfile builds a single static binary image with ENTRYPOINT vegeta — all sub-commands must be chained via shell pipes outside the container",
+    "Rate upper bound is machine-dependent; file descriptor and process ulimits must be raised manually (ulimit -n, ulimit -u) before high-rate attacks",
+    "Prometheus scrape timestamps are server-side, not result-time, so latency samples are imprecise; no pushgateway or remote-write support yet (tracked in issue #637)",
+    "-resolvers (custom DNS) is non-functional on Windows",
+    "Setting -rate 0 with very high -max-workers can exhaust resources and crash the process",
+    "The Prometheus exporter endpoint is only live during an active attack and closes immediately when the attack finishes, making tail-end scrapes unreliable"
+  ],
+  "docker_services": [
+    "Single-stage final image: alpine:3.18.0 with /bin/vegeta binary (built from golang:1.20-alpine3.18)",
+    "No docker-compose; no auxiliary services (database, proxy, sidecar) are defined in the repository"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml (main or master branch)",
+    "No built-in scenario scripting or request sequencing (unlike k6 or Gatling)",
+    "No GUI or web dashboard — HTML plot is the only visual output",
+    "No assertion/threshold enforcement — pass/fail logic must be implemented externally by parsing JSON report",
+    "No cookie jar or session management",
+    "No gRPC or WebSocket support — HTTP only",
+    "No built-in distributed coordination — distributed runs require external SSH orchestration (e.g. pdsh)"
+  ]
+}

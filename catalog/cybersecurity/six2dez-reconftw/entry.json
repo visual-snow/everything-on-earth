@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/six2dez/reconftw",
+  "name": "six2dez/reconftw",
+  "description": "Powerful automated recon tool designed for security researchers running the best set of tools to perform scanning, subdomain enumeration, OSINT, and vulnerability discovery on a target domain.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 8,
+  "score_rationale": "Popular all-in-one recon automation script with 7.4k stars that orchestrates 20+ tools into a single pipeline, widely used in bug bounty hunting.",
+  "stars": 7400,
+  "language": "Shell",
+  "license": "MIT",
+  "last_activity": "2025-01-25",
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 79.0,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Powerful automated recon tool designed for security researchers running the best set of tools to per",
+  "slug": "six2dez-reconftw"
+}

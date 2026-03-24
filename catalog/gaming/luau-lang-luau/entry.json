@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/luau-lang/luau",
+  "name": "luau-lang/luau",
+  "description": "A fast, safe, gradually typed embeddable scripting language derived from Lua 5.1, developed by Roblox and used in Alan Wake 2 and Farming Simulator 2025. Adds type annotations and improved performance.",
+  "sub_domain": "game-scripting",
+  "score": 9,
+  "score_rationale": "5.4k stars, actively maintained through March 2026, proven at Roblox scale and adopted by multiple AAA titles.",
+  "stars": 5400,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "game-scripting"
+  ],
+  "quality_score": 83.9,
+  "tags": [
+    "lua",
+    "typed",
+    "roblox",
+    "aaa-games",
+    "embeddable"
+  ],
+  "category": "Typed Lua Variant",
+  "summary": "Roblox-scale typed Lua for AAA game scripting",
+  "slug": "luau-lang-luau"
+}

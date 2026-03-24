@@ -1,0 +1,576 @@
+[
+  {
+    "repo_url": "https://github.com/lance-gg/lance",
+    "name": "lance-gg/lance",
+    "description": "A real-time multiplayer game server framework for Node.js that handles network synchronization, lag compensation, and physics prediction so developers can focus on game logic.",
+    "sub_domain": "game-backends",
+    "score": 6,
+    "score_rationale": "1.7k stars, solid JavaScript-native multiplayer server library with good documentation and example games.",
+    "stars": 1700,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-backends"
+    ],
+    "quality_score": 61.8,
+    "tags": ["multiplayer", "networking", "server", "lag-compensation", "typescript"],
+    "category": "Multiplayer Server Framework",
+    "summary": "Real-time multiplayer server framework with network sync and lag compensation"
+  },
+  {
+    "repo_url": "https://github.com/talodev/backend",
+    "name": "TaloDev/backend",
+    "description": "A self-hostable game backend providing player authentication, leaderboards, stats, cloud saves, event tracking, and peer-to-peer multiplayer with Godot and Unity plugins.",
+    "sub_domain": "game-backends",
+    "score": 6,
+    "score_rationale": "86 stars but actively maintained through March 2026 with a clean feature set covering the most common indie game backend needs.",
+    "stars": 86,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2026-03-18",
+    "found_in_domains": [
+      "game-backends",
+      "game-devops-analytics"
+    ],
+    "quality_score": 51.5,
+    "tags": ["backend", "authentication", "leaderboards", "cloud-saves", "indie"],
+    "category": "Self-Hosted Game Backend",
+    "summary": "Complete indie game backend with auth, leaderboards, saves, and multiplayer"
+  },
+  {
+    "repo_url": "https://github.com/wolfpld/tracy",
+    "name": "wolfpld/tracy",
+    "description": "A real-time, nanosecond-resolution, remote telemetry, hybrid frame and sampling profiler for games and applications. Supports CPU, GPU (OpenGL, Vulkan, D3D, Metal, CUDA), memory, and context switch profiling.",
+    "sub_domain": "game-devops-analytics",
+    "score": 10,
+    "score_rationale": "15.5k stars, industry-standard game profiler used by AAA and indie studios, supports virtually all major GPU APIs and languages.",
+    "stars": 15500,
+    "language": "C++",
+    "license": "BSD-3-Clause",
+    "last_activity": "2025-12-11",
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 93.5,
+    "tags": ["profiling", "telemetry", "gpu", "performance", "debugging"],
+    "category": "Game Performance Profiler",
+    "summary": "Industry-standard profiler for CPU/GPU performance analysis across APIs"
+  },
+  {
+    "repo_url": "https://github.com/baldurk/renderdoc",
+    "name": "baldurk/renderdoc",
+    "description": "A stand-alone frame-capture based graphics debugger supporting Vulkan, D3D11, D3D12, OpenGL, and OpenGL ES on Windows, Linux, Android, and Nintendo Switch. Essential tool for GPU debugging.",
+    "sub_domain": "game-devops-analytics",
+    "score": 10,
+    "score_rationale": "10.5k stars, MIT license, the go-to open-source graphics debugger for game developers across all major graphics APIs.",
+    "stars": 10500,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2026-02-27",
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 92.2,
+    "tags": ["graphics", "debugging", "gpu", "frame-capture", "vulkan"],
+    "category": "Graphics Debugger Tool",
+    "summary": "Frame-capture GPU debugger for Vulkan, D3D, OpenGL on all platforms"
+  },
+  {
+    "repo_url": "https://github.com/airtestproject/airtest",
+    "name": "AirtestProject/Airtest",
+    "description": "A cross-platform UI automation framework for games and apps using image recognition to locate UI elements without code injection. Supports Android, iOS, Windows, and multiple game engines.",
+    "sub_domain": "game-devops-analytics",
+    "score": 8,
+    "score_rationale": "9.2k stars, Apache-2.0, widely adopted mobile game testing framework backed by NetEase with active maintenance.",
+    "stars": 9200,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2025-12-04",
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 79.7,
+    "tags": ["testing", "ui-automation", "mobile", "image-recognition", "python"],
+    "category": "Game Testing Automation",
+    "summary": "Image-based UI automation framework for cross-platform game testing"
+  },
+  {
+    "repo_url": "https://github.com/bomomby/optick",
+    "name": "bomomby/optick",
+    "description": "A super-lightweight C++ profiler for games providing instrumentation, context switching, sampling, and GPU counters. Features a standalone viewer and supports Direct3D 12 and Vulkan GPU profiling.",
+    "sub_domain": "game-devops-analytics",
+    "score": 8,
+    "score_rationale": "3.1k stars, MIT, popular lightweight game profiler used in commercial engines with good cross-platform support.",
+    "stars": 3100,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 75.9,
+    "tags": ["profiling", "performance", "gpu", "lightweight", "cpp"],
+    "category": "Lightweight Game Profiler",
+    "summary": "Embeddable CPU/GPU profiler with standalone viewer for game optimization"
+  },
+  {
+    "repo_url": "https://github.com/game-ci/unity-builder",
+    "name": "game-ci/unity-builder",
+    "description": "A GitHub Action for building Unity projects for multiple platforms as part of automated CI/CD pipelines. Part of the GameCI open source initiative for game development automation.",
+    "sub_domain": "game-devops-analytics",
+    "score": 7,
+    "score_rationale": "1k stars, MIT, the standard open-source GitHub Action for automated Unity game builds used by thousands of Unity developers.",
+    "stars": 1000,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2025-11-22",
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 66.0,
+    "tags": ["ci-cd", "unity", "automation", "github-actions", "build"],
+    "category": "Unity CI/CD Automation",
+    "summary": "GitHub Action for automated multi-platform Unity game builds"
+  },
+  {
+    "repo_url": "https://github.com/tencent/gautomator",
+    "name": "Tencent/GAutomator",
+    "description": "An open-source test automation framework for mobile games that interacts with Unity/Unreal engine GameObjects directly, avoiding device resolution adaptation issues across Android and iOS devices.",
+    "sub_domain": "game-devops-analytics",
+    "score": 7,
+    "score_rationale": "1.4k stars, engine-level game automation from Tencent, uniquely targeting GameObject API for robust mobile game testing.",
+    "stars": 1400,
+    "language": "Objective-C",
+    "license": "MIT",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 67.2,
+    "tags": ["testing", "mobile", "automation", "unity", "engine-integration"],
+    "category": "Mobile Game Test Automation",
+    "summary": "Engine-level test automation via GameObject API for Unity/Unreal"
+  },
+  {
+    "repo_url": "https://github.com/embarkstudios/puffin",
+    "name": "EmbarkStudios/puffin",
+    "description": "A friendly lightweight instrumentation profiler for Rust games and applications, featuring flamegraph visualization, remote profiling over TCP, and egui integration for in-game performance monitoring.",
+    "sub_domain": "game-devops-analytics",
+    "score": 6,
+    "score_rationale": "1.7k stars, dual Apache-2.0/MIT, the primary profiling tool for Rust game development used in production by Embark Studios.",
+    "stars": 1700,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 61.8,
+    "tags": ["profiling", "rust", "performance", "flamegraph", "telemetry"],
+    "category": "Rust Game Profiler",
+    "summary": "Lightweight Rust profiler with flamegraph and in-game visualization"
+  },
+  {
+    "repo_url": "https://github.com/game-ci/unity-test-runner",
+    "name": "game-ci/unity-test-runner",
+    "description": "A GitHub Action that runs PlayMode and EditMode tests for Unity projects as part of automated CI pipelines. Part of the GameCI open source project.",
+    "sub_domain": "game-devops-analytics",
+    "score": 6,
+    "score_rationale": "247 stars, MIT, widely-used CI tool that enables automated testing of Unity games in GitHub Actions workflows.",
+    "stars": 247,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2024-07-05",
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 55.2,
+    "tags": ["testing", "ci-cd", "unity", "github-actions", "automation"],
+    "category": "Unity Test Automation",
+    "summary": "GitHub Action for running Unity PlayMode and EditMode tests"
+  },
+  {
+    "repo_url": "https://github.com/getsentry/sentry-native",
+    "name": "getsentry/sentry-native",
+    "description": "The Sentry SDK for C, C++, and native applications providing error and crash reporting with support for Crashpad and Breakpad backends. Useful for native game crash reporting.",
+    "sub_domain": "game-devops-analytics",
+    "score": 6,
+    "score_rationale": "527 stars, MIT, the standard native crash reporting SDK used to integrate Sentry into C/C++ game codebases.",
+    "stars": 527,
+    "language": "C",
+    "license": "MIT",
+    "last_activity": "2025-01-21",
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 57.8,
+    "tags": ["crash-reporting", "monitoring", "native", "error-tracking", "cpp"],
+    "category": "Native Crash Reporting",
+    "summary": "Sentry SDK for C/C++ crash reporting and error tracking in games"
+  },
+  {
+    "repo_url": "https://github.com/alsch092/ultimateanticheat",
+    "name": "AlSch092/UltimateAntiCheat",
+    "description": "An educational open-source usermode anti-cheat framework for Windows games in C++, detecting and preventing common attack vectors including memory manipulation and DLL injection. Supports optional kernel-mode integration.",
+    "sub_domain": "game-devops-analytics",
+    "score": 5,
+    "score_rationale": "589 stars, AGPL-3.0, useful reference implementation for understanding anti-cheat techniques in game security research.",
+    "stars": 589,
+    "language": "C++",
+    "license": "AGPL-3.0",
+    "last_activity": "2025-08-12",
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 52.2,
+    "tags": ["anti-cheat", "security", "windows", "cpp", "cheating-detection"],
+    "category": "Anti-Cheat Framework",
+    "summary": "Educational usermode anti-cheat framework for Windows game security"
+  },
+  {
+    "repo_url": "https://github.com/zeux/microprofile",
+    "name": "zeux/microprofile",
+    "description": "An embeddable CPU/GPU profiler with in-app and HTML visualizers supporting hierarchical timing regions and multiple GPU APIs (D3D11/D3D12/OpenGL/Vulkan). Archived but widely referenced.",
+    "sub_domain": "game-devops-analytics",
+    "score": 5,
+    "score_rationale": "495 stars, archived in 2023 but historically significant embeddable game profiler referenced in many game engines.",
+    "stars": 495,
+    "language": "C++",
+    "license": "Unlicense",
+    "last_activity": "2023-05-21",
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 51.6,
+    "tags": ["profiling", "performance", "gpu", "embeddable", "visualization"],
+    "category": "Embeddable Game Profiler",
+    "summary": "Lightweight CPU/GPU profiler with HTML visualization for game engines"
+  },
+  {
+    "repo_url": "https://github.com/gwaredd/unium",
+    "name": "gwaredd/unium",
+    "description": "A Unity library for game automation that exposes an HTTP API to enable external tools and test scripts to inspect and control game scenes at runtime via a built-in web server.",
+    "sub_domain": "game-devops-analytics",
+    "score": 4,
+    "score_rationale": "238 stars, MIT, niche but unique approach to Unity test automation; last active 2022 suggests limited ongoing development.",
+    "stars": 238,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2022-02-08",
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 43.0,
+    "tags": ["testing", "unity", "automation", "http-api", "remote-control"],
+    "category": "Unity Runtime Automation",
+    "summary": "HTTP API for runtime control and testing of Unity game scenes"
+  },
+  {
+    "repo_url": "https://github.com/lrq3000/oacs",
+    "name": "lrq3000/oacs",
+    "description": "An open-source Python/ML framework for developing server-side anti-cheating systems, originally built for anomaly detection in real-time games using machine learning algorithms.",
+    "sub_domain": "game-devops-analytics",
+    "score": 3,
+    "score_rationale": "29 stars, research-grade proof-of-concept ML anti-cheat framework with limited adoption and unclear maintenance status.",
+    "stars": 29,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": null,
+    "found_in_domains": [
+      "game-devops-analytics"
+    ],
+    "quality_score": 29.8,
+    "tags": ["anti-cheat", "machine-learning", "anomaly-detection", "python", "research"],
+    "category": "ML Anti-Cheat System",
+    "summary": "ML-based anomaly detection framework for server-side anti-cheat systems"
+  },
+  {
+    "repo_url": "https://github.com/raysan5/raylib",
+    "name": "raysan5/raylib",
+    "description": "A simple and easy-to-use C library for videogames programming, with no external dependencies and support for Windows, Linux, macOS, Android, and WebAssembly. Widely adopted for education, prototyping, and indie game development.",
+    "sub_domain": "game-engines-2d",
+    "score": 10,
+    "score_rationale": "Industry-standard beginner-to-intermediate game library with 31k+ stars, extremely active maintenance, and ubiquitous community adoption.",
+    "stars": 31700,
+    "language": "C",
+    "license": "Zlib",
+    "last_activity": "2024-11-18",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 96.0,
+    "tags": ["2d-engine", "c", "cross-platform", "education", "prototyping"],
+    "category": "2D Game Library",
+    "summary": "Simple, dependency-free 2D game library for education and indie games"
+  },
+  {
+    "repo_url": "https://github.com/4ian/gdevelop",
+    "name": "4ian/GDevelop",
+    "description": "Full-featured, no-code open-source 2D/3D game engine with an event-based visual editor, targeting mobile, desktop, and web. Actively developed with AI-assisted features and a large community.",
+    "sub_domain": "game-engines-2d",
+    "score": 9,
+    "score_rationale": "21k+ stars, regular releases, and one of the most accessible open-source 2D/3D engines with a powerful visual editor.",
+    "stars": 21500,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "game-engines-2d",
+      "web-game-engines"
+    ],
+    "quality_score": 88.7,
+    "tags": ["2d-engine", "3d-engine", "no-code", "visual-editor", "cross-platform"],
+    "category": "No-Code Game Engine",
+    "summary": "Visual event-based game engine for 2D/3D games across all platforms"
+  },
+  {
+    "repo_url": "https://github.com/libgdx/libgdx",
+    "name": "libgdx/libgdx",
+    "description": "A Java cross-platform game development framework supporting Windows, Linux, macOS, Android, HTML5, and iOS. Powers many commercial and indie games with a comprehensive API and broad community.",
+    "sub_domain": "game-engines-2d",
+    "score": 9,
+    "score_rationale": "24.9k stars, Apache-2.0, widely used in production Java game development across all major platforms.",
+    "stars": 24900,
+    "language": "Java",
+    "license": "Apache-2.0",
+    "last_activity": "2025-10-19",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 89.2,
+    "tags": ["2d-engine", "java", "cross-platform", "mobile", "html5"],
+    "category": "Java Game Framework",
+    "summary": "Production-proven Java framework for 2D games across desktop/mobile/web"
+  },
+  {
+    "repo_url": "https://github.com/cocos2d/cocos2d-x",
+    "name": "cocos2d/cocos2d-x",
+    "description": "A C++ multi-platform 2D game framework used by millions of developers globally, supporting iOS, Android, macOS, Windows, and Linux. Foundation for Cocos Creator engine.",
+    "sub_domain": "game-engines-2d",
+    "score": 9,
+    "score_rationale": "19k stars, MIT license, industry-proven C++ engine with massive global developer base especially in mobile gaming.",
+    "stars": 19000,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 88.2,
+    "tags": ["2d-engine", "cpp", "mobile", "cross-platform", "industry-standard"],
+    "category": "C++ 2D Game Engine",
+    "summary": "Global-scale C++ 2D framework powering millions of mobile games"
+  },
+  {
+    "repo_url": "https://github.com/monogame/monogame",
+    "name": "MonoGame/MonoGame",
+    "description": "A .NET/C# cross-platform game framework, the open-source successor to Microsoft's XNA. Powers commercial hits like Celeste and Stardew Valley across desktop, mobile, and console.",
+    "sub_domain": "game-engines-2d",
+    "score": 9,
+    "score_rationale": "13.3k stars, proven in commercial production with AAA-quality indie titles, broad platform support.",
+    "stars": 13300,
+    "language": "C#",
+    "license": "MS-PL",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 87.0,
+    "tags": ["2d-engine", "csharp", "cross-platform", "console", "indie-games"],
+    "category": ".NET Game Framework",
+    "summary": "C# XNA successor powering indie hits like Celeste and Stardew Valley"
+  },
+  {
+    "repo_url": "https://github.com/hajimehoshi/ebiten",
+    "name": "hajimehoshi/ebiten",
+    "description": "A dead simple 2D game engine for Go with a clean API, supporting Windows, macOS, Linux, Android, iOS, and WebAssembly. Actively maintained with a growing ecosystem.",
+    "sub_domain": "game-engines-2d",
+    "score": 8,
+    "score_rationale": "13.1k stars, Apache-2.0, the de facto standard 2D game engine for the Go programming language.",
+    "stars": 13100,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 80.9,
+    "tags": ["2d-engine", "go", "cross-platform", "web", "simple-api"],
+    "category": "Go 2D Game Engine",
+    "summary": "Standard 2D game engine for Go with cross-platform web support"
+  },
+  {
+    "repo_url": "https://github.com/love2d/love",
+    "name": "love2d/love",
+    "description": "LOVE is a free, open-source 2D game framework using Lua, supporting Windows, macOS, Linux, Android, and iOS. Known for its simplicity, portability, and active game-jam community.",
+    "sub_domain": "game-engines-2d",
+    "score": 8,
+    "score_rationale": "7.9k stars with a dedicated community; Lua-based framework widely used in game jams and indie development.",
+    "stars": 7900,
+    "language": "C++",
+    "license": "Zlib",
+    "last_activity": "2025-01-26",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 79.2,
+    "tags": ["2d-engine", "lua", "game-jam", "cross-platform", "indie"],
+    "category": "Lua 2D Game Framework",
+    "summary": "Simple Lua-based 2D framework beloved by game jam developers"
+  },
+  {
+    "repo_url": "https://github.com/melonjs/melonjs",
+    "name": "melonjs/melonJS",
+    "description": "A fresh, modern, lightweight HTML5 2D game engine with a Canvas2D-inspired API built in JavaScript/TypeScript. Actively maintained with good documentation.",
+    "sub_domain": "game-engines-2d",
+    "score": 8,
+    "score_rationale": "6.3k stars, MIT, actively maintained HTML5 engine with modern API and solid feature set for web games.",
+    "stars": 6300,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "game-engines-2d",
+      "web-game-engines"
+    ],
+    "quality_score": 78.4,
+    "tags": ["2d-engine", "html5", "javascript", "web", "modern-api"],
+    "category": "HTML5 2D Game Engine",
+    "summary": "Modern lightweight HTML5 2D engine with Canvas2D-inspired API"
+  },
+  {
+    "repo_url": "https://github.com/defold/defold",
+    "name": "defold/defold",
+    "description": "A completely free cross-platform game engine for desktop, mobile, and web games, using Lua scripting with native extension support. Backed by the Defold Foundation.",
+    "sub_domain": "game-engines-2d",
+    "score": 8,
+    "score_rationale": "5.9k stars, developer-friendly Apache-derived license, production-proven engine with strong 2D capabilities and active community.",
+    "stars": 5900,
+    "language": "C++",
+    "license": "Apache-2.0",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 78.2,
+    "tags": ["2d-engine", "lua", "cross-platform", "native-extensions", "web"],
+    "category": "Lua-Based Game Engine",
+    "summary": "Production game engine with Lua scripting across desktop/mobile/web"
+  },
+  {
+    "repo_url": "https://github.com/almasb/fxgl",
+    "name": "AlmasB/FXGL",
+    "description": "A Java/JavaFX/Kotlin 2D game development framework with a clean API, Entity-Component architecture, animations, and particle systems. Supports Windows, Mac, Linux, Android, iOS, and web.",
+    "sub_domain": "game-engines-2d",
+    "score": 7,
+    "score_rationale": "4.8k stars, MIT, actively maintained Java/Kotlin engine offering a modern alternative to LibGDX for JVM developers.",
+    "stars": 4800,
+    "language": "Kotlin",
+    "license": "MIT",
+    "last_activity": "2026-02-05",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 71.5,
+    "tags": ["2d-engine", "java", "kotlin", "ecs", "cross-platform"],
+    "category": "Java/Kotlin 2D Engine",
+    "summary": "JavaFX-based 2D engine with ECS and modern API for JVM games"
+  },
+  {
+    "repo_url": "https://github.com/killedbyapixel/littlejs",
+    "name": "KilledByAPixel/LittleJS",
+    "description": "Tiny, fast HTML5 JavaScript game engine with no dependencies, featuring WebGL2+Canvas2D rendering, physics, particles, sound, and input handling. Optimized for js13k and game jams.",
+    "sub_domain": "game-engines-2d",
+    "score": 7,
+    "score_rationale": "4.1k stars, MIT, highly regarded minimal JS engine popular in game jams with a strong feature-to-size ratio.",
+    "stars": 4100,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2026-01-29",
+    "found_in_domains": [
+      "game-engines-2d",
+      "web-game-engines"
+    ],
+    "quality_score": 70.9,
+    "tags": ["2d-engine", "javascript", "html5", "lightweight", "game-jam"],
+    "category": "Minimal JS Game Engine",
+    "summary": "Tiny no-dependency HTML5 engine optimized for game jams and js13k"
+  },
+  {
+    "repo_url": "https://github.com/amzeratul/halley",
+    "name": "amzeratul/halley",
+    "description": "A lightweight C++17 game engine used to ship Wargroove commercially on PC, Mac, Nintendo Switch, Xbox One, and PS4. Features ECS architecture and modern tooling.",
+    "sub_domain": "game-engines-2d",
+    "score": 7,
+    "score_rationale": "3.8k stars, Apache-2.0, commercially proven C++ engine with ECS and cross-platform console support.",
+    "stars": 3800,
+    "language": "C++",
+    "license": "Apache-2.0",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 70.6,
+    "tags": ["2d-engine", "cpp", "ecs", "console", "commercial"],
+    "category": "C++17 Game Engine",
+    "summary": "Commercially-proven C++ engine shipping Wargroove on consoles"
+  },
+  {
+    "repo_url": "https://github.com/pygame/pygame",
+    "name": "pygame/pygame",
+    "description": "A free, open-source Python library for multimedia and game development built on SDL, supporting graphics, sound, input, and sprite management. The standard Python game development library.",
+    "sub_domain": "game-engines-2d",
+    "score": 9,
+    "score_rationale": "8.7k stars, the canonical Python game development library used worldwide in education and indie game development.",
+    "stars": 8700,
+    "language": "C",
+    "license": "LGPL-2.1",
+    "last_activity": "2024-09-29",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 85.5,
+    "tags": ["2d-engine", "python", "sdl", "education", "multimedia"],
+    "category": "Python Game Library",
+    "summary": "Standard Python library for 2D games and multimedia applications"
+  },
+  {
+    "repo_url": "https://github.com/pythonarcade/arcade",
+    "name": "pythonarcade/arcade",
+    "description": "Easy to use Python library for creating 2D arcade games, built atop pyglet and OpenGL. Designed for beginners and educators with clean modern API.",
+    "sub_domain": "game-engines-2d",
+    "score": 7,
+    "score_rationale": "2k stars, MIT, modern Python alternative to pygame with cleaner API and active educational community.",
+    "stars": 2000,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-01-09",
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 68.4,
+    "tags": ["2d-engine", "python", "education", "opengl", "modern-api"],
+    "category": "Python Game Framework",
+    "summary": "Modern Python framework with clean API for 2D arcade games"
+  },
+  {
+    "repo_url": "https://github.com/haxeflixel/flixel",
+    "name": "HaxeFlixel/flixel",
+    "description": "Free, cross-platform 2D game engine powered by Haxe and OpenFL, enabling native and web deployment from a single codebase. Inspired by ActionScript Flixel.",
+    "sub_domain": "game-engines-2d",
+    "score": 7,
+    "score_rationale": "2.2k stars, MIT, the primary 2D game engine for Haxe with strong cross-platform capabilities and active use in indie games.",
+    "stars": 2200,
+    "language": "Haxe",
+    "license": "MIT",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-engines-2d"
+    ],
+    "quality_score": 68.7,
+    "tags": ["2d-engine", "haxe", "cross-platform", "openfl", "indie"],
+    "category": "Haxe 2D Game Engine",
+    "summary": "Cross-platform 2D engine for Haxe with native and web deployment"
+  }
+]

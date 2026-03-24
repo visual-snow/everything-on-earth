@@ -1,0 +1,69 @@
+{
+  "slug": "k3s",
+  "name": "K3s",
+  "what_it_is": "K3s is a fully conformant, production-ready Kubernetes distribution packaged as a single binary under 100 MB, targeting edge, IoT, CI/CD, ARM, and embedded environments. It halves the memory footprint of upstream Kubernetes by consolidating components, removing in-tree cloud/storage drivers, and defaulting to SQLite instead of etcd.",
+  "components": [
+    "containerd (container runtime)",
+    "runc",
+    "Flannel (CNI networking)",
+    "Kube-router (network policy controller)",
+    "CoreDNS",
+    "Traefik (ingress controller)",
+    "Klipper-lb (service load balancer)",
+    "Helm-controller",
+    "Local-path-provisioner",
+    "Kine (datastore abstraction layer)",
+    "Metrics Server",
+    "iptables/nftables",
+    "ebtables",
+    "ethtool",
+    "socat"
+  ],
+  "protocols": [
+    "Kubernetes API (HTTPS, port 6443)",
+    "HTTPS (ingress, port 443)",
+    "HTTP (ingress, port 80)",
+    "containerd gRPC",
+    "WebSocket tunneling (kubelet API between worker and control plane)"
+  ],
+  "measurement": [
+    "Metrics Server (in-cluster resource metrics)",
+    "Binary size target: <100 MB",
+    "Memory footprint: ~50% of upstream Kubernetes"
+  ],
+  "configuration": [
+    "K3S_TOKEN environment variable (required for cluster join)",
+    "K3S_URL environment variable (agent points to server at https://server:6443)",
+    "Kubeconfig written to /etc/rancher/k3s/k3s.yaml",
+    "Node token stored at /var/lib/rancher/k3s/server/node-token",
+    "Datastore backend selectable: SQLite3 (default), etcd3, MariaDB, MySQL, PostgreSQL",
+    "Auto-deployment of Kubernetes resources from local manifest directory",
+    "TLS certificate management automated",
+    "ulimits: 65535 for nproc and nofile",
+    "Bundled components (Flannel, Traefik, CoreDNS, etc.) can be disabled or swapped"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Server mode: sudo k3s server (runs control plane + agent)",
+    "Agent mode: sudo k3s agent --server https://[server]:6443 --token [token] (worker only)"
+  ],
+  "constraints": [
+    "Requires privileged mode when running in containers (e.g., docker-compose)",
+    "tmpfs required for /run and /var/run when containerized",
+    "In-tree cloud provider drivers removed — must use out-of-tree CCM alternatives",
+    "In-tree storage drivers removed — must use CSI out-of-tree alternatives",
+    "Single binary architecture couples all control-plane components into one process",
+    "K3S_TOKEN must be shared out-of-band between server and agent nodes"
+  ],
+  "docker_services": [
+    "server (rancher/k3s, ports 6443/80/443, persistent volume k3s-server, privileged)",
+    "agent (rancher/k3s, persistent volume k3s-agent, privileged, restart: always)"
+  ],
+  "notable_absences": [
+    "No built-in fault injection or chaos engineering support",
+    "No detailed scaling or cluster-size limits documented",
+    "No native distributed tracing or log aggregation component",
+    "No out-of-the-box network encryption between nodes (no WireGuard by default)",
+    "No multi-tenancy or namespace isolation enforcement beyond upstream Kubernetes RBAC"
+  ]
+}

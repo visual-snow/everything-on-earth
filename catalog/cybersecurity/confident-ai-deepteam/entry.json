@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/confident-ai/deepteam",
+  "name": "confident-ai/deepteam",
+  "description": "DeepTeam is an open-source LLM red teaming framework for penetration testing LLMs and LLM systems using SOTA adversarial techniques including jailbreaking, prompt injection, and multi-turn exploitation.",
+  "sub_domain": "ai-security",
+  "score": 7,
+  "score_rationale": "Actively maintained LLM red teaming framework with 1.4k stars incorporating latest adversarial AI research for systematic LLM penetration testing.",
+  "stars": 1400,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 67.2,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "DeepTeam is an open-source LLM red teaming framework for penetration testing LLMs and LLM systems us",
+  "slug": "confident-ai-deepteam"
+}

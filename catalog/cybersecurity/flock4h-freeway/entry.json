@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/flock4h/freeway",
+  "name": "flock4h/freeway",
+  "description": "WiFi penetration testing and auditing tool built with Python and Scapy, supporting WPA/WPA2 handshake capture, deauthentication attacks, and network scanning.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 6,
+  "score_rationale": "Active newer WiFi auditing tool with 756 stars and updated through 2025; useful for Scapy-based wireless research.",
+  "stars": 756,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-04-28",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 59.0,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "flock4h-freeway"
+}

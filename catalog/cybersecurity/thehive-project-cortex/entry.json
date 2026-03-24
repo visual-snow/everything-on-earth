@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/thehive-project/cortex",
+  "name": "TheHive-Project/Cortex",
+  "description": "Powerful observable analysis and active response engine enabling SOC teams to analyze artifacts at scale by querying multiple analyzers from a single interface.",
+  "sub_domain": "SIEM / SOC / Threat Detection",
+  "score": 7,
+  "score_rationale": "Established SOC analysis tool with 1.6k stars widely used alongside TheHive for automated observable enrichment and response actions.",
+  "stars": 1600,
+  "language": "Scala",
+  "license": "AGPL-3.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 67.6,
+  "tags": [
+    "malware",
+    "analysis",
+    "detection"
+  ],
+  "category": "Malware Analysis",
+  "summary": "Malware analysis and detection tools",
+  "slug": "thehive-project-cortex"
+}

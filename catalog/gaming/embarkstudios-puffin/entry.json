@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/embarkstudios/puffin",
+  "name": "EmbarkStudios/puffin",
+  "description": "A friendly lightweight instrumentation profiler for Rust games and applications, featuring flamegraph visualization, remote profiling over TCP, and egui integration for in-game performance monitoring.",
+  "sub_domain": "game-devops-analytics",
+  "score": 6,
+  "score_rationale": "1.7k stars, dual Apache-2.0/MIT, the primary profiling tool for Rust game development used in production by Embark Studios.",
+  "stars": 1700,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 61.8,
+  "tags": [
+    "profiling",
+    "rust",
+    "performance",
+    "flamegraph",
+    "telemetry"
+  ],
+  "category": "Rust Game Profiler",
+  "summary": "Lightweight Rust profiler with flamegraph and in-game visualization",
+  "slug": "embarkstudios-puffin"
+}

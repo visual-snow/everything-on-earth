@@ -1,0 +1,61 @@
+{
+  "name": "SR Linux/SROS Streaming Telemetry Lab",
+  "repo_url": "https://github.com/srl-labs/srl-sros-telemetry-lab",
+  "description": "Interactive streaming telemetry lab with Nokia SR Linux and SR OS. Deploys a small Clos fabric with complete telemetry stack (gnmic, Prometheus, Grafana) for real-time data visualization.",
+  "domain": "clos-fabric",
+  "secondary_domains": [
+    "netconf",
+    "nokia-sr-linux"
+  ],
+  "protocols": [
+    "NETCONF",
+    "SNMP",
+    "SSH/CLI",
+    "gNMI",
+    "gRPC"
+  ],
+  "provides": [
+    "netconf-server",
+    "sros-nodes",
+    "gnmic-collector",
+    "multi-vendor-nms",
+    "clos-fabric-topology",
+    "grpc-telemetry-collector",
+    "web-dashboard",
+    "prometheus-metrics",
+    "yang-datastore",
+    "sr-linux-nodes",
+    "grafana-dashboard",
+    "streaming-telemetry",
+    "gnmi-streaming-telemetry"
+  ],
+  "needs": [
+    "containerlab",
+    "nokia-sros-license",
+    "docker-engine",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Interactive lab using containerlab with Docker-based telemetry stack components."
+  },
+  "github_metrics": {
+    "stars": 100,
+    "last_commit": "2025-01-01",
+    "language": "Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Complete Nokia telemetry lab environment. Excellent for evaluations involving vendor-specific streaming telemetry with interactive components. Topology: 3 leaf (SR Linux IXR-D2), 2 spine (SR Linux IXR-D3L), 2 DC gateway (SROS SR-1), 6 Linux clients. Demonstrates YANG coverage for streaming telemetry, gnmic configuration, and Grafana dashboarding.",
+  "related_repos": [
+    "https://github.com/srl-labs/containerlab"
+  ],
+  "_sources": [
+    "discovery/monitoring.json",
+    "discovery/netconf-mgmt/config-labs.json"
+  ],
+  "slug": "sr-linux-sros-streaming-telemetry-lab"
+}

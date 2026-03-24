@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/baldurk/renderdoc",
+  "name": "baldurk/renderdoc",
+  "description": "A stand-alone frame-capture based graphics debugger supporting Vulkan, D3D11, D3D12, OpenGL, and OpenGL ES on Windows, Linux, Android, and Nintendo Switch. Essential tool for GPU debugging.",
+  "sub_domain": "game-devops-analytics",
+  "score": 10,
+  "score_rationale": "10.5k stars, MIT license, the go-to open-source graphics debugger for game developers across all major graphics APIs.",
+  "stars": 10500,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 92.2,
+  "tags": [
+    "graphics",
+    "debugging",
+    "gpu",
+    "frame-capture",
+    "vulkan"
+  ],
+  "category": "Graphics Debugger Tool",
+  "summary": "Frame-capture GPU debugger for Vulkan, D3D, OpenGL on all platforms",
+  "slug": "baldurk-renderdoc"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "blockstream-satellite",
+  "name": "Blockstream Satellite",
+  "what_it_is": "A Python CLI and GUI toolkit for receiving the Blockstream Satellite signal that broadcasts the Bitcoin blockchain worldwide over DVB-S2 satellite. It handles receiver configuration, signal acquisition, dependency installation, API message transmission (paid via Lightning Network), and Bitcoin node integration across four receiver types.",
+  "components": [
+    "blocksat-cli (Python CLI, entry point blocksat-cli.py)",
+    "blocksat-gui (Python GUI, entry point blocksat-gui.py)",
+    "blocksatcli Python package (core logic: config, sdr, usb, standalone, satip, api, bitcoin, monitoring)",
+    "Docker image blockstream/satellite (Ubuntu Jammy base, includes CLI, GUI, Bitcoin Satellite, SDR/USB/Sat-IP deps)",
+    "Bitcoin Satellite application (bitcoinsatellite fork for satellite-sourced blockchain sync)",
+    "Satellite API server (https://api.blockstream.space, testnet variant available)"
+  ],
+  "protocols": [
+    "DVB-S2 (satellite broadcast, Ku-band and C-band)",
+    "Lightning Network (payment for API message transmission bids)",
+    "UDP multicast (mcast_ip 239.0.0.2, ports 4433 API / 4434 BTC)",
+    "HTTPS REST (Satellite API orders, monitoring reporting)",
+    "GPG/OpenPGP (message encryption and signing for API transmissions)",
+    "FEC (forward error correction applied to API messages)",
+    "SSE (Server-Sent Events for API channel streaming: transmissions, auth, gossip, btc-src)"
+  ],
+  "measurement": [
+    "lock (carrier lock boolean)",
+    "level (signal level, AGC-based, unitless)",
+    "snr (signal-to-noise ratio, dB)",
+    "ber (bit error rate)",
+    "fer (frame error rate)",
+    "per (packet error rate)",
+    "quality (signal quality, 0-100%)",
+    "pkt_err (cumulative packet error count)",
+    "Metrics reportable to remote monitoring server (Blockstream monitoring API or custom TLS-authenticated endpoint)"
+  ],
+  "configuration": [
+    "Interactive CLI wizard: satellite selection, receiver type, antenna size, LNB model",
+    "Config stored in ~/.blocksat/ (JSON, supports named config sets via --cfg flag)",
+    "Supported satellites: Galaxy 18 (G18), Telstar 11N Africa, Telstar 11N Europe, Telstar 18V C-Band, Telstar 18V Ku-Band",
+    "Supported receiver types: Linux USB (TBS 5927, TBS 5520SE), Software-Defined Radio (RTL-SDR), Standalone (Novra S400), Sat-IP (Selfsat IP22 / Blockstream Base Station)",
+    "LNB options: Ku-band universal (9750/10600 MHz LO) and C-band (5150 MHz LO) models",
+    "API channel selection: USER (paid), AUTH, GOSSIP (Lightning gossip snapshots), BTC_SRC (Bitcoin source code)"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework found in the codebase",
+    "DemoRx class (blocksatcli/api/demorx.py) provides a demo receiver for testing API listen without real hardware",
+    "Testnet API server (https://api.blockstream.space/testnet) available for API order testing without real payments"
+  ],
+  "modes": [
+    "SDR mode: RTL-SDR dongle + leandvb software demodulator pipeline",
+    "Linux USB mode: TBS DVB-S2 USB receiver with kernel drivers",
+    "Standalone mode: Novra S400 professional IRD (managed over IP)",
+    "Sat-IP mode: Selfsat IP22 integrated flat-panel antenna with IP output",
+    "Hybrid connectivity: simultaneous internet + satellite Bitcoin node",
+    "Satellite-only connectivity: full blockchain sync without internet",
+    "Docker mode: all receiver types supported inside blockstream/satellite container (--network=host required)"
+  ],
+  "constraints": [
+    "Linux-only for hardware receiver commands (usb, standalone, sdr, sat-ip, firewall, rp, gqrx subcommands); macOS/Windows only supported for cfg, instructions, api, btc subcommands",
+    "Docker container requires --network=host and privileged/device access for USB and SDR receivers",
+    "RTL-SDR requires fs.pipe-max-size kernel tuning (sysctl) for sufficient pipe buffer",
+    "USB receivers require out-of-tree TBS kernel drivers (installed via blocksat-cli deps install --target usb)",
+    "API message transmission requires Lightning Network payment (bid in millisatoshis); only USER channel is paid",
+    "GPG keyring must be configured before sending encrypted API messages",
+    "C-band satellites (Telstar 18V C) incompatible with flat-panel and Sat-IP antenna types",
+    "BLOCKSAT_NO_USB_DRIVERS_CHECK=true env var disables USB driver check in Docker (set by default in image)"
+  ],
+  "docker_services": [
+    "blockstream/satellite (single container: CLI + GUI + Bitcoin Satellite + all receiver dependencies, Ubuntu Jammy base, tagged by blocksat-cli version)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — only a single standalone Dockerfile (docker/blocksat-host.docker)",
+    "No simulation or emulated satellite signal source for end-to-end offline testing",
+    "No Windows native support for any receiver hardware commands",
+    "No built-in fault injection or chaos testing tooling"
+  ]
+}

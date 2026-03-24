@@ -1,0 +1,63 @@
+{
+  "slug": "vrnetlab-original",
+  "name": "vrnetlab (original)",
+  "what_it_is": "vrnetlab packages commercial virtual router disk images into Docker containers that run full KVM-based emulation, enabling programmatic network testing and CI/CD workflows without distributing pre-built images. Originally developed for Deutsche Telekom's TeraStream project.",
+  "components": [
+    "vr-xcon (inter-router TCP socket bridge for p2p interface linking)",
+    "Arista vEOS router image builder",
+    "Cisco CSR1000v router image builder",
+    "Cisco Nexus NX-OS (Titanium) router image builder",
+    "Cisco XRv router image builder",
+    "Cisco XRv 9000 router image builder",
+    "Juniper vMX router image builder",
+    "Juniper vQFX router image builder",
+    "Nokia VSR router image builder"
+  ],
+  "protocols": [
+    "BGP",
+    "IS-IS",
+    "MPLS",
+    "NETCONF",
+    "OSPF",
+    "SNMP",
+    "SSH",
+    "YANG"
+  ],
+  "measurement": [
+    "No built-in telemetry or measurement framework documented",
+    "SNMP polling available on port 161 per router container"
+  ],
+  "configuration": [
+    "SSH access on port 22 per router container",
+    "NETCONF on port 830 per router container",
+    "Serial console via Telnet on port 5000 per router container",
+    "Inter-router interface links via vr-xcon TCP sockets on ports 10001-10099",
+    "Custom Docker images built locally from vendor-supplied disk images",
+    "No configuration persistence across container restarts (stateless by design)"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework documented"
+  ],
+  "modes": [
+    "CI/CD automated testing mode (primary design target)",
+    "Programmatic network emulation (not interactive labbing)"
+  ],
+  "constraints": [
+    "Users must supply their own vendor-licensed disk images; no pre-built router images are distributed due to commercial license restrictions",
+    "Requires Linux host with KVM support and nested virtualization; incompatible with xhyve and standard VirtualBox",
+    "No configuration persistence: container state is lost on restart, intentional for stateless CI workflows",
+    "Resource consumption equivalent to running full virtual machines, not lightweight containers",
+    "Cannot integrate directly with standard Docker-networked containers without workarounds"
+  ],
+  "docker_services": [
+    "vr-xcon — inter-router connector container that bridges router interface TCP sockets for point-to-point links",
+    "Per-router containers (one per router instance, built locally from vendor disk image)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml at repository root (topology files are user-defined per deployment)",
+    "No pre-built images on Docker Hub due to vendor license restrictions",
+    "No built-in topology orchestration (users script container startup and vr-xcon wiring manually)",
+    "No GUI or web interface for lab management",
+    "No native Windows or macOS support (KVM is Linux-only)"
+  ]
+}

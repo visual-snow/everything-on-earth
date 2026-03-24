@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/beyond-all-reason/recoilengine",
+  "name": "beyond-all-reason/RecoilEngine",
+  "description": "A powerful free cross-platform RTS game engine forked from the Spring engine, maintained by the Beyond All Reason community with modern improvements and active support.",
+  "sub_domain": "game-engines-3d",
+  "score": 6,
+  "score_rationale": "544 stars but actively maintained Spring fork powering the popular Beyond All Reason RTS game with regular production releases.",
+  "stars": 544,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2025-08-16",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 57.9,
+  "tags": [
+    "rts-game-engine",
+    "c++",
+    "spring-fork",
+    "beyond-all-reason",
+    "cross-platform"
+  ],
+  "category": "Spring RTS Fork",
+  "summary": "Active Spring fork powering the Beyond All Reason RTS game",
+  "slug": "beyond-all-reason-recoilengine"
+}

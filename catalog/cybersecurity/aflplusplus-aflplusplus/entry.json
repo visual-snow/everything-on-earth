@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/aflplusplus/aflplusplus",
+  "name": "AFLplusplus/AFLplusplus",
+  "description": "The state-of-the-art AFL fork with community patches, QEMU 5.1 upgrade, collision-free coverage, enhanced laf-intel & redqueen, MOpt mutators, unicorn_mode, and more. The de facto standard coverage-guided fuzzer for binary and source-instrumented targets.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 10,
+  "score_rationale": "Industry-standard coverage-guided fuzzer with 6.4k stars, actively maintained with releases into 2026, and the dominant choice for binary fuzzing research.",
+  "stars": 6400,
+  "language": "C",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 90.4,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "aflplusplus-aflplusplus"
+}

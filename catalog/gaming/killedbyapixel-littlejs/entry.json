@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/killedbyapixel/littlejs",
+  "name": "KilledByAPixel/LittleJS",
+  "description": "Tiny, fast HTML5 JavaScript game engine with no dependencies, featuring WebGL2+Canvas2D rendering, physics, particles, sound, and input handling. Optimized for js13k and game jams.",
+  "sub_domain": "game-engines-2d",
+  "score": 7,
+  "score_rationale": "4.1k stars, MIT, highly regarded minimal JS engine popular in game jams with a strong feature-to-size ratio.",
+  "stars": 4100,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-01-29",
+  "found_in_domains": [
+    "game-engines-2d",
+    "web-game-engines"
+  ],
+  "quality_score": 70.9,
+  "tags": [
+    "2d-engine",
+    "javascript",
+    "html5",
+    "lightweight",
+    "game-jam"
+  ],
+  "category": "Minimal JS Game Engine",
+  "summary": "Tiny no-dependency HTML5 engine optimized for game jams and js13k",
+  "slug": "killedbyapixel-littlejs"
+}

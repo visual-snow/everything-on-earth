@@ -1,0 +1,66 @@
+{
+  "slug": "my5g-rantester",
+  "name": "my5G-RANTester",
+  "what_it_is": "A Go-based tool that emulates the control and data planes of UE (user equipment) and gNB (5G base station) for studying 3GPP Release 15+ standards and stress testing 5G cores. It can simulate a large number of UEs registering against a real or emulated 5G core network without implementing a wireless channel.",
+  "components": [
+    "gNB emulator (NGAP control interface + GTP-U data interface)",
+    "UE emulator (NAS/NAS-5GS stack, SIM credentials)",
+    "CLI test runner (cmd/app.go via urfave/cli)",
+    "YAML configuration loader (config/config.yml)",
+    "Test templates library (internal/templates)",
+    "Analytics and monitoring sub-packages (internal/analytics, internal/monitoring)"
+  ],
+  "protocols": [
+    "NGAP (NG Application Protocol, control plane gNB↔AMF over SCTP port 38412)",
+    "NAS / NAS-5GS (Non-Access Stratum, 5G mobility and session management)",
+    "GTP-U (GPRS Tunnelling Protocol – User plane, UDP port 2152)",
+    "SCTP (transport for NGAP)"
+  ],
+  "measurement": [
+    "Registration latency per UE in milliseconds (ue-latency-interval command)",
+    "AMF response count over a timed interval (amf-load-loop command)",
+    "AMF availability check over a timed interval (amf-availability command)",
+    "Healthcheck: presence of uetun1 tunnel interface after UE attach"
+  ],
+  "configuration": [
+    "gnodeb.controlif.ip / port — gNB NGAP bind address (default 127.0.0.1:9487)",
+    "gnodeb.dataif.ip / port — gNB GTP-U bind address (default 127.0.0.1:2152)",
+    "gnodeb.plmnlist — MCC, MNC, TAC, gNB ID",
+    "gnodeb.slicesupportlist — SST and SD (network slice)",
+    "ue.msin / key / opc / amf / sqn / dnn — SIM and subscription credentials",
+    "ue.hplmn — home PLMN (MCC/MNC)",
+    "ue.snssai — UE slice descriptor (SST/SD)",
+    "amfif.ip / port — AMF address (default 127.0.0.1:38412)",
+    "logs.level — logrus log level (0=Info … 6=Trace)",
+    "Docker env vars: NGAP_LOCAL_ADDR, NGAP_REMOTE_ADDR, GTPU_LOCAL_ADDR, MCC, MNC, TAC, GNBID, SST_GNB, SST_UE, SD, MSIN, OPC, KEY, AMF, SQN, DNN, NUM_UE"
+  ],
+  "fault_injection": [
+    "No explicit fault-injection primitives; amf-availability command can detect AMF downtime by repeatedly attempting registration over a configurable interval"
+  ],
+  "modes": [
+    "ue — attach a single UE with static config",
+    "gnb — attach a single gNB with static config",
+    "load-test -n <N> — register N UEs sequentially (stress/scalability)",
+    "amf-load-loop -n <rps> -t <seconds> — send N registration requests per second for T seconds",
+    "ue-latency-interval -n <N> — measure average registration latency over N requests",
+    "amf-availability -t <seconds> — continuously probe AMF availability for T seconds"
+  ],
+  "constraints": [
+    "Wireless channel is NOT implemented — radio layer is entirely bypassed; tool tests core network only",
+    "Requires NET_ADMIN capability (or privileged mode) to create uetun1 tunnel interfaces for user-plane traffic",
+    "Designed to connect to an external 5G core (e.g., free5GC, Open5GS); docker-compose reuses an existing 'docker_privnet' network rather than spinning up its own core",
+    "Single gNB ID per run — all UEs in load-test share the same gNB instance",
+    "Built on free5GC libraries; SIM credentials (KEY, OPC) must match those provisioned in the target core's subscriber database"
+  ],
+  "docker_services": [
+    "my5grantester — single service; image my5grantester:latest; attaches to external network docker_privnet at 10.100.200.200; requires NET_ADMIN + privileged; entrypoint sleeps until commands are exec'd manually"
+  ],
+  "notable_absences": [
+    "No built-in 5G core — must be provided externally (e.g., free5GC, Open5GS)",
+    "No radio / air-interface simulation (no RF channel, no handover, no interference)",
+    "No HTTP/2 or SBI (Service Based Interface) — only RAN-to-core NGAP/NAS/GTP-U",
+    "No PDU session data-plane traffic generation beyond tunnel creation (no iperf-style throughput test)",
+    "No PCAP capture integration built in",
+    "No multi-gNB load distribution across separate gNB instances"
+  ]
+}

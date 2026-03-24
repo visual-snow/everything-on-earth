@@ -1,0 +1,44 @@
+{
+  "slug": "gnmi-openconfig-reference",
+  "name": "OpenConfig Reference",
+  "what_it_is": "A reference repository containing specifications, tooling, and reference implementations for OpenConfig-based network management, primarily focused on gNMI (gRPC Network Management Interface) and YANG data models. It provides protobuf definitions and documentation rather than a runnable simulation environment.",
+  "components": [
+    "rpc/ — gNMI RPC definitions and protobuf specifications",
+    "ietf/ — IETF-related OpenConfig content and mappings",
+    "Python scripts (77.4% of codebase)",
+    "Shell scripts (22.6% of codebase)"
+  ],
+  "protocols": [
+    "gNMI (gRPC Network Management Interface)",
+    "gRPC",
+    "YANG data modeling language",
+    "OpenConfig path conventions"
+  ],
+  "measurement": [
+    "gNMI Subscribe RPC for streaming telemetry (defined in spec)",
+    "gNMI Get RPC for state/config retrieval (defined in spec)"
+  ],
+  "configuration": [
+    "gNMI Set RPC for device configuration (defined in spec)",
+    "OpenConfig YANG model paths for configuration targeting"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Reference/specification mode — read protobuf and documentation only",
+    "Tooling mode — run included Python scripts for OpenConfig-related tasks"
+  ],
+  "constraints": [
+    "No runnable network simulation or emulated devices included — this is a spec/reference repo, not a sandbox",
+    "No Docker or container infrastructure; cannot be spun up as a self-contained environment",
+    "No published releases or versioned packages; consumers must pin to a git commit",
+    "Requires an external gNMI-capable target (real device or separate emulator) to exercise the RPC definitions"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No Docker Compose or container definitions",
+    "No emulated network devices or virtual targets",
+    "No fault injection or chaos testing capabilities",
+    "No test runner or CI configuration visible in the repository root",
+    "No gNMI server implementation (only client-side specs and tooling)"
+  ]
+}

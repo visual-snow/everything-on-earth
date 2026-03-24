@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/aflgo/aflgo",
+  "name": "aflgo/aflgo",
+  "description": "Directed greybox fuzzer extending AFL to target specific program locations (crash sites, patch locations, dangerous functions) rather than maximizing general coverage.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 6,
+  "score_rationale": "Influential directed fuzzing research tool with 556 stars, widely cited in academic literature for targeted vulnerability discovery.",
+  "stars": 556,
+  "language": "C",
+  "license": "Apache-2.0",
+  "last_activity": "2024-03-01",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 58.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "aflgo-aflgo"
+}

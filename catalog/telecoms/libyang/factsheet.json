@@ -1,0 +1,63 @@
+{
+  "slug": "libyang",
+  "name": "libyang",
+  "what_it_is": "A YANG data modelling language parser and toolkit written in C, providing APIs for parsing, validating, and converting YANG schemas and instance data. It serves as a foundational library for projects such as libnetconf2, Netopeer2, and sysrepo.",
+  "components": [
+    "yanglint — feature-rich CLI tool for YANG validation and data conversion (located in /tools/lint)",
+    "libyang C library (link with -lyang)",
+    "pkg-config support via libyang.pc",
+    "Extension/plugin system (LIBYANG_EXTENSIONS_PLUGINS_DIR)",
+    "Performance measurement tool",
+    "Regression fuzzing harness (tests/fuzz)"
+  ],
+  "protocols": [
+    "YANG 1.0 (RFC 6020)",
+    "YANG 1.1 (RFC 7950)",
+    "YIN format schemas",
+    "XML instance data (RFC 7950 encoding)",
+    "JSON instance data (RFC 7951)",
+    "Default values (RFC 6243)",
+    "YANG Metadata (RFC 7952)",
+    "YANG Schema Mount (RFC 8528)",
+    "YANG Structure (RFC 8791)"
+  ],
+  "measurement": [
+    "Built-in performance measurement tool included in the repository",
+    "Code coverage generation via ENABLE_COVERAGE CMake option",
+    "cmocka-based unit tests covering library behaviour"
+  ],
+  "configuration": [
+    "CMAKE_INSTALL_PREFIX — install path (default: /usr/local)",
+    "CC — compiler selection",
+    "Build type: Release or Debug (Debug is default)",
+    "PLUGINS_DIR — compile-time plugins directory",
+    "LIBYANG_EXTENSIONS_PLUGINS_DIR — runtime override for extensions plugins path",
+    "ENABLE_LATEST_REVISIONS — toggle schema caching/optimisation behaviour",
+    "ENABLE_TESTS — enable unit tests in Release mode",
+    "ENABLE_COVERAGE — enable code coverage instrumentation"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Library mode — embedded via C API (#include <libyang/libyang.h>)",
+    "CLI mode — interactive and non-interactive yanglint tool",
+    "Release build — optimised, tests optional",
+    "Debug build — default, full assertions",
+    "master branch — stable official releases",
+    "devel branch — latest improvements and bugfixes"
+  ],
+  "constraints": [
+    "Windows: no plugin/extension support",
+    "Windows: yanglint operates in non-interactive mode only",
+    "Windows: YANG date-time values with unspecified timezone are converted to UTC",
+    "Minimum cmake >= 2.8.12 on Unix, >= 3.22.0 on Windows",
+    "Requires libpcre2 >= 10.21",
+    "No built-in language bindings — Python, C++, and Rust bindings are separate projects"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml in the repository — no containerised sandbox provided",
+    "No fault injection or error simulation facilities documented",
+    "No built-in language bindings (Python, C++, Rust available as separate repos)",
+    "No NETCONF/RESTCONF transport layer — libyang handles schema/data only; networking is left to libnetconf2/Netopeer2"
+  ]
+}

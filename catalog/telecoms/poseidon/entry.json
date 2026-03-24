@@ -1,0 +1,56 @@
+{
+  "name": "Poseidon",
+  "repo_url": "https://github.com/faucetsdn/poseidon",
+  "description": "A Python application leveraging SDN to automatically capture network traffic and classify devices using machine learning. Integrates with FAUCET controller for network visibility and situational awareness.",
+  "domain": "anomaly-detection",
+  "secondary_domains": [
+    "device-classification",
+    "network-security",
+    "sdn"
+  ],
+  "protocols": [
+    "OpenFlow",
+    "SDN"
+  ],
+  "provides": [
+    "openflow-integration",
+    "network-situational-awareness",
+    "web-dashboard",
+    "packet-capture",
+    "docker-compose-stack",
+    "sdn-network-visibility",
+    "ml-device-classification",
+    "network-anomaly-detection",
+    "protocol-analysis",
+    "faucet-sdn-controller"
+  ],
+  "needs": [
+    "faucet-sdn-controller",
+    "docker-compose-1.29.2+",
+    "openflow-capable-switch",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "iqtlabs/poseidon",
+    "compose_services_count": 5,
+    "docker_evidence": "Poseidon and related components run on top of Docker, orchestrated with docker-compose. Requires version 1.29.2+ with compose file format version 3 and health check conditions."
+  },
+  "github_metrics": {
+    "stars": 431,
+    "last_commit": "2025-01-05",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "ML-powered network device classification via SDN. Docker-compose based deployment with FAUCET integration. Good for testing network security and anomaly detection scenarios in SDN environments.",
+  "related_repos": [
+    "https://github.com/faucetsdn/faucet",
+    "https://github.com/iqtlabs/pipette"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "poseidon"
+}

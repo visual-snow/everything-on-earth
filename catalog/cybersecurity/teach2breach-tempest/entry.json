@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/teach2breach/tempest",
+  "name": "Teach2Breach/Tempest",
+  "description": "Command and control framework written entirely in Rust with a TUI client, multi-platform implants for Windows, Linux, and macOS, and OPSEC-focused design. A research-oriented C2 demonstrating Rust's applicability to offensive tooling.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 6,
+  "score_rationale": "385 stars with active development from August 2024, valued for its all-Rust architecture and multi-platform implant support.",
+  "stars": 385,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2024-11-15",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 56.7,
+  "tags": [
+    "c2",
+    "command-control",
+    "beaconing"
+  ],
+  "category": "C2 Framework",
+  "summary": "Command and control infrastructure",
+  "slug": "teach2breach-tempest"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/anchore/syft",
+  "name": "anchore/syft",
+  "description": "CLI tool and Go library for generating Software Bill of Materials (SBOM) from container images and filesystems. Supports CycloneDX and SPDX formats and pairs with Grype for complete container vulnerability management.",
+  "sub_domain": "container-cloud-security",
+  "score": 9,
+  "score_rationale": "8.5k stars with active development into March 2026, the standard open-source SBOM generation tool for container security and supply chain transparency.",
+  "stars": 8500,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "container-cloud-security",
+    "Supply Chain Security",
+    "vuln-scanners"
+  ],
+  "quality_score": 85.4,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "anchore-syft"
+}

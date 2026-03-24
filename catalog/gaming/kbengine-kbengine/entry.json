@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/kbengine/kbengine",
+  "name": "kbengine/kbengine",
+  "description": "An open-source MMOG server engine with a C++ core and Python game logic layer, featuring distributed load balancing and integration with Unity3D, Unreal Engine, and HTML5 clients.",
+  "sub_domain": "game-backends",
+  "score": 7,
+  "score_rationale": "5.7k stars, proven MMORPG-scale server engine though development slowed after 2021.",
+  "stars": 5700,
+  "language": "C",
+  "license": "BSD-3-Clause",
+  "last_activity": "2021-07-25",
+  "found_in_domains": [
+    "game-backends"
+  ],
+  "quality_score": 72.0,
+  "tags": [
+    "mmorpg",
+    "backend",
+    "server",
+    "distributed"
+  ],
+  "category": "Game Backend Server",
+  "summary": "MMORPG server engine with distributed load balancing",
+  "slug": "kbengine-kbengine"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/horsicq/detect-it-easy",
+  "name": "horsicq/Detect-It-Easy",
+  "description": "Cross-platform file type identification program for Windows, Linux, and macOS with signature-based and heuristic detection, widely used in malware triage.",
+  "sub_domain": "malware-reversing",
+  "score": 9,
+  "score_rationale": "10.5k stars, essential malware triage tool with active 2026 maintenance and broad file format support.",
+  "stars": 10500,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 86.2,
+  "tags": [
+    "malware-analysis",
+    "pe-format",
+    "security-tool"
+  ],
+  "category": "Malware Analysis Tool",
+  "summary": "Cross-platform file type identification program for Windows, Linux, and macOS with signature-base...",
+  "slug": "horsicq-detect-it-easy"
+}

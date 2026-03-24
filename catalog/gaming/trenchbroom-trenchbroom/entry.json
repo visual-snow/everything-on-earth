@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/trenchbroom/trenchbroom",
+  "name": "TrenchBroom/TrenchBroom",
+  "description": "TrenchBroom is a modern, cross-platform level editor for Quake-engine-based games, supporting Quake 1, 2, and Hexen 2 with true 3D editing and precise brush manipulation.",
+  "sub_domain": "asset-tools",
+  "score": 8,
+  "score_rationale": "2.5k stars, the definitive open-source editor for classic Quake-engine games with active January 2026 releases and a dedicated retro FPS community.",
+  "stars": 2500,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-02",
+  "found_in_domains": [
+    "asset-tools"
+  ],
+  "quality_score": 75.2,
+  "tags": [
+    "level-editor",
+    "quake-engine",
+    "3d-editing"
+  ],
+  "category": "3D Level Editor",
+  "summary": "Cross-platform 3D level editor for classic Quake engine games",
+  "slug": "trenchbroom-trenchbroom"
+}

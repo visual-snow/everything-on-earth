@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chris3606/gorogue",
+  "name": "Chris3606/GoRogue",
+  "description": ".NET Standard roguelike library in C# providing FOV, pathfinding, map generation algorithms, random number generation, component system, and data structures, designed to be minimally intrusive on the developer's architecture.",
+  "sub_domain": "roguelike-frameworks",
+  "score": 7,
+  "score_rationale": "517-star comprehensive C# roguelike algorithm library that complements SadConsole for rendering, providing all algorithmic building blocks.",
+  "stars": 517,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2024-02-04",
+  "found_in_domains": [
+    "roguelike-frameworks"
+  ],
+  "quality_score": 63.7,
+  "tags": [
+    "csharp",
+    "roguelike",
+    "pathfinding",
+    "fov",
+    "algorithms"
+  ],
+  "category": "C# Roguelike Library",
+  "summary": "Modular C# roguelike library with FOV, pathfinding, and map generation algorithms",
+  "slug": "chris3606-gorogue"
+}

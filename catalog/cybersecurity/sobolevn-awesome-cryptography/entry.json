@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sobolevn/awesome-cryptography",
+  "name": "sobolevn/awesome-cryptography",
+  "description": "A curated list of cryptography resources and links covering theory, educational materials, standalone tools, and implementation libraries across 25+ programming languages for developers and security professionals.",
+  "sub_domain": "awesome-lists",
+  "score": 8,
+  "score_rationale": "Comprehensive cryptography resource list with 6.8k stars, the primary reference for discovering cryptographic libraries and tools by language.",
+  "stars": 6800,
+  "language": "Markdown",
+  "license": null,
+  "last_activity": "2024-06-12",
+  "found_in_domains": [
+    "awesome-lists"
+  ],
+  "quality_score": 78.7,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated list of cryptography resources and links covering theory, educational materials, standalon",
+  "slug": "sobolevn-awesome-cryptography"
+}

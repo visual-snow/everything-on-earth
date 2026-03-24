@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alipbcs/zetaray",
+  "name": "alipbcs/ZetaRay",
+  "description": "Hobby real-time Direct3D 12 path tracer implementing hardware-accelerated DXR ray tracing, ReSTIR sampling, AMD FSR2 upscaling, and glTF scene support for learning and experimenting with current-gen RT research.",
+  "sub_domain": "ray-tracing",
+  "score": 6,
+  "score_rationale": "380-star DX12 path tracer demonstrating current-gen RT techniques like ReSTIR; useful learning reference for D3D12 ray tracing.",
+  "stars": 380,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2023-04-24",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 56.6,
+  "tags": [
+    "directx",
+    "path-tracing",
+    "restir",
+    "fsr2",
+    "dxr"
+  ],
+  "category": "DirectX Path Tracer",
+  "summary": "DX12 path tracer with ReSTIR sampling and FSR2 upscaling research implementation",
+  "slug": "alipbcs-zetaray"
+}

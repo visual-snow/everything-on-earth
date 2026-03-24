@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nem0/lumixengine",
+  "name": "nem0/LumixEngine",
+  "description": "A 3D C++ game engine focused on performance and developer experience with a built-in editor and Lua scripting. Minimalist design with modern rendering.",
+  "sub_domain": "game-engines-3d",
+  "score": 7,
+  "score_rationale": "3.8k stars, actively maintained single-developer C++ engine with consistent releases and a clear focus on editor usability.",
+  "stars": 3800,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 70.6,
+  "tags": [
+    "3d-game-engine",
+    "c++",
+    "editor",
+    "lua-scripting",
+    "minimalist"
+  ],
+  "category": "Lightweight C++ Game Engine",
+  "summary": "Minimalist C++ engine focused on performance and editor usability",
+  "slug": "nem0-lumixengine"
+}

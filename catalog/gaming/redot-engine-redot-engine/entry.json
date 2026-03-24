@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/redot-engine/redot-engine",
+  "name": "Redot-Engine/redot-engine",
+  "description": "Redot Engine is a community-driven MIT-licensed fork of Godot Engine for multi-platform 2D and 3D game development. Launched in 2024 with independent governance.",
+  "sub_domain": "game-engines-3d",
+  "score": 7,
+  "score_rationale": "5.8k stars as a fresh Godot fork with growing community and independent roadmap, providing a viable alternative to the upstream project.",
+  "stars": 5800,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-01-29",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 72.1,
+  "tags": [
+    "3d-game-engine",
+    "godot-fork",
+    "community-driven",
+    "cross-platform",
+    "2d-3d"
+  ],
+  "category": "Godot Community Fork",
+  "summary": "Community-driven Godot fork with independent governance and roadmap",
+  "slug": "redot-engine-redot-engine"
+}

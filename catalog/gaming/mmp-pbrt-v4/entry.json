@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mmp/pbrt-v4",
+  "name": "mmp/pbrt-v4",
+  "description": "Source code for pbrt, the physically-based ray tracer accompanying the 4th edition of 'Physically Based Rendering: From Theory to Implementation', with GPU support via CUDA/OptiX. The canonical PBR reference implementation.",
+  "sub_domain": "ray-tracing",
+  "score": 10,
+  "score_rationale": "Gold-standard physically based rendering reference alongside the seminal textbook, used in research and industry worldwide.",
+  "stars": 3500,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-04-01",
+  "found_in_domains": [
+    "graphics-rendering",
+    "ray-tracing"
+  ],
+  "quality_score": 88.4,
+  "tags": [
+    "ray-tracing",
+    "pbr",
+    "reference"
+  ],
+  "category": "Ray Tracer",
+  "summary": "Canonical physically-based ray tracer reference implementation",
+  "slug": "mmp-pbrt-v4"
+}

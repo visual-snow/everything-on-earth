@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bevyengine/bevy",
+  "name": "bevyengine/bevy",
+  "description": "A refreshingly simple data-driven game engine built in Rust with an Entity Component System (ECS) architecture. Supports 2D/3D, WASM, and modern Vulkan/Metal/DX12 rendering.",
+  "sub_domain": "game-engines-3d",
+  "score": 9,
+  "score_rationale": "45k stars, extremely active development, leading ECS-based Rust game engine with strong community and modern rendering architecture.",
+  "stars": 45300,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 91.2,
+  "tags": [
+    "3d-game-engine",
+    "rust",
+    "ecs",
+    "data-driven",
+    "modern-graphics"
+  ],
+  "category": "Rust ECS Game Engine",
+  "summary": "Leading Rust ECS game engine with Vulkan/Metal/DX12 rendering",
+  "slug": "bevyengine-bevy"
+}

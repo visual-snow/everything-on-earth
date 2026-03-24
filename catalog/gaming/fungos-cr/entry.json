@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/fungos/cr",
+  "name": "fungos/cr",
+  "description": "Single-file header-only C/C++ library for hot-reloading binary plugins at runtime, with automatic crash detection, rollback to previous working versions, and static state transfer across Linux, macOS, and Windows.",
+  "sub_domain": "modding-frameworks",
+  "score": 7,
+  "score_rationale": "The go-to header-only solution for C/C++ hot reload with 1.7k stars, MIT licensed, and actively maintained through March 2025 \u2014 widely used in game engines for live coding workflows.",
+  "stars": 1700,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-03-30",
+  "found_in_domains": [
+    "modding-frameworks"
+  ],
+  "quality_score": 67.8,
+  "tags": [
+    "hot-reload",
+    "plugins",
+    "live-coding"
+  ],
+  "category": "Hot Reload",
+  "summary": "Header-only C/C++ library for runtime hot-reloading with crash detection",
+  "slug": "fungos-cr"
+}

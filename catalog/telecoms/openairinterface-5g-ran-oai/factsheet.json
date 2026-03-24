@@ -1,0 +1,71 @@
+{
+  "slug": "openairinterface-5g-ran-oai",
+  "name": "OpenAirInterface 5G RAN (OAI)",
+  "what_it_is": "Open-source 3GPP-compliant software implementation of the full 4G LTE and 5G NR radio access network stack, including gNB, eNB, and UE components maintained by the OAI Software Alliance under the OAI Public License V1.1. Supports real hardware SDRs and an RF simulator mode for software-only testing.",
+  "components": [
+    "gNB (5G NR base station)",
+    "eNB (4G LTE base station)",
+    "UE (user equipment simulator)",
+    "RF simulator (rfsim — no hardware required)",
+    "PHY layer (3GPP LTE Rel-10/12, NR Rel-15+)",
+    "MAC layer",
+    "RLC layer",
+    "PDCP layer",
+    "RRC layer",
+    "F1AP (CU/DU split interface)",
+    "E1AP (CU-CP/CU-UP split interface)",
+    "NGAP (5G N2 interface to AMF)",
+    "S1AP (4G S1 interface to MME)",
+    "E2AP (O-RAN RIC interface)"
+  ],
+  "protocols": [
+    "5G NR (3GPP Rel-15+)",
+    "LTE (3GPP Rel-10/12)",
+    "NGAP",
+    "S1AP",
+    "F1AP",
+    "E1AP",
+    "E2AP",
+    "GTP-U",
+    "SCTP"
+  ],
+  "measurement": [
+    "PHY-layer KPIs (BLER, MCS, throughput) logged per UE",
+    "RRC state machine tracing",
+    "MAC scheduling statistics output to log files",
+    "T-tracer real-time event tracing framework (binary trace over socket)"
+  ],
+  "configuration": [
+    ".conf text files per network element (gnb.conf, ue.conf, enb.conf)",
+    "Command-line overrides for key parameters (--rfsim, --sa, --phy-test)",
+    "Docker environment variables for service addresses (AMF_IP, GNB_ID, etc.)",
+    "Parameterized numerology, bandwidth, and band selection in config files"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "RF simulator mode (rfsim): fully software, no SDR hardware needed",
+    "Standalone 5G SA mode",
+    "Non-standalone NSA mode (LTE anchor + NR data)",
+    "phy-test mode: fixed MCS loopback for PHY validation without core network",
+    "noS1/noNG mode: RAN only without core network connection",
+    "CU/DU split mode (F1AP over localhost or network)",
+    "CU-CP/CU-UP split mode (E1AP)"
+  ],
+  "constraints": [
+    "Requires Ubuntu 22.04, Ubuntu 24.04, RHEL 9, or Fedora 41 — other Linux distros are unsupported",
+    "Real-time kernel or high-priority scheduling required for production RF hardware deployments; rfsim mode works on standard kernels",
+    "OAI Public License V1.1 is not OSI-approved open source — commercial use requires a separate agreement with the OAI Software Alliance",
+    "UE simulator is not a full device stack — it cannot connect to commercial 5G networks or pass 3GPP conformance tests"
+  ],
+  "docker_services": [
+    "oai-gnb (5G NR base station container, image: oaisoftwarealliance/oai-gnb)",
+    "oai-enb (4G LTE base station container, image: oaisoftwarealliance/oai-enb)",
+    "oai-lte-ue / oai-nr-ue (UE simulator container, image: oaisoftwarealliance/oai-lte-ue or oai-nr-ue)"
+  ],
+  "notable_absences": [
+    "No built-in fault injection or impairment framework — channel degradation must be scripted externally",
+    "No REST or gRPC management API — configuration is file-based only; runtime changes require process restart",
+    "No native Kubernetes/Helm charts in the main repository — container orchestration is community-maintained",
+    "docker-compose.yml is not present at repository root; compose examples live in CI scripts and documentation only"
+  ]
+}

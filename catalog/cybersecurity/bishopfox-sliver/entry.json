@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/bishopfox/sliver",
+  "name": "BishopFox/sliver",
+  "description": "Open source cross-platform adversary emulation framework supporting C2 over mTLS, WireGuard, HTTP(S), and DNS with dynamically compiled implants. The de-facto open-source Cobalt Strike alternative used widely in red team engagements.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 10,
+  "score_rationale": "Industry-standard open-source C2 framework with 10.9k stars, actively maintained by BishopFox, and widely adopted by both red teams and threat actors.",
+  "stars": 10900,
+  "language": "Go",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-24",
+  "found_in_domains": [
+    "pentest-frameworks",
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 92.3,
+  "tags": [
+    "command-control",
+    "dynamic-analysis",
+    "pe-format"
+  ],
+  "category": "C2 Framework",
+  "summary": "Open source cross-platform adversary emulation framework supporting C2 over mTLS, WireGuard, HTTP...",
+  "slug": "bishopfox-sliver"
+}

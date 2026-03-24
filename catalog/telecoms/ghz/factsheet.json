@@ -1,0 +1,87 @@
+{
+  "slug": "ghz",
+  "name": "ghz",
+  "what_it_is": "ghz is a command-line gRPC benchmarking and load testing tool written in Go. It sends configurable volumes of gRPC requests to a target server and reports latency distributions, error rates, and throughput metrics.",
+  "components": [
+    "ghz CLI binary (cmd/ghz) — primary load generator",
+    "runner package — programmatic Go API for driving load tests",
+    "printer package — formats reports as summary, CSV, JSON, pretty, HTML, or InfluxDB line protocol",
+    "load package — pacer and worker-ticker implementations for const/step/line schedules",
+    "web sub-application — optional HTTP UI for storing and browsing historical test reports (backed by a database)"
+  ],
+  "protocols": [
+    "gRPC (HTTP/2) — the only supported transport protocol",
+    "gRPC with TLS (mTLS via --cert/--key/--cacert flags)",
+    "gRPC with server reflection (automatic service discovery without a .proto file)",
+    "gRPC streaming: unary, client-streaming, server-streaming, and bidirectional streaming"
+  ],
+  "measurement": [
+    "Total request count and total wall-clock duration",
+    "Requests per second (throughput)",
+    "Latency: average, fastest, slowest",
+    "Latency percentile distribution (p10, p25, p50, p75, p90, p95, p99)",
+    "Latency histogram (bucket counts)",
+    "Error distribution (count per error message string)",
+    "gRPC status code distribution (count per status code)",
+    "Per-request detail records (timestamp + latency + status) included in JSON/CSV output",
+    "InfluxDB line-protocol output (influx-summary and influx-details formats) for time-series ingestion"
+  ],
+  "configuration": [
+    "--proto / --protoset — service definition source (mutually exclusive; --proto takes precedence)",
+    "--call — fully-qualified gRPC method (package.Service/Method)",
+    "-n / --total — number of requests (default 200); ignored when -z duration is set",
+    "-c / --concurrency — concurrent worker goroutines (default 50)",
+    "--connections — number of underlying gRPC connections (default 1; concurrency spread evenly across them)",
+    "-r / --rps — rate-limit in requests per second (0 = unlimited)",
+    "--load-schedule — const | step | line load ramp profiles",
+    "--concurrency-schedule — const | step | line concurrency ramp profiles",
+    "-z / --duration — time-boxed run; overrides -n",
+    "-x / --max-duration — upper bound on wall time even when -n is set",
+    "-t / --timeout — per-request timeout (default 20s)",
+    "--connect-timeout — dial timeout (default 10s)",
+    "-d / --data or -D / --data-file — request payload as JSON or file path",
+    "-b / --binary or -B / --binary-file — pre-serialised binary protobuf payload",
+    "-m / --metadata or -M / --metadata-file — gRPC request metadata as JSON",
+    "--stream-interval / --stream-call-count / --stream-call-duration — streaming call control",
+    "--skipTLS / --insecure — disable TLS verification or use plaintext",
+    "--async — fire-and-forget mode (do not wait for response before sending next request)",
+    "-O / --format — output format: summary | csv | json | pretty | html | influx-summary | influx-details",
+    "--config — path to JSON or TOML config file containing all settings",
+    "--skipFirst — exclude the first N requests from statistics",
+    "--count-errors — include error responses in latency statistics",
+    "--cpus — pin to N OS threads (default: all available cores)",
+    "-e / --enable-compression — Gzip-compress request bodies"
+  ],
+  "fault_injection": [
+    "No built-in fault injection; ghz is a client-side load generator only — it cannot inject errors or delays into the server under test",
+    "Error responses from the server are captured and tallied in errorDistribution and statusCodeDistribution fields of the report"
+  ],
+  "modes": [
+    "Constant load: fixed RPS or fixed concurrency for a set request count or duration (default)",
+    "Step load: RPS or concurrency increases/decreases by a fixed step every step-duration",
+    "Line (linear ramp) load: RPS or concurrency changes linearly from start to end over max-duration",
+    "Async mode: requests are dispatched without waiting for previous responses, maximising in-flight count",
+    "Streaming mode: client-streaming, server-streaming, or bidirectional streaming with per-message interval and count controls",
+    "Reflection mode: service schema discovered at runtime via gRPC server reflection (no .proto file required)",
+    "Web UI mode: ghz-web HTTP server stores runs in a database and serves a browsable report dashboard"
+  ],
+  "constraints": [
+    "Only gRPC (HTTP/2) is supported — no HTTP/1.1, REST, or other protocols",
+    "Number of connections cannot exceed concurrency (-connections <= -concurrency); violation is a fatal config error",
+    "Binary data and --stream-dynamic-messages are mutually exclusive",
+    "When -z duration is set, -n (total requests) is ignored (overridden to MaxInt32)",
+    "Step and line load schedules require load-start, load-end, and load-step / load-step-duration to be specified",
+    "No native support for generating varied/randomised payloads beyond Go template functions in data JSON",
+    "No server-side component — ghz only generates load; the target gRPC server must be provided separately",
+    "Docker image targets a single static binary; no docker-compose file is provided in the repository"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml — the repository ships only a multi-stage Dockerfile producing a static binary image",
+    "No HTTP/REST or WebSocket load testing capability",
+    "No built-in server-side fault injection or chaos tooling",
+    "No distributed/multi-node load generation (all load originates from a single process)",
+    "No authentication helpers beyond mTLS (e.g., no OAuth2 token refresh built in)",
+    "No real-time streaming dashboard — the ghz-web UI shows historical reports, not live metrics"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "openimss",
+  "name": "openIMSs",
+  "what_it_is": "An open-source, containerized IMS (IP Multimedia Subsystem) platform for practical 4G/5G telecommunications development, integrating Open5GS, OpenSIPS IMS, srsRAN, and UERANSIM into 40+ microservices. It supports voice, video, data, RCS, and IM services across NSA and SA deployment modes.",
+  "components": [
+    "AMF (Access and Mobility Management Function)",
+    "SMF (Session Management Function)",
+    "UPF (User Plane Function)",
+    "SGWC / SGWU (Serving Gateway Control/User Plane)",
+    "UDM, UDR, AUSF, NSSF, PCF, BSF, NRF, SCP (5GC network functions)",
+    "MME (4G Mobility Management Entity)",
+    "P-CSCF, I-CSCF, S-CSCF (OpenSIPS-based Call Session Control Functions)",
+    "FHOSS (Open IMS Core Home Subscriber Server)",
+    "PCRF (Policy and Charging Rules Function)",
+    "HSS (Home Subscriber Server)",
+    "srsRAN (4G eNB and 5G gNB)",
+    "UERANSIM (5G NR UE/gNB simulator)",
+    "OAI (OpenAirInterface) support",
+    "RTP Engine (media plane)",
+    "OsmoHLR / OsmoMSC (legacy GSM components)",
+    "Asterisk with AMR codec",
+    "DNS service",
+    "WebUI (Open5GS subscriber management)",
+    "MongoDB (subscriber data store)",
+    "MySQL (IMS data store)"
+  ],
+  "protocols": [
+    "SIP / IMS (Session Initiation Protocol)",
+    "Diameter (3GPP AAA and policy signaling)",
+    "S1AP (4G RAN-core interface)",
+    "NG-AP (5G RAN-core interface)",
+    "GTP-U (user-plane tunneling)",
+    "SCTP (transport for S1AP/NG-AP)",
+    "RTP / SRTP (media transport via RTP Engine)",
+    "HTTP/2 REST (5GC SBI interfaces)"
+  ],
+  "measurement": [
+    "Prometheus (metrics collection, port 9090)",
+    "Grafana (metrics visualization dashboards)",
+    "qryn (log aggregation platform)",
+    "Vector (log processing and routing)",
+    "ClickHouse (time-series log/metrics database)",
+    "Coroot (infrastructure and service monitoring)",
+    "HEPify Server (SIP capture and call-flow analysis)",
+    "Portainer (Docker container management UI)"
+  ],
+  "configuration": [
+    ".env file controls MCC/MNC (network identity)",
+    "TEST_NETWORK sets Docker subnet range",
+    "DOCKER_HOST_IP sets deployment host address",
+    "SGWU_ADVERTISE_IP / UPF_ADVERTISE_IP for inter-network routing",
+    "Port 36412/SCTP (MME) and 38412/SCTP (AMF) exposed for remote eNB/gNB",
+    "Port 2152/UDP exposed for GTP-U data plane in distributed mode",
+    "ZMQ transport configurable in srsRAN for simulation without SDR hardware",
+    "WebUI credentials hardcoded as admin/1423"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Co-located: eNB/gNB and core on same Docker network",
+    "Distributed: eNB/gNB on separate host/network with explicit port exposure",
+    "NSA (Non-Standalone): 4G/5G hybrid using srsRAN",
+    "SA (Standalone): pure 5G NR deployment",
+    "Simulation: ZMQ-based radio emulation without physical SDR hardware"
+  ],
+  "constraints": [
+    "IPv6 is not supported in the Docker environment",
+    "Tested exclusively on Ubuntu 22.04; other platforms are untested",
+    "Physical radio mode requires Ettus USRP B210 SDR hardware",
+    "WebUI credentials are hardcoded (admin/1423) with no documented credential rotation",
+    "No built-in fault injection or chaos engineering framework"
+  ],
+  "docker_services": [
+    "mme", "amf", "smf", "upf", "sgwc", "sgwu",
+    "ausf", "udm", "udr", "nrf", "scp", "nssf", "pcf", "bsf",
+    "pcrf", "hss",
+    "p-cscf", "i-cscf", "s-cscf", "fhoss",
+    "webui", "mongo", "mysql",
+    "qryn", "grafana", "coroot", "portainer", "vector",
+    "dns", "rtpengine",
+    "osmomsc", "osmohlr"
+  ],
+  "notable_absences": [
+    "No fault injection or chaos engineering capability",
+    "No RAN slicing support documented",
+    "No load-testing or traffic-generation tooling",
+    "No multi-site or inter-PLMN federation capability",
+    "No security/encryption configuration details (IPsec, TLS cert management)",
+    "docker-compose.yml not found at the expected raw GitHub path (may use non-standard branch or layout)",
+    "No CI/CD pipeline or automated test suite documented"
+  ]
+}

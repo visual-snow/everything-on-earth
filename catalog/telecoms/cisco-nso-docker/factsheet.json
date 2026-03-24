@@ -1,0 +1,66 @@
+{
+  "slug": "cisco-nso-docker",
+  "name": "Cisco NSO Docker (NSO in Docker / NID)",
+  "what_it_is": "An open-source ecosystem for building and running Cisco Network Services Orchestrator (NSO) inside Docker containers, producing a stripped production image and a full development image. It defines the NID (NSO in Docker) workflow with shareable testenvs, netsim-based device simulation, and Makefile-driven CI/CD pipelines.",
+  "components": [
+    "cisco-nso-base: stripped production image (~550 MB) built from official NSO installer, used as base for adding NEDs and service packages",
+    "cisco-nso-dev: development image (~1.15 GB) with Java compiler, ant, Python toolchain, expect, sshpass, debugpy, mypy, pylint, ipython3",
+    "netsim container: runs confd (ConfD/BEAM VM) to simulate network devices modeled in YANG; one container per simulated device",
+    "NID skeletons: project templates for NED repositories, package repositories, and full NSO system repositories",
+    "testenv framework: Makefile targets (start / test / stop) that orchestrate docker networks, NSO containers, and netsim containers",
+    "nid/ scripts: testenv-build, build-meta-data.xml, create-or-update-venv.inc for incremental package compilation inside running containers"
+  ],
+  "protocols": [
+    "CLI (NSO NCS CLI, J-style and C-style via runcmdJ / runcmdC make targets)",
+    "NETCONF (port 830, used for device sync-from and configuration push)",
+    "RESTCONF (port 443/80, exposed on base image)",
+    "SSH (port 22, used for device management and netsim host-key fetching)",
+    "YANG (data-model language for NEDs and service packages)"
+  ],
+  "measurement": [
+    "HEALTHCHECK polls /opt/ncs/current/bin/ncs_cmd -c get_phase every 5 s, 3 retries, 60 s start period",
+    "Package operational status verified via 'show packages' CLI command checking for 'oper-status up'",
+    "DAP (debugpy) port 5678 exposed for Python remote debugging; host port retrieved via docker inspect"
+  ],
+  "configuration": [
+    "NSO_VERSION env var selects which NSO version image to build or use",
+    "NSO_IMAGE_PATH env var prefixes image names (e.g. containers.cisco.com/nso-docker/)",
+    "NSO_INSTALL_FILES_DIR overrides the directory scanned for NSO installer .bin files (default: nso-install-files/)",
+    "NCS_JAVA_VM_OPTIONS: -Xmx4G -XX:+UseG1GC set in run-nso.sh; override via env",
+    "ncs.conf.in template at /etc/ncs/ncs.conf.in; packages dir remapped to /var/opt/ncs/packages",
+    "IPV6 / IPV6_NET make vars control Docker network IPv6 prefix (default: random ULA fd00::/64)",
+    "CNT_PREFIX / IMAGE_BASENAME / DOCKER_TAG control container and image naming across testenv targets"
+  ],
+  "fault_injection": [
+    "netsim container can be stopped/restarted independently from NSO to simulate device unreachability",
+    "SIGHUP sent to run-nso.sh triggers a live NSO restart without container recreation",
+    "Package reload forced via 'request packages reload' CLI command or PACKAGE_RELOAD=true make var during rebuild"
+  ],
+  "modes": [
+    "production (base image): stripped of docs, examples, include/src directories; minimal runtime deps",
+    "development (dev image): full toolchain with Java, Python venv, linters, debugpy, curl, git, rsync",
+    "testenv: ephemeral multi-container environment (NSO + optional netsim) created per test run via make start/test/stop",
+    "CI mode: Gitlab CI pipeline builds images tagged <nso-version>-<pipeline-id>; master branch also tagged with bare version"
+  ],
+  "constraints": [
+    "NSO installer binary (.bin file) must be obtained manually from Cisco and placed in nso-install-files/ — prebuilt images cannot be redistributed due to Cisco licensing",
+    "Running docker commands typically requires root or docker group membership on the build host",
+    "IMPORTANT: ncs_cmd healthcheck requires NSO to be fully started (phase != 0); start-period 60 s may be insufficient for large package sets",
+    "Two teammates editing the same ncs.conf or CDB simultaneously will cause conflicts — each container owns its own CDB volume",
+    "netsim is based on confd (BEAM VM) and must be stopped cleanly via stop.sh to flush CDB; SIGINT kills BEAM immediately without flushing",
+    "IPv6 random ULA prefix is regenerated on each 'make start'; tests relying on a fixed IPv6 address must set IPV6_NET explicitly"
+  ],
+  "docker_services": [
+    "cisco-nso-base (<version>[-suffix]): production NSO runtime, exposes 22/80/443/830/4334/4570, CMD run-nso.sh",
+    "cisco-nso-dev (<version>[-suffix]): development NSO with full toolchain, ENTRYPOINT enter-shell.sh",
+    "netsim (<image-basename>/netsim:<tag>): confd-based device simulator, network-alias dev1, hostname dev1",
+    "testnso (<image-basename>/testnso:<tag>): NSO instance pre-loaded with NED under test, used in NED testenvs",
+    "build (<image-basename>/build:<tag>): ephemeral image holding pre-compiled included packages, run with --rm during clean-rebuild"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — orchestration is entirely Makefile-driven with raw docker run / docker network commands",
+    "No Kubernetes manifests or Helm charts in the repository",
+    "No built-in observability stack (no Prometheus, Grafana, or log aggregation); logs go to /log/ inside the container",
+    "No pre-built images available in the repo — users must build from their own NSO installer due to Cisco licensing"
+  ]
+}

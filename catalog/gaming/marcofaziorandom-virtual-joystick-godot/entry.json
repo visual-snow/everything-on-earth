@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/marcofaziorandom/virtual-joystick-godot",
+  "name": "MarcoFazioRandom/Virtual-Joystick-Godot",
+  "description": "Simple, customizable virtual joystick plugin for Godot supporting fixed, dynamic, and following modes with configurable dead zones, visibility options, and 2D/3D game compatibility for mobile touchscreen input.",
+  "sub_domain": "input-controllers",
+  "score": 7,
+  "score_rationale": "Most starred Godot virtual joystick solution with 949 stars, MIT licensed, and the standard choice for adding mobile touch controls to Godot games.",
+  "stars": 949,
+  "language": "GDScript",
+  "license": "MIT",
+  "last_activity": "2024-08-16",
+  "found_in_domains": [
+    "input-controllers"
+  ],
+  "quality_score": 65.8,
+  "tags": [
+    "godot",
+    "mobile-input",
+    "virtual-joystick"
+  ],
+  "category": "Game Input Plugin",
+  "summary": "Virtual joystick plugin for Godot mobile games",
+  "slug": "marcofaziorandom-virtual-joystick-godot"
+}

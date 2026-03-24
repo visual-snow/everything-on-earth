@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hacksysteam/hacksysextremevulnerabledriver",
+  "name": "HackSysTeam/HackSysExtremeVulnerableDriver",
+  "description": "An intentionally vulnerable Windows kernel driver featuring 13+ vulnerability classes (stack overflows, UAF, pool overflows, race conditions) for practicing Windows kernel exploit development.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 7,
+  "score_rationale": "Widely used educational kernel exploitation target with 3k stars, essential for Windows kernel exploit development training.",
+  "stars": 3000,
+  "language": "C",
+  "license": "GPL-3.0",
+  "last_activity": "2024-06-01",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 69.8,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "hacksysteam-hacksysextremevulnerabledriver"
+}

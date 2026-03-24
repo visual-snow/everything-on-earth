@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hugsy/gef",
+  "name": "hugsy/gef",
+  "description": "GDB Enhanced Features \u2014 a modern GDB plugin for exploit developers and reverse engineers supporting x86, ARM, MIPS, PowerPC, and SPARC with commands for heap analysis, format-string detection, and more.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 9,
+  "score_rationale": "Highly popular GDB enhancement with 8.1k stars, actively maintained with a 2026 release, offering multi-architecture support beyond pwndbg.",
+  "stars": 8100,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-02",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing",
+    "malware-reversing"
+  ],
+  "quality_score": 85.3,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "hugsy-gef"
+}

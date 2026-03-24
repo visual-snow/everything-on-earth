@@ -1,0 +1,81 @@
+{
+  "name": "free5gc-compose",
+  "repo_url": "https://github.com/free5gc/free5gc-compose",
+  "description": "Official Docker Compose deployment for free5GC with pre-built images, UERANSIM integration, and monitoring support. The recommended way to run free5GC in containers.",
+  "domain": "5g-standalone-core",
+  "secondary_domains": [
+    "network-function-virtualization",
+    "ran-core-integration",
+    "service-based-architecture"
+  ],
+  "protocols": [
+    "5G NR",
+    "GTP-U",
+    "HTTP/2 SBI",
+    "N4/PFCP",
+    "NAS",
+    "NAS-5GS",
+    "NGAP",
+    "PFCP",
+    "SBI"
+  ],
+  "provides": [
+    "ran-simulation",
+    "multi-nf-orchestration",
+    "5g-core-nrf",
+    "web-dashboard",
+    "5g-core-udm",
+    "end-to-end-5g-sa",
+    "5g-core-pcf",
+    "pdu-session-management",
+    "5g-core-udr",
+    "ueransim-ue",
+    "subscriber-management",
+    "5g-core-nef",
+    "5g-core-ausf",
+    "config-mutation",
+    "5g-core-amf",
+    "5g-core-nssf",
+    "5g-core-smf",
+    "5g-core-n3iwf",
+    "5g-core-upf",
+    "ueransim-gnb",
+    "5g-core-chf"
+  ],
+  "needs": [
+    "mongodb",
+    "linux-kernel-5.4+",
+    "docker-engine",
+    "docker-compose-v2",
+    "gtp5g-kernel-module",
+    "sctp-support"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 20,
+    "docker_evidence": "This repository is a docker compose version of free5GC for stage 3. Prerequisites: Docker Engine, Docker Compose v2. Services include AMF, AUSF, CHF, N3IWF, NEF, NRF, NSSF, PCF, SMF, UDM, UDR, UPF, WebUI, UERANSIM, MongoDB."
+  },
+  "github_metrics": {
+    "stars": 500,
+    "last_commit": "unknown",
+    "language": "Shell",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Easiest way to spin up a full free5GC core. Actively maintained (v4.2.1 as of March 2026). Includes UERANSIM for end-to-end testing without hardware. Complete containerized 5G core for agentic evals. 20+ services provide realistic multi-NF environment for configuration, troubleshooting, and orchestration tasks. Turnkey 5G SA environment with integrated RAN simulation. Quick setup for testing 5G core procedures. UERANSIM integration provides realistic UE/gNB behavior. Good starter for 5G evals.",
+  "related_repos": [
+    "https://github.com/abousselmi/docker-free5gc",
+    "https://github.com/aligungr/ueransim",
+    "https://github.com/calee0219/free5gc-docker-compose",
+    "https://github.com/free5gc/free5gc",
+    "https://github.com/free5gc/free5gc-helm"
+  ],
+  "_sources": [
+    "discovery/5g-core.json",
+    "discovery/awesome-crawler.json",
+    "discovery/ran-ue.json"
+  ],
+  "slug": "free5gc-compose"
+}

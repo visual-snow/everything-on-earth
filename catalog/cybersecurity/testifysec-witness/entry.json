@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/testifysec/witness",
+  "name": "testifysec/witness",
+  "description": "Pluggable framework for software supply chain risk management that automates, normalizes, and verifies software artifact provenance using in-toto attestations across heterogeneous CI/CD systems.",
+  "sub_domain": "Supply Chain Security",
+  "score": 6,
+  "score_rationale": "Useful in-toto based provenance framework with 112+ stars, niche but solid for multi-system supply chain attestation.",
+  "stars": 112,
+  "language": "Vue",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-28",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 52.4,
+  "tags": [
+    "framework",
+    "pentesting",
+    "modules"
+  ],
+  "category": "Pentesting Framework",
+  "summary": "Comprehensive penetration testing framework",
+  "slug": "testifysec-witness"
+}

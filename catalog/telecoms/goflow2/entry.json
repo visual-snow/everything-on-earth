@@ -1,0 +1,55 @@
+{
+  "name": "GoFlow2",
+  "repo_url": "https://github.com/netsampler/goflow2",
+  "description": "High-performance sFlow/IPFIX/NetFlow collector in Go that serializes flow data into common formats with Kafka/file/stdout outputs.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "traffic-analytics"
+  ],
+  "protocols": [
+    "NetFlow v5/v9",
+    "IPFIX",
+    "sFlow"
+  ],
+  "provides": [
+    "kafka-output",
+    "file-output",
+    "ipfix-collection",
+    "json-encoding",
+    "stdout-output",
+    "streaming-telemetry",
+    "netflow-collection",
+    "flow-pipeline-configuration",
+    "sflow-collection",
+    "flow-data-serialization",
+    "protobuf-encoding"
+  ],
+  "needs": [
+    "netflow-traffic-source",
+    "kafka-broker",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "netsampler/goflow2",
+    "compose_services_count": 0,
+    "docker_evidence": "Includes examples of pipelines with docker-compose."
+  },
+  "github_metrics": {
+    "stars": 900,
+    "last_commit": "2025-06-01",
+    "language": "Go",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Lightweight, high-performance flow collector ideal for agentic evaluations testing flow data collection and pipeline configuration.",
+  "related_repos": [
+    "https://github.com/cloudflare/goflow",
+    "https://github.com/edgio/vflow"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "goflow2"
+}

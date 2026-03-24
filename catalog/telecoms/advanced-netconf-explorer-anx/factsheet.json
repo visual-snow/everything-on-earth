@@ -1,0 +1,59 @@
+{
+  "slug": "advanced-netconf-explorer-anx",
+  "name": "Advanced NETCONF Explorer (ANX)",
+  "what_it_is": "A graphical Java web application and client library for exploring NETCONF/YANG device models and gNMI/gRPC telemetry. It connects to network devices or orchestrators, retrieves all supported YANG models, and provides an interactive tree browser with search, live operational data viewing, and sensor-path generation.",
+  "components": [
+    "Web UI (browser-based graphical explorer)",
+    "Embedded Jetty webserver (port 8080)",
+    "ANC Maven-packaged NETCONF Java client library",
+    "WAR file deployable artifact",
+    "Docker container (port 9269 exposed)"
+  ],
+  "protocols": [
+    "NETCONF",
+    "NETCONF 1.1",
+    "NETCONF Monitoring (RFC 6022)",
+    "SSH (NETCONF transport)",
+    "YANG",
+    "gNMI",
+    "gRPC",
+    "IOS XR Telemetry"
+  ],
+  "measurement": [
+    "Live operational data browsing for selected YANG nodes",
+    "gNMI/gRPC live telemetry feed viewing (JSON-encoded, 64-bit IOS XR)",
+    "Sensor-path generation for YANG nodes",
+    "Subtree-filter generation for NETCONF queries",
+    "Sensor group editing for IOS-XR telemetry subscriptions"
+  ],
+  "configuration": [
+    "NETCONF device hostname/IP and credentials (SSH-based connection)",
+    "gNMI target endpoint configuration",
+    "Docker memory allocation (minimum 2-3 GB RAM required)",
+    "Port mapping (container port 9269, internal Jetty port 8080)",
+    "Maven build configuration for WAR deployment"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "NETCONF YANG model discovery and tree browsing",
+    "Live operational data mode (real-time node data fetch)",
+    "gNMI/gRPC telemetry streaming mode",
+    "IOS XR sensor group editing mode",
+    "Offline YANG model archive (ZIP bulk export)"
+  ],
+  "constraints": [
+    "Requires minimum 2-3 GB RAM on Docker virtual machine",
+    "Model parsing may take 1-2 minutes on first connection",
+    "Live telemetry (64-bit JSON feed) limited to IOS XR devices",
+    "NETCONF transport is SSH only (no TLS/plain TCP option documented)"
+  ],
+  "docker_services": [
+    "anx (web application container, port 9269:8080)"
+  ],
+  "notable_absences": [
+    "No fault injection or traffic generation capability",
+    "No docker-compose file found in master branch",
+    "No multi-vendor gNMI authentication detail documented",
+    "No REST/RESTCONF support mentioned"
+  ]
+}

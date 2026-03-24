@@ -1,0 +1,91 @@
+{
+  "slug": "polycube",
+  "name": "Polycube",
+  "what_it_is": "Polycube is an open source Linux software framework that provides fast, lightweight, eBPF/XDP-based network functions (bridge, router, firewall, NAT, load balancer, DDoS mitigator, and more) composable into arbitrary service chains. It exposes a REST daemon (polycubed) and a CLI (polycubectl) for managing the full virtual network topology.",
+  "components": [
+    "polycubed — system daemon, REST API server (default port 9000), manages lifecycle of all cubes",
+    "polycubectl — service-agnostic CLI backed by Go, interacts with polycubed",
+    "libpolycube — shared library for service chaining, eBPF map access, logging",
+    "pcn-bridge — 802.1Q transparent/standard Layer-2 bridge",
+    "pcn-simplebridge — minimal Layer-2 bridge",
+    "pcn-router — Layer-3 IP router with longest-prefix match",
+    "pcn-firewall — stateful packet filtering transparent cube",
+    "pcn-nat — Network Address Translation transparent cube",
+    "pcn-loadbalancer-rp — reverse-proxy load balancer",
+    "pcn-loadbalancer-dsr — direct-server-return load balancer",
+    "pcn-ddosmitigator — DDoS traffic mitigation transparent cube",
+    "pcn-dynmon — dynamic network monitor; injects arbitrary eBPF code at runtime, exports metrics as JSON or OpenMetrics",
+    "pcn-synflood — SYN flood detection monitor, exports TCP/IP metrics",
+    "pcn-packetcapture — packet capture transparent cube",
+    "pcn-pbforwarder — policy-based forwarder",
+    "pcn-simpleforwarder — minimal forwarder",
+    "pcn-iptables — eBPF-based iptables drop-in replacement",
+    "pcn-k8switch — Kubernetes switching fabric",
+    "pcn-k8sdispatcher — Kubernetes traffic dispatcher",
+    "pcn-k8sfilter — Kubernetes network policy filter",
+    "pcn-k8s — full Kubernetes CNI plugin (bridging, routing, NAT, load balancing, tunneling)"
+  ],
+  "protocols": [
+    "TCP/IP (L3/L4 forwarding, filtering, NAT)",
+    "Ethernet / 802.1Q (L2 bridging, spanning tree slow-path)",
+    "XDP — eXpress Data Path (earliest kernel intercept point)",
+    "eBPF — Extended Berkeley Packet Filter (kernel data plane)",
+    "RESTCONF over HTTP/HTTPS (northbound API, YANG data models)",
+    "gRPC (remote service communication with polycubed)"
+  ],
+  "measurement": [
+    "pcn-dynmon: exports eBPF map contents as JSON or OpenMetrics (Prometheus-compatible); supports INGRESS and EGRESS programs independently; atomic map reads via map-swap technique",
+    "pcn-synflood: exports tcpAttemptFails, tcpOutRsts, deliverRatio, responseRatio for SYN-flood detection",
+    "polycubed REST API: per-service statistics and state queryable at runtime via GET endpoints",
+    "polycubectl: CLI commands to show metrics (e.g., polycubectl monitor metrics show)"
+  ],
+  "configuration": [
+    "polycubed CLI flags: --port (default 9000), --addr, --loglevel, --cert/--key/--cacert for TLS, --daemon",
+    "Configuration file: /etc/polycube/polycubed.conf (parameter: value syntax)",
+    "Persistence: --cubes-dump-enable saves topology to /etc/polycube/cubes.yaml and reloads on restart; --cubes-dump-file for custom path; --cubes-dump-clean-init for empty start",
+    "YANG data models describe each service's management interface; polycubectl auto-generates compatible commands from YANG",
+    "Each cube configured via REST PUT/PATCH to its own endpoint or via polycubectl subcommands",
+    "pcn-dynmon dataplane configured by PUT JSON to /dataplane-config REST endpoint (not via polycubectl)"
+  ],
+  "fault_injection": [
+    "No dedicated fault injection service is present in the framework",
+    "pcn-synflood monitors for SYN flood conditions but does not inject them",
+    "pcn-ddosmitigator mitigates DDoS but does not generate attack traffic",
+    "Custom eBPF code injected via pcn-dynmon could implement arbitrary packet manipulation, but no ready-made fault injection cube exists"
+  ],
+  "modes": [
+    "Standard cube mode: cubes with forwarding ports (e.g., bridge, router); connected port-to-port",
+    "Transparent cube mode: cubes without ports, attached to existing ports or netdevs; processes ingress and/or egress traffic only",
+    "Local service mode: cube implemented as shared library loaded in-process by polycubed",
+    "Remote service mode: cube implemented as a separate daemon, communicates with polycubed via gRPC",
+    "Docker mode: run polycubed inside privileged container with --network host and kernel module mounts",
+    "Bare metal / systemd mode: polycubed installed natively, managed via systemctl",
+    "Persistent topology mode: --cubes-dump-enable restores full topology after daemon restart"
+  ],
+  "constraints": [
+    "Requires Linux kernel >= 4.15 for most services; kernel >= 5.4 recommended; XDP and eBPF features are Linux-only — no macOS or Windows support",
+    "Docker container must run in privileged mode (--privileged) with --network host; reduced-privilege containers cannot use eBPF",
+    "Only one polycubed instance allowed system-wide; requires root privileges",
+    "pcn-dynmon OpenMetrics export only supports simple value types; structs and unions are not exported; Histogram and Summary metric types not supported",
+    "pcn-dynmon batch map operations supported only for BPF_MAP_TYPE_HASH, BPF_MAP_TYPE_LRU_HASH, and BPF_MAP_TYPE_ARRAY",
+    "Topology persistence (cubes-dump) does not support YANG actions (e.g., firewall/NAT rule append), some services fail full config reload, and transparent services on netdevs are not saved",
+    "pcn-synflood can only monitor the local host; cannot operate as a man-in-the-middle inspector for remote host traffic",
+    "eBPF data plane programs have size limits; complex processing must be offloaded to user-space slow path",
+    "Installation tested on Ubuntu >= 18.04; llvm 6.0 must be removed before running install script",
+    "No docker-compose file present in the repository; deployment is via a single privileged docker run command or bare-metal install"
+  ],
+  "docker_services": [
+    "polycubenets/polycube:v0.9.0-rc — stable released image",
+    "polycubenets/polycube:latest — latest snapshot from GitHub",
+    "Both images run polycubed daemon internally; started with: docker run -it --rm --privileged --network host -v /lib/modules:/lib/modules:ro -v /usr/src:/usr/src:ro -v /etc/localtime:/etc/localtime:ro <image> /bin/bash -c 'polycubed -d && /bin/bash'"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml file in the repository; single-container privileged run only",
+    "No built-in fault injection cube or traffic generation service",
+    "No Windows or macOS support; Linux-only due to eBPF/XDP kernel dependency",
+    "No native OpenTelemetry or distributed tracing integration",
+    "No built-in GUI or web dashboard; management is CLI and REST only",
+    "No multi-node orchestration beyond pcn-k8s Kubernetes CNI; no standalone cluster management",
+    "YANG action types (append-style rule management) are not saved by the persistence subsystem"
+  ]
+}

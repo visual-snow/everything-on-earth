@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/astrosp/awesome-osint-for-everything",
+  "name": "Astrosp/Awesome-OSINT-For-Everything",
+  "description": "OSINT tools collection for information gathering, cybersecurity, reverse searching, bug bounty, trust and safety, and red team operations.",
+  "sub_domain": "osint-recon",
+  "score": 5,
+  "score_rationale": "2.3k stars and updated into 2026, but primarily a curated list with limited original tooling and overlaps with more established awesome-osint repositories.",
+  "stars": 2300,
+  "language": "Shell",
+  "license": null,
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 56.9,
+  "tags": [
+    "osint",
+    "pe-format",
+    "reverse-engineering"
+  ],
+  "category": "OSINT Platform",
+  "summary": "OSINT tools collection for information gathering, cybersecurity, reverse searching, bug bounty, t...",
+  "slug": "astrosp-awesome-osint-for-everything"
+}

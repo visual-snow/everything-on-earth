@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/fo-000/bluing",
+  "name": "fo-000/bluing",
+  "description": "Bluetooth intelligence gathering and reconnaissance tool written in Python, supporting device discovery, service enumeration, and protocol analysis for Bluetooth BR/EDR and LE.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 6,
+  "score_rationale": "Useful Bluetooth recon tool with 991 stars; last updated 2023 but still relevant for Bluetooth enumeration workflows.",
+  "stars": 991,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-04-23",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 60.0,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "fo-000-bluing"
+}

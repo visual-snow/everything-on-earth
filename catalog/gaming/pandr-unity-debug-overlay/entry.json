@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/pandr/unity-debug-overlay",
+  "name": "pandr/unity-debug-overlay",
+  "description": "A fast, garbage-free debug overlay for Unity comprising an on-screen metric overlay, interactive console, and CVar system using format-string rendering without string allocations or mesh generation.",
+  "sub_domain": "game-ui",
+  "score": 5,
+  "score_rationale": "Specialized high-performance Unity debug overlay with 138 stars, notable for its zero-allocation design but limited community adoption.",
+  "stars": 138,
+  "language": "C#",
+  "license": "CC0-1.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 47.1,
+  "tags": [
+    "debug",
+    "performance",
+    "unity"
+  ],
+  "category": "Debug Tools",
+  "summary": "Zero-allocation debug overlay with metrics and console",
+  "slug": "pandr-unity-debug-overlay"
+}

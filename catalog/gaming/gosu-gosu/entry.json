@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gosu/gosu",
+  "name": "gosu/gosu",
+  "description": "A 2D game development library for Ruby and C++, providing windowing, OpenGL-accelerated 2D graphics, audio, and input. Primarily used for teaching Ruby and game jams.",
+  "sub_domain": "game-engines-2d",
+  "score": 6,
+  "score_rationale": "2.1k stars, MIT, niche but unique as the primary 2D game library for the Ruby language.",
+  "stars": 2100,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2023-05-20",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 62.6,
+  "tags": [
+    "2d-game-engine",
+    "ruby",
+    "opengl",
+    "game-jam",
+    "graphics"
+  ],
+  "category": "Ruby 2D Game Library",
+  "summary": "Primary 2D library for Ruby with OpenGL graphics and game jam focus",
+  "slug": "gosu-gosu"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openfheorg/openfhe-development",
+  "name": "openfheorg/openfhe-development",
+  "description": "A comprehensive C++ Fully Homomorphic Encryption library implementing all major FHE schemes (BFV, BGV, CKKS, FHEW/TFHE) with bootstrapping and scheme switching. Enables computation over encrypted data without access to the secret key.",
+  "sub_domain": "cryptography",
+  "score": 8,
+  "score_rationale": "The leading open-source FHE library with 1.1k stars and a February 2026 release, consolidating multiple FHE schemes into a single actively maintained codebase.",
+  "stars": 1100,
+  "language": "C++",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-02-26",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 72.3,
+  "tags": [
+    "penetration-testing",
+    "assessment",
+    "security-testing",
+    "automation"
+  ],
+  "category": "Testing Tool",
+  "summary": "Security assessment and testing",
+  "slug": "openfheorg-openfhe-development"
+}

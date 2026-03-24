@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jice-nospam/doryen-rs",
+  "name": "jice-nospam/doryen-rs",
+  "description": "ASCII roguelike library in Rust with native and WebAssembly support, created by libtcod's original author as a spiritual successor. Features GLSL rendering, Unicode support, and subcell resolution for modern platforms.",
+  "sub_domain": "roguelike-frameworks",
+  "score": 6,
+  "score_rationale": "288-star Rust+WASM roguelike library from libtcod's creator, useful as a reference though less active than bracket-lib.",
+  "stars": 288,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2022-10-09",
+  "found_in_domains": [
+    "roguelike-frameworks"
+  ],
+  "quality_score": 55.7,
+  "tags": [
+    "rust",
+    "wasm",
+    "roguelike",
+    "glsl",
+    "ascii"
+  ],
+  "category": "Rust WebAssembly Roguelike",
+  "summary": "Rust+WASM roguelike library from libtcod's creator with GLSL rendering",
+  "slug": "jice-nospam-doryen-rs"
+}

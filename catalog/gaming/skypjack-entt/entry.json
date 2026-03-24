@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/skypjack/entt",
+  "name": "skypjack/entt",
+  "description": "Header-only C++20 ECS library providing a fast sparse-set based entity component system, RTTI, reflection, resource management, event handling, and scheduling. Used in Minecraft (Mojang) and ArcGIS Runtime SDKs.",
+  "sub_domain": "ecs-frameworks",
+  "score": 10,
+  "score_rationale": "Industry-leading C++ ECS with 12.4k stars, MIT licensed, actively maintained through December 2024, and production-proven by Minecraft's Bedrock Edition \u2014 the benchmark for C++ ECS performance.",
+  "stars": 12400,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2024-12-20",
+  "found_in_domains": [
+    "ecs-frameworks"
+  ],
+  "quality_score": 92.7,
+  "tags": [
+    "ecs",
+    "entity-component-system",
+    "c++",
+    "game-architecture"
+  ],
+  "category": "Entity Component System",
+  "summary": "Industry-standard C++ ECS library used in Minecraft and major engines",
+  "slug": "skypjack-entt"
+}

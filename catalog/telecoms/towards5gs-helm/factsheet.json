@@ -1,0 +1,52 @@
+{
+  "slug": "towards5gs-helm",
+  "name": "towards5GS Helm Charts",
+  "what_it_is": "Helm chart repository by Orange that enables one-click deployment of a complete 5G standalone system (Free5GC core + UERANSIM RAN simulator) on Kubernetes. Bundles all 5G network functions as reusable Helm charts for cloud-native 5G research and testing.",
+  "components": [
+    "AMF (Access & Mobility Management Function)",
+    "SMF (Session Management Function)",
+    "UPF (User Plane Function)",
+    "Free5GC core network functions (NRF, AUSF, UDM, UDR, PCF, NSSF)",
+    "UERANSIM gNB (gNodeB simulator)",
+    "UERANSIM UE (User Equipment simulator)"
+  ],
+  "protocols": [
+    "GTP-U (GPRS Tunneling Protocol User Plane — UPF data path)",
+    "NAS (Non-Access Stratum — UE to AMF)",
+    "NGAP (NG Application Protocol — gNB to AMF)",
+    "PFCP (Packet Forwarding Control Protocol — SMF to UPF)",
+    "SBI (Service-Based Interface over HTTP/2 — between core NFs)"
+  ],
+  "measurement": [
+    "No built-in metrics or monitoring stack included",
+    "CI/CD Helm chart linting via GitHub Actions (chart validation only)"
+  ],
+  "configuration": [
+    "Per-chart values.yaml files for each NF",
+    "Multus CNI network attachment definitions for secondary interfaces",
+    "gtp5g kernel module configuration for GTP tunnel handling",
+    "UE IMSI, key, and slice configuration in UERANSIM values",
+    "SMF UPF association and PDU session parameters",
+    "AMF PLMN, TAC, and slice (S-NSSAI) settings"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Standalone 5G (SA) mode only — no NSA (Non-Standalone) support",
+    "Simulated RAN mode via UERANSIM (no physical radio hardware)"
+  ],
+  "constraints": [
+    "Requires Multus CNI plugin installed on the Kubernetes cluster for multiple network interfaces",
+    "Requires gtp5g kernel module loaded on worker nodes for GTP-U tunnel support",
+    "Targets Kubernetes only — no docker-compose or bare-metal deployment path provided",
+    "UERANSIM simulates UE/gNB; no real UE or radio hardware integration"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose file — Kubernetes/Helm only",
+    "No built-in observability stack (no Prometheus, Grafana, or Jaeger)",
+    "No fault injection or chaos engineering tooling",
+    "No performance benchmarking or traffic generation beyond UERANSIM",
+    "No NSA (Non-Standalone / LTE anchor) mode support",
+    "Specific CPU/memory resource requirements not documented in README"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/schellingb/tinysoundfont",
+  "name": "schellingb/TinySoundFont",
+  "description": "A SoundFont2 synthesizer library delivered as a single C/C++ header file, enabling easy integration of MIDI/SoundFont audio synthesis into games and applications with zero dependencies.",
+  "sub_domain": "chiptune-trackers",
+  "score": 8,
+  "score_rationale": "Elegant single-header SoundFont synthesizer with 793 stars, highly popular for game developers needing lightweight embeddable MIDI playback.",
+  "stars": 793,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2024-07-01",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 71.2,
+  "tags": [
+    "soundfont",
+    "synthesizer",
+    "header-only",
+    "midi",
+    "lightweight"
+  ],
+  "category": "MIDI Synthesizers",
+  "summary": "Single-header SoundFont synthesizer for game MIDI playback",
+  "slug": "schellingb-tinysoundfont"
+}

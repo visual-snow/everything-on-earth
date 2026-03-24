@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/signalapp/libsignal",
+  "name": "signalapp/libsignal",
+  "description": "The Signal Protocol implementation including Double Ratchet algorithm, zero-knowledge group cryptography, and other cryptographic primitives powering the Signal messaging app. Exposed as Java, Swift, and TypeScript libraries over Rust implementations.",
+  "sub_domain": "cryptography",
+  "score": 9,
+  "score_rationale": "Production-grade cryptographic protocol library from Signal with 5.6k stars, actively maintained through March 2026, representing best-in-class secure messaging cryptography.",
+  "stars": 5600,
+  "language": "Rust",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 84.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "signalapp-libsignal"
+}

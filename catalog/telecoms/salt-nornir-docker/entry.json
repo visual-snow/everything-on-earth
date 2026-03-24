@@ -1,0 +1,57 @@
+{
+  "name": "salt-nornir-docker",
+  "repo_url": "https://github.com/dmulyalin/salt-nornir-docker",
+  "description": "Docker container running SaltStack Master, Salt-API, and Salt Proxy Minion with Nornir integration. Provides containerized network automation with NETCONF support via Nornir plugins.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "nornir",
+    "proxy-minion",
+    "saltstack-orchestration"
+  ],
+  "protocols": [
+    "NETCONF",
+    "SSH",
+    "CLI"
+  ],
+  "provides": [
+    "salt-api",
+    "saltstack-master",
+    "nornir-execution-engine",
+    "netconf-client",
+    "event-driven-automation",
+    "config-mutation",
+    "ssh-automation",
+    "salt-proxy-minion",
+    "network-orchestration",
+    "multi-device-management"
+  ],
+  "needs": [
+    "network-devices-or-simulators",
+    "device-inventory-config",
+    "salt-pillar-data",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 3,
+    "docker_evidence": "Docker-first design. Builds SaltStack + Nornir container with proxy minion support."
+  },
+  "github_metrics": {
+    "stars": 25,
+    "last_commit": "2025-03",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Combines SaltStack orchestration with Nornir execution. Good for testing large-scale NETCONF deployments with event-driven automation.",
+  "related_repos": [
+    "https://github.com/h4ndzdatm0ld/nornir_netconf",
+    "https://github.com/nornir-automation/nornir"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/netconf-testing.json"
+  ],
+  "slug": "salt-nornir-docker"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mosra/magnum",
+  "name": "mosra/magnum",
+  "description": "Lightweight and modular C++11 graphics middleware for games and data visualization, providing graphics abstraction and platform independence across desktop, mobile, and web with OpenGL/WebGL.",
+  "sub_domain": "graphics-rendering",
+  "score": 8,
+  "score_rationale": "Mature, modular graphics middleware with 5.1k stars and active development (11k+ commits), well-documented for production use.",
+  "stars": 5100,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-03-24",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 77.7,
+  "tags": [
+    "graphics",
+    "middleware",
+    "opengl"
+  ],
+  "category": "Graphics Middleware",
+  "summary": "Lightweight modular graphics middleware with OpenGL/WebGL",
+  "slug": "mosra-magnum"
+}

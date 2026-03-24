@@ -1,0 +1,101 @@
+{
+  "slug": "sipp",
+  "name": "SIPp",
+  "what_it_is": "SIPp is an open-source SIP protocol test tool and traffic generator that drives and receives SIP calls using XML-based scenario definitions. It supports multiple transport modes, media playback via PCAP, and detailed statistics collection for load testing and functional validation of SIP equipment.",
+  "components": [
+    "sipp binary (single executable, optionally static)",
+    "XML scenario engine (parses and executes user-defined call flows)",
+    "Built-in scenarios: UAC, UAS, UAC with media (PCAP), regexp, branch, 3PCC, out-of-call handler",
+    "ncurses screen UI with 9 monitoring views (scenario, statistics, repartition, variables)",
+    "CSV statistics logger",
+    "PCAP media player (requires libpcap/libnet, compile-time flag USE_PCAP=1)",
+    "GNU Scientific Library integration for random pause distributions (USE_GSL=1)",
+    "SCTP transport layer (compile-time flag USE_SCTP=1, requires lksctp-tools)",
+    "TLS support via OpenSSL >= 1.1.1 or WolfSSL >= 3.15.0",
+    "TLS key logging (compile-time flag TLS_KEY_LOGGING=1, writes to SSLKEYLOGFILE path)",
+    "Alpine-based Docker image producing a static binary",
+    "Debian-based Docker image with optional wolfSSL support",
+    "CSV injection file reader for parameterised call data (-inf flag)"
+  ],
+  "protocols": [
+    "SIP (RFC 3261) — core protocol",
+    "SIP over TCP (mono and multi socket)",
+    "SIP over UDP (mono socket, multi socket, per-IP socket)",
+    "SIP over TLS / SIPS (mono and multi socket, X.509 CRL support)",
+    "SIP over SCTP (mono and multi socket, multihoming, heartbeat)",
+    "RTP (media streaming via PCAP replay)",
+    "RFC 2833 DTMF digit sending over RTP",
+    "IPv4 and IPv6",
+    "3PCC — Third Party Call Control (RFC 3725)"
+  ],
+  "measurement": [
+    "Call rate (calls/second), current/cumulative",
+    "Successful and failed call counts with granular failure reason counters (UDP retransmit exceeded, unexpected message, regexp mismatch, TCP congestion, timeout on send/recv, etc.)",
+    "Retransmission counter (UDP)",
+    "Out-of-call message counter",
+    "Response Time Distribution (RTD) timers — start/stop via scenario attributes, dumped to *_rtt.csv",
+    "Call length distribution",
+    "Standard deviation for response time and call length",
+    "Per-message counts: sent, received, retransmitted, lost, unexpected — exported via -trace_counts to CSV",
+    "Statistics snapshot frequency configurable with -fd option",
+    "Ring-buffer log rotation (-ringbuffer_size, -ringbuffer_files)",
+    "Exit codes: 0 all calls OK, 1 at least one failed, 97 internal/global timeout, 99 no calls, -1 fatal, -2 socket bind failure"
+  ],
+  "configuration": [
+    "XML scenario files (-sf flag) or built-in scenario name (-sn flag)",
+    "Transport mode selection (-t flag): u1/un/ui UDP, t1/tn TCP, l1/ln TLS, s1/sn SCTP",
+    "Target host and port as positional argument or -remote flag",
+    "Local bind address (-i) and port (-p), supports IPv6",
+    "Call rate (-r), max calls (-m), max simultaneous calls (-l)",
+    "CSV injection file for per-call variables (-inf), IP field selector (-ip_field)",
+    "Out-of-call scenario file/name (-oocsf / -oocsn)",
+    "TLS certificate/key files (cacert.pem and cakey.pem expected in cwd), CRL via -tls_crl",
+    "SSLKEYLOGFILE environment variable for TLS session key logging",
+    "Background daemon mode (-bg); graceful stop via SIGUSR1",
+    "TCP reconnect controls: -max_reconnect, -reconnect_close, -reconnect_sleep",
+    "SCTP controls: -multihome, -heartbeat, -assocmaxret, -pathmaxret, -pmtu, -gracefulclose",
+    "Max open sockets cap (-max_socket)",
+    "Statistics dump file (-trace_stat), response-time dump (-trace_rtt), message log (-trace_msg), error log (-trace_err), call debug (-trace_calldebug), screen dump (-trace_screen)",
+    "Global timeout (-timeout_global)",
+    "UDP retransmission disable (-nr); per-send retransmission timer via scenario retrans attribute",
+    "Build flags: USE_PCAP=1, USE_SCTP=1, USE_GSL=1, BUILD_STATIC=1, TLS_KEY_LOGGING=1, WOLFSSL=1, DEBUG=1, FULL=1"
+  ],
+  "fault_injection": [
+    "Scenario-driven unexpected message handling: CANCEL sent if no 200 OK yet, BYE if 200 OK received, ACK sent for 4xx/5xx",
+    "Retransmission testing: UDP retrans attribute triggers RFC 3261 §17.1.1.2 timer with configurable T1; globally disabled via -nr",
+    "TCP disconnect simulation: -max_reconnect controls reconnection attempts; -reconnect_close drops calls on reconnect",
+    "Out-of-call message injection: -oocsf / -oocsn overrides default 200 OK response to unmatched Call-IDs",
+    "Conditional branching in scenarios (branchc/branchs) allows simulating error response paths (e.g., 403 Forbidden mid-flow)",
+    "Regexp-based response validation failure counted as FailedRegexpDoesntMatch / FailedRegexpShouldntMatch — scenario can branch on mismatch",
+    "Global call timeout via -timeout_global forces exit code 97"
+  ],
+  "modes": [
+    "UAC (User Agent Client) — originates calls",
+    "UAS (User Agent Server) — receives calls",
+    "UAC with PCAP media — originates calls with RTP/RFC2833 media replay",
+    "3PCC controller — third-party call control coordinating two remotes via inter-SIPp socket",
+    "Background daemon (-bg) — detached process, SIGUSR1 for graceful shutdown",
+    "Performance/load test mode — ramp up call rate, measure throughput",
+    "Regression test mode — fixed call count (-m), exit code signals pass/fail"
+  ],
+  "constraints": [
+    "A single SIPp instance communicates with exactly one remote host; 3PCC or multi-leg scenarios require multiple SIPp processes",
+    "PCAP media playback may not work over IPv6",
+    "SCTP is not supported on Cygwin/Windows",
+    "TLS requires cacert.pem and cakey.pem present in the working directory; missing files cause startup failure",
+    "TLS key logging requires OpenSSL >= 1.1.1 (not supported with WolfSSL)",
+    "Static binary build only tested/supported on Alpine Linux",
+    "Multi-socket transport modes are limited by OS file descriptor limits (tunable via ulimit); hard cap via -max_socket",
+    "No docker-compose file is provided in the repository; Docker support is build-environment only (produces a binary artifact, not a service stack)",
+    "Scenario files must conform to sipp.dtd; DTD validation available via dtd_check.sh",
+    "C++17 compiler required to build from source (master/3.7.x branch)"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml — Docker is used only as a build environment to produce a static binary, not to run a service stack",
+    "No native SIP proxy or registrar included — SIPp tests against an external SUT",
+    "No built-in media generation — RTP/media support requires pre-recorded PCAP files and compile-time USE_PCAP=1",
+    "No REST or programmatic API — controlled entirely via CLI flags, signals (SIGUSR1/SIGUSR2), and keyboard input",
+    "No Windows native build — only Cygwin is supported on Windows, with reduced feature set"
+  ]
+}

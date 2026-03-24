@@ -1,0 +1,72 @@
+{
+  "name": "Gradiant 5G Charts",
+  "repo_url": "https://github.com/gradiant/5g-charts",
+  "description": "Helm charts for 5G technologies including Open5GS, UERANSIM, srsRAN, PacketRusher, and OAI gNB. Automatically built and pushed to DockerHub via GitHub Actions.",
+  "domain": "5g-core",
+  "secondary_domains": [
+    "helm-charts",
+    "kubernetes-telecom",
+    "ran-simulation"
+  ],
+  "protocols": [
+    "5G NR",
+    "GTP-U",
+    "LTE",
+    "NAS",
+    "NGAP",
+    "PFCP",
+    "S1AP",
+    "SBI"
+  ],
+  "provides": [
+    "ran-simulator-ueransim",
+    "ran-simulator-packetrusher",
+    "scp-service-communication-proxy",
+    "lte-core",
+    "automated-testing-pipeline",
+    "config-mutation",
+    "5g-nr-stack",
+    "helm-chart-deployment",
+    "dockerhub-images",
+    "ran-simulator-oai-gnb",
+    "5g-core-open5gs",
+    "multi-ran-integration",
+    "ran-simulator-srsran"
+  ],
+  "needs": [
+    "k8s-cluster",
+    "helm-cli",
+    "sctp-support",
+    "mongodb",
+    "linux-kernel-5.4+",
+    "kubectl"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "gradiant/open5gs",
+    "compose_services_count": 0,
+    "docker_evidence": "Helm charts automatically built and pushed to Gradiant DockerHub. Charts for open5gs, ueransim-gnb, srs-lte, srsran-5g-zmq, packetrusher. Kubernetes-native deployment."
+  },
+  "github_metrics": {
+    "stars": 156,
+    "last_commit": "unknown",
+    "language": "Smarty",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Best integration hub for Open5GS \u2014 pre-configured with srsRAN, UERANSIM, PacketRusher, OAI gNB. SCP (Service Communication Proxy) support since v2.2.0. Great for automated testing pipelines. Kubernetes-ready Helm charts for all major RAN simulators. Enables quick deployment of different RAN+core combinations. Good for comparing simulator behavior across different tools.",
+  "related_repos": [
+    "https://github.com/aligungr/ueransim",
+    "https://github.com/borjis131/docker-packetrusher",
+    "https://github.com/gradiant/5g-images",
+    "https://github.com/hewlettpackard/packetrusher",
+    "https://github.com/open5gs/open5gs",
+    "https://github.com/srsran/srsran_4g"
+  ],
+  "_sources": [
+    "discovery/5g-core.json",
+    "discovery/ran-ue.json"
+  ],
+  "slug": "gradiant-5g-charts"
+}

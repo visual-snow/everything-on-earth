@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/edoardottt/awesome-hacker-search-engines",
+  "name": "edoardottt/awesome-hacker-search-engines",
+  "description": "Curated list of search engines useful during penetration testing, vulnerability assessments, and red/blue team operations covering servers, vulnerabilities, exploits, credentials, and threat intelligence.",
+  "sub_domain": "osint-recon",
+  "score": 8,
+  "score_rationale": "10.4k stars, comprehensive reference resource covering specialized search engines for security reconnaissance that is widely referenced by practitioners.",
+  "stars": 10400,
+  "language": null,
+  "license": null,
+  "last_activity": "2022-06-20",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 80.1,
+  "tags": [
+    "exploit-dev",
+    "pe-format",
+    "threat-intel",
+    "vuln-research"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Curated list of search engines useful during penetration testing, vulnerability assessments, and ...",
+  "slug": "edoardottt-awesome-hacker-search-engines"
+}

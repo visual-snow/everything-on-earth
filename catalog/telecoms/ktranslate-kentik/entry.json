@@ -1,0 +1,55 @@
+{
+  "name": "ktranslate (Kentik)",
+  "repo_url": "https://github.com/kentik/ktranslate",
+  "description": "Network data translation system supporting SNMP, flow protocols, and streaming telemetry with multi-format output (JSON, Prometheus, InfluxDB, NetFlow).",
+  "domain": "flow-collection",
+  "secondary_domains": [
+    "netconf",
+    "snmp-monitoring"
+  ],
+  "protocols": [
+    "SNMP",
+    "NetFlow",
+    "sFlow",
+    "IPFIX",
+    "gNMI"
+  ],
+  "provides": [
+    "snmp-collection",
+    "netflow-ingestion",
+    "sflow-ingestion",
+    "ipfix-ingestion",
+    "gnmi-telemetry-collection",
+    "multi-format-export",
+    "prometheus-metrics-export",
+    "influxdb-export",
+    "flow-format-translation",
+    "network-telemetry-pipeline"
+  ],
+  "needs": [
+    "snmp-target-devices",
+    "flow-exporter",
+    "gnmi-capable-device",
+    "prometheus-or-influxdb-backend"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "kentik/ktranslate",
+    "compose_services_count": 0,
+    "docker_evidence": "docker run -p 8082:8082 kentik/ktranslate:v2"
+  },
+  "github_metrics": {
+    "stars": 100,
+    "last_commit": "2025-06-01",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Multi-protocol network data collector and translator. Supports converting between flow formats, useful for complex telemetry evaluation scenarios.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "ktranslate-kentik"
+}

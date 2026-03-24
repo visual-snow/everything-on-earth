@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/talodev/backend",
+  "name": "TaloDev/backend",
+  "description": "A self-hostable game backend providing player authentication, leaderboards, stats, cloud saves, event tracking, and peer-to-peer multiplayer with Godot and Unity plugins.",
+  "sub_domain": "game-backends",
+  "score": 6,
+  "score_rationale": "86 stars but actively maintained through March 2026 with a clean feature set covering the most common indie game backend needs.",
+  "stars": 86,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "game-backends",
+    "game-devops-analytics"
+  ],
+  "quality_score": 51.5,
+  "tags": [
+    "backend",
+    "authentication",
+    "leaderboards",
+    "cloud-saves",
+    "indie"
+  ],
+  "category": "Self-Hosted Game Backend",
+  "summary": "Complete indie game backend with auth, leaderboards, saves, and multiplayer",
+  "slug": "talodev-backend"
+}

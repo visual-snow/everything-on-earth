@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/jrbedard/3d-converter",
+  "name": "jrbedard/3d-converter",
+  "description": "Fast C++ command-line 3D file format converter supporting OBJ, 3DS, MA, MB, XSI, LWO, DXF, STL, and DAE formats.",
+  "sub_domain": "asset-formats",
+  "score": 3,
+  "score_rationale": "Lightweight format converter with 179 stars covering legacy formats, but appears unmaintained and lacks support for modern formats like glTF or USD.",
+  "stars": 179,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2015-01-01",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 36.0,
+  "tags": [
+    "format-conversion",
+    "3d-formats",
+    "cli"
+  ],
+  "category": "3D Format Converter",
+  "summary": "Command-line converter for legacy 3D formats (OBJ, DAE, STL, LWO)",
+  "slug": "jrbedard-3d-converter"
+}

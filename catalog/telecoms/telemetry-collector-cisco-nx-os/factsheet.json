@@ -1,0 +1,54 @@
+{
+  "slug": "telemetry-collector-cisco-nx-os",
+  "name": "Telemetry Collector for Cisco NX-OS",
+  "what_it_is": "A Docker-based TIG stack (Telegraf, InfluxDB, Grafana) that automates deployment of a telemetry collection pipeline for Cisco NX-OS devices. It supports both dial-out (device-initiated gRPC/GPB) and dial-in (gNMI) collection modes with pre-built Grafana dashboards.",
+  "components": [
+    "Telegraf (data collection agent)",
+    "InfluxDB 2.7.12+ (time-series database)",
+    "Grafana 11.6.0+ (visualization and dashboarding)",
+    "Self-signed TLS certificates (OpenSSL-generated, 10-year validity)"
+  ],
+  "protocols": [
+    "gRPC with GPB encoding (dial-out, TCP port 57000)",
+    "gNMI - gRPC Network Management Interface (dial-in)",
+    "Native YANG models for NX-OS",
+    "OpenConfig YANG models"
+  ],
+  "measurement": [
+    "Interface counters and statistics",
+    "ARP and MAC address tables",
+    "System capacity and utilization via ICAM telemetry",
+    "Fabric and endpoint metrics"
+  ],
+  "configuration": [
+    "GNMI_USER environment variable (requires network-operator role minimum)",
+    "GNMI_PASSWORD environment variable",
+    "TLS optional for dial-out (disabled by default, toggled via config)",
+    "Certificate CN must match configured value (default: telegraf)",
+    "Primary Telegraf config: etc/telegraf/telegraf.conf.example",
+    "gNMI plugin config: etc/telegraf/telegraf.d/gnmi.conf.example"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Dial-out: device-initiated gRPC/GPB streaming to Telegraf on port 57000",
+    "Dial-in gNMI SAMPLE subscription mode",
+    "Dial-in gNMI ON_CHANGE subscription mode"
+  ],
+  "constraints": [
+    "NX-OS versions before 10.1(1) support only SAMPLE or ON_CHANGE per gNMI subscription, not both simultaneously — requires separate Telegraf instances",
+    "MacOS requires GNU sed; BSD sed (default on macOS) is incompatible with setup scripts",
+    "Only supports Cisco NX-OS devices — no multi-vendor telemetry support",
+    "No built-in data retention or cleanup policies documented"
+  ],
+  "docker_services": [
+    "telegraf",
+    "influxdb",
+    "grafana"
+  ],
+  "notable_absences": [
+    "No fault injection or chaos engineering capabilities",
+    "No support for non-Cisco (non-NX-OS) vendor telemetry formats",
+    "No custom metric definition interface beyond Telegraf plugin configuration",
+    "docker-compose.yml not found on main branch (may reside on master or alternate branch)"
+  ]
+}

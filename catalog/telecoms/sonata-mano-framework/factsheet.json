@@ -1,0 +1,44 @@
+{
+  "slug": "sonata-mano-framework",
+  "name": "SONATA MANO Framework",
+  "what_it_is": "A microservices-based NFV orchestration framework that forms the MANO core of the SONATA/5GTANGO service platform. It manages the full lifecycle of network services and virtual network functions (VNFs) across heterogeneous virtualization infrastructures.",
+  "components": [
+    "Service Lifecycle Management (SLM) — primary orchestration engine for end-to-end service workflows",
+    "Function Lifecycle Management (FLM) — VNF-level orchestration",
+    "Specific Manager Registry (SMR) — registry and dispatcher for service-specific managers (SSMs) and function-specific managers (FSMs)",
+    "Placement Plugin — computes resource placement and optimization decisions",
+    "SSMs (Service-Specific Managers) — per-service customization plugins injected at runtime",
+    "FSMs (Function-Specific Managers) — per-VNF customization plugins injected at runtime"
+  ],
+  "protocols": [
+    "AMQP via RabbitMQ — asynchronous inter-component messaging bus",
+    "REST (implied) — interface to external VIMs such as OpenStack and Kubernetes"
+  ],
+  "measurement": [],
+  "configuration": [
+    "VIM backend selectable: local emulation via son-emu, OpenStack, or Kubernetes",
+    "Orchestration behavior customizable per service/function via SSM/FSM plugins without modifying core code",
+    "Data persistence backed by MongoDB, SONATA Catalogue, and Repository"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Service instantiation",
+    "Service scaling (horizontal)",
+    "Service migration",
+    "Service termination"
+  ],
+  "constraints": [
+    "Requires RabbitMQ message broker to be running for all inter-component communication",
+    "SSMs and FSMs must be registered with SMR before they can be invoked during lifecycle events",
+    "No built-in monitoring or telemetry pipeline documented — external tooling required for metrics collection",
+    "Placement decisions are plugin-driven; no default multi-constraint optimizer is documented"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found in the repository root (404 on both master branch attempts)",
+    "No documented fault injection or chaos testing support",
+    "No SLA enforcement mechanism documented",
+    "No load balancing or autoscaling policy engine described",
+    "Monitoring/telemetry integration not covered in README"
+  ]
+}

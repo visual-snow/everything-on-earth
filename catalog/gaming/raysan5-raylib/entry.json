@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/raysan5/raylib",
+  "name": "raysan5/raylib",
+  "description": "A simple and easy-to-use C library for videogames programming, with no external dependencies and support for Windows, Linux, macOS, Android, and WebAssembly. Widely adopted for education, prototyping, and indie game development.",
+  "sub_domain": "game-engines-2d",
+  "score": 10,
+  "score_rationale": "Industry-standard beginner-to-intermediate game library with 31k+ stars, extremely active maintenance, and ubiquitous community adoption.",
+  "stars": 31700,
+  "language": "C",
+  "license": "Zlib",
+  "last_activity": "2024-11-18",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 96.0,
+  "tags": [
+    "2d-engine",
+    "c",
+    "cross-platform",
+    "education",
+    "prototyping"
+  ],
+  "category": "2D Game Library",
+  "summary": "Simple, dependency-free 2D game library for education and indie games",
+  "slug": "raysan5-raylib"
+}

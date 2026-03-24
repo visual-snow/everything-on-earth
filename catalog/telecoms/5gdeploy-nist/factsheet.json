@@ -1,0 +1,90 @@
+{
+  "slug": "5gdeploy-nist",
+  "name": "5gdeploy (NIST)",
+  "what_it_is": "A TypeScript/Node.js toolkit developed at NIST that generates Docker Compose configurations and startup scripts for emulated 5G networks. It takes a JSON network-definition document (NetDef) and produces fully-configured Compose contexts for interchangeable combinations of 5G Core Control Plane, User Plane, and RAN implementations.",
+  "components": [
+    "netdef: JSON document defining topology, slices, subscribers, and data networks",
+    "netdef-compose: CLI that converts a NetDef into a Docker Compose context (config files + compose.sh)",
+    "scenario: pre-built NetDef scripts for concrete topologies (cloud/edge, multi-slice, multi-UPF)",
+    "trafficgen: subcommands integrated into compose.sh for traffic generation and measurement",
+    "compose helpers: TypeScript modules for IP allocation, QoS, bridging, and multi-host placement",
+    "docker: custom Docker image build scripts (dn, iperf2, gtp5g, gnbsim, etc.)"
+  ],
+  "protocols": [
+    "5G NR",
+    "GTP",
+    "GTP-U",
+    "N4/PFCP",
+    "NAS",
+    "NGAP",
+    "PFCP",
+    "SBI",
+    "SCTP",
+    "NDN (Named Data Networking, via NDN-DPDK UPF)"
+  ],
+  "measurement": [
+    "iperf2: UDP/TCP throughput and one-way latency (--trip-times)",
+    "iperf3: TCP/UDP throughput with JSON output",
+    "OWAMP/TWAMP: one-way and two-way active measurement",
+    "netperf: network performance benchmarking",
+    "sockperf: latency and throughput",
+    "D-ITG: diverse internet traffic generation",
+    "nmap: ping scan to count reachable UEs across data networks",
+    "linkstat: per-container network interface RX/TX packet counters via 'ip -s link show' and 'ethtool -S'",
+    "list-pdu: enumerate established PDU sessions per UE",
+    "Prometheus + Grafana: metrics scraping for Open5GS, Open5GCore, eUPF, and process-exporter"
+  ],
+  "configuration": [
+    "--cp: Control Plane implementation (free5gc | oai | open5gs | phoenix)",
+    "--up: User Plane implementation, repeatable with minimatch patterns (free5gc | eupf | ndndpdk | oai | open5gs | phoenix)",
+    "--ran: RAN implementation (ueransim | packetrusher | omec-gnbsim | oai | srsran | none)",
+    "--ip-space: overall IPv4 address space (minimum /18, up to 64 virtual /24 networks)",
+    "--ip-fixed: pin a specific IPv4 address to a network function interface",
+    "--set-dscp: alter outer IPv4 DSCP field per flow using 'net|src-pattern|dst-pattern|value' syntax",
+    "--set-netem: apply tc-netem parameters per flow using 'net|src-pattern|dst-pattern|netem-args' syntax",
+    "--bridge / --place: multi-host deployment via VXLAN bridges",
+    "--prometheus=false: disable Prometheus/Grafana metrics stack",
+    "sims.tsv: optional file to replace generated SIM card assignments with physical SIM data"
+  ],
+  "fault_injection": [
+    "--set-netem: injects tc-netem impairments (delay, loss, jitter, reorder, corrupt) on any named network segment between matched containers",
+    "--set-dscp: marks packets with specific DSCP values to test QoS-differentiated handling"
+  ],
+  "modes": [
+    "signaling-only: RAN simulators in registration-only mode without PDU sessions (OMEC-gNBSim, PacketRusher)",
+    "PDU session mode: full end-to-end data path with UE data plane (UERANSIM, PacketRusher, OAI, srsRAN)",
+    "radio simulator: software-defined radio over-the-air emulation (OAI, srsRAN Project)",
+    "RAN-disabled (--ran=none): core-only deployment for connecting physical gNBs",
+    "multi-host: distribute network functions across multiple physical/virtual machines via VXLAN",
+    "single-host: all network functions on one machine (default)"
+  ],
+  "constraints": [
+    "Maximum 253 network functions per deployment (one /24 subnet per virtual network, unique host number per NF)",
+    "Maximum 64 virtual networks per deployment (minimum /18 overall IP address space)",
+    "Only one scenario may run at a time on a host; others must be shut down first",
+    "QoS (--set-dscp / --set-netem) is only supported on specific NF implementations: free5GC UPF, Open5GCore gNB+UPF, PacketRusher gNB, UERANSIM gNB",
+    "NDN-DPDK UPF supports both NDN and IPv4 traffic but requires DPDK-compatible hardware",
+    "Multi-host Prometheus setup requires process-exporter exposed on port 9256 per host; cross-host scraping fails if port is blocked",
+    "Not under active development; only occasional maintenance updates expected"
+  ],
+  "docker_services": [
+    "amf: Access and Mobility Management Function (CP)",
+    "smf: Session Management Function (CP)",
+    "upf / eupf: User Plane Function (UP)",
+    "gnb: gNodeB RAN simulator container",
+    "ue*: UE simulator containers (one or more, named by SUPI suffix)",
+    "dn_<dnn>: Data Network endpoint container (custom 5gdeploy.localhost/dn image)",
+    "prometheus: metrics collection",
+    "grafana: metrics visualization",
+    "bridge: multi-host network bridge container (VXLAN)",
+    "tg* / tgcs clients+servers: traffic generator containers (iperf2, iperf3, owamp, sockperf, etc.)"
+  ],
+  "notable_absences": [
+    "No Kubernetes/Helm support — Docker Compose only",
+    "No built-in IPv6 UE data plane support (IPv6 routing mode exists at bridge level only)",
+    "No GUI or web dashboard for topology definition — NetDef is JSON-only",
+    "No automated fault injection scheduling — netem rules are static at compose generation time",
+    "No support for 5G SA standalone over-the-air with commercial UEs out of the box",
+    "No built-in CI/CD or test orchestration framework"
+  ]
+}

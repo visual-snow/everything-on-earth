@@ -1,0 +1,53 @@
+{
+  "name": "Akvorado",
+  "repo_url": "https://github.com/akvorado/akvorado",
+  "description": "Flow collector, enricher and visualizer that receives NetFlow/IPFIX/sFlow, enriches with SNMP interface names and geo data, exports to ClickHouse with web UI.",
+  "domain": "netconf",
+  "secondary_domains": [],
+  "protocols": [
+    "NetFlow v5/v9",
+    "IPFIX",
+    "sFlow",
+    "SNMP"
+  ],
+  "provides": [
+    "geo-enrichment",
+    "ipfix-collection",
+    "flow-data-enrichment",
+    "web-dashboard",
+    "kafka-pipeline",
+    "flow-visualization",
+    "snmp-enrichment",
+    "clickhouse-export",
+    "streaming-telemetry",
+    "netflow-collection",
+    "interface-name-resolution",
+    "sflow-collection",
+    "multi-protocol-flow-ingestion"
+  ],
+  "needs": [
+    "clickhouse",
+    "kafka",
+    "docker-compose-v2"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "akvorado/akvorado",
+    "compose_services_count": 4,
+    "docker_evidence": "Easiest way to get started is with Docker Compose V2. Deploys Akvorado, Kafka, and ClickHouse."
+  },
+  "github_metrics": {
+    "stars": 2100,
+    "last_commit": "2026-01-01",
+    "language": "Go",
+    "license": "AGPL-3.0"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Complete flow analysis solution with enrichment and visualization. Excellent for evaluations involving flow data analysis, SNMP enrichment, and ClickHouse queries.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "akvorado"
+}

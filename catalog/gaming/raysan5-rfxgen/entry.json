@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/raysan5/rfxgen",
+  "name": "raysan5/rfxgen",
+  "description": "A lightweight chiptune-style sound effect generator (fork of sfxr concept) by the raylib author, available as a web tool and standalone executable with command-line batch processing support.",
+  "sub_domain": "chiptune-trackers",
+  "score": 7,
+  "score_rationale": "Modern, actively maintained sfxr-style sound effect generator with 498 stars, from the respected raylib ecosystem, updated through 2025.",
+  "stars": 498,
+  "language": "C",
+  "license": "Zlib",
+  "last_activity": "2025-11-13",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 63.6,
+  "tags": [
+    "sound-effects",
+    "sfxr",
+    "chiptune",
+    "audio-tool",
+    "raylib"
+  ],
+  "category": "Sound Tools",
+  "summary": "Modern sfxr-style sound effect generator by raylib author",
+  "slug": "raysan5-rfxgen"
+}

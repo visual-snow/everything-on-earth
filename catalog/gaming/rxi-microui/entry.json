@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rxi/microui",
+  "name": "rxi/microui",
+  "description": "A tiny (~1100 lines) portable immediate-mode UI library written in ANSI C with no dynamic allocation. Provides built-in controls (windows, buttons, sliders) that work with any rendering system.",
+  "sub_domain": "game-ui",
+  "score": 7,
+  "score_rationale": "Highly regarded minimal GUI reference implementation with 5.7k stars, ideal for constrained or embedded game contexts.",
+  "stars": 5700,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 72.0,
+  "tags": [
+    "immediate-mode",
+    "minimal",
+    "c",
+    "reference",
+    "no-allocation"
+  ],
+  "category": "Minimal UI Library",
+  "summary": "Tiny reference-quality immediate-mode UI library",
+  "slug": "rxi-microui"
+}

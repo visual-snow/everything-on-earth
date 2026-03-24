@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fairygui/fairygui-unity",
+  "name": "fairygui/FairyGUI-unity",
+  "description": "A flexible cross-platform UI framework for Unity featuring FairyBatching draw-call optimization, rich text, virtual lists, gesture recognition, and support for mouse, touch, and VR controllers.",
+  "sub_domain": "game-ui",
+  "score": 7,
+  "score_rationale": "Production-grade Unity UI framework with 2.9k stars offering significant draw-call optimization for complex game UIs, maintained through 2025.",
+  "stars": 2900,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-05-11",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 69.7,
+  "tags": [
+    "unity",
+    "ui-framework",
+    "optimization",
+    "gesture-recognition",
+    "vr"
+  ],
+  "category": "Unity UI Framework",
+  "summary": "Production-grade Unity UI with draw-call optimization",
+  "slug": "fairygui-fairygui-unity"
+}

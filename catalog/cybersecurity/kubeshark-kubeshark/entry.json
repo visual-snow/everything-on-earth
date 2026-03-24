@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/kubeshark/kubeshark",
+  "name": "kubeshark/kubeshark",
+  "description": "Cluster-wide network observability for Kubernetes that captures L4 packets and L7 API calls with decrypted TLS traffic using eBPF, providing full Kubernetes context for traffic analysis.",
+  "sub_domain": "network-security",
+  "score": 8,
+  "score_rationale": "Leading Kubernetes network observability tool with 11.8k stars and v53.1.0 released March 2026, filling a critical gap in K8s security monitoring.",
+  "stars": 11800,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "network-security"
+  ],
+  "quality_score": 80.6,
+  "tags": [
+    "api-security",
+    "network-analysis",
+    "packet-capture"
+  ],
+  "category": "Network Analysis",
+  "summary": "Cluster-wide network observability for Kubernetes that captures L4 packets and L7 API calls with ...",
+  "slug": "kubeshark-kubeshark"
+}

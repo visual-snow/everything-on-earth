@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rapid7/metasploit-framework",
+  "name": "rapid7/metasploit-framework",
+  "description": "The world's most widely-used open-source penetration testing framework, providing tools for vulnerability exploitation, payload generation, and security assessments. Actively maintained by Rapid7 with over 1,100 contributors.",
+  "sub_domain": "pentest-frameworks",
+  "score": 10,
+  "score_rationale": "Industry-standard exploitation framework used by virtually every penetration tester, with 37.8k stars and continuous active development.",
+  "stars": 37800,
+  "language": "Ruby",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "pentest-frameworks"
+  ],
+  "quality_score": 96.6,
+  "tags": [
+    "api-security",
+    "exploit-dev",
+    "payload-gen",
+    "pe-format",
+    "vuln-research"
+  ],
+  "category": "Exploit Framework",
+  "summary": "The world's most widely-used open-source penetration testing framework, providing tools for vulne...",
+  "slug": "rapid7-metasploit-framework"
+}

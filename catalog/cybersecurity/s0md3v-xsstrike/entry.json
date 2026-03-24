@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/s0md3v/xsstrike",
+  "name": "s0md3v/XSStrike",
+  "description": "Advanced XSS detection suite with intelligent payload generation, context analysis, fuzzing, and WAF detection for reflected and DOM XSS vulnerabilities.",
+  "sub_domain": "webapp-security",
+  "score": 9,
+  "score_rationale": "14.8k stars, the most advanced open-source XSS scanner with recent 2025 maintenance.",
+  "stars": 14800,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-03-17",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 87.4,
+  "tags": [
+    "payload",
+    "shellcode",
+    "injection"
+  ],
+  "category": "Payload Generator",
+  "summary": "Payload and shellcode generation",
+  "slug": "s0md3v-xsstrike"
+}

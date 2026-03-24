@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/gametechdev/ispctexturecompressor",
+  "name": "GameTechDev/ISPCTextureCompressor",
+  "description": "Intel ISPC-based texture compression library supporting BC6H, BC7, ASTC, ETC1, and BC4/BC5 formats using SIMD CPU optimization for high-speed offline compression.",
+  "sub_domain": "asset-formats",
+  "score": 5,
+  "score_rationale": "Historically useful SIMD texture compressor with 470 stars, but archived by Intel in September 2024 with no further maintenance planned.",
+  "stars": 470,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2024-09-23",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 51.4,
+  "tags": [
+    "texture-compression",
+    "simd",
+    "intel"
+  ],
+  "category": "SIMD Texture Compression",
+  "summary": "Intel ISPC SIMD texture compressor for BC/ASTC/ETC formats offline",
+  "slug": "gametechdev-ispctexturecompressor"
+}

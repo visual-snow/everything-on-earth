@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/hashtopolis/server",
+  "name": "hashtopolis/server",
+  "description": "Multi-platform client-server tool for distributing Hashcat password cracking tasks to multiple computers, with multi-user support and group management for coordinated cracking campaigns.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 8,
+  "score_rationale": "Leading distributed hash cracking platform with 1.7k stars, GPL-3.0 license, and active releases through February 2026.",
+  "stars": 1700,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 73.8,
+  "tags": [
+    "hash-cracking",
+    "password-cracking",
+    "security-tool"
+  ],
+  "category": "Password Cracker",
+  "summary": "Multi-platform client-server tool for distributing Hashcat password cracking tasks to multiple co...",
+  "slug": "hashtopolis-server"
+}

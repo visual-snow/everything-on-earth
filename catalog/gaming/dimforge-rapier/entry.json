@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/dimforge/rapier",
+  "name": "dimforge/rapier",
+  "description": "2D and 3D physics engines focused on performance written in Rust, supporting cross-platform determinism including web (WASM). Successor to nphysics and the primary physics library in the Rust game development ecosystem.",
+  "sub_domain": "physics-engines",
+  "score": 9,
+  "score_rationale": "5.2k-star Rust-native physics engine with WASM support and cross-platform determinism, key tool for Rust and Bevy game development.",
+  "stars": 5200,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "physics-engines"
+  ],
+  "quality_score": 83.7,
+  "tags": [
+    "rust",
+    "physics",
+    "wasm"
+  ],
+  "category": "Physics Engine",
+  "summary": "Rust physics engine with deterministic WASM support for Bevy",
+  "slug": "dimforge-rapier"
+}

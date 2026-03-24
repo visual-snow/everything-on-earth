@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/microsoft/sbom-tool",
+  "name": "microsoft/sbom-tool",
+  "description": "Microsoft's highly scalable enterprise-ready tool for creating SPDX 2.2 compatible SBOMs for any variety of build artifacts. Integrates with Azure DevOps and GitHub Actions.",
+  "sub_domain": "Supply Chain Security",
+  "score": 8,
+  "score_rationale": "Enterprise-grade SBOM generator from Microsoft with 7.5k+ stars and active maintenance.",
+  "stars": 7467,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 79.0,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "microsoft's highly scalable enterprise-ready tool for creating spdx 2.2 compatible sboms for any var...",
+  "slug": "microsoft-sbom-tool"
+}

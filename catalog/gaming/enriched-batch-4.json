@@ -1,0 +1,578 @@
+[
+  {
+    "repo_url": "https://github.com/openemu/openemu",
+    "name": "OpenEmu/OpenEmu",
+    "description": "A modular multi-system retro video game emulator for macOS with a native UI, Metal rendering, and support for 30+ gaming platforms from Atari 2600 to PSP via plugin-based emulation cores.",
+    "sub_domain": "emulators-retro",
+    "score": 8,
+    "score_rationale": "The premier macOS retro emulation platform with 17.4k stars; downloaded over 10 million times with best-in-class native macOS UI.",
+    "stars": 17400,
+    "language": "Swift",
+    "license": null,
+    "last_activity": "2023-12-30",
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 81.9,
+    "tags": ["emulation", "retro", "macos", "multi-platform"],
+    "category": "Retro Game Emulator",
+    "summary": "Premier macOS retro emulator supporting 30+ platforms with native UI"
+  },
+  {
+    "repo_url": "https://github.com/nesbox/tic-80",
+    "name": "nesbox/TIC-80",
+    "description": "A free and open-source fantasy computer for making, playing, and sharing tiny games with built-in code, sprite, map, and sound editors. Supports Lua, JavaScript, Python, Ruby, and other languages within a 240x136, 16-color retro environment.",
+    "sub_domain": "emulators-retro",
+    "score": 8,
+    "score_rationale": "The leading open-source fantasy console with 5.9k stars; a complete creative platform widely used for game jams and education.",
+    "stars": 5900,
+    "language": "C",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 78.2,
+    "tags": ["fantasy-console", "game-creation", "retro", "education"],
+    "category": "Fantasy Console",
+    "summary": "Open-source fantasy console with integrated editors for retro game dev"
+  },
+  {
+    "repo_url": "https://github.com/mgba-emu/mgba",
+    "name": "mgba-emu/mgba",
+    "description": "A fast and accurate Game Boy Advance emulator that also supports Game Boy and Game Boy Color titles. Features save states, video recording, Lua scripting, and both Qt and SDL frontends.",
+    "sub_domain": "emulators-retro",
+    "score": 8,
+    "score_rationale": "The best-in-class GBA emulator with 6.9k stars, MPL-2.0 licensed, actively maintained through 2025 with strong accuracy and feature set.",
+    "stars": 6900,
+    "language": "C",
+    "license": "MPL-2.0",
+    "last_activity": "2025-03-09",
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 78.7,
+    "tags": ["emulation", "game-boy", "gba", "accurate"],
+    "category": "Handheld Emulator",
+    "summary": "Best-in-class accurate GBA/Game Boy emulator with debugging tools"
+  },
+  {
+    "repo_url": "https://github.com/snes9xgit/snes9x",
+    "name": "snes9xgit/snes9x",
+    "description": "A portable Super Nintendo Entertainment System emulator available across Windows, Linux, macOS, FreeBSD, and gaming consoles. Includes both a standalone emulator and a libretro core.",
+    "sub_domain": "emulators-retro",
+    "score": 7,
+    "score_rationale": "A long-standing SNES emulator with 3.1k stars that remains a widely used reference implementation and libretro core.",
+    "stars": 3100,
+    "language": "C++",
+    "license": null,
+    "last_activity": "2024-07-09",
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 69.9,
+    "tags": ["emulation", "snes", "multi-platform", "libretro"],
+    "category": "Console Emulator",
+    "summary": "Established SNES emulator with libretro core support"
+  },
+  {
+    "repo_url": "https://github.com/bsnes-emu/bsnes",
+    "name": "bsnes-emu/bsnes",
+    "description": "A high-accuracy Super Nintendo emulator focused on cycle-level precision, with true Super Game Boy support, HD Mode 7 graphics, and low-level coprocessor emulation for all SNES chips.",
+    "sub_domain": "emulators-retro",
+    "score": 7,
+    "score_rationale": "The gold standard for SNES accuracy with 1.9k stars; invaluable for preservation and reference even though development paused in 2020.",
+    "stars": 1900,
+    "language": "C++",
+    "license": "GPL-3.0",
+    "last_activity": "2020-03-20",
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 68.2,
+    "tags": ["emulation", "snes", "accuracy", "preservation"],
+    "category": "Console Emulator",
+    "summary": "Gold standard cycle-accurate SNES emulator for preservation"
+  },
+  {
+    "repo_url": "https://github.com/drhelius/gearboy",
+    "name": "drhelius/Gearboy",
+    "description": "A cross-platform Game Boy and Game Boy Color emulator with high accuracy (passes Blargg's CPU tests), debugging tools including breakpoints and a just-in-time disassembler, available for Windows, macOS, Linux, BSD, and RetroArch.",
+    "sub_domain": "emulators-retro",
+    "score": 6,
+    "score_rationale": "Accurate Game Boy emulator with 1.1k stars, valuable for both gameplay and Game Boy homebrew development due to its debugging tools.",
+    "stars": 1100,
+    "language": "C++",
+    "license": "GPL-3.0",
+    "last_activity": null,
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 60.3,
+    "tags": ["emulation", "game-boy", "debugging", "homebrew"],
+    "category": "Handheld Emulator",
+    "summary": "Accurate Game Boy emulator with built-in debugging tools"
+  },
+  {
+    "repo_url": "https://github.com/lameguy64/psn00bsdk",
+    "name": "Lameguy64/PSn00bSDK",
+    "description": "A powerful open-source SDK for original PlayStation (PS1) homebrew development, providing a C/C++ toolchain and hardware abstraction libraries for GPU, GTE, CD-ROM, and MDEC operations.",
+    "sub_domain": "emulators-retro",
+    "score": 6,
+    "score_rationale": "The most capable open-source PS1 homebrew SDK with 1k stars; essential for developers creating new games for original PlayStation hardware.",
+    "stars": 1000,
+    "language": "C",
+    "license": null,
+    "last_activity": null,
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 60.0,
+    "tags": ["homebrew", "ps1", "sdk", "development"],
+    "category": "Game Development SDK",
+    "summary": "Essential open-source SDK for PS1 homebrew game development"
+  },
+  {
+    "repo_url": "https://github.com/liko-12/liko-12",
+    "name": "LIKO-12/LIKO-12",
+    "description": "An open-source fantasy computer built with LÖVE framework and Lua, featuring a DOS-like OS with visual editors for creating and sharing 192x128 pixel, 16-color retro games and programs.",
+    "sub_domain": "emulators-retro",
+    "score": 4,
+    "score_rationale": "Charming PICO-8 alternative with 1.2k stars, but archived in 2024 making it unsuitable for active projects.",
+    "stars": 1200,
+    "language": "Lua",
+    "license": "MIT",
+    "last_activity": "2024-01-24",
+    "found_in_domains": [
+      "emulators-retro"
+    ],
+    "quality_score": 48.6,
+    "tags": ["fantasy-console", "retro", "game-creation", "lua"],
+    "category": "Fantasy Console",
+    "summary": "PICO-8 alternative with DOS-like OS for retro game creation"
+  },
+  {
+    "repo_url": "https://github.com/google-deepmind/mujoco",
+    "name": "google-deepmind/mujoco",
+    "description": "Multi-Joint dynamics with Contact: a general purpose physics simulator for robotics, biomechanics, graphics, and ML research. Maintained by Google DeepMind with C API, Python bindings, Unity integration, and soft body simulation support.",
+    "sub_domain": "fluid-cloth-simulation",
+    "score": 9,
+    "score_rationale": "12.5k-star DeepMind-maintained physics simulator widely used in robotics and ML research, actively maintained through 2026.",
+    "stars": 12500,
+    "language": "C++",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-11",
+    "found_in_domains": [
+      "fluid-cloth-simulation"
+    ],
+    "quality_score": 86.8,
+    "tags": ["physics", "simulation", "robotics", "ml"],
+    "category": "Physics Engine",
+    "summary": "DeepMind physics simulator for robotics, graphics, and ML research"
+  },
+  {
+    "repo_url": "https://github.com/paveldogreat/webgl-fluid-simulation",
+    "name": "PavelDoGreat/WebGL-Fluid-Simulation",
+    "description": "GPU-powered Navier-Stokes fluid solver running in web browsers via WebGL, including mobile support. The most popular interactive fluid simulation demo with 16k+ stars and native app releases for iOS and Android.",
+    "sub_domain": "fluid-cloth-simulation",
+    "score": 8,
+    "score_rationale": "16.2k-star browser fluid simulation widely used as a demo/reference for real-time GPU fluid dynamics on the web.",
+    "stars": 16200,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2020-01-01",
+    "found_in_domains": [
+      "fluid-cloth-simulation"
+    ],
+    "quality_score": 81.7,
+    "tags": ["fluid-simulation", "webgl", "gpu", "interactive"],
+    "category": "Fluid Simulation",
+    "summary": "GPU-powered web-based Navier-Stokes fluid simulation demo"
+  },
+  {
+    "repo_url": "https://github.com/google/liquidfun",
+    "name": "google/liquidfun",
+    "description": "Google's 2D rigid-body and fluid simulation library extending Box2D with particle-based fluid and soft body simulation. Supports C++, Java, and JavaScript across Android, iOS, Windows, Mac, and Linux platforms.",
+    "sub_domain": "fluid-cloth-simulation",
+    "score": 8,
+    "score_rationale": "4.9k-star Google-authored fluid+physics library extending Box2D, significant reference for 2D game fluid simulation despite being archived.",
+    "stars": 4900,
+    "language": "C++",
+    "license": "Zlib",
+    "last_activity": "2026-02-13",
+    "found_in_domains": [
+      "fluid-cloth-simulation"
+    ],
+    "quality_score": 77.5,
+    "tags": ["physics", "fluid-simulation", "2d", "box2d"],
+    "category": "Physics Engine",
+    "summary": "Google 2D fluid simulation extending Box2D with soft bodies"
+  },
+  {
+    "repo_url": "https://github.com/interactivecomputergraphics/splishsplash",
+    "name": "InteractiveComputerGraphics/SPlisHSPlasH",
+    "description": "Open-source library for physics-based fluid simulation using Smoothed Particle Hydrodynamics (SPH), implementing state-of-the-art pressure solvers with support for viscosity, surface tension, and vorticity effects in 2D and 3D.",
+    "sub_domain": "fluid-cloth-simulation",
+    "score": 8,
+    "score_rationale": "1.8k-star research-grade SPH fluid library actively maintained through 2025, implementing cutting-edge simulation methods.",
+    "stars": 1800,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2025-08-12",
+    "found_in_domains": [
+      "fluid-cloth-simulation"
+    ],
+    "quality_score": 74.0,
+    "tags": ["fluid-simulation", "sph", "research", "3d"],
+    "category": "Fluid Simulation",
+    "summary": "Research-grade SPH fluid simulation with cutting-edge solvers"
+  },
+  {
+    "repo_url": "https://github.com/interactivecomputergraphics/positionbaseddynamics",
+    "name": "InteractiveComputerGraphics/PositionBasedDynamics",
+    "description": "Library for physically-based simulation of rigid bodies, deformable solids, cloth, and fluids using position-based and XPBD constraint methods. Prioritizes speed and stability for interactive applications with Python bindings.",
+    "sub_domain": "fluid-cloth-simulation",
+    "score": 8,
+    "score_rationale": "2.2k-star unified PBD simulation library covering cloth, soft body, rigid body, and fluids — the reference implementation for PBD methods.",
+    "stars": 2200,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2022-12-13",
+    "found_in_domains": [
+      "fluid-cloth-simulation",
+      "physics-engines"
+    ],
+    "quality_score": 74.7,
+    "tags": ["physics", "cloth-simulation", "pbd", "deformable"],
+    "category": "Physics Engine",
+    "summary": "Unified PBD library for cloth, fluids, and rigid body simulation"
+  },
+  {
+    "repo_url": "https://github.com/doyubkim/fluid-engine-dev",
+    "name": "doyubkim/fluid-engine-dev",
+    "description": "Fluid simulation engine SDK for computer graphics applications supporting SPH, FLIP, PIC, and level-set methods, with both C++ and Python APIs. Companion code for the book 'Fluid Engine Development'.",
+    "sub_domain": "fluid-cloth-simulation",
+    "score": 7,
+    "score_rationale": "2.1k-star fluid simulation SDK accompanying a published textbook, covering multiple simulation methods for game/VFX developers.",
+    "stars": 2100,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2019-03-10",
+    "found_in_domains": [
+      "fluid-cloth-simulation"
+    ],
+    "quality_score": 68.6,
+    "tags": ["fluid-simulation", "graphics", "educational", "sdk"],
+    "category": "Fluid Simulation",
+    "summary": "Fluid simulation SDK with textbook covering SPH, FLIP, PIC methods"
+  },
+  {
+    "repo_url": "https://github.com/cubbyflow/cubbyflow",
+    "name": "CubbyFlow/CubbyFlow",
+    "description": "Voxel-based fluid simulation engine for computer games based on the Jet framework, supporting SPH, smoke simulation, and level set solvers with C++ and Python APIs.",
+    "sub_domain": "fluid-cloth-simulation",
+    "score": 6,
+    "score_rationale": "291-star voxel-based fluid engine built for games with multiple simulation methods; niche but game-focused scope.",
+    "stars": 291,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2022-01-01",
+    "found_in_domains": [
+      "fluid-cloth-simulation"
+    ],
+    "quality_score": 55.7,
+    "tags": ["fluid-simulation", "voxel", "game-focused", "sph"],
+    "category": "Fluid Simulation",
+    "summary": "Voxel-based fluid engine for games with multiple solvers"
+  },
+  {
+    "repo_url": "https://github.com/mmmovania/opencloth",
+    "name": "mmmovania/opencloth",
+    "description": "Collection of source codes implementing cloth simulation algorithms in OpenGL, covering mass-spring systems, position-based dynamics, and implicit integration methods. Useful educational reference for cloth simulation techniques.",
+    "sub_domain": "fluid-cloth-simulation",
+    "score": 6,
+    "score_rationale": "Multi-algorithm cloth simulation collection in OpenGL; good educational resource covering diverse cloth simulation approaches.",
+    "stars": null,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2017-01-01",
+    "found_in_domains": [
+      "fluid-cloth-simulation"
+    ],
+    "quality_score": 38.4,
+    "tags": ["cloth-simulation", "educational", "opengl", "algorithms"],
+    "category": "Cloth Simulation",
+    "summary": "Educational cloth simulation collection covering multiple algorithms"
+  },
+  {
+    "repo_url": "https://github.com/nvidiagameworks/flow",
+    "name": "NVIDIAGameWorks/Flow",
+    "description": "NVIDIA's sparse grid-based gaseous fluid simulation library for real-time interactive applications. Superseded by Flow 2 integrated into NVIDIA-Omniverse/PhysX, but the original provides a standalone reference implementation.",
+    "sub_domain": "fluid-cloth-simulation",
+    "score": 5,
+    "score_rationale": "215-star NVIDIA gas fluid library; historically notable but superseded by Flow 2 in the PhysX SDK and no longer standalone.",
+    "stars": 215,
+    "language": "C",
+    "license": "LicenseRef-NVIDIA",
+    "last_activity": "2017-06-14",
+    "found_in_domains": [
+      "fluid-cloth-simulation"
+    ],
+    "quality_score": 48.7,
+    "tags": ["fluid-simulation", "gas", "nvidia", "real-time"],
+    "category": "Fluid Simulation",
+    "summary": "NVIDIA gaseous fluid simulation library for real-time effects"
+  },
+  {
+    "repo_url": "https://github.com/mackron/miniaudio",
+    "name": "mackron/miniaudio",
+    "description": "Single-file C audio playback and capture library with no dependencies, supporting WAV, FLAC, and MP3 decoding, 3D spatialization, effects, and backends for all major platforms. The de-facto standard for lightweight C game audio.",
+    "sub_domain": "game-audio",
+    "score": 10,
+    "score_rationale": "Extremely widely adopted single-header C audio library with 6.5k stars, actively maintained through March 2026, and used as the audio backbone for raylib, Godot, and many indie engines.",
+    "stars": 6500,
+    "language": "C",
+    "license": "MIT",
+    "last_activity": "2026-03-03",
+    "found_in_domains": [
+      "game-audio"
+    ],
+    "quality_score": 90.5,
+    "tags": ["audio", "game-audio", "lightweight", "cross-platform"],
+    "category": "Audio Library",
+    "summary": "De facto standard single-header audio library for games"
+  },
+  {
+    "repo_url": "https://github.com/valvesoftware/steam-audio",
+    "name": "ValveSoftware/steam-audio",
+    "description": "Valve's open-source spatial audio SDK providing HRTF-based binaural rendering, physics-based sound propagation, occlusion, and reverb with plugins for Unity, Unreal, FMOD, and Wwise.",
+    "sub_domain": "game-audio",
+    "score": 9,
+    "score_rationale": "Industry-grade spatial audio SDK from Valve with 2.8k stars, actively maintained through February 2026, Apache-2.0 licensed, and integrated into major engines and audio middleware.",
+    "stars": 2800,
+    "language": "C++",
+    "license": "Apache-2.0",
+    "last_activity": "2026-02-11",
+    "found_in_domains": [
+      "game-audio"
+    ],
+    "quality_score": 81.6,
+    "tags": ["spatial-audio", "audio", "hrtf", "middleware"],
+    "category": "Spatial Audio SDK",
+    "summary": "Valve spatial audio SDK with HRTF and physics-based propagation"
+  },
+  {
+    "repo_url": "https://github.com/kcat/openal-soft",
+    "name": "kcat/openal-soft",
+    "description": "Software implementation of the OpenAL 3D audio API providing distance attenuation, Doppler shift, directional emitters, environmental reverb via EFX, and cross-platform support as the standard open-source 3D audio API.",
+    "sub_domain": "game-audio",
+    "score": 9,
+    "score_rationale": "The canonical open-source implementation of the OpenAL standard with 2.6k stars, actively maintained through January 2026, and the go-to LGPL alternative to proprietary audio SDKs.",
+    "stars": 2600,
+    "language": "C++",
+    "license": "LGPL-2.0",
+    "last_activity": "2026-01-20",
+    "found_in_domains": [
+      "game-audio"
+    ],
+    "quality_score": 81.3,
+    "tags": ["audio", "3d-audio", "openal", "cross-platform"],
+    "category": "Audio Library",
+    "summary": "Standard OpenAL software implementation for 3D game audio"
+  },
+  {
+    "repo_url": "https://github.com/jarikomppa/soloud",
+    "name": "jarikomppa/soloud",
+    "description": "Free, easy, portable C/C++ audio engine for games featuring virtual voices, 3D audio, real-time DSP effects, speech synthesis, SID emulation, and bindings for Python, C#, Ruby, GameMaker, and more.",
+    "sub_domain": "game-audio",
+    "score": 8,
+    "score_rationale": "Popular and feature-rich portable audio engine for games with 2.1k stars, Zlib licensed, widely referenced as the best pure-OSS audio engine for indie game developers.",
+    "stars": 2100,
+    "language": "C",
+    "license": "Zlib",
+    "last_activity": "2023-06-01",
+    "found_in_domains": [
+      "game-audio"
+    ],
+    "quality_score": 74.6,
+    "tags": ["audio", "game-audio", "dsp", "indie"],
+    "category": "Audio Engine",
+    "summary": "Feature-rich portable audio engine with DSP effects and synthesis"
+  },
+  {
+    "repo_url": "https://github.com/libsdl-org/sdl_mixer",
+    "name": "libsdl-org/SDL_mixer",
+    "description": "The official SDL audio mixer library supporting multi-channel mixing, decoding of WAV, FLAC, MP3, OGG, MIDI, MOD, and Opus formats, with DSP effects and positional audio for SDL-based games.",
+    "sub_domain": "game-audio",
+    "score": 8,
+    "score_rationale": "Essential audio companion to the SDL game library with 685 stars, actively maintained through March 2026 with a redesigned SDL3 API, and used in thousands of cross-platform game projects.",
+    "stars": 685,
+    "language": "C",
+    "license": "Zlib",
+    "last_activity": "2026-03-09",
+    "found_in_domains": [
+      "game-audio"
+    ],
+    "quality_score": 70.7,
+    "tags": ["audio", "sdl", "mixer", "cross-platform"],
+    "category": "Audio Library",
+    "summary": "Official SDL audio mixer with multi-format support"
+  },
+  {
+    "repo_url": "https://github.com/labsound/labsound",
+    "name": "LabSound/LabSound",
+    "description": "Graph-based C++ audio engine derived from WebKit's WebAudio implementation, providing a node-based DSP graph for games, visualizers, live coding environments, and audio applications.",
+    "sub_domain": "game-audio",
+    "score": 6,
+    "score_rationale": "Unique graph-based audio engine with 782 stars and BSD-2-Clause license, offering a Web Audio-style API for C++ projects, though development stalled in 2023.",
+    "stars": 782,
+    "language": "C++",
+    "license": "BSD-2-Clause",
+    "last_activity": "2023-02-07",
+    "found_in_domains": [
+      "game-audio"
+    ],
+    "quality_score": 59.2,
+    "tags": ["audio", "graph-based", "dsp", "web-audio"],
+    "category": "Audio Engine",
+    "summary": "Graph-based audio engine with Web Audio-style API"
+  },
+  {
+    "repo_url": "https://github.com/raysan5/raudio",
+    "name": "raysan5/raudio",
+    "description": "Simple, easy-to-use audio library built on top of miniaudio, supporting WAV, OGG, MP3, FLAC, MOD, and XM playback — originally the audio module of raylib.",
+    "sub_domain": "game-audio",
+    "score": 6,
+    "score_rationale": "Clean, minimal audio API with 247 stars from the raylib author, useful as a standalone library or as a reference for embedding miniaudio in a game engine.",
+    "stars": 247,
+    "language": "C",
+    "license": "Zlib",
+    "last_activity": "2024-01-01",
+    "found_in_domains": [
+      "game-audio"
+    ],
+    "quality_score": 55.2,
+    "tags": ["audio", "miniaudio", "simple", "raylib"],
+    "category": "Audio Library",
+    "summary": "Minimal audio wrapper around miniaudio for games"
+  },
+  {
+    "repo_url": "https://github.com/james-e-kelly/sound-bakery",
+    "name": "james-e-kelly/sound-bakery",
+    "description": "Open-source audio middleware tool with an authoring application and C/C++ API, targeting feature parity with commercial tools like Wwise and FMOD including asset management, sound selection, and real-time debugging.",
+    "sub_domain": "game-audio",
+    "score": 5,
+    "score_rationale": "Promising open-source FMOD/Wwise alternative in early development with only 5 stars but actively worked on through March 2025 — worth tracking for future maturity.",
+    "stars": 5,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2025-03-09",
+    "found_in_domains": [
+      "game-audio"
+    ],
+    "quality_score": 36.2,
+    "tags": ["audio-middleware", "wwise-alternative", "tools", "audio"],
+    "category": "Audio Middleware",
+    "summary": "Early-stage open-source audio middleware alternative to FMOD"
+  },
+  {
+    "repo_url": "https://github.com/heroiclabs/nakama",
+    "name": "heroiclabs/nakama",
+    "description": "Scalable open-source game backend server providing multiplayer, matchmaking, leaderboards, chat, social features, and user authentication for games, written in Go with Python/Lua/TypeScript runtime support.",
+    "sub_domain": "game-backends",
+    "score": 10,
+    "score_rationale": "12.4k stars, actively maintained through March 2026, the leading open-source game backend covering nearly every BaaS feature game developers need.",
+    "stars": 12400,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-20",
+    "found_in_domains": [
+      "game-backends",
+      "game-networking",
+      "game-server-orchestration"
+    ],
+    "quality_score": 92.7,
+    "tags": ["backend", "multiplayer", "baas", "server"],
+    "category": "Game Backend Server",
+    "summary": "Leading open-source game backend with multiplayer and BaaS features"
+  },
+  {
+    "repo_url": "https://github.com/colyseus/colyseus",
+    "name": "colyseus/colyseus",
+    "description": "An authoritative multiplayer framework for Node.js with real-time state synchronization, built-in matchmaking, room management, and SDKs for Unity, Defold, Haxe, and JavaScript clients.",
+    "sub_domain": "game-backends",
+    "score": 9,
+    "score_rationale": "6.8k stars, MIT licensed, widely adopted Node.js multiplayer server framework with strong cross-engine SDK support.",
+    "stars": 6800,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": null,
+    "found_in_domains": [
+      "game-backends",
+      "game-server-orchestration"
+    ],
+    "quality_score": 84.7,
+    "tags": ["multiplayer", "backend", "node", "synchronization"],
+    "category": "Multiplayer Framework",
+    "summary": "Node.js multiplayer framework with real-time state synchronization"
+  },
+  {
+    "repo_url": "https://github.com/googleforgames/agones",
+    "name": "googleforgames/agones",
+    "description": "A Kubernetes-native library for hosting, running, and scaling dedicated game servers, providing custom resource definitions for fleets, autoscaling, and game server lifecycle management.",
+    "sub_domain": "game-backends",
+    "score": 9,
+    "score_rationale": "6.7k stars, co-developed with Ubisoft and Google, the standard solution for Kubernetes-based dedicated game server orchestration.",
+    "stars": 6700,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2026-02-26",
+    "found_in_domains": [
+      "game-backends",
+      "game-server-orchestration"
+    ],
+    "quality_score": 84.6,
+    "tags": ["kubernetes", "game-servers", "orchestration", "infrastructure"],
+    "category": "Game Server Orchestration",
+    "summary": "Kubernetes-native game server hosting and autoscaling platform"
+  },
+  {
+    "repo_url": "https://github.com/kbengine/kbengine",
+    "name": "kbengine/kbengine",
+    "description": "An open-source MMOG server engine with a C++ core and Python game logic layer, featuring distributed load balancing and integration with Unity3D, Unreal Engine, and HTML5 clients.",
+    "sub_domain": "game-backends",
+    "score": 7,
+    "score_rationale": "5.7k stars, proven MMORPG-scale server engine though development slowed after 2021.",
+    "stars": 5700,
+    "language": "C",
+    "license": "BSD-3-Clause",
+    "last_activity": "2021-07-25",
+    "found_in_domains": [
+      "game-backends"
+    ],
+    "quality_score": 72.0,
+    "tags": ["mmorpg", "backend", "server", "distributed"],
+    "category": "Game Backend Server",
+    "summary": "MMORPG server engine with distributed load balancing"
+  },
+  {
+    "repo_url": "https://github.com/googleforgames/open-match",
+    "name": "googleforgames/open-match",
+    "description": "A flexible and scalable open-source matchmaking framework running on Kubernetes, enabling game developers to write custom match-making logic as microservices without managing infrastructure.",
+    "sub_domain": "game-backends",
+    "score": 8,
+    "score_rationale": "3.4k stars, Google-backed production-ready matchmaking framework designed to be paired with dedicated game server orchestration.",
+    "stars": 3400,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2023-12-13",
+    "found_in_domains": [
+      "game-backends",
+      "game-server-orchestration"
+    ],
+    "quality_score": 76.3,
+    "tags": ["matchmaking", "kubernetes", "backend", "microservices"],
+    "category": "Game Backend Server",
+    "summary": "Kubernetes matchmaking framework for custom game logic"
+  }
+]

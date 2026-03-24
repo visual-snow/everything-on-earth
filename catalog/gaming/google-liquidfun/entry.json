@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/liquidfun",
+  "name": "google/liquidfun",
+  "description": "Google's 2D rigid-body and fluid simulation library extending Box2D with particle-based fluid and soft body simulation. Supports C++, Java, and JavaScript across Android, iOS, Windows, Mac, and Linux platforms.",
+  "sub_domain": "fluid-cloth-simulation",
+  "score": 8,
+  "score_rationale": "4.9k-star Google-authored fluid+physics library extending Box2D, significant reference for 2D game fluid simulation despite being archived.",
+  "stars": 4900,
+  "language": "C++",
+  "license": "Zlib",
+  "last_activity": "2026-02-13",
+  "found_in_domains": [
+    "fluid-cloth-simulation"
+  ],
+  "quality_score": 77.5,
+  "tags": [
+    "physics",
+    "fluid-simulation",
+    "2d",
+    "box2d"
+  ],
+  "category": "Physics Engine",
+  "summary": "Google 2D fluid simulation extending Box2D with soft bodies",
+  "slug": "google-liquidfun"
+}

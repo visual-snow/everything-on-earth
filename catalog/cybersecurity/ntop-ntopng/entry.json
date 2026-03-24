@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ntop/ntopng",
+  "name": "ntop/ntopng",
+  "description": "A web-based high-speed network traffic monitoring and security analysis tool providing real-time visibility into network flows, anomaly detection, and protocol-level analytics.",
+  "sub_domain": "network-security",
+  "score": 8,
+  "score_rationale": "Mature network traffic monitor with 7.6k stars and stable v6.6 release in November 2025, widely used for enterprise network visibility.",
+  "stars": 7600,
+  "language": "Lua",
+  "license": "GPL-3.0",
+  "last_activity": "2025-11-17",
+  "found_in_domains": [
+    "network-security"
+  ],
+  "quality_score": 79.0,
+  "tags": [
+    "network-analysis",
+    "pe-format",
+    "web-security"
+  ],
+  "category": "Network Analysis",
+  "summary": "A web-based high-speed network traffic monitoring and security analysis tool providing real-time ...",
+  "slug": "ntop-ntopng"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "gNMIc",
+  "repo_url": "https://github.com/openconfig/gnmic",
+  "description": "gNMI CLI client and collector with full support for Capabilities, Get, Set and Subscribe RPCs. Supports multiple output backends (NATS, Kafka, Prometheus, InfluxDB), clustering, data pipelines, and dynamic target discovery.",
+  "domain": "netconf",
+  "secondary_domains": [],
+  "protocols": [
+    "OpenConfig",
+    "gNMI",
+    "gRPC"
+  ],
+  "provides": [
+    "gnmi-client",
+    "gnmi-collector",
+    "streaming-telemetry",
+    "openconfig-support",
+    "prometheus-exporter",
+    "influxdb-output",
+    "kafka-output",
+    "nats-output",
+    "grpc-client",
+    "dynamic-target-discovery",
+    "clustering",
+    "data-pipeline",
+    "cli-tool",
+    "containerlab-integration"
+  ],
+  "needs": [
+    "gnmi-capable-target",
+    "prometheus-server",
+    "influxdb-instance",
+    "kafka-broker",
+    "nats-server",
+    "docker-daemon"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "ghcr.io/openconfig/gnmic",
+    "compose_services_count": 3,
+    "docker_evidence": "gNMIc container image can be pulled from Dockerhub or GitHub container registries. Includes docker-compose pipeline examples."
+  },
+  "github_metrics": {
+    "stars": 500,
+    "last_commit": "2026-03-04",
+    "language": "",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Primary gNMI collector for agentic evaluations. Supports clustering, multiple outputs, and can be deployed alongside containerlab for realistic network telemetry scenarios. Docker image available on Docker Hub and GitHub container registry. Containerlab examples in repo demonstrate single-instance and clustered deployments. Discovers targets dynamically using Docker API. gNMI (not NETCONF) but essential for config management via OpenConfig. Originally at karimra/gnmic, now moved to openconfig org. The de-facto standard gNMI client/collector.",
+  "related_repos": [
+    "https://github.com/openconfig/gnmi",
+    "https://github.com/openconfig/gnmi-gateway",
+    "https://github.com/openconfig/gnmitest",
+    "https://github.com/srl-labs/containerlab"
+  ],
+  "_sources": [
+    "discovery/monitoring.json",
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/restconf-gnmi-config.json"
+  ],
+  "slug": "gnmic"
+}

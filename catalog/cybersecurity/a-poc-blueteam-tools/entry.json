@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/a-poc/blueteam-tools",
+  "name": "A-poc/BlueTeam-Tools",
+  "description": "A curated collection of 65+ tools and resources useful for blue teaming activities, organized across network discovery, vulnerability management, security monitoring, malware analysis, incident response, and digital forensics categories. Focused on practical defensive security tooling for analysts.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 7,
+  "score_rationale": "Well-organized practical reference with 4k stars and recent updates, useful as a structured toolkit for blue team practitioners.",
+  "stars": 4000,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-03-27",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 70.8,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated collection of 65+ tools and resources useful for blue teaming activities, organized across",
+  "slug": "a-poc-blueteam-tools"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tclahr/uac",
+  "name": "tclahr/uac",
+  "description": "UAC (Unix-like Artifacts Collector) is an extensible live response tool automating artifact collection from AIX, ESXi, FreeBSD, Linux, macOS, NetBSD, NetScaler, OpenBSD, and Solaris. Requires no installation and uses native binaries to minimize host impact.",
+  "sub_domain": "forensics-ir",
+  "score": 7,
+  "score_rationale": "Solid cross-platform Unix artifact collection tool with 1.3k stars and an August 2025 release, covering a uniquely broad range of Unix-like platforms for live response.",
+  "stars": 1300,
+  "language": "Shell",
+  "license": "Apache-2.0",
+  "last_activity": "2025-08-13",
+  "found_in_domains": [
+    "forensics-ir"
+  ],
+  "quality_score": 66.9,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "tclahr-uac"
+}

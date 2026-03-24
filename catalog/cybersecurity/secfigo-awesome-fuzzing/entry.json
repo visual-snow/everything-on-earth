@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/secfigo/awesome-fuzzing",
+  "name": "secfigo/Awesome-Fuzzing",
+  "description": "Comprehensive curated list of fuzzing resources including books, courses, videos, tools, tutorials, and vulnerable applications for learning fuzzing and early phases of exploit development.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 8,
+  "score_rationale": "The most prominent fuzzing resource list with 5.8k stars, serving as an essential starting point for anyone entering the field.",
+  "stars": 5800,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-01-01",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 78.1,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "secfigo-awesome-fuzzing"
+}

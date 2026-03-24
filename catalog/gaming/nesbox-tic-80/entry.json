@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/nesbox/tic-80",
+  "name": "nesbox/TIC-80",
+  "description": "A free and open-source fantasy computer for making, playing, and sharing tiny games with built-in code, sprite, map, and sound editors. Supports Lua, JavaScript, Python, Ruby, and other languages within a 240x136, 16-color retro environment.",
+  "sub_domain": "emulators-retro",
+  "score": 8,
+  "score_rationale": "The leading open-source fantasy console with 5.9k stars; a complete creative platform widely used for game jams and education.",
+  "stars": 5900,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 78.2,
+  "tags": [
+    "fantasy-console",
+    "game-creation",
+    "retro",
+    "education"
+  ],
+  "category": "Fantasy Console",
+  "summary": "Open-source fantasy console with integrated editors for retro game dev",
+  "slug": "nesbox-tic-80"
+}

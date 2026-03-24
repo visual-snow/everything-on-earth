@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/infosecn1nja/red-teaming-toolkit",
+  "name": "infosecn1nja/Red-Teaming-Toolkit",
+  "description": "Curated collection of cutting-edge open-source security tools organized by attack phase for red teamers and threat hunters, covering reconnaissance through C2 and lateral movement. A widely referenced reference compendium with 10.2k stars.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 8,
+  "score_rationale": "10.2k stars and serves as the go-to curated index of red team OST tools, updated through September 2025.",
+  "stars": 10200,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-09-29",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 80.1,
+  "tags": [
+    "c2",
+    "command-control",
+    "beaconing"
+  ],
+  "category": "C2 Framework",
+  "summary": "Command and control infrastructure",
+  "slug": "infosecn1nja-red-teaming-toolkit"
+}

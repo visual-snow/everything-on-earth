@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/stratosphereips/stratospherelinuxips",
+  "name": "stratosphereips/StratosphereLinuxIPS",
+  "description": "Slips is a behavioral machine learning-based intrusion prevention and detection system that analyzes live network traffic, PCAP files, and network flows to identify malicious activities. It combines ML models with threat intelligence feeds to detect and prevent network attacks.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 7,
+  "score_rationale": "Research-grade ML-based IPS with 863 stars from Stratosphere Lab, offering innovative behavioral detection capabilities for defenders.",
+  "stars": 863,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2025-12-01",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 65.5,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Slips is a behavioral machine learning-based intrusion prevention and detection system that analyzes",
+  "slug": "stratosphereips-stratospherelinuxips"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "homer",
+  "name": "HOMER",
+  "what_it_is": "HOMER is a carrier-grade, scalable packet and event observability framework for VoIP/RTC monitoring that captures and correlates SIP, RTP, and RTCP traffic using the HEP/EEP encapsulation protocol. It provides instant search, call flow analysis, and QoS metrics through a web dashboard backed by standard observability storage APIs.",
+  "components": [
+    "heplify (capture agent)",
+    "heplify-server (HEP ingest server)",
+    "homer-app (application backend / API)",
+    "homer-ui (web user interface)",
+    "homer-docker (container orchestration)",
+    "homer-installer (deployment tooling)"
+  ],
+  "protocols": [
+    "HEP",
+    "EEP",
+    "SIP",
+    "RTP",
+    "RTCP",
+    "RTCP XR"
+  ],
+  "measurement": [
+    "QoS metrics",
+    "RTP statistics",
+    "CDRs (Call Detail Records)",
+    "Syslog data",
+    "Packet captures / PCAPs",
+    "Logs, Metrics, and Traces"
+  ],
+  "configuration": [
+    "Storage backend selection (PostgreSQL, Loki, Elasticsearch, qryn)",
+    "Capture agent deployment (heplify or captagent)",
+    "HEP/EEP port and protocol settings",
+    "Grafana integration endpoints",
+    "Container volume mappings (via homer-docker)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Headless observability (API-only, no built-in UI storage)",
+    "All-in-one Docker deployment",
+    "Standalone capture agent + remote server"
+  ],
+  "constraints": [
+    "Does not include a built-in SQL database — requires external storage backend (PostgreSQL, Loki, Elasticsearch, or qryn)",
+    "Capture requires a separate agent (heplify or captagent) — the server does not perform passive packet capture on its own",
+    "Licensed under AGPL-3.0, which imposes copyleft obligations on network-service deployments",
+    "No native Windows support — designed for Linux hosts"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No built-in storage engine — depends entirely on external databases",
+    "No native visualization engine — relies on Grafana or compatible dashboards",
+    "No Windows-native deployment path",
+    "docker-compose.yml not present in the main sipcapture/homer repository (lives in sipcapture/homer-docker)"
+  ]
+}

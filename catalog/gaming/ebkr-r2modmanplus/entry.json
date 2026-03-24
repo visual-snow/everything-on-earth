@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ebkr/r2modmanplus",
+  "name": "ebkr/r2modmanPlus",
+  "description": "Simple and easy-to-use mod manager for games on the Thunderstore ecosystem, supporting profile switching, direct mod installation, and cross-platform operation including Steam Deck.",
+  "sub_domain": "modding-frameworks",
+  "score": 8,
+  "score_rationale": "The standard mod manager for Thunderstore-based games with 2k stars, MIT licensed, actively maintained through February 2026, and used across Risk of Rain 2, Lethal Company, and many others.",
+  "stars": 2000,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-02-05",
+  "found_in_domains": [
+    "modding-frameworks"
+  ],
+  "quality_score": 74.4,
+  "tags": [
+    "mod-manager",
+    "thunderstore",
+    "profiles"
+  ],
+  "category": "Mod Manager",
+  "summary": "Standard mod manager for Thunderstore ecosystem with profile support",
+  "slug": "ebkr-r2modmanplus"
+}

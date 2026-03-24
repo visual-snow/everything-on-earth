@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/danielchappuis/reactphysics3d",
+  "name": "DanielChappuis/reactphysics3d",
+  "description": "Open source C++ 3D physics engine library featuring rigid body dynamics, collision detection, and joints with support for sphere, box, capsule, convex mesh, and height field shapes. No external library dependencies.",
+  "sub_domain": "physics-engines",
+  "score": 7,
+  "score_rationale": "1.7k-star self-contained 3D physics library with no external dependencies, well-suited for embedding in custom game engines.",
+  "stars": 1700,
+  "language": "C++",
+  "license": "Zlib",
+  "last_activity": "2024-10-11",
+  "found_in_domains": [
+    "physics-engines"
+  ],
+  "quality_score": 67.8,
+  "tags": [
+    "physics",
+    "3d",
+    "collision-detection"
+  ],
+  "category": "Physics Engine",
+  "summary": "Self-contained 3D physics library with no external dependencies",
+  "slug": "danielchappuis-reactphysics3d"
+}

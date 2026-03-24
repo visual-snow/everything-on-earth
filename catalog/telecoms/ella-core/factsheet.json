@@ -1,0 +1,74 @@
+{
+  "slug": "ella-core",
+  "name": "Ella Core",
+  "what_it_is": "A production-oriented open-source 5G core network packaged as a single binary with an embedded database and eBPF-based data plane, designed for private network deployments in factories, warehouses, stadiums, ships, and remote sites. It consolidates all 5G core network functions into one process with a built-in web UI and REST API.",
+  "components": [
+    "AMF (Access and Mobility Management Function) — handles NAS and NGAP",
+    "SMF (Session Management Function) — manages PDU sessions via PFCP",
+    "UPF (User Plane Function) — eBPF/XDP data plane, 10+ Gbps, <1ms latency",
+    "UDM/UDR — subscriber data management with embedded SQLite database",
+    "AUSF — authentication",
+    "NRF — network function registration and discovery",
+    "REST API server on port 5002 with OpenAPI spec and Go client",
+    "Web UI — subscriber, radio, network, and policy management",
+    "OpenTelemetry collector integration for traces, metrics, logs, profiles"
+  ],
+  "protocols": [
+    "NAS (Non-Access Stratum) — UE registration and session management signaling",
+    "NGAP (N2 interface) — gNB control plane over SCTP, default port 38412",
+    "PFCP (N4 interface) — SMF-UPF session establishment",
+    "GTP-U (N3 interface) — user plane encapsulation between gNB and UPF",
+    "SBI (Service-Based Interface) — internal NF communication over HTTP/2",
+    "5G RedCap — reduced-capability IoT device support"
+  ],
+  "measurement": [
+    "Prometheus-compatible metrics endpoint",
+    "OpenTelemetry traces via OTLP (configurable endpoint, default localhost:4317)",
+    "Structured audit log (stdout or file)",
+    "System log with configurable level (debug/info/warn/error) and output",
+    "Real-time flow monitoring and usage reports via web UI",
+    "Grafana dashboards shipped in repo (grafana/ directory)"
+  ],
+  "configuration": [
+    "Single YAML file (core.yaml); only file path passed via --config flag",
+    "logging.system.level: debug|info|warn|error; output: stdout or file path",
+    "logging.audit.output: stdout or file path",
+    "db.path: path to embedded SQLite database file",
+    "interfaces.n2.address + port: AMF NGAP listener (default 0.0.0.0:38412)",
+    "interfaces.n3.name: network interface name for GTP-U (N3)",
+    "interfaces.n6.name: network interface name for external data network (N6)",
+    "interfaces.api.address + port: REST API listener (default 0.0.0.0:5002)",
+    "xdp.attach-mode: generic|native|offload — eBPF XDP attachment mode",
+    "telemetry.enabled: bool; telemetry.otlp-endpoint: host:port"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "xdp.attach-mode generic — software XDP, works on all NICs including virtual/container interfaces",
+    "xdp.attach-mode native — kernel driver XDP, requires driver support",
+    "xdp.attach-mode offload — NIC hardware offload XDP"
+  ],
+  "constraints": [
+    "Requires Linux with eBPF/XDP support; not portable to non-Linux hosts",
+    "Container must run privileged (privileged: true) for eBPF and network namespace access",
+    "N6 network must NOT be Docker-internal — UE packets are dropped on internal networks",
+    "Minimum hardware: 1 CPU core, 1 GB RAM, 10 GB disk",
+    "Single-binary single-process architecture — no horizontal scaling or HA mode documented",
+    "No built-in fault injection capability; no chaos/failure simulation tooling in repo"
+  ],
+  "docker_services": [
+    "ella-core — image ella-core:latest; ports 5002:5002; privileged; networks: default (eth0), n3 (10.3.0.2), n6 (10.6.0.2)",
+    "ueransim — image ghcr.io/ellanetworks/ueransim:3.2.7; gNB + UE simulator; privileged; networks: default, n3 (10.3.0.3)",
+    "ella-core-tester — image ghcr.io/ellanetworks/ella-core-tester (digest-pinned); raw N3 test node at 10.3.0.3/10.3.0.4; privileged",
+    "router — image ghcr.io/ellanetworks/ubuntu-router:0.1; adds route 10.45.0.0/22 via N6; runs responder.py on port 34242; networks: n6 (10.6.0.3)",
+    "n3 network — internal Docker bridge, subnet 10.3.0.0/24",
+    "n6 network — external-capable Docker bridge, subnet 10.6.0.0/24"
+  ],
+  "notable_absences": [
+    "No fault injection or chaos engineering tooling",
+    "No multi-instance or high-availability configuration",
+    "No Kubernetes-native operator (k8s/ directory exists but contains raw manifests only)",
+    "No PCAP or packet capture integration built in",
+    "No rate limiting or QoS policy enforcement visible in config schema",
+    "No TLS configuration for the REST API or SBI interfaces in the config file"
+  ]
+}

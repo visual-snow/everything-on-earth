@@ -1,0 +1,58 @@
+{
+  "name": "Fortio",
+  "repo_url": "https://github.com/fortio/fortio",
+  "description": "Istio's load testing library and tool with CLI, advanced echo server, and web UI. Supports configurable QPS with latency histogram recording.",
+  "domain": "grpc-testing",
+  "secondary_domains": [
+    "latency-benchmarking",
+    "load-testing"
+  ],
+  "protocols": [
+    "HTTP/1.0",
+    "HTTP/1.1",
+    "HTTP/2",
+    "gRPC",
+    "TCP",
+    "UDP",
+    "HTTPS/TLS"
+  ],
+  "provides": [
+    "traffic-generation",
+    "load-testing",
+    "http-server",
+    "grpc-server",
+    "echo-server",
+    "latency-measurement",
+    "web-dashboard",
+    "udp-traffic-generation",
+    "tcp-traffic-generation",
+    "tls-support",
+    "rest-api",
+    "metrics-collection"
+  ],
+  "needs": [
+    "target-service-endpoint"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "fortio/fortio",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker image fortio/fortio; multi-arch support (amd64, arm64, ppc64le, s390x); less than 6MB image"
+  },
+  "github_metrics": {
+    "stars": 3700,
+    "last_commit": "2025-01-15",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Istio's official load testing tool with tiny Docker image (<6MB). Supports HTTP, gRPC, TCP, and UDP. Built-in echo server and web UI. Multi-protocol support makes it versatile for telecom service mesh evaluation.",
+  "related_repos": [
+    "https://github.com/fortio/fortiotel"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "fortio"
+}

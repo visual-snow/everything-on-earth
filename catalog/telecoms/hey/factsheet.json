@@ -1,0 +1,73 @@
+{
+  "slug": "hey",
+  "name": "hey",
+  "what_it_is": "hey is a lightweight CLI HTTP load generator and ApacheBench (ab) replacement, written in Go. It sends a configurable number of concurrent requests to a target URL and prints latency/throughput statistics.",
+  "components": [
+    "hey (single Go binary — both the CLI entry point and the load engine)",
+    "requester package (internal library handling request dispatch, timing, and result collection)"
+  ],
+  "protocols": [
+    "HTTP/1.1",
+    "HTTP/2 (via -h2 flag)",
+    "HTTPS (TLS)",
+    "HTTP proxying (via -x host:port)"
+  ],
+  "measurement": [
+    "Total requests sent and success/failure counts",
+    "Requests per second (throughput)",
+    "Response latency distribution (mean, min, max, percentiles)",
+    "Response status code breakdown",
+    "DNS lookup, connection, and TTFB timing breakdown",
+    "CSV output mode for raw per-request metrics (-o csv)"
+  ],
+  "configuration": [
+    "-n: total number of requests (default 200)",
+    "-c: concurrency level / number of workers (default 50)",
+    "-q: per-worker QPS rate limit (default unlimited)",
+    "-z: duration-based run (e.g. -z 30s), overrides -n when set",
+    "-m: HTTP method (GET, POST, PUT, DELETE, HEAD, OPTIONS)",
+    "-H: custom HTTP headers (repeatable)",
+    "-d: request body string; -D: request body from file",
+    "-T: Content-Type header (default text/html)",
+    "-t: per-request timeout in seconds (default 20; 0 = infinite)",
+    "-a: basic auth credentials (username:password)",
+    "-x: HTTP proxy address (host:port)",
+    "-h2: enable HTTP/2",
+    "-host: override HTTP Host header",
+    "-disable-compression: disable Accept-Encoding",
+    "-disable-keepalive: disable TCP connection reuse",
+    "-disable-redirects: do not follow HTTP redirects",
+    "-cpus: number of CPU cores to use",
+    "-A: HTTP Accept header",
+    "-o: output format (default summary; csv for raw data)"
+  ],
+  "fault_injection": [
+    "No built-in fault injection — hey is a client-side load generator only",
+    "Redirect following can be disabled (-disable-redirects) to observe redirect responses",
+    "Keep-alive can be disabled (-disable-keepalive) to force fresh TCP connections per request"
+  ],
+  "modes": [
+    "Fixed-count mode: run exactly N requests (-n), default 200",
+    "Duration mode: run for a fixed wall-clock duration (-z), e.g. -z 30s or -z 3m",
+    "Rate-limited mode: cap QPS per worker (-q)",
+    "CSV reporting mode: emit per-request metrics as CSV (-o csv)"
+  ],
+  "constraints": [
+    "Total requests (-n) must not be smaller than the concurrency level (-c); hey will error if n < c",
+    "hey is a pure HTTP client — it cannot load-test non-HTTP protocols (TCP, gRPC, WebSocket)",
+    "No built-in result persistence; output goes to stdout only (redirect to file for storage)",
+    "No distributed/multi-node mode; all load originates from a single process on one machine",
+    "Docker image is built FROM scratch with no shell — cannot be exec'd into or used interactively beyond the entrypoint"
+  ],
+  "docker_services": [
+    "hey (single-stage scratch image; entrypoint /hey; no exposed ports, no volumes defined in Dockerfile)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — hey has no server-side component requiring orchestration",
+    "No warm-up phase or ramp-up concurrency control",
+    "No built-in think time / sleep between requests",
+    "No scenario scripting or request sequencing",
+    "No WebSocket, gRPC, or raw TCP support",
+    "No HTML/JSON dashboard or real-time progress display (only final summary)"
+  ]
+}

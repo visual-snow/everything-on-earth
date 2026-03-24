@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/thephd/sol2",
+  "name": "ThePhD/sol2",
+  "description": "A high-performance, header-only C++ library for binding Lua to C++ with type safety, support for all Lua 5.1+ versions, and extensive container and STL integration.",
+  "sub_domain": "game-scripting",
+  "score": 9,
+  "score_rationale": "5k stars, the standard choice for integrating Lua into C++ game engines with near-zero overhead and full Lua API coverage.",
+  "stars": 5000,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-01-09",
+  "found_in_domains": [
+    "game-scripting"
+  ],
+  "quality_score": 83.6,
+  "tags": [
+    "lua",
+    "bindings",
+    "cpp",
+    "header-only",
+    "type-safe"
+  ],
+  "category": "Lua C++ Binding",
+  "summary": "Standard high-performance Lua to C++ binding library",
+  "slug": "thephd-sol2"
+}

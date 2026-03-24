@@ -1,0 +1,71 @@
+{
+  "slug": "gnbsim-omec-sd-core",
+  "name": "gNBSim (OMEC / SD-Core)",
+  "what_it_is": "A 5G gNodeB and UE simulator from the Aether/SD-Core project that generates NAS and NGAP messages to exercise a 5G Core Network. It supports multiple configurable test profiles covering the full 3GPP registration, PDU session, and release procedure set.",
+  "components": [
+    "gNB simulator (N2 control plane, N3 user plane)",
+    "UE simulator (NAS layer, per-IMSI state machines)",
+    "Profile Manager (sequential or parallel profile execution engine)",
+    "HTTP API server (optional REST interface for runtime profile control)",
+    "Data plane engine (ICMP echo over GTP-U N3 tunnel)",
+    "Custom Profile engine (user-defined iteration chains)",
+    "Go pprof profiling endpoint (optional, port 5000)"
+  ],
+  "protocols": [
+    "NGAP (N2 interface, gNB ↔ AMF)",
+    "NAS-5GS (encapsulated in NGAP)",
+    "SCTP (transport for N2/NGAP)",
+    "GTP-U (N3 user-plane tunnel gNB ↔ UPF)",
+    "ICMP (data-plane probe packets over GTP-U)",
+    "HTTP/REST (optional management API, port 8080/6000)"
+  ],
+  "measurement": [
+    "Per-transaction / per-procedure latency calculation",
+    "Per-profile pass/fail summary log",
+    "Per-UE timeout detection (perUserTimeout field)",
+    "Aggregate profile error reporting across all UEs"
+  ],
+  "configuration": [
+    "gnbsim.yaml: pool of gNBs (n2IpAddr, n2Port, n3IpAddr, n3Port, PLMN, TAC, S-NSSAI)",
+    "AMF endpoint: hostName / ipAddr / port (default 38412)",
+    "profiles[]: profileType, startImsi, ueCount, execInParallel, defaultAs, dnn, sNssai, dataPktCount",
+    "customProfiles[]: iteration chains with named steps and repeat counts (max 7 actions per iteration)",
+    "singleInterface: true/false (controls whether N2 and N3 share one IP)",
+    "execInParallel: true/false at both global and per-profile level",
+    "runConfigProfilesAtStart: true/false",
+    "httpServer: enable, ipAddr, port",
+    "logger.logLevel: debug | info | warn | error | fatal | panic",
+    "goProfile: enable, port (Go runtime pprof)"
+  ],
+  "fault_injection": [
+    "retransMsg: true — enables retransmission of Service Request messages to simulate retry behavior",
+    "stepTrigger: true in customProfiles — pauses execution between steps, allowing controlled fault injection via HTTP step API",
+    "perUserTimeout — simulates timeout/failure conditions by treating a stalled UE as a failure",
+    "Profile enable/disable flags — selectively suppress procedure types to observe partial-flow behavior"
+  ],
+  "modes": [
+    "standalone executable (go build + ./gnbsim --cfg)",
+    "Docker container (omecproject/5gc-gnbsim image, Aether onRamp)",
+    "Kubernetes pod (Helm chart in sdcore-helm-charts/5g-ran-sim)",
+    "Aether In-a-Box (AIAB) integrated mode with SD-Core",
+    "Single-interface mode (N2+N3 share POD_IP)",
+    "Multi-interface mode (separate N2 and N3 IPs, requires Multus CNI)"
+  ],
+  "constraints": [
+    "No docker-compose file in repository — deployment is via standalone binary, Docker run, or Helm/AIAB; no compose-based local stack is provided",
+    "Single-interface mode supports only one gNB instance per simulator process (port 2152 conflict prevents multiple gNBs)",
+    "Custom profile iterations are capped at 7 actions per iteration block",
+    "HTTP step-trigger API requires stepTrigger: true in the custom profile config; standard profiles cannot be stepped externally",
+    "GTP-U echo request/response and N2 handover (Xn/N2) are listed as pending features — not yet implemented",
+    "GUTI-based registration and Resynchronization Profile are pending — only IMSI-based registration is supported"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml in the repository (neither main nor master branch)",
+    "No built-in traffic generator beyond ICMP echo — iperf or other application-layer load is not supported natively",
+    "No Xn/N2 handover support (pending)",
+    "No paging request handling",
+    "No UI (listed as pending)",
+    "No support for aborting, suspending, or resuming running profiles via API"
+  ]
+}

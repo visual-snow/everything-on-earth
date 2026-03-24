@@ -1,0 +1,56 @@
+{
+  "name": "MaxiNet",
+  "repo_url": "https://github.com/maxinet/maxinet",
+  "description": "Extends Mininet to span network emulation across multiple physical machines using GRE tunnels for very large SDN network emulation.",
+  "domain": "distributed-mininet",
+  "secondary_domains": [
+    "large-scale-topology",
+    "sdn",
+    "sdn-emulation"
+  ],
+  "protocols": [
+    "OpenFlow",
+    "SDN"
+  ],
+  "provides": [
+    "distributed-network-emulation",
+    "sdn-topology-emulation",
+    "openflow-control-plane",
+    "large-scale-network-topology",
+    "gre-tunnel-interconnect",
+    "mininet-extension",
+    "docker-host-emulation"
+  ],
+  "needs": [
+    "multiple-physical-machines",
+    "mininet-installed",
+    "openvswitch",
+    "python2-runtime",
+    "ssh-cluster-access",
+    "containernet-optional"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Docker-based deployment for distributed Mininet emulation."
+  },
+  "github_metrics": {
+    "stars": 93,
+    "last_commit": "unknown",
+    "language": "Python",
+    "license": "unknown"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Scales Mininet across multiple machines. Good for large-scale SDN topology and distributed network management evals. Distributed Mininet for large-scale SDN emulation. Docker host support via containernet integration. Useful for evaluations requiring large-scale network topologies.",
+  "related_repos": [
+    "https://github.com/containernet/containernet",
+    "https://github.com/mininet/mininet"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/transport.json"
+  ],
+  "slug": "maxinet"
+}

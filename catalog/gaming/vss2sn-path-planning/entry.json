@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/vss2sn/path_planning",
+  "name": "vss2sn/path_planning",
+  "description": "A comprehensive C++ collection of grid-based path planning algorithms including A*, Dijkstra, D* Lite, LPA*, JPS, RRT, and genetic algorithms with visualization.",
+  "sub_domain": "pathfinding-navmesh",
+  "score": 5,
+  "score_rationale": "442 stars, BSD-3-Clause, useful educational reference implementing many pathfinding algorithms in C++ for game and robotics developers.",
+  "stars": 442,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2021-06-11",
+  "found_in_domains": [
+    "pathfinding-navmesh"
+  ],
+  "quality_score": 51.2,
+  "tags": [
+    "pathfinding",
+    "algorithms",
+    "educational"
+  ],
+  "category": "Pathfinding",
+  "summary": "Educational C++ collection of pathfinding algorithms with visualization",
+  "slug": "vss2sn-path-planning"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stride3d/stride",
+  "name": "stride3d/stride",
+  "description": "Stride (formerly Xenko) is a free, open-source cross-platform C# game engine with a full Game Studio editor, realistic rendering, and VR support. Backed by the .NET Foundation.",
+  "sub_domain": "game-engines-3d",
+  "score": 8,
+  "score_rationale": "7.5k stars, full-featured C# engine with complete editor and VR support, actively maintained with .NET Foundation backing.",
+  "stars": 7500,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-12-01",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 79.0,
+  "tags": [
+    "3d-game-engine",
+    "c#",
+    "vr-game",
+    "editor",
+    "cross-platform"
+  ],
+  "category": "C# 3D Game Engine",
+  "summary": ".NET-backed C# engine with full editor and VR support",
+  "slug": "stride3d-stride"
+}

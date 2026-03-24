@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/timesketch",
+  "name": "google/timesketch",
+  "description": "A collaborative forensic timeline analysis tool that enables investigation teams to jointly examine and annotate timelines generated from Plaso, Velociraptor, KAPE, and other forensic sources. Provides visualization, correlation, and search capabilities for large forensic datasets.",
+  "sub_domain": "forensics-ir",
+  "score": 9,
+  "score_rationale": "Essential forensic timeline collaboration tool with 3.3k stars and a March 2026 release, widely used alongside Plaso in enterprise DFIR workflows.",
+  "stars": 3300,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "forensics-ir"
+  ],
+  "quality_score": 82.1,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "google-timesketch"
+}

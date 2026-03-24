@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jekil/awesome-hacking",
+  "name": "jekil/awesome-hacking",
+  "description": "A curated list of hacking tools for pentesters and security researchers spanning CTF, code analysis, cryptography, digital forensics, hardware hacking, malware analysis, penetration testing, and reverse engineering.",
+  "sub_domain": "awesome-lists",
+  "score": 6,
+  "score_rationale": "Multi-domain security tooling list with 3.8k stars providing downloadable tool collections alongside curated references for hackers.",
+  "stars": 3800,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "awesome-lists"
+  ],
+  "quality_score": 64.6,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated list of hacking tools for pentesters and security researchers spanning CTF, code analysis,",
+  "slug": "jekil-awesome-hacking"
+}

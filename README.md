@@ -79,7 +79,8 @@ Phase 1: Brainstorm        Phase 2: Discover           Phase 3: Pipeline
 
 ### `/map-capabilities` — Deep documentation
 
-Takes your catalog and generates rich capability documentation for every entry.
+Takes a domain catalog and generates rich capability documentation for every entry
+inside that domain's folder.
 
 Three-phase agent pipeline per entry:
 1. **Researcher** — Scrapes the repo's README and docs, builds a structured factsheet
@@ -100,7 +101,7 @@ Processes entries in batched waves of 15 with full resumability.
 | `catalog.json` | JSON | Machine-readable canonical catalog — load it into any agent's context |
 | `explorer.html` | HTML | Browse and filter results in your browser |
 | `RESULTS.md` | Markdown | Stats, domain breakdown, top repos |
-| `*_capability.md` | Markdown | Per-tool capability docs (via `/map-capabilities`) |
+| `catalog/<domain>/<slug>/capability.md` | Markdown | Per-tool capability docs (via `/map-capabilities`) |
 
 > [!IMPORTANT]
 > This plugin uses Claude Code's experimental Agent Teams feature (`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`).

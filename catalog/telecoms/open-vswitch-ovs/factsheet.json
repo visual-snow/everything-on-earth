@@ -1,0 +1,77 @@
+{
+  "slug": "open-vswitch-ovs",
+  "name": "Open vSwitch (OVS)",
+  "what_it_is": "Open vSwitch is a production-quality, multilayer software switch licensed under Apache 2.0, designed for virtual machine environments and supporting distribution across multiple physical servers. It provides extensible programmatic forwarding with a kernel module for high-performance flow-based switching alongside a fully userspace datapath option.",
+  "components": [
+    "ovs-vswitchd — main switch daemon implementing switch functionality",
+    "ovsdb-server — lightweight database server providing configuration data to ovs-vswitchd",
+    "ovs-dpctl — tool for configuring the kernel module datapath",
+    "ovs-vsctl — utility for querying and updating switch configuration via OVSDB",
+    "ovs-appctl — command interface for sending commands to running OVS daemons",
+    "ovs-ofctl — OpenFlow switch and controller management utility",
+    "ovs-pki — public-key infrastructure management tool",
+    "ovs-testcontroller — simple OpenFlow controller for testing (not for production)",
+    "kernel module — Linux kernel datapath for high-performance flow switching",
+    "tcpdump patch — adds OpenFlow message parsing to tcpdump"
+  ],
+  "protocols": [
+    "OpenFlow 1.0 plus numerous extensions",
+    "OVSDB (Open vSwitch Database Management Protocol) with C and Python bindings",
+    "802.1Q VLAN (trunk and access ports)",
+    "VXLAN tunneling",
+    "GRE tunneling",
+    "Geneve tunneling",
+    "ERSPAN tunneling",
+    "GTP-U tunneling",
+    "SRv6 tunneling",
+    "Bareudp tunneling",
+    "IPFIX",
+    "NetFlow",
+    "sFlow",
+    "LACP (Link Aggregation Control Protocol) for NIC bonding",
+    "802.1ag / CFM (Connectivity Fault Management)"
+  ],
+  "measurement": [
+    "NetFlow — flow-level traffic export",
+    "sFlow — sampled packet and interface statistics export",
+    "IPFIX — IP flow information export",
+    "Traffic mirroring (port mirroring) — copy packets to a designated monitoring port",
+    "ovs-ofctl dump-flows — display current OpenFlow flow table entries",
+    "ovs-dpctl show — display datapath statistics",
+    "ovs-vsctl list — query OVSDB tables for interface and port statistics"
+  ],
+  "configuration": [
+    "OVSDB transactional database — primary configuration store with C and Python bindings",
+    "ovs-vsctl — command-line interface to add/remove bridges, ports, tunnels, and flows",
+    "ovs-ofctl — add/modify/delete OpenFlow flow entries and query switch state",
+    "ovs-appctl — runtime tuning of daemon parameters (e.g., log levels, revalidation)",
+    "QoS / policing — per-port quality-of-service and rate-limiting configuration via OVSDB"
+  ],
+  "fault_injection": [
+    "ovs-testcontroller — simple OpenFlow controller that can drop or redirect flows for testing scenarios",
+    "ovs-ofctl — can install drop rules, priority overrides, and table-miss entries to simulate faults",
+    "ovs-appctl ofproto/trace — traces a hypothetical packet through the pipeline without sending real traffic"
+  ],
+  "modes": [
+    "Kernel datapath mode — high-performance flow switching via Linux kernel module (default, production use)",
+    "Userspace datapath with DPDK — kernel-bypass forwarding using DPDK poll-mode drivers",
+    "Userspace datapath without DPDK — experimental mode on Linux using non-DPDK devices, with acknowledged performance cost",
+    "Standalone mode — ovs-vswitchd acts as a learning switch without an external OpenFlow controller",
+    "Controller mode — ovs-vswitchd delegates forwarding decisions to an external OpenFlow controller"
+  ],
+  "constraints": [
+    "Userspace datapath without DPDK is explicitly marked experimental and incurs significant performance cost compared to the kernel datapath",
+    "OpenFlow support is version 1.0 plus extensions — full OpenFlow 1.3/1.5 feature parity is not guaranteed for all features",
+    "The kernel module must match the running kernel version; mismatches require recompilation or use of the userspace datapath",
+    "OVSDB is the sole configuration interface — there is no REST API or gRPC interface natively; external controllers must speak OpenFlow or OVSDB",
+    "No built-in Docker Compose or containerized service definitions are provided in the upstream repository"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml or container orchestration files in the upstream repository",
+    "No native BFD (Bidirectional Forwarding Detection) mention in README (though supported in code)",
+    "No native RSTP or LLDP mention in README",
+    "No built-in REST API — management is exclusively via OVSDB and OpenFlow",
+    "No integrated traffic generation or load testing tooling"
+  ]
+}

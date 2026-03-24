@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/carpedm20/awesome-hacking",
+  "name": "carpedm20/awesome-hacking",
+  "description": "A curated list of hacking resources organized across system exploitation, reverse engineering, web application testing, network analysis, digital forensics, and cryptography with tutorials, Docker environments, war games, and CTF references.",
+  "sub_domain": "awesome-lists",
+  "score": 9,
+  "score_rationale": "Highly curated hacking resource list with 16k stars covering broad security domains with actionable tooling and training resources.",
+  "stars": 16000,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "awesome-lists"
+  ],
+  "quality_score": 87.6,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated list of hacking resources organized across system exploitation, reverse engineering, web a",
+  "slug": "carpedm20-awesome-hacking"
+}

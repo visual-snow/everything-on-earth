@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/misp/misp",
+  "name": "MISP/MISP",
+  "description": "MISP is an open source threat intelligence and sharing platform for collecting, storing, distributing, and sharing cyber security indicators and threats. It provides structured data storage, automated correlation of threat indicators, and flexible integration capabilities.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 9,
+  "score_rationale": "Established standard for threat intelligence sharing with 6.2k stars, widely deployed in government, CERT, and enterprise environments.",
+  "stars": 6200,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 84.3,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "MISP is an open source threat intelligence and sharing platform for collecting, storing, distributin",
+  "slug": "misp-misp"
+}

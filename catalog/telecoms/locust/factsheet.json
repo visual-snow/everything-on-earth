@@ -1,0 +1,63 @@
+{
+  "slug": "locust",
+  "name": "Locust",
+  "what_it_is": "Open-source performance and load testing tool where test scenarios are written as plain Python classes. Runs each simulated user inside a lightweight greenlet (gevent coroutine), enabling hundreds of thousands of concurrent users from a single or distributed cluster.",
+  "components": [
+    "Master process — coordinates distributed test runs and aggregates results",
+    "Worker processes — execute user greenlets and report stats to master",
+    "Web UI — real-time dashboard for starting/stopping tests and viewing metrics",
+    "Locustfile — Python module defining User classes and tasks",
+    "HttpUser — built-in user class with a preconfigured requests-based HTTP client",
+    "TaskSet — container for grouping related tasks with optional weight and nesting"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS",
+    "WebSocket / SocketIO (via community client)",
+    "Custom (any protocol implementable via a Python client)"
+  ],
+  "measurement": [
+    "Requests per second (throughput/RPS)",
+    "Response time percentiles (median, 95th, 99th, max)",
+    "Average and min response times",
+    "Failure count and failure rate",
+    "Number of currently active users",
+    "Worker count and worker status (distributed mode)"
+  ],
+  "configuration": [
+    "Number of users (--users / -u)",
+    "Spawn rate — users added per second (--spawn-rate / -r)",
+    "Host under test (--host / -H)",
+    "Run time limit (--run-time / -t)",
+    "Headless / no-web mode (--headless)",
+    "Master/worker mode flags (--master, --worker, --master-host)",
+    "Number of worker processes (--processes)",
+    "Wait time between tasks (between(), constant(), constant_throughput(), constant_pacing())",
+    "Custom config file (--config)",
+    "CSV stats export (--csv)",
+    "Log level (--loglevel)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Interactive web UI mode — start/stop/adjust load live via browser on port 8089",
+    "Headless CLI mode — fully scriptable, suitable for CI/CD pipelines",
+    "Distributed mode — one master + N workers spread across machines or containers",
+    "Single-process mode — master and workers combined in one process (--processes flag)"
+  ],
+  "constraints": [
+    "No built-in fault injection or chaos engineering primitives — must be implemented manually in task logic",
+    "No native support for non-HTTP protocols; custom clients must be written and wired in manually",
+    "Distributed mode requires network connectivity between master and all workers (default port 5557)",
+    "Locustfile must be a valid Python module importable by all worker processes; shared state across workers is not automatic",
+    "Real-time UI and stats aggregation add overhead — very high user counts benefit from headless + distributed setup",
+    "No built-in scenario replay from HAR or recorded sessions — scenarios must be hand-coded"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No official docker-compose.yml in the repository root (404 on master branch)",
+    "No built-in fault/chaos injection",
+    "No HAR or recording-based scenario generation",
+    "No native gRPC, AMQP, or database protocol clients (community plugins exist)",
+    "No built-in SLA assertion framework — pass/fail thresholds must be scripted externally"
+  ]
+}

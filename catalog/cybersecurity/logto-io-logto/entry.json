@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/logto-io/logto",
+  "name": "logto-io/logto",
+  "description": "Authentication and authorization infrastructure for SaaS and AI apps built on OIDC and OAuth 2.1 with multi-tenancy, SSO, RBAC, and MFA support.",
+  "sub_domain": "iam-auth",
+  "score": 8,
+  "score_rationale": "Modern developer-focused IAM platform with 11.7k stars, MPL-2.0 licensed, actively maintained with strong multi-tenancy and AI-app authentication focus.",
+  "stars": 11700,
+  "language": "TypeScript",
+  "license": "MPL-2.0",
+  "last_activity": "2026-02-28",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 80.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "logto-io-logto"
+}

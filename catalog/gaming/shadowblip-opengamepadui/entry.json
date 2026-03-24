@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/shadowblip/opengamepadui",
+  "name": "ShadowBlip/OpenGamepadUI",
+  "description": "A free and open-source gamepad-native game launcher and in-game overlay built with Godot 4, featuring input remapping, per-game profiles, and a plugin architecture.",
+  "sub_domain": "game-ui",
+  "score": 6,
+  "score_rationale": "Unique gamepad-first overlay and launcher UI with 807 stars, actively maintained through early 2026 with real hardware integration.",
+  "stars": 807,
+  "language": "GDScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 59.3,
+  "tags": [
+    "gamepad",
+    "launcher",
+    "godot"
+  ],
+  "category": "Game Launcher",
+  "summary": "Gamepad-native game launcher and overlay for Godot",
+  "slug": "shadowblip-opengamepadui"
+}

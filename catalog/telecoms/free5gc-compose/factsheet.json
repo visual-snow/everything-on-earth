@@ -1,0 +1,89 @@
+{
+  "slug": "free5gc-compose",
+  "name": "free5gc-compose",
+  "what_it_is": "A Docker Compose deployment of the free5GC open-source 5G standalone core network, providing all 3GPP-defined control-plane and user-plane network functions as containers alongside UERANSIM for gNB/UE simulation. Targets Stage 3 (full protocol) implementation for lab and research use.",
+  "components": [
+    "AMF (Access and Mobility Management Function)",
+    "AUSF (Authentication Server Function)",
+    "CHF (Charging Function)",
+    "N3IWF (Non-3GPP Interworking Function)",
+    "NEF (Network Exposure Function)",
+    "NRF (Network Repository Function)",
+    "NSSF (Network Slice Selection Function)",
+    "PCF (Policy Control Function)",
+    "SMF (Session Management Function)",
+    "TNGF (Trusted Non-3GPP Gateway Function)",
+    "UDM (Unified Data Management)",
+    "UDR (Unified Data Repository)",
+    "UPF (User Plane Function)",
+    "WebUI (subscriber management web interface)",
+    "UERANSIM (gNB and UE simulator)",
+    "MongoDB (subscriber and policy data store)",
+    "Prometheus (metrics collector, optional)",
+    "Grafana (metrics dashboard, optional)"
+  ],
+  "protocols": [
+    "5G NR (New Radio)",
+    "GTP-U (N3 user-plane tunneling via gtp5g kernel module)",
+    "HTTP/2 SBI (Service-Based Interface between NFs)",
+    "PFCP (N4 interface, SMF-UPF)",
+    "NAS (Non-Access Stratum, N1 interface)",
+    "NGAP (N2 interface, AMF-gNB)",
+    "HTTPS/TLS (management and inter-NF communication)"
+  ],
+  "measurement": [
+    "Per-NF Prometheus metrics endpoints (default port 9091, configurable)",
+    "Grafana dashboards for visualizing NF-level metrics",
+    "Metrics namespace and bind address configurable per NF in config files"
+  ],
+  "configuration": [
+    "NF configuration files in config/ directory (YAML, one per NF)",
+    "ULCL (Uplink Classifier) topology via docker-compose-ulcl.yaml with I-UPF and PSA-UPF",
+    "TLS certificates in cert/ directory, configurable per NF",
+    "UERANSIM gNB/UE parameters (PLMN, TAC, slice info) in ueransim/ config",
+    "Monitoring stack enabled via docker-compose-prometheus.yaml overlay",
+    "Build-from-source mode via docker-compose-build.yaml and docker-compose-ulcl-build.yaml"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Standard mode: pull pre-built images from Docker Hub and run",
+    "Build mode: compile free5GC from local source using docker-compose-build.yaml",
+    "ULCL mode: deploy with I-UPF and PSA-UPF for uplink classifier testing (docker-compose-ulcl.yaml)",
+    "Monitoring mode: add Prometheus and Grafana overlay (docker-compose-prometheus.yaml)",
+    "srsRAN integration: alternative RAN simulator instead of UERANSIM"
+  ],
+  "constraints": [
+    "Requires GTP5G kernel module v0.9.5 installed on the host; UPF will not function without it",
+    "Privileged container execution required for UPF and N3IWF to create tunnel network interfaces",
+    "MongoDB versions >4.4 require AVX CPU instruction support; older hardware needs a workaround image",
+    "Docker Engine with Compose v2 plugin is mandatory; Compose v1 not supported",
+    "ULCL configuration is only tested against the v4.0.0 release tag"
+  ],
+  "docker_services": [
+    "free5gc-amf",
+    "free5gc-ausf",
+    "free5gc-chf",
+    "free5gc-n3iwf",
+    "free5gc-nef",
+    "free5gc-nrf",
+    "free5gc-nssf",
+    "free5gc-pcf",
+    "free5gc-smf",
+    "free5gc-tngf",
+    "free5gc-udm",
+    "free5gc-udr",
+    "free5gc-upf",
+    "free5gc-webui",
+    "ueransim-gnb",
+    "ueransim-ue",
+    "db (MongoDB)",
+    "prometheus (optional overlay)",
+    "grafana (optional overlay)"
+  ],
+  "notable_absences": [
+    "No built-in fault injection or chaos tooling",
+    "No CI/CD pipeline or automated test suite in the repository",
+    "No native support for multi-UPF load balancing outside of ULCL topology",
+    "No 4G/EPC interworking (5G SA only; no EPC fallback)"
+  ]
+}

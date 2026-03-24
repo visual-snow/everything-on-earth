@@ -1,0 +1,74 @@
+{
+  "slug": "open5gs-k8s",
+  "name": "open5gs-k8s",
+  "what_it_is": "Kubernetes manifests for deploying Open5GS 5G core network (v2.7.0) as microservices with multi-slice support, Multus/OVS-CNI secondary networking, and UERANSIM simulated gNB and UEs. Also includes an all-in-one Docker Compose variant for single-container testing.",
+  "components": [
+    "AMF (Access and Mobility Management Function)",
+    "SMF (Session Management Function) — one instance per slice",
+    "UPF (User Plane Function) — one instance per slice",
+    "NRF (Network Repository Function)",
+    "AUSF (Authentication Server Function)",
+    "UDM (Unified Data Management)",
+    "UDR (Unified Data Repository)",
+    "PCF (Policy Control Function)",
+    "NSSF (Network Slice Selection Function)",
+    "BSF (Binding Support Function)",
+    "SCP (Service Communication Proxy)",
+    "MongoDB (subscriber and NF profile store)",
+    "Open5GS WebUI (subscriber management, port 30300/9999)",
+    "UERANSIM gNB (simulated base station)",
+    "UERANSIM UE (simulated user equipment, 2 UEs by default)"
+  ],
+  "protocols": [
+    "NAS (Non-Access Stratum, over N1)",
+    "NGAP/SCTP (N2 interface, gNB-AMF, port 38412)",
+    "GTP-U (N3 interface, gNB-UPF user plane)",
+    "PFCP (N4 interface, SMF-UPF control plane)",
+    "SBI/HTTP2 (5G Service Based Interface between NFs via SCP)",
+    "SCTP (transport for NGAP)"
+  ],
+  "measurement": [
+    "Prometheus metrics exposed by AMF on port 9090 (address 0.0.0.0)",
+    "Optional Monarch integration (5g-monarch) for network slice monitoring via overlay `open5gs-metrics`",
+    "tcpdump on UPF ogstun TUN interface for GTP-U traffic inspection",
+    "kubectl logs per NF pod for real-time log access"
+  ],
+  "configuration": [
+    "Per-NF ConfigMaps (e.g., amf-configmap.yaml) holding YAML config files mounted at /open5gs/config/",
+    "PLMN: MCC=001, MNC=01 (default test PLMN)",
+    "Two S-NSSAIs by default: SST=1 SD=000001 and SST=2 SD=000002",
+    "Slice count configurable via msd/generate.py using data/config.yaml (multi-slice deployment generator)",
+    "Network subnets: n2=10.10.2.0/24, n3=10.10.3.0/24, n4=10.10.4.0/24 (OVS bridges)",
+    "UE IP pool per slice via SMF config (slice1: 10.41.0.0/16)",
+    "Subscriber data added via Open5GS WebUI or mongo-tools Python scripts (add-admin-account.py, CLI tools)",
+    "Kustomize-based overlays for standard, metrics, node-selector, and demo deployments",
+    "AMF max UE capacity: 1024"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Standard microservices deployment (kubectl apply -k open5gs)",
+    "All-in-one Docker Compose deployment (open5gs-aio/docker-compose.yaml) with DEBUG_MODE env var",
+    "Monarch monitoring overlay (msd/overlays/open5gs-metrics) for slice-level metrics",
+    "Multi-slice deployment via msd/ with configurable slice count and auto-generated manifests",
+    "COTS UE mode (add-cots-subscribers.sh) alongside simulated UERANSIM UEs"
+  ],
+  "constraints": [
+    "Requires Ubuntu 22.04 LTS (Ubuntu 20.04 also supported); macOS and Windows users must provision an Ubuntu VM — Kubernetes manifests are not directly usable on macOS/Windows hosts",
+    "Requires Kubernetes v1.28 with Multus CNI and OVS-CNI pre-configured (via testbed-automator); OVS bridges n2, n3, n4 must exist before deployment",
+    "Minimum hardware: 2 vCPUs, 4 GB RAM, 40 GB disk; single-node or multi-node K8s both supported",
+    "Two SMF/UPF instances are deployed by default (one per slice); sharing NFs like AMF across slices is by design",
+    "srsRAN integration requires both AMF and gNB on n3network instead of n2network due to srsRAN constraints"
+  ],
+  "docker_services": [
+    "mongodb — mongo image, port 27017, persists data to named volume",
+    "open5gs-webui — ghcr.io/niloysh/open5gs-webui:v2.7.0, port 9999, depends on mongodb",
+    "open5gs-aio — ghcr.io/niloysh/open5gs:v2.7.0, all-in-one 5G core, ports 9090 (metrics) and 38412/sctp (NGAP), privileged, multi-homed on n2/n3/n4 bridge networks"
+  ],
+  "notable_absences": [
+    "No fault injection or chaos tooling included",
+    "No built-in traffic generation beyond UERANSIM ping tests (no iPerf, no load profiles)",
+    "No pre-built Grafana dashboards in the repo (Monarch integration is external)",
+    "No automated test suite or CI pipeline in the repository",
+    "UERANSIM UE count defaults to 2; scaling requires manual manifest duplication or msd generator"
+  ]
+}

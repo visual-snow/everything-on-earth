@@ -1,0 +1,75 @@
+{
+  "name": "srsRAN Project (5G)",
+  "repo_url": "https://github.com/srsran/srsran_project",
+  "description": "Open source O-RAN 5G CU/DU solution from Software Radio Systems (SRS). Complete 5G RAN with L1/2/3 implementation, supports both real SDR hardware and ZMQ-based RF simulation.",
+  "domain": "5g-ran",
+  "secondary_domains": [
+    "cu-du-split",
+    "gnb",
+    "o-ran",
+    "ric-integration"
+  ],
+  "protocols": [
+    "5G NR",
+    "E1AP",
+    "E2AP",
+    "F1AP",
+    "FAPI",
+    "GTP-U",
+    "NGAP",
+    "SCTP"
+  ],
+  "provides": [
+    "5g-gnb",
+    "5g-cu",
+    "5g-du",
+    "o-ran-e2-interface",
+    "f1ap-interface",
+    "e1ap-interface",
+    "ngap-interface",
+    "zmq-rf-simulation",
+    "phy-layer-simulation",
+    "5g-nr-phy",
+    "fapi-interface",
+    "gtp-u-tunneling",
+    "sctp-transport",
+    "docker-compose-stack",
+    "sdr-hardware-support"
+  ],
+  "needs": [
+    "5g-core-network",
+    "sctp-support",
+    "linux-kernel-5.4+",
+    "open5gs-or-compatible-5gc",
+    "zmq-library",
+    "uhd-or-sdr-driver"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "srsran/gnb",
+    "compose_services_count": 2,
+    "docker_evidence": "Official docker/ directory with Dockerfile and docker-compose.yml. 'docker compose up --build 5gc' launches Open5GS core. Supports ZMQ-based RF simulation in containers."
+  },
+  "github_metrics": {
+    "stars": 1000,
+    "last_commit": "2026-03",
+    "language": "C++",
+    "license": "AGPL-3.0"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Production-grade 5G RAN. Archived but Docker support exists. Useful for O-RAN integration evals with RIC platforms. High-fidelity gNB with real PHY layer implementation. O-RAN compliant with E2 interface. Excellent for realistic RAN configuration and troubleshooting evals. ZMQ mode enables fully containerized operation.",
+  "related_repos": [
+    "https://github.com/canonical/srsran5g-snap",
+    "https://github.com/davwheat/srsran-docker-emulated",
+    "https://github.com/montimage/docker-compose-srsran-open5gs-mmt",
+    "https://github.com/opennetworkinglab/srsran-docker",
+    "https://github.com/srsran/oran-sc-ric",
+    "https://github.com/srsran/srsran_4g"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/ran-ue.json"
+  ],
+  "slug": "srsran-project-5g"
+}

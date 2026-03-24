@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-policy-agent/opa",
+  "name": "open-policy-agent/opa",
+  "description": "Open Policy Agent (OPA) is a CNCF graduated open-source general-purpose policy engine enabling unified, context-aware policy enforcement across infrastructure, microservices, and applications using the Rego policy language.",
+  "sub_domain": "compliance-policy",
+  "score": 10,
+  "score_rationale": "CNCF graduated project and de facto policy-as-code standard with 11.4k stars, actively maintained through March 2026, used by major enterprises for unified policy enforcement.",
+  "stars": 11400,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "compliance-policy",
+    "iam-auth"
+  ],
+  "quality_score": 92.5,
+  "tags": [
+    "penetration-testing",
+    "assessment",
+    "security-testing",
+    "automation"
+  ],
+  "category": "Testing Tool",
+  "summary": "Security assessment and testing",
+  "slug": "open-policy-agent-opa"
+}

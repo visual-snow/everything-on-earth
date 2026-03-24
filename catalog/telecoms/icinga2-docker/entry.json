@@ -1,0 +1,56 @@
+{
+  "name": "Icinga2 Docker",
+  "repo_url": "https://github.com/icinga/docker-icinga2",
+  "description": "Official Icinga 2 Docker images configurable as master or agent nodes with SNMP monitoring support.",
+  "domain": "distributed-alerting",
+  "secondary_domains": [
+    "netconf"
+  ],
+  "protocols": [
+    "SNMP",
+    "SNMP Traps",
+    "HTTP",
+    "ICMP"
+  ],
+  "provides": [
+    "master-agent-architecture",
+    "snmp-monitoring",
+    "snmp-trap-receiver",
+    "web-dashboard",
+    "monitoring-configuration-api",
+    "streaming-telemetry",
+    "distributed-monitoring",
+    "http-endpoint-checks",
+    "alerting-engine",
+    "icmp-health-checks"
+  ],
+  "needs": [
+    "icingadb-backend",
+    "postgresql-or-mysql",
+    "redis-instance",
+    "smtp-relay"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "icinga/icinga2",
+    "compose_services_count": 4,
+    "docker_evidence": "Official Docker images configurable as master or agent nodes using environment variables and docker networks."
+  },
+  "github_metrics": {
+    "stars": 200,
+    "last_commit": "2025-01-01",
+    "language": "Shell",
+    "license": "GPL-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Mature monitoring platform with distributed architecture. Useful for evaluations involving monitoring configuration, alerting rules, and SNMP management.",
+  "related_repos": [
+    "https://github.com/icinga/icinga2",
+    "https://github.com/rahonalab/icinga2-docker"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "icinga2-docker"
+}

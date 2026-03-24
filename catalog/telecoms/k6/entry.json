@@ -1,0 +1,56 @@
+{
+  "name": "k6",
+  "repo_url": "https://github.com/grafana/k6",
+  "description": "Modern load testing tool by Grafana Labs with JavaScript/ES6 scripting, designed for developers and testers in DevOps environments.",
+  "domain": "api-testing",
+  "secondary_domains": [
+    "devops-testing",
+    "load-testing"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTP/2",
+    "WebSocket",
+    "gRPC",
+    "Browser"
+  ],
+  "provides": [
+    "http-load-generation",
+    "http2-load-generation",
+    "websocket-load-generation",
+    "grpc-load-generation",
+    "browser-testing",
+    "javascript-scripting",
+    "performance-metrics",
+    "traffic-generation",
+    "synthetic-testing",
+    "grafana-integration"
+  ],
+  "needs": [
+    "target-http-server",
+    "grafana-stack",
+    "influxdb-or-prometheus"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "grafana/k6",
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present; Docker Hub image: grafana/k6"
+  },
+  "github_metrics": {
+    "stars": 30200,
+    "last_commit": "2026-02-16",
+    "language": "Go",
+    "license": "AGPL-3.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Most popular load testing tool (30k+ stars) with JavaScript scripting and Grafana integration. Extensible protocol support via community extensions. Tests-as-code approach aligns well with agentic evaluation frameworks.",
+  "related_repos": [
+    "https://github.com/grafana/k6-studio"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "k6"
+}

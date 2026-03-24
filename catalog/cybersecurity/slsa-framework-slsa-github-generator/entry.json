@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/slsa-framework/slsa-github-generator",
+  "name": "slsa-framework/slsa-github-generator",
+  "description": "Language-agnostic SLSA provenance generation for GitHub Actions that produces SLSA Build Level 3 compliant provenance using Sigstore. Supports Go, Node.js, Java, Python, and generic artifacts.",
+  "sub_domain": "Supply Chain Security",
+  "score": 9,
+  "score_rationale": "Official SLSA framework tool for GitHub Actions provenance generation, essential for SLSA compliance.",
+  "stars": 5750,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 84.1,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "slsa-framework-slsa-github-generator"
+}

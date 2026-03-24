@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/volatilityfoundation/volatility3",
+  "name": "volatilityfoundation/volatility3",
+  "description": "The world's most widely used memory forensics framework for extracting digital artifacts from volatile memory (RAM) samples. A complete rewrite of Volatility 2 with improved performance and a clean plugin architecture supporting Windows, Linux, and macOS memory analysis.",
+  "sub_domain": "forensics-ir",
+  "score": 10,
+  "score_rationale": "Industry-standard memory forensics tool with 4k stars and a January 2026 release, universally deployed in DFIR investigations worldwide.",
+  "stars": 4000,
+  "language": "Python",
+  "license": "VSL-1.0",
+  "last_activity": "2026-01-29",
+  "found_in_domains": [
+    "forensics-ir",
+    "malware-reversing"
+  ],
+  "quality_score": 88.8,
+  "tags": [
+    "memory-forensics",
+    "incident-response",
+    "malware-analysis",
+    "artifact-extraction"
+  ],
+  "category": "Memory Forensics",
+  "summary": "Extract artifacts from memory dumps",
+  "slug": "volatilityfoundation-volatility3"
+}

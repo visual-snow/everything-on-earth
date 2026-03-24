@@ -1,0 +1,45 @@
+{
+  "slug": "ncclient",
+  "name": "ncclient",
+  "what_it_is": "ncclient is a Python library that facilitates client-side scripting and application development around the NETCONF protocol. It provides a high-level API for connecting to and managing network devices via NETCONF over SSH.",
+  "components": [
+    "manager — high-level connection and session manager",
+    "transport — SSH transport layer (Paramiko or ssh-python)",
+    "operations — NETCONF RPC operations (get, get_config, edit_config, etc.)",
+    "devices — vendor-specific device handlers (Juniper, Cisco, Huawei, etc.)",
+    "xml_ — XML/YANG data handling utilities"
+  ],
+  "protocols": [
+    "NETCONF (RFC 6241) over SSH (port 830 default)",
+    "NETCONF 1.0 and 1.1",
+    "SSH via Paramiko or ssh-python (libssh)"
+  ],
+  "measurement": [],
+  "configuration": [
+    "host, port, username, password or key-based auth passed to manager.connect()",
+    "device_params={'name': '<vendor>'} selects vendor-specific handler",
+    "hostkey_verify flag controls SSH host key verification",
+    "manager_params for timeout and other session settings",
+    "ssh_config support for reading OpenSSH config files"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Synchronous RPC mode (default)",
+    "async_mode=True for asynchronous RPC dispatch",
+    "Interactive Python console / scripting",
+    "Application integration as a library"
+  ],
+  "constraints": [
+    "Requires a live NETCONF-capable device or server at connect time — no built-in mock server or simulator is included",
+    "Python 2.7 or Python 3.5+ required; Paramiko 1.7+ and lxml 3.3.0+ are mandatory runtime dependencies",
+    "SSH transport only — does not support NETCONF over TLS or SOAP transports",
+    "async keyword renamed to async_mode in 0.6.0; code using older API is incompatible with Python 3.7+"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose or containerized test environment in the repository",
+    "No built-in NETCONF server or device simulator — tests require real or third-party simulated devices",
+    "No YANG model validation or schema awareness built in",
+    "No RESTCONF support"
+  ]
+}

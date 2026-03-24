@@ -1,0 +1,53 @@
+{
+  "name": "K3s",
+  "repo_url": "https://github.com/k3s-io/k3s",
+  "description": "Fully conformant, production-ready lightweight Kubernetes distribution by Rancher, designed for edge, IoT, CI, ARM, and resource-constrained environments with single binary under 100MB.",
+  "domain": "container-workload-management",
+  "secondary_domains": [
+    "edge-kubernetes",
+    "iot-orchestration",
+    "resource-constrained-edge"
+  ],
+  "protocols": [
+    "Kubernetes API",
+    "HTTPS",
+    "containerd"
+  ],
+  "provides": [
+    "kubernetes-orchestration",
+    "edge-compute-platform",
+    "container-runtime",
+    "lightweight-k8s-cluster",
+    "service-mesh-foundation",
+    "embedded-etcd",
+    "load-balancer-servicelb",
+    "ingress-controller",
+    "helm-controller"
+  ],
+  "needs": [
+    "linux-kernel-4.9+",
+    "arm-or-x86-host",
+    "cni-plugin",
+    "512mb-ram-minimum"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "rancher/k3s",
+    "compose_services_count": 3,
+    "docker_evidence": "Rancher provides k3s Docker images available to run k3s server and agent from Docker, with a docker-compose.yml example in the repository."
+  },
+  "github_metrics": {
+    "stars": 0,
+    "last_commit": "unknown",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Lightweight Kubernetes for edge nodes (512MB RAM, 200MB disk). Foundation for many edge platforms. Ideal for testing containerized workloads on resource-constrained edge hardware.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/edge-mec.json"
+  ],
+  "slug": "k3s"
+}

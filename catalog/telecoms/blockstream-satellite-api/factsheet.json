@@ -1,0 +1,73 @@
+{
+  "slug": "blockstream-satellite-api",
+  "name": "Blockstream Satellite API",
+  "what_it_is": "A Lightning app (Lapp) built on c-lightning that exposes a RESTful API for submitting messages to be broadcast globally over the Blockstream Satellite network, with payments handled via Bitcoin Lightning Network. It pairs an API server with a transmitter daemon that dequeues paid messages and coordinates satellite transmissions.",
+  "components": [
+    "api-server (Ruby/Sinatra REST API, handles order creation and Lightning Charge payment callbacks)",
+    "workers (transmitter daemon, dequeues paid messages and coordinates satellite transmissions)",
+    "sse-server (Server-Sent Events server for real-time subscription to transmission events)",
+    "blc (Bitcoin Lightning Charge stack combining c-lightning and lightning-charge for payment processing)",
+    "redis (message queue backing store shared by api-server, workers, and sse-server)",
+    "proxy_server (nginx reverse proxy exposing port 8080, routes to api-server and sse-server)"
+  ],
+  "protocols": [
+    "REST API (JSON over HTTP)",
+    "Lightning Network (Bitcoin micropayments via lightning-charge / c-lightning)",
+    "DVB-S2 (satellite transmission protocol used by Blockstream Satellite)",
+    "Server-Sent Events (SSE) for real-time transmission status subscriptions",
+    "Redis pub/sub (internal message passing between api-server, workers, and sse-server)"
+  ],
+  "measurement": [
+    "bid in millisatoshis (msats) per order",
+    "bid_per_byte (millisatoshis per byte, must meet minimum threshold or BID_TOO_SMALL error is returned)",
+    "message_size in bytes",
+    "message_digest (SHA256 of uploaded message file)",
+    "transmission timestamps: created_at, started_transmission_at, ended_transmission_at (ISO 8601)"
+  ],
+  "configuration": [
+    "CHARGE_ROOT: URL to lightning-charge instance including API token (e.g. http://api-token:<token>@blc:9112)",
+    "CHARGE_API_TOKEN: shared secret for authenticating with lightning-charge",
+    "CALLBACK_URI_ROOT: base URI lightning-charge uses to post payment callbacks back to the API server",
+    "REDIS_URI: Redis connection string (e.g. redis://redis:6379)",
+    "ENV: runtime environment flag (development / production)",
+    "API_TOKEN (blc service): lightning-charge API token",
+    "SUB_CHANNELS: comma-separated SSE channels to subscribe to (transmissions, gossip, btc-src, auth)"
+  ],
+  "fault_injection": [
+    "BID_TOO_SMALL (error 102): bid is below the minimum millisatoshis-per-byte threshold",
+    "MESSAGE_FILE_TOO_SMALL (error 117): uploaded message is below minimum size",
+    "MESSAGE_FILE_TOO_LARGE (error 118): uploaded message exceeds maximum size",
+    "MESSAGE_MISSING (error 126): neither message string nor file upload provided",
+    "ORDER_CHANNEL_UNAUTHORIZED_OP (error 130): operation not permitted on this order's channel",
+    "INVALID_AUTH_TOKEN (error 109): auth_token does not match the order",
+    "ORDER_NOT_FOUND (error 104): no order exists for the given UUID",
+    "ORDER_CANCELLATION_ERROR (error 120): order could not be cancelled",
+    "SEQUENCE_NUMBER_NOT_FOUND (error 114): no transmitted message exists for the given sequence number"
+  ],
+  "modes": [
+    "pending: order created, awaiting Lightning invoice payment",
+    "paid: invoice paid, order queued for satellite transmission",
+    "transmitting: satellite transmission in progress",
+    "confirming: transmission nearly complete, awaiting confirmation",
+    "queued: combined view of paid + transmitting + confirming orders",
+    "sent: transmission completed",
+    "rx-pending: transmitted but awaiting Rx confirmations from satellite receivers",
+    "retransmitting: retransmission in progress for one or more regions",
+    "received: fully transmitted and confirmed received in all targeted regions"
+  ],
+  "docker_services": [
+    "blc (shesek/lightning-charge:0.4.23) — Lightning Charge + c-lightning payment node, volume: blc",
+    "api-server (build: server/) — REST API, depends on blc, volume: data",
+    "workers (build: server/, cmd: workers.sh) — transmitter daemon, depends on api-server + redis, volume: data",
+    "sse-server (build: sse/) — SSE event server, depends on api-server + redis",
+    "redis (redis:latest) — message queue, no persistent volume",
+    "proxy_server (build: nginx/) — nginx reverse proxy, exposes host port 8080 → container port 80, depends on api-server + sse-server"
+  ],
+  "notable_absences": [
+    "No actual DVB-S2 satellite hardware or SDR transmitter is included in docker-compose; physical satellite uplink is external to this stack",
+    "No authentication or rate limiting on the public REST endpoints (Flask-Limiter noted as future work)",
+    "No fiat currency pricing support (noted as future work)",
+    "No TLS termination in the provided nginx config (proxy listens on plain HTTP port 80/8080)",
+    "No persistent volume for Redis, so queue state is lost on container restart"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/velocidex/velociraptor",
+  "name": "Velocidex/velociraptor",
+  "description": "Velociraptor is an endpoint visibility and collection tool that uses the Velociraptor Query Language (VQL) to gather host-based state information for incident response and digital forensics. It supports enterprise-wide threat hunting and forensic investigation across Windows, Linux, and macOS.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 9,
+  "score_rationale": "Leading open-source DFIR and endpoint visibility platform with 3.8k stars, widely used by incident responders and threat hunters.",
+  "stars": 3800,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-08-25",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "forensics-ir"
+  ],
+  "quality_score": 82.6,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Velociraptor is an endpoint visibility and collection tool that uses the Velociraptor Query Language",
+  "slug": "velocidex-velociraptor"
+}

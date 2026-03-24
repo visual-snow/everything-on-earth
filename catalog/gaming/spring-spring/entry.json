@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/spring/spring",
+  "name": "spring/spring",
+  "description": "A powerful free cross-platform RTS game engine written in C++ used as the foundation for many community RTS games. Supports Lua scripting for game logic.",
+  "sub_domain": "game-engines-3d",
+  "score": 7,
+  "score_rationale": "3.9k stars with a large ecosystem of games built on it; the de-facto open-source RTS engine with decades of development history.",
+  "stars": 3900,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 70.7,
+  "tags": [
+    "rts-game-engine",
+    "c++",
+    "lua-scripting",
+    "cross-platform",
+    "community-games"
+  ],
+  "category": "Open Source RTS Engine",
+  "summary": "De-facto open-source RTS engine with decades of development history",
+  "slug": "spring-spring"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "sflow-rt",
+  "name": "sflow-rt / prometheus-grafana",
+  "what_it_is": "A Docker Compose stack that combines sflow-rt (a real-time sFlow analytics engine), Prometheus, and Grafana to collect network telemetry via sFlow and expose live dashboards. It is purpose-built for real-time network monitoring and visualization.",
+  "components": [
+    "sflow-rt — sFlow collector and analytics engine that exports metrics to Prometheus",
+    "Prometheus — time-series metrics store with configurable retention",
+    "Grafana — dashboard and visualization layer pre-wired to Prometheus"
+  ],
+  "protocols": [
+    "sFlow (network telemetry sampling protocol, received by sflow-rt)"
+  ],
+  "measurement": [
+    "Real-time network traffic statistics via sFlow sampling",
+    "Time-series metrics stored in Prometheus (default 30-day retention)"
+  ],
+  "configuration": [
+    "RT_IMAGE — selects the sflow-rt Docker image variant (default: prometheus)",
+    "RTMEM — sets JVM heap memory for sflow-rt (default: 1G)",
+    "RTPROP — passes custom sflow-rt properties at startup (default: none)",
+    "PROM_RETENTION — Prometheus data retention window (default: 30d)",
+    "DOCKER_USER — container UID:GID mapping (default: current user)"
+  ],
+  "fault_injection": [],
+  "modes": [],
+  "constraints": [
+    "No built-in authentication or TLS configuration documented — the stack is plaintext by default",
+    "No high-availability or clustering support mentioned — single-node deployment only",
+    "sFlow traffic must be directed at the sflow-rt container; no passive pcap or SPAN-less capture",
+    "Memory for sflow-rt is bounded by RTMEM; large traffic volumes may require tuning"
+  ],
+  "docker_services": [
+    "sflow-rt",
+    "prometheus",
+    "grafana"
+  ],
+  "notable_absences": [
+    "No fault injection or chaos tooling",
+    "No TLS/auth configuration",
+    "No support for IPFIX, NetFlow, or other flow protocols — sFlow only",
+    "No horizontal scaling or HA mode",
+    "No alerting rules shipped by default"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/jrouwe/joltphysics",
+  "name": "jrouwe/JoltPhysics",
+  "description": "Multi-core friendly rigid body physics and collision detection library in C++, used in Horizon Forbidden West and Death Stranding 2. Designed for deterministic networked gameplay with GPU-accelerated hair and soft body simulation.",
+  "sub_domain": "physics-engines",
+  "score": 10,
+  "score_rationale": "9.9k-star actively maintained engine used in AAA titles, representing the current state-of-the-art for C++ game physics.",
+  "stars": 9900,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-12-28",
+  "found_in_domains": [
+    "physics-engines"
+  ],
+  "quality_score": 92.0,
+  "tags": [
+    "physics",
+    "multicore",
+    "aaa-games"
+  ],
+  "category": "Physics Engine",
+  "summary": "Modern physics engine used in AAA titles with GPU simulation",
+  "slug": "jrouwe-joltphysics"
+}

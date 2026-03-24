@@ -1,0 +1,72 @@
+{
+  "slug": "kubeedge",
+  "name": "KubeEdge",
+  "what_it_is": "KubeEdge is a CNCF-graduated Kubernetes-native edge computing framework that extends containerized application orchestration and device management to edge hosts. It consists of a cloud-side component (CloudCore) and an edge-side component (EdgeCore) that together bridge the Kubernetes control plane with resource-constrained edge nodes.",
+  "components": [
+    "CloudHub — WebSocket server on the cloud side; watches Kubernetes API changes and relays messages to EdgeHub",
+    "EdgeController — extended Kubernetes controller managing edge node and pod metadata",
+    "DeviceController — extended Kubernetes controller syncing device metadata and status between cloud and edge",
+    "EdgeHub — WebSocket/QUIC client on the edge; syncs cloud resource updates to edge and reports status back",
+    "Edged — lightweight kubelet-equivalent agent running on edge nodes managing containerized workloads",
+    "EventBus — MQTT client (uses mosquitto) enabling pub/sub for edge device communication",
+    "ServiceBus — HTTP client enabling cloud components to reach HTTP servers running at the edge",
+    "DeviceTwin — stores device status locally at edge and syncs to cloud; provides query interface for apps",
+    "MetaManager — message processor between Edged and EdgeHub; persists metadata in SQLite",
+    "keadm — CLI tool for bootstrapping cloud and edge nodes (init, join, reset)"
+  ],
+  "protocols": [
+    "WebSocket (wss://) — primary cloud-edge tunnel on port 10000",
+    "QUIC — alternative cloud-edge transport on port 10001",
+    "HTTPS — CloudHub HTTPS endpoint on port 10002",
+    "MQTT (tcp://) — internal broker on port 1884 and/or external broker on port 1883 for device events",
+    "HTTP/REST — ServiceBus bridging cloud-to-edge HTTP servers",
+    "Kubernetes API — standard kubectl/CRD-based management surface"
+  ],
+  "measurement": [
+    "Edge node heartbeat interval (default 15 s) reported to Kubernetes node status",
+    "Node status update frequency from Edged (default 10 s)",
+    "MQTT session queue size (default 100 sessions)",
+    "MQTT QoS levels: 0 (AtMostOnce), 1 (AtLeastOnce), 2 (ExactlyOnce)",
+    "CloudCore resource limits: CPU 200m max / 100m request, memory 1Gi max / 512Mi request",
+    "E2E test polling interval 5 s, timeout 10 min"
+  ],
+  "configuration": [
+    "CloudCore configured via cloudcore.yaml (ConfigMap): kubeAPIConfig, cloudHub (nodeLimit, TLS certs, WebSocket port, UnixSocket), cloudStream, tunnelPort",
+    "EdgeCore configured via edge.yaml: mqtt (server URL, mode, QoS, retain, session-queue-size), edgehub (WebSocket URL, certs, heartbeat), edged (namespace, hostname, interface, docker address, GC thresholds)",
+    "MQTT mode: 0 = internal broker only, 1 = internal + external, 2 = external broker only",
+    "Modules enabled list in modules.yaml (e.g., eventbus, servicebus, websocket, metaManager, edged, twin, dbTest)",
+    "TLS: CA, cert, and key files required at /etc/kubeedge/ca/ and /etc/kubeedge/certs/ for both cloud and edge",
+    "CloudHub nodeLimit controls maximum connected edge nodes (default 10)"
+  ],
+  "fault_injection": [
+    "Edge autonomy mode: edge nodes continue running workloads when cloud-edge network is severed (offline resilience is a first-class design goal, not an add-on)",
+    "No dedicated fault-injection framework found in the repository; resilience is tested via e2e suite under tests/e2e/ which exercises node connectivity, pod deployment, and device sync"
+  ],
+  "modes": [
+    "Cloud mode — run CloudCore on a Kubernetes cluster node (keadm init / cloudcore deployment)",
+    "Edge mode — run EdgeCore on a resource-constrained edge host (keadm join)",
+    "EdgeSite mode — standalone single-node deployment combining cloud and edge roles (build/edgesite/)",
+    "HA mode — multiple CloudCore replicas with shared state (build/cloud/ha/)",
+    "Internal MQTT broker only (mode 0), combined internal+external (mode 1), external broker only (mode 2)"
+  ],
+  "constraints": [
+    "Requires an existing Kubernetes cluster (v1.29–v1.32 for KubeEdge 1.23) — KubeEdge does NOT replace Kubernetes, it extends it",
+    "Edge nodes must be able to initiate outbound WebSocket or QUIC connections to CloudHub; inbound connections from cloud to edge are not supported without the tunnel",
+    "MetaManager uses SQLite for local metadata persistence — not suitable for high-throughput write workloads at the edge",
+    "Edged (EdgeCore) requires a container runtime (Docker or containerd) on the edge host; GPU and device-plugin support is optional and disabled by default",
+    "CloudHub nodeLimit (default 10) caps simultaneous edge connections per CloudCore instance",
+    "TLS certificates must be pre-provisioned and mounted; keadm handles cert generation during init/join but manual rotation is an operator responsibility"
+  ],
+  "docker_services": [
+    "kubeedge/cloudcore — CloudCore image (e.g., kubeedge/cloudcore:v1.23.0) deployed as a Kubernetes Deployment with hostNetwork, ports 10000–10004",
+    "kubeedge/edgecore — EdgeCore image run as a systemd service (edgecore.service) or container on edge hosts",
+    "eclipse-mosquitto (implicit) — MQTT broker referenced by EventBus (tcp://127.0.0.1:1883 external, tcp://127.0.0.1:1884 internal); not bundled, must be deployed separately",
+    "No docker-compose file found in the repository — deployment is Kubernetes-manifest-based (build/cloud/) or keadm-driven"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — the project has no single-command local dev stack; requires a real or kind/minikube Kubernetes cluster",
+    "No built-in metrics/observability stack — no Prometheus scrape configs or Grafana dashboards shipped in-repo",
+    "No native chaos/fault-injection tooling — resilience relies on network partition tests in e2e suite, not a dedicated framework like Chaos Mesh",
+    "No built-in load generator or benchmark harness for edge throughput measurement"
+  ]
+}

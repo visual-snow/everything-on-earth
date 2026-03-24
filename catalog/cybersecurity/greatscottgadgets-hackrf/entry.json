@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/greatscottgadgets/hackrf",
+  "name": "greatscottgadgets/hackrf",
+  "description": "Low-cost open-source Software Defined Radio platform covering 30 MHz to 6 GHz, with accompanying software tools for signal capture, analysis, and transmission.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 9,
+  "score_rationale": "Industry-standard open-source SDR hardware platform with 7.8k stars and continuous active development into 2026.",
+  "stars": 7783,
+  "language": "C",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 85.1,
+  "tags": [
+    "malware",
+    "analysis",
+    "detection"
+  ],
+  "category": "Malware Analysis",
+  "summary": "Malware analysis and detection tools",
+  "slug": "greatscottgadgets-hackrf"
+}

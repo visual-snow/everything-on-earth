@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/google/filament",
+  "name": "google/filament",
+  "description": "Real-time physically based rendering engine for Android, iOS, Linux, macOS, Windows, and WebGL. Designed to be as small and efficient as possible, particularly for mobile.",
+  "sub_domain": "graphics-rendering",
+  "score": 10,
+  "score_rationale": "Google-maintained PBR engine with 19.9k stars, actively used in production (Android Sceneform), supporting all major platforms.",
+  "stars": 19900,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-03-24",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 94.4,
+  "tags": [
+    "rendering",
+    "pbr",
+    "mobile"
+  ],
+  "category": "Rendering Engine",
+  "summary": "Google PBR rendering engine optimized for mobile",
+  "slug": "google-filament"
+}

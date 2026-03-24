@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ch0pin/medusa",
+  "name": "Ch0pin/medusa",
+  "description": "Modular automation framework for runtime testing of Android and iOS apps powered by Frida, with 90+ reusable modules covering network interception, crypto analysis, anti-tampering bypass, and malware behavior tracing.",
+  "sub_domain": "Mobile Security",
+  "score": 8,
+  "score_rationale": "Highly capable Frida-based automation framework with 2.2k stars, actively updated with v3.2.0 in November 2025.",
+  "stars": 2200,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2025-11-04",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 74.7,
+  "tags": [
+    "malware-analysis",
+    "network-analysis",
+    "pe-format"
+  ],
+  "category": "Malware Analysis Tool",
+  "summary": "Modular automation framework for runtime testing of Android and iOS apps powered by Frida, with 9...",
+  "slug": "ch0pin-medusa"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Routr",
+  "repo_url": "https://github.com/fonoster/routr",
+  "description": "Cloud-native, lightweight SIP proxy, location server, and registrar for carriers, communication service providers, and integrators. Supports programmable routing, load balancing, and multi-tenant deployments.",
+  "domain": "cloud-native-telephony",
+  "secondary_domains": [
+    "csp-platform",
+    "programmable-routing",
+    "sip-proxy",
+    "voip-infrastructure"
+  ],
+  "protocols": [
+    "SIP",
+    "TCP",
+    "TLS",
+    "UDP",
+    "WSS",
+    "WebSocket",
+    "gRPC"
+  ],
+  "provides": [
+    "sip-proxy",
+    "programmable-sip-routing",
+    "tls-sip-transport",
+    "load-balancing",
+    "grpc-api",
+    "sip-registrar",
+    "multi-tenant-sip",
+    "config-mutation",
+    "webrtc-gateway",
+    "sip-location-server",
+    "helm-charts",
+    "sip-over-websocket"
+  ],
+  "needs": [
+    "postgresql",
+    "docker-compose",
+    "k8s-cluster"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "fonoster/routr-one:latest",
+    "compose_services_count": 2,
+    "docker_evidence": "Docker Compose configuration with PostgreSQL integration. Port mappings for SIP (5060/UDP) and gRPC API (51908). Helm charts available for Kubernetes."
+  },
+  "github_metrics": {
+    "stars": 1700,
+    "last_commit": "2025-01-21",
+    "language": "TypeScript",
+    "license": "MIT"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Modern programmable SIP server with excellent Docker support. Good for SIP routing configuration and telephony automation evals. Modern cloud-native SIP server with 1.7k stars. TypeScript-based with gRPC API, making it easy to integrate with agentic systems. Programmable routing and multi-tenant support enable complex telephony evaluation scenarios.",
+  "related_repos": [
+    "https://github.com/fonoster/fonoster"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/signaling.json"
+  ],
+  "slug": "routr"
+}

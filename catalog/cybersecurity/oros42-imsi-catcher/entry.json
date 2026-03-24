@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/oros42/imsi-catcher",
+  "name": "oros42/imsi-catcher",
+  "description": "Python tool to detect IMSI numbers of nearby cellphones using Software Defined Radio hardware, implementing a passive GSM/cellular network monitor.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 7,
+  "score_rationale": "Well-known cellular security research tool with 3.8k stars and updated through late 2025; relevant for GSM/IMSI security awareness.",
+  "stars": 3842,
+  "language": "Python",
+  "license": "CC0-1.0",
+  "last_activity": "2025-12-30",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 70.7,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "python tool to detect imsi numbers of nearby cellphones using software defined radio hardware, imple...",
+  "slug": "oros42-imsi-catcher"
+}

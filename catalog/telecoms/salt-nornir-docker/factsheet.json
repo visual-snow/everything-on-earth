@@ -1,0 +1,79 @@
+{
+  "slug": "salt-nornir-docker",
+  "name": "SaltStack Nornir Proxy Minion Docker",
+  "what_it_is": "A single-container Docker environment running SaltStack Master, Salt-API, and a Nornir Proxy Minion together, pre-configured with always-on Cisco sandbox devices (IOS-XE, IOS-XR, NX-OS). Designed to accelerate getting started with Salt-Nornir network automation without manual installation.",
+  "components": [
+    "SaltStack Master (salt-master)",
+    "Salt-API (REST CherryPy, TCP 8001)",
+    "Salt Proxy Minion (nrp1, proxytype: nornir)",
+    "Nornir task execution engine",
+    "salt-nornir[prodmaxmaster] Python package",
+    "salt-nornir[prodmaxminion] Python package",
+    "Python 3.9.7 runtime (python:3.9.7-slim-bullseye base image)"
+  ],
+  "protocols": [
+    "SSH (Netmiko, Scrapli, NAPALM, PyATS)",
+    "NETCONF (ncclient port 830, scrapli-netconf port 830)",
+    "RESTCONF/HTTP (port 443, HTTPS transport)",
+    "REST API (Salt-API HTTP on port 8001)",
+    "CLI (salt command-line interface)"
+  ],
+  "measurement": [
+    "nr.nornir stats — Nornir Proxy Minion statistics",
+    "nr.nornir inventory — full inventory content inspection",
+    "nr.nornir hosts — list of managed host names",
+    "test.ping — verify proxy minion process is alive",
+    "salt-key — inspect accepted/pending minion keys"
+  ],
+  "configuration": [
+    "SALT_VERSION env var — SaltStack version to install (default: 3006.5)",
+    "LOG_LEVEL env var — logging verbosity (default: debug)",
+    "PROXY_ID env var — Nornir Proxy Minion ID (default: nrp1)",
+    "SALT_MASTER env var — enable/disable salt-master process (True/False)",
+    "SALT_API env var — enable/disable salt-api process (True/False)",
+    "SALT_PROXY env var — enable/disable salt-proxy process (True/False)",
+    "SALT/saltstack/pillar/nrp1.sls — Nornir inventory (hosts, credentials, connection_options)",
+    "SALT/saltstack/master — master config (PKI dir, file/pillar roots, REST API, external_auth)",
+    "SALT/saltstack/proxy — proxy minion config",
+    "sharedsecret auth: saltuser / saltpass"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanisms are present in the repository",
+    "Proxy Minion restart via docker restart saltstack can simulate connectivity loss",
+    "Removing or corrupting pillar/nrp1.sls simulates misconfiguration scenarios"
+  ],
+  "modes": [
+    "Full mode: SALT_MASTER=True + SALT_API=True + SALT_PROXY=True (default)",
+    "Master-only mode: SALT_MASTER=True, SALT_API=False, SALT_PROXY=False",
+    "Proxy-only mode: SALT_PROXY=True with external master",
+    "Custom image build via Dockerfile.saltstack.build"
+  ],
+  "constraints": [
+    "Single-container design — master, API, and proxy all run inside one container; no multi-node clustering",
+    "Python 3.9.7 only — base image is fixed to python:3.9.7-slim-bullseye",
+    "Pillar changes require a full docker restart saltstack to take effect; no hot-reload",
+    "Salt-API runs HTTP only by default (disable_ssl: True); TLS requires manual reconfiguration",
+    "Always-on sandbox devices (Cisco DevNet) depend on external network connectivity and third-party uptime"
+  ],
+  "docker_services": [
+    {
+      "name": "saltstack",
+      "container_name": "saltstack",
+      "hostname": "saltstack",
+      "dockerfile": "SALT/Dockerfile.saltstack",
+      "ports": ["8001:8001/tcp"],
+      "volumes": [
+        "SALT/saltstack/ -> /etc/salt/ (bind)",
+        "SALT/salt_nornir_data/ -> /var/salt-nornir/ (bind)"
+      ],
+      "env_vars": ["LOG_LEVEL", "PROXY_ID", "SALT_MASTER", "SALT_API", "SALT_PROXY"]
+    }
+  ],
+  "notable_absences": [
+    "No dedicated network device simulators (GNS3, EVE-NG, containerlab) — relies on external Cisco DevNet always-on sandboxes",
+    "No persistent database or metrics store (no InfluxDB, Prometheus, etc.)",
+    "No multi-minion or multi-master topology",
+    "No TLS/HTTPS configured out of the box for Salt-API",
+    "No automated test suite or CI pipeline in the repository"
+  ]
+}

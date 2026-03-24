@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/kaplayjs/kaplay",
+  "name": "kaplayjs/kaplay",
+  "description": "A fun-first JavaScript/TypeScript 2D game library with an intuitive API and web-based editor, successor to the popular Kaboom.js. Includes 90+ examples and active development.",
+  "sub_domain": "game-engines-2d",
+  "score": 6,
+  "score_rationale": "1.5k stars, MIT, actively maintained successor to Kaboom.js with growing community and beginner-friendly design.",
+  "stars": 1500,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "game-engines-2d",
+    "web-game-engines"
+  ],
+  "quality_score": 61.4,
+  "tags": [
+    "2d-game-engine",
+    "javascript",
+    "typescript",
+    "web-game",
+    "beginner-friendly"
+  ],
+  "category": "Fun Web Game Engine",
+  "summary": "Kaboom.js successor with web editor and 90+ beginner-friendly examples",
+  "slug": "kaplayjs-kaplay"
+}

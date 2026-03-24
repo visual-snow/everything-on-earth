@@ -1,0 +1,52 @@
+{
+  "name": "sFlow-RT",
+  "repo_url": "https://github.com/sflow-rt/prometheus-grafana",
+  "description": "Real-time sFlow analytics engine with Prometheus and Grafana integration via Docker Compose for network telemetry dashboards.",
+  "domain": "flow-analytics",
+  "secondary_domains": [
+    "netconf",
+    "real-time-monitoring"
+  ],
+  "protocols": [
+    "sFlow"
+  ],
+  "provides": [
+    "network-telemetry",
+    "prometheus-exporter",
+    "real-time-flow-analysis",
+    "flow-monitoring",
+    "sflow-analytics-engine",
+    "web-dashboard",
+    "grafana-dashboard",
+    "streaming-telemetry",
+    "rest-api"
+  ],
+  "needs": [
+    "sflow-capable-network-device",
+    "sflow-agent-or-traffic-source"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "sflow/sflow-rt",
+    "compose_services_count": 3,
+    "docker_evidence": "Docker compose to deploy sFlow-RT analytics engine, Prometheus, and Grafana dashboards."
+  },
+  "github_metrics": {
+    "stars": 50,
+    "last_commit": "2024-01-01",
+    "language": "Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Real-time sFlow analytics with REST API. Useful for evaluations involving sFlow monitoring, SDN integration, and real-time flow analysis.",
+  "related_repos": [
+    "https://github.com/sflow-rt/containerlab",
+    "https://github.com/sflow-rt/top-flows",
+    "https://github.com/sflow-rt/fabric-view"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "sflow-rt"
+}

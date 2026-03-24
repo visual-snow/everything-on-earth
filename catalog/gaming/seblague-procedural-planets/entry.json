@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/seblague/procedural-planets",
+  "name": "SebLague/Procedural-Planets",
+  "description": "A Unity-based procedural planet generator using layered noise functions, LOD spherical mesh generation, and biome-based surface coloring. Companion to a popular educational YouTube series on procedural generation techniques.",
+  "sub_domain": "procedural-generation",
+  "score": 7,
+  "score_rationale": "Highly educational Unity reference implementation with thousands of learners and clear pedagogical code structure.",
+  "stars": 4200,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2023-01-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 71.0,
+  "tags": [
+    "planet-generation",
+    "unity",
+    "educational",
+    "lod",
+    "biomes"
+  ],
+  "category": "Planet Generation Tutorial",
+  "summary": "Educational Unity planet generator with LOD mesh and biome-based coloring with YouTube series.",
+  "slug": "seblague-procedural-planets"
+}

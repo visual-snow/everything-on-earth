@@ -1,0 +1,59 @@
+{
+  "slug": "odtn-emulator",
+  "name": "ODTN-emulator",
+  "what_it_is": "An Open and Disaggregated Transport Network (ODTN) emulator from the Open Networking Foundation that runs software-simulated optical transport nodes inside Docker containers. It provides two emulator types: OpenConfig-compliant terminal devices (Cassini model, served via Netopeer2/NETCONF on port 830) and a TAPI 2.1 optical line system node (REST/HTTP on port 1234).",
+  "components": [
+    "emulator-oc-cassini: OpenConfig terminal device emulator based on Netopeer2 NETCONF server backed by sysrepo datastore; models line-side and client-side of a terminal device in an Open Line System",
+    "emulator-tapi-2.1: TAPI 2.1 optical line system emulator built on a Java/Maven/Jetty REST server stub; models the middle OLS components between optical devices",
+    "emulator-oc-lumentum: additional OpenConfig emulator variant (directory present, separate from Cassini)"
+  ],
+  "protocols": [
+    "NETCONF (RFC 6241) over SSH on port 830 — used by OpenConfig emulators",
+    "SSH on port 22 — auxiliary access to OpenConfig containers",
+    "HTTP/REST on port 1234 — used by TAPI emulator (RESTCONF-style endpoint)",
+    "YANG — data modelling language for all OpenConfig and TAPI schemas",
+    "TAPI 2.1 — Transport API schema for the OLS emulator"
+  ],
+  "measurement": [
+    "Optical channel output-power: instant, avg, min, max values (dBm) with 60-second interval and epoch timestamps",
+    "Optical channel input-power: instant, avg, min, max values (dBm) with 60-second interval and epoch timestamps",
+    "16 optical channel components exposed per Cassini node (oe1/1 through oe8/2)",
+    "Network topology summary: 2 devices, 64 ports, 12 links (net-summary.json)"
+  ],
+  "configuration": [
+    "target-output-power per optical channel set via NETCONF edit-config RPC (default -5.1 dBm at startup)",
+    "openconfig-platform and openconfig-terminal-device datastores pre-loaded from init-components.xml and init-terminal-device.xml via sysrepocfg at container start",
+    "YANG modules installed into sysrepo at startup via sysrepoctl (openconfig-terminal-device, openconfig-platform, openconfig-platform-transceiver, openconfig-if-ethernet, etc.)",
+    "NETCONF credentials: root / root (hardcoded in Dockerfile and test commands)",
+    "Port mapping: openconfig_cassini_1 → host 11002:830, openconfig_cassini_2 → host 11003:830, tapi_ols → host 11000:1234"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism; emulator serves static pre-loaded XML data only",
+    "Power values are hardcoded in config-power.xml and do not change at runtime — no dynamic simulation of degradation or failure"
+  ],
+  "modes": [
+    "build-from-source: docker-compose up -d builds images locally from Dockerfiles",
+    "DockerHub pull: pre-built images onosproject/oc-cassini:0.21 and onosproject/tapi-2.1:0.01 available for direct docker run without compilation"
+  ],
+  "constraints": [
+    "ncclient version must be exactly 0.6.3 — higher versions break the netconf-console test client",
+    "Netopeer2 version pinned to v0.7-r1; libyang to v0.16-r3; libnetconf2 to v0.12-r1; sysrepo to v0.7.7 — these are old pinned versions incompatible with current upstream",
+    "OpenConfig YANG files are patched at container start (leafref converted to uint32, 'config false' statements removed) to work around sysrepo limitations — modified schemas diverge from upstream OpenConfig",
+    "TAPI emulator is a static Java server stub; it does not implement dynamic state changes or provisioning workflows",
+    "Base image is Ubuntu 18.04 (EOL); build pulls source from external git repos at image build time, making reproducibility dependent on network availability",
+    "No authentication hardening: NETCONF user/password is root/root; TAPI endpoint has no authentication"
+  ],
+  "docker_services": [
+    "openconfig_cassini_1: OpenConfig Cassini terminal device emulator, host port 11002 → container port 830 (NETCONF/SSH)",
+    "openconfig_cassini_2: second independent OpenConfig Cassini instance, host port 11003 → container port 830 (NETCONF/SSH)",
+    "tapi_ols: TAPI 2.1 optical line system emulator, host port 11000 → container port 1234 (HTTP REST)"
+  ],
+  "notable_absences": [
+    "No SNMP or gNMI interface — only NETCONF and HTTP are exposed",
+    "No streaming telemetry (gRPC/gNMI Subscribe) support",
+    "No fault injection or link failure simulation capabilities",
+    "No persistence across container restarts — all state is re-initialized from static XML files on each start",
+    "No multi-vendor diversity beyond Cassini (OpenConfig) and OLS (TAPI) — emulator-oc-lumentum exists but is not wired into docker-compose",
+    "TAPI emulator has no NETCONF interface — REST only, unlike the OpenConfig emulators"
+  ]
+}

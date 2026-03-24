@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/fabionoth/awesome-cyber-security",
+  "name": "fabionoth/awesome-cyber-security",
+  "description": "A collection of software, libraries, documents, books, and resources about cybersecurity covering certifications, training platforms, penetration testing distributions, and security software utilities organized for learners.",
+  "sub_domain": "awesome-lists",
+  "score": 5,
+  "score_rationale": "General cybersecurity resource collection with 1.8k stars providing a broad but less specialized overview compared to domain-specific awesome lists.",
+  "stars": 1800,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "awesome-lists"
+  ],
+  "quality_score": 56.0,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A collection of software, libraries, documents, books, and resources about cybersecurity covering ce",
+  "slug": "fabionoth-awesome-cyber-security"
+}

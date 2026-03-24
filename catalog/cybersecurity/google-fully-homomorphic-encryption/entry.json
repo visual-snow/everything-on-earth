@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/fully-homomorphic-encryption",
+  "name": "google/fully-homomorphic-encryption",
+  "description": "Google's FHE compiler for C++ that transpiles programs to run on encrypted data. The original transpiler is archived with users directed to the HEIR project as its modern replacement.",
+  "sub_domain": "cryptography",
+  "score": 5,
+  "score_rationale": "Historically significant FHE compiler from Google with 3.6k stars, but the core transpiler is archived and users are redirected to the successor HEIR project.",
+  "stars": 3600,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-05-13",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 58.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "google-fully-homomorphic-encryption"
+}

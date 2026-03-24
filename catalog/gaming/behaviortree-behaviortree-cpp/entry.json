@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/behaviortree/behaviortree.cpp",
+  "name": "BehaviorTree/BehaviorTree.CPP",
+  "description": "A battle-tested C++17 behavior tree library used extensively in robotics and game AI. Supports XML-defined trees loaded at runtime, async actions, reactive execution, and built-in logging.",
+  "sub_domain": "behavior-ai",
+  "score": 9,
+  "score_rationale": "Industry-standard BT library in C++ with 3.9k stars, active maintenance through 2026, and broad adoption in both robotics and game AI.",
+  "stars": 3900,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 82.7,
+  "tags": [
+    "behavior-tree",
+    "game-ai",
+    "xml"
+  ],
+  "category": "Behavior Tree Library",
+  "summary": "Battle-tested C++ behavior tree library with XML-defined trees and logging",
+  "slug": "behaviortree-behaviortree-cpp"
+}

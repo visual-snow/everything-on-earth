@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/project-copacetic/copacetic",
+  "name": "project-copacetic/copacetic",
+  "description": "CLI tool for directly patching container images for known vulnerabilities without rebuilding from source, enabling fast container security remediation in CI/CD pipelines.",
+  "sub_domain": "container-cloud-security",
+  "score": 6,
+  "score_rationale": "1.6k stars with active development into March 2026, fills a unique automated container patching niche complementing vulnerability scanners.",
+  "stars": 1600,
+  "language": "Go",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 61.6,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "project-copacetic-copacetic"
+}

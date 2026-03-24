@@ -1,0 +1,88 @@
+{
+  "slug": "open5gs",
+  "name": "Open5GS",
+  "what_it_is": "Open5GS is an open-source C-language implementation of a 5G Core (5GC) and Evolved Packet Core (EPC) for LTE/NR networks, compliant with 3GPP Release-17. It provides a full set of network functions for both 4G and 5G standalone deployments.",
+  "components": [
+    "AMF (Access and Mobility Management Function)",
+    "SMF (Session Management Function)",
+    "UPF (User Plane Function)",
+    "NRF (Network Repository Function)",
+    "SCP (Service Communication Proxy)",
+    "SEPP (Security Edge Protection Proxy)",
+    "AUSF (Authentication Server Function)",
+    "UDM (Unified Data Management)",
+    "UDR (Unified Data Repository)",
+    "PCF (Policy Control Function)",
+    "NSSF (Network Slice Selection Function)",
+    "BSF (Binding Support Function)",
+    "MME (Mobility Management Entity — 4G EPC)",
+    "SGW-C / SGW-U (Serving Gateway — 4G EPC)",
+    "PGW-C / PGW-U (PDN Gateway — 4G EPC)",
+    "HSS (Home Subscriber Server — 4G EPC)",
+    "PCRF (Policy and Charging Rules Function — 4G EPC)",
+    "WebUI (subscriber provisioning interface)",
+    "MongoDB (subscriber data store)"
+  ],
+  "protocols": [
+    "Diameter (S6a, Gx, Gy — 4G EPC)",
+    "GTP-C (S11, S5/S8 — 4G EPC)",
+    "GTP-U (user plane tunneling)",
+    "NAS (Non-Access Stratum — LTE)",
+    "NAS-5GS (Non-Access Stratum — 5G NR)",
+    "NGAP (NG Application Protocol — N2 interface)",
+    "PFCP (Packet Forwarding Control Protocol — N4 interface)",
+    "S1AP (S1 Application Protocol — 4G eNB interface)",
+    "SBI (Service Based Interface — HTTP/2 REST, 5G NFs)",
+    "SCTP (transport for S1AP, NGAP)",
+    "GTPv1-U / GTPv2-C"
+  ],
+  "measurement": [
+    "WebUI exposes subscriber session state and data usage at port 9999",
+    "MongoDB stores subscriber records queryable via standard MongoDB tooling (port 27017)",
+    "Logs per network function (configurable log level in YAML config files)",
+    "No built-in Prometheus/metrics endpoint exposed by default"
+  ],
+  "configuration": [
+    "Per-NF YAML configuration files (e.g., amf.yaml, smf.yaml, upf.yaml) under /etc/open5gs/",
+    "Subscriber provisioning via WebUI (HTTP on port 9999) backed by MongoDB",
+    "Network slice configuration (S-NSSAI, TAI) in AMF and NSSF YAML files",
+    "APN/DNN and IP pool definitions in SMF/PGW YAML files",
+    "TUN device (ogstun) created by UPF/PGW-U; requires NET_ADMIN capability and TUN device access",
+    "IPv4 and IPv6 dual-stack supported in UPF data plane"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework; network-level faults can be introduced via Linux tc/iptables rules against GTP-U or SBI interfaces",
+    "Individual NFs can be stopped/restarted independently in Docker Compose to simulate NF failures",
+    "SCTP multi-homing failures can be simulated by manipulating network namespaces or dropping SCTP packets"
+  ],
+  "modes": [
+    "5G Standalone (SA) mode: full 5GC with gNB via NGAP/N2",
+    "4G EPC mode: MME + SGW + PGW + HSS + PCRF with eNB via S1AP",
+    "NSA (Non-Standalone) partial support via EPC coexistence",
+    "Development mode (docker dev service with GUI/display support)",
+    "Test mode (docker test service with automated test runner)"
+  ],
+  "constraints": [
+    "Requires Linux host with TUN/TAP device support and NET_ADMIN capability; does not run on macOS or Windows natively",
+    "MongoDB is the only supported subscriber data store; no SQL or alternative backend",
+    "No built-in RAN emulator — requires an external gNB/eNB or software RAN (e.g., srsRAN, UERANSIM) to form a complete testbed",
+    "UPF data plane is kernel-space GTP-U via TUN device, not DPDK; throughput is limited compared to hardware-accelerated deployments",
+    "Licensed under GNU AGPL v3.0 — commercial use requires a separate commercial license from NewPlane"
+  ],
+  "docker_services": [
+    "mongodb — subscriber database (port 27017)",
+    "webui — subscriber management UI (port 9999)",
+    "base — base build image (no runtime role)",
+    "build — compilation service",
+    "run — production runtime container (NET_ADMIN, TUN, IPv6)",
+    "test — automated test execution container (NET_ADMIN, TUN, IPv6)",
+    "dev — interactive development container with display support (NET_ADMIN, TUN, IPv6)"
+  ],
+  "notable_absences": [
+    "No built-in UE simulator or traffic generator",
+    "No Prometheus/Grafana metrics endpoint out of the box",
+    "No charging / online charging system (OCS) implementation",
+    "No IMS (IP Multimedia Subsystem) or VoLTE/VoNR support",
+    "No DPDK or AF_XDP fast-path UPF variant included"
+  ]
+}

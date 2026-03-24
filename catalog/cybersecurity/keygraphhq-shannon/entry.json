@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/keygraphhq/shannon",
+  "name": "KeygraphHQ/shannon",
+  "description": "Shannon Lite is an autonomous white-box AI pentester for web applications and APIs that analyzes source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before production release.",
+  "sub_domain": "ai-security",
+  "score": 9,
+  "score_rationale": "Viral AI pentesting tool with 34k+ stars representing a significant leap in autonomous vulnerability discovery for web apps.",
+  "stars": 34400,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 90.3,
+  "tags": [
+    "autonomous-pentesting",
+    "web-app-security",
+    "vulnerability-discovery",
+    "api-testing"
+  ],
+  "category": "Autonomous Web Pentester",
+  "summary": "White-box AI pentester analyzing source code to identify & execute real exploits",
+  "slug": "keygraphhq-shannon"
+}

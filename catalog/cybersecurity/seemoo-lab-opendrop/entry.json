@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/seemoo-lab/opendrop",
+  "name": "seemoo-lab/opendrop",
+  "description": "Open-source implementation of Apple AirDrop protocol in Python, enabling research into the privacy vulnerabilities and security properties of Apple's proximity-based sharing protocol.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 7,
+  "score_rationale": "Important wireless protocol research tool with 9.5k stars; notable for privacy vulnerability discoveries in Apple's proprietary protocols.",
+  "stars": 9549,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-06-11",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 73.8,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "open-source implementation of apple airdrop protocol in python, enabling research into the privacy v...",
+  "slug": "seemoo-lab-opendrop"
+}

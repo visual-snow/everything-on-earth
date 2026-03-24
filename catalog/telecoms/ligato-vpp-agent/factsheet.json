@@ -1,0 +1,86 @@
+{
+  "slug": "ligato-vpp-agent",
+  "name": "Ligato VPP Agent",
+  "what_it_is": "A Go-based control/management plane agent for FD.io VPP (Vector Packet Processor), built on the CN-Infra framework. It exposes VPP networking functionality via a model-driven northbound API over gRPC, REST, etcd, and Kafka, translating those calls into VPP Binary API operations via GoVPP.",
+  "components": [
+    "vpp-agent (main agent binary)",
+    "vpp-agent-init (initialization helper)",
+    "agentctl (CLI management tool)",
+    "kvscheduler (transaction orchestration engine)",
+    "configurator plugin (unified NB configuration handler)",
+    "orchestrator plugin (multi-source config reconciler)",
+    "restapi plugin (HTTP REST interface)",
+    "telemetry plugin (Prometheus metrics exporter)",
+    "govppmux plugin (GoVPP multiplexer for VPP Binary API)",
+    "netalloc plugin (IP/MAC address allocator)",
+    "VPP plugins: ifplugin, l2plugin, l3plugin, aclplugin, natplugin, ipsecplugin, abfplugin, srplugin, stnplugin, puntplugin, wireguardplugin, dnsplugin, ipfixplugin",
+    "Linux plugins: ifplugin, l3plugin, nsplugin, iptablesplugin"
+  ],
+  "protocols": [
+    "gRPC (northbound API, port configurable via grpc.conf, default 9111)",
+    "REST/HTTP (northbound API and dump endpoints)",
+    "etcd (KV store for config distribution and status publishing, default endpoint 172.17.0.1:2379)",
+    "Kafka (optional message bus transport)",
+    "VPP Binary API via Unix socket (/run/vpp/api.sock via GoVPP)",
+    "VPP Stats API via Unix socket (/run/vpp/stats.sock)",
+    "VPP CLI via Unix socket (/run/vpp/cli.sock)",
+    "Prometheus (metrics scraping via telemetry plugin)"
+  ],
+  "measurement": [
+    "VPP runtime statistics via /vpp/telemetry/runtime",
+    "VPP memory statistics via /vpp/telemetry/memory",
+    "VPP node counters via /vpp/telemetry/nodecount",
+    "VPP generic telemetry via /vpp/telemetry",
+    "Configurator stats via /stats/configurator",
+    "Linux interface stats via /stats/linux/interfaces",
+    "Prometheus metrics exported by telemetry plugin (polling-interval: 30s default)",
+    "Per-node counters via VPP statseg (per-node-counters on)",
+    "KVScheduler transaction metrics and graph state"
+  ],
+  "configuration": [
+    "etcd.conf: etcd endpoints, dial-timeout, insecure-transport flag",
+    "grpc.conf: gRPC listener endpoint (e.g. 0.0.0.0:9111)",
+    "vpp.conf: VPP startup config (unix sockets, plugins, DPDK disable, api-trace, statseg)",
+    "vpp-ifplugin.conf: stopwatch flag, status-publishers list (etcd, redis)",
+    "logs.conf: default-level (e.g. debug)",
+    "telemetry.conf: polling-interval, disabled flag, prometheus-disabled flag, skipped metrics list",
+    "supervisor.conf: process definitions for vpp and agent with executable paths and args",
+    "REST API: PUT /configuration (full NB config), GET /configuration, POST /configuration/validate",
+    "agentctl CLI: status, dump all, config get/update commands"
+  ],
+  "fault_injection": [
+    "VPP can be stopped independently (supervisor hook terminates agent on VPP termination)",
+    "etcd can be disconnected to simulate KV store unavailability (insecure-transport and dial-timeout configurable)",
+    "DPDK plugin disabled by default in dev image (plugin dpdk_plugin.so { disable }) — swap to hardware NIC for dataplane faults",
+    "api-trace enabled (on) allowing replay and inspection of VPP API call sequences for fault analysis",
+    "KVScheduler resync mechanism can be triggered to force full state reconciliation"
+  ],
+  "modes": [
+    "dev mode: ligato/dev-vpp-agent image with full toolchain and debug logging",
+    "prod mode: ligato/vpp-agent image with minimal footprint",
+    "arm64 mode: ligato/vpp-agent-arm64 image for ARM64 platforms",
+    "standalone mode: docker run --privileged with embedded VPP (no external etcd required for local config)",
+    "distributed mode: etcd-backed config distribution for multi-agent deployments",
+    "local client mode: in-process configuration without external transport (localclient_vpp examples)"
+  ],
+  "constraints": [
+    "Requires --privileged Docker flag (or equivalent capabilities) for VPP to access kernel networking and hugepages",
+    "VPP Unix sockets (/run/vpp/api.sock, /run/vpp/stats.sock, /run/vpp/cli.sock) must be accessible within the container — agent and VPP must share the same process namespace or volume",
+    "etcd must be reachable before agent starts for KV-store-backed deployments (no built-in retry beyond dial-timeout)",
+    "DPDK plugin is disabled in dev/prod images by default; hardware NIC passthrough requires host DPDK configuration and hugepage allocation",
+    "KVScheduler enforces strict dependency ordering — misconfigured object dependencies cause transactions to be held in pending state, not silently skipped",
+    "Status publishing to Redis requires redis endpoint configuration (referenced in vpp-ifplugin.conf status-publishers but not included in default dev image config)"
+  ],
+  "docker_services": [
+    "vpp: /usr/bin/vpp -c /etc/vpp/vpp.conf (managed by supervisor)",
+    "agent: /go/bin/vpp-agent --config-dir=/opt/vpp-agent/dev (managed by supervisor)",
+    "etcd: external dependency, typically run separately (e.g. quay.io/coreos/etcd) on host at 172.17.0.1:2379"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in the repository root or docker/ subdirectories — orchestration is via direct docker run or Kubernetes manifests in k8s/",
+    "No built-in web UI — management is via agentctl CLI or REST API only",
+    "No native Kafka consumer configuration files included in dev image (Kafka is supported via CN-Infra but not pre-configured)",
+    "No TLS configuration for gRPC or etcd in default dev image (insecure-transport: true)",
+    "No built-in traffic generation or load testing tooling"
+  ]
+}

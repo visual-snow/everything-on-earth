@@ -1,0 +1,53 @@
+{
+  "name": "nfsen-ng-docker",
+  "repo_url": "https://github.com/dircr/nfsen-ng-docker",
+  "description": "Docker setup for running nfsen-ng (NetFlow visualizer) and nfdump (NetFlow collector) together with multi-source support.",
+  "domain": "flow-monitoring",
+  "secondary_domains": [
+    "netconf",
+    "network-traffic-analysis"
+  ],
+  "protocols": [
+    "NetFlow v5/v9",
+    "IPFIX",
+    "sFlow"
+  ],
+  "provides": [
+    "netflow-collection",
+    "netflow-visualization",
+    "web-dashboard",
+    "multi-source-flow-analysis",
+    "ipfix-collection",
+    "sflow-collection",
+    "nfdump-integration",
+    "flow-data-storage"
+  ],
+  "needs": [
+    "netflow-traffic-source",
+    "linux-host",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 2,
+    "docker_evidence": "Docker setup for running nfsen-ng and nfdump together."
+  },
+  "github_metrics": {
+    "stars": 20,
+    "last_commit": "2024-01-01",
+    "language": "Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Modern web-based NetFlow visualization. Agents can analyze flow data through the nfsen-ng responsive interface.",
+  "related_repos": [
+    "https://github.com/mbolli/nfsen-ng",
+    "https://github.com/phaag/nfdump"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "nfsen-ng-docker"
+}

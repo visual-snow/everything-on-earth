@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ashblue/fluid-behavior-tree",
+  "name": "ashblue/fluid-behavior-tree",
+  "description": "A code-driven behavior tree library for Unity using the builder pattern, with pre-built tasks, a runtime tree visualizer, and TDD-tested implementation for maintainable game AI.",
+  "sub_domain": "behavior-ai",
+  "score": 7,
+  "score_rationale": "1.1k stars, emphasizes testability and maintainability with a fluent builder API suited for large Unity projects.",
+  "stars": 1100,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 66.3,
+  "tags": [
+    "behavior-tree",
+    "unity",
+    "game-ai",
+    "builder-pattern",
+    "testable"
+  ],
+  "category": "Behavior Trees",
+  "summary": "Fluent behavior tree library for Unity with testability focus",
+  "slug": "ashblue-fluid-behavior-tree"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Oxidized",
+  "repo_url": "https://github.com/ytti/oxidized",
+  "description": "Network device configuration backup tool and modern RANCID replacement. Connects to devices via SSH/Telnet, pulls configurations, and stores them in a Git repository with full version history and diff capabilities.",
+  "domain": "change-detection",
+  "secondary_domains": [
+    "compliance-auditing",
+    "netconf",
+    "network-backup"
+  ],
+  "protocols": [
+    "SNMP",
+    "SSH",
+    "Telnet"
+  ],
+  "provides": [
+    "network-config-backup",
+    "git-version-control",
+    "multi-vendor-device-support",
+    "ssh-telnet-connectivity",
+    "config-diff-tracking",
+    "rest-api",
+    "web-dashboard",
+    "snmp-polling"
+  ],
+  "needs": [
+    "network-devices-or-simulators",
+    "git-repository",
+    "ruby-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "oxidized/oxidized",
+    "compose_services_count": 1,
+    "docker_evidence": "Official Docker image automatically built and pushed to Docker Hub. Supports linux/amd64 and linux/arm64."
+  },
+  "github_metrics": {
+    "stars": 3300,
+    "last_commit": "2026-03-22",
+    "language": "Ruby",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Network configuration backup and version control. Useful for evaluations involving configuration management, change detection, and compliance auditing.",
+  "related_repos": [
+    "airwalk-digital/docker-oxidized",
+    "claranet/oxidized",
+    "https://github.com/airwalk-digital/docker-oxidized",
+    "ytti/oxidized-web"
+  ],
+  "_sources": [
+    "discovery/monitoring.json",
+    "discovery/netconf-mgmt/config-compliance.json",
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/netauto-frameworks.json"
+  ],
+  "slug": "oxidized"
+}

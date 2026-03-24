@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openra/openra",
+  "name": "OpenRA/OpenRA",
+  "description": "Open Source real-time strategy game engine for classic Westwood games (Command & Conquer, Red Alert) written in C# using SDL and OpenGL. Runs on Windows, Linux, macOS, and BSD.",
+  "sub_domain": "game-engines-3d",
+  "score": 8,
+  "score_rationale": "16.5k stars, highly polished RTS engine with active community, production-quality releases, and full support for classic C&C titles.",
+  "stars": 16500,
+  "language": "C#",
+  "license": "GPL-3.0",
+  "last_activity": "2025-03-30",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 81.7,
+  "tags": [
+    "rts-game-engine",
+    "c#",
+    "strategy-game",
+    "command-conquer",
+    "classic"
+  ],
+  "category": "RTS Game Engine",
+  "summary": "Polished RTS engine for Command & Conquer and Red Alert games",
+  "slug": "openra-openra"
+}

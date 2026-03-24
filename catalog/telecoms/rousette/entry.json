@@ -1,0 +1,57 @@
+{
+  "name": "Rousette",
+  "repo_url": "https://github.com/cesnet/rousette",
+  "description": "Full RESTCONF server for sysrepo with XML/JSON encoding, YANG module library access, data retrieval/edits, RPC execution, NACM access control, and NETCONF notification streams.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "sysrepo"
+  ],
+  "protocols": [
+    "HTTP/2",
+    "RESTCONF",
+    "YANG"
+  ],
+  "provides": [
+    "netconf-restconf-bridge",
+    "xml-json-encoding",
+    "rpc-execution",
+    "config-mutation",
+    "yang-datastore",
+    "nacm-access-control",
+    "yang-module-library",
+    "netconf-notification-streams",
+    "restconf-server"
+  ],
+  "needs": [
+    "sysrepo",
+    "netopeer2",
+    "nghttpx-proxy",
+    "libyang",
+    "cpp20-compiler"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 2,
+    "docker_evidence": "Base container notconf:latest includes netopeer2 + rousette + sysrepo. RESTCONF on port 10080 behind nghttpx reverse proxy on port 80."
+  },
+  "github_metrics": {
+    "stars": 20,
+    "last_commit": "2026-01",
+    "language": "C++",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Development via Gerrit, GitHub PRs not accepted. Requires C++20 compiler. Complements netopeer2 with RESTCONF access to the same sysrepo datastore. Changes via NETCONF are immediately visible via RESTCONF and vice versa. Newer project from CESNET, actively maintained.",
+  "related_repos": [
+    "https://github.com/cesnet/libyang",
+    "https://github.com/cesnet/netopeer2",
+    "https://github.com/sysrepo/sysrepo"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/restconf-gnmi-config.json",
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "rousette"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/luanti-org/luanti",
+  "name": "luanti-org/luanti",
+  "description": "Luanti (formerly Minetest) is an open-source voxel game-creation platform with easy modding and game creation via Lua scripting. Supports a full content ecosystem via ContentDB.",
+  "sub_domain": "voxel-engines",
+  "score": 10,
+  "score_rationale": "12.5k stars, the gold standard open-source voxel game creation platform with a massive modding ecosystem, active development, and February 2026 release.",
+  "stars": 12500,
+  "language": "C++",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-02-08",
+  "found_in_domains": [
+    "voxel-engines"
+  ],
+  "quality_score": 92.8,
+  "tags": [
+    "voxel",
+    "open-source",
+    "lua",
+    "modding",
+    "game-creation"
+  ],
+  "category": "Voxel Game Platform",
+  "summary": "Open-source voxel platform with Lua modding and massive content ecosystem",
+  "slug": "luanti-org-luanti"
+}

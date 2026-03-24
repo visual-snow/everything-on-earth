@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/albertodemichelis/squirrel",
+  "name": "albertodemichelis/squirrel",
+  "description": "The official repository for the Squirrel scripting language \u2014 a lightweight, Lua-inspired, object-oriented scripting language used in Left 4 Dead 2, Portal 2, and War Thunder.",
+  "sub_domain": "game-scripting",
+  "score": 7,
+  "score_rationale": "1k stars, widely used in Valve games and AAA titles, proven in production game scripting for over a decade.",
+  "stars": 1000,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2022-02-10",
+  "found_in_domains": [
+    "game-scripting"
+  ],
+  "quality_score": 66.0,
+  "tags": [
+    "squirrel",
+    "scripting",
+    "valve-games",
+    "aaa",
+    "oop"
+  ],
+  "category": "Scripting Language",
+  "summary": "Production-proven scripting language for Valve games",
+  "slug": "albertodemichelis-squirrel"
+}

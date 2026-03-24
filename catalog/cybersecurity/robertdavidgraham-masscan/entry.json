@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/robertdavidgraham/masscan",
+  "name": "robertdavidgraham/masscan",
+  "description": "An asynchronous TCP port scanner capable of scanning the entire Internet in under 5 minutes by transmitting 10 million packets per second from a single machine.",
+  "sub_domain": "network-security",
+  "score": 9,
+  "score_rationale": "Essential high-speed internet scanning tool with 25.5k stars, widely used in reconnaissance and asset discovery despite being last updated in 2021.",
+  "stars": 25500,
+  "language": "C",
+  "license": "AGPL-3.0",
+  "last_activity": "2023-01-01",
+  "found_in_domains": [
+    "network-security",
+    "vuln-scanners"
+  ],
+  "quality_score": 89.3,
+  "tags": [
+    "packet-capture",
+    "pe-format",
+    "vulnerability-scanning"
+  ],
+  "category": "Vulnerability Scanner",
+  "summary": "An asynchronous TCP port scanner capable of scanning the entire Internet in under 5 minutes by tr...",
+  "slug": "robertdavidgraham-masscan"
+}

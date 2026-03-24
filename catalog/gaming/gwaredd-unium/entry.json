@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gwaredd/unium",
+  "name": "gwaredd/unium",
+  "description": "A Unity library for game automation that exposes an HTTP API to enable external tools and test scripts to inspect and control game scenes at runtime via a built-in web server.",
+  "sub_domain": "game-devops-analytics",
+  "score": 4,
+  "score_rationale": "238 stars, MIT, niche but unique approach to Unity test automation; last active 2022 suggests limited ongoing development.",
+  "stars": 238,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2022-02-08",
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 43.0,
+  "tags": [
+    "testing",
+    "unity",
+    "automation",
+    "http-api",
+    "remote-control"
+  ],
+  "category": "Unity Runtime Automation",
+  "summary": "HTTP API for runtime control and testing of Unity game scenes",
+  "slug": "gwaredd-unium"
+}

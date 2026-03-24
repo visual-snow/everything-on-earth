@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/armory3d/armory",
+  "name": "armory3d/armory",
+  "description": "An open-source 3D game engine with full Blender integration, turning Blender into a complete game development environment. Targets web, mobile, and desktop platforms.",
+  "sub_domain": "game-engines-3d",
+  "score": 7,
+  "score_rationale": "3.3k stars with a unique Blender-native workflow that appeals to 3D artists wanting to create games without leaving Blender.",
+  "stars": 3300,
+  "language": "C++",
+  "license": "Zlib",
+  "last_activity": "2026-02-16",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 70.1,
+  "tags": [
+    "3d-game-engine",
+    "blender-integration",
+    "game-development",
+    "cross-platform",
+    "artist-friendly"
+  ],
+  "category": "Blender Game Engine",
+  "summary": "Blender-integrated 3D engine for artists developing games natively",
+  "slug": "armory3d-armory"
+}

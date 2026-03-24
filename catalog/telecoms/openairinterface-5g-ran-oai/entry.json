@@ -1,0 +1,76 @@
+{
+  "name": "OpenAirInterface 5G RAN (OAI)",
+  "repo_url": "https://github.com/openairinterface/openairinterface5g",
+  "description": "Full 4G LTE and 5G NR Radio Access Network implementation. Includes gNB, eNB, and UE (nrUE) with RF simulator mode for containerized testing.",
+  "domain": "baseband-processing",
+  "secondary_domains": [
+    "lte-ran",
+    "o-ran",
+    "radio-access-network"
+  ],
+  "protocols": [
+    "5G NR",
+    "LTE",
+    "NGAP",
+    "S1AP",
+    "F1AP",
+    "E1AP",
+    "E2AP",
+    "GTP-U",
+    "SCTP"
+  ],
+  "provides": [
+    "5g-nr-gnb",
+    "4g-lte-enb",
+    "nr-ue-simulator",
+    "rf-simulator",
+    "phy-layer-simulation",
+    "mac-scheduler",
+    "rlc-layer",
+    "pdcp-layer",
+    "rrc-layer",
+    "sdap-layer",
+    "f1ap-interface",
+    "e1ap-interface",
+    "e2ap-interface",
+    "ngap-interface",
+    "s1ap-interface",
+    "gtp-u-tunneling",
+    "o-ran-e2-agent",
+    "containerized-e2e-ran",
+    "phy-simulators-dlsim-ulsim",
+    "ldpc-codec"
+  ],
+  "needs": [
+    "sctp-support",
+    "linux-kernel-5.4+",
+    "5g-core-network",
+    "uhd-usrp-driver-or-rfsim",
+    "high-cpu-multicore",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "oaisoftwarealliance/oai-gnb",
+    "compose_services_count": 3,
+    "docker_evidence": "Official Docker images on Docker Hub (oaisoftwarealliance/oai-gnb, oaisoftwarealliance/oai-nr-ue). docker-compose at ci-scripts/yaml_files/5g_rfsimulator/docker-compose.yaml for RF simulator deployment."
+  },
+  "github_metrics": {
+    "stars": 700,
+    "last_commit": "2026-03",
+    "language": "C",
+    "license": "OAI Public License V1.1"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Most comprehensive open-source RAN: full PHY/MAC/RLC/PDCP/RRC/SDAP stack. RF simulator enables fully containerized E2E testing. Includes PHY layer simulators (DLSIM, ULSIM, LDPC, etc.). O-RAN E2 interface support. Highest data rates among open-source options.",
+  "related_repos": [
+    "https://github.com/ravens/docker-openairinterface-enb",
+    "https://github.com/baleeiro17/oaiwithdocker",
+    "https://github.com/usnistgov/o-ran-testbed-automation"
+  ],
+  "_sources": [
+    "discovery/ran-ue.json"
+  ],
+  "slug": "openairinterface-5g-ran-oai"
+}

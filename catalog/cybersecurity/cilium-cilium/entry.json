@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cilium/cilium",
+  "name": "cilium/cilium",
+  "description": "eBPF-based networking, observability, and security solution for Kubernetes providing identity-based security policies, distributed load balancing, service mesh, and multi-cluster connectivity. CNCF graduated project.",
+  "sub_domain": "container-cloud-security",
+  "score": 10,
+  "score_rationale": "CNCF graduated project with 24k stars and critical production adoption, representing the leading eBPF-based Kubernetes networking and security platform.",
+  "stars": 24000,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 95.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "cilium-cilium"
+}

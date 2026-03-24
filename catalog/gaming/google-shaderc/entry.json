@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/google/shaderc",
+  "name": "google/shaderc",
+  "description": "Collection of tools and libraries for Vulkan shader compilation, including glslc (GLSL/HLSL to SPIR-V compiler) and libshaderc API; maintained by Google.",
+  "sub_domain": "graphics-rendering",
+  "score": 8,
+  "score_rationale": "Google-maintained shader compilation toolkit with 2.1k stars, widely used as the go-to GLSL-to-SPIR-V compilation pipeline in Vulkan projects.",
+  "stars": 2100,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-03-01",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 74.6,
+  "tags": [
+    "shaders",
+    "vulkan",
+    "compilation"
+  ],
+  "category": "Shader Tools",
+  "summary": "Google shader compilation toolkit for Vulkan",
+  "slug": "google-shaderc"
+}

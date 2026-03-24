@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/thunder-engine/thunder",
+  "name": "thunder-engine/thunder",
+  "description": "A cross-platform 2D and 3D game engine with modular architecture and visual editor, written in C++. Supports scripting and multiple rendering backends.",
+  "sub_domain": "game-engines-3d",
+  "score": 5,
+  "score_rationale": "640 stars, small but actively maintained modular C++ engine with recent 2026 release, limited community traction.",
+  "stars": 640,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-04",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 52.5,
+  "tags": [
+    "3d-game-engine",
+    "c++",
+    "2d-game-engine",
+    "modular",
+    "visual-editor"
+  ],
+  "category": "Modular 2D/3D Engine",
+  "summary": "Modular C++ 2D/3D engine with visual editor and scripting",
+  "slug": "thunder-engine-thunder"
+}

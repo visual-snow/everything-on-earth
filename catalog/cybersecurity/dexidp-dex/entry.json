@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/dexidp/dex",
+  "name": "dexidp/dex",
+  "description": "OpenID Connect identity and OAuth 2.0 provider with pluggable connectors for LDAP, SAML, GitHub, Google, and other identity backends, widely used in Kubernetes environments.",
+  "sub_domain": "iam-auth",
+  "score": 8,
+  "score_rationale": "Well-established OIDC federation provider with 10.7k stars, Apache-2.0 licensed, actively maintained and commonly used as an identity broker in Kubernetes and cloud-native deployments.",
+  "stars": 10700,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 80.2,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "dexidp-dex"
+}

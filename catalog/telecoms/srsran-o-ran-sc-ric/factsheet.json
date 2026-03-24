@@ -1,0 +1,125 @@
+{
+  "slug": "srsran-o-ran-sc-ric",
+  "name": "srsRAN O-RAN SC RIC",
+  "what_it_is": "A containerized implementation of the O-RAN Software Community Near-RT RIC (i-release) that deploys as a multi-container application via a single Docker Compose command, without requiring Kubernetes or Helm. It ships with example KPM and RC xApps and integrates with srsRAN Project gNB over the E2 interface.",
+  "components": [
+    "e2term — E2 Termination Point, connects to E2 agents over SCTP",
+    "e2mgr — E2 Manager, maintains E2 node connections and state",
+    "submgr — Subscription Manager, handles E2 subscription lifecycle via REST API",
+    "appmgr — Application Manager, handles xApp deployment and lifecycle",
+    "rtmgr_sim — Routing Manager Simulator using static routing tables (replaces real Routing Manager)",
+    "dbaas — Redis-backed Shared Data Layer (SDL) database",
+    "python_xapp_runner — Container with Python xApp framework hosting example KPM and RC xApps"
+  ],
+  "protocols": [
+    "E2AP — E2 Application Protocol for RIC-to-agent messaging",
+    "E2SM-KPM — E2 Service Model for Key Performance Metrics (Report Styles 1–5, UE-level and node-level)",
+    "E2SM-RC — E2 Service Model for Radio Control (PRB quota management, handover control)",
+    "E2SM-CCC — E2 Service Model for Common Configuration Control (O-RRMPolicyRatio)",
+    "RMR — RIC Message Router, peer-to-peer internal messaging bus",
+    "SCTP — Transport layer for E2 connections",
+    "REST — xApp-to-Subscription Manager communication",
+    "ZMQ — Simulated RF link between srsRAN gNB and srsRAN-4G UE"
+  ],
+  "measurement": [
+    "DRB.UEThpDl — per-UE downlink throughput",
+    "DRB.UEThpUl — per-UE uplink throughput",
+    "E2SM-KPM Report Styles 1–5 covering E2-node-level and UE-level granularity",
+    "Subscription-based periodic reporting triggered by xApp KPM subscriptions"
+  ],
+  "configuration": [
+    "ric/configs/routes.rtg — static RMR routing table shared by all services",
+    "ric/configs/submgr.yaml — Subscription Manager configuration",
+    "ric/configs/e2mgr.yaml — E2 Manager configuration",
+    "ric/configs/e2term.conf — E2 Termination configuration",
+    "ric/configs/appmgr.yaml — Application Manager configuration",
+    "ric/configs/rtmgr.yaml — Routing Manager Simulator configuration",
+    ".env file — version pins for all service images (DBAAS_VER, E2TERM_VER, E2MGR_VER, SUBMGR_VER, APPMGR_VER, SC_RIC_VERSION)",
+    "e2-agents/srsRAN directory — E2 agent configuration for srsRAN gNB",
+    "docker-compose.yml — port 36421/sctp for e2term is commented out by default; uncomment to accept external gNB connections"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Monitoring mode — KPM xApp subscribes to periodic E2SM-KPM reports and prints UE/node metrics",
+    "Control mode — RC xApp sends E2SM-RC control messages to adjust PRB quotas or trigger handovers",
+    "Policy configuration mode — E2SM-CCC xApp configures O-RRMPolicyRatio on the E2 node",
+    "Local simulation mode — srsRAN gNB + srsRAN-4G UE connected over ZMQ within Docker network",
+    "Remote E2 agent mode — e2term SCTP port 36421 exposed to accept connections from external gNBs"
+  ],
+  "constraints": [
+    "Static routing only — rtmgr_sim uses a fixed routes.rtg file; dynamic routing requires a real Routing Manager with Kubernetes/Helm",
+    "Multi-xApp isolation relies on Subscription ID filtering, not true RMR routing isolation",
+    "RIC enforces a 60-second time-to-wait timer before accepting E2 agent reconnection attempts after disconnection",
+    "xApp may need manual restart to correctly receive RIC_INDICATION messages after initial connection",
+    "Locked to O-RAN SC i-release; no upgrade path to later releases provided",
+    "No security or authentication mechanisms are implemented in the Docker Compose deployment",
+    "E2AP packet inspection in Wireshark requires version 4.0.7 or later"
+  ],
+  "docker_services": [
+    {
+      "name": "dbaas",
+      "image": "nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-dbaas:${DBAAS_VER}",
+      "ip": "10.0.2.12",
+      "ports": [],
+      "depends_on": []
+    },
+    {
+      "name": "rtmgr_sim",
+      "image": "rtmgr_sim:${SC_RIC_VERSION} (built locally)",
+      "ip": "10.0.2.15",
+      "ports": [],
+      "volumes": ["./ric/configs/rtmgr.yaml", "./ric/configs/routes.rtg"],
+      "depends_on": []
+    },
+    {
+      "name": "submgr",
+      "image": "nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-submgr:${SUBMGR_VER}",
+      "ip": "10.0.2.13",
+      "ports": [],
+      "volumes": ["./ric/configs/submgr.yaml", "./ric/configs/routes.rtg"],
+      "depends_on": ["dbaas"]
+    },
+    {
+      "name": "e2term",
+      "image": "nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-e2:${E2TERM_VER}",
+      "ip": "10.0.2.10",
+      "ports": ["36421/sctp (commented out by default)"],
+      "volumes": ["./ric/configs/e2term.conf", "./ric/configs/routes.rtg"],
+      "depends_on": []
+    },
+    {
+      "name": "appmgr",
+      "image": "nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-appmgr:${APPMGR_VER}",
+      "ip": "10.0.2.14",
+      "ports": [],
+      "volumes": ["./ric/configs/routes.rtg", "./ric/configs/appmgr.yaml"],
+      "depends_on": []
+    },
+    {
+      "name": "e2mgr",
+      "image": "nexus3.o-ran-sc.org:10002/o-ran-sc/ric-plt-e2mgr:${E2MGR_VER}",
+      "ip": "10.0.2.11",
+      "ports": [],
+      "volumes": ["./ric/configs/routes.rtg", "./ric/configs/e2mgr.yaml"],
+      "depends_on": []
+    },
+    {
+      "name": "python_xapp_runner",
+      "image": "python_xapp_runner:${SC_RIC_VERSION} (built locally)",
+      "ip": "10.0.2.20",
+      "ports": [],
+      "volumes": ["./ric/configs/routes.rtg", "./xApps/python"],
+      "depends_on": []
+    }
+  ],
+  "notable_absences": [
+    "No Kubernetes or Helm support — intentionally simplified to Docker Compose only",
+    "No dynamic routing manager — replaced by a static-table simulator",
+    "No fault injection or chaos testing tooling",
+    "No authentication, TLS, or access control in the deployment",
+    "No O1 interface or SMO integration",
+    "No A1 interface or policy management framework",
+    "No performance benchmarking or load-testing tooling included",
+    "No upgrade path between O-RAN SC releases documented"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/oisf/suricata",
+  "name": "OISF/suricata",
+  "description": "Suricata is a high-performance network IDS, IPS, and network security monitoring engine developed by the Open Information Security Foundation. It analyzes network traffic to identify and respond to potential threats at wire speed.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 10,
+  "score_rationale": "Industry-standard open source network IDS/IPS with 6.1k stars, non-profit backed, and deployed in enterprise and ISP environments globally.",
+  "stars": 6100,
+  "language": "C",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "network-security"
+  ],
+  "quality_score": 90.3,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Suricata is a high-performance network IDS, IPS, and network security monitoring engine developed by",
+  "slug": "oisf-suricata"
+}

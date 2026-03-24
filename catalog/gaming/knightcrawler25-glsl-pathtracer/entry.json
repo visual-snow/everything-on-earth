@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/knightcrawler25/glsl-pathtracer",
+  "name": "knightcrawler25/GLSL-PathTracer",
+  "description": "Toy physically based GPU path tracer running in GLSL fragment shaders (C++/OpenGL), featuring Disney BSDF, multiple light types, image-based lighting, and importance sampling. Popular teaching and experimentation platform.",
+  "sub_domain": "ray-tracing",
+  "score": 8,
+  "score_rationale": "2k-star GPU path tracer accessible via GLSL/OpenGL without requiring RTX hardware, popular for learning PBR techniques.",
+  "stars": 2000,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2023-03-05",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 74.4,
+  "tags": [
+    "path-tracing",
+    "glsl",
+    "opengl",
+    "pbr",
+    "learning"
+  ],
+  "category": "GLSL Path Tracer",
+  "summary": "GPU path tracer in GLSL with Disney BSDF, supporting learning without RTX hardware.",
+  "slug": "knightcrawler25-glsl-pathtracer"
+}

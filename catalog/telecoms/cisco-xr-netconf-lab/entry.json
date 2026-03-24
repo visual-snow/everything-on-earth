@@ -1,0 +1,58 @@
+{
+  "name": "Cisco XR NETCONF Lab",
+  "repo_url": "https://github.com/ciscodevnet/xr-netconf-lab",
+  "description": "Jupyter-based lab for practicing NETCONF functionalities on Cisco IOS-XR. Includes Docker containers for telemetry collection and monitoring with model-driven telemetry data.",
+  "domain": "ios-xr",
+  "secondary_domains": [
+    "model-driven-telemetry",
+    "netconf"
+  ],
+  "protocols": [
+    "NETCONF",
+    "SSH",
+    "gRPC"
+  ],
+  "provides": [
+    "time-series-metrics",
+    "jupyter-notebook-lab",
+    "netconf-client",
+    "web-dashboard",
+    "config-mutation",
+    "yang-datastore",
+    "traffic-generation",
+    "streaming-telemetry",
+    "model-driven-telemetry",
+    "grpc-telemetry-pipeline"
+  ],
+  "needs": [
+    "cisco-iosxr-device",
+    "devnet-sandbox-access",
+    "influxdb",
+    "grafana"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 3,
+    "docker_evidence": "Docker containers for Jupyter lab, telemetry collection (pipeline), and monitoring (Grafana/InfluxDB)."
+  },
+  "github_metrics": {
+    "stars": 80,
+    "last_commit": "2024-01",
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Docker containers used for model-driven telemetry collection and monitoring. Includes Chronograf, Jupyter Notebook, and Iperf for traffic generation. Designed for DevNet sandbox environment. Interactive Jupyter-based NETCONF learning environment. Good for hands-on NETCONF testing with Cisco IOS-XR. Docker-compose provides monitoring stack.",
+  "related_repos": [
+    "https://github.com/ciscodevnet/ncc",
+    "https://github.com/ciscodevnet/xrd-sandbox",
+    "https://github.com/ncclient/ncclient"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/netconf-testing.json"
+  ],
+  "slug": "cisco-xr-netconf-lab"
+}

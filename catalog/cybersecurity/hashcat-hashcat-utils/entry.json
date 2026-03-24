@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/hashcat/hashcat-utils",
+  "name": "hashcat/hashcat-utils",
+  "description": "Collection of small utilities useful in advanced password cracking workflows, including tools for mask analysis, wordlist manipulation, and hash preprocessing, all chainable via stdin/stdout.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 8,
+  "score_rationale": "Official hashcat companion utilities with 1.6k stars, MIT license, and active releases through September 2025.",
+  "stars": 1600,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-09-13",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 73.6,
+  "tags": [
+    "hash-cracking",
+    "password-cracking",
+    "security-tool"
+  ],
+  "category": "Password Cracker",
+  "summary": "Collection of small utilities useful in advanced password cracking workflows, including tools for...",
+  "slug": "hashcat-hashcat-utils"
+}

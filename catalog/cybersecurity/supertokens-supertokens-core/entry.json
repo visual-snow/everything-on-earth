@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/supertokens/supertokens-core",
+  "name": "supertokens/supertokens-core",
+  "description": "Open source alternative to Auth0, Firebase Auth, and AWS Cognito providing self-hosted authentication with session management, passwordless, and social login support.",
+  "sub_domain": "iam-auth",
+  "score": 8,
+  "score_rationale": "Popular Auth0 alternative with 15k stars, Apache-2.0 licensed, actively maintained with multi-framework support and emphasis on on-premises data control.",
+  "stars": 15000,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-01",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 81.4,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "supertokens-supertokens-core"
+}

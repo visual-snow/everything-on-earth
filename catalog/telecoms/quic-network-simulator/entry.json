@@ -1,0 +1,58 @@
+{
+  "name": "QUIC Network Simulator",
+  "repo_url": "https://github.com/quic-interop/quic-network-simulator",
+  "description": "Test framework for benchmarking QUIC implementations under various network conditions. Uses ns-3 for network simulation with Docker containers isolating client, server, and simulator components.",
+  "domain": "interoperability-testing",
+  "secondary_domains": [
+    "network-simulation",
+    "protocol-benchmarking",
+    "quic",
+    "transport-layer"
+  ],
+  "protocols": [
+    "QUIC",
+    "UDP",
+    "TCP"
+  ],
+  "provides": [
+    "ns3-integration",
+    "multi-container-client-server",
+    "packet-loss-simulation",
+    "protocol-interoperability-testing",
+    "network-simulation",
+    "latency-emulation",
+    "link-impairment",
+    "traffic-generation",
+    "bandwidth-throttling",
+    "quic-protocol-testing",
+    "udp-traffic-generation"
+  ],
+  "needs": [
+    "docker-compose",
+    "quic-implementation-image",
+    "linux-host",
+    "ns3-compatible-kernel"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "martenseemann/quic-network-simulator-endpoint",
+    "compose_services_count": 3,
+    "docker_evidence": "The framework uses docker-compose to compose three docker images: the network simulator, and a client and a server."
+  },
+  "github_metrics": {
+    "stars": 183,
+    "last_commit": "unknown",
+    "language": "C++",
+    "license": "unknown"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Well-structured Docker-based simulation framework with ns-3 as the network backbone. Three-container architecture (client/server/simulator) is a clean pattern for protocol testing evaluations. Could be adapted for other protocol testing scenarios.",
+  "related_repos": [
+    "https://github.com/marten-seemann/quic-go-docker"
+  ],
+  "_sources": [
+    "discovery/digital-twin.json"
+  ],
+  "slug": "quic-network-simulator"
+}

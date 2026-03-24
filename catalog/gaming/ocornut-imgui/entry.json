@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ocornut/imgui",
+  "name": "ocornut/imgui",
+  "description": "Dear ImGui is an industry-standard bloat-free immediate mode GUI library for C++ used extensively in game engines and tooling. Supports DirectX, Vulkan, OpenGL, Metal, and more with minimal dependencies.",
+  "sub_domain": "game-ui",
+  "score": 10,
+  "score_rationale": "The de facto standard for in-game tooling and debug UI with 72k stars and near-universal adoption across game engines.",
+  "stars": 72200,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 98.9,
+  "tags": [
+    "immediate-mode",
+    "gui",
+    "game-tools",
+    "debug-ui",
+    "industry-standard"
+  ],
+  "category": "Game UI Library",
+  "summary": "Industry-standard immediate-mode GUI for game tools",
+  "slug": "ocornut-imgui"
+}

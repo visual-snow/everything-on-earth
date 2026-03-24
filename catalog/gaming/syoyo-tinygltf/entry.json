@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/syoyo/tinygltf",
+  "name": "syoyo/tinygltf",
+  "description": "Header-only C++11 library for loading and saving glTF 2.0 files, designed for easy integration with minimal dependencies. Used widely in game engines and research projects.",
+  "sub_domain": "asset-formats",
+  "score": 8,
+  "score_rationale": "Extremely popular header-only glTF loader with 2.4k stars, MIT licensed, and the default choice for C++ projects needing lightweight glTF import.",
+  "stars": 2400,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-01-20",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 75.0,
+  "tags": [
+    "gltf",
+    "header-only",
+    "3d-loading"
+  ],
+  "category": "glTF Loader",
+  "summary": "Lightweight header-only glTF 2.0 loader for minimal-dependency C++ projects",
+  "slug": "syoyo-tinygltf"
+}

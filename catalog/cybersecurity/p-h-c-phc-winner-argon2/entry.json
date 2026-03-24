@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/p-h-c/phc-winner-argon2",
+  "name": "P-H-C/phc-winner-argon2",
+  "description": "The reference C implementation of Argon2, the Password Hashing Competition winner and recommended password-hashing function. Provides Argon2i, Argon2d, and Argon2id variants for secure password storage and key derivation.",
+  "sub_domain": "cryptography",
+  "score": 7,
+  "score_rationale": "The authoritative reference implementation of the industry-recommended password hashing algorithm with 5.2k stars, though development has slowed since 2019 as the algorithm is considered stable.",
+  "stars": 5200,
+  "language": "C",
+  "license": "Apache-2.0",
+  "last_activity": "2023-01-01",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 71.7,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "p-h-c-phc-winner-argon2"
+}

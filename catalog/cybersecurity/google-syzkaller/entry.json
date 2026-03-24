@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/syzkaller",
+  "name": "google/syzkaller",
+  "description": "Google's unsupervised coverage-guided kernel fuzzer supporting Linux, Windows, FreeBSD, NetBSD, OpenBSD, Fuchsia, and gVisor; the primary tool for kernel vulnerability discovery.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 9,
+  "score_rationale": "Industry-standard kernel fuzzer with 6.1k stars, widely used by OS security teams and researchers to find kernel-level vulnerabilities.",
+  "stars": 6100,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-01",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 84.3,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "google-syzkaller"
+}

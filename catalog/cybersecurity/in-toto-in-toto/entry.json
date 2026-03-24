@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/in-toto/in-toto",
+  "name": "in-toto/in-toto",
+  "description": "Python-based framework for securing the integrity of software supply chains. Provides a metadata format and verification workflow to cryptographically attest each step of the build process.",
+  "sub_domain": "Supply Chain Security",
+  "score": 8,
+  "score_rationale": "Academic-origin supply chain integrity framework with 984+ stars, underpins SLSA provenance attestation format.",
+  "stars": 984,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 71.9,
+  "tags": [
+    "framework",
+    "pentesting",
+    "modules"
+  ],
+  "category": "Pentesting Framework",
+  "summary": "Comprehensive penetration testing framework",
+  "slug": "in-toto-in-toto"
+}

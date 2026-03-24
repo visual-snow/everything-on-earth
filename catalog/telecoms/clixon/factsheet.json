@@ -1,0 +1,50 @@
+{
+  "slug": "clixon",
+  "name": "Clixon",
+  "what_it_is": "Clixon is a YANG-based configuration manager providing interactive CLI, NETCONF, and RESTCONF interfaces with an embedded datastore and transaction mechanism. It is open source (Apache 2.0 or GPLv2) and designed for network device configuration management.",
+  "components": [
+    "Interactive CLI (built on CLIgen)",
+    "NETCONF server",
+    "RESTCONF server",
+    "Backend daemon (clixon_backend)",
+    "Embedded XML datastore",
+    "Transaction mechanism",
+    "YANG schema validator",
+    "Clixon controller (companion project)"
+  ],
+  "protocols": [
+    "NETCONF (RFC 6241)",
+    "RESTCONF (RFC 8040)",
+    "XML",
+    "XPath",
+    "YANG (RFC 7950)"
+  ],
+  "measurement": [],
+  "configuration": [
+    "YANG models define the configuration schema",
+    "CLI auto-generated from YANG models via CLIgen",
+    "NETCONF <edit-config> and <get-config> operations",
+    "RESTCONF HTTP PUT/PATCH/GET/DELETE on yang-defined resources",
+    "Dual-datastore model: running and candidate configurations"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Interactive CLI mode",
+    "NETCONF over SSH",
+    "RESTCONF over HTTP/HTTPS",
+    "Backend daemon mode"
+  ],
+  "constraints": [
+    "No docker-compose file found in repository (neither master nor main branch) — no containerized sandbox definition available",
+    "Companion CLIgen library is a required external dependency for CLI functionality",
+    "YANG model must be authored before any configuration interface is available"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml in repository (404 on both master and main branches)",
+    "No built-in fault injection or chaos tooling documented",
+    "No native telemetry or streaming telemetry interface (e.g., gRPC/gNMI)",
+    "No authentication/authorization framework documented in README",
+    "No performance benchmarks or scalability constraints published"
+  ]
+}

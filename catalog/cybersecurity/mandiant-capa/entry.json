@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mandiant/capa",
+  "name": "mandiant/capa",
+  "description": "FLARE team's open-source tool to identify capabilities in executable files, mapping findings to MITRE ATT&CK, supporting PE, ELF, .NET, shellcode, and sandbox reports.",
+  "sub_domain": "malware-reversing",
+  "score": 9,
+  "score_rationale": "5.9k stars from Mandiant/Google's FLARE team, essential capability-identification tool actively maintained in 2026.",
+  "stars": 5900,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 84.2,
+  "tags": [
+    "elf-format",
+    "pe-format",
+    "sandboxing",
+    "shellcode"
+  ],
+  "category": "Security Tool",
+  "summary": "FLARE team's open-source tool to identify capabilities in executable files, mapping findings to M...",
+  "slug": "mandiant-capa"
+}

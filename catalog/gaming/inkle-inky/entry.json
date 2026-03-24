@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/inkle/inky",
+  "name": "inkle/inky",
+  "description": "The official IDE for the ink narrative scripting language, featuring a live play-through editor, syntax highlighting, real-time error detection, and JSON export. Essential companion to the ink runtime.",
+  "sub_domain": "dialogue-narrative",
+  "score": 8,
+  "score_rationale": "The primary authoring tool for ink with 2.6k stars, tightly integrated with the ink ecosystem and used in professional game development workflows.",
+  "stars": 2600,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-06-17",
+  "found_in_domains": [
+    "dialogue-narrative",
+    "visual-novel-engines"
+  ],
+  "quality_score": 75.3,
+  "tags": [
+    "dialogue",
+    "narrative-editor",
+    "ink-language",
+    "game-development"
+  ],
+  "category": "Narrative Editor",
+  "summary": "Professional IDE for ink narrative scripting language with real-time preview",
+  "slug": "inkle-inky"
+}

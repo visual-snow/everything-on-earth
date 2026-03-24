@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/libgme/game-music-emu",
+  "name": "libgme/game-music-emu",
+  "description": "Blargg's video game music emulation library enabling playback of music from NES, SNES, Game Boy, Genesis, TurboGrafx-16, and other classic consoles via a unified C/C++ API.",
+  "sub_domain": "chiptune-trackers",
+  "score": 7,
+  "score_rationale": "Foundational retro console music emulation library used by many players and tools, actively maintained through 2025 with broad console format coverage.",
+  "stars": 156,
+  "language": "C++",
+  "license": "LGPL-2.1",
+  "last_activity": "2025-02-15",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 59.6,
+  "tags": [
+    "chiptune-emulation",
+    "console-music",
+    "retro",
+    "audio-playback",
+    "c++"
+  ],
+  "category": "Audio Libraries",
+  "summary": "Console music emulation library for NES, SNES, Genesis",
+  "slug": "libgme-game-music-emu"
+}

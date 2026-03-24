@@ -1,0 +1,52 @@
+{
+  "name": "ghz",
+  "repo_url": "https://github.com/bojand/ghz",
+  "description": "Simple gRPC benchmarking and load testing tool with configurable load schedules, TLS/mTLS support, and multiple output formats.",
+  "domain": "5g-core-interfaces",
+  "secondary_domains": [
+    "grpc-benchmarking",
+    "load-testing",
+    "microservice-load-testing"
+  ],
+  "protocols": [
+    "gRPC",
+    "gRPC-TLS",
+    "gRPC-mTLS"
+  ],
+  "provides": [
+    "grpc-load-testing",
+    "grpc-benchmarking",
+    "traffic-generation",
+    "tls-mtls-support",
+    "configurable-load-schedules",
+    "metrics-reporting",
+    "multiple-output-formats"
+  ],
+  "needs": [
+    "grpc-target-service",
+    "protobuf-definitions",
+    "go-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ghcr.io/bojand/ghz",
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present; GHCR image: ghcr.io/bojand/ghz"
+  },
+  "github_metrics": {
+    "stars": 3300,
+    "last_commit": "2025-12-07",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Dedicated gRPC benchmarking tool. Relevant for testing gRPC-based 5G core network interfaces and microservice architectures. Multiple load schedules (constant, step, linear) enable sophisticated test scenarios.",
+  "related_repos": [
+    "https://github.com/lesnyrumcajs/grpc_bench"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "ghz"
+}

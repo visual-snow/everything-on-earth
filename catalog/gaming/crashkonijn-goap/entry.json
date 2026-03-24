@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/crashkonijn/goap",
+  "name": "crashkonijn/GOAP",
+  "description": "A robust multi-threaded Goal Oriented Action Planning (GOAP) system for Unity with a visual debugger, enabling complex NPC AI behaviors through automatic action planning.",
+  "sub_domain": "behavior-ai",
+  "score": 8,
+  "score_rationale": "1.7k stars, actively maintained through 2026, provides production-ready multi-threaded GOAP for Unity with strong debugging tooling.",
+  "stars": 1700,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 73.8,
+  "tags": [
+    "goap",
+    "ai-planning",
+    "unity"
+  ],
+  "category": "GOAP AI System",
+  "summary": "Multi-threaded GOAP system for Unity with visual debugger",
+  "slug": "crashkonijn-goap"
+}

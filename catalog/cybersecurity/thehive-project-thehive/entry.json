@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/thehive-project/thehive",
+  "name": "TheHive-Project/TheHive",
+  "description": "Collaborative case management and security incident response platform enabling SOC teams to manage, investigate, and respond to security incidents efficiently.",
+  "sub_domain": "SIEM / SOC / Threat Detection",
+  "score": 7,
+  "score_rationale": "Widely adopted SOC platform with 3.9k stars, though archived in December 2025 as the project transitioned to a commercial model \u2014 still relevant as a reference implementation.",
+  "stars": 3900,
+  "language": "Scala",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-12-05",
+  "found_in_domains": [
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 70.7,
+  "tags": [
+    "forensics",
+    "incident-response",
+    "analysis"
+  ],
+  "category": "Incident Response",
+  "summary": "Digital forensics and incident analysis",
+  "slug": "thehive-project-thehive"
+}

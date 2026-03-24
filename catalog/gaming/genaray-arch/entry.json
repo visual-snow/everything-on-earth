@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/genaray/arch",
+  "name": "genaray/Arch",
+  "description": "High-performance C# archetype and chunks ECS framework with optional multithreading, supporting .NET Standard 2.1, .NET 6/8, Unity, and Godot. Focuses on cache efficiency and minimal allocations.",
+  "sub_domain": "ecs-frameworks",
+  "score": 7,
+  "score_rationale": "Best-in-class C# archetype ECS with 1.6k stars, Apache-2.0 licensed, actively maintained through May 2025, and growing adoption in Unity and Godot projects as a modern Entitas alternative.",
+  "stars": 1600,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2025-05-27",
+  "found_in_domains": [
+    "ecs-frameworks"
+  ],
+  "quality_score": 67.6,
+  "tags": [
+    "ecs",
+    "entity-component-system",
+    "c#",
+    "performance"
+  ],
+  "category": "Archetype ECS",
+  "summary": "High-performance C# ECS with multithreading and cache optimization",
+  "slug": "genaray-arch"
+}

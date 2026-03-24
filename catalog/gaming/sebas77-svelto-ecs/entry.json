@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sebas77/svelto.ecs",
+  "name": "sebas77/Svelto.ECS",
+  "description": "Real ECS framework for C# using static archetypes and explicit group-based entity management for encapsulated, cache-friendly data-oriented design. Compatible with Unity, Godot, and .NET Standard 2.0+.",
+  "sub_domain": "ecs-frameworks",
+  "score": 7,
+  "score_rationale": "Solid C# ECS with 1.4k stars promoting strict data-oriented discipline, used in production games, and offering unique design patterns for maintainable ECS code.",
+  "stars": 1400,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2024-06-01",
+  "found_in_domains": [
+    "ecs-frameworks"
+  ],
+  "quality_score": 67.2,
+  "tags": [
+    "ecs",
+    "entity-component-system",
+    "data-oriented",
+    "c#"
+  ],
+  "category": "Data-Oriented ECS",
+  "summary": "Data-oriented C# ECS emphasizing cache efficiency and explicit management",
+  "slug": "sebas77-svelto-ecs"
+}

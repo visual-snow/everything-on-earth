@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/snes9xgit/snes9x",
+  "name": "snes9xgit/snes9x",
+  "description": "A portable Super Nintendo Entertainment System emulator available across Windows, Linux, macOS, FreeBSD, and gaming consoles. Includes both a standalone emulator and a libretro core.",
+  "sub_domain": "emulators-retro",
+  "score": 7,
+  "score_rationale": "A long-standing SNES emulator with 3.1k stars that remains a widely used reference implementation and libretro core.",
+  "stars": 3100,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2024-07-09",
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 69.9,
+  "tags": [
+    "emulation",
+    "snes",
+    "multi-platform",
+    "libretro"
+  ],
+  "category": "Console Emulator",
+  "summary": "Established SNES emulator with libretro core support",
+  "slug": "snes9xgit-snes9x"
+}

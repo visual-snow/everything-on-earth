@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/khronosgroup/glslang",
+  "name": "KhronosGroup/glslang",
+  "description": "Khronos reference front end for GLSL/ESSL, partial HLSL front end, and a SPIR-V generator; the official compiler/validator used by the Vulkan ecosystem.",
+  "sub_domain": "graphics-rendering",
+  "score": 9,
+  "score_rationale": "Official Khronos GLSL compiler with 3.5k stars, an essential infrastructure tool used by virtually all Vulkan and shader toolchains.",
+  "stars": 3500,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-03-01",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 82.4,
+  "tags": [
+    "glsl",
+    "compiler",
+    "spirv"
+  ],
+  "category": "Shader Compiler",
+  "summary": "Official Khronos GLSL to SPIR-V compiler",
+  "slug": "khronosgroup-glslang"
+}

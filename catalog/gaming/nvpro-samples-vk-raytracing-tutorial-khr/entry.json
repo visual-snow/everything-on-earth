@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nvpro-samples/vk_raytracing_tutorial_khr",
+  "name": "nvpro-samples/vk_raytracing_tutorial_KHR",
+  "description": "Official NVIDIA ray tracing tutorial and examples using the VK_KHR_ray_tracing Vulkan extension, covering 18+ progressive tutorials from basic setup to advanced techniques like motion blur and shader execution reorder.",
+  "sub_domain": "ray-tracing",
+  "score": 9,
+  "score_rationale": "Official NVIDIA Vulkan ray tracing tutorial with 1.7k stars; authoritative learning resource for production Vulkan RT development.",
+  "stars": 1700,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 79.8,
+  "tags": [
+    "vulkan",
+    "ray-tracing",
+    "nvidia",
+    "tutorial",
+    "graphics"
+  ],
+  "category": "Vulkan Ray Tracing",
+  "summary": "Official NVIDIA Vulkan ray tracing tutorial with 18+ progressive lessons and advanced techniques.",
+  "slug": "nvpro-samples-vk-raytracing-tutorial-khr"
+}

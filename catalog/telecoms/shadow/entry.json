@@ -1,0 +1,58 @@
+{
+  "name": "Shadow",
+  "repo_url": "https://github.com/shadow/shadow",
+  "description": "Discrete-event network simulator that directly executes real application code as native OS processes. Hybrid emulation/simulation architecture scales to hundreds of thousands of processes for realistic private network experiments.",
+  "domain": "discrete-event",
+  "secondary_domains": [
+    "network-simulation",
+    "private-network-experiments",
+    "scalable-emulation"
+  ],
+  "protocols": [
+    "TCP",
+    "UDP",
+    "TLS"
+  ],
+  "provides": [
+    "deterministic-replay",
+    "udp-stack-emulation",
+    "discrete-event-network-simulation",
+    "tls-support",
+    "link-impairment",
+    "tcp-stack-emulation",
+    "syscall-interposition",
+    "fault-injection",
+    "reproducible-experiments",
+    "real-application-execution",
+    "controlled-network-conditions",
+    "large-scale-process-simulation"
+  ],
+  "needs": [
+    "linux-kernel-5.4+",
+    "rust-toolchain",
+    "libssl-dev",
+    "glibc-linux"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Shadow with Docker documentation available in wiki (1.2 Shadow with Docker)"
+  },
+  "github_metrics": {
+    "stars": 1700,
+    "last_commit": "2025-10-16",
+    "language": "Rust",
+    "license": "MIT"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Excellent for large-scale what-if network simulations. Runs unmodified real applications (e.g., Tor, Bitcoin) by interposing at syscall API. Deterministic replay enables reproducible experiments - great for evaluating agent decisions under controlled network conditions.",
+  "related_repos": [
+    "https://github.com/ethereum/ethshadow"
+  ],
+  "_sources": [
+    "discovery/digital-twin.json"
+  ],
+  "slug": "shadow"
+}

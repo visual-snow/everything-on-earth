@@ -1,0 +1,87 @@
+{
+  "slug": "ktranslate-kentik",
+  "name": "ktranslate",
+  "what_it_is": "ktranslate is a Kentik open-source agent that ingests network telemetry (SNMP polling, NetFlow/sFlow/IPFIX flow data, syslog, and streaming telemetry) and translates it into a variety of output formats for forwarding to observability sinks. It runs as a single Go binary or Docker container and supports enrichment, rollups, filtering, and sampling before export.",
+  "components": [
+    "SNMP poller (device metrics and interface counters via YAML device config)",
+    "Flow collector (NetFlow v5/v9, IPFIX, sFlow listener on configurable UDP port, default 9995)",
+    "Syslog server (RFC3164/RFC5424/RFC6587, TCP+UDP+Unix socket)",
+    "HTTP input source",
+    "VPC Flow log ingestion (AWS)",
+    "Rollup/aggregation engine",
+    "Prometheus metrics exporter (default :8082)",
+    "pprof profiling endpoint (via -metalisten flag)",
+    "MaxMind GeoLite2 GeoIP enrichment",
+    "DNS resolver for IP-to-hostname enrichment"
+  ],
+  "protocols": [
+    "SNMP (v1/v2c/v3)",
+    "NetFlow v5",
+    "NetFlow v9",
+    "IPFIX",
+    "sFlow",
+    "gNMI (streaming telemetry)",
+    "Syslog (RFC3164, RFC5424, RFC6587)",
+    "Prometheus scrape endpoint",
+    "HTTP (input and output sink)",
+    "Kafka (output sink)",
+    "AWS SQS (event trigger for S3 objects)"
+  ],
+  "measurement": [
+    "Flow bytes and packets per flow record",
+    "SNMP interface counters and device metrics",
+    "Sampling rate applied to flow records",
+    "Rollup aggregations (sum/topK) over configurable dimensions",
+    "Prometheus collector stats (optional: -info_collector)",
+    "Flow field set: TimeReceived, SamplingRate, Bytes, Packets, SrcAddr, DstAddr, Proto, SrcPort, DstPort, InIf, OutIf, SrcVlan, DstVlan, TCPFlags, SrcAS, DstAS, Type, SamplerAddress (default), plus MPLS, VRF, ICMP, and custom integer/bytes fields"
+  ],
+  "configuration": [
+    "YAML config file (config.yaml) mirrors all CLI flags; flags take precedence",
+    "SNMP devices defined in a separate YAML file (-snmp flag or KT_SNMP_PATH env var)",
+    "Output sinks selected via -sinks CSV (kafka|stdout|new_relic|kentik|net|http|prometheus|file|s3|gcloud)",
+    "Output format via -format (json|flat_json|avro|netflow|influx|prometheus|new_relic|new_relic_metric|elasticsearch|kflow)",
+    "Compression: none|gzip|snappy|deflate|null",
+    "Flow field inclusion list configurable via -nf.message.fields",
+    "Custom NetFlow field mappings via -nf.mapping YAML file",
+    "Filters via -filters (type dimension operator value syntax)",
+    "Rollups via -rollups (type,name,metric,dim1,dim2,...)",
+    "Enrichment webhook via -enricher URL",
+    "Tag map via CSV file (-tag_map)"
+  ],
+  "fault_injection": [
+    "No built-in fault injection primitives documented",
+    "Flow-only mode (-flow_only) disables SNMP polling, allowing isolated flow testing",
+    "SNMP walk mode (-snmp_do_walk) targets a single device and exits, useful for probing",
+    "Single-poll mode (-snmp_poll_now) runs one SNMP poll for a specified device and exits",
+    "-nr_estimate_only records New Relic payload sizes without actually sending data"
+  ],
+  "modes": [
+    "SNMP polling mode (default when snmp yaml provided)",
+    "Flow-only mode (-flow_only=true)",
+    "SNMP discovery mode (-snmp_discovery)",
+    "Scheduled SNMP discovery (-snmp_discovery_min interval in minutes)",
+    "AWS Lambda mode (-aws_lambda)",
+    "VPC Flow log mode (-vpc)",
+    "Local file processing mode (-aws_local_file, processes file and exits)",
+    "SNMP MIB dump mode (-snmp_dump_mibs)",
+    "SNMP JSON-to-YAML conversion mode (-snmp_json2yaml)"
+  ],
+  "constraints": [
+    "Requires a MaxMind license key at Docker image build time for GeoIP enrichment; without it geo enrichment is unavailable",
+    "SNMP device list must be supplied as an external YAML file; no built-in device auto-detection without enabling discovery mode",
+    "docker-compose example is hardcoded for New Relic sink only; other sinks require manual command construction",
+    "Flow listener binds to 0.0.0.0:9995 by default; host network mode required in Docker to receive external flow traffic",
+    "Rollup export and alpha/raw flows cannot be sent to separate sinks independently without the -rollup_and_alpha flag",
+    "No native TLS termination for flow input; SSL only applies to HTTP serving endpoints (-ssl_cert_file / -ssl_key_file)"
+  ],
+  "docker_services": [
+    "ktranslate (image: kentik/ktranslate:v2, network_mode: host, restart: unless-stopped)"
+  ],
+  "notable_absences": [
+    "No docker-compose for non-New Relic sinks (Kafka, Prometheus, InfluxDB) in the official deployment examples",
+    "No built-in flow replay or pcap ingestion capability",
+    "No native alerting or threshold-based notifications",
+    "No web UI — management is entirely CLI/config-file-driven",
+    "gNMI/streaming telemetry support not detailed in README (mentioned in entry description but not in flags/config)"
+  ]
+}

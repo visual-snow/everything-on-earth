@@ -1,0 +1,95 @@
+{
+  "slug": "trex",
+  "name": "TRex",
+  "what_it_is": "TRex is a DPDK-based open-source traffic generator supporting stateless, stateful, and advanced stateful (ASTF) modes capable of generating L2-L7 traffic at up to 200 Gbps line rate. It provides a Python API, interactive console, and GUI for scripting realistic application traffic against network devices under test.",
+  "components": [
+    "TRex server (DPDK data plane, JSON-RPC2 control plane)",
+    "TRex console (interactive CLI control)",
+    "Python client API (v2.7/3.x, JSON-RPC2)",
+    "Stateless GUI (JavaFX cross-platform desktop application)",
+    "TRex EMU (client-side L3 protocol emulation engine, 3-5 Mpps per thread)",
+    "BIRD routing daemon integration (BGP, OSPF, RIP, RPKI)"
+  ],
+  "protocols": [
+    "ARP (RFC 826)",
+    "BGP (eBGP/iBGP, RFC 4271, 7911, 8092)",
+    "DHCP v4 client (RFC 2131)",
+    "DHCPv6 client (RFC 8415)",
+    "DNS",
+    "GRE",
+    "HTTP/HTTPS (L7 application emulation)",
+    "ICMP (RFC 777)",
+    "ICMPv6 (RFC 4443)",
+    "IGMP v1/v2/v3 (RFC 3376)",
+    "IPv4",
+    "IPv6",
+    "IPv6 Neighbor Discovery (RFC 4861/4862)",
+    "MLD/MLDv2 (RFC 3810)",
+    "MPLS",
+    "NSH",
+    "OSPF v2/v3",
+    "RIP v1/v2 / RIPng",
+    "RPKI (ipv4, ipv6, vpn4, vpn6, multicast, flow4, flow6)",
+    "TCP",
+    "UDP",
+    "VXLAN"
+  ],
+  "measurement": [
+    "Per-stream and per-interface throughput statistics (hardware and software counters)",
+    "Latency and jitter per stream",
+    "Packet loss detection",
+    "Flow ordering validation",
+    "BPF filter-based live traffic capture",
+    "Wireshark integration (PCAP export/import)",
+    "PCAP file transmission up to 1 TB for DPI testing",
+    "NAT/PAT dynamic translation learning and validation",
+    "TCP SYN sequence randomization detection"
+  ],
+  "configuration": [
+    "Field engine: dynamic per-packet field modification (e.g., src_ip ranges, port ranges)",
+    "Variable packet sizes: 64 bytes to 9 KB (jumbo frames)",
+    "Rate specification: Mpps, L1 bandwidth, L2 bandwidth, or link percentage",
+    "Traffic modes: Continuous, Burst, Multi-burst",
+    "Stream triggering and inter-stream actions",
+    "PCAP file import for replay",
+    "Multiple simultaneous application profiles (HTTP, Citrix, etc.)",
+    "User-Agent field modification for L7 traffic",
+    "Up to 10,000 parallel streams in STL mode",
+    "Millions of concurrent established flows (memory-limited)",
+    "BIRD routing profile injection (millions of routes in seconds)",
+    "SR-IOV support for NIC virtualization"
+  ],
+  "fault_injection": [
+    "Arbitrary/malformed packet construction via Scapy field engine",
+    "Cross-flow protocol fault support (limited; e.g., RTSP/SIP noted explicitly)",
+    "TCP SYN sequence randomization for connection tracking stress",
+    "NAT/PAT translation table exhaustion simulation"
+  ],
+  "modes": [
+    "Stateless (STL): packet-based L2-L4 generation for routing/switching benchmarks, 10-30 Mpps per core",
+    "Stateful (STF): connection-aware traffic with L7 application profiles for firewall/IPS/NAT testing",
+    "Advanced Stateful (ASTF): full TCP/UDP emulation with L7 application layer for realistic flow behavior",
+    "EMU mode: client-side L3 protocol simulation (ARP, DHCP, ND, IGMP, BGP via BIRD)",
+    "Interactive mode: real-time console control and stream injection",
+    "Automated mode: Python API scripted runs"
+  ],
+  "constraints": [
+    "Requires DPDK-compatible NIC; physical interfaces must be bound to DPDK (kernel driver bypassed)",
+    "Supported NIC vendors: Intel, Mellanox, Broadcom, Cisco VIC, Napatech, Amazon ENA; not all NICs are supported",
+    "Runs on x86 or ARM server platforms only",
+    "Concurrent flow capacity is memory-limited (not CPU-limited)",
+    "ASTF TCP implementation is a pragmatic approximation, not a full kernel-grade TCP stack",
+    "Cross-flow L7 protocol support is limited to specific protocols (e.g., RTSP, SIP mentioned as partial)",
+    "No native HTTP/2 or gRPC protocol-specific stacks",
+    "Cluster/horizontal scaling mode is limited to controller tests, not general-purpose multi-node generation",
+    "Python client requires Python 2.7 or 3.x with specific library dependencies"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found in the repository (deployment is bare-metal or VM via DPDK NIC binding)",
+    "No native HTTP/2 or gRPC protocol stacks",
+    "No full kernel-grade TCP stack (ASTF is a pragmatic approximation)",
+    "No general horizontal scaling across multiple TRex nodes for traffic generation",
+    "No built-in GUI dashboard for live metrics (requires separate console or third-party integration)"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Clixon",
+  "repo_url": "https://github.com/clicon/clixon",
+  "description": "YANG-based configuration manager with interactive CLI, NETCONF and RESTCONF interfaces, embedded database and transaction mechanism. Framework for building NOS management planes.",
+  "domain": "network-configuration-automation",
+  "secondary_domains": [
+    "nos-management-plane",
+    "restconf-datastore",
+    "yang-netconf-management"
+  ],
+  "protocols": [
+    "NETCONF",
+    "RESTCONF",
+    "XML",
+    "XPath",
+    "YANG"
+  ],
+  "provides": [
+    "netconf-server",
+    "multi-device-controller",
+    "cli-management-interface",
+    "config-mutation",
+    "atomic-transaction-rollback",
+    "yang-datastore",
+    "nos-management-plane-framework",
+    "embedded-configuration-database",
+    "xpath-query-support",
+    "xml-configuration-management",
+    "restconf-server"
+  ],
+  "needs": [
+    "linux-or-freebsd-host",
+    "libxml2",
+    "libnghttp2",
+    "openssl",
+    "gcc-build-toolchain"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Clixon supports GNU/Linux, FreeBSD and Docker. Two Docker examples: a base image (boilerplate for building clixon applications) and a complete example system with CLI/Netconf/Restconf and testing."
+  },
+  "github_metrics": {
+    "stars": 250,
+    "last_commit": "unknown",
+    "language": "C",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Alternative to Netopeer2 with built-in CLI, NETCONF, and RESTCONF. Atomic transactions make it ideal for testing agentic config workflows where rollback behavior matters. Used by Netgate TNSR. Sponsored by Rubicon Communications LLC (Netgate). Dual licensed. 3393 commits. Framework for building custom NOS management interfaces. Base Docker image + complete example system with CLI/Netconf/Restconf. Sponsored by Netgate. 3,393 commits. Includes clixon-controller for multi-device management.",
+  "related_repos": [
+    "https://github.com/clicon/clixon-controller",
+    "https://github.com/clicon/clixon-examples"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/netconf-servers.json",
+    "discovery/netconf-mgmt/restconf-gnmi-config.json",
+    "discovery/netconf-mgmt/virtual-nos.json"
+  ],
+  "slug": "clixon"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/infoslack/awesome-web-hacking",
+  "name": "infoslack/awesome-web-hacking",
+  "description": "A curated list of web application security resources for beginners covering penetration testing books, offensive tools, vulnerable practice applications, and training content as a comprehensive entry point for web security.",
+  "sub_domain": "awesome-lists",
+  "score": 7,
+  "score_rationale": "Well-established web hacking resource list with 6.8k stars designed for security learners, though last commit was in 2015.",
+  "stars": 6800,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2015-03-03",
+  "found_in_domains": [
+    "awesome-lists",
+    "webapp-security"
+  ],
+  "quality_score": 72.7,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated list of web application security resources for beginners covering penetration testing book",
+  "slug": "infoslack-awesome-web-hacking"
+}

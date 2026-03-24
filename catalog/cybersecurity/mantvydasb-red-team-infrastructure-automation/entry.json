@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/mantvydasb/red-team-infrastructure-automation",
+  "name": "mantvydasb/Red-Team-Infrastructure-Automation",
+  "description": "Terraform-based automation for deploying disposable and resilient red team infrastructure including redirectors, teamservers, and phishing components on cloud providers. A practical reference for automating red team infrastructure at scale.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 6,
+  "score_rationale": "278 stars and a useful Terraform reference for automated red team infrastructure provisioning, though activity date is unclear.",
+  "stars": 278,
+  "language": "HCL",
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 55.6,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "terraform-based automation for deploying disposable and resilient red team infrastructure including ...",
+  "slug": "mantvydasb-red-team-infrastructure-automation"
+}

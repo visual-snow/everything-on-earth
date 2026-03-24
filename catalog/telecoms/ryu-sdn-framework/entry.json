@@ -1,0 +1,59 @@
+{
+  "name": "Ryu SDN Framework",
+  "repo_url": "https://github.com/faucetsdn/ryu",
+  "description": "A component-based software defined networking framework written in Python. Supports OpenFlow 1.0-1.5, Netconf, OF-config, and Nicira Extensions. Well-defined API for creating network management applications.",
+  "domain": "network-control-plane",
+  "secondary_domains": [
+    "sdn",
+    "software-defined-networking"
+  ],
+  "protocols": [
+    "OpenFlow 1.0",
+    "OpenFlow 1.2",
+    "OpenFlow 1.3",
+    "OpenFlow 1.4",
+    "OpenFlow 1.5",
+    "Netconf",
+    "OF-config"
+  ],
+  "provides": [
+    "openflow-controller",
+    "sdn-controller",
+    "netconf-client",
+    "of-config-support",
+    "flow-table-management",
+    "network-topology-discovery",
+    "packet-in-processing",
+    "rest-api",
+    "python-sdn-api"
+  ],
+  "needs": [
+    "openflow-capable-switch",
+    "mininet-or-ovs",
+    "python-3-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "osrg/ryu",
+    "compose_services_count": 0,
+    "docker_evidence": "Official Docker image osrg/ryu published to Docker Hub. Community Dockerfile (WillFantom/Ryu-Docker) uses Python 3.8 and alpine for a smaller image."
+  },
+  "github_metrics": {
+    "stars": 1600,
+    "last_commit": "unknown",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "NOTE: Ryu is no longer actively maintained; OpenStack's os-ken is the maintained fork. Still widely used as the basis for many SDN lab setups and research projects. Python-based making it easy to extend for agentic eval scenarios.",
+  "related_repos": [
+    "https://github.com/willfantom/ryu-docker",
+    "https://github.com/iwaseyusuke/docker-ryu-mininet",
+    "https://github.com/martimy/sdn_lab"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "ryu-sdn-framework"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "gnmic",
+  "name": "gNMIc",
+  "what_it_is": "gNMIc is a gNMI CLI client and telemetry collector that executes Capabilities, Get, Set, and Subscribe RPCs against network devices over gRPC. It supports multiple output backends, clustering, data pipelines, and dynamic target discovery.",
+  "components": [
+    "gNMI CLI client",
+    "telemetry collector",
+    "tunnel server (gRPC dial-out)",
+    "dial-out server (Nokia SR OS)",
+    "interactive YANG-aware prompt mode"
+  ],
+  "protocols": [
+    "gNMI",
+    "gRPC",
+    "OpenConfig",
+    "gRPC Tunnel"
+  ],
+  "measurement": [
+    "streaming telemetry subscriptions (Subscribe RPC)",
+    "on-demand state/config retrieval (Get RPC)",
+    "device capabilities (Capabilities RPC)",
+    "Prometheus metrics export",
+    "InfluxDB time-series data",
+    "NATS message stream",
+    "Kafka message stream"
+  ],
+  "configuration": [
+    "CLI flags",
+    "environment variables",
+    "file-based configuration",
+    "TLS / non-TLS gRPC transport",
+    "output backends (NATS, Kafka, Prometheus, InfluxDB, prototext)",
+    "clustering and HA settings",
+    "dynamic target discovery",
+    "data pipeline transformations",
+    "multi-target bulk operations"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "standalone CLI (single command)",
+    "interactive prompt mode (YANG-aware autocomplete)",
+    "single-instance collector",
+    "clustered collector",
+    "pipeline architecture"
+  ],
+  "constraints": [
+    "requires gNMI-capable target devices (gRPC endpoint must be reachable)",
+    "dial-out server for Nokia SR OS is vendor-specific and not universally applicable",
+    "no docker-compose file found in repository (main and master branches)"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "no NETCONF or RESTCONF support",
+    "no built-in dashboard or UI (relies on external tools like Grafana)",
+    "no SNMP support",
+    "no docker-compose file in repository"
+  ]
+}

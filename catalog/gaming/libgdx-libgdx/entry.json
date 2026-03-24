@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/libgdx/libgdx",
+  "name": "libgdx/libgdx",
+  "description": "A Java cross-platform game development framework supporting Windows, Linux, macOS, Android, HTML5, and iOS. Powers many commercial and indie games with a comprehensive API and broad community.",
+  "sub_domain": "game-engines-2d",
+  "score": 9,
+  "score_rationale": "24.9k stars, Apache-2.0, widely used in production Java game development across all major platforms.",
+  "stars": 24900,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2025-10-19",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 89.2,
+  "tags": [
+    "2d-engine",
+    "java",
+    "cross-platform",
+    "mobile",
+    "html5"
+  ],
+  "category": "Java Game Framework",
+  "summary": "Production-proven Java framework for 2D games across desktop/mobile/web",
+  "slug": "libgdx-libgdx"
+}

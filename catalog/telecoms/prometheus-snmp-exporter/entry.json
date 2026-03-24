@@ -1,0 +1,53 @@
+{
+  "name": "Prometheus SNMP Exporter",
+  "repo_url": "https://github.com/prometheus/snmp_exporter",
+  "description": "Recommended way to expose SNMP data in Prometheus format. Includes MIB-based config generator. Maps hierarchical SNMP to n-dimensional Prometheus metrics.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "prometheus"
+  ],
+  "protocols": [
+    "SNMPv1",
+    "SNMPv2c",
+    "SNMPv3"
+  ],
+  "provides": [
+    "snmp-polling",
+    "prometheus-metrics-export",
+    "snmp-to-prometheus-translation",
+    "mib-config-generator",
+    "snmpv3-auth",
+    "network-device-monitoring",
+    "multi-device-polling"
+  ],
+  "needs": [
+    "prometheus-server",
+    "snmp-target-devices",
+    "mib-files",
+    "docker-compose-wrapper"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "prom/snmp-exporter",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker images are available on Docker Hub at prom/snmp-exporter"
+  },
+  "github_metrics": {
+    "stars": 2100,
+    "last_commit": "2026-01-07",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Essential for agentic evaluations requiring SNMP-based monitoring of simulated network devices. Works as a Prometheus proxy that can poll thousands of devices.",
+  "related_repos": [
+    "https://github.com/pkhander/compose-prometheus",
+    "https://github.com/prometheus/prometheus"
+  ],
+  "_sources": [
+    "discovery/monitoring.json",
+    "discovery/netconf-mgmt/snmp-config.json"
+  ],
+  "slug": "prometheus-snmp-exporter"
+}

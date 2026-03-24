@@ -1,0 +1,63 @@
+{
+  "name": "ExaBGP",
+  "repo_url": "https://github.com/exa-networks/exabgp",
+  "description": "BGP Swiss Army Knife of networking. BGP implementation enabling interaction with BGP networks using Python scripts or external programs via a simple JSON API.",
+  "domain": "bgp",
+  "secondary_domains": [
+    "evpn",
+    "flowspec",
+    "route-injection",
+    "traffic-engineering"
+  ],
+  "protocols": [
+    "BGP",
+    "MPLS",
+    "VPLS",
+    "FlowSpec",
+    "EVPN",
+    "BGP-LS",
+    "SRv6"
+  ],
+  "provides": [
+    "json-api-control-plane",
+    "traffic-engineering",
+    "mpls-signaling",
+    "config-mutation",
+    "flowspec-ddos-mitigation",
+    "bgp-policy-testing",
+    "traffic-generation",
+    "srv6-support",
+    "evpn-simulation",
+    "python-scripting-interface",
+    "bgp-ls-topology-advertisement",
+    "bgp-route-injection",
+    "vpls-emulation"
+  ],
+  "needs": [
+    "bgp-peer-router",
+    "linux-host",
+    "python-3.6+"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ghcr.io/exa-networks/exabgp",
+    "compose_services_count": 0,
+    "docker_evidence": "Official Images published on GitHub Container Registry (ghcr.io/exa-networks/exabgp:latest). Dockerfile present in repo."
+  },
+  "github_metrics": {
+    "stars": 2300,
+    "last_commit": "2026-03",
+    "language": "Python",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Powerful BGP traffic generator and route injector. Does NOT manipulate the FIB. Ideal for testing BGP policies, DDoS mitigation via FlowSpec, and traffic engineering in agentic evaluations.",
+  "related_repos": [
+    "https://github.com/frrouting/frr"
+  ],
+  "_sources": [
+    "discovery/transport.json"
+  ],
+  "slug": "exabgp"
+}

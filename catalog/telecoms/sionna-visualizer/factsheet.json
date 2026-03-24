@@ -1,0 +1,70 @@
+{
+  "slug": "sionna-visualizer",
+  "name": "Sionna Visualizer",
+  "what_it_is": "A full-stack web dashboard that wraps NVIDIA Sionna (open-source 6G simulation library) in a browser interface, turning raw simulation output into interactive, publication-ready charts with export and sharing capabilities. It supports AWGN BER, beam pattern, path loss, channel capacity, and modulation comparison simulations without requiring users to write code.",
+  "components": [
+    "Angular 17 frontend (Angular Material, Chart.js, D3.js, ng2-charts, JWT auth)",
+    "Java Spring Boot 3 backend (REST API, Spring Security, JWT, Hibernate, SimulationService, ConcurrentHashMap cache, circuit breaker, Spring Actuator)",
+    "Python 3.10 FastAPI bridge (NVIDIA Sionna SDK, tracemalloc, ColormapService)",
+    "PostgreSQL database (simulation results, performance metadata, API keys, users)"
+  ],
+  "protocols": [
+    "HTTP/REST (browser to Spring Boot backend)",
+    "HTTP (Spring Boot to Python FastAPI bridge)",
+    "JPA/Hibernate (Spring Boot to PostgreSQL)",
+    "JWT (authentication on protected routes)",
+    "5G NR / 6G (simulation domain — NVIDIA Sionna SDK)",
+    "OFDM (underlying channel model in Sionna simulations)"
+  ],
+  "measurement": [
+    "BER vs SNR curves (BPSK, QPSK, 16QAM, 64QAM — theoretical and Monte Carlo)",
+    "Beam pattern polar charts (ULA antenna, 8/16/32/64 antennas, 28/39/60/77 GHz)",
+    "Path loss per-ray FSPL (bar chart, scatter chart, delay chart, data table)",
+    "Channel capacity via Shannon theorem C = B × log2(1 + SNR) with 4 bandwidth curves",
+    "Simulation performance metadata: duration (ms), memory (MB), CPU/GPU utilization, Sionna version",
+    "Simulation complexity estimate (Fast/Medium/Slow/Heavy) before execution"
+  ],
+  "configuration": [
+    "Environment variables via .env file (SPRING_DATASOURCE_URL, SPRING_DATASOURCE_USERNAME, SPRING_DATASOURCE_PASSWORD, JWT_SECRET, JWT_EXPIRATION, PYTHON_BRIDGE_URL)",
+    "docker-compose.yml defines 4 services: postgres, python-bridge, backend, frontend",
+    "Modulation type selectable: QPSK, BPSK, 16QAM, 64QAM",
+    "SNR range: snrMin, snrMax, snrSteps parameters",
+    "Antenna count: 8, 16, 32, or 64 elements",
+    "Frequency band: 28, 39, 60, or 77 GHz",
+    "7 colormap palettes: Viridis, Grayscale, colorblind-safe Publication, and others",
+    "Spring JPA DDL auto mode set via SPRING_JPA_HIBERNATE_DDL_AUTO"
+  ],
+  "fault_injection": [
+    "Circuit breaker on Python bridge — Spring Boot handles FastAPI failures gracefully and reports bridge status",
+    "Rate limiting: 10 simulations/min per IP (protects Python bridge from overload)",
+    "Railway warmup endpoint (/warmup) prevents cold starts on the Python bridge",
+    "Spring Actuator health endpoint exposes python-bridge: warm/cold indicator"
+  ],
+  "modes": [
+    "Docker Compose mode: docker-compose up starts all 4 services locally on ports 4200, 8080, 8001, 5432",
+    "Manual mode: three separate terminals for python-bridge (uvicorn port 8001), backend (Spring Boot port 8080), frontend (ng serve port 4200)",
+    "Cloud/production mode: Railway (backend + Python bridge + PostgreSQL) + Vercel (frontend) with GitHub Actions auto-deploy",
+    "Authenticated mode: JWT login/register required for simulation history, API key management, bulk export",
+    "Public/unauthenticated mode: shareable public links per simulation (no login needed for recipient), public REST API with API key"
+  ],
+  "constraints": [
+    "Requires NVIDIA Sionna SDK installed in the Python bridge container — GPU acceleration is optional but Sionna has TensorFlow/GPU dependencies that significantly increase image size and startup time",
+    "Public REST API is rate-limited to 100 requests/day per API key; simulation endpoint requires a pre-issued API key from the dashboard",
+    "Railway free tier causes cold starts on the Python bridge unless the /warmup endpoint is polled; the docker-compose setup has no equivalent keep-alive mechanism",
+    "Simulation caching (ConcurrentHashMap) is in-memory and non-persistent — cache is lost on backend restart, so identical parameters incur full re-computation after a restart",
+    "PostgreSQL credentials must be provided via .env before docker-compose up — the postgres service will fail to initialize if SPRING_DATASOURCE_USERNAME or SPRING_DATASOURCE_PASSWORD are missing"
+  ],
+  "docker_services": [
+    "postgres — image: postgres:15, port 5432:5432, volume postgres_data, env: POSTGRES_DB=sionna_visualizer + credentials from env",
+    "python-bridge — build: ./python-bridge/Dockerfile, port 8001:8001, env: PORT=8001",
+    "backend — build: ./backend/Dockerfile, port 8080:8080, depends_on: postgres + python-bridge, env: datasource URL/credentials, JWT config, PYTHON_BRIDGE_URL, DDL auto",
+    "frontend — build: ./frontend/Dockerfile, port 4200:80, depends_on: backend"
+  ],
+  "notable_absences": [
+    "No GPU/CUDA configuration exposed in docker-compose.yml — Sionna GPU acceleration is not wired into the compose setup",
+    "No message queue or async job system — simulations are synchronous HTTP calls from Spring Boot to FastAPI, blocking the request thread",
+    "No horizontal scaling configuration — single-instance Python bridge with no worker pool or load balancing",
+    "No persistent cache layer (e.g., Redis) — simulation cache is purely in-memory ConcurrentHashMap",
+    "No WebSocket or streaming — simulation progress is not streamed; client waits for full HTTP response"
+  ]
+}

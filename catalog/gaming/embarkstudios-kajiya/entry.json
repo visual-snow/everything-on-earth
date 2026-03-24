@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/embarkstudios/kajiya",
+  "name": "EmbarkStudios/kajiya",
+  "description": "Experimental real-time global illumination renderer built with Rust and Vulkan, implementing techniques like ReSTIR GI and IRCACHE. Showcases modern GI approaches from a game studio, though no longer maintained.",
+  "sub_domain": "ray-tracing",
+  "score": 8,
+  "score_rationale": "5.3k-star real-time GI renderer from a game studio using cutting-edge techniques; valuable reference despite being abandoned.",
+  "stars": 5300,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2023-01-01",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 77.8,
+  "tags": [
+    "global-illumination",
+    "restir",
+    "vulkan",
+    "rust",
+    "real-time"
+  ],
+  "category": "Global Illumination Renderer",
+  "summary": "Experimental real-time GI renderer implementing ReSTIR and IRCACHE techniques in Rust.",
+  "slug": "embarkstudios-kajiya"
+}

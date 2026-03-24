@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/x64dbg/x64dbg",
+  "name": "x64dbg/x64dbg",
+  "description": "Open-source user mode debugger for Windows optimized for reverse engineering and malware analysis, supporting both x32 and x64 binaries.",
+  "sub_domain": "malware-reversing",
+  "score": 10,
+  "score_rationale": "48k stars, the go-to open-source debugger for malware analysis on Windows with active 2026 development.",
+  "stars": 48000,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing",
+    "malware-reversing"
+  ],
+  "quality_score": 97.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "x64dbg-x64dbg"
+}

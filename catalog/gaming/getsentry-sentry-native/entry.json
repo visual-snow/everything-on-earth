@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/getsentry/sentry-native",
+  "name": "getsentry/sentry-native",
+  "description": "The Sentry SDK for C, C++, and native applications providing error and crash reporting with support for Crashpad and Breakpad backends. Useful for native game crash reporting.",
+  "sub_domain": "game-devops-analytics",
+  "score": 6,
+  "score_rationale": "527 stars, MIT, the standard native crash reporting SDK used to integrate Sentry into C/C++ game codebases.",
+  "stars": 527,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-01-21",
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 57.8,
+  "tags": [
+    "crash-reporting",
+    "monitoring",
+    "native",
+    "error-tracking",
+    "cpp"
+  ],
+  "category": "Native Crash Reporting",
+  "summary": "Sentry SDK for C/C++ crash reporting and error tracking in games",
+  "slug": "getsentry-sentry-native"
+}

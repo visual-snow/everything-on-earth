@@ -1,0 +1,67 @@
+{
+  "name": "FreeSWITCH",
+  "repo_url": "https://github.com/signalwire/freeswitch",
+  "description": "Software Defined Telecom Stack enabling digital transformation from proprietary telecom switches to versatile software. Runs on any commodity hardware from Raspberry Pi to multi-core servers.",
+  "domain": "media-processing",
+  "secondary_domains": [
+    "sip-switching",
+    "telephony",
+    "voip"
+  ],
+  "protocols": [
+    "MRCP",
+    "RTP",
+    "SIP",
+    "SRTP",
+    "WebRTC"
+  ],
+  "provides": [
+    "sip-proxy",
+    "sip-registrar",
+    "pbx-server",
+    "ivr-engine",
+    "conference-bridge",
+    "media-server",
+    "webrtc-gateway",
+    "srtp-support",
+    "rtp-relay",
+    "mrcp-client",
+    "voip-routing",
+    "dialplan-engine",
+    "fax-over-ip",
+    "voicemail-server",
+    "call-recording"
+  ],
+  "needs": [
+    "linux-host",
+    "build-toolchain",
+    "spandsp-library",
+    "sofia-sip-library",
+    "opus-codec",
+    "openssl"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Example Dockerfiles to build FreeSWITCH and dependencies from source: /docker/examples. Contains /docker directory with 36,069 commits."
+  },
+  "github_metrics": {
+    "stars": 4700,
+    "last_commit": "unknown",
+    "language": "C",
+    "license": "unknown"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Major telephony platform with Docker build examples. Good for VoIP configuration, SIP routing, and telecom application evals. Most popular open-source telecom switch with 4.7k stars and 36k commits. Full PBX, conference, IVR, and media capabilities. Massive module ecosystem makes it ideal for complex VoIP and telecom evaluation scenarios.",
+  "related_repos": [
+    "https://github.com/bettervoice/freeswitch-container",
+    "https://github.com/fusionpbx/fusionpbx"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/signaling.json"
+  ],
+  "slug": "freeswitch"
+}

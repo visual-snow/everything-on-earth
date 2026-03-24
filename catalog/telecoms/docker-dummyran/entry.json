@@ -1,0 +1,60 @@
+{
+  "name": "docker-dummyran",
+  "repo_url": "https://github.com/ravens/docker-dummyran",
+  "description": "Docker packaging of srsLTE with FauxRF to simulate a RAN (UE+eNB) toward an existing EPC. Separates RAN from EPC for independent testing.",
+  "domain": "enb-simulation",
+  "secondary_domains": [
+    "epc-integration",
+    "lte-ran",
+    "srslte",
+    "ue-simulation"
+  ],
+  "protocols": [
+    "LTE",
+    "S1AP",
+    "GTP-U",
+    "NAS"
+  ],
+  "provides": [
+    "lte-ue-simulation",
+    "lte-enb-simulation",
+    "ran-simulation",
+    "faux-rf-radio-simulation",
+    "s1ap-connectivity",
+    "gtp-u-tunneling",
+    "nas-signaling",
+    "srslte-ue",
+    "srslte-enb",
+    "epc-testing-client"
+  ],
+  "needs": [
+    "external-epc",
+    "s1ap-endpoint",
+    "mme-service",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 2,
+    "docker_evidence": "docker-compose.yml with config customization. Simulated LTE UE/phone container has no other network interface to ensure only LTE connectivity is used."
+  },
+  "github_metrics": {
+    "stars": 20,
+    "last_commit": "unknown",
+    "language": "Dockerfile",
+    "license": "unknown"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Isolated RAN simulation without EPC dependency. FauxRF enables pure software simulation. UE container forced to use only LTE interface. Good for testing existing EPCs.",
+  "related_repos": [
+    "https://github.com/ravens/docker-nextepc",
+    "https://github.com/ravens/docker-srslte",
+    "https://github.com/ravens/docker-openairinterface-enb"
+  ],
+  "_sources": [
+    "discovery/ran-ue.json"
+  ],
+  "slug": "docker-dummyran"
+}

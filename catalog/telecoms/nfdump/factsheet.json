@@ -1,0 +1,75 @@
+{
+  "slug": "nfdump",
+  "name": "nfdump",
+  "what_it_is": "nfdump is a suite of tools for collecting, storing, and analyzing NetFlow, IPFIX, and sFlow network traffic data. It provides high-performance flow capture daemons, a filtering and aggregation engine, and enrichment utilities for network traffic analysis.",
+  "components": [
+    "nfcapd — NetFlow collector daemon (v1/v5/v7/v9 and IPFIX)",
+    "sfcapd — sFlow collector (v4/v6)",
+    "nfpcapd — converts live traffic or pcap files to NetFlow records",
+    "nfdump — primary analysis tool for filtering and post-processing flows",
+    "nfreplay — replays stored NetFlow data to other collectors",
+    "nfanon — IP address anonymization using CryptoPAn algorithm",
+    "nfexpire — manages expiration of old flow data files",
+    "geolookup — enriches flows with geolocation and AS number data",
+    "torlookup — enriches flows with Tor exit node data",
+    "nfprofile / nftrack — NfSen integration tools",
+    "ft2nfdump — optional converter from flow-tools format"
+  ],
+  "protocols": [
+    "NetFlow v1",
+    "NetFlow v5",
+    "NetFlow v7",
+    "NetFlow v9",
+    "IPFIX (IP Flow Information Export)",
+    "sFlow v4",
+    "sFlow v6",
+    "NSEL (Network Event Security Logging) via NetFlow v9",
+    "NAT Event Logging via NetFlow v9",
+    "JunOS NAT Event Logging (optional build)"
+  ],
+  "measurement": [
+    "Per-flow byte and packet counters (64-bit internal storage)",
+    "Automatic sampling rate recognition with byte/packet multiplication",
+    "Flow aggregation on any flow element or combination",
+    "Statistics generation over any flow element",
+    "IP geolocation and AS number annotation",
+    "Tor exit node detection per flow",
+    "JA4 TLS fingerprinting (optional module)",
+    "Flexible output: text, CSV, JSON, custom format strings",
+    "Export to InfluxDB and Prometheus"
+  ],
+  "configuration": [
+    "Compression codec selection: LZ4, LZO, ZSTD, bzip2",
+    "File rotation interval (default 5 minutes)",
+    "Listening port for incoming flow streams",
+    "CPU optimization flags: -march=native, link-time optimization",
+    "Custom library paths for compression dependencies",
+    "Output format customization via nfdump.conf",
+    "Optional JA4 fingerprinting module at build time",
+    "Optional ft2nfdump and JunOS modules at build time"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Collection mode — nfcapd/sfcapd listening on UDP ports for live flow data",
+    "Analysis mode — reading stored binary files with tcpdump-like filter expressions",
+    "Aggregation mode — user-defined grouping and summarization of flows",
+    "Enrichment mode — annotating flows with geolocation, AS numbers, or Tor status",
+    "Replay mode — nfreplay re-emitting stored flows to another collector",
+    "pcap conversion mode — nfpcapd reading pcap files or live interfaces"
+  ],
+  "constraints": [
+    "NetFlow v5/v7 use 32-bit on-wire counters; overflow risk on high-bandwidth links (mitigated by 64-bit internal storage)",
+    "Binary file format is architecture-dependent (endianness); files are not portable across big-endian/little-endian systems without conversion",
+    "Legacy nfdump-1.6.x file format is only readable by the nfdump binary, not by collector daemons",
+    "Root privileges required to bind collector daemons to ports below 1024",
+    "No built-in access control; network-level filtering must be handled by the host OS or firewall"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml in the repository",
+    "No built-in graphical user interface (NfSen is a legacy separate project)",
+    "No real-time alerting or notification subsystem",
+    "No fault injection or traffic simulation capability",
+    "No built-in authentication or access control for the collector endpoints"
+  ]
+}

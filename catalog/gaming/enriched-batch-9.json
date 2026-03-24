@@ -1,0 +1,692 @@
+[
+  {
+    "repo_url": "https://github.com/jkuhlmann/gainput",
+    "name": "jkuhlmann/gainput",
+    "description": "Cross-platform C++ input library for games supporting keyboard, mouse, gamepad, and multi-touch across Android, iOS, Linux, macOS, and Windows with a unified button mapping and remapping API.",
+    "sub_domain": "input-controllers",
+    "score": 6,
+    "score_rationale": "Solid cross-platform C++ input library with 884 stars and MIT license, though it has been archived since 2021 and superseded by SDL3's built-in input handling for many use cases.",
+    "stars": 884,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2021-09-07",
+    "found_in_domains": [
+      "input-controllers"
+    ],
+    "quality_score": 59.6,
+    "tags": [
+      "input",
+      "gamepad",
+      "cross-platform"
+    ],
+    "category": "Input Handling",
+    "summary": "Cross-platform C++ input library for keyboard, mouse, gamepad, and touch"
+  },
+  {
+    "repo_url": "https://github.com/leafwing-studios/leafwing_input_playback",
+    "name": "Leafwing-Studios/leafwing_input_playback",
+    "description": "Input recording and playback library for the Bevy game engine enabling input capture/replay for game testing and tool-assisted speedrun (TAS) workflows.",
+    "sub_domain": "input-controllers",
+    "score": 5,
+    "score_rationale": "Niche but well-designed input playback library for Bevy with 34 stars, dual Apache-2.0/MIT licensed, maintained through December 2024, useful for deterministic game testing.",
+    "stars": 34,
+    "language": "Rust",
+    "license": "MIT",
+    "last_activity": "2024-12-05",
+    "found_in_domains": [
+      "input-controllers"
+    ],
+    "quality_score": 42.4,
+    "tags": [
+      "bevy",
+      "input-playback",
+      "testing"
+    ],
+    "category": "Input Recording",
+    "summary": "Bevy plugin for recording and replaying input for testing and TAS"
+  },
+  {
+    "repo_url": "https://github.com/eddiecameron/inputvcr",
+    "name": "EddieCameron/InputVCR",
+    "description": "Input recording and playback solution for Unity enabling match replays, kill cams, puzzle automation, and companion AI without custom recording code per game.",
+    "sub_domain": "input-controllers",
+    "score": 4,
+    "score_rationale": "Useful Unity input recording tool with 65 stars addressing a specific niche (kill cams, replays), but low activity and limited community adoption.",
+    "stars": 65,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2019-01-01",
+    "found_in_domains": [
+      "input-controllers"
+    ],
+    "quality_score": 38.6,
+    "tags": [
+      "unity",
+      "input-recording",
+      "replays"
+    ],
+    "category": "Input Recording",
+    "summary": "Unity tool for recording and replaying input for kill cams and replays"
+  },
+  {
+    "repo_url": "https://github.com/bepinex/bepinex",
+    "name": "BepInEx/BepInEx",
+    "description": "Unity / XNA game patcher and plugin framework supporting Unity Mono, IL2CPP, and .NET framework games. The most widely deployed modding framework for Unity games, powering thousands of mods across popular titles.",
+    "sub_domain": "modding-frameworks",
+    "score": 10,
+    "score_rationale": "The dominant Unity modding framework with 7.6k stars, actively maintained through February 2026, and the foundation for mod ecosystems in Lethal Company, Valheim, and hundreds of other Unity titles.",
+    "stars": 7600,
+    "language": "C#",
+    "license": "LGPL-2.1",
+    "last_activity": "2026-02-08",
+    "found_in_domains": [
+      "modding-frameworks"
+    ],
+    "quality_score": 91.0,
+    "tags": [
+      "unity",
+      "modding",
+      "plugin-framework"
+    ],
+    "category": "Modding Framework",
+    "summary": "Industry-leading Unity modding framework powering thousands of game mods"
+  },
+  {
+    "repo_url": "https://github.com/praydog/reframework",
+    "name": "praydog/REFramework",
+    "description": "Mod loader, scripting platform (Lua), and VR support for all Capcom RE Engine games including Resident Evil series, Monster Hunter, Devil May Cry 5, and more. Provides native DLL plugin support and a rich Lua scripting API.",
+    "sub_domain": "modding-frameworks",
+    "score": 9,
+    "score_rationale": "Essential modding framework for all RE Engine games with 4.8k stars, actively maintained through March 2025, MIT licensed, and enables an entire ecosystem of RE game mods.",
+    "stars": 4800,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2025-03-05",
+    "found_in_domains": [
+      "modding-frameworks"
+    ],
+    "quality_score": 83.5,
+    "tags": [
+      "re-engine",
+      "modding",
+      "lua"
+    ],
+    "category": "Modding Framework",
+    "summary": "Essential mod loader for Capcom RE Engine games with Lua scripting"
+  },
+  {
+    "repo_url": "https://github.com/lavagang/melonloader",
+    "name": "LavaGang/MelonLoader",
+    "description": "Universal mod loader for Unity games compatible with both IL2CPP and Mono scripting backends, enabling C# plugin development across Windows and Linux for games like VRChat, Beat Saber, and Among Us.",
+    "sub_domain": "modding-frameworks",
+    "score": 8,
+    "score_rationale": "Second most popular Unity mod loader with 3.8k stars and 14 million downloads, Apache-2.0 licensed, actively maintained through January 2025 with broad game compatibility.",
+    "stars": 3800,
+    "language": "C#",
+    "license": "Apache-2.0",
+    "last_activity": "2025-01-17",
+    "found_in_domains": [
+      "modding-frameworks"
+    ],
+    "quality_score": 76.6,
+    "tags": [
+      "unity",
+      "modding",
+      "il2cpp"
+    ],
+    "category": "Modding Framework",
+    "summary": "Universal Unity mod loader supporting IL2CPP and Mono backends"
+  },
+  {
+    "repo_url": "https://github.com/ebkr/r2modmanplus",
+    "name": "ebkr/r2modmanPlus",
+    "description": "Simple and easy-to-use mod manager for games on the Thunderstore ecosystem, supporting profile switching, direct mod installation, and cross-platform operation including Steam Deck.",
+    "sub_domain": "modding-frameworks",
+    "score": 8,
+    "score_rationale": "The standard mod manager for Thunderstore-based games with 2k stars, MIT licensed, actively maintained through February 2026, and used across Risk of Rain 2, Lethal Company, and many others.",
+    "stars": 2000,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2026-02-05",
+    "found_in_domains": [
+      "modding-frameworks"
+    ],
+    "quality_score": 74.4,
+    "tags": [
+      "mod-manager",
+      "thunderstore",
+      "profiles"
+    ],
+    "category": "Mod Manager",
+    "summary": "Standard mod manager for Thunderstore ecosystem with profile support"
+  },
+  {
+    "repo_url": "https://github.com/nexus-mods/vortex",
+    "name": "Nexus-Mods/Vortex",
+    "description": "Open-source mod manager from Nexus Mods supporting 250+ games including Skyrim, Fallout, and Cyberpunk 2077, with automated load order management, mod profiles, and deep Nexus Mods platform integration.",
+    "sub_domain": "modding-frameworks",
+    "score": 8,
+    "score_rationale": "The most widely used general-purpose mod manager with 1.3k stars, GPL-3.0, actively maintained through March 2026, and backed by the largest mod hosting platform.",
+    "stars": 1300,
+    "language": "TypeScript",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-17",
+    "found_in_domains": [
+      "modding-frameworks"
+    ],
+    "quality_score": 72.9,
+    "tags": [
+      "mod-manager",
+      "load-order",
+      "nexus-mods"
+    ],
+    "category": "Mod Manager",
+    "summary": "Most popular mod manager for 250+ games with automated load ordering"
+  },
+  {
+    "repo_url": "https://github.com/reloaded-project/reloaded-ii",
+    "name": "Reloaded-Project/Reloaded-II",
+    "description": "Universal .NET Core powered mod loader and management framework for native X86/X64 games using DLL injection, with isolated mod execution, NuGet support, and a modular extensible architecture.",
+    "sub_domain": "modding-frameworks",
+    "score": 7,
+    "score_rationale": "Well-engineered universal mod loader with 876 stars, actively maintained through February 2026, GPL-3.0 licensed, notable for its isolation architecture and NuGet-based mod distribution.",
+    "stars": 876,
+    "language": "C#",
+    "license": "GPL-3.0",
+    "last_activity": "2026-02-01",
+    "found_in_domains": [
+      "modding-frameworks"
+    ],
+    "quality_score": 65.5,
+    "tags": [
+      "mod-loader",
+      "dll-injection",
+      "nuget"
+    ],
+    "category": "Mod Loader",
+    "summary": "Universal .NET mod loader with isolation architecture and NuGet support"
+  },
+  {
+    "repo_url": "https://github.com/fungos/cr",
+    "name": "fungos/cr",
+    "description": "Single-file header-only C/C++ library for hot-reloading binary plugins at runtime, with automatic crash detection, rollback to previous working versions, and static state transfer across Linux, macOS, and Windows.",
+    "sub_domain": "modding-frameworks",
+    "score": 7,
+    "score_rationale": "The go-to header-only solution for C/C++ hot reload with 1.7k stars, MIT licensed, and actively maintained through March 2025 — widely used in game engines for live coding workflows.",
+    "stars": 1700,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2025-03-30",
+    "found_in_domains": [
+      "modding-frameworks"
+    ],
+    "quality_score": 67.8,
+    "tags": [
+      "hot-reload",
+      "plugins",
+      "live-coding"
+    ],
+    "category": "Hot Reload",
+    "summary": "Header-only C/C++ library for runtime hot-reloading with crash detection"
+  },
+  {
+    "repo_url": "https://github.com/recastnavigation/recastnavigation",
+    "name": "recastnavigation/recastnavigation",
+    "description": "Industry-standard navigation-mesh toolset for games, providing automatic navmesh generation (Recast) and runtime pathfinding (Detour). Powers navigation in Unity, Unreal Engine, Godot, and countless commercial games.",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 10,
+    "score_rationale": "7.6k stars, Zlib license, the de facto industry standard navmesh library embedded in major game engines worldwide.",
+    "stars": 7600,
+    "language": "C++",
+    "license": "Zlib",
+    "last_activity": null,
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 91.0,
+    "tags": [
+      "navmesh",
+      "pathfinding",
+      "ai-navigation"
+    ],
+    "category": "Pathfinding",
+    "summary": "Industry-standard navmesh generation and pathfinding for all major engines"
+  },
+  {
+    "repo_url": "https://github.com/qiao/pathfinding.js",
+    "name": "qiao/PathFinding.js",
+    "description": "A comprehensive path-finding library for grid-based games in JavaScript, bundling 10 algorithms including A*, Dijkstra, BFS, and Jump Point Search, running in both Node.js and browsers.",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 8,
+    "score_rationale": "8.7k stars, MIT, widely used reference implementation of pathfinding algorithms for 2D grid-based web games.",
+    "stars": 8700,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2015-07-21",
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 79.5,
+    "tags": [
+      "pathfinding",
+      "javascript",
+      "grid-based"
+    ],
+    "category": "Pathfinding",
+    "summary": "JavaScript library with 10 pathfinding algorithms for grid-based games"
+  },
+  {
+    "repo_url": "https://github.com/h8man/navmeshplus",
+    "name": "h8man/NavMeshPlus",
+    "description": "A Unity extension enabling 2D navigation mesh pathfinding with automatic generation from tilemap, sprite, and 2D collider scene geometry for top-down games.",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 7,
+    "score_rationale": "2.2k stars, MIT, fills a critical gap in Unity 2D game development where built-in NavMesh only supports 3D.",
+    "stars": 2200,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2022-05-30",
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 68.7,
+    "tags": [
+      "unity",
+      "navmesh",
+      "2d-games"
+    ],
+    "category": "Pathfinding",
+    "summary": "Unity 2D navmesh generation and pathfinding for top-down games"
+  },
+  {
+    "repo_url": "https://github.com/prettymuchbryce/easystarjs",
+    "name": "prettymuchbryce/easystarjs",
+    "description": "An asynchronous A* pathfinding API for JavaScript HTML5 games with grid-based movement, diagonal support, custom tile costs, and small footprint (~7kb).",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 7,
+    "score_rationale": "1.9k stars, MIT, popular beginner-friendly async pathfinding library widely used in HTML5 game projects.",
+    "stars": 1900,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": null,
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 68.2,
+    "tags": [
+      "pathfinding",
+      "javascript",
+      "astar"
+    ],
+    "category": "Pathfinding",
+    "summary": "Lightweight async A* pathfinding for HTML5 games with custom costs"
+  },
+  {
+    "repo_url": "https://github.com/samueltardieu/pathfinding",
+    "name": "samueltardieu/pathfinding",
+    "description": "A Rust crate implementing pathfinding, flow, and graph algorithms including A*, Dijkstra, BFS, DFS, Edmonds-Karp, and Kuhn-Munkres with generic graph interfaces.",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 7,
+    "score_rationale": "1k stars, Apache-2.0/MIT dual license, the standard pathfinding crate in the Rust game development ecosystem with active maintenance.",
+    "stars": 1000,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-10",
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 66.0,
+    "tags": [
+      "rust",
+      "pathfinding",
+      "graph-algorithms"
+    ],
+    "category": "Pathfinding",
+    "summary": "Rust crate with pathfinding and graph algorithms for game development"
+  },
+  {
+    "repo_url": "https://github.com/ikpil/dotrecast",
+    "name": "ikpil/DotRecast",
+    "description": "A C# port of Recast & Detour, providing industry-standard navigation mesh generation and pathfinding for .NET, Unity3D, and game servers without external dependencies.",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 7,
+    "score_rationale": "862 stars, Zlib, the primary C# port of the industry-standard Recast navigation toolset for Unity and .NET game servers.",
+    "stars": 862,
+    "language": "C#",
+    "license": "Zlib",
+    "last_activity": null,
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 65.5,
+    "tags": [
+      "recast",
+      "navmesh",
+      "csharp"
+    ],
+    "category": "Pathfinding",
+    "summary": "C# port of industry-standard Recast for .NET and Unity servers"
+  },
+  {
+    "repo_url": "https://github.com/leethomason/micropather",
+    "name": "leethomason/MicroPather",
+    "description": "A minimal two-file A* path finder for C++ games requiring only a Graph interface implementation. Designed for easy integration into existing game data structures.",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 6,
+    "score_rationale": "356 stars, MIT, long-standing minimal A* library valued for its simplicity — just 2 files to drop into any C++ game project.",
+    "stars": 356,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": null,
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 56.4,
+    "tags": [
+      "pathfinding",
+      "cpp",
+      "minimal"
+    ],
+    "category": "Pathfinding",
+    "summary": "Minimal two-file C++ A* implementation for easy game integration"
+  },
+  {
+    "repo_url": "https://github.com/mikewesthad/navmesh",
+    "name": "mikewesthad/navmesh",
+    "description": "A JS plugin for fast navmesh pathfinding with Phaser 2/3 wrappers, achieving 5x–150x faster path searches compared to grid-based A* for the same walkable area.",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 6,
+    "score_rationale": "374 stars, MIT, useful navmesh-based pathfinding plugin for the popular Phaser game framework with significant performance benefits.",
+    "stars": 374,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2023-01-07",
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 56.6,
+    "tags": [
+      "phaser",
+      "navmesh",
+      "performance"
+    ],
+    "category": "Pathfinding",
+    "summary": "Phaser navmesh plugin 5x-150x faster than grid-based pathfinding"
+  },
+  {
+    "repo_url": "https://github.com/kumarrobotics/jps3d",
+    "name": "KumarRobotics/jps3d",
+    "description": "A C++ implementation of Jump Point Search for both 2D and 3D grid maps, optimizing A* by skipping intermediate nodes for faster optimal pathfinding in uniform-cost grids.",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 5,
+    "score_rationale": "464 stars, BSD-3-Clause, solid JPS implementation useful for robotics and game AI, though last active in 2021.",
+    "stars": 464,
+    "language": "C++",
+    "license": "BSD-3-Clause",
+    "last_activity": "2021-02-19",
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 51.3,
+    "tags": [
+      "pathfinding",
+      "jps",
+      "optimization"
+    ],
+    "category": "Pathfinding",
+    "summary": "C++ Jump Point Search for optimized 2D/3D grid pathfinding"
+  },
+  {
+    "repo_url": "https://github.com/vss2sn/path_planning",
+    "name": "vss2sn/path_planning",
+    "description": "A comprehensive C++ collection of grid-based path planning algorithms including A*, Dijkstra, D* Lite, LPA*, JPS, RRT, and genetic algorithms with visualization.",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 5,
+    "score_rationale": "442 stars, BSD-3-Clause, useful educational reference implementing many pathfinding algorithms in C++ for game and robotics developers.",
+    "stars": 442,
+    "language": "C++",
+    "license": "BSD-3-Clause",
+    "last_activity": "2021-06-11",
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 51.2,
+    "tags": [
+      "pathfinding",
+      "algorithms",
+      "educational"
+    ],
+    "category": "Pathfinding",
+    "summary": "Educational C++ collection of pathfinding algorithms with visualization"
+  },
+  {
+    "repo_url": "https://github.com/recast4j/recast4j",
+    "name": "recast4j/recast4j",
+    "description": "A Java port of the Recast and Detour navigation mesh toolset providing automatic navmesh generation, pathfinding, and dynamic navmesh support with multi-threaded building.",
+    "sub_domain": "pathfinding-navmesh",
+    "score": 5,
+    "score_rationale": "284 stars, Zlib, actively maintained Java port of the industry-standard Recast library for JVM game and server developers.",
+    "stars": 284,
+    "language": "Java",
+    "license": "Zlib",
+    "last_activity": "2025-05-09",
+    "found_in_domains": [
+      "pathfinding-navmesh"
+    ],
+    "quality_score": 49.6,
+    "tags": [
+      "java",
+      "recast",
+      "navmesh"
+    ],
+    "category": "Pathfinding",
+    "summary": "Java port of Recast for JVM game servers and development"
+  },
+  {
+    "repo_url": "https://github.com/liabru/matter-js",
+    "name": "liabru/matter-js",
+    "description": "A 2D rigid body physics engine for the web written in JavaScript, featuring comprehensive rigid body dynamics, collision detection, constraints, and rendering support. The most popular web-based physics library with 18k+ stars.",
+    "sub_domain": "physics-engines",
+    "score": 10,
+    "score_rationale": "18k-star de-facto standard 2D physics library for web/JavaScript game development, widely used across countless projects.",
+    "stars": 18100,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2024-01-01",
+    "found_in_domains": [
+      "physics-engines"
+    ],
+    "quality_score": 94.1,
+    "tags": [
+      "physics",
+      "2d",
+      "javascript"
+    ],
+    "category": "Physics Engine",
+    "summary": "Industry standard 2D physics engine for web games and projects"
+  },
+  {
+    "repo_url": "https://github.com/bulletphysics/bullet3",
+    "name": "bulletphysics/bullet3",
+    "description": "Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, and machine learning. Long-standing industry standard used in hundreds of games and film VFX pipelines.",
+    "sub_domain": "physics-engines",
+    "score": 10,
+    "score_rationale": "14.3k-star industry-standard physics engine with decades of game/film use and deep Python (PyBullet) robotics ecosystem.",
+    "stars": 14300,
+    "language": "C++",
+    "license": "Zlib",
+    "last_activity": "2022-04-24",
+    "found_in_domains": [
+      "physics-engines"
+    ],
+    "quality_score": 93.2,
+    "tags": [
+      "physics",
+      "simulation",
+      "collision-detection"
+    ],
+    "category": "Physics Engine",
+    "summary": "Industry-standard physics and collision detection for games and VFX"
+  },
+  {
+    "repo_url": "https://github.com/erincatto/box2d",
+    "name": "erincatto/box2d",
+    "description": "Box2D is a 2D physics engine for games written in portable C17, featuring continuous collision detection, robust rigid body solver, and SIMD optimizations. Used in thousands of games including Angry Birds and Limbo.",
+    "sub_domain": "physics-engines",
+    "score": 10,
+    "score_rationale": "9.6k-star gold-standard 2D game physics engine, actively maintained through 2025 with v3 rewrite and used in countless shipped games.",
+    "stars": 9600,
+    "language": "C",
+    "license": "MIT",
+    "last_activity": "2025-06-04",
+    "found_in_domains": [
+      "physics-engines"
+    ],
+    "quality_score": 91.9,
+    "tags": [
+      "physics",
+      "2d",
+      "collision-detection"
+    ],
+    "category": "Physics Engine",
+    "summary": "Gold-standard 2D physics engine used in Angry Birds and countless games"
+  },
+  {
+    "repo_url": "https://github.com/jrouwe/joltphysics",
+    "name": "jrouwe/JoltPhysics",
+    "description": "Multi-core friendly rigid body physics and collision detection library in C++, used in Horizon Forbidden West and Death Stranding 2. Designed for deterministic networked gameplay with GPU-accelerated hair and soft body simulation.",
+    "sub_domain": "physics-engines",
+    "score": 10,
+    "score_rationale": "9.9k-star actively maintained engine used in AAA titles, representing the current state-of-the-art for C++ game physics.",
+    "stars": 9900,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2025-12-28",
+    "found_in_domains": [
+      "physics-engines"
+    ],
+    "quality_score": 92.0,
+    "tags": [
+      "physics",
+      "multicore",
+      "aaa-games"
+    ],
+    "category": "Physics Engine",
+    "summary": "Modern physics engine used in AAA titles with GPU simulation"
+  },
+  {
+    "repo_url": "https://github.com/dimforge/rapier",
+    "name": "dimforge/rapier",
+    "description": "2D and 3D physics engines focused on performance written in Rust, supporting cross-platform determinism including web (WASM). Successor to nphysics and the primary physics library in the Rust game development ecosystem.",
+    "sub_domain": "physics-engines",
+    "score": 9,
+    "score_rationale": "5.2k-star Rust-native physics engine with WASM support and cross-platform determinism, key tool for Rust and Bevy game development.",
+    "stars": 5200,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "last_activity": "2025-01-01",
+    "found_in_domains": [
+      "physics-engines"
+    ],
+    "quality_score": 83.7,
+    "tags": [
+      "rust",
+      "physics",
+      "wasm"
+    ],
+    "category": "Physics Engine",
+    "summary": "Rust physics engine with deterministic WASM support for Bevy"
+  },
+  {
+    "repo_url": "https://github.com/nvidia-omniverse/physx",
+    "name": "NVIDIA-Omniverse/PhysX",
+    "description": "NVIDIA PhysX 5 SDK with source code for the PhysX, Flow, and Blast physics systems including GPU simulation code. Integrated into Unreal Engine and Unity, now fully open-source including GPU acceleration.",
+    "sub_domain": "physics-engines",
+    "score": 9,
+    "score_rationale": "4.5k-star NVIDIA-backed production physics engine powering Unreal Engine and Unity with full GPU simulation source now open.",
+    "stars": 4500,
+    "language": "C++",
+    "license": "BSD-3-Clause",
+    "last_activity": "2026-03-18",
+    "found_in_domains": [
+      "physics-engines"
+    ],
+    "quality_score": 83.2,
+    "tags": [
+      "physics",
+      "gpu",
+      "nvidia"
+    ],
+    "category": "Physics Engine",
+    "summary": "NVIDIA PhysX 5 with GPU acceleration for Unreal and Unity"
+  },
+  {
+    "repo_url": "https://github.com/slembcke/chipmunk2d",
+    "name": "slembcke/Chipmunk2D",
+    "description": "Simple, lightweight, fast and portable 2D rigid body physics library written in C, used in hundreds of shipped games. Features multithreaded solver, ARM NEON optimizations, and comprehensive joint/constraint support.",
+    "sub_domain": "physics-engines",
+    "score": 8,
+    "score_rationale": "2.4k-star battle-tested 2D physics library used in hundreds of shipped games, providing quality physics accessible to C developers.",
+    "stars": 2400,
+    "language": "C",
+    "license": "MIT",
+    "last_activity": "2024-01-01",
+    "found_in_domains": [
+      "physics-engines"
+    ],
+    "quality_score": 75.0,
+    "tags": [
+      "physics",
+      "2d",
+      "lightweight"
+    ],
+    "category": "Physics Engine",
+    "summary": "Lightweight 2D physics library used in hundreds of shipped games"
+  },
+  {
+    "repo_url": "https://github.com/danielchappuis/reactphysics3d",
+    "name": "DanielChappuis/reactphysics3d",
+    "description": "Open source C++ 3D physics engine library featuring rigid body dynamics, collision detection, and joints with support for sphere, box, capsule, convex mesh, and height field shapes. No external library dependencies.",
+    "sub_domain": "physics-engines",
+    "score": 7,
+    "score_rationale": "1.7k-star self-contained 3D physics library with no external dependencies, well-suited for embedding in custom game engines.",
+    "stars": 1700,
+    "language": "C++",
+    "license": "Zlib",
+    "last_activity": "2024-10-11",
+    "found_in_domains": [
+      "physics-engines"
+    ],
+    "quality_score": 67.8,
+    "tags": [
+      "physics",
+      "3d",
+      "collision-detection"
+    ],
+    "category": "Physics Engine",
+    "summary": "Self-contained 3D physics library with no external dependencies"
+  },
+  {
+    "repo_url": "https://github.com/dimforge/bevy_rapier",
+    "name": "dimforge/bevy_rapier",
+    "description": "Official Rapier physics engine plugin for the Bevy game engine, providing 2D and 3D physics simulation via bevy_rapier2d and bevy_rapier3d crates. The standard way to add physics to Bevy-based games.",
+    "sub_domain": "physics-engines",
+    "score": 8,
+    "score_rationale": "1.5k-star official physics integration for the popular Bevy ECS game engine, essential for Rust game developers using Bevy.",
+    "stars": 1500,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "last_activity": "2025-01-01",
+    "found_in_domains": [
+      "physics-engines"
+    ],
+    "quality_score": 73.4,
+    "tags": [
+      "bevy",
+      "physics",
+      "rust"
+    ],
+    "category": "Physics Engine",
+    "summary": "Official Rapier physics plugin for Bevy game engine"
+  }
+]

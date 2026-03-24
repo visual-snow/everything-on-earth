@@ -1,0 +1,61 @@
+{
+  "name": "YANG Catalog (deployment)",
+  "repo_url": "https://github.com/yangcatalog/deployment",
+  "description": "Docker-compose deployment for the YANG Catalog platform. Includes YANG validation services, module search, metadata extraction, and a full web UI for browsing and analyzing YANG models from IETF, vendors, and OpenConfig.",
+  "domain": "ietf",
+  "secondary_domains": [
+    "netconf"
+  ],
+  "protocols": [
+    "HTTP",
+    "NETCONF",
+    "RESTCONF",
+    "YANG"
+  ],
+  "provides": [
+    "yang-module-catalog",
+    "yang-validation",
+    "yang-model-search",
+    "restconf-api",
+    "web-dashboard",
+    "metadata-extraction",
+    "impact-analysis",
+    "module-comparison",
+    "opensearch-indexing",
+    "rabbitmq-messaging",
+    "redis-cache",
+    "nginx-reverse-proxy"
+  ],
+  "needs": [
+    "docker-compose",
+    "sufficient-disk-storage",
+    "internet-access-for-yang-sources"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 10,
+    "docker_evidence": "Full docker-compose deployment with OpenSearch, RabbitMQ, Redis, NGINX, and custom YANG Catalog services. Production instance runs at yangcatalog.org."
+  },
+  "github_metrics": {
+    "stars": 50,
+    "last_commit": "2026-01",
+    "language": "Python",
+    "license": "BSD-2-Clause"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Complete YANG model catalog and validation platform. Docker-compose deploys full stack including search, validation, and web UI. Good for large-scale YANG model analysis. IETF-backed project. The canonical YANG module catalog (yangcatalog.org). Includes validator, search, impact analysis, and module comparison. Complex multi-service deployment but provides the most comprehensive YANG module registry available.",
+  "related_repos": [
+    "https://github.com/ietf-tools/yangcatalog",
+    "https://github.com/yangcatalog/backend",
+    "https://github.com/yangcatalog/yang-validator-extractor",
+    "https://github.com/yangcatalog/yangcatalog-ui",
+    "https://github.com/yangcatalog/yangre"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/netconf-testing.json",
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "yang-catalog-deployment"
+}

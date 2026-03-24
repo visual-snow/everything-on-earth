@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/bettercap/bettercap",
+  "name": "bettercap/bettercap",
+  "description": "The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks reconnaissance and MITM attacks. Actively maintained with regular releases and a modular plugin system.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 10,
+  "score_rationale": "Industry-standard wireless/network attack framework with 18k+ stars and active maintenance through 2026.",
+  "stars": 18983,
+  "language": "Go",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 94.2,
+  "tags": [
+    "osint",
+    "intelligence",
+    "recon"
+  ],
+  "category": "OSINT Platform",
+  "summary": "Open source intelligence gathering",
+  "slug": "bettercap-bettercap"
+}

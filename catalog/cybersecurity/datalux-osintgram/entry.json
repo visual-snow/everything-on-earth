@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/datalux/osintgram",
+  "name": "Datalux/Osintgram",
+  "description": "OSINT tool for Instagram providing an interactive shell to collect, analyze, and run reconnaissance on Instagram profiles by nickname.",
+  "sub_domain": "osint-recon",
+  "score": 8,
+  "score_rationale": "12.5k stars with solid community adoption for Instagram-specific OSINT, showing activity into 2025.",
+  "stars": 12500,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-08-25",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 80.8,
+  "tags": [
+    "osint",
+    "reconnaissance",
+    "security-tool"
+  ],
+  "category": "OSINT Platform",
+  "summary": "OSINT tool for Instagram providing an interactive shell to collect, analyze, and run reconnaissan...",
+  "slug": "datalux-osintgram"
+}

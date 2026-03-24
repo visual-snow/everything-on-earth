@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/yarnspinnertool/yarnspinner-unity",
+  "name": "YarnSpinnerTool/YarnSpinner-Unity",
+  "description": "The official Unity integration for Yarn Spinner, providing components, editors, and runtime support for branching dialogue in Unity games. Used in Night in the Woods and A Short Hike.",
+  "sub_domain": "dialogue-narrative",
+  "score": 7,
+  "score_rationale": "Official Unity integration for the popular Yarn Spinner framework with 749 stars, actively maintained into late 2025.",
+  "stars": 749,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-12-04",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 65.0,
+  "tags": [
+    "yarn-spinner",
+    "unity",
+    "dialogue",
+    "dialogue-system"
+  ],
+  "category": "Unity Dialogue",
+  "summary": "Official Unity integration for Yarn Spinner branching dialogue system",
+  "slug": "yarnspinnertool-yarnspinner-unity"
+}

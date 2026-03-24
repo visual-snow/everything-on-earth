@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nettitude/poshc2",
+  "name": "nettitude/PoshC2",
+  "description": "Proxy-aware C2 framework written in Python3 with PowerShell, C#, and Python implants, supporting Docker deployment and modular extensibility for post-exploitation and lateral movement. Maintained by Nettitude with a v9.0 release in 2024.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 8,
+  "score_rationale": "2.1k stars, actively maintained through 2024, and valued for its proxy-aware design and multi-language implant support.",
+  "stars": 2100,
+  "language": "PowerShell",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-06-11",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 74.6,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "nettitude-poshc2"
+}

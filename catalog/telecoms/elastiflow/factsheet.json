@@ -1,0 +1,52 @@
+{
+  "slug": "elastiflow",
+  "name": "ElastiFlow",
+  "what_it_is": "Network flow data collection and visualization platform built on the Elastic Stack (Elasticsearch, Logstash, Kibana) that ingests NetFlow, sFlow, and IPFIX telemetry. The legacy open-source version is deprecated; users are directed to the commercial ElastiFlow Unified Flow Collector.",
+  "components": [
+    "Elasticsearch (data storage and indexing)",
+    "Logstash (flow data processing pipeline)",
+    "Kibana (dashboards and visualization)"
+  ],
+  "protocols": [
+    "NetFlow v5",
+    "NetFlow v9",
+    "sFlow",
+    "IPFIX",
+    "Ziften ZFlow IPFIX records (v3.4.0+)"
+  ],
+  "measurement": [
+    "Flow talkers (top sources/destinations)",
+    "Flow services and applications",
+    "Flow conversations",
+    "Autonomous System (AS) traffic",
+    "Geographic IP distribution (GeoLite2)",
+    "Traffic locality patterns",
+    "IP reputation / threat detection",
+    "Traffic types and attributes"
+  ],
+  "configuration": [
+    "Logstash pipeline configuration files for each protocol",
+    "Elasticsearch index templates and ILM policies",
+    "Kibana saved objects (dashboards, visualizations, index patterns)",
+    "GeoLite2 database path configuration",
+    "IP reputation dictionary configuration"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Legacy open-source mode (Elastic Stack 6.x/7.x, Logstash-based, deprecated)",
+    "Current commercial mode (ElastiFlow Unified Flow Collector, 10x+ throughput)"
+  ],
+  "constraints": [
+    "Local SSD storage is mandatory — HDD storage severely hampers performance",
+    "Monitor resolution optimized for 1920x1080 for Kibana dashboards",
+    "Legacy version is no longer maintained and targets older Elastic Stack versions",
+    "No built-in fault injection or traffic simulation capabilities"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found in the repository (404 on both main and master branches)",
+    "No fault injection or synthetic traffic generation tooling",
+    "No authentication or TLS configuration examples in the open-source repo",
+    "No active maintenance — project is deprecated in favor of commercial successor"
+  ]
+}

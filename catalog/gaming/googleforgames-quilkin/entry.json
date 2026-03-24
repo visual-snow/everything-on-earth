@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/googleforgames/quilkin",
+  "name": "googleforgames/quilkin",
+  "description": "A non-transparent UDP proxy designed for large-scale multiplayer game server deployments, providing security, access control, telemetry, and metrics without requiring changes to game clients or servers.",
+  "sub_domain": "game-server-orchestration",
+  "score": 7,
+  "score_rationale": "Specialized and production-proven UDP proxy for game servers with 1.5k stars, written in Rust for high performance and maintained through early 2026.",
+  "stars": 1500,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "game-server-orchestration"
+  ],
+  "quality_score": 67.4,
+  "tags": [
+    "udp-proxy",
+    "multiplayer",
+    "telemetry",
+    "security",
+    "google"
+  ],
+  "category": "Game UDP Proxy",
+  "summary": "Google-backed UDP proxy for game server scaling",
+  "slug": "googleforgames-quilkin"
+}

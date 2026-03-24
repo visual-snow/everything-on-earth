@@ -1,0 +1,54 @@
+{
+  "name": "Telemetry Collector (Cisco NX-OS)",
+  "repo_url": "https://github.com/dsx1123/telemetry_collector",
+  "description": "Telemetry software stack for Cisco NX-OS supporting both telemetry dial-out and gNMI dial-in, built with Telegraf, InfluxDB, and Grafana.",
+  "domain": "cisco-nexus",
+  "secondary_domains": [
+    "model-driven-telemetry",
+    "netconf",
+    "nxos-telemetry"
+  ],
+  "protocols": [
+    "gNMI",
+    "gRPC",
+    "MDT"
+  ],
+  "provides": [
+    "gnmi-dial-in",
+    "grpc-dial-out",
+    "mdt-collection",
+    "telemetry-pipeline",
+    "influxdb-timeseries",
+    "grafana-dashboard",
+    "telegraf-collector",
+    "nxos-telemetry",
+    "multi-service-compose"
+  ],
+  "needs": [
+    "cisco-nxos-device",
+    "gnmi-capable-switch",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 3,
+    "docker_evidence": "Automatically builds telemetry collector with Telegraf, Influxdb, and Grafana using docker images with docker-compose."
+  },
+  "github_metrics": {
+    "stars": 30,
+    "last_commit": "2023-01-01",
+    "language": "Python",
+    "license": "unknown"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "NX-OS focused telemetry stack. Useful for evaluations involving Cisco Nexus platform telemetry collection.",
+  "related_repos": [
+    "https://github.com/cisco-ie/pipeline-gnmi"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "telemetry-collector-cisco-nx-os"
+}

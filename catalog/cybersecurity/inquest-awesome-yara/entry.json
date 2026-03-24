@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/inquestlabs/awesome-yara",
+  "name": "InQuest/awesome-yara",
+  "description": "Curated list of awesome YARA rules, tools, and resources for malware detection including rule collections from major security organizations.",
+  "sub_domain": "malware-reversing",
+  "score": 7,
+  "score_rationale": "4.2k stars, essential resource directory for YARA-based malware detection with recent 2026 updates.",
+  "stars": 4200,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 71.0,
+  "tags": [
+    "malware-analysis",
+    "pattern-matching",
+    "security-tool"
+  ],
+  "category": "Malware Analysis Tool",
+  "summary": "Curated list of awesome YARA rules, tools, and resources for malware detection including rule col...",
+  "slug": "inquest-awesome-yara"
+}

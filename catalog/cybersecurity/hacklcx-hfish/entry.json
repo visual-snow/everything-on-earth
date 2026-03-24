@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hacklcx/hfish",
+  "name": "hacklcx/HFish",
+  "description": "HFish is a free, community-driven enterprise honeypot system built in Go supporting 90+ service types for threat detection across internal networks and external perimeters. It uses a B/S architecture for centralized management of distributed honeypot nodes.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 7,
+  "score_rationale": "Feature-rich enterprise honeypot with 4.5k stars and broad protocol support, particularly popular in Asian enterprise environments.",
+  "stars": 4500,
+  "language": "Go",
+  "license": null,
+  "last_activity": "2024-06-01",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 71.2,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "HFish is a free, community-driven enterprise honeypot system built in Go supporting 90+ service type",
+  "slug": "hacklcx-hfish"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "IVOZ Provider",
+  "repo_url": "https://github.com/irontec/ivozprovider",
+  "description": "Multitenant VoIP telephony provider platform built on Kamailio and Asterisk. Designed for horizontal scaling.",
+  "domain": "kamailio",
+  "secondary_domains": [
+    "multitenant-voip",
+    "sip-provider",
+    "telephony-platform",
+    "webrtc"
+  ],
+  "protocols": [
+    "SIP",
+    "RTP",
+    "WebRTC"
+  ],
+  "provides": [
+    "sip-proxy",
+    "pbx-management",
+    "multitenant-voip-platform",
+    "voip-provider-management",
+    "web-dashboard",
+    "kamailio-integration",
+    "config-mutation",
+    "rtp-media-handling",
+    "rest-api",
+    "webrtc-gateway",
+    "docker-compose-stack",
+    "asterisk-integration",
+    "call-routing"
+  ],
+  "needs": [
+    "mysql-database",
+    "redis",
+    "linux-host",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "docker-compose.yml file present in root directory. docker directory for containerized deployments."
+  },
+  "github_metrics": {
+    "stars": 221,
+    "last_commit": "2026-01-27",
+    "language": "PHP",
+    "license": "GPL-3.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Full VoIP provider platform with Docker Compose. Good for multi-tenant telephony management and SIP infrastructure evals.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "ivoz-provider"
+}

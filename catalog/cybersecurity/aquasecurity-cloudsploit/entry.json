@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/aquasecurity/cloudsploit",
+  "name": "aquasecurity/cloudsploit",
+  "description": "Cloud Security Posture Management (CSPM) tool detecting security risks and misconfigurations across AWS, Azure, GCP, OCI, and GitHub. Checks against HIPAA, PCI-DSS, and CIS Benchmarks.",
+  "sub_domain": "container-cloud-security",
+  "score": 8,
+  "score_rationale": "3.7k stars with active maintenance through December 2024, providing multi-cloud CSPM coverage including lesser-covered OCI and GitHub targets.",
+  "stars": 3700,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2024-12-11",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 76.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "aquasecurity-cloudsploit"
+}

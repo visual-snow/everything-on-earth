@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/future-architect/vuls",
+  "name": "future-architect/vuls",
+  "description": "Agent-less vulnerability scanner for Linux, FreeBSD, containers, WordPress, programming language libraries, and network devices with multi-database CVE integration.",
+  "sub_domain": "vuln-scanners",
+  "score": 9,
+  "score_rationale": "Mature agent-less vulnerability scanner with 12.1k stars, GPL-3.0 licensed, actively maintained with broad platform coverage and multi-CVE-database support.",
+  "stars": 12100,
+  "language": "Go",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "vuln-scanners"
+  ],
+  "quality_score": 86.7,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "future-architect-vuls"
+}

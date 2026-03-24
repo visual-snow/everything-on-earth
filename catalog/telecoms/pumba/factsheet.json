@@ -1,0 +1,82 @@
+{
+  "slug": "pumba",
+  "name": "Pumba",
+  "what_it_is": "Pumba is a chaos testing and network emulation CLI tool for Docker and containerd containers. It can kill, stop, pause, or remove containers, inject network faults (delay, loss, corruption, rate-limiting) via Linux tc/netem and iptables, and stress-test CPU/memory/IO using stress-ng.",
+  "components": [
+    "pumba CLI binary (Go)",
+    "Helper/sidecar nettools container (shares target network namespace for tc/iptables injection)",
+    "pumba-alpine-nettools image (ghcr.io/alexei-led/pumba-alpine-nettools) — iproute2 + iptables on Alpine",
+    "pumba-debian-nettools image (ghcr.io/alexei-led/pumba-debian-nettools) — iproute2 + iptables on Debian"
+  ],
+  "protocols": [
+    "Any (tc/netem operates at network namespace level, protocol-agnostic for egress)",
+    "TCP (iptables ingress loss filter)",
+    "UDP (iptables ingress loss filter)",
+    "ICMP (iptables ingress loss filter)",
+    "netem (Linux kernel traffic control — delay, loss, corrupt, duplicate, rate)"
+  ],
+  "measurement": [
+    "No built-in metrics export; chaos effects are observed on the target application",
+    "Delay: configurable time (ms) + jitter (ms) + correlation (%) + distribution (uniform/normal/pareto/paretonormal)",
+    "Loss: percentage (0-100) with optional correlation; also 4-state Markov (loss-state) and Gilbert-Elliot (loss-gemodel) models",
+    "Rate: bandwidth in kbit/mbit units with optional packet overhead and cell size parameters",
+    "Duplicate/corrupt: percentage with optional correlation"
+  ],
+  "configuration": [
+    "--runtime: docker (default) or containerd",
+    "--interval: recurring chaos interval (e.g. 30s, 5m)",
+    "--random: select one random container from matched set",
+    "--duration: how long the network chaos rule is active (required for netem/iptables commands)",
+    "--interface (-i): target network interface, default eth0",
+    "--tc-image / --iptables-image: helper image providing tc/iptables tools",
+    "--target (-t): IP/CIDR filter for netem rules (repeatable)",
+    "--egress-port / --ingress-port: port filters for netem rules",
+    "--containerd-socket / --containerd-namespace: containerd runtime configuration",
+    "Container selection: by name, name regex (re2: prefix), or Docker labels"
+  ],
+  "fault_injection": [
+    "netem delay: add egress latency with optional jitter, correlation, and statistical distribution",
+    "netem loss: drop egress packets by Bernoulli probability",
+    "netem loss-state: bursty egress loss via 4-state Markov model",
+    "netem loss-gemodel: egress loss via Gilbert-Elliot good/bad state channel model",
+    "netem duplicate: duplicate egress packets by probability",
+    "netem corrupt: corrupt egress packet bits by probability",
+    "netem rate: limit egress bandwidth (kbit/mbit)",
+    "iptables loss: drop ingress packets (random or nth-packet matching)",
+    "kill: send signal to PID 1 of container (default SIGKILL)",
+    "stop: docker stop / containerd task stop",
+    "pause: docker pause (SIGSTOP all processes)",
+    "rm: remove container",
+    "restart: restart container",
+    "exec: run arbitrary command inside container",
+    "stress: CPU / memory / IO stress via stress-ng (child or same-cgroup injection)"
+  ],
+  "modes": [
+    "One-shot: run chaos once for --duration",
+    "Recurring: use --interval to repeat chaos at fixed intervals",
+    "Random targeting: --random picks one container from matched set each interval",
+    "Docker runtime mode (default): uses Docker API; network chaos via sidecar sharing network namespace",
+    "containerd runtime mode: uses containerd API directly; network chaos via exec inside target container (requires tc/iptables in image, or --tc-image sidecar)"
+  ],
+  "constraints": [
+    "netem rules apply to EGRESS traffic only; iptables rules apply to INGRESS traffic only — combined use required for bidirectional fault injection",
+    "Network chaos on Docker requires NET_ADMIN capability on the helper container and access to the host Docker socket (/var/run/docker.sock)",
+    "containerd network chaos requires tc/iptables installed inside the target container image unless --tc-image sidecar is used",
+    "stress-ng must be available in the container (or injected via the stress command's cgroup options)",
+    "--duration must be shorter than --interval when using recurring mode",
+    "Container filtering by label is Docker-only; containerd mode requires container ID or name"
+  ],
+  "docker_services": [
+    "pumba (CLI) — run as: docker run -v /var/run/docker.sock:/var/run/docker.sock ghcr.io/alexei-led/pumba:latest",
+    "pumba-alpine-nettools — sidecar helper image used automatically via --tc-image flag",
+    "pumba-debian-nettools — alternative Debian-based sidecar helper image"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in the repository — pumba is a standalone CLI tool, not a composed service",
+    "No built-in metrics or observability endpoint (Prometheus, etc.)",
+    "No web UI or REST API — CLI only",
+    "No native Windows or macOS network chaos support (netem/iptables are Linux kernel features)",
+    "No DNS fault injection capability",
+    "No HTTP-layer fault injection (operates at L3/L4 only)"
+  ]
+}

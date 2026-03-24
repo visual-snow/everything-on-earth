@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sullo/nikto",
+  "name": "sullo/nikto",
+  "description": "Web server scanner that performs comprehensive tests against web servers for over 6,700 potentially dangerous files and outdated server versions.",
+  "sub_domain": "vuln-scanners",
+  "score": 8,
+  "score_rationale": "Classic, widely-used web server scanner with 10.2k stars, GPL-3.0 licensed, actively maintained as a standard tool in web security assessments and penetration testing toolkits.",
+  "stars": 10200,
+  "language": "Perl",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "vuln-scanners",
+    "webapp-security"
+  ],
+  "quality_score": 80.1,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "sullo-nikto"
+}

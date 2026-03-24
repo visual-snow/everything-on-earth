@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/inspiaaa/unityhfsm",
+  "name": "Inspiaaa/UnityHFSM",
+  "description": "A fast hierarchical finite state machine library for Unity with zero garbage collection allocations at runtime, coroutine support, and both class-based and lambda-based APIs.",
+  "sub_domain": "behavior-ai",
+  "score": 8,
+  "score_rationale": "1.5k stars, zero-GC design makes it well suited for performance-critical game AI in Unity projects.",
+  "stars": 1500,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 73.4,
+  "tags": [
+    "fsm",
+    "state-machine",
+    "unity",
+    "game-ai",
+    "zero-gc"
+  ],
+  "category": "AI State Machines",
+  "summary": "Fast zero-GC hierarchical FSM library for Unity game AI",
+  "slug": "inspiaaa-unityhfsm"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "SONATA MANO Framework",
+  "repo_url": "https://github.com/sonata-nfv/son-mano-framework",
+  "description": "SONATA's Service Platform MANO Framework for orchestrating network functions packaged as Docker containers, with the 5GTANGO Service Platform providing V&V testing and benchmarking capabilities.",
+  "domain": "network-service-orchestration",
+  "secondary_domains": [
+    "nfv-mano",
+    "service-platform",
+    "vnf-lifecycle"
+  ],
+  "protocols": [
+    "AMQP",
+    "ETSI NFV MANO",
+    "OpenStack API",
+    "REST",
+    "gRPC"
+  ],
+  "provides": [
+    "nfv-mano-orchestration",
+    "service-lifecycle-management",
+    "vnf-onboarding",
+    "function-lifecycle-management",
+    "service-registry",
+    "vnf-placement",
+    "amqp-message-bus",
+    "microservice-orchestration",
+    "network-service-descriptor-processing",
+    "vnf-benchmarking"
+  ],
+  "needs": [
+    "rabbitmq",
+    "mongodb",
+    "vim-emu-or-openstack",
+    "docker-engine",
+    "python3-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "tsoenen/manobase",
+    "compose_services_count": 6,
+    "docker_evidence": "Each MANO Framework component is written in Python and packaged as a Docker container. Pre-built images on Docker Hub under tsoenen namespace. Components: SLM, FLM, placement, registry."
+  },
+  "github_metrics": {
+    "stars": 20,
+    "last_commit": "unknown",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "NFV MANO framework with built-in V&V testing platform. Excellent for testing network service lifecycle management, VNF onboarding, and automated benchmarking with Docker-based VNFs. EU-funded research MANO framework with clean microservice architecture. Good for studying MANO internals. Pairs with vim-emu for local NFV testing. Development appears stopped.",
+  "related_repos": [
+    "https://github.com/cn-upb/pishahang",
+    "https://github.com/containernet/vim-emu",
+    "https://github.com/sonata-nfv/son-emu",
+    "https://github.com/sonata-nfv/son-examples",
+    "https://github.com/sonata-nfv/tng-devops"
+  ],
+  "_sources": [
+    "discovery/edge-mec.json",
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "sonata-mano-framework"
+}

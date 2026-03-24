@@ -1,0 +1,92 @@
+{
+  "slug": "gobgp",
+  "name": "GoBGP",
+  "what_it_is": "GoBGP is an open-source BGP implementation written in Go, designed for modern environments with a rich policy engine based on the IETF vendor-neutral model. It exposes a gRPC API for programmatic management and supports a wide range of BGP address families and extensions.",
+  "components": [
+    "gobgpd — BGP daemon (server process)",
+    "gobgp — CLI client for interacting with gobgpd",
+    "gRPC API — programmatic management interface (default port 50051)",
+    "Prometheus metrics endpoint — exposed via --pprof-host flag, default port 6060, path /metrics"
+  ],
+  "protocols": [
+    "BGP (eBGP, iBGP, BGP-4)",
+    "BGP-LS (Link-State)",
+    "BMP (BGP Monitoring Protocol)",
+    "EVPN / L2VPN-VPLS",
+    "FlowSpec (IPv4 and IPv6)",
+    "MRT (dump and injection)",
+    "RPKI (Route Origin Validation)",
+    "SR-Policy (Segment Routing Policy)",
+    "gRPC (management plane)",
+    "Graceful Restart / Long-Lived Graceful Restart",
+    "Route Refresh",
+    "Add-Paths",
+    "BGP Confederation",
+    "TTL Security",
+    "Unnumbered BGP",
+    "MUP (Mobile User Plane, IPv4/IPv6)",
+    "L3VPN (IPv4/IPv6 unicast)",
+    "RT Constraint (RTC)"
+  ],
+  "measurement": [
+    "Prometheus metrics at /metrics (default port 6060) via --pprof-host flag",
+    "bgp_peer_state — FSM state (IDLE/CONNECT/ACTIVE/OPENSENT/OPENCONFIRM/ESTABLISHED) and admin state per peer",
+    "bgp_routes_received / bgp_routes_accepted / bgp_routes_advertised — per peer and route family",
+    "bgp_sent_* / bgp_received_* counters — OPEN, UPDATE, KEEPALIVE, NOTIFICATION, REFRESH, WITHDRAW messages",
+    "bgp_peer_flop_count — session flap count per peer",
+    "bgp_peer_out_queue_count — outgoing message queue depth",
+    "bgp_peer_uptime — time in current FSM state",
+    "Grafana dashboard available (dashboard ID 22061-gobgp on grafana.com)"
+  ],
+  "configuration": [
+    "Config file formats: TOML (default), YAML, JSON, HCL; format specified with -t flag",
+    "global.config: AS number, router-id, listen port (default 179), local-address-list",
+    "neighbors: peer-as, neighbor-address, local-as, auth-password, passive-mode, ebgp-multihop, route-reflector, add-paths, graceful-restart, afi-safis per neighbor",
+    "peer-groups: reusable neighbor configuration templates",
+    "dynamic-neighbors: accept peers from a prefix range associated with a peer-group",
+    "apply-policy: import/export policy with default accept/reject per global RIB or per neighbor",
+    "defined-sets: prefix-sets, neighbor-sets, community-sets, ext-community-sets, as-path-sets",
+    "policy-definitions: statements with conditions and actions (accept/reject, MED/AS-path/community manipulation)",
+    "rpki-servers: RPKI validator address and port for ROV",
+    "bmp-servers: address, port, route-monitoring-policy (pre-policy/post-policy), statistics-timeout",
+    "vrfs: name, RD, RT import/export lists for L3VPN",
+    "mrt-dump: dump-type (updates/table), file-name pattern, dump-interval",
+    "zebra: FIB integration via UNIX socket, redistribute-route-type-list, version",
+    "SIGHUP triggers config reload; -a flag enables auto-reload on file change"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism documented",
+    "Scenario tests use Docker containers (GoBGPContainer, QuaggaBGPContainer, ExaBGPContainer) to simulate multi-peer topologies and test malformed message handling (bgp_malformed_msg_handling_test.py)",
+    "Test scenarios cover: graceful restart, long-lived graceful restart, route flap, policy changes, soft reset, BGP confederation edge cases"
+  ],
+  "modes": [
+    "Standard BGP router mode (eBGP/iBGP peering)",
+    "Route Server mode (route-server-client = true per neighbor)",
+    "Route Reflector mode (route-reflector-client = true per neighbor)",
+    "Go native library mode (embed GoBGP as a Go package without running gobgpd)",
+    "gRPC-only management mode (config file optional; full API control via gRPC)"
+  ],
+  "constraints": [
+    "No docker-compose file in the repository; scenario tests use Python fabric + Docker SDK to programmatically spin up containers, not docker-compose",
+    "BGP listen port defaults to 179 (requires root/CAP_NET_BIND_SERVICE); can be overridden to unprivileged port in config",
+    "TTL Security and eBGP Multihop are mutually exclusive on the same neighbor",
+    "Zebra integration version must match the Quagga/FRR version on the system (version field in config)",
+    "Scenario tests require Python 3, Go, and Docker; dependencies installed via pip from test/pip-requires.txt",
+    "gRPC default port is 50051; Prometheus/pprof endpoint disabled by default unless --pprof-host is set (--pprof-disable suppresses both unless --metrics-path is explicitly set)"
+  ],
+  "docker_services": [
+    "No official docker-compose.yml provided in the repository",
+    "GoBGPContainer — Go BGP daemon container used in Python scenario tests (test/lib/gobgp.py)",
+    "QuaggaBGPContainer — Quagga BGP peer container for interop tests (test/lib/quagga.py)",
+    "ExaBGPContainer — ExaBGP peer container for interop tests (test/lib/exabgp.py)",
+    "BaGPipe container — used in EVPN/VPN scenario tests (test/lib/bagpipe.py)",
+    "BIRD container — used in select interop tests (test/lib/bird.py)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — multi-container test topology is managed programmatically via Python fabric, not Compose",
+    "No built-in traffic generator or route injector beyond gRPC API and CLI",
+    "No native NETCONF/YANG or RESTCONF interface (gRPC only for programmatic access)",
+    "No web UI or dashboard bundled (Grafana integration is external)",
+    "No IS-IS, OSPF, or other IGP support (BGP-only daemon)"
+  ]
+}

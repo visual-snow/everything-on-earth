@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sollimann/bonsai",
+  "name": "Sollimann/bonsai",
+  "description": "A Rust behavior tree library for deterministic AI in games and robotics, enabling modular and reactive agent decision-making through composable tree structures.",
+  "sub_domain": "behavior-ai",
+  "score": 6,
+  "score_rationale": "440 stars, actively maintained through March 2026, providing a well-designed Rust-native behavior tree option.",
+  "stars": 440,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 57.2,
+  "tags": [
+    "behavior-tree",
+    "rust",
+    "deterministic",
+    "reactive",
+    "game-ai"
+  ],
+  "category": "Behavior Trees",
+  "summary": "Composable Rust behavior tree library for game AI",
+  "slug": "sollimann-bonsai"
+}

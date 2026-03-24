@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/guillaumechereau/goxel",
+  "name": "guillaumechereau/goxel",
+  "description": "Goxel is a free and open-source 3D voxel editor for Linux, Windows, and macOS with marching cube rendering, ray tracing, and export to OBJ, MagicaVoxel, and other formats.",
+  "sub_domain": "voxel-engines",
+  "score": 7,
+  "score_rationale": "3.1k stars, well-established cross-platform voxel editor tool widely used by artists for voxel asset creation with broad export format support.",
+  "stars": 3100,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2024-07-28",
+  "found_in_domains": [
+    "voxel-engines"
+  ],
+  "quality_score": 69.9,
+  "tags": [
+    "voxel-editor",
+    "3d-modeling",
+    "marching-cubes",
+    "raytracing",
+    "magicavoxel"
+  ],
+  "category": "3D Voxel Editor",
+  "summary": "Cross-platform voxel editor with ray tracing and multi-format export",
+  "slug": "guillaumechereau-goxel"
+}

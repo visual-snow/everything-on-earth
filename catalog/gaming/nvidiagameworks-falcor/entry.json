@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nvidiagameworks/falcor",
+  "name": "NVIDIAGameWorks/Falcor",
+  "description": "NVIDIA's real-time rendering research framework supporting DirectX 12 and Vulkan, with ray tracing, render graphs, Python scripting, and DLSS/RTXDI/NRD integration for rapid prototyping.",
+  "sub_domain": "graphics-rendering",
+  "score": 8,
+  "score_rationale": "NVIDIA's professional rendering research framework with 3.1k stars, widely used in academic and industry research for implementing novel rendering techniques.",
+  "stars": 3100,
+  "language": "C++",
+  "license": "LicenseRef-Falcor",
+  "last_activity": "2024-08-19",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 75.9,
+  "tags": [
+    "rendering",
+    "research",
+    "dlss"
+  ],
+  "category": "Rendering Framework",
+  "summary": "NVIDIA research framework with ray tracing and DLSS",
+  "slug": "nvidiagameworks-falcor"
+}

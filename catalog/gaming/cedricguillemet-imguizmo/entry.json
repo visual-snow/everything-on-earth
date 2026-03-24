@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cedricguillemet/imguizmo",
+  "name": "CedricGuillemet/ImGuizmo",
+  "description": "An immediate-mode 3D gizmo library built on top of Dear ImGui for manipulating 4x4 float matrices (translate, rotate, scale) in game editors and scene tools.",
+  "sub_domain": "game-ui",
+  "score": 8,
+  "score_rationale": "The standard 3D transformation gizmo for ImGui-based game editors with 3.8k stars and broad integration across game engine tools.",
+  "stars": 3800,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2021-07-20",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 76.6,
+  "tags": [
+    "imgui",
+    "3d-gizmo",
+    "editor",
+    "transformation",
+    "game-tools"
+  ],
+  "category": "3D Editor Gizmo",
+  "summary": "Standard ImGui-based 3D transformation gizmo",
+  "slug": "cedricguillemet-imguizmo"
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "upg-vpp",
+  "name": "UPG-VPP (User Plane Gateway based on VPP)",
+  "what_it_is": "An out-of-tree VPP plugin implementing a GTP-U user plane per 3GPP TS 23.214 and TS 29.244 Release 15, usable as a 5G UPF, PGW-U, or TDF-U. It is used in production by telecom operators alongside the erGW GGSN/PGW.",
+  "components": [
+    "VPP (fd.io vector packet processor) as the data-plane runtime",
+    "upf-plugin: the UPG out-of-tree VPP plugin (C, built as a .deb)",
+    "PFCP server: handles 3GPP TS 29.244 session control signalling",
+    "ADF (Application Detection Framework): L7 regex + IP filter-based traffic classification",
+    "TCP proxy: connection splicing for URL-based app detection (configurable MSS)",
+    "Go E2E test framework (Ginkgo/Gomega): spawns VPP in network namespaces and drives PFCP + traffic",
+    "IPFIX exporter: flow record export on port 4739",
+    "govpp binary API bindings: used by E2E tests to call VPP APIs directly"
+  ],
+  "protocols": [
+    "GTP-U (3GPP TS 29.281) — encapsulation/decapsulation of user-plane traffic",
+    "PFCP (3GPP TS 29.244) — session establishment, modification, deletion, reporting",
+    "IPv4 and IPv6 — both inner (UE) and outer (transport) addressing",
+    "HTTP (L7 detection via regex proxy)",
+    "UDP (traffic generation and PFCP transport)",
+    "ICMP / ICMPv6 (ping traffic generation in tests)",
+    "IPFIX (flow telemetry export)",
+    "GTP-U extensions (sequence numbers, N-PDU, extension headers)"
+  ],
+  "measurement": [
+    "Usage Reporting Rules (URR): volume-based and duration-based measurement per PFCP session",
+    "Monitoring time and quota validity time (VTime) per URR",
+    "Linked Usage Reports and PFCP Session Reports",
+    "Volume quota enforcement (triggers session report when threshold crossed)",
+    "Periodic reporting via MeasurementPeriod IE",
+    "Start-event triggered reporting (URRStartEv)",
+    "IPFIX flow records exported to collector on port 4739 with configurable templates",
+    "VPP CLI: 'show upf flows' for live flow state inspection"
+  ],
+  "configuration": [
+    "VPP startup config (generated from Go template): unix socket paths, CPU core pinning, heap size, plugin list, buffer size, session layer, logging level",
+    "Network Work Interfaces (NWI): named VRF-backed network contexts (cp, epc/access, sgi, core)",
+    "PFCP endpoint: 'upf pfcp endpoint ip <ip> vrf <id>'",
+    "GTP-U endpoint: 'upf gtpu endpoint ip[6] <ip> nwi <name> teid <mask>'",
+    "UPF specification release: 'upf specification release 15|16'",
+    "Node identity: 'upf node-id fqdn <name>' or 'upf node-id ip4 <ip>'",
+    "TDF uplink table: 'upf tdf ul table vrf <id> ip4|ip6 table-id <id>' and 'upf tdf ul enable ip4|ip6 <iface>'",
+    "ADF application definitions: 'adf create application name <APP> [proxy]', L7 regex rules, IP filter rules",
+    "Proxy MSS: 'set upf proxy mss <value>'",
+    "PFCP FIFO size: 'upf pfcp server set fifo-size <kib>'",
+    "UDP MTU override: 'udp { mtu <value> }' in VPP startup to avoid UDP splitting",
+    "Heap size: set in VPP startup (default 1 GiB); cannot be expanded at runtime",
+    "Multicore mode: worker core assignment in VPP startup; E2E flag E2E_MULTICORE"
+  ],
+  "fault_injection": [
+    "GTP-U extension header injection via TPDUHook (sequence numbers, N-PDU, custom ext header type 0x32)",
+    "Corrupt GTP-U datagram injection via GTPURawHook (broken extension header length = 0) at configurable frequency (every 13th datagram)",
+    "Connection flood test (verifyConnFlood) to stress PFCP and data-plane under load",
+    "PDR replacement mid-session (describePDRReplacement) to test rule hot-swap",
+    "MTU-edge cases: small packet / fragmentation boundary tests (describeMTU)",
+    "Routing policy changes mid-session (describeRoutingPolicy)",
+    "NAT pool exhaustion / NAT behaviour tests (describeNAT, TDF mode only, IPv4 only)",
+    "E2E_PAUSE_ON_ERROR: pause VPP process on first test failure for interactive inspection",
+    "E2E_GDBSERVER: run VPP under gdbserver for attaching a debugger"
+  ],
+  "modes": [
+    "PGW mode (UPGModePGW): GTP-U encap/decap between access (grx) and SGi, IPv4 and IPv6",
+    "TDF mode (UPGModeTDF): transparent traffic detection without GTP-U tunnelling, IPv4 and IPv6",
+    "GTP Proxy mode (UPGModeGTPProxy): relay GTP-U between access and core NWIs, IPv4 and IPv6",
+    "Debug build vs release build: controlled by BUILD_TYPE=debug|release make variable",
+    "Interrupt mode vs polling mode: poll-sleep-usec in VPP startup toggles interrupt-driven scheduling",
+    "Single-core vs multicore: E2E_MULTICORE flag enables a second worker core in tests"
+  ],
+  "constraints": [
+    "Buffer Action Rules (BAR) are not implemented",
+    "QoS Enforcement Rule (QER) is not implemented",
+    "FAR action with LI (Lawful Intercept) destination is not implemented",
+    "Ethernet bearer support is not implemented",
+    "PFCP error handling is incomplete — errors in Sx procedures may not be properly propagated",
+    "VPP heap cannot be expanded beyond the initial size (default 1 GiB); large deployments must pre-configure a larger heap",
+    "VPP cannot chain buffers for IP fragments, so IP fragments larger than ~2 KiB cannot be produced unless buffer size is increased",
+    "VPP IP reassembly is limited to 8 fragments (patched from upstream default of 3); large PFCP datagrams may still exceed this",
+    "PFCP FIFO default size is 64 KiB; high-rate PFCP traffic can overflow it",
+    "UDP datagrams >1500 bytes are split by default (not IP-fragmented); requires 'udp { mtu }' workaround",
+    "Zero UDP checksum bug on PFCP Session Modification Responses for IPv6 PFCP endpoints (workaround: use IPv4 PFCP endpoint)",
+    "Built and tested only on Linux (Ubuntu/Debian); no Windows support",
+    "CI runs only for pushes to branches within the repository itself (no fork CI)",
+    "Per-commit Docker images expire after 7 days"
+  ],
+  "docker_services": [
+    "Build environment container ('make buildenv'): Ubuntu/Debian-based image containing VPP build dependencies, Go toolchain, clang, cmake; mounts project source at /src",
+    "UPG release/debug image ('make image'): final Docker image containing the upf-plugin .deb installed on top of a VPP base image",
+    "VPP base image (vpp-base / fpp-vpp): travelping fork of upstream VPP used as the base layer",
+    "E2E test runner: VPP is launched as a subprocess inside the build container, not as a separate Docker service; network namespaces are used instead of Docker networking"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — the project uses Makefile + a single build/test container, not a multi-service Compose stack",
+    "No Kubernetes manifests or Helm charts in the repository",
+    "No SMF/AMF/control-plane simulator included — E2E tests implement a minimal PFCP client in Go directly",
+    "No RADIUS or Diameter AAA integration",
+    "No persistent storage or database component",
+    "No REST or gRPC management API — all configuration is via VPP CLI or PFCP"
+  ]
+}

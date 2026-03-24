@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/khronosgroup/ktx-software",
+  "name": "KhronosGroup/KTX-Software",
+  "description": "Official Khronos KTX (Khronos Texture) library and tools for reading, writing, validating, encoding, and transcoding KTX texture files for OpenGL, Vulkan, and other GPU APIs.",
+  "sub_domain": "asset-formats",
+  "score": 8,
+  "score_rationale": "Official Khronos implementation for the KTX2 open texture standard with 1.2k stars, actively maintained through 2025, and essential for modern GPU texture pipelines.",
+  "stars": 1200,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-10-04",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 72.6,
+  "tags": [
+    "ktx2",
+    "texture-format",
+    "khronos"
+  ],
+  "category": "Texture Format Tools",
+  "summary": "Official Khronos KTX2 texture format library for GPU API transcoding",
+  "slug": "khronosgroup-ktx-software"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fogleman/craft",
+  "name": "fogleman/Craft",
+  "description": "A simple Minecraft clone written in C using modern OpenGL with online multiplayer support via a Python-based server. Minimalist, well-engineered voxel game reference.",
+  "sub_domain": "voxel-engines",
+  "score": 8,
+  "score_rationale": "11k stars, widely referenced clean C implementation of a voxel game engine, used extensively as a learning resource despite being inactive since 2014.",
+  "stars": 11000,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2014-03-01",
+  "found_in_domains": [
+    "voxel-engines"
+  ],
+  "quality_score": 80.3,
+  "tags": [
+    "voxel",
+    "minecraft-clone",
+    "opengl",
+    "c",
+    "multiplayer"
+  ],
+  "category": "Minecraft Clone Engine",
+  "summary": "Clean C voxel engine with OpenGL rendering and multiplayer support",
+  "slug": "fogleman-craft"
+}

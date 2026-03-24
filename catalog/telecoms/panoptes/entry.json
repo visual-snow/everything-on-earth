@@ -1,0 +1,53 @@
+{
+  "name": "Panoptes",
+  "repo_url": "https://github.com/yahoo/panoptes",
+  "description": "Global-scale Python-based network telemetry ecosystem implementing discovery, enrichment and polling with plugin architecture and horizontal scalability.",
+  "domain": "device-discovery",
+  "secondary_domains": [
+    "netconf",
+    "snmp-polling"
+  ],
+  "protocols": [
+    "SNMP",
+    "SNMPv2c"
+  ],
+  "provides": [
+    "snmp-polling",
+    "network-discovery",
+    "device-enrichment",
+    "plugin-architecture",
+    "telemetry-collection",
+    "horizontal-scalability",
+    "metrics-pipeline"
+  ],
+  "needs": [
+    "redis",
+    "zookeeper",
+    "influxdb",
+    "kafka",
+    "snmp-capable-devices"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "You can try out Panoptes in a Docker container. panoptes_docker includes Python3.6, redis, zookeeper, influxdb."
+  },
+  "github_metrics": {
+    "stars": 220,
+    "last_commit": "2023-01-01",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Yahoo's production network telemetry system. Plugin architecture makes it interesting for evaluations involving custom telemetry collection extensions.",
+  "related_repos": [
+    "https://github.com/yahoo/panoptes_docker",
+    "https://github.com/yahoo/panoptes-stream"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "panoptes"
+}

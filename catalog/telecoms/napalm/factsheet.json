@@ -1,0 +1,67 @@
+{
+  "slug": "napalm",
+  "name": "NAPALM",
+  "what_it_is": "NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support) is a Python library providing a unified API to connect, configure, and retrieve operational state from network devices across multiple vendors. It abstracts vendor-specific CLIs and APIs behind a single interface.",
+  "components": [
+    "napalm core library (driver abstraction layer)",
+    "vendor drivers (EOS, IOS, IOS-XR, JUNOS, NXOS, etc.)",
+    "napalm CLI tool (command-line client for get_facts and other getters)",
+    "napalm-ansible integration modules",
+    "SaltStack integration (built-in since Carbon 2016.11)",
+    "StackStorm integration pack"
+  ],
+  "protocols": [
+    "SSH",
+    "NETCONF",
+    "eAPI (Arista HTTP/REST)",
+    "NXAPI (Cisco Nexus HTTP)",
+    "CLI (via SSH/Telnet depending on driver)",
+    "HTTP/REST"
+  ],
+  "measurement": [
+    "get_facts (hostname, vendor, model, OS version, uptime, serial number, interface list)",
+    "get_interfaces / get_interfaces_ip / get_interfaces_counters",
+    "get_bgp_neighbors / get_bgp_neighbors_detail / get_bgp_config",
+    "get_lldp_neighbors / get_lldp_neighbors_detail",
+    "get_route_to (routing table lookups)",
+    "get_arp_table / get_ipv6_neighbors_table",
+    "get_mac_address_table",
+    "get_ntp_servers / get_ntp_stats / get_ntp_peers",
+    "get_snmp_information",
+    "get_environment (temperature, CPU, memory, power, fans)",
+    "get_log (system log retrieval)",
+    "get_config (running/startup/candidate config retrieval)",
+    "ping / traceroute (active probes)"
+  ],
+  "configuration": [
+    "load_replace_candidate (full config replace)",
+    "load_merge_candidate (partial config merge)",
+    "compare_config (diff between candidate and running)",
+    "commit_config (apply candidate config)",
+    "discard_config (discard candidate config)",
+    "rollback (revert to previous configuration)",
+    "load_template (Jinja2 template-based config generation)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "read-only (getters only, no config changes)",
+    "read-write (full config management with commit/rollback)",
+    "candidate config workflow (load → compare → commit or discard)"
+  ],
+  "constraints": [
+    "Requires Python 3.9 or later (as of version 5.1.0+)",
+    "Some NOS require feature pre-enablement: XML agent on IOS-XR, NXAPI on NXOS",
+    "Not all getter methods are implemented for all drivers — support matrix varies per vendor",
+    "Atomic replace vs merge semantics differ by platform; not all platforms support candidate configs",
+    "No built-in fault injection or traffic generation capabilities",
+    "Real or emulated network devices required — no built-in mock/simulation mode"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose file in the repository (neither main nor master branch)",
+    "No fault injection or chaos engineering features",
+    "No built-in traffic generation or measurement probes beyond ping/traceroute",
+    "No streaming telemetry (gNMI/gRPC) support in core library",
+    "No GUI or web interface"
+  ]
+}

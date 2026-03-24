@@ -1,7 +1,7 @@
 {
   "name": "everything-on-earth",
-  "version": "0.1.0",
-  "description": "A Claude Code plugin that sends a swarm of agents to research any topic once, producing structured catalogs your agents can retrieve from forever.",
+  "version": "0.2.0",
+  "description": "Dual-platform Claude Code and Codex workflow repo for large-scale repo discovery and capability mapping.",
   "license": "MIT",
   "author": "eaguaida",
   "repository": {
@@ -16,18 +16,18 @@
     "everything-on-earth": "./install.sh"
   },
   "files": [
-    "install.sh",
-    "skill/",
-    "hooks/",
+    "adapters/",
+    "workflows/",
     "pipeline/",
-    "examples/",
+    ".claude/",
     "assets/",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "install.sh"
   ],
   "keywords": [
     "claude-code",
-    "claude-code-plugin",
+    "codex",
     "agent",
     "swarm",
     "research",
@@ -40,8 +40,8 @@
     "node": ">=18"
   },
   "scripts": {
-    "install-plugin": "./install.sh",
-    "uninstall-plugin": "./install.sh --uninstall",
+    "install:claude": "./install.sh --claude",
+    "install:codex": "./install.sh --codex",
     "test": "python3 -m pytest tests/"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "files": [
+    "contract.md",
+    "runtime.json",
+    "prompts/agent-prompt-template.md",
+    "schemas/output-schema.json",
+    "examples/swarm-config.example.json"
+  ]
+}

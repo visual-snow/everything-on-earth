@@ -2,7 +2,6 @@
 discovery/
 raw-discovery.json
 dedup.json
-pruned.json
 enriched.json
 swarm-config.json
 map-capabilities-config.json
@@ -20,6 +19,10 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+
+# Keep project-local Claude hooks trackable even if a global gitignore excludes them.
+!.claude/
+!.claude/settings.local.json
 
 # Local git worktrees
 .worktrees/

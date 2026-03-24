@@ -1,0 +1,11 @@
+{
+  "files": [
+    "contract.md",
+    "runtime.json",
+    "prompts/capability-researcher.md",
+    "prompts/capability-writer.md",
+    "prompts/capability-judge.md",
+    "schemas/capability-factsheet-schema.json",
+    "examples/gold_sandbox_capabilities.md"
+  ]
+}

@@ -2,20 +2,23 @@
 
 ## Hooks
 
-IMPORTANT: All hooks live in the project-level `.claude/settings.local.json` — NEVER in the user's global `~/.claude/settings.json`. This is a plugin used by many people; project hooks must not pollute user configs.
+IMPORTANT: Claude hook configuration lives in the project-level [`.claude/settings.local.json`](./.claude/settings.local.json), never in a user's global `~/.claude/settings.json`.
 
-### Hook path rules
+## Project Structure
 
-- Massive-crawl hooks live at `hooks/` (project root): `hooks/post-concat.js`, `hooks/statusline.js`, etc.
-- Map-capabilities hooks live at `hooks/map-capabilities/`.
-- YOU MUST verify every hook script path exists on disk before writing or modifying `settings.local.json`. Run `ls` on the path first. A wrong path silently breaks every tool call that triggers that hook.
-- When renaming or moving skills, do NOT update hook paths in settings unless you also move the actual files (or vice versa). Path and file must always match.
-
-## Project structure
-
+```text
+workflows/                # shared workflow contracts, prompts, schemas, examples
+adapters/claude/          # Claude-specific skills, hooks, installer
+adapters/codex/           # Codex-specific skills, config, install docs
+pipeline/                 # deterministic Python pipeline
+.claude/settings.local.json
 ```
-hooks/                  # massive-crawl hook scripts (root level)
-hooks/map-capabilities/ # map-capabilities hook scripts (subdirectory)
-skill/massive-crawl/    # massive-crawl skill definition
-pipeline/               # data pipeline (dedup, prune, enrich, finalize)
-```
+
+## Path Rules
+
+- Claude hook scripts live under `adapters/claude/hooks/`
+- Claude adapter prompts live under `adapters/claude/prompts/`
+- Claude skill wrappers live under `adapters/claude/skills/`
+- Shared source-of-truth files live under `workflows/<workflow>/`
+- If you change a hook path, update [`.claude/settings.local.json`](./.claude/settings.local.json) in the same change
+- Verify every referenced hook target exists on disk before changing `.claude/settings.local.json`

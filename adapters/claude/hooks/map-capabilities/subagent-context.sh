@@ -17,7 +17,9 @@ case "$AGENT_NAME" in
 esac
 
 PROJECT_DIR="${CLAUDE_PROJECT_DIR:-.}"
-REF_DIR="$PROJECT_DIR/skill/references"
+PROMPT_DIR="$PROJECT_DIR/workflows/map-capabilities/prompts"
+SCHEMA_DIR="$PROJECT_DIR/workflows/map-capabilities/schemas"
+EXAMPLE_DIR="$PROJECT_DIR/workflows/map-capabilities/examples"
 
 # Emit SubagentStart context JSON from two reference files
 emit_context() {
@@ -26,7 +28,7 @@ emit_context() {
   content1=$(cat "$file1" 2>/dev/null)
   content2=$(cat "$file2" 2>/dev/null)
   if [[ -z "$content1" || -z "$content2" ]]; then
-    echo "Warning: Could not read reference files for $label from $REF_DIR" >&2
+    echo "Warning: Could not read reference files for $label from workflows/map-capabilities" >&2
     exit 0
   fi
   jq -n --arg c1 "$content1" --arg c2 "$content2" \
@@ -41,17 +43,17 @@ emit_context() {
 case "$AGENT_NAME" in
   researcher-*)
     emit_context "RESEARCHER" \
-      "Researcher Prompt" "$REF_DIR/capability-researcher.md" \
-      "Factsheet Schema"  "$REF_DIR/capability-factsheet-schema.json"
+      "Researcher Prompt" "$PROMPT_DIR/capability-researcher.md" \
+      "Factsheet Schema"  "$SCHEMA_DIR/capability-factsheet-schema.json"
     ;;
   writer-*)
     emit_context "WRITER" \
-      "Writer Prompt"   "$REF_DIR/capability-writer.md" \
-      "Style Exemplar"  "$REF_DIR/gold_sandbox_capabilities.md"
+      "Writer Prompt"   "$PROMPT_DIR/capability-writer.md" \
+      "Style Exemplar"  "$EXAMPLE_DIR/gold_sandbox_capabilities.md"
     ;;
   judge-wave-*)
     emit_context "JUDGE" \
-      "Judge Prompt"    "$REF_DIR/capability-judge.md" \
-      "Style Exemplar"  "$REF_DIR/gold_sandbox_capabilities.md"
+      "Judge Prompt"    "$PROMPT_DIR/capability-judge.md" \
+      "Style Exemplar"  "$EXAMPLE_DIR/gold_sandbox_capabilities.md"
     ;;
 esac

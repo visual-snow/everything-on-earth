@@ -108,7 +108,7 @@ def test_score_logs_removals():
 # --- Finalize tests ---
 
 
-def test_finalize_produces_three_outputs(tmp_path):
+def test_finalize_produces_catalog_and_results_only(tmp_path):
     entries = [
         {
             "repo_url": "https://github.com/a/b", "name": "a/b", "description": "Tool A",
@@ -129,9 +129,9 @@ def test_finalize_produces_three_outputs(tmp_path):
     run_finalize(entries, topic="Test Topic", output_dir=tmp_path, template_dir=template_dir)
 
     assert (tmp_path / "catalog.json").exists()
-    assert (tmp_path / "explorer.html").exists()
     assert (tmp_path / "RESULTS.md").exists()
+    assert not (tmp_path / "explorer.html").exists()
 
     catalog = json.loads((tmp_path / "catalog.json").read_text())
     assert len(catalog) == 2
-    assert catalog[0]["quality_score"] >= catalog[1]["quality_score"]  # sorted descending
+    assert catalog[0]["quality_score"] >= catalog[1]["quality_score"]

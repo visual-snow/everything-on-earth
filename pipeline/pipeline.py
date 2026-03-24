@@ -101,7 +101,7 @@ def run_finalize(
     output_dir: Path,
     template_dir: Path | None = None,
 ) -> None:
-    """Validate, cluster, sort, and produce three output files."""
+    """Validate, cluster, sort, and produce catalog.json and RESULTS.md."""
     output_dir.mkdir(parents=True, exist_ok=True)
     if template_dir is None:
         template_dir = Path(__file__).parent / "templates"
@@ -146,20 +146,8 @@ def run_finalize(
     results_path = output_dir / "RESULTS.md"
     results_path.write_text(results_tpl.render(**context))
 
-    # 3. explorer.html via Jinja
-    explorer_tpl = env.get_template("explorer.html")
-    explorer_context = {
-        "topic": topic,
-        "total": len(entries),
-        "domain_count": len(domain_entries),
-        "catalog_json": json.dumps(entries),
-    }
-    explorer_path = output_dir / "explorer.html"
-    explorer_path.write_text(explorer_tpl.render(**explorer_context))
-
     print(f"[finalize] Wrote {catalog_path} ({len(entries)} entries)")
     print(f"[finalize] Wrote {results_path}")
-    print(f"[finalize] Wrote {explorer_path}")
 
 
 def main():

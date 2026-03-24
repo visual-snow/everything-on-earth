@@ -16,7 +16,7 @@
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1rem; }
   .card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1.25rem; transition: border-color 0.2s; }
   .card:hover { border-color: #58a6ff; }
-  .card h3 { color: #58a6ff; font-size: 1rem; margin-bottom: 0.5rem; }
+  .card h3 { color: #58a6ff; font-size: 1rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
   .card h3 a { color: inherit; text-decoration: none; }
   .card h3 a:hover { text-decoration: underline; }
   .card p { color: #8b949e; font-size: 0.85rem; line-height: 1.4; margin-bottom: 0.75rem; }
@@ -24,16 +24,20 @@
   .meta span { background: #21262d; padding: 0.15rem 0.5rem; border-radius: 4px; }
   .score { color: #3fb950; font-weight: 600; }
   .tag { background: #1f3a5f; color: #58a6ff; padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.75rem; }
+  .domain-badge { padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; white-space: nowrap; }
   .count { color: #8b949e; margin-bottom: 1rem; }
   .hidden { display: none; }
 </style>
 </head>
 <body>
 <h1>{{ topic }}</h1>
-<p class="stats">{{ total }} repos across {{ domain_count }} sub-domains</p>
+<p class="stats">{{ total }} repos across {{ domain_count }} domains</p>
 
 <div class="controls">
   <input type="text" id="search" placeholder="Filter by name, description, or tag...">
+  <select id="domain-type-filter">
+    <option value="">All domains</option>
+  </select>
   <select id="domain-filter">
     <option value="">All sub-domains</option>
   </select>
@@ -51,19 +55,42 @@
 <script>
 const CATALOG = {{ catalog_json }};
 
-const domainFilter = document.getElementById('domain-filter');
-const domains = [...new Set(CATALOG.flatMap(e => e.found_in_domains || [e.sub_domain]))].sort();
-domains.forEach(d => {
+function domainHue(name) {
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) hash = name.charCodeAt(i) + ((hash << 5) - hash);
+  return Math.abs(hash) % 360;
+}
+
+const domainTypeFilter = document.getElementById('domain-type-filter');
+const domainTypes = [...new Set(CATALOG.map(e => e.domain).filter(Boolean))].sort();
+domainTypes.forEach(d => {
   const opt = document.createElement('option');
-  opt.value = d; opt.textContent = d;
+  opt.value = d;
+  opt.textContent = d;
+  domainTypeFilter.appendChild(opt);
+});
+
+const domainFilter = document.getElementById('domain-filter');
+const subDomains = [...new Set(CATALOG.flatMap(e => e.found_in_domains || [e.sub_domain]))].sort();
+subDomains.forEach(d => {
+  const opt = document.createElement('option');
+  opt.value = d;
+  opt.textContent = d;
   domainFilter.appendChild(opt);
 });
 
 function render(entries) {
   const grid = document.getElementById('grid');
-  grid.innerHTML = entries.map(e => `
+  grid.innerHTML = entries.map(e => {
+    const hue = domainHue(e.domain || 'unknown');
+    const badgeBg = `hsla(${hue}, 60%, 25%, 0.8)`;
+    const badgeColor = `hsl(${hue}, 80%, 75%)`;
+    return `
     <div class="card">
-      <h3><a href="${e.repo_url}" target="_blank">${e.name}</a></h3>
+      <h3>
+        <a href="${e.repo_url}" target="_blank">${e.name}</a>
+        ${e.domain ? `<span class="domain-badge" style="background:${badgeBg};color:${badgeColor}">${e.domain}</span>` : ''}
+      </h3>
       <p>${e.summary || e.description}</p>
       <div class="meta">
         <span class="score" style="color: ${e.quality_score >= 70 ? '#3fb950' : e.quality_score >= 40 ? '#d29922' : '#8b949e'}">${e.quality_score ?? e.score}</span>
@@ -76,14 +103,16 @@ function render(entries) {
         ${(e.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}
       </div>
     </div>
-  `).join('');
+  `;
+  }).join('');
   document.getElementById('count').textContent = `Showing ${entries.length} of ${CATALOG.length}`;
 }
 
 function applyFilters() {
   let filtered = [...CATALOG];
   const q = document.getElementById('search').value.toLowerCase();
-  const domain = domainFilter.value;
+  const domainType = domainTypeFilter.value;
+  const subDomain = domainFilter.value;
   const sort = document.getElementById('sort-by').value;
 
   if (q) filtered = filtered.filter(e =>
@@ -91,8 +120,9 @@ function applyFilters() {
     (e.description || '').toLowerCase().includes(q) ||
     (e.tags || []).some(t => t.includes(q))
   );
-  if (domain) filtered = filtered.filter(e =>
-    (e.found_in_domains || [e.sub_domain]).includes(domain)
+  if (domainType) filtered = filtered.filter(e => e.domain === domainType);
+  if (subDomain) filtered = filtered.filter(e =>
+    (e.found_in_domains || [e.sub_domain]).includes(subDomain)
   );
 
   if (sort === 'score') filtered.sort((a, b) => (b.quality_score ?? b.score ?? 0) - (a.quality_score ?? a.score ?? 0));
@@ -104,6 +134,7 @@ function applyFilters() {
 }
 
 document.getElementById('search').addEventListener('input', applyFilters);
+domainTypeFilter.addEventListener('change', applyFilters);
 domainFilter.addEventListener('change', applyFilters);
 document.getElementById('sort-by').addEventListener('change', applyFilters);
 applyFilters();

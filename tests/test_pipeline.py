@@ -310,3 +310,62 @@ def test_cli_explorer_stage(tmp_path):
     )
     assert result.returncode == 0, f"stderr: {result.stderr}"
     assert (tmp_path / "explorer.html").exists()
+
+
+def test_explorer_template_has_domain_filter(tmp_path):
+    """The rendered explorer.html contains a domain filter dropdown."""
+    domain = tmp_path / "cybersecurity"
+    domain.mkdir()
+    (domain / "catalog.json").write_text(
+        json.dumps(
+            [
+                {
+                    "repo_url": "https://github.com/a/b",
+                    "name": "tool",
+                    "description": "A tool",
+                    "quality_score": 70,
+                    "score": 7,
+                    "stars": 100,
+                    "sub_domain": "sub",
+                    "found_in_domains": ["sub"],
+                    "tags": [],
+                },
+            ]
+        )
+    )
+
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_explorer(catalog_root=tmp_path, template_dir=template_dir)
+
+    content = (tmp_path / "explorer.html").read_text()
+    assert 'id="domain-type-filter"' in content
+    assert "All domains" in content
+
+
+def test_explorer_template_has_domain_badge(tmp_path):
+    """Each card in explorer.html shows a domain badge."""
+    domain = tmp_path / "cybersecurity"
+    domain.mkdir()
+    (domain / "catalog.json").write_text(
+        json.dumps(
+            [
+                {
+                    "repo_url": "https://github.com/a/b",
+                    "name": "tool",
+                    "description": "A tool",
+                    "quality_score": 70,
+                    "score": 7,
+                    "stars": 100,
+                    "sub_domain": "sub",
+                    "found_in_domains": ["sub"],
+                    "tags": [],
+                },
+            ]
+        )
+    )
+
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_explorer(catalog_root=tmp_path, template_dir=template_dir)
+
+    content = (tmp_path / "explorer.html").read_text()
+    assert "domain-badge" in content

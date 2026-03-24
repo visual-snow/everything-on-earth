@@ -1,0 +1,80 @@
+{
+  "slug": "contiv-vpp",
+  "name": "Contiv-VPP",
+  "what_it_is": "A Kubernetes CNI plugin that uses FD.io VPP (Vector Packet Processing) as the userspace data plane to provide high-performance pod-to-pod, host-to-pod, and external-to-pod networking. It replaces kube-proxy by implementing Kubernetes services and network policies entirely within VPP, leveraging DPDK for fast NIC access.",
+  "components": [
+    "contiv-vswitch (VPP data plane + Contiv VPP Agent control plane, runs on every node)",
+    "contiv-ksr (Kubernetes State Reflector — mirrors k8s API into ETCD)",
+    "contiv-etcd (dedicated ETCD instance for cluster state and VPP config persistence)",
+    "contiv-cni (CNI binary that forwards add/del pod requests via gRPC to contiv-vswitch)",
+    "contiv-stn (Steal-The-NIC daemon for single-NIC node deployments)",
+    "contiv-crd (Custom Resource Definition handler + netctl CLI for topology validation and runtime inspection)",
+    "contiv-ui (optional web UI with REST proxy for cluster visualization)"
+  ],
+  "protocols": [
+    "VXLAN (default inter-node pod overlay tunnel)",
+    "SRv6 / Segment Routing IPv6 (alternative inter-node transport and service chaining)",
+    "gRPC (CNI requests from kubelet to contiv-vswitch; STN requests)",
+    "VPP binary API over shared memory via GoVPP",
+    "DPDK (NIC binding for VPP data plane)",
+    "TAP interfaces v2 (pod-to-VPP and host-to-VPP connectivity)",
+    "memif (high-speed shared-memory interfaces for pod-to-pod service chaining)",
+    "ETCD gRPC (control-plane key-value store)"
+  ],
+  "measurement": [
+    "HTTP REST endpoint on contiv-vswitch at 0.0.0.0:9999 (vpp-agent stats and debug)",
+    "gRPC endpoint on 0.0.0.0:9111 (additional network configuration)",
+    "Telemetry polling interval configurable (default 30s, can be disabled)",
+    "KVScheduler transaction history with configurable age limit (default 60 min)",
+    "Event history recording on contiv-agent with permanent init-period recording",
+    "contiv-netctl CLI for live IPAM assignments and VPP state inspection"
+  ],
+  "configuration": [
+    "contiv.conf ConfigMap: nodeToNodeTransport, useTAPInterfaces, tapInterfaceVersion, MTU (default 1450), NAT, GSO, STNVersion, enablePacketTrace",
+    "ipamConfig: podSubnetCIDR (default 10.1.0.0/16), podSubnetOneNodePrefixLen (default /24), vppHostSubnetCIDR (172.30.0.0/16), nodeInterconnectCIDR (192.168.16.0/24), nodeInterconnectDHCP, vxlanCIDR (192.168.30.0/24)",
+    "SRv6 IPAM CIDRs: servicePolicyBSIDSubnetCIDR, serviceNodeLocalSIDSubnetCIDR, nodeToNodePodLocalSIDSubnetCIDR, sfcPolicyBSIDSubnetCIDR, etc.",
+    "controller.conf: retry policy, resync deadlines, periodic healing interval, remote DB probing interval",
+    "service.conf: cleanupIdleNATSessions, tcpNATSessionTimeout (180s), otherNATSessionTimeout (5s), serviceLocalEndpointWeight",
+    "govpp.conf: health-check-probe-interval, reply-timeout, health-check-threshold",
+    "Node-specific config via CRD (IP address, default gateway per node)",
+    "tapv2RxRingSize / tapv2TxRingSize (default 256)",
+    "bolt.conf: persistent VPP config storage path and file mode"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework found in the repository",
+    "reboot-monkey.sh in vagrant/ directory suggests node reboot chaos testing capability",
+    "KVSCHED_VERIFY_MODE env var (commented out in deployment YAML) enables KVScheduler verification mode for debugging"
+  ],
+  "modes": [
+    "Dual-NIC mode (default): one NIC managed by DPDK/VPP for data plane, one NIC for k8s control plane",
+    "Single-NIC / STN (Steal-The-NIC) mode: one NIC shared between VPP data plane and host via TAP",
+    "VXLAN inter-node transport (default)",
+    "SRv6 inter-node transport (alternative, useSRv6ForServices / useDX6ForSrv6NodetoNodeTransport flags)",
+    "IPv4 and IPv6 support",
+    "Calico-VPP hybrid mode: some nodes run plain Calico, others run Calico with VPP"
+  ],
+  "constraints": [
+    "Requires DPDK-compatible NIC on each node for the VPP data plane interface; that NIC is invisible to the Linux host network stack",
+    "In dual-NIC mode each node must have at least 2 network interfaces; single-NIC STN mode trades NIC control complexity for fewer interfaces",
+    "VPP runs entirely in userspace and requires hugepage memory allocation on the host",
+    "ETCD must be healthy for VPP agents to receive configuration; loss of ETCD connectivity stalls control-plane updates (remoteDBProbingInterval default 3s)",
+    "Node ID-based IPAM means pod and VXLAN IP addresses are derived from node order; changing node IDs or reusing them after node removal may cause address conflicts",
+    "MTU is set to 1450 by default to accommodate VXLAN encapsulation overhead; mismatched MTU causes silent packet drops",
+    "Kubernetes network policies and services are enforced inside VPP — no fallback to iptables/kube-proxy; misconfigured VPP rules drop traffic without Linux-level visibility"
+  ],
+  "docker_services": [
+    "contivvpp/vswitch (contiv-vswitch + vpp-init init containers)",
+    "contivvpp/cni (contiv-cni init container)",
+    "contivvpp/ksr (contiv-ksr)",
+    "contivvpp/crd (contiv-crd + netctl)",
+    "contivvpp/stn (contiv-stn)",
+    "contivvpp/ui (contiv-ui optional web interface)",
+    "quay.io/coreos/etcd:v3.3.24 (contiv-etcd StatefulSet)"
+  ],
+  "notable_absences": [
+    "No docker-compose file found; the project is Kubernetes-native and ships only Kubernetes YAML manifests and Vagrant-based local cluster definitions",
+    "No built-in load testing or traffic generation tooling in the repository",
+    "No Helm chart in the main repository (Helm templates are used to render the YAML but the chart itself is not published here)",
+    "No integrated distributed tracing (e.g., Jaeger/Zipkin) for VPP data-plane flows"
+  ]
+}

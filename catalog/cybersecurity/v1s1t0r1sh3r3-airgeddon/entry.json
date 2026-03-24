@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/v1s1t0r1sh3r3/airgeddon",
+  "name": "v1s1t0r1sh3r3/airgeddon",
+  "description": "A multi-use bash script for Linux systems to audit wireless networks, supporting WPA/WPA2 handshake capture, evil twin attacks, PMKID attacks, and WPS vulnerabilities.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 8,
+  "score_rationale": "Comprehensive all-in-one wireless auditing framework with 7.5k stars and active maintenance into 2026.",
+  "stars": 7587,
+  "language": "Shell",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 79.0,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "v1s1t0r1sh3r3-airgeddon"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "libyang",
+  "repo_url": "https://github.com/cesnet/libyang",
+  "description": "YANG data modeling language parser and toolkit written in C. High-performance library implementing full YANG 1.0 and 1.1 support. Includes yanglint CLI tool for validation and conversion of schemas and YANG-modeled data.",
+  "domain": "data-modeling",
+  "secondary_domains": [
+    "netconf"
+  ],
+  "protocols": [
+    "JSON",
+    "XML",
+    "YANG",
+    "YIN"
+  ],
+  "provides": [
+    "yang-parser",
+    "yang-validator",
+    "yang-schema-compilation",
+    "xml-data-validation",
+    "json-data-validation",
+    "yin-conversion",
+    "yanglint-cli",
+    "yang-instance-data-validation"
+  ],
+  "needs": [
+    "libpcre2",
+    "cmake",
+    "c-compiler"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "broadbandforum/yangtools",
+    "compose_services_count": 0,
+    "docker_evidence": "Bundled in broadbandforum/yangtools Docker image; also included in sysrepo/sysrepo-netopeer2 image; CESNET provides packages via GitHub"
+  },
+  "github_metrics": {
+    "stars": 400,
+    "last_commit": "2026-02",
+    "language": "C",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Reference YANG parser and validator. yanglint is the standard tool for YANG model conformance checking. Used by virtually all CESNET NETCONF tools. Core C library underlying sysrepo, netopeer2, and many NETCONF stacks. yanglint is the most powerful CLI tool for YANG data validation (XML and JSON instance documents). Faster than pyang for large model sets.",
+  "related_repos": [
+    "https://github.com/cesnet/netopeer2",
+    "https://github.com/cesnet/rousette",
+    "https://github.com/martimy/yang-tools",
+    "https://github.com/sysrepo/sysrepo"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/netconf-testing.json",
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "libyang"
+}

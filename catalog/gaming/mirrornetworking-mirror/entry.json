@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mirrornetworking/mirror",
+  "name": "MirrorNetworking/Mirror",
+  "description": "The #1 open-source Unity networking library, battle-tested since 2014 in 1000+ Steam games including Population: ONE; provides synced variables, RPCs, and dozens of transport adapters.",
+  "sub_domain": "game-networking",
+  "score": 9,
+  "score_rationale": "De facto standard Unity multiplayer library with 6.1k stars and 9,000+ commits; proven in major commercial titles and actively maintained.",
+  "stars": 6100,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-03-24",
+  "found_in_domains": [
+    "game-networking"
+  ],
+  "quality_score": 84.3,
+  "tags": [
+    "game-networking",
+    "unity-networking",
+    "multiplayer",
+    "rpc",
+    "transport-adapter"
+  ],
+  "category": "Unity Networking Library",
+  "summary": "Standard Unity multiplayer library battle-tested in 1000+ games",
+  "slug": "mirrornetworking-mirror"
+}

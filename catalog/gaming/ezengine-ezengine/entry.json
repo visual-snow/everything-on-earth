@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ezengine/ezengine",
+  "name": "ezEngine/ezEngine",
+  "description": "An open-source, modular C++ game engine supporting Windows and Linux with a plugin-based architecture, PBR rendering, and a full editor suite.",
+  "sub_domain": "game-engines-3d",
+  "score": 6,
+  "score_rationale": "1.9k stars, actively maintained modular C++ engine with March 2026 release, though limited community adoption beyond its core users.",
+  "stars": 1900,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-03-07",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 62.2,
+  "tags": [
+    "3d-game-engine",
+    "c++",
+    "modular-architecture",
+    "pbr-rendering",
+    "plugin-based"
+  ],
+  "category": "Modular Plugin Engine",
+  "summary": "Modular C++ engine with plugin architecture and PBR rendering",
+  "slug": "ezengine-ezengine"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/microsoft/gltf-sdk",
+  "name": "microsoft/glTF-SDK",
+  "description": "Microsoft's C++ SDK for reading and writing glTF and glb files with schema validation, embedded Base64 support, and cross-platform compatibility (Windows, macOS, Android).",
+  "sub_domain": "asset-formats",
+  "score": 5,
+  "score_rationale": "Solid C++ glTF SDK with 608 stars from Microsoft, but largely inactive since 2022 and superseded by smaller focused libraries for most use cases.",
+  "stars": 608,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2022-07-19",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 52.3,
+  "tags": [
+    "gltf",
+    "c-plus-plus",
+    "schema-validation"
+  ],
+  "category": "glTF SDK",
+  "summary": "Microsoft C++ SDK for glTF/glb with schema validation and Base64 support",
+  "slug": "microsoft-gltf-sdk"
+}

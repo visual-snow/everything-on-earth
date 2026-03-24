@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/libxmp/libxmp",
+  "name": "libxmp/libxmp",
+  "description": "A C library that renders over 90 tracker module formats (MOD, S3M, XM, IT) to PCM audio data, with built-in archive decompressors. The lite version is MIT-licensed and runs on embedded systems.",
+  "sub_domain": "chiptune-trackers",
+  "score": 7,
+  "score_rationale": "Essential tracker module playback library with 370 stars, actively maintained through 2026, used by many applications including chip-player-js.",
+  "stars": 370,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 62.6,
+  "tags": [
+    "tracker-module",
+    "audio-playback",
+    "mod-xm",
+    "c",
+    "embedded"
+  ],
+  "category": "Audio Libraries",
+  "summary": "Essential C library for 90+ tracker module formats playback",
+  "slug": "libxmp-libxmp"
+}

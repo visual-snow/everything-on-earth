@@ -1,0 +1,63 @@
+{
+  "name": "pyang",
+  "repo_url": "https://github.com/mbj4668/pyang",
+  "description": "YANG validator, transformer, and code generator written in Python. The reference implementation for YANG model validation. Supports YANG 1.0 (RFC 6020) and YANG 1.1 (RFC 7950). Extensible via plugins including yang2dsdl, UML, and tree output.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "yang-modeling"
+  ],
+  "protocols": [
+    "DSDL",
+    "NETCONF",
+    "RESTCONF",
+    "YANG",
+    "YIN"
+  ],
+  "provides": [
+    "yang-validation",
+    "yang-linting",
+    "yang-to-dsdl",
+    "yang-tree-view",
+    "yang-code-generation",
+    "yin-conversion",
+    "netconf-schema-validation",
+    "restconf-schema-validation",
+    "yang-uml-diagrams"
+  ],
+  "needs": [
+    "python3",
+    "yang-modules"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ghcr.io/hellt/pyang",
+    "compose_services_count": 0,
+    "docker_evidence": "hellt/pyang-docker provides Alpine and PyPy-based Dockerfiles; damianoneill/pyang also provides container-based solution with all dependencies"
+  },
+  "github_metrics": {
+    "stars": 2100,
+    "last_commit": "2026-01",
+    "language": "Python",
+    "license": "ISC"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Most widely used YANG validator in the Python ecosystem. Lint plugin for IETF/BBF compliance checking. Docker images available from community. Essential for YANG model CI/CD pipelines. Industry standard YANG validator. 563 stars. Used in OpenConfig Models-CI pipeline. The de-facto standard YANG validator. Essential foundational tool. Extensible plugin system supports code generation (Python bindings via pyangbind, UML diagrams, tree views, DSDL schemas). Most YANG Docker images bundle pyang.",
+  "related_repos": [
+    "cz-nic/yangson",
+    "https://github.com/damianoneill/pyang",
+    "https://github.com/hellt/pyang-docker",
+    "https://github.com/martimy/yang-tools",
+    "https://github.com/mbj4668/yanger",
+    "https://github.com/robshakir/pyangbind",
+    "pydantify/pydantify",
+    "robshakir/pyangbind"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/netauto-frameworks.json",
+    "discovery/netconf-mgmt/netconf-testing.json",
+    "discovery/netconf-mgmt/restconf-gnmi-config.json",
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "pyang"
+}

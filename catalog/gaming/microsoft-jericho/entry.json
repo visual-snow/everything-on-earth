@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/microsoft/jericho",
+  "name": "microsoft/jericho",
+  "description": "A lightweight Python interface connecting reinforcement learning agents with interactive fiction games, enabling AI research on text-based adventure game environments.",
+  "sub_domain": "dialogue-narrative",
+  "score": 6,
+  "score_rationale": "Valuable research platform for AI and interactive fiction with 322 stars, actively maintained through 2025 by Microsoft Research.",
+  "stars": 322,
+  "language": "C",
+  "license": "GPL-2.0",
+  "last_activity": "2025-11-11",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 56.1,
+  "tags": [
+    "interactive-fiction",
+    "ai-research",
+    "reinforcement-learning",
+    "text-adventure"
+  ],
+  "category": "AI Research Platform",
+  "summary": "Python interface for AI/RL research on interactive fiction games",
+  "slug": "microsoft-jericho"
+}

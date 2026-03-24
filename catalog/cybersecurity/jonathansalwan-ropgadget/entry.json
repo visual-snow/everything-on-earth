@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jonathansalwan/ropgadget",
+  "name": "JonathanSalwan/ROPgadget",
+  "description": "A tool for finding ROP gadgets in ELF, PE, and Mach-O binaries across x86, x64, ARM, ARM64, PowerPC, SPARC, MIPS, and RISC-V architectures to facilitate Return Oriented Programming exploitation.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 8,
+  "score_rationale": "Essential ROP gadget finder with 4.4k stars, actively updated through October 2025 with broad architecture support.",
+  "stars": 4400,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2025-10-15",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 77.1,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "jonathansalwan-ropgadget"
+}

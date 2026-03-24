@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/fritzy/ape-ecs",
+  "name": "fritzy/ape-ecs",
+  "description": "Performant Entity-Component-System library for JavaScript with advanced entity queries, persistent indexes, component references, and 100% test coverage for game and simulation development.",
+  "sub_domain": "ecs-frameworks",
+  "score": 4,
+  "score_rationale": "Well-designed JavaScript ECS with 311 stars and MIT license but abandoned since November 2020, superseded by more active projects.",
+  "stars": 311,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2020-11-30",
+  "found_in_domains": [
+    "ecs-frameworks"
+  ],
+  "quality_score": 44.0,
+  "tags": [
+    "ecs",
+    "javascript",
+    "entity-component-system",
+    "abandoned"
+  ],
+  "category": "Legacy Web ECS",
+  "summary": "Well-designed JavaScript ECS abandoned in 2020, now superseded",
+  "slug": "fritzy-ape-ecs"
+}

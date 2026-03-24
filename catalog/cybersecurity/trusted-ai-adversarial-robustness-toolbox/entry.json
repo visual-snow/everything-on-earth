@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/trusted-ai/adversarial-robustness-toolbox",
+  "name": "Trusted-AI/adversarial-robustness-toolbox",
+  "description": "Adversarial Robustness Toolbox (ART) \u2014 a Python library for machine learning security covering evasion, poisoning, extraction, and inference attacks for both red and blue teams. Hosted by LF AI & Data.",
+  "sub_domain": "ai-security",
+  "score": 9,
+  "score_rationale": "Linux Foundation-backed, industry-standard adversarial ML security library with 5.9k stars and comprehensive coverage of ML attack and defense techniques.",
+  "stars": 5900,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-07-07",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 84.2,
+  "tags": [
+    "adversarial-ml",
+    "evasion-attacks",
+    "poisoning-attacks",
+    "model-extraction"
+  ],
+  "category": "ML Security Library",
+  "summary": "Python library for ML security covering evasion, poisoning, extraction, inference attacks",
+  "slug": "trusted-ai-adversarial-robustness-toolbox"
+}

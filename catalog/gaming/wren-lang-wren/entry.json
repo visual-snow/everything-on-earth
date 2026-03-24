@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wren-lang/wren",
+  "name": "wren-lang/wren",
+  "description": "A small, fast, class-based concurrent scripting language designed for embedding in applications. Features lightweight fibers for concurrency, a clean C API, and compiles as C99 with no external dependencies.",
+  "sub_domain": "game-scripting",
+  "score": 9,
+  "score_rationale": "7.9k stars, the go-to modern embeddable scripting language for game developers wanting a clean, performant alternative to Lua.",
+  "stars": 7900,
+  "language": "Wren",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-scripting"
+  ],
+  "quality_score": 85.2,
+  "tags": [
+    "scripting",
+    "embeddable",
+    "concurrency",
+    "c-api",
+    "lightweight"
+  ],
+  "category": "Embeddable Scripting Language",
+  "summary": "Modern embedded scripting with fibers and clean C API",
+  "slug": "wren-lang-wren"
+}

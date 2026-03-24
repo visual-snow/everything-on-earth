@@ -1,0 +1,117 @@
+{
+  "slug": "pyhss",
+  "name": "PyHSS",
+  "what_it_is": "PyHSS is a Python 3 Home Subscriber Server (HSS) and subscriber data management solution for LTE (4G) Evolved Packet Core networks. It implements multiple 3GPP network functions—HSS, VoLTE HSS, EIR, PCRF, BSF, and GMLC—via Diameter and GSUP interfaces, backed by a REST API for subscriber CRUD operations.",
+  "components": [
+    "diameterService — Diameter protocol listener and peer connection manager (TCP or SCTP, port 3868)",
+    "hssService — Diameter request encoder/decoder and HSS business logic processor",
+    "apiService — Swagger-documented RESTful API for subscriber data management (port 8080)",
+    "georedService — Geographic redundancy coordinator and webhook handler",
+    "logService — Centralised logging aggregator for all microservices",
+    "metricService — Prometheus metrics exporter",
+    "gsupService — GSUP interface handler for OpenBSC/Osmocom peers (port 4222)"
+  ],
+  "protocols": [
+    "Diameter Base Protocol (Device-Watchdog-Request, Capabilities-Exchange-Request)",
+    "Diameter S6a — MME/HSS authentication and location management",
+    "Diameter S13 — Equipment Identity Register (EIR) device verification",
+    "Diameter Cx — P-CSCF/S-CSCF authentication and routing for IMS/VoLTE",
+    "Diameter SLh — Subscriber location discovery for GMLC",
+    "Diameter Sh — Application Server access to HSS subscriber data",
+    "Diameter Zh/Zn — GBA credential generation (BSF role)",
+    "Diameter Gx — Credit control and PCRF charging rules",
+    "GSUP — Osmocom Generic Subscriber Update Protocol for 2G/3G core interop"
+  ],
+  "measurement": [
+    "Prometheus metrics via metricService (primary)",
+    "SNMP support retained for legacy backward compatibility",
+    "Tested subscriber capacity: over 1 million subscribers"
+  ],
+  "configuration": [
+    "config.yaml — single file for all runtime parameters",
+    "hss.transport: TCP (load-tested) or SCTP (experimental, multihomed)",
+    "hss.bind_ip / hss.bind_port — Diameter listener address (default 0.0.0.0:3868)",
+    "hss.OriginHost / hss.OriginRealm — Diameter identity fields",
+    "hss.MCC / hss.MNC — Home PLMN for subscriber context",
+    "hss.client_socket_timeout — idle Diameter peer disconnect timer (seconds)",
+    "hss.diameter_request_timeout — max wait before discarding a Diameter request (default 3 s)",
+    "hss.send_dwr / hss.send_dwr_interval — Device-Watchdog-Request keepalive control",
+    "hss.lock_provisioning / hss.provisioning_key — API key guard for subscriber writes",
+    "hss.CancelLocationRequest_Enabled — send CLR to old MME on new MME attach",
+    "hss.use_dra_fallback — route via DRA when target peer is unreachable",
+    "hss.emergency_subscriber_expiry — TTL in minutes for emergency subscriber entries",
+    "hss.scscf_pool — list of S-CSCF FQDNs for IMS routing",
+    "Docker .env file — overrides config.yaml values per container role via CONTAINER_ROLE env var",
+    "Database backend selectable: MySQL, PostgreSQL, or SQLite"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "HSS — standard LTE subscriber authentication and location management",
+    "VoLTE HSS — IMS/VoLTE subscriber profile management via Cx/Sh interfaces",
+    "EIR (Equipment Identity Register) — device IMEI verification via S13",
+    "PCRF — policy and charging rules function via Gx interface",
+    "BSF (Bootstrapping Server Function) — GBA credential generation via Zh/Zn",
+    "GMLC (Gateway Mobile Location Centre) — subscriber location via SLh",
+    "Trusting Diameter mode — accepts connections from any peer without peer verification"
+  ],
+  "constraints": [
+    "Requires Redis 7.0.0+ as a mandatory external dependency for inter-service message queuing",
+    "SCTP transport is marked experimental; only TCP has been load-tested for production",
+    "Diameter operates in trusting mode by default — no peer certificate or shared-secret authentication",
+    "No TLS/DTLS encryption mentioned for Diameter connections",
+    "No built-in rate limiting or DDoS protection for Diameter or API endpoints",
+    "docker-compose binds all ports to 127.0.0.1 only — external Diameter peers cannot connect without network reconfiguration"
+  ],
+  "docker_services": [
+    {
+      "name": "pyhss_api",
+      "role": "REST API server for subscriber CRUD and OAM",
+      "image": "ghcr.io/nickvsnetworking/pyhss/pyhss:development",
+      "ports": ["127.0.0.1:8080:8080"],
+      "depends_on": ["redis"],
+      "healthcheck": "curl http://localhost:8080/oam/ping"
+    },
+    {
+      "name": "pyhss_diameter",
+      "role": "Diameter protocol listener and peer connection manager",
+      "image": "ghcr.io/nickvsnetworking/pyhss/pyhss:development",
+      "ports": ["127.0.0.1:3868:3868"],
+      "depends_on": ["pyhss_api"],
+      "healthcheck": "nc -z localhost 3868"
+    },
+    {
+      "name": "pyhss_hss",
+      "role": "HSS business logic processor (Diameter request handler)",
+      "image": "ghcr.io/nickvsnetworking/pyhss/pyhss:development",
+      "ports": [],
+      "depends_on": ["pyhss_diameter"],
+      "healthcheck": null
+    },
+    {
+      "name": "pyhss_gsup",
+      "role": "GSUP interface handler for Osmocom/OpenBSC 2G/3G peers",
+      "image": "ghcr.io/nickvsnetworking/pyhss/pyhss:development",
+      "ports": ["127.0.0.1:4222:4222"],
+      "depends_on": ["redis"],
+      "healthcheck": "nc -z localhost 4222"
+    },
+    {
+      "name": "redis",
+      "role": "Inter-service message queue and active peer state store",
+      "image": "redis:7.0-alpine",
+      "ports": ["127.0.0.1:6379:6379"],
+      "depends_on": [],
+      "healthcheck": "redis-cli ping"
+    }
+  ],
+  "notable_absences": [
+    "No fault injection or chaos testing hooks present",
+    "No TLS/DTLS support for Diameter transport encryption",
+    "No Diameter peer authentication (shared secrets or certificates)",
+    "No built-in call/transaction rate limiting",
+    "No georedService or metricService containers in docker-compose (run outside compose or not containerised)",
+    "No logService container in docker-compose",
+    "No multi-region or cross-datacenter deployment guidance beyond clustering mention",
+    "No backup or disaster recovery procedures documented"
+  ]
+}

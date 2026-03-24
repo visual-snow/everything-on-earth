@@ -1,0 +1,63 @@
+{
+  "slug": "ivoz-provider",
+  "name": "IVOZ Provider",
+  "what_it_is": "IvozProvider is a multitenant VoIP telephony provider platform built on Kamailio 5.7 (SIP proxy/media relay) and Asterisk 20 LTS (PBX/application server), designed for horizontal scaling and load balancing. It provides a full-stack solution with multi-level web portals (platform, brand, company, user) and a REST API backed by Percona/MariaDB and Redis.",
+  "components": [
+    "Kamailio 5.7 (SIP proxy and media relay)",
+    "Asterisk 20 LTS with PJSIP channel driver (PBX / application server)",
+    "Percona Server 8.0 / MariaDB (data layer)",
+    "Redis (caching, sentinel on port 26379)",
+    "PHP FastAGI (application logic for Asterisk)",
+    "REST API backend (PHP)",
+    "Web portals: platform, brand, client/company, user (Node.js / ivoz-ui)"
+  ],
+  "protocols": [
+    "SIP",
+    "RTP",
+    "WebRTC",
+    "REST (HTTP/HTTPS)",
+    "AGI (Asterisk Gateway Interface via FastAGI)"
+  ],
+  "measurement": [
+    "Health checks on all Docker services (MySQL ping, Redis CLI ping, HTTP curl)",
+    "No built-in metrics export or monitoring stack observed in docker-compose"
+  ],
+  "configuration": [
+    "Multi-level admin hierarchy: platform admin > brand admin > company admin > end user",
+    "XDEBUG toggle via build arg (XDEBUG=true/false) in backend service",
+    "BACKEND_URL environment variable configures portal-to-backend routing",
+    "MariaDB credentials and database name set via environment variables (MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER, MYSQL_PASSWORD)",
+    "UID/GID binding for backend and portal containers",
+    "Node environment selectable via NODE_ENV (default: development)",
+    "Static internal subnet 10.189.4.0/24 with fixed IPs per service"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Distributed installation (components spread across multiple machines)",
+    "Standalone installation (all components on a single machine)",
+    "Cloud / public-network deployment"
+  ],
+  "constraints": [
+    "No explicit port mappings defined in docker-compose — external access requires additional network configuration",
+    "No resource limits (CPU/memory) specified for any Docker service",
+    "No restart policies configured — containers will not auto-recover from crashes in default compose setup",
+    "Credentials hardcoded as environment variables in docker-compose (development-only pattern; not suitable for production as-is)",
+    "Backend health check has a 120-second startup delay — slow to become ready in automated pipelines"
+  ],
+  "docker_services": [
+    "data (MariaDB, IP 10.189.4.10, volume dbdata)",
+    "redis (Redis Sentinel, IP 10.189.4.11, port 26379)",
+    "backend (PHP REST API + FastAGI, IP 10.189.4.20, depends on data+redis)",
+    "portal-platform (Node.js UI, IP 10.189.4.30, depends on backend)",
+    "portal-brand (Node.js UI, IP 10.189.4.31, depends on backend)",
+    "portal-client (Node.js UI, IP 10.189.4.32, depends on backend)",
+    "portal-user (Node.js UI, IP 10.189.4.33, depends on backend)"
+  ],
+  "notable_absences": [
+    "No fault injection or chaos engineering tooling",
+    "No metrics/observability stack (Prometheus, Grafana, etc.)",
+    "No SIP load-testing or traffic-generation service in compose",
+    "No TLS/SRTP configuration visible in compose (may be handled at Kamailio level outside compose)",
+    "No Kamailio or Asterisk service defined in docker-compose (compose targets development/portal only, not the full telephony stack)"
+  ]
+}

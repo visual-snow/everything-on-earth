@@ -1,0 +1,62 @@
+{
+  "slug": "srsran-4g-docker",
+  "name": "srsRAN 4G Docker Emulated",
+  "what_it_is": "A minimal end-to-end srsRAN LTE system running in Docker containers with the air interface emulated via ZeroMQ. The core network (srsepc), base station (srsenb), and user device (srsue) each run in separate containers communicating over virtual RF and core networks.",
+  "components": [
+    "srsepc (Evolved Packet Core: MME + SPGW)",
+    "srsenb (LTE eNodeB)",
+    "srsue (LTE UE / user device)"
+  ],
+  "protocols": [
+    "LTE (4G) air interface (emulated via ZeroMQ)",
+    "S1-MME (S1C) — eNB to MME signaling",
+    "GTP-U — user-plane tunneling between eNB and SPGW",
+    "ZeroMQ TCP sockets — emulated RF between eNB and UE"
+  ],
+  "measurement": [
+    "UE attachment confirmation and assigned IP (172.16.0.2 range)",
+    "ICMP ping latency from EPC to UE (~20-25 ms round-trip over emulated LTE)",
+    "Uplink scheduling latency indicator (~20 ms added latency vs direct Docker routing)",
+    "RRC state transitions (CONNECTED → IDLE after 1 minute of inactivity)"
+  ],
+  "configuration": [
+    "epc.conf — EPC (MME/SPGW) configuration; MME bind addr and SPGW GTP-U bind addr overridden via CLI flags",
+    "enb.conf — eNB configuration; MME addr, GTP bind addr, S1C bind addr overridden via CLI flags",
+    "sib.conf — System Information Block configuration for eNB",
+    "ue.conf — UE configuration",
+    "user_db.csv — IMSI/subscriber database for srsepc; add rows to provision additional UEs",
+    "ZeroMQ base sample rate: 23.04e6 sps (hardcoded in docker-compose command args)"
+  ],
+  "fault_injection": [
+    "fail_on_disconnect=true on eNB ZMQ device — eNB exits if RF link to UE drops",
+    "RRC IDLE triggered by 1 minute of data inactivity — causes random access and connection re-setup on next transmission",
+    "NAT masquerade removal on EPC eth0 disrupts UE internet routing through EPC"
+  ],
+  "modes": [
+    "Emulated RF mode (ZeroMQ TCP) — default; no physical radio hardware required",
+    "Single-UE mode — default compose configuration",
+    "Multi-UE mode — optional second UE service described in README; requires additional IMSI in user_db.csv",
+    "Internet-routed-through-EPC mode — requires manual iptables MASQUERADE rule and default route change on UE"
+  ],
+  "constraints": [
+    "Requires Linux kernel with /dev/net/tun and NET_ADMIN capability — not runnable on plain macOS without a Linux VM",
+    "Only ZeroMQ (emulated) RF backend is configured; no SDR hardware passthrough in the compose file",
+    "UE internet access through EPC requires manual post-startup commands (iptables + ip route); not automated in compose",
+    "Single Dockerfile for all three services — all containers share the same image build context",
+    "docker-compose version 2.2 syntax used; incompatible with Compose V2 strict mode without adjustment",
+    "ZMQ base_srate fixed at 23.04e6 — changing bandwidth requires editing compose command args directly"
+  ],
+  "docker_services": [
+    "srsepc (virtual-srsepc) — corenet 10.80.95.10; NET_ADMIN + SYS_NICE caps; /dev/net/tun",
+    "srsenb (virtual-srsenb) — corenet 10.80.95.11, rfnet 10.80.97.11; SYS_NICE cap; depends_on srsepc",
+    "srsue (virtual-srsue) — rfnet 10.80.97.10; NET_ADMIN + SYS_NICE caps; /dev/net/tun; depends_on srsenb"
+  ],
+  "notable_absences": [
+    "No SDR hardware passthrough or device mapping for real RF operation",
+    "No pre-built images — all services build from local Dockerfile at startup",
+    "No metrics/monitoring sidecar (no Grafana, Prometheus, or srsRAN metrics server)",
+    "No persistent volume mounts for logs or configuration overrides — config changes require image rebuild or Dockerfile ADD",
+    "No TLS or security configuration for S1 interface",
+    "No 5G NR components (srsRAN 4G only)"
+  ]
+}

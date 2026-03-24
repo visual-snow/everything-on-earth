@@ -1,0 +1,72 @@
+{
+  "name": "O-RAN Testbed Automation (NIST)",
+  "repo_url": "https://github.com/usnistgov/o-ran-testbed-automation",
+  "description": "Automation tool for deploying 5G Open RAN (O-RAN) testbeds from NIST Wireless Networks Division. Integrates OAI RAN, 5G core, and RIC components.",
+  "domain": "o-ran",
+  "secondary_domains": [
+    "open-ran-testbed",
+    "ric",
+    "xapp"
+  ],
+  "protocols": [
+    "5G NR",
+    "E2AP",
+    "E2SM-KPM",
+    "E2SM-RC",
+    "NGAP",
+    "O-RAN"
+  ],
+  "provides": [
+    "5g-gnb-simulation",
+    "ngap-interface",
+    "osc-ric-integration",
+    "flexric-integration",
+    "near-rt-ric",
+    "oai-ran-integration",
+    "config-mutation",
+    "xapp-testing-environment",
+    "5g-ue-simulation",
+    "multi-component-orchestration",
+    "o-ran-testbed-automation",
+    "e2ap-interface",
+    "e2sm-rc-control",
+    "5g-core-deployment",
+    "reproducible-testbed-deployment",
+    "e2sm-kpm-monitoring"
+  ],
+  "needs": [
+    "linux-kernel-5.4+",
+    "docker-engine",
+    "docker-compose",
+    "sctp-support",
+    "bare-metal-or-vm-host",
+    "sufficient-cpu-cores",
+    "high-memory-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Docker-based deployment automation. Includes OAI gNB, UE, Near-RT RIC (Flexible-RIC), and 5G core network components. Uses 5gdeploy for core network."
+  },
+  "github_metrics": {
+    "stars": 50,
+    "last_commit": "2026-02-12",
+    "language": "Shell",
+    "license": "NIST Fair Use"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "NIST-backed automation for full O-RAN testbed. Supports both OSC RIC and FlexRIC. Very actively maintained (2026). Good reference for reproducible O-RAN deployments. Complete O-RAN testbed with automated deployment. Includes RIC, gNB, UE, and core. NIST-backed reference implementation. Excellent for O-RAN integration and xApp testing evals.",
+  "related_repos": [
+    "https://github.com/srsran/oran-sc-ric",
+    "https://github.com/srsran/srsran_project",
+    "https://github.com/usnistgov/5gdeploy",
+    "https://github.com/usnistgov/ns3-oran"
+  ],
+  "_sources": [
+    "discovery/oran-ric.json",
+    "discovery/ran-ue.json"
+  ],
+  "slug": "o-ran-testbed-automation-nist"
+}

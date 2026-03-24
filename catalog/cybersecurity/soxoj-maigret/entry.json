@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/soxoj/maigret",
+  "name": "soxoj/maigret",
+  "description": "Collects a dossier on a person by username only, searching across 3000+ websites without requiring API keys. Advanced fork of Sherlock with personal data extraction from profile pages.",
+  "sub_domain": "osint-recon",
+  "score": 9,
+  "score_rationale": "19.3k stars with active maintenance through 2024, offers broader site coverage than Sherlock with additional profile data extraction capabilities.",
+  "stars": 19300,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-12-04",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 88.3,
+  "tags": [
+    "api-security",
+    "pe-format",
+    "web-security"
+  ],
+  "category": "Web Security",
+  "summary": "Collects a dossier on a person by username only, searching across 3000+ websites without requirin...",
+  "slug": "soxoj-maigret"
+}

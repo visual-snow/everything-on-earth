@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/wallarm/gotestwaf",
+  "name": "wallarm/gotestwaf",
+  "description": "Golang project for assessing web application security tools and WAF detection logic by testing against a variety of attacks and evasion techniques.",
+  "sub_domain": "webapp-security",
+  "score": 7,
+  "score_rationale": "1.8k stars, useful WAF evaluation tool maintained by Wallarm with recent 2025 activity.",
+  "stars": 1800,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2025-07-31",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 68.0,
+  "tags": [
+    "web-security",
+    "vulnerability",
+    "injection"
+  ],
+  "category": "Web Security",
+  "summary": "Web application security testing",
+  "slug": "wallarm-gotestwaf"
+}

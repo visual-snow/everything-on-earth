@@ -1,0 +1,72 @@
+{
+  "name": "Netopeer2",
+  "repo_url": "https://github.com/cesnet/netopeer2",
+  "description": "Full-featured NETCONF server and CLI client toolset by CESNET. Second generation of the Netopeer project, built on libnetconf2 and sysrepo. Reference NETCONF implementation widely used for testing and development.",
+  "domain": "netconf",
+  "secondary_domains": [],
+  "protocols": [
+    "NETCONF",
+    "NETCONF 1.0 (RFC 4741)",
+    "NETCONF 1.1 (RFC 6241)",
+    "NETCONF Call Home (RFC 8071)",
+    "NETCONF Event Notifications (RFC 5277)",
+    "SSH",
+    "TLS",
+    "YANG"
+  ],
+  "provides": [
+    "netconf-cli-client",
+    "netconf-server",
+    "mock-network-device",
+    "ssh-transport",
+    "config-mutation",
+    "netconf-event-notifications",
+    "yang-datastore",
+    "nacm-access-control",
+    "yang-validation",
+    "netconf-call-home",
+    "nmda-support",
+    "tls-transport",
+    "sysrepo-integration"
+  ],
+  "needs": [
+    "sysrepo",
+    "libnetconf2",
+    "libyang",
+    "openssl",
+    "ssh-server"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "sysrepo/sysrepo-netopeer2",
+    "compose_services_count": 0,
+    "docker_evidence": "docker run -it --name sysrepo -p 830:830 --rm sysrepo/sysrepo-netopeer2:latest"
+  },
+  "github_metrics": {
+    "stars": 500,
+    "last_commit": "2026-02",
+    "language": "C",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Core building block used by notconf, netconf-pnp-simulator, and ONAP simulators. Includes netopeer2-server and netopeer2-cli. Comprehensive RFC compliance: NETCONF over SSH/TLS, Call Home, NACM, YANG notifications, NMDA. Docker images available via third-party projects. THE reference NETCONF server. Core building block for agentic network config evals \u2014 agents can issue NETCONF RPCs (get-config, edit-config, lock/unlock) against a standards-compliant server with custom YANG models. Reference NETCONF server implementation. Ideal as a mock device for NETCONF client testing. Backed by sysrepo datastore with full YANG validation. Core building block for many NETCONF test setups. Foundation for many NETCONF simulators (notconf, ONAP NF Simulator). Docker: sysrepo/sysrepo-netopeer2:latest. Connect on port 830 with user/pass 'netconf'. Paired with sysrepo for YANG datastore. The reference open-source NETCONF server. Combined with sysrepo, provides a complete YANG-driven NETCONF device simulator. Docker image is the fastest path to a working NETCONF endpoint for testing.",
+  "related_repos": [
+    "https://github.com/cesnet/libnetconf2",
+    "https://github.com/cesnet/libnetconf2-cpp",
+    "https://github.com/cesnet/libyang",
+    "https://github.com/cesnet/netconf-cli",
+    "https://github.com/cesnet/rousette",
+    "https://github.com/nokia/netopeer2",
+    "https://github.com/sysrepo-archive/docker-sysrepo-netopeer2",
+    "https://github.com/sysrepo/sysrepo"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/netconf-servers.json",
+    "discovery/netconf-mgmt/netconf-testing.json",
+    "discovery/netconf-mgmt/virtual-nos.json",
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "netopeer2"
+}

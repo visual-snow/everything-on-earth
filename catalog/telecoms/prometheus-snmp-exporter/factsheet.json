@@ -1,0 +1,65 @@
+{
+  "slug": "prometheus-snmp-exporter",
+  "name": "Prometheus SNMP Exporter",
+  "what_it_is": "A Prometheus exporter that bridges SNMP devices and Prometheus by walking OID trees defined in snmp.yml and exposing the results as Prometheus metrics. It acts as a proxy: Prometheus scrapes the exporter's /snmp endpoint with a target parameter pointing to the actual SNMP device.",
+  "components": [
+    "snmp_exporter binary (HTTP server on port 9116)",
+    "snmp.yml (module and auth configuration, generated from MIBs)",
+    "generator (optional CLI tool to produce snmp.yml from MIBs via generator.yml)",
+    "snmp-mixin (dashboards, alerts, and recording rules)"
+  ],
+  "protocols": [
+    "SNMPv1 (GETNEXT)",
+    "SNMPv2c (GETBULK)",
+    "SNMPv3 (GETBULK, with noAuthNoPriv / authNoPriv / authPriv security levels)",
+    "UDP (default transport, port 161)",
+    "TCP (optional transport, configurable port)"
+  ],
+  "measurement": [
+    "OID tree walks mapped to Prometheus gauge/counter metrics with SNMP table indexes as labels",
+    "ifHCOutOctets, ifDescr, ifIndex, ifName, ifAlias — standard IF-MIB interface metrics",
+    "Counter64 values auto-wrapped at 2^53 to avoid float64 rounding loss",
+    "Exporter self-metrics available at /metrics (scrape latency, errors, etc.)",
+    "Multi-module scrape: multiple modules collected in one HTTP request with configurable concurrency (--snmp.module-concurrency)"
+  ],
+  "configuration": [
+    "snmp.yml: top-level auths (SNMP credentials) and modules (OID walk lists, retries, timeouts, lookups)",
+    "--config.file flag supports multiple files and glob patterns (e.g. snmp*.yml)",
+    "--config.expand-environment-variables: resolves ${VAR} in username/password/priv_password fields",
+    "generator.yml: simplified walk instructions fed to the generator to produce snmp.yml from MIBs",
+    "--web.config.file: TLS and HTTP basic authentication for all exporter HTTP endpoints",
+    "URL parameters: target, auth, module, snmp_context, snmp_engineid override per-scrape",
+    "max_repetitions, retries, timeout, allow_nonincreasing_oids, use_unconnected_udp_socket per module",
+    "Prometheus relabeling used to route __address__ → __param_target → exporter address"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism; the exporter surfaces SNMP walk failures as scrape errors",
+    "allow_nonincreasing_oids: true can mask out-of-order OID responses from buggy agents",
+    "max_repetitions reduction works around devices that fail on large GETBULK requests",
+    "use_unconnected_udp_socket bypasses multi-homed devices that send responses from the wrong source address"
+  ],
+  "modes": [
+    "Single-target mode: one exporter instance scraping a specific device per request",
+    "Multi-target proxy mode: one exporter instance serving thousands of devices via parameterised URL",
+    "Multi-module mode: comma-separated or repeated module params collected in a single scrape",
+    "Generator mode: offline MIB-to-snmp.yml compilation (separate binary, not the exporter itself)"
+  ],
+  "constraints": [
+    "snmp.yml MUST NOT be edited by hand for MIB-derived configs; use the generator instead",
+    "Duplicate module or auth names in snmp.yml are treated as invalid and will prevent loading",
+    "Counter64 wrap-around at 2^53 is automatic and cannot be disabled per-module; only a global --no-snmp.wrap-large-counters flag exists",
+    "Multi-module walks do NOT deduplicate overlapping OID walks between modules, potentially doubling traffic",
+    "SNMP v1/v2c community strings are transmitted in plaintext; SNMPv3 is required for confidentiality",
+    "The generator requires NetSNMP shared libraries at build time (libsnmp-dev) and cannot be run as a pure Go binary"
+  ],
+  "docker_services": [
+    "prom/snmp-exporter (Docker Hub) — single-container exporter, no docker-compose provided in repo",
+    "Generator Docker image supports 'make docker-generate' to produce snmp.yml without a local NetSNMP install"
+  ],
+  "notable_absences": [
+    "No official docker-compose.yml in the repository; users must compose their own Prometheus + snmp_exporter stack",
+    "No built-in SNMP trap receiver (snmptrapd); the exporter is poll-only",
+    "No native support for SNMP SET operations; read-only by design",
+    "No built-in label cardinality controls; unbounded table indexes can create high-cardinality metrics"
+  ]
+}

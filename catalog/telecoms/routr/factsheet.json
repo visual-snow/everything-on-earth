@@ -1,0 +1,66 @@
+{
+  "slug": "routr",
+  "name": "Routr",
+  "what_it_is": "Routr is a cloud-native SIP proxy, location server, and registrar targeting telephony carriers, communication service providers, and integrators. It provides programmable routing, multi-tenant/multi-domain architecture, and load balancing against media servers such as Asterisk and FreeSWITCH.",
+  "components": [
+    "SIP Proxy",
+    "Registrar",
+    "Location Service (in-memory or Redis-backed)",
+    "gRPC API server",
+    "Command-Line Tool (routr-ctl)",
+    "Node.js SDK",
+    "Processor framework (feature logic)",
+    "Middleware framework (cross-cutting concerns: auth, rate limiting)",
+    "RTPEngine middleware integration"
+  ],
+  "protocols": [
+    "SIP",
+    "TCP",
+    "UDP",
+    "TLS",
+    "WS (WebSocket)",
+    "WSS (WebSocket Secure)",
+    "gRPC",
+    "JWT (endpoint authentication)"
+  ],
+  "measurement": [
+    "No built-in metrics/observability tooling documented in README",
+    "Health state inferred via gRPC API server status"
+  ],
+  "configuration": [
+    "JSON file-based configuration",
+    "YAML file-based configuration",
+    "PostgreSQL database as data source",
+    "Helm Charts for Kubernetes deployments",
+    "Environment-variable configuration for Docker deployments",
+    "SSH port forwarding for remote access"
+  ],
+  "fault_injection": [
+    "No explicit fault injection framework documented"
+  ],
+  "modes": [
+    "Intra-Domain routing",
+    "Domain Ingress routing",
+    "Domain Egress routing",
+    "Peer Egress routing",
+    "Session affinity mode for media server load balancing",
+    "Docker / Docker Compose deployment mode",
+    "Kubernetes via Helm deployment mode",
+    "Gitpod cloud development environment mode"
+  ],
+  "constraints": [
+    "Region-based routing is not yet implemented",
+    "STIR/SHAKEN support is not yet implemented",
+    "Web application UI is not yet implemented",
+    "Location service in-memory backend does not persist across restarts (Redis required for persistence)",
+    "docker-compose.yml not present on main or master branch (no canonical single-file local stack definition found)"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found on main or master branch",
+    "No built-in metrics/observability stack (e.g., Prometheus, Grafana)",
+    "No STIR/SHAKEN call authentication support",
+    "No region-based routing",
+    "No web application UI"
+  ]
+}

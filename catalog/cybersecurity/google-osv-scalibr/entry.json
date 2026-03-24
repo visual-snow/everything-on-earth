@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/google/osv-scalibr",
+  "name": "google/osv-scalibr",
+  "description": "Google's extensible library for software composition analysis providing filesystem scanning to extract software inventory and detect known vulnerabilities or generate SBOMs. Powers OSV-Scanner internally.",
+  "sub_domain": "Supply Chain Security",
+  "score": 7,
+  "score_rationale": "Google-backed SCA library with growing adoption, underpins OSV-Scanner and enables custom supply chain tooling.",
+  "stars": 470,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-18",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 63.4,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "google-osv-scalibr"
+}

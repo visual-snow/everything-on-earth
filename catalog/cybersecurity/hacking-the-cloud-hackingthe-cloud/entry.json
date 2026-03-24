@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hacking-the-cloud/hackingthe.cloud",
+  "name": "Hacking-the-Cloud/hackingthe.cloud",
+  "description": "Encyclopedia for offensive and defensive cloud-native security covering attack techniques, TTPs, and defensive guidance across AWS, Azure, and GCP environments.",
+  "sub_domain": "container-cloud-security",
+  "score": 7,
+  "score_rationale": "2.6k stars with active community updates into 2026, valuable practitioner reference for cloud attack and defense techniques.",
+  "stars": 2600,
+  "language": "Dockerfile",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 69.3,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "hacking-the-cloud-hackingthe-cloud"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/monogame/monogame",
+  "name": "MonoGame/MonoGame",
+  "description": "A .NET/C# cross-platform game framework, the open-source successor to Microsoft's XNA. Powers commercial hits like Celeste and Stardew Valley across desktop, mobile, and console.",
+  "sub_domain": "game-engines-2d",
+  "score": 9,
+  "score_rationale": "13.3k stars, proven in commercial production with AAA-quality indie titles, broad platform support.",
+  "stars": 13300,
+  "language": "C#",
+  "license": "MS-PL",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 87.0,
+  "tags": [
+    "2d-engine",
+    "csharp",
+    "cross-platform",
+    "console",
+    "indie-games"
+  ],
+  "category": ".NET Game Framework",
+  "summary": "C# XNA successor powering indie hits like Celeste and Stardew Valley",
+  "slug": "monogame-monogame"
+}

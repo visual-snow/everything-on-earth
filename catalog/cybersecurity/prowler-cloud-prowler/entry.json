@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/prowler-cloud/prowler",
+  "name": "prowler-cloud/prowler",
+  "description": "Open-source cloud security platform providing hundreds of security checks, remediation guidance, and compliance frameworks across AWS, Azure, and GCP. Described as the world's most widely used open-source cloud security tool.",
+  "sub_domain": "container-cloud-security",
+  "score": 10,
+  "score_rationale": "13.4k stars with active development into 2025, the most complete multi-cloud security posture assessment tool available as open source.",
+  "stars": 13400,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-03-24",
+  "found_in_domains": [
+    "compliance-policy",
+    "container-cloud-security"
+  ],
+  "quality_score": 93.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "prowler-cloud-prowler"
+}

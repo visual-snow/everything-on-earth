@@ -1,0 +1,87 @@
+{
+  "slug": "panoptes",
+  "name": "Yahoo Panoptes",
+  "what_it_is": "A Python-based network telemetry ecosystem implementing discovery, enrichment, and polling of network devices at global scale. It provides a plugin-driven, horizontally scalable architecture for collecting SNMP and other metrics, transforming them, and forwarding to time-series databases.",
+  "components": [
+    "Discovery Plugin Scheduler (Celery beat)",
+    "Discovery Plugin Agent (Celery worker)",
+    "Enrichment Plugin Scheduler (Celery beat)",
+    "Enrichment Plugin Agent (Celery worker)",
+    "Polling Plugin Scheduler (Celery beat)",
+    "Polling Plugin Agent (Celery worker)",
+    "Resource Manager (panoptes_resource_manager)",
+    "InfluxDB Consumer (panoptes_influxdb_consumer)",
+    "Redis (enrichment cache, secrets store, resource state)",
+    "Apache Kafka (metrics message bus)",
+    "Apache Zookeeper (distributed coordination, locks)",
+    "InfluxDB (metrics storage)",
+    "Grafana (visualization, port 3000/8080)"
+  ],
+  "protocols": [
+    "SNMP",
+    "SNMPv2c",
+    "SNMP bulk_walk (GetBulk)",
+    "SNMP get"
+  ],
+  "measurement": [
+    "Counter metrics (raw 64-bit counters from SNMP)",
+    "Gauge metrics (counters converted to rates by polling agent)",
+    "Interface metrics group (bits_in, bits_out, packets_in, packets_out)",
+    "CPU utilization (OID .1.3.6.1.4.1.9.9.109.1.1.1.1.8)",
+    "System uptime (OID .1.3.6.1.2.1.1.3.0)",
+    "Memory total",
+    "Millisecond-resolution Unix epoch timestamps per metric",
+    "Metrics grouped by metrics_group_type with dimensions (tags)"
+  ],
+  "configuration": [
+    "panoptes.ini: main INI-style config; sections for main, log, redis, kafka, zookeeper, discovery, polling, enrichment",
+    "sites: comma-delimited list of physical/logical datacenter names",
+    "Redis namespaces: panoptes (default), metrics, resources, secrets",
+    "SNMP community string stored in Redis: SET panoptes:secrets:snmp_community_string:<site> <string>",
+    "Plugin config files use .panoptes-plugin extension; define execute_frequency, resource_filter DSL, plugin module path",
+    "Resource filter DSL (SQL subset): =, !=, LIKE, AND, OR, NOT, IN operators over resource fields and metadata",
+    "localhost.json: JSON file listing resources for discovery when no external CMDB is available",
+    "SNMP_SITE env var (default: local) and SNMP_COMM_STRING env var (default: public) for Docker container",
+    "Celery queues: discovery_plugin_agent, enrichment_plugin_agent, polling_plugin_agent",
+    "--max-tasks-per-child 10 on polling worker to limit memory growth"
+  ],
+  "fault_injection": [
+    "snmpd included in Docker image as a local SNMP polling target (localhost)",
+    "Plugin agent enforces distributed lock per plugin+resource pair via Zookeeper to prevent duplicate polling",
+    "Plugin agent skips execution if last run was less than execute_frequency seconds ago (rate limiting / anti-DOS)",
+    "No explicit fault injection framework; snmpd on localhost serves as controllable test target"
+  ],
+  "modes": [
+    "Single-node (Docker container): all services packed into one container with daemontools supervision",
+    "Distributed/clustered: separate hosts for schedulers, agents, Redis, Kafka, Zookeeper, InfluxDB",
+    "Plugin types: Discovery (enumerate resources), Enrichment (metadata collection, cached in Redis), Polling (metric collection)",
+    "Counter-to-gauge transformation mode in polling agent (applied before Kafka publish)"
+  ],
+  "constraints": [
+    "Python 3.6 required (Docker image); original codebase documented as Python 2.7 only — versions diverge",
+    "Kafka version hard dependency: tested with 0.10.2.0 (downloaded from ASF archives during build)",
+    "Redis tested with 3.0.7; Zookeeper tested with 3.4.5",
+    "Parenthetical grouping not supported in resource filter DSL: 'NOT (A OR B)' is invalid",
+    "Enrichment dimension values must be strings only",
+    "Plugin code runs in shared process with full OS permissions of the panoptes user — no sandboxing",
+    "Resource filter DSL does not support nested parentheses grouping",
+    "Docker container is single-node only; not suitable for production deployment",
+    "5-minute delay before first metrics appear in Docker container",
+    "Grafana dashboard changes do not persist across container restarts"
+  ],
+  "docker_services": [
+    "panoptes/panoptes_docker (single all-in-one image, Docker Hub)",
+    "Ubuntu 18.04 base with Python 3.6, open-jdk 8, Redis, Zookeeper, Kafka, InfluxDB, Grafana, snmpd, daemontools",
+    "Exposed port: 8080 -> 3000 (Grafana UI)",
+    "Requires --shm-size=2G and --sysctl net.core.somaxconn=511",
+    "No docker-compose.yml found in main repo or panoptes_docker repo; single docker run command is the official method"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml: official deployment is a single monolithic docker run command, not a compose stack",
+    "No built-in fault injection or chaos tooling beyond snmpd as test target",
+    "No TLS/auth on SNMP by default (SNMPv2c community string only; SNMPv3 not mentioned)",
+    "No REST API for resource or metric queries; data access is through Redis (enrichments) and InfluxDB (metrics) directly",
+    "No Prometheus or OpenMetrics output format; InfluxDB is the only shipped consumer sink",
+    "No streaming/push support from devices; polling is strictly pull-based"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Netshoot",
+  "repo_url": "https://github.com/nicolaka/netshoot",
+  "description": "Docker + Kubernetes network troubleshooting swiss-army container bundling 30+ networking tools including tcpdump, iperf3, nmap, scapy, and more.",
+  "domain": "kubernetes-sidecar",
+  "secondary_domains": [
+    "multi-protocol-testing",
+    "network-troubleshooting",
+    "packet-capture",
+    "traffic-analysis"
+  ],
+  "protocols": [
+    "TCP",
+    "UDP",
+    "ICMP",
+    "HTTP",
+    "DNS",
+    "gRPC",
+    "WebSocket"
+  ],
+  "provides": [
+    "traffic-generation",
+    "packet-capture",
+    "network-diagnostics",
+    "port-scanning",
+    "bandwidth-testing",
+    "dns-analysis",
+    "http-testing",
+    "grpc-testing",
+    "packet-crafting",
+    "latency-measurement",
+    "sidecar-toolbox",
+    "tcp-analysis",
+    "ssl-inspection"
+  ],
+  "needs": [
+    "docker-runtime",
+    "target-network-under-test",
+    "k8s-cluster"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "nicolaka/netshoot",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker Hub image: nicolaka/netshoot; Docker Compose supported with example configuration; Kubernetes support via kubectl"
+  },
+  "github_metrics": {
+    "stars": 10500,
+    "last_commit": "2025",
+    "language": "Shell",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "All-in-one networking toolbox with 10k+ stars. Includes iperf3, nmap, scapy, tcpdump, fortio, and more in a single container. Perfect as a sidecar in evaluation environments for traffic generation, capture, and analysis.",
+  "related_repos": [
+    "https://github.com/nilic/kubectl-netshoot"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "netshoot"
+}

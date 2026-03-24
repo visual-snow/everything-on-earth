@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zeux/microprofile",
+  "name": "zeux/microprofile",
+  "description": "An embeddable CPU/GPU profiler with in-app and HTML visualizers supporting hierarchical timing regions and multiple GPU APIs (D3D11/D3D12/OpenGL/Vulkan). Archived but widely referenced.",
+  "sub_domain": "game-devops-analytics",
+  "score": 5,
+  "score_rationale": "495 stars, archived in 2023 but historically significant embeddable game profiler referenced in many game engines.",
+  "stars": 495,
+  "language": "C++",
+  "license": "Unlicense",
+  "last_activity": "2023-05-21",
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 51.6,
+  "tags": [
+    "profiling",
+    "performance",
+    "gpu",
+    "embeddable",
+    "visualization"
+  ],
+  "category": "Embeddable Game Profiler",
+  "summary": "Lightweight CPU/GPU profiler with HTML visualization for game engines",
+  "slug": "zeux-microprofile"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/colyseus/colyseus",
+  "name": "colyseus/colyseus",
+  "description": "An authoritative multiplayer framework for Node.js with real-time state synchronization, built-in matchmaking, room management, and SDKs for Unity, Defold, Haxe, and JavaScript clients.",
+  "sub_domain": "game-backends",
+  "score": 9,
+  "score_rationale": "6.8k stars, MIT licensed, widely adopted Node.js multiplayer server framework with strong cross-engine SDK support.",
+  "stars": 6800,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-backends",
+    "game-server-orchestration"
+  ],
+  "quality_score": 84.7,
+  "tags": [
+    "multiplayer",
+    "backend",
+    "node",
+    "synchronization"
+  ],
+  "category": "Multiplayer Framework",
+  "summary": "Node.js multiplayer framework with real-time state synchronization",
+  "slug": "colyseus-colyseus"
+}

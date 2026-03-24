@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/infisical/infisical",
+  "name": "Infisical/infisical",
+  "description": "An open-source secrets management platform for syncing API keys, database credentials, and configurations across teams and infrastructure, with support for PKI, secret rotation, and dynamic secrets.",
+  "sub_domain": "cryptography",
+  "score": 9,
+  "score_rationale": "Highly active open-source secrets management platform with 25.5k stars and a March 2026 release, offering a modern alternative to HashiCorp Vault.",
+  "stars": 25500,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "cryptography",
+    "iam-auth"
+  ],
+  "quality_score": 89.3,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "infisical-infisical"
+}

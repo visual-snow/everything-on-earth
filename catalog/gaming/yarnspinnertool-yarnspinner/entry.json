@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/yarnspinnertool/yarnspinner",
+  "name": "YarnSpinnerTool/YarnSpinner",
+  "description": "Yarn Spinner is a friendly, screenplay-like tool for writing branching dialogue in games, used in Night in the Woods, A Short Hike, and Dredge. Supports Unity, Godot, and Rust integrations.",
+  "sub_domain": "dialogue-narrative",
+  "score": 9,
+  "score_rationale": "Industry-recognized dialogue framework used in many successful indie games, actively maintained with 2.7k stars and a growing cross-engine ecosystem.",
+  "stars": 2700,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-12-02",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 81.5,
+  "tags": [
+    "dialogue",
+    "narrative",
+    "branching-dialogue",
+    "game-scripting"
+  ],
+  "category": "Dialogue & Narrative",
+  "summary": "Multi-engine branching dialogue framework used in Night in the Woods, A Short Hike",
+  "slug": "yarnspinnertool-yarnspinner"
+}

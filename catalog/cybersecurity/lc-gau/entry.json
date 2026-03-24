@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lc/gau",
+  "name": "lc/gau",
+  "description": "Fetches known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, Common Crawl, and URLScan for any given domain to aid in historical URL discovery.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 8,
+  "score_rationale": "Essential URL harvesting tool with 4.9k stars and still actively maintained, widely integrated into bug bounty pipelines for discovering forgotten endpoints.",
+  "stars": 4900,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2024-10-28",
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 77.5,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Fetches known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, Common Crawl, and UR",
+  "slug": "lc-gau"
+}

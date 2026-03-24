@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nem0/openfbx",
+  "name": "nem0/OpenFBX",
+  "description": "Lightweight open-source FBX importer that loads geometry, skeletons, animations, blend shapes, materials, textures, cameras, and lights without the proprietary Autodesk SDK.",
+  "sub_domain": "asset-formats",
+  "score": 7,
+  "score_rationale": "Only practical open-source pure-C FBX importer with 1.3k stars, used in both Lumix Engine and Flax Engine, though development slowed after 2021.",
+  "stars": 1300,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2021-06-19",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 66.9,
+  "tags": [
+    "fbx-format",
+    "3d-import",
+    "skeleton"
+  ],
+  "category": "FBX Import Library",
+  "summary": "Open-source FBX importer for geometry, skeletons, animations without SDK",
+  "slug": "nem0-openfbx"
+}

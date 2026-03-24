@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/erincatto/box2d",
+  "name": "erincatto/box2d",
+  "description": "Box2D is a 2D physics engine for games written in portable C17, featuring continuous collision detection, robust rigid body solver, and SIMD optimizations. Used in thousands of games including Angry Birds and Limbo.",
+  "sub_domain": "physics-engines",
+  "score": 10,
+  "score_rationale": "9.6k-star gold-standard 2D game physics engine, actively maintained through 2025 with v3 rewrite and used in countless shipped games.",
+  "stars": 9600,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-06-04",
+  "found_in_domains": [
+    "physics-engines"
+  ],
+  "quality_score": 91.9,
+  "tags": [
+    "physics",
+    "2d",
+    "collision-detection"
+  ],
+  "category": "Physics Engine",
+  "summary": "Gold-standard 2D physics engine used in Angry Birds and countless games",
+  "slug": "erincatto-box2d"
+}

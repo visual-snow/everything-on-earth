@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jivoi/awesome-osint",
+  "name": "jivoi/awesome-osint",
+  "description": "A curated list of amazingly awesome open source intelligence tools and resources for researchers and threat hunters, spanning search engines, social media platforms, data breach tools, geospatial utilities, and threat intelligence databases.",
+  "sub_domain": "awesome-lists",
+  "score": 9,
+  "score_rationale": "Premier OSINT resource list with 25.4k stars, the definitive reference for open-source intelligence practitioners.",
+  "stars": 25400,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "awesome-lists",
+    "osint-recon"
+  ],
+  "quality_score": 89.2,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "A curated list of amazingly awesome open source intelligence tools and resources for researchers and",
+  "slug": "jivoi-awesome-osint"
+}

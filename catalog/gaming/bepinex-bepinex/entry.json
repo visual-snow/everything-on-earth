@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/bepinex/bepinex",
+  "name": "BepInEx/BepInEx",
+  "description": "Unity / XNA game patcher and plugin framework supporting Unity Mono, IL2CPP, and .NET framework games. The most widely deployed modding framework for Unity games, powering thousands of mods across popular titles.",
+  "sub_domain": "modding-frameworks",
+  "score": 10,
+  "score_rationale": "The dominant Unity modding framework with 7.6k stars, actively maintained through February 2026, and the foundation for mod ecosystems in Lethal Company, Valheim, and hundreds of other Unity titles.",
+  "stars": 7600,
+  "language": "C#",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-02-08",
+  "found_in_domains": [
+    "modding-frameworks"
+  ],
+  "quality_score": 91.0,
+  "tags": [
+    "unity",
+    "modding",
+    "plugin-framework"
+  ],
+  "category": "Modding Framework",
+  "summary": "Industry-leading Unity modding framework powering thousands of game mods",
+  "slug": "bepinex-bepinex"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/phishingclub/phishingclub",
+  "name": "phishingclub/phishingclub",
+  "description": "Phishing simulation and man-in-the-middle framework for red teams and internal security programs, offering MITM reverse proxy capabilities, multi-stage phishing flows, domain proxying, advanced delivery options, analytics, and evasion techniques.",
+  "sub_domain": "Phishing & Social Engineering",
+  "score": 7,
+  "score_rationale": "Modern GoPhish alternative with MITM capabilities; actively updated through March 2026 with 190 stars and growing feature set.",
+  "stars": 190,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "Phishing & Social Engineering"
+  ],
+  "quality_score": 60.2,
+  "tags": [
+    "reverse-shell",
+    "access",
+    "persistence"
+  ],
+  "category": "Remote Access",
+  "summary": "Reverse shell and remote access tools",
+  "slug": "phishingclub-phishingclub"
+}

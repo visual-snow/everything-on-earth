@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/qiao/pathfinding.js",
+  "name": "qiao/PathFinding.js",
+  "description": "A comprehensive path-finding library for grid-based games in JavaScript, bundling 10 algorithms including A*, Dijkstra, BFS, and Jump Point Search, running in both Node.js and browsers.",
+  "sub_domain": "pathfinding-navmesh",
+  "score": 8,
+  "score_rationale": "8.7k stars, MIT, widely used reference implementation of pathfinding algorithms for 2D grid-based web games.",
+  "stars": 8700,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2015-07-21",
+  "found_in_domains": [
+    "pathfinding-navmesh"
+  ],
+  "quality_score": 79.5,
+  "tags": [
+    "pathfinding",
+    "javascript",
+    "grid-based"
+  ],
+  "category": "Pathfinding",
+  "summary": "JavaScript library with 10 pathfinding algorithms for grid-based games",
+  "slug": "qiao-pathfinding-js"
+}

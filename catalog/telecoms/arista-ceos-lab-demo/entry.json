@@ -1,0 +1,59 @@
+{
+  "name": "Arista cEOS Lab Demo",
+  "repo_url": "https://github.com/arista-netdevops-community/ceos_lab_demo",
+  "description": "Demonstration lab for Arista cEOS (containerized EOS) with NETCONF, gNMI, and eAPI management enabled. Shows how to build and run Arista container labs.",
+  "domain": "arista-eos",
+  "secondary_domains": [
+    "containerlab",
+    "gnmi-netconf",
+    "netconf",
+    "network-os-emulation"
+  ],
+  "protocols": [
+    "NETCONF",
+    "SSH/CLI",
+    "eAPI",
+    "gNMI"
+  ],
+  "provides": [
+    "netconf-server",
+    "gnmi-server",
+    "rest-api-eapi",
+    "ssh-cli-access",
+    "containerized-network-os",
+    "arista-eos-emulation",
+    "yang-datastore",
+    "network-automation-lab"
+  ],
+  "needs": [
+    "arista-account-registration",
+    "ceos-image-manual-download",
+    "containerlab-runtime",
+    "docker-engine",
+    "high-memory-10gb-plus",
+    "high-cpu-8vcpu-plus"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": ""
+  },
+  "github_metrics": {
+    "stars": 50,
+    "last_commit": "2024",
+    "language": "N/A",
+    "license": "Proprietary (free download with account)"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Arista cEOS requires registration at arista.com for image download. NETCONF server on port 830. Recommended: 8 vCPUs, 10GB RAM for 10+ containers. cEOS uses startup-config at clab-<lab>/node/flash/startup-config. Free download from arista.com with account. Native Docker container (no KVM needed). Full EOS CLI and API support. Widely used with containerlab for network automation testing.",
+  "related_repos": [
+    "https://github.com/arista-netdevops-community/avd-quickstart-containerlab"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/virtual-nos.json"
+  ],
+  "slug": "arista-ceos-lab-demo"
+}

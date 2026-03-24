@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/rr-debugger/rr",
+  "name": "rr-debugger/rr",
+  "description": "Mozilla's lightweight record-and-replay debugging framework extending GDB with reverse execution; allows replaying program traces deterministically to diagnose hard-to-reproduce bugs.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 8,
+  "score_rationale": "Unique reverse-execution debugger with 10.4k stars, highly valuable for exploit research requiring deterministic replay, with version 5.9.0 in February 2025.",
+  "stars": 10400,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-02-13",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 80.1,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "rr-debugger-rr"
+}

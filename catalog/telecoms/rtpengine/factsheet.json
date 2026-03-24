@@ -1,0 +1,68 @@
+{
+  "slug": "rtpengine",
+  "name": "rtpengine",
+  "what_it_is": "A high-performance RTP and UDP media proxy designed as a drop-in replacement for rtpproxy, primarily integrated with the Kamailio SIP proxy. Runs on GNU/Linux only and supports in-kernel packet forwarding for performance-critical deployments.",
+  "components": [
+    "rtpengine daemon (userspace media proxy)",
+    "kernel module (xt_RTPENGINE) for in-kernel packet forwarding",
+    "ng control protocol interface (UDP/TCP/HTTP/WebSocket)",
+    "SDP parser and rewriter",
+    "media recorder with SRTP decryption",
+    "transcoding engine (audio codecs, DTMF, T.38)"
+  ],
+  "protocols": [
+    "RTP / RTCP",
+    "SRTP via SDES (RFC 4568)",
+    "DTLS-SRTP (RFC 5764)",
+    "ICE (RFC 5245) — relay and lite-peer modes",
+    "RTCP multiplexing (RFC 5761)",
+    "WebSocket (WS/WSS)",
+    "HTTP / HTTPS (control interface)",
+    "T.38 (fax over IP)",
+    "Janus protocol (limited compatibility)",
+    "Legacy rtpproxy protocol",
+    "OpenSER mediaproxy protocol"
+  ],
+  "measurement": [
+    "Per-call statistics via ng control protocol",
+    "RTCP packet inspection and reporting",
+    "Silence detection metrics",
+    "Media recording for offline analysis"
+  ],
+  "configuration": [
+    "Configurable UDP port ranges for media",
+    "TOS/QoS DSCP field settings",
+    "IPv4/IPv6 bridging and interface binding",
+    "SRTP cipher selection (AES-CM, AES-F8, AES-GCM)",
+    "ICE mode selection (relay, lite-peer, disabled)",
+    "RTP profile selection (RTP/AVP, RTP/AVPF, RTP/SAVP, RTP/SAVPF)",
+    "NAT traversal address advertisement",
+    "Kernel module vs. userspace forwarding toggle",
+    "Multi-threaded worker count",
+    "RTCP multiplexing/demultiplexing control"
+  ],
+  "fault_injection": [
+    "No dedicated fault injection interface documented"
+  ],
+  "modes": [
+    "Kernel-space forwarding mode (via xt_RTPENGINE kernel module)",
+    "Userspace forwarding mode (automatic fallback when kernel module unavailable)",
+    "Media forking / publish-subscribe forwarding mode",
+    "Transcoding mode (codec, DTMF, T.38 conversion)",
+    "Recording mode (with SRTP decryption)"
+  ],
+  "constraints": [
+    "GNU/Linux only — no macOS or Windows support",
+    "ZRTP encryption is not supported (packets pass through unmodified)",
+    "Kernel module required for maximum performance; without it falls back to userspace",
+    "Janus protocol support is limited, not full compatibility"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found in repository (master branch returns 404)",
+    "No ZRTP encryption support",
+    "No native Windows or macOS support",
+    "No built-in SIP signaling handling (requires external SIP proxy like Kamailio)",
+    "No full Janus protocol compatibility"
+  ]
+}

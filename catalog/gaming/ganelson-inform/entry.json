@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ganelson/inform",
+  "name": "ganelson/inform",
+  "description": "Inform 7 is a programming language for creating interactive fiction using natural language syntax, one of the most influential IF authoring systems. Open-sourced in 2022 after decades of commercial use.",
+  "sub_domain": "dialogue-narrative",
+  "score": 8,
+  "score_rationale": "One of the most historically significant interactive fiction languages with 1.6k stars, used in academia and by serious IF authors, open-sourced and actively maintained.",
+  "stars": 1600,
+  "language": "C",
+  "license": "Artistic-2.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "dialogue-narrative",
+    "visual-novel-engines"
+  ],
+  "quality_score": 73.6,
+  "tags": [
+    "interactive-fiction",
+    "natural-language",
+    "text-adventure",
+    "narrative"
+  ],
+  "category": "Interactive Fiction",
+  "summary": "Historically significant IF language with natural language syntax",
+  "slug": "ganelson-inform"
+}

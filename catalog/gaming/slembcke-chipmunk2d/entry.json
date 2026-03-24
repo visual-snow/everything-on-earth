@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/slembcke/chipmunk2d",
+  "name": "slembcke/Chipmunk2D",
+  "description": "Simple, lightweight, fast and portable 2D rigid body physics library written in C, used in hundreds of shipped games. Features multithreaded solver, ARM NEON optimizations, and comprehensive joint/constraint support.",
+  "sub_domain": "physics-engines",
+  "score": 8,
+  "score_rationale": "2.4k-star battle-tested 2D physics library used in hundreds of shipped games, providing quality physics accessible to C developers.",
+  "stars": 2400,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "physics-engines"
+  ],
+  "quality_score": 75.0,
+  "tags": [
+    "physics",
+    "2d",
+    "lightweight"
+  ],
+  "category": "Physics Engine",
+  "summary": "Lightweight 2D physics library used in hundreds of shipped games",
+  "slug": "slembcke-chipmunk2d"
+}

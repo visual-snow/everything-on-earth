@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ffuf/ffuf",
+  "name": "ffuf/ffuf",
+  "description": "Fast web fuzzer written in Go supporting directory discovery, virtual host enumeration, parameter testing, and POST data manipulation with interactive mode and recursive scanning.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 9,
+  "score_rationale": "Industry-standard fuzzing tool with 15.8k stars, universally used in bug bounty recon pipelines for content discovery and parameter fuzzing.",
+  "stars": 15800,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2023-09-16",
+  "found_in_domains": [
+    "Bug Bounty Tools",
+    "webapp-security"
+  ],
+  "quality_score": 87.6,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Fast web fuzzer written in Go supporting directory discovery, virtual host enumeration, parameter te",
+  "slug": "ffuf-ffuf"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lameguy64/psn00bsdk",
+  "name": "Lameguy64/PSn00bSDK",
+  "description": "A powerful open-source SDK for original PlayStation (PS1) homebrew development, providing a C/C++ toolchain and hardware abstraction libraries for GPU, GTE, CD-ROM, and MDEC operations.",
+  "sub_domain": "emulators-retro",
+  "score": 6,
+  "score_rationale": "The most capable open-source PS1 homebrew SDK with 1k stars; essential for developers creating new games for original PlayStation hardware.",
+  "stars": 1000,
+  "language": "C",
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 60.0,
+  "tags": [
+    "homebrew",
+    "ps1",
+    "sdk",
+    "development"
+  ],
+  "category": "Game Development SDK",
+  "summary": "Essential open-source SDK for PS1 homebrew game development",
+  "slug": "lameguy64-psn00bsdk"
+}

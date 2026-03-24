@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/cn0xroot/rfsec-toolkit",
+  "name": "cn0xroot/rfsec-toolkit",
+  "description": "Curated collection of Radio Frequency communication protocol hacking tools covering GSM, LTE, Bluetooth, RFID, ZigBee, and other RF protocols for SDR-based security research.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 7,
+  "score_rationale": "Well-organized RF security toolkit reference with 1.7k stars; valuable as a comprehensive index of RF attack tooling.",
+  "stars": 1694,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-05-28",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 67.8,
+  "tags": [
+    "wireless",
+    "wifi",
+    "protocols"
+  ],
+  "category": "Wireless Security",
+  "summary": "Wireless network security testing",
+  "slug": "cn0xroot-rfsec-toolkit"
+}

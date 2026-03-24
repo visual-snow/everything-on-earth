@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/trustedsec/ptf",
+  "name": "trustedsec/ptf",
+  "description": "The Penetration Testers Framework (PTF) is a modular Python script for Debian/Ubuntu/ArchLinux that installs and maintains a comprehensive suite of up-to-date penetration testing tools aligned with the PTES standard.",
+  "sub_domain": "pentest-frameworks",
+  "score": 7,
+  "score_rationale": "Well-established framework installer/manager from TrustedSec with 5.5k stars, providing a structured approach to maintaining a pentest toolkit.",
+  "stars": 5500,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-06-01",
+  "found_in_domains": [
+    "pentest-frameworks"
+  ],
+  "quality_score": 71.9,
+  "tags": [
+    "pe-format",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Security Tool",
+  "summary": "The Penetration Testers Framework (PTF) is a modular Python script for Debian/Ubuntu/ArchLinux th...",
+  "slug": "trustedsec-ptf"
+}

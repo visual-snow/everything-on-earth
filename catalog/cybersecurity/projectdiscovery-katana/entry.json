@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/projectdiscovery/katana",
+  "name": "projectdiscovery/katana",
+  "description": "Next-generation crawling and spidering framework with headless browser support, JavaScript parsing, and customizable form filling for comprehensive web asset discovery.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 9,
+  "score_rationale": "Widely adopted modern web crawler with 16.3k stars from the dominant ProjectDiscovery ecosystem, replacing older crawlers as the standard for bug bounty recon pipelines.",
+  "stars": 16300,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2025-01-20",
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 87.7,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Next-generation crawling and spidering framework with headless browser support, JavaScript parsing, ",
+  "slug": "projectdiscovery-katana"
+}

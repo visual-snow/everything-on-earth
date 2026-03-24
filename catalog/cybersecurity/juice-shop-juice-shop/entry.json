@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/juice-shop/juice-shop",
+  "name": "juice-shop/juice-shop",
+  "description": "OWASP Juice Shop - the most modern and sophisticated intentionally insecure web application for security training, CTF competitions, and vulnerability research covering OWASP Top Ten.",
+  "sub_domain": "webapp-security",
+  "score": 9,
+  "score_rationale": "12.7k stars, the canonical OWASP training web app widely used in security education and certifications.",
+  "stars": 12700,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 86.8,
+  "tags": [
+    "web-security",
+    "vulnerability",
+    "injection"
+  ],
+  "category": "Web Security",
+  "summary": "Web application security testing",
+  "slug": "juice-shop-juice-shop"
+}

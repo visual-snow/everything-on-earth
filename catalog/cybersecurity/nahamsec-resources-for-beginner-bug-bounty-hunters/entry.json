@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/nahamsec/resources-for-beginner-bug-bounty-hunters",
+  "name": "nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters",
+  "description": "Curated collection of web hacking tools, tips, and resources for those beginning their bug bounty journey, covering XSS, SSRF, tools, and methodology.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 8,
+  "score_rationale": "Authoritative learning resource from well-known bug bounty hunter nahamsec with 11.9k stars, widely referenced as the starting point for new hunters.",
+  "stars": 11900,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 80.6,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Curated collection of web hacking tools, tips, and resources for those beginning their bug bounty jo",
+  "slug": "nahamsec-resources-for-beginner-bug-bounty-hunters"
+}

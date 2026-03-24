@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tmedwards/sugarcube-2",
+  "name": "tmedwards/sugarcube-2",
+  "description": "SugarCube \u2014 a powerful and extensible story format for Twine/Twee with rich media support, save systems, macros, and advanced JavaScript extensibility for interactive fiction.",
+  "sub_domain": "visual-novel-engines",
+  "score": 6,
+  "score_rationale": "253 stars, the most feature-rich Twine story format used in many published IF works, actively maintained through 2025.",
+  "stars": 253,
+  "language": "JavaScript",
+  "license": "BSD-2-Clause",
+  "last_activity": "2025-01-28",
+  "found_in_domains": [
+    "visual-novel-engines"
+  ],
+  "quality_score": 55.2,
+  "tags": [
+    "twine",
+    "interactive-fiction",
+    "story-format",
+    "javascript",
+    "sugarcube"
+  ],
+  "category": "Twine Story Format",
+  "summary": "Feature-rich Twine story format with JavaScript extensibility and rich media",
+  "slug": "tmedwards-sugarcube-2"
+}

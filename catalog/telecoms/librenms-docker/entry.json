@@ -1,0 +1,63 @@
+{
+  "name": "LibreNMS Docker",
+  "repo_url": "https://github.com/librenms/docker",
+  "description": "Docker image for LibreNMS, an auto-discovering PHP/MySQL/SNMP network monitoring system supporting Cisco, Juniper, HP, and 100+ vendors.",
+  "domain": "device-discovery",
+  "secondary_domains": [
+    "multi-vendor-nms",
+    "netconf",
+    "network-observability"
+  ],
+  "protocols": [
+    "SNMP",
+    "SNMPv3",
+    "SNMP Traps",
+    "CDP",
+    "LLDP",
+    "OSPF",
+    "BGP"
+  ],
+  "provides": [
+    "network-auto-discovery",
+    "snmpv3-support",
+    "snmp-trap-receiver",
+    "snmp-monitoring",
+    "bgp-monitoring",
+    "cdp-lldp-discovery",
+    "web-dashboard",
+    "multi-vendor-device-support",
+    "network-topology-mapping",
+    "syslog-collection",
+    "streaming-telemetry",
+    "ospf-monitoring",
+    "alerting-engine"
+  ],
+  "needs": [
+    "mysql-or-mariadb",
+    "redis",
+    "smtp-relay",
+    "snmp-capable-devices-or-simulators"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "librenms/librenms",
+    "compose_services_count": 5,
+    "docker_evidence": "Docker compose is the recommended way to run. Includes SNMP trap daemon sidecar with SIDECAR_SNMPTRAPD=1."
+  },
+  "github_metrics": {
+    "stars": 500,
+    "last_commit": "2026-02-01",
+    "language": "Shell",
+    "license": "GPL-3.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Full-featured NMS with auto-discovery via CDP/LLDP/SNMP. Excellent for evaluations requiring network device discovery and monitoring configuration.",
+  "related_repos": [
+    "https://github.com/librenms/librenms"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "librenms-docker"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/salesforce/cloudsplaining",
+  "name": "salesforce/cloudsplaining",
+  "description": "AWS IAM Security Assessment tool by Salesforce that identifies least-privilege violations and generates risk-prioritized HTML reports covering privilege escalation, data exfiltration, and resource exposure paths.",
+  "sub_domain": "container-cloud-security",
+  "score": 7,
+  "score_rationale": "2.2k stars from Salesforce with active maintenance into 2026, filling a focused niche for AWS IAM security assessment and least-privilege enforcement.",
+  "stars": 2200,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 68.7,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "salesforce-cloudsplaining"
+}

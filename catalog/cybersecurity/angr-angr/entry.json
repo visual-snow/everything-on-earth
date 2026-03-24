@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/angr/angr",
+  "name": "angr/angr",
+  "description": "Powerful and user-friendly binary analysis platform providing symbolic execution, control-flow analysis, decompilation, and disassembly for security research.",
+  "sub_domain": "malware-reversing",
+  "score": 8,
+  "score_rationale": "8.6k stars, widely used academic and industry binary analysis framework from UCSB and ASU research labs.",
+  "stars": 8600,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2025-12-01",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 79.5,
+  "tags": [
+    "binary-analysis",
+    "decompilation",
+    "disassembly"
+  ],
+  "category": "Binary Analysis",
+  "summary": "Powerful and user-friendly binary analysis platform providing symbolic execution, control-flow an...",
+  "slug": "angr-angr"
+}

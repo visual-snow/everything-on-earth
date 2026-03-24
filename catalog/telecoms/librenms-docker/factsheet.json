@@ -1,0 +1,77 @@
+{
+  "slug": "librenms-docker",
+  "name": "LibreNMS Docker",
+  "what_it_is": "A containerized deployment of LibreNMS, an auto-discovering PHP/MySQL/SNMP network monitoring system that supports 100+ vendors including Cisco, Juniper, and HP. It runs as a non-root user in multi-platform Docker containers using s6-overlay as the process supervisor.",
+  "components": [
+    "librenms (PHP-FPM application + Nginx web UI on port 8000)",
+    "dispatcher sidecar (polling/poller distribution worker)",
+    "syslogng sidecar (syslog collection on port 514 TCP/UDP)",
+    "snmptrapd sidecar (SNMP trap receiver on port 162 TCP/UDP)",
+    "mariadb (database backend)",
+    "redis (cache, session store, dispatcher coordination)",
+    "msmtpd (SMTP relay for alerting)"
+  ],
+  "protocols": [
+    "SNMP v2c",
+    "SNMPv3 (with authentication and privacy options)",
+    "SNMP Traps",
+    "Syslog (TCP and UDP)",
+    "CDP",
+    "LLDP",
+    "OSPF",
+    "BGP"
+  ],
+  "measurement": [
+    "Device availability and reachability",
+    "Interface traffic (in/out bytes, errors, drops)",
+    "CPU and memory utilization",
+    "SNMP-polled metrics per device type",
+    "Syslog events",
+    "SNMP trap events",
+    "Network topology (via CDP/LLDP)"
+  ],
+  "configuration": [
+    "DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_TIMEOUT — database connection",
+    "REDIS_HOST — Redis endpoint for cache and session",
+    "CACHE_DRIVER, SESSION_DRIVER — storage backend (file, database, redis)",
+    "MEMORY_LIMIT, MAX_INPUT_VARS, UPLOAD_MAX_SIZE, OPCACHE_MEM_SIZE — PHP tuning",
+    "REAL_IP_FROM, REAL_IP_HEADER, LOG_IP_VAR — reverse proxy / IP handling",
+    "LIBRENMS_SNMP_COMMUNITY — default SNMP community string",
+    "DISPATCHER_NODE_ID — identifies each dispatcher node in multi-dispatcher setup",
+    "SIDECAR_DISPATCHER, SIDECAR_SYSLOGNG, SIDECAR_SNMPTRAPD — activates sidecar mode per container",
+    "LIBRENMS_WEATHERMAP, LIBRENMS_WEATHERMAP_SCHEDULE — optional network weathermap plugin",
+    "TZ, PUID, PGID — timezone and file ownership",
+    "RRDcached integration (separate server example provided)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Standalone (single librenms container with built-in poller)",
+    "Multi-dispatcher (librenms + one or more dispatcher sidecars coordinated via Redis)",
+    "Sidecar pattern (separate containers for syslog-ng and snmptrapd)",
+    "Traefik reverse proxy integration (example provided)"
+  ],
+  "constraints": [
+    "At least one dispatcher sidecar is required for polling to run in multi-dispatcher mode",
+    "Redis is mandatory for multi-dispatcher deployments (dispatcher coordination)",
+    "MariaDB 10 is the documented database; MySQL compatibility implied but not the primary target",
+    "Volume ownership must be correctly set (PUID/PGID) or the application fails to start",
+    "NET_ADMIN and NET_RAW Linux capabilities are required on each librenms container",
+    "All sidecar containers (dispatcher, syslogng, snmptrapd) share the same /data volume as the main container"
+  ],
+  "docker_services": [
+    "db (mariadb:10)",
+    "redis (redis:7.2-alpine)",
+    "msmtpd (crazymax/msmtpd:latest)",
+    "librenms (librenms/librenms:latest) — web UI + poller, port 8000",
+    "dispatcher (librenms/librenms:latest) — SIDECAR_DISPATCHER=1",
+    "syslogng (librenms/librenms:latest) — SIDECAR_SYSLOGNG=1, port 514 TCP/UDP",
+    "snmptrapd (librenms/librenms:latest) — SIDECAR_SNMPTRAPD=1, port 162 TCP/UDP"
+  ],
+  "notable_absences": [
+    "No built-in packet capture or flow (NetFlow/sFlow/IPFIX) collection",
+    "No streaming telemetry collector (gNMI/gRPC) in the compose example",
+    "No Grafana or external visualization layer included",
+    "No built-in TFTP/FTP server for device config backup",
+    "No agent-based monitoring (relies solely on SNMP and syslog)"
+  ]
+}

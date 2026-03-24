@@ -1,0 +1,66 @@
+{
+  "name": "srsRAN O-RAN SC RIC",
+  "repo_url": "https://github.com/srsran/oran-sc-ric",
+  "description": "Simplified O-RAN SC Near-RT RIC (i-release) deployable via a single docker-compose command without Kubernetes or Helm. Includes example KPM and RC xApps.",
+  "domain": "o-ran",
+  "secondary_domains": [
+    "ran-intelligence"
+  ],
+  "protocols": [
+    "E2AP",
+    "E2SM-KPM",
+    "E2SM-RC",
+    "RMR",
+    "SCTP"
+  ],
+  "provides": [
+    "rmr-messaging",
+    "app-manager",
+    "near-rt-ric",
+    "config-mutation",
+    "subscription-manager",
+    "e2-manager",
+    "redis-dbaas",
+    "routing-manager-sim",
+    "rc-xapp",
+    "e2ap-interface",
+    "e2sm-rc-control",
+    "xapp-runtime-environment",
+    "multi-service-compose-stack",
+    "e2sm-kpm-monitoring",
+    "e2-termination",
+    "kpm-xapp"
+  ],
+  "needs": [
+    "sctp-support",
+    "docker-compose-v2",
+    "srsran-gnb",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 7,
+    "docker_evidence": "Building and deploying of the SC RIC as a multi-container application using a single Docker command. docker compose up. Seven services: e2term, e2mgr, dbaas, rtmgr_sim, submgr, appmgr, python_xapp_runner."
+  },
+  "github_metrics": {
+    "stars": 65,
+    "last_commit": "2024-04-10",
+    "language": "Python",
+    "license": "AGPL-3.0"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Minimal O-RAN RIC without Kubernetes. Perfect for Docker-based agentic evals of xApp development, E2 interface debugging, and RIC management. Best entry point for agentic O-RAN evals: single docker-compose with 7 services (e2term, e2mgr, dbaas, rtmgr_sim, submgr, appmgr, python_xapp_runner). xApps directory mounted for live dev. Works with srsRAN gNB + srsUE for end-to-end testing.",
+  "related_repos": [
+    "https://github.com/o-ran-sc/ric-plt-lib-rmr",
+    "https://github.com/o-ran-sc/ric-plt-xapp-frame-py",
+    "https://github.com/srsran/srsran_4g",
+    "https://github.com/srsran/srsran_project"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/oran-ric.json"
+  ],
+  "slug": "srsran-o-ran-sc-ric"
+}

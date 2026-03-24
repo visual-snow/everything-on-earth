@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/0x4d31/awesome-threat-detection",
+  "name": "0x4D31/awesome-threat-detection",
+  "description": "A curated list of threat detection and hunting resources covering detection platforms, endpoint/network monitoring tools, detection rules, datasets, and MITRE ATT&CK frameworks.",
+  "sub_domain": "ai-security",
+  "score": 6,
+  "score_rationale": "Widely referenced threat detection resource with 4.5k stars, though last updated in 2023 and not purely AI-focused.",
+  "stars": 4500,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-03-08",
+  "found_in_domains": [
+    "ai-security",
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 65.2,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "A curated list of threat detection and hunting resources covering detection platforms, endpoint/netw",
+  "slug": "0x4d31-awesome-threat-detection"
+}

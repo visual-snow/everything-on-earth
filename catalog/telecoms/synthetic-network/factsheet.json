@@ -1,0 +1,71 @@
+{
+  "slug": "synthetic-network",
+  "name": "Synthetic Network",
+  "what_it_is": "A Docker-based framework that places containers on a synthetic network whose conditions (bandwidth, latency, packet loss, jitter, reordering) can be manipulated at runtime. The traffic-shaping engine is a Rust userspace proxy called Rush (a Snabb port), controlled via a REST/JS API or a web GUI.",
+  "components": [
+    "rush — Rust userspace packet-processing proxy that bridges the real network interface to a veth pair and enforces QoS rules",
+    "frontend — Node.js web server (port 80/3000) exposing a GUI and REST API to read/write the QoS configuration and traffic profiles",
+    "setup.sh — container entrypoint that wires up the veth pair, installs default routes, launches rush and the frontend, then executes the user's test entry point",
+    "syntheticnet Docker image — Node 12 base with iproute2, ethtool, iperf3, tcpdump, net-tools, and Rust nightly toolchain",
+    "syntheticnet:vnc / syntheticnet:chrome optional images — add TigerVNC + ratpoison; chrome variant includes Chromium for browser-level network testing"
+  ],
+  "protocols": [
+    "Any TCP/UDP/IP traffic routed through the synthetic interface is conditioned",
+    "Per-flow rules can target UDP specifically (flow matching by protocol field)",
+    "HTTP REST API on port 80/3000 for programmatic control (separate from the conditioned interface)",
+    "Chrome DevTools remote protocol available in chrome image (port unaffected by conditioning)"
+  ],
+  "measurement": [
+    "Ingress traffic profile written to /var/run/synthetic_network-ingress.profile",
+    "Egress traffic profile written to /var/run/synthetic_network-egress.profile",
+    "Profiles expose per-flow packet counts readable via the JS API (synthnet.profiles.ingress.get())",
+    "Host-side tools available inside container: tcpdump, iperf3, netstat, ping"
+  ],
+  "configuration": [
+    "QoS spec file at /opt/etc/synthetic_network.json (JSON); mounted or baked into image",
+    "Fields per direction (ingress/egress): rate (bps integer), loss (float 0–1), latency (ms), jitter (ms), jitter_strength (float), reorder_packets (bool)",
+    "default_link block applies to all traffic; flows array adds per-protocol/per-flow overrides",
+    "Runtime updates via JS API: synthnet.default_link.ingress.rate(n); await synthnet.commit()",
+    "SYNTHETIC_NETWORK env var sets the subnet (default 10.77.0.0/16)",
+    "ENTRY env var overrides the test entry point (default /opt/bin/entry)",
+    "USE_VNC env var wraps ENTRY with VNC server",
+    "TESTHOST env var injects an /etc/hosts entry into the container",
+    "Reload config without restart: send SIGHUP to the rush process"
+  ],
+  "fault_injection": [
+    "Packet loss: loss field (e.g. 0.02 = 2%) on ingress or egress independently",
+    "Latency: latency field (milliseconds) added to every packet",
+    "Jitter: jitter + jitter_strength fields for variable delay",
+    "Packet reordering: reorder_packets boolean",
+    "Bandwidth cap: rate field (bits per second) for ingress and egress independently",
+    "Per-protocol flow rules allow targeting UDP vs TCP independently",
+    "All faults can be changed live at runtime via API without restarting the container"
+  ],
+  "modes": [
+    "Interactive debug mode: make run-interactive (bash shell inside container on synthetic network)",
+    "Chrome/VNC mode: make run-chrome — Chromium inside VNC accessible at localhost:5901, GUI at localhost:3000",
+    "Minimal/headless mode: syntheticnet:minimal image — no GUI, config from /opt/etc/synthetic_network.json only",
+    "Scripted mode: JS client library synthetic-network/frontend controls conditions programmatically"
+  ],
+  "constraints": [
+    "Container MUST run with --privileged flag — setup.sh uses ip link/ip route/ip address to manipulate kernel networking",
+    "Container MUST be connected to a Docker network created with --subnet matching SYNTHETIC_NETWORK (default 10.77.0.0/16)",
+    "Only traffic routed through the synthetic Docker network is conditioned; control-plane traffic (API, VNC, Chrome remote) uses the default Docker network and is unaffected",
+    "Minimal image has no GUI — network conditions must be set via pre-baked /opt/etc/synthetic_network.json or SIGHUP reload; live scripting requires the full image",
+    "Rush is built with Rust nightly toolchain; reproducible builds require vendored dependencies (vendor/ directory checked in)",
+    "No docker-compose file provided — orchestration is done via bare docker network create + docker create/run make targets"
+  ],
+  "docker_services": [
+    "syntheticnet — main image (Node 12 + Rush + frontend web UI)",
+    "syntheticnet:vnc — adds TigerVNC + ratpoison window manager",
+    "syntheticnet:chrome — adds Chromium on top of vnc image",
+    "syntheticnet:minimal — Rush only, no frontend GUI"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — no multi-container orchestration example provided",
+    "No Kubernetes/CNI integration — designed exclusively for Docker networks",
+    "No built-in test assertions or pass/fail framework — measurement is read-only profiles; evaluation logic must be provided by the user's ENTRY script",
+    "No IPv6 support mentioned",
+    "No Windows container support — Linux kernel networking (iproute2, veth) required"
+  ]
+}

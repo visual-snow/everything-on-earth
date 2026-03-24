@@ -1,0 +1,72 @@
+{
+  "name": "Nokia SR Linux Container Image",
+  "repo_url": "https://github.com/nokia/srlinux-container-image",
+  "description": "Freely distributed official Nokia SR Linux container image. No registration, licensing, or contract required. Runs as a Docker container with full NETCONF, gNMI, and CLI management.",
+  "domain": "containerized-nos",
+  "secondary_domains": [
+    "gnmi-automation",
+    "netconf",
+    "network-operating-system",
+    "nokia-sr-linux"
+  ],
+  "protocols": [
+    "BGP",
+    "EVPN",
+    "IS-IS",
+    "JSON-RPC",
+    "NETCONF",
+    "OSPF",
+    "SSH/CLI",
+    "VXLAN",
+    "gNMI",
+    "gRPC"
+  ],
+  "provides": [
+    "netconf-server",
+    "gnmi-server",
+    "ssh-cli",
+    "config-mutation",
+    "isis-routing",
+    "ospf-routing",
+    "json-rpc-api",
+    "yang-datastore",
+    "streaming-telemetry",
+    "network-os-container",
+    "evpn-overlay",
+    "containerlab-integration",
+    "bgp-routing",
+    "grpc-server",
+    "vxlan-tunneling"
+  ],
+  "needs": [
+    "linux-kernel-4.0+",
+    "docker-runtime",
+    "2-vcpu-minimum",
+    "4gb-ram-minimum",
+    "containerlab-optional"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ghcr.io/nokia/srlinux",
+    "compose_services_count": 0,
+    "docker_evidence": ""
+  },
+  "github_metrics": {
+    "stars": 95,
+    "last_commit": "2026-03-20",
+    "language": "Shell",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Production-grade NOS available as a free container. gNMI/YANG management makes it ideal for network automation evaluations. Primary target for containerlab labs. Containerlab auto-configures NETCONF server on port 830 with credentials admin:NokiaSrl1!. Full YANG coverage for streaming telemetry. Requires Linux kernel v4+, Docker, 2 vCPU and 4GB RAM minimum. Comprehensive documentation at learn.srlinux.dev. Free, no registration required. Pull from ghcr.io/nokia/srlinux. ~0.5 vCPU and ~1GB RAM per instance. Without license: 1000pps throughput limit and 2-week runtime limit. Best free NOS for learning and CI.",
+  "related_repos": [
+    "https://github.com/srl-labs/containerlab"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/virtual-nos.json",
+    "discovery/transport.json"
+  ],
+  "slug": "nokia-sr-linux-container-image"
+}

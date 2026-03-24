@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/trustedsec/social-engineer-toolkit",
+  "name": "trustedsec/social-engineer-toolkit",
+  "description": "The Social-Engineer Toolkit (SET) is an open-source penetration testing framework designed for social engineering with custom attack vectors including spear-phishing, website attack vectors, and infectious media generators. Created by TrustedSec and widely adopted in security assessments.",
+  "sub_domain": "Phishing & Social Engineering",
+  "score": 9,
+  "score_rationale": "Industry-standard social engineering framework with 14.7k stars and 15k+ commits; actively maintained through late 2024 with broad adoption in professional pentesting.",
+  "stars": 14700,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2024-10-21",
+  "found_in_domains": [
+    "Phishing & Social Engineering"
+  ],
+  "quality_score": 87.3,
+  "tags": [
+    "pe-format",
+    "web-security",
+    "security-tool"
+  ],
+  "category": "Web Security",
+  "summary": "The Social-Engineer Toolkit (SET) is an open-source penetration testing framework designed for so...",
+  "slug": "trustedsec-social-engineer-toolkit"
+}

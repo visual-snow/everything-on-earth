@@ -1,0 +1,41 @@
+{
+  "slug": "openstack-tacker",
+  "name": "OpenStack Tacker",
+  "what_it_is": "Tacker is an OpenStack-based NFV Orchestrator service with a built-in general-purpose VNF Manager for deploying and operating Virtual Network Functions (VNFs). It follows the ETSI MANO Architectural Framework and delivers end-to-end orchestration for VNFs on OpenStack and Kubernetes VIMs.",
+  "components": [
+    "tacker-server (core NFV orchestration service)",
+    "python-tackerclient (CLI client)",
+    "tacker-horizon (Horizon UI plugin for web-based management)"
+  ],
+  "protocols": [
+    "ETSI MANO NFV Orchestration API",
+    "OpenStack REST APIs (Keystone, Nova, Neutron, Heat)"
+  ],
+  "measurement": [
+    "No built-in metrics collection or observability tooling documented in README or devstack guide"
+  ],
+  "configuration": [
+    "TACKER_MODE variable: omit for all-in-one, set to standalone for minimal deployment",
+    "Database backend: MySQL (default) or PostgreSQL (requires bytea_output = 'escape')",
+    "Branch selection: master (latest) or stable/2024.2 (pinned release)",
+    "local.conf template files for devstack setup",
+    "Optional Kubernetes VIM support via devstack-plugin-container"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "all-in-one: full Devstack + Tacker on a single machine (default)",
+    "standalone: Tacker + mandatory OpenStack services only, used in CI (Zuul) environments"
+  ],
+  "constraints": [
+    "Minimum hardware: 4 CPU cores, 16 GB RAM, 80 GB storage",
+    "Ubuntu LTS only; DevStack supports only the two latest Ubuntu LTS releases",
+    "Kubernetes VIM support limited to Ubuntu hosts only"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found in the repository (404 on master branch)",
+    "No built-in fault injection or chaos engineering capabilities documented",
+    "No native metrics/monitoring — relies on external OpenStack telemetry services",
+    "No explicit performance benchmarking or load-testing tooling"
+  ]
+}

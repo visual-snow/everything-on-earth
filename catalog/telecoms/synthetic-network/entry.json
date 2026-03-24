@@ -1,0 +1,56 @@
+{
+  "name": "Synthetic Network",
+  "repo_url": "https://github.com/daily-co/synthetic-network",
+  "description": "Run Docker containers on a synthetic network with manipulable conditions. Rust-based userspace packet processor introduces latency, bandwidth limits, packet loss, and jitter with per-flow QoS control via Web UI and JSON API.",
+  "domain": "degraded-network-conditions",
+  "secondary_domains": [
+    "impairment-testing",
+    "network-emulation",
+    "qos-simulation"
+  ],
+  "protocols": [
+    "Any (L3 packet processing)",
+    "HTTP",
+    "TCP",
+    "UDP"
+  ],
+  "provides": [
+    "network-impairment-simulation",
+    "packet-loss-injection",
+    "latency-injection",
+    "bandwidth-limiting",
+    "jitter-simulation",
+    "per-flow-qos-control",
+    "web-dashboard",
+    "json-api",
+    "docker-network-emulation",
+    "vnc-browser-testing"
+  ],
+  "needs": [
+    "linux-kernel",
+    "docker-runtime",
+    "tun-tap-support",
+    "privileged-container-mode"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Docker containers on a synthetic network. Run applications in a context that lets you manipulate their network conditions. Ships as a Docker image containing a Rust program that forwards packets between two Linux network interfaces."
+  },
+  "github_metrics": {
+    "stars": 80,
+    "last_commit": "2025-01-31",
+    "language": "Rust",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Unique kernel-bypass approach using Rust for high-performance network condition simulation. Web UI allows per-flow QoS adjustment. VNC-enabled Chrome variant enables testing web apps under degraded conditions. Good for simulating network degradation scenarios in eval environments. Simulates network impairments (bandwidth, latency, jitter, loss) at the packet level using Rust. JSON API and Web UI for configuration. Excellent for testing agent behavior under degraded network conditions in evaluation scenarios.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/digital-twin.json",
+    "discovery/traffic.json"
+  ],
+  "slug": "synthetic-network"
+}

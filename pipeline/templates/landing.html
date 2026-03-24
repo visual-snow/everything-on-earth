@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+
+{% block title %}Everything on Earth{% endblock %}
+
+{% block head %}
+<style>
+  body { background: var(--bg-deep); }
+  .landing {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    opacity: 0.9;
+  }
+  .logo img { width: 100%; height: 100%; object-fit: contain; }
+  .landing h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+  }
+  .landing .subtitle {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .domain-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    text-align: left;
+  }
+  .domain-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: border-color 0.2s, transform 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    color: inherit;
+  }
+  .domain-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+  .domain-card .icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
+    opacity: 0.85;
+  }
+  .domain-card .icon img { width: 100%; height: 100%; object-fit: contain; }
+  .domain-card .icon svg { width: 100%; height: 100%; }
+  .domain-card h2 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  .domain-card .stats {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 1.25rem;
+  }
+  .domain-card .explore {
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-weight: 500;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+  @media (max-width: 768px) {
+    .landing { padding: 2rem 1rem; }
+    .landing h1 { font-size: 2rem; }
+    .domain-grid { grid-template-columns: 1fr; }
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="landing">
+  <div class="logo">
+    <img src="assets/logo.png" alt="Everything on Earth" onerror="this.style.display='none'">
+  </div>
+  <h1>Everything on Earth</h1>
+  <p class="subtitle">Open-source intelligence across every domain. {{ total_repos }} repositories cataloged.</p>
+
+  <div class="domain-grid">
+    {% for domain in domains %}
+    <a class="domain-card" href="catalog/{{ domain.slug }}/index.html">
+      <div class="icon">
+        <img src="assets/icons/{{ domain.slug }}.png" alt="{{ domain.name }}"
+             onerror="this.parentElement.innerHTML='<svg viewBox=&quot;0 0 48 48&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><circle cx=&quot;24&quot; cy=&quot;24&quot; r=&quot;20&quot; stroke=&quot;#58a6ff&quot; stroke-width=&quot;1.5&quot; opacity=&quot;0.4&quot;/><circle cx=&quot;24&quot; cy=&quot;12&quot; r=&quot;2&quot; fill=&quot;#58a6ff&quot; opacity=&quot;0.6&quot;/><circle cx=&quot;12&quot; cy=&quot;30&quot; r=&quot;2&quot; fill=&quot;#58a6ff&quot; opacity=&quot;0.6&quot;/><circle cx=&quot;36&quot; cy=&quot;30&quot; r=&quot;2&quot; fill=&quot;#58a6ff&quot; opacity=&quot;0.6&quot;/><line x1=&quot;24&quot; y1=&quot;12&quot; x2=&quot;12&quot; y2=&quot;30&quot; stroke=&quot;#58a6ff&quot; stroke-width=&quot;1&quot; opacity=&quot;0.3&quot;/><line x1=&quot;24&quot; y1=&quot;12&quot; x2=&quot;36&quot; y2=&quot;30&quot; stroke=&quot;#58a6ff&quot; stroke-width=&quot;1&quot; opacity=&quot;0.3&quot;/><line x1=&quot;12&quot; y1=&quot;30&quot; x2=&quot;36&quot; y2=&quot;30&quot; stroke=&quot;#58a6ff&quot; stroke-width=&quot;1&quot; opacity=&quot;0.3&quot;/></svg>'">
+      </div>
+      <h2>{{ domain.name }}</h2>
+      <p class="stats">{{ domain.count }} tools across {{ domain.sub_domain_count }} sub-domains</p>
+      <span class="explore">Explore &rarr;</span>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="footer">
+    <p>Powered by Claude Code &middot; {{ total_repos }} repositories across {{ domains|length }} domains</p>
+  </div>
+</div>
+{% endblock %}

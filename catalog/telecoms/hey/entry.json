@@ -1,0 +1,46 @@
+{
+  "name": "hey",
+  "repo_url": "https://github.com/rakyll/hey",
+  "description": "Lightweight HTTP load generator and ApacheBench replacement supporting HTTP/2, concurrent workers, and custom headers.",
+  "domain": "http-benchmarking",
+  "secondary_domains": [
+    "load-testing"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTP/2",
+    "HTTPS"
+  ],
+  "provides": [
+    "http-load-generation",
+    "http2-support",
+    "concurrent-traffic-generation",
+    "latency-measurement",
+    "throughput-benchmarking"
+  ],
+  "needs": [
+    "http-target-server"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present with multi-stage build for Linux executable"
+  },
+  "github_metrics": {
+    "stars": 19800,
+    "last_commit": "2026-01-10",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 4,
+  "eval_notes": "Simple, widely-used HTTP load generator (20k stars). Tiny footprint, easy to containerize. Good for quick API performance checks in evaluation environments.",
+  "related_repos": [
+    "https://github.com/hatoo/oha"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "hey"
+}

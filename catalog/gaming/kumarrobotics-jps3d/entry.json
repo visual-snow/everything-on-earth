@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/kumarrobotics/jps3d",
+  "name": "KumarRobotics/jps3d",
+  "description": "A C++ implementation of Jump Point Search for both 2D and 3D grid maps, optimizing A* by skipping intermediate nodes for faster optimal pathfinding in uniform-cost grids.",
+  "sub_domain": "pathfinding-navmesh",
+  "score": 5,
+  "score_rationale": "464 stars, BSD-3-Clause, solid JPS implementation useful for robotics and game AI, though last active in 2021.",
+  "stars": 464,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2021-02-19",
+  "found_in_domains": [
+    "pathfinding-navmesh"
+  ],
+  "quality_score": 51.3,
+  "tags": [
+    "pathfinding",
+    "jps",
+    "optimization"
+  ],
+  "category": "Pathfinding",
+  "summary": "C++ Jump Point Search for optimized 2D/3D grid pathfinding",
+  "slug": "kumarrobotics-jps3d"
+}

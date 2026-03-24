@@ -1,0 +1,60 @@
+{
+  "slug": "aether-sd-core-omec-project",
+  "name": "Aether SD-Core (OMEC Project)",
+  "what_it_is": "Open-source 5G standalone core network from the Open Networking Foundation (ONF) / Linux Foundation Aether platform, providing both control plane (AMF, SMF, NRF, PCF, AUSF, UDM, UDR, NSSF) and user plane (UPF) functions. Deployed via Kubernetes Helm charts and integrated with the Aether-OnRamp framework for end-to-end 5G packet forwarding.",
+  "components": [
+    "AMF (Access and Mobility Management Function)",
+    "SMF (Session Management Function)",
+    "UPF (User Plane Function)",
+    "NRF (Network Repository Function)",
+    "PCF (Policy Control Function)",
+    "AUSF (Authentication Server Function)",
+    "UDM (Unified Data Management)",
+    "UDR (Unified Data Repository)",
+    "NSSF (Network Slice Selection Function)",
+    "WebUI (subscriber provisioning UI)",
+    "SCTP load balancer (sctplb)",
+    "omec-sub-provision (subscriber provisioning service)"
+  ],
+  "protocols": [
+    "NAS (Non-Access Stratum)",
+    "NGAP (Next Generation Application Protocol, over SCTP)",
+    "PFCP (Packet Forwarding Control Protocol)",
+    "GTP-U (GPRS Tunnelling Protocol - User plane, N3 interface)",
+    "SBI (Service-Based Interface, HTTP/2 REST between NFs)",
+    "SCTP (Stream Control Transmission Protocol, N2 interface port 38412)"
+  ],
+  "measurement": [
+    "No built-in measurement or observability stack documented in the Helm charts repository",
+    "Prometheus/Grafana integration not confirmed in available documentation"
+  ],
+  "configuration": [
+    "External IP addresses for N2, N3, N6 network interfaces",
+    "Host routing and subnet definitions per interface",
+    "Network slice provisioning settings (SST, SD values)",
+    "DPDK and hugepage enablement for high-performance UPF",
+    "Static IP address management for UE pools",
+    "values.yaml overrides required for functional pod instantiation",
+    "macvlan or alternative CNI plugins for data-plane networking"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "5G Standalone (SA) core — only SA mode supported; NSA (Non-Standalone) not provided",
+    "Kubernetes deployment via Helm charts (production/integration mode)",
+    "Aether-OnRamp managed deployment (guided on-ramp for edge/enterprise sites)"
+  ],
+  "constraints": [
+    "Requires Kubernetes cluster with appropriate CNI support (macvlan or similar) — bare-metal or VM with SR-IOV/DPDK for UPF",
+    "Default values.yaml files do not produce a functional deployment without operator-supplied IP/interface overrides",
+    "No fault injection or chaos-engineering tooling included in the project",
+    "No docker-compose file present; deployment is Kubernetes-only via Helm"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose file — Kubernetes/Helm only",
+    "No fault injection or chaos engineering support",
+    "No built-in observability stack (Prometheus, Grafana) in the Helm chart repository",
+    "No NSA (Non-Standalone / 4G-anchor) mode",
+    "No RAN simulator bundled — requires external gNB simulator (e.g., gNBSim, UERANSIM)"
+  ]
+}

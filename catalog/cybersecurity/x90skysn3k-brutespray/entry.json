@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/x90skysn3k/brutespray",
+  "name": "x90skysn3k/brutespray",
+  "description": "Fast multi-protocol credential brute-forcer written in Go that parses Nmap, Nessus, and Nexpose output and automatically attempts default credentials on discovered services across 30+ protocols.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 8,
+  "score_rationale": "Efficient automated brute-force tool with 2.4k stars, MIT license, and active development through March 2026.",
+  "stars": 2400,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 75.0,
+  "tags": [
+    "security-tool",
+    "open-source",
+    "analysis"
+  ],
+  "category": "Security Tool",
+  "summary": "Fast multi-protocol credential brute-forcer written in Go that parses Nmap, Nessus, and Nexpose o...",
+  "slug": "x90skysn3k-brutespray"
+}

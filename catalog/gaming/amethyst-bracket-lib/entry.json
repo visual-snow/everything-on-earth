@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/amethyst/bracket-lib",
+  "name": "amethyst/bracket-lib",
+  "description": "The Roguelike Toolkit (RLTK) implemented for Rust, providing pathfinding (A* and Dijkstra), noise generation, color management, and multiple rendering backends including OpenGL, WebGPU, and terminal. Companion to the popular 'Roguelike Tutorial in Rust' book.",
+  "sub_domain": "roguelike-frameworks",
+  "score": 9,
+  "score_rationale": "1.7k-star Rust roguelike toolkit that is the standard starting point for Rust roguelike development, with comprehensive tutorials.",
+  "stars": 1700,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2022-10-05",
+  "found_in_domains": [
+    "roguelike-frameworks"
+  ],
+  "quality_score": 79.8,
+  "tags": [
+    "rust",
+    "roguelike",
+    "pathfinding",
+    "webgpu",
+    "opengl"
+  ],
+  "category": "Rust Roguelike Toolkit",
+  "summary": "Rust roguelike toolkit with pathfinding, noise, and multi-backend rendering support",
+  "slug": "amethyst-bracket-lib"
+}

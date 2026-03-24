@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/bridgecrewio/checkov",
+  "name": "bridgecrewio/checkov",
+  "description": "Static code analysis tool for infrastructure as code (IaC) that prevents cloud misconfigurations and finds vulnerabilities during build-time across Terraform, CloudFormation, Kubernetes, Docker, and 20+ other frameworks with 1,000+ built-in policies.",
+  "sub_domain": "compliance-policy",
+  "score": 9,
+  "score_rationale": "Industry-standard IaC compliance scanner with 8.6k stars supporting the widest range of IaC frameworks and compliance standards including CIS, PCI DSS, and NIST.",
+  "stars": 8600,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "compliance-policy",
+    "container-cloud-security",
+    "vuln-scanners"
+  ],
+  "quality_score": 85.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "bridgecrewio-checkov"
+}

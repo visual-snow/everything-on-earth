@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/heroiclabs/nakama",
+  "name": "heroiclabs/nakama",
+  "description": "Scalable open-source game backend server providing multiplayer, matchmaking, leaderboards, chat, social features, and user authentication for games, written in Go with Python/Lua/TypeScript runtime support.",
+  "sub_domain": "game-backends",
+  "score": 10,
+  "score_rationale": "12.4k stars, actively maintained through March 2026, the leading open-source game backend covering nearly every BaaS feature game developers need.",
+  "stars": 12400,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "game-backends",
+    "game-networking",
+    "game-server-orchestration"
+  ],
+  "quality_score": 92.7,
+  "tags": [
+    "backend",
+    "multiplayer",
+    "baas",
+    "server"
+  ],
+  "category": "Game Backend Server",
+  "summary": "Leading open-source game backend with multiplayer and BaaS features",
+  "slug": "heroiclabs-nakama"
+}

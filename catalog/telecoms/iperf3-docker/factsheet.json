@@ -1,0 +1,49 @@
+{
+  "slug": "iperf3-docker",
+  "name": "iperf3-docker",
+  "what_it_is": "A minimal Docker image packaging the iperf3 network bandwidth testing tool, enabling containerised client/server throughput and latency measurements. It exposes the standard iperf3 CLI inside a lightweight container suitable for network performance benchmarking tasks.",
+  "components": [
+    "iperf3 binary",
+    "minimal base OS image (Alpine or similar)"
+  ],
+  "protocols": [
+    "TCP",
+    "UDP"
+  ],
+  "measurement": [
+    "bandwidth / throughput (bits per second)",
+    "jitter (UDP mode)",
+    "packet loss (UDP mode)",
+    "retransmits (TCP mode)",
+    "round-trip time / latency"
+  ],
+  "configuration": [
+    "server mode: iperf3 -s (listens on port 5201 by default)",
+    "client mode: iperf3 -c <host> targeting a server endpoint",
+    "port override via -p flag",
+    "parallel streams via -P flag",
+    "test duration via -t flag",
+    "UDP mode via -u flag",
+    "target bitrate via -b flag (UDP)",
+    "reverse mode via -R flag (server-to-client direction)",
+    "JSON output via --json flag"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "server",
+    "client"
+  ],
+  "constraints": [
+    "Repository returned HTTP 404 — README and docker-compose could not be fetched; fields derived from iperf3 public documentation and entry description only",
+    "No built-in orchestration — callers must manage network connectivity between client and server containers themselves",
+    "Single iperf3 process per container; no multi-session management layer"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "docker-compose.yml not confirmed (repo inaccessible)",
+    "No web UI or REST API — CLI only",
+    "No persistent storage or result archiving built in",
+    "No TLS/authentication support in base iperf3",
+    "No fault/packet-loss injection capability natively"
+  ]
+}

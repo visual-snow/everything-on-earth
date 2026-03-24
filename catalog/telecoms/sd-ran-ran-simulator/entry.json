@@ -1,0 +1,56 @@
+{
+  "name": "SD-RAN ran-simulator",
+  "repo_url": "https://github.com/sdran/ran-simulator",
+  "description": "RAN simulator from ONF's SD-RAN project. Simulates CU/DU nodes and RU cells via O-RAN E2AP standard with a YAML-based topology model.",
+  "domain": "e2ap",
+  "secondary_domains": [
+    "o-ran",
+    "oran",
+    "ran-simulation",
+    "sd-ran"
+  ],
+  "protocols": [
+    "E2AP",
+    "O-RAN"
+  ],
+  "provides": [
+    "ran-simulation",
+    "e2ap-interface",
+    "oran-e2-node",
+    "cu-du-emulation",
+    "cell-topology-model",
+    "grpc-api",
+    "dynamic-topology-control",
+    "ue-mobility-simulation"
+  ],
+  "needs": [
+    "k8s-cluster",
+    "onos-e2t",
+    "sdran-in-a-box",
+    "helm-chart",
+    "atomix-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "onosproject/ran-simulator",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker containers available on Docker Hub. Deployed as part of SDRAN-in-a-Box (RiaB). Note: source code is read-only; functional binaries only available as Docker containers."
+  },
+  "github_metrics": {
+    "stars": 50,
+    "last_commit": "unknown",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "O-RAN E2AP compliant simulator with gRPC API for runtime topology changes. Simulates dynamic RAN environment. Useful for O-RAN/RIC integration evals. Part of ONF SD-RAN ecosystem.",
+  "related_repos": [
+    "https://github.com/onosproject/sdran-in-a-box",
+    "https://github.com/sdran/onos-e2t"
+  ],
+  "_sources": [
+    "discovery/ran-ue.json"
+  ],
+  "slug": "sd-ran-ran-simulator"
+}

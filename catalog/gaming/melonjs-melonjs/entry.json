@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/melonjs/melonjs",
+  "name": "melonjs/melonJS",
+  "description": "A fresh, modern, lightweight HTML5 2D game engine with a Canvas2D-inspired API built in JavaScript/TypeScript. Actively maintained with good documentation.",
+  "sub_domain": "game-engines-2d",
+  "score": 8,
+  "score_rationale": "6.3k stars, MIT, actively maintained HTML5 engine with modern API and solid feature set for web games.",
+  "stars": 6300,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "game-engines-2d",
+    "web-game-engines"
+  ],
+  "quality_score": 78.4,
+  "tags": [
+    "2d-engine",
+    "html5",
+    "javascript",
+    "web",
+    "modern-api"
+  ],
+  "category": "HTML5 2D Game Engine",
+  "summary": "Modern lightweight HTML5 2D engine with Canvas2D-inspired API",
+  "slug": "melonjs-melonjs"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mgba-emu/mgba",
+  "name": "mgba-emu/mgba",
+  "description": "A fast and accurate Game Boy Advance emulator that also supports Game Boy and Game Boy Color titles. Features save states, video recording, Lua scripting, and both Qt and SDL frontends.",
+  "sub_domain": "emulators-retro",
+  "score": 8,
+  "score_rationale": "The best-in-class GBA emulator with 6.9k stars, MPL-2.0 licensed, actively maintained through 2025 with strong accuracy and feature set.",
+  "stars": 6900,
+  "language": "C",
+  "license": "MPL-2.0",
+  "last_activity": "2025-03-09",
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 78.7,
+  "tags": [
+    "emulation",
+    "game-boy",
+    "gba",
+    "accurate"
+  ],
+  "category": "Handheld Emulator",
+  "summary": "Best-in-class accurate GBA/Game Boy emulator with debugging tools",
+  "slug": "mgba-emu-mgba"
+}

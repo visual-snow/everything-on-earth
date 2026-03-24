@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/aliasrobotics/cai",
+  "name": "aliasrobotics/cai",
+  "description": "Cybersecurity AI (CAI) \u2014 a lightweight open-source framework enabling security professionals to build AI-powered offensive and defensive automation tools; de facto framework for AI Security used by thousands of practitioners.",
+  "sub_domain": "ai-security",
+  "score": 9,
+  "score_rationale": "Leading AI security framework with 7.5k stars, broad real-world adoption across bug bounty, robotics, and enterprise security use cases.",
+  "stars": 7500,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-01-12",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 85.0,
+  "tags": [
+    "ai-security",
+    "offensive-automation",
+    "defensive-automation",
+    "bug-bounty"
+  ],
+  "category": "AI Security Framework",
+  "summary": "Lightweight framework for building AI-powered offensive/defensive security tools",
+  "slug": "aliasrobotics-cai"
+}

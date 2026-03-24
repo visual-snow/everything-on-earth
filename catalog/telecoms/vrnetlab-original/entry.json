@@ -1,0 +1,72 @@
+{
+  "name": "vrnetlab (original)",
+  "repo_url": "https://github.com/vrnetlab/vrnetlab",
+  "description": "Run virtual routers in Docker containers using KVM. Packages commercial router disk images with KVM software into Docker images for network labbing, development, and testing. Originally developed for Deutsche Telekom's TeraStream project.",
+  "domain": "multi-vendor-nos",
+  "secondary_domains": [
+    "network-digital-twin",
+    "network-emulation",
+    "virtual-router"
+  ],
+  "protocols": [
+    "BGP",
+    "IS-IS",
+    "MPLS",
+    "NETCONF",
+    "OSPF",
+    "SNMP",
+    "SSH",
+    "SSH/CLI",
+    "YANG"
+  ],
+  "provides": [
+    "netconf-server",
+    "multi-vendor-nos",
+    "serial-console-access",
+    "containerized-kvm-router",
+    "config-mutation",
+    "ospf-routing",
+    "isis-routing",
+    "mpls-dataplane",
+    "yang-datastore",
+    "snmp-agent",
+    "virtual-router-container",
+    "bgp-routing",
+    "ssh-cli-access"
+  ],
+  "needs": [
+    "linux-kvm-support",
+    "privileged-docker-flag",
+    "vendor-disk-images",
+    "linux-host-os",
+    "kvm-enabled-kernel"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "vrnetlab creates Docker images for each type of router that will run in the virtual network, packaging the router's disk image together with KVM software, Python scripts, and any other resources required by the router into the Docker image."
+  },
+  "github_metrics": {
+    "stars": 1400,
+    "last_commit": "unknown",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Enables testing with real vendor NOS images (Cisco, Juniper, Arista, Nokia) in Docker. Ideal for realistic multi-vendor network digital twin scenarios. Containerlab uses a fork (srl-labs/vrnetlab) for integration. Requires Linux KVM support. Enables running commercial virtual routers (Arista vEOS, Cisco CSR1000v/XRv, Juniper vMX/vQFX, Nokia VSR) in Docker. Key integration component for containerlab. Useful for multi-vendor agentic evaluations. Requires --privileged Docker flag for KVM. The srl-labs/vrnetlab fork is the actively maintained version used by containerlab. Original vrnetlab/vrnetlab is the upstream. NICs exposed via TCP ports 10001-10099. vr-xcon container bridges router connections. Real vendor NOS images in Docker \u2014 the most realistic NETCONF eval targets. Agents interact with actual IOS-XR, JunOS, SR OS, etc. Requires vendor image files and KVM (--privileged). High fidelity but resource-heavy. Exposes SSH (22), SNMP (161), NETCONF (830), serial (5000). Users must build own Docker images due to vendor licensing. Requires KVM-enabled host with --privileged Docker flag.",
+  "related_repos": [
+    "https://github.com/carlmontanari/vrnetlab",
+    "https://github.com/srl-labs/containerlab",
+    "https://github.com/srl-labs/vrnetlab"
+  ],
+  "_sources": [
+    "discovery/digital-twin.json",
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/netconf-servers.json",
+    "discovery/netconf-mgmt/virtual-nos.json",
+    "discovery/transport.json"
+  ],
+  "slug": "vrnetlab-original"
+}

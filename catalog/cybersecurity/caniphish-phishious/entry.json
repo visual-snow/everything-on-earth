@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/caniphish/phishious",
+  "name": "CanIPhish/Phishious",
+  "description": "Open-source Secure Email Gateway (SEG) evaluation toolkit designed for red teamers to test how various email security solutions handle phishing material by exploiting email bounce response mechanisms.",
+  "sub_domain": "Phishing & Social Engineering",
+  "score": 6,
+  "score_rationale": "Useful niche tool for SEG evasion testing with 514 stars; unique capability for pre-campaign deliverability assessment in red team engagements.",
+  "stars": 514,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2023-04-15",
+  "found_in_domains": [
+    "Phishing & Social Engineering"
+  ],
+  "quality_score": 57.7,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "caniphish-phishious"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/recastnavigation/recastnavigation",
+  "name": "recastnavigation/recastnavigation",
+  "description": "Industry-standard navigation-mesh toolset for games, providing automatic navmesh generation (Recast) and runtime pathfinding (Detour). Powers navigation in Unity, Unreal Engine, Godot, and countless commercial games.",
+  "sub_domain": "pathfinding-navmesh",
+  "score": 10,
+  "score_rationale": "7.6k stars, Zlib license, the de facto industry standard navmesh library embedded in major game engines worldwide.",
+  "stars": 7600,
+  "language": "C++",
+  "license": "Zlib",
+  "last_activity": null,
+  "found_in_domains": [
+    "pathfinding-navmesh"
+  ],
+  "quality_score": 91.0,
+  "tags": [
+    "navmesh",
+    "pathfinding",
+    "ai-navigation"
+  ],
+  "category": "Pathfinding",
+  "summary": "Industry-standard navmesh generation and pathfinding for all major engines",
+  "slug": "recastnavigation-recastnavigation"
+}

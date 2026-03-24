@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/dependencytrack/dependency-track",
+  "name": "DependencyTrack/dependency-track",
+  "description": "Intelligent OWASP Component Analysis platform that tracks open source components in applications and identifies supply chain risk via SBOM ingestion. Supports CycloneDX and SPDX formats.",
+  "sub_domain": "Supply Chain Security",
+  "score": 9,
+  "score_rationale": "OWASP flagship project for continuous SBOM-based vulnerability tracking with 3.7k+ stars and active releases.",
+  "stars": 3681,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 82.5,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "dependencytrack-dependency-track"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/log2timeline/plaso",
+  "name": "log2timeline/plaso",
+  "description": "A Python-based super-timeline forensic engine that automatically generates comprehensive timelines from system logs, file metadata, and forensic artifacts. Extensible with custom parsers and widely used as the backend for Timesketch.",
+  "sub_domain": "forensics-ir",
+  "score": 8,
+  "score_rationale": "Essential forensic timeline generation engine with 2k stars and a January 2026 release, serving as the standard backend for super-timeline-based DFIR workflows.",
+  "stars": 2000,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-24",
+  "found_in_domains": [
+    "forensics-ir"
+  ],
+  "quality_score": 74.4,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "log2timeline-plaso"
+}

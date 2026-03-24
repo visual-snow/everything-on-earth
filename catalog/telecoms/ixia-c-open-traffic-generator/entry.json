@@ -1,0 +1,70 @@
+{
+  "name": "Ixia-c (Open Traffic Generator)",
+  "repo_url": "https://github.com/open-traffic-generator/ixia-c",
+  "description": "A modern, API-driven multi-container traffic generator implementing the Open Traffic Generator (OTG) standard for testing L2-7 network devices at any scale.",
+  "domain": "5g-user-plane",
+  "secondary_domains": [
+    "gtp-tunneling",
+    "network-testing",
+    "otg-standard",
+    "traffic-generator"
+  ],
+  "protocols": [
+    "Ethernet",
+    "VLAN",
+    "VXLAN",
+    "GTPv1",
+    "GTPv2",
+    "IPv4",
+    "IPv6",
+    "ICMP",
+    "ICMPv6",
+    "GRE",
+    "UDP",
+    "TCP"
+  ],
+  "provides": [
+    "l2-l7-traffic-engine",
+    "ipv4-ipv6-traffic",
+    "multi-container-orchestration",
+    "protocol-emulation",
+    "vxlan-traffic-generation",
+    "rest-api-control-plane",
+    "gtp-traffic-generation",
+    "scripted-test-scenarios",
+    "traffic-generation",
+    "otg-api-server",
+    "load-testing"
+  ],
+  "needs": [
+    "docker-compose",
+    "linux-kernel-5.4+",
+    "python-snappi-sdk",
+    "sufficient-cpu-cores"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "ghcr.io/open-traffic-generator/keng-controller",
+    "compose_services_count": 3,
+    "docker_evidence": "Multi-container architecture with controller, traffic-engine, and protocol-engine; all services available as docker images on the GitHub Open-Traffic-Generator repository"
+  },
+  "github_metrics": {
+    "stars": 254,
+    "last_commit": "2026-03-11",
+    "language": "Shell/Go",
+    "license": "MIT"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Vendor-neutral API-driven traffic generator with GTP support, making it excellent for 5G user plane testing. The OTG standard allows scripted test scenarios via snappi (Python) or gosnappi (Go) SDKs - ideal for agentic evaluation frameworks.",
+  "related_repos": [
+    "https://github.com/open-traffic-generator/snappi",
+    "https://github.com/open-traffic-generator/models",
+    "https://github.com/open-traffic-generator/otg-examples",
+    "https://github.com/open-traffic-generator/conformance"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "ixia-c-open-traffic-generator"
+}

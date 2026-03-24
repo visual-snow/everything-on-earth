@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cisofy/lynis",
+  "name": "CISOfy/lynis",
+  "description": "Security auditing tool for Linux, macOS, and UNIX-based systems that assists with compliance testing against HIPAA, ISO 27001, and PCI DSS standards and provides system hardening recommendations. Agentless with optional installation.",
+  "sub_domain": "compliance-policy",
+  "score": 9,
+  "score_rationale": "Industry-standard Unix security auditing tool with 15.4k stars, actively maintained through October 2025, and widely used for compliance validation across major security standards.",
+  "stars": 15400,
+  "language": "Shell",
+  "license": "GPL-3.0",
+  "last_activity": "2025-10-23",
+  "found_in_domains": [
+    "compliance-policy",
+    "vuln-scanners"
+  ],
+  "quality_score": 87.5,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Security auditing tool for Linux, macOS, and UNIX-based systems that assists with compliance testing",
+  "slug": "cisofy-lynis"
+}

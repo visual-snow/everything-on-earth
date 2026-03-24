@@ -1,0 +1,52 @@
+{
+  "name": "UnifyAir Core",
+  "repo_url": "https://github.com/unifyair/unifyair-core",
+  "description": "High-performance 5G Core Network Functions implementation in Rust based on 3GPP Release 17. Async-first architecture built on Tokio with AMF (Omnipath), UPF (DataWarp), and SMF (InfiniSync).",
+  "domain": "5g-core",
+  "secondary_domains": [
+    "network-functions",
+    "rust-telecom"
+  ],
+  "protocols": [
+    "NAS",
+    "NGAP",
+    "PFCP",
+    "GTP-U",
+    "SBI"
+  ],
+  "provides": [
+    "5g-core-amf",
+    "nas-protocol-handling",
+    "ngap-protocol-handling",
+    "sbi-rest-interface",
+    "rust-async-runtime",
+    "docker-container-build"
+  ],
+  "needs": [
+    "sctp-support",
+    "linux-kernel-5.4+",
+    "docker-buildx",
+    "gtp-u-kernel-module",
+    "5g-ran-simulator"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "docker-bake.hcl and .dockerignore files present in repository structure"
+  },
+  "github_metrics": {
+    "stars": 131,
+    "last_commit": "unknown",
+    "language": "Rust",
+    "license": "AGPL-3.0"
+  },
+  "eval_potential_score": 4,
+  "eval_notes": "Only Rust-based 5G core. Early development (AMF implemented, UPF/SMF planned). Interesting for performance benchmarking against C/Go alternatives. AI capabilities planned.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/5g-core.json"
+  ],
+  "slug": "unifyair-core"
+}

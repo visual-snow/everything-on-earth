@@ -1,0 +1,66 @@
+{
+  "name": "ONOS (Open Network Operating System)",
+  "repo_url": "https://github.com/opennetworkinglab/onos",
+  "description": "The only SDN controller platform that supports the transition from legacy 'brown field' networks to SDN 'green field' networks. Supports OpenFlow, P4Runtime, gNMI, and NETCONF southbound protocols with high availability clustering.",
+  "domain": "network-programmability",
+  "secondary_domains": [
+    "sdn",
+    "sdn-control-plane",
+    "sdn-orchestration"
+  ],
+  "protocols": [
+    "OpenFlow",
+    "P4Runtime",
+    "gNMI",
+    "NETCONF",
+    "RESTCONF",
+    "OVSDB"
+  ],
+  "provides": [
+    "high-availability-clustering",
+    "netconf-client",
+    "openflow-controller",
+    "network-intent-abstraction",
+    "web-dashboard",
+    "config-mutation",
+    "sdn-controller",
+    "p4runtime-controller",
+    "ovsdb-client",
+    "restconf-client",
+    "gnmi-client",
+    "flow-rule-programming",
+    "rest-api",
+    "topology-discovery",
+    "network-virtualization"
+  ],
+  "needs": [
+    "java-11+",
+    "mininet-or-openflow-switch",
+    "karaf-runtime",
+    "p4-capable-dataplane"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "onosproject/onos",
+    "compose_services_count": 2,
+    "docker_evidence": "The ONOS docker image is built and published on docker hub as an automated build. Ports 8181 (GUI), 6633/6653 (OpenFlow), 8101 (CLI), 9876 (intra-cluster)."
+  },
+  "github_metrics": {
+    "stars": 1300,
+    "last_commit": "2024-06-18",
+    "language": "Java",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Production-grade SDN controller with REST APIs, web UI, and clustering support. Good for testing SDN control plane scenarios, flow programming, and network intent abstractions. Multiple docker-compose examples available for lab setups with Mininet.",
+  "related_repos": [
+    "https://github.com/alepacox/onos-mininet_docker-compose",
+    "https://github.com/nat0321/sdn-cluster",
+    "https://github.com/stratum/stratum"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "onos-open-network-operating-system"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "drachtio-server",
+  "name": "drachtio-server",
+  "what_it_is": "A high-performance SIP server built on the sofia SIP stack that can be controlled by Node.js client applications using the drachtio-srf module. It acts as a programmable SIP engine accepting or making TCP/TLS management connections from application code on a dedicated admin port.",
+  "components": [
+    "drachtio executable (SIP engine built on sofia-sip)",
+    "sofia-sip stack (bundled as git submodule)",
+    "Admin TCP/TLS listener (default port 9022) for Node.js app connections",
+    "SIP listener (default port 5060, UDP+TCP; optional TLS/WSS)",
+    "Prometheus metrics endpoint (optional, configurable port)",
+    "Homer/HEP SIP capture integration (optional)"
+  ],
+  "protocols": [
+    "SIP (RFC 3261) over UDP",
+    "SIP over TCP",
+    "SIP over TLS (SIPS)",
+    "SIP over WebSocket (WS)",
+    "SIP over Secure WebSocket (WSS)",
+    "HEP3 (Homer Encapsulation Protocol for SIP capture)",
+    "HTTP GET (outbound request-handler routing to external HTTP service)",
+    "Prometheus HTTP scrape endpoint"
+  ],
+  "measurement": [
+    "drachtio_sip_requests_in_total — counter of inbound SIP requests",
+    "drachtio_sip_requests_out_total — counter of outbound SIP requests",
+    "drachtio_sip_responses_in_total — counter of inbound SIP responses",
+    "drachtio_sip_responses_out_total — counter of outbound SIP responses",
+    "drachtio_stable_dialogs — gauge of active SIP dialogs",
+    "drachtio_proxy_cores — gauge of proxied call setups in progress",
+    "drachtio_registered_endpoints — gauge of registered SIP endpoints",
+    "drachtio_app_connections — gauge of connected drachtio Node.js applications",
+    "drachtio_call_answer_seconds_in/out — histogram of call answer time",
+    "drachtio_call_pdd_seconds_in/out — histogram of post-dial delay",
+    "sofia_dialogs_total, sofia_server/client_txns_total, sofia_msgs_recv/sent_total, sofia_bad_msgs/reqs_recv_total, sofia_retransmitted_requests/responses_total — sofia stack internals",
+    "drachtio_build_info, drachtio_time_started — version and uptime gauges"
+  ],
+  "configuration": [
+    "Config file (XML): /etc/drachtio.conf.xml or specified with -f flag; precedence: CLI args > env vars > config file",
+    "Admin port: <admin port=\"9022\" tls-port=\"9023\" secret=\"cymru\">addr</admin> or DRACHTIO_ADMIN_TCP_PORT / DRACHTIO_ADMIN_TLS_PORT",
+    "SIP contacts: <contact>sip:*:5060;transport=udp,tcp</contact> — supports multiple simultaneous addresses/ports/transports",
+    "External IP: --external-ip or per-contact ext-ip attribute for NAT/masquerade scenarios",
+    "Logging: loglevel (notice/warning/error/info/debug) and sofia-loglevel (0-9) via config, CLI, or DRACHTIO_LOGLEVEL / DRACHTIO_SOFIA_LOGLEVEL",
+    "TLS: key-file, cert-file, chain-file, dh-param elements under <sip><tls>",
+    "Outbound proxy: <outbound-proxy>sip:...</outbound-proxy>",
+    "Request handlers (outbound mode): <request-handler sip-method=\"INVITE\" http-method=\"GET\">http://...</request-handler>",
+    "Spammer rejection: <spammers action=\"reject\" tcp-action=\"discard\"> with User-Agent header value matching",
+    "SIP timers: T1/T2/T4/T1x64 overridable globally",
+    "MTU size: <mtu-size> to force TCP for large UDP packets",
+    "CDRs: <cdrs>true</cdrs>",
+    "Cloud deployment env vars: CLOUD=(gcp|aws|azure|digitalocean|scaleway|exoscale), DRACHTIO_SIP_PORT, WSS_PORT, TLS_PORT, IMDSv2, LB_IMDS"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism documented",
+    "Spammer/scanner rejection via User-Agent header matching with reject or silent-discard actions",
+    "Fail2ban integration available via external ansible role parsing drachtio log files"
+  ],
+  "modes": [
+    "Inbound mode (default): Node.js apps connect to drachtio admin port; suitable for single-application or primary-function servers",
+    "Outbound mode: drachtio makes HTTP GET to an external routing service per incoming request, which returns reject/redirect/proxy/route action; suitable for multi-application servers",
+    "Daemon mode: --daemon flag for background process operation",
+    "Container mode: console logging default, cloud metadata auto-detection via entrypoint.sh",
+    "Cloud-aware mode: --cloud-deployment flag resolves local/public IPs from cloud metadata APIs (GCP, AWS IMDSv1/v2, Azure, DigitalOcean, Scaleway, Exoscale)"
+  ],
+  "constraints": [
+    "Admin port currently supports TCP and TLS only — no plain UDP management connections",
+    "SIP contacts cannot be specified via environment variables (only config file or CLI args)",
+    "Outbound request-handler mode currently supports HTTP GET only, not POST",
+    "Version 0.9.0+ wire protocol is incompatible with drachtio-srf < 5.0.0",
+    "Single executable model: no built-in clustering; horizontal scale requires external orchestration",
+    "No native media handling — drachtio is signaling-only; RTP/media requires a separate media server (e.g., FreeSWITCH, rtpengine)"
+  ],
+  "docker_services": [
+    "drachtio/drachtio-server — single-service image based on debian:bookworm-slim; exposes admin port 9022 and SIP port 5060; configured via /etc/drachtio.conf.xml or CLI args passed to entrypoint"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in the repository — the image is designed to be integrated into larger stacks (e.g., with FreeSWITCH, rtpengine) by consumers",
+    "No built-in media handling or RTP engine",
+    "No built-in registration database — registration state management is delegated to the Node.js application layer",
+    "No built-in load balancing or clustering",
+    "No REST API — all programmatic control is through the proprietary drachtio wire protocol over the admin TCP/TLS port"
+  ]
+}

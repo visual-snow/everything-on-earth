@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pixijs/pixijs",
+  "name": "pixijs/pixijs",
+  "description": "The HTML5 Creation Engine: the fastest, most flexible 2D WebGL renderer for the web, used extensively as a rendering foundation for web games. Supports WebGL and Canvas with a rich plugin ecosystem.",
+  "sub_domain": "web-game-engines",
+  "score": 10,
+  "score_rationale": "46.8k stars, industry-standard 2D WebGL renderer powering thousands of web games and interactive experiences, actively maintained with March 2026 release.",
+  "stars": 46800,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "web-game-engines"
+  ],
+  "quality_score": 97.4,
+  "tags": [
+    "webgl",
+    "2d-rendering",
+    "typescript",
+    "html5",
+    "web-games"
+  ],
+  "category": "Web Graphics Renderer",
+  "summary": "Industry-standard 2D WebGL renderer powering thousands of web games",
+  "slug": "pixijs-pixijs"
+}

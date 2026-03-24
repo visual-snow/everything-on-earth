@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sbilly/awesome-security",
+  "name": "sbilly/awesome-security",
+  "description": "A collection of awesome software, libraries, documents, books, and resources covering network security, endpoint protection, threat intelligence, web security, and forensics across the full security spectrum.",
+  "sub_domain": "awesome-lists",
+  "score": 8,
+  "score_rationale": "Broad-scope security resource index with 14.1k stars, serving as a comprehensive cross-domain starting point for security practitioners.",
+  "stars": 14100,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "awesome-lists"
+  ],
+  "quality_score": 81.2,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A collection of awesome software, libraries, documents, books, and resources covering network securi",
+  "slug": "sbilly-awesome-security"
+}

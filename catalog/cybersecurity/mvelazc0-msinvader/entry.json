@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/mvelazc0/msinvader",
+  "name": "mvelazc0/msInvader",
+  "description": "M365 and Azure adversary simulation tool that generates realistic attack telemetry targeting cloud identity and productivity services to help blue teams improve detection capabilities. Purpose-built for cloud red team engagements against Microsoft environments.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 7,
+  "score_rationale": "322 stars, last updated December 2024, and fills a unique niche for M365/Azure-specific adversary simulation.",
+  "stars": 322,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-12-21",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 62.1,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "m365 and azure adversary simulation tool that generates realistic attack telemetry targeting cloud i...",
+  "slug": "mvelazc0-msinvader"
+}

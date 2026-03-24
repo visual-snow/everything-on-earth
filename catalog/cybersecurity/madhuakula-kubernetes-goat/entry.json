@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/madhuakula/kubernetes-goat",
+  "name": "madhuakula/kubernetes-goat",
+  "description": "Intentionally vulnerable Kubernetes cluster environment designed for learning and practicing Kubernetes security through 20+ interactive hands-on attack-and-defense scenarios.",
+  "sub_domain": "container-cloud-security",
+  "score": 8,
+  "score_rationale": "5.5k stars with active development into 2025, the leading training environment for Kubernetes security education and red team practice.",
+  "stars": 5500,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2025-11-18",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 77.9,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "madhuakula-kubernetes-goat"
+}

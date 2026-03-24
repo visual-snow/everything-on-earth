@@ -1,0 +1,91 @@
+{
+  "slug": "frrouting-frr",
+  "name": "FRRouting (FRR)",
+  "what_it_is": "FRR is free software that implements and manages IPv4/IPv6 routing protocols on Linux and BSD systems. It runs as a suite of individual protocol daemons coordinated by a central routing engine (zebra) and exposes a CLI (vtysh), REST/YANG interfaces for configuration.",
+  "components": [
+    "zebra (core routing engine and kernel interface)",
+    "bgpd (BGP daemon)",
+    "ospfd (OSPFv2 daemon)",
+    "ospf6d (OSPFv3 daemon)",
+    "ripd (RIPv1/RIPv2 daemon)",
+    "ripngd (RIPng daemon)",
+    "isisd (IS-IS daemon)",
+    "pimd (PIM-SM/MSDP daemon)",
+    "ldpd (LDP daemon)",
+    "bfdd (BFD daemon)",
+    "babeld (Babel daemon)",
+    "vrrpd (VRRP daemon)",
+    "pbrd (Policy-Based Routing daemon)",
+    "pathd (SR-TE path daemon)",
+    "staticd (static routes daemon)",
+    "eigrpd (EIGRP daemon, alpha)",
+    "nhrpd (NHRP daemon, alpha)",
+    "vtysh (unified CLI shell)"
+  ],
+  "protocols": [
+    "BGP (IPv4 and IPv6)",
+    "OSPFv2",
+    "OSPFv3",
+    "RIPv1",
+    "RIPv2",
+    "RIPng",
+    "IS-IS",
+    "PIM-SM",
+    "MSDP",
+    "LDP",
+    "BFD",
+    "Babel",
+    "VRRP",
+    "EIGRP (alpha)",
+    "NHRP (alpha)",
+    "OpenFabric",
+    "PBR (Policy-Based Routing)"
+  ],
+  "measurement": [
+    "BGP neighbor state and prefix counts (via show bgp summary)",
+    "OSPF adjacency state and LSA database",
+    "IS-IS adjacency and LSDB state",
+    "BFD session state and packet counters",
+    "PIM neighbor and multicast route table",
+    "Route table entries per VRF (via show ip route)",
+    "Interface statistics exposed via zebra",
+    "YANG-modeled operational state queryable via RESTCONF/NETCONF"
+  ],
+  "configuration": [
+    "Per-daemon configuration files (bgpd.conf, ospfd.conf, etc.)",
+    "Unified vtysh CLI with running-config and startup-config",
+    "YANG data models via northbound API (sysrepo/netopeer2 backends)",
+    "RESTCONF API for configuration mutation",
+    "NETCONF server (via netopeer2 integration)",
+    "Route maps and prefix lists for policy",
+    "VRF (Virtual Routing and Forwarding) instances",
+    "MPLS/LDP label distribution configuration",
+    "SR-TE path configuration via pathd",
+    "BFD session parameters (timers, multipliers)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Standalone daemon mode (each protocol runs as separate process)",
+    "Integrated vtysh CLI mode (single shell across all daemons)",
+    "Containerized mode (frrouting/frr Docker image)",
+    "Containerlab node mode (used as a network topology node)"
+  ],
+  "constraints": [
+    "Requires Linux kernel 5.4+ (or compatible BSD) for full feature support including MPLS and VRF",
+    "EIGRP and NHRP are marked alpha status and not production-ready",
+    "NETCONF/YANG northbound requires external sysrepo and netopeer2 services — not bundled",
+    "Does not implement a data-plane forwarder — relies on Linux kernel or external DPDK/P4 data planes",
+    "No built-in traffic generation or packet capture capability",
+    "Containerlab topology file required for multi-node lab orchestration — FRR alone cannot define topology"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No built-in data plane (relies entirely on Linux kernel forwarding)",
+    "No traffic generator or packet injector",
+    "No GUI or web dashboard (only CLI and RESTCONF/NETCONF APIs)",
+    "No built-in fault injection or impairment features",
+    "No MPLS data-plane hardware offload (software forwarding only)",
+    "No docker-compose file in the repository (single-container image only)",
+    "NETCONF support requires external netopeer2 server, not included in the FRR image"
+  ]
+}

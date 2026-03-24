@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/antimicrox/antimicrox",
+  "name": "AntiMicroX/antimicrox",
+  "description": "Graphical program to map gamepad/joystick buttons to keyboard, mouse, scripts, and macros on Linux and Windows. Enables controller use in games and apps that lack native gamepad support.",
+  "sub_domain": "input-controllers",
+  "score": 8,
+  "score_rationale": "Widely used gamepad-to-keyboard mapper with 3.6k stars, actively maintained through January 2025, GPL-3.0, and the standard tool for playing keyboard-only games with a controller.",
+  "stars": 3600,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-27",
+  "found_in_domains": [
+    "input-controllers"
+  ],
+  "quality_score": 76.5,
+  "tags": [
+    "gamepad-mapping",
+    "input",
+    "cross-platform"
+  ],
+  "category": "Input Mapper",
+  "summary": "Gamepad-to-keyboard mapper for Windows and Linux",
+  "slug": "antimicrox-antimicrox"
+}

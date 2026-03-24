@@ -1,0 +1,82 @@
+{
+  "slug": "gradiant-5g-charts",
+  "name": "Gradiant 5G Charts",
+  "what_it_is": "A collection of Helm charts for deploying 5G network functions and simulators on Kubernetes, maintained by Gradiant for its Lab5G platform. It packages Open5GS, Free5GC, UERANSIM, srsRAN 5G, PacketRusher, and OAI gNB as individually-tunable charts consumable from DockerHub OCI registry.",
+  "components": [
+    "open5gs (5G SA core: AMF, AUSF, BSF, NRF, NSSF, PCF, SCP, SEPP, SMF, UDM, UDR, UPF, WebUI)",
+    "open5gs EPC components (HSS, MME, PCRF, SGWC, SGWU) for 4G/LTE",
+    "free5gc (5G SA core: AMF, AUSF, CHF, NRF, NSSF, PCF, SMF, UDM, UDR, UPF, WebUI)",
+    "ueransim-gnb (UERANSIM v3.2.6 gNodeB simulator)",
+    "ueransim-ues (UERANSIM UE simulator, scalable replica count)",
+    "srsran-5g (srsRAN Project gNB, app v23.10.1, real RF via UHD/USRP)",
+    "srsran-5g-zmq (srsRAN Project gNB with ZMQ virtual RF transport)",
+    "srsran-4g / srsran-4g-zmq (srsRAN eNodeB + UE for LTE, app v22.04.1)",
+    "srs-ue (srsRAN UE standalone chart)",
+    "packetrusher (HPE PacketRusher multi-UE 5G load tester, commit 2b26573)",
+    "oai-gnb (OpenAirInterface gNB, app v2021.w32)",
+    "oai-enb (OpenAirInterface eNodeB)",
+    "iperf3 (traffic generation sidecar)",
+    "open5gs-dbctl (subscriber provisioning init container, v0.10.3)",
+    "MongoDB (bitnami/mongodb ~18.0.5, shared datastore for Open5GS and Free5GC)"
+  ],
+  "protocols": [
+    "5G NR (SA mode)",
+    "GTP-U (port 2152, N3 user-plane tunneling)",
+    "LTE / 4G (via srsRAN 4G and Open5GS EPC charts)",
+    "NAS (Non-Access Stratum, UE registration and session management)",
+    "NGAP (N2 control plane, AMF–gNB, port 9487 for PacketRusher)",
+    "PFCP (N4 SMF–UPF session management)",
+    "S1AP (LTE control plane, MME–eNB)",
+    "SBI (HTTP/2-based 5G Service-Based Interface between NFs)",
+    "ZMQ (virtual RF transport for software-only RAN simulation)"
+  ],
+  "measurement": [
+    "PacketRusher exposes optional Prometheus metrics endpoint (metrics.enabled toggle + ServiceMonitor and VictoriaMetrics ServiceScrape CRD support)",
+    "srsran-5g ships a sidecar monitor image (image.monitor) for metrics scraping",
+    "Kubernetes liveness and readiness probes on srsran-5g (livenessProbe, readinessProbe) provide health signals",
+    "Open5GS WebUI (port 9999) provides subscriber and session visibility",
+    "Free5GC WebUI provides equivalent subscriber management UI"
+  ],
+  "configuration": [
+    "MCC/MNC defaults to 999/70 across all charts; overridable per chart via Helm values",
+    "TAC defaults to 0x0001; slice SST defaults to 1 with SD 0x111111",
+    "AMF hostname wired via amf.hostname (e.g. open5gs-amf-ngap) for RAN-to-core connectivity",
+    "srsran-5g RF: device_driver (uhd or zmq), device_args, srate (23.04 MHz), dl_arfcn, band, channel_bandwidth_MHz, common_scs (30 kHz), tx_gain, rx_gain",
+    "srsran-5g-zmq uses ZMQ TCP sockets (tx_port tcp://127.0.0.1:2000, rx_port tcp://127.0.0.1:2001)",
+    "Open5GS subscriber provisioning via populate.initCommands using open5gs-dbctl (add, add_ue_with_apn, add_ue_with_slice subcommands)",
+    "UERANSIM UE auth credentials: key (Ki), op/opc, opType (OPC/OP), initialMSISDN; UE count controlled by ues.count",
+    "PacketRusher UE identity: msin, key, opc, dnn; gNB identity: gnbid, mcc, mnc, tac, sst, sd",
+    "OAI gNB supports Ettus USRP hardware via resources.limits.ettus.com/usrp Kubernetes device plugin",
+    "MongoDB auth disabled by default (mongodb.auth.enabled: false); shared URI via dbURI template"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanisms are provided by the charts",
+    "Privileged containers with NET_ADMIN capability (srsran-5g, packetrusher) allow manual tc/iptables-based network impairment inside pods"
+  ],
+  "modes": [
+    "5G SA (Standalone) core + RAN: Open5GS or Free5GC + UERANSIM gNB/UE or srsran-5g or PacketRusher",
+    "4G/LTE EPC mode: Open5GS EPC (HSS, MME, PCRF, SGWC, SGWU) + srsran-4g or oai-enb",
+    "Software-only simulation (ZMQ): srsran-5g-zmq gNB paired with srsran UE over virtual RF sockets, no hardware required",
+    "Real RF hardware mode: srsran-5g with USRP B200 (UHD driver), oai-gnb with Ettus USRP device plugin",
+    "Multi-UE load testing: PacketRusher multi-UE mode (args: [\"multi-ue\"]) or UERANSIM with ues.count > 1"
+  ],
+  "constraints": [
+    "Kubernetes-only deployment: all charts require a running Kubernetes cluster; no Docker Compose is provided",
+    "Linting and install testing require Docker and kubernetes-in-docker (kind); not runnable on bare metal without a K8s cluster",
+    "srsran-5g and packetrusher require privileged pod security context and NET_ADMIN capability; clusters with restricted PSP/PSA will block deployment",
+    "OAI gNB requires the Ettus USRP Kubernetes device plugin for hardware RF; unavailable in software-only environments",
+    "Open5GS and Free5GC depend on MongoDB (bitnami/mongodb ~18.0.5); MongoDB auth is disabled by default, unsuitable for production",
+    "Charts are published as OCI artifacts on DockerHub (registry-1.docker.io/gradiant); Helm OCI support (helm 3.8+) is required",
+    "No built-in inter-chart service mesh or encryption between NFs; SBI communication is plain HTTP/2",
+    "srsran-5g startup probe has a 600-second initial delay, making automated readiness checks slow in CI pipelines"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No Docker Compose files; the project is Helm/Kubernetes-only",
+    "No 5G core for standalone Free5GC UPF testing (UPF chart exists but no free5gc-upf standalone RAN pairing tutorial)",
+    "No built-in observability stack (Prometheus, Grafana) — metrics scraping requires separately deploying kube-prometheus-stack",
+    "No packet capture or PCAP tooling included in charts",
+    "No roaming or inter-PLMN simulation support (SEPP chart exists in Open5GS but no tutorial covers it)",
+    "srsran-5g README is absent from the repo (Chart.yaml and values.yaml exist but README.md is missing)"
+  ]
+}

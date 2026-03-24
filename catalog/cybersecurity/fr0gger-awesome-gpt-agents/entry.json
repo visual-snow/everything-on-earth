@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/fr0gger/awesome-gpt-agents",
+  "name": "fr0gger/Awesome-GPT-Agents",
+  "description": "A curated list of GPT agents for cybersecurity covering threat hunting, malware analysis, vulnerability assessment, and red teaming use cases.",
+  "sub_domain": "ai-security",
+  "score": 8,
+  "score_rationale": "Highly referenced community resource with 6.5k stars cataloging production-grade AI agents for diverse cybersecurity tasks.",
+  "stars": 6500,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 78.5,
+  "tags": [
+    "threat-hunting",
+    "malware-analysis",
+    "vulnerability-assessment",
+    "agent-catalog"
+  ],
+  "category": "AI Security Agent Catalog",
+  "summary": "Curated list of GPT agents for threat hunting, malware analysis, red teaming",
+  "slug": "fr0gger-awesome-gpt-agents"
+}

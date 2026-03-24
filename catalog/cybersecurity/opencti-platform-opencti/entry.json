@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opencti-platform/opencti",
+  "name": "OpenCTI-Platform/opencti",
+  "description": "OpenCTI is an open-source platform enabling organizations to manage cyber threat intelligence knowledge and observables using STIX2 standards. It provides a modern web application with GraphQL API for structuring, storing, and visualizing technical and non-technical threat information.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 9,
+  "score_rationale": "Leading open-source CTI platform with 9.1k stars, actively maintained with enterprise adoption and regular releases.",
+  "stars": 9100,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 85.7,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "OpenCTI is an open-source platform enabling organizations to manage cyber threat intelligence knowle",
+  "slug": "opencti-platform-opencti"
+}

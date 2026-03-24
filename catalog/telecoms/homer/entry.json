@@ -1,0 +1,63 @@
+{
+  "name": "HOMER",
+  "repo_url": "https://github.com/sipcapture/homer",
+  "description": "Carrier-grade, scalable Packet and Event Observability framework for VoIP/RTC monitoring. Captures and correlates SIP, RTP, RTCP with instant search capabilities based on HEP/EEP protocol.",
+  "domain": "hep-protocol",
+  "secondary_domains": [
+    "rtc-troubleshooting",
+    "sip-monitoring",
+    "voip-observability"
+  ],
+  "protocols": [
+    "EEP",
+    "HEP",
+    "RTCP",
+    "RTP",
+    "SIP"
+  ],
+  "provides": [
+    "rtp-rtcp-analysis",
+    "hep-capture",
+    "carrier-grade-monitoring",
+    "sip-monitoring",
+    "web-dashboard",
+    "voip-observability",
+    "sip-search",
+    "packet-capture",
+    "call-flow-analysis",
+    "event-correlation",
+    "protocol-analysis"
+  ],
+  "needs": [
+    "postgresql",
+    "loki-or-elasticsearch",
+    "docker-compose",
+    "hepagent-or-captagent",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Docker submodule homer-docker included. Dedicated repos: sipcapture/homer7-docker and sipcapture/homer-docker (HOMER 10). Docker-compose bundles bootstrap full deployment with HEPv3 on port 9060/UDP."
+  },
+  "github_metrics": {
+    "stars": 1900,
+    "last_commit": "unknown",
+    "language": "Shell",
+    "license": "AGPL-3.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Leading SIP monitoring platform. Docker deployment via submodule. Good for VoIP troubleshooting and SIP analysis evals. Industry-standard SIP monitoring with 1.9k stars. HEP protocol capture provides deep visibility into call flows. Essential for observability in any SIP-based evaluation environment.",
+  "related_repos": [
+    "https://github.com/sipcapture/homer-docker",
+    "https://github.com/sipcapture/homer7-docker",
+    "https://github.com/sipcapture/sipgrep"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/signaling.json"
+  ],
+  "slug": "homer"
+}

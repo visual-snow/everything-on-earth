@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bixilon/minosoft",
+  "name": "Bixilon/Minosoft",
+  "description": "An open-source Minecraft reimplementation written from scratch in Kotlin with custom rendering and full protocol reimplementation for exploration and research purposes.",
+  "sub_domain": "voxel-engines",
+  "score": 5,
+  "score_rationale": "1.2k stars, impressive from-scratch Minecraft reimplementation in Kotlin but niche and primarily for research/exploration rather than a standalone game engine.",
+  "stars": 1200,
+  "language": "Kotlin",
+  "license": "GPL-3.0",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "voxel-engines"
+  ],
+  "quality_score": 54.6,
+  "tags": [
+    "minecraft",
+    "kotlin",
+    "reimplementation",
+    "protocol",
+    "voxel"
+  ],
+  "category": "Minecraft Reimplementation",
+  "summary": "Kotlin Minecraft reimplementation with custom rendering and protocol",
+  "slug": "bixilon-minosoft"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/longld/peda",
+  "name": "longld/peda",
+  "description": "Python Exploit Development Assistance for GDB \u2014 adds colorized disassembly, register display, pattern generation for offset finding, and ROP gadget search to GDB.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 6,
+  "score_rationale": "Pioneer GDB extension for exploit development with 6.1k stars but frozen since 2021; still referenced heavily in exploit development tutorials.",
+  "stars": 6100,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2021-03-19",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 66.3,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "longld-peda"
+}

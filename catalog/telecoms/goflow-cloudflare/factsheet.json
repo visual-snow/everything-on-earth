@@ -1,0 +1,52 @@
+{
+  "slug": "goflow-cloudflare",
+  "name": "GoFlow (Cloudflare)",
+  "what_it_is": "GoFlow is a network flow collector written in Go that receives NetFlow v5, NetFlow v9, IPFIX, and sFlow v5 traffic, decodes it into protobuf messages, and publishes to Apache Kafka. It is the original Cloudflare implementation, now unmaintained in favor of the goflow2 fork.",
+  "components": [
+    "Decoder — converts raw flow packet payloads into Go structs",
+    "Producer — protocol-specific transforms from decoded structs to protobuf messages",
+    "Transport — Kafka publisher (via Sarama) or console/stdout output",
+    "Monitoring — Prometheus metrics endpoint for decode time, sample rates, payload info, and NetFlow templates"
+  ],
+  "protocols": [
+    "NetFlow v5",
+    "NetFlow v9",
+    "IPFIX (with Option Data Sets for sampling rate and template management)",
+    "sFlow v5 (RAW, IPv4, IPv6, Ethernet, Gateway, router, and switch samples)"
+  ],
+  "measurement": [
+    "Prometheus metrics: decode time, sample rates, payload counters, NetFlow template tracking",
+    "40+ protobuf fields per flow record: src/dst IP, ports, AS numbers, VLAN IDs, TCP flags, ICMP type/code, MPLS labels, byte/packet counts"
+  ],
+  "configuration": [
+    "-nf=false / -sflow=false to disable individual protocol listeners",
+    "-nf.addr / -nf.port for NetFlow/IPFIX bind address and port",
+    "-sflow.addr / -sflow.port for sFlow bind address and port",
+    "-kafka.brokers for comma-separated Kafka broker list",
+    "-kafka.srv for DNS SRV-based Kafka broker discovery",
+    "-kafka=false to disable Kafka and fall back to console output",
+    "-workers to set number of worker goroutines"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Kafka mode (default): decode flows and publish protobuf to Kafka topics",
+    "Console mode (-kafka=false): decode flows and print to stdout",
+    "Debug mode: Docker image supports debug flag for verbose logging"
+  ],
+  "constraints": [
+    "Project is unmaintained; upstream recommends migrating to the goflow2 fork",
+    "No built-in flow storage or querying — requires external Kafka consumers for persistence",
+    "Template management for NetFlow v9/IPFIX is stateful; restarting the collector loses learned templates until re-advertised by exporters",
+    "No TLS support for Kafka connections documented in the original repo"
+  ],
+  "docker_services": [
+    "cloudflare/goflow:latest — main collector container (no docker-compose.yaml found in repository)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yaml in the repository (404 on both master and main branches)",
+    "No fault injection or traffic simulation tooling",
+    "No built-in replay or pcap ingestion capability",
+    "No authentication/TLS for Kafka transport",
+    "No flow export back to network devices (receive-only)"
+  ]
+}

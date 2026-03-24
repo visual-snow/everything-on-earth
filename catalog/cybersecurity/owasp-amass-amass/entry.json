@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/owasp-amass/amass",
+  "name": "owasp-amass/amass",
+  "description": "OWASP flagship project performing in-depth attack surface mapping and asset discovery using open source information gathering and active reconnaissance techniques. Specializes in DNS enumeration and network mapping.",
+  "sub_domain": "osint-recon",
+  "score": 10,
+  "score_rationale": "OWASP Flagship tool with 14.3k stars, actively maintained into 2025, widely used standard for attack surface discovery and subdomain enumeration.",
+  "stars": 14300,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2025-09-04",
+  "found_in_domains": [
+    "Bug Bounty Tools",
+    "network-security",
+    "osint-recon"
+  ],
+  "quality_score": 93.2,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "OWASP flagship project performing in-depth attack surface mapping and asset discovery using open sou",
+  "slug": "owasp-amass-amass"
+}

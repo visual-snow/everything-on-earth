@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jarikomppa/soloud",
+  "name": "jarikomppa/soloud",
+  "description": "Free, easy, portable C/C++ audio engine for games featuring virtual voices, 3D audio, real-time DSP effects, speech synthesis, SID emulation, and bindings for Python, C#, Ruby, GameMaker, and more.",
+  "sub_domain": "game-audio",
+  "score": 8,
+  "score_rationale": "Popular and feature-rich portable audio engine for games with 2.1k stars, Zlib licensed, widely referenced as the best pure-OSS audio engine for indie game developers.",
+  "stars": 2100,
+  "language": "C",
+  "license": "Zlib",
+  "last_activity": "2023-06-01",
+  "found_in_domains": [
+    "game-audio"
+  ],
+  "quality_score": 74.6,
+  "tags": [
+    "audio",
+    "game-audio",
+    "dsp",
+    "indie"
+  ],
+  "category": "Audio Engine",
+  "summary": "Feature-rich portable audio engine with DSP effects and synthesis",
+  "slug": "jarikomppa-soloud"
+}

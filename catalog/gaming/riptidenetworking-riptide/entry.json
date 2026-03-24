@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/riptidenetworking/riptide",
+  "name": "RiptideNetworking/Riptide",
+  "description": "Lightweight C# networking solution for multiplayer games working in Unity and other .NET environments, with built-in UDP and TCP transports and Steam support.",
+  "sub_domain": "game-networking",
+  "score": 6,
+  "score_rationale": "Lightweight C# networking library with 1.3k stars, actively maintained (2025) and popular for small-to-medium multiplayer games.",
+  "stars": 1300,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-07-14",
+  "found_in_domains": [
+    "game-networking"
+  ],
+  "quality_score": 60.9,
+  "tags": [
+    "lightweight",
+    "udp-tcp",
+    "steam",
+    "dotnet",
+    "indie"
+  ],
+  "category": ".NET Multiplayer Library",
+  "summary": "Lightweight .NET networking for indie multiplayer games",
+  "slug": "riptidenetworking-riptide"
+}

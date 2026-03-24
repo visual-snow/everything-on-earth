@@ -1,0 +1,67 @@
+{
+  "slug": "vflow",
+  "name": "vFlow",
+  "what_it_is": "High-performance, scalable network flow collector written in Go that ingests IPFIX (RFC7011), sFlow v5, Netflow v5, and Netflow v9 packets and publishes decoded JSON to a message queue. It is designed for enterprise-scale telemetry pipelines with support for replication, dynamic worker scaling, and Prometheus monitoring.",
+  "components": [
+    "vflow collector (Go binary)",
+    "Apache Kafka (message queue, default)",
+    "NSQ (alternative message queue)",
+    "NATS (alternative message queue)",
+    "rawSocket (alternative message queue)",
+    "Prometheus (metrics scraping)",
+    "RESTful stats HTTP server (port 8081)"
+  ],
+  "protocols": [
+    "IPFIX RFC7011 (UDP port 4739)",
+    "sFlow v5 raw header and counters (UDP port 6343)",
+    "Netflow v5 (UDP port 9996)",
+    "Netflow v9 (UDP port 4729)"
+  ],
+  "measurement": [
+    "Prometheus metrics endpoint at /metrics (port 8081)",
+    "RESTful stats API (port 8081, format switchable via stats-format config key)",
+    "Per-protocol decode counters available via stats endpoint"
+  ],
+  "configuration": [
+    "YAML config file at /etc/vflow/vflow.conf (path overridable with -config flag)",
+    "Message queue config at /etc/vflow/mq.conf",
+    "All keys also settable as CLI flags; CLI takes precedence over file",
+    "Per-protocol enable/disable flags: ipfix-enabled, sflow-enabled, netflow5-enabled, netflow9-enabled",
+    "Per-protocol worker counts: ipfix-workers (default 200), sflow-workers (default 200), netflow5-workers (default 50), netflow9-workers (default 50)",
+    "Per-protocol Kafka topics: vflow.ipfix, vflow.sflow, vflow.netflow5, vflow.netflow9",
+    "IPFIX and Netflow v9 template cache files: /tmp/vflow.templates, /tmp/netflow9.templates",
+    "IPFIX mirroring to 3rd-party collector via ipfix-mirror-addr and ipfix-mirror-port",
+    "Kafka broker set via VFLOW_KAFKA_BROKERS environment variable or brokers key in mq.conf",
+    "dynamic-workers: true enables automatic worker scaling",
+    "cpu-cap limits maximum CPU usage"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism documented",
+    "Stress/load generator included under stress/ directory for generating synthetic flow traffic"
+  ],
+  "modes": [
+    "Default mode: all protocols enabled, Kafka producer enabled",
+    "Mirror mode: IPFIX packets replicated to a 3rd-party collector simultaneously",
+    "Stats format switchable between prometheus and restful",
+    "Producer can be disabled with producer-enabled: false (collect only, no MQ publish)"
+  ],
+  "constraints": [
+    "Requires an external message queue (Kafka, NSQ, NATS, or rawSocket) to be running before vflow starts; docker-compose uses a 5-second sleep workaround for Kafka readiness",
+    "IPFIX and Netflow v9 are template-based protocols; templates must be received before data records can be decoded, and templates are cached to disk for persistence across restarts",
+    "UDP packet size defaults to 1500 bytes for all protocols; must be tuned if jumbo frames are used",
+    "No built-in authentication or encryption on the UDP listener ports; relies on network-level controls",
+    "sFlow type filtering is unsupported by default (sflow-type-filter is empty); all sFlow sample types are processed"
+  ],
+  "docker_services": [
+    "kafka (image: spotify/kafka, ports 2181/9092)",
+    "vflow (image: mehrdadrad/vflow, ports 4739/udp IPFIX, 4729/udp Netflow v9, 6343/udp sFlow, 9996/udp Netflow v5, 8081/tcp stats; depends_on kafka)",
+    "prometheus (image: prom/prometheus:latest, port 9090, mounts ./scripts for prometheus.yml)"
+  ],
+  "notable_absences": [
+    "No TLS/encryption on UDP collection ports",
+    "No authentication on the stats/metrics HTTP endpoint",
+    "No built-in replay or pcap ingestion capability",
+    "No native output to Elasticsearch, Splunk, or syslog without an external consumer",
+    "No support for IPFIX over TCP (UDP only)"
+  ]
+}

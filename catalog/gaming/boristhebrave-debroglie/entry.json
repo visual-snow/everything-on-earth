@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/boristhebrave/debroglie",
+  "name": "BorisTheBrave/DeBroglie",
+  "description": "A C# library implementing Wave Function Collapse with full backtracking support, additional non-local constraints, and NuGet distribution for easy integration. Designed for production use in game pipelines where vanilla WFC would fail to resolve contradictions.",
+  "sub_domain": "procedural-generation",
+  "score": 8,
+  "score_rationale": "The most production-ready WFC library for .NET/Unity with constraint extensions and active documentation that vanilla WFC lacks.",
+  "stars": 1100,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2024-05-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 72.3,
+  "tags": [
+    "wave-function-collapse",
+    "wfc",
+    "unity",
+    "dotnet",
+    "library"
+  ],
+  "category": "WFC Library for Unity",
+  "summary": "Production-ready WFC library for .NET/Unity with backtracking and constraint support.",
+  "slug": "boristhebrave-debroglie"
+}

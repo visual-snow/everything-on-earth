@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/zeux/niagara",
+  "name": "zeux/niagara",
+  "description": "Vulkan renderer written from scratch on stream, demonstrating modern Vulkan techniques including GPU culling, mesh shading, and occlusion culling without third-party Vulkan libraries.",
+  "sub_domain": "graphics-rendering",
+  "score": 6,
+  "score_rationale": "Educational Vulkan renderer with 1.7k stars from a respected graphics engineer, valuable for learning modern GPU-driven rendering techniques.",
+  "stars": 1700,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2024-12-01",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 61.8,
+  "tags": [
+    "vulkan",
+    "gpu-driven",
+    "educational"
+  ],
+  "category": "Vulkan Renderer",
+  "summary": "Educational Vulkan renderer with GPU culling techniques",
+  "slug": "zeux-niagara"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/telekom-security/tpotce",
+  "name": "telekom-security/tpotce",
+  "description": "T-Pot is an all-in-one, optionally distributed, multiarch honeypot platform supporting 20+ honeypots with visualization via the Elastic Stack and security analysis tools. It provides a comprehensive deception infrastructure deployable on physical or virtual hardware.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 9,
+  "score_rationale": "Most complete honeypot platform available with 8.9k stars, enterprise-grade with active Telekom-backed development.",
+  "stars": 8900,
+  "language": "Shell",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "network-security"
+  ],
+  "quality_score": 85.6,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "T-Pot is an all-in-one, optionally distributed, multiarch honeypot platform supporting 20+ honeypots",
+  "slug": "telekom-security-tpotce"
+}

@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/sigmahq/pysigma",
+  "name": "SigmaHQ/pySigma",
+  "description": "Python library for parsing and converting Sigma rules into SIEM-specific queries, replacing the legacy Sigma toolchain with a modular backend/pipeline architecture.",
+  "sub_domain": "SIEM / SOC / Threat Detection",
+  "score": 7,
+  "score_rationale": "Core tooling for the Sigma ecosystem with 538 stars, actively maintained with a release in March 2026, essential for detection-as-code pipelines.",
+  "stars": 538,
+  "language": "Python",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 63.9,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "python library for parsing and converting sigma rules into siem-specific queries, replacing the lega...",
+  "slug": "sigmahq-pysigma"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Notconf",
+  "repo_url": "https://github.com/notconf/notconf",
+  "description": "NETCONF/RESTCONF device simulator built on Netopeer2 and rousette. Drop-in replacement for Cisco NSO netsim. Designed for testing network automation systems with minimal resource consumption compared to full VMs.",
+  "domain": "netconf",
+  "secondary_domains": [],
+  "protocols": [
+    "NETCONF",
+    "RESTCONF",
+    "SSH",
+    "YANG"
+  ],
+  "provides": [
+    "cisco-xr-model",
+    "netconf-server",
+    "juniper-junos-model",
+    "sysrepo-backend",
+    "device-simulator",
+    "netopeer2-server",
+    "nokia-sros-model",
+    "config-mutation",
+    "multi-arch-container",
+    "yang-datastore",
+    "ietf-yang-model",
+    "custom-yang-loader",
+    "rousette-restconf",
+    "netsim-replacement",
+    "restconf-server"
+  ],
+  "needs": [
+    "docker-runtime",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "notconf/notconf",
+    "compose_services_count": 1,
+    "docker_evidence": "Docker-first design. Pre-built container images with Netopeer2 and rousette. Custom YANG modules loaded via bind-mounting /yang-modules directory."
+  },
+  "github_metrics": {
+    "stars": 80,
+    "last_commit": "unknown",
+    "language": "Shell",
+    "license": "MIT"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Pre-built vendor images for Cisco XR, Juniper JUNOS, Nokia SROS, IETF models available on ghcr.io. Changes via NETCONF or RESTCONF are synchronized through shared sysrepo database. Multi-arch (x86_64, ARM64). Custom YANG modules via bind mount to /yang-modules. Excellent for agentic evals \u2014 lightweight, custom YANG models via volume mount, both NETCONF and RESTCONF interfaces. Drop-in netsim replacement means agents can test config operations against realistic device stubs with minimal resources. Best lightweight NETCONF device simulator for Docker. Open-source netsim alternative. Supports custom YANG modules via volume mount. Ideal for CI/CD pipeline testing of network automation code. Excellent for testing network automation without full VMs. Based on open-source sysrepo stack. Pre-built images for Cisco IOS XR, IETF, Juniper JUNOS, Nokia SR OS YANG models. Multi-arch (x86_64/aarch64). Custom YANG modules via bind mount. NETCONF on port 830, RESTCONF on port 80. Debug variant available.",
+  "related_repos": [
+    "https://github.com/cesnet/netopeer2",
+    "https://github.com/sysrepo/sysrepo"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/netconf-servers.json",
+    "discovery/netconf-mgmt/netconf-testing.json",
+    "discovery/netconf-mgmt/restconf-gnmi-config.json",
+    "discovery/netconf-mgmt/virtual-nos.json"
+  ],
+  "slug": "notconf"
+}

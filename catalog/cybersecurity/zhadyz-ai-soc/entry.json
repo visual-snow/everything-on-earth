@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/zhadyz/ai_soc",
+  "name": "zhadyz/AI_SOC",
+  "description": "Open-source AI-augmented Security Operations Center using LLMs and multi-agent orchestration integrating Foundation-Sec-8B, Wazuh, TheHive, and RAG for automated threat detection and response.",
+  "sub_domain": "ai-security",
+  "score": 5,
+  "score_rationale": "Novel AI-SOC integration project with 78 stars demonstrating practical LLM-augmented security operations with documented 99%+ detection accuracy.",
+  "stars": 78,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-09-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 45.2,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "Open-source AI-augmented Security Operations Center using LLMs and multi-agent orchestration integra",
+  "slug": "zhadyz-ai-soc"
+}

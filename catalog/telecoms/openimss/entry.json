@@ -1,0 +1,79 @@
+{
+  "name": "openIMSs",
+  "repo_url": "https://github.com/voicenterteam/openimss",
+  "description": "Comprehensive open-source IMS environment for 4G/5G/NR voice/video/data/RCS/IM service development. 40+ microservices including Open5GS, OpenSIPS IMS, srsRAN, UERANSIM, and monitoring.",
+  "domain": "4g-lte",
+  "secondary_domains": [
+    "o-ran",
+    "voice-over-lte",
+    "volte"
+  ],
+  "protocols": [
+    "5G NR",
+    "Diameter",
+    "GTP-U",
+    "LTE",
+    "NGAP",
+    "S1AP",
+    "SCTP",
+    "SIP"
+  ],
+  "provides": [
+    "opensips-ims",
+    "ims-cscf",
+    "metrics-collection",
+    "rcs-support",
+    "web-dashboard",
+    "volte-support",
+    "diameter-server",
+    "gnb-simulator",
+    "grafana-monitoring",
+    "container-orchestration",
+    "sa-deployment",
+    "sip-proxy",
+    "ue-simulator",
+    "enb-simulator",
+    "4g-lte-epc",
+    "5g-core-amf",
+    "config-mutation",
+    "5g-core-smf",
+    "ueransim-ran",
+    "srsran-ran",
+    "nsa-deployment",
+    "open5gs-core",
+    "5g-core-upf",
+    "multi-service-compose",
+    "distributed-tracing"
+  ],
+  "needs": [
+    "linux-kernel-5.4+",
+    "sctp-support",
+    "docker-compose-v2",
+    "tun-tap-support",
+    "sufficient-ram-16gb+",
+    "privileged-container-mode"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 40,
+    "docker_evidence": "docker-compose.yaml plus additional configs: nsa-deploy.yaml, sa-deploy.yaml, srsenb.yaml, srsgnb.yaml, nr-gnb.yaml, nr-ue.yaml. 40+ microservices including monitoring (Grafana, qryn, Coroot)."
+  },
+  "github_metrics": {
+    "stars": 50,
+    "last_commit": "unknown",
+    "language": "Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Unique IMS/VoLTE-focused environment. Includes monitoring stack (Grafana, Portainer). Good for voice/video service testing evals. Evolved from docker_open5gs with expanded IMS support. Full IMS + 4G/5G lab with monitoring stack (Grafana, qryn, Coroot). Built on docker_open5gs with OpenSIPS for IMS CSCF. Includes observability making it useful for evaluation metrics collection.",
+  "related_repos": [
+    "https://github.com/herlesupreeth/docker_open5gs"
+  ],
+  "_sources": [
+    "discovery/ran-ue.json",
+    "discovery/signaling.json"
+  ],
+  "slug": "openimss"
+}

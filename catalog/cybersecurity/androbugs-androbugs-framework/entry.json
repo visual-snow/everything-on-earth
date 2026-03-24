@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/androbugs/androbugs_framework",
+  "name": "AndroBugs/AndroBugs_Framework",
+  "description": "Efficient Android vulnerability scanner for automated detection of potential security issues in APKs, capable of scanning ~1,000 apps in under 15 minutes on suitable hardware.",
+  "sub_domain": "Mobile Security",
+  "score": 5,
+  "score_rationale": "Archived in 2023 with 1.2k stars; historically important Android static analysis tool but superseded by MobSF and APKLeaks for active use.",
+  "stars": 1200,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2015-11-11",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 54.6,
+  "tags": [
+    "vuln-research",
+    "vulnerability-scanning",
+    "security-tool"
+  ],
+  "category": "Vulnerability Scanner",
+  "summary": "Efficient Android vulnerability scanner for automated detection of potential security issues in A...",
+  "slug": "androbugs-androbugs-framework"
+}

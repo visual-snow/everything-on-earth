@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ondras/rot.js",
+  "name": "ondras/rot.js",
+  "description": "ROguelike Toolkit in JavaScript modelled after libtcod, providing procedural generation, pathfinding, FOV, scheduling, and terminal display for browser-based roguelike development. The go-to choice for web roguelikes.",
+  "sub_domain": "roguelike-frameworks",
+  "score": 9,
+  "score_rationale": "2.7k-star JavaScript roguelike toolkit that enables browser-based roguelike development with feature parity to libtcod.",
+  "stars": 2700,
+  "language": "JavaScript",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-11-12",
+  "found_in_domains": [
+    "roguelike-frameworks"
+  ],
+  "quality_score": 81.5,
+  "tags": [
+    "javascript",
+    "roguelike",
+    "web",
+    "procedural-generation",
+    "terminal"
+  ],
+  "category": "JavaScript Roguelike",
+  "summary": "Web-based roguelike toolkit with procedural generation and browser-native display",
+  "slug": "ondras-rot-js"
+}

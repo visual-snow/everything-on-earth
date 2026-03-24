@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/aircrack-ng/aircrack-ng",
+  "name": "aircrack-ng/aircrack-ng",
+  "description": "The foundational WiFi security auditing tools suite for 802.11 networks, providing packet capture, WEP/WPA/WPA2 key cracking, and network monitoring capabilities.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 9,
+  "score_rationale": "The canonical open-source WiFi auditing suite with 7k+ stars, ubiquitous in pentesting distributions and certifications.",
+  "stars": 7064,
+  "language": "C",
+  "license": "GPL-2.0",
+  "last_activity": "2025-07-28",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 84.8,
+  "tags": [
+    "password",
+    "cracking",
+    "hashing"
+  ],
+  "category": "Credential Testing",
+  "summary": "Password cracking and hash analysis",
+  "slug": "aircrack-ng-aircrack-ng"
+}

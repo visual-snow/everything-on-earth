@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/utkusen/promptmap",
+  "name": "utkusen/promptmap",
+  "description": "A security scanner for custom LLM applications supporting both white-box testing (with known system prompts) and black-box testing against external HTTP endpoints using a dual-LLM attack/evaluation architecture.",
+  "sub_domain": "ai-security",
+  "score": 6,
+  "score_rationale": "Practical prompt injection scanning tool with 1.2k stars providing automated white-box and black-box LLM application testing.",
+  "stars": 1200,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 60.6,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "A security scanner for custom LLM applications supporting both white-box testing (with known system ",
+  "slug": "utkusen-promptmap"
+}

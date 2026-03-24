@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/liabru/matter-js",
+  "name": "liabru/matter-js",
+  "description": "A 2D rigid body physics engine for the web written in JavaScript, featuring comprehensive rigid body dynamics, collision detection, constraints, and rendering support. The most popular web-based physics library with 18k+ stars.",
+  "sub_domain": "physics-engines",
+  "score": 10,
+  "score_rationale": "18k-star de-facto standard 2D physics library for web/JavaScript game development, widely used across countless projects.",
+  "stars": 18100,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "physics-engines"
+  ],
+  "quality_score": 94.1,
+  "tags": [
+    "physics",
+    "2d",
+    "javascript"
+  ],
+  "category": "Physics Engine",
+  "summary": "Industry standard 2D physics engine for web games and projects",
+  "slug": "liabru-matter-js"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/pwndbg/pwndbg",
+  "name": "pwndbg/pwndbg",
+  "description": "A GDB and LLDB plugin that supercharges exploit development and reverse engineering with heap visualization, ROP assistance, and deep integration with pwntools.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 10,
+  "score_rationale": "Essential GDB plugin for exploit development with 10.2k stars, actively maintained with a release in February 2026.",
+  "stars": 10200,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-18",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing",
+    "malware-reversing",
+    "pentest-frameworks"
+  ],
+  "quality_score": 92.1,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "pwndbg-pwndbg"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/chaitin/safeline",
+  "name": "chaitin/SafeLine",
+  "description": "Self-hosted Web Application Firewall and reverse proxy protecting web apps from SQL injection, XSS, code injection, DoS attacks, and bot abuse with 180k+ production installations.",
+  "sub_domain": "webapp-security",
+  "score": 9,
+  "score_rationale": "20.9k stars, production-ready self-hosted WAF with massive adoption and active 2025 development.",
+  "stars": 20900,
+  "language": "Go",
+  "license": "GPL-3.0",
+  "last_activity": "2025-11-05",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 88.6,
+  "tags": [
+    "reverse-shell",
+    "access",
+    "persistence"
+  ],
+  "category": "Remote Access",
+  "summary": "Reverse shell and remote access tools",
+  "slug": "chaitin-safeline"
+}

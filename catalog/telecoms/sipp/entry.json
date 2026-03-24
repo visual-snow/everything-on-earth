@@ -1,0 +1,66 @@
+{
+  "name": "SIPp",
+  "repo_url": "https://github.com/sipp/sipp",
+  "description": "SIP protocol testing tool and traffic generator for performance evaluation and protocol conformance testing. Supports XML-based scenario definitions for complex call flows.",
+  "domain": "call-flow-generation",
+  "secondary_domains": [
+    "ims-volte",
+    "sip-testing",
+    "voip-load-testing"
+  ],
+  "protocols": [
+    "RTP",
+    "RTP (via PCAP)",
+    "SIP",
+    "SIP-over-SCTP",
+    "TCP",
+    "TLS",
+    "TLS/SIPS",
+    "UDP"
+  ],
+  "provides": [
+    "sctp-sip-support",
+    "xml-scenario-execution",
+    "call-flow-simulation",
+    "sip-traffic-generation",
+    "traffic-generation",
+    "load-testing",
+    "rtp-media-simulation",
+    "pcap-replay",
+    "sip-load-testing",
+    "sip-protocol-conformance-testing",
+    "tls-sip-support"
+  ],
+  "needs": [
+    "sip-server-or-proxy",
+    "sctp-support",
+    "pcap-files-for-media",
+    "tls-certificates"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Alpine-based and Debian-based Dockerfiles in /docker directory. Build with FULL=1 and DEBUG=1 flags. Community Docker images also available (ctaloi/docker-sipp, sieteunoseis/sipp)."
+  },
+  "github_metrics": {
+    "stars": 1100,
+    "last_commit": "2025-12-31",
+    "language": "C++",
+    "license": "GPLv3"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Industry-standard SIP testing tool with 1.1k stars. XML scenario-based traffic generation enables precise control over call flows. Essential for load testing and protocol validation in telecom evaluations. The standard SIP/VoIP load testing tool. Critical for telecom evaluations involving IMS/VoLTE call setup scenarios. XML scenario files enable complex call flows for agentic evaluation.",
+  "related_repos": [
+    "https://github.com/ctaloi/docker-sipp",
+    "https://github.com/davidcsi/sip-tester",
+    "https://github.com/grigiu/sipp",
+    "https://github.com/sieteunoseis/sipp"
+  ],
+  "_sources": [
+    "discovery/signaling.json",
+    "discovery/traffic.json"
+  ],
+  "slug": "sipp"
+}

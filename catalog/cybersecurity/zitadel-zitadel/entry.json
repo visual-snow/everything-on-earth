@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/zitadel/zitadel",
+  "name": "zitadel/zitadel",
+  "description": "Cloud-native identity infrastructure platform with SSO, MFA, passkeys, OIDC, SAML, SCIM, and built-in multi-tenancy for modern B2B and SaaS applications.",
+  "sub_domain": "iam-auth",
+  "score": 9,
+  "score_rationale": "Fast-growing enterprise IAM platform with 13.3k stars, AGPL-3.0 licensed, actively maintained with frequent releases and strong cloud-native and multi-tenant capabilities.",
+  "stars": 13300,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 87.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "zitadel-zitadel"
+}

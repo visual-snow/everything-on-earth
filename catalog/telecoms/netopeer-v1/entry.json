@@ -1,0 +1,54 @@
+{
+  "name": "Netopeer (v1)",
+  "repo_url": "https://github.com/cesnet/netopeer",
+  "description": "First generation NETCONF Protocol Toolset by CESNET. Includes NETCONF server and CLI client with Docker support. Predecessor to Netopeer2.",
+  "domain": "legacy-toolset",
+  "secondary_domains": [
+    "netconf"
+  ],
+  "protocols": [
+    "NETCONF",
+    "NETCONF 1.0",
+    "NETCONF 1.1",
+    "SSH",
+    "YANG"
+  ],
+  "provides": [
+    "netconf-server",
+    "netconf-cli-client",
+    "yang-datastore",
+    "ssh-transport",
+    "netconf-1.0-support",
+    "netconf-1.1-support"
+  ],
+  "needs": [
+    "linux-host",
+    "libnetconf-library",
+    "libxml2",
+    "openssh-server"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "This repository has a Dockerfile that can be used to create a container that builds netopeer-server and starts the service."
+  },
+  "github_metrics": {
+    "stars": 150,
+    "last_commit": "unknown",
+    "language": "C",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 4,
+  "eval_notes": "Legacy first-gen NETCONF server. Superseded by Netopeer2 but still functional. Use Netopeer2 for new evals. Legacy NETCONF server. Prefer Netopeer2 for new projects. Still referenced in older test setups and Ansible NETCONF testing repos.",
+  "related_repos": [
+    "https://github.com/cesnet/libnetconf",
+    "https://github.com/cesnet/netopeer2"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/netconf-servers.json",
+    "discovery/netconf-mgmt/netconf-testing.json"
+  ],
+  "slug": "netopeer-v1"
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "netxms",
+  "name": "NetXMS",
+  "what_it_is": "NetXMS is an open-source, enterprise-grade network and infrastructure monitoring and management system. It provides performance and availability monitoring with event processing, alerting, reporting, and graphing across all layers of IT infrastructure.",
+  "components": [
+    "netxmsd (management server / core engine)",
+    "nxagentd (monitoring agent, cross-platform)",
+    "NetXMS Web Console (Jetty-based, HTTPS on 4443)",
+    "nxdbmgr (database management CLI tool)",
+    "NxShell (Python/Java scripting interface)",
+    "NXSL (NetXMS Scripting Language, built-in VM)"
+  ],
+  "protocols": [
+    "SNMP v1/v2c/v3",
+    "ICMP",
+    "SSH",
+    "WMI",
+    "LLDP",
+    "CDP",
+    "STP",
+    "Syslog (receive and forward)",
+    "SNMP traps (receive and forward)",
+    "REST API (HTTP/HTTPS)",
+    "RADIUS",
+    "LDAP"
+  ],
+  "measurement": [
+    "Network and I/O performance metrics",
+    "CPU and memory consumption",
+    "Process-level metrics",
+    "Hardware sensor readings",
+    "Network service availability",
+    "Log file content analysis (real-time)",
+    "Application-level custom metrics",
+    "Business service availability and SLA",
+    "Routing table and ARP cache data",
+    "VLAN and switch forwarding database information",
+    "Wireless access point and client metrics"
+  ],
+  "configuration": [
+    "/etc/netxmsd.conf — server configuration (DB driver, connection params, ManagementAgentAddress, logging)",
+    "/etc/nxagentd.conf — agent configuration (server connection settings)",
+    "conf/pg/postgresql.conf — PostgreSQL tuning (mounted into db container)",
+    "conf/server/etc-netxms/ — additional server config directory (mounted as volume)",
+    "NETXMS_VERSION env var — pins container image version (required)",
+    "POSTGRES_DB / POSTGRES_USER / POSTGRES_PASSWORD — database credentials via .env",
+    "JAVA_OPTIONS env var — JVM heap tuning for web container (e.g. -Xmx1g)",
+    "KEYSTORE_PASSWORD + keystore.p12 mount — custom TLS certificate for web interface"
+  ],
+  "fault_injection": [
+    "nxdbmgr unlock — releases a locked database (run via docker compose run --rm unlock)",
+    "nxdbmgr check — checks database integrity",
+    "nxdbmgr upgrade / background-upgrade — schema migration (background-upgrade runs while server is live)",
+    "Agent proxy mode — agent can be stopped/isolated to simulate unreachable zone proxy",
+    "Server continues data collection autonomously when central management server is unavailable (edge-case resilience)"
+  ],
+  "modes": [
+    "Single-server deployment (all components on one host)",
+    "Distributed / zone-based deployment (proxy agents per network zone with overlapping subnets)",
+    "High-availability mode (multiple proxy agents per zone with automatic failover and load balancing)",
+    "Agent inbound mode (server connects to agent)",
+    "Agent outbound mode (agent connects to server, firewall-friendly)",
+    "Background DB upgrade (schema migration while server is running)"
+  ],
+  "constraints": [
+    "Docker images are linux/amd64 only; ARM builds are not yet available as official Debian packages for ARM are not released",
+    "NETXMS_VERSION environment variable is required — containers will not start without it (compose enforces :?)",
+    "ManagementAgentAddress must point to a running agent instance for web services and SSH checks to function",
+    "Database must be healthy (pg_isready) before server or init containers start (compose depends_on healthcheck)",
+    "background-upgrade profile is excluded from docker compose up and must be invoked manually",
+    "NXSL scripts run in isolated VMs with controlled access — no arbitrary host filesystem access from scripts",
+    "Web console default port is 8443 (HTTPS); HTTP port 8080 is available in the image but not exposed in the provided compose"
+  ],
+  "docker_services": [
+    "db — postgres:17, stores all NetXMS data, persists via db-data volume",
+    "server — ghcr.io/netxms/server, core engine, exposes ports 48920 (4701) and 48921 (4703)",
+    "agent — ghcr.io/netxms/agent, monitors the server host itself, used for web service / SSH proxy queries",
+    "web — ghcr.io/netxms/web, management console, exposes port 8443",
+    "init — one-shot DB schema initialisation (entrypoint /dbinit.sh), must complete before server starts",
+    "unlock — one-shot nxdbmgr unlock, run manually to release a locked DB",
+    "check — one-shot nxdbmgr check, run manually for DB integrity check",
+    "upgrade — one-shot nxdbmgr upgrade, run manually for schema upgrade",
+    "background-upgrade — nxdbmgr background-upgrade, manual profile only, safe to run while server is live"
+  ],
+  "notable_absences": [
+    "No built-in packet capture or flow analysis (NetFlow/sFlow not mentioned)",
+    "No native Kubernetes or container orchestration monitoring out of the box",
+    "No ARM/arm64 Docker images available yet",
+    "No built-in time-series database — relies on external PostgreSQL; InfluxDB and ClickHouse are optional fanout targets only",
+    "No simulation or replay mode for historical traffic described in documentation"
+  ]
+}

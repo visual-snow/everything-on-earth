@@ -1,0 +1,71 @@
+{
+  "slug": "coturn",
+  "name": "Coturn TURN/STUN Server",
+  "what_it_is": "Coturn is a free, open-source implementation of TURN and STUN servers for VoIP and WebRTC NAT traversal. It acts as a media relay gateway, enabling peers to communicate through firewalls and NATs when direct peer-to-peer connections are not possible.",
+  "components": [
+    "turnserver — main TURN/STUN server process",
+    "turnadmin — administration and user management CLI",
+    "turnutils_uclient — test TURN/STUN client utility",
+    "turnutils_stunclient — STUN-only test client",
+    "detect-external-ip — helper binary for auto-detecting external IP in Docker environments"
+  ],
+  "protocols": [
+    "STUN (RFC 3489, RFC 5389, RFC 5780, RFC 7443, RFC 7635)",
+    "TURN (RFC 5766, RFC 6062, RFC 6156, RFC 7443, RFC 7635, RFC 8016)",
+    "ICE (RFC 5245, RFC 5768, RFC 6336, RFC 6544, RFC 5928)",
+    "UDP client-to-server transport",
+    "TCP client-to-server transport",
+    "TLS 1.0/1.1/1.2/1.3 client-to-server transport",
+    "DTLS 1.0 and DTLS 1.2 client-to-server transport",
+    "SCTP (experimental)"
+  ],
+  "measurement": [
+    "Redis-based status and statistics storage",
+    "Prometheus metrics interface (via libmicrohttpd + prometheus-client-c; not available in apt package)",
+    "Telnet CLI for live management and stats queries",
+    "HTTPS management interface"
+  ],
+  "configuration": [
+    "Primary config file: /etc/coturn/turnserver.conf (volume-mounted in Docker)",
+    "listening-port (default 3478) and tls-listening-port (default 5349)",
+    "min-port / max-port for UDP relay range (default 49152–65535)",
+    "realm — authentication realm string",
+    "lt-cred-mech — enable long-term credential mechanism",
+    "TURN REST API auth (time-limited HMAC-SHA1 shared-secret, draft-uberti-behave-turn-rest-00)",
+    "external-ip / relay-ip — explicit or auto-detected (DETECT_EXTERNAL_IP env var)",
+    "User databases: SQLite, MariaDB/MySQL, PostgreSQL, Redis, MongoDB",
+    "Multi-threading model configurable for full CPU utilisation",
+    "DNS SRV / ALTERNATE-SERVER (300) / network load-balancer for horizontal scaling"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism; network-level faults must be introduced externally (e.g., tc/iptables rules on the host)",
+    "ALTERNATE-SERVER (300) redirection can be used to simulate server unavailability and test client failover",
+    "Relay port range restriction (min-port/max-port) can simulate resource exhaustion"
+  ],
+  "modes": [
+    "STUN-only mode (no relay, lowest overhead)",
+    "TURN relay mode with UDP relay (RFC 5766)",
+    "TURN relay mode with TCP relay (RFC 6062)",
+    "Secure mode with TLS/DTLS",
+    "Multi-tenant mode via Origin field (draft-ietf-tram-stun-origin-06)",
+    "No-auth / classic long-term credentials / TURN REST API / oAuth third-party auth"
+  ],
+  "constraints": [
+    "Docker performs poorly with large UDP port ranges mapped via -p; --network=host is strongly recommended for production and relay-heavy workloads",
+    "Prometheus interface is not available in the apt/distro package — requires building from source with libmicrohttpd and prometheus-client-c",
+    "RFC 5780 NAT behavior discovery requires at least two listening IP addresses of the same family",
+    "SCTP support is experimental and not suitable for production use",
+    "Windows native support available but not officially supported for production"
+  ],
+  "docker_services": [
+    "coturn/coturn (Docker Hub) — single-container deployment; tags: latest, alpine, debian, edge-alpine, edge-debian",
+    "Ports: 3478/tcp+udp (STUN/TURN plain), 5349/tcp+udp (TLS/DTLS), 49152–65535/udp (relay range)",
+    "Data persistence directory: /var/lib/coturn/ (tmpfs mount recommended for performance)",
+    "Config override: mount custom turnserver.conf to /etc/coturn/turnserver.conf"
+  ],
+  "notable_absences": [
+    "No built-in network emulation or latency/loss injection",
+    "No native dashboard or web UI (management is via telnet CLI or HTTPS API only)",
+    "No built-in clustering or state replication between instances (relies on external Redis or DNS/LB)"
+  ]
+}

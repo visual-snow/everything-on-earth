@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ory/kratos",
+  "name": "ory/kratos",
+  "description": "Headless cloud-native authentication and identity management system written in Go, handling user registration, login, 2FA, account recovery, and profile management at scale.",
+  "sub_domain": "iam-auth",
+  "score": 8,
+  "score_rationale": "Highly scalable headless identity platform with 13.5k stars, Apache-2.0 licensed, actively maintained by Ory as a modern alternative to Auth0 and Firebase for developer-centric teams.",
+  "stars": 13500,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-01",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 81.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "ory-kratos"
+}

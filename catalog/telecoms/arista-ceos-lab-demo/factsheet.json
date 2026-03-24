@@ -1,0 +1,63 @@
+{
+  "slug": "arista-ceos-lab-demo",
+  "name": "cEOS Lab Demo",
+  "what_it_is": "A Makefile-driven Docker lab that spins up three Arista cEOS container switches in a triangle topology pre-configured with EBGP. It demonstrates containerized EOS management via eAPI, SSH, NETCONF, and gNMI on a single host.",
+  "components": [
+    "ceos1 — Arista cEOS container, AS 65001",
+    "ceos2 — Arista cEOS container, AS 65002",
+    "ceos3 — Arista cEOS container, AS 65003",
+    "OOB Docker network — out-of-band management plane",
+    "net1 Docker network — ceos1 ↔ ceos2 link",
+    "net2 Docker network — ceos2 ↔ ceos3 link",
+    "net3 Docker network — ceos3 ↔ ceos1 link",
+    "startup-config/ebgp/ — per-device startup configuration files",
+    "Makefile — sole automation layer (make up / make down / make ceosN-cli)"
+  ],
+  "protocols": [
+    "EBGP (External BGP) — primary data-plane routing protocol demonstrated",
+    "eAPI (Arista HTTP JSON-RPC) — exposed on ports 6031–6033 mapped from container port 6030",
+    "SSH — management CLI access on host ports 2001–2003",
+    "NETCONF — available via EOS but not explicitly configured in demo",
+    "gNMI — available via EOS but not explicitly configured in demo"
+  ],
+  "measurement": [
+    "BGP adjacency state readable via EOS 'show bgp summary' CLI command",
+    "No streaming telemetry (gNMI Subscribe) configuration included in the demo",
+    "No pre-built dashboards or TSDB integrations present"
+  ],
+  "configuration": [
+    "Startup configs mounted as host volumes into /mnt/flash/startup-config on each container",
+    "EBGP configs stored in startup-config/ebgp/ceos1, ceos2, ceos3",
+    "Environment variables set at container launch: INTFTYPE=eth, ETBA=1, SKIP_ZEROTOUCH_BARRIER_IN_SYSDBINIT=1, CEOS=1, EOS_PLATFORM=ceoslab, container=docker",
+    "All containers run in Docker privileged mode",
+    "120-second startup delay baked into 'make up' before topology is usable"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "up — deploys all three cEOS containers and four Docker networks via 'make up'",
+    "down — tears down all containers and networks via 'make down'",
+    "CLI access — interactive EOS CLI via 'make ceosN-cli' (docker exec + Cli)"
+  ],
+  "constraints": [
+    "Requires manual download of cEOS-lab-4.23.3M.tar.xz from Arista (login-gated; not publicly downloadable)",
+    "Image version is pinned to ceosimage:4.23.3M — no version flexibility without editing Makefile",
+    "All containers require Docker privileged mode",
+    "120-second mandatory wait after 'make up' before containers are ready",
+    "No docker-compose.yml present — topology is managed entirely through a hand-written Makefile"
+  ],
+  "docker_services": [
+    "ceos1 — image: ceosimage:4.23.3M, SSH 2001→22, eAPI 6031→6030, privileged",
+    "ceos2 — image: ceosimage:4.23.3M, SSH 2002→22, eAPI 6032→6030, privileged",
+    "ceos3 — image: ceosimage:4.23.3M, SSH 2003→22, eAPI 6033→6030, privileged"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — orchestration is Makefile-only",
+    "No fault injection or link-failure simulation",
+    "No telemetry streaming or gNMI Subscribe configuration",
+    "No NETCONF example scripts or playbooks",
+    "No multi-VRF or MPLS configurations",
+    "No redundancy or HA topology variants",
+    "No CI/CD or automated test harness",
+    "cEOS image must be sourced externally from Arista portal (not bundled)"
+  ]
+}

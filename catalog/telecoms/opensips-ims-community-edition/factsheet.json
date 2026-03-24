@@ -1,0 +1,90 @@
+{
+  "slug": "opensips-ims-community-edition",
+  "name": "OpenSIPS IMS Community Edition",
+  "what_it_is": "A fully functional 3GPP-compliant IMS CSCF stack (P-CSCF, I-CSCF, S-CSCF) built on OpenSIPS, designed to integrate with Dockerized Open5GS 4G/5G core networks. It provides VoLTE SIP signaling, registration, authentication, and media relay in an all-in-one docker-compose environment.",
+  "components": [
+    "P-CSCF (opensips/opensips:ims-ce) — SIP entry point, NAT traversal, security",
+    "I-CSCF (opensips/opensips:ims-ce) — inter-network SIP routing and HSS query",
+    "S-CSCF (opensips/opensips:ims-ce) — user registration, authentication, session routing",
+    "pyHSS — Python-based HSS exposing Diameter Cx/Sh interfaces and REST API on port 8080",
+    "RTPEngine — media relay and transcoding (ports 49000-50000 UDP)",
+    "Open5GS EPC — MME, SMF, UPF, SGW-C/U, PCRF, HSS forming the 4G core",
+    "MySQL — IMS subscriber and routing database",
+    "MongoDB — Open5GS subscriber store",
+    "DNS — internal resolution for IMS domain names",
+    "Prometheus metrics exporter (port 9090)",
+    "Grafana dashboard (port 3000, image grafana/grafana:11.3.0)",
+    "OsmoMSC + OsmoHLR — SMS-over-IMS path (ports 29118, 2775, 4222)",
+    "Kamailio SMSC gateway (port 7090)",
+    "Open5GS WebUI (port 9999)"
+  ],
+  "protocols": [
+    "SIP (RFC 3261) — call session control across P/I/S-CSCF",
+    "Diameter Cx — HSS-CSCF interface for authentication and registration",
+    "Diameter Sh — HSS-AS interface",
+    "Diameter Gx — PCRF policy interface",
+    "GTP-U (port 2152) — user-plane tunneling",
+    "GTP-C (port 2123) — control-plane tunneling",
+    "SCTP (port 36412) — S1-MME interface",
+    "RTP/SRTP — media streams via RTPEngine",
+    "NGAP/S1AP — 4G/5G radio access network interface",
+    "SMPP (port 2775) — SMS gateway",
+    "IMS TS 124 228 — 3GPP IMS standard compliance"
+  ],
+  "measurement": [
+    "Prometheus scrape endpoint exposed by metrics service on port 9090",
+    "Grafana dashboards on port 3000 (grafana/grafana:11.3.0) for visualization",
+    "Centralised log volume at ./log shared across all services",
+    "pyHSS REST API on port 8080 for subscriber and session state inspection"
+  ],
+  "configuration": [
+    "All services configured via a single .env file (TEST_NETWORK subnet, domain names, credentials)",
+    "Per-component environment variables injected at container startup",
+    "MySQL initialised from docker_mysql image with persistent dbdata volume",
+    "MongoDB persistence via mongodbdata volume; Open5GS WebUI at port 9999 for subscriber provisioning",
+    "Timezone consistency enforced by bind-mounting host /etc/localtime and /etc/timezone into every container",
+    "RTPEngine port range configurable (default 49000-50000 UDP)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Standalone IMS-CE mode: P/I/S-CSCF + pyHSS + RTPEngine only (drop-in replacement for existing Open5GS IMS)",
+    "Full-stack mode: complete docker-compose with embedded Open5GS 4G EPC + IMS + SMS path"
+  ],
+  "constraints": [
+    "Requires privileged container capabilities (NET_ADMIN) for P-CSCF, UPF, and RTPEngine — not suitable for unprivileged sandbox environments",
+    "No built-in fault injection or chaos tooling; resilience testing requires external tooling",
+    "SMS path depends on OsmoMSC/OsmoHLR and Kamailio SMSC, adding significant operational complexity",
+    "Open5GS EPC components use custom docker_open5gs image that must be built locally before first run",
+    "All 24 services share a single flat TEST_NETWORK subnet; no network segmentation between core and IMS planes"
+  ],
+  "docker_services": [
+    "mongo",
+    "webui",
+    "hss",
+    "mme",
+    "smf",
+    "upf",
+    "sgwc",
+    "sgwu",
+    "pcrf",
+    "pyhss",
+    "icscf",
+    "scscf",
+    "pcscf",
+    "mysql",
+    "dns",
+    "rtpengine",
+    "metrics",
+    "grafana",
+    "smsc",
+    "osmomsc",
+    "osmohlr"
+  ],
+  "notable_absences": [
+    "No fault injection or chaos engineering hooks",
+    "No load/performance test harness included in the repo",
+    "No TLS/IPsec configuration for Ut/Gm interfaces documented",
+    "No 5G SA (standalone) core integration — only 4G EPC (NSA path)",
+    "No call-detail-record (CDR) or billing interface (no Rf/Ro Diameter)"
+  ]
+}

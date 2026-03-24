@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mrdrbob/2b2d",
+  "name": "mrdrbob/2b2d",
+  "description": "A simple 2D from-scratch WebGPU/TypeScript game engine inspired by Bevy with ECS architecture, zero dependencies, and LDtk/Aseprite integration.",
+  "sub_domain": "web-game-engines",
+  "score": 3,
+  "score_rationale": "Only 23 stars, very early-stage experimental WebGPU engine with minimal community traction, though technically interesting as a Bevy-inspired web ECS engine.",
+  "stars": 23,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "web-game-engines"
+  ],
+  "quality_score": 29.0,
+  "tags": [
+    "webgpu",
+    "ecs",
+    "2d-games",
+    "typescript",
+    "experimental"
+  ],
+  "category": "Experimental ECS Engine",
+  "summary": "Early-stage WebGPU engine with Bevy-inspired ECS and zero dependencies",
+  "slug": "mrdrbob-2b2d"
+}

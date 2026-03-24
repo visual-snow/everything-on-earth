@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/liko-12/liko-12",
+  "name": "LIKO-12/LIKO-12",
+  "description": "An open-source fantasy computer built with L\u00d6VE framework and Lua, featuring a DOS-like OS with visual editors for creating and sharing 192x128 pixel, 16-color retro games and programs.",
+  "sub_domain": "emulators-retro",
+  "score": 4,
+  "score_rationale": "Charming PICO-8 alternative with 1.2k stars, but archived in 2024 making it unsuitable for active projects.",
+  "stars": 1200,
+  "language": "Lua",
+  "license": "MIT",
+  "last_activity": "2024-01-24",
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 48.6,
+  "tags": [
+    "fantasy-console",
+    "retro",
+    "game-creation",
+    "lua"
+  ],
+  "category": "Fantasy Console",
+  "summary": "PICO-8 alternative with DOS-like OS for retro game creation",
+  "slug": "liko-12-liko-12"
+}

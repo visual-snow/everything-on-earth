@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sleuthkit/sleuthkit",
+  "name": "sleuthkit/sleuthkit",
+  "description": "A library and collection of command-line forensic tools for investigating volume and file system data, supporting NTFS, FAT, Ext, HFS, and other file systems. Serves as the foundation for Autopsy and other commercial/open-source forensic platforms.",
+  "sub_domain": "forensics-ir",
+  "score": 8,
+  "score_rationale": "Foundational open-source forensic toolkit with 3k stars and active 2025 releases, underpinning both open-source and commercial digital forensics tools globally.",
+  "stars": 3000,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2025-04-15",
+  "found_in_domains": [
+    "forensics-ir"
+  ],
+  "quality_score": 75.8,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "sleuthkit-sleuthkit"
+}

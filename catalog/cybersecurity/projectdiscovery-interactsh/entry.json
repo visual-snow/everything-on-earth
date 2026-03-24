@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/projectdiscovery/interactsh",
+  "name": "projectdiscovery/interactsh",
+  "description": "Out-of-band interaction gathering server and client library for detecting SSRF, blind XSS, XXE, and other vulnerabilities that cause external interactions.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 8,
+  "score_rationale": "Critical OOB detection tool with 4.2k stars that has become the standard for detecting blind vulnerabilities in bug bounty and pentest engagements.",
+  "stars": 4200,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2024-03-24",
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 77.0,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Out-of-band interaction gathering server and client library for detecting SSRF, blind XSS, XXE, and ",
+  "slug": "projectdiscovery-interactsh"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/overload-technologies/overload",
+  "name": "Overload-Technologies/Overload",
+  "description": "A free, open-source 3D game engine built in C++ with Lua scripting, designed for ease of use and simplicity with a complete editor environment.",
+  "sub_domain": "game-engines-3d",
+  "score": 6,
+  "score_rationale": "2.4k stars, clean MIT-licensed C++ engine with good editor support though limited in production use cases.",
+  "stars": 2400,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 63.0,
+  "tags": [
+    "3d-game-engine",
+    "c++",
+    "lua-scripting",
+    "editor",
+    "beginner-friendly"
+  ],
+  "category": "User-Friendly 3D Engine",
+  "summary": "Beginner-friendly C++ 3D engine with Lua scripting and editor",
+  "slug": "overload-technologies-overload"
+}

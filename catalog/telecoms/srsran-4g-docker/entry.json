@@ -1,0 +1,55 @@
+{
+  "name": "srsRAN_4G-docker",
+  "repo_url": "https://github.com/hxngillani/srsran_4g-docker",
+  "description": "srsRAN 4G Docker-based implementation. Compose file includes optional second UE using default user_db.csv from srsEPC.",
+  "domain": "4g",
+  "secondary_domains": [
+    "lte",
+    "multi-ue",
+    "srsepc"
+  ],
+  "protocols": [
+    "LTE",
+    "S1AP",
+    "GTP-U",
+    "NAS"
+  ],
+  "provides": [
+    "lte-enodeb",
+    "lte-epc",
+    "lte-ue-simulation",
+    "multi-ue-support",
+    "s1ap-stack",
+    "gtp-u-tunneling",
+    "nas-signaling",
+    "subscriber-database"
+  ],
+  "needs": [
+    "linux-kernel-5.4+",
+    "sctp-support",
+    "rf-hardware-or-zmq",
+    "privileged-container-access"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 4,
+    "docker_evidence": "Docker compose with optional second UE. Uses default user_db.csv from srsEPC. Multi-UE support in Docker."
+  },
+  "github_metrics": {
+    "stars": 10,
+    "last_commit": "unknown",
+    "language": "Dockerfile",
+    "license": "unknown"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Multi-UE Docker setup for srsRAN 4G. Simple to deploy. Good for basic LTE evals with multiple UE scenarios.",
+  "related_repos": [
+    "https://github.com/srsran/srsran_4g"
+  ],
+  "_sources": [
+    "discovery/ran-ue.json"
+  ],
+  "slug": "srsran-4g-docker"
+}

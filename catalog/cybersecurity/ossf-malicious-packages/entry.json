@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ossf/malicious-packages",
+  "name": "ossf/malicious-packages",
+  "description": "OpenSSF repository of reports of malicious packages identified in open source package repositories, consumable via the OSV format. Serves as a community-maintained threat intelligence feed for supply chain attacks.",
+  "sub_domain": "Supply Chain Security",
+  "score": 8,
+  "score_rationale": "Authoritative OpenSSF malicious package database with 1.2k+ stars, critical reference for supply chain threat intel.",
+  "stars": 1019,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 72.1,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "ossf-malicious-packages"
+}

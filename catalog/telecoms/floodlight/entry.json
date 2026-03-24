@@ -1,0 +1,51 @@
+{
+  "name": "Floodlight",
+  "repo_url": "https://github.com/floodlight/floodlight",
+  "description": "The leading open source Java-based OpenFlow controller, supported by a community of developers including engineers from Big Switch Networks. Enterprise-grade with REST API and web GUI.",
+  "domain": "flow-table",
+  "secondary_domains": [
+    "sdn"
+  ],
+  "protocols": [
+    "OpenFlow 1.0",
+    "OpenFlow 1.3"
+  ],
+  "provides": [
+    "openflow-controller",
+    "sdn-controller",
+    "rest-api",
+    "web-dashboard",
+    "flow-management",
+    "network-topology-discovery",
+    "openflow-1.0",
+    "openflow-1.3"
+  ],
+  "needs": [
+    "openflow-capable-switch",
+    "java-runtime",
+    "mininet-or-ovs"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "pierrecdn/floodlight",
+    "compose_services_count": 0,
+    "docker_evidence": "Community Docker image pierrecdn/floodlight available. Floodlight WEB GUI available at http://[container-ip]:8080/ui/pages/index.html when running as Docker container."
+  },
+  "github_metrics": {
+    "stars": 772,
+    "last_commit": "unknown",
+    "language": "Java",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Mature SDN controller with good REST API and web GUI. Used as the base for OpenKilda. Docker images available from community. Good for testing OpenFlow-based scenarios.",
+  "related_repos": [
+    "https://github.com/telstra/open-kilda",
+    "https://github.com/sszwaczyk-wat/sdn-labs"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "floodlight"
+}

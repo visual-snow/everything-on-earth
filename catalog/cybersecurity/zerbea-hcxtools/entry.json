@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/zerbea/hcxtools",
+  "name": "ZerBea/hcxtools",
+  "description": "Suite of portable tools for converting wireless packet capture files (cap/pcap/pcapng) into hash formats compatible with Hashcat and John the Ripper for offline cracking.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 8,
+  "score_rationale": "Essential WiFi hash conversion toolkit with 2.3k stars, MIT license, and active maintenance through February 2026.",
+  "stars": 2300,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2026-02-08",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 74.9,
+  "tags": [
+    "hash-cracking",
+    "packet-capture",
+    "pe-format",
+    "wireless-security"
+  ],
+  "category": "Password Cracker",
+  "summary": "Suite of portable tools for converting wireless packet capture files (cap/pcap/pcapng) into hash ...",
+  "slug": "zerbea-hcxtools"
+}

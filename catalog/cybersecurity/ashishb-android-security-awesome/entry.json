@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ashishb/android-security-awesome",
+  "name": "ashishb/android-security-awesome",
+  "description": "The most comprehensive curated collection of Android security resources including tools, research papers, malware datasets, and vulnerability databases, maintained since 2014.",
+  "sub_domain": "Mobile Security",
+  "score": 8,
+  "score_rationale": "Premier Android security reference list with 9.3k stars, widely cited as the starting point for Android security researchers.",
+  "stars": 9300,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-06-01",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 79.7,
+  "tags": [
+    "malware-analysis",
+    "pe-format",
+    "vuln-research"
+  ],
+  "category": "Malware Tool",
+  "summary": "The most comprehensive curated collection of Android security resources including tools, research...",
+  "slug": "ashishb-android-security-awesome"
+}

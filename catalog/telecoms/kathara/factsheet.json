@@ -1,0 +1,51 @@
+{
+  "slug": "kathara",
+  "name": "Kathara",
+  "what_it_is": "Kathara is a lightweight network emulation system based on Docker containers, functioning as the successor to Netkit. Each network device runs as an isolated container interconnected via virtual Layer 2 LANs, enabling full network topology simulation.",
+  "components": [
+    "Docker container backend (default)",
+    "Kubernetes backend (Megalos variant)",
+    "lab.conf topology definition file",
+    "per-device *.startup configuration files",
+    "Python API for programmatic scenario creation",
+    "CLI tool (kathara lstart, kathara lclean, etc.)",
+    "Pre-built Docker images: Quagga, FRRouting, BIND, P4, OpenVSwitch"
+  ],
+  "protocols": [
+    "BGP",
+    "OSPF",
+    "RIP",
+    "IS-IS",
+    "DNS",
+    "OpenFlow",
+    "P4",
+    "SSH/CLI"
+  ],
+  "measurement": [],
+  "configuration": [
+    "lab.conf file defines network topology and device interconnections",
+    "Per-device *.startup scripts run at container boot",
+    "Python API for programmatic network scenario creation",
+    "Custom Docker images can be specified per device"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Local mode: scenarios run on local Docker engine",
+    "Megalos mode: scenarios deployed on Kubernetes cluster",
+    "CLI-driven: interactive management via kathara commands",
+    "API-driven: programmatic control via Python library"
+  ],
+  "constraints": [
+    "No built-in traffic measurement or packet capture tooling — relies on tools installed inside container images",
+    "No native fault injection primitives — link failures must be simulated by manually removing virtual interfaces or stopping containers",
+    "Kubernetes (Megalos) mode requires a pre-configured cluster; not suitable for fully offline or air-gapped single-host use without Docker",
+    "Network scenarios are file-system-bound directories; no GUI or web-based topology editor is included"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose file — Kathara manages its own container lifecycle directly via the Docker SDK",
+    "No built-in traffic generation or load tooling",
+    "No REST API or web dashboard",
+    "No native packet loss / latency / jitter injection controls"
+  ]
+}

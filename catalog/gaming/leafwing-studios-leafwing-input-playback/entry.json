@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/leafwing-studios/leafwing_input_playback",
+  "name": "Leafwing-Studios/leafwing_input_playback",
+  "description": "Input recording and playback library for the Bevy game engine enabling input capture/replay for game testing and tool-assisted speedrun (TAS) workflows.",
+  "sub_domain": "input-controllers",
+  "score": 5,
+  "score_rationale": "Niche but well-designed input playback library for Bevy with 34 stars, dual Apache-2.0/MIT licensed, maintained through December 2024, useful for deterministic game testing.",
+  "stars": 34,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2024-12-05",
+  "found_in_domains": [
+    "input-controllers"
+  ],
+  "quality_score": 42.4,
+  "tags": [
+    "bevy",
+    "input-playback",
+    "testing"
+  ],
+  "category": "Input Recording",
+  "summary": "Bevy plugin for recording and replaying input for testing and TAS",
+  "slug": "leafwing-studios-leafwing-input-playback"
+}

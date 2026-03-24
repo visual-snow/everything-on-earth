@@ -1,0 +1,108 @@
+{
+  "slug": "fortio",
+  "name": "Fortio",
+  "what_it_is": "Fortio is Istio's open-source load testing tool and library (written in Go) that runs at a specified QPS, records latency histograms, and calculates percentiles. It ships as a CLI, an echo/ping server, a gRPC server, TCP/UDP echo servers, a web UI, and a REST API for triggering and inspecting runs.",
+  "components": [
+    "load generator (HTTP, gRPC, TCP, UDP)",
+    "echo server (HTTP, TCP, UDP)",
+    "gRPC ping/health server",
+    "HTTPS redirector",
+    "web UI at /fortio/",
+    "REST API (/fortio/rest/run, /fortio/rest/stop, /fortio/rest/status, /fortio/rest/dns)",
+    "report-only server (read-only UI)",
+    "fan-out / scatter-gather HTTP proxy",
+    "TCP proxy (-P flag)",
+    "HTTP multi-proxy (-M flag)",
+    "grol scripting engine (fortio script)",
+    "pprof endpoint (optional)"
+  ],
+  "protocols": [
+    "HTTP/1.0",
+    "HTTP/1.1",
+    "HTTP/2 (h2 / h2c)",
+    "gRPC",
+    "TCP",
+    "UDP",
+    "HTTPS/TLS",
+    "Unix domain sockets"
+  ],
+  "measurement": [
+    "latency histogram with configurable resolution (default 1 ms buckets)",
+    "configurable percentiles (default p50, p75, p90, p99, p99.9)",
+    "actual QPS achieved",
+    "total request count",
+    "error counts and HTTP non-2xx status breakdown",
+    "min / avg / max latency",
+    "JSON result files (auto-saved with -a or -json)",
+    "comparative multi-run graphs (min, avg, median, p75, p99, p99.9, max)",
+    "access log (JSON or InfluxDB line format)",
+    "DNS resolution latency via /fortio/rest/dns"
+  ],
+  "configuration": [
+    "-qps: target queries per second (0 = max speed)",
+    "-c: number of parallel connections/goroutines (default 4)",
+    "-t: test duration (default 5s; 0 = run until ^C)",
+    "-n: fixed number of calls instead of duration",
+    "-r: histogram bucket resolution in seconds (default 0.001)",
+    "-p: percentile list to compute (default '50,75,90,99,99.9')",
+    "-H: additional HTTP headers (repeatable)",
+    "-payload / -payload-file / -payload-size: POST body",
+    "-http-port (default 8080), -grpc-port (default 8079), -tcp-port (default 8078), -udp-port (default 8078), -redirect-port (default 8081)",
+    "-cert / -key / -cacert / -mtls: TLS client and server certificates",
+    "-echo-server-default-params: default query-string for the echo server (delay, status, size, close, header, gzip)",
+    "-connection-reuse min:max: randomized connection reuse threshold per thread",
+    "-uniform / -nocatchup: call distribution and QPS ceiling controls",
+    "-jitter: 10% de-synchronization of parallel clients",
+    "-dns-method: DNS round-robin strategy (cached-rr, rnd, first, rr)",
+    "-config-dir / -config-port: dynamic flag watching and live reconfiguration",
+    "-sync URL / -sync-interval: pull remote JSON result index at startup and on schedule",
+    "-loglevel: Debug / Verbose / Info / Warning / Error / Critical / Fatal",
+    "-gomaxprocs: GOMAXPROCS override"
+  ],
+  "fault_injection": [
+    "delay= query param: inject latency with probability distribution (e.g. delay=150us:10,2ms:5,0.5s:1)",
+    "status= query param: return non-200 HTTP status codes with probability distribution (e.g. status=503:5,429:1)",
+    "size= query param: vary response payload size with probability distribution",
+    "close= query param: close socket after a fraction of requests (e.g. close=5.3 for ~5.3%)",
+    "-echo-server-default-params: set server-wide defaults for all of the above without requiring client query args",
+    "-abort-on: abort the entire load test run if a specific HTTP status code (or -1 for socket error) is encountered"
+  ],
+  "modes": [
+    "load: HTTP/gRPC/TCP/UDP load generator",
+    "server: combined echo + gRPC + redirect + proxy + web UI + REST API server",
+    "report: read-only result browsing and graphing server",
+    "grpcping: single gRPC ping client",
+    "curl: single HTTP fetch for debugging",
+    "nc: single TCP or UDP connection (netcat-like)",
+    "tcp-echo: standalone TCP echo server",
+    "udp-echo: standalone UDP echo server",
+    "redirect: standalone HTTPS redirector",
+    "proxies: run only the -M and -P configured proxies",
+    "script: interactive or file-based grol scripting (e.g. ramp-up load scripts)",
+    "version / buildinfo: print version and build metadata"
+  ],
+  "constraints": [
+    "Docker image is under 6 MB; minimal external dependencies — not suitable as a replacement for full observability stacks",
+    "Fast HTTP/1.1 client does not support h2/h2c; HTTP/2 requires -stdclient or -h2 flag, which is slower",
+    "UDP echo server uses a single goroutine by default; -udp-async enables concurrent replies but adds complexity",
+    "Connection reuse, keepalive, and half-close options only apply to the fast HTTP/1.1 client, not stdclient",
+    "Result JSON files are stored flat in a single data directory; no built-in database or time-series backend",
+    "Fan-out proxy (-M) mirrors requests in parallel by default; serial mode (-multi-serial-mode) serialises them, increasing latency",
+    "grol scripting engine is embedded and simplified (not full Go); complex orchestration logic may hit language limits",
+    "Maximum echo-server response payload is capped at -maxpayloadsizekb (default 256 KB)",
+    "TLS mutual authentication (-mtls) requires a custom CA certificate; standard internet CAs only work for outbound client connections"
+  ],
+  "docker_services": [
+    {
+      "image": "fortio/fortio",
+      "note": "Single multi-architecture image (linux/amd64, linux/arm64, linux/ppc64le, linux/s390x); no official docker-compose.yaml found in the repository"
+    }
+  ],
+  "notable_absences": [
+    "No built-in distributed/coordinated load generation across multiple agents",
+    "No Prometheus metrics endpoint by default (pprof available, but not a /metrics scrape target)",
+    "No docker-compose.yaml in the repository — single-container usage only",
+    "No native WebSocket load testing support",
+    "No built-in CI result diffing or SLO pass/fail thresholds (must be scripted via grol or external tooling)"
+  ]
+}

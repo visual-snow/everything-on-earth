@@ -1,0 +1,55 @@
+{
+  "name": "ElastiFlow",
+  "repo_url": "https://github.com/robcowart/elastiflow",
+  "description": "Network flow analytics (Netflow, sFlow, IPFIX) with the Elastic Stack. Provides rich dashboards for flow data visualization.",
+  "domain": "elk-stack",
+  "secondary_domains": [
+    "netconf",
+    "network-flow-analytics"
+  ],
+  "protocols": [
+    "NetFlow v5/v9",
+    "sFlow",
+    "IPFIX"
+  ],
+  "provides": [
+    "kibana-visualization",
+    "ipfix-collection",
+    "flow-analytics",
+    "web-dashboard",
+    "streaming-telemetry",
+    "logstash-pipeline",
+    "netflow-collection",
+    "elasticsearch-indexing",
+    "sflow-collection",
+    "multi-service-compose"
+  ],
+  "needs": [
+    "elasticsearch-cluster",
+    "sufficient-ram-8gb+",
+    "java-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "elastiflow/flow-collector",
+    "compose_services_count": 3,
+    "docker_evidence": "Containerized deployment with Docker Compose including Elasticsearch, Logstash, and Kibana."
+  },
+  "github_metrics": {
+    "stars": 2700,
+    "last_commit": "2023-01-01",
+    "language": "Ruby",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Complete ELK-based flow analytics stack. Useful for evaluations involving network flow data visualization and Elasticsearch-based queries.",
+  "related_repos": [
+    "https://github.com/ahusking/elastiflow-docker",
+    "https://github.com/elastiflow/samplicator_docker"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "elastiflow"
+}

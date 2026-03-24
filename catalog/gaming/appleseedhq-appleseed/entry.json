@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/appleseedhq/appleseed",
+  "name": "appleseedhq/appleseed",
+  "description": "Modern open source physically-based rendering engine for animation and visual effects, featuring global illumination, spectral rendering, and both C++ and Python APIs. Designed for production VFX workflows.",
+  "sub_domain": "ray-tracing",
+  "score": 8,
+  "score_rationale": "2.3k-star production-oriented renderer with professional feature set and VFX industry targeting, though releases slowed after 2019.",
+  "stars": 2300,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2019-09-03",
+  "found_in_domains": [
+    "graphics-rendering",
+    "ray-tracing"
+  ],
+  "quality_score": 74.9,
+  "tags": [
+    "ray-tracing",
+    "vfx",
+    "pbr"
+  ],
+  "category": "Rendering Engine",
+  "summary": "Production-grade PBR renderer for animation and VFX",
+  "slug": "appleseedhq-appleseed"
+}

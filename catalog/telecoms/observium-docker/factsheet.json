@@ -1,0 +1,71 @@
+{
+  "slug": "observium-docker",
+  "name": "Observium Docker",
+  "what_it_is": "Containerized Observium Community Edition 24.12 network monitoring platform with MariaDB, Apache/PHP, Smokeping latency monitoring, and Ofelia-based job scheduling. Configuration is entirely environment-variable driven, automatically translated to PHP config at startup.",
+  "components": [
+    "httpd (Apache + PHP 8.2, Observium web UI and backend)",
+    "mariadb (MariaDB 11, database backend)",
+    "smokeping (latency monitoring with auto-generated Targets config)",
+    "ofelia (mcuadros/ofelia container-based cron scheduler)"
+  ],
+  "protocols": [
+    "SNMP v2c (default device polling via snmp-devices.txt import)",
+    "SNMP v3 (supported by Observium for device discovery and polling)",
+    "WMI (Windows Management Instrumentation for Windows hosts)",
+    "CDP (Cisco Discovery Protocol for topology mapping)",
+    "LLDP (Link Layer Discovery Protocol for topology mapping)",
+    "ICMP (Smokeping latency probing)",
+    "HTTP/HTTPS (web UI on port 8080 internally)"
+  ],
+  "measurement": [
+    "SNMP polling every 5 minutes (all devices via observium-wrapper poller)",
+    "Device discovery every 5 minutes for new devices, full rediscovery every 6 hours",
+    "Smokeping latency RRD data stored in smokeping-data volume",
+    "Observium RRD graph data stored in observium-rrd volume",
+    "Daily database and RRD backups retained for last 10 cycles",
+    "Health check on httpd via TCP probe to port 8080 every 10 seconds"
+  ],
+  "configuration": [
+    "All settings via .env file (copied from .env.example)",
+    "OBSERVIUM__ prefix env vars auto-translated to PHP $config[] at startup (supports nested keys via __, dash substitution via ___, indexed arrays via __N)",
+    "SNMP device bulk import via observium/conf/snmp-devices.txt (format: hostname|community|version|port|transport|description)",
+    "SHOW_GENERATED_CONFIG_DURING_STARTUP=yes logs generated PHP config (exposes secrets)",
+    "DEBUG_MODE=false env var enables debug logging",
+    "DB_CONNECTION_TIMEOUT configures MariaDB readiness wait (default 60 seconds, up to 3 config-generation retries)",
+    "Backup destination mapped via compose.override.yaml volume mount to ./backups:/backup/destination"
+  ],
+  "fault_injection": [
+    "Database connection failure: set DB_CONNECTION_TIMEOUT=1 or misconfigure DB_PASSWORD to trigger 'Failed to connect to database after N attempts' error path",
+    "Race condition simulation: scale httpd to >1 replica to exercise distributed initialization locking (file lock prevents duplicate schema creation)",
+    "Config generation failure: provide malformed OBSERVIUM__ vars to trigger 'Failed to generate configuration after 3 attempts' error",
+    "Missing required env vars (DB_USER, DB_PASSWORD, DB_NAME, OBSERVIUM_ADMIN_USER, OBSERVIUM_ADMIN_PASSWORD) cause container to exit immediately with ERROR log"
+  ],
+  "modes": [
+    "Single-node mode (default): all services in one docker compose up",
+    "Override mode: compose.override.yaml for custom volume mounts and port exposure",
+    "Debug mode: DEBUG_MODE=true + SHOW_GENERATED_CONFIG_DURING_STARTUP=yes for verbose startup logging",
+    "Manual device management: add devices post-startup via web UI (Devices > Add Device) or restart httpd to re-trigger snmp-devices.txt import"
+  ],
+  "constraints": [
+    "Docker Engine 20.10+ and Docker Compose 2.0+ required; does not support legacy docker-compose v1",
+    "First startup takes 2-3 minutes for database schema initialization; subsequent starts are faster",
+    "Ofelia scheduler requires access to Docker socket (/var/run/docker.sock) mounted read-only",
+    "Smokeping Targets config is regenerated every 5 minutes by ofelia; manual edits to /etc/smokeping/config.d/Targets are overwritten",
+    "Only the last 10 backups are retained (older ones deleted by trim-backup-* ofelia jobs)",
+    "MariaDB stop_grace_period is 45 seconds; forceful shutdown before this may corrupt the database",
+    "OBSERVIUM__ env var keys with leading-zero numeric values are kept as strings (e.g., '007') to prevent PHP integer coercion"
+  ],
+  "docker_services": [
+    "httpd",
+    "mariadb",
+    "smokeping",
+    "ofelia"
+  ],
+  "notable_absences": [
+    "No HTTPS/TLS termination in-container — reverse proxy required for production HTTPS",
+    "No built-in alerting/notification service — email alerts require OBSERVIUM__email__ config vars pointing to external SMTP",
+    "No Observium Professional/Enterprise features (syslog, netflow, billing) — Community Edition only",
+    "No pre-built Docker image published to registry — requires local build from source",
+    "No support for Observium Unix agent installation automation — agent-local/ directory provided but deployment is manual"
+  ]
+}

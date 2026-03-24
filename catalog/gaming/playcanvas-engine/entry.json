@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/playcanvas/engine",
+  "name": "playcanvas/engine",
+  "description": "PlayCanvas is a powerful web graphics runtime built on WebGL, WebGPU, WebXR, and glTF, used as the rendering engine behind the PlayCanvas cloud-hosted game editor.",
+  "sub_domain": "web-game-engines",
+  "score": 9,
+  "score_rationale": "14.6k stars, production-grade web 3D engine supporting WebGPU and WebXR with active March 2026 releases backing a professional cloud game platform.",
+  "stars": 14600,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "web-game-engines"
+  ],
+  "quality_score": 87.3,
+  "tags": [
+    "3d-games",
+    "javascript",
+    "webgl",
+    "webgpu",
+    "cloud-gaming"
+  ],
+  "category": "Production Web 3D Engine",
+  "summary": "Production-grade 3D engine powering PlayCanvas cloud editor with 14.6k stars",
+  "slug": "playcanvas-engine"
+}

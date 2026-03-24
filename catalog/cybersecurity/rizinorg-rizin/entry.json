@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/rizinorg/rizin",
+  "name": "rizinorg/rizin",
+  "description": "UNIX-like reverse engineering framework forked from radare2 with focus on usability and code quality, supporting binary analysis across 40+ CPU architectures.",
+  "sub_domain": "malware-reversing",
+  "score": 7,
+  "score_rationale": "3.5k stars, actively maintained radare2 fork with cleaner codebase and recent 2026 releases.",
+  "stars": 3500,
+  "language": "C",
+  "license": "LGPL-3.0",
+  "last_activity": "2026-02-01",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 70.4,
+  "tags": [
+    "binary-analysis",
+    "reverse-engineering",
+    "security-tool"
+  ],
+  "category": "Binary Analysis",
+  "summary": "UNIX-like reverse engineering framework forked from radare2 with focus on usability and code qual...",
+  "slug": "rizinorg-rizin"
+}

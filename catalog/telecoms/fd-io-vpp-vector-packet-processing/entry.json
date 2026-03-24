@@ -1,0 +1,76 @@
+{
+  "name": "FD.io VPP (Vector Packet Processing)",
+  "repo_url": "https://github.com/fdio/vpp",
+  "description": "Vector Packet Processing platform \u2014 extensible framework providing production-quality switch/router functionality. Open-source version of Cisco VPP technology for high-performance packet processing on commodity CPUs.",
+  "domain": "high-performance-dataplane",
+  "secondary_domains": [
+    "network-function-virtualization",
+    "packet-processing",
+    "segment-routing",
+    "userspace-forwarding"
+  ],
+  "protocols": [
+    "GRE",
+    "IPsec",
+    "IPv4",
+    "IPv6",
+    "LISP",
+    "MPLS",
+    "SR",
+    "VXLAN"
+  ],
+  "provides": [
+    "segment-routing",
+    "ipsec-tunnel",
+    "linux-control-plane-integration",
+    "containerlab-node",
+    "gre-tunnel",
+    "mpls-dataplane",
+    "high-performance-packet-processing",
+    "acl-enforcement",
+    "nat64",
+    "lisp-dataplane",
+    "ipv4-forwarding",
+    "ipv6-forwarding",
+    "config-mutation",
+    "vswitch",
+    "vxlan-termination",
+    "userspace-networking",
+    "vrouter",
+    "nat44"
+  ],
+  "needs": [
+    "dpdk-compatible-nic",
+    "hugepages",
+    "linux-kernel-4.15+",
+    "privileged-container",
+    "ligato-vpp-agent",
+    "community-docker-image"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ligato/vpp-base",
+    "compose_services_count": 0,
+    "docker_evidence": "No official Docker images from FD.io; community images from ligato/vpp-base and travelping/vpp. Containerlab provides FD.io VPP images for lab scenarios."
+  },
+  "github_metrics": {
+    "stars": 1500,
+    "last_commit": "2026-03",
+    "language": "C",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "High-performance data plane (10Gbps+). Good for testing forwarding plane scenarios, SR, IPsec tunnels. Community Docker images via Ligato and Travelping. Pairs well with Ligato VPP Agent for control plane management. High-performance userspace networking. Native containerlab support (kind: fdio_vpp). IPng Networks provides containerlab-ready image at git.ipng.ch/ipng/vpp-containerlab. Linux Control Plane plugin for kernel integration.",
+  "related_repos": [
+    "https://github.com/contiv/vpp",
+    "https://github.com/ligato/vpp-agent",
+    "https://github.com/ligato/vpp-base",
+    "https://github.com/travelping/fpp-vpp"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/virtual-nos.json",
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "fd-io-vpp-vector-packet-processing"
+}

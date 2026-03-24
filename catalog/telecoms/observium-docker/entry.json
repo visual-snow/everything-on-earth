@@ -1,0 +1,59 @@
+{
+  "name": "Observium Docker",
+  "repo_url": "https://github.com/trick77/docker-observium",
+  "description": "Containerized Observium Community Edition with auto-provisioned MariaDB, Apache, Smokeping integration, and SNMP device auto-discovery.",
+  "domain": "infrastructure-visibility",
+  "secondary_domains": [
+    "netconf",
+    "nms",
+    "observium",
+    "snmp-discovery"
+  ],
+  "protocols": [
+    "SNMP",
+    "WMI",
+    "CDP",
+    "LLDP"
+  ],
+  "provides": [
+    "smokeping-integration",
+    "network-auto-discovery",
+    "snmp-monitoring",
+    "web-dashboard",
+    "network-health-visualization",
+    "lldp-cdp-topology",
+    "multi-service-compose-stack",
+    "device-polling",
+    "streaming-telemetry",
+    "mariadb-backend"
+  ],
+  "needs": [
+    "snmp-enabled-devices",
+    "network-access-to-targets",
+    "docker-engine",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 3,
+    "docker_evidence": "Containerized Observium CE 24.12 with auto-provisioned MariaDB, Apache, Smokeping. Automated SNMP device import."
+  },
+  "github_metrics": {
+    "stars": 50,
+    "last_commit": "2025-01-01",
+    "language": "Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Beautiful network monitoring UI with SNMP auto-discovery. Good for evaluations involving visual network health analysis.",
+  "related_repos": [
+    "https://github.com/pvrmza/docker-observium",
+    "https://github.com/somsakc/docker-observium"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "observium-docker"
+}

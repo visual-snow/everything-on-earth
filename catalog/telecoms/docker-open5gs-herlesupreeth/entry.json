@@ -1,0 +1,97 @@
+{
+  "name": "docker_open5gs (herlesupreeth)",
+  "repo_url": "https://github.com/herlesupreeth/docker_open5gs",
+  "description": "Docker containerization of complete 4G/5G telecom network including Open5GS core, IMS (Kamailio/OpenSIPS), srsRAN, UERANSIM, and supporting infrastructure. 19+ deployment scenarios.",
+  "domain": "4g-5g-core-network",
+  "secondary_domains": [
+    "containerized-ran-core",
+    "end-to-end-mobile-network",
+    "ims-volte-vonr",
+    "multi-protocol-telecom-lab"
+  ],
+  "protocols": [
+    "5G NR",
+    "Diameter",
+    "GTP",
+    "GTP-C",
+    "GTP-U",
+    "IKEv2",
+    "LTE",
+    "NAS",
+    "NGAP",
+    "PFCP",
+    "S1AP",
+    "SBI",
+    "SCTP",
+    "SIP"
+  ],
+  "provides": [
+    "opensips-ims",
+    "4g-core-mme",
+    "end-to-end-4g-5g-lab",
+    "4g-core-pgw",
+    "gtp-tunneling",
+    "sip-signaling",
+    "ueransim-integration",
+    "web-dashboard",
+    "srsran-integration",
+    "volte-support",
+    "docker-compose-orchestration",
+    "vonr-support",
+    "s1ap-interface",
+    "multi-scenario-deployment",
+    "pfcp-session-management",
+    "subscriber-management",
+    "ngap-interface",
+    "config-mutation",
+    "5g-core-amf",
+    "5g-core-smf",
+    "kamailio-ims",
+    "sctp-transport",
+    "ims-stack",
+    "5g-core-upf",
+    "4g-core-sgw",
+    "diameter-signaling",
+    "zmq-rf-simulation"
+  ],
+  "needs": [
+    "mongodb",
+    "linux-kernel-5.4+",
+    "sctp-support",
+    "docker-engine",
+    "docker-compose-v2",
+    "tun-tap-support",
+    "ip-forwarding"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "ghcr.io/herlesupreeth/docker_open5gs:master",
+    "compose_services_count": 20,
+    "docker_evidence": "docker pull ghcr.io/herlesupreeth/docker_open5gs:master; docker compose -f sa-deploy.yaml up"
+  },
+  "github_metrics": {
+    "stars": 600,
+    "last_commit": "2026",
+    "language": "Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 10,
+  "eval_notes": "Most feature-rich Docker deployment of Open5GS. Includes IMS/VoLTE/VoNR which no other Docker wrapper provides. Excellent for testing voice services over 5G. Multiple deployment scenarios (4G, 5G SA, IMS). Most complete all-in-one Docker environment for 5G/4G testing. Supports VoLTE/VoNR with IMS. Multiple RAN options (srsRAN SDR/ZMQ, UERANSIM). Ideal for end-to-end agentic evals requiring full network stack. Most comprehensive Docker-based telecom lab with 521 stars. Full 4G+5G+IMS stack with multiple deployment scenarios. Covers Diameter, SCTP, GTP, PFCP, SIP signaling. Gold standard for multi-protocol agentic evaluations.",
+  "related_repos": [
+    "https://github.com/aligungr/ueransim",
+    "https://github.com/edgecomllc/eupf",
+    "https://github.com/kamailio/kamailio",
+    "https://github.com/open5gs/open5gs",
+    "https://github.com/opensips/opensips",
+    "https://github.com/srsran/srsran_4g",
+    "https://github.com/srsran/srsran_project",
+    "https://github.com/voicenterteam/openimss"
+  ],
+  "_sources": [
+    "discovery/5g-core.json",
+    "discovery/ran-ue.json",
+    "discovery/signaling.json"
+  ],
+  "slug": "docker-open5gs-herlesupreeth"
+}

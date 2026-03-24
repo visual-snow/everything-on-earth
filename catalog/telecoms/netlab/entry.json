@@ -1,0 +1,83 @@
+{
+  "name": "netlab",
+  "repo_url": "https://github.com/ipspace/netlab",
+  "description": "Infrastructure-as-code tool for network labs. Describe high-level network topology and routing design in YAML; netlab generates Vagrantfile, containerlab topology, Ansible inventory, IPv4/IPv6 addressing plans, and device configurations automatically.",
+  "domain": "infrastructure-as-code",
+  "secondary_domains": [
+    "multi-protocol-routing",
+    "network-lab-automation",
+    "network-topology-orchestration"
+  ],
+  "protocols": [
+    "Ansible",
+    "BFD",
+    "BGP",
+    "EIGRP",
+    "EVPN",
+    "IS-IS",
+    "LLDP",
+    "MPLS",
+    "OSPF",
+    "RIP",
+    "SRv6",
+    "SSH/CLI",
+    "VRRP",
+    "VXLAN"
+  ],
+  "provides": [
+    "multi-vendor-lab",
+    "containerlab-config-generation",
+    "yaml-driven-topology",
+    "vxlan-configuration",
+    "isis-configuration",
+    "ansible-inventory-generation",
+    "mpls-configuration",
+    "bgp-configuration",
+    "bfd-configuration",
+    "ipv4-ipv6-addressing",
+    "vagrant-topology-generation",
+    "vrrp-configuration",
+    "topology-mutation",
+    "config-mutation",
+    "network-topology-generation",
+    "network-digital-twin",
+    "jinja2-device-templates",
+    "srv6-configuration",
+    "ospf-configuration",
+    "evpn-configuration"
+  ],
+  "needs": [
+    "containerlab",
+    "docker-runtime",
+    "ansible",
+    "python3",
+    "network-device-images",
+    "libvirt-kvm"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Create containerlab configuration file to run Docker containers. The netlab connect and netlab exec commands support docker exec for container-based lab environments."
+  },
+  "github_metrics": {
+    "stars": 652,
+    "last_commit": "2026-03",
+    "language": "Python",
+    "license": "unknown"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "High-level abstraction layer over Containerlab/Vagrant. YAML-driven topology definition with automatic protocol configuration makes it excellent for rapidly generating diverse network digital twin scenarios for agentic evaluations. High-level abstraction layer over containerlab. YAML-based topology description auto-generates containerlab configs and protocol configurations. Excellent for rapidly spinning up complex routing labs for agentic evaluations. Uses Ansible playbooks and Jinja2 templates for device configuration. Supports containerlab (Docker) and libvirt/KVM backends. Can run in GitHub Codespaces. Companion repo ipspace/netlab-examples has dozens of sample topologies.",
+  "related_repos": [
+    "https://github.com/ipspace/netlab-examples",
+    "https://github.com/srl-labs/containerlab",
+    "https://github.com/vrnetlab/vrnetlab"
+  ],
+  "_sources": [
+    "discovery/digital-twin.json",
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/transport.json"
+  ],
+  "slug": "netlab"
+}

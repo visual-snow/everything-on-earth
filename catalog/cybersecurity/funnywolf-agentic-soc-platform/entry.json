@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/funnywolf/agentic-soc-platform",
+  "name": "FunnyWolf/agentic-soc-platform",
+  "description": "Open-source agent-centric automated security operations platform integrating Langgraph and Dify AI agent frameworks with webhook-based alert processing and Redis Stream SIEM integration for Splunk and Kibana, supporting local LLM deployment.",
+  "sub_domain": "ai-security",
+  "score": 6,
+  "score_rationale": "Actively maintained AI SOC automation platform with 614 stars and January 2026 v0.2.0 release, providing practical AI-driven security operations integration.",
+  "stars": 614,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-28",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 58.3,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "Open-source agent-centric automated security operations platform integrating Langgraph and Dify AI a",
+  "slug": "funnywolf-agentic-soc-platform"
+}

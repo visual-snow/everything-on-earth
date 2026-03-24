@@ -1,0 +1,61 @@
+{
+  "name": "pyATS Docker",
+  "repo_url": "https://github.com/ciscotestautomation/pyats-docker",
+  "description": "Official Cisco pyATS test automation framework Docker image. Includes pyATS/Genie libraries for network device testing including NETCONF, RESTCONF, CLI, and gNMI interfaces.",
+  "domain": "cisco-pyats",
+  "secondary_domains": [
+    "genie-parsers",
+    "multi-vendor-netconf",
+    "network-test-automation"
+  ],
+  "protocols": [
+    "NETCONF",
+    "RESTCONF",
+    "CLI",
+    "gNMI",
+    "SNMP"
+  ],
+  "provides": [
+    "netconf-client",
+    "restconf-client",
+    "gnmi-client",
+    "cli-automation",
+    "snmp-client",
+    "network-test-automation",
+    "genie-parsers",
+    "yang-model-validation",
+    "multi-vendor-device-testing",
+    "test-reporting-dashboard"
+  ],
+  "needs": [
+    "real-network-devices",
+    "device-credentials",
+    "testbed-yaml-config",
+    "docker-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ciscotestautomation/pyats",
+    "compose_services_count": 0,
+    "docker_evidence": "Official Docker image on Docker Hub (ciscotestautomation/pyats). Supports pip requirements mounting for custom dependencies. Built-in examples at /pyats workspace."
+  },
+  "github_metrics": {
+    "stars": 200,
+    "last_commit": "2025-09",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Cisco's production-grade network test automation framework. Supports multi-vendor NETCONF testing with Genie parsers. XPRESSO dashboard available for test visualization. Industry-standard for Cisco network testing.",
+  "related_repos": [
+    "https://github.com/ciscotestautomation/pyats-image-builder",
+    "https://github.com/ciscotestautomation/xpresso",
+    "https://github.com/automateyournetwork/portable_pyats",
+    "https://github.com/muhammad-rafi/pyats-aetest"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/netconf-testing.json"
+  ],
+  "slug": "pyats-docker"
+}

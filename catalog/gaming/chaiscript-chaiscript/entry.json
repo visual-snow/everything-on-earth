@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chaiscript/chaiscript",
+  "name": "ChaiScript/ChaiScript",
+  "description": "A header-only embedded scripting language designed from the ground up for C++17, offering type-safe bindings to C++ classes and functions without extra tooling or build steps.",
+  "sub_domain": "game-scripting",
+  "score": 7,
+  "score_rationale": "3.1k stars, uniquely designed to feel native to C++ game engine codebases with zero-dependency header-only integration.",
+  "stars": 3100,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-scripting"
+  ],
+  "quality_score": 69.9,
+  "tags": [
+    "cpp",
+    "header-only",
+    "scripting",
+    "type-safe",
+    "native"
+  ],
+  "category": "C++ Scripting Language",
+  "summary": "Header-only C++ scripting with native type integration",
+  "slug": "chaiscript-chaiscript"
+}

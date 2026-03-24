@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mywave82/opencubicplayer",
+  "name": "mywave82/opencubicplayer",
+  "description": "Open Cubic Player is a Unix text-based music visualizer and player supporting over 100 formats including tracker modules, chiptunes, and demoscene formats, with FFT analyzer and oscilloscope displays.",
+  "sub_domain": "chiptune-trackers",
+  "score": 6,
+  "score_rationale": "Extensive format-support Unix chiptune player with 407 stars, maintained through 2025 with deep demoscene and tracker music coverage.",
+  "stars": 407,
+  "language": "C",
+  "license": "GPL-2.0",
+  "last_activity": "2025-01-19",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 56.9,
+  "tags": [
+    "music-player",
+    "tracker",
+    "chiptune",
+    "demoscene",
+    "visualizer"
+  ],
+  "category": "Music Players",
+  "summary": "Unix tracker music player with 100+ formats and visualizer",
+  "slug": "mywave82-opencubicplayer"
+}

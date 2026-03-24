@@ -1,0 +1,35 @@
+{
+  "slug": "docker-dummyran",
+  "name": "docker-dummyran",
+  "what_it_is": "A Docker-based dummy 4G LTE Radio Access Network (RAN) simulator capable of performing the MME (Mobility Management Entity) handshake. It is intended for testing and development of LTE core network components without physical radio hardware.",
+  "components": [
+    "Dummy RAN (eNodeB simulator)",
+    "MME handshake client"
+  ],
+  "protocols": [
+    "S1AP (S1 Application Protocol — LTE RAN-to-MME interface)",
+    "SCTP (Stream Control Transmission Protocol — transport for S1AP)"
+  ],
+  "measurement": [],
+  "configuration": [
+    "MME IP address / hostname (target for S1AP connection)",
+    "MME port (default S1AP port 36412)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Dummy RAN mode: initiates S1 Setup Request toward a real or simulated MME"
+  ],
+  "constraints": [
+    "Repository returned HTTP 404 at fetch time — may be deleted, renamed, or private; all fields derived from entry metadata and known LTE S1AP conventions, not from live source",
+    "Simulates only the control-plane MME handshake (S1 Setup); does not simulate user-plane (GTP-U) traffic or full E-UTRAN functionality"
+  ],
+  "docker_services": [
+    "dummyran (eNodeB simulator container)"
+  ],
+  "notable_absences": [
+    "No live README or docker-compose.yml was retrievable (repo 404)",
+    "No user-plane (GTP-U/data-path) simulation",
+    "No built-in traffic generation or load testing capability",
+    "No UE (User Equipment) simulator included"
+  ]
+}

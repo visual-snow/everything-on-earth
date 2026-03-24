@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/classicube/classicube",
+  "name": "ClassiCube/ClassiCube",
+  "description": "A custom Minecraft Classic-compatible client written in C from scratch, targeting Windows, macOS, Linux, and BSD with minimal memory usage and support for OpenGL/Direct3D 9.",
+  "sub_domain": "voxel-engines",
+  "score": 6,
+  "score_rationale": "1.9k stars, actively maintained classic voxel client with broad platform support and a dedicated retro Minecraft community.",
+  "stars": 1900,
+  "language": "C",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "voxel-engines"
+  ],
+  "quality_score": 62.2,
+  "tags": [
+    "minecraft-client",
+    "voxel",
+    "c",
+    "opengl",
+    "retro"
+  ],
+  "category": "Minecraft Classic Client",
+  "summary": "Lightweight Minecraft Classic client with broad platform support",
+  "slug": "classicube-classicube"
+}

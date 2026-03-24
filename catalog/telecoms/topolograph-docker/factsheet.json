@@ -1,0 +1,68 @@
+{
+  "slug": "topolograph-docker",
+  "name": "Topolograph Docker",
+  "what_it_is": "A containerized network topology visualization and what-if analysis platform that collects Link State Database (LSDB) information from routers running OSPF or IS-IS and renders an interactive graph. It also ships an MCP server so LLM agents can query topology, calculate paths, and monitor routing events via API.",
+  "components": [
+    "flask — Python/Flask web application and REST API backend (vadims06/topolograph:latest)",
+    "mongodb — Persistent store for topology data (mongo:4.2)",
+    "mcp-server — Model Context Protocol server exposing Topolograph API to AI agents (vadims06/topolograph-mcp-server:v1.0.0)",
+    "webserver — Nginx reverse proxy serving the UI on configurable port",
+    "flask-create-creds-from-env — One-shot init container that seeds API credentials from environment variables"
+  ],
+  "protocols": [
+    "OSPF (OSPFv2) — topology collection via NAPALM device login and LSDB retrieval",
+    "OSPFv3 — mentioned in description as supported",
+    "IS-IS — topology collection and event monitoring",
+    "BGP-LS — listed in project description; not explicitly documented in README"
+  ],
+  "measurement": [
+    "Path calculation between any two nodes in the topology graph",
+    "Backup path analysis (loop-free alternates / failover paths)",
+    "OSPF/IS-IS event monitoring (link-state change detection)",
+    "Graph connectivity and node/edge status queries",
+    "Hostname resolution of OSPF Router IDs via configurable DNS server"
+  ],
+  "configuration": [
+    "TOPOLOGRAPH_PORT — HTTP port for the web UI (default 8080)",
+    "MCP_PORT — HTTP port for the MCP server (default 8000)",
+    "NAPALM_USERNAME / NAPALM_PASSWORD / NAPALM_PORT — credentials for device login to pull LSDB",
+    "DNS — IP address of DNS server used to resolve router IDs to hostnames",
+    "TOPOLOGRAPH_WEB_API_USERNAME_EMAIL / TOPOLOGRAPH_WEB_API_PASSWORD — API and web login credentials",
+    "TOPOLOGRAPH_WEB_API_AUTHORISED_NETWORKS — IP whitelist for API request sources",
+    "MONGODB_DATABASE / MONGODB_USERNAME / MONGODB_PASSWORD / MONGODB_HOSTNAME — MongoDB connection settings",
+    "NETBOX_URL / NETBOX_RO_TOKEN — optional NetBox integration for hostname enrichment (marked deprecated in README)"
+  ],
+  "fault_injection": [
+    "What-if analysis: the project description explicitly names 'what-if analysis' as a core feature, implying the ability to simulate link or node failures against the stored topology graph",
+    "No programmatic fault injection API is documented in the README or docker-compose; fault scenarios appear to be exploratory via the web UI or MCP path-calculation tools"
+  ],
+  "modes": [
+    "Interactive web UI mode — browser-based topology visualization at http://localhost:8080/",
+    "REST API mode — authenticated JSON API consumed by scripts or external tools (Swagger host configurable)",
+    "MCP agent mode — AI/LLM agents connect to http://localhost:8000/mcp for structured network queries",
+    "Automated install mode — install.sh script pulls images, configures .env, and starts all services"
+  ],
+  "constraints": [
+    "MongoDB is pinned to version 4.2; README notes a required upgrade path to 4.4.29 before moving further, indicating version lock risk",
+    "NAPALM-based LSDB collection requires SSH/API access to each monitored router with valid credentials — no passive-only or SNMP collection path documented",
+    "API source IP whitelisting (TOPOLOGRAPH_WEB_API_AUTHORISED_NETWORKS) must be configured before API calls succeed; misconfiguration silently blocks access",
+    "MCP server authenticates via API token passed by the agent; token provisioning is manual and not automated in the default setup",
+    "NetBox integration is deprecated (struck through in README); hostname enrichment depends solely on DNS resolution",
+    "BGP-LS support is claimed in the project description but absent from the README and docker-compose environment variables"
+  ],
+  "docker_services": [
+    "flask — port 5000 (internal only), image vadims06/topolograph:latest, networks: frontend + backend",
+    "mongodb — port 27017:27017, image mongo:4.2, volume mongodbdata:/data/db, network: backend",
+    "mcp-server — port ${MCP_PORT:-8000}:8000, image vadims06/topolograph-mcp-server:v1.0.0, network: frontend",
+    "webserver — port ${TOPOLOGRAPH_PORT:-8080}:${TOPOLOGRAPH_PORT:-8080}, built from ./webserver/Dockerfile, volume nginxdata, depends on flask + mcp-server, network: frontend",
+    "flask-create-creds-from-env — ephemeral init container, same image as flask, bind-mounts ./init/create_credentials_from_env.py"
+  ],
+  "notable_absences": [
+    "No BGP-LS collector or configuration documented despite being listed as a supported protocol",
+    "No built-in watcher/collector service in docker-compose — external OSPF/IS-IS watcher agents (referenced by install.sh) are a separate component not included in this repo",
+    "No TLS/HTTPS configuration for the web UI or MCP server in the provided compose file",
+    "No health checks defined for any service in docker-compose.yml",
+    "No rate limiting or request throttling documented for the MCP or REST API",
+    "No backup or restore procedure for the MongoDB volume documented"
+  ]
+}

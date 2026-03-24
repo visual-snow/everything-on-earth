@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sqlmapproject/sqlmap",
+  "name": "sqlmapproject/sqlmap",
+  "description": "Open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over database servers.",
+  "sub_domain": "vuln-scanners",
+  "score": 10,
+  "score_rationale": "Iconic, industry-standard SQL injection scanner with 36.9k stars, actively maintained since 2006, and widely used in penetration testing engagements globally.",
+  "stars": 36900,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "vuln-scanners",
+    "webapp-security"
+  ],
+  "quality_score": 96.5,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "sqlmapproject-sqlmap"
+}

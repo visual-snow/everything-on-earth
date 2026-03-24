@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/turbinia",
+  "name": "google/turbinia",
+  "description": "A cloud-based framework for automating and distributing forensic workloads by orchestrating tools like Plaso, TSK, and strings across cloud infrastructure. Currently in maintenance mode with new development directed to the OpenRelik project.",
+  "sub_domain": "forensics-ir",
+  "score": 6,
+  "score_rationale": "Useful cloud forensics automation framework with 787 stars but officially in maintenance mode as of 2025, limiting its relevance for new deployments.",
+  "stars": 787,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-02-05",
+  "found_in_domains": [
+    "forensics-ir"
+  ],
+  "quality_score": 59.2,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "google-turbinia"
+}

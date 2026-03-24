@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/sgxgsx/bluetoolkit",
+  "name": "sgxgsx/bluetoolkit",
+  "description": "Extensible Bluetooth Classic vulnerability testing framework supporting 43 public exploits with recon, exploit, and reporting modules for BR/EDR security assessment.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 7,
+  "score_rationale": "Emerging Bluetooth Classic pentesting framework with 671 stars and active updates into 2026; covers a gap not addressed by most tools.",
+  "stars": 671,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 64.6,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "sgxgsx-bluetoolkit"
+}

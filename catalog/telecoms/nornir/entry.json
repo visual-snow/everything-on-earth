@@ -1,0 +1,70 @@
+{
+  "name": "Nornir",
+  "repo_url": "https://github.com/nornir-automation/nornir",
+  "description": "Pluggable multi-threaded Python automation framework with inventory management for operating collections of network devices. Used as the execution engine behind Nautobot Golden Config, SuzieQ, and many other tools.",
+  "domain": "inventory-orchestration",
+  "secondary_domains": [
+    "multi-vendor-config",
+    "netconf",
+    "netconf-restconf"
+  ],
+  "protocols": [
+    "NETCONF (via nornir-netconf)",
+    "RESTCONF",
+    "SSH/CLI (via scrapli/netmiko)",
+    "gNMI"
+  ],
+  "provides": [
+    "network-automation-framework",
+    "multi-threaded-task-execution",
+    "inventory-management",
+    "netconf-client",
+    "restconf-client",
+    "ssh-cli-automation",
+    "gnmi-client",
+    "multi-vendor-device-access",
+    "config-templating",
+    "plugin-ecosystem"
+  ],
+  "needs": [
+    "network-devices-or-emulator",
+    "nornir-plugins",
+    "containerlab-or-similar",
+    "python-3.8+",
+    "napalm-or-scrapli-or-netmiko"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile in repo using Poetry. Often embedded in other Docker-based platforms (Nautobot, Infrahub)."
+  },
+  "github_metrics": {
+    "stars": 1600,
+    "last_commit": "2026-03-22",
+    "language": "",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Dockerfile included for containerized deployment. Works with NAPALM, Scrapli, Netmiko plugins for multi-vendor access. Containerlab auto-generates Nornir inventory files. Commonly paired with containerlab for config automation labs.",
+  "related_repos": [
+    "dmulyalin/salt-nornir",
+    "dmulyalin/salt-nornir-docker",
+    "https://github.com/scrapli/scrapli_netconf",
+    "https://github.com/srl-labs/nornir-srl",
+    "nautobot/nornir-nautobot",
+    "nornir-automation/nornir_napalm",
+    "nornir-automation/nornir_netmiko",
+    "nornir-automation/nornir_scrapli",
+    "nornir-automation/nornir_utils",
+    "opsmill/nornir-infrahub"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-compliance.json",
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/netauto-frameworks.json"
+  ],
+  "slug": "nornir"
+}

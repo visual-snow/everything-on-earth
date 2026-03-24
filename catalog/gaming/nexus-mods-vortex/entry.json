@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nexus-mods/vortex",
+  "name": "Nexus-Mods/Vortex",
+  "description": "Open-source mod manager from Nexus Mods supporting 250+ games including Skyrim, Fallout, and Cyberpunk 2077, with automated load order management, mod profiles, and deep Nexus Mods platform integration.",
+  "sub_domain": "modding-frameworks",
+  "score": 8,
+  "score_rationale": "The most widely used general-purpose mod manager with 1.3k stars, GPL-3.0, actively maintained through March 2026, and backed by the largest mod hosting platform.",
+  "stars": 1300,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "modding-frameworks"
+  ],
+  "quality_score": 72.9,
+  "tags": [
+    "mod-manager",
+    "load-order",
+    "nexus-mods"
+  ],
+  "category": "Mod Manager",
+  "summary": "Most popular mod manager for 250+ games with automated load ordering",
+  "slug": "nexus-mods-vortex"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/trufflesecurity/trufflehog",
+  "name": "trufflesecurity/trufflehog",
+  "description": "Secrets discovery, classification, validation, and analysis tool that finds leaked credentials across Git repos, GitHub orgs, S3, Docker images, and more, detecting 800+ secret types.",
+  "sub_domain": "webapp-security",
+  "score": 9,
+  "score_rationale": "25.2k stars, the leading secrets scanning tool widely used in CI/CD pipelines with active development.",
+  "stars": 25200,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 89.2,
+  "tags": [
+    "malware",
+    "analysis",
+    "detection"
+  ],
+  "category": "Malware Analysis",
+  "summary": "Malware analysis and detection tools",
+  "slug": "trufflesecurity-trufflehog"
+}

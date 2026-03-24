@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/rfidresearchgroup/proxmark3",
+  "name": "rfidresearchgroup/proxmark3",
+  "description": "The Iceman Fork of Proxmark3 \u2014 the leading RFID/NFC research and attack platform supporting LF/HF card reading, cloning, emulation, and protocol analysis.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 9,
+  "score_rationale": "Gold-standard RFID security tool with 5.4k stars and daily active development into 2026; the go-to hardware for RFID pentesting.",
+  "stars": 5370,
+  "language": "C",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 83.8,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "rfidresearchgroup-proxmark3"
+}

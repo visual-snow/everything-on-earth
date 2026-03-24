@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/skylot/jadx",
+  "name": "skylot/jadx",
+  "description": "Command-line and GUI Android decompiler that produces readable Java source code from Dalvik bytecode (.dex, .apk, .jar, .aab) with a built-in deobfuscator and Smali debugger.",
+  "sub_domain": "Mobile Security",
+  "score": 10,
+  "score_rationale": "The go-to Android decompilation tool with 47.8k stars and active development (v1.5.5 released February 2026), essential for every Android security assessment.",
+  "stars": 47800,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 97.4,
+  "tags": [
+    "decompilation",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Security Tool",
+  "summary": "Command-line and GUI Android decompiler that produces readable Java source code from Dalvik bytec...",
+  "slug": "skylot-jadx"
+}

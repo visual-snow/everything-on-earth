@@ -1,0 +1,64 @@
+{
+  "name": "Topolograph Docker",
+  "repo_url": "https://github.com/vadims06/topolograph-docker",
+  "description": "Dockerized OSPF/IS-IS topology visualization and what-if analysis tool. Builds network topology from LSDB data, calculates shortest paths, and simulates link/node failures. Includes MCP server for LLM/AI agent integration.",
+  "domain": "agentic-netops",
+  "secondary_domains": [
+    "failure-analysis",
+    "igp-topology",
+    "network-simulation",
+    "ospf-isis"
+  ],
+  "protocols": [
+    "OSPF",
+    "OSPFv3",
+    "IS-IS",
+    "BGP-LS"
+  ],
+  "provides": [
+    "ospf-topology-visualization",
+    "multi-vendor-support",
+    "web-dashboard",
+    "mcp-server",
+    "lsdb-ingestion",
+    "fault-injection",
+    "node-failure-simulation",
+    "link-failure-simulation",
+    "shortest-path-calculation",
+    "rest-api",
+    "ai-agent-integration",
+    "traffic-flow-analysis",
+    "what-if-failure-simulation",
+    "isis-topology-visualization",
+    "protocol-analysis",
+    "bgp-ls-support"
+  ],
+  "needs": [
+    "docker-compose",
+    "lsdb-data-source",
+    "ospf-router-or-collector"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "vadims06/topolograph",
+    "compose_services_count": 2,
+    "docker_evidence": "Run your local copy of Topolograph inside your on-premises network using the docker image. The Docker setup includes an MCP server that enables AI agents and Large Language Models to interact with the Topolograph API."
+  },
+  "github_metrics": {
+    "stars": 55,
+    "last_commit": "unknown",
+    "language": "Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Unique what-if failure simulation for OSPF/IS-IS topologies with MCP server for AI agent integration. Simulates link/router shutdown and shows traffic flow changes. Directly supports agentic network analysis use cases. Supports multi-vendor devices (Cisco, Juniper, Arista, Nokia, Huawei).",
+  "related_repos": [
+    "https://github.com/vadims06/topolograph",
+    "https://github.com/vadims06/ospfwatcher"
+  ],
+  "_sources": [
+    "discovery/digital-twin.json"
+  ],
+  "slug": "topolograph-docker"
+}

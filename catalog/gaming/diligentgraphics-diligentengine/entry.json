@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/diligentgraphics/diligentengine",
+  "name": "DiligentGraphics/DiligentEngine",
+  "description": "Modern cross-platform low-level graphics library and rendering framework providing a lightweight API abstraction over Direct3D12, Vulkan, Metal, WebGPU, and legacy OpenGL/D3D11.",
+  "sub_domain": "graphics-rendering",
+  "score": 8,
+  "score_rationale": "Solid modern graphics abstraction layer with 4.2k stars, supporting the full range of APIs from legacy to WebGPU with active maintenance.",
+  "stars": 4200,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-03-01",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 77.0,
+  "tags": [
+    "graphics",
+    "abstraction",
+    "api"
+  ],
+  "category": "Graphics Abstraction",
+  "summary": "Modern graphics abstraction supporting legacy to WebGPU",
+  "slug": "diligentgraphics-diligentengine"
+}

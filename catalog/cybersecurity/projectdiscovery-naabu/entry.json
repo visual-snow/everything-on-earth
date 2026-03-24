@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/projectdiscovery/naabu",
+  "name": "projectdiscovery/naabu",
+  "description": "Fast port scanner written in Go focused on reliability and simplicity, designed for use with other tools in attack surface discovery during bug bounties and pentests.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 8,
+  "score_rationale": "Go-native port scanner with 5.8k stars that integrates natively with the ProjectDiscovery ecosystem and is widely used for host discovery in bug bounty workflows.",
+  "stars": 5800,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2025-01-20",
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 78.1,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Fast port scanner written in Go focused on reliability and simplicity, designed for use with other t",
+  "slug": "projectdiscovery-naabu"
+}

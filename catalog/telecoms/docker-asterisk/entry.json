@@ -1,0 +1,55 @@
+{
+  "name": "docker-asterisk",
+  "repo_url": "https://github.com/mlan/docker-asterisk",
+  "description": "Docker image providing Asterisk PBX with PrivateDial configuration, WebSMS messaging, and AutoBan intrusion detection. Multi-variant images (mini, base, full, extra).",
+  "domain": "asterisk",
+  "secondary_domains": [
+    "unified-communications",
+    "voip"
+  ],
+  "protocols": [
+    "SIP",
+    "RTP",
+    "SRTP",
+    "HTTP",
+    "HTTPS"
+  ],
+  "provides": [
+    "config-mutation",
+    "health-checks",
+    "srtp-encryption",
+    "sip-server",
+    "tls-support",
+    "webrtc-sip",
+    "multi-variant-docker-image",
+    "intrusion-detection",
+    "asterisk-pbx",
+    "voip-gateway",
+    "websms-messaging"
+  ],
+  "needs": [
+    "docker-compose",
+    "persistent-storage",
+    "sip-client"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "mlan/asterisk",
+    "compose_services_count": 0,
+    "docker_evidence": "Multi-stage Dockerfile with Alpine Linux base. Docker Hub image mlan/asterisk with variants (mini, base, full, extra). Demo docker-compose in demo directory. GitHub Actions CI/CD."
+  },
+  "github_metrics": {
+    "stars": 269,
+    "last_commit": "2025-01-01",
+    "language": "Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Well-maintained Asterisk Docker image with 269 stars. Multiple variants for different use cases. TLS, health checks, and persistent storage support make it suitable for PBX evaluation scenarios.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/signaling.json"
+  ],
+  "slug": "docker-asterisk"
+}

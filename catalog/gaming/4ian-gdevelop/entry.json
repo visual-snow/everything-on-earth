@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/4ian/gdevelop",
+  "name": "4ian/GDevelop",
+  "description": "Full-featured, no-code open-source 2D/3D game engine with an event-based visual editor, targeting mobile, desktop, and web. Actively developed with AI-assisted features and a large community.",
+  "sub_domain": "game-engines-2d",
+  "score": 9,
+  "score_rationale": "21k+ stars, regular releases, and one of the most accessible open-source 2D/3D engines with a powerful visual editor.",
+  "stars": 21500,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "game-engines-2d",
+    "web-game-engines"
+  ],
+  "quality_score": 88.7,
+  "tags": [
+    "2d-engine",
+    "3d-engine",
+    "no-code",
+    "visual-editor",
+    "cross-platform"
+  ],
+  "category": "No-Code Game Engine",
+  "summary": "Visual event-based game engine for 2D/3D games across all platforms",
+  "slug": "4ian-gdevelop"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/wpscanteam/wpscan",
+  "name": "wpscanteam/wpscan",
+  "description": "WordPress security scanner for security professionals and blog maintainers to test WordPress website security, identifying vulnerabilities in plugins, themes, and core.",
+  "sub_domain": "webapp-security",
+  "score": 8,
+  "score_rationale": "9.5k stars, the definitive WordPress security scanner maintained by the WPScan team with recent 2025 activity.",
+  "stars": 9500,
+  "language": "Ruby",
+  "license": "LicenseRef-WPScan",
+  "last_activity": "2025-02-24",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 79.8,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "wpscanteam-wpscan"
+}

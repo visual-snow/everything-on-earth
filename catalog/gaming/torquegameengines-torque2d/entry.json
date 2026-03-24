@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/torquegameengines/torque2d",
+  "name": "TorqueGameEngines/Torque2D",
+  "description": "A C++-based open-source 2D game engine with Box2D physics, OpenAL audio, and skeletal animation, supporting Windows, macOS, Linux, iOS, and Android.",
+  "sub_domain": "game-engines-2d",
+  "score": 5,
+  "score_rationale": "1.6k stars, MIT, proven engine heritage from Torque technology but last commit in 2023 indicates slowing development.",
+  "stars": 1600,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2023-05-03",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 55.6,
+  "tags": [
+    "2d-game-engine",
+    "c++",
+    "physics",
+    "mobile-game",
+    "animation"
+  ],
+  "category": "Torque 2D Game Engine",
+  "summary": "C++ 2D engine with Box2D physics, skeletal animation, mobile support",
+  "slug": "torquegameengines-torque2d"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "OpenStack Tacker",
+  "repo_url": "https://github.com/openstack/tacker",
+  "description": "An OpenStack-based NFV Orchestrator service with built-in VNF Manager. Deploys and operates VNFs and CNFs on OpenStack and Kubernetes following ETSI MANO architecture.",
+  "domain": "cnf-lifecycle",
+  "secondary_domains": [
+    "etsi-mano",
+    "openstack"
+  ],
+  "protocols": [
+    "ETSI NFV MANO",
+    "TOSCA",
+    "OpenStack APIs",
+    "Kubernetes"
+  ],
+  "provides": [
+    "nfv-orchestration",
+    "vnf-manager",
+    "cnf-lifecycle-management",
+    "etsi-mano-nfvo",
+    "tosca-template-processing",
+    "vim-management",
+    "vnf-deployment",
+    "nsd-management",
+    "rest-api-server"
+  ],
+  "needs": [
+    "openstack-cluster",
+    "k8s-cluster",
+    "mysql-database",
+    "rabbitmq",
+    "keystone-auth",
+    "kolla-ansible"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Docker deployment through Kolla Ansible. Supports containerized VNF deployment on Kubernetes VIM. Pre-built container images available via OpenStack Kolla."
+  },
+  "github_metrics": {
+    "stars": 137,
+    "last_commit": "2026",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Full ETSI MANO implementation on OpenStack. Supports both VM-based VNFs and container-based CNFs. Good for testing NFV orchestration with OpenStack integration. Kolla-based Docker deployment.",
+  "related_repos": [
+    "https://github.com/openstack/tacker-specs",
+    "https://github.com/openstack/python-tackerclient"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "openstack-tacker"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/godotengine/godot",
+  "name": "godotengine/godot",
+  "description": "Godot Engine is a feature-packed, multi-platform 2D and 3D game engine with a complete editor and MIT license. It supports export to desktop, mobile, and web platforms with GDScript, C#, and C++ bindings.",
+  "sub_domain": "game-engines-3d",
+  "score": 10,
+  "score_rationale": "The most popular open-source 3D game engine in the world with 108k stars, MIT license, complete editor, and massive active community.",
+  "stars": 108000,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 100.0,
+  "tags": [
+    "3d-game-engine",
+    "2d-game-engine",
+    "gdscript",
+    "open-source",
+    "cross-platform"
+  ],
+  "category": "Multi-platform Game Engine",
+  "summary": "World's most popular open-source 3D/2D engine with complete editor",
+  "slug": "godotengine-godot"
+}

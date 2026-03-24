@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/inquest/awesome-yara",
+  "name": "InQuest/awesome-yara",
+  "description": "Curated list of awesome YARA rules, tools, analysis services, and resources maintained by the InQuest security research team.",
+  "sub_domain": "SIEM / SOC / Threat Detection",
+  "score": 6,
+  "score_rationale": "Authoritative YARA resource compilation with 4.2k stars, maintained by a respected security firm, serving as the primary reference for YARA rule development.",
+  "stars": 4200,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 65.0,
+  "tags": [
+    "malware",
+    "analysis",
+    "detection"
+  ],
+  "category": "Malware Analysis",
+  "summary": "Malware analysis and detection tools",
+  "slug": "inquest-awesome-yara-2"
+}

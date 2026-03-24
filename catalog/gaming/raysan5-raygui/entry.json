@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/raysan5/raygui",
+  "name": "raysan5/raygui",
+  "description": "A simple and easy-to-use immediate-mode GUI library designed as an auxiliary module for raylib, providing 25+ controls as a single-file header-only library with a powerful icon and styling system.",
+  "sub_domain": "game-ui",
+  "score": 7,
+  "score_rationale": "Official UI companion to the popular raylib game library with 4.8k stars, widely used by indie developers for game tools.",
+  "stars": 4800,
+  "language": "C",
+  "license": "Zlib",
+  "last_activity": "2023-09-11",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 71.5,
+  "tags": [
+    "raylib",
+    "immediate-mode",
+    "gui",
+    "header-only",
+    "indie"
+  ],
+  "category": "Raylib UI Module",
+  "summary": "Official UI companion library for raylib",
+  "slug": "raysan5-raygui"
+}

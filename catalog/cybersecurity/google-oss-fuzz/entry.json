@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/oss-fuzz",
+  "name": "google/oss-fuzz",
+  "description": "Google's continuous fuzzing service for open source software, integrating AFL++, libFuzzer, and Honggfuzz to find vulnerabilities at scale; has reported over 13,000 vulnerabilities across 1,000+ projects.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 10,
+  "score_rationale": "Essential infrastructure for open-source security with 12k stars, backing the entire OSS fuzzing ecosystem, actively maintained through 2026.",
+  "stars": 12000,
+  "language": "Shell",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 92.6,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "google-oss-fuzz"
+}

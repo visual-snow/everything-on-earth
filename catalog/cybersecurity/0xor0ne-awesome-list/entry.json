@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/0xor0ne/awesome-list",
+  "name": "0xor0ne/awesome-list",
+  "description": "A personal collection of awesome blog posts, write-ups, and papers focusing on cybersecurity including a dedicated tools list, covering kernel exploitation, vulnerability research, reverse engineering, and hardware security.",
+  "sub_domain": "awesome-lists",
+  "score": 7,
+  "score_rationale": "Curated high-signal cybersecurity research collection with 3.4k stars, emphasizing original research write-ups and in-depth technical content.",
+  "stars": 3400,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "awesome-lists"
+  ],
+  "quality_score": 70.3,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A personal collection of awesome blog posts, write-ups, and papers focusing on cybersecurity includi",
+  "slug": "0xor0ne-awesome-list"
+}

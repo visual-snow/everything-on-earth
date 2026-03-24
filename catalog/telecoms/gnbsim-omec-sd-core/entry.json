@@ -1,0 +1,63 @@
+{
+  "name": "gNBSim (OMEC/SD-Core)",
+  "repo_url": "https://github.com/omec-project/gnbsim",
+  "description": "gNB simulator from the Aether/SD-Core project. Simulates gNodeB and UE by generating NAS and NGAP messages for configured UEs and call flows.",
+  "domain": "5g-ran-simulation",
+  "secondary_domains": [
+    "5gc-testing",
+    "gnb-ue-emulation",
+    "ngap-nas"
+  ],
+  "protocols": [
+    "GTP-U",
+    "NAS",
+    "NAS-5GS",
+    "NGAP",
+    "SCTP"
+  ],
+  "provides": [
+    "gnb-simulation",
+    "ue-simulation",
+    "nas-5gs-signaling",
+    "ngap-signaling",
+    "5g-registration-procedures",
+    "pdu-session-establishment",
+    "handover-simulation",
+    "gtp-u-user-plane",
+    "profile-based-test-execution",
+    "icmp-user-plane-validation",
+    "5gc-control-plane-testing"
+  ],
+  "needs": [
+    "5g-core-amf",
+    "5g-core-upf",
+    "sctp-support",
+    "external-5gc-network"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present in repository root. Designed for deployment as a standalone container."
+  },
+  "github_metrics": {
+    "stars": 95,
+    "last_commit": "unknown",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Actively maintained gNB/UE simulator. Good for testing 5G core registration, PDU session, and handover procedures. Docker-ready for containerized test environments. Purpose-built for testing 5G core control plane. Profile-based testing with parallel/sequential execution. ICMP echo for user plane validation. Good for structured 5GC testing evals.",
+  "related_repos": [
+    "https://docs.sd-core.opennetworking.org",
+    "https://github.com/omec-project/upf",
+    "https://github.com/onosproject/sdran-in-a-box",
+    "https://github.com/opennetworkinglab/srsran-docker"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/ran-ue.json"
+  ],
+  "slug": "gnbsim-omec-sd-core"
+}

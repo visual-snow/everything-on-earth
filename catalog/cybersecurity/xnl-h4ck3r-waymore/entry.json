@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/xnl-h4ck3r/waymore",
+  "name": "xnl-h4ck3r/waymore",
+  "description": "Enhanced URL discovery tool fetching from Wayback Machine, Common Crawl, AlienVault OTX, URLScan, VirusTotal, GhostArchive, and Intelligence X, including archived response downloads.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 7,
+  "score_rationale": "Modern URL discovery tool with 2.6k stars surpassing gau in source coverage, actively maintained and popular among advanced bug bounty hunters.",
+  "stars": 2600,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-12-06",
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 69.3,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Enhanced URL discovery tool fetching from Wayback Machine, Common Crawl, AlienVault OTX, URLScan, Vi",
+  "slug": "xnl-h4ck3r-waymore"
+}

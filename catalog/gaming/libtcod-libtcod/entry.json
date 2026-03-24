@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/libtcod/libtcod",
+  "name": "libtcod/libtcod",
+  "description": "The classic roguelike toolkit providing true color console, pathfinding, field-of-view, noise generation, and tile-based terminal emulator. The foundational library for traditional roguelike development across C, C++, and Python.",
+  "sub_domain": "roguelike-frameworks",
+  "score": 10,
+  "score_rationale": "1.2k-star de-facto standard roguelike toolkit with decades of use, actively maintained through 2026 with broad language support.",
+  "stars": 1200,
+  "language": "C",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-01-06",
+  "found_in_domains": [
+    "roguelike-frameworks"
+  ],
+  "quality_score": 84.6,
+  "tags": [
+    "roguelike",
+    "toolkit",
+    "pathfinding",
+    "fov",
+    "terminal"
+  ],
+  "category": "Roguelike Toolkit",
+  "summary": "Industry-standard roguelike library with pathfinding, FOV, and multi-language support",
+  "slug": "libtcod-libtcod"
+}

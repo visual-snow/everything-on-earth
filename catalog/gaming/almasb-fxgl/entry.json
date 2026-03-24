@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/almasb/fxgl",
+  "name": "AlmasB/FXGL",
+  "description": "A Java/JavaFX/Kotlin 2D game development framework with a clean API, Entity-Component architecture, animations, and particle systems. Supports Windows, Mac, Linux, Android, iOS, and web.",
+  "sub_domain": "game-engines-2d",
+  "score": 7,
+  "score_rationale": "4.8k stars, MIT, actively maintained Java/Kotlin engine offering a modern alternative to LibGDX for JVM developers.",
+  "stars": 4800,
+  "language": "Kotlin",
+  "license": "MIT",
+  "last_activity": "2026-02-05",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 71.5,
+  "tags": [
+    "2d-engine",
+    "java",
+    "kotlin",
+    "ecs",
+    "cross-platform"
+  ],
+  "category": "Java/Kotlin 2D Engine",
+  "summary": "JavaFX-based 2D engine with ECS and modern API for JVM games",
+  "slug": "almasb-fxgl"
+}

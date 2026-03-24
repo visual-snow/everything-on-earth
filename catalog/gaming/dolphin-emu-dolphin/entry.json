@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/dolphin-emu/dolphin",
+  "name": "dolphin-emu/dolphin",
+  "description": "A GameCube and Wii emulator for Windows, Linux, macOS, and Android, allowing play of games from those systems on PC with graphical improvements and enhancements over original hardware.",
+  "sub_domain": "emulators-retro",
+  "score": 9,
+  "score_rationale": "Legendary emulator with 14.8k stars and 45k+ commits; the definitive open-source GameCube/Wii emulator with decades of active development.",
+  "stars": 14800,
+  "language": "C++",
+  "license": "GPL-2.0-or-later",
+  "last_activity": "2024-12-15",
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 87.4,
+  "tags": [
+    "emulator",
+    "gamecube",
+    "wii",
+    "retro-gaming"
+  ],
+  "category": "Nintendo Emulator",
+  "summary": "Legendary GameCube and Wii emulator with decades of development",
+  "slug": "dolphin-emu-dolphin"
+}

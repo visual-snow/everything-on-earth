@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mmp/pbrt-v3",
+  "name": "mmp/pbrt-v3",
+  "description": "Source code for pbrt, the renderer described in the third edition of 'Physically Based Rendering: From Theory To Implementation'. Companion code to the most widely read PBR textbook with 5k+ stars.",
+  "sub_domain": "ray-tracing",
+  "score": 9,
+  "score_rationale": "Widely studied reference renderer accompanying the landmark PBR textbook, with 5k stars and extensive community adoption.",
+  "stars": 5100,
+  "language": "C++",
+  "license": "BSD-2-Clause",
+  "last_activity": "2022-01-01",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 83.7,
+  "tags": [
+    "physically-based-rendering",
+    "pbr",
+    "path-tracing",
+    "reference-renderer",
+    "textbook"
+  ],
+  "category": "PBR Reference Renderer",
+  "summary": "Reference renderer for landmark 'Physically Based Rendering' textbook with 5k+ stars.",
+  "slug": "mmp-pbrt-v3"
+}

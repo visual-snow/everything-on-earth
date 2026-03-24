@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lief-project/lief",
+  "name": "lief-project/LIEF",
+  "description": "Cross-platform library for parsing, modifying, and instrumenting ELF, PE, MachO, and other executable formats with C++, Python, and Rust APIs.",
+  "sub_domain": "malware-reversing",
+  "score": 8,
+  "score_rationale": "5.3k stars, essential library for binary format parsing in malware analysis with active 2026 maintenance.",
+  "stars": 5300,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 77.8,
+  "tags": [
+    "api-security",
+    "elf-format",
+    "macho-format",
+    "pe-format"
+  ],
+  "category": "Security Tool",
+  "summary": "Cross-platform library for parsing, modifying, and instrumenting ELF, PE, MachO, and other execut...",
+  "slug": "lief-project-lief"
+}

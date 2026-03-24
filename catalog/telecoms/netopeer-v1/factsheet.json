@@ -1,0 +1,65 @@
+{
+  "slug": "netopeer-v1",
+  "name": "Netopeer (v1)",
+  "what_it_is": "First-generation NETCONF Protocol Toolset by CESNET, built on libnetconf. Provides a NETCONF server daemon, CLI client, module manager, and configurator for managing NETCONF-enabled devices; deprecated in favour of Netopeer2.",
+  "components": [
+    "netopeer-server — main NETCONF server daemon (integrated architecture, SSH/TLS transport)",
+    "netopeer-cli — interactive CLI client for connecting to NETCONF-enabled devices",
+    "netopeer-manager — tool to add/remove/enable/disable transAPI modules on the server",
+    "netopeer-configurator — first-run configuration tool (NACM, module paths, binaries location)",
+    "transAPI/cfgsystem — module implementing ietf-system data model (RFC 7317)",
+    "transAPI/cfginterfaces — module for managing network interfaces",
+    "transAPI/turing — example/demo transAPI module"
+  ],
+  "protocols": [
+    "NETCONF v1.0 (RFC 6241)",
+    "NETCONF v1.1 (RFC 6241) with Chunked Framing Mechanism",
+    "NETCONF over SSH (RFC 6242)",
+    "NETCONF over TLS (draft-ietf-netconf-rfc5539bis-05, compile-time --enable-tls flag)",
+    "NETCONF Event Notifications (RFC 5277, RFC 6470)",
+    "NETCONF Access Control / NACM (RFC 6536)",
+    "NETCONF Call Home (Reverse SSH draft, TLS variant)",
+    "YANG data modelling (RFC 6020) via pyang"
+  ],
+  "measurement": [
+    "No built-in metrics or telemetry export — server exposes configuration datastores only",
+    "Logging verbosity controllable via -v 0-3 (errors, warnings, verbose, debug)"
+  ],
+  "configuration": [
+    "netopeer-configurator (Python curses UI) for first-run setup of NACM and module enablement",
+    "netopeer-manager for adding/removing transAPI .so modules at runtime",
+    "Per-module XML datastore files under /usr/etc/netopeer/<module>/datastore.xml",
+    "TLS client certificates placed in server/certs/ directory",
+    "NACM default-write-action and per-user unlimited-access configurable via netopeer-configurator",
+    "SSH host keys generated with ssh-keygen -A at container build time"
+  ],
+  "fault_injection": [
+    "No dedicated fault-injection facility; operator can send malformed or rejected NETCONF RPCs via netopeer-cli to test server error handling",
+    "NACM can be configured to deny write operations, simulating an access-control fault condition"
+  ],
+  "modes": [
+    "Daemon mode: netopeer-server -d (background service)",
+    "Foreground/verbose mode: netopeer-server -v 2 (default in Docker CMD)",
+    "SSH transport mode (default)",
+    "TLS transport mode (requires --enable-tls at compile time)"
+  ],
+  "constraints": [
+    "No longer maintained; authors recommend migrating to Netopeer2 (libyang-based)",
+    "Docker image based on CentOS 7 (EOL); not suitable for production use without significant update",
+    "TLS support is compile-time only (--enable-tls) and is not enabled in the provided Dockerfile",
+    "No docker-compose file provided; single-container deployment only, exposing port 830",
+    "Requires libnetconf, libssh >= 0.6.4, pyang >= 1.5.0, python 2.6+, and augeas-devel at build time",
+    "NACM blocks all writes by default; must be explicitly relaxed before configuration changes work"
+  ],
+  "docker_services": [
+    "netopeer — single service; CentOS 7 base; builds libnetconf + netopeer-server + cfgsystem; exposes port 830 (mapped to host 8300 in docs example); CMD runs netopeer-server -v 2"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — only a bare Dockerfile",
+    "No RESTCONF support (NETCONF only)",
+    "No gNMI / gRPC interface",
+    "No YANG library or model discovery endpoint beyond what libnetconf provides",
+    "No automated test harness or CI integration visible in the repository root",
+    "Netopeer GUI is a separate project (CESNET/Netopeer-GUI) and not included here"
+  ]
+}

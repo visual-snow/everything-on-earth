@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openclarity/openclarity",
+  "name": "openclarity/openclarity",
+  "description": "Open-source platform for agentless detection of VM SBOM, vulnerabilities, malware, rootkits, misconfigurations, and leaked secrets across Docker, Kubernetes, AWS, Azure, and GCP environments.",
+  "sub_domain": "container-cloud-security",
+  "score": 6,
+  "score_rationale": "1.5k stars with solid multi-cloud agentless scanning capabilities, maintained into 2025 but smaller community than leading tools.",
+  "stars": 1500,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2025-02-05",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 61.4,
+  "tags": [
+    "penetration-testing",
+    "assessment",
+    "security-testing",
+    "automation"
+  ],
+  "category": "Testing Tool",
+  "summary": "Security assessment and testing",
+  "slug": "openclarity-openclarity"
+}

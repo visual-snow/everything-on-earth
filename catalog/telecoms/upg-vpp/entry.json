@@ -1,0 +1,52 @@
+{
+  "name": "UPG-VPP",
+  "repo_url": "https://github.com/travelping/upg-vpp",
+  "description": "GTP-U User Plane Gateway based on VPP (Vector Packet Processing). High-performance 5G UPF implementation.",
+  "domain": "5g-user-plane",
+  "secondary_domains": [
+    "upf",
+    "vpp"
+  ],
+  "protocols": [
+    "GTP-U",
+    "PFCP"
+  ],
+  "provides": [
+    "5g-upf",
+    "gtp-u-gateway",
+    "pfcp-agent",
+    "user-plane-processing",
+    "packet-forwarding",
+    "vpp-dataplane",
+    "gtp-tunnel-management"
+  ],
+  "needs": [
+    "linux-kernel-5.4+",
+    "dpdk-compatible-nic",
+    "vpp-build-environment",
+    "hugepages-support",
+    "docker-build-toolchain"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "To build a Docker image that contains UPG along with the base VPP, run: make image. Multiple references to dockerized environment in development setup documentation."
+  },
+  "github_metrics": {
+    "stars": 171,
+    "last_commit": "unknown",
+    "language": "C",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "High-performance UPF with Docker build support. Good for user plane configuration and GTP tunnel management evals.",
+  "related_repos": [
+    "https://github.com/travelping/vpp"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "upg-vpp"
+}

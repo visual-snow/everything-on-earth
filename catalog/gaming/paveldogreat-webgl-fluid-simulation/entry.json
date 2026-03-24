@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/paveldogreat/webgl-fluid-simulation",
+  "name": "PavelDoGreat/WebGL-Fluid-Simulation",
+  "description": "GPU-powered Navier-Stokes fluid solver running in web browsers via WebGL, including mobile support. The most popular interactive fluid simulation demo with 16k+ stars and native app releases for iOS and Android.",
+  "sub_domain": "fluid-cloth-simulation",
+  "score": 8,
+  "score_rationale": "16.2k-star browser fluid simulation widely used as a demo/reference for real-time GPU fluid dynamics on the web.",
+  "stars": 16200,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2020-01-01",
+  "found_in_domains": [
+    "fluid-cloth-simulation"
+  ],
+  "quality_score": 81.7,
+  "tags": [
+    "fluid-simulation",
+    "webgl",
+    "gpu",
+    "interactive"
+  ],
+  "category": "Fluid Simulation",
+  "summary": "GPU-powered web-based Navier-Stokes fluid simulation demo",
+  "slug": "paveldogreat-webgl-fluid-simulation"
+}

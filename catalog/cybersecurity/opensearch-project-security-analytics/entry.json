@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/opensearch-project/security-analytics",
+  "name": "opensearch-project/security-analytics",
+  "description": "OpenSearch Security Analytics plugin enabling users to detect security threats on event log data using Sigma-compatible rules and automated threat detection workflows.",
+  "sub_domain": "SIEM / SOC / Threat Detection",
+  "score": 7,
+  "score_rationale": "Official OpenSearch security analytics component with active development through 2024, providing SIEM capabilities for organizations running OpenSearch.",
+  "stars": 96,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2024-12-10",
+  "found_in_domains": [
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 57.9,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "opensearch security analytics plugin enabling users to detect security threats on event log data usi...",
+  "slug": "opensearch-project-security-analytics"
+}

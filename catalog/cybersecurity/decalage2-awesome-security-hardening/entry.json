@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/decalage2/awesome-security-hardening",
+  "name": "decalage2/awesome-security-hardening",
+  "description": "A curated collection of security hardening guides, best practices, checklists, benchmarks, and tools covering OS hardening (Linux, Windows, macOS), network devices, services, and cloud platforms. Serves as a comprehensive reference for implementing security configurations.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 8,
+  "score_rationale": "Essential security hardening reference with 6.2k stars and recent updates, covering broad attack surface reduction techniques.",
+  "stars": 6200,
+  "language": "Markdown",
+  "license": null,
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 78.3,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated collection of security hardening guides, best practices, checklists, benchmarks, and tools",
+  "slug": "decalage2-awesome-security-hardening"
+}

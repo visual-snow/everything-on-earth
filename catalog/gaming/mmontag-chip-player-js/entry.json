@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mmontag/chip-player-js",
+  "name": "mmontag/chip-player-js",
+  "description": "A web-based player for dozens of chiptune and video game music formats, built on C/C++ emulation libraries compiled to WebAssembly. Supports NSF, SPC, VGM, MOD, XM, and many more formats.",
+  "sub_domain": "chiptune-trackers",
+  "score": 7,
+  "score_rationale": "Comprehensive web chiptune player with 443 stars, actively maintained through 2025, supporting the broadest range of retro game music formats in a browser.",
+  "stars": 443,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2025-03-24",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 63.2,
+  "tags": [
+    "chiptune-player",
+    "web",
+    "wasm",
+    "retro-music",
+    "multi-format"
+  ],
+  "category": "Music Players",
+  "summary": "Web chiptune player supporting 50+ retro game music formats",
+  "slug": "mmontag-chip-player-js"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/keycloak/keycloak",
+  "name": "keycloak/keycloak",
+  "description": "Open source Identity and Access Management for modern applications and services, supporting SSO, SAML, OAuth 2.0, OIDC, LDAP, and fine-grained authorization.",
+  "sub_domain": "iam-auth",
+  "score": 10,
+  "score_rationale": "Industry-standard open source IAM platform with 33.5k stars, Apache-2.0 licensed, Red Hat-backed and widely deployed in enterprises for SSO and federated identity.",
+  "stars": 33500,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 96.2,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "keycloak-keycloak"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Predator",
+  "repo_url": "https://github.com/zooz/predator",
+  "description": "Open-source platform managing the entire lifecycle of API load testing with scheduling, distributed execution, and live reporting via web UI.",
+  "domain": "api-load-testing",
+  "secondary_domains": [
+    "distributed-testing",
+    "http-traffic-generation",
+    "load-testing"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS"
+  ],
+  "provides": [
+    "api-load-testing",
+    "traffic-generation",
+    "web-dashboard",
+    "distributed-load-execution",
+    "test-scheduling",
+    "live-reporting",
+    "prometheus-metrics",
+    "influxdb-integration",
+    "rest-api-management",
+    "performance-regression-testing"
+  ],
+  "needs": [
+    "mongodb",
+    "docker-engine",
+    "artillery-engine"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "zooz/predator",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker Hub images: zooz/predator and zooz/predator-runner; supports Docker Engine, Kubernetes, and DC/OS"
+  },
+  "github_metrics": {
+    "stars": 593,
+    "last_commit": "2024-08-26",
+    "language": "JavaScript",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Full lifecycle load testing platform with scheduling and reporting. Uses Artillery as its load engine. Distributed load generation support. Prometheus and InfluxDB integration for monitoring. Good for scheduled performance regression testing.",
+  "related_repos": [
+    "https://github.com/zooz/predator-runner"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "predator"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gpsnopy/raytracinginvulkan",
+  "name": "GPSnoopy/RayTracingInVulkan",
+  "description": "Implementation of Peter Shirley's Ray Tracing in One Weekend using Vulkan VK_KHR_ray_tracing_pipeline, achieving ~140fps at 1280x720 on an RTX 2080 Ti. Practical reference for RTX hardware ray tracing.",
+  "sub_domain": "ray-tracing",
+  "score": 7,
+  "score_rationale": "1.5k-star implementation bridging the popular RTIOW book with real Vulkan RTX hardware, actively updated through 2025.",
+  "stars": 1500,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-06-26",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 67.4,
+  "tags": [
+    "vulkan",
+    "ray-tracing",
+    "rtx",
+    "hardware-acceleration",
+    "learning"
+  ],
+  "category": "Vulkan RTX Reference",
+  "summary": "Vulkan RTX implementation of 'Ray Tracing in One Weekend' achieving ~140fps on RTX 2080.",
+  "slug": "gpsnoopy-raytracinginvulkan"
+}

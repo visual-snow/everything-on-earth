@@ -1,0 +1,90 @@
+{
+  "slug": "slice-aware-ntn",
+  "name": "Slice-Aware NTN",
+  "what_it_is": "A Docker-based testbed that integrates Non-Terrestrial Networks (NTN) as slice-aware backhaul links in a 5G network, using free5GC as the core and UERANSIM as the RAN simulator, published at IEEE LCN 2021. The architecture is fully compliant with 3GPP Release 17 and supports both slice-aware and slice-unaware operating modes for comparative evaluation.",
+  "components": [
+    "gNB (base station, via UERANSIM)",
+    "9 User Equipment (UEs, via UERANSIM)",
+    "AMF (Access and Mobility Management Function)",
+    "SMF (Session Management Function, NTN-enabled)",
+    "PCF (Policy Control Function)",
+    "NRF (Network Repository Function)",
+    "NSSF (Network Slice Selection Function)",
+    "UDM (Unified Data Management)",
+    "UDR (Unified Data Repository)",
+    "AUSF (Authentication Server Function)",
+    "QOF / NTNQOF (Non-Terrestrial Network QoS Function)",
+    "3 UPFs (User Plane Functions, one per slice)",
+    "2 Slice Classifiers (RAN-NTN and NTN-CN interconnection points)",
+    "2 Trunks (GEO satellite link and LEO satellite link)",
+    "MongoDB (core network database)"
+  ],
+  "protocols": [
+    "5G NR (New Radio) via UERANSIM",
+    "3GPP Release 17 NTN extensions",
+    "5G network slicing (S-NSSAI-based)",
+    "GEO satellite backhaul",
+    "LEO satellite backhaul",
+    "PDU Session establishment",
+    "N2 / N3 / N4 interfaces (5G core reference points)"
+  ],
+  "measurement": [
+    "Per-slice QoS metrics (throughput, latency)",
+    "PCAP capture of all network traffic (~13 GB per iteration)",
+    "Probe files generated per iteration for post-hoc analysis",
+    "Matplotlib-based result visualization with LaTeX/TikZ export",
+    "Statistical validation via configurable iteration multiplicity"
+  ],
+  "configuration": [
+    "Global testbed settings via configuration.conf (image folders, service configs, output directories)",
+    "NTN link parameters: bandwidth, propagation delay, ACM (Adaptive Coding and Modulation) simulation",
+    "Slice-to-satellite-link assignment with timing windows",
+    "Application instantiation per slice",
+    "UE count and total scenario duration",
+    "Number of iterations for statistical repeatability"
+  ],
+  "fault_injection": [
+    "Try-retry policy: if any UE remains in IDLE state (failed PDU Session), the iteration is aborted and retried until all UEs reach CONNECTED state"
+  ],
+  "modes": [
+    "Slice-aware mode: routes traffic across GEO/LEO links according to per-slice QoS requirements",
+    "Slice-unaware mode: baseline routing without slice awareness, used as comparison baseline"
+  ],
+  "constraints": [
+    "Minimum 8 CPU cores, 8 GB RAM, 50 GB disk storage required to run the full scenario",
+    "Requires Linux kernel version compatible with free5GC (kernel-level GTP module)",
+    "Standard scenario spawns 64 containers and runs approximately 240 seconds",
+    "Each PCAP iteration produces approximately 13 GB of capture data, requiring substantial storage headroom",
+    "Python 3.8 required for orchestration scripts",
+    "Docker and Docker Compose must be installed on the host"
+  ],
+  "docker_services": [
+    "AMF (free5GC core control plane)",
+    "SMF — NTN-enabled (free5GC core control plane)",
+    "PCF (free5GC core control plane)",
+    "NRF (free5GC core control plane)",
+    "NSSF (free5GC core control plane)",
+    "UDM (free5GC core control plane)",
+    "UDR (free5GC core control plane)",
+    "AUSF (free5GC core control plane)",
+    "QOF/NTNQOF (custom NTN QoS function)",
+    "MongoDB (database for free5GC)",
+    "UPF-slice-1 (data plane, per-slice)",
+    "UPF-slice-2 (data plane, per-slice)",
+    "UPF-slice-3 (data plane, per-slice)",
+    "gNB (UERANSIM base station)",
+    "UE-1 through UE-9 (UERANSIM user equipment instances)",
+    "Slice Classifier RAN-NTN (traffic classification at RAN-NTN boundary)",
+    "Slice Classifier NTN-CN (traffic classification at NTN-CN boundary)",
+    "Trunk-GEO (GEO satellite link emulator)",
+    "Trunk-LEO (LEO satellite link emulator)"
+  ],
+  "notable_absences": [
+    "No handover or mobility management across satellite links (UEs are stationary in the testbed)",
+    "No encryption or security plane testing; security mechanisms are not exercised",
+    "No real-world atmospheric or weather effects modeled beyond static propagation delay",
+    "No inter-slice interference mitigation mechanisms documented",
+    "Docker Compose file is not at the repository root (compose path non-standard; 64-service count from entry metadata)",
+    "No GUI or dashboard; all analysis requires post-processing of probe/PCAP files externally"
+  ]
+}

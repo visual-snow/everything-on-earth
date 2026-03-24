@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/hahwul/dalfox",
+  "name": "hahwul/dalfox",
+  "description": "Powerful open-source XSS scanner and utility focused on automation with parameter discovery, WAF detection, and support for reflected, stored, and DOM-based XSS.",
+  "sub_domain": "webapp-security",
+  "score": 8,
+  "score_rationale": "4.9k stars, popular automated XSS scanner for bug bounty and pentest with recent 2025 updates.",
+  "stars": 4900,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2025-07-06",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 77.5,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "hahwul-dalfox"
+}

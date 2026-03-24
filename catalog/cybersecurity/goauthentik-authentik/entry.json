@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/goauthentik/authentik",
+  "name": "goauthentik/authentik",
+  "description": "Open-source Identity Provider supporting SAML, OAuth2/OIDC, LDAP, RADIUS, and more, with a visual flow builder for customizing authentication pipelines.",
+  "sub_domain": "iam-auth",
+  "score": 9,
+  "score_rationale": "Leading modern SSO alternative with 20.6k stars, MIT licensed, actively maintained with excellent UX and broad protocol support making it a top Keycloak alternative.",
+  "stars": 20600,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 88.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "goauthentik-authentik"
+}

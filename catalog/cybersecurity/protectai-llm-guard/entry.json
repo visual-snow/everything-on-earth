@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/protectai/llm-guard",
+  "name": "protectai/llm-guard",
+  "description": "The Security Toolkit for LLM Interactions \u2014 a comprehensive tool for sanitizing inputs, detecting harmful language, preventing data leakage, and providing resistance against prompt injection attacks.",
+  "sub_domain": "ai-security",
+  "score": 8,
+  "score_rationale": "Widely adopted LLM security middleware with 2.7k stars offering a layered defense toolkit for production LLM applications.",
+  "stars": 2700,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 75.5,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "The Security Toolkit for LLM Interactions \u2014 a comprehensive tool for sanitizing inputs, detecting ha",
+  "slug": "protectai-llm-guard"
+}

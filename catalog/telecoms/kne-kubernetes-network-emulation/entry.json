@@ -1,0 +1,66 @@
+{
+  "name": "KNE (Kubernetes Network Emulation)",
+  "repo_url": "https://github.com/openconfig/kne",
+  "description": "Infrastructure for emulating complex network topologies using Kubernetes and containers. Supports multi-vendor device emulation with gRPC-based topology management.",
+  "domain": "kubernetes-network-emulation",
+  "secondary_domains": [
+    "multi-vendor-interop",
+    "network-topology-testing",
+    "openconfig-gnmi"
+  ],
+  "protocols": [
+    "BGP",
+    "IS-IS",
+    "OSPF",
+    "OpenConfig",
+    "gNMI",
+    "gRPC"
+  ],
+  "provides": [
+    "network-topology-emulation",
+    "multi-vendor-device-emulation",
+    "gnmi-server",
+    "grpc-topology-management",
+    "ospf-emulation",
+    "topology-mutation",
+    "bgp-emulation",
+    "kubernetes-network-lab",
+    "isis-emulation",
+    "config-mutation",
+    "virtual-network-node",
+    "openconfig-support"
+  ],
+  "needs": [
+    "k8s-cluster",
+    "kubectl",
+    "helm",
+    "vendor-container-images",
+    "linux-kernel-5.4+",
+    "metallb-or-loadbalancer",
+    "ondatra-test-framework"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Container-based network device implementations are central to the architecture, with support for deploying emulated network nodes as Kubernetes pods."
+  },
+  "github_metrics": {
+    "stars": 247,
+    "last_commit": "2026-01-21",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Google-backed Kubernetes-native network lab tool. OpenConfig/gNMI focus makes it ideal for evaluations involving modern network management APIs and multi-vendor interop testing. Used with Ondatra for running feature profile tests on virtual devices.",
+  "related_repos": [
+    "https://github.com/networkop/k8s-topo",
+    "https://github.com/networkop/meshnet-cni"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/restconf-gnmi-config.json",
+    "discovery/transport.json"
+  ],
+  "slug": "kne-kubernetes-network-emulation"
+}

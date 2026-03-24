@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/zama-ai/tfhe-rs",
+  "name": "zama-ai/tfhe-rs",
+  "description": "A pure Rust implementation of the TFHE scheme for boolean and integer fully homomorphic encryption, with APIs in Rust, C, and WebAssembly. Targets IND-CPA^D security and achieved v1.0 stable in 2025.",
+  "sub_domain": "cryptography",
+  "score": 7,
+  "score_rationale": "Strong Rust FHE implementation with 1.6k stars and a 2025 stable release, backed by Zama AI and actively used in privacy-preserving computation applications.",
+  "stars": 1600,
+  "language": "Rust",
+  "license": "BSD-3-Clause-Clear",
+  "last_activity": "2025-02-01",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 67.6,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "zama-ai-tfhe-rs"
+}

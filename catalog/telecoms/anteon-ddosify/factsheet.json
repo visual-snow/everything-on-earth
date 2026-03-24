@@ -1,0 +1,88 @@
+{
+  "slug": "anteon-ddosify",
+  "name": "Anteon (Ddosify)",
+  "what_it_is": "Anteon is an eBPF-based Kubernetes monitoring and load-testing platform (formerly Ddosify). It auto-generates service maps of K8s clusters without code instrumentation and runs scenario-based HTTP/HTTPS/HTTP2 performance tests via a no-code scenario builder.",
+  "components": [
+    "ddosify CLI / load engine (Go binary)",
+    "Anteon Self-Hosted frontend (ddosify/selfhosted_frontend)",
+    "Anteon Self-Hosted backend (ddosify/selfhosted_backend)",
+    "Alaz eBPF agent backend (ddosify/selfhosted_alaz_backend)",
+    "HammerManager — test orchestrator (ddosify/selfhosted_hammermanager)",
+    "Hammer — load generator worker (ddosify/selfhosted_hammer)",
+    "HammerDebug — debug load generator (ddosify/selfhosted_hammer with IS_DEBUG=true)",
+    "Nginx reverse proxy",
+    "Celery workers and beat schedulers (backend, alaz-backend, hammermanager)",
+    "Alaz request writer (alaz-backend-request-writer)"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS",
+    "HTTP/2"
+  ],
+  "measurement": [
+    "Total iteration count and pass/fail rate",
+    "Average request duration (avg_duration)",
+    "Per-step response times and status codes",
+    "Kubernetes cluster CPU, memory, disk, and network usage (real-time)",
+    "Service-to-service latency via eBPF service map",
+    "Slow SQL query detection",
+    "Prometheus metrics (scraped from all services via prometheus.yml)"
+  ],
+  "configuration": [
+    "CLI flags: -t (target URL), -n (iteration count), -d (duration seconds), -m (HTTP method), -b (body), -a (basic auth), -h (headers), -T (timeout), -P (proxy), -o (output format), -l (load type), --config (JSON config file), --cert_path, --cert_key_path, --debug",
+    "JSON scenario config file with multi-step flows, correlation, CSV test data, cookies, and assertions",
+    "Dynamic variables / parameterization in URL, headers, body, and auth (e.g. {{_randomInt}}, {{_randomCity}})",
+    "Environment variables loaded via selfhosted/.env file (shared across all backend services)",
+    "InfluxDB initialized with org=ddosify, bucket=hammerBucket via DOCKER_INFLUXDB_INIT_* env vars",
+    "Prometheus config at init_scripts/prometheus/prometheus.yml; 10-day TSDB retention"
+  ],
+  "fault_injection": [
+    "No native fault/chaos injection capability documented; tool is a load generator, not a fault injector",
+    "Proxy flag (-P) allows routing through an intercepting proxy to simulate network conditions"
+  ],
+  "modes": [
+    "linear — constant request rate across the duration (default)",
+    "incremental — steadily increasing request rate",
+    "waved — oscillating request rate",
+    "debug — single iteration with curl-like verbose output (--debug flag)"
+  ],
+  "constraints": [
+    "Supports only HTTP, HTTPS, and HTTP/2 protocols; other protocols listed as 'on the way'",
+    "Self-hosted stack requires Docker and Docker Compose; Kubernetes monitoring requires deploying the Alaz eBPF agent separately into the target cluster",
+    "eBPF-based service map requires Linux kernel with eBPF support; not available on Windows or macOS nodes",
+    "CLI output formats limited to stdout and stdout-json; no native HTML/PDF report",
+    "Minimum Go 1.18 required to build from source",
+    "Low iteration count with long duration may cause the test to finish earlier than expected (linear mode)"
+  ],
+  "docker_services": [
+    "nginx (nginx:1.25.5-alpine) — reverse proxy on port 8014",
+    "frontend (ddosify/selfhosted_frontend:4.1.5) — web UI",
+    "backend (ddosify/selfhosted_backend:3.2.9) — main API on port 8008",
+    "backend-celery-worker — async task worker for backend",
+    "backend-celery-beat — periodic task scheduler for backend",
+    "alaz-backend (ddosify/selfhosted_alaz_backend:2.3.11) — eBPF monitoring API on port 8009",
+    "alaz-backend-celery-worker-1 — async worker for alaz-backend",
+    "alaz-backend-celery-worker-2 — async worker for alaz-backend",
+    "alaz-backend-celery-beat — periodic scheduler for alaz-backend",
+    "alaz-backend-request-writer — writes captured eBPF request data",
+    "hammermanager (ddosify/selfhosted_hammermanager:2.0.2) — test orchestration API on port 9901",
+    "hammermanager-celery-worker — async worker for hammermanager",
+    "hammermanager-celery-beat — periodic scheduler for hammermanager",
+    "hammer (ddosify/selfhosted_hammer:2.0.0) — load generator worker",
+    "hammerdebug (ddosify/selfhosted_hammer:2.0.0, IS_DEBUG=true) — debug load generator",
+    "postgres (postgres:16.2-alpine) — primary relational database",
+    "rabbitmq (rabbitmq:3.13.1-alpine) — message broker on port 6672",
+    "influxdb (influxdb:2.6.1-alpine) — time-series metrics store on port 9086",
+    "redis-backend (redis:7.2.4-alpine) — cache/queue for backend",
+    "redis-alaz-backend (redis:7.2.4-alpine) — cache/queue for alaz-backend",
+    "seaweedfs (chrislusf/seaweedfs:3.64) — S3-compatible object storage on port 8333",
+    "prometheus (prom/prometheus:v2.37.9) — metrics scraper on port 9090"
+  ],
+  "notable_absences": [
+    "No gRPC or WebSocket protocol support at time of documentation",
+    "No built-in distributed tracing (OpenTelemetry/Jaeger/Zipkin) integration in the engine",
+    "No native Grafana service in docker-compose (Prometheus data must be visualized externally)",
+    "No TLS termination in docker-compose (nginx config is plain reverse proxy, no HTTPS on the self-hosted UI)",
+    "No authentication/RBAC documented for the self-hosted web UI"
+  ]
+}

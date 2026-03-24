@@ -1,0 +1,57 @@
+{
+  "name": "Colosseum Near-RT RIC",
+  "repo_url": "https://github.com/wineslab/colosseum-near-rt-ric",
+  "description": "Minimal near-RT RIC (O-RAN SC Bronze release) adapted for the Colosseum wireless network emulator with support for concurrent base station and xApp connections.",
+  "domain": "o-ran",
+  "secondary_domains": [
+    "ran-emulation"
+  ],
+  "protocols": [
+    "E2AP",
+    "RMR",
+    "SCTP"
+  ],
+  "provides": [
+    "near-rt-ric",
+    "e2ap-interface",
+    "rmr-message-routing",
+    "e2term-endpoint",
+    "e2mgr-service",
+    "xapp-hosting",
+    "sctp-transport",
+    "o-ran-e2-simulation",
+    "containerized-ric-stack"
+  ],
+  "needs": [
+    "docker-engine",
+    "sctp-support",
+    "linux-host",
+    "colosseum-emulator-optional"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 4,
+    "docker_evidence": "Scripts will start a minimal near-real-time RIC in the form of Docker containers (namely, db, e2mgr, e2rtmansim, e2term). Commands: docker logs e2term -f, docker exec -it sample-xapp-24 bash."
+  },
+  "github_metrics": {
+    "stars": 43,
+    "last_commit": "2024-06-11",
+    "language": "C",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Lightweight RIC for emulation environments. Good for xApp development and E2 interface testing in containerized setups. Foundation of ColO-RAN / OpenRAN Gym research. 4 Docker containers for a minimal RIC. Good for testing xApp deployment and E2 message handling in emulated wireless environments.",
+  "related_repos": [
+    "https://github.com/wineslab/colosseum-oran-coloran-dataset",
+    "https://github.com/wineslab/colosseum-scope",
+    "https://github.com/wineslab/colosseum-scope-e2",
+    "https://github.com/wineslab/xdevsm"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/oran-ric.json"
+  ],
+  "slug": "colosseum-near-rt-ric"
+}

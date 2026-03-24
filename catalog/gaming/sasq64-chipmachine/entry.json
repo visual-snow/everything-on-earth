@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sasq64/chipmachine",
+  "name": "sasq64/chipmachine",
+  "description": "A demoscene and retro music jukebox player supporting over 40 formats including MOD, XM, IT, NSF, SPC, SID, and Game Boy, with incremental search across large music collections.",
+  "sub_domain": "chiptune-trackers",
+  "score": 4,
+  "score_rationale": "Broad-format retro music player with 214 stars but last updated in 2019, effectively abandoned though still functional.",
+  "stars": 214,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2019-02-12",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 42.7,
+  "tags": [
+    "music-player",
+    "demoscene",
+    "multi-format",
+    "retro",
+    "jukebox"
+  ],
+  "category": "Music Players",
+  "summary": "Multi-format retro music player with 40+ supported formats",
+  "slug": "sasq64-chipmachine"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/dweinstein/awesome-frida",
+  "name": "dweinstein/awesome-frida",
+  "description": "Curated list of projects, libraries, scripts, and resources powered by or related to the Frida dynamic instrumentation toolkit across mobile, desktop, and embedded platforms.",
+  "sub_domain": "Mobile Security",
+  "score": 7,
+  "score_rationale": "Essential Frida ecosystem reference with 3.4k stars, valuable as a discovery hub for Frida-based mobile security tooling.",
+  "stars": 3400,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2023-09-01",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 70.3,
+  "tags": [
+    "dynamic-analysis",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Security Tool",
+  "summary": "Curated list of projects, libraries, scripts, and resources powered by or related to the Frida dy...",
+  "slug": "dweinstein-awesome-frida"
+}

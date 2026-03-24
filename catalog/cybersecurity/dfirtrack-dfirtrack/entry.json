@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/dfirtrack/dfirtrack",
+  "name": "dfirtrack/dfirtrack",
+  "description": "An open-source web application for tracking and managing digital forensics and incident response cases, particularly for major incidents involving many affected systems such as APT compromises. Built on Django with a system-centric rather than case-centric data model.",
+  "sub_domain": "forensics-ir",
+  "score": 6,
+  "score_rationale": "Niche but purpose-built DFIR tracking application with 534 stars, specifically designed for the complex system-tracking needs of large-scale APT incident response.",
+  "stars": 534,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-13",
+  "found_in_domains": [
+    "forensics-ir"
+  ],
+  "quality_score": 57.8,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "dfirtrack-dfirtrack"
+}

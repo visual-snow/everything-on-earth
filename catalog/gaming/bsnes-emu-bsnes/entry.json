@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/bsnes-emu/bsnes",
+  "name": "bsnes-emu/bsnes",
+  "description": "A high-accuracy Super Nintendo emulator focused on cycle-level precision, with true Super Game Boy support, HD Mode 7 graphics, and low-level coprocessor emulation for all SNES chips.",
+  "sub_domain": "emulators-retro",
+  "score": 7,
+  "score_rationale": "The gold standard for SNES accuracy with 1.9k stars; invaluable for preservation and reference even though development paused in 2020.",
+  "stars": 1900,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2020-03-20",
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 68.2,
+  "tags": [
+    "emulation",
+    "snes",
+    "accuracy",
+    "preservation"
+  ],
+  "category": "Console Emulator",
+  "summary": "Gold standard cycle-accurate SNES emulator for preservation",
+  "slug": "bsnes-emu-bsnes"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/apurvsinghgautam/dark-web-osint-tools",
+  "name": "apurvsinghgautam/dark-web-osint-tools",
+  "description": "Curated collection of OSINT tools and resources targeting dark web investigation including onion search engines, link discovery utilities, crawlers, and scanning tools.",
+  "sub_domain": "osint-recon",
+  "score": 6,
+  "score_rationale": "2k stars for a niche dark-web OSINT resource collection, useful but narrowly scoped and primarily a reference list.",
+  "stars": 2000,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-05-22",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 62.4,
+  "tags": [
+    "osint",
+    "web-security",
+    "security-tool"
+  ],
+  "category": "OSINT Platform",
+  "summary": "Curated collection of OSINT tools and resources targeting dark web investigation including onion ...",
+  "slug": "apurvsinghgautam-dark-web-osint-tools"
+}

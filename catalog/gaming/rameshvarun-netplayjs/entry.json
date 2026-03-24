@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rameshvarun/netplayjs",
+  "name": "rameshvarun/netplayjs",
+  "description": "Framework for building peer-to-peer WebRTC multiplayer browser games with rollback netcode, requiring no server hosting or network synchronization code from the developer.",
+  "sub_domain": "game-networking",
+  "score": 5,
+  "score_rationale": "Innovative WebRTC P2P rollback netcode framework for browsers with 556 stars; limited community but unique niche for browser-based multiplayer.",
+  "stars": 556,
+  "language": "TypeScript",
+  "license": "ISC",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "game-networking"
+  ],
+  "quality_score": 52.0,
+  "tags": [
+    "webrtc",
+    "p2p",
+    "rollback",
+    "browser",
+    "typescript"
+  ],
+  "category": "Browser Multiplayer Framework",
+  "summary": "WebRTC P2P rollback netcode for browser games",
+  "slug": "rameshvarun-netplayjs"
+}

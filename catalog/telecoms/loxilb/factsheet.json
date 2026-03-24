@@ -1,0 +1,96 @@
+{
+  "slug": "loxilb",
+  "name": "loxilb",
+  "what_it_is": "loxilb is an open-source, eBPF-based cloud-native load-balancer written in Go, targeting Kubernetes service type LoadBalancer for on-prem, public-cloud, and hybrid environments. It is purpose-built for telco/5G workloads that require exotic protocols such as GTP, SCTP multi-homing, PFCP, NGAP, SRv6, and SEPP.",
+  "components": [
+    "GoLang control plane",
+    "eBPF data-path (loxilb-ebpf submodule)",
+    "goBGP integrated routing stack",
+    "kube-loxilb Kubernetes operator (separate repo: loxilb-io/kube-loxilb)",
+    "loxilb-ingress Kubernetes Ingress controller (separate repo: loxilb-io/loxilb-ingress)",
+    "loxicmd CLI tool",
+    "REST API server (port 11111 default, TLS port 8091)",
+    "Prometheus metrics endpoint"
+  ],
+  "protocols": [
+    "eBPF",
+    "BGP (via goBGP)",
+    "SCTP (with multi-homing)",
+    "GTP",
+    "TCP",
+    "UDP",
+    "QUIC",
+    "FTP",
+    "TFTP",
+    "IPsec",
+    "WireGuard",
+    "HTTP/1.0, 1.1, 2.0, 3.0 (L7 proxy)",
+    "PFCP",
+    "NGAP",
+    "SRv6",
+    "SEPP",
+    "SIP",
+    "BFD",
+    "NAT44 / NAT66 / NAT64"
+  ],
+  "measurement": [
+    "Prometheus metrics thread (--prometheus / -p flag)",
+    "Extensive end-point liveness probes (active and passive --passive-probe)",
+    "Per-LB, per-endpoint, and per-client QoS",
+    "CPU profiling via --cpuprofile flag",
+    "CICD perf workflow (GitHub Actions perf.yml)"
+  ],
+  "configuration": [
+    "--bgp / -b : enable goBGP integration",
+    "--ka / -k : KeepAlive/BFD RemoteIP:SourceIP:Interval",
+    "--host : API listen IP (default 0.0.0.0)",
+    "--port : API listen port (default 11111)",
+    "--tls / --tls-host / --tls-port / --tls-certificate / --tls-key : TLS settings (default port 8091)",
+    "--cluster : comma-separated cluster-node IP addresses",
+    "--self : self annotation index in cluster",
+    "--loglevel : trace|debug|info|error|warning|notice|critical|emergency|alert (default debug)",
+    "--cloud : cloud type e.g. aws, ncloud (default on-prem)",
+    "--cloudcidrblock : VIP CIDR block for cloud deployments",
+    "--rpc : sync RPC mode netrpc|grpc (default netrpc)",
+    "--config-path : config file path (default /etc/loxilb/)",
+    "--blacklist / --whitelist : regex for port/interface filtering",
+    "--ipvs-compat : inherit existing ipvs policies",
+    "--sockmapsupport : sockmap-based L4 proxying",
+    "--egr-hooks : eBPF egress hooks",
+    "--proxyonlymode : proxy mode only, no datapath",
+    "GoBGP config via /etc/gobgp/gobgp_loxilb.yaml (volume-mounted)",
+    "Keepalived config via /etc/keepalived/ (volume-mounted)"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism found in the repository",
+    "HA clustering with BFD-based hitless failover (--ka flag) can be used to simulate node failure scenarios",
+    "Passive liveness probes (--passive-probe) detect endpoint failures without active health checks"
+  ],
+  "modes": [
+    "ext-cluster pod (external to K8s cluster)",
+    "in-cluster pod",
+    "service-proxy / kube-proxy replacement",
+    "Kubernetes Ingress",
+    "standalone (no K8s)",
+    "BGP peer-only mode (-r / --peer, goBGP only, no datapath)",
+    "proxy-only mode (--proxyonlymode, no datapath)"
+  ],
+  "constraints": [
+    "Requires privileged container (privileged: true) and root user to load eBPF programs and manage network interfaces",
+    "Host kernel must support eBPF; tested on Ubuntu 20.04, 22.04, 24.04, and RedHat 9",
+    "macvlan or bridge networks required for production multi-node deployments (as seen in docker-compose); pure overlay-only environments may need additional configuration",
+    "eBPF sockmap L7 acceleration (--sockmapsupport) and several other options are marked experimental and may not be stable",
+    "Multi-cluster support is planned but not yet released (marked 🚧 in README)",
+    "Kubernetes Network Policy support is not yet implemented (unchecked in README feature list)"
+  ],
+  "docker_services": [
+    "loxilb (image: ghcr.io/loxilb-io/loxilb:latest, privileged, root, networks: bridge + macvlan)"
+  ],
+  "notable_absences": [
+    "No docker-compose file at repository root; compose files are only in cicd/ test subdirectories",
+    "No built-in fault injection or chaos tooling",
+    "No Kubernetes Network Policy support",
+    "No multi-cluster support (planned, not yet available)",
+    "No Windows support (Linux eBPF kernel dependency)"
+  ]
+}

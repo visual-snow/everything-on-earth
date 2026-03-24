@@ -1,0 +1,53 @@
+{
+  "name": "Blockstream Satellite",
+  "repo_url": "https://github.com/blockstream/satellite",
+  "description": "Software for interfacing with the Blockstream Satellite network, which broadcasts the Bitcoin blockchain worldwide 24/7 via satellite. Includes CLI/GUI tools and Docker deployment for satellite receivers.",
+  "domain": "bitcoin-sync",
+  "secondary_domains": [
+    "blockchain-over-satellite",
+    "dvb-s2"
+  ],
+  "protocols": [
+    "DVB-S2",
+    "Bitcoin",
+    "Lightning Network"
+  ],
+  "provides": [
+    "dvb-s2-receiver-config",
+    "satellite-signal-monitoring",
+    "bitcoin-blockchain-sync",
+    "lightning-network-client",
+    "satellite-cli-tools",
+    "docker-containerized-receiver"
+  ],
+  "needs": [
+    "dvb-s2-hardware-receiver",
+    "satellite-dish-hardware",
+    "linux-host",
+    "bitcoin-node",
+    "usb-sdr-device"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "blockstream/satellite",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker image available with everything needed to interface with supported satellite receivers. Run blockstream/satellite Docker image with named volumes for persistent configuration."
+  },
+  "github_metrics": {
+    "stars": 1000,
+    "last_commit": "2025-05-08",
+    "language": "Python",
+    "license": "GPL-3.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Unique satellite-blockchain integration. Agents could configure satellite receiver parameters, troubleshoot signal reception, manage Bitcoin data synchronization over satellite links.",
+  "related_repos": [
+    "https://github.com/blockstream/bitcoinsatellite",
+    "https://github.com/blockstream/satellite-api"
+  ],
+  "_sources": [
+    "discovery/ntn-satellite.json"
+  ],
+  "slug": "blockstream-satellite"
+}

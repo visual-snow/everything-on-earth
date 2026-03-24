@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/raphabot/awesome-cybersecurity-agentic-ai",
+  "name": "raphabot/awesome-cybersecurity-agentic-ai",
+  "description": "A curated collection of resources for cybersecurity-focused agentic AI including MCP servers, research papers, tools, frameworks, and datasets for autonomous security applications.",
+  "sub_domain": "ai-security",
+  "score": 6,
+  "score_rationale": "Focused agentic AI security resource with 382 stars covering the emerging intersection of autonomous AI agents and cybersecurity operations.",
+  "stars": 382,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 56.7,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated collection of resources for cybersecurity-focused agentic AI including MCP servers, resear",
+  "slug": "raphabot-awesome-cybersecurity-agentic-ai"
+}

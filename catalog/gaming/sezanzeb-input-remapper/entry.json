@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/sezanzeb/input-remapper",
+  "name": "sezanzeb/input-remapper",
+  "description": "Easy-to-use Linux tool for remapping input devices including keyboards, mice, gamepads, joysticks, and wheels. Supports X11, Wayland, programmable macros, and is widely used for accessibility adaptations.",
+  "sub_domain": "input-controllers",
+  "score": 9,
+  "score_rationale": "Most popular open-source Linux input remapper with 5.5k stars, actively maintained through November 2025, GPL-3.0, and essential for accessibility and gaming input customization.",
+  "stars": 5500,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-11-01",
+  "found_in_domains": [
+    "input-controllers"
+  ],
+  "quality_score": 83.9,
+  "tags": [
+    "input-mapping",
+    "accessibility",
+    "linux"
+  ],
+  "category": "Input Remapper",
+  "summary": "Linux input remapper for accessibility and gaming",
+  "slug": "sezanzeb-input-remapper"
+}

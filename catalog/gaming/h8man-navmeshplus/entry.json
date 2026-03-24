@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/h8man/navmeshplus",
+  "name": "h8man/NavMeshPlus",
+  "description": "A Unity extension enabling 2D navigation mesh pathfinding with automatic generation from tilemap, sprite, and 2D collider scene geometry for top-down games.",
+  "sub_domain": "pathfinding-navmesh",
+  "score": 7,
+  "score_rationale": "2.2k stars, MIT, fills a critical gap in Unity 2D game development where built-in NavMesh only supports 3D.",
+  "stars": 2200,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2022-05-30",
+  "found_in_domains": [
+    "pathfinding-navmesh"
+  ],
+  "quality_score": 68.7,
+  "tags": [
+    "unity",
+    "navmesh",
+    "2d-games"
+  ],
+  "category": "Pathfinding",
+  "summary": "Unity 2D navmesh generation and pathfinding for top-down games",
+  "slug": "h8man-navmeshplus"
+}

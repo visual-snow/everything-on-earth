@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cugu/awesome-forensics",
+  "name": "cugu/awesome-forensics",
+  "description": "A curated list of free and mostly open-source forensic analysis tools and resources covering distributions, frameworks, live forensics, memory analysis, Windows artifacts, mobile devices, and network traffic examination.",
+  "sub_domain": "awesome-lists",
+  "score": 7,
+  "score_rationale": "Definitive digital forensics resource list with 5k stars focused on free and open-source tools, well-maintained with active community contributions.",
+  "stars": 5000,
+  "language": "Markdown",
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "awesome-lists",
+    "forensics-ir"
+  ],
+  "quality_score": 71.6,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "A curated list of free and mostly open-source forensic analysis tools and resources covering distrib",
+  "slug": "cugu-awesome-forensics"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cowrie/cowrie",
+  "name": "cowrie/cowrie",
+  "description": "Cowrie is a medium to high interaction SSH and Telnet honeypot designed to log brute force attacks and the shell interaction performed by the attacker. It supports emulated shell environments, SSH/Telnet proxying, and experimental LLM-based response generation.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 9,
+  "score_rationale": "The most widely deployed SSH/Telnet honeypot with 6.2k stars and active development, used in academic and enterprise threat research.",
+  "stars": 6200,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 84.3,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "Cowrie is a medium to high interaction SSH and Telnet honeypot designed to log brute force attacks a",
+  "slug": "cowrie-cowrie"
+}

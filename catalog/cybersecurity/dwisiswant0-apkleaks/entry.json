@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/dwisiswant0/apkleaks",
+  "name": "dwisiswant0/apkleaks",
+  "description": "Static analysis tool for scanning APK files to extract URIs, endpoints, and secrets by decompiling with JADX and applying pattern matching against sensitive data signatures.",
+  "sub_domain": "Mobile Security",
+  "score": 8,
+  "score_rationale": "Widely used APK secrets scanner with 6k stars, simple and effective for bug bounty and security assessments, last updated October 2024.",
+  "stars": 6000,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-10-21",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 78.2,
+  "tags": [
+    "decompilation",
+    "static-analysis",
+    "security-tool"
+  ],
+  "category": "Vulnerability Scanner",
+  "summary": "Static analysis tool for scanning APK files to extract URIs, endpoints, and secrets by decompilin...",
+  "slug": "dwisiswant0-apkleaks"
+}

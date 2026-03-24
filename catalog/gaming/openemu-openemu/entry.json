@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openemu/openemu",
+  "name": "OpenEmu/OpenEmu",
+  "description": "A modular multi-system retro video game emulator for macOS with a native UI, Metal rendering, and support for 30+ gaming platforms from Atari 2600 to PSP via plugin-based emulation cores.",
+  "sub_domain": "emulators-retro",
+  "score": 8,
+  "score_rationale": "The premier macOS retro emulation platform with 17.4k stars; downloaded over 10 million times with best-in-class native macOS UI.",
+  "stars": 17400,
+  "language": "Swift",
+  "license": null,
+  "last_activity": "2023-12-30",
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 81.9,
+  "tags": [
+    "emulation",
+    "retro",
+    "macos",
+    "multi-platform"
+  ],
+  "category": "Retro Game Emulator",
+  "summary": "Premier macOS retro emulator supporting 30+ platforms with native UI",
+  "slug": "openemu-openemu"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/microsoft/seal",
+  "name": "microsoft/SEAL",
+  "description": "Microsoft's easy-to-use homomorphic encryption library supporting BFV, BGV, and CKKS cryptographic schemes, enabling arithmetic on encrypted integers and real numbers for privacy-preserving computation.",
+  "sub_domain": "cryptography",
+  "score": 8,
+  "score_rationale": "Widely-adopted homomorphic encryption library from Microsoft with 4k stars, though showing reduced activity since mid-2024 as development shifted to OpenFHE.",
+  "stars": 4000,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2024-06-10",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 76.8,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "microsoft-seal"
+}

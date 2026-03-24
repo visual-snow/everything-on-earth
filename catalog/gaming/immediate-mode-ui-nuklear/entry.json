@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/immediate-mode-ui/nuklear",
+  "name": "Immediate-Mode-UI/Nuklear",
+  "description": "A minimal-state, immediate-mode graphical user interface toolkit written in ANSI C as a single-header library with no external dependencies. Cross-platform and highly portable for game tools.",
+  "sub_domain": "game-ui",
+  "score": 8,
+  "score_rationale": "Highly popular single-header C GUI library with 11k stars, widely used for lightweight in-game debug interfaces and tools.",
+  "stars": 11000,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 80.3,
+  "tags": [
+    "immediate-mode",
+    "c-library",
+    "single-header",
+    "portable",
+    "lightweight"
+  ],
+  "category": "C Game UI Toolkit",
+  "summary": "Single-header C GUI toolkit for game tools",
+  "slug": "immediate-mode-ui-nuklear"
+}

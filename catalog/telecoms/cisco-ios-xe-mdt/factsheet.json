@@ -1,0 +1,80 @@
+{
+  "slug": "cisco-ios-xe-mdt",
+  "name": "Cisco IOS XE Model-Driven Telemetry (tig_mdt)",
+  "what_it_is": "A Docker-based TIG stack (Telegraf, InfluxDB, Grafana) pre-configured for Cisco IOS XE YANG Model-Driven Telemetry. It receives streaming telemetry from IOS XE devices via gRPC Dial-Out, NETCONF Dial-In, and gNMI Dial-In, stores data in InfluxDB, and visualizes it in Grafana.",
+  "components": [
+    "Telegraf (collection) with cisco_telemetry_mdt and cisco_telemetry_mdt_netconf_dialin input plugins",
+    "InfluxDB (time-series storage)",
+    "Grafana (dashboard visualization, port 3000)",
+    "Pre-built Grafana dashboard (grafana.com/dashboards/13462)",
+    "ncc-establish-subscription.py (NETCONF dial-in CLI tool)",
+    "gnmi_cli (gNMI dial-in CLI tool)",
+    "IOS XE device (C9300/C9500/C9800 running IOS XE 16.10+)"
+  ],
+  "protocols": [
+    "gRPC Dial-Out (port 57500 plaintext, port 57501 TLS)",
+    "NETCONF Dial-In (port 830)",
+    "gNMI Dial-In (port 9339 insecure, TLS optional)",
+    "YANG data models (Cisco-IOS-XE-* and OpenConfig)",
+    "encode-kvgpb (key-value GPB encoding)",
+    "JSON_IETF encoding (gNMI)",
+    "yang-push stream (periodic and on-change)",
+    "yang-notif-native stream (event notifications)"
+  ],
+  "measurement": [
+    "Interface counters (/oc-if:interfaces/interface/state/counters)",
+    "CPU utilization (/process-cpu-ios-xe-oper:cpu-usage/cpu-utilization)",
+    "Temperature sensors (/oc-platform:components/component/state/temperature)",
+    "Fan state (/oc-platform:components/component/fan/state)",
+    "Power supply state (/oc-platform:components/component/power-supply/state)",
+    "System state and last boot (/oc-sys:system/state)",
+    "OSPF neighbor state change events",
+    "BGP peer state change events",
+    "Interface admin/oper state change events",
+    "Memory and disk usage events",
+    "Wireless AP radio-oper-data (IOS XE 17.7+)"
+  ],
+  "configuration": [
+    "IOS XE subscription via CLI: telemetry ietf subscription <id> with encoding, xpath filter, source-address, update-policy, and receiver",
+    "Telegraf gRPC config: telegraf-grpc.cfg (transport=grpc, service_address=:57500)",
+    "Telegraf NETCONF config: telegraf-netconf.cfg (server_address, username, password, redial interval)",
+    "Telegraf gNMI config: telegraf-gnmi.cfg",
+    "TLS mutual auth config: telegraf-grpc-mtls.conf with tls_cert/tls_key",
+    "AAA: aaa new-model with privilege 15 user required for NETCONF",
+    "Docker run: docker run -ti -p 3000:3000 -p 57500:57500 jeremycohoe/tig_mdt"
+  ],
+  "fault_injection": [
+    "On-change subscriptions for OSPF neighbor state changes (ospf-neighbor-state-change)",
+    "On-change subscriptions for BGP peer state changes (bgp-peer-state-change)",
+    "On-change subscriptions for interface state changes (interface-state-change, interface-admin-state-change)",
+    "On-change subscriptions for IOS configuration changes (/ios:native, stream yang-push on-change)",
+    "Event types: memory-usage, cpu-usage, tempsensor-fault, fantray-fault, fan-fault, sdcard-fault, flash-fault, usb-state-change, sfp-state-change, system-reboot-complete, system-reboot-issued, system-login-change, system-logout-change, disk-usage"
+  ],
+  "modes": [
+    "gRPC Dial-Out (configured/static): device initiates connection to collector, subscriptions defined on device",
+    "NETCONF Dial-In (dynamic): collector opens session to device and sends subscriptions",
+    "gNMI Dial-In (dynamic): collector subscribes using STREAM/SAMPLE or ON_CHANGE mode",
+    "Periodic update-policy (e.g., period 3000 = 30 seconds)",
+    "On-change update-policy (event-driven push on data change)",
+    "TLS/mTLS secured transport (optional, port 57501 for gRPC)"
+  ],
+  "constraints": [
+    "Requires IOS XE 16.10+ for gRPC Dial-Out; gNMI secure server requires TLS certificates loaded on device first",
+    "Power supply XPath (/oc-platform:components/component/power-supply/state) documented as non-functional on C9300 IOS XE 17.3",
+    "NETCONF dial-in requires AAA with privilege level 15 user configured on IOS XE device",
+    "Docker container exposes only ports 3000 (Grafana) and 57500 (gRPC); port 57501 (TLS gRPC) requires explicit mapping",
+    "gNMI insecure mode (gnmi-yang/gnxi without secure-server) does not support TLS — secure mode requires separate cert generation workflow",
+    "No docker-compose file in repo; single-container deployment only via docker run"
+  ],
+  "docker_services": [
+    "jeremycohoe/tig_mdt (all-in-one: Telegraf + InfluxDB + Grafana, Dockerhub image)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in repository; single docker run command only",
+    "No automated IOS XE device simulation or emulator included — requires real or lab hardware",
+    "No Splunk output configured by default (commented out in telegraf configs)",
+    "No Python-based subscription management scripts in repo (ncc tools are external)",
+    "No health-check or restart policy defined for the Docker container",
+    "No InfluxDB retention policy or data TTL configuration documented"
+  ]
+}

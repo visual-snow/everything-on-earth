@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/datadog/stratus-red-team",
+  "name": "DataDog/stratus-red-team",
+  "description": "Granular, actionable adversary emulation for the cloud providing self-contained attack scenarios mapped to MITRE ATT&CK for AWS, Azure, and GCP. Cloud-native equivalent to Atomic Red Team.",
+  "sub_domain": "container-cloud-security",
+  "score": 8,
+  "score_rationale": "2.3k stars with active maintenance into March 2026 by Datadog, fills a unique niche as the standard cloud adversary emulation framework for purple teaming.",
+  "stars": 2300,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 74.9,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "datadog-stratus-red-team"
+}

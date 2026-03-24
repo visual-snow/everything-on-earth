@@ -1,0 +1,58 @@
+{
+  "name": "Internet Monitoring (Geerlingguy)",
+  "repo_url": "https://github.com/geerlingguy/internet-monitoring",
+  "description": "Docker Prometheus stack with Grafana, blackbox-exporter, and speedtest-exporter to monitor and graph home network connections and speed.",
+  "domain": "connectivity-testing",
+  "secondary_domains": [
+    "home-network",
+    "netconf",
+    "speedtest"
+  ],
+  "protocols": [
+    "HTTP",
+    "ICMP",
+    "DNS"
+  ],
+  "provides": [
+    "prometheus-stack",
+    "metrics-collection",
+    "web-dashboard",
+    "speedtest-exporter",
+    "icmp-probing",
+    "bandwidth-measurement",
+    "http-probing",
+    "grafana-dashboard",
+    "blackbox-exporter",
+    "streaming-telemetry",
+    "dns-monitoring",
+    "latency-measurement",
+    "network-monitoring"
+  ],
+  "needs": [
+    "docker-compose",
+    "internet-access",
+    "docker-engine"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 4,
+    "docker_evidence": "Quick start Docker Prometheus stack with Prometheus, Grafana, blackbox-exporter and speedtest-exporter."
+  },
+  "github_metrics": {
+    "stars": 5000,
+    "last_commit": "2025-06-01",
+    "language": "Shell",
+    "license": "MIT"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Simple but effective network monitoring stack. Good template for building basic connectivity monitoring evaluation environments.",
+  "related_repos": [
+    "https://github.com/maxandersen/internet-monitoring"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "internet-monitoring-geerlingguy"
+}

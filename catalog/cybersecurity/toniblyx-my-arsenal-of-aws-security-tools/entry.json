@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/toniblyx/my-arsenal-of-aws-security-tools",
+  "name": "toniblyx/my-arsenal-of-aws-security-tools",
+  "description": "Comprehensive catalog of open-source AWS security tools covering defensive hardening, offensive pentesting, purple teaming, continuous auditing, and DFIR capabilities.",
+  "sub_domain": "container-cloud-security",
+  "score": 7,
+  "score_rationale": "9.4k stars, well-maintained reference index for AWS security practitioners, though primarily a curated list rather than an active tool.",
+  "stars": 9400,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 73.8,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "toniblyx-my-arsenal-of-aws-security-tools"
+}

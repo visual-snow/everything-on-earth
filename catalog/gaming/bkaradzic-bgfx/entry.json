@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/bkaradzic/bgfx",
+  "name": "bkaradzic/bgfx",
+  "description": "Cross-platform, graphics API agnostic 'Bring Your Own Engine/Framework' style rendering library supporting Direct3D, Metal, OpenGL, Vulkan, and WebGPU. Used in Unity's Project Tiny.",
+  "sub_domain": "graphics-rendering",
+  "score": 10,
+  "score_rationale": "Industry-standard cross-platform rendering abstraction with 16.9k stars, widely adopted in commercial and indie game development.",
+  "stars": 16900,
+  "language": "C++",
+  "license": "BSD-2-Clause",
+  "last_activity": "2025-03-01",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 93.8,
+  "tags": [
+    "graphics",
+    "api-abstraction",
+    "cross-platform"
+  ],
+  "category": "Graphics API",
+  "summary": "Cross-platform graphics abstraction supporting all APIs",
+  "slug": "bkaradzic-bgfx"
+}

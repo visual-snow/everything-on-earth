@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tencent/behaviac",
+  "name": "Tencent/behaviac",
+  "description": "A game AI development framework from Tencent supporting behavior trees, finite state machines, and hierarchical task networks with a visual editor for rapid prototyping.",
+  "sub_domain": "behavior-ai",
+  "score": 9,
+  "score_rationale": "3k stars, built and maintained by Tencent for production game AI, covers BT+FSM+HTN in one framework with a visual editor.",
+  "stars": 3000,
+  "language": "C#",
+  "license": "BSD-3-Clause",
+  "last_activity": "2022-07-04",
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 81.8,
+  "tags": [
+    "behavior-tree",
+    "game-ai",
+    "visual-editor"
+  ],
+  "category": "AI Development Framework",
+  "summary": "Tencent game AI framework with BT, FSM, HTN and visual editor",
+  "slug": "tencent-behaviac"
+}

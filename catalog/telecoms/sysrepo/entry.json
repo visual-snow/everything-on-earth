@@ -1,0 +1,61 @@
+{
+  "name": "sysrepo",
+  "repo_url": "https://github.com/sysrepo/sysrepo",
+  "description": "YANG-based configuration and operational state data store for Unix/Linux applications. Enforces data constraints defined by YANG models. Supports startup, running, candidate, and operational datastores.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "network-element-simulation",
+    "yang-datastore"
+  ],
+  "protocols": [
+    "NETCONF",
+    "RESTCONF",
+    "YANG"
+  ],
+  "provides": [
+    "yang-datastore",
+    "netconf-backend",
+    "restconf-backend",
+    "yang-model-validation",
+    "configuration-datastore",
+    "operational-state-store",
+    "change-notifications",
+    "subscription-management",
+    "startup-running-candidate-datastores"
+  ],
+  "needs": [
+    "libyang",
+    "netopeer2",
+    "linux-host",
+    "cmake-build-system",
+    "c-compiler"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "sysrepo/sysrepo-netopeer2",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker images of Sysrepo datastore are available built from the sysrepo repository at Docker Hub under sysrepo/"
+  },
+  "github_metrics": {
+    "stars": 500,
+    "last_commit": "2026-02",
+    "language": "C",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Essential datastore backend for Netopeer2. Provides the YANG-validated configuration store that agents interact with. Supports subscriptions and change notifications \u2014 useful for testing agentic reactive config workflows. The datastore engine behind Netopeer2. Enforces YANG model constraints on all configuration data. Essential building block for NETCONF test environments that need realistic data validation. The reference YANG datastore implementation. Powers netopeer2 NETCONF server and rousette RESTCONF server. Replaces flat config files with YANG-validated datastores. Essential component for any YANG-native network element simulation.",
+  "related_repos": [
+    "https://github.com/cesnet/libyang",
+    "https://github.com/cesnet/netopeer2",
+    "https://github.com/cesnet/rousette",
+    "https://github.com/sysrepo-archive/docker-sysrepo-netopeer2",
+    "https://github.com/sysrepo/sysrepo-python"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/netconf-servers.json",
+    "discovery/netconf-mgmt/netconf-testing.json",
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "sysrepo"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "stratum",
+  "name": "Stratum",
+  "what_it_is": "Stratum is an open-source, silicon-independent switch operating system for software-defined networks (SDN) that exposes next-generation SDN interfaces including P4Runtime and OpenConfig/gNMI to enable programmability and interchangeability across networking devices. It provides a hardware abstraction layer supporting Tofino-based ASICs, Broadcom Tomahawk/Trident chip families, Intel PAC N3000 smart NICs, and software-based switches (bmv2).",
+  "components": [
+    "P4Runtime server (forwarding pipeline programming)",
+    "gNMI server (network device management over gRPC)",
+    "Physical Hardware Access Layer (PHAL) for device-specific operations",
+    "ChassisConfig abstraction layer",
+    "SDKLT interface for fixed-pipeline Broadcom Tomahawk switches",
+    "Config Monitoring Service",
+    "bmv2 software switch backend",
+    "Dummy switch backend (for testing)"
+  ],
+  "protocols": [
+    "P4Runtime (gRPC-based forwarding pipeline control)",
+    "gNMI (gRPC Network Management Interface)",
+    "OpenConfig (YANG-based configuration/telemetry models)",
+    "gRPC (transport layer for P4Runtime and gNMI)"
+  ],
+  "measurement": [
+    "gNMI streaming telemetry (subscribe to operational state paths)",
+    "Config Monitoring Service for configuration state tracking",
+    "Logging framework for debug and operational visibility",
+    "gNMI-supported paths documentation for observable counters and state"
+  ],
+  "configuration": [
+    "P4Runtime for forwarding pipeline (P4 program) configuration",
+    "gNMI for device and interface configuration",
+    "OpenConfig YANG models for structured configuration",
+    "ChassisConfig protobuf for chassis-level configuration",
+    "CLI tools: gNMI CLI, PHAL CLI, ONLP CLI"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Hardware mode: Tofino-based ASIC switches (requires Barefoot SDE)",
+    "Hardware mode: Broadcom Tomahawk/Trident switches (requires Broadcom SDK6)",
+    "Hardware mode: Intel PAC N3000 smart NIC",
+    "Software mode: bmv2 behavioral model switch (no hardware required)",
+    "Software mode: dummy switch (stub for development/testing)"
+  ],
+  "constraints": [
+    "Tofino hardware mode requires Barefoot SDE access (not freely distributable — pre-built binaries behind vendor agreement)",
+    "Broadcom SDK6 requires a vendor SLA or direct Broadcom relationship to obtain",
+    "Hardware support limited to explicitly listed platforms; arbitrary ASICs not supported without porting work",
+    "No native support for sFlow, NetFlow, IPFIX, or packet-sampling telemetry protocols",
+    "No in-band network telemetry (INT) support mentioned",
+    "No docker-compose file found in the repository root (no containerized multi-service deployment definition)"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found in the repository",
+    "No fault injection or chaos testing framework",
+    "No sFlow, NetFlow, or IPFIX packet-sampling support",
+    "No in-band telemetry (INT) support",
+    "No BGP, OSPF, or routing protocol stack (SDN control plane delegated to external controller)"
+  ]
+}

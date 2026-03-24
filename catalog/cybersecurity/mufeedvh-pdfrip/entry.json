@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mufeedvh/pdfrip",
+  "name": "mufeedvh/pdfrip",
+  "description": "Multithreaded PDF password cracking utility written in Rust supporting wordlist attacks, bounded masks, date generators, printable-ASCII brute-force, and checkpoint/resume functionality.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 7,
+  "score_rationale": "Well-maintained PDF-specific cracker with 1.3k stars, MIT license, and active development through March 2026.",
+  "stars": 1300,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 66.9,
+  "tags": [
+    "password-cracking",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Password Cracker",
+  "summary": "Multithreaded PDF password cracking utility written in Rust supporting wordlist attacks, bounded ...",
+  "slug": "mufeedvh-pdfrip"
+}

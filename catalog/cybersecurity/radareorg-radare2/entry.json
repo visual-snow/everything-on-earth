@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/radareorg/radare2",
+  "name": "radareorg/radare2",
+  "description": "UNIX-like reverse engineering framework and command-line toolset supporting analysis, disassembly, debugging, and modification of binaries across dozens of architectures.",
+  "sub_domain": "malware-reversing",
+  "score": 10,
+  "score_rationale": "23k stars, foundational reverse engineering framework with continuous active development into 2026.",
+  "stars": 23300,
+  "language": "C",
+  "license": "LGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing",
+    "malware-reversing"
+  ],
+  "quality_score": 94.9,
+  "tags": [
+    "reverse-engineering",
+    "disassembly",
+    "binary-analysis",
+    "scripting"
+  ],
+  "category": "Reverse Engineering",
+  "summary": "Unix-like framework for reverse engineering",
+  "slug": "radareorg-radare2"
+}

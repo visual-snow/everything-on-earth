@@ -1,0 +1,58 @@
+{
+  "name": "Stratum",
+  "repo_url": "https://github.com/stratum/stratum",
+  "description": "An open source silicon-independent switch operating system for SDN. Reference implementation of P4Runtime and gNMI services as a hardware abstraction layer for network switches.",
+  "domain": "data-plane",
+  "secondary_domains": [
+    "netconf",
+    "network-os",
+    "p4-programmable-switch",
+    "sdn"
+  ],
+  "protocols": [
+    "P4Runtime",
+    "gNMI",
+    "gNOI",
+    "OpenConfig"
+  ],
+  "provides": [
+    "p4runtime-server",
+    "gnmi-server",
+    "gnoi-server",
+    "openconfig-datastore",
+    "bmv2-softswitch",
+    "mininet-topology",
+    "sdn-switch-os",
+    "hardware-abstraction-layer",
+    "p4-programmable-dataplane"
+  ],
+  "needs": [
+    "docker-privileged-mode",
+    "linux-host",
+    "p4-pipeline-binary"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "opennetworking/mn-stratum",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker dev environment via ./setup_dev_env.sh. Pre-built container with Mininet and Stratum BMv2: docker run --privileged --rm -it -p 50001:50001 opennetworking/mn-stratum"
+  },
+  "github_metrics": {
+    "stars": 410,
+    "last_commit": "2023-12-06",
+    "language": "C++",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "P4-programmable switch OS with Docker support. The mn-stratum image bundles Mininet + bmv2 for instant P4 lab environments. Good for testing programmable data plane scenarios.",
+  "related_repos": [
+    "https://github.com/stratum/fabric-tna",
+    "https://github.com/stratum/tutorial",
+    "https://github.com/p4lang/behavioral-model"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "stratum"
+}

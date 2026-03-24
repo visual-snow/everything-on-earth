@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/notaryproject/notation",
+  "name": "notaryproject/notation",
+  "description": "CLI tool implementing the Notary Project specification for signing and verifying container images and other OCI artifacts. Integrates with major container registries for supply chain integrity.",
+  "sub_domain": "Supply Chain Security",
+  "score": 8,
+  "score_rationale": "CNCF-backed container artifact signing standard with 5.3k+ stars, widely adopted alternative to cosign.",
+  "stars": 5322,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 77.8,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "cli tool implementing the notary project specification for signing and verifying container images an...",
+  "slug": "notaryproject-notation"
+}

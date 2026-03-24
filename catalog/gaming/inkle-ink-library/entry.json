@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/inkle/ink-library",
+  "name": "inkle/ink-library",
+  "description": "A curated collection of ink code samples, tools, engine ports (Unity, JS, Godot, Rust), editor extensions, and a list of games built with ink. The central resource hub for the ink ecosystem.",
+  "sub_domain": "dialogue-narrative",
+  "score": 6,
+  "score_rationale": "Essential reference repository for the ink narrative ecosystem with 319 stars, cataloging ports, tools, and real-world usage examples.",
+  "stars": 319,
+  "language": "Ink",
+  "license": "MIT",
+  "last_activity": "2022-02-26",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 56.0,
+  "tags": [
+    "ink",
+    "narrative",
+    "resource-collection",
+    "documentation"
+  ],
+  "category": "Narrative Resource Hub",
+  "summary": "Central collection of ink samples, ports, and ecosystem tools",
+  "slug": "inkle-ink-library"
+}

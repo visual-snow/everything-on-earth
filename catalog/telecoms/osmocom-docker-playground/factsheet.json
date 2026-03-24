@@ -1,0 +1,97 @@
+{
+  "slug": "osmocom-docker-playground",
+  "name": "Osmocom Docker Playground",
+  "what_it_is": "A collection of 126+ Docker containers and test automation infrastructure for the Osmocom cellular telecommunications stack. Primarily used to run TTCN3 testsuites that validate GSM/UMTS core network components (BSC, MSC, HLR, MGW, GGSN, etc.) against their protocol interfaces.",
+  "components": [
+    "osmo-stp (Signaling Transfer Point)",
+    "osmo-bsc (Base Station Controller)",
+    "osmo-bts (Base Transceiver Station)",
+    "osmo-msc (Mobile Switching Center)",
+    "osmo-mgw (Media Gateway)",
+    "osmo-hlr (Home Location Register)",
+    "osmo-ggsn / OsmoGGSN (GPRS Gateway Support Node)",
+    "osmo-sgsn (Serving GPRS Support Node)",
+    "osmo-pcu (Packet Control Unit)",
+    "osmo-pcap (packet capture helper)",
+    "gr-gsm-master (GNU Radio GSM implementation)",
+    "git-daemon, gerrit, redmine (infrastructure services)",
+    "fpga-build (hardware/FPGA build environment)"
+  ],
+  "protocols": [
+    "SS7",
+    "SIGTRAN",
+    "M3UA",
+    "SCCP",
+    "GSM",
+    "UMTS",
+    "SCTP",
+    "GTP-U (GPRS Tunneling Protocol user-plane)",
+    "TTCN3 (Testing and Test Control Notation)"
+  ],
+  "measurement": [
+    "bpftrace script execution for performance profiling (enabled via RUN_BPFTRACE env var)",
+    "gdb integration for crash diagnostics with backtrace collection",
+    "Kernel module functional validation through QEMU-based testing"
+  ],
+  "configuration": [
+    "IMAGE_SUFFIX: selects stack version (default: master; alternative: latest)",
+    "OSMO_TTCN3_BRANCH: specifies test framework git branch",
+    "OSMO_*_BRANCH: per-component git branch override",
+    "NO_DOCKER_IMAGE_BUILD: skip container rebuilds",
+    "NO_DOCKER_IMAGE_PULL: disable --pull flag during builds",
+    "DOCKER_ARGS: pass additional docker runtime arguments",
+    "TEST_CONFIGS: select a subset of multi-config test runs",
+    "TEST_NAME: run a single isolated test case",
+    "RUN_BPFTRACE: enable bpftrace profiling for BTS tests",
+    "OSMOCOM_REPO_PATH: select nightly package date",
+    "KERNEL_TEST: enable QEMU-based kernel module validation",
+    "KERNEL_TEST_KVM: toggle KVM acceleration",
+    "KERNEL_BUILD: compile a custom kernel",
+    "KERNEL_REMOTE_NAME / KERNEL_URL / KERNEL_BRANCH: kernel git source",
+    "KERNEL_SKIP_REBUILD / KERNEL_SKIP_SMOKE_TEST: build optimization flags"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "master (development): bleeding-edge commits, IMAGE_SUFFIX=master",
+    "latest (stable): stable releases, IMAGE_SUFFIX=latest",
+    "versioned releases: named quarter tags (e.g., 2021q1)",
+    "kernel module testing: userspace vs. kernel-based GTP-U via QEMU",
+    "single test execution: individual TTCN3 test case isolation via TEST_NAME"
+  ],
+  "constraints": [
+    "TTCN3 testsuites are being migrated; historical suites being relocated to osmo-ttcn3-hacks.git, so suite locations may shift",
+    "Kernel module testing (QEMU path) is practical only for OsmoGGSN; not generalised across all components",
+    "Supported base OS images are Debian (stretch through trixie/sid) and CentOS 7/8; platform-specific Dockerfiles required for each",
+    "No real radio hardware is included; all air-interface testing is emulated or stub-based",
+    "HTTP-based source staleness detection for layer caching means stale builds are possible if upstream packages change without a content-length change"
+  ],
+  "docker_services": [
+    "debian-bookworm-build, debian-bullseye-build, debian-buster-build, debian-trixie-build, debian-sid-build (base build images)",
+    "centos7-build, centos8-build (CentOS base images)",
+    "debian-*-erlang, debian-*-android, debian-*-rp2040 (language/platform variants)",
+    "osmo-bsc-master, osmo-bsc-latest",
+    "osmo-bts-master, osmo-bts-latest",
+    "osmo-msc-master, osmo-msc-latest",
+    "osmo-mgw-master, osmo-mgw-latest",
+    "osmo-hlr-master, osmo-hlr-latest",
+    "osmo-sgsn-master, osmo-sgsn-latest",
+    "osmo-ggsn-master, osmo-ggsn-latest",
+    "osmo-pcu-master, osmo-pcu-latest",
+    "osmo-stp-master, osmo-stp-latest",
+    "osmo-pcap-master, osmo-pcap-latest",
+    "ttcn3-bsc-test, ttcn3-bts-test, ttcn3-hlr-test, ttcn3-mgw-test, ttcn3-msc-test, ttcn3-pcu-test, ttcn3-stp-test, ttcn3-ns-test",
+    "sigtran-tests",
+    "gr-gsm-master",
+    "fpga-build",
+    "git-daemon, gerrit, redmine"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml at repository root; orchestration is done via individual jenkins.sh scripts and docker_images_require declarations",
+    "No fault injection or traffic impairment tooling (no tc/netem wrappers, no packet loss simulation)",
+    "No load-testing or stress-testing framework",
+    "No persistent metrics storage or time-series database (no Prometheus, Grafana, etc.)",
+    "No documented REST/gRPC API surface for programmatic control",
+    "No security scanning or vulnerability assessment tooling",
+    "No real radio hardware support — air-interface is fully emulated"
+  ]
+}

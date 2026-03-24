@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/inkle/ink-unity-integration",
+  "name": "inkle/ink-unity-integration",
+  "description": "Official Unity package for integrating the ink narrative scripting language, supporting automatic compilation, a story player window, and full C# API access for controlling narratives in Unity games.",
+  "sub_domain": "dialogue-narrative",
+  "score": 7,
+  "score_rationale": "Official ink-Unity bridge with 682 stars and strong adoption among Unity developers building narrative games.",
+  "stars": 682,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2024-07-31",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 64.7,
+  "tags": [
+    "ink",
+    "unity",
+    "narrative",
+    "dialogue-system"
+  ],
+  "category": "Unity Integration",
+  "summary": "Official ink language integration for Unity with full C# API access",
+  "slug": "inkle-ink-unity-integration"
+}

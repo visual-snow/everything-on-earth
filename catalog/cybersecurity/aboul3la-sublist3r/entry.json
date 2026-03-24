@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/aboul3la/sublist3r",
+  "name": "aboul3la/Sublist3r",
+  "description": "Python tool designed to enumerate subdomains of websites using OSINT, leveraging multiple search engines and reconnaissance databases for penetration testing target identification.",
+  "sub_domain": "osint-recon",
+  "score": 6,
+  "score_rationale": "10.9k stars but last active in 2020, still widely referenced in educational resources though superseded by actively maintained tools like subfinder.",
+  "stars": 10900,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2020-04-06",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 68.3,
+  "tags": [
+    "osint",
+    "pe-format",
+    "reconnaissance",
+    "web-security"
+  ],
+  "category": "OSINT Platform",
+  "summary": "Python tool designed to enumerate subdomains of websites using OSINT, leveraging multiple search ...",
+  "slug": "aboul3la-sublist3r"
+}

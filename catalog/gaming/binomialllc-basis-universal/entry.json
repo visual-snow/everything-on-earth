@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/binomialllc/basis_universal",
+  "name": "BinomialLLC/basis_universal",
+  "description": "Basis Universal is a supercompressed GPU texture codec that transcodes to virtually any GPU texture format at runtime, supporting ETC1S, UASTC, ASTC, BC7, and more. The de-facto standard for portable GPU texture distribution.",
+  "sub_domain": "asset-formats",
+  "score": 9,
+  "score_rationale": "Dominant portable GPU texture compression standard with 3k stars, used in major game engines (Unity, Godot, Babylon.js), and backed by the KTX2 spec from Khronos.",
+  "stars": 3000,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2024-12-07",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 81.8,
+  "tags": [
+    "texture-compression",
+    "gpu-codec",
+    "ktx2"
+  ],
+  "category": "Texture Compression",
+  "summary": "Supercompressed GPU texture codec for portable cross-platform distribution",
+  "slug": "binomialllc-basis-universal"
+}

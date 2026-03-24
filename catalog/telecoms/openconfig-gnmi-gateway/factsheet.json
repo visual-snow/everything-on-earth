@@ -1,0 +1,51 @@
+{
+  "slug": "openconfig-gnmi-gateway",
+  "name": "gNMI Gateway",
+  "what_it_is": "A distributed, highly available service for connecting to multiple gNMI targets and proxying streaming telemetry subscriptions. It decouples consumers from target connections via a local cache, supporting multiple exporters and target loaders.",
+  "components": [
+    "Target Loaders (JSON file, Netbox, simple file-based)",
+    "Exporters (Debug/stdout, Kafka, Prometheus)",
+    "Local gNMI cache (queryable by exporters)",
+    "Zookeeper-based cluster coordinator"
+  ],
+  "protocols": [
+    "gNMI Subscribe RPC",
+    "OpenConfig data models",
+    "gRPC",
+    "TLS"
+  ],
+  "measurement": [
+    "Prometheus metrics exporter extracting values from OpenConfig paths",
+    "Real-time gNMI notification streaming to Kafka",
+    "Debug exporter logging raw notifications to stdout"
+  ],
+  "configuration": [
+    "Command-line flags for selecting target loaders and exporters",
+    "TLS certificate configuration (self-signed or custom CA)",
+    "Per-target metadata: NoTLSVerify (skip cert verification), NoLock (disable cluster locking)",
+    "Zookeeper address and tickTime for clustering"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Standalone (single instance, no Zookeeper required)",
+    "Clustered (multi-instance coordinated via Apache Zookeeper)",
+    "Exporter-as-client (exporters deployed separately, querying a gateway cluster)"
+  ],
+  "constraints": [
+    "Pre-release/experimental status — API and behavior may change",
+    "Only gNMI Subscribe RPC is supported; Get and Set operations are not implemented",
+    "Requires Golang 1.14+",
+    "TLS is mandatory per gNMI spec; plaintext connections are not supported",
+    "Zookeeper tickTime limits make cross-region distributed deployments impractical"
+  ],
+  "docker_services": [
+    "zookeeper (ephemeral, development only, no persistent volumes — referenced in README, no docker-compose.yml found in repo root)"
+  ],
+  "notable_absences": [
+    "No gNMI Get or Set support",
+    "No built-in time-series database (requires external Prometheus or Kafka)",
+    "No web UI or dashboard",
+    "No built-in authentication beyond mutual TLS",
+    "No docker-compose.yml in repository root (404 on master branch)"
+  ]
+}

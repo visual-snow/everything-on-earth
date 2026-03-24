@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/engoengine/engo",
+  "name": "EngoEngine/engo",
+  "description": "A cross-platform 2D game engine written in Go using Entity-Component-System architecture, supporting Mac, Linux, Windows, and WebAssembly.",
+  "sub_domain": "game-engines-2d",
+  "score": 5,
+  "score_rationale": "1.8k stars, MIT, solid ECS-based Go engine but last active in 2022, less maintained than Ebitengine.",
+  "stars": 1800,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2022-11-12",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 56.0,
+  "tags": [
+    "2d-game-engine",
+    "go",
+    "ecs",
+    "cross-platform",
+    "wasm"
+  ],
+  "category": "Go ECS Game Engine",
+  "summary": "Cross-platform Go 2D engine with ECS architecture and WASM support",
+  "slug": "engoengine-engo"
+}

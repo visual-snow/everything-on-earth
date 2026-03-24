@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jailbreakbench/jailbreakbench",
+  "name": "JailbreakBench/jailbreakbench",
+  "description": "Open robustness benchmark for evaluating jailbreaking attacks and defenses in LLMs, published at NeurIPS 2024. Provides standardized threat models, the JBB-Behaviors dataset of 200 behaviors, and an official leaderboard for tracking attack and defense progress.",
+  "sub_domain": "ai-security",
+  "score": 7,
+  "score_rationale": "NeurIPS 2024 standardized LLM jailbreak benchmark with 556 stars that provides the most widely used evaluation framework for LLM robustness research.",
+  "stars": 556,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-01-30",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 64.0,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "Open robustness benchmark for evaluating jailbreaking attacks and defenses in LLMs, published at Neu",
+  "slug": "jailbreakbench-jailbreakbench"
+}

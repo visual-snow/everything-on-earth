@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tib3rius/autorecon",
+  "name": "Tib3rius/AutoRecon",
+  "description": "A multi-threaded network reconnaissance tool that automatically enumerates services through port scanning and targeted enumeration scans, widely used in OSCP exam preparation and CTF environments.",
+  "sub_domain": "pentest-frameworks",
+  "score": 7,
+  "score_rationale": "Popular pentest automation and recon tool with 6k+ stars used extensively in certification labs and real-world assessments.",
+  "stars": 6000,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-06-01",
+  "found_in_domains": [
+    "pentest-frameworks"
+  ],
+  "quality_score": 72.2,
+  "tags": [
+    "network-analysis",
+    "reconnaissance",
+    "security-tool"
+  ],
+  "category": "OSINT Platform",
+  "summary": "A multi-threaded network reconnaissance tool that automatically enumerates services through port ...",
+  "slug": "tib3rius-autorecon"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/james-e-kelly/sound-bakery",
+  "name": "james-e-kelly/sound-bakery",
+  "description": "Open-source audio middleware tool with an authoring application and C/C++ API, targeting feature parity with commercial tools like Wwise and FMOD including asset management, sound selection, and real-time debugging.",
+  "sub_domain": "game-audio",
+  "score": 5,
+  "score_rationale": "Promising open-source FMOD/Wwise alternative in early development with only 5 stars but actively worked on through March 2025 \u2014 worth tracking for future maturity.",
+  "stars": 5,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-03-09",
+  "found_in_domains": [
+    "game-audio"
+  ],
+  "quality_score": 36.2,
+  "tags": [
+    "audio-middleware",
+    "wwise-alternative",
+    "tools",
+    "audio"
+  ],
+  "category": "Audio Middleware",
+  "summary": "Early-stage open-source audio middleware alternative to FMOD",
+  "slug": "james-e-kelly-sound-bakery"
+}

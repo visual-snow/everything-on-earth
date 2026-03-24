@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/pyca/cryptography",
+  "name": "pyca/cryptography",
+  "description": "The standard cryptographic library for Python, exposing both high-level recipes and low-level interfaces to symmetric ciphers, message digests, key derivation functions, and X.509 certificate handling.",
+  "sub_domain": "cryptography",
+  "score": 9,
+  "score_rationale": "The de-facto cryptography package for Python with 7.5k stars, widely used across the Python ecosystem for production cryptographic operations.",
+  "stars": 7500,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-01",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 85.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "pyca-cryptography"
+}

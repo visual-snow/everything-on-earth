@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/gfx-rs/wgpu",
+  "name": "gfx-rs/wgpu",
+  "description": "Cross-platform, safe, pure-Rust graphics API implementing the WebGPU standard, running natively on Vulkan, Metal, D3D12, and OpenGL, plus WebAssembly. Core of Firefox and Deno WebGPU.",
+  "sub_domain": "graphics-rendering",
+  "score": 10,
+  "score_rationale": "Essential Rust graphics API with 16.7k stars, integrated into Firefox and Servo, the primary WebGPU implementation for the Rust ecosystem.",
+  "stars": 16700,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2025-03-24",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 93.8,
+  "tags": [
+    "graphics",
+    "rust",
+    "webgpu"
+  ],
+  "category": "Graphics API",
+  "summary": "Safe Rust WebGPU implementation used by Firefox",
+  "slug": "gfx-rs-wgpu"
+}

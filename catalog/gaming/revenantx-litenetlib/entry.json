@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/revenantx/litenetlib",
+  "name": "RevenantX/LiteNetLib",
+  "description": "Lite reliable UDP library for .NET Standard 2.1 / Mono supporting Unity, Godot, and MonoGame; provides minimal-overhead reliable/unreliable messaging with peer-to-peer support.",
+  "sub_domain": "game-networking",
+  "score": 8,
+  "score_rationale": "Go-to lightweight .NET UDP library with 3.5k stars, recently updated (2026) and widely used across Unity/Godot multiplayer projects.",
+  "stars": 3500,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2026-02-14",
+  "found_in_domains": [
+    "game-networking"
+  ],
+  "quality_score": 76.4,
+  "tags": [
+    "udp",
+    "dotnet",
+    "unity",
+    "godot",
+    "multiplayer"
+  ],
+  "category": ".NET Game Networking",
+  "summary": "Lightweight UDP networking library for .NET game engines",
+  "slug": "revenantx-litenetlib"
+}

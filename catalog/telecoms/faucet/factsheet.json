@@ -1,0 +1,90 @@
+{
+  "slug": "faucet",
+  "name": "FAUCET",
+  "what_it_is": "FAUCET is an OpenFlow 1.3 SDN controller built on the Ryu framework that implements multi-table L2 switching, VLANs, ACLs, and L3 IPv4/IPv6 routing for both hardware and software switches. It is designed for production networks and exposes Prometheus metrics and Grafana dashboards for operational visibility.",
+  "components": [
+    "faucet — main OpenFlow controller process, handles switch pipeline programming and policy enforcement",
+    "gauge — companion controller for monitoring; collects per-port and per-flow statistics independently of faucet",
+    "prometheus — time-series metrics store; scrapes faucet (port 9302) and gauge (port 9303) exporters",
+    "grafana — dashboarding service visualising Prometheus data; preconfigured dashboards ship with the repo"
+  ],
+  "protocols": [
+    "OpenFlow 1.3 (multi-table pipeline)",
+    "BGP (via ExaBGP integration for IPv4/IPv6 route exchange)",
+    "LACP (link aggregation)",
+    "LLDP (neighbour discovery and loop detection)",
+    "IPv4 and IPv6 (static and BGP-learned routes)",
+    "802.1x (port authentication, via external radius/hostapd)",
+    "DHCP (relay, via external DHCP server integration)"
+  ],
+  "measurement": [
+    "Per-port byte/packet/error counters exported via Prometheus on port 9302 (faucet) and 9303 (gauge)",
+    "Per-flow match/action statistics collected by gauge and stored in time-series (Prometheus or InfluxDB)",
+    "Controller health and event loop latency exposed as Prometheus gauges",
+    "Grafana dashboards included for switch, port, and flow-level visualisation",
+    "Event socket (FAUCET_EVENT_SOCK) streams structured JSON events for external consumers"
+  ],
+  "configuration": [
+    "Single YAML file (faucet.yaml) declares all DPs, VLANs, ACLs, routers, and interfaces",
+    "gauge.yaml separately configures polling intervals, watchers, and storage backends",
+    "Hot-reload supported: FAUCET_CONFIG_STAT_RELOAD causes faucet to reload on config file change without restarting",
+    "Prometheus scrape targets and alert rules in etc/prometheus/; mounted as volume in compose",
+    "FAUCET_PREFIX env var controls host-side paths for logs, configs, and persistent storage volumes"
+  ],
+  "fault_injection": [
+    "No native fault-injection API; test harness (tests/) uses Mininet and OVS to simulate link failures and topology changes",
+    "Integration tests exercise failover scenarios across stacked datapaths and LAG groups"
+  ],
+  "modes": [
+    "Standalone controller — single faucet process managing one or more OpenFlow datapaths",
+    "Stacked/distributed — multiple datapaths connected in a stack topology with automated failover",
+    "Hardware switch mode — faucet programs physical OpenFlow-capable ASICs; OFA must pass pipeline integration tests",
+    "Software switch mode — runs against Open vSwitch (OVS) for development and CI"
+  ],
+  "constraints": [
+    "Requires OpenFlow 1.3 with multi-table support; switches that only support OpenFlow 1.0 are not supported",
+    "Hardware OFA must implement all matches defined in faucet's pipeline spec and pass integration tests — not all vendor ASICs qualify",
+    "BGP support depends on ExaBGP being deployed as a separate process; faucet does not embed a BGP daemon",
+    "802.1x and DHCP services require external processes (hostapd, dhcpd); faucet only handles the OpenFlow signalling side",
+    "gauge and faucet must share the same /etc/faucet volume to read a consistent topology; mismatched configs cause silent monitoring gaps"
+  ],
+  "docker_services": [
+    {
+      "name": "faucet",
+      "image": "faucet/faucet:latest",
+      "build": "Dockerfile.faucet",
+      "ports": ["6653:6653 (OpenFlow)", "9302 (Prometheus exporter, internal)"],
+      "volumes": ["/var/log/faucet", "/etc/faucet"],
+      "env_vars": ["FAUCET_CONFIG_STAT_RELOAD", "FAUCET_EVENT_SOCK", "FAUCET_EVENT_SOCK_HEARTBEAT"]
+    },
+    {
+      "name": "gauge",
+      "image": "faucet/gauge:latest",
+      "build": "Dockerfile.gauge",
+      "ports": ["6654:6653 (OpenFlow)", "9303 (Prometheus exporter, internal)"],
+      "volumes": ["/var/log/faucet", "/etc/faucet"],
+      "env_vars": ["GAUGE_CONFIG"]
+    },
+    {
+      "name": "prometheus",
+      "image": "prom/prometheus:v3.10.0",
+      "ports": ["9090:9090"],
+      "volumes": ["/opt/prometheus (data)", "prometheus-docker-compose.yml", "faucet.rules.yml"],
+      "env_vars": []
+    },
+    {
+      "name": "grafana",
+      "image": "grafana/grafana:12.4.1",
+      "ports": ["3000:3000"],
+      "volumes": ["/opt/grafana (data)"],
+      "env_vars": []
+    }
+  ],
+  "notable_absences": [
+    "No built-in packet capture or PCAP export — requires external tap or OVS mirror port",
+    "No GUI for topology or policy editing — configuration is purely file-based YAML",
+    "No native chaos/fault-injection API — fault scenarios require external tooling (Mininet, manual OVS commands)",
+    "No embedded BGP daemon — ExaBGP must be deployed and integrated separately",
+    "docker-compose does not include an OVS/Mininet service — a software dataplane must be provisioned separately to have an end-to-end testable environment"
+  ]
+}

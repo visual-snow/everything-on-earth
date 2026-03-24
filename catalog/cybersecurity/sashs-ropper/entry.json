@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sashs/ropper",
+  "name": "sashs/Ropper",
+  "description": "An interactive ROP gadget finder and binary analysis tool supporting x86, x64, ARM, MIPS, PowerPC, and SPARC64 using the Capstone framework, with both CLI and library interfaces.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 7,
+  "score_rationale": "Well-regarded ROP tool with 2.1k stars offering interactive features not found in ROPgadget; last updated January 2025.",
+  "stars": 2100,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-01-29",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 68.6,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "sashs-ropper"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "quic-network-simulator",
+  "name": "QUIC Network Simulator",
+  "what_it_is": "An ns-3-based test framework that benchmarks QUIC protocol implementations by routing traffic between Docker-containerized client and server endpoints through a simulated network. It enables controlled evaluation of QUIC performance under configurable link conditions such as bandwidth, delay, and queue size.",
+  "components": [
+    "ns-3 network simulator (sim container, C++)",
+    "Client endpoint container (user-supplied QUIC implementation)",
+    "Server endpoint container (user-supplied QUIC implementation)",
+    "Two isolated Docker bridge networks (leftnet, rightnet)",
+    "Shared log volumes per service under ./logs/"
+  ],
+  "protocols": [
+    "QUIC",
+    "UDP",
+    "TCP (cross-traffic scenario only)",
+    "IPv4",
+    "IPv6"
+  ],
+  "measurement": [
+    "Logs written to ./logs/sim, ./logs/server, ./logs/client for post-run analysis",
+    "Bandwidth: configurable via --bandwidth (e.g. 10Mbps)",
+    "Latency: configurable via --delay (e.g. 15ms)",
+    "Queue depth: configurable via --queue (e.g. 25 packets)",
+    "No built-in real-time throughput or latency measurement tooling documented"
+  ],
+  "configuration": [
+    "CLIENT: image name of the client QUIC implementation (required)",
+    "SERVER: image name of the server QUIC implementation (required)",
+    "SCENARIO: scenario name plus parameters passed to ns-3 (required)",
+    "CLIENT_PARAMS: extra CLI arguments forwarded to the client container (optional)",
+    "SERVER_PARAMS: extra CLI arguments forwarded to the server container (optional)",
+    "ROLE: injected automatically as 'client' or 'server' into each endpoint container",
+    "NET_ADMIN capability granted to all containers",
+    "IP masquerading disabled on both networks"
+  ],
+  "fault_injection": [
+    "TCP cross-traffic competing with QUIC flows (tcp-cross-traffic scenario)",
+    "Queue saturation via small --queue value to induce packet drops",
+    "Artificial bandwidth cap via --bandwidth to create congestion",
+    "High-latency links via --delay"
+  ],
+  "modes": [
+    "simple-p2p: point-to-point link with configurable bandwidth, delay, and queue",
+    "tcp-cross-traffic: point-to-point link with a competing TCP flow"
+  ],
+  "constraints": [
+    "Client and server must be pre-built Docker images conforming to the quic-interop-runner interface; arbitrary binaries cannot be dropped in",
+    "Only two scenarios are provided out of the box (simple-p2p, tcp-cross-traffic); custom scenarios require writing ns-3 C++ code and rebuilding the sim image",
+    "Network topology is fixed: single bottleneck link between leftnet and rightnet; multi-path or mesh topologies are not supported",
+    "No packet-loss rate or jitter parameters exposed in documented scenarios",
+    "IPv6 is enabled but no IPv6-specific test scenarios are documented"
+  ],
+  "docker_services": [
+    "sim (martenseemann/quic-network-simulator, ns-3 simulator, bridges leftnet and rightnet, port 57832)",
+    "server (image: $SERVER, attached to rightnet at 193.167.100.100 / fd00:cafe:cafe:100::100)",
+    "client (image: $CLIENT, attached to leftnet at 193.167.0.100 / fd00:cafe:cafe:0::100)"
+  ],
+  "notable_absences": [
+    "No packet loss rate parameter in the documented scenarios",
+    "No jitter/delay variance parameter",
+    "No built-in traffic capture or pcap export documented",
+    "No throughput measurement tool bundled",
+    "No support for more than one bottleneck link or multi-hop topologies",
+    "No CI/CD integration or result aggregation tooling in the repo itself"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jedisct1/libsodium",
+  "name": "jedisct1/libsodium",
+  "description": "A modern, portable, easy-to-use cryptographic library providing encryption, decryption, digital signatures, and secure password hashing. A portable fork of NaCl with broad language binding support including JavaScript/WebAssembly.",
+  "sub_domain": "cryptography",
+  "score": 10,
+  "score_rationale": "Essential modern crypto library with 13.5k stars, widely adopted for its simplicity and resistance to misuse compared to lower-level alternatives like OpenSSL.",
+  "stars": 13500,
+  "language": "C",
+  "license": "ISC",
+  "last_activity": "2026-01-06",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 93.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "jedisct1-libsodium"
+}

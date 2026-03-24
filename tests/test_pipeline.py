@@ -1,14 +1,13 @@
 """Tests for the massive-crawl deterministic pipeline."""
 
 import json
-import subprocess
 import sys
 from pathlib import Path
 
 # Add pipeline to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
 
-from pipeline import normalize_url, run_dedup, run_score, run_finalize, run_explorer
+from pipeline import normalize_url, run_dedup, run_score, run_finalize, compute_edges, run_site
 
 
 def test_normalize_url_lowercase():
@@ -93,7 +92,7 @@ def test_score_higher_stars_higher_score():
         {"repo_url": "https://github.com/c/d", "name": "many", "description": "Many stars", "score": 5, "stars": 10000},
     ]
     result, _ = run_score(entries)
-    by_name = {entry["name"]: entry for entry in result}
+    by_name = {r["name"]: r for r in result}
     assert by_name["many"]["quality_score"] > by_name["few"]["quality_score"]
 
 
@@ -107,41 +106,24 @@ def test_score_logs_removals():
     assert any("no_url" in log["reason"] for log in removed_log)
 
 
-def test_finalize_produces_catalog_and_results_only(tmp_path):
+# --- Finalize tests ---
+
+
+def test_finalize_produces_catalog_and_results(tmp_path):
     entries = [
         {
-            "repo_url": "https://github.com/a/b",
-            "name": "a/b",
-            "description": "Tool A",
-            "sub_domain": "scanning",
-            "score": 9,
-            "quality_score": 85.2,
-            "discovery_score": 9,
-            "stars": 1000,
-            "language": "Go",
-            "license": "MIT",
-            "last_activity": "2025-01-01",
-            "tags": ["security"],
-            "category": "Scanning",
-            "summary": "A scanning tool",
-            "found_in_domains": ["scanning"],
+            "repo_url": "https://github.com/a/b", "name": "a/b", "description": "Tool A",
+            "sub_domain": "scanning", "score": 9, "quality_score": 85.2, "discovery_score": 9,
+            "stars": 1000, "language": "Go",
+            "license": "MIT", "last_activity": "2025-01-01", "tags": ["security"],
+            "category": "Scanning", "summary": "A scanning tool", "found_in_domains": ["scanning"]
         },
         {
-            "repo_url": "https://github.com/c/d",
-            "name": "c/d",
-            "description": "Tool B",
-            "sub_domain": "policy",
-            "score": 7,
-            "quality_score": 52.1,
-            "discovery_score": 7,
-            "stars": 500,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_activity": "2025-06-01",
-            "tags": ["policy"],
-            "category": "Policy",
-            "summary": "A policy tool",
-            "found_in_domains": ["policy"],
+            "repo_url": "https://github.com/c/d", "name": "c/d", "description": "Tool B",
+            "sub_domain": "policy", "score": 7, "quality_score": 52.1, "discovery_score": 7,
+            "stars": 500, "language": "Python",
+            "license": "Apache-2.0", "last_activity": "2025-06-01", "tags": ["policy"],
+            "category": "Policy", "summary": "A policy tool", "found_in_domains": ["policy"]
         },
     ]
     template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
@@ -156,276 +138,143 @@ def test_finalize_produces_catalog_and_results_only(tmp_path):
     assert catalog[0]["quality_score"] >= catalog[1]["quality_score"]
 
 
-def test_explorer_merges_domains(tmp_path):
-    """run_explorer scans catalog/*/catalog.json and produces catalog/explorer.html."""
-    domain_a = tmp_path / "alpha"
-    domain_a.mkdir()
-    (domain_a / "catalog.json").write_text(
-        json.dumps(
-            [
-                {
-                    "repo_url": "https://github.com/a/one",
-                    "name": "one",
-                    "description": "Tool 1",
-                    "quality_score": 80,
-                    "score": 8,
-                    "stars": 1000,
-                    "sub_domain": "sub1",
-                    "found_in_domains": ["sub1"],
-                    "tags": ["tag1"],
-                },
-            ]
-        )
-    )
+# --- Edge computation tests ---
 
-    domain_b = tmp_path / "beta"
-    domain_b.mkdir()
-    (domain_b / "catalog.json").write_text(
-        json.dumps(
-            [
-                {
-                    "repo_url": "https://github.com/b/two",
-                    "name": "two",
-                    "description": "Tool 2",
-                    "quality_score": 60,
-                    "score": 6,
-                    "stars": 500,
-                    "sub_domain": "sub2",
-                    "found_in_domains": ["sub2"],
-                    "tags": ["tag2"],
-                },
-            ]
-        )
-    )
+
+def test_compute_edges_shared_subdomain():
+    entries = [
+        {"slug": "a", "found_in_domains": ["network"], "tags": ["x"]},
+        {"slug": "b", "found_in_domains": ["network"], "tags": ["y"]},
+        {"slug": "c", "found_in_domains": ["web"], "tags": ["z"]},
+    ]
+    edges = compute_edges(entries)
+    pairs = {frozenset((e["source"], e["target"])) for e in edges}
+    assert frozenset(("a", "b")) in pairs
+    assert frozenset(("a", "c")) not in pairs
+
+
+def test_compute_edges_shared_tags():
+    entries = [
+        {"slug": "a", "found_in_domains": ["d1"], "tags": ["x", "y"]},
+        {"slug": "b", "found_in_domains": ["d2"], "tags": ["x", "y"]},
+        {"slug": "c", "found_in_domains": ["d3"], "tags": ["x"]},
+    ]
+    edges = compute_edges(entries)
+    pairs = {frozenset((e["source"], e["target"])) for e in edges}
+    assert frozenset(("a", "b")) in pairs
+    assert frozenset(("a", "c")) not in pairs
+
+
+def test_compute_edges_dedup():
+    entries = [
+        {"slug": "a", "found_in_domains": ["net"], "tags": ["x", "y"]},
+        {"slug": "b", "found_in_domains": ["net"], "tags": ["x", "y"]},
+    ]
+    edges = compute_edges(entries)
+    assert len(edges) == 1
+
+
+def test_compute_edges_empty():
+    assert compute_edges([]) == []
+
+
+# --- Site generation tests ---
+
+
+def _make_catalog(tmp_path, domain, entries):
+    """Helper: write a catalog.json for testing."""
+    domain_dir = tmp_path / "catalog" / domain
+    domain_dir.mkdir(parents=True)
+    (domain_dir / "catalog.json").write_text(json.dumps(entries))
+    return domain_dir
+
+
+SAMPLE_ENTRIES = [
+    {
+        "repo_url": "https://github.com/a/tool1", "name": "a/tool1",
+        "description": "First tool", "sub_domain": "scan",
+        "score": 9, "quality_score": 85, "stars": 1000,
+        "language": "Go", "license": "MIT", "tags": ["sec", "scan"],
+        "found_in_domains": ["scan"],
+    },
+    {
+        "repo_url": "https://github.com/b/tool2", "name": "b/tool2",
+        "description": "Second tool", "sub_domain": "scan",
+        "score": 7, "quality_score": 55, "stars": 500,
+        "language": "Python", "license": "Apache-2.0", "tags": ["sec", "scan"],
+        "found_in_domains": ["scan"],
+    },
+]
+
+
+def test_site_generates_landing(tmp_path):
+    _make_catalog(tmp_path, "test-domain", SAMPLE_ENTRIES)
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_site(tmp_path / "catalog", template_dir=template_dir)
+
+    landing = tmp_path / "index.html"
+    assert landing.exists()
+    content = landing.read_text()
+    assert "Everything on Earth" in content
+    assert "Test Domain" in content
+
+
+def test_site_generates_graph_page(tmp_path):
+    _make_catalog(tmp_path, "mydom", SAMPLE_ENTRIES)
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_site(tmp_path / "catalog", template_dir=template_dir)
+
+    graph = tmp_path / "catalog" / "mydom" / "index.html"
+    assert graph.exists()
+    content = graph.read_text()
+    assert "force-graph" in content
+    assert "EDGES" in content
+
+
+def test_site_generates_detail_pages(tmp_path):
+    _make_catalog(tmp_path, "mydom", SAMPLE_ENTRIES)
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_site(tmp_path / "catalog", template_dir=template_dir)
+
+    detail_dir = tmp_path / "catalog" / "mydom" / "detail"
+    assert detail_dir.exists()
+    files = list(detail_dir.glob("*.html"))
+    assert len(files) == 2
+
+
+def test_site_reads_capability_md(tmp_path):
+    _make_catalog(tmp_path, "mydom", SAMPLE_ENTRIES[:1])
+    cap_dir = tmp_path / "caps" / "mydom" / "a-tool1"
+    cap_dir.mkdir(parents=True)
+    (cap_dir / "capability.md").write_text("# Tool1 Capabilities\n\nDoes great things.")
 
     template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
-    run_explorer(catalog_root=tmp_path, template_dir=template_dir)
+    run_site(tmp_path / "catalog", template_dir=template_dir, capability_root=tmp_path / "caps")
 
-    explorer_path = tmp_path / "explorer.html"
-    assert explorer_path.exists()
-    content = explorer_path.read_text()
-    assert "alpha" in content
-    assert "beta" in content
-    assert "one" in content
-    assert "two" in content
+    detail = (tmp_path / "catalog" / "mydom" / "detail" / "a-tool1.html").read_text()
+    assert "capability-md" in detail
+    assert "Tool1 Capabilities" in detail
 
 
-def test_explorer_injects_domain_field(tmp_path):
-    """Each entry gets a 'domain' field matching its folder name."""
-    domain = tmp_path / "cybersecurity"
-    domain.mkdir()
-    (domain / "catalog.json").write_text(
-        json.dumps(
-            [
-                {
-                    "repo_url": "https://github.com/a/b",
-                    "name": "tool",
-                    "description": "A tool",
-                    "quality_score": 70,
-                    "score": 7,
-                    "stars": 100,
-                    "sub_domain": "sub",
-                    "found_in_domains": ["sub"],
-                    "tags": [],
-                },
-            ]
-        )
-    )
-
+def test_site_fallback_no_capability(tmp_path):
+    _make_catalog(tmp_path, "mydom", SAMPLE_ENTRIES[:1])
     template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
-    run_explorer(catalog_root=tmp_path, template_dir=template_dir)
+    run_site(tmp_path / "catalog", template_dir=template_dir)
 
-    content = (tmp_path / "explorer.html").read_text()
-    assert '"domain":"cybersecurity"' in content or '"domain": "cybersecurity"' in content
+    detail = (tmp_path / "catalog" / "mydom" / "detail" / "a-tool1.html").read_text()
+    assert "First tool" in detail
+    assert "capability-md" not in detail
+    assert "Capability mapping has not been generated" in detail
+    assert "Domain Placement" in detail
+    assert "Signals" in detail
 
 
-def test_explorer_skips_non_catalog_dirs(tmp_path):
-    """Directories without catalog.json are silently skipped."""
-    (tmp_path / "empty-domain").mkdir()
-
-    real = tmp_path / "real"
-    real.mkdir()
-    (real / "catalog.json").write_text(
-        json.dumps(
-            [
-                {
-                    "repo_url": "https://github.com/x/y",
-                    "name": "y",
-                    "description": "Y",
-                    "quality_score": 50,
-                    "score": 5,
-                    "stars": 10,
-                    "sub_domain": "s",
-                    "found_in_domains": ["s"],
-                    "tags": [],
-                },
-            ]
-        )
-    )
-
+def test_site_prefers_telecoms_over_legacy_telecom(tmp_path):
+    _make_catalog(tmp_path, "telecom", SAMPLE_ENTRIES[:1])
+    _make_catalog(tmp_path, "telecoms", [{**SAMPLE_ENTRIES[0], "slug": "a-tool1"}])
     template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
-    run_explorer(catalog_root=tmp_path, template_dir=template_dir)
+    run_site(tmp_path / "catalog", template_dir=template_dir)
 
-    assert (tmp_path / "explorer.html").exists()
-
-
-def test_explorer_sorts_by_quality_score(tmp_path):
-    """Merged entries are sorted by quality_score descending."""
-    domain = tmp_path / "test"
-    domain.mkdir()
-    (domain / "catalog.json").write_text(
-        json.dumps(
-            [
-                {
-                    "repo_url": "https://github.com/a/low",
-                    "name": "low",
-                    "description": "Low",
-                    "quality_score": 20,
-                    "score": 2,
-                    "stars": 10,
-                    "sub_domain": "s",
-                    "found_in_domains": ["s"],
-                    "tags": [],
-                },
-                {
-                    "repo_url": "https://github.com/a/high",
-                    "name": "high",
-                    "description": "High",
-                    "quality_score": 90,
-                    "score": 9,
-                    "stars": 10000,
-                    "sub_domain": "s",
-                    "found_in_domains": ["s"],
-                    "tags": [],
-                },
-            ]
-        )
-    )
-
-    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
-    run_explorer(catalog_root=tmp_path, template_dir=template_dir)
-
-    content = (tmp_path / "explorer.html").read_text()
-    assert content.index('"name": "high"') < content.index('"name": "low"')
-
-
-def test_cli_explorer_stage(tmp_path):
-    """The --stage explorer --catalog-root flag works end-to-end."""
-    domain = tmp_path / "testdomain"
-    domain.mkdir()
-    (domain / "catalog.json").write_text(
-        json.dumps(
-            [
-                {
-                    "repo_url": "https://github.com/a/b",
-                    "name": "tool",
-                    "description": "A tool",
-                    "quality_score": 70,
-                    "score": 7,
-                    "stars": 100,
-                    "sub_domain": "sub",
-                    "found_in_domains": ["sub"],
-                    "tags": ["test"],
-                },
-            ]
-        )
-    )
-
-    pipeline_path = Path(__file__).parent.parent / "pipeline" / "pipeline.py"
-    result = subprocess.run(
-        [sys.executable, str(pipeline_path), "--stage", "explorer", "--catalog-root", str(tmp_path)],
-        capture_output=True,
-        text=True,
-    )
-    assert result.returncode == 0, f"stderr: {result.stderr}"
-    assert (tmp_path / "explorer.html").exists()
-
-
-def test_explorer_template_has_domain_filter(tmp_path):
-    """The rendered explorer.html contains a domain filter dropdown."""
-    domain = tmp_path / "cybersecurity"
-    domain.mkdir()
-    (domain / "catalog.json").write_text(
-        json.dumps(
-            [
-                {
-                    "repo_url": "https://github.com/a/b",
-                    "name": "tool",
-                    "description": "A tool",
-                    "quality_score": 70,
-                    "score": 7,
-                    "stars": 100,
-                    "sub_domain": "sub",
-                    "found_in_domains": ["sub"],
-                    "tags": [],
-                },
-            ]
-        )
-    )
-
-    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
-    run_explorer(catalog_root=tmp_path, template_dir=template_dir)
-
-    content = (tmp_path / "explorer.html").read_text()
-    assert 'id="domain-type-filter"' in content
-    assert "All domains" in content
-
-
-def test_explorer_template_has_domain_badge(tmp_path):
-    """Each card in explorer.html shows a domain badge."""
-    domain = tmp_path / "cybersecurity"
-    domain.mkdir()
-    (domain / "catalog.json").write_text(
-        json.dumps(
-            [
-                {
-                    "repo_url": "https://github.com/a/b",
-                    "name": "tool",
-                    "description": "A tool",
-                    "quality_score": 70,
-                    "score": 7,
-                    "stars": 100,
-                    "sub_domain": "sub",
-                    "found_in_domains": ["sub"],
-                    "tags": [],
-                },
-            ]
-        )
-    )
-
-    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
-    run_explorer(catalog_root=tmp_path, template_dir=template_dir)
-
-    content = (tmp_path / "explorer.html").read_text()
-    assert "domain-badge" in content
-
-
-def test_explorer_template_has_domain_sidebar(tmp_path):
-    """The rendered explorer.html contains a sidebar for domain navigation."""
-    for name in ("cybersecurity", "telecom"):
-        domain = tmp_path / name
-        domain.mkdir()
-        (domain / "catalog.json").write_text(
-            json.dumps(
-                [
-                    {
-                        "repo_url": f"https://github.com/example/{name}",
-                        "name": name,
-                        "description": f"{name} tool",
-                        "quality_score": 70,
-                        "score": 7,
-                        "stars": 100,
-                        "sub_domain": "sub",
-                        "found_in_domains": ["sub"],
-                        "tags": [],
-                    },
-                ]
-            )
-        )
-
-    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
-    run_explorer(catalog_root=tmp_path, template_dir=template_dir)
-
-    content = (tmp_path / "explorer.html").read_text()
-    assert 'id="domain-sidebar"' in content
-    assert "sidebar-domain-button" in content
+    assert (tmp_path / "index.html").exists()
+    assert not (tmp_path / "catalog" / "telecom" / "index.html").exists()
+    assert (tmp_path / "catalog" / "telecoms" / "index.html").exists()

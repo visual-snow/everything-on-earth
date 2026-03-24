@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/intelowlproject/intelowl",
+  "name": "intelowlproject/IntelOwl",
+  "description": "IntelOwl is an open-source threat intelligence management platform that aggregates data from multiple analysis sources through a unified REST API. It offers malware analysis, IOC enrichment, and investigative collaboration features with a built-in web interface.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 8,
+  "score_rationale": "Solid threat intelligence orchestration platform with 4.5k stars and active development, widely used for scaling CTI operations.",
+  "stars": 4500,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-02-06",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "container-cloud-security",
+    "malware-reversing",
+    "osint-recon"
+  ],
+  "quality_score": 77.2,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "IntelOwl is an open-source threat intelligence management platform that aggregates data from multipl",
+  "slug": "intelowlproject-intelowl"
+}

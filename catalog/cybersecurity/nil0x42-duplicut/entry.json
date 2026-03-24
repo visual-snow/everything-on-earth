@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nil0x42/duplicut",
+  "name": "nil0x42/duplicut",
+  "description": "High-performance duplicate removal tool for large password wordlists, optimized to handle massive datasets without loading entirely into memory, with support for line-length filtering.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 7,
+  "score_rationale": "Specialized wordlist deduplication tool with 967 stars, GPL-3.0 license, and active maintenance through May 2025.",
+  "stars": 967,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-05-15",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 65.9,
+  "tags": [
+    "password-cracking",
+    "pe-format",
+    "security-tool"
+  ],
+  "category": "Password Cracker",
+  "summary": "High-performance duplicate removal tool for large password wordlists, optimized to handle massive...",
+  "slug": "nil0x42-duplicut"
+}

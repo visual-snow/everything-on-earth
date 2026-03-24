@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/cyb3rmx/qu1cksc0pe",
+  "name": "CYB3RMX/Qu1cksc0pe",
+  "description": "All-in-one malware analysis tool supporting Windows, Linux, Android, macOS, documents, and network captures with MITRE ATT&CK mapping and AI-powered analysis.",
+  "sub_domain": "malware-reversing",
+  "score": 7,
+  "score_rationale": "2k stars, versatile all-in-one static/dynamic analyzer with recent 2024 activity and broad file format support.",
+  "stars": 2000,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-12-20",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 68.4,
+  "tags": [
+    "malware-analysis",
+    "network-analysis",
+    "pe-format"
+  ],
+  "category": "Malware Analysis Tool",
+  "summary": "All-in-one malware analysis tool supporting Windows, Linux, Android, macOS, documents, and networ...",
+  "slug": "cyb3rmx-qu1cksc0pe"
+}

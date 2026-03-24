@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/orillusion/orillusion",
+  "name": "Orillusion/orillusion",
+  "description": "Pure Web3D rendering engine fully built on the WebGPU standard, delivering desktop-level rendering effects in modern browsers with a focus on complex scene support.",
+  "sub_domain": "graphics-rendering",
+  "score": 7,
+  "score_rationale": "Leading WebGPU-native web rendering engine with 5.2k stars, though still in beta and not yet recommended for commercial use.",
+  "stars": 5200,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-11-27",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 71.7,
+  "tags": [
+    "webgpu",
+    "web3d",
+    "typescript"
+  ],
+  "category": "Web Engine",
+  "summary": "WebGPU-native 3D engine for browsers in beta",
+  "slug": "orillusion-orillusion"
+}

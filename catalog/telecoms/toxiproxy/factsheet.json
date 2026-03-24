@@ -1,0 +1,57 @@
+{
+  "slug": "toxiproxy",
+  "name": "Toxiproxy",
+  "what_it_is": "A TCP proxy framework written in Go by Shopify that intercepts test connections and simulates adverse network conditions. Applications route traffic through it and a separate HTTP API controls which fault-injection 'toxics' are active.",
+  "components": [
+    "toxiproxy-server (TCP proxy daemon, HTTP API on port 8474)",
+    "toxiproxy-cli (command-line management tool)",
+    "client libraries (Ruby, Go, Python, .NET, PHP, Node.js, Java, Haskell, Rust, Elixir)"
+  ],
+  "protocols": [
+    "TCP (protocol-agnostic at the proxy layer)",
+    "HTTP (management API on port 8474)",
+    "Prometheus metrics endpoint (GET /metrics)"
+  ],
+  "measurement": [
+    "Baseline overhead <100 µs without toxics",
+    "Throughput ~1000 MB/s on MacBook Pro, ~2400 MB/s on high-end desktop",
+    "Prometheus-format metrics available at GET /metrics"
+  ],
+  "configuration": [
+    "Proxy defined by: name, listen address, upstream address, enabled flag",
+    "Toxic defined by: name, type, stream direction (upstream/downstream), toxicity probability (0.0–1.0), type-specific attributes",
+    "Bulk proxy creation via POST /populate with JSON array",
+    "Ephemeral listen port supported (port 0)",
+    "Configuration via JSON file or live HTTP API"
+  ],
+  "fault_injection": [
+    "latency — adds delay ± jitter (ms) to the stream",
+    "bandwidth — caps throughput to a given rate (KB/s)",
+    "slow_close — delays TCP socket closure by N ms",
+    "timeout — drops all data and closes connection after N ms (0 = indefinite hold)",
+    "reset_peer — sends TCP RST after optional timeout",
+    "slicer — fragments packets into smaller chunks with inter-chunk delay (µs)",
+    "limit_data — closes connection once a byte threshold is exceeded",
+    "down — disables the proxy entirely (enabled=false)"
+  ],
+  "modes": [
+    "Development environment (manual toxic toggling via CLI or API)",
+    "CI/CD integration (programmatic API-driven fault scenarios per test)",
+    "Resiliency / chaos testing on non-production systems"
+  ],
+  "constraints": [
+    "Avoid listen ports in the Linux ephemeral range 32768–61000 to prevent port conflicts",
+    "MySQL default Unix-socket preference bypasses TCP proxy; socket must be disabled in MySQL config",
+    "Server v2.x client libraries are incompatible with server v1.x (breaking API change)",
+    "Not intended for production traffic interception — designed for test/CI environments only"
+  ],
+  "docker_services": [
+    "ghcr.io/shopify/toxiproxy (official image, exposes port 8474 for HTTP API plus user-defined proxy ports)"
+  ],
+  "notable_absences": [
+    "No built-in TLS/SSL termination or inspection — operates below the TLS layer",
+    "No UDP support — TCP only",
+    "No docker-compose.yml in the upstream repository",
+    "No authentication on the HTTP management API — network-level access control required"
+  ]
+}

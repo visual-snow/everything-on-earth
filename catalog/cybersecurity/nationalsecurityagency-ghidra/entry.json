@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/nationalsecurityagency/ghidra",
+  "name": "NationalSecurityAgency/ghidra",
+  "description": "NSA-developed software reverse engineering framework supporting disassembly, decompilation, and scripting across Windows, macOS, and Linux. Industry-standard free alternative to IDA Pro.",
+  "sub_domain": "malware-reversing",
+  "score": 10,
+  "score_rationale": "Industry-standard free SRE framework by the NSA, 66k stars, actively maintained with recent 2026 releases.",
+  "stars": 66100,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 98.6,
+  "tags": [
+    "reverse-engineering",
+    "disassembly",
+    "decompilation",
+    "binary-analysis"
+  ],
+  "category": "Reverse Engineering",
+  "summary": "NSA-released binary reverse engineering framework",
+  "slug": "nationalsecurityagency-ghidra"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/jm33-m0/emp3r0r",
+  "name": "jm33-m0/emp3r0r",
+  "description": "Linux/Windows post-exploitation framework with self-healing gossip mesh C2, ephemeral cryptographic identities, memory-only operations, and peer-to-peer agent discovery. Purpose-built for Linux environments with strong OPSEC focus.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 7,
+  "score_rationale": "1.7k stars, very actively maintained through February 2026, and uniquely focused on Linux C2 with advanced mesh networking.",
+  "stars": 1700,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 67.8,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "jm33-m0-emp3r0r"
+}

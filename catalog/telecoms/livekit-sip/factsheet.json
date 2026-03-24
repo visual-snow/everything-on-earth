@@ -1,0 +1,57 @@
+{
+  "slug": "livekit-sip",
+  "name": "LiveKit SIP",
+  "what_it_is": "A SIP-to-WebRTC bridge service that connects telephony networks to LiveKit rooms via SIP trunking. It runs as a standalone service alongside livekit-server, enabling inbound and outbound SIP calls to participate as LiveKit room participants.",
+  "components": [
+    "livekit/sip (SIP bridge service)",
+    "livekit/livekit-server (LiveKit server)",
+    "Redis (session state and inter-service messaging)"
+  ],
+  "protocols": [
+    "SIP (Session Initiation Protocol)",
+    "WebRTC",
+    "RTP (Real-time Transport Protocol)",
+    "DTMF (touch tone / RFC 2833)",
+    "Opus (audio codec via libopus)",
+    "Digest Authentication"
+  ],
+  "measurement": [
+    "Prometheus metrics endpoint (prometheus_port config field)",
+    "Health check HTTP endpoint (health_port config field)",
+    "Log levels: debug, info, warn, error"
+  ],
+  "configuration": [
+    "YAML config file via SIP_CONFIG_FILE env var (path) or SIP_CONFIG_BODY env var (inline body)",
+    "Required fields: api_key, api_secret, ws_url, redis.address",
+    "Optional: health_port, prometheus_port, log_level, sip_port (default 5060), rtp_port (default 10000-20000), use_external_ip"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanisms documented",
+    "Redis dependency: removing or stopping Redis breaks session state and SIP-LiveKit communication"
+  ],
+  "modes": [
+    "Inbound mode: accepts SIP INVITEs, dispatches callers into LiveKit rooms via SIP Dispatch Rules",
+    "Outbound mode: sends SIP INVITEs to external SIP endpoints",
+    "Native mode: built with Go + libopus, runs directly on host",
+    "Docker mode: requires --network host due to large RTP port range (10000-20000)"
+  ],
+  "constraints": [
+    "Must expose a public IP address for remote SIP peers to connect; use_external_ip must be set in containerized/cloud deployments",
+    "Requires host networking (--network host) in Docker due to large UDP port range (5060 + 10000-20000) that Docker cannot efficiently NAT",
+    "Redis must be the same instance shared with livekit-server — not a separate Redis",
+    "SIP Trunk and SIP Dispatch Rule must be provisioned via livekit-server API or livekit-cli before calls can be routed",
+    "Built in Go; libopus (plus libopusfile, libsoxr) must be installed natively for non-Docker builds"
+  ],
+  "docker_services": [
+    "redis (image: redis, port 6379, volume redis_data)",
+    "livekit (image: livekit/livekit-server, network_mode: host, --dev flag, depends on redis)",
+    "sip (image: livekit/sip, network_mode: host, config via SIP_CONFIG_BODY env var)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in repo root (file is docker-compose.yaml)",
+    "No built-in SRTP/SIPS (TLS) support documented",
+    "No horizontal scaling / multi-instance coordination documented",
+    "No video support — audio-only SIP bridge",
+    "No WebRTC-to-SIP transcoding quality controls (bitrate, codec negotiation) exposed in config"
+  ]
+}

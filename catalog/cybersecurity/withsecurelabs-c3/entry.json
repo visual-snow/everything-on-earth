@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/withsecurelabs/c3",
+  "name": "WithSecureLabs/C3",
+  "description": "Custom Command and Control framework enabling rapid prototyping of esoteric C2 communication channels while integrating with existing offensive toolkits. Supports building custom covert channels beyond standard HTTP/DNS for OPSEC-sensitive operations.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 7,
+  "score_rationale": "1.7k stars, actively maintained through January 2026, and uniquely valuable for custom C2 channel prototyping.",
+  "stars": 1700,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2026-01-16",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 67.8,
+  "tags": [
+    "c2",
+    "command-control",
+    "beaconing"
+  ],
+  "category": "C2 Framework",
+  "summary": "Command and control infrastructure",
+  "slug": "withsecurelabs-c3"
+}

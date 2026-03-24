@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mxrch/ghunt",
+  "name": "mxrch/GHunt",
+  "description": "Offensive Google framework for OSINT, investigating Google accounts and services to extract profile information, activity, and connected accounts. Supports CLI and Python library usage.",
+  "sub_domain": "osint-recon",
+  "score": 9,
+  "score_rationale": "18.6k stars with a highly specialized and unique niche (Google account OSINT), actively maintained and widely referenced in the OSINT community.",
+  "stars": 18600,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2024-06-06",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 88.2,
+  "tags": [
+    "osint",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "OSINT Platform",
+  "summary": "Offensive Google framework for OSINT, investigating Google accounts and services to extract profi...",
+  "slug": "mxrch-ghunt"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "KubeEdge",
+  "repo_url": "https://github.com/kubeedge/kubeedge",
+  "description": "CNCF graduation-level Kubernetes Native Edge Computing Framework that extends native containerized application orchestration and device management to hosts at the Edge, consisting of cloud and edge parts.",
+  "domain": "cloud-edge-orchestration",
+  "secondary_domains": [
+    "edge-computing",
+    "iot-device-management",
+    "kubernetes-edge"
+  ],
+  "protocols": [
+    "HTTPS",
+    "Kubernetes API",
+    "MQTT",
+    "REST",
+    "WebSocket"
+  ],
+  "provides": [
+    "edge-orchestration",
+    "device-management",
+    "cloud-edge-sync",
+    "mqtt-broker-integration",
+    "kubernetes-edge-runtime",
+    "edge-autonomy",
+    "cloudhub-edgehub-messaging",
+    "containerized-edge-workloads",
+    "rest-api-gateway",
+    "websocket-tunnel"
+  ],
+  "needs": [
+    "k8s-cluster",
+    "mqtt-broker",
+    "docker-runtime",
+    "linux-kernel-4.15+",
+    "kubectl-cli",
+    "cloudcore-node"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "kubeedge/edgecore",
+    "compose_services_count": 0,
+    "docker_evidence": "docker-compose.yaml at kubeedge/build/edge/docker-compose.yaml. On edge side, you need to install docker, mqtt and edgecore."
+  },
+  "github_metrics": {
+    "stars": 7400,
+    "last_commit": "unknown",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Major CNCF edge computing project. Good for edge orchestration, device management, and edge-cloud coordination evals. CNCF graduated project for real cloud-edge orchestration. CloudHub/EdgeHub architecture ideal for testing edge autonomy, device management, and cloud-edge synchronization scenarios.",
+  "related_repos": [
+    "https://github.com/kubeedge/edgemesh",
+    "https://github.com/kubeedge/sedna"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/edge-mec.json"
+  ],
+  "slug": "kubeedge"
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "pmacct",
+  "name": "pmacct",
+  "what_it_is": "pmacct is a multi-purpose passive network monitoring suite that collects IP traffic accounting data via libpcap, NetFlow/IPFIX, sFlow, and NFLOG, while also collecting BGP, BMP, and Streaming Telemetry control-plane data. It correlates data-plane flows with control-plane BGP/BMP information and exports to multiple backends including Kafka, AMQP, SQL databases, and flat files.",
+  "components": [
+    "pmacctd — libpcap-based packet accounting daemon; can also export via NetFlow/IPFIX/sFlow",
+    "nfacctd — NetFlow v5/v9 and IPFIX collector daemon; supports replication to third-party collectors",
+    "sfacctd — sFlow v2/v4/v5 collector daemon; supports replication",
+    "uacctd — Linux Netlink NFLOG accounting daemon; can export via NetFlow/IPFIX/sFlow",
+    "pmbgpd — standalone BGP collector daemon; acts as passive iBGP/eBGP neighbor, maintains per-peer RIBs",
+    "pmbmpd — standalone BMP (BGP Monitoring Protocol) collector daemon",
+    "pmtelemetryd — standalone Streaming Telemetry collector; supports TCP/UDP/gRPC/gNMI input",
+    "pmacct — CLI client for querying memory-table plugin; outputs formatted/CSV/JSON"
+  ],
+  "protocols": [
+    "NetFlow v5/v9",
+    "IPFIX",
+    "sFlow v2/v4/v5",
+    "BGP (iBGP/eBGP, RFC 4271)",
+    "BMP — BGP Monitoring Protocol",
+    "RPKI",
+    "BGP-LS",
+    "libpcap (promiscuous packet capture)",
+    "NFLOG (Linux Netlink)",
+    "gRPC / gNMI (Streaming Telemetry)",
+    "YANG Push / UDP-Notif (draft-ietf-netconf-udp-notif)",
+    "AMQP (RabbitMQ)",
+    "Apache Kafka"
+  ],
+  "measurement": [
+    "Per-flow IP traffic accounting: src/dst host, src/dst port, protocol, bytes, packets",
+    "BGP RIB table dumps at configurable intervals (bgp_table_dump_refresh_time)",
+    "BGP update/withdrawal real-time message logging (bgp_daemon_msglog)",
+    "BMP adjacent-RIB-in metrics with peer IP, AS path, communities, prefixes",
+    "Streaming Telemetry collection: interface counters, platform metrics via OpenConfig/Cisco/Huawei YANG",
+    "Traffic classification via nDPI deep packet inspection (--enable-ndpi)",
+    "GeoIP lookups (--enable-geoipv2)",
+    "BGP metrics: seq, log_type, peer_ip_src, afi/safi, ip_prefix, bgp_nexthop, as_path, comms, ecomms, origin, local_pref, rd, label, aigp"
+  ],
+  "configuration": [
+    "Per-daemon config file at /etc/pmacct/<daemon>.conf using key: value syntax; comments with '!'",
+    "plugins directive: comma-separated list with optional named instances, e.g. 'plugins: print[foo], kafka[bar]'",
+    "aggregate directive per plugin: defines which primitives to aggregate (src_host, dst_host, src_port, dst_port, proto, etc.)",
+    "aggregate_filter per plugin: BPF-style filter for selective aggregation",
+    "bgp_daemon_ip / bgp_daemon_port / bgp_daemon_max_peers for BGP peering configuration",
+    "Kafka output: *_kafka_broker_host, *_kafka_broker_port, *_kafka_topic, *_kafka_config_file",
+    "SQL backends: --enable-mysql/pgsql/sqlite3 at compile time; table versioning required",
+    "Memory (IMT) plugin: imt_buckets, imt_mem_pools_size, imt_mem_pools_number, imt_path",
+    "CONFIG-KEYS file documents all configuration directives exhaustively"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework; pmacct is a passive collector only",
+    "Replication via tee plugin (nfacctd/sfacctd) allows redirecting flows to alternate collectors for testing",
+    "debug: true config key enables verbose logging for troubleshooting"
+  ],
+  "modes": [
+    "Collection mode: passive listener for NetFlow/IPFIX/sFlow/BMP/BGP/Telemetry",
+    "Probe/export mode: pmacctd and uacctd can re-export captured packets as NetFlow v5/v9, IPFIX, or sFlow via nfprobe/sfprobe plugins",
+    "Replication mode: tee plugin in nfacctd/sfacctd replicates flows to third-party collectors",
+    "Memory (IMT) mode: in-memory table with CLI query access via pmacct client",
+    "Daemon mode: daemonize: true/false; default false",
+    "BGP HA mode: documented in docs/README_BGP_BMP_HA.md"
+  ],
+  "constraints": [
+    "uacctd (NFLOG) is Linux-only; pmacctd (libpcap) works cross-platform",
+    "SQL plugins (MySQL, PostgreSQL, SQLite3), Kafka, AMQP, Avro, nDPI, ZMQ, Redis are all disabled by default and require compile-time --enable-* flags",
+    "Multi-platform Docker images (linux/arm64) are experimental and require an auxiliary registry for multi-platform builds",
+    "Memory (IMT) plugin is recommended only for prototyping and small-scale environments, not mass traffic",
+    "tee plugin is incompatible with other plugins in the same daemon instance",
+    "nfprobe and sfprobe plugins apply only to pmacctd and uacctd, not to nfacctd/sfacctd",
+    "gRPC/gNMI Streaming Telemetry requires --enable-grpc-collector and the external mdt-dialout-collector dependency",
+    "YANG Push/UDP-Notif requires --enable-unyte-udp-notif and the external udp-notif-c-collector dependency",
+    "BGP daemon listens on port 179 and requires router-side configuration to peer with pmacct's IP"
+  ],
+  "docker_services": [
+    "pmacct/nfacctd — NetFlow/IPFIX collector; default config at /etc/pmacct/nfacctd.conf; UDP port 2100 (example)",
+    "pmacct/sfacctd — sFlow collector; default config at /etc/pmacct/sfacctd.conf; UDP port 6343 (example)",
+    "pmacct/pmacctd — libpcap collector; default config at /etc/pmacct/pmacctd.conf",
+    "pmacct/pmbgpd — BGP collector; default config at /etc/pmacct/pmbgpd.conf",
+    "pmacct/pmbmpd — BMP collector; default config at /etc/pmacct/pmbmpd.conf",
+    "pmacct/pmtelemetryd — Streaming Telemetry collector; default config at /etc/pmacct/pmtelemetryd.conf",
+    "pmacct/uacctd — NFLOG collector (Linux only); default config at /etc/pmacct/uacctd.conf",
+    "All images are built from a shared base (debian:trixie-slim) with all plugins compiled in; tags: latest, vX.Y.Z, bleeding-edge"
+  ],
+  "notable_absences": [
+    "No built-in web UI or REST API — all output goes to files, databases, or message brokers",
+    "No docker-compose file committed to the repository; example compose config is only in docs/DOCKER.md",
+    "No native InfluxDB/Prometheus output plugin — Kafka/AMQP are the recommended bridges to those systems",
+    "No SNMP trap collection — pmacct does not support SNMP as an input protocol",
+    "No flow deduplication across replicated collectors out of the box"
+  ]
+}

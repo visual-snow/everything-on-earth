@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tudelft3d/random3dcity",
+  "name": "tudelft3d/Random3Dcity",
+  "description": "A procedural modelling engine from TU Delft generating CityGML buildings and urban features at multiple levels of detail for research and benchmarking. Produces standards-compliant synthetic city datasets.",
+  "sub_domain": "procedural-generation",
+  "score": 6,
+  "score_rationale": "Unique academic tool producing standards-compliant CityGML synthetic data for GIS and urban simulation research.",
+  "stars": 230,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2022-01-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 54.9,
+  "tags": [
+    "city-generation",
+    "citygml",
+    "research",
+    "academic",
+    "gis"
+  ],
+  "category": "CityGML Generation Tool",
+  "summary": "Academic tool generating standards-compliant CityGML synthetic city datasets for GIS research.",
+  "slug": "tudelft3d-random3dcity"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "LoxiLB",
+  "repo_url": "https://github.com/loxilb-io/loxilb",
+  "description": "eBPF-based cloud-native load-balancer designed for Kubernetes, Edge, Telco, IoT, and XaaS workloads.",
+  "domain": "5g-transport",
+  "secondary_domains": [
+    "cloud-native-telco",
+    "ebpf-networking",
+    "edge-load-balancing"
+  ],
+  "protocols": [
+    "eBPF",
+    "BGP",
+    "SCTP",
+    "GTP"
+  ],
+  "provides": [
+    "ebpf-load-balancer",
+    "bgp-routing",
+    "sctp-support",
+    "gtp-tunneling",
+    "kubernetes-load-balancer",
+    "5g-aware-networking",
+    "cloud-native-load-balancing",
+    "nat-gateway",
+    "service-proxy"
+  ],
+  "needs": [
+    "linux-kernel-5.4+",
+    "k8s-cluster",
+    "ebpf-capable-kernel",
+    "sctp-kernel-module",
+    "privileged-container-access"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present in root directory. Designed for Kubernetes and cloud-native telco deployments."
+  },
+  "github_metrics": {
+    "stars": 1800,
+    "last_commit": "2025-03-22",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Telco-grade load balancer with 5G awareness (SCTP, GTP support). Good for cloud-native networking evals in telecom contexts.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "loxilb"
+}

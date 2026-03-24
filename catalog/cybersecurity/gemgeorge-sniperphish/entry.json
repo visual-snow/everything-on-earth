@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/gemgeorge/sniperphish",
+  "name": "GemGeorge/SniperPhish",
+  "description": "Web and email spear-phishing toolkit for security professionals that enables combining phishing emails and websites to centrally track user actions during authorized phishing simulations. Provides campaign management, user tracking, and reporting.",
+  "sub_domain": "Phishing & Social Engineering",
+  "score": 7,
+  "score_rationale": "Solid spear-phishing simulation tool with 628 stars; actively maintained into May 2025 with practical campaign tracking features.",
+  "stars": 628,
+  "language": "PHP",
+  "license": "MIT",
+  "last_activity": "2025-05-02",
+  "found_in_domains": [
+    "Phishing & Social Engineering"
+  ],
+  "quality_score": 64.4,
+  "tags": [
+    "pe-format",
+    "web-security",
+    "security-tool"
+  ],
+  "category": "Web Security",
+  "summary": "Web and email spear-phishing toolkit for security professionals that enables combining phishing e...",
+  "slug": "gemgeorge-sniperphish"
+}

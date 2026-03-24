@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mebus/cupp",
+  "name": "Mebus/cupp",
+  "description": "Common User Passwords Profiler \u2014 generates targeted password wordlists from personal information about a target using social engineering profiling techniques.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 8,
+  "score_rationale": "Popular targeted wordlist generator with 5.8k stars and GPL-3.0 license, widely used in pentesting engagements.",
+  "stars": 5800,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-06-01",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 78.1,
+  "tags": [
+    "password-cracking",
+    "pe-format",
+    "security-tool"
+  ],
+  "category": "Password Cracker",
+  "summary": "Common User Passwords Profiler \u2014 generates targeted password wordlists from personal information ...",
+  "slug": "mebus-cupp"
+}

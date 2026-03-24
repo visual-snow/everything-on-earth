@@ -1,0 +1,61 @@
+{
+  "slug": "netopeer2",
+  "name": "Netopeer2",
+  "what_it_is": "Netopeer2 is a NETCONF server and CLI client toolset built on libnetconf2 and sysrepo, representing the second generation of the Netopeer project by CESNET. It serves as a reference NETCONF implementation supporting a broad set of IETF RFCs for network configuration management.",
+  "components": [
+    "netopeer2-server (NETCONF server daemon)",
+    "netopeer2-cli (command-line NETCONF client)",
+    "sysrepo (YANG datastore backend)",
+    "libnetconf2 (NETCONF protocol library)",
+    "libyang (YANG data modeling library)"
+  ],
+  "protocols": [
+    "NETCONF 1.0 (RFC 4741)",
+    "NETCONF 1.1 (RFC 6241)",
+    "NETCONF over SSH (RFC 6242)",
+    "NETCONF over TLS (RFC 7589)",
+    "NETCONF Call Home via SSH and TLS (RFC 8071)",
+    "NETCONF Event Notifications (RFC 5277)",
+    "NETCONF Event Notifications v2 (RFC 8639, 8640, 8641)",
+    "YANG module library (RFC 8525)",
+    "NETCONF monitoring (RFC 6022)",
+    "NETCONF access control NACM (RFC 8341)",
+    "With-defaults capability (RFC 6243)"
+  ],
+  "measurement": [
+    "Code coverage via gcov/lcov/genhtml integration",
+    "NETCONF session state observable via ietf-netconf-monitoring YANG module"
+  ],
+  "configuration": [
+    "SSH listen address and port (default: all IPv4 interfaces, port 830)",
+    "TLS transport configuration via XML example_configuration files",
+    "Call Home client configuration via XML example_configuration files",
+    "SSH public key authentication",
+    "SSH keyboard-interactive authentication",
+    "TLS mutual X.509 certificate authentication",
+    "NACM access control rules (read/execute granted by default to non-recovery users)",
+    "Additional YANG module installation via sysrepo"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "NETCONF server mode (daemon)",
+    "NETCONF CLI client mode (interactive)",
+    "Call Home mode (server initiates connection to client)"
+  ],
+  "constraints": [
+    "Non-SSH connection methods (TLS, Call Home) require manual XML configuration — not auto-configured at startup",
+    "Does not override existing sysrepo module installations or configuration present in the datastore",
+    "Cross-compilation requires explicit environment setup",
+    "NACM is enabled by default; non-recovery users have read/execute-only access until explicitly modified",
+    "Depends on external libraries (libyang, libnetconf2, sysrepo, OpenSSL) that must be installed separately or present in the container"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose file — single-container use only via sysrepo/sysrepo-netopeer2 Docker Hub image",
+    "No built-in traffic generation or load simulation",
+    "No fault injection or network impairment capabilities",
+    "No built-in metrics export (Prometheus, SNMP, etc.)",
+    "No web UI or REST API — management is NETCONF/CLI only",
+    "No automatic TLS or Call Home configuration out of the box"
+  ]
+}

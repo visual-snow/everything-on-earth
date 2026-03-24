@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/havocframework/havoc",
+  "name": "HavocFramework/Havoc",
+  "description": "Modern post-exploitation C2 framework with a Qt-based GUI client, Go teamserver, and C/assembly Demon agent, designed as a feature-rich Cobalt Strike alternative. Archived February 2026 but remains a widely referenced framework with 8.3k stars.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 9,
+  "score_rationale": "8.3k stars and significant adoption as a Cobalt Strike alternative; recently archived but highly influential in the C2 ecosystem.",
+  "stars": 8300,
+  "language": "Go",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 85.4,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "havocframework-havoc"
+}

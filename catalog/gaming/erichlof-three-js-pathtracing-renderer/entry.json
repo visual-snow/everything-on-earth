@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/erichlof/three.js-pathtracing-renderer",
+  "name": "erichlof/THREE.js-PathTracing-Renderer",
+  "description": "Real-time path tracing with global illumination and progressive rendering running entirely in the browser via Three.js and WebGL, achieving 30-60 FPS on consumer hardware. Extensive collection of interactive demos.",
+  "sub_domain": "ray-tracing",
+  "score": 8,
+  "score_rationale": "2.2k-star browser-based path tracer that makes ray tracing accessible without native code, with rich demo library and active maintenance.",
+  "stars": 2200,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 74.7,
+  "tags": [
+    "path-tracing",
+    "three.js",
+    "webgl",
+    "browser",
+    "global-illumination"
+  ],
+  "category": "Browser Path Tracer",
+  "summary": "Browser-based path tracer with global illumination running in WebGL at 30-60 FPS.",
+  "slug": "erichlof-three-js-pathtracing-renderer"
+}

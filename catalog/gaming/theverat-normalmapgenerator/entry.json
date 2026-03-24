@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/theverat/normalmapgenerator",
+  "name": "Theverat/NormalmapGenerator",
+  "description": "Qt-based desktop application that converts images into normal maps with multithreading support and a 'Keep Large Detail' blending mode for preserving overall curvature.",
+  "sub_domain": "asset-formats",
+  "score": 4,
+  "score_rationale": "Functional normal map tool with 476 stars but abandoned since 2017 with no recent activity or community maintenance.",
+  "stars": 476,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2017-04-20",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 45.4,
+  "tags": [
+    "normal-maps",
+    "qt",
+    "texture-generation"
+  ],
+  "category": "Normal Map Editor",
+  "summary": "Qt desktop tool for normal map generation with multithreading",
+  "slug": "theverat-normalmapgenerator"
+}

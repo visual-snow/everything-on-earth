@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/libretro/retroarch",
+  "name": "libretro/RetroArch",
+  "description": "The reference frontend for the libretro API, providing a cross-platform emulator frontend that loads game systems as dynamic library cores. Supports real-time rewind, multi-pass shaders, video recording, and run-ahead latency reduction across dozens of platforms.",
+  "sub_domain": "emulators-retro",
+  "score": 10,
+  "score_rationale": "The industry-standard emulator frontend with 12.8k stars, underpinning the entire libretro ecosystem used by millions for retro gaming.",
+  "stars": 12800,
+  "language": "C",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 92.9,
+  "tags": [
+    "emulator",
+    "retro-gaming",
+    "multi-platform",
+    "libretro"
+  ],
+  "category": "Multi-System Emulator",
+  "summary": "Industry-standard cross-platform emulator frontend for retro gaming",
+  "slug": "libretro-retroarch"
+}

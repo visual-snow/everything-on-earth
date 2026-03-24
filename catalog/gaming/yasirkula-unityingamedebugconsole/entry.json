@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yasirkula/unityingamedebugconsole",
+  "name": "yasirkula/UnityIngameDebugConsole",
+  "description": "A uGUI-based in-game debug console for Unity that displays logs, warnings, errors, and exceptions at runtime in builds, with support for custom commands and Android logcat integration.",
+  "sub_domain": "game-ui",
+  "score": 7,
+  "score_rationale": "The most popular Unity runtime debug console with 2.6k stars, actively maintained through 2026 with minimal performance overhead.",
+  "stars": 2600,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2026-01-04",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 69.3,
+  "tags": [
+    "unity",
+    "debug-console",
+    "runtime-logging",
+    "android",
+    "development"
+  ],
+  "category": "Unity Debug Console",
+  "summary": "Popular Unity runtime debug console for logs",
+  "slug": "yasirkula-unityingamedebugconsole"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "intel-flexran",
+  "name": "Intel FlexRAN",
+  "what_it_is": "Intel's 4G and 5G baseband PHY reference design that runs on Xeon processors using Intel Architecture. It provides a validated L1 binary implementation for 5G NR Layer 1 signal processing, tested on SkyLake and CascadeLake platforms.",
+  "components": [
+    "l1app — L1 application that processes baseband PHY signals",
+    "testmac — testing framework that exercises PHY APIs and generates/compares IQ samples",
+    "oran-fapi — FAPI interface layer between L1 and upper layers",
+    "DPDK BBDev — data-plane library used for both software FEC and FPGA/ASIC FEC offload",
+    "Software FEC SDK — Intel FEC library for in-CPU forward error correction"
+  ],
+  "protocols": [
+    "5G NR (3GPP TS 38.211, 38.212, 38.213, 38.214, 38.215)",
+    "4G LTE",
+    "FAPI v222.10.02 (Small Cell Forum)",
+    "Proprietary private interface between L1 and testmac"
+  ],
+  "measurement": [
+    "IQ sample comparison for DL/UL/full-duplex producing pass/fail reports",
+    "cyclictest latency measurements in microseconds on isolated CPU cores",
+    "Per-slot test run results via XML configuration files",
+    "PUSCH, PUCCH, PRACH, and SRS channel-level validation"
+  ],
+  "configuration": [
+    "XML configuration files for multi-slot test scenarios",
+    "BIOS settings: CPU power policy, frequency scaling, C-states",
+    "OS kernel parameters for real-time tuning",
+    "CPU frequency management via MSR tools",
+    "FEC mode selection: software (DPDK BBDev + SDK) or FPGA/ASIC offload",
+    "Kubernetes resource manifests with hugepage and memory limits per container"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "DL — downlink only",
+    "UL — uplink only",
+    "FD — full duplex (combined DL and UL)"
+  ],
+  "constraints": [
+    "Requires Intel Xeon SkyLake or CascadeLake processor; no support documented for other CPU families",
+    "Hugepages mandatory: l1app needs 2Gi, oran-fapi needs 4Gi hugepages allocated at host level",
+    "Real-time OS tuning (isolated CPUs, C-state disabling, frequency pinning) required for valid latency results",
+    "FEC must run either fully in-CPU via DPDK BBDev+SDK or fully offloaded to FPGA/ASIC — mixed mode not documented",
+    "Distributed as validated L1 binaries, not source code; no rebuild or cross-compilation supported"
+  ],
+  "docker_services": [
+    "l1app — 16Gi memory, 2Gi hugepages",
+    "oran-fapi — 4Gi memory, 4Gi hugepages",
+    "testmac — 4Gi memory"
+  ],
+  "notable_absences": [
+    "No fault injection or error-injection framework documented",
+    "No explicit latency budgets or throughput targets published in the README",
+    "No scalability limits (max UEs, max cells) documented",
+    "No docker-compose file found; deployment described via Kubernetes manifests only",
+    "Source code not provided — only pre-compiled binaries"
+  ]
+}

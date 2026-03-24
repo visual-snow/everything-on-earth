@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openssl/openssl",
+  "name": "openssl/openssl",
+  "description": "The definitive open-source TLS/SSL and cryptographic library, powering the majority of HTTPS traffic on the internet. Includes libssl for protocol implementations, libcrypto for cryptographic primitives, and command-line tools for certificate management and encryption.",
+  "sub_domain": "cryptography",
+  "score": 10,
+  "score_rationale": "Industry-standard cryptographic library used by the vast majority of internet infrastructure, with nearly 30k stars and continuous active development.",
+  "stars": 29800,
+  "language": "C",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 95.8,
+  "tags": [
+    "cryptography",
+    "ssl-tls",
+    "certificate-generation",
+    "encryption"
+  ],
+  "category": "Crypto Toolkit",
+  "summary": "SSL/TLS and cryptographic toolkit",
+  "slug": "openssl-openssl"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/thraka/sadconsole",
+  "name": "Thraka/SadConsole",
+  "description": "A C#/.NET cross-platform terminal and ASCII console game engine targeting MonoGame and SFML, featuring tile-based fonts, GUI controls, entity systems, and importers for DOS ANSI and RexPaint formats. Actively maintained through .NET 10.",
+  "sub_domain": "roguelike-frameworks",
+  "score": 8,
+  "score_rationale": "1.4k-star .NET ASCII/terminal game engine actively maintained through 2026, the primary choice for C# roguelike developers.",
+  "stars": 1400,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2026-01-19",
+  "found_in_domains": [
+    "roguelike-frameworks"
+  ],
+  "quality_score": 73.2,
+  "tags": [
+    "csharp",
+    "roguelike",
+    "console",
+    "gui",
+    "terminal"
+  ],
+  "category": "C# Console Engine",
+  "summary": ".NET terminal and ASCII game engine with GUI and entity system support",
+  "slug": "thraka-sadconsole"
+}

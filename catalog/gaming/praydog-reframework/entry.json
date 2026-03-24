@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/praydog/reframework",
+  "name": "praydog/REFramework",
+  "description": "Mod loader, scripting platform (Lua), and VR support for all Capcom RE Engine games including Resident Evil series, Monster Hunter, Devil May Cry 5, and more. Provides native DLL plugin support and a rich Lua scripting API.",
+  "sub_domain": "modding-frameworks",
+  "score": 9,
+  "score_rationale": "Essential modding framework for all RE Engine games with 4.8k stars, actively maintained through March 2025, MIT licensed, and enables an entire ecosystem of RE game mods.",
+  "stars": 4800,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-03-05",
+  "found_in_domains": [
+    "modding-frameworks"
+  ],
+  "quality_score": 83.5,
+  "tags": [
+    "re-engine",
+    "modding",
+    "lua"
+  ],
+  "category": "Modding Framework",
+  "summary": "Essential mod loader for Capcom RE Engine games with Lua scripting",
+  "slug": "praydog-reframework"
+}

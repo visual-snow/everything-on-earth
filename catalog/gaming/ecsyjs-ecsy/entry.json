@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ecsyjs/ecsy",
+  "name": "ecsyjs/ecsy",
+  "description": "Experimental Entity Component System framework for JavaScript/TypeScript designed to be lightweight, easy to use, and engine-agnostic for web-based game development.",
+  "sub_domain": "ecs-frameworks",
+  "score": 5,
+  "score_rationale": "Pioneer JavaScript ECS library with 1.2k stars and MIT license, but archived in April 2025 after the ecosystem moved toward more performant alternatives like bitECS.",
+  "stars": 1200,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-04-13",
+  "found_in_domains": [
+    "ecs-frameworks"
+  ],
+  "quality_score": 54.6,
+  "tags": [
+    "ecs",
+    "javascript",
+    "entity-component-system",
+    "web-game"
+  ],
+  "category": "Web Game ECS",
+  "summary": "Pioneering JavaScript ECS framework archived in 2025 after ecosystem shift",
+  "slug": "ecsyjs-ecsy"
+}

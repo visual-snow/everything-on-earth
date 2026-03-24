@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aquasecurity/kube-bench",
+  "name": "aquasecurity/kube-bench",
+  "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark, automating compliance validation for control plane, worker nodes, etcd, and policies across 12+ Kubernetes distributions.",
+  "sub_domain": "compliance-policy",
+  "score": 9,
+  "score_rationale": "Standard Kubernetes CIS benchmark compliance checker with 8k stars maintained by Aqua Security, actively updated through February 2026.",
+  "stars": 8000,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "compliance-policy",
+    "container-cloud-security"
+  ],
+  "quality_score": 85.2,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "aquasecurity-kube-bench"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/kubescape/kubescape",
+  "name": "kubescape/kubescape",
+  "description": "Open-source Kubernetes security platform covering the full lifecycle with risk analysis, compliance scanning against NSA-CISA and MITRE ATT&CK, container image vulnerability detection, and runtime security. CNCF incubating project.",
+  "sub_domain": "container-cloud-security",
+  "score": 9,
+  "score_rationale": "11.3k stars as a CNCF incubating project, providing comprehensive Kubernetes security coverage from IDE to cluster with active development.",
+  "stars": 11300,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2025-02-20",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 86.4,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "kubescape-kubescape"
+}

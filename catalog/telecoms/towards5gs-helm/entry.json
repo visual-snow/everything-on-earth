@@ -1,0 +1,76 @@
+{
+  "name": "towards5gs-helm",
+  "repo_url": "https://github.com/orange-opensource/towards5gs-helm",
+  "description": "Helm charts by Orange for one-click deployment of a complete 5G system (RAN + SA core) on Kubernetes, using free5GC and UERANSIM.",
+  "domain": "5g-standalone-core",
+  "secondary_domains": [
+    "cloud-native-ran",
+    "free5gc",
+    "helm-orchestration",
+    "kubernetes-network-functions"
+  ],
+  "protocols": [
+    "GTP-U",
+    "NAS",
+    "NAS-5GS",
+    "NGAP",
+    "PFCP",
+    "SBI"
+  ],
+  "provides": [
+    "5g-core-upf",
+    "5g-core-nrf",
+    "web-dashboard",
+    "5g-core-udm",
+    "helm-chart-deployment",
+    "5g-core-pcf",
+    "5g-core-udr",
+    "ue-simulator",
+    "pfcp-session-management",
+    "5g-ran-simulator",
+    "ngap-interface",
+    "config-mutation",
+    "5g-core-amf",
+    "5g-core-nssf",
+    "5g-core-smf",
+    "sbi-rest-api",
+    "cloud-native-5g",
+    "gtp-u-dataplane",
+    "n3iwf-untrusted-access",
+    "5g-core-ausf"
+  ],
+  "needs": [
+    "k8s-cluster",
+    "helm3",
+    "multus-cni",
+    "mongodb",
+    "linux-kernel-5.4+",
+    "sctp-support",
+    "container-registry-access"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Helm charts with Docker images for each NF (AMF, AUSF, N3IWF, NRF, NSSF, PCF, SMF, UDM, UDR, UPF, WebUI)"
+  },
+  "github_metrics": {
+    "stars": 182,
+    "last_commit": "unknown",
+    "language": "Smarty/Docker",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Backed by Orange (major telco). One-click K8s deployment is ideal for CI/CD pipelines. Individual NF charts allow selective deployment for targeted testing. Kubernetes-native 5G deployment. Useful for cloud-native orchestration evals and Helm chart debugging scenarios.",
+  "related_repos": [
+    "https://github.com/aligungr/ueransim",
+    "https://github.com/free5gc/free5gc",
+    "https://github.com/free5gc/free5gc-helm"
+  ],
+  "_sources": [
+    "discovery/5g-core.json",
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "towards5gs-helm"
+}

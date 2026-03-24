@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/t3l3machus/psudohash",
+  "name": "t3l3machus/psudohash",
+  "description": "Password list generator that produces millions of keyword-based mutations using leet substitution, case variations, and common padding patterns used by real-world password creators.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 7,
+  "score_rationale": "Active password mutation generator with 1.4k stars, MIT license, and maintained through June 2025.",
+  "stars": 1400,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-06-08",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 67.2,
+  "tags": [
+    "hash-cracking",
+    "password-cracking",
+    "security-tool"
+  ],
+  "category": "Password Cracker",
+  "summary": "Password list generator that produces millions of keyword-based mutations using leet substitution...",
+  "slug": "t3l3machus-psudohash"
+}

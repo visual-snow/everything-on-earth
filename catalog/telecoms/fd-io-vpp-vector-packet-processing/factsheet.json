@@ -1,0 +1,99 @@
+{
+  "slug": "fd-io-vpp-vector-packet-processing",
+  "name": "FD.io VPP (Vector Packet Processing)",
+  "what_it_is": "VPP is Cisco's open-source high-performance packet-processing stack that runs on commodity CPUs using a vector-based processing model. It provides production-grade switch/router functionality via a plugin-based, extensible dataplane.",
+  "components": [
+    "vlib — VPP application/graph-node library",
+    "vnet — VPP networking layer (L2/L3/L4 forwarding, interface management)",
+    "vppinfra — core utilities and data structures",
+    "src/plugins — bundled plugin directory (ACL, NAT, DPDK, nsim, perfmon, etc.)",
+    "vat — VPP API test program",
+    "test — Python test harness (make test)",
+    "extras/libmemif — client library for memif shared-memory interface",
+    "src/vcl — VCL (VPP Communications Library) for host-stack bypass"
+  ],
+  "protocols": [
+    "IPv4",
+    "IPv6",
+    "MPLS",
+    "GRE",
+    "VXLAN",
+    "VXLAN-GPE",
+    "IPsec (AH + ESP, RFC 4301/4302/4303)",
+    "LISP / LISP-GPE",
+    "SR (Segment Routing for IPv4/IPv6/MPLS)",
+    "SRv6 (full Network Programming, RFC draft)",
+    "L2TP",
+    "GTPu",
+    "ICMP / ICMPv6",
+    "ARP / ND",
+    "BFD (Bidirectional Forwarding Detection)",
+    "LACP (link aggregation)",
+    "LLDP",
+    "VRRP",
+    "IKEv2 (via ikev2 plugin)",
+    "WireGuard",
+    "QUIC (via quic_quicly plugin)",
+    "HTTP/1 and HTTP/2 (http plugin)",
+    "IPFIX (flowprobe plugin)",
+    "DNS",
+    "DHCP",
+    "IGMP"
+  ],
+  "measurement": [
+    "statseg — shared-memory statistics segment (per-node counters, interface stats); scrape interval configurable",
+    "Prometheus exporter — prom plugin exposes statseg data at an HTTP endpoint (experimental)",
+    "IPFIX / flowprobe — exports L2/L3/L4 flow records to a collector",
+    "perfmon plugin — per-thread CPU performance counters (PMU-based)",
+    "bufmon plugin — buffer utilisation monitoring",
+    "API trace — binary API call tracing (on by default, circular buffer)",
+    "sflow plugin — sFlow sampling exporter",
+    "BFD stats — forwarding path liveness metrics"
+  ],
+  "configuration": [
+    "startup.conf — primary configuration file; sections: unix, cpu, dpdk, buffers, plugins, statseg, memory, logging, socksvr, api-trace, api-segment, l3fib, l2fib, ipsec",
+    "CLI over UNIX socket (/run/vpp/cli.sock) or interactive terminal",
+    "Binary API socket (socksvr default) — used by VPP agents and the VAT test tool",
+    "Plugin enable/disable via plugins {} stanza in startup.conf",
+    "CPU pinning: main-core, corelist-workers, workers, skip-cores, scheduler-policy (fifo/rr/other)",
+    "DPDK device whitelist/blacklist by PCI address; per-device rx/tx queues, TSO, RSS",
+    "Hugepage / memory configuration: main-heap-size, page-size, buffers-per-numa"
+  ],
+  "fault_injection": [
+    "nsim plugin (Network Delay Simulator) — introduces configurable per-interface delay (e.g. 'set nsim delay 20 ms bandwidth 1 gbit packet-size 128') and packet loss fraction (drop-fraction 0.0–1.0)",
+    "Packet generator (pg) — high-speed traffic injection into arbitrary graph nodes; supports pcap replay and multi-thread generation; used extensively in make test"
+  ],
+  "modes": [
+    "Daemon mode (default, nodaemon suppressed in startup.conf)",
+    "Interactive/CLI mode (interactive flag in unix {})",
+    "Worker-thread / multi-core mode (1 main thread + N worker threads pinned to cores)",
+    "Single-thread mode (no workers)",
+    "Vagrant VM mode (extras/vagrant) for development/testing",
+    "Container mode (Dockerfiles in extras/docker for bionic/centos7/xenial, build and runtime variants)",
+    "FreeBSD package mode (pkg install vpp)",
+    "DPDK dataplane mode vs. non-DPDK mode (DPDK plugin optional)"
+  ],
+  "constraints": [
+    "Requires privileged access and hugepages for DPDK dataplane operation; falls back to reduced buffer count (8192) when running unprivileged",
+    "Worker threads each require dedicated /dev/shm space; testing requires remounting /dev/shm (empirically ≥2048 MB for 16 cores)",
+    "DPDK UIO drivers (vfio-pci, igb_uio, uio_pci_generic) must be loaded before VPP starts — not handled automatically",
+    "No docker-compose file is present in the repository; containerised deployments require manual orchestration using the provided Dockerfiles",
+    "Prometheus exporter (prom plugin) is marked experimental, not production-ready",
+    "nsim drop-fraction and delay apply per-interface and require explicit CLI enablement per interface (nsim output-feature enable-disable <if>)"
+  ],
+  "docker_services": [
+    "extras/docker/build/Dockerfile.bionic — Ubuntu Bionic build image",
+    "extras/docker/build/Dockerfile.centos7 — CentOS 7 build image",
+    "extras/docker/build/Dockerfile.xenial — Ubuntu Xenial build image",
+    "extras/docker/run/Dockerfile.bionic — Ubuntu Bionic runtime image",
+    "extras/docker/run/Dockerfile.centos7 — CentOS 7 runtime image",
+    "extras/docker/run/Dockerfile.xenial — Ubuntu Xenial runtime image",
+    "extras/kube-test/docker — kube-test images: base, vpp, nginx, ab, wrk",
+    "extras/strongswan/vpp_sswan/docker/Dockerfile — VPP + StrongSwan IPsec integration image"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml (or equivalent) — the repo ships only individual Dockerfiles; multi-container topologies must be assembled externally",
+    "No built-in traffic replay beyond pcap-via-pg; no NAT64 support listed in feature set",
+    "Prometheus plugin is experimental with no stable scrape guarantees"
+  ]
+}

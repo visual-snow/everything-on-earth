@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/awesomesbom/awesome-sbom",
+  "name": "awesomeSBOM/awesome-sbom",
+  "description": "Curated list of SBOM-related tools, frameworks, blogs, podcasts, and articles covering CycloneDX, SPDX, and the broader software bill of materials ecosystem.",
+  "sub_domain": "Supply Chain Security",
+  "score": 7,
+  "score_rationale": "Comprehensive SBOM resource index with 913+ stars, valuable reference for discovering SBOM tooling.",
+  "stars": 913,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 65.7,
+  "tags": [
+    "framework",
+    "pentesting",
+    "modules"
+  ],
+  "category": "Pentesting Framework",
+  "summary": "Comprehensive penetration testing framework",
+  "slug": "awesomesbom-awesome-sbom"
+}

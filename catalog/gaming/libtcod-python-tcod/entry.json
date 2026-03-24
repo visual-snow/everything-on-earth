@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/libtcod/python-tcod",
+  "name": "libtcod/python-tcod",
+  "description": "High-performance Python bindings for libtcod, the standard roguelike toolkit, with NumPy integration for fast array operations. Actively maintained through 2026 and installable via pip, the standard way to build Python roguelikes.",
+  "sub_domain": "roguelike-frameworks",
+  "score": 8,
+  "score_rationale": "469-star official Python port of libtcod actively maintained through 2026, essential for Python roguelike development.",
+  "stars": 469,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "roguelike-frameworks"
+  ],
+  "quality_score": 69.4,
+  "tags": [
+    "python",
+    "roguelike",
+    "bindings",
+    "numpy",
+    "libtcod"
+  ],
+  "category": "Python Roguelike Bindings",
+  "summary": "Official libtcod Python bindings with NumPy integration for fast operations",
+  "slug": "libtcod-python-tcod"
+}

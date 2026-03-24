@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/libgdx/gdx-ai",
+  "name": "libgdx/gdx-ai",
+  "description": "A comprehensive Java game AI framework featuring steering behaviors, formation motion, A* pathfinding, behavior trees, and finite state machines, usable independently of libGDX.",
+  "sub_domain": "behavior-ai",
+  "score": 8,
+  "score_rationale": "1.3k stars, covers the full spectrum of classic game AI techniques in a single well-designed Java library.",
+  "stars": 1300,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 72.9,
+  "tags": [
+    "behavior-tree",
+    "pathfinding",
+    "steering",
+    "game-ai",
+    "java"
+  ],
+  "category": "AI Framework",
+  "summary": "Comprehensive Java AI framework with trees, pathfinding, steering",
+  "slug": "libgdx-gdx-ai"
+}

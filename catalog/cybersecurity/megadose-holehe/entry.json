@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/megadose/holehe",
+  "name": "megadose/holehe",
+  "description": "Checks whether an email address is registered on 120+ online platforms using password recovery mechanisms without alerting the target. Supports pip installation and Docker.",
+  "sub_domain": "osint-recon",
+  "score": 8,
+  "score_rationale": "10.5k stars with a unique and practical approach to email-based OSINT, solid community adoption and maintained into 2024.",
+  "stars": 10500,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-09-10",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 80.2,
+  "tags": [
+    "password-cracking",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Password Cracker",
+  "summary": "Checks whether an email address is registered on 120+ online platforms using password recovery me...",
+  "slug": "megadose-holehe"
+}

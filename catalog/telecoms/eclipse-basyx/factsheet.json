@@ -1,0 +1,76 @@
+{
+  "slug": "eclipse-basyx",
+  "name": "Eclipse BaSyx Java V2 SDK",
+  "what_it_is": "Eclipse BaSyx is a Java-based Industry 4.0 platform providing off-the-shelf Asset Administration Shell (AAS) server components fully compliant with DotAAS Part 1 & 2 V3. It enables digital twin infrastructure through composable, containerised services for AAS/Submodel storage, discovery, and registration.",
+  "components": [
+    "AAS Repository (eclipsebasyx/aas-repository)",
+    "Submodel Repository (eclipsebasyx/submodel-repository)",
+    "Concept Description Repository (eclipsebasyx/conceptdescription-repository)",
+    "AAS Environment (eclipsebasyx/aas-environment) — aggregates AAS Repo + SM Repo + CD Repo",
+    "AAS Registry (eclipsebasyx/aas-registry-log-mongodb / aas-registry-log-mem)",
+    "Submodel Registry (eclipsebasyx/submodel-registry-log-mongodb / submodel-registry-log-mem)",
+    "AAS Discovery Service (eclipsebasyx/aas-discovery)",
+    "AASX File Server (eclipsebasyx/aasx-file-server)",
+    "AAS Web UI (eclipsebasyx/aas-gui) — browser-based front-end",
+    "Client SDKs for each server component"
+  ],
+  "protocols": [
+    "HTTP REST (DotAAS Part 2 V3 OpenAPI — primary interface for all components)",
+    "MQTT (eclipse-mosquitto broker; eventing feature for AAS Repository and Submodel Repository)",
+    "Apache Kafka (optional event sink for AAS Registry and Submodel Registry — release variants kafka-mongodb, kafka-mem)",
+    "OPC-UA (referenced in project description; not wired into the minimal compose stack)"
+  ],
+  "measurement": [
+    "Spring Boot Actuator health endpoint at /actuator/health on each component",
+    "OpenAPI spec per component at /v3/api-docs",
+    "Swagger UI per component at /swagger-ui/index.html",
+    "Docker healthcheck (mongosh ping) on MongoDB container; mosquitto_sub probe on MQTT container"
+  ],
+  "configuration": [
+    "application.properties file mounted into /application/application.properties (Spring Boot components)",
+    "application.yml file mounted into /workspace/config/application.yml (Registry components)",
+    "basyx.backend = InMemory | MongoDB — selects persistence backend",
+    "basyx.environment = file:<path> — pre-loads AAS environments (XML, JSON, AASX) at startup",
+    "basyx.aasrepository.feature.mqtt.enabled / basyx.submodelrepository.feature.mqtt.enabled — toggle MQTT eventing",
+    "basyx.aasrepository.feature.registryintegration / basyx.aasrepository.feature.discoveryintegration — auto-registration URLs",
+    "basyx.cors.allowed-origins / basyx.cors.allowed-methods — CORS policy",
+    "spring.data.mongodb.* — MongoDB connection settings",
+    "mqtt.clientId / mqtt.hostname / mqtt.port — MQTT broker settings",
+    "All application.properties keys are overridable via environment variables (dots replaced by underscores, uppercased)"
+  ],
+  "fault_injection": [
+    "No built-in fault-injection framework detected in the repository",
+    "InMemory backend can be swapped for MongoDB to test persistence failure scenarios by misconfiguring connection strings",
+    "MQTT and Kafka features can be disabled to simulate messaging infrastructure outages"
+  ],
+  "modes": [
+    "InMemory mode — volatile, no external DB dependency (basyx.backend=InMemory)",
+    "MongoDB mode — persistent storage (basyx.backend=MongoDB)",
+    "Log event mode — registry events written to log only (aas-registry-log-*, submodel-registry-log-*)",
+    "Kafka event mode — registry events published to Kafka (aas-registry-kafka-*, submodel-registry-kafka-*)",
+    "Standalone Submodel Service mode — Type 2/Type 3 blueprint without a full repository",
+    "Aggregated Environment mode — single container exposing AAS Repo + SM Repo + CD Repo under one port"
+  ],
+  "constraints": [
+    "Requires DotAAS V3 compliance — V1/V2 AAS formats are not supported by this SDK generation",
+    "AASX / JSON / XML upload file size is limited by spring.servlet.multipart.max-file-size (default 1 MB) and max-request-size (default 10 MB); must be raised for large environments",
+    "Duplicate Identifiable IDs across pre-configured environments cause an error (ConceptDescriptions are silently deduplicated)",
+    "Sub-agents / teammates cannot spawn further sub-agents; orchestration must chain from the lead session",
+    "No built-in OPC-UA server endpoint in the minimal compose stack — OPC-UA integration requires additional custom configuration"
+  ],
+  "docker_services": [
+    "mongo (mongo:8) — MongoDB 8 for persistent backend; ports not exposed externally",
+    "mqtt / mosquitto (eclipse-mosquitto:2.0.15) — MQTT broker on port 1884",
+    "aas-env (eclipsebasyx/aas-environment:2.0.0-SNAPSHOT) — aggregated AAS/SM/CD service on port 8081",
+    "aas-registry (eclipsebasyx/aas-registry-log-mongodb:2.0.0-SNAPSHOT) — AAS Registry on port 8082",
+    "sm-registry (eclipsebasyx/submodel-registry-log-mongodb:2.0.0-SNAPSHOT) — Submodel Registry on port 8083",
+    "aas-discovery (eclipsebasyx/aas-discovery:2.0.0-SNAPSHOT) — AAS Discovery on port 8084",
+    "aas-web-ui (eclipsebasyx/aas-gui:SNAPSHOT) — browser UI on port 3000"
+  ],
+  "notable_absences": [
+    "No OPC-UA server container in the provided compose stacks — OPC-UA is referenced in project metadata but not wired up out of the box",
+    "No time-series or historian database (e.g., InfluxDB, TimescaleDB) in the compose stack",
+    "No built-in authentication/authorization enabled in the minimal example — authorization feature modules exist but require separate Keycloak or OAuth2 server setup",
+    "No simulation or device-emulator container — AAS data must be loaded via file pre-configuration or REST API calls"
+  ]
+}

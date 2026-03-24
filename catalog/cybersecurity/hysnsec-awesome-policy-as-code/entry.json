@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hysnsec/awesome-policy-as-code",
+  "name": "hysnsec/awesome-policy-as-code",
+  "description": "A curated list of policy-as-code resources including blogs, videos, and tools covering OPA, HashiCorp Sentinel, Kyverno, Checkov, Terrascan, and other frameworks for learning and implementing policy-as-code.",
+  "sub_domain": "compliance-policy",
+  "score": 5,
+  "score_rationale": "Useful educational resource for policy-as-code with 206 stars, providing a structured entry point for teams adopting compliance automation practices.",
+  "stars": 206,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "compliance-policy"
+  ],
+  "quality_score": 48.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "hysnsec-awesome-policy-as-code"
+}

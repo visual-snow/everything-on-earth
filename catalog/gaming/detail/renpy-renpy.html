@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>renpy/renpy — Everything on Earth</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  .main-content { padding: 2rem; max-width: 900px; }
+  .repo-header { margin-bottom: 1.5rem; }
+  .repo-header h1 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.75rem;
+  }
+  .meta-row {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  .tags-row { margin-bottom: 1rem; }
+  .last-active { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.5rem 0;
+  }
+  .nearby-list { list-style: none; }
+  .nearby-list li { margin-bottom: 0.25rem; }
+  .nearby-list a {
+    display: block;
+    padding: 0.35rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    transition: background 0.15s;
+  }
+  .nearby-list a:hover { background: var(--bg-base); color: var(--text-primary); text-decoration: none; }
+
+  /* Markdown content */
+  .capability-content {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+  }
+  .capability-content h1, .capability-content h2, .capability-content h3 {
+    font-family: var(--font-heading);
+    color: #fff;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .capability-content h1 { font-size: 1.5rem; }
+  .capability-content h2 { font-size: 1.25rem; }
+  .capability-content h3 { font-size: 1.1rem; }
+  .capability-content p { margin-bottom: 0.75rem; }
+  .capability-content ul, .capability-content ol {
+    margin-left: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .capability-content li { margin-bottom: 0.25rem; }
+  .capability-content code {
+    background: var(--bg-elevated);
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.85em;
+  }
+  .capability-content pre {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+  }
+  .capability-content pre code { background: none; padding: 0; }
+  .capability-content a { color: var(--accent); }
+  .fallback-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+  .fallback-notice {
+    margin-bottom: 1.25rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid rgba(210,153,34,0.35);
+    border-radius: 8px;
+    background: rgba(210,153,34,0.08);
+    color: #f2cc60;
+    font-size: 0.9rem;
+  }
+  .detail-section {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg-surface);
+  }
+  .detail-section h2 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: #fff;
+  }
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+  }
+  .detail-card {
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg-base);
+  }
+  .detail-card-label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+  }
+  .detail-card-value {
+    color: var(--text-primary);
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+  .detail-list {
+    margin: 0;
+    padding-left: 1.1rem;
+    color: var(--text-primary);
+  }
+  .detail-list li + li {
+    margin-top: 0.4rem;
+  }
+  .detail-copy {
+    color: var(--text-primary);
+    line-height: 1.7;
+  }
+  .detail-copy p + p {
+    margin-top: 0.8rem;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+</style>
+
+<style>
+  :root {
+    --bg-deep: #0d0d0d;
+    --bg-base: #0d1117;
+    --bg-surface: #161b22;
+    --bg-elevated: #21262d;
+    --border: #30363d;
+    --text-primary: #e5e2e1;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --score-high: #3fb950;
+    --score-mid: #d29922;
+    --score-low: #484f58;
+    --destructive: #f85149;
+    --font-heading: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-body);
+    background: var(--bg-base);
+    color: var(--text-primary);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Sidebar layout */
+  .page-layout {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    min-height: 100dvh;
+  }
+  .sidebar {
+    background: var(--bg-surface);
+    border-right: 1px solid var(--border);
+    padding: 1.5rem 1rem;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    height: 100dvh;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  .breadcrumb .sep { opacity: 0.5; }
+  .breadcrumb .current { color: var(--text-primary); }
+
+  /* Search */
+  .search-input {
+    width: 100%;
+    background: var(--bg-base);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: var(--font-body);
+    margin-bottom: 1.25rem;
+  }
+  .search-input:focus { border-color: var(--accent); outline: none; }
+  .search-input::placeholder { color: var(--text-muted); }
+
+  /* Pills & badges */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    background: var(--bg-elevated);
+    color: var(--text-muted);
+  }
+  .pill.tag { background: #1f3a5f; color: var(--accent); }
+  .score-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .score-high { color: var(--score-high); background: rgba(63,185,80,0.1); }
+  .score-mid { color: var(--score-mid); background: rgba(210,153,34,0.1); }
+  .score-low { color: var(--score-low); background: rgba(72,79,88,0.15); }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-weight: 500;
+    border: 1px solid var(--border);
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    text-decoration: none;
+  }
+  .btn:hover { border-color: var(--accent); background: var(--bg-elevated); text-decoration: none; }
+  .btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn-primary:hover { background: #4c9aed; }
+
+  /* Sidebar sections */
+  .sidebar-section { margin-bottom: 1.25rem; }
+  .sidebar-section h3 {
+    font-family: var(--font-heading);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+  }
+  .sidebar-list { list-style: none; }
+  .sidebar-list li {
+    padding: 0.35rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: background 0.15s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sidebar-list li:hover { background: var(--bg-base); color: var(--text-primary); }
+  .sidebar-list li.active { background: var(--bg-base); color: var(--accent); }
+  .sidebar-list .count { font-size: 0.7rem; opacity: 0.6; }
+  .sidebar-stats {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .page-layout { grid-template-columns: 1fr; }
+    .sidebar {
+      position: relative;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-layout">
+  <aside class="sidebar">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html">Gaming</a>
+      <span class="sep">/</span>
+      <span class="current">renpy</span>
+    </nav>
+
+    <input type="text" class="search-input" id="search" placeholder="Search repos..."
+           onkeydown="if(event.key==='Enter')window.location.href='../index.html?q='+encodeURIComponent(this.value)">
+
+    
+    <div class="sidebar-section">
+      <h3>Nearby repos</h3>
+      <ul class="nearby-list">
+        
+        <li><a href="inkle-ink.html">ink</a></li>
+        
+        <li><a href="klembot-twinejs.html">twinejs</a></li>
+        
+        <li><a href="boardgameio-boardgame-io.html">boardgame.io</a></li>
+        
+        <li><a href="openwebgal-webgal.html">WebGAL</a></li>
+        
+        <li><a href="inkle-inky.html">inky</a></li>
+        
+        <li><a href="evennia-evennia.html">evennia</a></li>
+        
+        <li><a href="ganelson-inform.html">inform</a></li>
+        
+        <li><a href="db0-godot-card-game-framework.html">godot-card-game-framework</a></li>
+        
+        <li><a href="monogatari-monogatari.html">Monogatari</a></li>
+        
+        <li><a href="kirilllive-tuesday-js.html">tuesday-js</a></li>
+        
+      </ul>
+    </div>
+    
+
+    <div class="sidebar-section" style="margin-top: auto;">
+      <a href="../index.html" class="btn" style="width: 100%; justify-content: center;">&larr; Back to graph</a>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div class="repo-header">
+      <h1>renpy/renpy</h1>
+      <div class="meta-row">
+        
+        <span class="score-badge score-high">90.4</span>
+        <span class="pill">&#9733; 6,300</span>
+        <span class="pill">Python</span>
+        
+      </div>
+      <div class="meta-row tags-row">
+        
+        <span class="pill tag">visual-novel</span>
+        
+        <span class="pill tag">python</span>
+        
+        <span class="pill tag">vn-engine</span>
+        
+        <span class="pill tag">interactive-fiction</span>
+        
+        <span class="pill tag">scripting</span>
+        
+      </div>
+      <p class="last-active">Last active: 2026-01-04</p>
+      <a href="https://github.com/renpy/renpy" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub &rarr;</a>
+    </div>
+
+    <hr class="divider">
+
+    
+    <div class="fallback-notice">
+      Capability mapping has not been generated for this framework yet. This page is showing catalog metadata until `capability.md` is available.
+    </div>
+
+    <section class="detail-section">
+      <h2>Overview</h2>
+      <div class="detail-copy fallback-desc">
+        <p>The industry-standard open-source visual novel engine used to create over 8,000 published games. Features its own scripting language, Python extensibility, and cross-platform support.</p>
+        
+        <p>Industry-standard visual novel engine powering 8000+ published games</p>
+        
+      </div>
+    </section>
+
+    <section class="detail-section">
+      <h2>Signals</h2>
+      <div class="detail-grid">
+        <div class="detail-card">
+          <span class="detail-card-label">Score</span>
+          <div class="detail-card-value">90.4</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">Stars</span>
+          <div class="detail-card-value">6,300</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">Language</span>
+          <div class="detail-card-value">Python</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">License</span>
+          <div class="detail-card-value">Unknown</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">Last Activity</span>
+          <div class="detail-card-value">2026-01-04</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">Category</span>
+          <div class="detail-card-value">Visual Novel Engine</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-section">
+      <h2>Domain Placement</h2>
+      <div class="detail-grid">
+        <div class="detail-card">
+          <span class="detail-card-label">Primary Sub-domain</span>
+          <div class="detail-card-value">visual-novel-engines</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">Found In Domains</span>
+          <div class="detail-card-value">visual-novel-engines</div>
+        </div>
+      </div>
+      
+    </section>
+
+    
+    <section class="detail-section">
+      <h2>Tags</h2>
+      <div class="tag-list">
+        
+        <span class="pill tag">visual-novel</span>
+        
+        <span class="pill tag">python</span>
+        
+        <span class="pill tag">vn-engine</span>
+        
+        <span class="pill tag">interactive-fiction</span>
+        
+        <span class="pill tag">scripting</span>
+        
+      </div>
+    </section>
+    
+
+    
+    <section class="detail-section">
+      <h2>Why It Ranked Here</h2>
+      <div class="detail-copy fallback-desc">
+        <p>6.3k stars, the dominant open-source VN engine, powering thousands of commercial and indie games with active development through 2026.</p>
+      </div>
+    </section>
+    
+    
+  </main>
+</div>
+
+
+
+
+</body>
+</html>

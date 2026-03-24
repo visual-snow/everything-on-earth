@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/libsdl-org/sdl_mixer",
+  "name": "libsdl-org/SDL_mixer",
+  "description": "The official SDL audio mixer library supporting multi-channel mixing, decoding of WAV, FLAC, MP3, OGG, MIDI, MOD, and Opus formats, with DSP effects and positional audio for SDL-based games.",
+  "sub_domain": "game-audio",
+  "score": 8,
+  "score_rationale": "Essential audio companion to the SDL game library with 685 stars, actively maintained through March 2026 with a redesigned SDL3 API, and used in thousands of cross-platform game projects.",
+  "stars": 685,
+  "language": "C",
+  "license": "Zlib",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "game-audio"
+  ],
+  "quality_score": 70.7,
+  "tags": [
+    "audio",
+    "sdl",
+    "mixer",
+    "cross-platform"
+  ],
+  "category": "Audio Library",
+  "summary": "Official SDL audio mixer with multi-format support",
+  "slug": "libsdl-org-sdl-mixer"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "nokia-sr-linux-container-image",
+  "name": "Nokia SR Linux Container Image",
+  "what_it_is": "Nokia Service Router Linux (SR Linux) is a fully open network operating system (NOS) distributed as a free container image (ghcr.io/nokia/srlinux) with no registration, licensing, or contract requirements. It is intended for learning, demo, test, and CI environments — not production deployment.",
+  "components": [
+    "SR Linux NOS (network operating system) packaged as a container image",
+    "NETCONF server (management plane)",
+    "gNMI server (streaming telemetry and config)",
+    "JSON-RPC API server",
+    "SSH/CLI management interface",
+    "Nokia Data Center Fabric control plane (BGP, EVPN, IS-IS, OSPF, VXLAN)"
+  ],
+  "protocols": [
+    "BGP",
+    "EVPN",
+    "IS-IS",
+    "JSON-RPC",
+    "NETCONF",
+    "OSPF",
+    "SSH/CLI",
+    "VXLAN",
+    "gNMI",
+    "gRPC"
+  ],
+  "measurement": [
+    "gNMI streaming telemetry for operational state and counters",
+    "NETCONF get/get-config for state retrieval"
+  ],
+  "configuration": [
+    "NETCONF (RFC 6241) for configuration management",
+    "gNMI SetRequest for programmatic configuration",
+    "JSON-RPC API for configuration and state queries",
+    "CLI over SSH for interactive configuration"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Containerized lab/test mode (learning, demo, CI) — the only documented use case for this image",
+    "Topology node in multi-container labs (e.g., via Containerlab)"
+  ],
+  "constraints": [
+    "Explicitly not intended for production deployment — image is scoped to learning, demo, test, and CI environments only",
+    "No licensing or registration required, but this also means no Nokia support SLA for the container image distribution",
+    "Requires Linux host with Docker; container runs as a privileged/network-capable container due to NOS kernel requirements",
+    "Latest release at time of research is 26.3.1 — versioning follows Nokia SR Linux software release cadence"
+  ],
+  "docker_services": [
+    "ghcr.io/nokia/srlinux — single container image; no docker-compose.yml is included in the repository (the repo is purely a distribution and release-notes vehicle)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in the repository — users must compose their own topology files or use Containerlab",
+    "No fault injection or traffic generation tooling bundled in this image",
+    "No production licensing or support pathway via this container image distribution",
+    "No CI/test harness scripts in the repository (only release automation scripts: add-release.sh, publi.sh)"
+  ]
+}

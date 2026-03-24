@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/beefproject/beef",
+  "name": "beefproject/beef",
+  "description": "The Browser Exploitation Framework (BeEF) is a penetration testing tool focused on web browser attack vectors, enabling assessment of client-side security through browser-based hooks and modules.",
+  "sub_domain": "pentest-frameworks",
+  "score": 8,
+  "score_rationale": "Established browser exploitation framework with 10.8k stars and active maintenance with v0.6.0.0 released in October 2025.",
+  "stars": 10800,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2025-10-24",
+  "found_in_domains": [
+    "pentest-frameworks"
+  ],
+  "quality_score": 80.3,
+  "tags": [
+    "exploit-dev",
+    "pe-format",
+    "web-security"
+  ],
+  "category": "Exploit Framework",
+  "summary": "The Browser Exploitation Framework (BeEF) is a penetration testing tool focused on web browser at...",
+  "slug": "beefproject-beef"
+}

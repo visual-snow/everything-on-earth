@@ -1,0 +1,76 @@
+{
+  "name": "5G-MAG MBS Examples",
+  "repo_url": "https://github.com/5g-mag/rt-mbs-examples",
+  "description": "Docker Compose examples for 3GPP Release 17 Multicast-Broadcast Services (MBS) in 5G. Includes modified Open5GS core with MB-SMF, MB-UPF, and MBS-enabled gNB/UE.",
+  "domain": "3gpp-core",
+  "secondary_domains": [
+    "5g-core",
+    "5g-multicast-broadcast",
+    "mb-upf",
+    "rel17-mbs"
+  ],
+  "protocols": [
+    "NAS",
+    "NGAP",
+    "PFCP",
+    "GTP-U",
+    "SBI",
+    "MBS"
+  ],
+  "provides": [
+    "udm",
+    "nssf",
+    "sbi-northbound",
+    "mb-smf",
+    "mb-upf",
+    "pcf",
+    "rel17-mbs-stack",
+    "bsf",
+    "ue-simulation",
+    "gnb-simulation",
+    "pfcp-session-management",
+    "gtp-u-tunneling",
+    "mbs-multicast-broadcast",
+    "udr",
+    "nrf",
+    "config-mutation",
+    "5g-core-amf",
+    "ausf",
+    "nas-signaling",
+    "5g-core-smf",
+    "ngap-signaling",
+    "open5gs-core",
+    "5g-core-upf"
+  ],
+  "needs": [
+    "docker-compose-v2",
+    "linux-kernel-5.4+",
+    "sctp-support",
+    "mongodb",
+    "tun-tap-kernel-module",
+    "privileged-container-mode"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 15,
+    "docker_evidence": "docker-compose.yaml with docker-bake.hcl; internal and external deployment modes; AMF, SMF, MB-SMF, UPF, MB-UPF, NRF, UDM, UDR, AUSF, BSF, NSSF, PCF, gNB, UE"
+  },
+  "github_metrics": {
+    "stars": 7,
+    "last_commit": "2025-01",
+    "language": "Python",
+    "license": "5G-MAG Public License v1.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Only open-source 5G MBS (multicast-broadcast) implementation. Unique for testing Rel-17 MBS features. Built on Open5GS with custom MB extensions.",
+  "related_repos": [
+    "https://github.com/open5gs/open5gs",
+    "https://github.com/5g-mag/rt-srsran_project"
+  ],
+  "_sources": [
+    "discovery/5g-core.json"
+  ],
+  "slug": "5g-mag-mbs-examples"
+}

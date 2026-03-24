@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/spessasus/spessasynth",
+  "name": "spessasus/SpessaSynth",
+  "description": "A SoundFont2-based real-time MIDI synthesizer and player written in TypeScript for the browser, with keyboard visualization, Web MIDI API support, and WAV/MIDI export capabilities.",
+  "sub_domain": "chiptune-trackers",
+  "score": 7,
+  "score_rationale": "Actively developed TypeScript SoundFont synthesizer with 323 stars and recent 2026 releases, offering a modern web-native MIDI/SoundFont solution.",
+  "stars": 323,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 62.1,
+  "tags": [
+    "synthesizer",
+    "soundfont",
+    "midi",
+    "typescript",
+    "web-audio"
+  ],
+  "category": "MIDI Synthesizers",
+  "summary": "TypeScript web SoundFont synthesizer with MIDI support",
+  "slug": "spessasus-spessasynth"
+}

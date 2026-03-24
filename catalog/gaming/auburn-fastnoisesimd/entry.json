@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/auburn/fastnoisesimd",
+  "name": "Auburn/FastNoiseSIMD",
+  "description": "A C++ noise library accelerated with SIMD CPU intrinsics (SSE2 through AVX512) achieving up to 700% speed improvements over scalar implementations for Perlin, Simplex, Cellular, and Value noise. Intended for high-performance terrain and texture generation at runtime.",
+  "sub_domain": "procedural-generation",
+  "score": 7,
+  "score_rationale": "Best-in-class performance noise library for CPU-bound generation pipelines using SIMD vectorization.",
+  "stars": 1300,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2023-06-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 66.9,
+  "tags": [
+    "noise",
+    "simd",
+    "performance",
+    "cpp",
+    "vectorization"
+  ],
+  "category": "High-Performance Noise",
+  "summary": "SIMD-accelerated noise library achieving 700% speedup using CPU intrinsics (SSE2-AVX512).",
+  "slug": "auburn-fastnoisesimd"
+}

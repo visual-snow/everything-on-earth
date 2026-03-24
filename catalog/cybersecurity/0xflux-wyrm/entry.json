@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/0xflux/wyrm",
+  "name": "0xflux/Wyrm",
+  "description": "Rust-based red team post-exploitation C2 framework emphasizing memory obfuscation, encrypted communications below TLS, reflective DLL injection, and customizable agent profiles. An emerging Rust-native alternative to established C2 platforms.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 6,
+  "score_rationale": "475 stars, actively maintained through January 2026, and notable as a modern Rust-native C2 with strong OPSEC focus.",
+  "stars": 475,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-01-04",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 57.4,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "0xflux-wyrm"
+}

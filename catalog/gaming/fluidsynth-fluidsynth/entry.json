@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fluidsynth/fluidsynth",
+  "name": "FluidSynth/fluidsynth",
+  "description": "A cross-platform real-time software synthesizer based on the SoundFont 2 specification, processing MIDI events to produce audio. Widely used in game engines and music applications across all major platforms.",
+  "sub_domain": "chiptune-trackers",
+  "score": 9,
+  "score_rationale": "The de-facto open-source SoundFont/MIDI synthesizer with 2.3k stars, used in countless games and audio applications, actively maintained through 2026.",
+  "stars": 2300,
+  "language": "C",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-02-21",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 80.9,
+  "tags": [
+    "synthesizer",
+    "soundfont",
+    "midi",
+    "audio",
+    "game-audio"
+  ],
+  "category": "MIDI Synthesizers",
+  "summary": "De-facto SoundFont/MIDI synthesizer used in game audio",
+  "slug": "fluidsynth-fluidsynth"
+}

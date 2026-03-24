@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ossf/package-analysis",
+  "name": "ossf/package-analysis",
+  "description": "OpenSSF project that dynamically analyzes open source packages by running them in sandboxes to detect malicious behavior. Supports PyPI, npm, RubyGems, and other package ecosystems.",
+  "sub_domain": "Supply Chain Security",
+  "score": 7,
+  "score_rationale": "OpenSSF dynamic package analysis infrastructure with 574+ stars, critical for detecting malicious open source packages.",
+  "stars": 574,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-05-20",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 64.1,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "ossf-package-analysis"
+}

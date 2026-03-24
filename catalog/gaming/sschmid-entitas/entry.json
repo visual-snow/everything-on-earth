@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sschmid/entitas",
+  "name": "sschmid/Entitas",
+  "description": "Super fast ECS framework for C# and Unity with code generation that produces type-safe, boilerplate-free component and system classes. The most widely used ECS framework in the Unity ecosystem.",
+  "sub_domain": "ecs-frameworks",
+  "score": 8,
+  "score_rationale": "The dominant Unity ECS framework with 7.6k stars and MIT license, though active development slowed after 2023 as Unity's DOTS gained traction \u2014 still widely used in existing projects.",
+  "stars": 7600,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2023-06-20",
+  "found_in_domains": [
+    "ecs-frameworks"
+  ],
+  "quality_score": 79.0,
+  "tags": [
+    "ecs",
+    "unity",
+    "entity-component-system",
+    "code-generation"
+  ],
+  "category": "Unity Architecture",
+  "summary": "Dominant Unity ECS framework with code generation and type safety",
+  "slug": "sschmid-entitas"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/grr",
+  "name": "google/grr",
+  "description": "GRR Rapid Response is a remote live forensics framework for incident response comprising a Python agent deployed on target systems and server infrastructure for managing investigations. Enables scalable remote evidence collection and forensic triage across large fleets.",
+  "sub_domain": "forensics-ir",
+  "score": 8,
+  "score_rationale": "Google-backed remote live forensics framework with 5k stars reaching a major 4.0 milestone in December 2025, widely used in enterprise incident response.",
+  "stars": 5000,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-15",
+  "found_in_domains": [
+    "forensics-ir"
+  ],
+  "quality_score": 77.6,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "google-grr"
+}

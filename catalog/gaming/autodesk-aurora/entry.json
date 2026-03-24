@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/autodesk/aurora",
+  "name": "Autodesk/Aurora",
+  "description": "Autodesk's real-time GPU path tracing engine with OpenUSD Hydra render delegate, designed for interactive viewport use in DCC applications enabling rapid design iteration workflows.",
+  "sub_domain": "ray-tracing",
+  "score": 7,
+  "score_rationale": "602-star Autodesk-backed ray tracer integrated with the USD ecosystem, relevant for game/film pipeline tooling.",
+  "stars": 602,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2024-07-31",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 64.2,
+  "tags": [
+    "path-tracing",
+    "rendering",
+    "usd",
+    "gpu",
+    "real-time"
+  ],
+  "category": "Ray Tracing Engine",
+  "summary": "Autodesk real-time GPU path tracer with USD Hydra integration for DCC pipelines",
+  "slug": "autodesk-aurora"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "YDK-gen (YANG Development Kit)",
+  "repo_url": "https://github.com/ciscodevnet/ydk-gen",
+  "description": "Software development tool providing API generation from YANG models with services for NETCONF, RESTCONF, OpenDaylight, and gNMI. Supports Python, Go, and C++ code generation from YANG model bundles.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "sdk-generation"
+  ],
+  "protocols": [
+    "YANG",
+    "NETCONF",
+    "RESTCONF",
+    "gNMI"
+  ],
+  "provides": [
+    "yang-api-generation",
+    "netconf-client",
+    "restconf-client",
+    "gnmi-client",
+    "yang-model-binding",
+    "sdk-codegen",
+    "opendaylight-integration",
+    "multi-language-sdk"
+  ],
+  "needs": [
+    "yang-model-bundles",
+    "netconf-server",
+    "restconf-server",
+    "gnmi-target",
+    "cmake-build-tools",
+    "python3-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ydkdev/ydk-gen",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker image automatically built with latest ydk-gen commit. Supports Ubuntu Xenial through Noble. Docker image is the easiest way to run ydk-gen without native installation."
+  },
+  "github_metrics": {
+    "stars": 350,
+    "last_commit": "2025-06",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Most comprehensive multi-language YANG API generator. Bundle profiles allow customizing scope per use case. Docker image is the recommended approach for running the generator. Generates SDKs for Python/Go/C++ with protocol-specific services.",
+  "related_repos": [
+    "https://github.com/ciscodevnet/ydk-py",
+    "https://github.com/ciscodevnet/ydk-go",
+    "https://github.com/ciscodevnet/ydk-cpp"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "ydk-gen-yang-development-kit"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/owasp/mastg",
+  "name": "OWASP/mastg",
+  "description": "OWASP Mobile Application Security Testing Guide \u2014 the authoritative manual for mobile app security testing and reverse engineering, mapping to OWASP MASVS and MASWE.",
+  "sub_domain": "Mobile Security",
+  "score": 9,
+  "score_rationale": "The definitive mobile security testing reference with 12.8k stars, actively maintained with ongoing contributions aligning it with MASWE.",
+  "stars": 12800,
+  "language": "Python",
+  "license": "CC-BY-SA-4.0",
+  "last_activity": "2024-10-31",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 86.9,
+  "tags": [
+    "reverse-engineering",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Security Tool",
+  "summary": "OWASP Mobile Application Security Testing Guide \u2014 the authoritative manual for mobile app securit...",
+  "slug": "owasp-mastg"
+}

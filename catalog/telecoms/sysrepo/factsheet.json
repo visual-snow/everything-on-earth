@@ -1,0 +1,76 @@
+{
+  "slug": "sysrepo",
+  "name": "Sysrepo",
+  "what_it_is": "Sysrepo is a YANG-based configuration and operational state data store for Unix/Linux applications, providing ACID-like transaction guarantees and integrating with management agents such as NETCONF and RESTCONF servers.",
+  "components": [
+    "sysrepo C client library (sysrepo.h)",
+    "sysrepoctl CLI — manages installed YANG modules and their permissions",
+    "sysrepocfg CLI — manages datastore data (import/export/edit)",
+    "sysrepo-plugind — daemon providing systemd service support",
+    "sr_perf — performance measurement tool",
+    "JSON DS file plugin (default datastore backend)",
+    "MONGO DS plugin (requires libmongoc ≥1.24.0 + MongoDB server)",
+    "REDIS DS plugin (requires libhiredis ≥1.1.0 + Redis Stack)",
+    "Notification/subscription subsystem with replay support",
+    "Shared memory (SHM) layer for inter-process context sharing"
+  ],
+  "protocols": [
+    "NETCONF (RFC 6241)",
+    "RESTCONF (RFC 8040)",
+    "YANG 1.1",
+    "YANG Schema Mount (RFC 8528)",
+    "Factory Default Datastore RPC (RFC 8808)",
+    "NACM — NETCONF Access Control Module (ietf-netconf-acm)",
+    "ietf-subscribed-notifications",
+    "ietf-yang-push",
+    "Custom RPC and Event Notifications"
+  ],
+  "measurement": [
+    "sr_perf tool measures execution time for common use-cases with large YANG instance data",
+    "Code coverage via ENABLE_COVERAGE=ON CMake flag (gcov/lcov/genhtml)",
+    "Cmocka-based unit tests with optional Valgrind integration"
+  ],
+  "configuration": [
+    "REPO_PATH CMake variable — custom repository location",
+    "SR_PLUGINS_PATH CMake variable — DS and NTF plugins location",
+    "SYSREPO_UMASK / SYSREPO_GROUP — file permission security settings",
+    "NACM_RECOVERY_USER CMake variable — recovery account (default: root)",
+    "DEFAULT_*_DS_PLG CMake variables — datastore plugin assignment per datastore type",
+    "MONGO_HOST, MONGO_PORT, MONGO_USERNAME, MONGO_PASSWORD, MONGO_AUTHSOURCE — MongoDB backend config",
+    "REDIS_HOST, REDIS_PORT, REDIS_USERNAME, REDIS_PASSWORD — Redis backend config",
+    "SYSREPO_REPOSITORY_PATH env var — runtime repository path override",
+    "SYSREPO_SHM_PREFIX env var — isolates multiple sysrepo instances on the same machine",
+    "SYSREPO_SHM_DIR env var — relocates shared memory directory",
+    "SR_ENV_RUN_TESTS env var — enables package tests without privilege elevation",
+    "PRINTED_CONTEXT_ADDRESS — shared YANG context memory address (enabled by default on Linux 4.17+)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "startup datastore — persists configuration across reboots",
+    "running datastore — active operational configuration",
+    "candidate datastore — staging area for proposed configuration changes",
+    "operational datastore — runtime state and operational data published by applications",
+    "master branch — stable releases",
+    "devel branch — tested improvements ahead of stable"
+  ],
+  "constraints": [
+    "No master process: cannot enforce centralized access control; relies entirely on filesystem permissions",
+    "C language only natively; Python and C++ bindings are separate projects",
+    "Maximum path length of 256 characters (SR_PATH_MAX)",
+    "ASLR may need to be disabled on systems without MAP_FIXED_NOREPLACE for printed context to work",
+    "Full CLI is available only as separate projects (not bundled)",
+    "Schema mount inline mount points must share parent YANG context",
+    "Default permissions allow no users other than the recovery user to write data until explicitly configured",
+    "Local processes can break sysrepo by manipulating shared files — not safe against malicious local processes"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose file in the repository",
+    "No fault injection or chaos testing mechanisms documented",
+    "No built-in metrics or monitoring endpoint",
+    "No encryption at rest for stored datastore data",
+    "No audit logging capability",
+    "No multi-master or replication architecture",
+    "No role-based access control beyond NACM user-based controls"
+  ]
+}

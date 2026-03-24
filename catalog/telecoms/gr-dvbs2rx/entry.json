@@ -1,0 +1,59 @@
+{
+  "name": "gr-dvbs2rx",
+  "repo_url": "https://github.com/igorauad/gr-dvbs2rx",
+  "description": "GNU Radio out-of-tree module with full DVB-S2 transmitter and receiver implementations for SDR. Supports RTL-SDR, USRP, PlutoSDR, and BladeRF for satellite signal reception and processing.",
+  "domain": "dvb-s2",
+  "secondary_domains": [
+    "forward-error-correction",
+    "modcod",
+    "satellite",
+    "sdr"
+  ],
+  "protocols": [
+    "DVB-S2",
+    "LDPC",
+    "BCH"
+  ],
+  "provides": [
+    "dvbs2-transmitter",
+    "dvbs2-receiver",
+    "ldpc-fec-processing",
+    "bch-fec-processing",
+    "modcod-selection",
+    "sdr-signal-processing",
+    "gnu-radio-oot-module",
+    "satellite-signal-reception",
+    "baseband-processing"
+  ],
+  "needs": [
+    "gnu-radio-3.10+",
+    "sdr-hardware-or-emulator",
+    "cmake-build-system",
+    "libvolk",
+    "python3-runtime",
+    "c++17-compiler"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile and .dockerignore present in repository root for containerized build and deployment."
+  },
+  "github_metrics": {
+    "stars": 125,
+    "last_commit": "2023-12-01",
+    "language": "C++",
+    "license": "GPL-3.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Complete DVB-S2 transceiver for satellite signal processing. Agents could configure receiver parameters, optimize MODCOD selection, troubleshoot signal lock issues, and benchmark FEC performance.",
+  "related_repos": [
+    "https://github.com/igorauad/docker-gnuradio-oot-dev",
+    "https://github.com/gnuradio/gnuradio"
+  ],
+  "_sources": [
+    "discovery/ntn-satellite.json"
+  ],
+  "slug": "gr-dvbs2rx"
+}

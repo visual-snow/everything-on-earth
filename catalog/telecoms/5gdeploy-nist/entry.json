@@ -1,0 +1,76 @@
+{
+  "name": "5gdeploy (NIST)",
+  "repo_url": "https://github.com/usnistgov/5gdeploy",
+  "description": "5G core deployment helper by NIST's Smart Connected Systems Division. Deploys emulated 5G networks in Docker Compose with support for multiple control/user plane implementations.",
+  "domain": "5g-core",
+  "secondary_domains": [
+    "comparative-testing",
+    "multi-vendor-orchestration",
+    "network-emulation",
+    "upf-deployment"
+  ],
+  "protocols": [
+    "5G NR",
+    "GTP",
+    "GTP-U",
+    "N4/PFCP",
+    "NAS",
+    "NGAP",
+    "PFCP",
+    "SBI",
+    "SCTP"
+  ],
+  "provides": [
+    "docker-compose-network-emulation",
+    "upf-orchestration",
+    "config-mutation",
+    "free5gc-integration",
+    "pfcp-n4-control",
+    "ran-emulation-orchestration",
+    "5g-core-orchestration",
+    "multi-upf-deployment",
+    "nas-ngap-signaling",
+    "multi-vendor-5g-deployment",
+    "oai-integration",
+    "gtp-u-dataplane",
+    "open5gs-integration",
+    "comparative-5g-testing"
+  ],
+  "needs": [
+    "docker-engine",
+    "docker-compose-v2",
+    "linux-host",
+    "sctp-support",
+    "tun-tap-kernel-module",
+    "python3-runtime",
+    "gtp-kernel-module"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Primarily useful for running an emulated 5G network in Docker Compose environment; compose, docker, and netdef-compose directories"
+  },
+  "github_metrics": {
+    "stars": 50,
+    "last_commit": "unknown",
+    "language": "Python",
+    "license": "NIST"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Unique multi-vendor orchestrator: mix and match free5GC/OAI/Open5GS control planes with various UPF and RAN implementations. NIST-backed. In maintenance mode. Ideal for comparative testing. Unique multi-core, multi-UPF deployment tool. Enables comparative testing across different 5G core implementations. NIST-developed, high credibility. Good for cross-implementation eval scenarios. NIST-backed 5G deployment helper supporting multiple 5G core implementations. Useful meta-tool for orchestrating different signaling stacks in evaluation environments. No longer actively developed but functional.",
+  "related_repos": [
+    "https://github.com/free5gc/free5gc",
+    "https://github.com/hewlettpackard/packetrusher",
+    "https://github.com/open5gs/open5gs",
+    "https://github.com/usnistgov/ns3-oran",
+    "https://github.com/usnistgov/o-ran-testbed-automation"
+  ],
+  "_sources": [
+    "discovery/5g-core.json",
+    "discovery/ran-ue.json",
+    "discovery/signaling.json"
+  ],
+  "slug": "5gdeploy-nist"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/its-a-feature/mythic",
+  "name": "its-a-feature/Mythic",
+  "description": "Cross-platform, modular post-exploitation C2 framework with a web browser UI, Docker-based architecture, and extensible agent/payload system via a plugin marketplace. Widely used for advanced red team operations requiring custom agent development.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 9,
+  "score_rationale": "4.4k stars, actively maintained, and the leading framework for teams that need custom implant development with a modular C2 backend.",
+  "stars": 4400,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2025-03-20",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 83.1,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "its-a-feature-mythic"
+}

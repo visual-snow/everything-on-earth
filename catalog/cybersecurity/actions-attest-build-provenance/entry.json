@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/actions/attest-build-provenance",
+  "name": "actions/attest-build-provenance",
+  "description": "GitHub Actions action for generating signed build provenance attestations for workflow artifacts using Sigstore and the in-toto format. Provides SLSA v1.0 Build Level 2 compliance out of the box.",
+  "sub_domain": "Supply Chain Security",
+  "score": 7,
+  "score_rationale": "Official GitHub action for SLSA provenance with 579+ stars, native integration for GitHub Actions supply chain security.",
+  "stars": 579,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 64.1,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "github actions action for generating signed build provenance attestations for workflow artifacts usi...",
+  "slug": "actions-attest-build-provenance"
+}

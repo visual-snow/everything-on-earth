@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/verazuo/jailbreak_llms",
+  "name": "verazuo/jailbreak_llms",
+  "description": "ACM CCS 2024 research dataset containing 15,140 prompts including 1,405 in-the-wild jailbreak prompts collected from Reddit, Discord, and specialized websites between December 2022 and 2023, with evaluation frameworks for analyzing prompt effectiveness.",
+  "sub_domain": "ai-security",
+  "score": 6,
+  "score_rationale": "Largest published real-world jailbreak prompt dataset with 3.6k stars and ACM CCS 2024 peer review, valuable for LLM safety research and red-team testing.",
+  "stars": 3600,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-08-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 64.5,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "ACM CCS 2024 research dataset containing 15,140 prompts including 1,405 in-the-wild jailbreak prompt",
+  "slug": "verazuo-jailbreak-llms"
+}

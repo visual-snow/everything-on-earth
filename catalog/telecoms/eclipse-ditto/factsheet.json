@@ -1,0 +1,67 @@
+{
+  "slug": "eclipse-ditto",
+  "name": "Eclipse Ditto",
+  "what_it_is": "Eclipse Ditto is an open-source IoT framework implementing the digital twins pattern, providing virtual cloud-based representations of physical devices via REST, WebSocket, MQTT, AMQP, and Kafka APIs. It manages device state, access control, and search across connected things using a microservices architecture backed by MongoDB.",
+  "components": [
+    "Gateway (API gateway and entry point)",
+    "Things (digital twin entity management)",
+    "Things-Search (search and query engine)",
+    "Policies (access control and permission management)",
+    "Connectivity (device connection handling for MQTT, AMQP, Kafka, HTTP)",
+    "MongoDB (persistence layer)",
+    "nginx (reverse proxy and authentication)"
+  ],
+  "protocols": [
+    "HTTP (REST API)",
+    "WebSocket",
+    "MQTT",
+    "AMQP",
+    "Kafka",
+    "W3C Web of Things (WoT)"
+  ],
+  "measurement": [
+    "Thing state (attributes and features of a digital twin)",
+    "Thing modification events (change notifications)",
+    "Search query results (Things-Search)",
+    "Connection status per connectivity channel",
+    "Policy enforcement decisions"
+  ],
+  "configuration": [
+    "MongoDB connection URI and credentials",
+    "nginx authentication settings (basic auth)",
+    "JWT issuer and public key for token validation",
+    "Connectivity targets (MQTT broker, AMQP endpoint, Kafka brokers)",
+    "Thing schema and feature definitions",
+    "Policy rules (subjects, resources, permissions)",
+    "JVM heap and memory settings per microservice",
+    "Log levels per microservice"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Local development (Docker Compose single-instance)",
+    "Production deployment (Kubernetes or standalone)"
+  ],
+  "constraints": [
+    "Requires MongoDB as the mandatory persistence backend — no alternative database support documented",
+    "Requires JVM 17+ for all microservices — not a native binary",
+    "Default Docker Compose setup uses basic auth via nginx and is not production-grade for security",
+    "No built-in message broker — external MQTT broker, AMQP broker, or Kafka cluster must be provided separately for device connectivity",
+    "No direct device drivers — physical devices must connect via supported protocol endpoints"
+  ],
+  "docker_services": [
+    "mongodb",
+    "policies",
+    "things",
+    "things-search",
+    "gateway",
+    "connectivity",
+    "nginx"
+  ],
+  "notable_absences": [
+    "No built-in message broker (MQTT broker, Kafka, or AMQP broker must be supplied externally)",
+    "No direct device driver support",
+    "No built-in time-series storage for telemetry history",
+    "No high-availability or clustering configuration in default setup",
+    "No built-in dashboarding beyond the Ditto Explorer UI (no Grafana, no metrics pipeline)"
+  ]
+}

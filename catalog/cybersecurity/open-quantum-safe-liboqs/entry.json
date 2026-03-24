@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/open-quantum-safe/liboqs",
+  "name": "open-quantum-safe/liboqs",
+  "description": "A C library for quantum-safe cryptographic algorithms including post-quantum key encapsulation mechanisms (KEMs) and digital signature schemes. Part of the Open Quantum Safe initiative under the Linux Foundation's Post-Quantum Cryptography Alliance.",
+  "sub_domain": "cryptography",
+  "score": 8,
+  "score_rationale": "Essential post-quantum cryptography reference library with 2.8k stars, actively maintained and serving as the upstream for many PQC integrations.",
+  "stars": 2800,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-11-14",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 75.6,
+  "tags": [
+    "penetration-testing",
+    "assessment",
+    "security-testing",
+    "automation"
+  ],
+  "category": "Testing Tool",
+  "summary": "Security assessment and testing",
+  "slug": "open-quantum-safe-liboqs"
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "floodlight",
+  "name": "Floodlight OpenFlow Controller",
+  "what_it_is": "Floodlight is an open-source, Java-based OpenFlow SDN controller that manages network forwarding behavior via a modular architecture with a REST API and web UI. It supports OpenFlow versions 1.0 through 1.5 and is designed to control physical and virtual switches, routers, and access points.",
+  "components": [
+    "FloodlightProvider (core OpenFlow message handler)",
+    "OFSwitchManager (switch lifecycle and role management)",
+    "TopologyManager (network graph and path computation)",
+    "RoutingManager (shortest-path routing)",
+    "Forwarding (reactive L2/L3 forwarding module)",
+    "LinkDiscoveryManager (LLDP-based link discovery with latency measurement)",
+    "DeviceManagerImpl (host/device tracking by MAC, IP, VLAN, switch port)",
+    "StatisticsCollector (periodic port and flow stats polling)",
+    "StaticEntryPusher (proactive static flow entry management)",
+    "RestApiServer (embedded Restlet-based HTTP/HTTPS REST server on port 8080/8081)",
+    "StaticWebRoutable / Web UI (built-in web dashboard)",
+    "LoadBalancer (software load balancing)",
+    "Firewall (ACL-based packet filtering)",
+    "DHCPServer (embedded DHCP server)",
+    "AccessControlList (ACL module)",
+    "HAController (high-availability support with ACTIVE/STANDBY roles)",
+    "SyncManager (cluster state synchronization on port 6642)",
+    "JythonDebugInterface (Python REPL for live debugging)",
+    "PktInProcessingTime / DebugCounterServiceImpl (performance monitoring)",
+    "MemoryStorageSource (in-memory key-value store)",
+    "VirtualNetworkFilter (virtual tenant network isolation)"
+  ],
+  "protocols": [
+    "OpenFlow 1.0, 1.1, 1.2, 1.3, 1.4, 1.5 (TCP port 6653)",
+    "LLDP (link discovery)",
+    "REST over HTTP (port 8080) and HTTPS (port 8081)",
+    "SyncManager cluster protocol (TCP port 6642)",
+    "OpenFlow TLS/SSL (optional, requires keystore)"
+  ],
+  "measurement": [
+    "StatisticsCollector: periodic port-stats polling (default interval 10 s, configurable)",
+    "StatisticsCollector: per-port bandwidth (tx/rx bytes, packets, errors) via SwitchPortBandwidth",
+    "StatisticsCollector: flow-rule hit/byte counts via FlowRuleStats",
+    "REST endpoints: /wm/statistics/bandwidth/<switch>/<port>/json, /wm/statistics/flow/<switch>/json",
+    "DebugCounterServiceImpl: internal module-level event counters",
+    "PktInProcessingTime: packet-in processing latency per module",
+    "LinkDiscoveryManager: per-link latency history (configurable history size and update threshold)",
+    "ControllerMemoryResource: JVM heap usage via REST",
+    "SystemUptimeResource: controller uptime via REST"
+  ],
+  "configuration": [
+    "Module list defined in .properties file (floodlightdefault.properties, learningswitch.properties, etc.)",
+    "OpenFlow listen port: FloodlightProvider.openFlowPort (default 6653)",
+    "Controller role: FloodlightProvider.role (ACTIVE or STANDBY)",
+    "OFSwitchManager.supportedOpenFlowVersions: comma-separated list (1.0–1.5)",
+    "OFSwitchManager.useSsl: YES/NO with keyStorePath and keyStorePassword",
+    "OFSwitchManager.clearTablesOnInitialHandshakeAsMaster / clearTablesOnEachTransitionToMaster: YES/NO",
+    "OFSwitchManager.workerThreads (default 16), bossThreads (default 1), connectionBacklog (default 1000)",
+    "Forwarding.match: match fields for reactive flows (in-port, vlan, mac, ip, transport, flag)",
+    "Forwarding.idle-timeout: flow idle timeout in seconds (default 5)",
+    "Forwarding.flood-arp: YES/NO",
+    "TopologyManager.pathMetric: latency or hop-count",
+    "TopologyManager.maxPathsToCompute (default 3)",
+    "RestApiServer.httpPort (default 8080) and httpsPort (default 8081)",
+    "StatisticsCollector.enable: TRUE/FALSE; collectionIntervalPortStatsSeconds (default 10)",
+    "SyncManager cluster nodes: JSON array with nodeId, domainId, hostname, port"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework; Mininet integration (example/mininet) enables topology-level link failures and host disconnects",
+    "JythonDebugInterface: live Python REPL allows manual module manipulation, flow deletion, and state corruption for testing",
+    "Static flow entries can be inserted/deleted via REST to simulate routing failures",
+    "Controller role can be toggled ACTIVE/STANDBY via REST (ControllerRoleResource) to test HA failover",
+    "OFSwitchManager.switchesInitialState allows forcing per-DPID roles at startup to simulate split-brain scenarios"
+  ],
+  "modes": [
+    "ACTIVE (primary controller, installs flows)",
+    "STANDBY (hot-standby for HA, role switchable via REST)",
+    "Learning switch mode (learningswitch.properties, reactive L2 forwarding only)",
+    "Default multi-module mode (forwarding + firewall + LB + DHCP + ACL)",
+    "Benchmarking mode (floodlightbenchmarking.properties, minimal module set for throughput testing)"
+  ],
+  "constraints": [
+    "No docker-compose file in the repository; deployment requires manual JVM setup or the pre-built Vagrant VM",
+    "StatisticsCollector is disabled by default (enable=FALSE); must be explicitly enabled for metrics collection",
+    "MemoryStorageSource provides no persistence; all state is lost on restart unless SyncManager persistence is enabled",
+    "SyncManager persistence is disabled by default (persistenceEnabled=FALSE)",
+    "OFSwitchManager TLS/SSL is disabled by default (useSsl=NO); plaintext OpenFlow is the out-of-the-box mode",
+    "Sub-agents cannot be spawned; HA requires external SyncManager cluster configuration with pre-shared keystore",
+    "LinkDiscoveryManager relies on LLDP; switches that strip or block LLDP will not appear in the topology graph",
+    "The project has not had active upstream commits since ~2020; OpenFlow 1.5 support may be incomplete for newer switch features"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml or Dockerfile in the repository",
+    "No built-in packet capture or pcap export capability",
+    "No native gRPC/P4Runtime support",
+    "No built-in time-series metrics export (no Prometheus/InfluxDB integration)",
+    "No GUI-based topology editor (read-only web UI only)",
+    "No built-in intent-based northbound API (unlike ONOS or OpenDaylight)"
+  ]
+}

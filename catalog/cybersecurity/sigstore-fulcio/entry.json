@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/sigstore/fulcio",
+  "name": "sigstore/fulcio",
+  "description": "Root certificate authority for code signing that issues short-lived certificates binding OpenID Connect identities to ephemeral signing keys. Core infrastructure for Sigstore's keyless signing ecosystem.",
+  "sub_domain": "Supply Chain Security",
+  "score": 7,
+  "score_rationale": "Core Sigstore PKI infrastructure with 471+ stars, essential for keyless artifact signing workflows.",
+  "stars": 471,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-10",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 63.4,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "root certificate authority for code signing that issues short-lived certificates binding openid conn...",
+  "slug": "sigstore-fulcio"
+}

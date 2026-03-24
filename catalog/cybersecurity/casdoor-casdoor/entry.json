@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/casdoor/casdoor",
+  "name": "casdoor/casdoor",
+  "description": "AI-first Identity and Access Management platform with web UI supporting OAuth 2.1, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, and multiple enterprise identity integrations.",
+  "sub_domain": "iam-auth",
+  "score": 8,
+  "score_rationale": "Feature-rich open source IAM platform with 13.2k stars, Apache-2.0 licensed, actively maintained with the broadest protocol coverage in the OSS IAM space.",
+  "stars": 13200,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 81.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "casdoor-casdoor"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/vaib25vicky/awesome-mobile-security",
+  "name": "vaib25vicky/awesome-mobile-security",
+  "description": "Unified curated list covering Android and iOS security tools, blogs, books, courses, conference talks, and vulnerable practice applications for mobile security professionals.",
+  "sub_domain": "Mobile Security",
+  "score": 7,
+  "score_rationale": "Solid single-source mobile security reference with 3.5k stars covering both Android and iOS, though not updated as recently as android-security-awesome.",
+  "stars": 3500,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-04-01",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 70.4,
+  "tags": [
+    "security-tool",
+    "open-source",
+    "analysis"
+  ],
+  "category": "Security Tool",
+  "summary": "Unified curated list covering Android and iOS security tools, blogs, books, courses, conference t...",
+  "slug": "vaib25vicky-awesome-mobile-security"
+}

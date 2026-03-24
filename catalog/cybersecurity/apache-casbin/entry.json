@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/apache/casbin",
+  "name": "apache/casbin",
+  "description": "Apache Casbin is an open-source authorization library supporting access control models including ACL, RBAC, and ABAC, with implementations in Go, Java, Python, Node.js, Rust, and more. Used widely as a policy enforcement engine in applications.",
+  "sub_domain": "compliance-policy",
+  "score": 10,
+  "score_rationale": "Industry-standard authorization and policy enforcement library with 19.9k stars, Apache-backed, and multi-language implementations used in production across thousands of projects.",
+  "stars": 19900,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "compliance-policy",
+    "iam-auth"
+  ],
+  "quality_score": 94.4,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Apache Casbin is an open-source authorization library supporting access control models including ACL",
+  "slug": "apache-casbin"
+}

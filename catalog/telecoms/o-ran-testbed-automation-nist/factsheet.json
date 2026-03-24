@@ -1,0 +1,72 @@
+{
+  "slug": "o-ran-testbed-automation-nist",
+  "name": "O-RAN Testbed Automation (NIST)",
+  "what_it_is": "An automation tool that deploys and configures 5G Open RAN testbeds based on NIST TN 2311 blueprints, supporting both bare metal and virtualized environments. It integrates OAI or srsRAN gNodeBs, Open5GS 5G core, Near-RT and Non-RT RICs, and xApps into a reproducible research testbed.",
+  "components": [
+    "Open5GS v2.7.6 (5G Core)",
+    "srsRAN_Project release_25.10 (gNodeB option 1)",
+    "OpenAirInterface 2026.w06 (gNodeB option 2)",
+    "srsRAN_4G release_25_10 (UE option 1)",
+    "OpenAirInterface 5G UE (UE option 2)",
+    "O-RAN SC Near-RT RIC M-Release (Kubernetes-based)",
+    "O-RAN SC Non-RT RIC M-Release (minimal prototype, no rApp support)",
+    "FlexRIC v2.0.0",
+    "KPM Monitor xApp",
+    "5G Cell Anomaly Detection xApp",
+    "Quality of Experience Predictor xApp",
+    "Traffic Steering xApp",
+    "RIC Control xApp",
+    "Hello World xApps (Go, Python, Rust)",
+    "Cilium Hubble UI (network visualization)",
+    "Grafana (KPM metric dashboards)"
+  ],
+  "protocols": [
+    "5G NR",
+    "E2AP",
+    "E2SM-KPM",
+    "E2SM-RC",
+    "NGAP",
+    "O-RAN"
+  ],
+  "measurement": [
+    "KPM ind_msg latency",
+    "DRB PDCP volume",
+    "RLC delay and throughput",
+    "PRB (Physical Resource Block) allocation",
+    "RSRP (Reference Signal Received Power)",
+    "UE downlink/uplink throughput",
+    "MAC, RLC, PDCP, GTP layer metrics (FlexRIC xApps)",
+    "KPM metrics exportable to console, CSV, or InfluxDB"
+  ],
+  "configuration": [
+    "Scenario 1: srsRAN or OAI gNodeB + O-RAN SC Near-RT RIC",
+    "Scenario 2: OAI gNodeB + FlexRIC",
+    "Software versions locked via commit_hashes.json",
+    "VirtualBox VM settings: I/O APIC, PAE/NX, Nested VT-x/AMD-V, Nested Paging",
+    "Network attachment via NAT for local component communication",
+    "full_install.sh idempotent installer (resumes from failure point)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "run.sh — starts all components as background processes",
+    "is_running.sh — checks component status",
+    "stop.sh — terminates all components",
+    "Near-RT RIC auto-starts on boot, monitored via k9s -A"
+  ],
+  "constraints": [
+    "Requires Ubuntu 20.04, 22.04, or 24.04 LTS only — no other OS supported",
+    "Minimum hardware: 57 GB storage, 6000 MB RAM, 2 CPU cores (6+ recommended)",
+    "Stable internet required during installation; interruption requires full restart",
+    "Non-RT RIC is a minimal prototype with no rApp support",
+    "Near-RT RIC runs in Kubernetes and may enter CrashLoopBackOff if resources are insufficient",
+    "Not all component combinations are supported — verified connectivity documented in diagrams only",
+    "No docker-compose.yml present; orchestration is via Kubernetes (Near-RT RIC) and bare-process scripts"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found (404 on both main and master branches)",
+    "No fault injection or traffic impairment capabilities documented",
+    "No rApp support in Non-RT RIC",
+    "No RF hardware / SDR integration documented (software-radio only)"
+  ]
+}

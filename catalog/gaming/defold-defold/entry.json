@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/defold/defold",
+  "name": "defold/defold",
+  "description": "A completely free cross-platform game engine for desktop, mobile, and web games, using Lua scripting with native extension support. Backed by the Defold Foundation.",
+  "sub_domain": "game-engines-2d",
+  "score": 8,
+  "score_rationale": "5.9k stars, developer-friendly Apache-derived license, production-proven engine with strong 2D capabilities and active community.",
+  "stars": 5900,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 78.2,
+  "tags": [
+    "2d-engine",
+    "lua",
+    "cross-platform",
+    "native-extensions",
+    "web"
+  ],
+  "category": "Lua-Based Game Engine",
+  "summary": "Production game engine with Lua scripting across desktop/mobile/web",
+  "slug": "defold-defold"
+}

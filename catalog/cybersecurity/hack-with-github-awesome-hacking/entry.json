@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hack-with-github/awesome-hacking",
+  "name": "Hack-with-Github/Awesome-Hacking",
+  "description": "A meta-index collection of 50+ awesome security lists for hackers, pentesters, and security researchers covering Android security, malware analysis, OSINT, vulnerability research, and emerging areas like web3 security. The most widely referenced security awesome-list hub.",
+  "sub_domain": "awesome-lists",
+  "score": 10,
+  "score_rationale": "Industry-standard meta-security list with 109k stars, the primary entry point for discovering cybersecurity awesome-lists across all domains.",
+  "stars": 109000,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2024-09-21",
+  "found_in_domains": [
+    "awesome-lists"
+  ],
+  "quality_score": 100.0,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A meta-index collection of 50+ awesome security lists for hackers, pentesters, and security research",
+  "slug": "hack-with-github-awesome-hacking"
+}

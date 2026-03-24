@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tajmone/awesome-interactive-fiction",
+  "name": "tajmone/awesome-interactive-fiction",
+  "description": "A comprehensive curated list of interactive fiction frameworks, tools, interpreters, authoring systems, and community resources covering all major IF platforms and languages.",
+  "sub_domain": "dialogue-narrative",
+  "score": 5,
+  "score_rationale": "Valuable discovery resource for the IF ecosystem with 206 stars, useful as a meta-catalog but not a tool or engine itself.",
+  "stars": 206,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 48.5,
+  "tags": [
+    "interactive-fiction",
+    "curated-list",
+    "resource-collection",
+    "framework-guide"
+  ],
+  "category": "Fiction Framework Guide",
+  "summary": "Comprehensive curated guide to interactive fiction tools and platforms",
+  "slug": "tajmone-awesome-interactive-fiction"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/grimfang4/sfxr",
+  "name": "grimfang4/sfxr",
+  "description": "The original sfxr retro sound effect generator by DrPetter, a seminal tool for creating 8-bit game sound effects that inspired dozens of ports and variants across every major platform and language.",
+  "sub_domain": "chiptune-trackers",
+  "score": 6,
+  "score_rationale": "Historically important retro sound generator with 300 stars that spawned an entire ecosystem of ports, though the original C++ codebase is unmaintained.",
+  "stars": 300,
+  "language": "C++",
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 55.8,
+  "tags": [
+    "sound-effects",
+    "8-bit",
+    "game-audio",
+    "classic",
+    "generator"
+  ],
+  "category": "Sound Tools",
+  "summary": "Original sfxr sound effect generator spawning entire ecosystem",
+  "slug": "grimfang4-sfxr"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ikpil/dotrecast",
+  "name": "ikpil/DotRecast",
+  "description": "A C# port of Recast & Detour, providing industry-standard navigation mesh generation and pathfinding for .NET, Unity3D, and game servers without external dependencies.",
+  "sub_domain": "pathfinding-navmesh",
+  "score": 7,
+  "score_rationale": "862 stars, Zlib, the primary C# port of the industry-standard Recast navigation toolset for Unity and .NET game servers.",
+  "stars": 862,
+  "language": "C#",
+  "license": "Zlib",
+  "last_activity": null,
+  "found_in_domains": [
+    "pathfinding-navmesh"
+  ],
+  "quality_score": 65.5,
+  "tags": [
+    "recast",
+    "navmesh",
+    "csharp"
+  ],
+  "category": "Pathfinding",
+  "summary": "C# port of industry-standard Recast for .NET and Unity servers",
+  "slug": "ikpil-dotrecast"
+}

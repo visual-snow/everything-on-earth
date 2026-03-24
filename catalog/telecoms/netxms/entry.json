@@ -1,0 +1,57 @@
+{
+  "name": "NetXMS",
+  "repo_url": "https://github.com/netxms/netxms",
+  "description": "Open-source network and infrastructure monitoring and management solution providing unified monitoring from switches to applications.",
+  "domain": "infrastructure-monitoring",
+  "secondary_domains": [
+    "netconf",
+    "snmp-polling",
+    "unified-monitoring"
+  ],
+  "protocols": [
+    "SNMP",
+    "SNMPv3",
+    "ICMP",
+    "SSH",
+    "WMI"
+  ],
+  "provides": [
+    "network-topology-discovery",
+    "alerting-engine",
+    "snmpv3-support",
+    "snmp-monitoring",
+    "agent-based-monitoring",
+    "web-dashboard",
+    "ssh-management",
+    "streaming-telemetry",
+    "infrastructure-monitoring",
+    "unified-network-management",
+    "wmi-collection",
+    "icmp-polling"
+  ],
+  "needs": [
+    "postgresql-or-mysql",
+    "java-runtime-17+",
+    "persistent-storage"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "netxms/netxms",
+    "compose_services_count": 2,
+    "docker_evidence": "Docker image available for containerized deployment of the monitoring platform."
+  },
+  "github_metrics": {
+    "stars": 300,
+    "last_commit": "2026-02-01",
+    "language": "Java",
+    "license": "GPL-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Unified network management system. Good for evaluations involving end-to-end network monitoring setup and configuration.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "netxms"
+}

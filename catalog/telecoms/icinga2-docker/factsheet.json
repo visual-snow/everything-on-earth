@@ -1,0 +1,71 @@
+{
+  "slug": "icinga2-docker",
+  "name": "Icinga2 Docker",
+  "what_it_is": "Official Docker image for Icinga 2, the open-source monitoring framework, configurable as a master or agent node via environment variables. Bundles Icinga 2 daemon, monitoring-plugins, and several check plugins inside a Debian bookworm-slim image.",
+  "components": [
+    "icinga2 daemon (compiled from source)",
+    "monitoring-plugins (Nagios-compatible)",
+    "check_mssql_health plugin",
+    "check_nwc_health plugin",
+    "check_postgres plugin",
+    "check_ssl_cert plugin",
+    "check_nscp_api plugin",
+    "msmtp / msmtp-mta (email notification)",
+    "Go-based custom entrypoint binary"
+  ],
+  "protocols": [
+    "Icinga Cluster Protocol (port 5665, TLS)",
+    "HTTP / HTTPS (Icinga 2 REST API, port 5665)",
+    "ICMP (ping checks via monitoring-plugins)",
+    "SNMP (via monitoring-plugins bundled in image)",
+    "SMTP (outbound email alerts via msmtp)"
+  ],
+  "measurement": [
+    "Host/service check results with performance data",
+    "Check output and exit codes (0=OK, 1=WARNING, 2=CRITICAL, 3=UNKNOWN)",
+    "SSL certificate expiry (check_ssl_cert)",
+    "PostgreSQL health metrics (check_postgres)",
+    "MSSQL health metrics (check_mssql_health)",
+    "Network health metrics (check_nwc_health)"
+  ],
+  "configuration": [
+    "ICINGA_MASTER=1 — run node as master (runs icinga2 node setup --master)",
+    "ICINGA_ZONE=<name> — zone name for agent nodes",
+    "ICINGA_ENDPOINT=<cn>,<host>,<port> — parent endpoint for agent registration",
+    "ICINGA_CACERT=<pem> — CA certificate content injected at runtime",
+    "ICINGA_TICKET=<hex> — PKI ticket for automated agent enrollment",
+    "ICINGA_CN=<name> — common name override",
+    "ICINGA_ACCEPT_COMMANDS=1 / ICINGA_ACCEPT_CONFIG=1 — cluster feature flags",
+    "ICINGA_DISABLE_CONFD=1 — disable conf.d auto-inclusion",
+    "ICINGA_PARENT_HOST / ICINGA_PARENT_ZONE — parent node connection details",
+    "ICINGA_GLOBAL_ZONES — additional global zones",
+    "ICINGA_LISTEN=<addr>,<port> — bind address override",
+    "MSMTPRC=<content> — msmtp config injected as ~icinga/.msmtprc",
+    "Custom config files mountable at /data/etc/icinga2"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism; checks return CRITICAL/WARNING states on failure",
+    "Passive check results can be submitted via REST API to simulate any state",
+    "Node connectivity failures can be simulated by stopping the master container"
+  ],
+  "modes": [
+    "master — standalone or top-level monitoring node (ICINGA_MASTER=1)",
+    "agent — satellite node connecting to a parent master via PKI ticket enrollment",
+    "manual — provide pre-built config/certs in /data without running node setup"
+  ],
+  "constraints": [
+    "Container requires a persistent volume on /data and a stable hostname (-h flag); without these, node identity and certificates are lost on restart",
+    "Do NOT mount sub-paths under /data/etc/icinga2 or /data/var/*/icinga2 unless /data already contains all sibling directories — partial mounts break the symlink structure and corrupt the installation",
+    "icinga2 node setup runs only once per container lifetime; re-enrollment requires clearing /data or providing a fresh volume",
+    "Port 5665 must be reachable between master and agent containers; TLS certificates must be issued by the same CA"
+  ],
+  "docker_services": [
+    "icinga/icinga2 (single image used for both master and agent roles, distinguished by environment variables)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in the repository — multi-container setup must be assembled manually",
+    "No Icinga Web 2 or IDO database in this image — UI and database backend require separate containers",
+    "No built-in SNMP trap receiver daemon (snmptrapd) — SNMP trap handling requires additional setup",
+    "No Grafana or metrics storage — performance data export needs external configuration"
+  ]
+}

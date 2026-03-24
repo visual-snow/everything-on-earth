@@ -1,0 +1,56 @@
+{
+  "name": "Mininet-WiFi",
+  "repo_url": "https://github.com/intrig-unicamp/mininet-wifi",
+  "description": "Software-Defined Wireless Network emulator extending Mininet with WiFi and mobility support.",
+  "domain": "mobility",
+  "secondary_domains": [
+    "network-emulator",
+    "sdn",
+    "wifi-emulation",
+    "wireless-sdn"
+  ],
+  "protocols": [
+    "OpenFlow",
+    "802.11"
+  ],
+  "provides": [
+    "wifi-network-emulation",
+    "sdn-wireless-controller",
+    "openflow-dataplane",
+    "mobility-simulation",
+    "802-11-emulation",
+    "virtual-wifi-nodes",
+    "network-topology-scripting",
+    "mininet-extension"
+  ],
+  "needs": [
+    "linux-kernel-with-mac80211-hwsim",
+    "privileged-docker-mode",
+    "x11-display-server",
+    "openvswitch",
+    "hostapd",
+    "python3-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Building the docker image: docker build -t mn-wifi:v1 . Container supports privileged mode with kernel module access and X11 display forwarding."
+  },
+  "github_metrics": {
+    "stars": 519,
+    "last_commit": "unknown",
+    "language": "Python",
+    "license": "unknown"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Wireless SDN emulator with mobility. Useful for WiFi network management evals and wireless-SDN integration scenarios.",
+  "related_repos": [
+    "https://github.com/mininet/mininet"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "mininet-wifi"
+}

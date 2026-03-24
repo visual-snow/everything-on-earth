@@ -1,0 +1,78 @@
+{
+  "name": "Magma",
+  "repo_url": "https://github.com/magma/magma",
+  "description": "Open-source mobile core network platform by the Linux Foundation (originally Meta). Supports 4G/5G with orchestrator, access gateway, and federation gateway components.",
+  "domain": "access-gateway",
+  "secondary_domains": [
+    "carrier-grade-lte-5g",
+    "mno-federation",
+    "mobile-core-network",
+    "network-orchestration"
+  ],
+  "protocols": [
+    "Diameter",
+    "GTP-C",
+    "GTP-U",
+    "NAS",
+    "NGAP",
+    "REST",
+    "S1AP",
+    "SBI"
+  ],
+  "provides": [
+    "gtp-tunneling",
+    "ngap-handler",
+    "5g-sbi-interface",
+    "web-dashboard",
+    "rest-api-northbound",
+    "enodeb-connectivity",
+    "diameter-server",
+    "access-gateway",
+    "4g-lte-core",
+    "policy-enforcement",
+    "s1ap-handler",
+    "subscriber-management",
+    "federation-gateway",
+    "config-mutation",
+    "5g-core",
+    "nas-processing",
+    "network-orchestrator",
+    "multi-tenant-orchestration"
+  ],
+  "needs": [
+    "linux-kernel-5.4+",
+    "docker-compose",
+    "kubernetes-cluster",
+    "postgresql",
+    "redis",
+    "sctp-support",
+    "helm-charts",
+    "python3-runtime",
+    "go-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 15,
+    "docker_evidence": "Containerized access gateways deployed via docker-compose; Orchestrator built with orc8r/cloud/docker/build.py --all"
+  },
+  "github_metrics": {
+    "stars": 1800,
+    "last_commit": "unknown",
+    "language": "C++/Go/Python",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Carrier-grade platform designed for real operator deployments. Unique federation gateway enables integration with existing MNO cores. Good for testing operator-grade scenarios but heavier than academic alternatives. Linux Foundation access network platform. Development container support. Good for access gateway and network orchestration evals.",
+  "related_repos": [
+    "https://github.com/canonical/magma-access-gateway-operator",
+    "https://github.com/magma/s1aptester",
+    "https://github.com/openairinterface/openairinterface5g"
+  ],
+  "_sources": [
+    "discovery/5g-core.json",
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "magma"
+}

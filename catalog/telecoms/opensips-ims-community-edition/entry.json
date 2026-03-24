@@ -1,0 +1,57 @@
+{
+  "name": "OpenSIPS IMS Community Edition",
+  "repo_url": "https://github.com/opensips/opensips-ims-ce",
+  "description": "Fully working IMS (IP Multimedia Subsystem) CSCF component compliant with 3GPP specifications for IMS and VoLTE integration. Includes P-CSCF, I-CSCF, and S-CSCF sub-components.",
+  "domain": "4g-5g-core",
+  "secondary_domains": [
+    "cscf",
+    "sip-signaling",
+    "volte"
+  ],
+  "protocols": [
+    "SIP",
+    "Diameter",
+    "IMS"
+  ],
+  "provides": [
+    "sip-proxy",
+    "ims-cscf",
+    "config-mutation",
+    "i-cscf",
+    "ims-registration",
+    "s-cscf",
+    "3gpp-ims-core",
+    "p-cscf",
+    "volte-signaling",
+    "diameter-signaling"
+  ],
+  "needs": [
+    "open5gs-core",
+    "hss-backend",
+    "diameter-realm-config",
+    "sctp-support",
+    "docker-compose-v2"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 3,
+    "docker_evidence": "docker-compose.yml present with three CSCF services (pcscf, icscf, scscf). Designed to work with Dockerized Open5GS 4G/5G core networks."
+  },
+  "github_metrics": {
+    "stars": 25,
+    "last_commit": "2024-12-04",
+    "language": "Shell",
+    "license": "GPLv3"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "3GPP-compliant IMS CSCF implementation with Docker compose. Ideal for testing VoLTE call flows, IMS registration, and SIP signaling in a containerized 4G/5G environment.",
+  "related_repos": [
+    "https://github.com/herlesupreeth/docker_open5gs"
+  ],
+  "_sources": [
+    "discovery/signaling.json"
+  ],
+  "slug": "opensips-ims-community-edition"
+}

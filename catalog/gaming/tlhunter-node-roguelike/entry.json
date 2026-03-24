@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tlhunter/node-roguelike",
+  "name": "tlhunter/node-roguelike",
+  "description": "A Node.js library for generating top-down 2D dungeon maps using BSP trees, room placement, and corridor carving with configurable parameters. Lightweight npm package for JavaScript roguelike and dungeon-crawler games.",
+  "sub_domain": "procedural-generation",
+  "score": 6,
+  "score_rationale": "Clean, dependency-free JavaScript dungeon generation library suitable for browser and server-side game projects.",
+  "stars": 280,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2022-08-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 55.6,
+  "tags": [
+    "dungeon-generation",
+    "nodejs",
+    "bsp-trees",
+    "roguelike",
+    "javascript"
+  ],
+  "category": "JavaScript Dungeon Generator",
+  "summary": "Node.js library for 2D dungeon generation using BSP trees and room placement algorithms.",
+  "slug": "tlhunter-node-roguelike"
+}

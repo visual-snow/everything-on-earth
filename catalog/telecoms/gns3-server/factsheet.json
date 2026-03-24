@@ -1,0 +1,69 @@
+{
+  "slug": "gns3-server",
+  "name": "GNS3 Server",
+  "what_it_is": "GNS3 Server is a backend HTTP REST API service that manages network emulation by orchestrating Dynamips, VirtualBox, Qemu/KVM, Docker, VPCS, and IOU-based emulators. It does not emulate network protocols directly but coordinates the underlying emulators and interconnects virtual nodes via uBridge.",
+  "components": [
+    "HTTP REST API server",
+    "Dynamips integration (IOS router emulation)",
+    "Qemu/KVM integration",
+    "VirtualBox integration",
+    "Docker node support",
+    "VPCS (Virtual PC Simulator)",
+    "IOU-based node support",
+    "uBridge (node interconnection layer)",
+    "SSL/TLS termination"
+  ],
+  "protocols": [
+    "BGP",
+    "DHCP",
+    "DNS",
+    "EIGRP",
+    "IS-IS",
+    "MPLS",
+    "OSPF",
+    "RIP",
+    "SNMP",
+    "STP",
+    "VLAN"
+  ],
+  "measurement": [],
+  "configuration": [
+    "gns3_server.conf [Server] section",
+    "Command-line --daemon flag for background execution",
+    "Command-line --log for log file path",
+    "Command-line --pid for PID file path",
+    "SSL certificate via --certfile and --certkey",
+    "systemd / upstart service unit configuration",
+    "Python >=3.8 runtime requirement"
+  ],
+  "fault_injection": [
+    "Node failure simulation (stop/delete emulated nodes)",
+    "Topology mutation (add/remove links between nodes)",
+    "Config mutation (change device configurations via API)"
+  ],
+  "modes": [
+    "Foreground (interactive/development)",
+    "Daemon mode (--daemon flag, production)",
+    "Containerized deployment (Docker / Docker Compose)",
+    "Service-based startup (systemd, upstart)"
+  ],
+  "constraints": [
+    "IOU node support requires i386 libraries and is Linux-only",
+    "Docker node support requires the `script` program (bsdutils/util-linux) and is Linux-only",
+    "libvirt NAT cloud feature is Linux-only",
+    "Requires external emulator binaries (Dynamips, Qemu, VirtualBox) — none are bundled",
+    "uBridge is a mandatory dependency; without it no nodes can be interconnected",
+    "Router/appliance disk images must be separately obtained and are not included"
+  ],
+  "docker_services": [
+    "gns3-server (builds from local Dockerfile, exposes container port 3080 on host port 8001)"
+  ],
+  "notable_absences": [
+    "No built-in GUI — requires gns3-gui or gns3-web-ui as a separate client",
+    "No bundled router images or appliance images",
+    "No native protocol traffic generation — relies on emulated devices for that",
+    "No built-in packet capture UI — capture is delegated to external tools (e.g., Wireshark)",
+    "No Windows or macOS support for Docker nodes or IOU nodes",
+    "No metrics/observability endpoint — no Prometheus or SNMP exposure from the server itself"
+  ]
+}

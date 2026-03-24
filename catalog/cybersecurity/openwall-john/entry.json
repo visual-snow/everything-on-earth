@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/openwall/john",
+  "name": "openwall/john",
+  "description": "John the Ripper jumbo \u2014 advanced offline password cracker supporting hundreds of hash and cipher types across many operating systems, CPUs, and GPUs. The classic open-source password auditing tool.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 10,
+  "score_rationale": "Foundational open-source password cracker with 12.9k stars, GPL-2.0 license, and continuous community-driven development.",
+  "stars": 12900,
+  "language": "C",
+  "license": "GPL-2.0-or-later",
+  "last_activity": "2025-09-01",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 92.9,
+  "tags": [
+    "hash-cracking",
+    "password-cracking",
+    "pe-format"
+  ],
+  "category": "Password Cracker",
+  "summary": "John the Ripper jumbo \u2014 advanced offline password cracker supporting hundreds of hash and cipher ...",
+  "slug": "openwall-john"
+}

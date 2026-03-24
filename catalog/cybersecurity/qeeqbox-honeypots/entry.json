@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/qeeqbox/honeypots",
+  "name": "qeeqbox/honeypots",
+  "description": "A Python package providing 30 different honeypots in a single package covering protocols including SSH, FTP, HTTP, MySQL, Redis, RDP, and 24 others for monitoring network traffic and capturing attacker credentials. Non-blocking and highly configurable with database logging support.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 7,
+  "score_rationale": "Unique multi-protocol honeypot library with 957 stars offering the broadest protocol coverage in a single deployable package.",
+  "stars": 957,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-12-03",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 65.9,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "A Python package providing 30 different honeypots in a single package covering protocols including S",
+  "slug": "qeeqbox-honeypots"
+}

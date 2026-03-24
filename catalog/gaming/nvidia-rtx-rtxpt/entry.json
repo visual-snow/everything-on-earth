@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nvidia-rtx/rtxpt",
+  "name": "NVIDIA-RTX/RTXPT",
+  "description": "NVIDIA's production real-time path tracing library and sample integrating DLSS, RTXDI, and denoising, intended as a clean starting point for game engine path tracer integration. Supports DirectX 12 and Vulkan.",
+  "sub_domain": "ray-tracing",
+  "score": 9,
+  "score_rationale": "Official NVIDIA production path tracing reference with 917 stars, actively maintained through 2026 with cutting-edge RT techniques.",
+  "stars": 917,
+  "language": "C++",
+  "license": "LicenseRef-NVIDIA",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "ray-tracing"
+  ],
+  "quality_score": 77.7,
+  "tags": [
+    "path-tracing",
+    "nvidia",
+    "dlss",
+    "rtxdi",
+    "denoising"
+  ],
+  "category": "NVIDIA Production Tracer",
+  "summary": "NVIDIA production path tracer with DLSS, RTXDI denoising, and DirectX 12/Vulkan support.",
+  "slug": "nvidia-rtx-rtxpt"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pythonarcade/arcade",
+  "name": "pythonarcade/arcade",
+  "description": "Easy to use Python library for creating 2D arcade games, built atop pyglet and OpenGL. Designed for beginners and educators with clean modern API.",
+  "sub_domain": "game-engines-2d",
+  "score": 7,
+  "score_rationale": "2k stars, MIT, modern Python alternative to pygame with cleaner API and active educational community.",
+  "stars": 2000,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-01-09",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 68.4,
+  "tags": [
+    "2d-engine",
+    "python",
+    "education",
+    "opengl",
+    "modern-api"
+  ],
+  "category": "Python Game Framework",
+  "summary": "Modern Python framework with clean API for 2D arcade games",
+  "slug": "pythonarcade-arcade"
+}

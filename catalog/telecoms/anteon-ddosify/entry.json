@@ -1,0 +1,52 @@
+{
+  "name": "Anteon (Ddosify)",
+  "repo_url": "https://github.com/getanteon/anteon",
+  "description": "eBPF-based Kubernetes monitoring and performance testing platform with no-code scenario builder and automatic service map generation.",
+  "domain": "kubernetes-monitoring",
+  "secondary_domains": [
+    "load-testing"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS",
+    "HTTP/2"
+  ],
+  "provides": [
+    "http-load-testing",
+    "ebpf-monitoring",
+    "service-map-generation",
+    "traffic-generation",
+    "web-dashboard",
+    "performance-testing",
+    "no-code-scenario-builder",
+    "kubernetes-observability"
+  ],
+  "needs": [
+    "k8s-cluster",
+    "linux-kernel-5.4+",
+    "ebpf-support",
+    "docker-engine"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "ddosify/ddosify",
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present; Docker Hub: ddosify/ddosify (Verified Publisher); Self-hosted folder with deployment instructions"
+  },
+  "github_metrics": {
+    "stars": 8500,
+    "last_commit": "2025",
+    "language": "Go",
+    "license": "AGPL-3.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "eBPF-based monitoring with built-in load testing. Automatic service map generation without code instrumentation. JSON scenario files for no-code test creation. Useful for monitoring agent behavior in Kubernetes-based telecom deployments.",
+  "related_repos": [
+    "https://github.com/getanteon/alaz"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "anteon-ddosify"
+}

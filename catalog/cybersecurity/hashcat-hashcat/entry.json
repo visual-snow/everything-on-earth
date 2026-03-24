@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/hashcat/hashcat",
+  "name": "hashcat/hashcat",
+  "description": "World's fastest and most advanced password recovery utility, supporting hundreds of hash algorithms with GPU acceleration. The industry-standard tool for offline hash cracking.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 10,
+  "score_rationale": "Industry-standard GPU-accelerated password cracker with 25k+ stars, MIT license, and active maintenance through 2025.",
+  "stars": 25600,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-08-23",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 95.3,
+  "tags": [
+    "hash-cracking",
+    "password-cracking",
+    "security-tool"
+  ],
+  "category": "Password Cracker",
+  "summary": "World's fastest and most advanced password recovery utility, supporting hundreds of hash algorith...",
+  "slug": "hashcat-hashcat"
+}

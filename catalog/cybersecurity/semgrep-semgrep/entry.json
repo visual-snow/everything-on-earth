@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/semgrep/semgrep",
+  "name": "semgrep/semgrep",
+  "description": "Lightweight static analysis for many languages; finds bug variants with patterns that look like source code, supporting SAST workflows across 30+ programming languages.",
+  "sub_domain": "vuln-scanners",
+  "score": 9,
+  "score_rationale": "Leading open source SAST tool with 14.5k stars, LGPL-2.1 licensed, actively maintained with broad language support and CI/CD integration widely adopted by security teams.",
+  "stars": 14500,
+  "language": "OCaml",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "vuln-scanners"
+  ],
+  "quality_score": 87.3,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "semgrep-semgrep"
+}

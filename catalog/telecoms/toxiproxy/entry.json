@@ -1,0 +1,54 @@
+{
+  "name": "Toxiproxy",
+  "repo_url": "https://github.com/shopify/toxiproxy",
+  "description": "TCP proxy framework by Shopify for simulating network conditions (latency, bandwidth, connection drops) for chaos and resiliency testing.",
+  "domain": "fault-injection",
+  "secondary_domains": [
+    "network-chaos",
+    "resiliency-testing",
+    "tcp-simulation"
+  ],
+  "protocols": [
+    "TCP",
+    "HTTP (via proxy)"
+  ],
+  "provides": [
+    "network-fault-injection",
+    "tcp-proxy",
+    "latency-simulation",
+    "bandwidth-throttling",
+    "connection-drop-simulation",
+    "chaos-testing",
+    "rest-api",
+    "toxic-injection",
+    "resiliency-testing"
+  ],
+  "needs": [
+    "target-service",
+    "client-application",
+    "docker-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "ghcr.io/shopify/toxiproxy",
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present; GHCR: ghcr.io/shopify/toxiproxy; legacy Docker Hub for versions <= 2.1.4"
+  },
+  "github_metrics": {
+    "stars": 11900,
+    "last_commit": "2025-01-13",
+    "language": "Go",
+    "license": "MIT"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Network fault injection proxy with 12k stars. REST API for programmatic toxic injection. Client libraries in 10+ languages. Ideal for testing agent resilience to network failures in evaluation scenarios. Integrates with CI/CD pipelines.",
+  "related_repos": [
+    "https://github.com/shopify/toxiproxy-ruby",
+    "https://github.com/trekawek/toxiproxy-java"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "toxiproxy"
+}

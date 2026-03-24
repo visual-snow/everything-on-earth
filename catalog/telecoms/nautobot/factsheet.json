@@ -1,0 +1,75 @@
+{
+  "slug": "nautobot",
+  "name": "Nautobot",
+  "what_it_is": "Nautobot is a web-based network infrastructure management platform (Network Source of Truth) built on Django, providing a centralized database and automation hub for network operations with REST API, GraphQL, and a plugin system. It is a fork and evolution of NetBox with added automation capabilities, native Git integration, and Celery-based background task processing.",
+  "components": [
+    "nautobot (Django web application, port 8080)",
+    "celery_worker (background task processor)",
+    "celery_beat (scheduled task scheduler)",
+    "redis (message broker and cache)",
+    "postgresql (relational database, referenced as db dependency)",
+    "plugin system (custom models, APIs, UI extensions)",
+    "REST API server",
+    "GraphQL API",
+    "webhook system",
+    "Git integration (loads YAML config contexts)",
+    "web UI dashboard"
+  ],
+  "protocols": [
+    "HTTP/REST API",
+    "GraphQL",
+    "WebSockets (via Django Channels)",
+    "Webhooks (HTTP callbacks)"
+  ],
+  "measurement": [
+    "device inventory count",
+    "IP address utilization (prefix/VLAN usage)",
+    "circuit count and status",
+    "rack utilization",
+    "change log entries (audit trail)",
+    "job/task execution history (Celery)"
+  ],
+  "configuration": [
+    "custom fields on any data model",
+    "user-defined relationships between data objects",
+    "data validation rules (naming standards, custom validators)",
+    "Git repositories for config context loading",
+    "authentication and permissions (LDAP, SSO via plugins)",
+    "plugin enable/disable",
+    "Redis password and connection settings",
+    "database backend (PostgreSQL required in production)",
+    "NAUTOBOT_VER and PYTHON_VER build-time variables",
+    "Celery worker concurrency and queues"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "development mode (watchmedo auto-restart, local Docker image)",
+    "production mode (gunicorn workers, external DB)",
+    "optional selenium profile (browser automation / UI testing)",
+    "optional mkdocs profile (documentation server on port 8001)"
+  ],
+  "constraints": [
+    "Requires PostgreSQL as the relational database backend (MySQL supported but PostgreSQL is primary)",
+    "Requires Redis for Celery task queue and caching — cannot run without it",
+    "Plugin installation requires application restart and potential database migrations",
+    "Git integration only loads YAML data files as config contexts — not arbitrary file types",
+    "No built-in network device communication or configuration push — automation relies on external tools or plugins",
+    "Multi-tenancy is not native; requires plugin-based extensions for full tenant isolation"
+  ],
+  "docker_services": [
+    "nautobot",
+    "celery_worker",
+    "celery_beat",
+    "redis",
+    "selenium (optional profile)",
+    "mkdocs (optional profile)"
+  ],
+  "notable_absences": [
+    "No built-in SNMP polling or telemetry collection",
+    "No native SSH/CLI device connectivity",
+    "No built-in network topology visualization",
+    "No alerting or notification engine (relies on webhooks to external systems)",
+    "No time-series metrics storage",
+    "No RADIUS/TACACS authentication server functionality"
+  ]
+}

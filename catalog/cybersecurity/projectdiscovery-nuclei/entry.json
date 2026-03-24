@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/projectdiscovery/nuclei",
+  "name": "projectdiscovery/nuclei",
+  "description": "Fast, customizable vulnerability scanner powered by the global security community using a simple YAML-based DSL. Supports HTTP, DNS, TCP, SSL and cloud configuration scanning with near-zero false positives.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 10,
+  "score_rationale": "Industry-standard bug bounty scanner with 27.6k stars, actively maintained with regular template releases, and the de-facto standard for automated vulnerability discovery.",
+  "stars": 27600,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2025-01-21",
+  "found_in_domains": [
+    "Bug Bounty Tools",
+    "pentest-frameworks",
+    "vuln-scanners"
+  ],
+  "quality_score": 95.5,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Fast, customizable vulnerability scanner powered by the global security community using a simple YAM",
+  "slug": "projectdiscovery-nuclei"
+}

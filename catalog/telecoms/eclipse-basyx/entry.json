@@ -1,0 +1,50 @@
+{
+  "name": "Eclipse BaSyx",
+  "repo_url": "https://github.com/eclipse-basyx/basyx-java-server-sdk",
+  "description": "Industry 4.0 Asset Administration Shell implementation for digital twins. Provides off-the-shelf server/client SDKs with REST APIs for AAS and submodel interaction, supporting InMemory and MongoDB backends.",
+  "domain": "asset-administration-shell",
+  "secondary_domains": [
+    "industry-4-0",
+    "iot-device-management"
+  ],
+  "protocols": [
+    "HTTP REST",
+    "MQTT",
+    "OPC-UA"
+  ],
+  "provides": [
+    "asset-administration-shell-server",
+    "digital-twin-registry",
+    "rest-api-server",
+    "submodel-repository",
+    "aas-repository",
+    "mqtt-broker-integration",
+    "opcua-server",
+    "concept-description-repository"
+  ],
+  "needs": [
+    "mongodb",
+    "docker-runtime",
+    "mqtt-broker"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "eclipsebasyx/*",
+    "compose_services_count": 0,
+    "docker_evidence": "The docker images for the components from the Java SDK are provided on DockerHub, and there is no need for building them before usage."
+  },
+  "github_metrics": {
+    "stars": 82,
+    "last_commit": "2025-01",
+    "language": "Java",
+    "license": "MIT"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Industry 4.0 digital twin standard (AAS). Pre-built Docker images on DockerHub. Could model network equipment as assets with standardized administration shells. REST APIs enable programmatic twin management for agentic scenarios.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/digital-twin.json"
+  ],
+  "slug": "eclipse-basyx"
+}

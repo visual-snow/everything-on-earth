@@ -1,0 +1,77 @@
+{
+  "slug": "ground-station",
+  "name": "Ground Station",
+  "what_it_is": "An open-source satellite tracking and radio communication suite with a React/FastAPI web UI. It supports real-time and automated pass monitoring, SDR IQ acquisition, spectrum analysis, demodulation, and satellite telemetry decoding for amateur radio operators and researchers.",
+  "components": [
+    "React SPA frontend (Redux Toolkit, Material-UI, Socket.IO)",
+    "FastAPI backend (REST + WebSocket APIs, worker process manager)",
+    "Satellite tracker worker (orbital calculations, pass predictions, antenna/radio control)",
+    "SDR IQ acquisition worker (publisher-subscriber pattern)",
+    "FFT processor worker (spectrum analysis)",
+    "Demodulator workers (FM, SSB, AM)",
+    "IQ recorder worker (SigMF format)",
+    "Data decoder workers",
+    "Local and remote SDR discovery probes",
+    "Avahi mDNS service discovery daemon",
+    "GNU Radio 3.10 signal processing backend",
+    "SatDump integration (pinned to commit 7aef0fe) for METEOR image processing"
+  ],
+  "protocols": [
+    "SDR (Software-Defined Radio) IQ acquisition via SoapySDR ecosystem",
+    "SoapySDR (RTL-SDR, Airspy, AirspyHF, HackRF, PlutoSDR, LimeSDR, SDRplay, USRP, HydraSDR, bladeRF)",
+    "UHD / USRP Hardware Driver v4.9.0.0",
+    "GMSK demodulation (WIP)",
+    "AX.25 / AFSK packet decoding (WIP)",
+    "LoRa / gr-lora_sdr (WIP)",
+    "FM / SSB / AM demodulation",
+    "SSTV image decoding",
+    "Hamlib CAT radio frequency control",
+    "ZeroMQ (gr-zeromq) inter-process messaging",
+    "SigMF recording format",
+    "mDNS / Avahi service discovery",
+    "WebSocket (Socket.IO) real-time streaming to browser"
+  ],
+  "measurement": [
+    "Real-time orbital parameter calculation and satellite pass prediction",
+    "Spectrum and waterfall visualization",
+    "Per-subscriber queue health metrics and data-flow statistics",
+    "Live speech-to-text transcription (Gemini Live or Deepgram)",
+    "IQ signal recording with full orbital metadata (SigMF)"
+  ],
+  "configuration": [
+    "GS_ENVIRONMENT env var (production / development)",
+    "GR_BUFFER_TYPE env var (e.g. vmcirc_mmap_tmpfile for GNU Radio buffer tuning)",
+    "UHD_IMAGES_DIR and UHD_CONFIG_DIR for USRP firmware paths",
+    "STATIC_FILES_DIR for frontend asset location",
+    "Configurable pass-elevation thresholds and lookahead windows for automated observations",
+    "TLE auto-sync from CelesTrak and SatNOGS databases",
+    "Multi-SDR simultaneous sessions with independent configuration per receiver",
+    "Build-time args: GIT_COMMIT, BUILD_DATE, BUILD_VERSION"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Real-time manual satellite tracking and observation",
+    "Automated scheduled observations triggered by satellite pass predictions",
+    "IQ recording mode (SigMF file output)",
+    "IQ playback through virtual SDR device",
+    "Normal-mode demodulation (user playback) running simultaneously with internal-mode demodulation (decoder pipeline)"
+  ],
+  "constraints": [
+    "AFSK packet and LoRa/GMSK decoders are marked WIP and currently non-functional",
+    "NOAA APT weather satellite decoding is not yet implemented",
+    "METEOR satellite image processing requires the bundled SatDump installation (external dependency, pinned commit)",
+    "Container must run with --network host and --privileged to support USB SDR device access and mDNS discovery",
+    "Volume mount required at /app/backend/data for database, recordings, snapshots, and UHD images to persist",
+    "Single exposed port (7000); no docker-compose file present — deployment is single-container only"
+  ],
+  "docker_services": [
+    "ground-station (single container, port 7000, host networking, USB device passthrough via /dev/bus/usb, volume /app/backend/data)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — only a single Dockerfile; multi-service orchestration must be handled externally",
+    "No dedicated database container — SQLite used internally within the single container",
+    "No message broker service (ZeroMQ is used in-process, not as a separate container)",
+    "AFSK, LoRa, and GMSK decoders absent from functional feature set (marked WIP)",
+    "NOAA APT decoding absent"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "NAPALM",
+  "repo_url": "https://github.com/napalm-automation/napalm",
+  "description": "Network Automation and Programmability Abstraction Layer with Multivendor support. Provides a unified Python API to interact with different network device vendors for configuration management and state retrieval.",
+  "domain": "device-abstraction",
+  "secondary_domains": [
+    "multi-vendor",
+    "netconf"
+  ],
+  "protocols": [
+    "CLI",
+    "HTTP/REST",
+    "NETCONF",
+    "NETCONF (JunOS)",
+    "NX-API (Cisco)",
+    "SSH",
+    "SSH/CLI",
+    "eAPI (Arista)"
+  ],
+  "provides": [
+    "netconf-client",
+    "device-state-retrieval",
+    "ssh-cli-client",
+    "network-automation-library",
+    "config-mutation",
+    "eapi-client",
+    "nxapi-client",
+    "unified-getter-api",
+    "multi-vendor-network-api",
+    "configuration-diff",
+    "config-management"
+  ],
+  "needs": [
+    "network-device-or-emulator",
+    "containerlab-or-gns3",
+    "python-3.8+",
+    "real-or-virtual-router"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile in develop branch. NAPALM Inspector deployable with make docker and make start."
+  },
+  "github_metrics": {
+    "stars": 2434,
+    "last_commit": "2026-03-22",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Unified API for multi-vendor network device interaction. Key for evaluations involving network configuration retrieval and device state verification. Dockerfile in repo for containerized deployment. Unified API across vendors for get_config, load_merge_candidate, compare_config, commit_config. Uses NETCONF for Junos, SSH for others. Commonly paired with Nornir and containerlab. Widely adopted multi-vendor network automation library. NETCONF support via IOS-XR driver. Unified getter/config API enables vendor-agnostic testing. Strong community ecosystem.",
+  "related_repos": [
+    "https://github.com/napalm-automation/napalm-ansible",
+    "https://github.com/napalm-automation/napalm-inspector",
+    "https://github.com/stackstorm-exchange/stackstorm-napalm",
+    "https://github.com/theknightcoder/ansible-networking",
+    "napalm-automation/napalm-ansible",
+    "napalm-automation/napalm-inspector",
+    "nornir-automation/nornir_napalm",
+    "theknightcoder/ansible-networking"
+  ],
+  "_sources": [
+    "discovery/monitoring.json",
+    "discovery/netconf-mgmt/config-compliance.json",
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/netauto-frameworks.json",
+    "discovery/netconf-mgmt/netconf-testing.json"
+  ],
+  "slug": "napalm"
+}

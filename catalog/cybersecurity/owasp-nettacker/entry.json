@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/owasp/nettacker",
+  "name": "OWASP/Nettacker",
+  "description": "An OWASP automated penetration testing framework and open-source vulnerability scanner supporting port scanning, subdomain enumeration, credential testing, and network audits via CLI, REST API, and web interface.",
+  "sub_domain": "pentest-frameworks",
+  "score": 7,
+  "score_rationale": "OWASP-backed automated pentest framework with 5k stars offering comprehensive scanning capabilities with an active development community.",
+  "stars": 5000,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-06-01",
+  "found_in_domains": [
+    "pentest-frameworks",
+    "vuln-scanners"
+  ],
+  "quality_score": 71.6,
+  "tags": [
+    "api-security",
+    "network-analysis",
+    "pe-format",
+    "vuln-research",
+    "vulnerability-scanning"
+  ],
+  "category": "Vulnerability Scanner",
+  "summary": "An OWASP automated penetration testing framework and open-source vulnerability scanner supporting...",
+  "slug": "owasp-nettacker"
+}

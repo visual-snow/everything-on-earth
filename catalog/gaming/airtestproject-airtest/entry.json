@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/airtestproject/airtest",
+  "name": "AirtestProject/Airtest",
+  "description": "A cross-platform UI automation framework for games and apps using image recognition to locate UI elements without code injection. Supports Android, iOS, Windows, and multiple game engines.",
+  "sub_domain": "game-devops-analytics",
+  "score": 8,
+  "score_rationale": "9.2k stars, Apache-2.0, widely adopted mobile game testing framework backed by NetEase with active maintenance.",
+  "stars": 9200,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-04",
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 79.7,
+  "tags": [
+    "testing",
+    "ui-automation",
+    "mobile",
+    "image-recognition",
+    "python"
+  ],
+  "category": "Game Testing Automation",
+  "summary": "Image-based UI automation framework for cross-platform game testing",
+  "slug": "airtestproject-airtest"
+}

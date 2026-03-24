@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nmap/nmap",
+  "name": "nmap/nmap",
+  "description": "The Network Mapper \u2014 the industry-standard open-source tool for network discovery, port scanning, service fingerprinting, and security auditing of networks and hosts.",
+  "sub_domain": "network-security",
+  "score": 10,
+  "score_rationale": "De-facto standard network scanning tool with 12.6k stars, used universally in security and networking contexts.",
+  "stars": 12600,
+  "language": "C",
+  "license": "GPL-2.0",
+  "last_activity": "2025-12-01",
+  "found_in_domains": [
+    "network-security"
+  ],
+  "quality_score": 92.8,
+  "tags": [
+    "network-analysis",
+    "pe-format",
+    "security-tool"
+  ],
+  "category": "Vulnerability Scanner",
+  "summary": "The Network Mapper \u2014 the industry-standard open-source tool for network discovery, port scanning,...",
+  "slug": "nmap-nmap"
+}

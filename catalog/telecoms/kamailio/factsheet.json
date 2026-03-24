@@ -1,0 +1,70 @@
+{
+  "slug": "kamailio",
+  "name": "Kamailio",
+  "what_it_is": "Kamailio is an industrial-strength, open-source SIP server (RFC 3261) for real-time communications including IP telephony, instant messaging, and presence at scale. It runs as a core process plus pluggable modules, capable of serving millions of users and acting as registrar, proxy, SBC, IMS server, PSTN gateway guard, or presence server.",
+  "components": [
+    "Core SIP routing engine",
+    "Modular plugin architecture (modules loaded at startup via kamailio.cfg)",
+    "Embedded HTTP server (for RESTful applications)",
+    "EVAPI interface (event API for third-party integration)",
+    "RPC interface (XML-RPC and JSON-RPC)",
+    "TLS stack",
+    "WebSocket/WebRTC gateway module",
+    "Registrar module",
+    "Presence server module",
+    "Dialog module",
+    "Dispatcher/load-balancer module",
+    "DB abstraction layer (supports MySQL, PostgreSQL, SQLite, Redis, etc.)"
+  ],
+  "protocols": [
+    "SIP (RFC 3261)",
+    "SIP-T",
+    "WebSocket / WebRTC",
+    "TLS",
+    "HTTP",
+    "XMPP",
+    "XML-RPC",
+    "JSON-RPC",
+    "IPv4",
+    "IPv6"
+  ],
+  "measurement": [
+    "Statistics module (stats exported via RPC/XMLRPC)",
+    "JSON-RPC introspection endpoints",
+    "XML-RPC introspection endpoints",
+    "Syslog-based logging with configurable log levels",
+    "SIP trace / Homer integration via sipcapture module"
+  ],
+  "configuration": [
+    "Primary config file: kamailio.cfg (routing script DSL)",
+    "Module parameters set via modparam() directives in kamailio.cfg",
+    "Database backend configured per-module (db_url parameter)",
+    "TLS configured via tls.cfg or inline modparams",
+    "Listen addresses/ports defined with listen= directives",
+    "Worker processes controlled with children= directive"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "SIP registrar / location server",
+    "SIP proxy (stateless and stateful)",
+    "Session Border Controller (SBC) / Edge Proxy",
+    "IMS (IP Multimedia Subsystem) server",
+    "PSTN gateway guard",
+    "Presence server",
+    "Application server",
+    "Load balancer / dispatcher"
+  ],
+  "constraints": [
+    "No built-in fault injection primitives — failure simulation requires external tooling or custom routing script logic",
+    "No native docker-compose file in the official repository — containerized deployments rely on community images (e.g., kamailio/kamailio on Docker Hub)",
+    "Configuration language is a custom DSL (kamailio.cfg routing script); not YAML/JSON — steep learning curve for first-time operators",
+    "Shared-memory architecture limits horizontal scaling to multiple independent nodes; no native clustering state sync without external DB"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml in the official kamailio/kamailio repository (checked master and main branches)",
+    "No built-in fault injection or chaos engineering features",
+    "No built-in metrics endpoint in Prometheus format (requires third-party exporter)",
+    "No GUI or web dashboard included"
+  ]
+}

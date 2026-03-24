@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/utmstack/utmstack",
+  "name": "utmstack/UTMStack",
+  "description": "Enterprise-ready SIEM and XDR platform powered by real-time correlation and threat intelligence, integrating security monitoring, compliance, and incident response.",
+  "sub_domain": "SIEM / SOC / Threat Detection",
+  "score": 7,
+  "score_rationale": "Actively developed open source SIEM/XDR with 546 stars and updates as recent as March 2026, offering a full-featured alternative to commercial SIEM products.",
+  "stars": 546,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 63.9,
+  "tags": [
+    "osint",
+    "intelligence",
+    "recon"
+  ],
+  "category": "OSINT Platform",
+  "summary": "Open source intelligence gathering",
+  "slug": "utmstack-utmstack"
+}

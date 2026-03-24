@@ -1,0 +1,58 @@
+{
+  "name": "CGRateS",
+  "repo_url": "https://github.com/cgrates/cgrates",
+  "description": "Real-time Online/Offline Charging System (OCS) for Telecom & ISP environments. High performance (5000+ req/s), with rating engine, CDR logging, fraud detection, and microservices architecture.",
+  "domain": "billing",
+  "secondary_domains": [
+    "cdr-processing",
+    "diameter",
+    "online-charging",
+    "radius"
+  ],
+  "protocols": [
+    "Diameter",
+    "RADIUS",
+    "JSON-RPC"
+  ],
+  "provides": [
+    "diameter-agent",
+    "radius-agent",
+    "online-charging-system",
+    "offline-charging-system",
+    "cdr-logging",
+    "rating-engine",
+    "fraud-detection",
+    "json-rpc-api",
+    "billing-engine",
+    "session-management"
+  ],
+  "needs": [
+    "mysql-or-postgres",
+    "redis",
+    "external-sip-server",
+    "docker-compose-config"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile in data/docker directory. Community Docker images: lmangani/cgrates-docker and slegs/cgrates-docker with presets for Asterisk, FreeSWITCH, OpenSIPS, Kamailio."
+  },
+  "github_metrics": {
+    "stars": 493,
+    "last_commit": "2024-09-24",
+    "language": "Go",
+    "license": "AGPL-3.0"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Production-grade telecom billing system with 493 stars. DiameterAgent and RadiusAgent interfaces enable realistic charging and rating evaluation scenarios. Integrates with major SIP servers.",
+  "related_repos": [
+    "https://github.com/lmangani/cgrates-docker",
+    "https://github.com/slegs/cgrates-docker"
+  ],
+  "_sources": [
+    "discovery/signaling.json"
+  ],
+  "slug": "cgrates"
+}

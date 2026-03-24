@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/movingblocks/terasology",
+  "name": "MovingBlocks/Terasology",
+  "description": "Terasology is an open-source voxel world platform in Java with a modular game engine, procedural terrain generation, and an extensible block-based world system inspired by Minecraft.",
+  "sub_domain": "voxel-engines",
+  "score": 7,
+  "score_rationale": "3.8k stars, mature Java voxel engine platform with rich modular architecture and longstanding community, though development has slowed since 2024.",
+  "stars": 3800,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2024-12-11",
+  "found_in_domains": [
+    "voxel-engines"
+  ],
+  "quality_score": 70.6,
+  "tags": [
+    "voxel",
+    "java",
+    "procedural-generation",
+    "modular",
+    "minecraft-inspired"
+  ],
+  "category": "Java Voxel Platform",
+  "summary": "Java voxel platform with modular architecture and procedural generation",
+  "slug": "movingblocks-terasology"
+}

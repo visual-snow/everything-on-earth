@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google-deepmind/mujoco",
+  "name": "google-deepmind/mujoco",
+  "description": "Multi-Joint dynamics with Contact: a general purpose physics simulator for robotics, biomechanics, graphics, and ML research. Maintained by Google DeepMind with C API, Python bindings, Unity integration, and soft body simulation support.",
+  "sub_domain": "fluid-cloth-simulation",
+  "score": 9,
+  "score_rationale": "12.5k-star DeepMind-maintained physics simulator widely used in robotics and ML research, actively maintained through 2026.",
+  "stars": 12500,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "fluid-cloth-simulation"
+  ],
+  "quality_score": 86.8,
+  "tags": [
+    "physics",
+    "simulation",
+    "robotics",
+    "ml"
+  ],
+  "category": "Physics Engine",
+  "summary": "DeepMind physics simulator for robotics, graphics, and ML research",
+  "slug": "google-deepmind-mujoco"
+}

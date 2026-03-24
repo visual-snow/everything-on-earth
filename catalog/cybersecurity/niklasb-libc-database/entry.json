@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/niklasb/libc-database",
+  "name": "niklasb/libc-database",
+  "description": "Tool and database for building searchable libc offset tables across distributions to simplify ret2libc and ASLR-bypass exploitation in CTF and real-world scenarios.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 6,
+  "score_rationale": "Useful utility for exploit development and CTF with 1.9k stars; the web interface (libc.rip) is widely used by the security community.",
+  "stars": 1900,
+  "language": "Shell",
+  "license": "MIT",
+  "last_activity": "2023-09-01",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 62.2,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "niklasb-libc-database"
+}

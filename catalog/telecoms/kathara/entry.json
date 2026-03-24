@@ -1,0 +1,78 @@
+{
+  "name": "Kathara",
+  "repo_url": "https://github.com/katharaframework/kathara",
+  "description": "Lightweight container-based network emulation system. Successor to Netkit. Each network device runs as a container interconnected by virtual L2 LANs. Supports Docker and Kubernetes backends.",
+  "domain": "lab-automation",
+  "secondary_domains": [
+    "network-emulation",
+    "sdn"
+  ],
+  "protocols": [
+    "BGP",
+    "DNS",
+    "IS-IS",
+    "OSPF",
+    "OpenFlow",
+    "P4",
+    "RIP",
+    "SSH/CLI"
+  ],
+  "provides": [
+    "multi-container-networking",
+    "kubernetes-backend",
+    "virtual-l2-lan",
+    "container-based-topology",
+    "packet-capture",
+    "network-emulation",
+    "docker-backend",
+    "python-api",
+    "agentic-network-troubleshooting",
+    "p4-dataplane",
+    "topology-mutation",
+    "lab-scenario-automation",
+    "config-mutation",
+    "isis-routing",
+    "ospf-routing",
+    "rip-routing",
+    "node-failure-simulation",
+    "openvswitch-integration",
+    "frrouting-integration",
+    "openflow-sdn",
+    "quagga-integration",
+    "dns-server",
+    "bgp-routing"
+  ],
+  "needs": [
+    "docker-engine",
+    "linux-host-recommended",
+    "k8s-cluster"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "kathara/*",
+    "compose_services_count": 0,
+    "docker_evidence": "Kathara emulates network scenarios using either Docker or Kubernetes as backend virtualization system. Each network device is emulated by a container."
+  },
+  "github_metrics": {
+    "stars": 597,
+    "last_commit": "2026-03-19",
+    "language": "Python",
+    "license": "GPL-3.0"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Actively maintained Docker-native network emulator. Ideal for routing protocol labs, network troubleshooting evals, and multi-container network scenarios. Active development, cross-platform. Built-in images for Quagga, FRRouting, Bind, P4, OpenVSwitch. Compatible with legacy Netkit labs. Python API enables programmatic topology creation - well-suited for automated eval scenarios. Related to NIKA AI benchmarking platform. Very actively maintained network emulation system. Lab scenarios defined via simple config files. Excellent for SDN/routing labs with Docker containers. 64 releases, strong community. Good for agentic network troubleshooting evals. Lightweight network emulation with Docker or Kubernetes backends. Good for agentic evaluations involving network troubleshooting scenarios. Already used for NIKA AI agent benchmarking platform. Focused on education and protocol development. Uses 'network scenario' configuration directories. Python APIs for programmatic control. Cross-platform (Windows, Mac, Linux). Not NETCONF-specific but supports arbitrary container images.",
+  "related_repos": [
+    "https://github.com/eaguaida/inspect-nika",
+    "https://github.com/katharaframework/docker-images",
+    "https://github.com/katharaframework/kathara-labs"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/digital-twin.json",
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/sdn-nfv.json",
+    "discovery/transport.json"
+  ],
+  "slug": "kathara"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "netdata",
+  "name": "Netdata",
+  "what_it_is": "Netdata is an open-source, real-time infrastructure monitoring platform that collects per-second metrics from systems, containers, applications, and hardware with zero configuration. It runs an edge-based observability pipeline including ML-powered anomaly detection, tiered time-series storage, alerting, and a built-in web dashboard accessible on port 19999.",
+  "components": [
+    "Netdata Agent — core monitoring engine handling collection, storage, ML, alerts, streaming, and API",
+    "go.d.plugin — Go-based data collector covering 800+ integrations (nginx, postgres, redis, docker, etc.)",
+    "apps.plugin — per-process and per-user resource usage tracking",
+    "cgroups.plugin — Docker/LXC/Kubernetes container monitoring and cgroup metrics",
+    "proc.plugin — host kernel and network stack metrics via /proc",
+    "systemd-journal.plugin — systemd journal log viewing and analysis",
+    "network-viewer.plugin — live network socket map per PID",
+    "ML anomaly detection engine — per-metric unsupervised models trained at the edge",
+    "Netdata UI — closed-source dashboard served via CDN, accessible at http://NODE:19999",
+    "Netdata Cloud — optional SaaS layer for remote access, RBAC, and multi-node views (free tier available)"
+  ],
+  "protocols": [
+    "HTTP/HTTPS — REST API on port 19999 for metrics queries and dashboard",
+    "SNMP — network device monitoring via go.d.plugin SNMP collector",
+    "StatsD — custom application metrics ingestion on UDP 8125",
+    "OpenMetrics/Prometheus exposition format — scrape and expose endpoints",
+    "Netdata streaming protocol — Parent-Child real-time metric replication over TCP",
+    "OpenTelemetry — announced as coming soon"
+  ],
+  "measurement": [
+    "Per-second metric collection (1-second resolution at Tier 0)",
+    "Per-minute resolution at Tier 1 (automatic downsampling)",
+    "Per-hour resolution at Tier 2 (automatic downsampling)",
+    "~0.5 bytes per sample storage efficiency with ZSTD compression",
+    "Anomaly Rate (AR) score per metric — toggle in dashboard",
+    "Metrics scoring engine for cross-metric pattern correlation",
+    "Disk flush interval: every 17 minutes, spread evenly to minimize I/O"
+  ],
+  "configuration": [
+    "Configuration files live in /etc/netdata inside the container (mapped to netdataconfig volume)",
+    "Environment variable NETDATA_CLAIM_TOKEN — token to connect node to Netdata Cloud",
+    "Environment variable NETDATA_CLAIM_URL — Netdata Cloud URL for node registration",
+    "Environment variable NETDATA_CLAIM_ROOMS — comma-separated room IDs for node placement",
+    "Disable telemetry: create /etc/netdata/.opt-out-from-anonymous-statistics or pass --disable-telemetry at install",
+    "Storage mode settable to alloc or ram for no-disk-write operation",
+    "Collectors auto-discovered; manual config in /etc/netdata/go.d/*.conf"
+  ],
+  "fault_injection": [
+    "No built-in fault injection mechanism; Netdata is a passive observer, not a chaos tool",
+    "Alert rules can be customized to fire on synthetic thresholds to test notification pipelines",
+    "Streaming can be interrupted to test Parent-Child failover behavior"
+  ],
+  "modes": [
+    "Standalone — single Agent with local dashboard and storage",
+    "Parent mode — centralized Agent receiving streams from Child Agents",
+    "Child mode — Agent streaming all metrics to a Parent, with optional local retention",
+    "alloc/ram storage mode — metrics held in memory only, no disk writes",
+    "Cloud-connected — Agent registered to Netdata Cloud for remote access and multi-node views",
+    "Kubernetes mode — deployed via Helm chart with per-node DaemonSet and parent Deployment"
+  ],
+  "constraints": [
+    "Requires host PID namespace (pid: host) and host network mode for full monitoring capabilities; missing these disables container network interface mapping and host networking metrics",
+    "Requires SYS_PTRACE and SYS_ADMIN capabilities and apparmor:unconfined security option; without them local-listeners and cgroups container name resolution are unavailable",
+    "Must mount /proc, /sys, /var/run/docker.sock, /run/dbus, /etc/passwd, /etc/group, /var/log, /etc/os-release from host for complete visibility; partial mounts yield partial metrics",
+    "Does not officially support --user or user: Compose parameter; some features may break when running as non-root from the start",
+    "Netdata Cloud is optional but required for remote access, SSO, RBAC, and centralized alert configuration; local dashboard only works on the same network without it"
+  ],
+  "docker_services": [
+    "netdata — single service using image netdata/netdata; exposes no ports explicitly because it uses network_mode: host (dashboard reachable at host:19999)"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in the repository root; the canonical compose example is documented in packaging/docker/README.md only",
+    "No built-in log aggregation backend (relies on systemd-journald or external exporters)",
+    "No native OpenTelemetry ingestion yet (listed as coming soon)",
+    "No fault injection or synthetic load generation capabilities",
+    "No bundled alertmanager; notifications are pushed directly via Netdata's own notification integrations (Slack, PagerDuty, email, etc.)"
+  ]
+}

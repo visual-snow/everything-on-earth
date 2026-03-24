@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/fortra/impacket",
+  "name": "fortra/impacket",
+  "description": "A collection of Python classes for working with network protocols, widely used in penetration testing for SMB, Kerberos, MSRPC, and Windows authentication attacks. Essential toolkit for Active Directory assessments.",
+  "sub_domain": "pentest-frameworks",
+  "score": 10,
+  "score_rationale": "Essential and heavily used Windows/AD pentest library with 15.6k stars, actively maintained with latest release v0.13.0 in October 2025.",
+  "stars": 15600,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-10-22",
+  "found_in_domains": [
+    "pentest-frameworks"
+  ],
+  "quality_score": 93.5,
+  "tags": [
+    "network-analysis",
+    "packet-capture",
+    "pe-format"
+  ],
+  "category": "Network Analysis",
+  "summary": "A collection of Python classes for working with network protocols, widely used in penetration tes...",
+  "slug": "fortra-impacket"
+}

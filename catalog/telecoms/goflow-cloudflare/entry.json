@@ -1,0 +1,50 @@
+{
+  "name": "GoFlow (Cloudflare)",
+  "repo_url": "https://github.com/cloudflare/goflow",
+  "description": "The high-scalability sFlow/NetFlow/IPFIX collector used internally at Cloudflare, sending messages to Kafka using protobuf.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "network-observability"
+  ],
+  "protocols": [
+    "NetFlow",
+    "IPFIX",
+    "sFlow"
+  ],
+  "provides": [
+    "netflow-collection",
+    "ipfix-collection",
+    "sflow-collection",
+    "kafka-producer",
+    "protobuf-encoding",
+    "flow-telemetry-pipeline",
+    "high-throughput-collector"
+  ],
+  "needs": [
+    "kafka-broker",
+    "zookeeper",
+    "flow-traffic-source"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "cloudflare/goflow",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker image available for containerized deployment."
+  },
+  "github_metrics": {
+    "stars": 900,
+    "last_commit": "2023-01-01",
+    "language": "Go",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Battle-tested at Cloudflare scale. Predecessor to GoFlow2. Good for evaluations requiring high-throughput flow collection.",
+  "related_repos": [
+    "https://github.com/netsampler/goflow2"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "goflow-cloudflare"
+}

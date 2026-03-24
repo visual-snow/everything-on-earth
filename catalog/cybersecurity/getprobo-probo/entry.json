@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/getprobo/probo",
+  "name": "getprobo/probo",
+  "description": "Open-source compliance platform for SOC 2, GDPR, and ISO 27001 designed for startups, providing an accessible and transparent alternative to expensive compliance platforms with community-driven development.",
+  "sub_domain": "compliance-policy",
+  "score": 7,
+  "score_rationale": "Actively growing open-source SOC2/GDPR/ISO27001 compliance platform with 1k stars and March 2026 release, filling a gap for startup-scale compliance automation.",
+  "stars": 1000,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "compliance-policy"
+  ],
+  "quality_score": 66.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "getprobo-probo"
+}

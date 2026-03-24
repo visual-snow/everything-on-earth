@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/vanhoefm/fragattacks",
+  "name": "vanhoefm/fragattacks",
+  "description": "FragAttacks research toolkit demonstrating fragmentation and aggregation vulnerabilities in the 802.11 WiFi standard, used for testing CVE-2020-24586 through CVE-2020-26145.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 7,
+  "score_rationale": "Seminal WiFi fragmentation attack research tool with 1.3k stars; important for auditing patched vs. vulnerable firmware.",
+  "stars": 1289,
+  "language": "C",
+  "license": "NOASSERTION",
+  "last_activity": "2025-04-29",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 66.9,
+  "tags": [
+    "wireless",
+    "wifi",
+    "protocols"
+  ],
+  "category": "Wireless Security",
+  "summary": "Wireless network security testing",
+  "slug": "vanhoefm-fragattacks"
+}

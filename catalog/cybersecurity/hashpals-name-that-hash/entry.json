@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/hashpals/name-that-hash",
+  "name": "HashPals/Name-That-Hash",
+  "description": "Modern hash identification tool that identifies MD5, SHA-256, and 300+ other hash types with colored output, human-readable descriptions, and Hashcat/John the Ripper mode references.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 7,
+  "score_rationale": "Useful hash identification tool with 1.6k stars and GPL-3.0 license, commonly used as a first step before cracking.",
+  "stars": 1600,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-05-01",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 67.6,
+  "tags": [
+    "hash-cracking",
+    "pe-format",
+    "security-tool"
+  ],
+  "category": "Security Tool",
+  "summary": "Modern hash identification tool that identifies MD5, SHA-256, and 300+ other hash types with colo...",
+  "slug": "hashpals-name-that-hash"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Sionna Visualizer",
+  "repo_url": "https://github.com/vinu2111/sionna-visualizer",
+  "description": "Full-stack web dashboard (Angular + Spring Boot + Python + PostgreSQL) for visualizing NVIDIA Sionna 6G simulation results including BER, beam patterns, path loss, and channel capacity.",
+  "domain": "6g-simulation",
+  "secondary_domains": [
+    "channel-modeling",
+    "o-ran",
+    "phy-layer-visualization",
+    "sionna"
+  ],
+  "protocols": [
+    "5G NR",
+    "6G",
+    "OFDM"
+  ],
+  "provides": [
+    "web-dashboard",
+    "6g-simulation-visualization",
+    "ber-analysis",
+    "beam-pattern-visualization",
+    "path-loss-analysis",
+    "channel-capacity-visualization",
+    "ofdm-simulation",
+    "sionna-bridge",
+    "rest-api-backend",
+    "postgresql-datastore",
+    "multi-service-compose-stack"
+  ],
+  "needs": [
+    "nvidia-sionna",
+    "nvidia-gpu-optional",
+    "docker-compose",
+    "jdk-17+",
+    "python-3.8+"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 4,
+    "docker_evidence": "docker-compose up starts all 4 services locally"
+  },
+  "github_metrics": {
+    "stars": 0,
+    "last_commit": "2026-03-22",
+    "language": "Java",
+    "license": "unknown"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Docker-compose with 4 services (Angular frontend, Java backend, Python Sionna bridge, PostgreSQL). Useful for evaluating AI agent ability to configure and interpret 6G simulation dashboards. Active development with 2 releases.",
+  "related_repos": [
+    "https://github.com/nvlabs/sionna"
+  ],
+  "_sources": [
+    "discovery/6g-research.json"
+  ],
+  "slug": "sionna-visualizer"
+}

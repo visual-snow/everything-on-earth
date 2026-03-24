@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/aws/aws-lc",
+  "name": "aws/aws-lc",
+  "description": "AWS's general-purpose cryptographic library based on BoringSSL and OpenSSL code, maintained by the AWS Cryptography team. Features optimized C and assembly implementations for TLS and common cryptographic algorithms on x86 and ARM.",
+  "sub_domain": "cryptography",
+  "score": 7,
+  "score_rationale": "Growing AWS-backed cryptographic library with 727 stars, consistently maintained through March 2026, providing FIPS-validated implementations for AWS customers.",
+  "stars": 727,
+  "language": "C",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 64.9,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "aws-aws-lc"
+}

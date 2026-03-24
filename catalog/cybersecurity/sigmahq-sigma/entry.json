@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sigmahq/sigma",
+  "name": "SigmaHQ/sigma",
+  "description": "Sigma is a generic and open signature format for describing relevant log events in a straightforward manner, containing over 3,000 peer-reviewed detection rules for SIEM systems. It enables vendor-agnostic threat detection across different security platforms.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 10,
+  "score_rationale": "Industry standard detection rule format with 10.2k stars, essential for any blue team detection engineering workflow.",
+  "stars": 10200,
+  "language": "Python",
+  "license": "LicenseRef-DRL-1.1",
+  "last_activity": "2026-01-29",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 92.1,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Sigma is a generic and open signature format for describing relevant log events in a straightforward",
+  "slug": "sigmahq-sigma"
+}

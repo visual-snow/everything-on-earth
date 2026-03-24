@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/corca-ai/awesome-llm-security",
+  "name": "corca-ai/awesome-llm-security",
+  "description": "A curated collection of tools, documents, and research papers covering LLM security including adversarial attacks, prompt injection, jailbreaks, and defensive measures.",
+  "sub_domain": "ai-security",
+  "score": 7,
+  "score_rationale": "Well-curated LLM security resource list with 1.6k stars maintained by a security-focused AI company (Corca AI).",
+  "stars": 1600,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 67.6,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "A curated collection of tools, documents, and research papers covering LLM security including advers",
+  "slug": "corca-ai-awesome-llm-security"
+}

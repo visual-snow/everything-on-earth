@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/imgui-rs/imgui-rs",
+  "name": "imgui-rs/imgui-rs",
+  "description": "Safe Rust bindings for Dear ImGui providing high-level APIs, low-level bindings, and integrations with glow, winit, and SDL2 backends for game tool development in Rust.",
+  "sub_domain": "game-ui",
+  "score": 6,
+  "score_rationale": "The primary Rust bindings for Dear ImGui with 3k stars, stable and widely used in Rust game tooling despite less frequent updates.",
+  "stars": 3000,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2024-05-05",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 63.8,
+  "tags": [
+    "rust",
+    "imgui",
+    "bindings",
+    "game-tools",
+    "safe"
+  ],
+  "category": "Rust ImGui Binding",
+  "summary": "Safe Rust bindings for Dear ImGui",
+  "slug": "imgui-rs-imgui-rs"
+}

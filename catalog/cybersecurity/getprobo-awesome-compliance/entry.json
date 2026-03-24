@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/getprobo/awesome-compliance",
+  "name": "getprobo/awesome-compliance",
+  "description": "A curated list of tools, frameworks, and resources for IT compliance, security standards, and regulatory requirements covering ISO 27001, SOC 2, GDPR, HIPAA, and GRC automation platforms.",
+  "sub_domain": "compliance-policy",
+  "score": 4,
+  "score_rationale": "Small but recently maintained compliance resource list with 63 stars, useful as a starting reference though limited in depth compared to established awesome lists.",
+  "stars": 63,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2025-02-07",
+  "found_in_domains": [
+    "compliance-policy"
+  ],
+  "quality_score": 38.4,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "getprobo-awesome-compliance"
+}

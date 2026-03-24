@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/promptfoo/promptfoo",
+  "name": "promptfoo/promptfoo",
+  "description": "A CLI and library for evaluating and red-teaming LLM apps, supporting automated testing, security scanning, and model comparison across GPT, Claude, Gemini, Llama, and more. Used in production by OpenAI and Anthropic.",
+  "sub_domain": "ai-security",
+  "score": 10,
+  "score_rationale": "Industry-standard LLM red teaming and evaluation framework with 18k+ stars, used by OpenAI and Anthropic, actively maintained through March 2026.",
+  "stars": 18300,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 94.1,
+  "tags": [
+    "llm-evaluation",
+    "red-teaming",
+    "prompt-testing",
+    "security-scanning"
+  ],
+  "category": "LLM Testing & Evaluation",
+  "summary": "CLI/library for evaluating & red-teaming LLM apps across multiple models",
+  "slug": "promptfoo-promptfoo"
+}

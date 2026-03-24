@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/elastic/detection-rules",
+  "name": "elastic/detection-rules",
+  "description": "Detection rules repository for Elastic Security's Detection Engine supporting detections-as-code pipelines, unit testing, and release workflows for security rules.",
+  "sub_domain": "SIEM / SOC / Threat Detection",
+  "score": 8,
+  "score_rationale": "Official Elastic Security rule repository with 2.5k stars, maintained by Elastic engineers with thousands of production-quality detection rules for the Elastic SIEM.",
+  "stars": 2500,
+  "language": "Python",
+  "license": "LicenseRef-Elastic-2.0",
+  "last_activity": "2025-03-24",
+  "found_in_domains": [
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 75.2,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "elastic-detection-rules"
+}

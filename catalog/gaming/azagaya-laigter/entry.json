@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/azagaya/laigter",
+  "name": "azagaya/laigter",
+  "description": "Laigter is a tool for automatically generating normal, parallax, specular, and occlusion maps for 2D sprites, with real-time in-game preview. Designed for indie game developers.",
+  "sub_domain": "asset-formats",
+  "score": 7,
+  "score_rationale": "Actively maintained through December 2025 with 1.2k stars, uniquely targets 2D sprite map generation \u2014 a well-defined niche with a polished GUI tool.",
+  "stars": 1200,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-16",
+  "found_in_domains": [
+    "asset-formats"
+  ],
+  "quality_score": 66.6,
+  "tags": [
+    "normal-maps",
+    "sprite-maps",
+    "texture-generation"
+  ],
+  "category": "2D Texture Generation",
+  "summary": "Auto-generates normal/parallax/occlusion maps for 2D sprites with preview",
+  "slug": "azagaya-laigter"
+}

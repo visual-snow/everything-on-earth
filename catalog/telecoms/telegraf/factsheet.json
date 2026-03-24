@@ -1,0 +1,67 @@
+{
+  "slug": "telegraf",
+  "name": "Telegraf",
+  "what_it_is": "Telegraf is a plugin-driven server agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data. It ships as a standalone static binary with no external dependencies and supports over 300 plugins.",
+  "components": [
+    "Input plugins (300+): system stats (CPU, memory, disk, network), SNMP, gNMI, NetFlow, IPFIX, sFlow, MQTT, HTTP, Kafka, AMQP, Prometheus, OpenTelemetry, OPC-UA, Modbus, Docker, Nvidia SMI, SQL, Exec, File/Tail",
+    "Output plugins: InfluxDB, Kafka, MQTT, HTTP, Prometheus, OpenTelemetry, and many others",
+    "Processor plugins: transform, filter, and enrich metrics in-flight",
+    "Aggregator plugins: compute statistical summaries (min, max, mean, histogram) over time windows",
+    "Windows-specific plugins: Event Log, WMI, Performance Counters"
+  ],
+  "protocols": [
+    "SNMP",
+    "SNMPv3",
+    "NetFlow v5/v9",
+    "IPFIX",
+    "gNMI",
+    "OpenConfig",
+    "sFlow",
+    "MQTT",
+    "HTTP/HTTPS",
+    "AMQP",
+    "Kafka",
+    "Modbus",
+    "OPC-UA",
+    "Prometheus remote write/scrape",
+    "OpenTelemetry (OTLP)",
+    "Cisco TelemetryMDT"
+  ],
+  "measurement": [
+    "Collects metrics at a configurable collection interval (default 10s)",
+    "Flushes to outputs at a configurable flush interval (default 10s)",
+    "Aggregators compute summaries (min/max/mean/percentiles) over sliding or tumbling windows",
+    "Supports tags (key-value metadata) and fields (numeric/string values) per measurement",
+    "Supports logs and traces in addition to metrics"
+  ],
+  "configuration": [
+    "TOML format configuration file",
+    "Plugins declared in [[inputs.*]], [[outputs.*]], [[processors.*]], [[aggregators.*]] sections",
+    "Global agent settings: interval, flush_interval, metric_batch_size, metric_buffer_limit",
+    "Per-plugin filtering via tagpass, tagdrop, namepass, namedrop, fieldpass, fielddrop",
+    "Environment variable substitution supported in config files",
+    "Config directory support for splitting config across multiple .conf files"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Daemon mode: continuous collection and forwarding at configured intervals",
+    "Test mode (--test flag): run inputs once, print to stdout, no output plugins",
+    "Config test mode (--config-test flag): validate configuration without running",
+    "Once mode (--once flag): collect and flush exactly one cycle then exit",
+    "Plugin list mode (--input-list / --output-list): enumerate available plugins"
+  ],
+  "constraints": [
+    "No external runtime dependencies — statically compiled binary only",
+    "Windows-specific plugins (Event Log, WMI, Performance Counters) are not available on Linux/macOS",
+    "Plugin behavior and available options vary significantly; not all plugins support all field/tag filtering options",
+    "Metric buffer is bounded (metric_buffer_limit, default 10000); metrics are dropped if buffer fills before flush",
+    "Configuration is TOML only — no YAML or JSON config format supported natively"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found in the repository root (404 on master branch)",
+    "No built-in fault injection or chaos engineering features",
+    "No native UI or dashboard — data must be visualized in a separate tool (e.g., Grafana, InfluxDB UI)",
+    "No built-in alerting — alerting must be handled downstream"
+  ]
+}

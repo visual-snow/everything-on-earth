@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ogmo-editor-3/ogmoeditor3-ce",
+  "name": "Ogmo-Editor-3/OgmoEditor3-CE",
+  "description": "OGMO Editor 3 Community Edition is an open-source, project-oriented 2D level editor made for indie game developers, supporting tile layers, entity layers, and JSON level export.",
+  "sub_domain": "asset-tools",
+  "score": 6,
+  "score_rationale": "573 stars, a well-regarded free level editor in the indie community with good multi-layer support, though modest adoption compared to Tiled and LDtk.",
+  "stars": 573,
+  "language": "Haxe",
+  "license": "MIT",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "asset-tools"
+  ],
+  "quality_score": 58.1,
+  "tags": [
+    "level-editor",
+    "2d-design",
+    "layers"
+  ],
+  "category": "2D Level Editor",
+  "summary": "Project-oriented 2D level editor with tile and entity layer support",
+  "slug": "ogmo-editor-3-ogmoeditor3-ce"
+}

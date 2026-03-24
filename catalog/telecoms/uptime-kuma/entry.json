@@ -1,0 +1,56 @@
+{
+  "name": "Uptime Kuma",
+  "repo_url": "https://github.com/louislam/uptime-kuma",
+  "description": "Fancy self-hosted monitoring tool supporting HTTP(s), TCP, Ping, DNS, Docker containers, and more with alerting and status pages.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "service-health",
+    "status-dashboard",
+    "uptime-visibility"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS",
+    "TCP",
+    "DNS",
+    "ICMP/Ping",
+    "WebSocket"
+  ],
+  "provides": [
+    "uptime-monitoring",
+    "http-health-checks",
+    "tcp-port-monitoring",
+    "dns-monitoring",
+    "icmp-ping-monitoring",
+    "websocket-monitoring",
+    "docker-container-monitoring",
+    "alerting",
+    "status-page",
+    "web-dashboard",
+    "rest-api"
+  ],
+  "needs": [
+    "docker-runtime",
+    "persistent-volume"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "louislam/uptime-kuma",
+    "compose_services_count": 1,
+    "docker_evidence": "Easy deployment with Docker Compose. Supports monitoring Docker containers."
+  },
+  "github_metrics": {
+    "stars": 65000,
+    "last_commit": "2026-03-15",
+    "language": "JavaScript",
+    "license": "MIT"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Popular uptime monitoring tool. Can monitor Docker containers and network services, useful as a simple health-check component in evaluations.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "uptime-kuma"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/thinkst/opencanary",
+  "name": "thinkst/opencanary",
+  "description": "OpenCanary is a modular, decentralized network honeypot that mimics multiple network services to detect unauthorized intrusions inside internal networks. It has extremely low resource requirements and can be deployed on a Raspberry Pi or minimal VM.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 8,
+  "score_rationale": "Open source version of the commercial Thinkst Canary with 2.8k stars, strong community trust and easy deployment for internal deception.",
+  "stars": 2800,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-12-10",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 75.6,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "OpenCanary is a modular, decentralized network honeypot that mimics multiple network services to det",
+  "slug": "thinkst-opencanary"
+}

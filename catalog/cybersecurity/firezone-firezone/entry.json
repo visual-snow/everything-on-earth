@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/firezone/firezone",
+  "name": "firezone/firezone",
+  "description": "An enterprise-ready zero-trust access platform built on WireGuard offering secure remote access with peer-to-peer connections, policy enforcement, and identity provider integrations.",
+  "sub_domain": "network-security",
+  "score": 8,
+  "score_rationale": "Modern zero-trust network access platform with 8.5k stars and active March 2026 release, representing the shift from VPN to ZTNA.",
+  "stars": 8500,
+  "language": "Elixir",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "network-security"
+  ],
+  "quality_score": 79.4,
+  "tags": [
+    "pe-format",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Security Tool",
+  "summary": "An enterprise-ready zero-trust access platform built on WireGuard offering secure remote access w...",
+  "slug": "firezone-firezone"
+}

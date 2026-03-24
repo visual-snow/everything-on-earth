@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stolk/gpgoap",
+  "name": "stolk/GPGOAP",
+  "description": "A general-purpose C implementation of Goal Oriented Action Planning (GOAP) that enables NPCs to create robust action plans in a lightweight, engine-agnostic package.",
+  "sub_domain": "behavior-ai",
+  "score": 6,
+  "score_rationale": "612 stars, engine-agnostic C implementation of GOAP useful as a foundation or reference for any game platform.",
+  "stars": 612,
+  "language": "C",
+  "license": "Apache-2.0",
+  "last_activity": "2021-02-16",
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 58.3,
+  "tags": [
+    "goap",
+    "action-planning",
+    "engine-agnostic",
+    "c",
+    "npc-ai"
+  ],
+  "category": "Action Planning",
+  "summary": "Engine-agnostic C library for goal-oriented action planning",
+  "slug": "stolk-gpgoap"
+}

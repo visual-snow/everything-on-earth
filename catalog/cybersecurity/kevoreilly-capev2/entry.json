@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kevoreilly/capev2",
+  "name": "kevoreilly/CAPEv2",
+  "description": "Advanced malware sandbox derived from Cuckoo v1 with automated unpacking, payload extraction, YARA-based classification, and dynamic debugger-based anti-evasion bypasses.",
+  "sub_domain": "malware-reversing",
+  "score": 8,
+  "score_rationale": "3.1k stars, the leading actively maintained dynamic malware sandbox with sophisticated anti-evasion capabilities.",
+  "stars": 3100,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 75.9,
+  "tags": [
+    "dynamic-analysis",
+    "malware-analysis",
+    "pattern-matching",
+    "payload-gen",
+    "pe-format"
+  ],
+  "category": "Malware Tool",
+  "summary": "Advanced malware sandbox derived from Cuckoo v1 with automated unpacking, payload extraction, YAR...",
+  "slug": "kevoreilly-capev2"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/zaproxy/zaproxy",
+  "name": "zaproxy/zaproxy",
+  "description": "OWASP ZAP (Zed Attack Proxy) - the world's most widely used web app security scanner, combining active scanning, fuzzing, and intercepting proxy capabilities.",
+  "sub_domain": "webapp-security",
+  "score": 10,
+  "score_rationale": "14.9k stars, industry-standard free DAST tool for web application security maintained by OWASP.",
+  "stars": 14900,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-15",
+  "found_in_domains": [
+    "vuln-scanners",
+    "webapp-security"
+  ],
+  "quality_score": 93.4,
+  "tags": [
+    "scanning",
+    "reconnaissance",
+    "ports"
+  ],
+  "category": "Network Scanner",
+  "summary": "Network scanning and reconnaissance",
+  "slug": "zaproxy-zaproxy"
+}

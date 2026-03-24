@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/qeeqbox/social-analyzer",
+  "name": "qeeqbox/social-analyzer",
+  "description": "API, CLI, and web app for analyzing and finding a person's profile across 1000+ social media websites with a configurable detection rating system to minimize false positives.",
+  "sub_domain": "osint-recon",
+  "score": 9,
+  "score_rationale": "22.3k stars with broad multi-platform social media analysis capabilities, actively maintained with updates into 2025 and used by law enforcement.",
+  "stars": 22300,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-02-10",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 88.8,
+  "tags": [
+    "api-security",
+    "pe-format",
+    "web-security"
+  ],
+  "category": "Web Security",
+  "summary": "API, CLI, and web app for analyzing and finding a person's profile across 1000+ social media webs...",
+  "slug": "qeeqbox-social-analyzer"
+}

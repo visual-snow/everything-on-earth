@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/reloaded-project/reloaded-ii",
+  "name": "Reloaded-Project/Reloaded-II",
+  "description": "Universal .NET Core powered mod loader and management framework for native X86/X64 games using DLL injection, with isolated mod execution, NuGet support, and a modular extensible architecture.",
+  "sub_domain": "modding-frameworks",
+  "score": 7,
+  "score_rationale": "Well-engineered universal mod loader with 876 stars, actively maintained through February 2026, GPL-3.0 licensed, notable for its isolation architecture and NuGet-based mod distribution.",
+  "stars": 876,
+  "language": "C#",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-01",
+  "found_in_domains": [
+    "modding-frameworks"
+  ],
+  "quality_score": 65.5,
+  "tags": [
+    "mod-loader",
+    "dll-injection",
+    "nuget"
+  ],
+  "category": "Mod Loader",
+  "summary": "Universal .NET mod loader with isolation architecture and NuGet support",
+  "slug": "reloaded-project-reloaded-ii"
+}

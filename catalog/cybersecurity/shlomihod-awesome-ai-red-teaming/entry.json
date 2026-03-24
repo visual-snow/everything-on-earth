@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/shlomihod/awesome-ai-red-teaming",
+  "name": "shlomihod/awesome-ai-red-teaming",
+  "description": "A curated list of awesome AI red teaming resources and tools covering research, frameworks, and practical guidance for adversarial AI security testing.",
+  "sub_domain": "ai-security",
+  "score": 4,
+  "score_rationale": "Small but focused AI red teaming resource list with only 31 stars and minimal commit history, providing limited coverage compared to alternatives.",
+  "stars": 31,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 36.0,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated list of awesome AI red teaming resources and tools covering research, frameworks, and prac",
+  "slug": "shlomihod-awesome-ai-red-teaming"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "OpenKilda",
+  "repo_url": "https://github.com/telstra/open-kilda",
+  "description": "An open-source OpenFlow controller designed for global networks with high control-plane latency. Built by Telstra, handles up to 10,000 switches with 16 million flows. Based on Floodlight with Kafka and Storm.",
+  "domain": "sdn",
+  "secondary_domains": [
+    "telstra"
+  ],
+  "protocols": [
+    "OpenFlow"
+  ],
+  "provides": [
+    "flow-mirroring",
+    "storm-topology-processing",
+    "openflow-controller",
+    "web-dashboard",
+    "config-mutation",
+    "path-pinning",
+    "multi-switch-orchestration",
+    "sdn-flow-management",
+    "l2-network-services",
+    "blue-green-deployment",
+    "southbound-openflow",
+    "northbound-rest-api",
+    "kafka-event-streaming"
+  ],
+  "needs": [
+    "docker-compose",
+    "zookeeper",
+    "kafka",
+    "orientdb",
+    "apache-storm",
+    "openflow-capable-switches"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 10,
+    "docker_evidence": "Run docker-compose up from the base OpenKilda directory. Includes Zookeeper, Kafka, OrientDB, Storm, northbound, southbound, WFM, Floodlight. Supports blue-green deployment."
+  },
+  "github_metrics": {
+    "stars": 85,
+    "last_commit": "2024-12-08",
+    "language": "Java",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Production-grade SDN controller used by Telstra in real networks. Complex docker-compose with many microservices. Good for testing large-scale SDN management, L2 services, flow mirroring, and path pinning scenarios.",
+  "related_repos": [
+    "https://github.com/floodlight/floodlight"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "openkilda"
+}

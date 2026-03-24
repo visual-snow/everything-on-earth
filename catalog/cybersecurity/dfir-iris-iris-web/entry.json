@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/dfir-iris/iris-web",
+  "name": "dfir-iris/iris-web",
+  "description": "A web-based collaborative incident response platform enabling security teams to share technical information, coordinate investigations, and maintain structured case notes during security incidents. Extensible via modules for data enrichment and SIEM/SOAR integration.",
+  "sub_domain": "forensics-ir",
+  "score": 7,
+  "score_rationale": "Well-maintained collaborative IR platform with 1.4k stars and a January 2026 release, providing structured case management for DFIR team coordination.",
+  "stars": 1400,
+  "language": "Python",
+  "license": "LGPL-3.0",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "forensics-ir"
+  ],
+  "quality_score": 67.2,
+  "tags": [
+    "web-security",
+    "vulnerability-scanning",
+    "web-testing",
+    "automation"
+  ],
+  "category": "Web Security Tool",
+  "summary": "Web application security testing",
+  "slug": "dfir-iris-iris-web"
+}

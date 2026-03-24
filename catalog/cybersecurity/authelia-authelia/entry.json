@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/authelia/authelia",
+  "name": "authelia/authelia",
+  "description": "OpenID Certified single sign-on multi-factor portal for web apps providing two-factor authentication and SSO via reverse proxy integration.",
+  "sub_domain": "iam-auth",
+  "score": 9,
+  "score_rationale": "Highly popular self-hosted SSO and MFA gateway with 27.3k stars, Apache-2.0 licensed, actively maintained and widely used for protecting self-hosted infrastructure.",
+  "stars": 27300,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 89.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "authelia-authelia"
+}

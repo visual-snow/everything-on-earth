@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/doyubkim/fluid-engine-dev",
+  "name": "doyubkim/fluid-engine-dev",
+  "description": "Fluid simulation engine SDK for computer graphics applications supporting SPH, FLIP, PIC, and level-set methods, with both C++ and Python APIs. Companion code for the book 'Fluid Engine Development'.",
+  "sub_domain": "fluid-cloth-simulation",
+  "score": 7,
+  "score_rationale": "2.1k-star fluid simulation SDK accompanying a published textbook, covering multiple simulation methods for game/VFX developers.",
+  "stars": 2100,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2019-03-10",
+  "found_in_domains": [
+    "fluid-cloth-simulation"
+  ],
+  "quality_score": 68.6,
+  "tags": [
+    "fluid-simulation",
+    "graphics",
+    "educational",
+    "sdk"
+  ],
+  "category": "Fluid Simulation",
+  "summary": "Fluid simulation SDK with textbook covering SPH, FLIP, PIC methods",
+  "slug": "doyubkim-fluid-engine-dev"
+}

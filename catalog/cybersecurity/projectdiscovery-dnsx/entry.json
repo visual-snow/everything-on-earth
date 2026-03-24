@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/projectdiscovery/dnsx",
+  "name": "projectdiscovery/dnsx",
+  "description": "Fast and multi-purpose DNS toolkit for running various probes including multiple DNS query types, user-supplied resolvers, and DNS wildcard filtering.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 8,
+  "score_rationale": "Essential DNS resolution tool with 2.7k stars from ProjectDiscovery, used in virtually every bug bounty pipeline to resolve and filter subdomains at scale.",
+  "stars": 2700,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2024-03-24",
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 75.5,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Fast and multi-purpose DNS toolkit for running various probes including multiple DNS query types, us",
+  "slug": "projectdiscovery-dnsx"
+}

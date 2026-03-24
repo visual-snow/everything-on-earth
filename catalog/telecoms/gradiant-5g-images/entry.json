@@ -1,0 +1,57 @@
+{
+  "name": "Gradiant 5G Images",
+  "repo_url": "https://github.com/gradiant/5g-images",
+  "description": "Dockerfiles for building Cloud-Native Network Function (CNF) container images for the Gradiant Lab5G platform, focused on 5G and evolvable to 6G.",
+  "domain": "5g-core",
+  "secondary_domains": [
+    "cloud-native",
+    "cnf",
+    "dockerfiles",
+    "gradiant-lab5g"
+  ],
+  "protocols": [
+    "NAS",
+    "NGAP",
+    "PFCP",
+    "GTP-U",
+    "SBI"
+  ],
+  "provides": [
+    "5g-core-amf",
+    "5g-core-smf",
+    "5g-core-upf",
+    "5g-ran-gnb",
+    "cnf-container-images",
+    "dockerfile-build-pipeline",
+    "cloud-native-network-functions"
+  ],
+  "needs": [
+    "docker-build-environment",
+    "k8s-cluster",
+    "5g-charts-helm",
+    "container-registry",
+    "sctp-support"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Repository of Dockerfiles for Docker Images for the Lab5G platform; CNF container images for 5G network functions"
+  },
+  "github_metrics": {
+    "stars": 76,
+    "last_commit": "unknown",
+    "language": "Shell",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 4,
+  "eval_notes": "Source Dockerfiles for Gradiant's 5G container images. Useful if you need to customize or rebuild specific NF images. Pairs with 5g-charts for deployment.",
+  "related_repos": [
+    "https://github.com/gradiant/5g-charts"
+  ],
+  "_sources": [
+    "discovery/5g-core.json"
+  ],
+  "slug": "gradiant-5g-images"
+}

@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/an0nud4y/evilginx-phishing-infra-setup",
+  "name": "An0nUD4Y/Evilginx-Phishing-Infra-Setup",
+  "description": "Comprehensive guide and scripts for setting up authorized phishing engagement infrastructure using Evilginx and GoPhish, covering domain acquisition, email delivery configuration, operational security, and IOC removal for red team exercises.",
+  "sub_domain": "Phishing & Social Engineering",
+  "score": 6,
+  "score_rationale": "Practical phishing infrastructure reference with 547 stars; updated June 2024 and widely referenced for Evilginx deployment in red team ops.",
+  "stars": 547,
+  "language": "Markdown",
+  "license": null,
+  "last_activity": "2024-06-08",
+  "found_in_domains": [
+    "Phishing & Social Engineering"
+  ],
+  "quality_score": 57.9,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "comprehensive guide and scripts for setting up authorized phishing engagement infrastructure using e...",
+  "slug": "an0nud4y-evilginx-phishing-infra-setup"
+}

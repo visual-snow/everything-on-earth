@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/laramies/theharvester",
+  "name": "laramies/theHarvester",
+  "description": "Gathers emails, subdomains, hosts, employee names, open ports, and banners from public sources for penetration testing pre-engagement reconnaissance. Supports passive and active modules.",
+  "sub_domain": "osint-recon",
+  "score": 10,
+  "score_rationale": "Essential recon tool with 15.9k stars, actively maintained through 2026, included in Kali Linux as a staple pre-engagement OSINT tool.",
+  "stars": 15900,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-02-22",
+  "found_in_domains": [
+    "osint-recon"
+  ],
+  "quality_score": 93.6,
+  "tags": [
+    "pe-format",
+    "reconnaissance",
+    "security-tool"
+  ],
+  "category": "OSINT Platform",
+  "summary": "Gathers emails, subdomains, hosts, employee names, open ports, and banners from public sources fo...",
+  "slug": "laramies-theharvester"
+}

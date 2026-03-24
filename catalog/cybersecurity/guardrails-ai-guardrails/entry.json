@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/guardrails-ai/guardrails",
+  "name": "guardrails-ai/guardrails",
+  "description": "Open-source Python framework for adding programmable guardrails to LLM applications \u2014 runs input/output validation guards detecting and mitigating risk types including injection attacks and harmful content, with a hub of pre-built validators and REST API deployment.",
+  "sub_domain": "ai-security",
+  "score": 8,
+  "score_rationale": "Widely adopted LLM safety enforcement framework with 6.6k stars, actively maintained through March 2026, and Apache-2.0 licensed for enterprise use.",
+  "stars": 6600,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 78.6,
+  "tags": [
+    "prompt-validation",
+    "output-validation",
+    "guardrails-framework",
+    "llm-safety"
+  ],
+  "category": "LLM Output Validation",
+  "summary": "Framework for validating LLM inputs and outputs against structured schemas",
+  "slug": "guardrails-ai-guardrails"
+}

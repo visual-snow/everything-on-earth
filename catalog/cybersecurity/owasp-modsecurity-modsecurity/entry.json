@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/owasp-modsecurity/modsecurity",
+  "name": "owasp-modsecurity/ModSecurity",
+  "description": "Open source, cross-platform Web Application Firewall engine for Apache, IIS, and Nginx providing protection from a range of web attacks with HTTP traffic monitoring and real-time analysis.",
+  "sub_domain": "webapp-security",
+  "score": 9,
+  "score_rationale": "9.6k stars, the foundational open-source WAF engine underlying many other WAF products, widely deployed.",
+  "stars": 9600,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-06-01",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 85.9,
+  "tags": [
+    "web-security",
+    "vulnerability",
+    "injection"
+  ],
+  "category": "Web Security",
+  "summary": "Web application security testing",
+  "slug": "owasp-modsecurity-modsecurity"
+}

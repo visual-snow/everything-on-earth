@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/correlatedsecurity/awesome-soar",
+  "name": "correlatedsecurity/Awesome-SOAR",
+  "description": "A curated list of Cyber Security Orchestration, Automation and Response (SOAR) resources compiling standards, playbooks, automation components, training materials, and vendor solutions. Comprehensive reference for security professionals implementing SOAR technologies.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 7,
+  "score_rationale": "The definitive SOAR resource list with 982 stars, serving as the primary reference for security automation and orchestration tooling.",
+  "stars": 982,
+  "language": "Markdown",
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 65.9,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated list of Cyber Security Orchestration, Automation and Response (SOAR) resources compiling s",
+  "slug": "correlatedsecurity-awesome-soar"
+}

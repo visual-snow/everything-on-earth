@@ -16,19 +16,12 @@ Usage:
 import argparse
 import json
 import os
-import re
 import sys
 from pathlib import Path
 
+from utils import load_catalog, slugify
+
 WAVE_SIZE = 15
-
-
-def slugify(name: str) -> str:
-    """Convert a catalog entry name to a filesystem-safe slug."""
-    s = name.lower().strip()
-    s = re.sub(r"[^a-z0-9]+", "-", s)
-    s = s.strip("-")
-    return s
 
 
 def slug_dir(output_dir: Path, slug: str) -> Path:
@@ -36,24 +29,6 @@ def slug_dir(output_dir: Path, slug: str) -> Path:
     d = output_dir / slug
     d.mkdir(parents=True, exist_ok=True)
     return d
-
-
-def load_catalog(catalog_path: Path) -> list[dict]:
-    """Load catalog.json and add slug field to each entry."""
-    entries = json.loads(catalog_path.read_text())
-    for entry in entries:
-        if "slug" not in entry:
-            entry["slug"] = slugify(entry["name"])
-    # Detect and resolve slug collisions by appending numeric suffixes
-    seen: dict[str, int] = {}
-    for entry in entries:
-        slug = entry["slug"]
-        if slug in seen:
-            seen[slug] += 1
-            entry["slug"] = f"{slug}-{seen[slug]}"
-        else:
-            seen[slug] = 1
-    return entries
 
 
 def load_progress(output_dir: Path) -> dict:

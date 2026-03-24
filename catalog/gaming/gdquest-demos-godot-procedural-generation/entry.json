@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gdquest-demos/godot-procedural-generation",
+  "name": "gdquest-demos/godot-procedural-generation",
+  "description": "A collection of procedural generation algorithms and playable demos for the Godot game engine covering WFC, maze generation, and terrain techniques. Published by GDQuest as an educational open-source reference.",
+  "sub_domain": "procedural-generation",
+  "score": 8,
+  "score_rationale": "Well-maintained educational repository from a leading Godot education platform covering multiple PCG algorithms with runnable demos.",
+  "stars": 2800,
+  "language": "GDScript",
+  "license": "MIT",
+  "last_activity": "2024-12-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 75.6,
+  "tags": [
+    "godot",
+    "educational",
+    "wfc",
+    "maze-generation",
+    "demos"
+  ],
+  "category": "Godot PCG Educational",
+  "summary": "GDQuest's educational collection of PCG algorithms with runnable Godot demos.",
+  "slug": "gdquest-demos-godot-procedural-generation"
+}

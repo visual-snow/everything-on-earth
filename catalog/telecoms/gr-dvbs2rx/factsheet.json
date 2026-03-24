@@ -1,0 +1,91 @@
+{
+  "slug": "gr-dvbs2rx",
+  "name": "gr-dvbs2rx",
+  "what_it_is": "A GNU Radio out-of-tree (OOT) module providing full DVB-S2 transmitter and receiver implementations for software-defined radio (SDR), including PL synchronization, FEC (LDPC/BCH), and MPEG transport stream output. It ships the `dvbs2-tx`, `dvbs2-rx`, and `dvbs2-rec` command-line applications wiring the signal processing blocks together.",
+  "components": [
+    "dvbs2-tx — DVB-S2 transmitter application (Python, wraps gr-dtv Tx blocks)",
+    "dvbs2-rx — DVB-S2 receiver application with PL sync, LDPC/BCH FEC, and BBFRAME processing",
+    "dvbs2-rec — IQ recording application that saves SigMF-formatted captures from an SDR",
+    "GNU Radio OOT shared library with PL synchronization blocks (frame timing, symbol timing, carrier frequency, phase recovery)",
+    "SIMD-accelerated LDPC decoder (AVX2, SSE4.1, NEON) from xdsopl/LDPC",
+    "BCH decoder (~2.5x faster than original, introduced v1.3.0)",
+    "HTTP monitoring server (port 9004) returning receiver metrics as JSON",
+    "GNU Radio flowgraph examples (GRC)",
+    "TSDuck integration for MPEG TS layer processing (tsp, tsdump)"
+  ],
+  "protocols": [
+    "DVB-S2 (ETSI EN 302 307) — constant coding and modulation (CCM) only; SIS and MIS input streams",
+    "MPEG Transport Stream (TS) — input to Tx, output from Rx; processing delegated to TSDuck",
+    "SigMF (Signal Metadata Format) — used by dvbs2-rec for IQ recording metadata",
+    "DVB-S2 SigMF Extension — custom metadata extension for DVB-S2 recording parameters",
+    "Multiprotocol Encapsulation (MPE) — UDP/IP over MPEG TS, supported via TSDuck tsp plugins",
+    "HTTP — monitoring server API for on-demand receiver metrics (JSON)"
+  ],
+  "measurement": [
+    "Estimated carrier frequency offset (physical layer)",
+    "Frame synchronization lock status",
+    "Average LDPC correction iterations",
+    "MPEG TS packet counts",
+    "Signal-to-noise ratio (SNR) — minimum ~2 dB in pilot mode",
+    "MPEG TS bitrate (via TSDuck bitrate_monitor plugin)",
+    "Periodic console logs via --log and --log-all (JSON) options",
+    "On-demand JSON metrics via HTTP GET to monitoring server (curl http://localhost:9004)"
+  ],
+  "configuration": [
+    "--source: IQ input source — fd, file, rtl, usrp, bladeRF, plutosdr (Rx); fd, file (Tx)",
+    "--sink: IQ/TS output sink — fd, file, usrp, bladeRF, plutosdr (Tx); fd, file (Rx)",
+    "--freq: SDR tuner center frequency in Hz (e.g., 1316.9e6)",
+    "--sym-rate: symbol rate (baud rate) in symbols/second",
+    "--modcod: MODCOD selection (e.g., qpsk3/5, 8psk3/5) — CCM only",
+    "--frame: FEC frame size — normal or short",
+    "--rolloff: roll-off factor (e.g., 0.2, 0.35)",
+    "--pilots / --pilots on/off: enable/disable or assert PL pilot symbols",
+    "--snr: simulate AWGN channel at given SNR in dB (Tx only)",
+    "--freq-offset: simulate carrier frequency offset in Hz (Tx only)",
+    "--gui / --gui-dark / --gui-all: optional graphical interface",
+    "--log / --log-all / --log-period: periodic console metric logging",
+    "--mon-server / --mon-port: launch HTTP monitoring server (default port 9004)",
+    "--out-fd / --in-fd: file descriptor for TS I/O (enables clean stdio separation)",
+    "--usrp-args: USRP device address/serial identifier",
+    "--sps: samples per symbol (dvbs2-rec); combined with --sym-rate sets sample rate"
+  ],
+  "fault_injection": [
+    "--snr <dB>: inject AWGN noise at specified SNR on the Tx output IQ stream",
+    "--freq-offset <Hz>: inject carrier frequency offset into the Tx output IQ stream"
+  ],
+  "modes": [
+    "Loopback (pipe): dvbs2-tx stdout piped directly into dvbs2-rx stdin — no SDR hardware",
+    "File loopback: --source file / --sink file for IQ file-based testing",
+    "Live SDR Rx: --source rtl/usrp/bladeRF/plutosdr for real satellite signal reception",
+    "Live SDR Tx: --sink usrp/bladeRF/plutosdr for real transmission",
+    "IQ recording: dvbs2-rec captures live IQ to SigMF files for offline playback",
+    "SigMF playback: dvbs2-rx --source file replays recorded .sigmf-data captures",
+    "GUI mode: --gui / --gui-dark / --gui-all for visual signal monitoring",
+    "CCM/SIS: single input stream, constant coding and modulation",
+    "CCM/MIS: multiple input streams, constant coding and modulation"
+  ],
+  "constraints": [
+    "Only CCM (constant coding and modulation) is supported; ACM/VCM is not yet implemented across the full pipeline",
+    "Only QPSK and 8PSK constellations are supported; 16APSK and 32APSK are not supported",
+    "Minimum receivable SNR is ~2 dB and only in pilot mode; lower SNRs and pilotless operation have limited support",
+    "RTL-SDR is Rx-only; it cannot be used as a Tx source",
+    "bladeRF and PlutoSDR Tx/Rx support is marked experimental",
+    "MPEG TS processing is out of scope — the project only inputs/outputs raw TS streams",
+    "SIMD acceleration requires AVX2, SSE4.1, or NEON; falls back to scalar otherwise",
+    "Primarily validated against Blockstream Satellite (QPSK3/5, CCM/SIS, pilots, 1 Mbaud, 0.2 roll-off, RTL-SDR TCXO)"
+  ],
+  "docker_services": [
+    "Single Dockerfile (no docker-compose): base image igorfreire/gnuradio-oot-dev:3.10.7.0-ubuntu-jammy",
+    "Installs: libusb-1.0-0-dev, libosmosdr-dev, libsndfile1-dev, python3-packaging, tsduck (Blockstream PPA)",
+    "Builds rtl-sdr from osmocom/rtl-sdr source (udev rules, kernel driver detach)",
+    "Builds gr-osmosdr from source (Doxygen disabled)",
+    "Builds gr-dvbs2rx from source with optional cmake_args ARG"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml — project ships only a single Dockerfile",
+    "No ACM/VCM support across the full receiver pipeline",
+    "No 16APSK or 32APSK modulation support",
+    "No built-in MPEG TS demuxer or decoder — relies entirely on external TSDuck",
+    "No automated CI test for live SDR hardware"
+  ]
+}

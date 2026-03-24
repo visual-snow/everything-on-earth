@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cossas/soarca",
+  "name": "COSSAS/SOARCA",
+  "description": "SOARCA is an open-source CACAO-based security orchestrator that ingests and executes CACAOv2 security playbooks with native HTTP(S), SSH, and OpenC2 capabilities for interfacing with external tools. It implements emerging OASIS standards for security automation.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 6,
+  "score_rationale": "Niche but standards-compliant SOAR engine with 102 stars, implementing emerging CACAOv2 playbook standards for security orchestration.",
+  "stars": 102,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2025-07-29",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "SIEM / SOC / Threat Detection"
+  ],
+  "quality_score": 52.1,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "SOARCA is an open-source CACAO-based security orchestrator that ingests and executes CACAOv2 securit",
+  "slug": "cossas-soarca"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/linkdd/aitoolkit",
+  "name": "linkdd/aitoolkit",
+  "description": "A header-only C++ library providing finite state machines, behavior trees, utility AI, and GOAP in a single dependency-free package for building NPC brains.",
+  "sub_domain": "behavior-ai",
+  "score": 7,
+  "score_rationale": "513 stars, covers four major game AI paradigms in one header-only C++ library with no external dependencies.",
+  "stars": 513,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2024-05-08",
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 63.7,
+  "tags": [
+    "fsm",
+    "behavior-tree",
+    "goap",
+    "utility-ai",
+    "header-only"
+  ],
+  "category": "AI Toolkit",
+  "summary": "Header-only C++ AI library with FSM, trees, GOAP",
+  "slug": "linkdd-aitoolkit"
+}

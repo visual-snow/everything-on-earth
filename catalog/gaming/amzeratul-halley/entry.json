@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/amzeratul/halley",
+  "name": "amzeratul/halley",
+  "description": "A lightweight C++17 game engine used to ship Wargroove commercially on PC, Mac, Nintendo Switch, Xbox One, and PS4. Features ECS architecture and modern tooling.",
+  "sub_domain": "game-engines-2d",
+  "score": 7,
+  "score_rationale": "3.8k stars, Apache-2.0, commercially proven C++ engine with ECS and cross-platform console support.",
+  "stars": 3800,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 70.6,
+  "tags": [
+    "2d-engine",
+    "cpp",
+    "ecs",
+    "console",
+    "commercial"
+  ],
+  "category": "C++17 Game Engine",
+  "summary": "Commercially-proven C++ engine shipping Wargroove on consoles",
+  "slug": "amzeratul-halley"
+}

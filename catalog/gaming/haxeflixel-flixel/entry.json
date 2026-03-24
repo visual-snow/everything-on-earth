@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/haxeflixel/flixel",
+  "name": "HaxeFlixel/flixel",
+  "description": "Free, cross-platform 2D game engine powered by Haxe and OpenFL, enabling native and web deployment from a single codebase. Inspired by ActionScript Flixel.",
+  "sub_domain": "game-engines-2d",
+  "score": 7,
+  "score_rationale": "2.2k stars, MIT, the primary 2D game engine for Haxe with strong cross-platform capabilities and active use in indie games.",
+  "stars": 2200,
+  "language": "Haxe",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 68.7,
+  "tags": [
+    "2d-engine",
+    "haxe",
+    "cross-platform",
+    "openfl",
+    "indie"
+  ],
+  "category": "Haxe 2D Game Engine",
+  "summary": "Cross-platform 2D engine for Haxe with native and web deployment",
+  "slug": "haxeflixel-flixel"
+}

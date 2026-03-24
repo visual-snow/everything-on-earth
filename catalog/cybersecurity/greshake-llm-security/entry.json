@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/greshake/llm-security",
+  "name": "greshake/llm-security",
+  "description": "Research repository demonstrating new indirect prompt injection attacks on application-integrated LLMs including GPT-4, LangChain apps, and code completion engines.",
+  "sub_domain": "ai-security",
+  "score": 7,
+  "score_rationale": "Foundational prompt injection research with 2.1k stars that defined the indirect injection attack class now widely studied and mitigated.",
+  "stars": 2100,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-02-19",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 68.6,
+  "tags": [
+    "large-language-model",
+    "nlp",
+    "transformer",
+    "generative-ai"
+  ],
+  "category": "Language Model",
+  "summary": "Research repository demonstrating new indirect prompt injection attacks on application-integrated LL",
+  "slug": "greshake-llm-security"
+}

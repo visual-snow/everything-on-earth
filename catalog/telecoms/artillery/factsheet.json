@@ -1,0 +1,74 @@
+{
+  "slug": "artillery",
+  "name": "Artillery",
+  "what_it_is": "Artillery is a cloud-native open-source load and performance testing platform installable via npm. It supports a wide range of application protocols and can scale tests out to AWS Lambda, AWS Fargate, or Azure ACI without requiring DevOps infrastructure setup.",
+  "components": [
+    "artillery CLI (packages/artillery) — orchestrates test execution and cloud dispatch",
+    "artillery-engine-playwright — load tests using real headless Chromium browsers",
+    "artillery-plugin-expect — adds HTTP response assertions for functional/acceptance testing",
+    "artillery-plugin-ensure — SLO/threshold checks that exit non-zero in CI/CD on failure",
+    "artillery-plugin-publish-metrics — exports metrics to Datadog, New Relic, CloudWatch, Dynatrace, Prometheus, Honeycomb, Splunk, and any OTel-compatible backend",
+    "artillery-plugin-fake-data — generates synthetic payload data for virtual users",
+    "artillery-plugin-apdex — computes and reports Apdex scores",
+    "artillery-plugin-metrics-by-endpoint — per-endpoint metric breakdown",
+    "@artilleryio/int-core — shared runner, phase scheduler, and built-in HTTP/WebSocket/Socket.io engines"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS",
+    "WebSocket",
+    "Socket.io",
+    "gRPC",
+    "AWS Kinesis",
+    "GraphQL (over HTTP)"
+  ],
+  "measurement": [
+    "Response latency percentiles (p50, p95, p99, p999)",
+    "Request rate (RPS / throughput)",
+    "Virtual user counts (active, created, completed, failed)",
+    "HTTP response status code distribution",
+    "Apdex score (via artillery-plugin-apdex)",
+    "Per-endpoint metrics (via artillery-plugin-metrics-by-endpoint)",
+    "Custom metric publishing to Datadog, New Relic, CloudWatch, Prometheus, Honeycomb, Dynatrace, Splunk, and OTel-compatible backends"
+  ],
+  "configuration": [
+    "YAML test scripts defining config (target, phases, plugins, environments) and scenarios (flows, requests, think-time)",
+    "--target / -t flag to override the base URL at runtime",
+    "--environment / -e flag to select named environment blocks from config.environments",
+    "--variables / -v flag to inject a JSON object of variables into virtual users",
+    "--overrides flag to dynamically replace any value in the test script with a JSON patch",
+    "--dotenv / --env-file flag to load environment variables from a .env file",
+    "--payload / -p flag to supply a CSV file for data-driven virtual user payloads",
+    "--count flag to set number of workers (defaults to 1; locally defaults to CPU count in distribute mode)",
+    "--platform flag selects runtime: local (default), aws:lambda, az:aci",
+    "--platform-opt for provider-specific settings (e.g., region=eu-west-1)",
+    "Multiple input scripts with -i flags for composable test definitions",
+    "Artillery Cloud integration via --record / --key / --name / --tags / --note flags"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "local — runs test workers on the local machine using available CPUs (distribute mode)",
+    "aws:lambda — distributed cloud execution on AWS Lambda (multiply mode, scales out workers)",
+    "aws:ecs (Fargate) — distributed cloud execution on AWS Fargate containers",
+    "az:aci — distributed cloud execution on Azure Container Instances",
+    "solo (-s) — creates a single virtual user for debugging/smoke-testing"
+  ],
+  "constraints": [
+    "No docker-compose file is provided; the official Dockerfile (node:22-bookworm-slim base) must be built manually — there is no pre-baked multi-service compose setup.",
+    "Azure Fargate and ACI platforms are licensed under BSL, not MPL 2.0; commercial/production use on Azure requires a paid license.",
+    "gRPC and Kinesis engines are not bundled in @artilleryio/int-core — they require separate community or third-party engine packages (e.g., artillery-engine-grpc) to be installed alongside artillery.",
+    "Playwright browser load testing requires Chromium to be installed via `npx playwright install --with-deps chromium`; the base Docker image pre-installs this but it adds significant image size.",
+    "Distributed cloud runs require AWS credentials (IAM, S3, SQS, Lambda/ECS/SSM) or Azure credentials to be available in the execution environment.",
+    "The --count flag's distribute mode is local-only; cloud platforms always use multiply mode, which replicates the full scenario load per worker rather than splitting it."
+  ],
+  "docker_services": [
+    "artillery (single-service) — node:22-bookworm-slim image running the artillery CLI binary; no compose file; built from packages/artillery/Dockerfile"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml anywhere in the repository",
+    "No built-in fault/chaos injection (latency injection, error rate forcing, network partition simulation)",
+    "No built-in dashboard UI — metrics visualisation requires external tools (Grafana + Prometheus dashboard JSONs provided as examples only)",
+    "No native TCP or UDP protocol engines",
+    "No built-in distributed tracing / correlation ID injection"
+  ]
+}

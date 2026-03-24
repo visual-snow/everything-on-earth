@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/limbonaut/limboai",
+  "name": "limbonaut/limboai",
+  "description": "A C++ plugin for Godot Engine 4 combining behavior trees and hierarchical state machines with an integrated visual editor and debugger for complex NPC AI.",
+  "sub_domain": "behavior-ai",
+  "score": 8,
+  "score_rationale": "2.6k stars, actively maintained through March 2026, provides both BT and HSM in a single well-documented Godot plugin.",
+  "stars": 2600,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 75.3,
+  "tags": [
+    "behavior-tree",
+    "godot",
+    "state-machine"
+  ],
+  "category": "Godot AI Plugin",
+  "summary": "Godot 4 C++ plugin with behavior trees and hierarchical state machines",
+  "slug": "limbonaut-limboai"
+}

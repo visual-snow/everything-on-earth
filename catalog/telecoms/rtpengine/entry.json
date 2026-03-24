@@ -1,0 +1,54 @@
+{
+  "name": "rtpengine",
+  "repo_url": "https://github.com/sipwise/rtpengine",
+  "description": "RTP and media proxy for SIP/VoIP platforms. Handles NAT traversal, transcoding, and call recording.",
+  "domain": "rtp-proxy",
+  "secondary_domains": [
+    "sip-media",
+    "transcoding",
+    "voip"
+  ],
+  "protocols": [
+    "RTP",
+    "RTCP",
+    "SRTP",
+    "DTLS"
+  ],
+  "provides": [
+    "rtp-media-proxy",
+    "srtp-termination",
+    "dtls-srtp-negotiation",
+    "nat-traversal",
+    "rtp-transcoding",
+    "call-recording",
+    "rtcp-handling",
+    "sip-media-plane"
+  ],
+  "needs": [
+    "linux-kernel-module",
+    "sip-signaling-proxy",
+    "iptables-support",
+    "libpcap",
+    "openssl"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present in repository root directory."
+  },
+  "github_metrics": {
+    "stars": 924,
+    "last_commit": "2025-05-14",
+    "language": "C",
+    "license": "GPL-3.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Key component for VoIP infrastructure. Docker support enables containerized media plane testing for SIP/RTP evals.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "rtpengine"
+}

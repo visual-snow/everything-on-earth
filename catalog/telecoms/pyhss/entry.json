@@ -1,0 +1,55 @@
+{
+  "name": "PyHSS",
+  "repo_url": "https://github.com/nickvsnetworking/pyhss",
+  "description": "Python Home Subscriber Server implementing Diameter/3GPP interfaces for LTE EPC networks. Supports HSS, VoLTE HSS, EIR, PCRF, and Gateway Mobile Location Centre roles.",
+  "domain": "4g-core",
+  "secondary_domains": [
+    "diameter-signaling",
+    "lte-epc",
+    "subscriber-management",
+    "volte"
+  ],
+  "protocols": [
+    "Diameter",
+    "GSUP"
+  ],
+  "provides": [
+    "geored-replication",
+    "gsup-interface",
+    "pcrf-policy-control",
+    "config-mutation",
+    "eir-equipment-identity",
+    "diameter-server",
+    "rest-api",
+    "multi-database-backend",
+    "metrics-dashboard",
+    "lte-epc-core",
+    "hss-subscriber-management",
+    "volte-hss"
+  ],
+  "needs": [
+    "mysql-or-postgresql",
+    "python3",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "ghcr.io/nickvsnetworking/pyhss/pyhss:latest",
+    "compose_services_count": 8,
+    "docker_evidence": "Docker compose with services: diameter, hss, api, geored, logs, metrics, gsup, database. Run: cd docker && docker compose up --build -d. Dev image also available."
+  },
+  "github_metrics": {
+    "stars": 106,
+    "last_commit": "2024-07-03",
+    "language": "Python",
+    "license": "AGPL-3.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Feature-rich HSS with 8 containerized services including Diameter, API, metrics, and GSUP. Multiple database backends (MySQL, PostgreSQL, SQLite). Perfect for testing subscriber management and Diameter signaling in 4G networks.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/signaling.json"
+  ],
+  "slug": "pyhss"
+}

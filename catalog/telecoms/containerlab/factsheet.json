@@ -1,0 +1,64 @@
+{
+  "slug": "containerlab",
+  "name": "Containerlab",
+  "what_it_is": "A CLI tool for orchestrating and managing container-based networking labs, automating container startup and virtual network wiring between nodes to form topologies defined in declarative YAML files. It supports 50+ NOS kinds spanning containerized and VM-backed platforms from Nokia, Arista, Cisco, Juniper, and others.",
+  "components": [
+    "topology-engine: parses declarative .clab YAML files and translates them into running labs",
+    "kind-abstraction-layer: normalizes startup and configuration differences across NOS platforms",
+    "network-wiring-machinery: creates veth pairs and Linux bridge/OVS links between container interfaces",
+    "lab-lifecycle-manager: deploy, destroy, save, inspect, and graph operations",
+    "tls-provisioner: automated certificate generation for management plane access",
+    "clos-generator: built-in topology generator for scaled CLOS/fabric lab creation",
+    "vrnetlab-integration: wraps legacy VM-based routers in a thin Docker container for unified handling"
+  ],
+  "protocols": [
+    "BGP",
+    "EVPN",
+    "IS-IS",
+    "OSPF",
+    "MPLS",
+    "SR (Segment Routing)",
+    "NETCONF",
+    "RESTCONF",
+    "gNMI",
+    "gRPC",
+    "SNMP",
+    "SSH"
+  ],
+  "measurement": [
+    "No native traffic measurement engine; relies on external telemetry stacks connected to lab nodes",
+    "Integrates with test/traffic-generator nodes: Keysight IXIA-C, Spirent TestCenter, Ostinato",
+    "Node state inspection via 'containerlab inspect' (status, management IP, port mappings)"
+  ],
+  "configuration": [
+    "Declarative topology files (.clab.yml) define nodes, kinds, images, links, and management settings",
+    "Per-node startup-config injection supported for most NOS kinds",
+    "Automated TLS certificate provisioning for nodes that require it",
+    "Environment variables and bind-mount paths configurable per node in topology file",
+    "Labels and node groups supported for selective operations"
+  ],
+  "fault_injection": [
+    "No native fault-injection primitives; disruptions must be applied manually via Docker or Linux tc/iptables on the host",
+    "Link impairment (delay, loss, corruption) possible through Linux tc netem on veth interfaces outside containerlab"
+  ],
+  "modes": [
+    "interactive: CLI-driven lab deploy/destroy for development and demos",
+    "ci-cd: non-interactive mode suitable for pipeline integration",
+    "graph: generates topology diagrams from .clab files without deploying",
+    "save: snapshots running node configurations back to the filesystem"
+  ],
+  "constraints": [
+    "Requires Linux host with Docker; does not run natively on macOS or Windows without a Linux VM",
+    "VM-backed NOS images (vrnetlab) must be built separately by the user from vendor-supplied ISOs — images are not redistributed",
+    "Container-based NOS images (cEOS, XRd, cRPD) require vendor-specific licensing and image pull agreements",
+    "Concurrent topology deployments share the host kernel network namespace, so interface name collisions must be managed",
+    "No built-in traffic generation or packet capture; external tools (tcpdump, IXIA-C, Ostinato) must be added as lab nodes"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose file; Containerlab itself is the orchestration layer and runs as a single binary",
+    "No native fault injection or link impairment controls",
+    "No built-in telemetry collection or metrics storage; telemetry stack must be deployed separately",
+    "No GUI or web dashboard included in the core tool (graph command produces static diagrams only)"
+  ]
+}

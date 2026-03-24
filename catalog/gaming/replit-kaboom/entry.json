@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/replit/kaboom",
+  "name": "replit/kaboom",
+  "description": "Kaboom.js was a JavaScript game library for making fun 2D web games, now archived and superseded by the community fork KaPlay.",
+  "sub_domain": "web-game-engines",
+  "score": 4,
+  "score_rationale": "2.7k stars but archived November 2024 by Replit \u2014 historically relevant as the predecessor of the active KaPlay fork.",
+  "stars": 2700,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-11-12",
+  "found_in_domains": [
+    "web-game-engines"
+  ],
+  "quality_score": 51.5,
+  "tags": [
+    "2d-games",
+    "typescript",
+    "archived",
+    "predecessor",
+    "kaplay"
+  ],
+  "category": "Archived Game Library",
+  "summary": "Archived 2D game library now superseded by KaPlay community fork",
+  "slug": "replit-kaboom"
+}

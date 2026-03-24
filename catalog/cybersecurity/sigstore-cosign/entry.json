@@ -1,0 +1,22 @@
+{
+  "repo_url": "https://github.com/sigstore/cosign",
+  "name": "sigstore/cosign",
+  "description": "Code signing and transparency for containers and binaries using keyless signing tied to OpenID Connect identities. Industry-standard tool for supply chain artifact signing and verification.",
+  "sub_domain": "Supply Chain Security",
+  "score": 9,
+  "score_rationale": "Industry-standard tool for container and binary signing, widely adopted in SLSA and Sigstore ecosystems.",
+  "stars": 1460,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 79.3,
+  "tags": [
+    "security"
+  ],
+  "category": "Security Tool",
+  "summary": "code signing and transparency for containers and binaries using keyless signing tied to openid conne...",
+  "slug": "sigstore-cosign"
+}

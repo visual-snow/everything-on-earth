@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/reverseclabs/drozer",
+  "name": "ReversecLabs/drozer",
+  "description": "The leading security assessment framework for Android that interacts with the Android Runtime, app IPC endpoints (Activities, Services, Content Providers), and underlying OS by assuming the role of an installed app.",
+  "sub_domain": "Mobile Security",
+  "score": 8,
+  "score_rationale": "Industry-recognized Android attack surface testing framework with 4.5k stars; v3.1.0 released August 2024 confirms continued maintenance.",
+  "stars": 4500,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-08-01",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 77.2,
+  "tags": [
+    "reverse-engineering",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Security Tool",
+  "summary": "The leading security assessment framework for Android that interacts with the Android Runtime, ap...",
+  "slug": "reverseclabs-drozer"
+}

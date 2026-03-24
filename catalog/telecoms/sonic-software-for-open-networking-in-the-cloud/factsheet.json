@@ -1,0 +1,91 @@
+{
+  "slug": "sonic-software-for-open-networking-in-the-cloud",
+  "name": "SONiC (Software for Open Networking in the Cloud)",
+  "what_it_is": "SONiC is a free and open-source network operating system based on Linux that runs on vendor-agnostic switches and ASICs. It uses a modular Docker container architecture where each network function runs in its own container, and has been production-hardened in large cloud-provider data centers.",
+  "components": [
+    "BGP container (FRRouting-based routing)",
+    "LLDP container (link layer discovery)",
+    "SNMP container (SNMP agent)",
+    "Teamd container (LACP/LAG management)",
+    "Syncd container (ASIC synchronization daemon)",
+    "SwSS container (Switch State Service — orchagent, portsyncd, neighsyncd)",
+    "Database container (Redis — central config/state store)",
+    "DHCP relay container",
+    "Telemetry container (gNMI/gRPC streaming)",
+    "sFlow container",
+    "PFC watchdog",
+    "Platform/hardware abstraction layer (SAI — Switch Abstraction Interface)"
+  ],
+  "protocols": [
+    "BGP",
+    "ECMP",
+    "LACP",
+    "LLDP",
+    "OSPF",
+    "PFC (Priority Flow Control)",
+    "QoS",
+    "RDMA",
+    "SNMP",
+    "sFlow",
+    "gNMI (gRPC Network Management Interface)",
+    "VLAN",
+    "LAG (Link Aggregation)"
+  ],
+  "measurement": [
+    "Interface counters and statistics via CLI (show interfaces counters)",
+    "Routing table inspection (show ip route)",
+    "BGP neighbor status and prefix counts (show bgp summary)",
+    "SNMP polling via dedicated SNMP container",
+    "sFlow packet sampling and export",
+    "gNMI/gRPC streaming telemetry via telemetry container",
+    "PFC watchdog metrics for RDMA/RoCE congestion detection",
+    "System status checks (show system-memory, show processes)"
+  ],
+  "configuration": [
+    "JSON-based configuration files (config_db.json loaded into Redis)",
+    "CLI (sonic-cfggen, config/show commands)",
+    "Redis CONFIG_DB as central runtime configuration store",
+    "YANG models for structured configuration validation",
+    "ONIE-based installation and initial provisioning",
+    "Minigraph XML for datacenter-style topology configuration"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework documented in the repository",
+    "Container restart/isolation can simulate individual service failures (docker restart <container>)",
+    "ASIC simulation via virtual switch (vs) platform for testing without real hardware"
+  ],
+  "modes": [
+    "ONIE installation mode (production deployment on bare-metal switches)",
+    "Virtual switch (vs) mode — software simulation for development and testing",
+    "Docker-based development environment (build and run without physical ASIC)",
+    "VM/KVM mode for learning and integration testing"
+  ],
+  "constraints": [
+    "Requires Switch Abstraction Interface (SAI) implementation from the ASIC vendor — not all hardware is supported",
+    "Master coordination repository only; actual component source code lives in separate sub-repositories (sonic-buildimage, sonic-swss, sonic-frr, etc.) which must be checked out individually",
+    "Redis DATABASE container is a single point of coordination — all containers depend on it for state",
+    "Virtual switch mode does not emulate full ASIC forwarding performance or all ASIC-specific features",
+    "Configuration changes to hardware-forwarding paths require syncd/SAI round-trip, introducing latency compared to software-only stacks"
+  ],
+  "docker_services": [
+    "database — Redis instance serving as central CONFIG_DB, APPL_DB, ASIC_DB, COUNTERS_DB",
+    "swss — Switch State Service (orchagent, portsyncd, neighsyncd, intfmgrd)",
+    "syncd — ASIC synchronization daemon bridging SwSS and SAI/hardware",
+    "bgp — FRRouting BGP/OSPF routing daemon",
+    "teamd — LACP Link Aggregation daemon",
+    "lldpd — LLDP neighbor discovery",
+    "snmp — SNMP agent (snmpd + AgentX subagent)",
+    "telemetry — gNMI/gRPC streaming telemetry server",
+    "sflow — sFlow sampling agent",
+    "dhcp_relay — DHCP relay agent",
+    "radv — IPv6 Router Advertisement daemon",
+    "macsec — MACsec encryption (platform-dependent)"
+  ],
+  "notable_absences": [
+    "No built-in fault injection or chaos engineering framework",
+    "No integrated load/traffic generation tool — requires external tools (e.g., ixia, trex, pktgen)",
+    "No GUI or web dashboard in the base repository",
+    "Detailed per-platform hardware support matrix is not in this repo (lives in sonic-buildimage)",
+    "No native CI/CD pipeline definition in this coordination repository"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "freeswitch",
+  "name": "FreeSWITCH",
+  "what_it_is": "FreeSWITCH is a Software Defined Telecom Stack that enables the digital transformation from proprietary telecom switches to a versatile software implementation, running on hardware ranging from Raspberry Pi to enterprise servers.",
+  "components": [
+    "Core FreeSWITCH engine",
+    "mod_signalwire (SignalWire platform integration module)",
+    "ESL (Event Socket Library) for external control",
+    "XML configuration subsystem",
+    "Module loader (dynamically loadable codec, endpoint, and application modules)"
+  ],
+  "protocols": [
+    "SIP",
+    "RTP",
+    "SRTP",
+    "WebRTC",
+    "MRCP",
+    "SMS"
+  ],
+  "measurement": [
+    "Event Socket interface exposes real-time call events and statistics",
+    "CDR (Call Detail Records) via mod_cdr_csv and mod_cdr_sqlite",
+    "SNMP monitoring via mod_snmp"
+  ],
+  "configuration": [
+    "XML-based configuration files (conf/ directory)",
+    "Dialplan configured via XML or Lua/JavaScript scripts",
+    "Module configuration via individual XML files per module",
+    "Runtime reconfiguration via ESL (Event Socket Library) commands",
+    "Package-based deployment (Debian/CentOS) or source compilation"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "B2BUA (Back-to-Back User Agent) — default SIP mode",
+    "SIP proxy mode",
+    "Conference bridge mode",
+    "IVR (Interactive Voice Response) mode via mod_dptools",
+    "Voicemail server mode via mod_voicemail"
+  ],
+  "constraints": [
+    "No docker-compose.yml present in the repository (neither main nor master branch) — containerization requires user-supplied Dockerfiles",
+    "Windows support is available but lags behind Linux in feature parity and community testing",
+    "mod_signalwire requires a SignalWire account token for cloud connectivity features"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml in the repository",
+    "No built-in fault injection or chaos testing tooling",
+    "README does not document measurement/observability beyond ESL and CDR references",
+    "No native Kubernetes/Helm manifests in the repository"
+  ]
+}

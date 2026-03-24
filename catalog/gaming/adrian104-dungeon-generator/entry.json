@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/adrian104/dungeon-generator",
+  "name": "Adrian104/Dungeon-Generator",
+  "description": "A seed-driven BSP-based procedural 2D dungeon map generator producing deterministic, reproducible layouts with configurable room count and corridor style. Lightweight and engine-agnostic.",
+  "sub_domain": "procedural-generation",
+  "score": 6,
+  "score_rationale": "Well-structured BSP dungeon generator with deterministic seed support making it easy to reproduce and share layouts.",
+  "stars": 120,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2023-05-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 52.7,
+  "tags": [
+    "dungeon-generation",
+    "bsp",
+    "seed-driven",
+    "deterministic",
+    "cpp"
+  ],
+  "category": "Deterministic Dungeon Gen",
+  "summary": "Seed-driven BSP dungeon generator with deterministic reproducible layouts.",
+  "slug": "adrian104-dungeon-generator"
+}

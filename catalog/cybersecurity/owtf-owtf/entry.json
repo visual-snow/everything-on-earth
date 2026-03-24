@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/owtf/owtf",
+  "name": "owtf/owtf",
+  "description": "OWASP OWTF (Offensive Web Testing Framework) - aims to make web penetration testing more efficient by combining OWASP testing guides with automation and tool orchestration.",
+  "sub_domain": "webapp-security",
+  "score": 6,
+  "score_rationale": "1.9k stars, OWASP-backed web pentesting framework with ongoing 2026 maintenance.",
+  "stars": 1900,
+  "language": "TypeScript",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "webapp-security"
+  ],
+  "quality_score": 62.2,
+  "tags": [
+    "web-security",
+    "vulnerability",
+    "injection"
+  ],
+  "category": "Web Security",
+  "summary": "Web application security testing",
+  "slug": "owtf-owtf"
+}

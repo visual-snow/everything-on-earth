@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tldrsec/prompt-injection-defenses",
+  "name": "tldrsec/prompt-injection-defenses",
+  "description": "A comprehensive catalog of every practical and proposed defense against prompt injection attacks, organized into nine mitigation categories from architectural patterns to model finetuning.",
+  "sub_domain": "ai-security",
+  "score": 6,
+  "score_rationale": "Authoritative prompt injection defense reference with 662 stars, useful for security architects building LLM-integrated systems.",
+  "stars": 662,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-03-11",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 58.6,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "A comprehensive catalog of every practical and proposed defense against prompt injection attacks, or",
+  "slug": "tldrsec-prompt-injection-defenses"
+}

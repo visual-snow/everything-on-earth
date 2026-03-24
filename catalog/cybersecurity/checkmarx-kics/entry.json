@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/checkmarx/kics",
+  "name": "Checkmarx/kics",
+  "description": "Keeping Infrastructure as Code Secure (KICS) finds security vulnerabilities and compliance issues early in the IaC development cycle, supporting Terraform, Kubernetes, CloudFormation, Ansible, Helm, Dockerfile, and 20+ other platforms with 2,400+ Rego-based queries.",
+  "sub_domain": "compliance-policy",
+  "score": 8,
+  "score_rationale": "Checkmarx-backed IaC security scanner with 2.6k stars covering the widest range of IaC platforms and actively maintained through March 2026.",
+  "stars": 2600,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "compliance-policy"
+  ],
+  "quality_score": 75.3,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "checkmarx-kics"
+}

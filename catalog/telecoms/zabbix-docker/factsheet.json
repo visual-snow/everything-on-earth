@@ -1,0 +1,69 @@
+{
+  "slug": "zabbix-docker",
+  "name": "Zabbix Docker",
+  "what_it_is": "Official Docker containerization of Zabbix, an enterprise-class monitoring platform. The repository provides Dockerfiles and Compose files to deploy the full Zabbix monitoring stack including server, web UI, agents, proxies, and SNMP trap receiver.",
+  "components": [
+    "zabbix-server (MySQL and PostgreSQL variants)",
+    "zabbix-agent / zabbix-agent2",
+    "zabbix-proxy (SQLite3 and MySQL variants)",
+    "zabbix-web-apache (MySQL and PostgreSQL variants)",
+    "zabbix-web-nginx (MySQL and PostgreSQL variants)",
+    "zabbix-java-gateway",
+    "zabbix-snmptraps",
+    "zabbix-web-service (headless browser / reporting)"
+  ],
+  "protocols": [
+    "SNMP",
+    "SNMPv3",
+    "SNMP Traps",
+    "IPMI",
+    "HTTP",
+    "JMX"
+  ],
+  "measurement": [],
+  "configuration": [
+    "Database backend selection (MySQL or PostgreSQL)",
+    "Web server selection (Apache2 or Nginx)",
+    "OS base image selection (Alpine, CentOS, Oracle Linux, Ubuntu)",
+    "Compose profiles for partial or full stack deployment (minimal, full, all)",
+    "Image version via ZBX_IMAGE_TAG environment variable",
+    "IPv6 network support toggle via environment variables",
+    "MySQL credentials supplied via secrets files in ENV_VARS_DIRECTORY",
+    "snmptraps volume mount path"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Minimal deployment (default Compose profile — server + DB only)",
+    "Full deployment (all Zabbix components enabled via 'full' profile)",
+    "All components deployment (includes additional tools via 'all' profile)",
+    "Kubernetes deployment (kubernetes.yaml provided)"
+  ],
+  "constraints": [
+    "Versions 7.0+ are licensed under AGPLv3; commercial use requires purchasing technical support from Zabbix LLC",
+    "MySQL and PostgreSQL are external dependencies — the compose stack does not bundle a production-ready DB by default without the databases compose file",
+    "Docker Compose profiles must be explicitly selected to activate non-default services; minimal profile starts very few services",
+    "Agent2 and proxy images are separate from the server image and must be configured independently"
+  ],
+  "docker_services": [
+    "server-db-init",
+    "proxy-db-init",
+    "zabbix-server",
+    "zabbix-proxy-sqlite3",
+    "zabbix-proxy-mysql",
+    "zabbix-web-apache-mysql",
+    "zabbix-web-nginx-mysql",
+    "zabbix-agent",
+    "zabbix-java-gateway",
+    "zabbix-snmptraps",
+    "zabbix-web-service",
+    "mysql-server",
+    "elasticsearch"
+  ],
+  "notable_absences": [
+    "No built-in PostgreSQL service in the default compose.yaml (MySQL-centric by default)",
+    "No pre-configured alerting rules or dashboards — must be configured via the web UI after deployment",
+    "No built-in network topology discovery — discovery must be configured manually",
+    "No native Prometheus/OpenMetrics scraping endpoint on the server itself",
+    "No built-in TLS termination — external reverse proxy or manual cert configuration required"
+  ]
+}

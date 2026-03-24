@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tsahyt/surfacelab",
+  "name": "tsahyt/surfacelab",
+  "description": "A node-based procedural texture generation application written in Rust, providing a graph editor for composing noise, filters, and blending operations into tileable surface materials. Targets artists and game asset pipelines.",
+  "sub_domain": "procedural-generation",
+  "score": 7,
+  "score_rationale": "Ambitious Rust-native procedural texture tool with node graph UI addressing the gap between Substance Designer and open-source tooling.",
+  "stars": 530,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2023-07-01",
+  "found_in_domains": [
+    "procedural-generation"
+  ],
+  "quality_score": 63.8,
+  "tags": [
+    "texture-generation",
+    "node-editor",
+    "rust",
+    "procedural",
+    "asset-pipeline"
+  ],
+  "category": "Procedural Texture Editor",
+  "summary": "Rust-native node-based procedural texture generation tool for artists and game pipelines.",
+  "slug": "tsahyt-surfacelab"
+}

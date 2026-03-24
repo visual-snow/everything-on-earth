@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/gallopsled/pwntools",
+  "name": "Gallopsled/pwntools",
+  "description": "The go-to CTF framework and exploit development library for writing exploits quickly in Python, with support for ELF parsing, ROP chain building, shellcode generation, and remote/local process interaction.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 10,
+  "score_rationale": "Ubiquitous exploit scripting framework with 13.3k stars, essential for CTF players and professional vulnerability researchers alike.",
+  "stars": 13300,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-01-14",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 93.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "gallopsled-pwntools"
+}

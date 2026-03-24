@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/d4vinci/cr3dov3r",
+  "name": "D4Vinci/Cr3dOv3r",
+  "description": "Credential reuse attack tool that searches public breach databases for an email address and tests leaked passwords against well-known services to demonstrate credential stuffing risks.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 7,
+  "score_rationale": "Educational credential reuse tool with 2.1k stars and MIT license, widely used in security awareness demonstrations.",
+  "stars": 2100,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-03-01",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 68.6,
+  "tags": [
+    "password-cracking",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Password Cracker",
+  "summary": "Credential reuse attack tool that searches public breach databases for an email address and tests...",
+  "slug": "d4vinci-cr3dov3r"
+}

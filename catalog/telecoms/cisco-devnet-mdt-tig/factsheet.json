@@ -1,0 +1,53 @@
+{
+  "slug": "cisco-devnet-mdt-tig",
+  "name": "Cisco DevNet MDT TIG",
+  "what_it_is": "An automated Telegraf, InfluxDB, and Grafana (TIG) stack deployed via Docker, Python, and Jinja2 templates to collect and visualize Cisco Model Driven Telemetry (MDT) from network devices. It targets Cisco Catalyst and Meraki infrastructure, streaming YANG-modeled metrics over gRPC.",
+  "components": [
+    "Telegraf v1.26 (MDT collector and data forwarder)",
+    "InfluxDB v2.7 (time-series metric storage)",
+    "Grafana v9.4.1 (dashboard and visualization layer)",
+    "Python + Jinja2 (config file generation from config.yml template)"
+  ],
+  "protocols": [
+    "gRPC-TCP (MDT transport, port 57000)",
+    "YANG Push (periodic and on-change streaming subscriptions)",
+    "KVGPB encoding (Key-Value Google Protocol Buffers)",
+    "HTTPS/REST (Meraki API and device management APIs)"
+  ],
+  "measurement": [
+    "PoE power consumption (Wh per port)",
+    "Wireless client upload/download traffic (Kbytes)",
+    "Wireless client connection counts and limits",
+    "Switch port operational status",
+    "Interface bytes transmitted and received"
+  ],
+  "configuration": [
+    "config.yml required: host IP, credentials, InfluxDB org/bucket/token, device IDs, API keys",
+    "YANG subscription paths and update policies defined per device in config.yml",
+    "Jinja2 templates auto-generate Telegraf, InfluxDB, and Grafana config files from config.yml",
+    "InfluxDB web UI accessible on port 8086; Grafana on port 3000"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Periodic YANG Push subscriptions",
+    "On-change YANG Push subscriptions"
+  ],
+  "constraints": [
+    "Requires a manually created config.yml before stack can be started",
+    "Catalyst 9300 Sustainability dashboard is a placeholder only (not functional at time of README)",
+    "No built-in TLS/encryption for telemetry transport; external Duo Network Gateway recommended for remote access",
+    "No documented scalability limits or multi-device performance guidance"
+  ],
+  "docker_services": [
+    "telegraf (MDT collector, listens on gRPC port 57000)",
+    "influxdb (time-series DB, port 8086)",
+    "grafana (visualization, port 3000)"
+  ],
+  "notable_absences": [
+    "docker-compose.yml not found at repository root on main or master branch (may be in a subdirectory)",
+    "No fault injection or chaos testing capability",
+    "No authentication beyond basic username/password (no IAM/RBAC)",
+    "No error recovery or alerting configuration documented",
+    "Catalyst 9300 support listed as coming but not implemented"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/projectdiscovery/subfinder",
+  "name": "projectdiscovery/subfinder",
+  "description": "Fast passive subdomain enumeration tool that discovers valid subdomains for websites using passive online sources with modular architecture optimized for speed.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 9,
+  "score_rationale": "Premier passive subdomain discovery tool with 13.3k stars, actively maintained and a staple of every professional bug bounty recon pipeline.",
+  "stars": 13300,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "Bug Bounty Tools",
+    "osint-recon"
+  ],
+  "quality_score": 87.0,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Fast passive subdomain enumeration tool that discovers valid subdomains for websites using passive o",
+  "slug": "projectdiscovery-subfinder"
+}

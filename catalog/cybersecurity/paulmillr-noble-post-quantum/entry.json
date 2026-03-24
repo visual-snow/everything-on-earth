@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/paulmillr/noble-post-quantum",
+  "name": "paulmillr/noble-post-quantum",
+  "description": "An auditable, minimal JavaScript/TypeScript implementation of post-quantum cryptography including ML-KEM, ML-DSA, Falcon, and SLH-DSA. Zero dependencies with PGP-signed commits for auditability.",
+  "sub_domain": "cryptography",
+  "score": 7,
+  "score_rationale": "Well-regarded JavaScript PQC library with 288 stars, providing rare browser-compatible post-quantum implementations with an emphasis on auditability and minimal attack surface.",
+  "stars": 288,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-02-28",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 61.7,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "paulmillr-noble-post-quantum"
+}

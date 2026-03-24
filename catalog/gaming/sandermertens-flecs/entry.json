@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sandermertens/flecs",
+  "name": "SanderMertens/flecs",
+  "description": "Fast entity component system for C and C++ supporting millions of entities with archetype-based storage, hierarchies, prefabs, queries, and a pipeline system. Includes a built-in REST API and explorer UI.",
+  "sub_domain": "ecs-frameworks",
+  "score": 9,
+  "score_rationale": "One of the most featured and actively maintained ECS frameworks with 8.1k stars, MIT licensed, updated through March 2026, and uniquely offering built-in tooling like an ECS explorer.",
+  "stars": 8100,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "ecs-frameworks"
+  ],
+  "quality_score": 85.3,
+  "tags": [
+    "ecs",
+    "entity-component-system",
+    "c",
+    "game-architecture"
+  ],
+  "category": "Entity Component System",
+  "summary": "Feature-rich C/C++ ECS with built-in explorer UI and REST API",
+  "slug": "sandermertens-flecs"
+}

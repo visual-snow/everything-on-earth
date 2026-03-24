@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/confettifx/the-forge",
+  "name": "ConfettiFX/The-Forge",
+  "description": "Cross-platform rendering framework for PC, macOS, iOS, Android, Steam Deck, Xbox, PS4/5, Switch, and Quest; provides building blocks for custom next-gen game engines with ray tracing support.",
+  "sub_domain": "graphics-rendering",
+  "score": 9,
+  "score_rationale": "Professional-grade cross-platform framework with 5.5k stars, used in shipped titles, covering every major gaming platform including consoles.",
+  "stars": 5500,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-03-20",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 83.9,
+  "tags": [
+    "graphics",
+    "console",
+    "cross-platform"
+  ],
+  "category": "Rendering Framework",
+  "summary": "Professional framework supporting all gaming platforms",
+  "slug": "confettifx-the-forge"
+}

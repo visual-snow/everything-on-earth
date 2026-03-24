@@ -1,0 +1,92 @@
+{
+  "slug": "ixia-c-open-traffic-generator",
+  "name": "Ixia-c (Open Traffic Generator)",
+  "what_it_is": "Ixia-c is an API-driven, multi-container traffic generator that implements the Open Traffic Generator (OTG) standard, enabling programmatic generation and measurement of L2-7 network traffic for testing network devices. It runs as a distributed set of Docker containers controlled via a REST API or Python/Go SDKs.",
+  "components": [
+    "keng-controller — orchestrates configuration, exposes HTTPS REST API on port 8443, accepts OTG JSON payloads",
+    "ixia-c-traffic-engine — per-port packet Tx/Rx engine, runs privileged with af_packet, listens on a configurable TCP port (default 5555/5556/5557)",
+    "keng-app-usage-reporter (aur) — optional telemetry/reporting sidecar, network_mode host"
+  ],
+  "protocols": [
+    "Ethernet",
+    "VLAN",
+    "VXLAN",
+    "GTPv1",
+    "GTPv2",
+    "IPv4",
+    "IPv6",
+    "ICMP",
+    "ICMPv6",
+    "GRE",
+    "UDP",
+    "TCP"
+  ],
+  "measurement": [
+    "Per-port statistics (Tx/Rx frames, bytes, rates)",
+    "Per-flow statistics (Tx/Rx frames, bytes, rates)",
+    "One-way latency per flow (minimum, maximum, average)",
+    "Packet capture with filtering, output as PCAP file or tcpdump redirection"
+  ],
+  "configuration": [
+    "REST API over HTTPS (port 8443) accepting OTG JSON payloads",
+    "snappi Python SDK (pip install snappi)",
+    "gosnappi Go SDK",
+    "Direct curl with JSON bodies",
+    "Environment variables per traffic-engine container: OPT_LISTEN_PORT, ARG_IFACE_LIST, OPT_NO_HUGEPAGES, cpuset (CPU pinning)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Continuous flow transmission",
+    "Burst transmission",
+    "Two-arm (point-to-point) topology — raw-two-arm.yml",
+    "Three-arm mesh topology — raw-three-arm-mesh.yml",
+    "One-arm topology — raw-one-arm.yml",
+    "Rate specified as packets-per-second or percentage of line rate"
+  ],
+  "constraints": [
+    "Maximum 256 flows per port in the community edition",
+    "Requires minimum 2 x86_64 CPU cores and 7 GB RAM per deployment",
+    "Traffic engine containers must run privileged (privileged: true) to use af_packet",
+    "Community edition throughput is kbps–Gbps range; Tbps scale requires the commercial Keysight KENG variant",
+    "No hugepages by default (OPT_NO_HUGEPAGES=Yes); enabling hugepages requires host kernel configuration",
+    "Unsupported protocol headers (beyond the built-in 12) require external tooling such as Scapy to construct raw frames"
+  ],
+  "docker_services": [
+    {
+      "name": "controller",
+      "image": "ghcr.io/open-traffic-generator/keng-controller",
+      "ports": ["8443 (HTTPS REST API, host network)"],
+      "notes": "Requires --accept-eula flag; uses host network mode"
+    },
+    {
+      "name": "traffic_engine_1",
+      "image": "ghcr.io/open-traffic-generator/ixia-c-traffic-engine",
+      "ports": ["5555 (configurable via OPT_LISTEN_PORT / TCP_PORT_IFC1)"],
+      "notes": "Privileged; af_packet interface binding; CPU pinned via cpuset"
+    },
+    {
+      "name": "traffic_engine_2",
+      "image": "ghcr.io/open-traffic-generator/ixia-c-traffic-engine",
+      "ports": ["5556 (configurable via OPT_LISTEN_PORT / TCP_PORT_IFC2)"],
+      "notes": "Privileged; af_packet interface binding; CPU pinned via cpuset"
+    },
+    {
+      "name": "traffic_engine_3",
+      "image": "ghcr.io/open-traffic-generator/ixia-c-traffic-engine",
+      "ports": ["5557 (configurable via OPT_LISTEN_PORT / TCP_PORT_IFC3)"],
+      "notes": "Present in three-arm topology only; same constraints as engine_1/2"
+    },
+    {
+      "name": "aur",
+      "image": "ghcr.io/open-traffic-generator/keng-app-usage-reporter",
+      "ports": [],
+      "notes": "Optional app usage reporter sidecar; host network mode"
+    }
+  ],
+  "notable_absences": [
+    "No built-in fault injection or packet loss/delay emulation — no netem or tc integration in provided compose files",
+    "No protocol state-machine (BGP, OSPF, IS-IS) in the community edition; emulated control-plane protocols require the commercial KENG license",
+    "No GUI — interaction is API-only (REST, snappi, gosnappi)",
+    "No native IPv6 management plane in compose files; controller API endpoint is IPv4 only in examples"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/specterops/bloodhound",
+  "name": "SpecterOps/BloodHound",
+  "description": "A monolithic web application that uses graph theory to reveal hidden and unintended relationships across Active Directory and Azure environments, enabling attack path analysis for both offense and defense.",
+  "sub_domain": "pentest-frameworks",
+  "score": 9,
+  "score_rationale": "Industry-standard AD attack-path tool from SpecterOps with 2.9k stars on the new CE version and v8.9.0 released March 2026.",
+  "stars": 2900,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "pentest-frameworks"
+  ],
+  "quality_score": 81.7,
+  "tags": [
+    "pe-format",
+    "web-security",
+    "security-tool"
+  ],
+  "category": "Web Security",
+  "summary": "A monolithic web application that uses graph theory to reveal hidden and unintended relationships...",
+  "slug": "specterops-bloodhound"
+}

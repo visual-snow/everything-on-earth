@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/javirandor/passgpt",
+  "name": "javirandor/passgpt",
+  "description": "GPT-based password generation model trained on RockYou dataset using autoregressive generation to produce realistic password guesses for security research.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 5,
+  "score_rationale": "Emerging ML-based password research tool with 89 stars and CC BY-NC license, representing the AI frontier in password analysis.",
+  "stars": 89,
+  "language": "Python",
+  "license": "CC-BY-NC-4.0",
+  "last_activity": "2023-10-14",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 45.6,
+  "tags": [
+    "password-cracking",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Password Cracker",
+  "summary": "GPT-based password generation model trained on RockYou dataset using autoregressive generation to...",
+  "slug": "javirandor-passgpt"
+}

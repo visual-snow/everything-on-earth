@@ -1,0 +1,56 @@
+{
+  "slug": "core-common-open-research-emulator",
+  "name": "CORE (Common Open Research Emulator)",
+  "what_it_is": "CORE is a network emulation tool that uses Linux network namespaces to emulate networked systems on one or more machines. It supports connecting emulated networks to live networks and provides both a graphical topology editor and Python scripting modules for programmatic simulation.",
+  "components": [
+    "core-daemon (emulation service)",
+    "core-gui (graphical topology editor)",
+    "Python API / scripting modules",
+    "netns (network namespace handler)",
+    "EMANE integration layer",
+    "pre-built deb/rpm packages"
+  ],
+  "protocols": [
+    "BGP",
+    "OSPF",
+    "OSPF MDR (Multicast Designated Router)",
+    "RIP",
+    "OLSR",
+    "MANET",
+    "EMANE (Electromagnetic Maneuver on Networked Environment)",
+    "RF / wireless channel emulation"
+  ],
+  "measurement": [
+    "No built-in measurement or monitoring tooling documented in README",
+    "Hybrid live-network connectivity enables external measurement tools to be attached"
+  ],
+  "configuration": [
+    "Python 3.9+ required",
+    "Installation via pre-built deb/rpm packages or source-based install scripts",
+    "Virtual environment installed at /opt/core/venv for package installs",
+    "Graphical topology editor for visual node/link configuration",
+    "Python scripting API for programmatic topology definition"
+  ],
+  "fault_injection": [
+    "No fault injection mechanism documented in README or repository surface"
+  ],
+  "modes": [
+    "Graphical (GUI-driven topology design and execution)",
+    "Scripted (Python API for automated topology creation)",
+    "Hybrid (emulated nodes connected to live physical networks)"
+  ],
+  "constraints": [
+    "Requires Linux (uses Linux network namespaces — not portable to macOS/Windows natively)",
+    "Requires Python 3.9 or higher",
+    "No docker-compose.yml found on master branch — containerised deployment not officially documented in repo root",
+    "EMANE integration requires separate EMANE installation"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml in repository root (404 on master branch)",
+    "No built-in fault injection support documented",
+    "No native measurement or telemetry collection pipeline",
+    "No Windows or macOS support (Linux namespaces dependency)",
+    "No documented scalability limits or node count constraints in README"
+  ]
+}

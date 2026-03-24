@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/security-tools-alliance/rengine-ng",
+  "name": "Security-Tools-Alliance/rengine-ng",
+  "description": "Community-maintained fork of reNgine providing an automated reconnaissance framework with configurable recon engines, continuous monitoring, and database-backed UI.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 6,
+  "score_rationale": "Active community fork of the popular reNgine framework with 160 stars, continuing development after the original stalled, useful for teams needing updated recon infrastructure.",
+  "stars": 160,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 53.7,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Community-maintained fork of reNgine providing an automated reconnaissance framework with configurab",
+  "slug": "security-tools-alliance-rengine-ng"
+}

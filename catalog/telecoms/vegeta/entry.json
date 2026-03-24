@@ -1,0 +1,51 @@
+{
+  "name": "Vegeta",
+  "repo_url": "https://github.com/tsenart/vegeta",
+  "description": "Versatile HTTP load testing tool and Go library designed to drill HTTP services with constant request rate, avoiding Coordinated Omission issues.",
+  "domain": "api-benchmarking",
+  "secondary_domains": [
+    "latency-measurement",
+    "load-testing"
+  ],
+  "protocols": [
+    "HTTP/1.1",
+    "HTTP/2",
+    "HTTPS"
+  ],
+  "provides": [
+    "http-load-testing",
+    "constant-rate-traffic-generation",
+    "latency-measurement",
+    "throughput-benchmarking",
+    "http2-support",
+    "cli-tool",
+    "go-library"
+  ],
+  "needs": [
+    "target-http-service",
+    "go-runtime"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present; community Docker images: peter-evans/vegeta-docker, dannykansas/vegeta-docker"
+  },
+  "github_metrics": {
+    "stars": 25000,
+    "last_commit": "2024-10-10",
+    "language": "Go",
+    "license": "MIT"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "HTTP load testing with constant request rate and accurate latency measurement (25k+ stars). CLI and library usage. Excellent for benchmarking API endpoints in 5G core network evaluation scenarios.",
+  "related_repos": [
+    "https://github.com/peter-evans/vegeta-docker",
+    "https://github.com/dannykansas/vegeta-docker"
+  ],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "vegeta"
+}

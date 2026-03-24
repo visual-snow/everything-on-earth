@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/kitao/pyxel",
+  "name": "kitao/pyxel",
+  "description": "A retro game engine for Python inspired by PICO-8 and TIC-80, featuring a 16-color palette, 4-channel audio, and built-in sprite/sound editors. Makes pixel-art game creation accessible to Python developers.",
+  "sub_domain": "emulators-retro",
+  "score": 8,
+  "score_rationale": "The most accessible retro fantasy console for Python developers with 17.4k stars, MIT-licensed and actively maintained.",
+  "stars": 17400,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "emulators-retro"
+  ],
+  "quality_score": 81.9,
+  "tags": [
+    "retro-gaming",
+    "python",
+    "pixel-art",
+    "game-engine"
+  ],
+  "category": "Retro Game Engine",
+  "summary": "Python-based retro fantasy console with pixel-art tools and editing",
+  "slug": "kitao-pyxel"
+}

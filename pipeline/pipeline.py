@@ -2,18 +2,16 @@
 """
 massive-crawl deterministic pipeline.
 
-Four stages: dedup -> score -> finalize -> explorer.
-dedup, score, finalize operate per-domain via --config.
-explorer aggregates all domains via --catalog-root.
-All pipeline stages are deterministic with no LLM involvement.
-Enrichment (tags, category, summary) is handled in workflow orchestration
-between score and finalize — see workflows/massive-crawl/contract.md.
+Three stages: dedup -> score -> finalize.
+Each stage reads a file, transforms it, writes a file.
+All stages are deterministic with no LLM involvement.
+Enrichment (tags, category, summary) is handled by Claude Code subagents
+between score and finalize — see skill/massive-crawl/SKILL.md.
 
 Usage:
     python pipeline.py --config swarm-config.json
     python pipeline.py --config swarm-config.json --stage dedup
     python pipeline.py --config swarm-config.json --stage score
-    python pipeline.py --stage explorer --catalog-root catalog/
 """
 
 import argparse
@@ -22,9 +20,39 @@ import math
 import sys
 from collections import Counter, defaultdict
 from datetime import datetime
+from itertools import combinations
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
+
+from utils import load_catalog, slugify
+
+
+def normalize_entry(entry: dict) -> dict:
+    """Normalize catalog entry to the schema expected by graph templates."""
+    e = dict(entry)
+    # sub_domain / found_in_domains (telecoms uses domain / secondary_domains)
+    if "sub_domain" not in e and "domain" in e:
+        e["sub_domain"] = e["domain"]
+    if "found_in_domains" not in e and "secondary_domains" in e:
+        e["found_in_domains"] = e["secondary_domains"]
+    # quality_score (telecoms uses eval_potential_score on 1-10 scale, normalize to 0-100)
+    if "quality_score" not in e:
+        raw = float(e.get("eval_potential_score", e.get("score", 0)))
+        e["quality_score"] = raw * 10.0 if raw <= 10 else raw
+    # stars (telecoms nests under github_metrics)
+    if "stars" not in e and "github_metrics" in e:
+        e["stars"] = e["github_metrics"].get("stars", 0)
+    # summary fallback
+    if "summary" not in e:
+        desc = e.get("description", "")
+        e["summary"] = desc[:120] if len(desc) > 120 else desc
+    # tags / category fallback
+    if "tags" not in e:
+        e["tags"] = []
+    if "category" not in e:
+        e["category"] = e.get("sub_domain", "")
+    return e
 
 
 def effective_score(entry: dict) -> float:
@@ -103,13 +131,46 @@ def run_score(entries: list[dict]) -> tuple[list[dict], list[dict]]:
     return scored, removed_log
 
 
+def compute_edges(entries: list[dict]) -> list[dict]:
+    """Compute graph edges for force-graph visualization.
+
+    Two entries are connected if they share a sub-domain or share >=2 tags.
+    Returns list of {source: slug, target: slug} dicts, one per unique pair.
+    """
+    edges: set[frozenset[str]] = set()
+
+    # Edges from shared sub-domains
+    domain_groups: dict[str, list[str]] = defaultdict(list)
+    for e in entries:
+        for d in entry_domains(e):
+            domain_groups[d].append(e["slug"])
+    for slugs in domain_groups.values():
+        for a, b in combinations(slugs, 2):
+            edges.add(frozenset((a, b)))
+
+    # Edges from shared tags (>=2)
+    tag_index: dict[str, set[str]] = defaultdict(set)
+    for e in entries:
+        for t in e.get("tags", []):
+            tag_index[t].add(e["slug"])
+    slug_pairs: dict[frozenset[str], int] = defaultdict(int)
+    for slugs in tag_index.values():
+        for a, b in combinations(slugs, 2):
+            slug_pairs[frozenset((a, b))] += 1
+    for pair, count in slug_pairs.items():
+        if count >= 2:
+            edges.add(pair)
+
+    return [{"source": sorted(pair)[0], "target": sorted(pair)[1]} for pair in edges]
+
+
 def run_finalize(
     entries: list[dict],
     topic: str,
     output_dir: Path,
     template_dir: Path | None = None,
 ) -> None:
-    """Validate, cluster, sort, and produce catalog.json and RESULTS.md."""
+    """Sort, cluster, and produce catalog.json, RESULTS.md, explorer.html."""
     output_dir.mkdir(parents=True, exist_ok=True)
     if template_dir is None:
         template_dir = Path(__file__).parent / "templates"
@@ -120,17 +181,17 @@ def run_finalize(
     catalog_path.write_text(json.dumps(entries, indent=2))
 
     domain_entries = defaultdict(list)
-    for entry in entries:
-        for domain in entry_domains(entry):
-            domain_entries[domain].append(entry)
+    for e in entries:
+        for d in entry_domains(e):
+            domain_entries[d].append(e)
 
     domains_summary = []
-    for domain_name in sorted(domain_entries.keys()):
-        domain_items = domain_entries[domain_name]
-        avg = sum(item.get("score", 0) for item in domain_items) / len(domain_items)
-        domains_summary.append({"name": domain_name, "count": len(domain_items), "avg_score": f"{avg:.1f}"})
+    for d_name in sorted(domain_entries.keys()):
+        d_entries = domain_entries[d_name]
+        avg = sum(e.get("score", 0) for e in d_entries) / len(d_entries)
+        domains_summary.append({"name": d_name, "count": len(d_entries), "avg_score": f"{avg:.1f}"})
 
-    scores = [effective_score(entry) for entry in entries]
+    scores = [effective_score(e) for e in entries]
     context = {
         "topic": topic,
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -139,10 +200,11 @@ def run_finalize(
         "min_score": min(scores) if scores else 0,
         "max_score": max(scores) if scores else 0,
         "domains": domains_summary,
-        "top_repos": [entry for entry in entries if effective_score(entry) >= 70],
+        "top_repos": [e for e in entries if effective_score(e) >= 70],
     }
 
     env = Environment(loader=FileSystemLoader(str(template_dir)))
+
     results_path = output_dir / "RESULTS.md"
     results_path.write_text(env.get_template("results.md.jinja").render(**context))
 
@@ -150,69 +212,152 @@ def run_finalize(
     print(f"[finalize] Wrote {results_path}")
 
 
-def run_explorer(
+def run_site(
     catalog_root: Path,
     template_dir: Path | None = None,
+    capability_root: Path | None = None,
 ) -> None:
-    """Merge all domain catalogs and render a single top-level explorer.html."""
+    """Generate the full static site: landing + per-domain graph + per-repo detail pages."""
     if template_dir is None:
         template_dir = Path(__file__).parent / "templates"
-
-    all_entries = []
-    for catalog_path in sorted(catalog_root.glob("*/catalog.json")):
-        domain_name = catalog_path.parent.name
-        entries = json.loads(catalog_path.read_text())
-        for entry in entries:
-            entry["domain"] = domain_name
-        all_entries.extend(entries)
-
-    all_entries.sort(key=effective_score, reverse=True)
-    domains = sorted({entry["domain"] for entry in all_entries})
+    if capability_root is None:
+        capability_root = catalog_root
 
     env = Environment(loader=FileSystemLoader(str(template_dir)))
-    explorer_path = catalog_root / "explorer.html"
-    explorer_path.write_text(
-        env.get_template("explorer.html").render(
-            topic="Everything on Earth",
-            total=len(all_entries),
-            domain_count=len(domains),
-            catalog_json=json.dumps(all_entries),
-        )
-    )
 
-    print(f"[explorer] Merged {len(all_entries)} entries from {len(domains)} domains")
-    print(f"[explorer] Wrote {explorer_path}")
+    # Discover domains
+    domain_catalogs: list[dict] = []
+    domain_dirs = {path.parent.name for path in catalog_root.glob("*/catalog.json")}
+    for catalog_path in sorted(catalog_root.glob("*/catalog.json")):
+        domain_slug = catalog_path.parent.name
+        if domain_slug == "telecom" and "telecoms" in domain_dirs:
+            print("[site] Skipping telecom: legacy catalog shadowed by telecoms")
+            continue
+        entries = [normalize_entry(e) for e in load_catalog(catalog_path)]
+        entries = sorted(entries, key=effective_score, reverse=True)
+        sub_domains_set = set()
+        for e in entries:
+            for d in entry_domains(e):
+                sub_domains_set.add(d)
+        domain_catalogs.append({
+            "slug": domain_slug,
+            "name": domain_slug.replace("-", " ").title(),
+            "entries": entries,
+            "count": len(entries),
+            "sub_domain_count": len(sub_domains_set),
+        })
+
+    if not domain_catalogs:
+        print("[site] No catalog.json files found under", catalog_root)
+        return
+
+    total_repos = sum(d["count"] for d in domain_catalogs)
+
+    # Generate landing page
+    project_root = catalog_root.parent
+    landing_html = env.get_template("landing.html").render(
+        domains=domain_catalogs,
+        total_repos=total_repos,
+    )
+    landing_path = project_root / "index.html"
+    landing_path.write_text(landing_html)
+    print(f"[site] Wrote {landing_path}")
+
+    # Generate per-domain pages
+    for domain in domain_catalogs:
+        entries = domain["entries"]
+        domain_dir = catalog_root / domain["slug"]
+
+        # Compute edges
+        edges = compute_edges(entries)
+
+        # Build sub-domain list with counts
+        sd_counts: dict[str, int] = defaultdict(int)
+        for e in entries:
+            for d in entry_domains(e):
+                sd_counts[d] += 1
+        sub_domains = [{"name": n, "count": c} for n, c in sorted(sd_counts.items())]
+
+        stats = {
+            "total": len(entries),
+            "domain_count": len(sub_domains),
+        }
+
+        # Build neighbor index from edges
+        neighbors: dict[str, list[str]] = defaultdict(list)
+        for edge in edges:
+            neighbors[edge["source"]].append(edge["target"])
+            neighbors[edge["target"]].append(edge["source"])
+
+        # Graph page
+        graph_html = env.get_template("graph.html").render(
+            domain_name=domain["name"],
+            domain_slug=domain["slug"],
+            entries_json=json.dumps(entries),
+            edges_json=json.dumps(edges),
+            sub_domains=sub_domains,
+            stats=stats,
+        )
+        graph_path = domain_dir / "index.html"
+        graph_path.write_text(graph_html)
+        print(f"[site] Wrote {graph_path} ({len(entries)} nodes, {len(edges)} edges)")
+
+        # Detail pages
+        detail_dir = domain_dir / "detail"
+        detail_dir.mkdir(parents=True, exist_ok=True)
+        slug_to_entry = {e["slug"]: e for e in entries}
+
+        for entry in entries:
+            # Read capability.md if available
+            cap_path = capability_root / domain["slug"] / entry["slug"] / "capability.md"
+            capability_md = cap_path.read_text() if cap_path.exists() else ""
+
+            # Nearby repos from edges
+            nearby_slugs = neighbors.get(entry["slug"], [])
+            nearby_repos = sorted(
+                [slug_to_entry[s] for s in nearby_slugs if s in slug_to_entry],
+                key=effective_score,
+                reverse=True,
+            )[:10]
+
+            detail_html = env.get_template("detail.html").render(
+                entry=entry,
+                domain_name=domain["name"],
+                domain_slug=domain["slug"],
+                capability_md=capability_md,
+                nearby_repos=nearby_repos,
+            )
+            detail_path = detail_dir / f"{entry['slug']}.html"
+            detail_path.write_text(detail_html)
+
+        print(f"[site]   {len(entries)} detail pages in {detail_dir}")
+
+    print(f"[site] Done: {total_repos} repos across {len(domain_catalogs)} domains")
 
 
 def main():
     parser = argparse.ArgumentParser(description="massive-crawl deterministic pipeline")
     parser.add_argument("--config", default=None, help="Path to swarm-config.json")
-    parser.add_argument(
-        "--stage",
-        default="dedup,score,finalize",
-        help="Comma-separated stages to run (default: dedup,score,finalize)",
-    )
+    parser.add_argument("--stage", default="dedup,score,finalize",
+                        help="Comma-separated stages to run (default: all)")
     parser.add_argument("--input-dir", default=".", help="Directory containing input files")
     parser.add_argument("--output-dir", default=None, help="Output directory (default: from config)")
-    parser.add_argument("--catalog-root", default=None, help="Root catalog dir for explorer stage")
+    parser.add_argument("--catalog-root", default=None, help="Root catalog directory (for site stage)")
+    parser.add_argument("--capability-root", default=None, help="Root directory for capability.md files")
     args = parser.parse_args()
 
-    stages = [stage.strip() for stage in args.stage.split(",")]
+    stages = [s.strip() for s in args.stage.split(",")]
 
-    if "explorer" in stages:
-        if not args.catalog_root:
-            print("--catalog-root is required for explorer stage", file=sys.stderr)
-            sys.exit(1)
-        catalog_root = Path(args.catalog_root)
+    # Site stage doesn't need --config
+    if "site" in stages:
+        catalog_root = Path(args.catalog_root) if args.catalog_root else Path("catalog")
+        capability_root = Path(args.capability_root) if args.capability_root else None
         template_dir = Path(__file__).parent / "templates"
-        run_explorer(catalog_root=catalog_root, template_dir=template_dir)
-        stages = [stage for stage in stages if stage != "explorer"]
-
-    if not stages:
+        run_site(catalog_root, template_dir=template_dir, capability_root=capability_root)
         return
 
     if not args.config:
-        print("--config is required for dedup/score/finalize stages", file=sys.stderr)
+        print("Error: --config is required for dedup/score/finalize stages", file=sys.stderr)
         sys.exit(1)
 
     config = json.loads(Path(args.config).read_text())
@@ -233,8 +378,8 @@ def main():
 
             domains = Counter()
             for entry in result:
-                for domain in entry_domains(entry):
-                    domains[domain] += 1
+                for d in entry_domains(entry):
+                    domains[d] += 1
             print("\n[dedup] Distribution by sub-domain:")
             for domain, count in domains.most_common():
                 print(f"  {domain}: {count}")

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/qazbnm456/awesome-web-security",
+  "name": "qazbnm456/awesome-web-security",
+  "description": "Curated list of web security materials and resources covering XSS, SQL injection, CSRF, SSRF, and numerous attack vectors, alongside tools, blogs, and practical exercises for web application security research.",
+  "sub_domain": "awesome-lists",
+  "score": 8,
+  "score_rationale": "Comprehensive web security resource list with 13.2k stars, covering the full spectrum of web application attack and defense techniques.",
+  "stars": 13200,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "awesome-lists",
+    "webapp-security"
+  ],
+  "quality_score": 81.0,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Curated list of web security materials and resources covering XSS, SQL injection, CSRF, SSRF, and nu",
+  "slug": "qazbnm456-awesome-web-security"
+}

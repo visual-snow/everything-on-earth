@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/trustedsec/hate_crack",
+  "name": "trustedsec/hate_crack",
+  "description": "Automated hash cracking tool from TrustedSec that orchestrates Hashcat methodologies including wordlist, mask, and combinator attacks with intelligent workflow automation.",
+  "sub_domain": "Password Cracking & Brute-Force",
+  "score": 7,
+  "score_rationale": "Well-regarded Hashcat automation framework from a trusted security firm with 1.8k stars and active maintenance.",
+  "stars": 1800,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-08-01",
+  "found_in_domains": [
+    "Password Cracking & Brute-Force"
+  ],
+  "quality_score": 68.0,
+  "tags": [
+    "hash-cracking",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Password Cracker",
+  "summary": "Automated hash cracking tool from TrustedSec that orchestrates Hashcat methodologies including wo...",
+  "slug": "trustedsec-hate-crack"
+}

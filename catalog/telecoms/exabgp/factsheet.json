@@ -1,0 +1,74 @@
+{
+  "slug": "exabgp",
+  "name": "ExaBGP",
+  "what_it_is": "ExaBGP is a pure-Python BGP implementation that exposes an external JSON/text API so that scripts and programs can inject, withdraw, and inspect BGP routes without touching the FIB. It is used for DDoS mitigation via FlowSpec, anycast management, traffic engineering, and network monitoring.",
+  "components": [
+    "exabgp daemon (sbin/exabgp)",
+    "healthcheck built-in script",
+    "async reactor (default in 6.0) / legacy generator reactor",
+    "CLI interactive mode (exabgp cli)",
+    "decode subcommand for BGP UPDATE message inspection",
+    "shell completion installer (bash/zsh/fish)",
+    "registry-based plugin architecture"
+  ],
+  "protocols": [
+    "BGP (ASN4, IPv4/IPv6 unicast and multicast)",
+    "MPLS",
+    "VPLS",
+    "FlowSpec (RFC 5575 / RFC 8955)",
+    "EVPN",
+    "BGP-LS",
+    "SRv6",
+    "VPNv4 / VPNv6 (L3VPN)",
+    "MUP",
+    "Graceful Restart",
+    "Enhanced Route Refresh",
+    "Add-Path",
+    "Extended Next-Hop",
+    "AIGP"
+  ],
+  "measurement": [
+    "JSON-formatted BGP UPDATE messages emitted to stdout (neighbor, direction, NLRI, attributes)",
+    "BGP session state events reported via API",
+    "decode subcommand parses raw BGP UPDATE hex to JSON for offline analysis",
+    "healthcheck script provides service health monitoring and route announcement based on probe results"
+  ],
+  "configuration": [
+    "Single configuration file (INI-like syntax, e.g., etc/exabgp/api-open.conf)",
+    "98 example configuration files in etc/exabgp/ covering unicast, multicast, L3VPN, EVPN, FlowSpec, BGP-LS, API patterns",
+    "Environment variables override config (e.g., exabgp_tcp_bind, exabgp_log_enable, exabgp_reactor_legacy)",
+    "process { } block wires external programs to the API via stdin/stdout pipes",
+    "neighbor { } block defines peers with AFI/SAFI, ASN, timers, and capabilities"
+  ],
+  "fault_injection": [
+    "Route withdrawal via API (announce/withdraw commands over stdin pipe to external process)",
+    "FlowSpec rules for traffic rate-limiting, discard, or redirect (DDoS mitigation use case)",
+    "healthcheck script can withdraw routes on probe failure to trigger failover",
+    "silence-ack API command disables ACK messages to test programs that do not handle them"
+  ],
+  "modes": [
+    "server mode (default): runs BGP daemon from a config file",
+    "cli mode: interactive command-line interface to a running daemon",
+    "decode mode: offline BGP UPDATE hex message parser",
+    "healthcheck mode: built-in health probe with automatic route announcement/withdrawal",
+    "validate mode: config file syntax validation without starting the daemon",
+    "async reactor mode (default in 6.0, async/await event loop)",
+    "legacy reactor mode (generator-based, set via exabgp_reactor_legacy=true)"
+  ],
+  "constraints": [
+    "Does NOT manipulate the FIB — ExaBGP is a BGP speaker only; a separate dataplane (e.g., BIRD, FRRouting, Linux kernel) is needed if FIB changes are required",
+    "Python 3.12+ required for the 6.0/main branch; Python 3.8+ for the stable 5.0 branch",
+    "API communication is stdin/stdout-based; external programs must handle or suppress ACK messages (use silence-ack for legacy scripts written for 3.4)",
+    "No built-in GUI or web interface — all interaction is via config file, CLI pipe, or external process API",
+    "ulimit -n must be >= 64000 for running the full functional test suite"
+  ],
+  "docker_services": [
+    "ghcr.io/exa-networks/exabgp:latest — official image, exposes port 179 (BGP), mounts /etc/exabgp for config; no docker-compose file in the repo"
+  ],
+  "notable_absences": [
+    "No docker-compose file in the repository",
+    "No built-in route reflector or full-table RIB — ExaBGP is a BGP edge tool, not a full-featured router daemon",
+    "No OSPF, ISIS, or IGP support — BGP only",
+    "No NETCONF/YANG or gRPC interface — API is stdin/stdout JSON/text only"
+  ]
+}

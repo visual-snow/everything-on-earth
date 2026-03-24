@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/secdev/scapy",
+  "name": "secdev/scapy",
+  "description": "A powerful Python-based interactive packet manipulation program and library enabling packet crafting, sending, capturing, and dissection for network security testing and research.",
+  "sub_domain": "network-security",
+  "score": 10,
+  "score_rationale": "Essential packet manipulation library with 12.1k stars, widely used in security research with v2.7.0 released December 2025.",
+  "stars": 12100,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2025-12-26",
+  "found_in_domains": [
+    "network-security",
+    "Wireless & RF Security"
+  ],
+  "quality_score": 92.7,
+  "tags": [
+    "network-analysis",
+    "packet-capture",
+    "security-tool"
+  ],
+  "category": "Network Analysis",
+  "summary": "A powerful Python-based interactive packet manipulation program and library enabling packet craft...",
+  "slug": "secdev-scapy"
+}

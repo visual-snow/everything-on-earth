@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/govready/govready-q",
+  "name": "GovReady/govready-q",
+  "description": "Open-source self-service GRC tool to automate security assessments and compliance documentation, enabling DevSecOps teams to keep authorization processes aligned with modern deployment cycles. Supports NIST RMF and FedRAMP.",
+  "sub_domain": "compliance-policy",
+  "score": 5,
+  "score_rationale": "Government-focused GRC platform with 207 stars specializing in NIST RMF and FedRAMP compliance automation, relevant for federal and regulated sector use cases.",
+  "stars": 207,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "compliance-policy"
+  ],
+  "quality_score": 48.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "govready-govready-q"
+}

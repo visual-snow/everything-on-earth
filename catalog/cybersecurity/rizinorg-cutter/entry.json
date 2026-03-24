@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/rizinorg/cutter",
+  "name": "rizinorg/cutter",
+  "description": "Free and open source reverse engineering platform with a modern GUI powered by rizin, supporting disassembly, decompilation, and binary analysis.",
+  "sub_domain": "malware-reversing",
+  "score": 9,
+  "score_rationale": "18.6k stars, best-in-class open-source GUI for reverse engineering, actively maintained in 2025.",
+  "stars": 18600,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-05-11",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 88.2,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "rizinorg-cutter"
+}

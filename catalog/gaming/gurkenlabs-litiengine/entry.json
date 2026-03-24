@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gurkenlabs/litiengine",
+  "name": "gurkenlabs/litiengine",
+  "description": "A pure Java 2D game engine with a comprehensive library and dedicated tile-based map editor, designed for desktop game development.",
+  "sub_domain": "game-engines-2d",
+  "score": 5,
+  "score_rationale": "820 stars, MIT, niche but actively maintained Java-native 2D engine with a dedicated map editor tool.",
+  "stars": 820,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2025-12-05",
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 53.3,
+  "tags": [
+    "2d-game-engine",
+    "java",
+    "tile-based",
+    "map-editor",
+    "desktop"
+  ],
+  "category": "Java 2D Game Engine",
+  "summary": "Pure Java 2D engine with integrated tile-based map editor",
+  "slug": "gurkenlabs-litiengine"
+}

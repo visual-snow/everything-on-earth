@@ -1,0 +1,74 @@
+{
+  "name": "open5gs-k8s",
+  "repo_url": "https://github.com/niloysh/open5gs-k8s",
+  "description": "Kubernetes manifest files for deploying Open5GS as microservices with multi-slice support, Monarch monitoring integration, and UERANSIM.",
+  "domain": "5g-core",
+  "secondary_domains": [
+    "kubernetes",
+    "network-slicing",
+    "ueransim"
+  ],
+  "protocols": [
+    "NAS",
+    "NGAP",
+    "PFCP",
+    "GTP-U",
+    "SBI"
+  ],
+  "provides": [
+    "ran-simulation",
+    "5g-core-nrf",
+    "kubernetes-native-deployment",
+    "microservices-5g-core",
+    "multi-slice-support",
+    "5g-core-udm",
+    "5g-core-pcf",
+    "monitoring-integration",
+    "network-slicing",
+    "5g-core-udr",
+    "pfcp-session-management",
+    "gtp-u-tunneling",
+    "5g-core-ausf",
+    "config-mutation",
+    "5g-core-amf",
+    "5g-core-nssf",
+    "5g-core-bsf",
+    "5g-core-smf",
+    "sbi-rest-api",
+    "5g-core-upf",
+    "ueransim-integration"
+  ],
+  "needs": [
+    "k8s-cluster",
+    "multus-cni",
+    "mongodb",
+    "helm",
+    "kubectl",
+    "linux-kernel-5.4+",
+    "sctp-support",
+    "persistent-volume-provisioner"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Kubernetes manifest files for deploying Open5GS using microservices; StatefulSets, Services, PVCs, Network Attachment Definitions for Multus CNI"
+  },
+  "github_metrics": {
+    "stars": 56,
+    "last_commit": "unknown",
+    "language": "YAML/Shell",
+    "license": "unknown"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Best Kubernetes-native Open5GS deployment. Multi-slice support with dedicated SMF/UPF per slice. Monarch monitoring integration is unique. Good for network slicing evaluations.",
+  "related_repos": [
+    "https://github.com/open5gs/open5gs",
+    "https://github.com/aligungr/ueransim"
+  ],
+  "_sources": [
+    "discovery/5g-core.json"
+  ],
+  "slug": "open5gs-k8s"
+}

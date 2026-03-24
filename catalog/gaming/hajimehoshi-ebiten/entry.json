@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hajimehoshi/ebiten",
+  "name": "hajimehoshi/ebiten",
+  "description": "A dead simple 2D game engine for Go with a clean API, supporting Windows, macOS, Linux, Android, iOS, and WebAssembly. Actively maintained with a growing ecosystem.",
+  "sub_domain": "game-engines-2d",
+  "score": 8,
+  "score_rationale": "13.1k stars, Apache-2.0, the de facto standard 2D game engine for the Go programming language.",
+  "stars": 13100,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 80.9,
+  "tags": [
+    "2d-engine",
+    "go",
+    "cross-platform",
+    "web",
+    "simple-api"
+  ],
+  "category": "Go 2D Game Engine",
+  "summary": "Standard 2D game engine for Go with cross-platform web support",
+  "slug": "hajimehoshi-ebiten"
+}

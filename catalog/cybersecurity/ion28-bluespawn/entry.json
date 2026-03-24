@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ion28/bluespawn",
+  "name": "ION28/BLUESPAWN",
+  "description": "BLUESPAWN is an active defense and EDR software for Windows that enables security teams to detect, identify, and eliminate malicious activity and malware across a network in Hunt, Mitigate, and Monitor modes. Built in C++ to empower blue teams with proactive defense capabilities.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 6,
+  "score_rationale": "Notable open-source Windows EDR with 1.3k stars though development activity has slowed since 2023.",
+  "stars": 1300,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2023-08-10",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools"
+  ],
+  "quality_score": 60.9,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "BLUESPAWN is an active defense and EDR software for Windows that enables security teams to detect, i",
+  "slug": "ion28-bluespawn"
+}

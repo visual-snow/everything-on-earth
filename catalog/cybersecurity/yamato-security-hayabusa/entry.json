@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yamato-security/hayabusa",
+  "name": "Yamato-Security/hayabusa",
+  "description": "Hayabusa is a sigma-based threat hunting and fast forensics timeline generator for Windows event logs written in memory-safe Rust with multi-threading. It processes Windows event data into consolidated timelines supporting over 4,000 Sigma rules for incident response.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 8,
+  "score_rationale": "Highly regarded Windows forensics tool with 3.1k stars, actively maintained with strong integration with Sigma detection rules.",
+  "stars": 3100,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-01",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "forensics-ir"
+  ],
+  "quality_score": 75.9,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "Hayabusa is a sigma-based threat hunting and fast forensics timeline generator for Windows event log",
+  "slug": "yamato-security-hayabusa"
+}

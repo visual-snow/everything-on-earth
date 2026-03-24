@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ivre/ivre",
+  "name": "ivre/ivre",
+  "description": "Network recon framework for building self-hosted alternatives to Shodan, ZoomEye, Censys and GreyNoise. Runs passive DNS, EASM, and network intelligence collection using Nmap, Masscan, and Zeek.",
+  "sub_domain": "osint-recon",
+  "score": 8,
+  "score_rationale": "4k stars for a unique self-hosted internet-scanning framework that fills a critical niche as an open-source Shodan alternative with active development through 2024.",
+  "stars": 4000,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-09-25",
+  "found_in_domains": [
+    "container-cloud-security",
+    "network-security",
+    "osint-recon"
+  ],
+  "quality_score": 76.8,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "ivre-ivre"
+}

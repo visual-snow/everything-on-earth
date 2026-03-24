@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/redcanaryco/chain-reactor",
+  "name": "redcanaryco/chain-reactor",
+  "description": "Open source framework for composing Linux executables that simulate adversary behaviors and techniques, enabling endpoint detection testing in Linux environments. Maintained by Red Canary for ATT&CK-aligned Linux detection validation.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 7,
+  "score_rationale": "333 stars, maintained by Red Canary through April 2025, and uniquely focused on composable adversary simulation for Linux endpoints.",
+  "stars": 333,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-04-08",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 62.2,
+  "tags": [
+    "framework",
+    "pentesting",
+    "modules"
+  ],
+  "category": "Pentesting Framework",
+  "summary": "Comprehensive penetration testing framework",
+  "slug": "redcanaryco-chain-reactor"
+}

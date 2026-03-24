@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/scellecs/morpeh",
+  "name": "scellecs/morpeh",
+  "description": "ECS framework for Unity and .NET with a simple, struct-based API requiring no code generation and minimal setup. Offers cache-friendly storage and straightforward system/filter architecture.",
+  "sub_domain": "ecs-frameworks",
+  "score": 6,
+  "score_rationale": "Clean, no-codegen Unity ECS with 641 stars, MIT licensed, maintained through January 2025, appealing to developers who find Entitas boilerplate excessive.",
+  "stars": 641,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-01-07",
+  "found_in_domains": [
+    "ecs-frameworks"
+  ],
+  "quality_score": 58.5,
+  "tags": [
+    "ecs",
+    "unity",
+    "entity-component-system",
+    "minimal-boilerplate"
+  ],
+  "category": "Simple Unity ECS",
+  "summary": "Lightweight Unity ECS with no code generation and minimal boilerplate",
+  "slug": "scellecs-morpeh"
+}

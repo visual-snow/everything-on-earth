@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/randombit/botan",
+  "name": "randombit/botan",
+  "description": "A comprehensive C++ cryptography library released under BSD-2 covering TLS, X.509 PKI, AEAD ciphers, hardware support (PKCS#11, TPM), and post-quantum cryptography with a clean modern API.",
+  "sub_domain": "cryptography",
+  "score": 8,
+  "score_rationale": "Solid C++ cryptographic library with 3.2k stars and a March 2026 release (3.11.0), offering broad algorithm coverage including emerging post-quantum schemes.",
+  "stars": 3200,
+  "language": "C++",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "cryptography"
+  ],
+  "quality_score": 76.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "randombit-botan"
+}

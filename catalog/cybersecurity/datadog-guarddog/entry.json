@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/datadog/guarddog",
+  "name": "DataDog/guarddog",
+  "description": "CLI tool from DataDog to identify malicious PyPI and npm packages using heuristic and static analysis rules. Detects typosquatting, obfuscated code, credential exfiltration, and other supply chain attack patterns.",
+  "sub_domain": "Supply Chain Security",
+  "score": 8,
+  "score_rationale": "Industry-grade malicious package detector from DataDog with active threat intelligence and broad adoption.",
+  "stars": 867,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "Supply Chain Security"
+  ],
+  "quality_score": 71.5,
+  "tags": [
+    "malware",
+    "analysis",
+    "detection"
+  ],
+  "category": "Malware Analysis",
+  "summary": "Malware analysis and detection tools",
+  "slug": "datadog-guarddog"
+}

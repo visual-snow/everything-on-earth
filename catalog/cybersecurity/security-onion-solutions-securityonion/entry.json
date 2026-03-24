@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/security-onion-solutions/securityonion",
+  "name": "Security-Onion-Solutions/securityonion",
+  "description": "Security Onion is a free and open platform for threat hunting, enterprise security monitoring, and log management that bundles Suricata, Zeek, Elasticsearch, and custom analysis interfaces. It provides a complete defensive security monitoring stack in a single deployable solution.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 9,
+  "score_rationale": "The go-to open source security monitoring distribution with 4.5k stars, actively maintained and widely adopted in SOC environments.",
+  "stars": 4500,
+  "language": "Shell",
+  "license": "LicenseRef-custom",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "network-security"
+  ],
+  "quality_score": 83.2,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Security Onion is a free and open platform for threat hunting, enterprise security monitoring, and l",
+  "slug": "security-onion-solutions-securityonion"
+}

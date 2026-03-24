@@ -1,0 +1,51 @@
+{
+  "slug": "notconf",
+  "name": "Notconf",
+  "what_it_is": "A containerized NETCONF/RESTCONF device simulator built on Netopeer2, Rousette, and Sysrepo that exposes management interfaces without performing real network functions. It is a drop-in replacement for Cisco NSO netsim for testing network automation systems.",
+  "components": [
+    "Netopeer2 (NETCONF server)",
+    "Rousette (RESTCONF server)",
+    "Sysrepo (configuration datastore backend)",
+    "HTTP/2 reverse proxy (internal port 10080, exposed on port 80 for RESTCONF)"
+  ],
+  "protocols": [
+    "NETCONF (port 830)",
+    "RESTCONF (HTTP/2, port 80)",
+    "SSH (transport for NETCONF)",
+    "YANG (data modeling language for modules)"
+  ],
+  "measurement": [
+    "No built-in metrics or telemetry collection documented",
+    "Debug image variant emits verbose logging for inspection"
+  ],
+  "configuration": [
+    "YANG modules loaded automatically from /yang-modules directory inside container",
+    "Optional YANG features enabled via /yang-modules/enable-features.csv (module-name,feature-name pairs)",
+    "Startup datastore seeded from XML files in /yang-modules/startup at container initialization",
+    "Operational data loaded from XML files in /yang-modules/operational at startup or on file change (hot-reload)",
+    "Default credentials: admin/admin (single credential set for all access)",
+    "Pre-built images available for Cisco IOS XR, IETF models, Juniper JUNOS, and Nokia SROS"
+  ],
+  "fault_injection": [
+    "No active fault injection or failure mode simulation documented"
+  ],
+  "modes": [
+    "Standard mode: normal NETCONF/RESTCONF service",
+    "Debug mode: verbose logging variant image for troubleshooting"
+  ],
+  "constraints": [
+    "Simulator exposes management interfaces only — no actual network functions are performed (no packet forwarding, no routing protocol execution)",
+    "Single credential set (admin/admin) for all access; no per-user or role-based credential configuration documented",
+    "Multi-architecture support limited to x86_64 and aarch64",
+    "Build prerequisites require Make, Git, and xmlstarlet; Docker or Podman required for container execution"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No docker-compose.yml found in the repository (neither main nor master branch)",
+    "No fault injection or chaos/failure simulation capability",
+    "No built-in metrics, telemetry, or observability tooling",
+    "No multi-user or RBAC credential management",
+    "No documented support for gNMI/gRPC-based management protocols",
+    "No persistent state across container restarts unless volumes are mounted"
+  ]
+}

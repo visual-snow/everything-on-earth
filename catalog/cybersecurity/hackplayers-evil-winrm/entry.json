@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/hackplayers/evil-winrm",
+  "name": "Hackplayers/evil-winrm",
+  "description": "The ultimate WinRM shell for pentesting, supporting in-memory PowerShell execution, DLL/C# assembly loading, pass-the-hash authentication, Kerberos, and AMSI bypass for Windows post-exploitation.",
+  "sub_domain": "pentest-frameworks",
+  "score": 7,
+  "score_rationale": "Widely used Windows remote access tool with 5.3k stars and most recent commit in October 2024, a standard in Windows/AD pentesting workflows.",
+  "stars": 5300,
+  "language": "Ruby",
+  "license": "LGPL-3.0",
+  "last_activity": "2024-10-08",
+  "found_in_domains": [
+    "pentest-frameworks"
+  ],
+  "quality_score": 71.8,
+  "tags": [
+    "exploit-dev",
+    "hash-cracking",
+    "pe-format"
+  ],
+  "category": "Exploit Framework",
+  "summary": "The ultimate WinRM shell for pentesting, supporting in-memory PowerShell execution, DLL/C# assemb...",
+  "slug": "hackplayers-evil-winrm"
+}

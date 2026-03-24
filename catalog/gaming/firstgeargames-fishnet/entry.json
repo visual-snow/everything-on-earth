@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/firstgeargames/fishnet",
+  "name": "FirstGearGames/FishNet",
+  "description": "Feature-rich Unity networking solution with server-authoritative design, client-side prediction, and support for Steam, Epic Online Services, WebRTC, and consoles.",
+  "sub_domain": "game-networking",
+  "score": 7,
+  "score_rationale": "Growing Unity networking alternative with 1.9k stars, actively maintained (2026) with client-side prediction and broad platform support; gaining adoption as Mirror alternative.",
+  "stars": 1900,
+  "language": "C#",
+  "license": "LicenseRef-FishNet",
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "game-networking"
+  ],
+  "quality_score": 68.2,
+  "tags": [
+    "unity",
+    "client-prediction",
+    "server-authoritative",
+    "webrtc",
+    "console"
+  ],
+  "category": "Unity Multiplayer Framework",
+  "summary": "Full-featured Unity networking with prediction and console support",
+  "slug": "firstgeargames-fishnet"
+}

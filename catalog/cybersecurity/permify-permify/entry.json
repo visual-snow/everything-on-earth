@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/permify/permify",
+  "name": "Permify/permify",
+  "description": "Open-source authorization-as-a-service inspired by Google Zanzibar for building fine-grained and scalable authorization systems with relationship-based access control.",
+  "sub_domain": "iam-auth",
+  "score": 7,
+  "score_rationale": "Growing Zanzibar-inspired authorization service with 5.8k stars, AGPL-3.0 licensed, actively maintained as a strong open source alternative to commercial ReBAC solutions.",
+  "stars": 5800,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "iam-auth"
+  ],
+  "quality_score": 72.1,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "permify-permify"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/engn33r/awesome-bluetooth-security",
+  "name": "engn33r/awesome-bluetooth-security",
+  "description": "Curated list of Bluetooth BR/EDR/LE security resources including research papers, tools, exploit PoCs, and conference talks for comprehensive Bluetooth security coverage.",
+  "sub_domain": "Wireless & RF Security",
+  "score": 6,
+  "score_rationale": "Well-maintained reference list with 599 stars and updated through late 2025; solid entry point for Bluetooth security research.",
+  "stars": 599,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-10-03",
+  "found_in_domains": [
+    "Wireless & RF Security"
+  ],
+  "quality_score": 58.2,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "engn33r-awesome-bluetooth-security"
+}

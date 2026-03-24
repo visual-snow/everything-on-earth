@@ -1,0 +1,55 @@
+{
+  "name": "Intel FlexRAN",
+  "repo_url": "https://github.com/intel/flexran",
+  "description": "Intel's 4G/5G baseband PHY reference design for Xeon processors with Docker image build support and O-RAN fronthaul interface.",
+  "domain": "baseband",
+  "secondary_domains": [
+    "fronthaul",
+    "l1-phy",
+    "o-ran"
+  ],
+  "protocols": [
+    "FAPI",
+    "O-RAN-Fronthaul"
+  ],
+  "provides": [
+    "5g-phy-l1",
+    "4g-phy-l1",
+    "o-ran-fronthaul",
+    "fapi-interface",
+    "baseband-processing",
+    "o-du-low-integration",
+    "docker-image-build"
+  ],
+  "needs": [
+    "intel-xeon-hardware",
+    "intel-avx512-support",
+    "specific-intel-nic",
+    "dpdk",
+    "pre-built-binaries",
+    "linux-rt-kernel",
+    "numa-topology"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "docker build will just copy the pre-built binaries to docker image. After the docker build finishes, docker image with oran-release tag will be generated"
+  },
+  "github_metrics": {
+    "stars": 152,
+    "last_commit": "2023-10-04",
+    "language": "C",
+    "license": "Custom"
+  },
+  "eval_potential_score": 4,
+  "eval_notes": "High-star Intel reference implementation for O-RAN L1 PHY. Docker images for O-RAN release builds. Useful for testing O-DU low-level integration but requires specific Intel hardware.",
+  "related_repos": [
+    "https://github.com/intel/flexran-docker-image-dependencies"
+  ],
+  "_sources": [
+    "discovery/oran-ric.json"
+  ],
+  "slug": "intel-flexran"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/excaliburjs/excalibur",
+  "name": "excaliburjs/Excalibur",
+  "description": "A friendly TypeScript 2D game engine for the web, built on HTML5 Canvas and WebGL, designed to simplify game creation for both beginners and experienced developers.",
+  "sub_domain": "web-game-engines",
+  "score": 7,
+  "score_rationale": "2.2k stars, well-designed TypeScript-first 2D engine with active development, good documentation, and clean API targeting web developers.",
+  "stars": 2200,
+  "language": "TypeScript",
+  "license": "BSD-2-Clause",
+  "last_activity": "2025-12-23",
+  "found_in_domains": [
+    "game-engines-2d",
+    "web-game-engines"
+  ],
+  "quality_score": 68.7,
+  "tags": [
+    "2d-game-engine",
+    "typescript",
+    "web-game",
+    "html5",
+    "webgl"
+  ],
+  "category": "Web 2D Game Engine",
+  "summary": "TypeScript-first 2D web engine with Canvas/WebGL support and clean API",
+  "slug": "excaliburjs-excalibur"
+}

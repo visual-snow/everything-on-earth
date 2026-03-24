@@ -1,0 +1,69 @@
+{
+  "name": "Cisco YANG Suite",
+  "repo_url": "https://github.com/ciscodevnet/yangsuite",
+  "description": "Cisco's GUI-based tool suite for learning, testing, and adopting YANG programmable interfaces including NETCONF, RESTCONF, and gNMI. Supports YANG model browsing, RPC building, and device interaction.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "network-programmability"
+  ],
+  "protocols": [
+    "NETCONF",
+    "RESTCONF",
+    "SNMP",
+    "YANG",
+    "gNMI",
+    "gRPC"
+  ],
+  "provides": [
+    "yang-model-browser",
+    "netconf-rpc-builder",
+    "restconf-client",
+    "gnmi-client",
+    "yang-datastore",
+    "web-dashboard",
+    "rpc-testing",
+    "yang-validation",
+    "multi-protocol-yang-testing"
+  ],
+  "needs": [
+    "external-netconf-device",
+    "external-gnmi-target",
+    "3-5gb-ram",
+    "docker-compose"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 3,
+    "docker_evidence": "Official docker/ directory with start_yang_suite.sh script and docker-compose.yml. Docker-compose is the recommended installation method. Requires ~3.5GB RAM for large Cisco native models."
+  },
+  "github_metrics": {
+    "stars": 313,
+    "last_commit": "unknown",
+    "language": "",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Docker-compose recommended install creates 3 containers (YANG Suite, Nginx, storage). NETCONF plugin builds XML payloads from YANG models. Supports get, get-config, edit-config, action RPCs. Requires 3.5GB RAM for large Cisco native models. Free from Cisco DevNet. Primarily a YANG development/testing tool rather than a standalone server, but useful for validating YANG models and testing NETCONF RPCs against devices. GUI-based \u2014 less suitable for automated agentic evals. Official Cisco tool for YANG/NETCONF testing. GUI-driven, good for interactive exploration. Docker-compose recommended deployment. Heavyweight but comprehensive for multi-protocol YANG testing. Cisco-maintained. Needs ~3.5GB RAM for large native models. Docker-compose recommended. YANG file manager, device manager, protocol testing. Docker-compose is recommended installation method. Not a NOS itself but essential tool for YANG/NETCONF/RESTCONF/gNMI development and testing. The most feature-rich YANG browser/explorer. Excellent for interactive YANG model exploration and RPC testing against real devices. Docker-compose deployment is straightforward. Best suited for development and learning workflows.",
+  "related_repos": [
+    "ciscodevnet/ydk-py",
+    "https://github.com/ciscodevnet/yang-explorer",
+    "https://github.com/ciscodevnet/ydk-gen",
+    "https://github.com/jeremycohoe/cisco-ios-xe-programmability-lab-yangsuite",
+    "https://github.com/networklessons/docker-alpine-cisco-yang-explorer",
+    "https://github.com/paulzeto/cisco-yang-suite",
+    "https://github.com/rdkls/yang-explorer-docker"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-labs.json",
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/netauto-frameworks.json",
+    "discovery/netconf-mgmt/netconf-servers.json",
+    "discovery/netconf-mgmt/netconf-testing.json",
+    "discovery/netconf-mgmt/restconf-gnmi-config.json",
+    "discovery/netconf-mgmt/virtual-nos.json",
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "cisco-yang-suite"
+}

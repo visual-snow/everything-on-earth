@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gameplay3d/gameplay",
+  "name": "gameplay3d/GamePlay",
+  "description": "Open-source, cross-platform C++ game engine for creating 2D/3D games targeting desktop and mobile platforms. Focused on simplicity and portability.",
+  "sub_domain": "game-engines-3d",
+  "score": 5,
+  "score_rationale": "4.8k stars but last release in 2015 \u2014 historically significant cross-platform C++ engine now largely inactive.",
+  "stars": 4800,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2015-01-24",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 59.5,
+  "tags": [
+    "3d-game-engine",
+    "c++",
+    "mobile-game",
+    "cross-platform",
+    "legacy"
+  ],
+  "category": "Legacy 3D Game Engine",
+  "summary": "Historically significant but inactive C++ cross-platform game engine",
+  "slug": "gameplay3d-gameplay"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/steffest/bassoontracker",
+  "name": "steffest/BassoonTracker",
+  "description": "A browser-based Amiga module tracker in pure JavaScript that plays and edits MOD and FastTracker 2 XM files using WebAudio, with no runtime dependencies.",
+  "sub_domain": "chiptune-trackers",
+  "score": 8,
+  "score_rationale": "Unique fully browser-based tracker with 1.1k stars for the classic Amiga module format, actively maintained and accessible without installation.",
+  "stars": 1100,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-09-06",
+  "found_in_domains": [
+    "chiptune-trackers"
+  ],
+  "quality_score": 72.3,
+  "tags": [
+    "tracker",
+    "amiga",
+    "web-audio",
+    "javascript",
+    "mod-xm"
+  ],
+  "category": "Music Trackers",
+  "summary": "Browser-based Amiga module tracker for MOD and XM files",
+  "slug": "steffest-bassoontracker"
+}

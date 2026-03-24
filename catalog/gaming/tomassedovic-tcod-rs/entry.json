@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tomassedovic/tcod-rs",
+  "name": "tomassedovic/tcod-rs",
+  "description": "Rust bindings for libtcod 1.6.3, the Doryen roguelike library. Now archived and unmaintained; maintainers recommend bracket-lib or doryen-rs as successors. Historically significant as the first Rust roguelike bindings.",
+  "sub_domain": "roguelike-frameworks",
+  "score": 4,
+  "score_rationale": "229-star archived Rust bindings for libtcod, superseded by bracket-lib; kept for historical significance only.",
+  "stars": 229,
+  "language": "C",
+  "license": "LicenseRef-WTFPL",
+  "last_activity": "2025-01-02",
+  "found_in_domains": [
+    "roguelike-frameworks"
+  ],
+  "quality_score": 42.9,
+  "tags": [
+    "rust",
+    "bindings",
+    "libtcod",
+    "archived",
+    "roguelike"
+  ],
+  "category": "Rust Libtcod Bindings",
+  "summary": "Archived Rust bindings for libtcod; superseded by bracket-lib",
+  "slug": "tomassedovic-tcod-rs"
+}

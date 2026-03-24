@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lsalzman/enet",
+  "name": "lsalzman/enet",
+  "description": "ENet reliable UDP networking library providing sequenced reliable and unreliable packet delivery over UDP, designed for simplicity and robustness in game networking.",
+  "sub_domain": "game-networking",
+  "score": 8,
+  "score_rationale": "Classic, widely-used game UDP library with 3.2k stars, powering countless game engines and still actively maintained after 20+ years.",
+  "stars": 3200,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2024-04-13",
+  "found_in_domains": [
+    "game-networking"
+  ],
+  "quality_score": 76.0,
+  "tags": [
+    "game-networking",
+    "udp",
+    "reliable-packets",
+    "low-latency",
+    "classic"
+  ],
+  "category": "Classic Game Networking",
+  "summary": "20+ year-old reliable UDP library trusted by countless game engines",
+  "slug": "lsalzman-enet"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/complianceascode/content",
+  "name": "ComplianceAsCode/content",
+  "description": "Security automation content in SCAP, Bash, Ansible, and other formats for auditing and compliance of Linux systems (RHEL, Fedora, Ubuntu, Debian) against frameworks like NIST 800-53, CIS Benchmarks, and PCI DSS.",
+  "sub_domain": "compliance-policy",
+  "score": 8,
+  "score_rationale": "Mature security automation content repository with 2.7k stars and 42k+ commits, actively maintained through March 2026, used as the foundation for government and enterprise Linux compliance.",
+  "stars": 2700,
+  "language": "Shell",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "compliance-policy"
+  ],
+  "quality_score": 75.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "complianceascode-content"
+}

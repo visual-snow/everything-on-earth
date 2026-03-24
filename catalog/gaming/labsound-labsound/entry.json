@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/labsound/labsound",
+  "name": "LabSound/LabSound",
+  "description": "Graph-based C++ audio engine derived from WebKit's WebAudio implementation, providing a node-based DSP graph for games, visualizers, live coding environments, and audio applications.",
+  "sub_domain": "game-audio",
+  "score": 6,
+  "score_rationale": "Unique graph-based audio engine with 782 stars and BSD-2-Clause license, offering a Web Audio-style API for C++ projects, though development stalled in 2023.",
+  "stars": 782,
+  "language": "C++",
+  "license": "BSD-2-Clause",
+  "last_activity": "2023-02-07",
+  "found_in_domains": [
+    "game-audio"
+  ],
+  "quality_score": 59.2,
+  "tags": [
+    "audio",
+    "graph-based",
+    "dsp",
+    "web-audio"
+  ],
+  "category": "Audio Engine",
+  "summary": "Graph-based audio engine with Web Audio-style API",
+  "slug": "labsound-labsound"
+}

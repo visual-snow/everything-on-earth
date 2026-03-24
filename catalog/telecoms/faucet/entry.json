@@ -1,0 +1,64 @@
+{
+  "name": "FAUCET",
+  "repo_url": "https://github.com/faucetsdn/faucet",
+  "description": "An OpenFlow controller for multi-table OpenFlow 1.3 switches implementing layer 2 switching, VLANs, ACLs, and layer 3 IPv4/IPv6 routing. Hardware-agnostic design with YAML-based configuration.",
+  "domain": "layer2-layer3",
+  "secondary_domains": [
+    "network-switching",
+    "sdn"
+  ],
+  "protocols": [
+    "OpenFlow 1.3",
+    "BGP",
+    "LACP",
+    "LLDP"
+  ],
+  "provides": [
+    "yaml-network-config",
+    "multi-table-pipeline",
+    "ipv6-routing",
+    "vlan-management",
+    "layer2-switching",
+    "openflow-controller",
+    "web-dashboard",
+    "config-mutation",
+    "prometheus-metrics",
+    "lldp-discovery",
+    "fuzz-testing",
+    "ipv4-routing",
+    "sdn-control-plane",
+    "acl-enforcement",
+    "lacp-bonding",
+    "bgp-peering"
+  ],
+  "needs": [
+    "openflow-capable-switch",
+    "linux-kernel",
+    "python3-runtime",
+    "prometheus-scraper"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "faucet/faucet",
+    "compose_services_count": 4,
+    "docker_evidence": "Includes Dockerfile.faucet, Dockerfile.gauge, Dockerfile.tests, Dockerfile.fuzz-config, Dockerfile.fuzz-packet, and docker-compose.yaml for orchestrated multi-container deployment."
+  },
+  "github_metrics": {
+    "stars": 616,
+    "last_commit": "2026-03-05",
+    "language": "Python",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 9,
+  "eval_notes": "Actively maintained, production-quality SDN controller with excellent Docker support. YAML-based config makes it easy to define network scenarios programmatically. Includes fuzzing containers for testing. Integrates with Prometheus for monitoring.",
+  "related_repos": [
+    "https://github.com/faucetsdn/poseidon",
+    "https://github.com/faucetsdn/ryu",
+    "https://github.com/faucetsdn/gauge"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json"
+  ],
+  "slug": "faucet"
+}

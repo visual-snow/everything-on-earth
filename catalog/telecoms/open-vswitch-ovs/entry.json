@@ -1,0 +1,76 @@
+{
+  "name": "Open vSwitch (OVS)",
+  "repo_url": "https://github.com/openvswitch/ovs",
+  "description": "A multilayer software switch supporting standard management interfaces (NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag). Opens forwarding functions to programmatic extension and control via OpenFlow.",
+  "domain": "nfv-dataplane",
+  "secondary_domains": [
+    "sdn",
+    "virtual-switching"
+  ],
+  "protocols": [
+    "802.1Q",
+    "802.1ag",
+    "ERSPAN",
+    "GRE",
+    "GTP-U",
+    "Geneve",
+    "IPFIX",
+    "LACP",
+    "NetFlow",
+    "OVSDB",
+    "OpenFlow",
+    "SRv6",
+    "STT",
+    "VXLAN",
+    "sFlow"
+  ],
+  "provides": [
+    "gtp-u-tunneling",
+    "srv6-forwarding",
+    "sdn-dataplane",
+    "ipfix-export",
+    "geneve-tunneling",
+    "netflow-export",
+    "ovsdb-server",
+    "config-mutation",
+    "vlan-switching",
+    "erspan-mirroring",
+    "vxlan-tunneling",
+    "packet-forwarding",
+    "openflow-switch",
+    "lacp-bonding",
+    "gre-tunneling",
+    "sflow-export"
+  ],
+  "needs": [
+    "linux-kernel-3.10+",
+    "openflow-controller",
+    "dpdk-optional"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "openvswitch/ovs",
+    "compose_services_count": 0,
+    "docker_evidence": "Official Docker Hub repo openvswitch/ovs contains container images for each stable OVS release. Includes ovs-docker utility for integration of OVS with Docker containers."
+  },
+  "github_metrics": {
+    "stars": 3900,
+    "last_commit": "2026-03",
+    "language": "C",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "The de facto standard virtual switch for SDN. Essential building block for any SDN lab. Official Docker images per release, ovs-docker utility for container networking. Pairs with any OpenFlow controller for testing. Foundational virtual switching platform. Key component in SDN/NFV infrastructure. Docker Hub images available for lab use. Useful for evaluations involving switch configuration and SDN control plane.",
+  "related_repos": [
+    "https://github.com/faysalmehedi/vxlan-ovs-docker-lab",
+    "https://github.com/gopher-net/docker-ovs-plugin",
+    "https://github.com/servicefractal/ovs",
+    "https://github.com/socketplane/docker-ovs"
+  ],
+  "_sources": [
+    "discovery/sdn-nfv.json",
+    "discovery/transport.json"
+  ],
+  "slug": "open-vswitch-ovs"
+}

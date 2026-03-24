@@ -1,0 +1,70 @@
+{
+  "name": "GoBGP",
+  "repo_url": "https://github.com/osrg/gobgp",
+  "description": "An open source BGP implementation designed from scratch for modern environments, written in Go. Supports rich policy configuration based on IETF vendor-neutral model.",
+  "domain": "bgp",
+  "secondary_domains": [
+    "grpc-automation",
+    "route-policy",
+    "routing",
+    "sdn"
+  ],
+  "protocols": [
+    "BGP",
+    "BGP-LS",
+    "BMP",
+    "EVPN",
+    "FlowSpec",
+    "MRT",
+    "RPKI",
+    "SR-Policy",
+    "gRPC"
+  ],
+  "provides": [
+    "flowspec-support",
+    "sr-policy-support",
+    "cli-management",
+    "grpc-api",
+    "bgp-route-reflector",
+    "config-mutation",
+    "mrt-dump",
+    "bgp-policy-engine",
+    "rpki-validation",
+    "bgp-daemon",
+    "evpn-support",
+    "bmp-monitoring",
+    "bgp-ls-support"
+  ],
+  "needs": [
+    "docker-runtime",
+    "zebra-for-fib",
+    "peer-bgp-speaker"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "jauderho/gobgp",
+    "compose_services_count": 0,
+    "docker_evidence": "Multiple Docker images available: jauderho/gobgp and pierky/gobgp on Docker Hub. Builds gobgpd and gobgp tools in container."
+  },
+  "github_metrics": {
+    "stars": 4000,
+    "last_commit": "2026-02-28",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Very actively maintained, high-star BGP daemon. gRPC API enables programmatic control. Docker images available from community. Good for testing BGP-based SDN scenarios and route policy management. Modern BGP implementation with gRPC API. Excellent for programmatic BGP testing and agentic evaluations involving route policy management and BGP automation via gRPC. BGP-only \u2014 not a full NOS. gRPC API enables multi-language management. Docker image via community. Multiple demo repos: ksator/gobgp_demo, saran-saran007/gobgp_container. Integrates with Zebra for FIB manipulation.",
+  "related_repos": [
+    "https://github.com/ksator/gobgp_demo",
+    "https://github.com/nerdalert/bgp-ipvlan-docker",
+    "https://github.com/osrg/rustybgp",
+    "https://github.com/saran-saran007/gobgp_container"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/virtual-nos.json",
+    "discovery/sdn-nfv.json",
+    "discovery/transport.json"
+  ],
+  "slug": "gobgp"
+}

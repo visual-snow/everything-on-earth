@@ -1,0 +1,67 @@
+{
+  "name": "CORE (Common Open Research Emulator)",
+  "repo_url": "https://github.com/coreemu/core",
+  "description": "Common Open Research Emulator - tool for emulating networks on one or more machines with ability to connect emulated networks to live networks. Provides GUI and Python scripting modules.",
+  "domain": "manet",
+  "secondary_domains": [
+    "network-emulation",
+    "research-networking",
+    "topology-emulation",
+    "wireless-routing"
+  ],
+  "protocols": [
+    "BGP",
+    "EMANE",
+    "MANET",
+    "OLSR",
+    "OSPF",
+    "RIP"
+  ],
+  "provides": [
+    "network-emulation",
+    "topology-design-gui",
+    "python-scripting-api",
+    "bgp-emulation",
+    "ospf-emulation",
+    "rip-emulation",
+    "olsr-emulation",
+    "manet-emulation",
+    "wireless-rf-emulation",
+    "virtual-network-nodes",
+    "automated-topology-creation",
+    "live-network-bridging"
+  ],
+  "needs": [
+    "linux-kernel",
+    "network-namespaces",
+    "emane-installation",
+    "quagga-or-frr",
+    "x11-display-server"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Repository contains a /dockerfiles directory for containerized deployment."
+  },
+  "github_metrics": {
+    "stars": 795,
+    "last_commit": "2025-05",
+    "language": "Python",
+    "license": "BSD-2-Clause"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Established network emulator with GUI and Python API. Good for network topology design and routing protocol evals in containerized environments. Research-grade network emulator from US Naval Research Laboratory. Lightweight virtual machines with real-time emulation. Python scripting API enables automated topology creation and testing. Good for MANET/wireless network digital twins. GUI-based network emulator with wireless/RF emulation via EMANE. Good for mobile/wireless network evaluations. Python scripting API enables automation for agentic use.",
+  "related_repos": [
+    "https://github.com/d3f0/coreemu_vnc",
+    "https://github.com/gh0st42/coreemu-lab",
+    "https://github.com/usnavalresearchlaboratory/ospf-mdr"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json",
+    "discovery/digital-twin.json",
+    "discovery/transport.json"
+  ],
+  "slug": "core-common-open-research-emulator"
+}

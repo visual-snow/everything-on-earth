@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wolfpld/tracy",
+  "name": "wolfpld/tracy",
+  "description": "A real-time, nanosecond-resolution, remote telemetry, hybrid frame and sampling profiler for games and applications. Supports CPU, GPU (OpenGL, Vulkan, D3D, Metal, CUDA), memory, and context switch profiling.",
+  "sub_domain": "game-devops-analytics",
+  "score": 10,
+  "score_rationale": "15.5k stars, industry-standard game profiler used by AAA and indie studios, supports virtually all major GPU APIs and languages.",
+  "stars": 15500,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-12-11",
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 93.5,
+  "tags": [
+    "profiling",
+    "telemetry",
+    "gpu",
+    "performance",
+    "debugging"
+  ],
+  "category": "Game Performance Profiler",
+  "summary": "Industry-standard profiler for CPU/GPU performance analysis across APIs",
+  "slug": "wolfpld-tracy"
+}

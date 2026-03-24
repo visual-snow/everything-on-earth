@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cocos2d/cocos2d-x",
+  "name": "cocos2d/cocos2d-x",
+  "description": "A C++ multi-platform 2D game framework used by millions of developers globally, supporting iOS, Android, macOS, Windows, and Linux. Foundation for Cocos Creator engine.",
+  "sub_domain": "game-engines-2d",
+  "score": 9,
+  "score_rationale": "19k stars, MIT license, industry-proven C++ engine with massive global developer base especially in mobile gaming.",
+  "stars": 19000,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-engines-2d"
+  ],
+  "quality_score": 88.2,
+  "tags": [
+    "2d-engine",
+    "cpp",
+    "mobile",
+    "cross-platform",
+    "industry-standard"
+  ],
+  "category": "C++ 2D Game Engine",
+  "summary": "Global-scale C++ 2D framework powering millions of mobile games",
+  "slug": "cocos2d-cocos2d-x"
+}

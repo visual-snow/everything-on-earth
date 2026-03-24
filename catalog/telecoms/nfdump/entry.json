@@ -1,0 +1,50 @@
+{
+  "name": "nfdump",
+  "repo_url": "https://github.com/phaag/nfdump",
+  "description": "Powerful suite of tools for collecting, processing, and analyzing NetFlow, IPFIX, and sFlow data from network devices.",
+  "domain": "netconf",
+  "secondary_domains": [],
+  "protocols": [
+    "NetFlow v5/v9",
+    "IPFIX",
+    "sFlow"
+  ],
+  "provides": [
+    "netflow-collection",
+    "ipfix-collection",
+    "sflow-collection",
+    "flow-data-analysis",
+    "flow-data-processing",
+    "packet-capture",
+    "traffic-analytics",
+    "flow-export"
+  ],
+  "needs": [
+    "netflow-exporter",
+    "network-device-or-probe",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile available in repository. Used as base for multiple Docker-based flow collection projects."
+  },
+  "github_metrics": {
+    "stars": 700,
+    "last_commit": "2025-06-01",
+    "language": "C",
+    "license": "BSD-3-Clause"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Industry-standard flow processing tool. Core component for evaluations requiring flow data capture and analysis.",
+  "related_repos": [
+    "https://github.com/nerdalert/nfsen-dockerized",
+    "https://github.com/dircr/nfsen-ng-docker"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "nfdump"
+}

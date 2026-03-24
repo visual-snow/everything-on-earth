@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vavkamil/awesome-bugbounty-tools",
+  "name": "vavkamil/awesome-bugbounty-tools",
+  "description": "A curated list of bug bounty tools organized by vulnerability type and reconnaissance method, spanning subdomain enumeration, web vulnerability scanning, payload lists, and exploitation utilities for bug bounty hunters.",
+  "sub_domain": "awesome-lists",
+  "score": 7,
+  "score_rationale": "Practical bug bounty tooling reference with 5.9k stars, well-organized by attack surface type and actively used by the bug bounty community.",
+  "stars": 5900,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "awesome-lists",
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 72.2,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated list of bug bounty tools organized by vulnerability type and reconnaissance method, spanni",
+  "slug": "vavkamil-awesome-bugbounty-tools"
+}

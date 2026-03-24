@@ -1,0 +1,48 @@
+{
+  "name": "Beszel",
+  "repo_url": "https://github.com/henrygd/beszel",
+  "description": "Lightweight server monitoring hub with historical data, Docker stats, and alerts in a simple web interface.",
+  "domain": "docker-telemetry",
+  "secondary_domains": [
+    "netconf",
+    "server-monitoring"
+  ],
+  "protocols": [
+    "HTTP",
+    "SSH"
+  ],
+  "provides": [
+    "server-monitoring",
+    "docker-stats-collection",
+    "web-dashboard",
+    "historical-metrics",
+    "alerting",
+    "ssh-agent-communication",
+    "rest-api"
+  ],
+  "needs": [
+    "docker-runtime",
+    "ssh-access",
+    "persistent-storage"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "henrygd/beszel",
+    "compose_services_count": 1,
+    "docker_evidence": "Docker stats monitoring with friendly web interface, simple configuration, ready to use out of the box."
+  },
+  "github_metrics": {
+    "stars": 10000,
+    "last_commit": "2026-03-10",
+    "language": "Go",
+    "license": "MIT"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Lightweight monitoring with Docker stats. Useful as a lightweight monitoring component in evaluation environments.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "beszel"
+}

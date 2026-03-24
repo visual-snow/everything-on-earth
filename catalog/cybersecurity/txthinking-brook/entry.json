@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/txthinking/brook",
+  "name": "txthinking/brook",
+  "description": "A cross-platform programmable network tool supporting proxy, VPN, and traffic obfuscation for bypassing network restrictions and building secure tunneling solutions.",
+  "sub_domain": "network-security",
+  "score": 6,
+  "score_rationale": "Popular programmable network tunneling tool with 15.1k stars and active December 2025 release, though primarily a proxy/VPN tool.",
+  "stars": 15100,
+  "language": "Go",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-31",
+  "found_in_domains": [
+    "network-security"
+  ],
+  "quality_score": 69.4,
+  "tags": [
+    "network-analysis",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Network Analysis",
+  "summary": "A cross-platform programmable network tool supporting proxy, VPN, and traffic obfuscation for byp...",
+  "slug": "txthinking-brook"
+}

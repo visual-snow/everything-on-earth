@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/aquasecurity/chain-bench",
+  "name": "aquasecurity/chain-bench",
+  "description": "Open-source tool for auditing software supply chain stack for security compliance based on the CIS Software Supply Chain benchmark, covering code repository, build processes, artifact management, and deployment security.",
+  "sub_domain": "compliance-policy",
+  "score": 6,
+  "score_rationale": "Niche but purpose-built supply chain CIS benchmark compliance tool with 771 stars by Aqua Security, addressing a specialized and growing compliance area.",
+  "stars": 771,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "compliance-policy"
+  ],
+  "quality_score": 59.1,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "aquasecurity-chain-bench"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "gNMI (OpenConfig Reference)",
+  "repo_url": "https://github.com/openconfig/gnmi",
+  "description": "gRPC Network Management Interface (gNMI) specification and reference implementation. Includes a caching gNMI collector with Docker support for aggregating telemetry from multiple targets.",
+  "domain": "netconf",
+  "secondary_domains": [],
+  "protocols": [
+    "OpenConfig",
+    "gNMI",
+    "gRPC"
+  ],
+  "provides": [
+    "gnmi-server",
+    "gnmi-collector",
+    "grpc-telemetry",
+    "yang-datastore",
+    "streaming-telemetry",
+    "openconfig-reference-impl",
+    "multi-target-aggregation"
+  ],
+  "needs": [
+    "gnmi-target-devices",
+    "go-runtime",
+    "supervisor"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile for gnmi_collector in cmd/gnmi_collector/docker/. Alpine-based image with supervisor. Listens on tcp/8888 by default."
+  },
+  "github_metrics": {
+    "stars": 600,
+    "last_commit": "2026-01",
+    "language": "Go",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 5,
+  "eval_notes": "Reference gNMI implementation. While not NETCONF, gNMI is the modern alternative for YANG-based config management. Docker-packaged collector for multi-target telemetry aggregation. Canonical gNMI protocol definition and reference implementation. 732+ dependent projects.",
+  "related_repos": [
+    "https://github.com/openconfig/gnmi-gateway",
+    "https://github.com/openconfig/gnoi",
+    "https://github.com/openconfig/public"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/netconf-testing.json",
+    "discovery/netconf-mgmt/restconf-gnmi-config.json"
+  ],
+  "slug": "gnmi-openconfig-reference"
+}

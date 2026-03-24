@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ntop/ndpi",
+  "name": "ntop/nDPI",
+  "description": "An open-source deep packet inspection software toolkit for classifying network flows at the L7 application layer, identifying hundreds of protocols and applications in real-time.",
+  "sub_domain": "network-security",
+  "score": 8,
+  "score_rationale": "Leading open-source DPI library with 4.4k stars and stable v5.0 release November 2025, widely embedded in security appliances.",
+  "stars": 4400,
+  "language": "C",
+  "license": "LGPL-3.0",
+  "last_activity": "2025-11-17",
+  "found_in_domains": [
+    "network-security"
+  ],
+  "quality_score": 77.1,
+  "tags": [
+    "network-analysis",
+    "packet-capture",
+    "pe-format"
+  ],
+  "category": "Network Analysis",
+  "summary": "An open-source deep packet inspection software toolkit for classifying network flows at the L7 ap...",
+  "slug": "ntop-ndpi"
+}

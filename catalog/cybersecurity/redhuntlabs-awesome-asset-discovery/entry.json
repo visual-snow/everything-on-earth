@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/redhuntlabs/awesome-asset-discovery",
+  "name": "redhuntlabs/Awesome-Asset-Discovery",
+  "description": "Curated collection of resources for asset discovery during security assessments covering domains, IPs, emails, cloud infrastructure, and data leak monitoring techniques.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 6,
+  "score_rationale": "Useful reference compilation with 2.4k stars for the asset discovery phase of security engagements, though primarily a list rather than an active tool.",
+  "stars": 2400,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 63.0,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Curated collection of resources for asset discovery during security assessments covering domains, IP",
+  "slug": "redhuntlabs-awesome-asset-discovery"
+}

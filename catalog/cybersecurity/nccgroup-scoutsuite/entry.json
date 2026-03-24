@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nccgroup/scoutsuite",
+  "name": "nccgroup/ScoutSuite",
+  "description": "Multi-cloud security auditing tool by NCC Group that assesses security posture across AWS, Azure, GCP, and other cloud providers by gathering configuration data via APIs and highlighting risk areas with a rich web-based HTML report.",
+  "sub_domain": "compliance-policy",
+  "score": 8,
+  "score_rationale": "Well-established multi-cloud security audit tool with 7.6k stars from NCC Group, widely used in penetration testing and compliance assessments.",
+  "stars": 7600,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2024-05-10",
+  "found_in_domains": [
+    "compliance-policy",
+    "container-cloud-security"
+  ],
+  "quality_score": 79.0,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "nccgroup-scoutsuite"
+}

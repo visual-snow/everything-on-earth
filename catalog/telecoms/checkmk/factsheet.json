@@ -1,0 +1,103 @@
+{
+  "slug": "checkmk",
+  "name": "Checkmk",
+  "what_it_is": "Checkmk is a comprehensive IT monitoring system for infrastructure and application observability across physical, virtual, containerized, and cloud environments. It provides agent-based and agentless monitoring with 2000+ integrations, auto-discovery, and a web-based UI served via Apache on port 5000.",
+  "components": [
+    "checkmk monitoring server (omd site)",
+    "Apache HTTP server (reverse proxy, port 5000)",
+    "Livestatus socket (port 6557, optional TCP exposure)",
+    "Check engine (Nagios-compatible core)",
+    "Agent receiver (TCP fetcher, port 6556 on monitored hosts)",
+    "Piggyback mechanism (relay host data)",
+    "IPMI fetcher",
+    "SNMP fetcher",
+    "Special agents (cloud/vendor-specific data sources)",
+    "Notification engine",
+    "Event console (syslog/SNMP trap processing)",
+    "Inventory module",
+    "OMD (Open Monitoring Distribution) site manager",
+    "xinetd (agent service launcher)",
+    "cron daemon (scheduled checks)",
+    "postfix MTA (alert email relay)"
+  ],
+  "protocols": [
+    "SNMP (v1/v2c/v3)",
+    "IPMI",
+    "HTTP/HTTPS (GUI, REST API, active checks)",
+    "TCP (Checkmk agent protocol, port 6556)",
+    "Livestatus (Unix socket and optional TCP port 6557)",
+    "OpenTelemetry (application metrics, Cloud edition)",
+    "Syslog (event console ingestion)",
+    "SMTP (alert notifications via postfix)"
+  ],
+  "measurement": [
+    "Service state (OK/WARN/CRIT/UNKNOWN) with performance data",
+    "Host state (UP/DOWN/UNREACHABLE)",
+    "Metric time series stored in RRD files",
+    "Predictive levels (ML-based threshold computation via prediction_backend)",
+    "Hardware inventory (CPU, memory, disk, network interfaces)",
+    "Container and Kubernetes workload metrics",
+    "Database metrics (MySQL, PostgreSQL, Oracle, DB2, MongoDB, SAP HANA)",
+    "Network device metrics via SNMP MIBs",
+    "Log file monitoring (mk_logwatch plugin)",
+    "File integrity and stat monitoring (mk_filestats)"
+  ],
+  "configuration": [
+    "CMK_SITE_ID env var — OMD site name (default: cmk)",
+    "CMK_PASSWORD env var — admin UI password (random if unset)",
+    "CMK_LIVESTATUS_TCP env var — set to 'on' to expose Livestatus on TCP port 6557",
+    "MAIL_RELAY_HOST env var — SMTP smart host for alert emails",
+    "TZ env var — timezone injected into site environment file",
+    "CMK_VERSION build arg — package version (default 2.6.0b1)",
+    "CMK_EDITION build arg — edition selector (raw/enterprise/cloud/msp)",
+    "DISTRO_CODENAME build arg — Ubuntu codename for .deb package selection",
+    "omd config — runtime site configuration (Apache port, Livestatus mode)",
+    "/docker-entrypoint.d/ hooks — pre/post create/update/start lifecycle hooks"
+  ],
+  "fault_injection": [
+    "omd stop <site> — graceful site shutdown (triggered by SIGTERM/SIGHUP/SIGINT)",
+    "HEALTHCHECK: omd status returns non-zero when any site process is down",
+    "Broken version symlink at /omd/sites/<id>/version triggers automatic omd update --conflict=install",
+    "Missing CMK_SITE_ID causes container to exit with error",
+    "Missing .deb package file causes RUN layer to fail with explicit error message"
+  ],
+  "modes": [
+    "Raw (open-source, community plugins, single-site)",
+    "Enterprise (distributed monitoring, LDAP, automated agent management)",
+    "Cloud self-hosted (Kubernetes/AWS/Azure/GCP, push agents, OpenTelemetry)",
+    "Cloud SaaS (managed, auto-updates)",
+    "MSP (multitenancy, isolated customer environments)",
+    "Agent-based monitoring (TCP pull agent on port 6556)",
+    "Push agent mode (Cloud edition — agent initiates connection)",
+    "Agentless/SNMP monitoring",
+    "Special agent mode (vendor APIs: AWS, Azure, GCP, VMware, etc.)",
+    "Piggyback mode (relay data from proxy hosts)",
+    "Active checks mode (ping, HTTP, TCP, DNS, certificates)"
+  ],
+  "constraints": [
+    "Docker image requires a pre-downloaded .deb package; it cannot pull from the internet during RUN — package must be COPY-ed in before build",
+    "Only one OMD site per container is the expected pattern; the site name is fixed at container create time via CMK_SITE_ID",
+    "Livestatus TCP (port 6557) is disabled by default and must be explicitly enabled via CMK_LIVESTATUS_TCP=on",
+    "The build image (IMAGE_CMK_BASE) is not publicly distributed; building from source requires Checkmk's internal build infrastructure",
+    "Distributed monitoring and LDAP integration require Enterprise edition or higher — Raw edition is single-site only",
+    "OpenTelemetry application metrics ingestion requires Cloud edition",
+    "Push agents and auto-registration of hosts require Cloud edition",
+    "OMD site data volume must be mounted to persist configuration across container restarts; re-creation without volume resets all config"
+  ],
+  "docker_services": [
+    {
+      "name": "checkmk",
+      "image": "checkmk/check-mk-raw (or enterprise/cloud variant)",
+      "ports": ["5000:5000 (GUI/REST API via Apache)", "6557:6557 (Livestatus TCP, optional)"],
+      "env": ["CMK_SITE_ID", "CMK_PASSWORD", "CMK_LIVESTATUS_TCP", "MAIL_RELAY_HOST", "TZ"],
+      "volumes": ["/omd/sites/<site_id> (site data persistence)"],
+      "healthcheck": "omd status"
+    }
+  ],
+  "notable_absences": [
+    "No docker-compose.yml in the repository — Docker usage is single-container via docker run; compose examples exist only in documentation",
+    "No built-in time-series database UI (relies on RRD files; Grafana integration is a separate optional add-on)",
+    "No native Prometheus scrape endpoint in Raw edition (available via special agent or third-party plugin)",
+    "No Kubernetes operator for automated deployment — installation is manual via packages or Docker"
+  ]
+}

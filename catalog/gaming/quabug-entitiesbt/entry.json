@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/quabug/entitiesbt",
+  "name": "quabug/EntitiesBT",
+  "description": "A behavior tree framework for Unity's Entity Component System (DOTS) architecture, designed for data-oriented, garbage-free AI execution at scale.",
+  "sub_domain": "behavior-ai",
+  "score": 6,
+  "score_rationale": "495 stars, fills a niche for DOTS/ECS-based behavior trees in Unity with zero-GC design.",
+  "stars": 495,
+  "language": "C#",
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "behavior-ai"
+  ],
+  "quality_score": 57.6,
+  "tags": [
+    "behavior-tree",
+    "unity-dots",
+    "ecs",
+    "zero-gc",
+    "data-oriented"
+  ],
+  "category": "ECS AI Systems",
+  "summary": "DOTS behavior tree framework for data-oriented game AI",
+  "slug": "quabug-entitiesbt"
+}

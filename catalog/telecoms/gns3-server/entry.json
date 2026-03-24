@@ -1,0 +1,83 @@
+{
+  "name": "GNS3 Server",
+  "repo_url": "https://github.com/gns3/gns3-server",
+  "description": "Network emulation server managing Dynamips, VirtualBox, Qemu/KVM emulators via HTTP REST API. Most popular GUI-based open-source network emulator, supporting Docker containers as lightweight hosts.",
+  "domain": "enterprise-networking",
+  "secondary_domains": [
+    "multi-vendor-topology",
+    "network-emulation",
+    "network-lab"
+  ],
+  "protocols": [
+    "BGP",
+    "DHCP",
+    "DNS",
+    "EIGRP",
+    "IS-IS",
+    "MPLS",
+    "OSPF",
+    "RIP",
+    "SNMP",
+    "STP",
+    "VLAN"
+  ],
+  "provides": [
+    "multi-vendor-topology",
+    "ospf-emulation",
+    "web-dashboard",
+    "bgp-emulation",
+    "rest-api-control",
+    "network-emulation-server",
+    "snmp-agent",
+    "packet-capture",
+    "docker-node-support",
+    "vlan-emulation",
+    "dynamips-integration",
+    "qemu-kvm-integration",
+    "virtualbox-integration",
+    "topology-mutation",
+    "config-mutation",
+    "isis-emulation",
+    "network-digital-twin",
+    "node-failure-simulation",
+    "eigrp-emulation",
+    "mpls-emulation"
+  ],
+  "needs": [
+    "qemu-kvm",
+    "dynamips",
+    "virtualbox",
+    "router-images",
+    "linux-kernel-5.4+",
+    "gns3-web-ui",
+    "bsdutils"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "gns3/*",
+    "compose_services_count": 0,
+    "docker_evidence": "Docker support needs the script program (bsdutils or util-linux package), when running a docker VM. Containers consume far less RAM and CPU resources overall compared to traditional virtual machines."
+  },
+  "github_metrics": {
+    "stars": 983,
+    "last_commit": "2026-01-28",
+    "language": "Python",
+    "license": "GPL-3.0"
+  },
+  "eval_potential_score": 8,
+  "eval_notes": "Mature, widely-used network emulator with extensive Docker support. REST API enables programmatic control for agentic evaluations. Supports mixing Docker containers with full VMs for realistic enterprise network digital twins. Most popular GUI-based open-source network emulator. Supports Docker containers as nodes and wide range of commercial router images. Good for complex multi-vendor topology evaluations.",
+  "related_repos": [
+    "https://github.com/gns3/dynamips",
+    "https://github.com/gns3/gns3-gui",
+    "https://github.com/gns3/gns3-web",
+    "https://github.com/gns3/gns3-web-ui",
+    "https://github.com/gns3/ubridge",
+    "https://github.com/gns3/vpcs"
+  ],
+  "_sources": [
+    "discovery/digital-twin.json",
+    "discovery/transport.json"
+  ],
+  "slug": "gns3-server"
+}

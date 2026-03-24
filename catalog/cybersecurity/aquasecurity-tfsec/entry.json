@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/aquasecurity/tfsec",
+  "name": "aquasecurity/tfsec",
+  "description": "Static analysis tool for Terraform code that spots potential misconfigurations and security issues \u2014 now maintained as part of Trivy.",
+  "sub_domain": "vuln-scanners",
+  "score": 6,
+  "score_rationale": "Once a leading standalone IaC security scanner with 7k stars, MIT licensed, but engineering focus has shifted to Trivy, reducing its standalone relevance for new deployments.",
+  "stars": 7000,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "vuln-scanners"
+  ],
+  "quality_score": 66.8,
+  "tags": [
+    "malware",
+    "analysis",
+    "detection"
+  ],
+  "category": "Malware Analysis",
+  "summary": "Malware analysis and detection tools",
+  "slug": "aquasecurity-tfsec"
+}

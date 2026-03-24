@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/davidwilliams81/cubiquity",
+  "name": "DavidWilliams81/cubiquity",
+  "description": "An experimental micro-voxel engine written in C++ using sparse voxel DAGs, geometry instancing, and raytracing, released into the public domain for research purposes.",
+  "sub_domain": "voxel-engines",
+  "score": 4,
+  "score_rationale": "274 stars, an interesting research-focused micro-voxel engine but not production-ready and last updated 2020.",
+  "stars": 274,
+  "language": "C++",
+  "license": "CC0-1.0",
+  "last_activity": "2020-07-23",
+  "found_in_domains": [
+    "voxel-engines"
+  ],
+  "quality_score": 43.5,
+  "tags": [
+    "voxel",
+    "research",
+    "dag",
+    "sparse-voxel",
+    "raytracing"
+  ],
+  "category": "Research Voxel Engine",
+  "summary": "Research-focused micro-voxel engine using sparse voxel DAGs",
+  "slug": "davidwilliams81-cubiquity"
+}

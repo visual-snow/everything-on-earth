@@ -1,0 +1,63 @@
+{
+  "name": "RF-Swift",
+  "repo_url": "https://github.com/penthertz/rf-swift",
+  "description": "Multi-platform RF toolbox with 15+ specialized container images for SDR, telecom, Bluetooth, WiFi, and more.",
+  "domain": "cellular-protocol-analysis",
+  "secondary_domains": [
+    "rf-toolbox",
+    "sdr-containerized",
+    "wireless-security"
+  ],
+  "protocols": [
+    "GSM",
+    "LTE",
+    "5G NR",
+    "Bluetooth",
+    "WiFi",
+    "Zigbee"
+  ],
+  "provides": [
+    "sdr-toolbox",
+    "gsm-analysis",
+    "lte-analysis",
+    "5g-nr-analysis",
+    "bluetooth-analysis",
+    "wifi-analysis",
+    "zigbee-analysis",
+    "rf-signal-capture",
+    "container-images",
+    "gpu-accelerated-sdr",
+    "usb-passthrough",
+    "rfid-tools",
+    "automotive-rf-tools"
+  ],
+  "needs": [
+    "docker-or-podman",
+    "sdr-hardware",
+    "usb-passthrough-support",
+    "gpu-optional",
+    "linux-host"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "RF Swift supports both Docker and Podman as container engines. Multiple pre-built OCI-compatible container images. 15+ specialized images (SDR, telecom, Bluetooth, WiFi, RFID, automotive). GPU acceleration and USB passthrough support."
+  },
+  "github_metrics": {
+    "stars": 293,
+    "last_commit": "2025-01-17",
+    "language": "Go",
+    "license": "unknown"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Container-first RF toolbox. Telecom-specific images include cellular protocol tools. Good for SDR and RF signal analysis evals.",
+  "related_repos": [
+    "https://github.com/penthertz/cyberether"
+  ],
+  "_sources": [
+    "discovery/awesome-crawler.json"
+  ],
+  "slug": "rf-swift"
+}

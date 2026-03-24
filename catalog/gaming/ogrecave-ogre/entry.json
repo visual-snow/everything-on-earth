@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ogrecave/ogre",
+  "name": "OGRECave/ogre",
+  "description": "Object-Oriented Graphics Rendering Engine \u2014 a proven, modular C++ renderer supporting Vulkan, Direct3D, and OpenGL with Python, C#, and Java bindings; widely used in robotics (Gazebo, ROS) and games.",
+  "sub_domain": "graphics-rendering",
+  "score": 8,
+  "score_rationale": "Veteran rendering engine with 4.5k stars and 13k+ commits, actively maintained with recent v14.5 release, proven in production across many domains.",
+  "stars": 4500,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-01-31",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 77.2,
+  "tags": [
+    "graphics",
+    "rendering",
+    "modular"
+  ],
+  "category": "Rendering Engine",
+  "summary": "Veteran multi-API rendering engine with language bindings",
+  "slug": "ogrecave-ogre"
+}

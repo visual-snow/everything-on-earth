@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/facebookarchive/raknet",
+  "name": "facebookarchive/RakNet",
+  "description": "Archived cross-platform C++ networking engine for game programmers once used in AAA game titles; now superseded by active forks and alternatives.",
+  "sub_domain": "game-networking",
+  "score": 4,
+  "score_rationale": "Historically significant game networking engine with 3.4k stars but archived since 2022; useful as reference but superseded by active alternatives.",
+  "stars": 3400,
+  "language": "C++",
+  "license": "BSD-2-Clause",
+  "last_activity": "2022-01-13",
+  "found_in_domains": [
+    "game-networking"
+  ],
+  "quality_score": 52.3,
+  "tags": [
+    "networking",
+    "archived",
+    "reference",
+    "legacy",
+    "aaa-games"
+  ],
+  "category": "Legacy Game Networking",
+  "summary": "Historic AAA game networking library, now archived",
+  "slug": "facebookarchive-raknet"
+}

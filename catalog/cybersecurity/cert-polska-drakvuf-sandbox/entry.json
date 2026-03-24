@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/cert-polska/drakvuf-sandbox",
+  "name": "CERT-Polska/drakvuf-sandbox",
+  "description": "Automated hypervisor-level malware analysis system using DRAKVUF engine that requires no agent on guest OS, providing stealthy behavioral analysis.",
+  "sub_domain": "malware-reversing",
+  "score": 7,
+  "score_rationale": "1.3k stars from CERT-Polska, unique agentless hypervisor-based sandbox with activity through late 2025.",
+  "stars": 1300,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-11-17",
+  "found_in_domains": [
+    "malware-reversing"
+  ],
+  "quality_score": 66.9,
+  "tags": [
+    "malware-analysis",
+    "pe-format",
+    "sandboxing"
+  ],
+  "category": "Malware Analysis Tool",
+  "summary": "Automated hypervisor-level malware analysis system using DRAKVUF engine that requires no agent on...",
+  "slug": "cert-polska-drakvuf-sandbox"
+}

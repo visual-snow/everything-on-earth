@@ -1,0 +1,59 @@
+{
+  "name": "Advanced NETCONF Explorer (ANX)",
+  "repo_url": "https://github.com/cisco-ie/anx",
+  "description": "Graphical Explorer for NETCONF/YANG and gNMI/gRPC Telemetry with a Java NETCONF 1.1 client library. Provides visual tree navigation of YANG models and interactive NETCONF session management.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "telemetry"
+  ],
+  "protocols": [
+    "NETCONF",
+    "NETCONF 1.1",
+    "SSH",
+    "YANG",
+    "gNMI",
+    "gRPC"
+  ],
+  "provides": [
+    "netconf-client",
+    "yang-model-browser",
+    "web-dashboard",
+    "config-mutation",
+    "gnmi-client",
+    "java-netconf-library",
+    "netconf-explorer",
+    "yang-tree-navigation",
+    "grpc-telemetry-client"
+  ],
+  "needs": [
+    "netconf-server",
+    "java-runtime",
+    "gnmi-target"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 3,
+    "docker_evidence": "Docker-compose deployment with multiple services for the web UI, backend, and NETCONF client engine."
+  },
+  "github_metrics": {
+    "stars": 203,
+    "last_commit": "unknown",
+    "language": "Java",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "NETCONF exploration and testing GUI. The embedded Java NETCONF 1.1 client library (ANC) can be used programmatically. Useful for inspecting YANG model trees and validating agent NETCONF operations. GUI NETCONF/YANG explorer with Docker deployment. Good for visual NETCONF testing and YANG model browsing. Supports both NETCONF and gNMI protocols. Cisco-developed. Good for visual exploration of YANG models and NETCONF/gNMI interaction. More advanced than basic YANG Explorer with gNMI telemetry support. Graphical tree navigation is excellent for model exploration. Java NETCONF 1.1 client library is reusable. Less actively maintained than YANG Suite.",
+  "related_repos": [
+    "https://github.com/ciscodevnet/yang-explorer",
+    "https://github.com/ciscodevnet/yangsuite"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/netconf-servers.json",
+    "discovery/netconf-mgmt/netconf-testing.json",
+    "discovery/netconf-mgmt/restconf-gnmi-config.json",
+    "discovery/netconf-mgmt/yang-tooling.json"
+  ],
+  "slug": "advanced-netconf-explorer-anx"
+}

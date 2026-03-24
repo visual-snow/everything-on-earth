@@ -1,0 +1,55 @@
+{
+  "slug": "kne-kubernetes-network-emulation",
+  "name": "KNE (Kubernetes Network Emulation)",
+  "what_it_is": "KNE is a containerized network emulation framework built on Kubernetes that allows testing of network control planes using vendor-supplied container images without physical hardware. It provides a standard gRPC interface for topology management and multi-vendor network device emulation.",
+  "components": [
+    "Topology Manager (Kubernetes service with gRPC public API, manages link state and device discovery via CRDs)",
+    "Topology Agent (runs per host, enables data plane connectivity between pods)",
+    "Network Device Pods (vendor-supplied containers representing emulated network devices)",
+    "CLI Tool (manages cluster deployment and topology creation)"
+  ],
+  "protocols": [
+    "BGP",
+    "IS-IS",
+    "OSPF",
+    "OpenConfig",
+    "gNMI",
+    "gRPC",
+    "LACP (port aggregation)",
+    "APS (Automatic Protection Switching)"
+  ],
+  "measurement": [
+    "Transceiver state emulation",
+    "Optical characteristics emulation on data plane wires",
+    "Usage metrics reporting (opt-in, disabled by default)"
+  ],
+  "configuration": [
+    "Pod boot initial configuration mechanism",
+    "In-cluster and external service exposure per pod",
+    "CRD-based topology definition",
+    "gRPC topology manager API for programmatic topology management"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Topology creation and teardown via CLI",
+    "Cluster deployment management"
+  ],
+  "constraints": [
+    "No native Ethernet device exposure — Linux does not understand associated control messages, requiring the topology agent workaround",
+    "Network devices must be vendor-supplied container images; no built-in software router is provided",
+    "Requires a running Kubernetes cluster (kind or cloud-based) as a prerequisite",
+    "Data plane emulation fidelity is limited by the vendor container implementation, not enforced by KNE itself"
+  ],
+  "docker_services": [
+    "Vendor-supplied network device containers (e.g., Arista cEOS, Nokia SR Linux, Cisco XRd — vendor-dependent)",
+    "Topology Manager container (openconfig/kne controller)",
+    "Topology Agent container (runs on each Kubernetes node)"
+  ],
+  "notable_absences": [
+    "No built-in fault injection or traffic impairment primitives",
+    "No native traffic generation — requires external tools (e.g., OTG/Ixia-c)",
+    "No docker-compose deployment path — Kubernetes is required",
+    "No packet capture or flow measurement built into the framework",
+    "Measurement and observability depend entirely on vendor container capabilities"
+  ]
+}

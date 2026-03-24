@@ -1,0 +1,85 @@
+{
+  "slug": "free5gc",
+  "name": "free5GC",
+  "what_it_is": "free5GC is an open-source 5G core network implementation based on 3GPP Release 15+, written in Go. It provides all standard 5G core network functions (NFs) and is designed for research, development, and testing of 5G infrastructure.",
+  "components": [
+    "AMF (Access and Mobility Management Function)",
+    "SMF (Session Management Function)",
+    "UPF (User Plane Function)",
+    "UDM (Unified Data Management)",
+    "AUSF (Authentication Server Function)",
+    "UDR (Unified Data Repository)",
+    "PCF (Policy Control Function)",
+    "NRF (Network Repository Function)",
+    "NSSF (Network Slice Selection Function)",
+    "N3IWF (Non-3GPP Interworking Function)",
+    "CHF (Charging Function)",
+    "BSF (Binding Support Function)",
+    "TNGF (Trusted Non-3GPP Gateway Function)",
+    "Webconsole (web UI for subscriber management)",
+    "MongoDB (subscriber data store)"
+  ],
+  "protocols": [
+    "NAS (Non-Access Stratum) — UE-to-AMF signaling",
+    "NGAP (NG Application Protocol) — RAN-to-AMF N2 interface",
+    "PFCP (Packet Forwarding Control Protocol) — SMF-to-UPF N4 interface",
+    "GTP-U (GPRS Tunneling Protocol User Plane) — user-plane tunneling on N3/N9",
+    "SBI (Service Based Interface) — HTTP/2-based inter-NF REST APIs",
+    "SCTP — transport for NGAP",
+    "TLS — optional SBI security"
+  ],
+  "measurement": [
+    "No built-in metrics exporter or Prometheus endpoint documented in core repo",
+    "Test suite covers multi-UPF topologies and ULCL (Uplink Classifier) scenarios",
+    "Logs per NF written to stdout/file; log level configurable per NF"
+  ],
+  "configuration": [
+    "Per-NF YAML config files under config/ directory (e.g., amfcfg.yaml, smfcfg.yaml)",
+    "Network slice configuration via NSSF and SMF config files",
+    "Multi-UPF and ULCL path-selection configurable in SMF UE routing config",
+    "Subscriber data (IMSI, keys, slice info) managed via Webconsole or direct MongoDB inserts",
+    "N3IWF config for non-3GPP (Wi-Fi/untrusted) access"
+  ],
+  "fault_injection": [
+    "No built-in fault injection framework; test scripts can simulate UE attach/detach flows",
+    "Individual NFs can be stopped/restarted in Docker Compose to simulate NF failure"
+  ],
+  "modes": [
+    "All-in-one deployment via Docker Compose (free5gc-compose companion repo, ~15 services)",
+    "Single-host bare-metal install for development",
+    "Multi-UPF topology for path-selection research",
+    "ULCL (Uplink Classifier) mode for traffic steering"
+  ],
+  "constraints": [
+    "Requires Linux kernel with GTP5G kernel module loaded on UPF host; does not run on macOS or Windows natively",
+    "UPF (go-upf) requires kernel 5.4+ with gtp5g module; incompatible with standard container runtimes without --privileged and host networking",
+    "No built-in RAN — requires a separate gNodeB simulator (e.g., UERANSIM) to exercise the full stack",
+    "MongoDB is a hard runtime dependency; no alternative data store supported",
+    "SBI interfaces use plain HTTP/2 by default; TLS mutual auth requires manual certificate provisioning",
+    "N3IWF requires a separate network interface and IPsec support; not easily sandboxed"
+  ],
+  "docker_services": [
+    "free5gc-amf",
+    "free5gc-smf",
+    "free5gc-upf",
+    "free5gc-udm",
+    "free5gc-udr",
+    "free5gc-ausf",
+    "free5gc-nrf",
+    "free5gc-pcf",
+    "free5gc-nssf",
+    "free5gc-chf",
+    "free5gc-bsf",
+    "free5gc-n3iwf",
+    "free5gc-tngf",
+    "free5gc-webconsole",
+    "db (MongoDB)"
+  ],
+  "notable_absences": [
+    "No Prometheus/Grafana observability stack included",
+    "No built-in packet capture or traffic analysis tooling",
+    "No gNodeB/RAN simulator included — must supply UERANSIM or equivalent separately",
+    "No support for 5G SA roaming (inter-PLMN) in the base setup",
+    "No IMS/VoNR stack included"
+  ]
+}

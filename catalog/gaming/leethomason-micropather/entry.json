@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/leethomason/micropather",
+  "name": "leethomason/MicroPather",
+  "description": "A minimal two-file A* path finder for C++ games requiring only a Graph interface implementation. Designed for easy integration into existing game data structures.",
+  "sub_domain": "pathfinding-navmesh",
+  "score": 6,
+  "score_rationale": "356 stars, MIT, long-standing minimal A* library valued for its simplicity \u2014 just 2 files to drop into any C++ game project.",
+  "stars": 356,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "pathfinding-navmesh"
+  ],
+  "quality_score": 56.4,
+  "tags": [
+    "pathfinding",
+    "cpp",
+    "minimal"
+  ],
+  "category": "Pathfinding",
+  "summary": "Minimal two-file C++ A* implementation for easy game integration",
+  "slug": "leethomason-micropather"
+}

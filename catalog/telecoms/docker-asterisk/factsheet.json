@@ -1,0 +1,76 @@
+{
+  "slug": "docker-asterisk",
+  "name": "docker-asterisk",
+  "what_it_is": "A Dockerized Asterisk PBX image based on Alpine Linux, bundling the PrivateDial configuration suite, WebSMS HTTP-to-SMS bridge, and AutoBan intrusion detection via nftables. Targets residential and small-office VoIP deployments with TLS/SRTP media encryption and multi-stage image variants.",
+  "components": [
+    "Asterisk PBX engine (PJSIP channel driver)",
+    "PrivateDial – custom dialplan/config suite for voice, video, IM/SMS, and voicemail-by-email",
+    "WebSMS – PHP-based HTTP API bridge for SMS when SIP MESSAGE is unsupported by provider",
+    "AutoBan – intrusion detection/prevention daemon monitoring AMI security events and blocking IPs via nftables",
+    "PulseAudio integration (full/xtra variants) – two-way container audio via host socket sharing",
+    "runit init scheme – multi-service supervision under /etc/service/",
+    "docker-entrypoint.sh – entry/exit script lifecycle with SIGTERM handler"
+  ],
+  "protocols": [
+    "SIP over UDP (port 5060)",
+    "SIP over TCP (port 5060)",
+    "SIP/TLS over TCP (port 5061)",
+    "RTP (default dynamic range 10000-20000)",
+    "SRTP with SDES or DTLS key exchange",
+    "SDP",
+    "HTTP/HTTPS (WebSMS API)",
+    "SCTP (supported but not emphasized)",
+    "AMI – Asterisk Manager Interface (internal, used by AutoBan)"
+  ],
+  "measurement": [
+    "Configurable log level via SYSLOG_LEVEL (0-8 scale); logs directed to Docker daemon",
+    "AMI event stream consumed by AutoBan for security event monitoring",
+    "Health check mechanism present (details in image; not fully documented in README)",
+    "State persistence via entry/exit scripts in /etc/docker/entry.d and /etc/docker/exit.d"
+  ],
+  "configuration": [
+    "Environment variable SYSLOG_LEVEL (default 4, range 0-8) controls logging verbosity",
+    "HOSTNAME – used for TLS certificate CN identification",
+    "TLS_CERTDAYS (default 30) – self-signed certificate validity period",
+    "TLS_KEYBITS (default 2048) – self-signed key length",
+    "ACME_FILE (default /acme/acme.json) – path to Let's Encrypt cert from Traefik",
+    "ACME_POSTHOOK (default 'sv restart asterisk') – command run after certificate update",
+    "WEBSMSD_PORT (default 80; unset = WebSMS disabled) – PHP web server port",
+    "PULSE_SERVER / PULSE_COOKIE – PulseAudio socket and auth token for host audio",
+    "Config files seeded to /etc/asterisk on first start; existing configs untouched on upgrade",
+    "All persistent config consolidated under /srv with symlinks from standard Asterisk paths",
+    "RTP port range configurable in rtp.conf; must be narrowed (e.g., 10000-10099) in bridge network mode",
+    "Non-standard SIP ports supported via config for security obscurity"
+  ],
+  "fault_injection": [
+    "AutoBan blocks IPs via nftables on repeated SIP authentication failures detected through AMI",
+    "Requires cap_add: [net_admin, net_raw] for nftables manipulation inside container",
+    "No explicit fault-injection test harness documented"
+  ],
+  "modes": [
+    "mini – Asterisk engine only",
+    "base – Asterisk + TLS + logging + WebSMS + AutoBan",
+    "full – base + PulseAudio console audio",
+    "xtra – all available Asterisk packages",
+    "latest – current development build",
+    "Docker networking: bridge mode (default) or host mode (bypasses docker-proxy, loses bridge isolation)"
+  ],
+  "constraints": [
+    "Docker bridge networking cannot publish port ranges; RTP range must be narrowed significantly (e.g., 100 ports) or --network host must be used",
+    "TLS provides hop-by-hop signaling encryption only; end-to-end media encryption is a known design limitation",
+    "ICE/STUN/TURN configuration is explicitly noted as out of scope in the documentation",
+    "AutoBan requires net_admin and net_raw Linux capabilities; may conflict with restrictive container security policies",
+    "Self-signed certificates are regenerated if validity falls below TLS_CERTDAYS threshold, requiring client trust configuration"
+  ],
+  "docker_services": [
+    "asterisk – main PBX service (mlan/asterisk image, variants: mini/base/full/xtra/latest); ports 5060/udp, 5060/tcp, 5061/tcp, 10000-10099/udp (typical narrowed RTP range); volumes for /srv (config persistence) and optionally /acme (Let's Encrypt); cap_add: [sys_ptrace, net_admin, net_raw]"
+  ],
+  "notable_absences": [
+    "No docker-compose.yml at repo root (only inline examples in README)",
+    "H.323 protocol not supported (PJSIP/SIP only)",
+    "No built-in metrics exporter (e.g., Prometheus endpoint) documented",
+    "ICE/STUN/TURN configuration guidance explicitly out of scope",
+    "No CLI-based dynamic port range configuration (requires file edits)",
+    "No multi-node clustering or high-availability configuration documented"
+  ]
+}

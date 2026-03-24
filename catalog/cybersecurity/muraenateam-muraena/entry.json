@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/muraenateam/muraena",
+  "name": "muraenateam/muraena",
+  "description": "Almost-transparent reverse proxy aimed at automating phishing and post-phishing activities using a dynamic proxy approach to interact with target origins rather than serving static pages. Modernizes classic MITM phishing for authorized red team engagements.",
+  "sub_domain": "Phishing & Social Engineering",
+  "score": 7,
+  "score_rationale": "Solid AiTM phishing proxy with 1k stars; actively maintained through November 2024 and used in advanced red team phishing infrastructure.",
+  "stars": 1000,
+  "language": "Go",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-11-12",
+  "found_in_domains": [
+    "Phishing & Social Engineering"
+  ],
+  "quality_score": 66.0,
+  "tags": [
+    "dynamic-analysis",
+    "reverse-engineering",
+    "static-analysis"
+  ],
+  "category": "Security Tool",
+  "summary": "Almost-transparent reverse proxy aimed at automating phishing and post-phishing activities using ...",
+  "slug": "muraenateam-muraena"
+}

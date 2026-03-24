@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/securing/iossecuritysuite",
+  "name": "securing/IOSSecuritySuite",
+  "description": "Pure Swift library for iOS platform anti-tampering and jailbreak/debugger/emulator detection per OWASP MASVS standards, used by app developers to harden production iOS applications.",
+  "sub_domain": "Mobile Security",
+  "score": 7,
+  "score_rationale": "Well-adopted iOS security hardening library with 2.6k stars; useful for both defensive implementation and understanding iOS detection mechanisms.",
+  "stars": 2600,
+  "language": "Swift",
+  "license": null,
+  "last_activity": "2024-12-08",
+  "found_in_domains": [
+    "Mobile Security"
+  ],
+  "quality_score": 69.3,
+  "tags": [
+    "pe-format",
+    "security-tool",
+    "open-source"
+  ],
+  "category": "Security Tool",
+  "summary": "Pure Swift library for iOS platform anti-tampering and jailbreak/debugger/emulator detection per ...",
+  "slug": "securing-iossecuritysuite"
+}

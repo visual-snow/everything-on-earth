@@ -1,0 +1,212 @@
+{% extends "base.html" %}
+
+{% block title %}{{ domain_name }} — Everything on Earth{% endblock %}
+
+{% block head %}
+<style>
+  .main-content { padding: 1.5rem; position: relative; }
+  #graph-container {
+    width: 100%;
+    height: calc(100dvh - 3rem);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--bg-base);
+  }
+  .graph-tooltip {
+    position: absolute;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+    pointer-events: none;
+    z-index: 10;
+    display: none;
+    max-width: 280px;
+  }
+  .graph-tooltip .tt-name { font-weight: 600; color: #fff; margin-bottom: 0.25rem; }
+  .graph-tooltip .tt-meta { color: var(--text-muted); font-size: 0.75rem; }
+  .sort-controls {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.75rem;
+  }
+  .sort-btn {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    cursor: pointer;
+    font-family: var(--font-body);
+    transition: all 0.15s;
+  }
+  .sort-btn:hover, .sort-btn.active { border-color: var(--accent); color: var(--accent); }
+  @media (max-width: 768px) {
+    #graph-container { height: 60vh; }
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-layout">
+  <aside class="sidebar">
+    <nav class="breadcrumb">
+      <a href="../../index.html">Home</a>
+      <span class="sep">/</span>
+      <span class="current">{{ domain_name }}</span>
+    </nav>
+
+    <input type="text" class="search-input" id="search" placeholder="Filter repos...">
+
+    <div class="sidebar-section">
+      <h3>Sub-domains</h3>
+      <ul class="sidebar-list" id="domain-list">
+        <li class="active" data-domain="">All <span class="count">{{ stats.total }}</span></li>
+        {% for sd in sub_domains %}
+        <li data-domain="{{ sd.name }}">{{ sd.name }} <span class="count">{{ sd.count }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="sidebar-section">
+      <h3>Sort by</h3>
+      <div class="sort-controls">
+        <button class="sort-btn active" data-sort="score">Score</button>
+        <button class="sort-btn" data-sort="stars">Stars</button>
+        <button class="sort-btn" data-sort="name">Name</button>
+      </div>
+    </div>
+
+    <div class="sidebar-stats">
+      <p>{{ stats.total }} repos &middot; {{ stats.domain_count }} sub-domains</p>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div id="graph-container"></div>
+    <div class="graph-tooltip" id="tooltip">
+      <div class="tt-name" id="tt-name"></div>
+      <div class="tt-meta" id="tt-meta"></div>
+    </div>
+  </main>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://unpkg.com/force-graph"></script>
+<script>
+const CATALOG = {{ entries_json }};
+const EDGES = {{ edges_json }};
+const DOMAIN_SLUG = "{{ domain_slug }}";
+
+const slugIndex = {};
+CATALOG.forEach(e => slugIndex[e.slug] = e);
+
+const graphData = {
+  nodes: CATALOG.map(e => ({
+    id: e.slug,
+    name: e.name,
+    score: e.quality_score ?? e.score ?? 0,
+    stars: e.stars || 0,
+    language: e.language || '',
+    domains: e.found_in_domains || [e.sub_domain],
+  })),
+  links: EDGES.map(e => ({ source: e.source, target: e.target }))
+};
+
+function scoreColor(score) {
+  if (score >= 70) return '#3fb950';
+  if (score >= 40) return '#d29922';
+  return '#484f58';
+}
+
+const container = document.getElementById('graph-container');
+const tooltip = document.getElementById('tooltip');
+const ttName = document.getElementById('tt-name');
+const ttMeta = document.getElementById('tt-meta');
+
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const Graph = ForceGraph()(container)
+  .graphData(graphData)
+  .nodeVal(n => Math.max(2, n.score / 5))
+  .nodeColor(n => scoreColor(n.score))
+  .nodeLabel('')
+  .linkColor(() => 'rgba(88,166,255,0.08)')
+  .linkWidth(0.5)
+  .backgroundColor('#0d1117')
+  .onNodeHover(node => {
+    container.style.cursor = node ? 'pointer' : 'default';
+    if (node) {
+      ttName.textContent = node.name;
+      ttMeta.textContent = `Score: ${node.score} · ★ ${node.stars.toLocaleString()}${node.language ? ' · ' + node.language : ''}`;
+      tooltip.style.display = 'block';
+    } else {
+      tooltip.style.display = 'none';
+    }
+  })
+  .onNodeClick(node => {
+    window.location.href = 'detail/' + node.id + '.html';
+  })
+  .onBackgroundClick(() => {
+    tooltip.style.display = 'none';
+  });
+
+if (prefersReducedMotion) {
+  Graph.cooldownTicks(0);
+}
+
+container.addEventListener('mousemove', e => {
+  if (tooltip.style.display === 'block') {
+    tooltip.style.left = (e.offsetX + 12) + 'px';
+    tooltip.style.top = (e.offsetY - 8) + 'px';
+  }
+});
+
+// Search filter
+let activeSearch = '';
+let activeDomain = '';
+
+function applyFilters() {
+  const q = activeSearch.toLowerCase();
+  Graph.nodeVisibility(n => {
+    const entry = slugIndex[n.id];
+    if (!entry) return true;
+    const matchSearch = !q || n.name.toLowerCase().includes(q)
+      || (entry.description || '').toLowerCase().includes(q)
+      || (entry.tags || []).some(t => t.includes(q));
+    const matchDomain = !activeDomain
+      || (entry.found_in_domains || [entry.sub_domain]).includes(activeDomain);
+    return matchSearch && matchDomain;
+  });
+}
+
+document.getElementById('search').addEventListener('input', e => {
+  activeSearch = e.target.value;
+  applyFilters();
+});
+
+document.getElementById('domain-list').addEventListener('click', e => {
+  const li = e.target.closest('li');
+  if (!li) return;
+  document.querySelectorAll('#domain-list li').forEach(l => l.classList.remove('active'));
+  li.classList.add('active');
+  activeDomain = li.dataset.domain;
+  applyFilters();
+});
+
+document.querySelectorAll('.sort-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const sort = btn.dataset.sort;
+    if (sort === 'score') Graph.nodeVal(n => Math.max(2, n.score / 5));
+    else if (sort === 'stars') Graph.nodeVal(n => Math.max(2, Math.log10(Math.max(n.stars, 1)) * 2));
+    else Graph.nodeVal(3);
+  });
+});
+</script>
+{% endblock %}

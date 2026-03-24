@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ne0nd0g/merlin",
+  "name": "Ne0nd0g/merlin",
+  "description": "Cross-platform post-exploitation HTTP/2 C2 server and agent written in Go, supporting multiple transport protocols and modular post-exploitation capabilities. Well-maintained with a clean architecture suitable for authorized engagements.",
+  "sub_domain": "Red Team & C2 Frameworks",
+  "score": 8,
+  "score_rationale": "5.5k stars, actively maintained through April 2025, and valued for its HTTP/2 transport and Go-based cross-platform design.",
+  "stars": 5500,
+  "language": "Go",
+  "license": "GPL-3.0",
+  "last_activity": "2025-04-17",
+  "found_in_domains": [
+    "Red Team & C2 Frameworks"
+  ],
+  "quality_score": 77.9,
+  "tags": [
+    "exploit",
+    "vulnerability",
+    "poc"
+  ],
+  "category": "Exploit Framework",
+  "summary": "Exploit development and vulnerability testing",
+  "slug": "ne0nd0g-merlin"
+}

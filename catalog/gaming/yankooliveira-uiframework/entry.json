@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/yankooliveira/uiframework",
+  "name": "yankooliveira/uiframework",
+  "description": "The deVoid UI Framework for Unity providing a flexible UI architecture with navigation history, transition animations, input blocking, and priority-based layering enforcing strict separation of concerns.",
+  "sub_domain": "game-ui",
+  "score": 5,
+  "score_rationale": "Well-architected Unity UI navigation framework with 622 stars, but last updated 2019 making it partially outdated for modern Unity versions.",
+  "stars": 622,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2019-03-20",
+  "found_in_domains": [
+    "game-ui"
+  ],
+  "quality_score": 52.4,
+  "tags": [
+    "ui",
+    "navigation",
+    "unity"
+  ],
+  "category": "UI Framework",
+  "summary": "Flexible UI architecture with navigation history and animations",
+  "slug": "yankooliveira-uiframework"
+}

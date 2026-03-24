@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/devdogio/quest-system-pro",
+  "name": "devdogio/Quest-System-Pro",
+  "description": "A previously commercial Unity quest and conversation tree system, now open-sourced, featuring built-in quest types (gather, kill, talk), conversation trees, achievements, and NPC waypoint behavior.",
+  "sub_domain": "dialogue-narrative",
+  "score": 7,
+  "score_rationale": "Mature, feature-rich Unity quest and dialogue system with 642 stars, formerly on the Asset Store and now freely open-sourced.",
+  "stars": 642,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 64.5,
+  "tags": [
+    "unity",
+    "quest-system",
+    "dialogue",
+    "npc-behavior"
+  ],
+  "category": "Quest & Dialogue",
+  "summary": "Full-featured quest and dialogue system formerly on Unity Asset Store",
+  "slug": "devdogio-quest-system-pro"
+}

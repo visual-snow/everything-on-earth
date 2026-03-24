@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/kingofbugbounty/kingofbugbountytips",
+  "name": "KingOfBugbounty/KingOfBugBountyTips",
+  "description": "Shares tips from well-known bug hunters using recon methodology to find subdomains, APIs, and exploitable tokens, with 400+ one-liners and specialized recon techniques.",
+  "sub_domain": "Bug Bounty Tools",
+  "score": 7,
+  "score_rationale": "Popular practical tips repository with 5.3k stars providing actionable one-liners and methodology insights from experienced bug bounty hunters.",
+  "stars": 5300,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-08-01",
+  "found_in_domains": [
+    "Bug Bounty Tools"
+  ],
+  "quality_score": 71.8,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "Shares tips from well-known bug hunters using recon methodology to find subdomains, APIs, and exploi",
+  "slug": "kingofbugbounty-kingofbugbountytips"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/prowlengine/prowl",
+  "name": "ProwlEngine/Prowl",
+  "description": "An open-source C# 3D game engine under MIT license inspired by Unity, featuring a complete editor environment for Windows and Linux.",
+  "sub_domain": "game-engines-3d",
+  "score": 5,
+  "score_rationale": "738 stars, Unity-inspired C# engine with active development and full editor, but still early-stage with limited production use.",
+  "stars": 738,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 52.9,
+  "tags": [
+    "3d-game-engine",
+    "c#",
+    "unity-inspired",
+    "editor",
+    "early-stage"
+  ],
+  "category": "Unity-inspired C# Engine",
+  "summary": "Early-stage Unity-inspired C# 3D engine with full editor",
+  "slug": "prowlengine-prowl"
+}

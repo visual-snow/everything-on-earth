@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/zeek/zeek",
+  "name": "zeek/zeek",
+  "description": "A powerful open-source framework for network traffic analysis and security monitoring, generating high-fidelity transaction logs and enabling deep inspection of network protocols.",
+  "sub_domain": "network-security",
+  "score": 10,
+  "score_rationale": "Leading NSM framework used widely in enterprise and research environments with 7.5k stars and v8.0.6 released January 2026.",
+  "stars": 7500,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-01-29",
+  "found_in_domains": [
+    "network-security"
+  ],
+  "quality_score": 91.0,
+  "tags": [
+    "network-analysis",
+    "pe-format",
+    "security-tool"
+  ],
+  "category": "Network Analysis",
+  "summary": "A powerful open-source framework for network traffic analysis and security monitoring, generating...",
+  "slug": "zeek-zeek"
+}

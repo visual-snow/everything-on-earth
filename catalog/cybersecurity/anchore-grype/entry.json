@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/anchore/grype",
+  "name": "anchore/grype",
+  "description": "Vulnerability scanner for container images and filesystems supporting Docker, OCI, and Singularity formats. Integrates with Syft for SBOM generation and provides CVSS, EPSS, and KEV-based risk scoring.",
+  "sub_domain": "container-cloud-security",
+  "score": 9,
+  "score_rationale": "11.8k stars with active maintenance into March 2026, widely adopted in CI/CD pipelines as a fast and focused container vulnerability scanner.",
+  "stars": 11800,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "container-cloud-security",
+    "Supply Chain Security",
+    "vuln-scanners"
+  ],
+  "quality_score": 86.6,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "anchore-grype"
+}

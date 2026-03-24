@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/evennia/evennia",
+  "name": "evennia/evennia",
+  "description": "A modern Python library for building text-based multiplayer online games (MUD, MUSH, MUX, MO* etc.) using Django and Twisted, with an HTML5 webclient and websocket support.",
+  "sub_domain": "visual-novel-engines",
+  "score": 8,
+  "score_rationale": "2k stars, the leading Python MUD/MU* framework with extensive documentation and 10k+ commits of active development.",
+  "stars": 2000,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": null,
+  "found_in_domains": [
+    "visual-novel-engines"
+  ],
+  "quality_score": 74.4,
+  "tags": [
+    "mud",
+    "multiplayer",
+    "text-based",
+    "python",
+    "mush"
+  ],
+  "category": "MUD Framework",
+  "summary": "Python framework for building text-based multiplayer games with WebSocket support",
+  "slug": "evennia-evennia"
+}

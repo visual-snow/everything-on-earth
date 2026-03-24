@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cdk-team/cdk",
+  "name": "cdk-team/CDK",
+  "description": "Container penetration toolkit for security testing of Kubernetes, Docker, and Containerd environments. Provides container escape exploits, lateral movement tools, and cluster takeover utilities without OS dependencies.",
+  "sub_domain": "container-cloud-security",
+  "score": 8,
+  "score_rationale": "4.6k stars with active development into 2026, specialized toolkit for container security testing and offensive Kubernetes research.",
+  "stars": 4600,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-23",
+  "found_in_domains": [
+    "container-cloud-security"
+  ],
+  "quality_score": 77.3,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "cdk-team-cdk"
+}

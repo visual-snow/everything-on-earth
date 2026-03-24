@@ -1,0 +1,61 @@
+{
+  "name": "Artillery",
+  "repo_url": "https://github.com/artilleryio/artillery",
+  "description": "Complete load testing platform supporting HTTP, GraphQL, WebSocket, Socket.io, gRPC, and Kinesis with serverless distributed execution.",
+  "domain": "load-testing",
+  "secondary_domains": [
+    "multi-protocol",
+    "telecom-api-evaluation",
+    "traffic-simulation"
+  ],
+  "protocols": [
+    "HTTP",
+    "HTTPS",
+    "GraphQL",
+    "WebSocket",
+    "Socket.io",
+    "gRPC",
+    "Kinesis"
+  ],
+  "provides": [
+    "websocket-load-testing",
+    "http-load-testing",
+    "browser-automation-testing",
+    "distributed-load-testing",
+    "graphql-load-testing",
+    "multi-protocol-testing",
+    "traffic-generation",
+    "load-testing",
+    "metrics-reporting",
+    "api-stress-testing",
+    "scenario-based-testing",
+    "performance-benchmarking",
+    "grpc-load-testing"
+  ],
+  "needs": [
+    "nodejs-runtime",
+    "target-api-endpoint",
+    "aws-credentials",
+    "k8s-cluster"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "artilleryio/artillery",
+    "compose_services_count": 0,
+    "docker_evidence": "Dockerfile present; Docker usage: docker run --rm -it -v ${PWD}:/scripts artilleryio/artillery:2.0.0-30 run /scripts/test_script.yaml"
+  },
+  "github_metrics": {
+    "stars": 8900,
+    "last_commit": "2026-02-05",
+    "language": "JavaScript",
+    "license": "MPL-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Full-featured load testing platform with YAML scenario definitions. Multi-protocol support including WebSocket and gRPC. Playwright browser testing integration. 20+ monitoring integrations. Well-suited for complex multi-protocol telecom API evaluation.",
+  "related_repos": [],
+  "_sources": [
+    "discovery/traffic.json"
+  ],
+  "slug": "artillery"
+}

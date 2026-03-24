@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/google/clusterfuzz",
+  "name": "google/clusterfuzz",
+  "description": "Google's scalable distributed fuzzing infrastructure powering OSS-Fuzz, supporting libFuzzer and AFL++ at massive scale with automated crash deduplication and triage.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 9,
+  "score_rationale": "Core backend of Google's fuzzing operations with 5.5k stars, actively maintained with a v2.26.0 release in March 2026.",
+  "stars": 5500,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 83.9,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "google-clusterfuzz"
+}

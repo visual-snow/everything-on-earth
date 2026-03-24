@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/meta-llama/purplellama",
+  "name": "meta-llama/PurpleLlama",
+  "description": "A Meta-maintained set of tools to assess and improve LLM security, including CyberSec Eval benchmarks and Llama Guard prompt safety models for LLM-powered application protection.",
+  "sub_domain": "ai-security",
+  "score": 9,
+  "score_rationale": "Meta's official LLM safety and security toolkit with 4.1k stars providing both benchmarks and production safeguards for LLM applications.",
+  "stars": 4100,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "ai-security"
+  ],
+  "quality_score": 82.9,
+  "tags": [
+    "llm-safety",
+    "benchmark-framework",
+    "red-teaming",
+    "ai-security"
+  ],
+  "category": "LLM Safety Framework",
+  "summary": "Meta's comprehensive safety benchmark framework for LLMs with red teaming capabilities",
+  "slug": "meta-llama-purplellama"
+}

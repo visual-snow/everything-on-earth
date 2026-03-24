@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nvidia-omniverse/physx",
+  "name": "NVIDIA-Omniverse/PhysX",
+  "description": "NVIDIA PhysX 5 SDK with source code for the PhysX, Flow, and Blast physics systems including GPU simulation code. Integrated into Unreal Engine and Unity, now fully open-source including GPU acceleration.",
+  "sub_domain": "physics-engines",
+  "score": 9,
+  "score_rationale": "4.5k-star NVIDIA-backed production physics engine powering Unreal Engine and Unity with full GPU simulation source now open.",
+  "stars": 4500,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "physics-engines"
+  ],
+  "quality_score": 83.2,
+  "tags": [
+    "physics",
+    "gpu",
+    "nvidia"
+  ],
+  "category": "Physics Engine",
+  "summary": "NVIDIA PhysX 5 with GPU acceleration for Unreal and Unity",
+  "slug": "nvidia-omniverse-physx"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/dvyukov/go-fuzz",
+  "name": "dvyukov/go-fuzz",
+  "description": "Coverage-guided fuzzing solution for Go packages that handles complex text and binary inputs, developed by Dmitry Vyukov (author of syzkaller), predating Go's built-in fuzzing support.",
+  "sub_domain": "Exploit Development & Fuzzing",
+  "score": 7,
+  "score_rationale": "Solid fuzzing tool for Go with 4.8k stars, though activity has slowed since Go added native fuzzing; last commit September 2024.",
+  "stars": 4800,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2024-09-23",
+  "found_in_domains": [
+    "Exploit Development & Fuzzing"
+  ],
+  "quality_score": 71.5,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "testing",
+    "offensive-security"
+  ],
+  "category": "Security Tool",
+  "summary": "Cybersecurity assessment and testing tool",
+  "slug": "dvyukov-go-fuzz"
+}

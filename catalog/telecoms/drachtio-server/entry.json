@@ -1,0 +1,58 @@
+{
+  "name": "drachtio-server",
+  "repo_url": "https://github.com/drachtio/drachtio-server",
+  "description": "SIP call processing server controllable via Node.js applications, built on the sofia SIP stack. Provides high-performance SIP engine with programmable control through JavaScript.",
+  "domain": "call-processing",
+  "secondary_domains": [
+    "programmable-pbx",
+    "voip"
+  ],
+  "protocols": [
+    "SIP",
+    "TCP",
+    "UDP",
+    "TLS",
+    "WebSocket"
+  ],
+  "provides": [
+    "sip-server",
+    "sip-call-processing",
+    "sip-proxy",
+    "sip-registrar",
+    "websocket-sip",
+    "tls-sip",
+    "prometheus-metrics",
+    "homer-integration",
+    "programmable-sip-engine",
+    "sofia-sip-stack"
+  ],
+  "needs": [
+    "nodejs-client",
+    "drachtio-srf-framework",
+    "host-network-mode",
+    "sofia-sip-library"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": false,
+    "docker_hub_image": "drachtio/drachtio-server",
+    "compose_services_count": 0,
+    "docker_evidence": "Official Docker image at drachtio/drachtio-server:latest tracking main branch. Run with: docker run -d --rm --name drachtio --net=host drachtio/drachtio-server"
+  },
+  "github_metrics": {
+    "stars": 313,
+    "last_commit": "2025-01-01",
+    "language": "C++",
+    "license": "MIT"
+  },
+  "eval_potential_score": 6,
+  "eval_notes": "Programmable SIP server with Node.js API (drachtio-srf framework). Excellent for building agentic SIP applications and testing call processing logic. Prometheus and Homer integration for observability.",
+  "related_repos": [
+    "https://github.com/drachtio/drachtio-srf",
+    "https://github.com/davehorton/docker-drachtio-server"
+  ],
+  "_sources": [
+    "discovery/signaling.json"
+  ],
+  "slug": "drachtio-server"
+}

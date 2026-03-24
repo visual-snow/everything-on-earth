@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ktstephano/stratusgfx",
+  "name": "KTStephano/StratusGFX",
+  "description": "Real-time 3D rendering engine with physically-based rendering, real-time global illumination, and modern graphics techniques built on OpenGL 4.6.",
+  "sub_domain": "graphics-rendering",
+  "score": 5,
+  "score_rationale": "Promising hobby research renderer with 801 stars featuring real-time GI, but still in pre-release with known instability on limited platforms.",
+  "stars": 801,
+  "language": "C++",
+  "license": "MPL-2.0",
+  "last_activity": "2024-12-01",
+  "found_in_domains": [
+    "graphics-rendering"
+  ],
+  "quality_score": 53.2,
+  "tags": [
+    "rendering",
+    "global-illumination",
+    "opengl"
+  ],
+  "category": "3D Engine",
+  "summary": "Real-time 3D engine with global illumination research",
+  "slug": "ktstephano-stratusgfx"
+}

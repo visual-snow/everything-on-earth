@@ -1,0 +1,55 @@
+{
+  "name": "Checkmk",
+  "repo_url": "https://github.com/checkmk/checkmk",
+  "description": "Best-in-class infrastructure and application monitoring with 2000+ built-in integrations, SNMP support, and auto-discovery.",
+  "domain": "auto-discovery",
+  "secondary_domains": [
+    "netconf"
+  ],
+  "protocols": [
+    "SNMP",
+    "SNMPv3",
+    "HTTP",
+    "IPMI"
+  ],
+  "provides": [
+    "snmpv3-support",
+    "snmp-monitoring",
+    "ipmi-monitoring",
+    "web-dashboard",
+    "event-management",
+    "network-device-monitoring",
+    "streaming-telemetry",
+    "infrastructure-monitoring",
+    "rest-api",
+    "alerting-engine",
+    "auto-discovery"
+  ],
+  "needs": [
+    "linux-host",
+    "docker-runtime",
+    "persistent-storage"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": "checkmk/check-mk-raw",
+    "compose_services_count": 1,
+    "docker_evidence": "Distributed as Docker image. Installation from containers supported with docker run commands."
+  },
+  "github_metrics": {
+    "stars": 1600,
+    "last_commit": "2026-03-15",
+    "language": "Python",
+    "license": "GPL-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Feature-rich monitoring with extensive SNMP and auto-discovery. Good for evaluations involving monitoring setup, rule configuration, and incident response.",
+  "related_repos": [
+    "https://github.com/natthasath/docker-checkmk"
+  ],
+  "_sources": [
+    "discovery/monitoring.json"
+  ],
+  "slug": "checkmk"
+}

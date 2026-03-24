@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/lavagang/melonloader",
+  "name": "LavaGang/MelonLoader",
+  "description": "Universal mod loader for Unity games compatible with both IL2CPP and Mono scripting backends, enabling C# plugin development across Windows and Linux for games like VRChat, Beat Saber, and Among Us.",
+  "sub_domain": "modding-frameworks",
+  "score": 8,
+  "score_rationale": "Second most popular Unity mod loader with 3.8k stars and 14 million downloads, Apache-2.0 licensed, actively maintained through January 2025 with broad game compatibility.",
+  "stars": 3800,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2025-01-17",
+  "found_in_domains": [
+    "modding-frameworks"
+  ],
+  "quality_score": 76.6,
+  "tags": [
+    "unity",
+    "modding",
+    "il2cpp"
+  ],
+  "category": "Modding Framework",
+  "summary": "Universal Unity mod loader supporting IL2CPP and Mono backends",
+  "slug": "lavagang-melonloader"
+}

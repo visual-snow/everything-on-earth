@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/threat9/routersploit",
+  "name": "threat9/routersploit",
+  "description": "An exploitation framework dedicated to embedded devices, providing exploit modules, credential scanners, payload generators, and vulnerability checks for routers and IoT devices.",
+  "sub_domain": "pentest-frameworks",
+  "score": 8,
+  "score_rationale": "Specialized and widely-used IoT/router exploitation framework with 13k stars, filling a niche not covered by general frameworks.",
+  "stars": 13000,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "pentest-frameworks",
+    "Wireless & RF Security"
+  ],
+  "quality_score": 80.9,
+  "tags": [
+    "exploit-dev",
+    "payload-gen",
+    "threat-intel",
+    "vuln-research",
+    "vulnerability-scanning"
+  ],
+  "category": "Exploit Framework",
+  "summary": "An exploitation framework dedicated to embedded devices, providing exploit modules, credential sc...",
+  "slug": "threat9-routersploit"
+}

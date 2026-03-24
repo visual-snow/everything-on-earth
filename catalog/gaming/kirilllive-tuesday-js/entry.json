@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/kirilllive/tuesday-js",
+  "name": "Kirilllive/tuesday-js",
+  "description": "Tuesday JS is a free, browser-based visual novel editor using standard HTML5 elements with no dependencies. Supports SVG, GIF animations, CSS styling and exports to desktop and Android.",
+  "sub_domain": "dialogue-narrative",
+  "score": 7,
+  "score_rationale": "Accessible no-dependency visual novel tool with 636 stars, actively maintained through 2026 and suitable for web-first interactive fiction projects.",
+  "stars": 636,
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-01",
+  "found_in_domains": [
+    "dialogue-narrative"
+  ],
+  "quality_score": 64.4,
+  "tags": [
+    "visual-novel",
+    "web-based",
+    "html5",
+    "interactive-fiction"
+  ],
+  "category": "Web Visual Novel",
+  "summary": "No-dependency HTML5 visual novel editor with desktop and Android export",
+  "slug": "kirilllive-tuesday-js"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/renpy/renpy",
+  "name": "renpy/renpy",
+  "description": "The industry-standard open-source visual novel engine used to create over 8,000 published games. Features its own scripting language, Python extensibility, and cross-platform support.",
+  "sub_domain": "visual-novel-engines",
+  "score": 10,
+  "score_rationale": "6.3k stars, the dominant open-source VN engine, powering thousands of commercial and indie games with active development through 2026.",
+  "stars": 6300,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-01-04",
+  "found_in_domains": [
+    "visual-novel-engines"
+  ],
+  "quality_score": 90.4,
+  "tags": [
+    "visual-novel",
+    "python",
+    "vn-engine",
+    "interactive-fiction",
+    "scripting"
+  ],
+  "category": "Visual Novel Engine",
+  "summary": "Industry-standard visual novel engine powering 8000+ published games",
+  "slug": "renpy-renpy"
+}

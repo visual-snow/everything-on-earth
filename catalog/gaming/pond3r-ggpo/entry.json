@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pond3r/ggpo",
+  "name": "pond3r/ggpo",
+  "description": "Good Game Peace Out rollback network SDK enabling input prediction and speculative execution for peer-to-peer games, pioneering low-latency netcode for fighting games.",
+  "sub_domain": "game-networking",
+  "score": 9,
+  "score_rationale": "The original rollback netcode library with 3.5k stars, adopted widely in fighting game ports (Street Fighter, Skullgirls) and cited by nearly every modern rollback implementation.",
+  "stars": 3500,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2022-01-01",
+  "found_in_domains": [
+    "game-networking"
+  ],
+  "quality_score": 82.4,
+  "tags": [
+    "rollback",
+    "netcode",
+    "fighting-games",
+    "p2p",
+    "low-latency"
+  ],
+  "category": "P2P Game Networking",
+  "summary": "Pioneering rollback netcode library for peer-to-peer fighting games",
+  "slug": "pond3r-ggpo"
+}

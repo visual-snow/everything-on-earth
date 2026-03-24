@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hslatman/awesome-threat-intelligence",
+  "name": "hslatman/awesome-threat-intelligence",
+  "description": "A curated collection of threat intelligence resources organized into sources, formats, frameworks, platforms, and tools categories. Serves as a comprehensive reference guide for security professionals implementing threat intelligence programs.",
+  "sub_domain": "Blue Team & Defensive Tools",
+  "score": 8,
+  "score_rationale": "The canonical CTI resource list with 10k stars, widely referenced for building threat intelligence capabilities.",
+  "stars": 10000,
+  "language": "Markdown",
+  "license": null,
+  "last_activity": "2025-06-01",
+  "found_in_domains": [
+    "Blue Team & Defensive Tools",
+    "osint-recon"
+  ],
+  "quality_score": 80.0,
+  "tags": [
+    "cybersecurity",
+    "vulnerability-analysis",
+    "penetration-testing",
+    "exploitation"
+  ],
+  "category": "Security Tool",
+  "summary": "A curated collection of threat intelligence resources organized into sources, formats, frameworks, p",
+  "slug": "hslatman-awesome-threat-intelligence"
+}

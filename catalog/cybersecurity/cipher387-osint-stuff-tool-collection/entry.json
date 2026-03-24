@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cipher387/osint_stuff_tool_collection",
+  "name": "cipher387/osint_stuff_tool_collection",
+  "description": "A collection of several hundred online tools and 1000+ services for OSINT research covering maps/geolocation, social media, domain/IP investigation, image analysis, cryptocurrencies, search engines, and data analysis tools.",
+  "sub_domain": "awesome-lists",
+  "score": 8,
+  "score_rationale": "Extensive OSINT tool collection with 7.7k stars providing one of the broadest catalogs of practical open-source intelligence resources.",
+  "stars": 7700,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "awesome-lists",
+    "osint-recon"
+  ],
+  "quality_score": 79.1,
+  "tags": [
+    "development-tool",
+    "open-source",
+    "framework",
+    "library"
+  ],
+  "category": "Development Tool",
+  "summary": "A collection of several hundred online tools and 1000+ services for OSINT research covering maps/geo",
+  "slug": "cipher387-osint-stuff-tool-collection"
+}

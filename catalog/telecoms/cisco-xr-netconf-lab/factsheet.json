@@ -1,0 +1,62 @@
+{
+  "slug": "cisco-xr-netconf-lab",
+  "name": "Cisco XR NETCONF Lab",
+  "what_it_is": "A Jupyter-based hands-on lab for learning NETCONF/YANG and building Python NETCONF clients against Cisco IOS-XR. It pairs a notebook workspace with a Docker-compose telemetry stack (InfluxDB + Telegraf + Chronograf) to visualise model-driven telemetry while exercises run.",
+  "components": [
+    "Jupyter Lab notebook (workshop.ipynb) for NETCONF exercises",
+    "ncclient Python library for NETCONF RPC calls",
+    "InfluxDB 1.7.9 time-series database storing telemetry",
+    "Telegraf 1.11.5 collector ingesting gRPC telemetry from IOS-XR on port 57777",
+    "Chronograf 1.6.2 dashboard for visualising telemetry data",
+    "IOS-XR device (external, required) with NETCONF-YANG SSH agent enabled",
+    "Iperf traffic generator (installed on both Linux host and IOS-XR)"
+  ],
+  "protocols": [
+    "NETCONF over SSH (port 830)",
+    "SSH (port 22, device management)",
+    "gRPC no-TLS (port 57777, model-driven telemetry streaming from IOS-XR to Telegraf)",
+    "HTTP (InfluxDB API on port 8086, Chronograf UI on port 8888)",
+    "HTTPS (Jupyter Lab on port 8443)"
+  ],
+  "measurement": [
+    "Model-driven telemetry via sensor-path Cisco-IOS-XR-ifmgr-oper:interface-properties (interface stats)",
+    "Telemetry sample interval: 10000 ms (10 s) with strict-timer subscription",
+    "Encoding: self-describing-gpb",
+    "All telemetry stored in InfluxDB database named 'telemetry'",
+    "Chronograf dashboard ('Traffic Monitoring') loaded manually for visualisation"
+  ],
+  "configuration": [
+    "workshop-configuration.ini: [DEVICE] section with Host, SSHPort (22), NCPort (830), UserName, Password",
+    "IOS-XR requires: telemetry model-driven config, destination-group pointing to host:57777, sensor-group SGroupGeneric1, subscription Subscription1",
+    "IOS-XR requires: netconf-yang agent ssh enabled",
+    "IOS-XR requires: tpa vrf default update-source dataports Loopback0",
+    "Jupyter Lab host assumed at 198.18.134.50; IOS-XR at 198.18.134.72 (credentials: cisco/cisco)",
+    "Telegraf config mounted from ./telegraf/telegraf.conf (read-only)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Interactive notebook mode: cells executed manually with Shift+Enter",
+    "Telemetry monitoring mode: docker-compose stack running alongside notebook exercises"
+  ],
+  "constraints": [
+    "Requires an external physical or virtual IOS-XR device (not included in the repo); lab does NOT provide a simulated XR instance",
+    "IOS-XR version must be 7.0.x or compatible; lab was tested only against 7.0.x",
+    "Host must be a Linux machine with a fixed IP (198.18.134.50 assumed in IOS-XR telemetry destination config)",
+    "Python version must be 3.x; tested on 3.6.8 with ncclient 0.6.6",
+    "Iperf must be installed on both the Linux host and the IOS-XR device to generate traffic for telemetry exercises",
+    "docker-compose v1.23.2 required (version 3 compose file format)"
+  ],
+  "docker_services": [
+    "influxdb (influxdb:1.7.9-alpine) — time-series store, database 'telemetry', port 8086 (internal)",
+    "telegraf (telegraf:1.11.5-alpine) — gRPC telemetry receiver, port 57777 exposed to host",
+    "chronograf (chronograf:1.6.2-alpine) — web UI, port 8888 exposed to host, connects to influxdb:8086"
+  ],
+  "notable_absences": [
+    "No simulated or containerised IOS-XR device; a real device is mandatory",
+    "No RESTCONF support documented despite IOS-XR supporting it",
+    "No gNMI/gNOI coverage despite gRPC being present for telemetry",
+    "No TLS configuration for gRPC telemetry (explicitly 'no-tls')",
+    "No automated test suite or CI pipeline",
+    "No YANG model browser or YANG explorer tooling included"
+  ]
+}

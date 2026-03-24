@@ -1,0 +1,74 @@
+{
+  "slug": "o-ran-sc-smo-ves-collector",
+  "name": "O-RAN SC SMO VES Collector",
+  "what_it_is": "An O-RAN Service Management and Orchestration (SMO) component that collects VES (Virtual Event Streaming) events posted by O-RAN network elements and pipelines them through Kafka into InfluxDB for persistence and Grafana for visualization. It implements the ONAP VES collector interface for O-RAN performance measurement (PM) and event data.",
+  "components": [
+    "smo-collector: HTTP/HTTPS VES event receiver (port 9999), publishes events to Kafka topic",
+    "smo-dmaap-adapter: DMaaP-to-Kafka bridge adapter (port 5000), translates DMaaP messages to Kafka",
+    "smo-influxdb-connector: Kafka consumer that writes measurement data to InfluxDB (port 9990)",
+    "smo-post-config: One-shot init container that configures InfluxDB databases and Grafana dashboards",
+    "smo-kafka: Confluent Kafka broker (port 29092) for internal event streaming",
+    "smo-zookeeper: ZooKeeper coordination service for Kafka (port 22181)",
+    "smo-influxdb: InfluxDB 1.8.5 time-series database for PM data persistence (port 8086)",
+    "smo-grafana: Grafana 7.5.11 dashboard for PM data visualization (port 3000)",
+    "smo-kafdrop: Kafka topic browser UI (port 29000) for observability"
+  ],
+  "protocols": [
+    "VES (Virtual Event Streaming) over HTTP/HTTPS",
+    "Kafka PLAINTEXT on port 29092 (internal), port 39092 (localhost)",
+    "DMaaP message bus adapter (smo-dmaap-adapter)",
+    "InfluxDB HTTP API on port 8086",
+    "Grafana HTTP API on port 3000",
+    "TLS/HTTPS via mounted self-signed or third-party certificates"
+  ],
+  "measurement": [
+    "Performance Measurement (PM) events ingested via VES and stored in InfluxDB",
+    "Grafana dashboards configured automatically by smo-post-config for PM visualization",
+    "Kafka topic 'smo-events' carries all VES events between collector and downstream consumers",
+    "InfluxDB INFLUXDB_DATA_MAX_SERIES_PER_DATABASE=0 and INFLUXDB_DATA_MAX_VALUES_PER_TAG=0 (unlimited cardinality)"
+  ],
+  "configuration": [
+    "smo-collector env: smo_kafka_host, smo_kafka_port, smo_kafka_topic, collector_host, collector_port, collector_user, collector_pass, collector_path, loglevel, enable_assert",
+    "smo-dmaap-adapter env: kafka_host, kafka_port, log_level, enable_assert",
+    "smo-influxdb-connector env: smo_influxdb_host, smo_influxdb_port, smo_kafka_host, smo_kafka_port, loglevel, enable_assert",
+    "smo-post-config env: smo_influxdb_host, smo_influxdb_port, smo_grafana_host, smo_grafana_port, smo_grafana_auth",
+    "TLS certificates mounted from ~/ves-certificate host directory into /opt/smo/certs (vescertificate.key, vescertificate.csr, vescertificate.crt)",
+    "Grafana default credentials: admin:admin (set via smo_grafana_auth)"
+  ],
+  "fault_injection": [
+    "enable_assert flag on collector and dmaap-adapter (set to 'True' to enable assertion checks for testing)",
+    "loglevel configurable per service (DEBUG/ERROR) to increase verbosity during fault investigation"
+  ],
+  "modes": [
+    "HTTP mode: collector listens without TLS when no certificates are mounted",
+    "HTTPS/TLS mode: collector uses certificates from ~/ves-certificate volume mount",
+    "DMaaP ingestion mode: events arrive via smo-dmaap-adapter from DMaaP bus",
+    "Direct VES mode: events POST directly to smo-collector:9999"
+  ],
+  "constraints": [
+    "Certificates MUST be pre-created and placed in ~/ves-certificate on the host before starting the stack; the collector will not generate them automatically",
+    "The hostname 'smo-influxdb' must be resolvable from any external client machine accessing Grafana — requires a manual /etc/hosts entry on the client",
+    "All custom O-RAN images (collector, dmaap-adapter, influxdb-connector, post-config) are pulled from nexus3.o-ran-sc.org:10002 and are not available on Docker Hub",
+    "Kafka is configured with replication factor 1 — single-broker only, not suitable for multi-node HA deployment",
+    "Kafka advertised listener for external access is hardcoded to localhost:39092 — external non-localhost access requires reconfiguration",
+    "InfluxDB version pinned to 1.8.5 (v1 API) — incompatible with InfluxDB 2.x API clients"
+  ],
+  "docker_services": [
+    "smo-collector",
+    "smo-dmaap-adapter",
+    "smo-influxdb-connector",
+    "smo-post-config",
+    "smo-kafka",
+    "smo-zookeeper",
+    "smo-influxdb",
+    "smo-grafana",
+    "smo-kafdrop"
+  ],
+  "notable_absences": [
+    "No authentication or authorization on Kafka broker (PLAINTEXT only, no SASL/SSL)",
+    "No VES schema validation configuration exposed — collector accepts any valid VES event structure",
+    "No persistent volumes defined for Kafka, Grafana, or InfluxDB in docker-compose — data is lost on container restart",
+    "No health checks defined for any service in docker-compose",
+    "No fault/alarm event domain handling explicitly documented — focus is PM/measurement data"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tencent/gautomator",
+  "name": "Tencent/GAutomator",
+  "description": "An open-source test automation framework for mobile games that interacts with Unity/Unreal engine GameObjects directly, avoiding device resolution adaptation issues across Android and iOS devices.",
+  "sub_domain": "game-devops-analytics",
+  "score": 7,
+  "score_rationale": "1.4k stars, engine-level game automation from Tencent, uniquely targeting GameObject API for robust mobile game testing.",
+  "stars": 1400,
+  "language": "Objective-C",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "game-devops-analytics"
+  ],
+  "quality_score": 67.2,
+  "tags": [
+    "testing",
+    "mobile",
+    "automation",
+    "unity",
+    "engine-integration"
+  ],
+  "category": "Mobile Game Test Automation",
+  "summary": "Engine-level test automation via GameObject API for Unity/Unreal",
+  "slug": "tencent-gautomator"
+}

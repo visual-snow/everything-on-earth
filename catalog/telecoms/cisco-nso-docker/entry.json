@@ -1,0 +1,64 @@
+{
+  "name": "Cisco NSO Docker",
+  "repo_url": "https://github.com/nso-developer/nso-docker",
+  "description": "Cisco Network Services Orchestrator in Docker \u2014 ecosystem for seamless NSO development, testing, and CI. Includes netsim for simulating network devices.",
+  "domain": "netconf",
+  "secondary_domains": [
+    "netsim",
+    "network-orchestration",
+    "nso"
+  ],
+  "protocols": [
+    "CLI",
+    "NETCONF",
+    "RESTCONF",
+    "SSH",
+    "YANG"
+  ],
+  "provides": [
+    "netconf-server",
+    "cli-management",
+    "netsim-device-simulation",
+    "config-mutation",
+    "dev-prod-docker-images",
+    "yang-datastore",
+    "ci-cd-pipeline",
+    "ssh-server",
+    "network-orchestration",
+    "multi-vendor-ned-support",
+    "restconf-server"
+  ],
+  "needs": [
+    "cisco-nso-installer",
+    "cisco-ned-packages",
+    "linux-host",
+    "docker-daemon"
+  ],
+  "docker_support": {
+    "has_dockerfile": true,
+    "has_compose": true,
+    "docker_hub_image": null,
+    "compose_services_count": 0,
+    "docker_evidence": "Home of the NSO in Docker ecosystem. Organize your NSO dev flow to seamlessly build and test in CI and locally on Linux and OS X. Docker networking connects to netsim."
+  },
+  "github_metrics": {
+    "stars": 80,
+    "last_commit": "unknown",
+    "language": "Makefile/Shell",
+    "license": "Apache-2.0"
+  },
+  "eval_potential_score": 7,
+  "eval_notes": "Cisco NSO is the industry-standard network orchestrator with built-in netsim. Docker ecosystem enables CI-friendly deployments. Requires Cisco NSO installer (not fully open source) but netsim provides realistic multi-vendor device simulation. NID (NSO In Docker) ecosystem. Development and production image variants. Built-in netsim for simulating network devices. Supports NED repositories for multi-vendor device simulation. Requires NSO installer from Cisco.",
+  "related_repos": [
+    "https://github.com/ciscops/nso-docker",
+    "https://github.com/confd-developer/nso-drned-xmnr-docker",
+    "https://github.com/muhammad-rafi/cisco-nso-docker",
+    "https://github.com/nso-developer/lsa-container-example"
+  ],
+  "_sources": [
+    "discovery/netconf-mgmt/config-modeling.json",
+    "discovery/netconf-mgmt/netconf-servers.json",
+    "discovery/netconf-mgmt/virtual-nos.json"
+  ],
+  "slug": "cisco-nso-docker"
+}

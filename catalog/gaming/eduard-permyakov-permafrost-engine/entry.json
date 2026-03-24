@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/permafrost-engine/permafrost-engine",
+  "name": "eduard-permyakov/permafrost-engine",
+  "description": "An OpenGL RTS game engine written in C, inspired by classic RTS games like Warcraft III and Age of Empires. Includes pathfinding, fog of war, and unit AI.",
+  "sub_domain": "game-engines-3d",
+  "score": 6,
+  "score_rationale": "2.7k stars, a carefully crafted niche RTS engine in pure C with impressive feature completeness for its scope.",
+  "stars": 2700,
+  "language": "C",
+  "license": "GPL-3.0",
+  "last_activity": "2024-01-01",
+  "found_in_domains": [
+    "game-engines-3d"
+  ],
+  "quality_score": 63.5,
+  "tags": [
+    "rts-game-engine",
+    "c",
+    "opengl",
+    "ai-pathfinding",
+    "fog-of-war"
+  ],
+  "category": "C-based RTS Engine",
+  "summary": "Pure C RTS engine with pathfinding, fog of war, and unit AI",
+  "slug": "eduard-permyakov-permafrost-engine"
+}

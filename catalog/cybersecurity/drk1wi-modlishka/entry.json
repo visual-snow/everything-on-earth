@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/drk1wi/modlishka",
+  "name": "drk1wi/Modlishka",
+  "description": "Penetration testing tool functioning as a man-in-the-middle reverse proxy that enables transparent proxying of multi-domain destination traffic over a single domain without requiring client certificate installation. Demonstrates 2FA bypass techniques in authorized security research.",
+  "sub_domain": "Phishing & Social Engineering",
+  "score": 8,
+  "score_rationale": "Widely cited AiTM phishing proxy with 5.3k stars; actively maintained into 2025 and frequently paired with evilginx2 in security research.",
+  "stars": 5300,
+  "language": "Go",
+  "license": "LicenseRef-Modlishka",
+  "last_activity": "2025-05-18",
+  "found_in_domains": [
+    "Phishing & Social Engineering"
+  ],
+  "quality_score": 77.8,
+  "tags": [
+    "pe-format",
+    "reverse-engineering",
+    "security-tool"
+  ],
+  "category": "Security Tool",
+  "summary": "Penetration testing tool functioning as a man-in-the-middle reverse proxy that enables transparen...",
+  "slug": "drk1wi-modlishka"
+}

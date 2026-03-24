@@ -1,6 +1,7 @@
 """Tests for the massive-crawl deterministic pipeline."""
 
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -277,3 +278,35 @@ def test_explorer_sorts_by_quality_score(tmp_path):
 
     content = (tmp_path / "explorer.html").read_text()
     assert content.index("high") < content.index("low")
+
+
+def test_cli_explorer_stage(tmp_path):
+    """The --stage explorer --catalog-root flag works end-to-end."""
+    domain = tmp_path / "testdomain"
+    domain.mkdir()
+    (domain / "catalog.json").write_text(
+        json.dumps(
+            [
+                {
+                    "repo_url": "https://github.com/a/b",
+                    "name": "tool",
+                    "description": "A tool",
+                    "quality_score": 70,
+                    "score": 7,
+                    "stars": 100,
+                    "sub_domain": "sub",
+                    "found_in_domains": ["sub"],
+                    "tags": ["test"],
+                },
+            ]
+        )
+    )
+
+    pipeline_path = Path(__file__).parent.parent / "pipeline" / "pipeline.py"
+    result = subprocess.run(
+        [sys.executable, str(pipeline_path), "--stage", "explorer", "--catalog-root", str(tmp_path)],
+        capture_output=True,
+        text=True,
+    )
+    assert result.returncode == 0, f"stderr: {result.stderr}"
+    assert (tmp_path / "explorer.html").exists()

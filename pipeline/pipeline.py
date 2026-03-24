@@ -189,15 +189,33 @@ def run_explorer(
 
 def main():
     parser = argparse.ArgumentParser(description="massive-crawl deterministic pipeline")
-    parser.add_argument("--config", required=True, help="Path to swarm-config.json")
+    parser.add_argument("--config", default=None, help="Path to swarm-config.json")
     parser.add_argument("--stage", default="dedup,score,finalize",
-                        help="Comma-separated stages to run (default: all)")
+                        help="Comma-separated stages to run (default: dedup,score,finalize)")
     parser.add_argument("--input-dir", default=".", help="Directory containing input files")
     parser.add_argument("--output-dir", default=None, help="Output directory (default: from config)")
+    parser.add_argument("--catalog-root", default=None, help="Root catalog dir for explorer stage")
     args = parser.parse_args()
 
-    config = json.loads(Path(args.config).read_text())
     stages = [s.strip() for s in args.stage.split(",")]
+
+    if "explorer" in stages:
+        if not args.catalog_root:
+            print("--catalog-root is required for explorer stage", file=sys.stderr)
+            sys.exit(1)
+        catalog_root = Path(args.catalog_root)
+        template_dir = Path(__file__).parent / "templates"
+        run_explorer(catalog_root=catalog_root, template_dir=template_dir)
+        stages = [s for s in stages if s != "explorer"]
+
+    if not stages:
+        return
+
+    if not args.config:
+        print("--config is required for dedup/score/finalize stages", file=sys.stderr)
+        sys.exit(1)
+
+    config = json.loads(Path(args.config).read_text())
     input_dir = Path(args.input_dir)
     output_dir = Path(args.output_dir) if args.output_dir else Path(config["output"]["directory"])
     output_dir.mkdir(parents=True, exist_ok=True)

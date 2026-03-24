@@ -2,20 +2,20 @@
 """
 massive-crawl deterministic pipeline.
 
-Four stages: dedup -> prune -> enrich -> finalize.
+Three stages: dedup -> score -> finalize.
 Each stage reads a file, transforms it, writes a file.
-The dedup, prune, and finalize stages are deterministic with no LLM involvement.
-The enrich stage uses the Anthropic API to add tags, categories, and summaries.
+All stages are deterministic with no LLM involvement.
+Enrichment (tags, category, summary) is handled by Claude Code subagents
+between score and finalize — see skill/massive-crawl/SKILL.md.
 
 Usage:
     python pipeline.py --config swarm-config.json
     python pipeline.py --config swarm-config.json --stage dedup
-    python pipeline.py --config swarm-config.json --stage prune --min-score 5 --min-stars 20
+    python pipeline.py --config swarm-config.json --stage score
 """
 
 import argparse
 import json
-import re
 import sys
 from pathlib import Path
 
@@ -61,116 +61,38 @@ def run_dedup(entries: list[dict]) -> list[dict]:
     return result
 
 
-def run_prune(
-    entries: list[dict],
-    min_score: int = 0,
-    min_stars: int = 0,
-    active_since: str | None = None,
-) -> tuple[list[dict], list[dict]]:
-    """Prune entries by hard cuts (missing fields) and soft cuts (thresholds).
+def run_score(entries: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Score entries using agent data. Hard cuts for data quality only.
 
-    Returns (kept, pruned_log) where pruned_log explains each removal.
+    No soft thresholds, no API calls. Everything that passes hard cuts stays.
+    Returns (scored_entries, removed_log).
     """
-    kept = []
-    pruned_log = []
+    scored = []
+    removed_log = []
 
     for entry in entries:
         url = entry.get("repo_url", "").strip()
         desc = entry.get("description", "").strip()
-        score = entry.get("score", 0)
-        stars = entry.get("stars") or 0
-        activity = entry.get("last_activity") or ""
 
-        # Hard cuts
         if not url:
-            pruned_log.append({"name": entry.get("name", "?"), "reason": "no_url"})
+            removed_log.append({"name": entry.get("name", "?"), "reason": "no_url"})
             continue
         if not desc:
-            pruned_log.append({"name": entry.get("name", "?"), "reason": "no_description"})
+            removed_log.append({"name": entry.get("name", "?"), "reason": "no_description"})
             continue
 
-        # Soft cuts
-        if min_score and score < min_score:
-            pruned_log.append({"name": entry.get("name", "?"), "reason": f"min_score ({score} < {min_score})"})
-            continue
-        if min_stars and stars < min_stars:
-            pruned_log.append({"name": entry.get("name", "?"), "reason": f"min_stars ({stars} < {min_stars})"})
-            continue
-        if active_since and (not activity or activity < active_since):
-            pruned_log.append({"name": entry.get("name", "?"), "reason": f"inactive (last: {activity}, cutoff: {active_since})"})
-            continue
-
-        kept.append(entry)
-
-    return kept, pruned_log
-
-
-def strip_code_fences(text: str) -> str:
-    """Strip markdown code fences from LLM responses."""
-    text = text.strip()
-    # Remove ```json ... ``` or ``` ... ```
-    pattern = r'^```(?:json)?\s*\n(.*?)\n```'
-    match = re.match(pattern, text, re.DOTALL)
-    if match:
-        return match.group(1).strip()
-    return text
-
-
-def enrich_single(entry: dict, topic: str, max_tokens: int = 1024) -> dict:
-    """Enrich a single entry using Anthropic API (synchronous, one call per entry).
-
-    Returns {tags, category, summary}.
-    """
-    import anthropic
-    client = anthropic.Anthropic()
-    prompt = f"""Given this open-source repository in the "{topic}" domain:
-
-Name: {entry['name']}
-Description: {entry['description']}
-Language: {entry.get('language', 'unknown')}
-Score: {entry.get('score', 'N/A')}
-
-Return a JSON object with:
-- "tags": array of 3-5 lowercase normalized topic tags
-- "category": a human-readable category name (2-4 words)
-- "summary": one-line summary of what makes this repo notable (max 100 chars)
-
-Return ONLY the JSON object, no markdown fences or extra text."""
-
-    response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=max_tokens,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = response.content[0].text
-    cleaned = strip_code_fences(raw)
-    return json.loads(cleaned)
-
-
-def run_enrich(entries: list[dict], topic: str, max_tokens: int = 1024) -> list[dict]:
-    """Enrich all entries with tags, category, and summary.
-
-    INVARIANT: len(output) == len(input). Enrichment never drops entries.
-    On individual failure, entry gets empty tags/category/summary rather than being dropped.
-    """
-    result = []
-    for i, entry in enumerate(entries):
         enriched = dict(entry)
-        try:
-            data = enrich_single(entry, topic, max_tokens)
-            enriched["tags"] = data.get("tags", [])
-            enriched["category"] = data.get("category")
-            enriched["summary"] = data.get("summary")
-        except Exception as e:
-            print(f"  [enrich] Failed for {entry.get('name', '?')}: {e}", file=sys.stderr)
-            enriched["tags"] = []
-            enriched["category"] = None
-            enriched["summary"] = None
-        result.append(enriched)
-        print(f"  [enrich] {i+1}/{len(entries)}: {entry.get('name', '?')}")
+        agent_score = entry.get("score", 0)
+        stars = entry.get("stars") or 0
 
-    assert len(result) == len(entries), f"Enrichment dropped entries: {len(result)} != {len(entries)}"
-    return result
+        # Composite score: agent relevance (0-10 scaled to 0-60) + log-scaled stars (0-40)
+        import math
+        star_component = min(math.log10(max(stars, 1) + 1) / 5.0, 1.0) * 40
+        enriched["quality_score"] = round(agent_score * 6 + star_component, 1)
+
+        scored.append(enriched)
+
+    return scored, removed_log
 
 
 def run_finalize(
@@ -184,8 +106,8 @@ def run_finalize(
     if template_dir is None:
         template_dir = Path(__file__).parent / "templates"
 
-    # Sort by score descending
-    entries.sort(key=lambda e: e.get("score", 0), reverse=True)
+    # Sort by quality_score descending (falls back to agent score for legacy data)
+    entries.sort(key=lambda e: e.get("quality_score", e.get("score", 0)), reverse=True)
 
     # 1. catalog.json
     catalog_path = output_dir / "catalog.json"
@@ -207,7 +129,7 @@ def run_finalize(
         avg = sum(e.get("score", 0) for e in d_entries) / len(d_entries)
         domains_summary.append({"name": d_name, "count": len(d_entries), "avg_score": f"{avg:.1f}"})
 
-    scores = [e.get("score", 0) for e in entries]
+    scores = [e.get("quality_score", e.get("score", 0)) for e in entries]
     context = {
         "topic": topic,
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -216,7 +138,7 @@ def run_finalize(
         "min_score": min(scores) if scores else 0,
         "max_score": max(scores) if scores else 0,
         "domains": domains_summary,
-        "top_repos": [e for e in entries if e.get("score", 0) >= 8],
+        "top_repos": [e for e in entries if e.get("quality_score", e.get("score", 0)) >= 70],
     }
 
     env = Environment(loader=FileSystemLoader(str(template_dir)))
@@ -243,11 +165,8 @@ def run_finalize(
 def main():
     parser = argparse.ArgumentParser(description="massive-crawl deterministic pipeline")
     parser.add_argument("--config", required=True, help="Path to swarm-config.json")
-    parser.add_argument("--stage", default="dedup,prune,enrich,finalize",
+    parser.add_argument("--stage", default="dedup,score,finalize",
                         help="Comma-separated stages to run (default: all)")
-    parser.add_argument("--min-score", type=int, default=0, help="Minimum score for pruning")
-    parser.add_argument("--min-stars", type=int, default=0, help="Minimum stars for pruning")
-    parser.add_argument("--active-since", default=None, help="Minimum last_activity date (YYYY-MM-DD)")
     parser.add_argument("--input-dir", default=".", help="Directory containing input files")
     parser.add_argument("--output-dir", default=None, help="Output directory (default: from config)")
     args = parser.parse_args()
@@ -279,31 +198,17 @@ def main():
             for domain, count in domains.most_common():
                 print(f"  {domain}: {count}")
 
-        elif stage == "prune":
+        elif stage == "score":
             dedup_path = output_dir / "dedup.json"
             dedup = json.loads(dedup_path.read_text())
-            print(f"[prune] Input: {len(dedup)} entries")
-            result, pruned_log = run_prune(
-                dedup,
-                min_score=args.min_score,
-                min_stars=args.min_stars,
-                active_since=args.active_since,
-            )
-            print(f"[prune] Kept: {len(result)}, Pruned: {len(pruned_log)}")
-            for log in pruned_log:
-                print(f"  PRUNED: {log['name']} — {log['reason']}")
-            pruned_path = output_dir / "pruned.json"
-            pruned_path.write_text(json.dumps(result, indent=2))
-            print(f"[prune] Wrote {pruned_path}")
-        elif stage == "enrich":
-            pruned_path = output_dir / "pruned.json"
-            pruned = json.loads(pruned_path.read_text())
-            print(f"[enrich] Input: {len(pruned)} entries")
-            result = run_enrich(pruned, topic=config["topic"], max_tokens=config["pipeline"]["max_tokens"])
-            print(f"[enrich] Output: {len(result)} entries (should equal input)")
-            enriched_path = output_dir / "enriched.json"
-            enriched_path.write_text(json.dumps(result, indent=2))
-            print(f"[enrich] Wrote {enriched_path}")
+            print(f"[score] Input: {len(dedup)} entries")
+            result, removed_log = run_score(dedup)
+            print(f"[score] Kept: {len(result)}, Removed: {len(removed_log)}")
+            for log in removed_log:
+                print(f"  REMOVED: {log['name']} — {log['reason']}")
+            scored_path = output_dir / "scored.json"
+            scored_path.write_text(json.dumps(result, indent=2))
+            print(f"[score] Wrote {scored_path}")
         elif stage == "finalize":
             enriched_path = output_dir / "enriched.json"
             enriched = json.loads(enriched_path.read_text())

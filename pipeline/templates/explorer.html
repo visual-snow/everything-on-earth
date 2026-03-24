@@ -38,8 +38,9 @@
     <option value="">All sub-domains</option>
   </select>
   <select id="sort-by">
-    <option value="score">Sort by score</option>
+    <option value="score">Sort by quality score</option>
     <option value="stars">Sort by stars</option>
+    <option value="activity">Sort by activity</option>
     <option value="name">Sort by name</option>
   </select>
 </div>
@@ -65,7 +66,8 @@ function render(entries) {
       <h3><a href="${e.repo_url}" target="_blank">${e.name}</a></h3>
       <p>${e.summary || e.description}</p>
       <div class="meta">
-        <span class="score">${e.score}/10</span>
+        <span class="score" style="color: ${e.quality_score >= 70 ? '#3fb950' : e.quality_score >= 40 ? '#d29922' : '#8b949e'}">${e.quality_score ?? e.score}</span>
+        ${e.discovery_score != null ? `<span>relevance ${e.discovery_score}/10</span>` : ''}
         ${e.stars ? `<span>★ ${e.stars.toLocaleString()}</span>` : ''}
         ${e.language ? `<span>${e.language}</span>` : ''}
         ${e.license ? `<span>${e.license}</span>` : ''}
@@ -93,8 +95,9 @@ function applyFilters() {
     (e.found_in_domains || [e.sub_domain]).includes(domain)
   );
 
-  if (sort === 'score') filtered.sort((a, b) => b.score - a.score);
+  if (sort === 'score') filtered.sort((a, b) => (b.quality_score ?? b.score ?? 0) - (a.quality_score ?? a.score ?? 0));
   else if (sort === 'stars') filtered.sort((a, b) => (b.stars || 0) - (a.stars || 0));
+  else if (sort === 'activity') filtered.sort((a, b) => (b.last_activity || '').localeCompare(a.last_activity || ''));
   else if (sort === 'name') filtered.sort((a, b) => a.name.localeCompare(b.name));
 
   render(filtered);

@@ -93,7 +93,8 @@ def test_score_higher_stars_higher_score():
         {"repo_url": "https://github.com/c/d", "name": "many", "description": "Many stars", "score": 5, "stars": 10000},
     ]
     result, _ = run_score(entries)
-    assert result[1]["quality_score"] > result[0]["quality_score"]
+    by_name = {entry["name"]: entry for entry in result}
+    assert by_name["many"]["quality_score"] > by_name["few"]["quality_score"]
 
 
 def test_score_logs_removals():
@@ -106,24 +107,41 @@ def test_score_logs_removals():
     assert any("no_url" in log["reason"] for log in removed_log)
 
 
-# --- Finalize tests ---
-
-
 def test_finalize_produces_catalog_and_results_only(tmp_path):
     entries = [
         {
-            "repo_url": "https://github.com/a/b", "name": "a/b", "description": "Tool A",
-            "sub_domain": "scanning", "score": 9, "quality_score": 85.2, "discovery_score": 9,
-            "stars": 1000, "language": "Go",
-            "license": "MIT", "last_activity": "2025-01-01", "tags": ["security"],
-            "category": "Scanning", "summary": "A scanning tool", "found_in_domains": ["scanning"]
+            "repo_url": "https://github.com/a/b",
+            "name": "a/b",
+            "description": "Tool A",
+            "sub_domain": "scanning",
+            "score": 9,
+            "quality_score": 85.2,
+            "discovery_score": 9,
+            "stars": 1000,
+            "language": "Go",
+            "license": "MIT",
+            "last_activity": "2025-01-01",
+            "tags": ["security"],
+            "category": "Scanning",
+            "summary": "A scanning tool",
+            "found_in_domains": ["scanning"],
         },
         {
-            "repo_url": "https://github.com/c/d", "name": "c/d", "description": "Tool B",
-            "sub_domain": "policy", "score": 7, "quality_score": 52.1, "discovery_score": 7,
-            "stars": 500, "language": "Python",
-            "license": "Apache-2.0", "last_activity": "2025-06-01", "tags": ["policy"],
-            "category": "Policy", "summary": "A policy tool", "found_in_domains": ["policy"]
+            "repo_url": "https://github.com/c/d",
+            "name": "c/d",
+            "description": "Tool B",
+            "sub_domain": "policy",
+            "score": 7,
+            "quality_score": 52.1,
+            "discovery_score": 7,
+            "stars": 500,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_activity": "2025-06-01",
+            "tags": ["policy"],
+            "category": "Policy",
+            "summary": "A policy tool",
+            "found_in_domains": ["policy"],
         },
     ]
     template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
@@ -142,37 +160,43 @@ def test_explorer_merges_domains(tmp_path):
     """run_explorer scans catalog/*/catalog.json and produces catalog/explorer.html."""
     domain_a = tmp_path / "alpha"
     domain_a.mkdir()
-    domain_a_catalog = [
-        {
-            "repo_url": "https://github.com/a/one",
-            "name": "one",
-            "description": "Tool 1",
-            "quality_score": 80,
-            "score": 8,
-            "stars": 1000,
-            "sub_domain": "sub1",
-            "found_in_domains": ["sub1"],
-            "tags": ["tag1"],
-        },
-    ]
-    (domain_a / "catalog.json").write_text(json.dumps(domain_a_catalog))
+    (domain_a / "catalog.json").write_text(
+        json.dumps(
+            [
+                {
+                    "repo_url": "https://github.com/a/one",
+                    "name": "one",
+                    "description": "Tool 1",
+                    "quality_score": 80,
+                    "score": 8,
+                    "stars": 1000,
+                    "sub_domain": "sub1",
+                    "found_in_domains": ["sub1"],
+                    "tags": ["tag1"],
+                },
+            ]
+        )
+    )
 
     domain_b = tmp_path / "beta"
     domain_b.mkdir()
-    domain_b_catalog = [
-        {
-            "repo_url": "https://github.com/b/two",
-            "name": "two",
-            "description": "Tool 2",
-            "quality_score": 60,
-            "score": 6,
-            "stars": 500,
-            "sub_domain": "sub2",
-            "found_in_domains": ["sub2"],
-            "tags": ["tag2"],
-        },
-    ]
-    (domain_b / "catalog.json").write_text(json.dumps(domain_b_catalog))
+    (domain_b / "catalog.json").write_text(
+        json.dumps(
+            [
+                {
+                    "repo_url": "https://github.com/b/two",
+                    "name": "two",
+                    "description": "Tool 2",
+                    "quality_score": 60,
+                    "score": 6,
+                    "stars": 500,
+                    "sub_domain": "sub2",
+                    "found_in_domains": ["sub2"],
+                    "tags": ["tag2"],
+                },
+            ]
+        )
+    )
 
     template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
     run_explorer(catalog_root=tmp_path, template_dir=template_dir)
@@ -190,20 +214,23 @@ def test_explorer_injects_domain_field(tmp_path):
     """Each entry gets a 'domain' field matching its folder name."""
     domain = tmp_path / "cybersecurity"
     domain.mkdir()
-    catalog = [
-        {
-            "repo_url": "https://github.com/a/b",
-            "name": "tool",
-            "description": "A tool",
-            "quality_score": 70,
-            "score": 7,
-            "stars": 100,
-            "sub_domain": "sub",
-            "found_in_domains": ["sub"],
-            "tags": [],
-        },
-    ]
-    (domain / "catalog.json").write_text(json.dumps(catalog))
+    (domain / "catalog.json").write_text(
+        json.dumps(
+            [
+                {
+                    "repo_url": "https://github.com/a/b",
+                    "name": "tool",
+                    "description": "A tool",
+                    "quality_score": 70,
+                    "score": 7,
+                    "stars": 100,
+                    "sub_domain": "sub",
+                    "found_in_domains": ["sub"],
+                    "tags": [],
+                },
+            ]
+        )
+    )
 
     template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
     run_explorer(catalog_root=tmp_path, template_dir=template_dir)
@@ -214,8 +241,7 @@ def test_explorer_injects_domain_field(tmp_path):
 
 def test_explorer_skips_non_catalog_dirs(tmp_path):
     """Directories without catalog.json are silently skipped."""
-    empty_dir = tmp_path / "empty-domain"
-    empty_dir.mkdir()
+    (tmp_path / "empty-domain").mkdir()
 
     real = tmp_path / "real"
     real.mkdir()
@@ -247,31 +273,34 @@ def test_explorer_sorts_by_quality_score(tmp_path):
     """Merged entries are sorted by quality_score descending."""
     domain = tmp_path / "test"
     domain.mkdir()
-    catalog = [
-        {
-            "repo_url": "https://github.com/a/low",
-            "name": "low",
-            "description": "Low",
-            "quality_score": 20,
-            "score": 2,
-            "stars": 10,
-            "sub_domain": "s",
-            "found_in_domains": ["s"],
-            "tags": [],
-        },
-        {
-            "repo_url": "https://github.com/a/high",
-            "name": "high",
-            "description": "High",
-            "quality_score": 90,
-            "score": 9,
-            "stars": 10000,
-            "sub_domain": "s",
-            "found_in_domains": ["s"],
-            "tags": [],
-        },
-    ]
-    (domain / "catalog.json").write_text(json.dumps(catalog))
+    (domain / "catalog.json").write_text(
+        json.dumps(
+            [
+                {
+                    "repo_url": "https://github.com/a/low",
+                    "name": "low",
+                    "description": "Low",
+                    "quality_score": 20,
+                    "score": 2,
+                    "stars": 10,
+                    "sub_domain": "s",
+                    "found_in_domains": ["s"],
+                    "tags": [],
+                },
+                {
+                    "repo_url": "https://github.com/a/high",
+                    "name": "high",
+                    "description": "High",
+                    "quality_score": 90,
+                    "score": 9,
+                    "stars": 10000,
+                    "sub_domain": "s",
+                    "found_in_domains": ["s"],
+                    "tags": [],
+                },
+            ]
+        )
+    )
 
     template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
     run_explorer(catalog_root=tmp_path, template_dir=template_dir)

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Internet Monitoring (Geerlingguy) — Everything on Earth</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  .main-content { padding: 2rem; max-width: 900px; }
+  .repo-header { margin-bottom: 1.5rem; }
+  .repo-header h1 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.75rem;
+  }
+  .meta-row {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  .tags-row { margin-bottom: 1rem; }
+  .last-active { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.5rem 0;
+  }
+  .nearby-list { list-style: none; }
+  .nearby-list li { margin-bottom: 0.25rem; }
+  .nearby-list a {
+    display: block;
+    padding: 0.35rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    transition: background 0.15s;
+  }
+  .nearby-list a:hover { background: var(--bg-base); color: var(--text-primary); text-decoration: none; }
+
+  /* Markdown content */
+  .capability-content {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+  }
+  .capability-content h1, .capability-content h2, .capability-content h3 {
+    font-family: var(--font-heading);
+    color: #fff;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .capability-content h1 { font-size: 1.5rem; }
+  .capability-content h2 { font-size: 1.25rem; }
+  .capability-content h3 { font-size: 1.1rem; }
+  .capability-content p { margin-bottom: 0.75rem; }
+  .capability-content ul, .capability-content ol {
+    margin-left: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .capability-content li { margin-bottom: 0.25rem; }
+  .capability-content code {
+    background: var(--bg-elevated);
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.85em;
+  }
+  .capability-content pre {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+  }
+  .capability-content pre code { background: none; padding: 0; }
+  .capability-content a { color: var(--accent); }
+  .fallback-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+  .fallback-notice {
+    margin-bottom: 1.25rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid rgba(210,153,34,0.35);
+    border-radius: 8px;
+    background: rgba(210,153,34,0.08);
+    color: #f2cc60;
+    font-size: 0.9rem;
+  }
+  .detail-section {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg-surface);
+  }
+  .detail-section h2 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: #fff;
+  }
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+  }
+  .detail-card {
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg-base);
+  }
+  .detail-card-label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+  }
+  .detail-card-value {
+    color: var(--text-primary);
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+  .detail-list {
+    margin: 0;
+    padding-left: 1.1rem;
+    color: var(--text-primary);
+  }
+  .detail-list li + li {
+    margin-top: 0.4rem;
+  }
+  .detail-copy {
+    color: var(--text-primary);
+    line-height: 1.7;
+  }
+  .detail-copy p + p {
+    margin-top: 0.8rem;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+</style>
+
+<style>
+  :root {
+    --bg-deep: #0d0d0d;
+    --bg-base: #0d1117;
+    --bg-surface: #161b22;
+    --bg-elevated: #21262d;
+    --border: #30363d;
+    --text-primary: #e5e2e1;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --score-high: #3fb950;
+    --score-mid: #d29922;
+    --score-low: #484f58;
+    --destructive: #f85149;
+    --font-heading: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-body);
+    background: var(--bg-base);
+    color: var(--text-primary);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Sidebar layout */
+  .page-layout {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    min-height: 100dvh;
+  }
+  .sidebar {
+    background: var(--bg-surface);
+    border-right: 1px solid var(--border);
+    padding: 1.5rem 1rem;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    height: 100dvh;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  .breadcrumb .sep { opacity: 0.5; }
+  .breadcrumb .current { color: var(--text-primary); }
+
+  /* Search */
+  .search-input {
+    width: 100%;
+    background: var(--bg-base);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: var(--font-body);
+    margin-bottom: 1.25rem;
+  }
+  .search-input:focus { border-color: var(--accent); outline: none; }
+  .search-input::placeholder { color: var(--text-muted); }
+
+  /* Pills & badges */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    background: var(--bg-elevated);
+    color: var(--text-muted);
+  }
+  .pill.tag { background: #1f3a5f; color: var(--accent); }
+  .score-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .score-high { color: var(--score-high); background: rgba(63,185,80,0.1); }
+  .score-mid { color: var(--score-mid); background: rgba(210,153,34,0.1); }
+  .score-low { color: var(--score-low); background: rgba(72,79,88,0.15); }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-weight: 500;
+    border: 1px solid var(--border);
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    text-decoration: none;
+  }
+  .btn:hover { border-color: var(--accent); background: var(--bg-elevated); text-decoration: none; }
+  .btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn-primary:hover { background: #4c9aed; }
+
+  /* Sidebar sections */
+  .sidebar-section { margin-bottom: 1.25rem; }
+  .sidebar-section h3 {
+    font-family: var(--font-heading);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+  }
+  .sidebar-list { list-style: none; }
+  .sidebar-list li {
+    padding: 0.35rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: background 0.15s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sidebar-list li:hover { background: var(--bg-base); color: var(--text-primary); }
+  .sidebar-list li.active { background: var(--bg-base); color: var(--accent); }
+  .sidebar-list .count { font-size: 0.7rem; opacity: 0.6; }
+  .sidebar-stats {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .page-layout { grid-template-columns: 1fr; }
+    .sidebar {
+      position: relative;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-layout">
+  <aside class="sidebar">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html">Telecoms</a>
+      <span class="sep">/</span>
+      <span class="current">Internet Monitoring (Geerlingguy)</span>
+    </nav>
+
+    <input type="text" class="search-input" id="search" placeholder="Search repos..."
+           onkeydown="if(event.key==='Enter')window.location.href='../index.html?q='+encodeURIComponent(this.value)">
+
+    
+    <div class="sidebar-section">
+      <h3>Nearby repos</h3>
+      <ul class="nearby-list">
+        
+        <li><a href="stratum.html">Stratum</a></li>
+        
+        <li><a href="vyos.html">VyOS</a></li>
+        
+        <li><a href="gnbsim-omec-sd-core.html">SD-Core)</a></li>
+        
+        <li><a href="openimss.html">openIMSs</a></li>
+        
+        <li><a href="icinga2-docker.html">Icinga2 Docker</a></li>
+        
+        <li><a href="pyang.html">pyang</a></li>
+        
+        <li><a href="netdata.html">Netdata</a></li>
+        
+        <li><a href="ghz.html">ghz</a></li>
+        
+        <li><a href="homer.html">HOMER</a></li>
+        
+        <li><a href="polycube.html">Polycube</a></li>
+        
+      </ul>
+    </div>
+    
+
+    <div class="sidebar-section" style="margin-top: auto;">
+      <a href="../index.html" class="btn" style="width: 100%; justify-content: center;">&larr; Back to graph</a>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div class="repo-header">
+      <h1>Internet Monitoring (Geerlingguy)</h1>
+      <div class="meta-row">
+        
+        <span class="score-badge score-low">0</span>
+        
+        
+        
+      </div>
+      <div class="meta-row tags-row">
+        
+      </div>
+      
+      <a href="https://github.com/geerlingguy/internet-monitoring" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub &rarr;</a>
+    </div>
+
+    <hr class="divider">
+
+    
+    <div class="capability-content" id="capability-content"></div>
+    <script id="capability-md" type="text/markdown">This sandbox provides a self-contained internet reliability and performance monitoring stack built around Prometheus and Grafana. It continuously probes external targets over HTTP, HTTPS, ICMP, and TCP, and runs periodic bandwidth tests to measure real-world download and upload speeds. Dashboards are auto-provisioned on startup, giving immediate visibility into connection health and host system metrics.
+
+## Probing and Reachability
+
+- Sends HTTP and HTTPS probes to configurable external targets, recording status codes and response latency
+- Performs ICMP ping checks against named targets with routing and switch labels for structured reporting
+- Supports TCP banner probing for services such as SSH, POP3S, and IRC
+- Probe targets and their human-readable names are defined in a plain-text host list
+
+## Bandwidth Measurement
+
+- Runs Ookla-based download and upload speed tests on a configurable schedule (default every 30 minutes)
+- Records latency alongside throughput so degradation events can be correlated with speed drops
+
+## Host System Metrics
+
+- Collects CPU, memory, disk I/O, and filesystem utilization from the host running the stack
+- Metrics are scraped at the global default interval and available alongside network probe data in the same dashboards
+
+## Dashboarding
+
+- Grafana loads a pre-built internet monitoring dashboard without manual import steps
+- Prometheus is the sole datasource and is wired up automatically at startup
+
+## Optional Extensions
+
+- Local network targets (routers, switches) can be enabled by uncommenting entries in the host list
+- Starlink dish monitoring and smart-plug power tracking are available when a companion configuration is supplied
+
+## Constraints
+
+- The repository is archived; no further development occurs here — active maintenance has moved to the successor project
+- Grafana and Prometheus endpoints have no authentication or TLS — the stack is intended for isolated or home networks only, not public-facing deployments
+- Each bandwidth test consumes real upstream bandwidth; the default 30-minute interval may exhaust data caps on metered connections
+- Prometheus is pinned to a 2021 release while Grafana tracks the latest image, creating a version-mismatch risk when upgrading
+- IPv6 probing is not supported; HTTP probes are forced to IPv4
+- No alerting rules are wired up out of the box despite an alert rules file being referenced in the configuration
+</script>
+    
+  </main>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  const md = document.getElementById('capability-md').textContent;
+  document.getElementById('capability-content').innerHTML = marked.parse(md);
+</script>
+
+
+</body>
+</html>

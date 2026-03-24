@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>gNBSim (OMEC/SD-Core) — Everything on Earth</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  .main-content { padding: 2rem; max-width: 900px; }
+  .repo-header { margin-bottom: 1.5rem; }
+  .repo-header h1 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.75rem;
+  }
+  .meta-row {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  .tags-row { margin-bottom: 1rem; }
+  .last-active { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.5rem 0;
+  }
+  .nearby-list { list-style: none; }
+  .nearby-list li { margin-bottom: 0.25rem; }
+  .nearby-list a {
+    display: block;
+    padding: 0.35rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    transition: background 0.15s;
+  }
+  .nearby-list a:hover { background: var(--bg-base); color: var(--text-primary); text-decoration: none; }
+
+  /* Markdown content */
+  .capability-content {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+  }
+  .capability-content h1, .capability-content h2, .capability-content h3 {
+    font-family: var(--font-heading);
+    color: #fff;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .capability-content h1 { font-size: 1.5rem; }
+  .capability-content h2 { font-size: 1.25rem; }
+  .capability-content h3 { font-size: 1.1rem; }
+  .capability-content p { margin-bottom: 0.75rem; }
+  .capability-content ul, .capability-content ol {
+    margin-left: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .capability-content li { margin-bottom: 0.25rem; }
+  .capability-content code {
+    background: var(--bg-elevated);
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.85em;
+  }
+  .capability-content pre {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+  }
+  .capability-content pre code { background: none; padding: 0; }
+  .capability-content a { color: var(--accent); }
+  .fallback-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+  .fallback-notice {
+    margin-bottom: 1.25rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid rgba(210,153,34,0.35);
+    border-radius: 8px;
+    background: rgba(210,153,34,0.08);
+    color: #f2cc60;
+    font-size: 0.9rem;
+  }
+  .detail-section {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg-surface);
+  }
+  .detail-section h2 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: #fff;
+  }
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+  }
+  .detail-card {
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg-base);
+  }
+  .detail-card-label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+  }
+  .detail-card-value {
+    color: var(--text-primary);
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+  .detail-list {
+    margin: 0;
+    padding-left: 1.1rem;
+    color: var(--text-primary);
+  }
+  .detail-list li + li {
+    margin-top: 0.4rem;
+  }
+  .detail-copy {
+    color: var(--text-primary);
+    line-height: 1.7;
+  }
+  .detail-copy p + p {
+    margin-top: 0.8rem;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+</style>
+
+<style>
+  :root {
+    --bg-deep: #0d0d0d;
+    --bg-base: #0d1117;
+    --bg-surface: #161b22;
+    --bg-elevated: #21262d;
+    --border: #30363d;
+    --text-primary: #e5e2e1;
+    --text-muted: #8b949e;
+    --accent: #58a6ff;
+    --score-high: #3fb950;
+    --score-mid: #d29922;
+    --score-low: #484f58;
+    --destructive: #f85149;
+    --font-heading: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-body);
+    background: var(--bg-base);
+    color: var(--text-primary);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Sidebar layout */
+  .page-layout {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    min-height: 100dvh;
+  }
+  .sidebar {
+    background: var(--bg-surface);
+    border-right: 1px solid var(--border);
+    padding: 1.5rem 1rem;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    height: 100dvh;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+  .breadcrumb a { color: var(--text-muted); }
+  .breadcrumb a:hover { color: var(--accent); }
+  .breadcrumb .sep { opacity: 0.5; }
+  .breadcrumb .current { color: var(--text-primary); }
+
+  /* Search */
+  .search-input {
+    width: 100%;
+    background: var(--bg-base);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: var(--font-body);
+    margin-bottom: 1.25rem;
+  }
+  .search-input:focus { border-color: var(--accent); outline: none; }
+  .search-input::placeholder { color: var(--text-muted); }
+
+  /* Pills & badges */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    background: var(--bg-elevated);
+    color: var(--text-muted);
+  }
+  .pill.tag { background: #1f3a5f; color: var(--accent); }
+  .score-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+  .score-high { color: var(--score-high); background: rgba(63,185,80,0.1); }
+  .score-mid { color: var(--score-mid); background: rgba(210,153,34,0.1); }
+  .score-low { color: var(--score-low); background: rgba(72,79,88,0.15); }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-family: var(--font-body);
+    font-weight: 500;
+    border: 1px solid var(--border);
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    text-decoration: none;
+  }
+  .btn:hover { border-color: var(--accent); background: var(--bg-elevated); text-decoration: none; }
+  .btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn-primary:hover { background: #4c9aed; }
+
+  /* Sidebar sections */
+  .sidebar-section { margin-bottom: 1.25rem; }
+  .sidebar-section h3 {
+    font-family: var(--font-heading);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+  }
+  .sidebar-list { list-style: none; }
+  .sidebar-list li {
+    padding: 0.35rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: background 0.15s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sidebar-list li:hover { background: var(--bg-base); color: var(--text-primary); }
+  .sidebar-list li.active { background: var(--bg-base); color: var(--accent); }
+  .sidebar-list .count { font-size: 0.7rem; opacity: 0.6; }
+  .sidebar-stats {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .page-layout { grid-template-columns: 1fr; }
+    .sidebar {
+      position: relative;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-layout">
+  <aside class="sidebar">
+    <nav class="breadcrumb">
+      <a href="../../../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../index.html">Telecoms</a>
+      <span class="sep">/</span>
+      <span class="current">SD-Core)</span>
+    </nav>
+
+    <input type="text" class="search-input" id="search" placeholder="Search repos..."
+           onkeydown="if(event.key==='Enter')window.location.href='../index.html?q='+encodeURIComponent(this.value)">
+
+    
+    <div class="sidebar-section">
+      <h3>Nearby repos</h3>
+      <ul class="nearby-list">
+        
+        <li><a href="faucet.html">FAUCET</a></li>
+        
+        <li><a href="openconfig-gnmi-gateway.html">OpenConfig gNMI Gateway</a></li>
+        
+        <li><a href="internet-monitoring-geerlingguy.html">Internet Monitoring (Geerlingguy)</a></li>
+        
+        <li><a href="open-vswitch-ovs.html">Open vSwitch (OVS)</a></li>
+        
+        <li><a href="eclipse-ditto.html">Eclipse Ditto</a></li>
+        
+        <li><a href="sipp.html">SIPp</a></li>
+        
+        <li><a href="docker-dummyran.html">docker-dummyran</a></li>
+        
+        <li><a href="elastiflow.html">ElastiFlow</a></li>
+        
+        <li><a href="openairinterface-5g-ran-oai.html">OpenAirInterface 5G RAN (OAI)</a></li>
+        
+        <li><a href="oha.html">oha</a></li>
+        
+      </ul>
+    </div>
+    
+
+    <div class="sidebar-section" style="margin-top: auto;">
+      <a href="../index.html" class="btn" style="width: 100%; justify-content: center;">&larr; Back to graph</a>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div class="repo-header">
+      <h1>gNBSim (OMEC/SD-Core)</h1>
+      <div class="meta-row">
+        
+        <span class="score-badge score-low">0</span>
+        
+        
+        
+      </div>
+      <div class="meta-row tags-row">
+        
+      </div>
+      
+      <a href="https://github.com/omec-project/gnbsim" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub &rarr;</a>
+    </div>
+
+    <hr class="divider">
+
+    
+    <div class="capability-content" id="capability-content"></div>
+    <script id="capability-md" type="text/markdown">gNBSim is a 5G gNodeB and UE simulator from the Aether/SD-Core project that generates NAS and NGAP signaling to exercise a 5G Core Network end-to-end. It supports multiple configurable test profiles covering the full 3GPP registration, PDU session, and release procedure set. The simulator can run dozens of virtual UEs concurrently, each with its own per-IMSI state machine, and report per-procedure latency and pass/fail outcomes.
+
+## Radio Access and Core Connectivity
+- Simulates N2 control-plane signaling between a gNodeB and an AMF using NGAP over SCTP
+- Simulates N3 user-plane tunnels between a gNodeB and a UPF using GTP-U
+- Sends ICMP echo probes over established GTP-U tunnels to verify end-to-end data-plane connectivity
+- Supports single-interface mode (shared IP for N2 and N3) and multi-interface mode (separate IPs requiring secondary network interfaces)
+
+## UE Simulation
+- Instantiates configurable pools of virtual UEs, each identified by a unique IMSI, with independent NAS state machines
+- Executes standard 3GPP procedures: initial registration, PDU session establishment, UE-initiated deregistration, and service requests
+- Supports parallel or sequential UE execution per profile
+- Detects per-UE timeout conditions and reports them as failures
+
+## Test Profiles and Automation
+- Ships with named built-in profiles covering registration, PDU session, data-plane ping, deregistration, and service request flows
+- Supports custom profiles composed of named iteration chains with user-defined step sequences
+- Profiles can be enabled or disabled selectively to observe partial-flow behavior
+- Optional HTTP API allows runtime profile triggering and step-by-step execution control when step-trigger mode is enabled
+
+## Measurement and Observability
+- Records per-transaction and per-procedure latency for each UE
+- Produces per-profile pass/fail summary logs and aggregate error reports
+- Exposes an optional Go runtime profiling endpoint for CPU and memory analysis
+
+## Fault Injection
+- Retransmission mode replays Service Request messages to simulate retry behavior
+- Step-trigger mode in custom profiles pauses execution between steps for controlled fault injection via the HTTP API
+- Per-UE timeouts treat stalled UEs as failures, simulating partial network outages
+
+## Constraints
+- GUTI-based registration is not yet implemented; only IMSI-based registration is supported
+- GTP-U echo request/response handling and N2/Xn handover procedures are pending and not available
+- Single-interface mode supports only one gNB instance per simulator process due to a fixed user-plane port conflict
+- Custom profile iteration blocks are capped at seven actions per iteration
+- There is no built-in application-layer traffic generator beyond ICMP echo; iperf or equivalent tools must be introduced separately
+- Running profiles cannot be aborted, suspended, or resumed through the HTTP API once started
+</script>
+    
+  </main>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  const md = document.getElementById('capability-md').textContent;
+  document.getElementById('capability-content').innerHTML = marked.parse(md);
+</script>
+
+
+</body>
+</html>

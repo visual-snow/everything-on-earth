@@ -264,3 +264,17 @@ def test_site_fallback_no_capability(tmp_path):
     detail = (tmp_path / "catalog" / "mydom" / "detail" / "a-tool1.html").read_text()
     assert "First tool" in detail
     assert "capability-md" not in detail
+    assert "Capability mapping has not been generated" in detail
+    assert "Domain Placement" in detail
+    assert "Signals" in detail
+
+
+def test_site_prefers_telecoms_over_legacy_telecom(tmp_path):
+    _make_catalog(tmp_path, "telecom", SAMPLE_ENTRIES[:1])
+    _make_catalog(tmp_path, "telecoms", [{**SAMPLE_ENTRIES[0], "slug": "a-tool1"}])
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_site(tmp_path / "catalog", template_dir=template_dir)
+
+    assert (tmp_path / "index.html").exists()
+    assert not (tmp_path / "catalog" / "telecom" / "index.html").exists()
+    assert (tmp_path / "catalog" / "telecoms" / "index.html").exists()

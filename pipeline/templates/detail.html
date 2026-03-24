@@ -81,6 +81,72 @@
     color: var(--text-muted);
     line-height: 1.6;
   }
+  .fallback-notice {
+    margin-bottom: 1.25rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid rgba(210,153,34,0.35);
+    border-radius: 8px;
+    background: rgba(210,153,34,0.08);
+    color: #f2cc60;
+    font-size: 0.9rem;
+  }
+  .detail-section {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg-surface);
+  }
+  .detail-section h2 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: #fff;
+  }
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+  }
+  .detail-card {
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg-base);
+  }
+  .detail-card-label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+  }
+  .detail-card-value {
+    color: var(--text-primary);
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+  .detail-list {
+    margin: 0;
+    padding-left: 1.1rem;
+    color: var(--text-primary);
+  }
+  .detail-list li + li {
+    margin-top: 0.4rem;
+  }
+  .detail-copy {
+    color: var(--text-primary);
+    line-height: 1.7;
+  }
+  .detail-copy p + p {
+    margin-top: 0.8rem;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
 </style>
 {% endblock %}
 
@@ -118,7 +184,7 @@
     <div class="repo-header">
       <h1>{{ entry.name }}</h1>
       <div class="meta-row">
-        {% set score = entry.quality_score if entry.quality_score is defined else entry.score %}
+        {% set score = entry.quality_score if entry.quality_score is defined else (entry.score if entry.score is defined else 0) %}
         <span class="score-badge {% if score >= 70 %}score-high{% elif score >= 40 %}score-mid{% else %}score-low{% endif %}">{{ score }}</span>
         {% if entry.stars %}<span class="pill">&#9733; {{ "{:,}".format(entry.stars) }}</span>{% endif %}
         {% if entry.language %}<span class="pill">{{ entry.language }}</span>{% endif %}
@@ -139,12 +205,93 @@
     <div class="capability-content" id="capability-content"></div>
     <script id="capability-md" type="text/markdown">{{ capability_md }}</script>
     {% else %}
-    <div class="fallback-desc">
-      <p>{{ entry.description }}</p>
-      {% if entry.summary and entry.summary != entry.description %}
-      <p>{{ entry.summary }}</p>
-      {% endif %}
+    <div class="fallback-notice">
+      Capability mapping has not been generated for this framework yet. This page is showing catalog metadata until `capability.md` is available.
     </div>
+
+    <section class="detail-section">
+      <h2>Overview</h2>
+      <div class="detail-copy fallback-desc">
+        <p>{{ entry.description }}</p>
+        {% if entry.summary and entry.summary != entry.description %}
+        <p>{{ entry.summary }}</p>
+        {% endif %}
+      </div>
+    </section>
+
+    <section class="detail-section">
+      <h2>Signals</h2>
+      <div class="detail-grid">
+        <div class="detail-card">
+          <span class="detail-card-label">Score</span>
+          <div class="detail-card-value">{{ score }}</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">Stars</span>
+          <div class="detail-card-value">{% if entry.stars %}{{ "{:,}".format(entry.stars) }}{% else %}Unknown{% endif %}</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">Language</span>
+          <div class="detail-card-value">{{ entry.language or "Unknown" }}</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">License</span>
+          <div class="detail-card-value">{{ entry.license or "Unknown" }}</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">Last Activity</span>
+          <div class="detail-card-value">{{ entry.last_activity or "Unknown" }}</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">Category</span>
+          <div class="detail-card-value">{{ entry.category or "Uncategorized" }}</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-section">
+      <h2>Domain Placement</h2>
+      <div class="detail-grid">
+        <div class="detail-card">
+          <span class="detail-card-label">Primary Sub-domain</span>
+          <div class="detail-card-value">{{ entry.sub_domain or "Unknown" }}</div>
+        </div>
+        <div class="detail-card">
+          <span class="detail-card-label">Found In Domains</span>
+          <div class="detail-card-value">{{ (entry.found_in_domains or [entry.sub_domain]) | join(", ") }}</div>
+        </div>
+      </div>
+      {% if entry.use_cases %}
+      <div style="margin-top: 0.9rem;">
+        <span class="detail-card-label">Use Cases</span>
+        <div class="tag-list">
+          {% for use_case in entry.use_cases %}
+          <span class="pill tag">{{ use_case }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </section>
+
+    {% if entry.tags %}
+    <section class="detail-section">
+      <h2>Tags</h2>
+      <div class="tag-list">
+        {% for tag in entry.tags %}
+        <span class="pill tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if entry.score_rationale %}
+    <section class="detail-section">
+      <h2>Why It Ranked Here</h2>
+      <div class="detail-copy fallback-desc">
+        <p>{{ entry.score_rationale }}</p>
+      </div>
+    </section>
+    {% endif %}
     {% endif %}
   </main>
 </div>

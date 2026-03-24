@@ -200,8 +200,12 @@ def run_site(
 
     # Discover domains
     domain_catalogs: list[dict] = []
+    domain_dirs = {path.parent.name for path in catalog_root.glob("*/catalog.json")}
     for catalog_path in sorted(catalog_root.glob("*/catalog.json")):
         domain_slug = catalog_path.parent.name
+        if domain_slug == "telecom" and "telecoms" in domain_dirs:
+            print("[site] Skipping telecom: legacy catalog shadowed by telecoms")
+            continue
         entries = load_catalog(catalog_path)
         entries = sorted(entries, key=effective_score, reverse=True)
         sub_domains_set = set()

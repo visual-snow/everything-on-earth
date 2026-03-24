@@ -1,0 +1,9 @@
+{
+  "massive-crawl": {
+    "enricher": {
+      "model": "gpt-5.4-mini",
+      "reasoning_effort": "medium",
+      "allow_override": true
+    }
+  }
+}

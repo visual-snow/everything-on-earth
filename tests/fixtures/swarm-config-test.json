@@ -15,9 +15,9 @@
   "pipeline": {
     "dedup_key": "repo_url",
     "normalize": "lowercase, strip trailing slash, remove .git suffix",
-    "pruning": "interactive",
-    "enrichment": "batch_api",
-    "max_tokens": 1024
+    "scoring": "agent_plus_log_stars",
+    "enrichment": "subagents",
+    "batch_size": 30
   },
   "output": {
     "catalog": "catalog.json",

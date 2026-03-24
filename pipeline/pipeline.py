@@ -5,10 +5,14 @@ massive-crawl deterministic pipeline.
 Four stages: dedup -> score -> finalize -> explorer.
 dedup, score, finalize operate per-domain via --config.
 explorer aggregates all domains via --catalog-root.
+All pipeline stages are deterministic with no LLM involvement.
+Enrichment (tags, category, summary) is handled in workflow orchestration
+between score and finalize — see workflows/massive-crawl/contract.md.
 
 Usage:
     python pipeline.py --config swarm-config.json
     python pipeline.py --config swarm-config.json --stage dedup
+    python pipeline.py --config swarm-config.json --stage score
     python pipeline.py --stage explorer --catalog-root catalog/
 """
 

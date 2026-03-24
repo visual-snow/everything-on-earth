@@ -1,0 +1,47 @@
+{
+  "name": "everything-on-earth",
+  "version": "0.2.0",
+  "description": "Dual-platform Claude Code and Codex workflow repo for large-scale repo discovery and capability mapping.",
+  "license": "MIT",
+  "author": "eaguaida",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eaguaida/everything-on-earth.git"
+  },
+  "homepage": "https://github.com/eaguaida/everything-on-earth#readme",
+  "bugs": {
+    "url": "https://github.com/eaguaida/everything-on-earth/issues"
+  },
+  "bin": {
+    "everything-on-earth": "./install.sh"
+  },
+  "files": [
+    "adapters/",
+    "workflows/",
+    "pipeline/",
+    ".claude/",
+    "assets/",
+    "README.md",
+    "LICENSE",
+    "install.sh"
+  ],
+  "keywords": [
+    "claude-code",
+    "codex",
+    "agent",
+    "swarm",
+    "research",
+    "catalog",
+    "context-engineering",
+    "firecrawl",
+    "discovery"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install:claude": "./install.sh --claude",
+    "install:codex": "./install.sh --codex",
+    "test": "python3 -m pytest tests/"
+  }
+}

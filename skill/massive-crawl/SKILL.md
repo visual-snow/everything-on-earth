@@ -168,7 +168,7 @@ The post-concat hook auto-triggers dedup. After dedup completes:
 ```bash
 python3 pipeline/pipeline.py --config swarm-config.json --stage score,enrich,finalize
 ```
-Requires `GITHUB_TOKEN` env var for full scoring. Without it, entries get agent-score-only (max 30/100).
+Scores entries using agent relevance + stars. No API keys needed.
 3. **Present results**: Show RESULTS.md summary, link to explorer.html
 
 ## Phase 4: Gap Review

@@ -1,11 +1,9 @@
 """Tests for the massive-crawl deterministic pipeline."""
 
 import json
-import os
 import sys
-import tempfile
 from pathlib import Path
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 
 # Add pipeline to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
@@ -59,108 +57,53 @@ def test_dedup_preserves_non_duplicates():
     assert len(result) == 2
 
 
-@patch("github_signals.fetch_signals")
-@patch("github_signals.GitHubClient")
-def test_score_removes_empty_url(MockClient, mock_fetch):
+def test_score_removes_empty_url():
     entries = [
         {"repo_url": "", "name": "bad", "description": "No URL", "score": 5},
         {"repo_url": "https://github.com/a/b", "name": "good", "description": "Has URL", "score": 5},
     ]
-    mock_fetch.return_value = _mock_signals()
-    result, removed_log = run_score(entries)
+    result, _ = run_score(entries)
     assert len(result) == 1
     assert result[0]["name"] == "good"
 
 
-@patch("github_signals.fetch_signals")
-@patch("github_signals.GitHubClient")
-def test_score_removes_empty_description(MockClient, mock_fetch):
+def test_score_removes_empty_description():
     entries = [
         {"repo_url": "https://github.com/a/b", "name": "no-desc", "description": "", "score": 5},
         {"repo_url": "https://github.com/c/d", "name": "has-desc", "description": "A real tool", "score": 5},
     ]
-    mock_fetch.return_value = _mock_signals()
-    result, removed_log = run_score(entries)
+    result, _ = run_score(entries)
     assert len(result) == 1
     assert result[0]["name"] == "has-desc"
 
 
-@patch("github_signals.fetch_signals")
-@patch("github_signals.GitHubClient")
-def test_score_removes_404_repos(MockClient, mock_fetch):
+def test_score_attaches_quality_score():
     entries = [
-        {"repo_url": "https://github.com/a/deleted", "name": "gone", "description": "Deleted repo", "score": 5},
-        {"repo_url": "https://github.com/c/d", "name": "alive", "description": "Active repo", "score": 5},
+        {"repo_url": "https://github.com/a/b", "name": "tool", "description": "A tool", "score": 8, "stars": 5000},
     ]
-    mock_fetch.side_effect = [None, _mock_signals()]
-    result, removed_log = run_score(entries)
-    assert len(result) == 1
-    assert result[0]["name"] == "alive"
-    assert any("github_404" in log["reason"] for log in removed_log)
-
-
-@patch("github_signals.fetch_signals")
-@patch("github_signals.GitHubClient")
-def test_score_removes_blank_repos(MockClient, mock_fetch):
-    entries = [
-        {"repo_url": "https://github.com/a/blank", "name": "blank", "description": "Blank repo", "score": 5},
-    ]
-    mock_fetch.return_value = _mock_signals(has_readme=False, size_kb=5)
-    result, removed_log = run_score(entries)
-    assert len(result) == 0
-    assert any("blank_repo" in log["reason"] for log in removed_log)
-
-
-@patch("github_signals.fetch_signals")
-@patch("github_signals.GitHubClient")
-def test_score_removes_unmodified_forks(MockClient, mock_fetch):
-    entries = [
-        {"repo_url": "https://github.com/a/fork", "name": "fork", "description": "A fork", "score": 5},
-    ]
-    mock_fetch.return_value = _mock_signals(is_fork=True, stars=0, forks=0)
-    result, removed_log = run_score(entries)
-    assert len(result) == 0
-    assert any("unmodified_fork" in log["reason"] for log in removed_log)
-
-
-@patch("github_signals.fetch_signals")
-@patch("github_signals.GitHubClient")
-def test_score_attaches_quality_score(MockClient, mock_fetch):
-    entries = [
-        {"repo_url": "https://github.com/a/b", "name": "tool", "description": "A tool", "score": 8},
-    ]
-    mock_fetch.return_value = _mock_signals(stars=5000)
     result, _ = run_score(entries)
     assert len(result) == 1
     assert "quality_score" in result[0]
-    assert "discovery_score" in result[0]
-    assert result[0]["discovery_score"] == 8
-    assert 0 <= result[0]["quality_score"] <= 100
+    assert result[0]["quality_score"] > 0
 
 
-@patch("github_signals.fetch_signals")
-@patch("github_signals.GitHubClient")
-def test_score_logs_removals(MockClient, mock_fetch):
+def test_score_higher_stars_higher_score():
+    entries = [
+        {"repo_url": "https://github.com/a/b", "name": "few", "description": "Few stars", "score": 5, "stars": 10},
+        {"repo_url": "https://github.com/c/d", "name": "many", "description": "Many stars", "score": 5, "stars": 10000},
+    ]
+    result, _ = run_score(entries)
+    assert result[1]["quality_score"] > result[0]["quality_score"]
+
+
+def test_score_logs_removals():
     entries = [
         {"repo_url": "", "name": "no-url", "description": "Missing", "score": 5},
         {"repo_url": "https://github.com/a/b", "name": "ok", "description": "OK", "score": 5},
     ]
-    mock_fetch.return_value = _mock_signals()
     _, removed_log = run_score(entries)
     assert len(removed_log) == 1
     assert any("no_url" in log["reason"] for log in removed_log)
-
-
-def _mock_signals(**overrides) -> dict:
-    defaults = {
-        "stars": 100, "forks": 20, "open_issues": 10, "subscribers": 30,
-        "contributors": 5, "releases": 3, "last_push": "2025-06-01T00:00:00Z",
-        "license_spdx": "MIT", "has_readme": True, "has_wiki": False,
-        "has_pages": False, "is_fork": False, "size_kb": 5000,
-        "archived": False, "created_at": "2022-01-01T00:00:00Z", "commit_count": None,
-    }
-    defaults.update(overrides)
-    return defaults
 
 
 # --- Enrich tests ---

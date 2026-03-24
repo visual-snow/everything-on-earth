@@ -61,79 +61,36 @@ def run_dedup(entries: list[dict]) -> list[dict]:
     return result
 
 
-def run_score(
-    entries: list[dict],
-    github_token: str | None = None,
-    batch_size: int = 800,
-) -> tuple[list[dict], list[dict]]:
-    """Score entries using GitHub API signals. Hard cuts for data quality only.
+def run_score(entries: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Score entries using agent data. Hard cuts for data quality only.
 
-    No soft thresholds. Everything that passes hard cuts is kept and scored.
+    No soft thresholds, no API calls. Everything that passes hard cuts stays.
     Returns (scored_entries, removed_log).
     """
-    from github_signals import GitHubClient, compute_score, fetch_signals, parse_github_url
-
-    client = GitHubClient(token=github_token)
     scored = []
     removed_log = []
-    api_count = 0
 
-    for i, entry in enumerate(entries):
+    for entry in entries:
         url = entry.get("repo_url", "").strip()
         desc = entry.get("description", "").strip()
 
-        # Hard cut: no URL
         if not url:
             removed_log.append({"name": entry.get("name", "?"), "reason": "no_url"})
             continue
-
-        # Hard cut: no description
         if not desc:
             removed_log.append({"name": entry.get("name", "?"), "reason": "no_description"})
             continue
 
         enriched = dict(entry)
-        parsed = parse_github_url(url)
+        agent_score = entry.get("score", 0)
+        stars = entry.get("stars") or 0
 
-        if parsed and api_count < batch_size:
-            owner, repo = parsed
-            signals = fetch_signals(client, owner, repo)
-            api_count += 1
-
-            if signals is None:
-                removed_log.append({"name": entry.get("name", "?"), "reason": "github_404"})
-                continue
-
-            # Hard cut: blank repo (no README and tiny size)
-            if not signals.get("has_readme") and signals.get("size_kb", 100) < 10:
-                removed_log.append({"name": entry.get("name", "?"), "reason": "blank_repo"})
-                continue
-
-            # Hard cut: fork with zero community (likely unmodified)
-            if (
-                signals.get("is_fork")
-                and signals.get("stars", 0) == 0
-                and signals.get("forks", 0) == 0
-            ):
-                removed_log.append({"name": entry.get("name", "?"), "reason": "unmodified_fork"})
-                continue
-
-            enriched["github_signals"] = signals
-            enriched["stars"] = signals["stars"]
-            enriched["license"] = signals.get("license_spdx") or entry.get("license")
-            last_push = signals.get("last_push")
-            enriched["last_activity"] = last_push[:10] if last_push else entry.get("last_activity")
-        else:
-            enriched["github_signals"] = None
-
-        agent_score = entry.get("score", 5)
-        enriched["quality_score"] = compute_score(agent_score, enriched.get("github_signals"))
-        enriched["discovery_score"] = agent_score
+        # Composite score: agent relevance (0-10 scaled to 0-60) + log-scaled stars (0-40)
+        import math
+        star_component = min(math.log10(max(stars, 1) + 1) / 5.0, 1.0) * 40
+        enriched["quality_score"] = round(agent_score * 6 + star_component, 1)
 
         scored.append(enriched)
-
-        if (i + 1) % 50 == 0:
-            print(f"  [score] {i+1}/{len(entries)} processed ({api_count} API calls)")
 
     return scored, removed_log
 
@@ -278,10 +235,6 @@ def main():
     parser.add_argument("--config", required=True, help="Path to swarm-config.json")
     parser.add_argument("--stage", default="dedup,score,enrich,finalize",
                         help="Comma-separated stages to run (default: all)")
-    parser.add_argument("--github-batch-size", type=int, default=800,
-                        help="Max entries to score via GitHub API (default: 800)")
-    parser.add_argument("--github-token", default=None,
-                        help="GitHub API token (default: GITHUB_TOKEN env var)")
     parser.add_argument("--input-dir", default=".", help="Directory containing input files")
     parser.add_argument("--output-dir", default=None, help="Output directory (default: from config)")
     args = parser.parse_args()
@@ -317,11 +270,7 @@ def main():
             dedup_path = output_dir / "dedup.json"
             dedup = json.loads(dedup_path.read_text())
             print(f"[score] Input: {len(dedup)} entries")
-            result, removed_log = run_score(
-                dedup,
-                github_token=args.github_token,
-                batch_size=args.github_batch_size,
-            )
+            result, removed_log = run_score(dedup)
             print(f"[score] Kept: {len(result)}, Removed: {len(removed_log)}")
             for log in removed_log:
                 print(f"  REMOVED: {log['name']} — {log['reason']}")

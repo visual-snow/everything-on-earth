@@ -10,7 +10,7 @@
   <img src="assets/everything-on-earth.png" alt="everything-on-earth" width="600">
 </p>
 
-**Max the fuck out of your AI subscriptions by doing a massive parallel crawl that searches everything on earth about whatever you want.**
+**Do a massive parallel crawl that searches everything on earth about whatever you want.**
 
 [Getting Started](#getting-started) · [How It Works](#how-it-works) · [What You Get](#what-you-get)
 

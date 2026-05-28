@@ -43,37 +43,119 @@ def load_entry(entry_dir: Path) -> dict:
     }
 
 
-def assign_category(rec: dict) -> str:
-    """Best-effort category assignment.
+# Translation: actual primary domain (entry.json `domain`) → one of WIKI_CATEGORIES keys
+DOMAIN_TO_CATEGORY: dict[str, str] = {
+    # 5G core variants
+    "5g-core": "5g-core",
+    "5g-core-network": "5g-core",
+    "5g-standalone-core": "5g-core",
+    "3gpp-core": "5g-core",
+    "5g-core-interfaces": "5g-core",
+    "4g-5g-core": "5g-core",
+    "4g-5g-core-network": "5g-core",
+    # 4G/EPC
+    "4g-epc": "epc-4g-core",
+    "4g-core": "epc-4g-core",
+    "4g-lte": "epc-4g-core",
+    "4g": "epc-4g-core",
+    "epc": "epc-4g-core",
+    "gsm": "epc-4g-core",
+    # RAN / gNB / eNB
+    "5g-ran": "gnb-ran-simulation",
+    "5g-ran-simulation": "gnb-ran-simulation",
+    "enb-simulation": "gnb-ran-simulation",
+    "baseband": "gnb-ran-simulation",
+    "baseband-processing": "gnb-ran-simulation",
+    "o-ran": "gnb-ran-simulation",
+    "e2ap": "gnb-ran-simulation",
+    # Traffic / load
+    "load-testing": "traffic-generation",
+    "http-benchmarking": "traffic-generation",
+    "api-load-testing": "traffic-generation",
+    "api-stress-testing": "traffic-generation",
+    "api-benchmarking": "traffic-generation",
+    "call-flow-generation": "traffic-generation",
+    # Observability / monitoring
+    "infrastructure-monitoring": "packet-capture-observability",
+    "kubernetes-monitoring": "packet-capture-observability",
+    "docker-telemetry": "packet-capture-observability",
+    "flow-monitoring": "packet-capture-observability",
+    "flow-collection": "packet-capture-observability",
+    "flow-analytics": "packet-capture-observability",
+    "bgp-telemetry": "packet-capture-observability",
+    "cisco-mdt": "packet-capture-observability",
+    "model-driven-telemetry": "packet-capture-observability",
+    "infrastructure-visibility": "packet-capture-observability",
+    "deep-packet-inspection": "packet-capture-observability",
+    "anomaly-detection": "packet-capture-observability",
+    "fault-management": "packet-capture-observability",
+    "distributed-alerting": "packet-capture-observability",
+    # IMS / VoIP / VoLTE
+    "asterisk": "ims-volte",
+    "kamailio": "ims-volte",
+    "call-processing": "ims-volte",
+    "real-time-communications": "ims-volte",
+    "cloud-native-telephony": "ims-volte",
+    "rtp-media": "ims-volte",
+    "rtp-proxy": "ims-volte",
+    "media-processing": "ims-volte",
+    "hep-protocol": "ims-volte",
+    "ice": "ims-volte",
+    # OSS/BSS
+    "billing": "oss-bss",
+    "inventory-orchestration": "oss-bss",
+    # Slicing
+    "5g-network-slicing": "network-slicing",
+    # Fault / chaos
+    "fault-injection": "fault-injection-chaos",
+    "chaos-engineering": "fault-injection-chaos",
+    "degraded-network-conditions": "fault-injection-chaos",
+}
 
-    Uses entry.wiki_category if present (authored). Otherwise falls back to
-    factsheet.provides[] heuristics. Logs a WARNING for any unmappable entry.
+
+def assign_category(rec: dict) -> str:
+    """Multi-stage category assignment.
+
+    1. Honor explicit wiki_category if present (editorial override).
+    2. Translate entry.domain via DOMAIN_TO_CATEGORY.
+    3. Substring match against entry.provides (e.g., '5g-core-*' -> '5g-core').
+    4. Last resort: 'uncategorized' (listed in INDEX, not silently dropped).
     """
-    if "wiki_category" in rec["entry"]:
-        return rec["entry"]["wiki_category"]
-    provides = set(rec["factsheet"].get("provides", []))
-    if {"amf", "smf", "upf"} & provides:
+    entry = rec["entry"]
+
+    if "wiki_category" in entry:
+        return entry["wiki_category"]
+
+    domain = entry.get("domain", "")
+    if domain in DOMAIN_TO_CATEGORY:
+        return DOMAIN_TO_CATEGORY[domain]
+
+    provides = entry.get("provides", []) or []
+    # Substring match: any '5g-core-*' tag means it's a 5G core component
+    joined = " ".join(provides)
+    if "5g-core-" in joined:
         return "5g-core"
-    if {"gnb", "ran"} & provides:
-        return "gnb-ran-simulation"
-    if {"ue"} & provides:
-        return "ue-emulation"
-    if {"ims", "volte"} & provides:
-        return "ims-volte"
-    if "fault-injection" in provides:
-        return "fault-injection-chaos"
-    if "traffic-gen" in provides:
-        return "traffic-generation"
-    if {"pcap", "monitoring", "observability"} & provides:
-        return "packet-capture-observability"
-    if {"roaming", "diameter"} & provides:
-        return "roaming-interconnect"
-    if {"mme", "sgw", "pgw"} & provides:
+    if "4g-epc-" in joined:
         return "epc-4g-core"
-    if {"oss", "bss", "billing"} & provides:
+    if any(tag.startswith(("gnb-", "ran-", "enb-")) for tag in provides):
+        return "gnb-ran-simulation"
+    if any("ue-" in tag and "subscriber" not in tag for tag in provides):
+        return "ue-emulation"
+    if "ims-" in joined or "volte" in joined or "voip" in joined:
+        return "ims-volte"
+    if "fault-inject" in joined or "chaos" in joined:
+        return "fault-injection-chaos"
+    if "traffic-gen" in joined or "load-test" in joined:
+        return "traffic-generation"
+    if any(t in joined for t in ("pcap", "monitoring", "observability", "telemetry")):
+        return "packet-capture-observability"
+    if "diameter" in joined or "roaming" in joined or "ipx" in joined:
+        return "roaming-interconnect"
+    if any(t in joined for t in ("oss", "bss", "billing", "charging")):
         return "oss-bss"
-    if "slicing" in provides:
+    if "slicing" in joined:
         return "network-slicing"
+
     return "uncategorized"
 
 
@@ -83,6 +165,14 @@ def build_index(records: list[dict]) -> str:
     for rec in records:
         by_category[assign_category(rec)].append(rec)
 
+    def short_desc(rec: dict) -> str:
+        desc = rec["entry"].get("description", "")
+        # First sentence only for the bullet line
+        short = desc.split(". ")[0].rstrip(".")
+        if short and len(short) < len(desc):
+            short = short + "…"
+        return short
+
     lines = [f"# Telecom software catalog ({len(records)} entries)\n"]
     for cat_slug, cat_desc in WIKI_CATEGORIES.items():
         entries = by_category.get(cat_slug, [])
@@ -90,9 +180,8 @@ def build_index(records: list[dict]) -> str:
         lines.append(f"{cat_desc} ({len(entries)} entries)\n")
         for rec in sorted(entries, key=lambda r: r["slug"]):
             name = rec["entry"].get("name", rec["slug"])
-            license_ = rec["entry"].get("license", "?")
-            tagline = rec["entry"].get("tagline", "")
-            lines.append(f"- **{rec['slug']}** ({license_}) — {tagline}")
+            license_ = rec["entry"].get("github_metrics", {}).get("license", "?")
+            lines.append(f"- **{rec['slug']}** ({license_}) — {short_desc(rec)}")
         lines.append("")
 
     # Unmapped entries get a fallback section so nothing is silently dropped.
@@ -101,7 +190,7 @@ def build_index(records: list[dict]) -> str:
         lines.append("## uncategorized\n")
         lines.append(f"Entries pending category assignment ({len(unmapped)})\n")
         for rec in sorted(unmapped, key=lambda r: r["slug"]):
-            lines.append(f"- **{rec['slug']}** — {rec['entry'].get('tagline', '')}")
+            lines.append(f"- **{rec['slug']}** — {short_desc(rec)}")
         lines.append("")
 
     return "\n".join(lines)
@@ -111,24 +200,29 @@ def build_entry_page(rec: dict, all_slugs: set[str]) -> str:
     """Generate one entry's composite wiki page."""
     e = rec["entry"]
     fs = rec["factsheet"]
-    related_raw = e.get("related", [])
-    # Filter out broken Related links — pre-fail at build time, not at render time.
-    related = [r for r in related_raw if r in all_slugs]
+    gh = e.get("github_metrics", {}) or {}
+    # related_repos in entry.json is GitHub URLs, not catalog slugs — drop the
+    # "Related entries in this catalog" section entirely rather than guess at
+    # URL→slug extraction.
+
+    # factsheet.protocols are richer ("Diameter (S6a, Gx, Gy — 4G EPC)") than
+    # entry.protocols ("Diameter") — prefer factsheet, fall back to entry.
+    protocols = fs.get("protocols") or e.get("protocols", [])
 
     lines = [
         f"# {e.get('name', rec['slug'])}\n",
-        f"**Repo:** {e.get('repo', '?')}    **License:** {e.get('license', '?')}    **Language:** {e.get('language', '?')}\n",
+        f"**Repo:** {e.get('repo_url', '?')}    **License:** {gh.get('license', '?')}    **Language:** {gh.get('language', '?')}\n",
         "## TL;DR",
-        e.get("tagline", "(no tagline)"),
+        e.get("description", "(no description)"),
         "",
         "## What it provides",
-        ", ".join(fs.get("provides", [])) or "(none documented)",
+        ", ".join(e.get("provides", [])) or "(none documented)",
         "",
         "## What it needs",
-        ", ".join(fs.get("needs", [])) or "(none documented)",
+        ", ".join(e.get("needs", [])) or "(none documented)",
         "",
         "## Protocols",
-        ", ".join(fs.get("protocols", [])) or "(none documented)",
+        ", ".join(protocols) or "(none documented)",
         "",
         "## Capability",
         rec["capability"].strip(),
@@ -137,11 +231,6 @@ def build_entry_page(rec: dict, all_slugs: set[str]) -> str:
     ]
     for c in fs.get("constraints", []) or ["(none documented)"]:
         lines.append(f"- {c}")
-
-    if related:
-        lines.append("\n## Related entries in this catalog")
-        for slug in related:
-            lines.append(f"- {slug}")
 
     return "\n".join(lines) + "\n"
 

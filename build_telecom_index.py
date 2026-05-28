@@ -196,7 +196,7 @@ def build_index(records: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def build_entry_page(rec: dict, all_slugs: set[str]) -> str:
+def build_entry_page(rec: dict) -> str:
     """Generate one entry's composite wiki page."""
     e = rec["entry"]
     fs = rec["factsheet"]
@@ -242,19 +242,33 @@ def main(source: Path, output: Path) -> None:
     for entry_dir in sorted(source.iterdir()):
         if not entry_dir.is_dir():
             continue
-        if not (entry_dir / "entry.json").exists():
-            print(f"SKIP {entry_dir.name}: no entry.json")
+        # Symmetric missing-file guards: name the missing file and skip, so a
+        # half-authored entry can't abort the whole run with a traceback.
+        missing = None
+        for required in ("entry.json", "factsheet.json", "capability.md"):
+            if not (entry_dir / required).exists():
+                missing = required
+                break
+        if missing:
+            print(f"SKIP {entry_dir.name}: no {missing}")
             continue
         records.append(load_entry(entry_dir))
-
-    all_slugs = {r["slug"] for r in records}
 
     (output / "INDEX.md").write_text(build_index(records))
     print(f"Wrote {output / 'INDEX.md'}")
 
+    # Surface uncategorized entries on stdout so the operator doesn't have to
+    # open INDEX.md to discover them (plan §Task 1 Step 5).
+    unmapped = [r for r in records if assign_category(r) == "uncategorized"]
+    if unmapped:
+        print(
+            f"WARNING: {len(unmapped)} entries uncategorized: "
+            f"{sorted(r['slug'] for r in unmapped)}"
+        )
+
     for rec in records:
         page_path = output / f"{rec['slug']}.md"
-        page_path.write_text(build_entry_page(rec, all_slugs))
+        page_path.write_text(build_entry_page(rec))
     print(f"Wrote {len(records)} entry pages")
 
 

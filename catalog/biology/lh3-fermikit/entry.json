@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lh3/fermikit",
+  "name": "lh3/fermikit",
+  "description": "De novo assembly based variant calling pipeline for Illumina short reads",
+  "sub_domain": "genomics",
+  "score": 4,
+  "score_rationale": "Older but still real de novo assembly-based variant-calling pipeline for short reads, with limited current momentum.",
+  "stars": 110,
+  "language": "TeX",
+  "license": "NOASSERTION",
+  "last_activity": "2020-11-30",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 40.4,
+  "discovery_score": 4,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "De novo assembly based variant calling pipeline for Illumina short reads",
+  "slug": "lh3-fermikit"
+}

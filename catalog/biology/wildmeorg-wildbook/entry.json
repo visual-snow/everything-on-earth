@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wildmeorg/wildbook",
+  "name": "wildmeorg/wildbook",
+  "description": "Wild Me's first product, Wildbook supports researchers by allowing collaboration across the globe and automation of photo ID matching",
+  "sub_domain": "ecology-conservation",
+  "score": 8,
+  "score_rationale": "Wildlife identification and mark-recapture platform used in collaborative conservation research.",
+  "stars": 132,
+  "language": "Java",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 65.0,
+  "discovery_score": 8,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Wild Me's first product, Wildbook supports researchers by allowing collaboration across the globe and automation of photo ID matching",
+  "slug": "wildmeorg-wildbook"
+}

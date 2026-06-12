@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ebrandler/mcportfolio",
+  "name": "ebrandler/mcportfolio",
+  "description": "McPortfolio: A Model Context Protocol server providing 9 specialized tools for LLM-driven portfolio optimization using natural language, covering mean-variance to machine learning approaches.",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 6,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-06-11",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 36.8,
+  "discovery_score": 5,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "McPortfolio: A Model Context Protocol server providing 9 specialized tools for LLM-driven portfolio optimization using natural language,...",
+  "slug": "ebrandler-mcportfolio"
+}

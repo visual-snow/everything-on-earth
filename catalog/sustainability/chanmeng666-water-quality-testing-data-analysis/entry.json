@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chanmeng666/water-quality-testing-data-analysis",
+  "name": "chanmeng666/water-quality-testing-data-analysis",
+  "description": "\u3010Every star adds a spark to our coding journey!\u2b50\ufe0f\u3011A Python-based data analysis toolkit for water quality monitoring and prediction. Provides comprehensive analysis of key water quality parameters including pH, temperature, turbidity, dissolved oxygen, and conductivity.",
+  "sub_domain": "water-resource-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "water-resource-management"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "hydrology",
+    "watershed",
+    "water-quality",
+    "water-modeling"
+  ],
+  "category": "Water Resource Management \u2014 hydrological modeling, water quality, watershed analysis",
+  "summary": "\u3010Every star adds a spark to our coding journey!\u2b50\ufe0f\u3011A Python-based data analysis toolkit for water quality monitoring and prediction. Provi...",
+  "slug": "chanmeng666-water-quality-testing-data-analysis"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/quantrocket-codeload/quant-finance-lectures",
+  "name": "quantrocket-codeload/quant-finance-lectures",
+  "description": "Learn quantitative finance with this comprehensive lecture series. Adapted from the Quantopian Lecture Series. Uses free sample data.",
+  "sub_domain": "quant-research-notebooks",
+  "score": 9,
+  "score_rationale": "Notebook-based quant finance lecture series with practical research workflows and reusable examples.",
+  "stars": 577,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-04-23",
+  "found_in_domains": [
+    "quant-research-notebooks"
+  ],
+  "quality_score": 76.1,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "Learn quantitative finance with this comprehensive lecture series. Adapted from the Quantopian Lecture...",
+  "slug": "quantrocket-codeload-quant-finance-lectures"
+}

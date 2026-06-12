@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chichunliu/adna-imp",
+  "name": "ChiChunLiu/aDNA-IMP",
+  "description": "Pipeline for aDNA imputation with GeneImp, and scripts for analyzing accuracy and bias",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 7,
+  "score_rationale": "Narrow but legitimate ancient-DNA imputation workflow with a clear analysis purpose.",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2021-03-17",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Pipeline for aDNA imputation with GeneImp, and scripts for analyzing accuracy and bias",
+  "slug": "chichunliu-adna-imp"
+}

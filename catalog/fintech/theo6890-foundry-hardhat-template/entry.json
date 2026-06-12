@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/theo6890/foundry-hardhat-template",
+  "name": "theo6890/foundry-hardhat-template",
+  "description": "Contains GitHub Actions automation",
+  "sub_domain": "smart-contract-security",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for template-style signals.",
+  "stars": 1,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 14.4,
+  "discovery_score": 2,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Contains GitHub Actions automation",
+  "slug": "theo6890-foundry-hardhat-template"
+}

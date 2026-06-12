@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ropensci/spocc",
+  "name": "ropensci/spocc",
+  "description": "Species occurrence data toolkit for R",
+  "sub_domain": "biodiversity-informatics",
+  "score": 9,
+  "score_rationale": "This is a canonical R toolkit for aggregating and working with species occurrence data from major biodiversity sources.",
+  "stars": 125,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-12-06",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 70.8,
+  "discovery_score": 9,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Species occurrence data toolkit for R",
+  "slug": "ropensci-spocc"
+}

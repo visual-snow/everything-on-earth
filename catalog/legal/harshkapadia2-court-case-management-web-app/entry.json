@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/harshkapadia2/court_case_management_web_app",
+  "name": "harshkapadia2/court_case_management_web_app",
+  "description": "A Court Case Management web app.",
+  "sub_domain": "court-case-management",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text.",
+  "stars": 16,
+  "language": "CSS",
+  "license": "MIT",
+  "last_activity": "2023-03-04",
+  "found_in_domains": [
+    "court-case-management"
+  ],
+  "quality_score": 39.8,
+  "discovery_score": 5,
+  "tags": [
+    "court-case-management",
+    "e-filing",
+    "docket-management",
+    "judicial-workflow",
+    "court"
+  ],
+  "category": "Court / Case Management \u2014 docketing, e-filing, case tracking, judicial workflow",
+  "summary": "A Court Case Management web app.",
+  "slug": "harshkapadia2-court-case-management-web-app"
+}

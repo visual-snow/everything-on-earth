@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gem/global_embodied_carbon_model",
+  "name": "gem/global_embodied_carbon_model",
+  "description": "The Global_embodied_carbon_model_v1.0 includes the embodied carbon of seismic damage repair and replacement of the global residential, commercial, and industrial building stock",
+  "sub_domain": "green-building-certification",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 5,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-08",
+  "found_in_domains": [
+    "green-building-certification"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "green-building",
+    "leed",
+    "breeam",
+    "embodied-carbon"
+  ],
+  "category": "Green Building Certification \u2014 LEED/BREEAM tools and building material databases",
+  "summary": "The Global_embodied_carbon_model_v1.0 includes the embodied carbon of seismic damage repair and replacement of the global residential, co...",
+  "slug": "gem-global-embodied-carbon-model"
+}

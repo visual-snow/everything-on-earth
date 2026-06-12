@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openvax/neoantigen-vaccine-pipeline",
+  "name": "openvax/neoantigen-vaccine-pipeline",
+  "description": "Bioinformatics pipeline for selecting patient-specific cancer neoantigen vaccines",
+  "sub_domain": "immunoinformatics",
+  "score": 9,
+  "score_rationale": "Patient-specific neoantigen vaccine selection pipeline that directly matches the requested subdomain.",
+  "stars": 90,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-09-15",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 69.7,
+  "discovery_score": 9,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Bioinformatics pipeline for selecting patient-specific cancer neoantigen vaccines",
+  "slug": "openvax-neoantigen-vaccine-pipeline"
+}

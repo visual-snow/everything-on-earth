@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vinaykumarkunder/insurance-management-system",
+  "name": "vinaykumarkunder/insurance-management-system",
+  "description": "The project is a RESTful API for a claims management system. It allows clients to register and log in, create new claims, view existing claims, and update their own claims. The API also provides endpoints for administrators to view all claims and update the status of a claim.",
+  "sub_domain": "insurance-actuarial-tech",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 22,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2023-04-05",
+  "found_in_domains": [
+    "insurance-actuarial-tech"
+  ],
+  "quality_score": 34.9,
+  "discovery_score": 4,
+  "tags": [
+    "insurance",
+    "actuarial",
+    "claims",
+    "cat-modeling"
+  ],
+  "category": "Insurance / Actuarial Tech",
+  "summary": "The project is a RESTful API for a claims management system. It allows clients to register and log in, create new claims, view existing c...",
+  "slug": "vinaykumarkunder-insurance-management-system"
+}

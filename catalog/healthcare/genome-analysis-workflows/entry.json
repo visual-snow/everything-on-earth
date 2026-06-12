@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/genome/analysis-workflows",
+  "name": "genome/analysis-workflows",
+  "description": "Open workflow definitions for genomic analysis from MGI at WUSM.",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 6,
+  "score_rationale": "Concrete genomic workflow repository with reusable CWL definitions.",
+  "stars": 104,
+  "language": "Common Workflow Language",
+  "license": "MIT",
+  "last_activity": "2025-06-23",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 52.2,
+  "discovery_score": 6,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Open workflow definitions for genomic analysis from MGI at WUSM.",
+  "slug": "genome-analysis-workflows"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/polca/pathways",
+  "name": "polca/pathways",
+  "description": "Scenario-wide Life Cycle Assessment",
+  "sub_domain": "life-cycle-assessment",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 22,
+  "language": "Jupyter Notebook",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 34.9,
+  "discovery_score": 4,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Scenario-wide Life Cycle Assessment",
+  "slug": "polca-pathways"
+}

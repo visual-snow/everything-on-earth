@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/scabench-org/scabench",
+  "name": "scabench-org/scabench",
+  "description": "A framework for evaluating AI audit agents using recent real-world data",
+  "sub_domain": "smart-contract-security",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 105,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-10-04",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 52.2,
+  "discovery_score": 6,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A framework for evaluating AI audit agents using recent real-world data",
+  "slug": "scabench-org-scabench"
+}

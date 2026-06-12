@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/verisimilitudex/taxgpt",
+  "name": "verisimilitudex/taxgpt",
+  "description": "Say goodbye to the hassle of tax season with TaxGPT, the GPT-4-Vision powered AI tax assistant that helps you navigate the complex world of taxation with ease and precision.",
+  "sub_domain": "tax-compliance-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 11,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2023-06-02",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 14.6,
+  "discovery_score": 1,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat",
+    "tax"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "Say goodbye to the hassle of tax season with TaxGPT, the GPT-4-Vision powered AI tax assistant that helps you navigate the complex world...",
+  "slug": "verisimilitudex-taxgpt"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sdetshubhamthakur/ai-powered-robo-advisor",
+  "name": "sdetshubhamthakur/ai-powered-robo-advisor",
+  "description": "A full-stack, production-ready system that provides automated investment advisory services with an intuitive web interface and explainable AI backend. Perfect for financial institutions, robo-advisors, and investment platforms.",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-11-05",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "A full-stack, production-ready system that provides automated investment advisory services with an intuitive web interface and explainabl...",
+  "slug": "sdetshubhamthakur-ai-powered-robo-advisor"
+}

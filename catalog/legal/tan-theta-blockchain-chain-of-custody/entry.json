@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/tan-theta/blockchain-chain-of-custody",
+  "name": "tan-theta/blockchain-chain-of-custody",
+  "description": "The Chain of Custody form is a critical element to a forensic investigation because examiners use it to record the history of the evidence from the time it is found until the case is closed or goes to court. By keeping this record, examiners can show that the integrity of the evidence has been preserved and not open to compromise. And in the unfortunate event that evidence does become contaminated, the chain of custody will clearly identify the responsible individual.  A Chain of Custody form keeps track of three pieces of important information (in addition to all the details that uniquely identify the specific piece of evidence):  Where the evidence was stored. Who had access to the evidence and when. What actions were done to the evidence.",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 5,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2020-08-21",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 36.2,
+  "discovery_score": 5,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support",
+    "evidence",
+    "court"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "The Chain of Custody form is a critical element to a forensic investigation because examiners use it to record the history of the evidenc...",
+  "slug": "tan-theta-blockchain-chain-of-custody"
+}

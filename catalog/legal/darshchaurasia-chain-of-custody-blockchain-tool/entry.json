@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/darshchaurasia/chain-of-custody-blockchain-tool",
+  "name": "darshchaurasia/chain-of-custody-blockchain-tool",
+  "description": "A secure and transparent system that can be used to maintain the integrity of digital evidence records, that stores each entry in a Chain of Custody",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-05-11",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support",
+    "evidence"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "A secure and transparent system that can be used to maintain the integrity of digital evidence records, that stores each entry in a Chain...",
+  "slug": "darshchaurasia-chain-of-custody-blockchain-tool"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mathworks/precipitation-variability-analysis-matlab",
+  "name": "mathworks/precipitation-variability-analysis-matlab",
+  "description": "Access, process and visualize global climate (precipitation) data from the WCRP CMIP6 database",
+  "sub_domain": "sustainability-dashboards-viz",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 9,
+  "language": "Jupyter Notebook",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-02-19",
+  "found_in_domains": [
+    "sustainability-dashboards-viz"
+  ],
+  "quality_score": 26.0,
+  "discovery_score": 3,
+  "tags": [
+    "sdg",
+    "kpi-dashboard",
+    "data-portal",
+    "climate-visualization",
+    "cmip"
+  ],
+  "category": "Sustainability Dashboards / Visualization \u2014 SDG trackers, environmental KPI dashboards, data portals",
+  "summary": "Access, process and visualize global climate (precipitation) data from the WCRP CMIP6 database",
+  "slug": "mathworks-precipitation-variability-analysis-matlab"
+}

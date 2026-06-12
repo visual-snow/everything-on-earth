@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maxencegiraud/ssim",
+  "name": "MaxenceGiraud/Ssim",
+  "description": "Collection of personal projects of Math/Physics Simulations and visualisations.",
+  "sub_domain": "k12-stem",
+  "score": 2,
+  "score_rationale": "Small but relevant repository of math and physics simulations and visualizations that fits the requested theme.",
+  "stars": 1,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2021-10-29",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 14.4,
+  "discovery_score": 2,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "Collection of personal projects of Math/Physics Simulations and visualisations.",
+  "slug": "maxencegiraud-ssim"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aimtyaem/eoagritool",
+  "name": "aimtyaem/eoagritool",
+  "description": "EO AgriTool is a cutting-edge web application designed to empower Egyptian farmers and agricultural businesses to overcome environmental challenges. By leveraging high-resolution Earth observation data and embracing regenerative agriculture practices, the app provides actionable insights for sustainable farming.",
+  "sub_domain": "sustainable-agriculture",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": "HTML",
+  "license": "GPL-2.0",
+  "last_activity": "2025-04-09",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "EO AgriTool is a cutting-edge web application designed to empower Egyptian farmers and agricultural businesses to overcome environmental...",
+  "slug": "aimtyaem-eoagritool"
+}

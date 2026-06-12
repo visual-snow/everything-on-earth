@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pbs-assess/sdmtmb",
+  "name": "pbs-assess/sdmTMB",
+  "description": "Spatial and spatiotemporal GLMMs with TMB.",
+  "sub_domain": "climate-biology",
+  "score": 9,
+  "score_rationale": "Spatial and spatiotemporal modeling stack that is widely used for species distribution and forecasting workflows under changing climate.",
+  "stars": 241,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-02-05",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 73.1,
+  "discovery_score": 9,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "Spatial and spatiotemporal GLMMs with TMB.",
+  "slug": "pbs-assess-sdmtmb"
+}

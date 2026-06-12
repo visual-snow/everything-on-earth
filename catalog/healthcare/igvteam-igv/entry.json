@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/igvteam/igv",
+  "name": "igvteam/igv",
+  "description": "Integrative Genomics Viewer. Fast, efficient, scalable visualization tool for genomics data and annotations",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 9,
+  "score_rationale": "Widely used desktop genome browser and visualization tool.",
+  "stars": 721,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 76.9,
+  "discovery_score": 9,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Integrative Genomics Viewer. Fast, efficient, scalable visualization tool for genomics data and annotations",
+  "slug": "igvteam-igv"
+}

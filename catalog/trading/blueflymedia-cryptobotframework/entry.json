@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/blueflymedia/cryptobotframework",
+  "name": "blueflymedia/cryptobotframework",
+  "description": "The modern cryptocurrency trading bot framework written in Go.",
+  "sub_domain": "trading-bots-strategy-frameworks",
+  "score": 7,
+  "score_rationale": "Direct framework match, but much smaller and less proven than the major platforms above.",
+  "stars": 1,
+  "language": null,
+  "license": "AGPL-3.0",
+  "last_activity": "2022-07-18",
+  "found_in_domains": [
+    "trading-bots-strategy-frameworks"
+  ],
+  "quality_score": 44.4,
+  "tags": [
+    "trading-bot",
+    "strategy-framework",
+    "automation"
+  ],
+  "category": "Trading Bot Framework",
+  "summary": "The modern cryptocurrency trading bot framework written in Go.",
+  "slug": "blueflymedia-cryptobotframework"
+}

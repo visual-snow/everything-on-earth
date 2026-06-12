@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kitware/dive",
+  "name": "Kitware/dive",
+  "description": "Media annotation and analysis tools for web and desktop.",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Companion annotation and analysis tool used with VIAME-style marine image and video workflows.",
+  "stars": 103,
+  "language": "Vue",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 64.1,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Media annotation and analysis tools for web and desktop.",
+  "slug": "kitware-dive"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hvgogogo/scellportal",
+  "name": "hvgogogo/scellportal",
+  "description": "ScellPortal: Single-cell RNA-seq Analysis Toolkit A comprehensive R package for single-cell RNA-seq data analysis, visualization, and pathway enrichment analysis.",
+  "sub_domain": "transcriptomics",
+  "score": 7,
+  "score_rationale": "Focused single-cell RNA-seq package with analysis, visualization, and enrichment coverage, despite its small footprint.",
+  "stars": 0,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2026-01-07",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "ScellPortal: Single-cell RNA-seq Analysis Toolkit A comprehensive R package for single-cell RNA-seq data analysis, visualization, and pat...",
+  "slug": "hvgogogo-scellportal"
+}

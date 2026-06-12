@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/0dotxyz/marginfi-v2",
+  "name": "0dotxyz/marginfi-v2",
+  "description": "No description provided.",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 284,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 25.6,
+  "discovery_score": 1,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "No description provided.",
+  "slug": "0dotxyz-marginfi-v2"
+}

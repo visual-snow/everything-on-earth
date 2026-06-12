@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/learningequality/kolibri",
+  "name": "learningequality/kolibri",
+  "description": "Kolibri Learning Platform: the offline app for universal education.",
+  "sub_domain": "k12-stem",
+  "score": 10,
+  "score_rationale": "Directly serves K-12 and other learners with an offline-first education platform used in classrooms and low-connectivity settings.",
+  "stars": 1022,
+  "language": "CSS",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 84.1,
+  "discovery_score": 10,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "Kolibri Learning Platform: the offline app for universal education.",
+  "slug": "learningequality-kolibri"
+}

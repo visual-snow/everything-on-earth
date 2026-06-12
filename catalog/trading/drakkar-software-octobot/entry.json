@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/drakkar-software/octobot",
+  "name": "drakkar-software/octobot",
+  "description": "Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance, Hyperliquid and 15+ exchanges, with a simple interface.",
+  "sub_domain": "trading-bots-strategy-frameworks",
+  "score": 9,
+  "score_rationale": "Feature-rich crypto bot platform with strategy automation and broad exchange support.",
+  "stars": 5508,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "trading-bots-strategy-frameworks"
+  ],
+  "quality_score": 83.9,
+  "tags": [
+    "trading-bot",
+    "strategy-framework",
+    "automation",
+    "exchange-api"
+  ],
+  "category": "Trading Bot Framework",
+  "summary": "Free open source crypto trading bot to automate AI, Grid, DCA and TradingView strategies on Binance...",
+  "slug": "drakkar-software-octobot"
+}

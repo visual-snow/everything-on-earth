@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/satyam9090/extract-stock-sentiment-from-news-headlines",
+  "name": "satyam9090/Extract-Stock-Sentiment-from-News-Headlines",
+  "description": "Scrape news headlines for FB and TSLA then apply sentiment analysis to generate investment insight.",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 7,
+  "score_rationale": "Direct stock-news sentiment extraction project, but narrow and older than the top entries.",
+  "stars": 6,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2020-05-07",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 48.8,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "Scrape news headlines for FB and TSLA then apply sentiment analysis to generate investment insight.",
+  "slug": "satyam9090-extract-stock-sentiment-from-news-headlines"
+}

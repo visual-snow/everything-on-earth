@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/danieljrc888/helix",
+  "name": "danieljrc888/helix",
+  "description": "A cyclic DEX arbitrage detector built with Rust and REVM",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 7,
+  "score_rationale": "Rust-based cyclic DEX arbitrage detector; useful for search and opportunity discovery.",
+  "stars": 0,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-02-28",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 44.4,
+  "tags": [
+    "defi",
+    "dex",
+    "mev"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "A cyclic DEX arbitrage detector built with Rust and REVM",
+  "slug": "danieljrc888-helix"
+}

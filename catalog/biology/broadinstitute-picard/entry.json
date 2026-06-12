@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/broadinstitute/picard",
+  "name": "broadinstitute/picard",
+  "description": "A set of command line tools (in Java) for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.",
+  "sub_domain": "genomics",
+  "score": 9,
+  "score_rationale": "Core HTS utility suite for BAM/CRAM/VCF manipulation, duplicate marking, and other production genomics chores.",
+  "stars": 1055,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 78.2,
+  "discovery_score": 9,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "A set of command line tools (in Java) for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.",
+  "slug": "broadinstitute-picard"
+}

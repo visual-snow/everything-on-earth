@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/molecularcartography/optimus",
+  "name": "MolecularCartography/Optimus",
+  "description": "Workflow for LC-MS-based untargeted metabolomics.",
+  "sub_domain": "metabolomics",
+  "score": 7,
+  "score_rationale": "It is explicitly an untargeted metabolomics workflow, though it is older and more specialized than the top-tier preprocessing tools.",
+  "stars": 20,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2018-07-16",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 52.6,
+  "discovery_score": 7,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "Workflow for LC-MS-based untargeted metabolomics.",
+  "slug": "molecularcartography-optimus"
+}

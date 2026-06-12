@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dxfeed/dxlink",
+  "name": "dxfeed/dxlink",
+  "description": "Market Data API",
+  "sub_domain": "financial-market-data",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 17,
+  "language": "TypeScript",
+  "license": "MPL-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 28.0,
+  "discovery_score": 3,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "Market Data API",
+  "slug": "dxfeed-dxlink"
+}

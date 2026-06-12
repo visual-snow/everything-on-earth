@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/getlago/lago",
+  "name": "getlago/lago",
+  "description": "Open Source Metering and Usage Based Billing API \u2b50\ufe0f Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 9,
+  "score_rationale": "Matched 3 queries; contains 5 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 9458,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 85.8,
+  "discovery_score": 9,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "Open Source Metering and Usage Based Billing API \u2b50\ufe0f Consumption tracking, Subscription management, Pricing iterations, Payment orchestrat...",
+  "slug": "getlago-lago"
+}

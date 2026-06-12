@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/firmai/financial-machine-learning",
+  "name": "firmai/financial-machine-learning",
+  "description": "A curated list of practical financial machine learning tools and applications.",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 8,
+  "score_rationale": "Practical financial ML reference collection with strong relevance to quant research.",
+  "stars": 8454,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-01-03",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 79.4,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "A curated list of practical financial machine learning tools and applications.",
+  "slug": "firmai-financial-machine-learning"
+}

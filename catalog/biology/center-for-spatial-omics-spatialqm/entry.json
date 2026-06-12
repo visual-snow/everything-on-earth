@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/center-for-spatial-omics/spatialqm",
+  "name": "center-for-spatial-omics/spatialqm",
+  "description": "No description provided.",
+  "sub_domain": "spatial-omics",
+  "score": 7,
+  "score_rationale": "Useful spatial in-situ quality-control package for CosMx and Xenium, even though it is narrower than the big general-purpose frameworks.",
+  "stars": 13,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-02-21",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 51.2,
+  "discovery_score": 7,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "No description provided.",
+  "slug": "center-for-spatial-omics-spatialqm"
+}

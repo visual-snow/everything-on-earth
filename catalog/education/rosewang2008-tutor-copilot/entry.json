@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/rosewang2008/tutor-copilot",
+  "name": "rosewang2008/tutor-copilot",
+  "description": "Human-AI tutoring copilot that gives tutors expert-like guidance during live tutoring sessions.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 9,
+  "score_rationale": "Directly targets real-time tutoring support and has a strong research basis, so it is one of the best fits for this discovery set.",
+  "stars": 33,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2024-10-28",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 66.3,
+  "discovery_score": 9,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring",
+    "tutoring"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "Human-AI tutoring copilot that gives tutors expert-like guidance during live tutoring sessions.",
+  "slug": "rosewang2008-tutor-copilot"
+}

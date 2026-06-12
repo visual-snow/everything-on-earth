@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jeangnc/us-visa-bot",
+  "name": "jeangnc/us-visa-bot",
+  "description": "US Visa Bot",
+  "sub_domain": "immigration-visa-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 244,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-01-07",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 43.1,
+  "discovery_score": 4,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "US Visa Bot",
+  "slug": "jeangnc-us-visa-bot"
+}

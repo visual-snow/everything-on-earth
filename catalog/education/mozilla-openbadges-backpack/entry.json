@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mozilla/openbadges-backpack",
+  "name": "mozilla/openbadges-backpack",
+  "description": "Mozilla Open Badges Backpack",
+  "sub_domain": "credentialing-certification",
+  "score": 3,
+  "score_rationale": "Legacy Mozilla Open Badges backpack for storing credentials; foundational, but retired and inactive.",
+  "stars": 867,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2019-08-22",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 41.5,
+  "discovery_score": 3,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials",
+    "badges"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "Mozilla Open Badges Backpack",
+  "slug": "mozilla-openbadges-backpack"
+}

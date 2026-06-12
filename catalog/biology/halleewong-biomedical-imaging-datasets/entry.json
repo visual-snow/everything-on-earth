@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/halleewong/biomedical-imaging-datasets",
+  "name": "halleewong/biomedical-imaging-datasets",
+  "description": "Tracking (bio)medical imaging datasets",
+  "sub_domain": "biomedical-imaging",
+  "score": 5,
+  "score_rationale": "This is a useful biomedical-imaging dataset index, but it is primarily a resource catalog rather than an executable workflow.",
+  "stars": 20,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-04-13",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 40.6,
+  "discovery_score": 5,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Tracking (bio)medical imaging datasets",
+  "slug": "halleewong-biomedical-imaging-datasets"
+}

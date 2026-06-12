@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/natlabrockies/openstudio-eri",
+  "name": "natlabrockies/openstudio-eri",
+  "description": "Energy Rating Index (ERI) calculation via OpenStudio/EnergyPlus.",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 24,
+  "language": "Ruby",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 35.2,
+  "discovery_score": 4,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "Energy Rating Index (ERI) calculation via OpenStudio/EnergyPlus.",
+  "slug": "natlabrockies-openstudio-eri"
+}

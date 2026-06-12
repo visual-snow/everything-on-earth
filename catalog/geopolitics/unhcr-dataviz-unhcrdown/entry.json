@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/unhcr-dataviz/unhcrdown",
+  "name": "unhcr-dataviz/unhcrdown",
+  "description": "UNHCR branded R Markdown templates for reports, presentations, and web documents",
+  "sub_domain": "migration-refugee-data",
+  "score": 7,
+  "score_rationale": "UNHCR report and publishing tooling for displacement data products.",
+  "stars": 26,
+  "language": "SCSS",
+  "license": "NOASSERTION",
+  "last_activity": "2025-01-17",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 53.5,
+  "tags": [
+    "unhcr",
+    "publishing",
+    "reports",
+    "r-markdown"
+  ],
+  "category": "UNHCR Report Templates",
+  "summary": "Branded templates for UNHCR reports, presentations, and web docs.",
+  "slug": "unhcr-dataviz-unhcrdown"
+}

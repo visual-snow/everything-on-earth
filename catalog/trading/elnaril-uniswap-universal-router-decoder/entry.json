@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/elnaril/uniswap-universal-router-decoder",
+  "name": "Elnaril/uniswap-universal-router-decoder",
+  "description": "Uniswap Universal Router SDK - Decode and Encode Transactions - Uniswap V2, V3 & V4",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 9,
+  "score_rationale": "Strong Uniswap execution helper for encoding and decoding router transactions across versions.",
+  "stars": 273,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 73.5,
+  "tags": [
+    "defi",
+    "dex",
+    "mev",
+    "uniswap"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "Uniswap Universal Router SDK - Decode and Encode Transactions - Uniswap V2, V3 & V4",
+  "slug": "elnaril-uniswap-universal-router-decoder"
+}

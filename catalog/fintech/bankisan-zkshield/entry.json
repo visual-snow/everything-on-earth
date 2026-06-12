@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bankisan/zkshield",
+  "name": "bankisan/zkshield",
+  "description": "Private multisig with hidden owners",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 236,
+  "language": "Circom",
+  "license": "MIT",
+  "last_activity": "2023-09-23",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 43.0,
+  "discovery_score": 4,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Private multisig with hidden owners",
+  "slug": "bankisan-zkshield"
+}

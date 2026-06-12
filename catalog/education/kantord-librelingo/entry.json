@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kantord/librelingo",
+  "name": "kantord/LibreLingo",
+  "description": "A community-owned language-learning platform.",
+  "sub_domain": "language-learning",
+  "score": 10,
+  "score_rationale": "Direct language-learning platform with interactive exercises, spaced repetition, progress tracking, and course authoring.",
+  "stars": 2578,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-01-16",
+  "found_in_domains": [
+    "language-learning"
+  ],
+  "quality_score": 87.3,
+  "discovery_score": 10,
+  "tags": [
+    "language-learning",
+    "flashcards",
+    "vocabulary",
+    "reading-support"
+  ],
+  "category": "Language Learning, Vocabulary Training, Reading Support & Speaking Practice",
+  "summary": "A community-owned language-learning platform.",
+  "slug": "kantord-librelingo"
+}

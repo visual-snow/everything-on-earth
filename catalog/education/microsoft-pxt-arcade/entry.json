@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/pxt-arcade",
+  "name": "microsoft/pxt-arcade",
+  "description": "Arcade game editor based on Microsoft MakeCode",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Direct learner-facing MakeCode experience for classroom coding and game creation.",
+  "stars": 542,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 75.9,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "Arcade game editor based on Microsoft MakeCode",
+  "slug": "microsoft-pxt-arcade"
+}

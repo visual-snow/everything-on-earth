@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kcleal/gw",
+  "name": "kcleal/gw",
+  "description": "Genome browser and variant annotation",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 5,
+  "score_rationale": "Practical terminal genome browser for sequencing data and variant inspection.",
+  "stars": 392,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-10-30",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 50.8,
+  "discovery_score": 5,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Genome browser and variant annotation",
+  "slug": "kcleal-gw"
+}

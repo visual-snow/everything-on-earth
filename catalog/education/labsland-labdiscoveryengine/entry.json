@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/labsland/labdiscoveryengine",
+  "name": "labsland/labdiscoveryengine",
+  "description": "LabDiscoveryEngine is an evolved and modern RLMS building upon WebLabDeusto's experience.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 9,
+  "score_rationale": "Directly aimed at remote laboratory management and discovery for educational lab sharing.",
+  "stars": 4,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-07-27",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 59.6,
+  "discovery_score": 9,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "LabDiscoveryEngine is an evolved and modern RLMS building upon WebLabDeusto's experience.",
+  "slug": "labsland-labdiscoveryengine"
+}

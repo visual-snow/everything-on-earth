@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/65mo/galaxy-e",
+  "name": "65mo/galaxy-e",
+  "description": "Towards a Galaxy for Ecology",
+  "sub_domain": "climate-biology",
+  "score": 6,
+  "score_rationale": "It is a Galaxy-based ecology workflow prototype that links biodiversity and climate data sources, but it is broader than the core modeling repos.",
+  "stars": 6,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2021-04-23",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 6,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate",
+    "ecology"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "Towards a Galaxy for Ecology",
+  "slug": "65mo-galaxy-e"
+}

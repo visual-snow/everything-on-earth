@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/protontypes/open-sustainable-technology",
+  "name": "protontypes/open-sustainable-technology",
+  "description": "A directory and analysis of the open source ecosystem in the areas of climate change, sustainable energy, biodiversity and natural resources.  https://docs.getgrist.com/gSscJkc5Rb1R/OpenSustaintech",
+  "sub_domain": "climate-data-analysis",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption; penalized for directory-style signals.",
+  "stars": 2467,
+  "language": null,
+  "license": "CC-BY-4.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "climate-data-analysis",
+    "esg-reporting-compliance",
+    "supply-chain-sustainability"
+  ],
+  "quality_score": 51.1,
+  "discovery_score": 4,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling",
+    "biodiversity"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "A directory and analysis of the open source ecosystem in the areas of climate change, sustainable energy, biodiversity and natural resour...",
+  "slug": "protontypes-open-sustainable-technology"
+}

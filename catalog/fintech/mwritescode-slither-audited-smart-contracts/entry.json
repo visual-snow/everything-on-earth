@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mwritescode/slither-audited-smart-contracts",
+  "name": "mwritescode/slither-audited-smart-contracts",
+  "description": "Dataset containing source code and deployed bytecode for Solidity Smart Contracts that have been verified on Etherscan.io, along with a classification of their vulnerabilities according to the Slither static analysis framework.",
+  "sub_domain": "smart-contract-security",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for dataset-style signals.",
+  "stars": 25,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2022-06-13",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 29.3,
+  "discovery_score": 3,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Dataset containing source code and deployed bytecode for Solidity Smart Contracts that have been verified on Etherscan.io, along with a c...",
+  "slug": "mwritescode-slither-audited-smart-contracts"
+}

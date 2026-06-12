@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/owasp/devsecopsguideline",
+  "name": "owasp/devsecopsguideline",
+  "description": "The OWASP DevSecOps Guideline can help us to embedding security as a part of the development pipeline.",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 1042,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-05",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 36.1,
+  "discovery_score": 2,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "The OWASP DevSecOps Guideline can help us to embedding security as a part of the development pipeline.",
+  "slug": "owasp-devsecopsguideline"
+}

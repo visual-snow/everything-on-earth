@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/leomarcov/labadmin",
+  "name": "leomarcov/labadmin",
+  "description": "Admin tool for remotely hosting computers in a lab environment.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 6,
+  "score_rationale": "Useful adjacent lab infrastructure for educational computer-lab management, though less simulation-focused.",
+  "stars": 3,
+  "language": "Shell",
+  "license": "GPL-3.0",
+  "last_activity": "2025-06-25",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 6,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Admin tool for remotely hosting computers in a lab environment.",
+  "slug": "leomarcov-labadmin"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pyportfolio/pyportfolioopt",
+  "name": "pyportfolio/pyportfolioopt",
+  "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 9,
+  "score_rationale": "Matched 3 queries; contains 5 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 5582,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 84.0,
+  "discovery_score": 9,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
+  "slug": "pyportfolio-pyportfolioopt"
+}

@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/sampriti2803/0xruchikarashunti",
+  "name": "sampriti2803/0xruchikarashunti",
+  "description": "Chain of Custody is a tamper-proof forensic evidence system ensuring integrity, traceability, and availability through dual storage (Local + IPFS), fuzzy hashing, and a private blockchain with role-based access control. 4th Place @ CIDECODE 2.0",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 2,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-08-16",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support",
+    "evidence",
+    "access"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "Chain of Custody is a tamper-proof forensic evidence system ensuring integrity, traceability, and availability through dual storage (Loca...",
+  "slug": "sampriti2803-0xruchikarashunti"
+}

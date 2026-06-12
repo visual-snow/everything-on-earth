@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/thejacksonlaboratory/rit-imageanalysis-containers",
+  "name": "thejacksonlaboratory/rit-imageanalysis-containers",
+  "description": "Making it easier for users to spin up a Singularity container with image analysis tools from a slurm-based cluster",
+  "sub_domain": "biomedical-imaging",
+  "score": 6,
+  "score_rationale": "This repository packages bioimage-analysis runtime environments, so it is relevant infrastructure even though it is not an algorithm itself.",
+  "stars": 5,
+  "language": "Shell",
+  "license": "MIT",
+  "last_activity": "2025-07-25",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 42.2,
+  "discovery_score": 6,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Making it easier for users to spin up a Singularity container with image analysis tools from a slurm-based cluster",
+  "slug": "thejacksonlaboratory-rit-imageanalysis-containers"
+}

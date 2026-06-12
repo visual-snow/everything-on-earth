@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/arbor-sim/arbor",
+  "name": "arbor-sim/arbor",
+  "description": "The Arbor multi-compartment neural network simulation library.",
+  "sub_domain": "computational-neuroscience",
+  "score": 9,
+  "score_rationale": "Canonical multi-compartment neural simulation library for modern HPC neuroscience workflows.",
+  "stars": 130,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 70.9,
+  "discovery_score": 9,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "The Arbor multi-compartment neural network simulation library.",
+  "slug": "arbor-sim-arbor"
+}

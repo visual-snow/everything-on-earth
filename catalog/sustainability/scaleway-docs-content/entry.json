@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/scaleway/docs-content",
+  "name": "scaleway/docs-content",
+  "description": "Scaleway Documentation contents",
+  "sub_domain": "life-cycle-assessment",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 92,
+  "language": "MDX",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 21.7,
+  "discovery_score": 1,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Scaleway Documentation contents",
+  "slug": "scaleway-docs-content"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/azure/azure-governance-visualizer-accelerator",
+  "name": "azure/azure-governance-visualizer-accelerator",
+  "description": "An accelerator to help you deploy AzGovViz in your own environments quickly.",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 132,
+  "language": "Bicep",
+  "license": "MIT",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 41.0,
+  "discovery_score": 4,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "An accelerator to help you deploy AzGovViz in your own environments quickly.",
+  "slug": "azure-azure-governance-visualizer-accelerator"
+}

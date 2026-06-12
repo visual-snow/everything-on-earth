@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/epiforecasts/epinow2",
+  "name": "epiforecasts/EpiNow2",
+  "description": "R package for estimating real-time case counts and time-varying epidemiological parameters.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 10,
+  "score_rationale": "Widely used forecasting library for real-time case estimation and time-varying epidemiological parameters.",
+  "stars": 133,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 77.0,
+  "discovery_score": 10,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "R package for estimating real-time case counts and time-varying epidemiological parameters.",
+  "slug": "epiforecasts-epinow2"
+}

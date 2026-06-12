@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/karimosman89/e-learning-analytics",
+  "name": "karimosman89/e-learning-analytics",
+  "description": "Dashboard that analyzes student performance data to identify trends and outcomes.",
+  "sub_domain": "analytics-learning-dashboards",
+  "score": 5,
+  "score_rationale": "On-topic student performance dashboard, but smaller and less established than the core learning analytics repos.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-11-06",
+  "found_in_domains": [
+    "analytics-learning-dashboards"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "analytics",
+    "dashboards",
+    "engagement",
+    "early-alerts"
+  ],
+  "category": "Analytics, Learning Dashboards, Engagement Metrics & Early Alerts",
+  "summary": "Dashboard that analyzes student performance data to identify trends and outcomes.",
+  "slug": "karimosman89-e-learning-analytics"
+}

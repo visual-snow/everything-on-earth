@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kyrincode/sui-move-amm-uniswapv2",
+  "name": "kyrincode/sui-move-amm-uniswapv2",
+  "description": "A simple Sui Move version AMM Dex based on the logic of UniswapV2.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 7,
+  "language": "Move",
+  "license": null,
+  "last_activity": "2024-06-13",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 13.2,
+  "discovery_score": 1,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "A simple Sui Move version AMM Dex based on the logic of UniswapV2.",
+  "slug": "kyrincode-sui-move-amm-uniswapv2"
+}

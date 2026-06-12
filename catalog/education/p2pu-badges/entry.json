@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/p2pu/badges",
+  "name": "p2pu/badges",
+  "description": "At P2PU, learning is guided by people, passion, and projects. We\u2019ve created this Badge platform to spark feedback between Experts and Learners about their learning projects. A Badge is symbol of mastery that comes out of those conversations. Here you\u2019ll find out how Badges work, and some resources to build your own.",
+  "sub_domain": "credentialing-certification",
+  "score": 4,
+  "score_rationale": "Learning-focused badge platform capturing mastery conversations; older but directly education-oriented.",
+  "stars": 14,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-06-28",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 4,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials",
+    "badges"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "At P2PU, learning is guided by people, passion, and projects. We\u2019ve created this Badge platform to spark feedback between Experts and Lea...",
+  "slug": "p2pu-badges"
+}

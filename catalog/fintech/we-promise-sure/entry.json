@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/we-promise/sure",
+  "name": "we-promise/sure",
+  "description": "The personal finance app for everyone. NOT affiliated with or endorsed by Maybe Finance Inc.",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption; fork penalty.",
+  "stars": 7497,
+  "language": "Ruby",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 61.0,
+  "discovery_score": 5,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "The personal finance app for everyone. NOT affiliated with or endorsed by Maybe Finance Inc.",
+  "slug": "we-promise-sure"
+}

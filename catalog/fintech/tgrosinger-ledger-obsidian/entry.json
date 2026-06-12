@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/tgrosinger/ledger-obsidian",
+  "name": "tgrosinger/ledger-obsidian",
+  "description": "Plain text accounting in Obsidian.md",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+  "stars": 545,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2024-07-06",
+  "found_in_domains": [
+    "core-banking-ledger",
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 57.9,
+  "discovery_score": 6,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger",
+    "ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Plain text accounting in Obsidian.md",
+  "slug": "tgrosinger-ledger-obsidian"
+}

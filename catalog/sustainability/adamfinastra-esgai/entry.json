@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/adamfinastra/esgai",
+  "name": "adamfinastra/esgai",
+  "description": "Putting the Data in ESG",
+  "sub_domain": "esg-reporting-compliance",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 32,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2020-12-17",
+  "found_in_domains": [
+    "esg-reporting-compliance"
+  ],
+  "quality_score": 30.1,
+  "discovery_score": 3,
+  "tags": [
+    "esg",
+    "csrd",
+    "tcfd",
+    "issb"
+  ],
+  "category": "ESG Reporting / Compliance \u2014 ESG aggregation and CSRD/TCFD/ISSB reporting tooling",
+  "summary": "Putting the Data in ESG",
+  "slug": "adamfinastra-esgai"
+}

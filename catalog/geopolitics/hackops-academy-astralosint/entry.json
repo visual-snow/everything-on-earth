@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hackops-academy/astralosint",
+  "name": "hackops-academy/AstralOSINT",
+  "description": "AstraOSINT is a professional-grade, web-based Geospatial Intelligence (GEOINT) tool designed for researchers, OSINT analysts, and hobbyists. It provides a centralized interface for satellite imagery analysis, point-of-interest tracking, and tactical route planning.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-05",
+  "sub_domain": "geoint-tools",
+  "score": 8,
+  "score_rationale": "Web-based GEOINT tool designed for analysts and hobbyists, directly aligned to the subdomain.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "geoint",
+    "osint",
+    "satellite-imagery",
+    "route-planning"
+  ],
+  "category": "GEOINT Platform",
+  "summary": "Web-based GEOINT tool for imagery analysis, tracking, and route planning.",
+  "slug": "hackops-academy-astralosint"
+}

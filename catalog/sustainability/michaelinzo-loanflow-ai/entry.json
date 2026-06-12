@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/michaelinzo/loanflow-ai",
+  "name": "michaelinzo/loanflow-ai",
+  "description": "LoanFlow AI is a comprehensive, AI-powered loan management and trading platform that revolutionizes how financial institutions originate, document, monitor, and trade loans. Built specifically for the LMA Edge Hackathon, this platform addresses multiple challenge categories with a commercially viable, desktop-based solution that demonstrates signif",
+  "sub_domain": "climate-finance",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 2,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 9.8,
+  "discovery_score": 1,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "LoanFlow AI is a comprehensive, AI-powered loan management and trading platform that revolutionizes how financial institutions originate,...",
+  "slug": "michaelinzo-loanflow-ai"
+}

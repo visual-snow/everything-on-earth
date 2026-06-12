@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/frappe/education",
+  "name": "frappe/education",
+  "description": "Open source education / school management system",
+  "sub_domain": "sis",
+  "score": 9,
+  "score_rationale": "Education-first school management platform from a major OSS ecosystem; broad enough to cover core SIS workflows.",
+  "stars": 471,
+  "language": "Python",
+  "license": "Other",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "sis"
+  ],
+  "quality_score": 75.4,
+  "discovery_score": 9,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "Open source education / school management system",
+  "slug": "frappe-education"
+}

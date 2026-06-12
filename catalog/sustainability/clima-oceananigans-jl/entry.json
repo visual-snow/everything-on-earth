@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clima/oceananigans.jl",
+  "name": "clima/oceananigans.jl",
+  "description": "\ud83c\udf0a  Julia software for fast, friendly, flexible, ocean-flavored fluid dynamics on CPUs and GPUs",
+  "sub_domain": "ocean-climate",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 1292,
+  "language": "Julia",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "ocean-climate"
+  ],
+  "quality_score": 60.9,
+  "discovery_score": 6,
+  "tags": [
+    "ocean-climate",
+    "blue-carbon",
+    "marine-carbon",
+    "ocean-acidification"
+  ],
+  "category": "Ocean / Climate \u2014 ocean acidification, marine carbon, blue economy tools",
+  "summary": "\ud83c\udf0a  Julia software for fast, friendly, flexible, ocean-flavored fluid dynamics on CPUs and GPUs",
+  "slug": "clima-oceananigans-jl"
+}

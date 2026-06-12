@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brian-team/brian2",
+  "name": "brian-team/brian2",
+  "description": "Brian is a free, open source simulator for spiking neural networks.",
+  "sub_domain": "computational-neuroscience",
+  "score": 97,
+  "score_rationale": "Foundational spiking-neuron simulator with broad neuroscience adoption.",
+  "stars": 1146,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 606.5,
+  "discovery_score": 97,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Brian is a free, open source simulator for spiking neural networks.",
+  "slug": "brian-team-brian2"
+}

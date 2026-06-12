@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/hyperliquid-dex/hyperliquid-python-sdk",
+  "name": "hyperliquid-dex/hyperliquid-python-sdk",
+  "description": "SDK for Hyperliquid API trading with Python.",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 8,
+  "score_rationale": "Practical trading SDK for Hyperliquid; adjacent to DeFi DEX execution workflows.",
+  "stars": 1482,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-04",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 73.4,
+  "tags": [
+    "defi",
+    "dex",
+    "mev"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "SDK for Hyperliquid API trading with Python.",
+  "slug": "hyperliquid-dex-hyperliquid-python-sdk"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/consbiol-unibern/sdmtune",
+  "name": "consbiol-unibern/sdmtune",
+  "description": "Performs Variables selection and model tuning for Species Distribution Models (SDMs). It provides also several utilities to display results.",
+  "sub_domain": "ecology-conservation",
+  "score": 8,
+  "score_rationale": "Practical SDM tuning utility for selecting variables, calibrating models, and reviewing results.",
+  "stars": 28,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-08-27",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 59.7,
+  "discovery_score": 8,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Performs Variables selection and model tuning for Species Distribution Models (SDMs). It provides also several utilities to display results.",
+  "slug": "consbiol-unibern-sdmtune"
+}

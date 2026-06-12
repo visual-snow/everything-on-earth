@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lucified/lucify-refugees",
+  "name": "lucified/lucify-refugees",
+  "description": "A visualization of the flow of asylum seekers to European countries from 2012 onwards.",
+  "sub_domain": "migration-refugee-data",
+  "score": 7,
+  "score_rationale": "Historical visualization of asylum-seeker flows to European countries.",
+  "stars": 113,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2018-11-12",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 58.5,
+  "tags": [
+    "asylum",
+    "migration",
+    "visualization",
+    "europe"
+  ],
+  "category": "Asylum Flow Visualization",
+  "summary": "Visualizes asylum-seeker flows to European countries.",
+  "slug": "lucified-lucify-refugees"
+}

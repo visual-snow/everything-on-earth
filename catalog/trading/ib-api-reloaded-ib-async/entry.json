@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ib-api-reloaded/ib_async",
+  "name": "ib-api-reloaded/ib_async",
+  "description": "Python sync/async framework for Interactive Brokers API (replaces ib_insync)",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 9,
+  "score_rationale": "Modern Interactive Brokers sync/async framework that explicitly replaces ib_insync.",
+  "stars": 1433,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2025-12-08",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 79.3,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "Python sync/async framework for Interactive Brokers API (replaces ib_insync)",
+  "slug": "ib-api-reloaded-ib-async"
+}

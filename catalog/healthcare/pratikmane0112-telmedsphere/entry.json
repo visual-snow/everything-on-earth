@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/pratikmane0112/telmedsphere",
+  "name": "PratikMane0112/TelMedSphere",
+  "description": "A telemedicine healthcare platform for doctors & patients.",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 6,
+  "score_rationale": "Clear telemedicine intent and Jitsi-based consult flow, but it looks more like a student-built app than a mature platform.",
+  "stars": 10,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2025-06-30",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 44.3,
+  "discovery_score": 6,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video",
+    "patient-records"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "A telemedicine healthcare platform for doctors & patients.",
+  "slug": "pratikmane0112-telmedsphere"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/freedomofpress/trackthenews",
+  "name": "freedomofpress/trackthenews",
+  "description": "Script and package that monitors news outlets for recurring phrases and can power news-tracking bots.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 9,
+  "score_rationale": "It is a practical monitoring tool for news narratives and outlet-specific coverage patterns.",
+  "stars": 154,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-03-17",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 71.5,
+  "tags": [
+    "news-monitoring",
+    "media-bias",
+    "narratives",
+    "python"
+  ],
+  "category": "News Monitoring",
+  "summary": "Monitors news outlets for recurring phrases and narrative shifts.",
+  "slug": "freedomofpress-trackthenews"
+}

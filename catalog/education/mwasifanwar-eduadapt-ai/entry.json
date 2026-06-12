@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mwasifanwar/eduadapt-ai",
+  "name": "mwasifanwar/eduadapt-ai",
+  "description": "AI-driven adaptive learning system that personalizes educational content based on student performance, learning style, and engagement metrics.",
+  "sub_domain": "accessibility-inclusive-education",
+  "score": 5,
+  "score_rationale": "Personalization-oriented learning support project that can help adapt instruction to different learner needs.",
+  "stars": 8,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-11-07",
+  "found_in_domains": [
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 37.6,
+  "discovery_score": 5,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "AI-driven adaptive learning system that personalizes educational content based on student performance, learning style, and engagement met...",
+  "slug": "mwasifanwar-eduadapt-ai"
+}

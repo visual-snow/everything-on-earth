@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/datadotworld/cwd-benchmark-data",
+  "name": "datadotworld/cwd-benchmark-data",
+  "description": "Data for the Chat With Your Data benchmark.",
+  "sub_domain": "insurance-actuarial-tech",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption; penalized for benchmark-style signals.",
+  "stars": 149,
+  "language": "Shell",
+  "license": "Apache-2.0",
+  "last_activity": "2023-12-01",
+  "found_in_domains": [
+    "insurance-actuarial-tech"
+  ],
+  "quality_score": 23.4,
+  "discovery_score": 1,
+  "tags": [
+    "insurance",
+    "actuarial",
+    "claims",
+    "cat-modeling"
+  ],
+  "category": "Insurance / Actuarial Tech",
+  "summary": "Data for the Chat With Your Data benchmark.",
+  "slug": "datadotworld-cwd-benchmark-data"
+}

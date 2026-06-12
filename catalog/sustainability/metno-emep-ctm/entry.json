@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/metno/emep-ctm",
+  "name": "metno/emep-ctm",
+  "description": "Open Source EMEP/MSC-W model",
+  "sub_domain": "air-quality-emissions",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 38,
+  "language": null,
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-24",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 18.7,
+  "discovery_score": 1,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Open Source EMEP/MSC-W model",
+  "slug": "metno-emep-ctm"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fraunhofer-iml/greencomplai",
+  "name": "fraunhofer-iml/greencomplai",
+  "description": "No description provided.",
+  "sub_domain": "supply-chain-sustainability",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 5,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-15",
+  "found_in_domains": [
+    "supply-chain-sustainability"
+  ],
+  "quality_score": 12.2,
+  "discovery_score": 1,
+  "tags": [
+    "supply-chain",
+    "traceability",
+    "scope-3",
+    "deforestation"
+  ],
+  "category": "Supply Chain Sustainability \u2014 scope 3 traceability, deforestation-free supply chains, fair trade tracking",
+  "summary": "No description provided.",
+  "slug": "fraunhofer-iml-greencomplai"
+}

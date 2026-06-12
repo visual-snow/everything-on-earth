@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hydepwns/awesome-web3-data",
+  "name": "hydepwns/awesome-web3-data",
+  "description": "Awesome lists of web3 data resources",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for awesome-style signals.",
+  "stars": 17,
+  "language": "INI",
+  "license": "CC0-1.0",
+  "last_activity": "2025-08-13",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 16.0,
+  "discovery_score": 1,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Awesome lists of web3 data resources",
+  "slug": "hydepwns-awesome-web3-data"
+}

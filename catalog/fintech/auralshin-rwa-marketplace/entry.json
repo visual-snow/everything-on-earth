@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/auralshin/rwa-marketplace",
+  "name": "auralshin/rwa-marketplace",
+  "description": "RWA Market place",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 5,
+  "language": "Solidity",
+  "license": null,
+  "last_activity": "2024-01-17",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 12.2,
+  "discovery_score": 1,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "RWA Market place",
+  "slug": "auralshin-rwa-marketplace"
+}

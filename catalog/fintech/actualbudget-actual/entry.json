@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/actualbudget/actual",
+  "name": "actualbudget/actual",
+  "description": "A local-first personal finance app",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 8,
+  "score_rationale": "Matched 3 queries; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 25641,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 83.3,
+  "discovery_score": 8,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "A local-first personal finance app",
+  "slug": "actualbudget-actual"
+}

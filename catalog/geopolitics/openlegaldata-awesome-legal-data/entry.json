@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openlegaldata/awesome-legal-data",
+  "name": "openlegaldata/awesome-legal-data",
+  "description": "A collection of datasets and other resources for legal text processing.",
+  "sub_domain": "international-law-treaties",
+  "score": 8,
+  "score_rationale": "It is a curated gateway into legal corpora and processing resources relevant to treaty workflows.",
+  "stars": 200,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 66.4,
+  "tags": [
+    "legal-resources",
+    "datasets",
+    "curation",
+    "text-processing"
+  ],
+  "category": "Legal Resource Directory",
+  "summary": "Curated directory of legal datasets and text-processing resources.",
+  "slug": "openlegaldata-awesome-legal-data"
+}

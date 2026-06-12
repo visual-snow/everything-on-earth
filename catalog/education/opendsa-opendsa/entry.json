@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opendsa/opendsa",
+  "name": "OpenDSA/OpenDSA",
+  "description": "Working source for the OpenDSA eTextbook project",
+  "sub_domain": "adaptive-learning",
+  "score": 9,
+  "score_rationale": "Canonical open-source eTextbook platform for algorithms/data structures with learner-facing exercises and course workflows.",
+  "stars": 364,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "adaptive-learning"
+  ],
+  "quality_score": 74.5,
+  "discovery_score": 9,
+  "tags": [
+    "adaptive-learning",
+    "tutoring",
+    "mastery",
+    "knowledge-tracing"
+  ],
+  "category": "Adaptive Learning, Personalization, Knowledge Tracing & AI Tutoring",
+  "summary": "Working source for the OpenDSA eTextbook project",
+  "slug": "opendsa-opendsa"
+}

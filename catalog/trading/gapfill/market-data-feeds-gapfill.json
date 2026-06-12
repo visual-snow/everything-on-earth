@@ -1,0 +1,62 @@
+[
+  {
+    "repo_url": "https://github.com/ranaroussi/yfinance",
+    "name": "ranaroussi/yfinance",
+    "description": "Download market data from Yahoo! Finance's API",
+    "sub_domain": "market-data-feeds",
+    "score": 9,
+    "score_rationale": "Canonical open-source Yahoo Finance downloader with broad use for historical price ingestion and research workflows.",
+    "stars": 22312,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": null
+  },
+  {
+    "repo_url": "https://github.com/pydata/pandas-datareader",
+    "name": "pydata/pandas-datareader",
+    "description": "Extract data from a wide range of Internet sources into a pandas DataFrame.",
+    "sub_domain": "market-data-feeds",
+    "score": 8,
+    "score_rationale": "Widely used historical data access layer that pulls market and macro data from multiple sources into pandas.",
+    "stars": 3169,
+    "language": "Python",
+    "license": null,
+    "last_activity": null
+  },
+  {
+    "repo_url": "https://github.com/RomelTorres/alpha_vantage",
+    "name": "RomelTorres/alpha_vantage",
+    "description": "A python wrapper for Alpha Vantage API for financial data.",
+    "sub_domain": "market-data-feeds",
+    "score": 7,
+    "score_rationale": "Common API wrapper for Alpha Vantage that provides reusable historical and real-time market data access in Python.",
+    "stars": 4744,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": null
+  },
+  {
+    "repo_url": "https://github.com/mypmc/marketstore",
+    "name": "mypmc/marketstore",
+    "description": "DataFrame Server for Financial Timeseries Data",
+    "sub_domain": "market-data-feeds",
+    "score": 7,
+    "score_rationale": "Historical timeseries storage layer for financial data, which fills the feed/storage gap better than another source-specific wrapper.",
+    "stars": 1,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": null
+  },
+  {
+    "repo_url": "https://github.com/MarketDataApp/sdk-go",
+    "name": "MarketDataApp/sdk-go",
+    "description": "Market Data's Official Go SDK",
+    "sub_domain": "market-data-feeds",
+    "score": 6,
+    "score_rationale": "Official SDK for obtaining real-time and historical financial data; narrower than the canonical open-source wrappers but still clearly on-scope.",
+    "stars": 10,
+    "language": "Go",
+    "license": "MIT",
+    "last_activity": null
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lballabio/quantlib",
+  "name": "lballabio/quantlib",
+  "description": "The QuantLib C++ library",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 6908,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 66.7,
+  "discovery_score": 6,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "The QuantLib C++ library",
+  "slug": "lballabio-quantlib"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nasaarset/lcluc_2026",
+  "name": "nasaarset/lcluc_2026",
+  "description": "Visualizing Land Cover and Land Use Change with NASA Satellite Imagery: This ARSET training explores how the R statistical coding language can be used to classify land cover and quantify changes in land cover over time.",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 27,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-02-26",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 41.6,
+  "discovery_score": 5,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "Visualizing Land Cover and Land Use Change with NASA Satellite Imagery: This ARSET training explores how the R statistical coding languag...",
+  "slug": "nasaarset-lcluc-2026"
+}

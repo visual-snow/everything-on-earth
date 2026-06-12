@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nextgenhealthcare/connect",
+  "name": "nextgenhealthcare/connect",
+  "description": "Mirth Connect by NextGen Healthcare.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 9,
+  "score_rationale": "Widely used healthcare integration engine that sits at the center of HL7/FHIR exchange workflows.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "Mirth Connect by NextGen Healthcare.",
+  "slug": "nextgenhealthcare-connect"
+}

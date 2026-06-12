@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pontus-vision/pontus-vision",
+  "name": "pontus-vision/pontus-vision",
+  "description": "PontusVision is an open source project to help companies catalogue their data to help with data protection regulations, such as CCPA, LGPD and GDPR",
+  "sub_domain": "privacy-data-protection",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 5,
+  "language": "Shell",
+  "license": "MIT",
+  "last_activity": "2023-06-26",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 24.2,
+  "discovery_score": 3,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "PontusVision is an open source project to help companies catalogue their data to help with data protection regulations, such as CCPA, LGP...",
+  "slug": "pontus-vision-pontus-vision"
+}

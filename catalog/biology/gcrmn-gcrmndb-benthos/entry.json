@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gcrmn/gcrmndb_benthos",
+  "name": "gcrmn/gcrmndb_benthos",
+  "description": "Code repository for the GCRMN benthic cover synthetic dataset",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "GCRMN benthic-cover dataset repository squarely targets coral reef monitoring and benthic community analysis.",
+  "stars": 20,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 58.6,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Code repository for the GCRMN benthic cover synthetic dataset",
+  "slug": "gcrmn-gcrmndb-benthos"
+}

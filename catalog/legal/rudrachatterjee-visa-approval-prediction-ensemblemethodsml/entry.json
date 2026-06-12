@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rudrachatterjee/visa-approval-prediction-ensemblemethodsml",
+  "name": "rudrachatterjee/visa-approval-prediction-ensemblemethodsml",
+  "description": "This project presents a ML based solution using Ensemble methods to predict which visa applications will be approved and thus recommend a suitable profile for applicants whose visa have a high chance of approval",
+  "sub_domain": "immigration-visa-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-03-20",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "This project presents a ML based solution using Ensemble methods to predict which visa applications will be approved and thus recommend a...",
+  "slug": "rudrachatterjee-visa-approval-prediction-ensemblemethodsml"
+}

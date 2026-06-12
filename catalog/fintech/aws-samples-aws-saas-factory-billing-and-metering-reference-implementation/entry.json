@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aws-samples/aws-saas-factory-billing-and-metering-reference-implementation",
+  "name": "aws-samples/aws-saas-factory-billing-and-metering-reference-implementation",
+  "description": "A reference implementation for a billing and metering solution for SaaS applications.",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 29,
+  "language": "Java",
+  "license": "MIT-0",
+  "last_activity": "2025-12-19",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 35.8,
+  "discovery_score": 4,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "A reference implementation for a billing and metering solution for SaaS applications.",
+  "slug": "aws-samples-aws-saas-factory-billing-and-metering-reference-implementation"
+}

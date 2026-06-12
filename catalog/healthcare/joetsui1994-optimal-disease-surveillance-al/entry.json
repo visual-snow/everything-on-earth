@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/joetsui1994/optimal-disease-surveillance-al",
+  "name": "joetsui1994/optimal-disease-surveillance-AL",
+  "description": "Data and code for manuscript \"Optimal disease surveillance with graph-based Active Learning\"",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 6,
+  "score_rationale": "Research code for graph-based active-learning surveillance optimization.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2024-06-21",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 6,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Data and code for manuscript \"Optimal disease surveillance with graph-based Active Learning\"",
+  "slug": "joetsui1994-optimal-disease-surveillance-al"
+}

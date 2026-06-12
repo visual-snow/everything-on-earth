@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/0xfnzero/sol-trade-sdk",
+  "name": "0xfnzero/sol-trade-sdk",
+  "description": "A high-performance Rust SDK for low-latency Solana DEX trading bots. Built for speed and efficiency, it enables seamless, high-throughput interaction with PumpFun, Pump AMM (PumpSwap), Bonk, Meteora DAMM v2, Raydium AMM v4, and Raydium CPMM for latency-critical trading strategies.",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 9,
+  "score_rationale": "High-performance Solana DEX trading SDK focused on low-latency execution.",
+  "stars": 288,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 73.7,
+  "tags": [
+    "defi",
+    "dex",
+    "mev"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "A high-performance Rust SDK for low-latency Solana DEX trading bots. Built for speed and efficiency, it...",
+  "slug": "0xfnzero-sol-trade-sdk"
+}

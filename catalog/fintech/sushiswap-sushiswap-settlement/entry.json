@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sushiswap/sushiswap-settlement",
+  "name": "sushiswap/sushiswap-settlement",
+  "description": "Solidity contracts to enable limit orders on Sushiswap",
+  "sub_domain": "reconciliation-settlement",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 53,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2021-07-28",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 37.9,
+  "discovery_score": 4,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Solidity contracts to enable limit orders on Sushiswap",
+  "slug": "sushiswap-sushiswap-settlement"
+}

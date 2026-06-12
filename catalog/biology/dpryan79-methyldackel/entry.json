@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dpryan79/methyldackel",
+  "name": "dpryan79/MethylDackel",
+  "description": "A (mostly) universal methylation extractor for BS-seq experiments.",
+  "sub_domain": "epigenomics",
+  "score": 9,
+  "score_rationale": "Widely used bisulfite-seq methylation extractor that cleanly fits the DNA methylation scope.",
+  "stars": 177,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2024-06-21",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 72.0,
+  "discovery_score": 9,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "A (mostly) universal methylation extractor for BS-seq experiments.",
+  "slug": "dpryan79-methyldackel"
+}

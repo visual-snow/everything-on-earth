@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hkuds/deeptutor",
+  "name": "HKUDS/DeepTutor",
+  "description": "AI-powered personalized learning assistant with knowledge-base Q&A, learning visualization, and knowledge reinforcement.",
+  "sub_domain": "adaptive-learning",
+  "score": 10,
+  "score_rationale": "Directly targets personalized learning and AI tutoring, making it one of the strongest matches in scope.",
+  "stars": 10839,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "adaptive-learning"
+  ],
+  "quality_score": 92.3,
+  "discovery_score": 10,
+  "tags": [
+    "adaptive-learning",
+    "tutoring",
+    "mastery",
+    "knowledge-tracing"
+  ],
+  "category": "Adaptive Learning, Personalization, Knowledge Tracing & AI Tutoring",
+  "summary": "AI-powered personalized learning assistant with knowledge-base Q&A, learning visualization, and knowledge reinforcement.",
+  "slug": "hkuds-deeptutor"
+}

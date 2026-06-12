@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/e11bio/prism_training",
+  "name": "e11bio/prism_training",
+  "description": "Training scripts and models for PRISM neuron reconstruction.",
+  "sub_domain": "connectomics",
+  "score": 8,
+  "score_rationale": "Reconstruction-oriented training repo covering neuron segmentation and synapse detection in a neural workflow.",
+  "stars": 7,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-11-26",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 55.2,
+  "discovery_score": 8,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging",
+    "neuron"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Training scripts and models for PRISM neuron reconstruction.",
+  "slug": "e11bio-prism-training"
+}

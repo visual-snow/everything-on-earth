@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lasigebiotm/micra",
+  "name": "lasigebiotm/micra",
+  "description": "Microbial Communities for Regenerative Agriculture",
+  "sub_domain": "sustainable-agriculture",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-10-24",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "Microbial Communities for Regenerative Agriculture",
+  "slug": "lasigebiotm-micra"
+}

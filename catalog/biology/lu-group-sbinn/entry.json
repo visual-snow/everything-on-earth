@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lu-group/sbinn",
+  "name": "lu-group/sbinn",
+  "description": "Systems biology: Identifiability analysis and parameter identification via systems-biology-informed neural networks",
+  "sub_domain": "systems-biology",
+  "score": 7,
+  "score_rationale": "Systems-biology-informed neural network toolkit for identifiability and parameter estimation in mechanistic models.",
+  "stars": 36,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-03-20",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 54.5,
+  "discovery_score": 7,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "Systems biology: Identifiability analysis and parameter identification via systems-biology-informed neural networks",
+  "slug": "lu-group-sbinn"
+}

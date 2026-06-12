@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mikaak/ibkr_api",
+  "name": "mikaak/ibkr_api",
+  "description": "Interactive brokers API access in elixir",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 6,
+  "score_rationale": "Elixir client for Interactive Brokers API, a smaller but genuine connector implementation.",
+  "stars": 8,
+  "language": "Elixir",
+  "license": "MIT",
+  "last_activity": "2025-09-12",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 43.6,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "Interactive brokers API access in elixir",
+  "slug": "mikaak-ibkr-api"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/salfaris/financial-fraud-detection",
+  "name": "salfaris/financial-fraud-detection",
+  "description": "Financial transactions fraud detection using ML (research, experimentation and deployment via Google Cloud)",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-07-31",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "Financial transactions fraud detection using ML (research, experimentation and deployment via Google Cloud)",
+  "slug": "salfaris-financial-fraud-detection"
+}

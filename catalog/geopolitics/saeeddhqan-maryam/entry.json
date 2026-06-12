@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/saeeddhqan/maryam",
+  "name": "saeeddhqan/Maryam",
+  "description": "Maryam: Open-source Intelligence(OSINT) Framework",
+  "stars": 1204,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-09-19",
+  "sub_domain": "osint-frameworks",
+  "score": 8,
+  "score_rationale": "Modular open-source OSINT framework with clear investigative utility.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 72.6,
+  "tags": [
+    "osint",
+    "cli",
+    "framework",
+    "reconnaissance",
+    "intelligence"
+  ],
+  "category": "OSINT Framework",
+  "summary": "CLI-based modular OSINT framework for investigations.",
+  "slug": "saeeddhqan-maryam"
+}

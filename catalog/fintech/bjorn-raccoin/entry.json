@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/bjorn/raccoin",
+  "name": "bjorn/raccoin",
+  "description": "Crypto Portfolio and Tax Reporting Tool",
+  "sub_domain": "tax-calculation-filing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 59,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-18",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 32.2,
+  "discovery_score": 3,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction",
+    "portfolio"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Crypto Portfolio and Tax Reporting Tool",
+  "slug": "bjorn-raccoin"
+}

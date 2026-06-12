@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/danielatrivella/np3_ms_workflow",
+  "name": "danielatrivella/NP3_MS_Workflow",
+  "description": "A Pipeline for LC-MS/MS Metabolomics Data Process and Analysis",
+  "sub_domain": "metabolomics",
+  "score": 8,
+  "score_rationale": "This is a direct LC-MS/MS metabolomics processing pipeline and fits the workflow criterion cleanly.",
+  "stars": 15,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 57.6,
+  "discovery_score": 8,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "A Pipeline for LC-MS/MS Metabolomics Data Process and Analysis",
+  "slug": "danielatrivella-np3-ms-workflow"
+}

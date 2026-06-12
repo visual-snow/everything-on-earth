@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ensembl/ensembl-vep",
+  "name": "Ensembl/ensembl-vep",
+  "description": "The Ensembl Variant Effect Predictor predicts the functional effects of genomic variants",
+  "sub_domain": "genomics",
+  "score": 10,
+  "score_rationale": "The standard large-scale variant effect predictor for functional annotation of genomic variants.",
+  "stars": 541,
+  "language": "Perl",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 81.9,
+  "discovery_score": 10,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "The Ensembl Variant Effect Predictor predicts the functional effects of genomic variants",
+  "slug": "ensembl-ensembl-vep"
+}

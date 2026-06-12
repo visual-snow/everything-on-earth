@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biobakery/humann",
+  "name": "biobakery/humann",
+  "description": "HUMAnN is the next generation of HUMAnN 1.0 (HMP Unified Metabolic Analysis Network).",
+  "sub_domain": "metagenomics",
+  "score": 10,
+  "score_rationale": "Canonical metagenomic functional-profiling software for pathway and gene-family abundance estimation.",
+  "stars": 237,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-20",
+  "found_in_domains": [
+    "metagenomics"
+  ],
+  "quality_score": 79.0,
+  "discovery_score": 10,
+  "tags": [
+    "metagenomics",
+    "microbiome",
+    "taxonomic-classification",
+    "shotgun-sequencing"
+  ],
+  "category": "Metagenomics \u2014 microbiome analysis and taxonomic classification",
+  "summary": "HUMAnN is the next generation of HUMAnN 1.0 (HMP Unified Metabolic Analysis Network).",
+  "slug": "biobakery-humann"
+}

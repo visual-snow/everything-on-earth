@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aim-harvard/pyradiomics",
+  "name": "AIM-Harvard/pyradiomics",
+  "description": "Open-source python package for the extraction of Radiomics features from 2D and 3D images and binary masks. Support: https://discourse.slicer.org/c/community/radiomics",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 9,
+  "score_rationale": "Widely used radiomics feature extraction library and a standard dependency in radiology analytics pipelines.",
+  "stars": 1401,
+  "language": "Jupyter Notebook",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-10-27",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 79.2,
+  "discovery_score": 9,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "Open-source python package for the extraction of Radiomics features from 2D and 3D images and binary masks. Support: https://discourse.sl...",
+  "slug": "aim-harvard-pyradiomics"
+}

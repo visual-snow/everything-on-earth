@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/andrewrosemberg/portfolioopt.jl",
+  "name": "andrewrosemberg/portfolioopt.jl",
+  "description": "Portfolio optimization",
+  "sub_domain": "portfolio-risk-management",
+  "score": 6,
+  "score_rationale": "Niche but directly on point: a Julia portfolio optimization implementation.",
+  "stars": 16,
+  "language": "Julia",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "portfolio-risk-management"
+  ],
+  "quality_score": 45.8,
+  "tags": [
+    "portfolio",
+    "risk-management",
+    "allocation"
+  ],
+  "category": "Portfolio Optimization",
+  "summary": "Portfolio optimization",
+  "slug": "andrewrosemberg-portfolioopt-jl"
+}

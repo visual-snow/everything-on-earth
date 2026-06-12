@@ -1,0 +1,62 @@
+{
+  "slug": "philterd-philter",
+  "name": "philterd/philter",
+  "what_it_is": "Philter is a self-hosted, API-based PII/PHI de-identification service that wraps the Phileas redaction engine and exposes REST endpoints for filtering plain text and PDFs using named filtering policies. It supports redact, mask, replace, and shift strategies and ships with a web UI for interactive use.",
+  "components": [
+    "philter (Spring Boot REST API)",
+    "philter-ui (web UI)",
+    "ph-eye (NER model server for person names)",
+    "ph-eye-medical-conditions (NER model server for disease/disorder labels)",
+    "opensearch (document/span storage)",
+    "Phileas (underlying open-source redaction engine, separate repo)"
+  ],
+  "protocols": [
+    "HTTPS (mTLS supported)",
+    "REST/HTTP for filtering and policy management",
+    "Redis (optional distributed cache over TLS)",
+    "Prometheus metrics scrape endpoint"
+  ],
+  "measurement": [
+    "Prometheus metrics",
+    "JMX metrics (optional)",
+    "Datadog metrics (optional)",
+    "Health/status endpoint"
+  ],
+  "configuration": [
+    "Server port, Redis cache, policy storage (local dir or S3 bucket)",
+    "Per-identifier filter strategies (REDACT, MASK, STATIC_REPLACE, SHIFT_DATE)",
+    "PDF redaction: color, DPI, scale, compression, replacement font",
+    "Splitting config: token threshold, method",
+    "ph-eye endpoint and timeout per identifier",
+    "GPU support for ph-eye container (optional)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Plain-text filtering",
+    "PDF filtering returning redacted PDF",
+    "PDF filtering returning image ZIP",
+    "Policy-driven mode via named policies",
+    "Date shifting mode"
+  ],
+  "constraints": [
+    "Requires Java 17+ to build and run",
+    "ph-eye NER service must be reachable before philter starts",
+    "Policy files must exist on disk or in S3; missing policy returns 400",
+    "Redis cache disabled by default; requires explicit configuration",
+    "GPU acceleration requires NVIDIA container runtime",
+    "OpenSearch security plugin disabled in provided compose; not production-ready as-is"
+  ],
+  "docker_services": [
+    "philter",
+    "philter-ui",
+    "ph-eye",
+    "ph-eye-medical-conditions",
+    "opensearch"
+  ],
+  "notable_absences": [
+    "No built-in rate limiting or API authentication layer",
+    "No audit log or redaction provenance store",
+    "No Kubernetes manifests in repo",
+    "No FHIR endpoint"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cran/dismo",
+  "name": "cran/dismo",
+  "description": ":exclamation: This is a read-only mirror of the CRAN R package repository. dismo \u2014 Species Distribution Modeling. Homepage: https://rspatial.org/raster/sdm/ Report bugs for this package: https://github.com/rspatial/dismo/issues/",
+  "sub_domain": "ecology-conservation",
+  "score": 9,
+  "score_rationale": "Standard R package for species distribution modeling that remains a baseline tool in ecological niche analysis.",
+  "stars": 12,
+  "language": "R",
+  "license": null,
+  "last_activity": "2024-11-25",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 62.9,
+  "discovery_score": 9,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": ":exclamation: This is a read-only mirror of the CRAN R package repository. dismo \u2014 Species Distribution Modeling. Homepage: https://rspat...",
+  "slug": "cran-dismo"
+}

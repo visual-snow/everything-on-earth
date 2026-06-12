@@ -1,0 +1,32 @@
+{
+  "repo_url": "https://github.com/classroomio/classroomio",
+  "name": "classroomio/classroomio",
+  "description": "The Open Source Education Platform. A Simple and Beautiful Alternative to Moodle LMS, EdX, Thinkific and Teachable",
+  "sub_domain": "lms",
+  "score": 9,
+  "score_rationale": "Education-first platform that targets course delivery and LMS replacement use cases.",
+  "stars": 1479,
+  "language": "Svelte",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "lms",
+    "video-lecture-platforms",
+    "curriculum-authoring",
+    "accessibility-inclusive-education",
+    "classroom-management"
+  ],
+  "quality_score": 79.4,
+  "discovery_score": 9,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment",
+    "lecture-capture",
+    "video-learning"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "The Open Source Education Platform. A Simple and Beautiful Alternative to Moodle LMS, EdX, Thinkific and Teachable",
+  "slug": "classroomio-classroomio"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/meteroid-oss/meteroid",
+  "name": "meteroid-oss/meteroid",
+  "description": "Open-source Pricing and Billing Infrastructure \ud83d\ude80 Subscription management, Invoicing, Pricing, Usage-based billing, Cost limiting, Grandfathering, Experiments, Revenue analytics & Actionable insights",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 9,
+  "score_rationale": "Matched 3 queries; contains 4 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1003,
+  "language": "Rust",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 78.0,
+  "discovery_score": 9,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "Open-source Pricing and Billing Infrastructure \ud83d\ude80 Subscription management, Invoicing, Pricing, Usage-based billing, Cost limiting, Grandfa...",
+  "slug": "meteroid-oss-meteroid"
+}

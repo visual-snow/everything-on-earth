@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nikwilms/esg-score-prediction-from-sustainability-reports",
+  "name": "nikwilms/esg-score-prediction-from-sustainability-reports",
+  "description": "This repository contains code and data for a machine learning model that predicts ESG (Environmental, Social, and Governance) scores based on sustainability reports and company data. It's a valuable resource for researchers, investors, and sustainability professionals interested in ESG score prediction using machine learning techniques.",
+  "sub_domain": "esg-reporting-compliance",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 47,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-10-19",
+  "found_in_domains": [
+    "esg-reporting-compliance"
+  ],
+  "quality_score": 37.4,
+  "discovery_score": 4,
+  "tags": [
+    "esg",
+    "csrd",
+    "tcfd",
+    "issb"
+  ],
+  "category": "ESG Reporting / Compliance \u2014 ESG aggregation and CSRD/TCFD/ISSB reporting tooling",
+  "summary": "This repository contains code and data for a machine learning model that predicts ESG (Environmental, Social, and Governance) scores base...",
+  "slug": "nikwilms-esg-score-prediction-from-sustainability-reports"
+}

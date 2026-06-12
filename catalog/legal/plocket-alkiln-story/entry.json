@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/plocket/alkiln_story",
+  "name": "plocket/alkiln_story",
+  "description": "Generate a story table (variable test) test for an AssemblyLine-based project",
+  "sub_domain": "access-to-justice-civic-tech",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2024-07-11",
+  "found_in_domains": [
+    "access-to-justice-civic-tech"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "access-to-justice",
+    "legal-aid",
+    "self-help",
+    "civic-tech"
+  ],
+  "category": "Access to Justice / Civic Tech \u2014 legal aid, self-help, pro bono, guided court forms",
+  "summary": "Generate a story table (variable test) test for an AssemblyLine-based project",
+  "slug": "plocket-alkiln-story"
+}

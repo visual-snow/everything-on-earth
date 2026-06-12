@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sfikas/medical-imaging-datasets",
+  "name": "sfikas/medical-imaging-datasets",
+  "description": "A list of Medical imaging datasets.",
+  "sub_domain": "biomedical-imaging",
+  "score": 5,
+  "score_rationale": "It is a large medical-imaging dataset list that is useful for curation, but it remains a reference repository rather than workflow software.",
+  "stars": 2527,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-09-12",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 57.2,
+  "discovery_score": 5,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "A list of Medical imaging datasets.",
+  "slug": "sfikas-medical-imaging-datasets"
+}

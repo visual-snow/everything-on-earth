@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/niaid/viral-assembly-variant-calling",
+  "name": "niaid/viral-assembly-variant-calling",
+  "description": "Snakemake pipeline to assemble a viral consensus sequence, and call iSNVs and haplotypes",
+  "sub_domain": "genomics",
+  "score": 5,
+  "score_rationale": "Narrow but real Snakemake pipeline for viral assembly and variant calling, which is still genomics-relevant.",
+  "stars": 4,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-09-01",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 5,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Snakemake pipeline to assemble a viral consensus sequence, and call iSNVs and haplotypes",
+  "slug": "niaid-viral-assembly-variant-calling"
+}

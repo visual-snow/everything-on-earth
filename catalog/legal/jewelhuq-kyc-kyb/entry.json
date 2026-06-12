@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jewelhuq/kyc-kyb",
+  "name": "jewelhuq/kyc-kyb",
+  "description": "Ballerine is an open-source infrastructure for user identity, KYC, and risk management",
+  "sub_domain": "aml-kyc-identity",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; fork penalty.",
+  "stars": 29,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2022-12-05",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 23.8,
+  "discovery_score": 2,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "Ballerine is an open-source infrastructure for user identity, KYC, and risk management",
+  "slug": "jewelhuq-kyc-kyb"
+}

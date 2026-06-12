@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cyneuro/bmtool",
+  "name": "cyneuro/bmtool",
+  "description": "A collection of scripts to assist with developing networks in BMTK (https://github.com/AllenInstitute/bmtk)",
+  "sub_domain": "computational-neuroscience",
+  "score": 6,
+  "score_rationale": "Useful BMTK workflow helper that remains clearly neuroscience-facing even though it is auxiliary tooling.",
+  "stars": 5,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 42.2,
+  "discovery_score": 6,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "A collection of scripts to assist with developing networks in BMTK (https://github.com/AllenInstitute/bmtk)",
+  "slug": "cyneuro-bmtool"
+}

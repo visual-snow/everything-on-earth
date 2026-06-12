@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/icbi-lab/neofuse",
+  "name": "icbi-lab/NeoFuse",
+  "description": "NeoFuse is a user-friendly pipeline for the prediction of fusion neoantigens from tumor RNA-seq data.",
+  "sub_domain": "immunoinformatics",
+  "score": 7,
+  "score_rationale": "Useful fusion neoantigen pipeline, but the scope is narrower than the broader tumor-epitope workflows.",
+  "stars": 20,
+  "language": "Shell",
+  "license": "GPL-3.0",
+  "last_activity": "2022-08-09",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 52.6,
+  "discovery_score": 7,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "NeoFuse is a user-friendly pipeline for the prediction of fusion neoantigens from tumor RNA-seq data.",
+  "slug": "icbi-lab-neofuse"
+}

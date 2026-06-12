@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/reichlab/idmodels",
+  "name": "reichlab/idmodels",
+  "description": "Python models for infectious-disease simulation and forecasting.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 8,
+  "score_rationale": "Directly relevant Python repository for infectious-disease modeling, but lightweight compared with the larger ecosystem projects.",
+  "stars": 4,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 53.6,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Python models for infectious-disease simulation and forecasting.",
+  "slug": "reichlab-idmodels"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ruiyiw/patient-psi",
+  "name": "ruiyiw/patient-psi",
+  "description": "You can quickly upload sample cognitive models to the KV database and start the Patient-\u03a8-Trainer powered by GPT-4.",
+  "sub_domain": "medical-education-simulation",
+  "score": 7,
+  "score_rationale": "LLM-driven patient trainer that fits the virtual patient / simulation niche.",
+  "stars": 105,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 58.2,
+  "discovery_score": 7,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient",
+    "patient-records"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "You can quickly upload sample cognitive models to the KV database and start the Patient-\u03a8-Trainer powered by GPT-4.",
+  "slug": "ruiyiw-patient-psi"
+}

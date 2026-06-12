@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mominalix/esg-analysis-using-retrieval-augmented-generation-engine",
+  "name": "mominalix/esg-analysis-using-retrieval-augmented-generation-engine",
+  "description": "Analyse environmental, social, and governance policies for potential gaps using AI - powered by LLMs, RAG techniques, and a regulatory knowledge base using OpenAI API, LangChain, Pinecone and Streamlit.",
+  "sub_domain": "esg-reporting-compliance",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 38,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-08-03",
+  "found_in_domains": [
+    "esg-reporting-compliance"
+  ],
+  "quality_score": 30.7,
+  "discovery_score": 3,
+  "tags": [
+    "esg",
+    "csrd",
+    "tcfd",
+    "issb"
+  ],
+  "category": "ESG Reporting / Compliance \u2014 ESG aggregation and CSRD/TCFD/ISSB reporting tooling",
+  "summary": "Analyse environmental, social, and governance policies for potential gaps using AI - powered by LLMs, RAG techniques, and a regulatory kn...",
+  "slug": "mominalix-esg-analysis-using-retrieval-augmented-generation-engine"
+}

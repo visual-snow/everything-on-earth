@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/w3c/sustainableweb-wsg",
+  "name": "w3c/sustainableweb-wsg",
+  "description": "Web Sustainability Guidelines (WSG)",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 39,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 18.8,
+  "discovery_score": 1,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "Web Sustainability Guidelines (WSG)",
+  "slug": "w3c-sustainableweb-wsg"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jhljx/gkt",
+  "name": "jhljx/GKT",
+  "description": "Graph-based knowledge tracing implementation using graph neural networks.",
+  "sub_domain": "adaptive-learning",
+  "score": 8,
+  "score_rationale": "Canonical knowledge-tracing implementation that maps directly to learner modeling.",
+  "stars": 133,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2021-03-19",
+  "found_in_domains": [
+    "adaptive-learning"
+  ],
+  "quality_score": 65.0,
+  "discovery_score": 8,
+  "tags": [
+    "adaptive-learning",
+    "tutoring",
+    "mastery",
+    "knowledge-tracing"
+  ],
+  "category": "Adaptive Learning, Personalization, Knowledge Tracing & AI Tutoring",
+  "summary": "Graph-based knowledge tracing implementation using graph neural networks.",
+  "slug": "jhljx-gkt"
+}

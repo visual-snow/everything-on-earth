@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/dbrennand/twitter-stream-bot-data-gatherer",
+  "name": "dbrennand/twitter-stream-bot-data-gatherer",
+  "description": "Twitter stream application that forwards accounts to Botometer for bot analysis and stores the results.",
+  "sub_domain": "social-media-influence",
+  "score": 7,
+  "score_rationale": "It is a supporting pipeline for bot analysis rather than a full detector, but still directly useful.",
+  "stars": 5,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-02-28",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 48.2,
+  "tags": [
+    "bot-detection",
+    "botometer",
+    "data-pipeline",
+    "twitter"
+  ],
+  "category": "Bot Detection",
+  "summary": "Streams Twitter accounts into Botometer and stores results.",
+  "slug": "dbrennand-twitter-stream-bot-data-gatherer"
+}

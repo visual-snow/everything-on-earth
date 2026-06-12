@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/krintox/c4c_yunohoo",
+  "name": "krintox/c4c_yunohoo",
+  "description": "The Smart Grid Management System is a comprehensive solution designed to modernize energy grids within urban areas. Traditional energy grids often face challenges such as lack of transparency, inefficiency, and vulnerability to disruptions. The Smart Grid Management System leverages IoT devices, blockchain technology and ML to address these.",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2024-03-24",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "The Smart Grid Management System is a comprehensive solution designed to modernize energy grids within urban areas. Traditional energy gr...",
+  "slug": "krintox-c4c-yunohoo"
+}

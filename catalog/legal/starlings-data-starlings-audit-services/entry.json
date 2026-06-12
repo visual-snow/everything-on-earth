@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/starlings-data/starlings-audit-services",
+  "name": "starlings-data/starlings-audit-services",
+  "description": "Open source security audit tools for cloud and blockchain infrastructure",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "Shell",
+  "license": "MIT",
+  "last_activity": "2026-02-21",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "Open source security audit tools for cloud and blockchain infrastructure",
+  "slug": "starlings-data-starlings-audit-services"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/graphdetec/mgtab",
+  "name": "GraphDetec/MGTAB",
+  "description": "Multi-relational graph-based Twitter account detection benchmark for stance and bot detection.",
+  "sub_domain": "social-media-influence",
+  "score": 9,
+  "score_rationale": "It directly benchmarks bot and stance detection on Twitter graph data, which is central to influence work.",
+  "stars": 66,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-06-09",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 68.6,
+  "tags": [
+    "bot-detection",
+    "stance-detection",
+    "graph-learning",
+    "twitter"
+  ],
+  "category": "Graph Benchmark",
+  "summary": "Graph benchmark for Twitter bot and stance detection.",
+  "slug": "graphdetec-mgtab"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ahmeterenodaci/nasdaq-stock-exchange-including-symbols-and-logos",
+  "name": "ahmeterenodaci/nasdaq-stock-exchange-including-symbols-and-logos",
+  "description": "List of companies listed on the Nasdaq Stock Exchange, including their logos and symbols.",
+  "sub_domain": "financial-market-data",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 15,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2023-10-06",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 15.6,
+  "discovery_score": 1,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "List of companies listed on the Nasdaq Stock Exchange, including their logos and symbols.",
+  "slug": "ahmeterenodaci-nasdaq-stock-exchange-including-symbols-and-logos"
+}

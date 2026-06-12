@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/google-research/connectomics",
+  "name": "google-research/connectomics",
+  "description": "EM connectomics research code and models.",
+  "sub_domain": "connectomics",
+  "score": 10,
+  "score_rationale": "Direct Google Research connectomics project with an explicit connectomics focus and recent activity.",
+  "stars": 50,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 73.7,
+  "discovery_score": 10,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "EM connectomics research code and models.",
+  "slug": "google-research-connectomics"
+}

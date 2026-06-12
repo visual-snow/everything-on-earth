@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mansoor-mamnoon/limit-order-book",
+  "name": "mansoor-mamnoon/limit-order-book",
+  "description": "High-performance limit order book engine with C++ core and Python SDK. Processes 20M+ msgs/sec with \u00b5s latency. Supports real crypto/equity data replay, spread/imbalance/impact analytics, and backtesting of VWAP, TWAP, POV, and market-making strategies with reproducible PnL and risk metrics.",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 10,
+  "score_rationale": "High-performance matching engine with data replay and market microstructure analytics.",
+  "stars": 38,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-08-30",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 72.7,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine",
+    "risk-management"
+  ],
+  "category": "Order Book Engine",
+  "summary": "High-performance limit order book engine with C++ core and Python SDK. Processes 20M+ msgs/sec with \u00b5s...",
+  "slug": "mansoor-mamnoon-limit-order-book"
+}

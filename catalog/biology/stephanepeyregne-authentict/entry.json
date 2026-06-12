@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stephanepeyregne/authentict",
+  "name": "StephanePeyregne/AuthentiCT",
+  "description": "Command-line contamination estimator for single-stranded ancient DNA libraries.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 9,
+  "score_rationale": "Directly addresses contamination estimation, one of the core needs in ancient-DNA analysis.",
+  "stars": 12,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-10-19",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 62.9,
+  "discovery_score": 9,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Command-line contamination estimator for single-stranded ancient DNA libraries.",
+  "slug": "stephanepeyregne-authentict"
+}

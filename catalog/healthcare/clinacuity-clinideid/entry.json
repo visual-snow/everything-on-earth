@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/clinacuity/clinideid",
+  "name": "Clinacuity/CliniDeID",
+  "description": "CliniDeID automatically de-identifies clinical text notes according to the HIPAA Safe Harbor method. It accurately finds identifiers and tags or replaces them with realistic surrogates for better anonymity.",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 7,
+  "score_rationale": "Practical note de-identification utility with clear clinical text focus.",
+  "stars": 10,
+  "language": "Java",
+  "license": "GPL-3.0",
+  "last_activity": "2023-08-13",
+  "found_in_domains": [
+    "clinical-nlp-text-mining",
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 50.3,
+  "discovery_score": 7,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding",
+    "hipaa"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "CliniDeID automatically de-identifies clinical text notes according to the HIPAA Safe Harbor method. It accurately finds identifiers and...",
+  "slug": "clinacuity-clinideid"
+}

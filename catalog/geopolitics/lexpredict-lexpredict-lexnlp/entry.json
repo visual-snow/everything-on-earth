@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lexpredict/lexpredict-lexnlp",
+  "name": "LexPredict/lexpredict-lexnlp",
+  "description": "LexNLP by LexPredict.",
+  "sub_domain": "international-law-treaties",
+  "score": 8,
+  "score_rationale": "LexNLP is widely reused for legal text extraction and document processing.",
+  "stars": 770,
+  "language": "Jupyter Notebook",
+  "license": "AGPL-3.0",
+  "last_activity": "2024-05-27",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 71.1,
+  "tags": [
+    "legal-nlp",
+    "text-extraction",
+    "document-processing",
+    "nlp"
+  ],
+  "category": "Legal Text Extraction",
+  "summary": "Widely used toolkit for extracting structured data from legal text.",
+  "slug": "lexpredict-lexpredict-lexnlp"
+}

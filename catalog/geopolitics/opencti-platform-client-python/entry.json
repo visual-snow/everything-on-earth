@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/opencti-platform/client-python",
+  "name": "OpenCTI-Platform/client-python",
+  "description": "OpenCTI Python Client",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 8,
+  "score_rationale": "Official Python client for automating OpenCTI integration and data access.",
+  "stars": 144,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-11-13",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 65.3,
+  "tags": [
+    "opencti",
+    "python-client",
+    "api",
+    "integration"
+  ],
+  "category": "OpenCTI Python Client",
+  "summary": "Official Python client for OpenCTI integration and data access.",
+  "slug": "opencti-platform-client-python"
+}

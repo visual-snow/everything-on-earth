@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/frab/frab",
+  "name": "frab/frab",
+  "description": "conference management system",
+  "sub_domain": "research-academic-publishing",
+  "score": 8,
+  "score_rationale": "Conference management system with direct relevance to academic event submission and scheduling workflows.",
+  "stars": 727,
+  "language": "Ruby",
+  "license": "Other",
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 70.9,
+  "discovery_score": 8,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "conference management system",
+  "slug": "frab-frab"
+}

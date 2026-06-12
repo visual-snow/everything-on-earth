@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pctbayarea/stplanpy",
+  "name": "pctbayarea/stplanpy",
+  "description": "Sustainable Transportation Planner for Python",
+  "sub_domain": "sustainable-transport",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 5,
+  "language": "HTML",
+  "license": "GPL-3.0",
+  "last_activity": "2022-01-21",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 24.2,
+  "discovery_score": 3,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "Sustainable Transportation Planner for Python",
+  "slug": "pctbayarea-stplanpy"
+}

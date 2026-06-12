@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gaynorr/alphasimr",
+  "name": "gaynorr/AlphaSimR",
+  "description": "R package for breeding program simulations",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 9,
+  "score_rationale": "A core breeding-program simulation package used for crop improvement and genomic selection design.",
+  "stars": 64,
+  "language": "R",
+  "license": "Other",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 68.5,
+  "discovery_score": 9,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "R package for breeding program simulations",
+  "slug": "gaynorr-alphasimr"
+}

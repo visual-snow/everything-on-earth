@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bfo-ontology/bfo",
+  "name": "bfo-ontology/bfo",
+  "description": "BFO repository including source code and latest documents",
+  "sub_domain": "financial-data-standards",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 298,
+  "language": "HTML",
+  "license": "CC-BY-4.0",
+  "last_activity": "2024-01-30",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 43.8,
+  "discovery_score": 4,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "BFO repository including source code and latest documents",
+  "slug": "bfo-ontology-bfo"
+}

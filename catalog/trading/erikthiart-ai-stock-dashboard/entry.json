@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/erikthiart/ai-stock-dashboard",
+  "name": "erikthiart/ai-stock-dashboard",
+  "description": "\ud83d\ude80 Professional AI-powered stock market dashboard with real-time technical analysis, machine learning price predictions, and intelligent market insights. Built with Python, Streamlit, and scikit-learn.",
+  "sub_domain": "charting-visualization",
+  "score": 7,
+  "score_rationale": "Stock dashboard with technical analysis and predictive overlays; relevant even though it is more application than library.",
+  "stars": 62,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-05-25",
+  "found_in_domains": [
+    "charting-visualization"
+  ],
+  "quality_score": 56.4,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "\ud83d\ude80 Professional AI-powered stock market dashboard with real-time technical analysis, machine learning price...",
+  "slug": "erikthiart-ai-stock-dashboard"
+}

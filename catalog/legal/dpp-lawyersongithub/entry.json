@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dpp/lawyersongithub",
+  "name": "dpp/lawyersongithub",
+  "description": "A Telegram site for the people who are lawyers and also have GitHub accounts",
+  "sub_domain": "legal-practice-management",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 126,
+  "language": null,
+  "license": null,
+  "last_activity": "2019-06-24",
+  "found_in_domains": [
+    "legal-practice-management"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 1,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "A Telegram site for the people who are lawyers and also have GitHub accounts",
+  "slug": "dpp-lawyersongithub"
+}

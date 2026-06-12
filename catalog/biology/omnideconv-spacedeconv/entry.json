@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/omnideconv/spacedeconv",
+  "name": "omnideconv/spacedeconv",
+  "description": "A unified interface to spatial transcriptomics deconvolution tools",
+  "sub_domain": "spatial-omics",
+  "score": 8,
+  "score_rationale": "Practical wrapper for comparing and using spatial deconvolution methods across datasets.",
+  "stars": 45,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-15",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 61.3,
+  "discovery_score": 8,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq",
+    "transcriptomics"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "A unified interface to spatial transcriptomics deconvolution tools",
+  "slug": "omnideconv-spacedeconv"
+}

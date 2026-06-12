@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/linkeddata/ontology-archiver",
+  "name": "linkeddata/ontology-archiver",
+  "description": "Copy favorite and commonly used RDF schemas/ontologies to a safe place",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 37,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2019-05-24",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 36.6,
+  "discovery_score": 4,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif",
+    "ontology"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "Copy favorite and commonly used RDF schemas/ontologies to a safe place",
+  "slug": "linkeddata-ontology-archiver"
+}

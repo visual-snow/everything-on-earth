@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cdk/cdk",
+  "name": "cdk/cdk",
+  "description": "The Chemistry Development Kit",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 8,
+  "score_rationale": "Established chemistry toolkit for molecule handling, descriptors, and screening support.",
+  "stars": 575,
+  "language": "Java",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 70.1,
+  "discovery_score": 8,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "The Chemistry Development Kit",
+  "slug": "cdk-cdk"
+}

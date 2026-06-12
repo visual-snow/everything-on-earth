@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/phbradley/tcr-dist",
+  "name": "phbradley/tcr-dist",
+  "description": "Software tools for the analysis of epitope-specific T cell receptor (TCR) repertoires    (scroll down for the README)",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Older but canonical TCR repertoire analysis software that remains directly relevant to the domain.",
+  "stars": 87,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2021-10-06",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 63.6,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Software tools for the analysis of epitope-specific T cell receptor (TCR) repertoires    (scroll down for the README)",
+  "slug": "phbradley-tcr-dist"
+}

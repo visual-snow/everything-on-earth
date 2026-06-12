@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/computational-cell-analytics/patho-sam",
+  "name": "computational-cell-analytics/patho-sam",
+  "description": "Segment Anything for Histopathology",
+  "sub_domain": "biomedical-imaging",
+  "score": 8,
+  "score_rationale": "patho-sam is a direct histopathology adaptation of Segment Anything for tissue segmentation workflows.",
+  "stars": 59,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 62.2,
+  "discovery_score": 8,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Segment Anything for Histopathology",
+  "slug": "computational-cell-analytics-patho-sam"
+}

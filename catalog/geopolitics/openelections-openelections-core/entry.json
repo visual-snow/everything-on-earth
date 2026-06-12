@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openelections/openelections-core",
+  "name": "openelections/openelections-core",
+  "description": "Core repo for election results data acquisition, transformation and output.",
+  "sub_domain": "election-governance-data",
+  "score": 10,
+  "score_rationale": "This is a canonical election-results pipeline and directly matches the subdomain.",
+  "stars": 187,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-01-21",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 78.2,
+  "tags": [
+    "election-results",
+    "data-pipeline",
+    "python",
+    "open-data"
+  ],
+  "category": "Election Data Pipeline",
+  "summary": "Core pipeline for election results data acquisition and output.",
+  "slug": "openelections-openelections-core"
+}

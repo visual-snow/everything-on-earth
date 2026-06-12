@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/destenson/market-data-source",
+  "name": "destenson/market-data-source",
+  "description": "No description provided.",
+  "sub_domain": "financial-market-data",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 3,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2025-09-07",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 16.8,
+  "discovery_score": 2,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "No description provided.",
+  "slug": "destenson-market-data-source"
+}

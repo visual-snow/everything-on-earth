@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alleninstitute/ofs-em-connectomics",
+  "name": "AllenInstitute/OFS-EM-Connectomics",
+  "description": "Code and data for an open-for-science EM connectomics tutorial.",
+  "sub_domain": "connectomics",
+  "score": 7,
+  "score_rationale": "Tutorial-focused EM connectomics repo that is relevant, but more educational than foundational software.",
+  "stars": 8,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2021-03-10",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 7,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Code and data for an open-for-science EM connectomics tutorial.",
+  "slug": "alleninstitute-ofs-em-connectomics"
+}

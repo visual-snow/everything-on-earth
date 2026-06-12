@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maastrichtlawtech/legalnetworkanalysis_textbook",
+  "name": "maastrichtlawtech/legalnetworkanalysis_textbook",
+  "description": "No description provided.",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2025-06-12",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 10.8,
+  "discovery_score": 1,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "No description provided.",
+  "slug": "maastrichtlawtech-legalnetworkanalysis-textbook"
+}

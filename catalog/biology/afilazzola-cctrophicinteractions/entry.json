@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/afilazzola/cctrophicinteractions",
+  "name": "afilazzola/cctrophicinteractions",
+  "description": "A comparison of alpine butterfly species in response to climate change based on trophic interactions",
+  "sub_domain": "climate-biology",
+  "score": 8,
+  "score_rationale": "It is explicitly about butterfly responses to climate change through trophic interactions.",
+  "stars": 0,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2020-03-24",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "A comparison of alpine butterfly species in response to climate change based on trophic interactions",
+  "slug": "afilazzola-cctrophicinteractions"
+}

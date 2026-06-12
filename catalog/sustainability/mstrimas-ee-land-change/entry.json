@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mstrimas/ee-land-change",
+  "name": "mstrimas/ee-land-change",
+  "description": "Google Earth Engine land-use change tutorial for SCBI",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for tutorial-style signals.",
+  "stars": 26,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2017-02-03",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 29.5,
+  "discovery_score": 3,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "Google Earth Engine land-use change tutorial for SCBI",
+  "slug": "mstrimas-ee-land-change"
+}

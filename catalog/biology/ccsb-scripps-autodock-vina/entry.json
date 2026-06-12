@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ccsb-scripps/autodock-vina",
+  "name": "ccsb-scripps/AutoDock-Vina",
+  "description": "AutoDock Vina",
+  "sub_domain": "structural-biology",
+  "score": 10,
+  "score_rationale": "The standard open-source docking engine for protein-ligand virtual screening and pose prediction.",
+  "stars": 949,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 83.8,
+  "discovery_score": 10,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "AutoDock Vina",
+  "slug": "ccsb-scripps-autodock-vina"
+}

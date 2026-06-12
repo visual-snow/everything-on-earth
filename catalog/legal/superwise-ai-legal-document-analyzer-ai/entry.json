@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/superwise-ai/legal_document_analyzer_ai",
+  "name": "superwise-ai/legal_document_analyzer_ai",
+  "description": "Legal Document Analyzer analyzes legal documents \u2014 including contracts, agreements, corporate documents, compliance policies, and legal filings \u2014 and provides AI-driven insights including key clauses, obligations, risks, and missing terms to help users understand document implications quickly.",
+  "sub_domain": "legal-document-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature",
+    "contract-analysis",
+    "compliance"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "Legal Document Analyzer analyzes legal documents \u2014 including contracts, agreements, corporate documents, compliance policies, and legal f...",
+  "slug": "superwise-ai-legal-document-analyzer-ai"
+}

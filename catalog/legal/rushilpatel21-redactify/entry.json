@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/rushilpatel21/redactify",
+  "name": "rushilpatel21/redactify",
+  "description": "Redactify is an efficient data redaction tool that secures sensitive text using advanced NLP and rule-based methods. It combines transformer-based NER, regex, and Presidio analysis to detect and mask personal information through full redaction or partial masking\u2014ensuring compliance while preserving data utility.",
+  "sub_domain": "privacy-data-protection",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 8,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-10-14",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 31.6,
+  "discovery_score": 4,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction",
+    "compliance"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "Redactify is an efficient data redaction tool that secures sensitive text using advanced NLP and rule-based methods. It combines transfor...",
+  "slug": "rushilpatel21-redactify"
+}

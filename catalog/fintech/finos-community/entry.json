@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/finos/community",
+  "name": "finos/community",
+  "description": "FINOS Community, Project and SIG wide collaboration space",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 75,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-03-18",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 33.0,
+  "discovery_score": 3,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "FINOS Community, Project and SIG wide collaboration space",
+  "slug": "finos-community"
+}

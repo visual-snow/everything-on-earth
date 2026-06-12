@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vprusso/us_patent_scraper",
+  "name": "vprusso/us_patent_scraper",
+  "description": "A scraper for the US patents website (http://www.uspto.gov/)",
+  "sub_domain": "ip-patent-trademark",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 8,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2015-05-11",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 31.6,
+  "discovery_score": 4,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "A scraper for the US patents website (http://www.uspto.gov/)",
+  "slug": "vprusso-us-patent-scraper"
+}

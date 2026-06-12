@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/edubadges/signing-service",
+  "name": "edubadges/signing-service",
+  "description": "Time Stamped Open Badges Signing Service",
+  "sub_domain": "credentialing-certification",
+  "score": 6,
+  "score_rationale": "Open Badges signing service for timestamped badge issuance; relevant supporting service.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-04-22",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 38.4,
+  "discovery_score": 6,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials",
+    "badges"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "Time Stamped Open Badges Signing Service",
+  "slug": "edubadges-signing-service"
+}

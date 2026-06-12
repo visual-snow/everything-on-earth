@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pnlpal/dictionariez",
+  "name": "pnlpal/dictionariez",
+  "description": "A customizable dictionary extension with lookups, TTS, translation, and Anki integration.",
+  "sub_domain": "language-learning",
+  "score": 7,
+  "score_rationale": "Reading support plus learner workflow glue for lookup, pronunciation, translation, and flashcard export.",
+  "stars": 635,
+  "language": "JavaScript",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "language-learning"
+  ],
+  "quality_score": 64.4,
+  "discovery_score": 7,
+  "tags": [
+    "language-learning",
+    "flashcards",
+    "vocabulary",
+    "reading-support"
+  ],
+  "category": "Language Learning, Vocabulary Training, Reading Support & Speaking Practice",
+  "summary": "A customizable dictionary extension with lookups, TTS, translation, and Anki integration.",
+  "slug": "pnlpal-dictionariez"
+}

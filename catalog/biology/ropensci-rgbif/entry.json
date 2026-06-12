@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ropensci/rgbif",
+  "name": "ropensci/rgbif",
+  "description": "Interface to the Global Biodiversity Information Facility API",
+  "sub_domain": "biodiversity-informatics",
+  "score": 9,
+  "score_rationale": "This is the canonical R interface to GBIF, covering occurrence retrieval and GBIF-centered data workflows.",
+  "stars": 175,
+  "language": "R",
+  "license": "Other",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 72.0,
+  "discovery_score": 9,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Interface to the Global Biodiversity Information Facility API",
+  "slug": "ropensci-rgbif"
+}

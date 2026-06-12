@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/lh3/minimap2",
+  "name": "lh3/minimap2",
+  "description": "A versatile pairwise aligner for genomic and spliced nucleotide sequences",
+  "sub_domain": "genomics",
+  "score": 10,
+  "score_rationale": "Canonical aligner for genomic and spliced nucleotide sequences, widely used across long-read, assembly, and transcriptomic workflows.",
+  "stars": 2144,
+  "language": "C",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-13",
+  "found_in_domains": [
+    "genomics",
+    "long-read-sequencing"
+  ],
+  "quality_score": 86.7,
+  "discovery_score": 10,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "A versatile pairwise aligner for genomic and spliced nucleotide sequences",
+  "slug": "lh3-minimap2"
+}

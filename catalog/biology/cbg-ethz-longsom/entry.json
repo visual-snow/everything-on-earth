@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cbg-ethz/longsom",
+  "name": "cbg-ethz/longsom",
+  "description": "LongSom tool for long-reads",
+  "sub_domain": "long-read-sequencing",
+  "score": 6,
+  "score_rationale": "Niche but real long-read single-cell RNA-seq somatic analysis workflow for cancer samples.",
+  "stars": 11,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-05-20",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 44.6,
+  "discovery_score": 6,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "LongSom tool for long-reads",
+  "slug": "cbg-ethz-longsom"
+}

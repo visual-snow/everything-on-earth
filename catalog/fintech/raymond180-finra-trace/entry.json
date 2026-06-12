@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/raymond180/finra_trace",
+  "name": "raymond180/finra_trace",
+  "description": "Research project on Financial Industry Regulatory Authority (FINRA) Trade Reporting and Compliance Engine (TRACE) academic version",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 19,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2024-06-17",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 40.4,
+  "discovery_score": 5,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "Research project on Financial Industry Regulatory Authority (FINRA) Trade Reporting and Compliance Engine (TRACE) academic version",
+  "slug": "raymond180-finra-trace"
+}

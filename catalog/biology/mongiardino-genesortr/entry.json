@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mongiardino/genesortr",
+  "name": "mongiardino/genesortr",
+  "description": "Sorting and subsampling phylogenomic datasets",
+  "sub_domain": "phylogenetics",
+  "score": 7,
+  "score_rationale": "It supports phylogenomics data preparation rather than inference itself, but the workflow is still clearly biology-facing and relevant.",
+  "stars": 30,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-04-09",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 53.9,
+  "discovery_score": 7,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Sorting and subsampling phylogenomic datasets",
+  "slug": "mongiardino-genesortr"
+}

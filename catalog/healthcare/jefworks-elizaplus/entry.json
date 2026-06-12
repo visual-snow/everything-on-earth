@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jefworks/elizaplus",
+  "name": "JEFworks/ELIZAplus",
+  "description": "ELIZA therapy chat-bot with sentiment detection and response via avatars",
+  "sub_domain": "mental-health-behavioral",
+  "score": 5,
+  "score_rationale": "Direct therapy-chatbot concept, but it is an older and smaller project with limited community signal.",
+  "stars": 18,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2018-05-16",
+  "found_in_domains": [
+    "mental-health-behavioral"
+  ],
+  "quality_score": 40.2,
+  "discovery_score": 5,
+  "tags": [
+    "mental-health",
+    "behavioral-health",
+    "cbt",
+    "screening"
+  ],
+  "category": "Mental Health, Behavioral Health, CBT, Mood Tracking & Crisis Support",
+  "summary": "ELIZA therapy chat-bot with sentiment detection and response via avatars",
+  "slug": "jefworks-elizaplus"
+}

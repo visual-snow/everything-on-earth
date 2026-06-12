@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/allmeidaapedro/lending-club-credit-scoring",
+  "name": "allmeidaapedro/lending-club-credit-scoring",
+  "description": "In this project, I estimate the PD, EAD and LGD to compute the Expected Loss (EL = PD*EAD*LGD) and design a credit policy on Lending Club's loans.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 32,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-04-30",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 36.1,
+  "discovery_score": 4,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting",
+    "lending"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "In this project, I estimate the PD, EAD and LGD to compute the Expected Loss (EL = PD*EAD*LGD) and design a credit policy on Lending Club...",
+  "slug": "allmeidaapedro-lending-club-credit-scoring"
+}

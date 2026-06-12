@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/emvolz-phylodynamics/treestructure",
+  "name": "emvolz-phylodynamics/treestructure",
+  "description": "R package for detecting population structure from phylogenetic trees.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 8,
+  "score_rationale": "Useful phylodynamic analysis package for structure detection in phylogenetic histories, but more specialized than the core inference tools.",
+  "stars": 18,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 58.2,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "R package for detecting population structure from phylogenetic trees.",
+  "slug": "emvolz-phylodynamics-treestructure"
+}

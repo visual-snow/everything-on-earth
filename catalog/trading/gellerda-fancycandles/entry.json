@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/gellerda/fancycandles",
+  "name": "gellerda/fancycandles",
+  "description": "An open source candlestick chart control for WPF.",
+  "sub_domain": "charting-visualization",
+  "score": 7,
+  "score_rationale": "Solid finance-specific candlestick control, but narrower in scope and platform than the top charting repos.",
+  "stars": 126,
+  "language": "C#",
+  "license": "GPL-3.0",
+  "last_activity": "2022-12-08",
+  "found_in_domains": [
+    "charting-visualization"
+  ],
+  "quality_score": 58.8,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "An open source candlestick chart control for WPF.",
+  "slug": "gellerda-fancycandles"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/opencti-platform/connectors",
+  "name": "OpenCTI-Platform/connectors",
+  "description": "OpenCTI Connectors",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 8,
+  "score_rationale": "Connector suite that extends OpenCTI with ingestion, synchronization, and enrichment integrations.",
+  "stars": 524,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 69.8,
+  "tags": [
+    "opencti",
+    "connectors",
+    "ingestion",
+    "enrichment"
+  ],
+  "category": "OpenCTI Connectors",
+  "summary": "Connector suite for ingesting and enriching OpenCTI data.",
+  "slug": "opencti-platform-connectors"
+}

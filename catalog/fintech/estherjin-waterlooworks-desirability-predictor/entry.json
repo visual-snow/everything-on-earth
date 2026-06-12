@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/estherjin/waterlooworks-desirability-predictor",
+  "name": "estherjin/waterlooworks-desirability-predictor",
+  "description": "Series of scripts to scrape job listings from waterlooworks into a CSV then filter based on comapnies",
+  "sub_domain": "open-banking-psd2",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 6,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-09-29",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 12.8,
+  "discovery_score": 1,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "Series of scripts to scrape job listings from waterlooworks into a CSV then filter based on comapnies",
+  "slug": "estherjin-waterlooworks-desirability-predictor"
+}

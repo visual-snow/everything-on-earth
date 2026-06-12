@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cvxgrp/cvxportfolio",
+  "name": "cvxgrp/cvxportfolio",
+  "description": "Portfolio optimization and back-testing.",
+  "sub_domain": "backtesting-frameworks",
+  "score": 8,
+  "score_rationale": "Portfolio optimization and back-testing library with active maintenance and a clear quantitative-finance focus.",
+  "stars": 1183,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 72.6,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading",
+    "portfolio"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "Portfolio optimization and back-testing.",
+  "slug": "cvxgrp-cvxportfolio"
+}

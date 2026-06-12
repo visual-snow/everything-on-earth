@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/socialecologyboku/miso2",
+  "name": "socialecologyboku/miso2",
+  "description": "MISO2 model",
+  "sub_domain": "circular-economy-waste",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-12-05",
+  "found_in_domains": [
+    "circular-economy-waste"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "circular-economy",
+    "material-flow",
+    "recycling",
+    "waste-tracking"
+  ],
+  "category": "Circular Economy / Waste \u2014 material flow analysis, recycling optimization, waste tracking",
+  "summary": "MISO2 model",
+  "slug": "socialecologyboku-miso2"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tazama-lf/docs",
+  "name": "tazama-lf/docs",
+  "description": "This is the main directory for all project documentation files.",
+  "sub_domain": "aml-kyc-identity",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for directory-style signals.",
+  "stars": 47,
+  "language": "Batchfile",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 19.4,
+  "discovery_score": 1,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity"
+  ],
+  "category": "AML / KYC / Identity",
+  "summary": "This is the main directory for all project documentation files.",
+  "slug": "tazama-lf-docs"
+}

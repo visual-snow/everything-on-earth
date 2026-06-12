@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rreichel3/us-stock-symbols",
+  "name": "rreichel3/us-stock-symbols",
+  "description": "Full lists of US Securities on the NASDAQ, NYSE, and AMEX powered by GitHub Actions",
+  "sub_domain": "financial-market-data",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 526,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 4,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "Full lists of US Securities on the NASDAQ, NYSE, and AMEX powered by GitHub Actions",
+  "slug": "rreichel3-us-stock-symbols"
+}

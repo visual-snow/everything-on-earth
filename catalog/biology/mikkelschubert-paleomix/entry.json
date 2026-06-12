@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mikkelschubert/paleomix",
+  "name": "MikkelSchubert/paleomix",
+  "description": "Pipelines and tools for the processing of ancient and modern HTS data.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 10,
+  "score_rationale": "Long-running aDNA-aware pipeline suite that remains a reference implementation for the field.",
+  "stars": 48,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 73.5,
+  "discovery_score": 10,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Pipelines and tools for the processing of ancient and modern HTS data.",
+  "slug": "mikkelschubert-paleomix"
+}

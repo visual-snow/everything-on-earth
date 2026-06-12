@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ai4finance-foundation/finrl-trading",
+  "name": "ai4finance-foundation/finrl-trading",
+  "description": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 9,
+  "score_rationale": "AI-native modular quant trading infrastructure from the FinRL ecosystem.",
+  "stars": 2777,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 81.5,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
+  "slug": "ai4finance-foundation-finrl-trading"
+}

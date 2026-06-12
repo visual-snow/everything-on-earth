@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/nishantsushmakar/automated-essay-grading",
+  "name": "NishantSushmakar/Automated-Essay-Grading",
+  "description": "Machine-learning prototype for automated essay grading.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 5,
+  "score_rationale": "Still relevant to essay scoring, but the project appears older and narrower than the stronger alternatives above.",
+  "stars": 5,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-01-01",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 36.2,
+  "discovery_score": 5,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring",
+    "grading"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "Machine-learning prototype for automated essay grading.",
+  "slug": "nishantsushmakar-automated-essay-grading"
+}

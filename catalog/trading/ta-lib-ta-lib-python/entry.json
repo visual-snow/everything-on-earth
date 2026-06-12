@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ta-lib/ta-lib-python",
+  "name": "ta-lib/ta-lib-python",
+  "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 5,
+  "score_rationale": "Canonical Python binding for the long-established TA-Lib indicator suite; extremely strong fit for technical analysis libraries.",
+  "stars": 11809,
+  "language": "Cython",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 62.6,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "Python wrapper for TA-Lib (http://ta-lib.org/).",
+  "slug": "ta-lib-ta-lib-python"
+}

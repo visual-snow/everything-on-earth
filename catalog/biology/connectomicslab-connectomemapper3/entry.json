@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/connectomicslab/connectomemapper3",
+  "name": "connectomicslab/connectomemapper3",
+  "description": "Connectome Mapper 3 is a BIDS App for anatomical, diffusion, resting/state functional MRI, and EEG processing pipelines.",
+  "sub_domain": "connectomics",
+  "score": 88,
+  "score_rationale": "Brain-connectome pipeline spanning diffusion, fMRI, and EEG preprocessing.",
+  "stars": 82,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 543.4,
+  "discovery_score": 88,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Connectome Mapper 3 is a BIDS App for anatomical, diffusion, resting/state functional MRI, and EEG processing pipelines.",
+  "slug": "connectomicslab-connectomemapper3"
+}

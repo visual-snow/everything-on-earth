@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/web3yurii/detoxer",
+  "name": "web3yurii/detoxer",
+  "description": "MEV protection hook suite (Uniswap Hook Incubator @ Atrium Academy)",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 7,
+  "score_rationale": "MEV protection hooks aimed at Uniswap-style execution paths.",
+  "stars": 1,
+  "language": "Solidity",
+  "license": null,
+  "last_activity": "2025-03-30",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 44.4,
+  "tags": [
+    "defi",
+    "dex",
+    "mev",
+    "uniswap"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "MEV protection hook suite (Uniswap Hook Incubator @ Atrium Academy)",
+  "slug": "web3yurii-detoxer"
+}

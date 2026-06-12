@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pyinat/pyinaturalist",
+  "name": "pyinat/pyinaturalist",
+  "description": "Python client for iNaturalist",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This is the main Python client for iNaturalist, useful for observation and taxon workflows.",
+  "stars": 166,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 65.8,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Python client for iNaturalist",
+  "slug": "pyinat-pyinaturalist"
+}

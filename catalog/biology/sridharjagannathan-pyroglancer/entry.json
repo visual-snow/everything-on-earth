@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/sridharjagannathan/pyroglancer",
+  "name": "SridharJagannathan/pyroglancer",
+  "description": "Pythonic interface to Neuroglancer for displaying neuron data.",
+  "sub_domain": "connectomics",
+  "score": 7,
+  "score_rationale": "Thin but relevant display layer for neuron-data workflows built around Neuroglancer.",
+  "stars": 2,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2022-05-09",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 7,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging",
+    "neuron"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Pythonic interface to Neuroglancer for displaying neuron data.",
+  "slug": "sridharjagannathan-pyroglancer"
+}

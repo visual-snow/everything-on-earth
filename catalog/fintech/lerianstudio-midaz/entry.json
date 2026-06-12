@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lerianstudio/midaz",
+  "name": "lerianstudio/midaz",
+  "description": "Open-source, cloud-native ledger platform for building financial infrastructure \u2014 multi-currency, multi-asset, double-entry accounting with n:n transaction support.",
+  "sub_domain": "core-banking-ledger",
+  "score": 8,
+  "score_rationale": "Matched 3 queries; contains 5 domain terms in repo text; has some GitHub adoption.",
+  "stars": 364,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 68.5,
+  "discovery_score": 8,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "Open-source, cloud-native ledger platform for building financial infrastructure \u2014 multi-currency, multi-asset, double-entry accounting wi...",
+  "slug": "lerianstudio-midaz"
+}

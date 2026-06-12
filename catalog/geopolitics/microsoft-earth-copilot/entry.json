@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/microsoft/earth-copilot",
+  "name": "microsoft/Earth-Copilot",
+  "description": "An AI powered geospatial application that allows you to explore and visualize Earth science data using natural language.",
+  "stars": 139,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "sub_domain": "geoint-tools",
+  "score": 8,
+  "score_rationale": "AI-assisted Earth science exploration tool; relevant but broader than pure GEOINT.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 65.2,
+  "tags": [
+    "geospatial-ai",
+    "earth-science",
+    "natural-language",
+    "visualization"
+  ],
+  "category": "Earth Science Copilot",
+  "summary": "Natural-language app for exploring and visualizing Earth science data.",
+  "slug": "microsoft-earth-copilot"
+}

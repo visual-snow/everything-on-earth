@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/altova/sec-xbrl",
+  "name": "altova/sec-xbrl",
+  "description": "XBRL.US Webinar: How to download and process SEC XBRL Data Directly from EDGAR",
+  "sub_domain": "financial-document-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 113,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "sec filing xbrl extraction open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing",
+    "financial-data-standards"
+  ],
+  "quality_score": 40.5,
+  "discovery_score": 4,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "XBRL.US Webinar: How to download and process SEC XBRL Data Directly from EDGAR",
+  "slug": "altova-sec-xbrl"
+}

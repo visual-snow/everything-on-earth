@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mikegianfelice/hunter",
+  "name": "mikegianfelice/hunter",
+  "description": "Hunter is a quant level crypto trading bot executing on-chain trades with live PnL, smart token scanning, microstructure analysis, and adaptive risk control. Uses weighted multi-factor analysis and heuristic algorithms for intelligent decision-making. Updated in real time. If you find this project useful, drop a \u2b50\ufe0f to support it",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 22,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 34.9,
+  "discovery_score": 4,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making",
+    "quant"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Hunter is a quant level crypto trading bot executing on-chain trades with live PnL, smart token scanning, microstructure analysis, and ad...",
+  "slug": "mikegianfelice-hunter"
+}

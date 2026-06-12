@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cisco-open/sustainability-insights-in-a-box",
+  "name": "cisco-open/sustainability-insights-in-a-box",
+  "description": "No description provided.",
+  "sub_domain": "sustainability-dashboards-viz",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-07-20",
+  "found_in_domains": [
+    "sustainability-dashboards-viz"
+  ],
+  "quality_score": 14.4,
+  "discovery_score": 2,
+  "tags": [
+    "sdg",
+    "kpi-dashboard",
+    "data-portal",
+    "climate-visualization"
+  ],
+  "category": "Sustainability Dashboards / Visualization \u2014 SDG trackers, environmental KPI dashboards, data portals",
+  "summary": "No description provided.",
+  "slug": "cisco-open-sustainability-insights-in-a-box"
+}

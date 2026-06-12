@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/miroblog/limit_orderbook_prediction",
+  "name": "miroblog/limit_orderbook_prediction",
+  "description": "No description provided.",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 6,
+  "score_rationale": "Limit-order-book prediction project with direct market-microstructure relevance.",
+  "stars": 143,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-12-08",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 53.3,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "No description provided.",
+  "slug": "miroblog-limit-orderbook-prediction"
+}

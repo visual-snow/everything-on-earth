@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/elevated-standards/autopilot-audit",
+  "name": "elevated-standards/autopilot-audit",
+  "description": "This repository automates the collection and management of evidence from various tools and sources, committing the data for transparency and traceability. It's designed to gather evidence that tools like Vanta and others aren't built to collect.",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; archived repo penalty.",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-12-19",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls",
+    "evidence"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "This repository automates the collection and management of evidence from various tools and sources, committing the data for transparency...",
+  "slug": "elevated-standards-autopilot-audit"
+}

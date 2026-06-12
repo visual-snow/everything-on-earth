@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rrwick/filtlong",
+  "name": "rrwick/filtlong",
+  "description": "quality filtering tool for long reads",
+  "sub_domain": "long-read-sequencing",
+  "score": 8,
+  "score_rationale": "Useful long-read read filtering utility that supports upstream quality control before assembly or polishing.",
+  "stars": 396,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-09-17",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 68.8,
+  "discovery_score": 8,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "quality filtering tool for long reads",
+  "slug": "rrwick-filtlong"
+}

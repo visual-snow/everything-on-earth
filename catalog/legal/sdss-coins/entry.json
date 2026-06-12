@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sdss/coins",
+  "name": "sdss/coins",
+  "description": "repository for coins documents and related materials",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 7,
+  "language": null,
+  "license": "BSD-3-Clause",
+  "last_activity": "2022-08-03",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 13.2,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "repository for coins documents and related materials",
+  "slug": "sdss-coins"
+}

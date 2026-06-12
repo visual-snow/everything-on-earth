@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yjx1217/simug",
+  "name": "yjx1217/simuG",
+  "description": "simuG: a general-purpose genome simulator",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 6,
+  "score_rationale": "Useful simulator for generating synthetic genomic variants and genomes.",
+  "stars": 100,
+  "language": "Perl",
+  "license": "MIT",
+  "last_activity": "2025-06-18",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 52.0,
+  "discovery_score": 6,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "simuG: a general-purpose genome simulator",
+  "slug": "yjx1217-simug"
+}

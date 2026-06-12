@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/hanrong-huang/py-microgrid",
+  "name": "hanrong-huang/py-microgrid",
+  "description": "Hybrid microgrid simulation & optimisation tools based on HOPP package",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 4,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text.",
+  "stars": 3,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-11-11",
+  "found_in_domains": [
+    "energy-modeling-simulation",
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "Hybrid microgrid simulation & optimisation tools based on HOPP package",
+  "slug": "hanrong-huang-py-microgrid"
+}

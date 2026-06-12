@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/budget-lab-yale/tariff-etrs",
+  "name": "Budget-Lab-Yale/Tariff-ETRs",
+  "description": "R-based analysis of US import trade data by HTS10 commodity codes and trading partners.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 7,
+  "score_rationale": "Solid tariff-impact analysis repo with direct policy and trade data relevance.",
+  "stars": 5,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 48.2,
+  "tags": [
+    "tariffs",
+    "trade-data",
+    "etrs",
+    "analysis"
+  ],
+  "category": "Tariff Data Analysis",
+  "summary": "R analysis of US import trade data by commodity codes and partners.",
+  "slug": "budget-lab-yale-tariff-etrs"
+}

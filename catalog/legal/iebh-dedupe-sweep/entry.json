@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/iebh/dedupe-sweep",
+  "name": "iebh/dedupe-sweep",
+  "description": "Reference library deduplication using the sweep method",
+  "sub_domain": "e-discovery-document-review",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-10-09",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "Reference library deduplication using the sweep method",
+  "slug": "iebh-dedupe-sweep"
+}

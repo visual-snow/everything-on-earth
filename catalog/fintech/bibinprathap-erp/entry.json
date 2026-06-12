@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bibinprathap/erp",
+  "name": "bibinprathap/erp",
+  "description": "ERP Software  This software can be described as a complete business software solution.It has module such as sales , purchase ,inventory,Accounts.",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 94,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-08-05",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 3,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "ERP Software  This software can be described as a complete business software solution.It has module such as sales , purchase ,inventory,A...",
+  "slug": "bibinprathap-erp"
+}

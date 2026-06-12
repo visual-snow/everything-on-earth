@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/nlpaueb/multi-eurlex",
+  "name": "nlpaueb/multi-eurlex",
+  "description": "MultiEURLEX - A multi-lingual and multi-label legal document classification dataset for zero-shot cross-lingual transfer.",
+  "sub_domain": "international-law-treaties",
+  "score": 8,
+  "score_rationale": "It is a reusable multilingual legal-document dataset, directly useful for treaty and legislation NLP.",
+  "stars": 41,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-06-07",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 61.0,
+  "tags": [
+    "multilingual",
+    "legal-dataset",
+    "classification",
+    "cross-lingual"
+  ],
+  "category": "Multilingual Legal Dataset",
+  "summary": "Multilingual legal classification dataset for cross-lingual transfer.",
+  "slug": "nlpaueb-multi-eurlex"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jonlesage/microgrid-ems-optimization",
+  "name": "jonlesage/microgrid-ems-optimization",
+  "description": "This example walks through the process of developing an optimization routine that uses forecast pricing and loading conditions to optimally store/sell energy from a grid-scale battery system.",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption; penalized for example-style signals.",
+  "stars": 128,
+  "language": "MATLAB",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-16",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 40.9,
+  "discovery_score": 4,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "This example walks through the process of developing an optimization routine that uses forecast pricing and loading conditions to optimal...",
+  "slug": "jonlesage-microgrid-ems-optimization"
+}

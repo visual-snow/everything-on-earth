@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/diagnijmegen/nnunet-for-pathology",
+  "name": "diagnijmegen/nnunet-for-pathology",
+  "description": "Adapted nnUNet framework with additional features to suit the requirements for pathology applications",
+  "sub_domain": "biomedical-imaging",
+  "score": 8,
+  "score_rationale": "This repository is a pathology-specific nnU-Net adaptation, which makes it squarely useful for biomedical segmentation work.",
+  "stars": 24,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 59.2,
+  "discovery_score": 8,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Adapted nnUNet framework with additional features to suit the requirements for pathology applications",
+  "slug": "diagnijmegen-nnunet-for-pathology"
+}

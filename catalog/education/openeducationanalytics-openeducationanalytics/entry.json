@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openeducationanalytics/openeducationanalytics",
+  "name": "OpenEducationAnalytics/OpenEducationAnalytics",
+  "description": "Open-source education analytics stack and starter assets for a modern education data estate.",
+  "sub_domain": "analytics-learning-dashboards",
+  "score": 9,
+  "score_rationale": "Broad education analytics platform with dashboards and infrastructure that sits squarely in the requested scope.",
+  "stars": 266,
+  "language": "Jupyter Notebook",
+  "license": "CC-BY-4.0 and MIT",
+  "last_activity": "2025-06-25",
+  "found_in_domains": [
+    "analytics-learning-dashboards"
+  ],
+  "quality_score": 73.4,
+  "discovery_score": 9,
+  "tags": [
+    "analytics",
+    "dashboards",
+    "engagement",
+    "early-alerts"
+  ],
+  "category": "Analytics, Learning Dashboards, Engagement Metrics & Early Alerts",
+  "summary": "Open-source education analytics stack and starter assets for a modern education data estate.",
+  "slug": "openeducationanalytics-openeducationanalytics"
+}

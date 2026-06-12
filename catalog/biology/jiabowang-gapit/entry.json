@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jiabowang/gapit",
+  "name": "jiabowang/GAPIT",
+  "description": "Genome Association Predict Integrate Tools",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 9,
+  "score_rationale": "A widely used plant GWAS and genomic-prediction toolkit, central to crop genomics workflows.",
+  "stars": 222,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 72.8,
+  "discovery_score": 9,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Genome Association Predict Integrate Tools",
+  "slug": "jiabowang-gapit"
+}

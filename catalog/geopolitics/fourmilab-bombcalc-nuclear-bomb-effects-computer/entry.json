@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fourmilab/bombcalc_nuclear_bomb_effects_computer",
+  "name": "Fourmilab/bombcalc_nuclear_bomb_effects_computer",
+  "description": "Development environment and archive for Fourmilab's Web implementation of the Nuclear Bomb Effects Computer slide rule from the 1962 edition of the book \u201cThe Effects of Nuclear Weapons\u201d",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 8,
+  "score_rationale": "Reference bomb-effects computer for classic nuclear-effects calculations.",
+  "stars": 15,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2025-11-16",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 57.6,
+  "tags": [
+    "nuclear",
+    "effects",
+    "calculator",
+    "weapons",
+    "blast"
+  ],
+  "category": "Nuclear Effects Calculator",
+  "summary": "Web implementation of the classic nuclear bomb effects computer.",
+  "slug": "fourmilab-bombcalc-nuclear-bomb-effects-computer"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/digitalbiomarkerdiscoverypipeline/pre-process",
+  "name": "DigitalBiomarkerDiscoveryPipeline/Pre-process",
+  "description": "Pre-processing methods for mHealth and wearables data.",
+  "sub_domain": "wearable-iot-health",
+  "score": 6,
+  "score_rationale": "Directly handles preprocessing of wearables and mHealth data, which is a relevant part of the wearable-health pipeline.",
+  "stars": 21,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-05-14",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 46.7,
+  "discovery_score": 6,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "Pre-processing methods for mHealth and wearables data.",
+  "slug": "digitalbiomarkerdiscoverypipeline-pre-process"
+}

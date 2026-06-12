@@ -1,0 +1,62 @@
+[
+  {
+    "repo_url": "https://github.com/quantopian/pyfolio",
+    "name": "quantopian/pyfolio",
+    "description": "Portfolio and risk analytics in Python",
+    "sub_domain": "quant-research-notebooks",
+    "score": 10,
+    "score_rationale": "Canonical quant research analytics stack for portfolio and risk evaluation, widely reused in notebook-driven workflows.",
+    "stars": 6267,
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "last_activity": "2023-12-23"
+  },
+  {
+    "repo_url": "https://github.com/quantopian/alphalens",
+    "name": "quantopian/alphalens",
+    "description": "Performance analysis of predictive (alpha) stock factors",
+    "sub_domain": "quant-research-notebooks",
+    "score": 10,
+    "score_rationale": "Canonical factor-analysis library for research notebooks and alpha evaluation, directly matching the target gap.",
+    "stars": 4188,
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "last_activity": "2024-02-12"
+  },
+  {
+    "repo_url": "https://github.com/quantopian/empyrical",
+    "name": "quantopian/empyrical",
+    "description": "Common financial risk and performance metrics. Used by zipline and pyfolio.",
+    "sub_domain": "quant-research-notebooks",
+    "score": 9,
+    "score_rationale": "Core metrics library that underpins multiple quant research tools and fills an important reusable analytics layer.",
+    "stars": 1474,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2024-07-26"
+  },
+  {
+    "repo_url": "https://github.com/ranaroussi/quantstats",
+    "name": "ranaroussi/quantstats",
+    "description": "Portfolio analytics for quants, written in Python",
+    "sub_domain": "quant-research-notebooks",
+    "score": 9,
+    "score_rationale": "Popular reusable portfolio analytics stack that is heavily used alongside notebook-based research workflows.",
+    "stars": 6888,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-01-13"
+  },
+  {
+    "repo_url": "https://github.com/pmorissette/ffn",
+    "name": "pmorissette/ffn",
+    "description": "ffn - a financial function library for Python",
+    "sub_domain": "quant-research-notebooks",
+    "score": 8,
+    "score_rationale": "Broad financial function library that complements notebook-based research and portfolio analysis stacks.",
+    "stars": 2519,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-21"
+  }
+]

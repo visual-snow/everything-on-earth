@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/datapartnership/acled_conflict_analysis",
+  "name": "datapartnership/acled_conflict_analysis",
+  "description": "Python package to extract analyze and map ACLED data",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "license": "MPL-2.0",
+  "last_activity": "2026-02-23",
+  "sub_domain": "conflict-event-tracking",
+  "score": 8,
+  "score_rationale": "Practical ACLED analysis package for extracting, processing, and mapping conflict events.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 51.8,
+  "tags": [
+    "acled",
+    "conflict-analysis",
+    "mapping",
+    "python-package"
+  ],
+  "category": "Conflict Analysis",
+  "summary": "Python package to extract, analyze, and map ACLED conflict data.",
+  "slug": "datapartnership-acled-conflict-analysis"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/globalfishingwatch/gfwr",
+  "name": "GlobalFishingWatch/gfwr",
+  "description": "R package for accessing data from Global Fishing Watch APIs",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 9,
+  "score_rationale": "High-signal client for accessing Global Fishing Watch maritime data APIs.",
+  "stars": 79,
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 69.2,
+  "tags": [
+    "maritime-data",
+    "api-client",
+    "fishing",
+    "python"
+  ],
+  "category": "Fishing API Client",
+  "summary": "R package for accessing Global Fishing Watch API data.",
+  "slug": "globalfishingwatch-gfwr"
+}

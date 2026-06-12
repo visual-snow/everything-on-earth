@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/blockchaincommons/smartcustodywhitepapers",
+  "name": "blockchaincommons/smartcustodywhitepapers",
+  "description": "#SmartCustody White Papers, which have been consolidated into the #SmartCustody Book",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 82,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2020-05-19",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 21.4,
+  "discovery_score": 1,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "#SmartCustody White Papers, which have been consolidated into the #SmartCustody Book",
+  "slug": "blockchaincommons-smartcustodywhitepapers"
+}

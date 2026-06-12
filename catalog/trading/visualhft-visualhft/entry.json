@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/visualhft/visualhft",
+  "name": "visualHFT/VisualHFT",
+  "description": "VisualHFT is a WPF/C# desktop GUI that shows market microstructure in real time. You can track advanced limit\u2011order\u2011book dynamics and execution quality, then use its modular plugins to shape the analysis to your workflow.",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 8,
+  "score_rationale": "Microstructure-focused tooling with live book visualization and analysis.",
+  "stars": 1105,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 72.4,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "VisualHFT is a WPF/C# desktop GUI that shows market microstructure in real time. You can track advanced...",
+  "slug": "visualhft-visualhft"
+}

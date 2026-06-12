@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/acoustic-bird-detection",
+  "name": "microsoft/acoustic-bird-detection",
+  "description": "Machine learning tools for acoustic bird detection",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 48,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2020-10-15",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 37.5,
+  "discovery_score": 4,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "Machine learning tools for acoustic bird detection",
+  "slug": "microsoft-acoustic-bird-detection"
+}

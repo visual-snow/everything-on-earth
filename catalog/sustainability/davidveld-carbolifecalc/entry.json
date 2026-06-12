@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/davidveld/carbolifecalc",
+  "name": "davidveld/carbolifecalc",
+  "description": "A Quick-Action Carbon Whole Life Carbon Assessment calculator using Revit material quantities.",
+  "sub_domain": "green-building-certification",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 34,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-12-24",
+  "found_in_domains": [
+    "green-building-certification"
+  ],
+  "quality_score": 36.4,
+  "discovery_score": 4,
+  "tags": [
+    "green-building",
+    "leed",
+    "breeam",
+    "embodied-carbon"
+  ],
+  "category": "Green Building Certification \u2014 LEED/BREEAM tools and building material databases",
+  "summary": "A Quick-Action Carbon Whole Life Carbon Assessment calculator using Revit material quantities.",
+  "slug": "davidveld-carbolifecalc"
+}

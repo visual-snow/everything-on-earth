@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/theopenlane/awesome-compliance",
+  "name": "theopenlane/awesome-compliance",
+  "description": "A curated list of awesome compliance resources, libraries, and tooling",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 4,
+  "score_rationale": "Matched 3 queries; contains 1 domain term in repo text; penalized for awesome-style signals.",
+  "stars": 26,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "compliance-regulatory-automation",
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 35.5,
+  "discovery_score": 4,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "A curated list of awesome compliance resources, libraries, and tooling",
+  "slug": "theopenlane-awesome-compliance"
+}

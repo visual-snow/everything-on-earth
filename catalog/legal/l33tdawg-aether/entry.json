@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/l33tdawg/aether",
+  "name": "l33tdawg/aether",
+  "description": "AI Smart Contract Security Analysis and PoC Generation Framework",
+  "sub_domain": "contract-analysis-clm",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 36,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 30.5,
+  "discovery_score": 3,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining",
+    "contract"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "AI Smart Contract Security Analysis and PoC Generation Framework",
+  "slug": "l33tdawg-aether"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ad-on-is/rachoon",
+  "name": "ad-on-is/rachoon",
+  "description": "\ud83e\udd9d Rachoon \u2014 A self-hostable way to handle invoices",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 924,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-02-24",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 29.7,
+  "discovery_score": 1,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "\ud83e\udd9d Rachoon \u2014 A self-hostable way to handle invoices",
+  "slug": "ad-on-is-rachoon"
+}

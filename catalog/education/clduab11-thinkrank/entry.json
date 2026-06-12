@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clduab11/thinkrank",
+  "name": "clduab11/thinkrank",
+  "description": "Revolutionizing collaborative thinking and problem-solving through intelligent ranking systems and gamified AI research contribution.",
+  "sub_domain": "gamification-engagement",
+  "score": 6,
+  "score_rationale": "Educational engagement project with ranking mechanics and gamified contribution loops, though less classroom-specific than the top matches.",
+  "stars": 24,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-11-27",
+  "found_in_domains": [
+    "gamification-engagement"
+  ],
+  "quality_score": 47.2,
+  "discovery_score": 6,
+  "tags": [
+    "gamification",
+    "badges",
+    "leaderboards",
+    "engagement"
+  ],
+  "category": "Gamification, Badges, Leaderboards, Educational Games & Classroom Engagement",
+  "summary": "Revolutionizing collaborative thinking and problem-solving through intelligent ranking systems and gamified AI research contribution.",
+  "slug": "clduab11-thinkrank"
+}

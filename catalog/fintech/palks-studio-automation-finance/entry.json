@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/palks-studio/automation-finance",
+  "name": "palks-studio/automation-finance",
+  "description": "\ud83c\uddec\ud83c\udde7 Autonomous PHP automation engine for invoicing and revenue tracking (CLI-based) \ud83c\uddeb\ud83c\uddf7 Moteur d\u2019automatisation PHP autonome pour la facturation et le suivi des recettes (CLI)",
+  "sub_domain": "open-banking-psd2",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance",
+    "invoicing"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "\ud83c\uddec\ud83c\udde7 Autonomous PHP automation engine for invoicing and revenue tracking (CLI-based) \ud83c\uddeb\ud83c\uddf7 Moteur d\u2019automatisation PHP autonome pour la factur...",
+  "slug": "palks-studio-automation-finance"
+}

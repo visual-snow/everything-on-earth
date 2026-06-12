@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/aachen-investment-club/backtest-cpp",
+  "name": "aachen-investment-club/backtest-cpp",
+  "description": "Event Driven C++ Backtester",
+  "sub_domain": "backtesting-frameworks",
+  "score": 4,
+  "score_rationale": "Small but directly relevant C++ event-driven backtester; useful long-tail coverage for non-Python users.",
+  "stars": 1,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 26.4,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "Event Driven C++ Backtester",
+  "slug": "aachen-investment-club-backtest-cpp"
+}

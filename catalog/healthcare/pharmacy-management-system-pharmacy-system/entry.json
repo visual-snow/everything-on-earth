@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pharmacy-management-system/pharmacy_system",
+  "name": "Pharmacy-Management-System/Pharmacy_System",
+  "description": "No description provided.",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 8,
+  "score_rationale": "Strong pharmacy-management match: Laravel-based system for pharmacies and medical prescription handling.",
+  "stars": 44,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2023-04-11",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 61.2,
+  "discovery_score": 8,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "No description provided.",
+  "slug": "pharmacy-management-system-pharmacy-system"
+}

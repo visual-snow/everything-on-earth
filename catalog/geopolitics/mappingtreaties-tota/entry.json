@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mappingtreaties/tota",
+  "name": "mappingtreaties/tota",
+  "description": "Texts of Trade Agreements Corpus.",
+  "sub_domain": "international-law-treaties",
+  "score": 10,
+  "score_rationale": "This is a primary-source treaty corpus and the strongest direct match in the file.",
+  "stars": 34,
+  "language": null,
+  "license": null,
+  "last_activity": "2017-10-04",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 72.4,
+  "tags": [
+    "treaties",
+    "trade-agreements",
+    "corpus",
+    "legal-text"
+  ],
+  "category": "Treaty Corpus",
+  "summary": "Corpus of trade-agreement texts for legal and policy analysis.",
+  "slug": "mappingtreaties-tota"
+}

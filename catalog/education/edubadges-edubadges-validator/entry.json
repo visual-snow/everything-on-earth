@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/edubadges/edubadges-validator",
+  "name": "edubadges/edubadges-validator",
+  "description": "Edubadges validator service (aka badgecheck)",
+  "sub_domain": "credentialing-certification",
+  "score": 3,
+  "score_rationale": "Direct Edubadges validation service; relevant but lower-signal than the main platform and public validator repos.",
+  "stars": 0,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-10-16",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "Edubadges validator service (aka badgecheck)",
+  "slug": "edubadges-edubadges-validator"
+}

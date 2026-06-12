@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pypsa/whobs",
+  "name": "pypsa/whobs",
+  "description": "Optimal Wind+Hydrogen+Other+Battery+Solar (WHOBS) electricity systems for European countries",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 52,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2018-10-11",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 37.8,
+  "discovery_score": 4,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "Optimal Wind+Hydrogen+Other+Battery+Solar (WHOBS) electricity systems for European countries",
+  "slug": "pypsa-whobs"
+}

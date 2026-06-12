@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/barreleye/barreleye",
+  "name": "barreleye/barreleye",
+  "description": "Open-source blockchain indexer and explorer \ud83d\udc20",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 3,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2025-04-22",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Open-source blockchain indexer and explorer \ud83d\udc20",
+  "slug": "barreleye-barreleye"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/h5p/h5p-php-library",
+  "name": "h5p/h5p-php-library",
+  "description": "General H5P library used by platform integrations to upload, render, and manage H5P packages.",
+  "sub_domain": "curriculum-authoring",
+  "score": 7,
+  "score_rationale": "Core H5P component used by education platforms that author and deliver interactive learning content.",
+  "stars": 140,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "curriculum-authoring"
+  ],
+  "quality_score": 59.2,
+  "discovery_score": 7,
+  "tags": [
+    "curriculum",
+    "authoring",
+    "oer",
+    "courseware"
+  ],
+  "category": "Curriculum, Content Authoring, OER Publishing & Interactive Courseware",
+  "summary": "General H5P library used by platform integrations to upload, render, and manage H5P packages.",
+  "slug": "h5p-h5p-php-library"
+}

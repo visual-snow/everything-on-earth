@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/polarmutex/fava-envelope",
+  "name": "polarmutex/fava-envelope",
+  "description": "A beancount fava extension to add a envelope budgeting capability",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 139,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-07-17",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 47.2,
+  "discovery_score": 5,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "A beancount fava extension to add a envelope budgeting capability",
+  "slug": "polarmutex-fava-envelope"
+}

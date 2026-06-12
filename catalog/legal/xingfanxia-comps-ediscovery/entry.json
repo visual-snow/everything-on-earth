@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/xingfanxia/comps_ediscovery",
+  "name": "xingfanxia/comps_ediscovery",
+  "description": "An implementation of electronic discovery (README and structure pending change for now)",
+  "sub_domain": "e-discovery-document-review",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 5,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2018-03-13",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 24.2,
+  "discovery_score": 3,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction",
+    "discovery"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "An implementation of electronic discovery (README and structure pending change for now)",
+  "slug": "xingfanxia-comps-ediscovery"
+}

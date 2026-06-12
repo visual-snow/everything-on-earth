@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/simvascular/simvascular",
+  "name": "simvascular/simvascular",
+  "description": "SimVascular is an interactive application used to create patient-specific geometric models of human vasculature from 3D medical imaging data acquired for a ...",
+  "sub_domain": "medical-education-simulation",
+  "score": 8,
+  "score_rationale": "Patient-specific vascular modeling and simulation tool with clear medical simulation value.",
+  "stars": 302,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 67.9,
+  "discovery_score": 8,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient",
+    "patient-records",
+    "imaging"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "SimVascular is an interactive application used to create patient-specific geometric models of human vasculature from 3D medical imaging d...",
+  "slug": "simvascular-simvascular"
+}

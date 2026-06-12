@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/dutu/valr-api-node",
+  "name": "dutu/valr-api-node",
+  "description": "VALR exchange API client for REST and WebSocket",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 7,
+  "score_rationale": "Node.js client for VALR exchange APIs, useful as a venue-specific connector.",
+  "stars": 3,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2022-07-18",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 46.8,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "VALR exchange API client for REST and WebSocket",
+  "slug": "dutu-valr-api-node"
+}

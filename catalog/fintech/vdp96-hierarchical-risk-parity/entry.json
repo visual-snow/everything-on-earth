@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vdp96/hierarchical_risk_parity",
+  "name": "vdp96/hierarchical_risk_parity",
+  "description": "Portfolio Construction with Hierarchical Risk Parity - A Study",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 4,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-12-27",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 5,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "Portfolio Construction with Hierarchical Risk Parity - A Study",
+  "slug": "vdp96-hierarchical-risk-parity"
+}

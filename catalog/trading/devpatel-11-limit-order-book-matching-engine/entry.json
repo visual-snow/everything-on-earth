@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/devpatel-11/limit-order-book-matching-engine",
+  "name": "DevPatel-11/limit-order-book-matching-engine",
+  "description": "Exchange-style limit order book with price-time priority matching engine for realistic market microstructure simulation",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 8,
+  "score_rationale": "Clear exchange-style matching engine aimed at realistic microstructure simulation.",
+  "stars": 0,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-12-21",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine",
+    "exchange-api"
+  ],
+  "category": "Order Book Engine",
+  "summary": "Exchange-style limit order book with price-time priority matching engine for realistic market microstructure...",
+  "slug": "devpatel-11-limit-order-book-matching-engine"
+}

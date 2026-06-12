@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/softnanolab/bagel",
+  "name": "softnanolab/bagel",
+  "description": "Protein Engineering via Exploration of an Energy Landscape",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 7,
+  "score_rationale": "Relevant to protein engineering and fitness-landscape exploration, though narrower and less central than the top-tier tools.",
+  "stars": 129,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 58.9,
+  "discovery_score": 7,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Protein Engineering via Exploration of an Energy Landscape",
+  "slug": "softnanolab-bagel"
+}

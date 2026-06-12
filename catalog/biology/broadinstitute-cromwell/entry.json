@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/broadinstitute/cromwell",
+  "name": "broadinstitute/cromwell",
+  "description": "Open-source workflow management system for bioinformatics.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 9,
+  "score_rationale": "Widely used WDL workflow engine that is explicitly positioned for bioinformatics and remains actively maintained.",
+  "stars": 1056,
+  "language": "Scala",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 78.2,
+  "discovery_score": 9,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "Open-source workflow management system for bioinformatics.",
+  "slug": "broadinstitute-cromwell"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/fecgov/openfec",
+  "name": "fecgov/openFEC",
+  "description": "The first RESTful API for the Federal Election Commission. We're aiming to make campaign finance more accessible for journalists, academics, developers, and other transparency seekers.",
+  "sub_domain": "election-governance-data",
+  "score": 10,
+  "score_rationale": "This is the official FEC API and one of the strongest primary-source election-data repositories.",
+  "stars": 529,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 81.8,
+  "tags": [
+    "campaign-finance",
+    "fec",
+    "api",
+    "transparency"
+  ],
+  "category": "Campaign Finance API",
+  "summary": "Official FEC API for accessible campaign finance data.",
+  "slug": "fecgov-openfec"
+}

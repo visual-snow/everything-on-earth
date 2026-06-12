@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ankane/awesome-legal",
+  "name": "ankane/awesome-legal",
+  "description": "Awesome free legal documents for companies",
+  "sub_domain": "curated-lists-meta-sweep",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 942,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2024-03-12",
+  "found_in_domains": [
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 47.8,
+  "discovery_score": 4,
+  "tags": [
+    "awesome-list",
+    "legal-data",
+    "legal-nlp",
+    "privacy"
+  ],
+  "category": "Curated Lists / Meta Sweep \u2014 awesome lists, GitHub topics, canonical meta-sources",
+  "summary": "Awesome free legal documents for companies",
+  "slug": "ankane-awesome-legal"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/guidobartoli/sherloq",
+  "name": "guidobartoli/sherloq",
+  "description": "An open-source digital image forensic toolset",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 3112,
+  "language": "Perl",
+  "license": "GPL-3.0",
+  "last_activity": "2025-07-14",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 63.9,
+  "discovery_score": 6,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "An open-source digital image forensic toolset",
+  "slug": "guidobartoli-sherloq"
+}

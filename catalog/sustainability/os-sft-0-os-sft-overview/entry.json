@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/os-sft/0-os-sft-overview",
+  "name": "os-sft/0-os-sft-overview",
+  "description": "START HERE: OS-SF Taxonomy Project Background and Overview",
+  "sub_domain": "climate-finance",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 9,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2023-10-20",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 14.0,
+  "discovery_score": 1,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "START HERE: OS-SF Taxonomy Project Background and Overview",
+  "slug": "os-sft-0-os-sft-overview"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/traitecoevo/infinitylists",
+  "name": "traitecoevo/infinitylists",
+  "description": "infinitylists allows you to generate place-based species lists for anywhere in the world, pulling collection data and iNaturalist records from the Atlas of Living Australia and the Global Biodiversity Information Facility.",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This is a strong fit for species-list generation from GBIF and iNaturalist data sources.",
+  "stars": 13,
+  "language": "R",
+  "license": "CC-BY-4.0",
+  "last_activity": "2025-04-01",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 57.2,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "infinitylists allows you to generate place-based species lists for anywhere in the world, pulling collection data and iNaturalist records...",
+  "slug": "traitecoevo-infinitylists"
+}

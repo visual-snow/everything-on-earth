@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fsunroo/gaussian-plume",
+  "name": "fsunroo/gaussian-plume",
+  "description": "Atmospheric dispersion modeling",
+  "sub_domain": "air-quality-emissions",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 19,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2021-08-24",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 34.4,
+  "discovery_score": 4,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Atmospheric dispersion modeling",
+  "slug": "fsunroo-gaussian-plume"
+}

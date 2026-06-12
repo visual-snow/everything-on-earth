@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/machine-learning-for-medical-language/cnlp_transformers",
+  "name": "Machine-Learning-for-Medical-Language/cnlp_transformers",
+  "description": "Transformers for Clinical NLP",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 8,
+  "score_rationale": "Modern transformer toolkit explicitly aimed at clinical NLP tasks and modeling.",
+  "stars": 27,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 59.6,
+  "discovery_score": 8,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "Transformers for Clinical NLP",
+  "slug": "machine-learning-for-medical-language-cnlp-transformers"
+}

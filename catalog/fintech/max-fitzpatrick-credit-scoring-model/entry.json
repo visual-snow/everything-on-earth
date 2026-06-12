@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/max-fitzpatrick/credit-scoring-model",
+  "name": "max-fitzpatrick/credit-scoring-model",
+  "description": "Credit scoring machine learning algorithm which predicts probability of default",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 89,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2017-11-19",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 45.6,
+  "discovery_score": 5,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "Credit scoring machine learning algorithm which predicts probability of default",
+  "slug": "max-fitzpatrick-credit-scoring-model"
+}

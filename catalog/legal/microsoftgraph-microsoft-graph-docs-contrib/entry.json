@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoftgraph/microsoft-graph-docs-contrib",
+  "name": "microsoftgraph/microsoft-graph-docs-contrib",
+  "description": "Documentation for the Microsoft Graph REST API",
+  "sub_domain": "e-discovery-document-review",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 127,
+  "language": "PowerShell",
+  "license": "CC-BY-4.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 22.9,
+  "discovery_score": 1,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "Documentation for the Microsoft Graph REST API",
+  "slug": "microsoftgraph-microsoft-graph-docs-contrib"
+}

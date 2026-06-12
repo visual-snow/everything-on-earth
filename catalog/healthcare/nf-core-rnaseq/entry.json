@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nf-core/rnaseq",
+  "name": "nf-core/rnaseq",
+  "description": "RNA sequencing analysis pipeline using STAR, RSEM, HISAT2 or Salmon with gene/isoform counts and extensive quality control.",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 8,
+  "score_rationale": "Major community RNA-seq pipeline for transcriptomic analysis.",
+  "stars": 1235,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 72.7,
+  "discovery_score": 8,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "RNA sequencing analysis pipeline using STAR, RSEM, HISAT2 or Salmon with gene/isoform counts and extensive quality control.",
+  "slug": "nf-core-rnaseq"
+}

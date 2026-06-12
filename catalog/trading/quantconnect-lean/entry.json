@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/quantconnect/lean",
+  "name": "quantconnect/lean",
+  "description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#).",
+  "sub_domain": "live-algo-execution-engines",
+  "score": 10,
+  "score_rationale": "Full algorithmic trading engine with live brokerage integrations and a mature execution stack.",
+  "stars": 18053,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "live-algo-execution-engines",
+    "trading-bots-strategy-frameworks"
+  ],
+  "quality_score": 94.1,
+  "tags": [
+    "live-trading",
+    "execution",
+    "order-routing"
+  ],
+  "category": "Trading Execution Engine",
+  "summary": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#).",
+  "slug": "quantconnect-lean"
+}

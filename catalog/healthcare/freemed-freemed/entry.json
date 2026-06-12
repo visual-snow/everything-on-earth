@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/freemed/freemed",
+  "name": "freemed/freemed",
+  "description": "FreeMED Electronic Medical Record / Practice Management System.",
+  "sub_domain": "ehr-practice-management",
+  "score": 8,
+  "score_rationale": "Explicit EMR and practice-management system with a direct fit to the sub-domain.",
+  "stars": 107,
+  "language": "PHP",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "ehr-practice-management"
+  ],
+  "quality_score": 64.3,
+  "discovery_score": 8,
+  "tags": [
+    "ehr",
+    "emr",
+    "patient-records",
+    "practice-management"
+  ],
+  "category": "Electronic Health Records (EHR), Clinical Documentation & Practice Management",
+  "summary": "FreeMED Electronic Medical Record / Practice Management System.",
+  "slug": "freemed-freemed"
+}

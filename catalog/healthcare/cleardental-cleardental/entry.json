@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://gitlab.com/cleardental/cleardental",
+  "name": "cleardental/cleardental",
+  "description": "The main repo for holding the applications that run clear.dental suite. The idea is that all applications will be installed in each node",
+  "sub_domain": "dental-specialty-clinics",
+  "score": 9,
+  "score_rationale": "Dedicated open-source dental clinic suite with an exact GitLab project and active recent maintenance.",
+  "stars": 24,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-02-05",
+  "found_in_domains": [
+    "dental-specialty-clinics"
+  ],
+  "quality_score": 65.2,
+  "discovery_score": 9,
+  "tags": [
+    "specialty-clinics",
+    "practice-management",
+    "dental"
+  ],
+  "category": "Dental, Ophthalmology & Specialty Clinic Systems",
+  "summary": "The main repo for holding the applications that run clear.dental suite. The idea is that all applications will be installed in each node",
+  "slug": "cleardental-cleardental"
+}

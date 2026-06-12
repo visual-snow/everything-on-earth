@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/viveksagarsingh/probability-of-credit-card-default",
+  "name": "viveksagarsingh/probability-of-credit-card-default",
+  "description": "Classification problem using multiple ML Algorithms",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-02-12",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "Classification problem using multiple ML Algorithms",
+  "slug": "viveksagarsingh-probability-of-credit-card-default"
+}

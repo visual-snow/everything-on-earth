@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biobakery/metaphlan",
+  "name": "biobakery/MetaPhlAn",
+  "description": "MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data",
+  "sub_domain": "metagenomics",
+  "score": 10,
+  "score_rationale": "Canonical shotgun community profiler and one of the standard tools for microbiome taxonomic profiling.",
+  "stars": 396,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "metagenomics"
+  ],
+  "quality_score": 80.8,
+  "discovery_score": 10,
+  "tags": [
+    "metagenomics",
+    "microbiome",
+    "taxonomic-classification",
+    "shotgun-sequencing"
+  ],
+  "category": "Metagenomics \u2014 microbiome analysis and taxonomic classification",
+  "summary": "MetaPhlAn is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data",
+  "slug": "biobakery-metaphlan"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/scratchfoundation/scratch-gui",
+  "name": "scratchfoundation/scratch-gui",
+  "description": "Graphical User Interface for creating and running Scratch 3.0 projects.",
+  "sub_domain": "k12-stem",
+  "score": 10,
+  "score_rationale": "Canonical Scratch 3.0 interface for block-based creative coding aimed at children and classrooms.",
+  "stars": 4762,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 89.4,
+  "discovery_score": 10,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "Graphical User Interface for creating and running Scratch 3.0 projects.",
+  "slug": "scratchfoundation-scratch-gui"
+}

@@ -1,0 +1,5707 @@
+[
+  {
+    "repo_url": "https://github.com/smicallef/spiderfoot",
+    "name": "smicallef/spiderfoot",
+    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+    "stars": 17139,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2024-12-15",
+    "sub_domain": "osint-frameworks",
+    "score": 10,
+    "score_rationale": "One of the canonical OSINT automation frameworks and a core reference in the space.",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel",
+      "osint-frameworks"
+    ],
+    "quality_score": 93.9,
+    "tags": [
+      "osint",
+      "automation",
+      "threat-intel",
+      "reconnaissance"
+    ],
+    "category": "OSINT Automation",
+    "summary": "Automates OSINT for threat intelligence and attack-surface mapping."
+  },
+  {
+    "repo_url": "https://github.com/laramies/theharvester",
+    "name": "laramies/theHarvester",
+    "description": "E-mails, subdomains and names Harvester - OSINT",
+    "stars": 15879,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-19",
+    "sub_domain": "osint-frameworks",
+    "score": 10,
+    "score_rationale": "Classic recon tool for harvesting targets from open sources and a standard OSINT utility.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 93.6,
+    "tags": [
+      "osint",
+      "reconnaissance",
+      "emails",
+      "subdomains",
+      "intelligence"
+    ],
+    "category": "OSINT Recon Tool",
+    "summary": "Harvests emails, subdomains, and names from open sources."
+  },
+  {
+    "repo_url": "https://github.com/opencti-platform/opencti",
+    "name": "OpenCTI-Platform/opencti",
+    "description": "Open Cyber Threat Intelligence Platform",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 10,
+    "score_rationale": "Core CTI platform for modeling, analyzing, and sharing threat intelligence at scale.",
+    "stars": 9064,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 91.7,
+    "tags": [
+      "threat-intel",
+      "cyber-intelligence",
+      "platform",
+      "opencti"
+    ],
+    "category": "Threat Intelligence Platform",
+    "summary": "Open source platform for modeling and sharing cyber threat intelligence."
+  },
+  {
+    "repo_url": "https://github.com/koala73/worldmonitor",
+    "name": "koala73/worldmonitor",
+    "description": "Real-time global intelligence dashboard \u2014 AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "stars": 43537,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-24",
+    "sub_domain": "conflict-event-tracking",
+    "score": 9,
+    "score_rationale": "Real-time geopolitical monitoring dashboard with clear overlap to event tracking use cases.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 91.1,
+    "tags": [
+      "intelligence-dashboard",
+      "news-aggregation",
+      "geopolitics",
+      "infrastructure"
+    ],
+    "category": "Global Intelligence",
+    "summary": "Real-time dashboard for geopolitical news, monitoring, and infrastructure."
+  },
+  {
+    "repo_url": "https://github.com/misp/misp",
+    "name": "MISP/MISP",
+    "description": "MISP (core software) - Open Source Threat Intelligence and Sharing Platform",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 10,
+    "score_rationale": "Widely used open-source threat intelligence sharing platform with strong operational CTI coverage.",
+    "stars": 6198,
+    "language": "PHP",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 90.3,
+    "tags": [
+      "threat-intel",
+      "platform",
+      "sharing",
+      "misp"
+    ],
+    "category": "Threat Intelligence Platform",
+    "summary": "Open source threat intelligence sharing platform."
+  },
+  {
+    "repo_url": "https://github.com/lanmaster53/recon-ng",
+    "name": "lanmaster53/recon-ng",
+    "description": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources.",
+    "stars": 5468,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2024-11-01",
+    "sub_domain": "osint-frameworks",
+    "score": 10,
+    "score_rationale": "Longstanding reconnaissance framework with broad OSINT adoption and a mature module ecosystem.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 89.9,
+    "tags": [
+      "osint",
+      "reconnaissance",
+      "framework",
+      "modules",
+      "intelligence"
+    ],
+    "category": "Reconnaissance Framework",
+    "summary": "Modular OSINT framework for open-source intelligence gathering."
+  },
+  {
+    "repo_url": "https://github.com/opengeos/geoai",
+    "name": "opengeos/geoai",
+    "description": "GeoAI: Artificial Intelligence for Geospatial Data",
+    "stars": 2686,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "sub_domain": "geoint-tools",
+    "score": 10,
+    "score_rationale": "Direct GeoAI toolkit for imagery and geospatial analysis, a strong flagship fit.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 87.4,
+    "tags": [
+      "geospatial-ai",
+      "remote-sensing",
+      "imagery",
+      "machine-learning"
+    ],
+    "category": "GeoAI Toolkit",
+    "summary": "GeoAI toolkit for geospatial data and imagery analysis."
+  },
+  {
+    "repo_url": "https://github.com/lockfale/osint-framework",
+    "name": "lockfale/OSINT-Framework",
+    "description": "OSINT Framework",
+    "stars": 11095,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "sub_domain": "osint-frameworks",
+    "score": 9,
+    "score_rationale": "Widely referenced directory/framework for OSINT tooling and workflows.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 86.4,
+    "tags": [
+      "osint",
+      "framework",
+      "directory",
+      "reconnaissance",
+      "intelligence"
+    ],
+    "category": "OSINT Tool Directory",
+    "summary": "Curated directory of OSINT tools and workflows."
+  },
+  {
+    "repo_url": "https://github.com/unicodeveloper/globalthreatmap",
+    "name": "unicodeveloper/globalthreatmap",
+    "description": "Global threat map. Learn wars, conflicts, military bases and history of nations.",
+    "stars": 1388,
+    "language": "TypeScript",
+    "license": null,
+    "last_activity": "2026-03-02",
+    "sub_domain": "conflict-event-tracking",
+    "score": 10,
+    "score_rationale": "Broad conflict-monitoring map with strong overlap to real-time geopolitical event tracking.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 85.1,
+    "tags": [
+      "conflict-monitoring",
+      "world-map",
+      "military-bases",
+      "geopolitics"
+    ],
+    "category": "Conflict Mapping",
+    "summary": "Global map for wars, conflicts, bases, and nation history."
+  },
+  {
+    "repo_url": "https://github.com/intelowlproject/intelowl",
+    "name": "intelowlproject/IntelOwl",
+    "description": "IntelOwl: manage your Threat Intelligence at scale",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 9,
+    "score_rationale": "Threat-intelligence enrichment platform that automates analysis across many indicators and services.",
+    "stars": 4514,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 83.2,
+    "tags": [
+      "threat-intel",
+      "enrichment",
+      "analysis",
+      "automation"
+    ],
+    "category": "Threat Intelligence Platform",
+    "summary": "Tool for managing threat intelligence enrichment and analysis at scale."
+  },
+  {
+    "repo_url": "https://github.com/jivoi/awesome-osint",
+    "name": "jivoi/awesome-osint",
+    "description": ":scream: A curated list of amazingly awesome OSINT",
+    "stars": 25452,
+    "language": null,
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-19",
+    "sub_domain": "osint-frameworks",
+    "score": 8,
+    "score_rationale": "Highly useful OSINT resource collection, though it is more a curated index than a framework.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 83.2,
+    "tags": [
+      "osint",
+      "resources",
+      "directory",
+      "curation",
+      "intelligence"
+    ],
+    "category": "OSINT Resource List",
+    "summary": "Curated list of OSINT resources and tools."
+  },
+  {
+    "repo_url": "https://github.com/opengeos/segment-geospatial",
+    "name": "opengeos/segment-geospatial",
+    "description": "A Python package for segmenting geospatial data with the Segment Anything Model (SAM)",
+    "stars": 3940,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-23",
+    "sub_domain": "geoint-tools",
+    "score": 9,
+    "score_rationale": "Purpose-built geospatial segmentation tool for imagery analysis and a core GEOINT utility.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 82.8,
+    "tags": [
+      "segmentation",
+      "remote-sensing",
+      "sam",
+      "imagery"
+    ],
+    "category": "Geospatial Segmentation",
+    "summary": "Python package for segmenting geospatial imagery with SAM."
+  },
+  {
+    "repo_url": "https://github.com/opensanctions/opensanctions",
+    "name": "opensanctions/opensanctions",
+    "description": "An open database of international sanctions data, persons of interest and politically exposed persons",
+    "stars": 696,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "sub_domain": "sanctions-compliance",
+    "score": 10,
+    "score_rationale": "Foundational open sanctions and PEP data platform, essential for this subdomain.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 82.7,
+    "tags": [
+      "sanctions",
+      "peps",
+      "persons-of-interest",
+      "open-data"
+    ],
+    "category": "Sanctions Data",
+    "summary": "Open database of sanctions, PEPs, and persons of interest."
+  },
+  {
+    "repo_url": "https://github.com/fecgov/openfec",
+    "name": "fecgov/openFEC",
+    "description": "The first RESTful API for the Federal Election Commission. We're aiming to make campaign finance more accessible for journalists, academics, developers, and other transparency seekers.",
+    "sub_domain": "election-governance-data",
+    "score": 10,
+    "score_rationale": "This is the official FEC API and one of the strongest primary-source election-data repositories.",
+    "stars": 529,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 81.8,
+    "tags": [
+      "campaign-finance",
+      "fec",
+      "api",
+      "transparency"
+    ],
+    "category": "Campaign Finance API",
+    "summary": "Official FEC API for accessible campaign finance data."
+  },
+  {
+    "repo_url": "https://github.com/moov-io/watchman",
+    "name": "moov-io/watchman",
+    "description": "AML/CTF/KYC/OFAC Search of global watchlist and sanctions",
+    "stars": 440,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-23",
+    "sub_domain": "sanctions-compliance",
+    "score": 10,
+    "score_rationale": "High-performance sanctions screening tool and one of the core open-source compliance engines.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 81.2,
+    "tags": [
+      "sanctions-screening",
+      "aml",
+      "kyc",
+      "watchlists"
+    ],
+    "category": "Sanctions Screening",
+    "summary": "AML and OFAC watchlist screening for global sanctions checks."
+  },
+  {
+    "repo_url": "https://github.com/kpcyrd/sn0int",
+    "name": "kpcyrd/sn0int",
+    "description": "Semi-automatic OSINT framework and package manager",
+    "stars": 2416,
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "last_activity": "2025-01-31",
+    "sub_domain": "osint-frameworks",
+    "score": 9,
+    "score_rationale": "Popular semi-automatic OSINT framework and package manager with a very direct fit.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 81.1,
+    "tags": [
+      "osint",
+      "automation",
+      "reconnaissance",
+      "package-manager",
+      "intelligence"
+    ],
+    "category": "OSINT Framework",
+    "summary": "Semi-automatic OSINT framework with a package manager."
+  },
+  {
+    "repo_url": "https://github.com/mkearney/tweetbotornot",
+    "name": "mkearney/tweetbotornot",
+    "description": "R package for classifying Twitter accounts as bots or not bots using machine learning.",
+    "sub_domain": "social-media-influence",
+    "score": 10,
+    "score_rationale": "This is a widely used bot-detection package with direct relevance to influence analysis.",
+    "stars": 387,
+    "language": "R",
+    "license": "NOASSERTION",
+    "last_activity": "2021-10-20",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 80.7,
+    "tags": [
+      "bot-detection",
+      "twitter",
+      "r-package",
+      "machine-learning"
+    ],
+    "category": "Bot Detection",
+    "summary": "R package for classifying Twitter accounts as bots."
+  },
+  {
+    "repo_url": "https://github.com/yeti-platform/yeti",
+    "name": "yeti-platform/yeti",
+    "description": "Your Everyday Threat Intelligence",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 9,
+    "score_rationale": "Threat-intelligence platform focused on ingestion, normalization, and analysis of indicators and reports.",
+    "stars": 1963,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 80.3,
+    "tags": [
+      "threat-intel",
+      "normalization",
+      "analysis",
+      "platform"
+    ],
+    "category": "Threat Intelligence Platform",
+    "summary": "Threat intelligence platform for ingesting, normalizing, and analyzing data."
+  },
+  {
+    "repo_url": "https://github.com/luoundergradxjtu/twibot-22",
+    "name": "LuoUndergradXJTU/TwiBot-22",
+    "description": "Official Twitter bot detection benchmark with graph structure and multiple modalities.",
+    "sub_domain": "social-media-influence",
+    "score": 10,
+    "score_rationale": "It is a major benchmark for bot detection and social-media influence research.",
+    "stars": 246,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2025-10-14",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 79.1,
+    "tags": [
+      "bot-detection",
+      "benchmark",
+      "twitter",
+      "multimodal"
+    ],
+    "category": "Bot Detection",
+    "summary": "Twitter bot benchmark with graph and multimodal signals."
+  },
+  {
+    "repo_url": "https://github.com/openelections/openelections-core",
+    "name": "openelections/openelections-core",
+    "description": "Core repo for election results data acquisition, transformation and output.",
+    "sub_domain": "election-governance-data",
+    "score": 10,
+    "score_rationale": "This is a canonical election-results pipeline and directly matches the subdomain.",
+    "stars": 187,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2022-01-21",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 78.2,
+    "tags": [
+      "election-results",
+      "data-pipeline",
+      "python",
+      "open-data"
+    ],
+    "category": "Election Data Pipeline",
+    "summary": "Core pipeline for election results data acquisition and output."
+  },
+  {
+    "repo_url": "https://github.com/opendronemap/odm",
+    "name": "OpenDroneMap/ODM",
+    "description": "A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. \ud83d\udcf7",
+    "stars": 5914,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-17",
+    "sub_domain": "geoint-tools",
+    "score": 8,
+    "score_rationale": "Heavy-duty photogrammetry and mapping toolkit that directly supports GEOINT workflows.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 78.2,
+    "tags": [
+      "photogrammetry",
+      "mapping",
+      "point-clouds",
+      "drones"
+    ],
+    "category": "Photogrammetry Toolkit",
+    "summary": "Command-line toolkit for maps, point clouds, and 3D models from images."
+  },
+  {
+    "repo_url": "https://github.com/freelawproject/courtlistener",
+    "name": "freelawproject/courtlistener",
+    "description": "A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings.",
+    "sub_domain": "international-law-treaties",
+    "score": 9,
+    "score_rationale": "CourtListener is a major legal archive and API surface for court opinions and filings.",
+    "stars": 876,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 77.5,
+    "tags": [
+      "courts",
+      "legal-archive",
+      "case-law",
+      "filings"
+    ],
+    "category": "Legal Case Archive",
+    "summary": "Searchable archive and API for opinions, arguments, judges, and filings."
+  },
+  {
+    "repo_url": "https://github.com/microsoft/farmvibes-ai",
+    "name": "microsoft/farmvibes-ai",
+    "description": "FarmVibes.AI: Multi-Modal GeoSpatial ML Models for Agriculture and Sustainability",
+    "stars": 838,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2025-07-28",
+    "sub_domain": "geoint-tools",
+    "score": 9,
+    "score_rationale": "Large, active geospatial ML platform with direct utility for earth-observation intelligence.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 77.4,
+    "tags": [
+      "agriculture",
+      "geospatial-ml",
+      "remote-sensing",
+      "sustainability"
+    ],
+    "category": "Geospatial ML Platform",
+    "summary": "Multi-modal geospatial ML platform for agriculture and sustainability."
+  },
+  {
+    "repo_url": "https://github.com/nishitpatel01/fake_news_detection",
+    "name": "nishitpatel01/Fake_News_Detection",
+    "description": "Fake News Detection in Python.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 9,
+    "score_rationale": "A much larger and more established fake-news detection repo than the weak comparison-oriented long tail.",
+    "stars": 626,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2023-08-09",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 76.4,
+    "tags": [
+      "fake-news",
+      "classification",
+      "python",
+      "misinformation"
+    ],
+    "category": "Fake News Detection",
+    "summary": "Large Python project for fake news detection."
+  },
+  {
+    "repo_url": "https://github.com/freelawproject/juriscraper",
+    "name": "freelawproject/juriscraper",
+    "description": "An API to scrape American court websites for metadata.",
+    "sub_domain": "international-law-treaties",
+    "score": 9,
+    "score_rationale": "This is a high-signal legal-corpus ingestion tool that pulls structured court metadata at scale.",
+    "stars": 556,
+    "language": "HTML",
+    "license": "BSD-2-Clause",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 76.0,
+    "tags": [
+      "courts",
+      "legal-data",
+      "scraping",
+      "metadata"
+    ],
+    "category": "Legal Data Scraper",
+    "summary": "Scrapes American court websites for structured case metadata."
+  },
+  {
+    "repo_url": "https://github.com/rasterio/rasterio",
+    "name": "rasterio/rasterio",
+    "description": "Rasterio reads and writes geospatial raster datasets",
+    "stars": 2499,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-24",
+    "sub_domain": "geoint-tools",
+    "score": 8,
+    "score_rationale": "Foundational raster IO library that underpins imagery and geospatial analysis tooling.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 75.2,
+    "tags": [
+      "raster-data",
+      "geospatial",
+      "imagery",
+      "io"
+    ],
+    "category": "Raster IO Library",
+    "summary": "Core library for reading and writing geospatial raster datasets."
+  },
+  {
+    "repo_url": "https://github.com/owasp-amass/amass",
+    "name": "owasp-amass/amass",
+    "description": "In-depth attack surface mapping and asset discovery",
+    "stars": 14299,
+    "language": "Go",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-24",
+    "sub_domain": "osint-frameworks",
+    "score": 7,
+    "score_rationale": "Canonical attack-surface mapping and asset discovery framework with broad OSINT use.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 75.2,
+    "tags": [
+      "osint",
+      "attack-surface",
+      "asset-discovery",
+      "subdomains",
+      "reconnaissance"
+    ],
+    "category": "Attack Surface Mapping",
+    "summary": "Maps attack surface and discovers assets and subdomains."
+  },
+  {
+    "repo_url": "https://github.com/dgrtwo/unvotes",
+    "name": "dgrtwo/unvotes",
+    "description": "United Nations General Assembly Voting Data.",
+    "sub_domain": "network-alliance-analysis",
+    "score": 10,
+    "score_rationale": "This is a canonical UNGA voting dataset package and is central to alliance analysis.",
+    "stars": 69,
+    "language": "R",
+    "license": "NOASSERTION",
+    "last_activity": "2021-03-09",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 74.8,
+    "tags": [
+      "un",
+      "voting",
+      "general-assembly",
+      "diplomacy",
+      "data"
+    ],
+    "category": "UN Voting Data",
+    "summary": "R package for UN General Assembly vote data."
+  },
+  {
+    "repo_url": "https://github.com/mitre/cti",
+    "name": "mitre/cti",
+    "description": "Cyber Threat Intelligence Repository expressed in STIX 2.0",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 8,
+    "score_rationale": "MITRE\u2019s STIX-formatted cyber threat intelligence repository and reference corpus.",
+    "stars": 2044,
+    "language": null,
+    "license": "NOASSERTION",
+    "last_activity": "2025-12-19",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 74.5,
+    "tags": [
+      "stix",
+      "threat-intel",
+      "corpus",
+      "mitre"
+    ],
+    "category": "STIX Intelligence Corpus",
+    "summary": "MITRE's STIX-formatted cyber threat intelligence repository."
+  },
+  {
+    "repo_url": "https://github.com/bunsenfeng/twibot-20",
+    "name": "BunsenFeng/TwiBot-20",
+    "description": "A comprehensive benchmark for Twitter bot detection. CIKM 2021.",
+    "sub_domain": "social-media-influence",
+    "score": 10,
+    "score_rationale": "This is a major Twitter bot-detection benchmark and a stronger anchor for influence-analysis work.",
+    "stars": 62,
+    "language": null,
+    "license": "MIT",
+    "last_activity": "2022-10-16",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 74.4,
+    "tags": [
+      "bot-detection",
+      "benchmark",
+      "twitter",
+      "evaluation"
+    ],
+    "category": "Bot Detection",
+    "summary": "Twitter bot benchmark for evaluating detection models."
+  },
+  {
+    "repo_url": "https://github.com/microsoft/msticpy",
+    "name": "microsoft/msticpy",
+    "description": "Microsoft Threat Intelligence Security Tools",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 8,
+    "score_rationale": "Microsoft\u2019s threat-intelligence toolkit for hunting, enrichment, and operational analysis workflows.",
+    "stars": 1954,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-06",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 74.3,
+    "tags": [
+      "threat-hunting",
+      "enrichment",
+      "python",
+      "microsoft"
+    ],
+    "category": "Threat Hunting Toolkit",
+    "summary": "Microsoft toolkit for threat hunting, enrichment, and analysis workflows."
+  },
+  {
+    "repo_url": "https://github.com/decidim/decidim",
+    "name": "decidim/decidim",
+    "description": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails.",
+    "sub_domain": "election-governance-data",
+    "score": 8,
+    "score_rationale": "It is a major participatory democracy platform with a mature reusable codebase.",
+    "stars": 1726,
+    "language": "Ruby",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 73.9,
+    "tags": [
+      "civic-tech",
+      "participatory-democracy",
+      "rails",
+      "governance"
+    ],
+    "category": "Participatory Democracy",
+    "summary": "Rails framework for participatory democracy and civic engagement."
+  },
+  {
+    "repo_url": "https://github.com/terrapower/armi",
+    "name": "terrapower/armi",
+    "description": "An open-source nuclear reactor analysis automation framework that helps design teams increase efficiency and quality",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 9,
+    "score_rationale": "Large nuclear reactor analysis automation framework with operational depth.",
+    "stars": 263,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 73.4,
+    "tags": [
+      "nuclear",
+      "reactor",
+      "simulation",
+      "analysis",
+      "automation"
+    ],
+    "category": "Nuclear Reactor Framework",
+    "summary": "Automation framework for nuclear reactor analysis workflows."
+  },
+  {
+    "repo_url": "https://github.com/idaholab/raven",
+    "name": "idaholab/raven",
+    "description": "RAVEN is a flexible and multi-purpose probabilistic risk analysis, validation and uncertainty quantification, parameter optimization, model reduction and data knowledge-discovering framework.",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 9,
+    "score_rationale": "Probabilistic risk and uncertainty framework used in nuclear workflows.",
+    "stars": 254,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-18",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 73.3,
+    "tags": [
+      "nuclear",
+      "risk",
+      "uncertainty",
+      "probabilistic",
+      "analysis"
+    ],
+    "category": "Risk Analysis Framework",
+    "summary": "Probabilistic risk and uncertainty framework for nuclear workflows."
+  },
+  {
+    "repo_url": "https://github.com/coastalcph/lex-glue",
+    "name": "coastalcph/lex-glue",
+    "description": "LexGLUE: A Benchmark Dataset for Legal Language Understanding in English.",
+    "sub_domain": "international-law-treaties",
+    "score": 9,
+    "score_rationale": "It is one of the strongest reusable legal-language benchmark suites in the ecosystem.",
+    "stars": 244,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2025-07-23",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 73.1,
+    "tags": [
+      "legal-nlp",
+      "benchmark",
+      "dataset",
+      "classification"
+    ],
+    "category": "Legal NLP Benchmark",
+    "summary": "Benchmark suite for legal language understanding tasks in English."
+  },
+  {
+    "repo_url": "https://github.com/zurichnlp/xstance",
+    "name": "ZurichNLP/xstance",
+    "description": "Data and code accompanying the X-Stance dataset for multilingual, multi-target stance detection on political questions.",
+    "sub_domain": "political-text-nlp",
+    "score": 10,
+    "score_rationale": "This is a core political stance-detection benchmark with direct relevance to political text NLP.",
+    "stars": 41,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2024-06-17",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 73.0,
+    "tags": [
+      "political",
+      "stance-detection",
+      "dataset",
+      "multilingual",
+      "nlp"
+    ],
+    "category": "Political Stance Dataset",
+    "summary": "Multilingual stance-detection dataset for political questions."
+  },
+  {
+    "repo_url": "https://github.com/saeeddhqan/maryam",
+    "name": "saeeddhqan/Maryam",
+    "description": "Maryam: Open-source Intelligence(OSINT) Framework",
+    "stars": 1204,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2024-09-19",
+    "sub_domain": "osint-frameworks",
+    "score": 8,
+    "score_rationale": "Modular open-source OSINT framework with clear investigative utility.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 72.6,
+    "tags": [
+      "osint",
+      "cli",
+      "framework",
+      "reconnaissance",
+      "intelligence"
+    ],
+    "category": "OSINT Framework",
+    "summary": "CLI-based modular OSINT framework for investigations."
+  },
+  {
+    "repo_url": "https://github.com/mappingtreaties/tota",
+    "name": "mappingtreaties/tota",
+    "description": "Texts of Trade Agreements Corpus.",
+    "sub_domain": "international-law-treaties",
+    "score": 10,
+    "score_rationale": "This is a primary-source treaty corpus and the strongest direct match in the file.",
+    "stars": 34,
+    "language": null,
+    "license": null,
+    "last_activity": "2017-10-04",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 72.4,
+    "tags": [
+      "treaties",
+      "trade-agreements",
+      "corpus",
+      "legal-text"
+    ],
+    "category": "Treaty Corpus",
+    "summary": "Corpus of trade-agreement texts for legal and policy analysis."
+  },
+  {
+    "repo_url": "https://github.com/lkruitwagen/global-fossil-fuel-supply-chain",
+    "name": "Lkruitwagen/global-fossil-fuel-supply-chain",
+    "description": "Asset-level mapping of the global fossil fuel supply chain.",
+    "sub_domain": "energy-geopolitics",
+    "score": 9,
+    "score_rationale": "Best-in-class supply-chain mapping for fossil fuels, which is central to energy geopolitics.",
+    "stars": 187,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2023-07-06",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 72.2,
+    "tags": [
+      "fossil-fuels",
+      "supply-chain",
+      "mapping",
+      "energy"
+    ],
+    "category": "Energy Supply Chains",
+    "summary": "Asset-level map of the global fossil-fuel supply chain."
+  },
+  {
+    "repo_url": "https://github.com/chuchun8/pstance",
+    "name": "chuchun8/PStance",
+    "description": "ACL 2021 code and data for P-Stance, a large political-domain stance detection dataset for tweets about U.S. candidates.",
+    "sub_domain": "political-text-nlp",
+    "score": 10,
+    "score_rationale": "It is one of the most direct and useful political stance-detection resources in the corpus.",
+    "stars": 32,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2023-08-24",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 72.1,
+    "tags": [
+      "political",
+      "stance-detection",
+      "twitter",
+      "dataset",
+      "nlp"
+    ],
+    "category": "Political Stance Dataset",
+    "summary": "Large Twitter dataset for political stance detection."
+  },
+  {
+    "repo_url": "https://github.com/vdeminstitute/vdemdata",
+    "name": "vdeminstitute/vdemdata",
+    "description": "An R package to load, explore and work with the most recent V-Dem (Varieties of Democracy) dataset.",
+    "sub_domain": "election-governance-data",
+    "score": 9,
+    "score_rationale": "V-Dem is a core governance-metrics dataset and this package is the primary access layer.",
+    "stars": 157,
+    "language": "R",
+    "license": null,
+    "last_activity": "2026-03-17",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 71.6,
+    "tags": [
+      "democracy",
+      "governance",
+      "dataset",
+      "r-package"
+    ],
+    "category": "Democracy Dataset Access",
+    "summary": "R package for loading and exploring the V-Dem democracy dataset."
+  },
+  {
+    "repo_url": "https://github.com/sentinel-hub/sentinelhub-py",
+    "name": "sentinel-hub/sentinelhub-py",
+    "description": "Download and process satellite imagery in Python using Sentinel Hub services.",
+    "stars": 890,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-10",
+    "sub_domain": "geoint-tools",
+    "score": 8,
+    "score_rationale": "Direct satellite-imagery access and processing client for operational GEOINT work.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 71.6,
+    "tags": [
+      "satellite-imagery",
+      "sentinel",
+      "api",
+      "remote-sensing"
+    ],
+    "category": "Satellite Imagery API",
+    "summary": "Python client for downloading and processing Sentinel Hub imagery."
+  },
+  {
+    "repo_url": "https://github.com/geopandas/geopandas",
+    "name": "geopandas/geopandas",
+    "description": "Python tools for geographic data",
+    "stars": 5072,
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "last_activity": "2026-03-23",
+    "sub_domain": "geoint-tools",
+    "score": 7,
+    "score_rationale": "Core vector geospatial library for spatial analysis and operational GEOINT work.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 71.6,
+    "tags": [
+      "vector-data",
+      "geospatial",
+      "python",
+      "spatial-analysis"
+    ],
+    "category": "Vector GIS Library",
+    "summary": "Python tools for working with geographic vector data."
+  },
+  {
+    "repo_url": "https://github.com/freedomofpress/trackthenews",
+    "name": "freedomofpress/trackthenews",
+    "description": "Script and package that monitors news outlets for recurring phrases and can power news-tracking bots.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 9,
+    "score_rationale": "It is a practical monitoring tool for news narratives and outlet-specific coverage patterns.",
+    "stars": 154,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-03-17",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 71.5,
+    "tags": [
+      "news-monitoring",
+      "media-bias",
+      "narratives",
+      "python"
+    ],
+    "category": "News Monitoring",
+    "summary": "Monitors news outlets for recurring phrases and narrative shifts."
+  },
+  {
+    "repo_url": "https://github.com/kvos/coastsat",
+    "name": "kvos/CoastSat",
+    "description": "Global shoreline mapping tool from satellite imagery",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 8,
+    "score_rationale": "Shoreline mapping toolkit useful for coastal and border-adjacent maritime analysis.",
+    "stars": 852,
+    "language": "Jupyter Notebook",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 71.4,
+    "tags": [
+      "shoreline",
+      "satellite-imagery",
+      "coastal",
+      "mapping"
+    ],
+    "category": "Shoreline Mapping",
+    "summary": "Maps global shorelines from satellite imagery."
+  },
+  {
+    "repo_url": "https://github.com/lexpredict/lexpredict-lexnlp",
+    "name": "LexPredict/lexpredict-lexnlp",
+    "description": "LexNLP by LexPredict.",
+    "sub_domain": "international-law-treaties",
+    "score": 8,
+    "score_rationale": "LexNLP is widely reused for legal text extraction and document processing.",
+    "stars": 770,
+    "language": "Jupyter Notebook",
+    "license": "AGPL-3.0",
+    "last_activity": "2024-05-27",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 71.1,
+    "tags": [
+      "legal-nlp",
+      "text-extraction",
+      "document-processing",
+      "nlp"
+    ],
+    "category": "Legal Text Extraction",
+    "summary": "Widely used toolkit for extracting structured data from legal text."
+  },
+  {
+    "repo_url": "https://github.com/jubins/machinelearning-detecting-twitter-bots",
+    "name": "jubins/MachineLearning-Detecting-Twitter-Bots",
+    "description": "Custom classification approach for detecting Twitter bots and distinguishing them from humans.",
+    "sub_domain": "social-media-influence",
+    "score": 9,
+    "score_rationale": "It is a sizeable bot-detection project with clear social-media influence implications.",
+    "stars": 130,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2022-06-17",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 70.9,
+    "tags": [
+      "bot-detection",
+      "twitter",
+      "machine-learning",
+      "classification"
+    ],
+    "category": "Bot Detection",
+    "summary": "Twitter bot classifier using custom machine-learning features."
+  },
+  {
+    "repo_url": "https://github.com/bupt-gamma/comparenet_fakenewsdetection",
+    "name": "BUPT-GAMMA/CompareNet_FakeNewsDetection",
+    "description": "Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge (ACL 2021).",
+    "sub_domain": "media-bias-propaganda",
+    "score": 9,
+    "score_rationale": "A stronger graph-based fake-news detector that fits the propaganda and misinformation side of the cluster.",
+    "stars": 114,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2021-10-07",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 70.5,
+    "tags": [
+      "fake-news",
+      "graph-neural-networks",
+      "misinformation",
+      "classification"
+    ],
+    "category": "Fake News Detection",
+    "summary": "Graph-based fake news detector using external knowledge."
+  },
+  {
+    "repo_url": "https://github.com/isce-framework/isce2",
+    "name": "isce-framework/isce2",
+    "description": "InSAR Scientific Computing Environment version 2",
+    "stars": 630,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2025-05-27",
+    "sub_domain": "geoint-tools",
+    "score": 8,
+    "score_rationale": "Core InSAR processing environment for geospatial intelligence and terrain-change analysis.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 70.4,
+    "tags": [
+      "insar",
+      "radar",
+      "terrain-change",
+      "geospatial"
+    ],
+    "category": "InSAR Processing",
+    "summary": "Scientific computing environment for InSAR and terrain-change analysis."
+  },
+  {
+    "repo_url": "https://github.com/eoa-team/eodal",
+    "name": "EOA-team/eodal",
+    "description": "Earth Observation Data Analysis Library",
+    "stars": 99,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2025-03-21",
+    "sub_domain": "geoint-tools",
+    "score": 9,
+    "score_rationale": "Earth observation data analysis library with strong relevance to geospatial intelligence workflows.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 70.0,
+    "tags": [
+      "earth-observation",
+      "remote-sensing",
+      "analysis",
+      "python"
+    ],
+    "category": "Earth Observation",
+    "summary": "Library for earth-observation data analysis workflows."
+  },
+  {
+    "repo_url": "https://github.com/safe-graph/gnn-fakenews",
+    "name": "safe-graph/GNN-FakeNews",
+    "description": "A collection of GNN-based fake news detection models.",
+    "sub_domain": "social-media-influence",
+    "score": 8,
+    "score_rationale": "Fake-news detection is a core signal for influence operations and coordinated social manipulation.",
+    "stars": 546,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2025-12-11",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 69.9,
+    "tags": [
+      "fake-news",
+      "graph-neural-networks",
+      "misinformation",
+      "detection"
+    ],
+    "category": "Fake News Detection",
+    "summary": "GNN models for fake-news detection."
+  },
+  {
+    "repo_url": "https://github.com/opencti-platform/connectors",
+    "name": "OpenCTI-Platform/connectors",
+    "description": "OpenCTI Connectors",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 8,
+    "score_rationale": "Connector suite that extends OpenCTI with ingestion, synchronization, and enrichment integrations.",
+    "stars": 524,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 69.8,
+    "tags": [
+      "opencti",
+      "connectors",
+      "ingestion",
+      "enrichment"
+    ],
+    "category": "OpenCTI Connectors",
+    "summary": "Connector suite for ingesting and enriching OpenCTI data."
+  },
+  {
+    "repo_url": "https://github.com/blackorbird/apt_report",
+    "name": "blackorbird/APT_REPORT",
+    "description": "Interesting APT Report Collection And Some Special IOCs",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 7,
+    "score_rationale": "Large APT report collection that supports operational analysis of malware campaigns and actors.",
+    "stars": 2956,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 69.8,
+    "tags": [
+      "apt",
+      "reports",
+      "iocs",
+      "threat-intel"
+    ],
+    "category": "APT Report Collection",
+    "summary": "Large collection of APT reports and selected indicators of compromise."
+  },
+  {
+    "repo_url": "https://github.com/mkearney/tweetbotornot2",
+    "name": "mkearney/tweetbotornot2",
+    "description": "R package for detecting Twitter bots, extending the original tweetbotornot approach.",
+    "sub_domain": "social-media-influence",
+    "score": 9,
+    "score_rationale": "It is a strong follow-on bot detector for Twitter account analysis.",
+    "stars": 93,
+    "language": "R",
+    "license": "NOASSERTION",
+    "last_activity": "2021-10-20",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 69.8,
+    "tags": [
+      "bot-detection",
+      "twitter",
+      "r-package",
+      "classification"
+    ],
+    "category": "Bot Detection",
+    "summary": "Extended R package for Twitter bot detection."
+  },
+  {
+    "repo_url": "https://github.com/opencivicdata/pupa",
+    "name": "opencivicdata/pupa",
+    "description": "framework for scraping legislative/government data",
+    "sub_domain": "election-governance-data",
+    "score": 9,
+    "score_rationale": "Pupa is a core scraper framework for legislative and government data ingestion.",
+    "stars": 89,
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "last_activity": "2025-11-17",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 69.6,
+    "tags": [
+      "civic-data",
+      "scraping",
+      "government-data",
+      "pipelines"
+    ],
+    "category": "Government Data Scraper",
+    "summary": "Framework for scraping and normalizing legislative and government data."
+  },
+  {
+    "repo_url": "https://github.com/xmarquez/democracydata",
+    "name": "xmarquez/democracyData",
+    "description": "Access and manipulate most standard scholarly measures of democracy",
+    "sub_domain": "election-governance-data",
+    "score": 9,
+    "score_rationale": "It is a broad, reusable gateway to major democracy datasets used in governance research.",
+    "stars": 89,
+    "language": "Portugol",
+    "license": null,
+    "last_activity": "2025-10-29",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 69.6,
+    "tags": [
+      "democracy",
+      "governance",
+      "datasets",
+      "social-science"
+    ],
+    "category": "Democracy Metrics",
+    "summary": "Access package for standard scholarly democracy measures."
+  },
+  {
+    "repo_url": "https://github.com/misp/pymisp",
+    "name": "MISP/PyMISP",
+    "description": "Python library using the MISP Rest API",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 8,
+    "score_rationale": "Python client library for automating MISP interactions and CTI workflows.",
+    "stars": 482,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 69.5,
+    "tags": [
+      "misp",
+      "python-client",
+      "api",
+      "threat-intel"
+    ],
+    "category": "MISP Python Client",
+    "summary": "Python library for working with the MISP REST API."
+  },
+  {
+    "repo_url": "https://github.com/utaresearch/claimbuster-spotter",
+    "name": "utaresearch/claimbuster-spotter",
+    "description": "Adversarially trained transformer system for discovering check-worthy factual claims.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 9,
+    "score_rationale": "It is a direct fact-checking and claim-detection system, which is central to propaganda analysis.",
+    "stars": 84,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2023-11-29",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 69.4,
+    "tags": [
+      "fact-checking",
+      "claim-detection",
+      "misinformation",
+      "transformers"
+    ],
+    "category": "Claim Detection",
+    "summary": "Finds check-worthy factual claims with an adversarial transformer model."
+  },
+  {
+    "repo_url": "https://github.com/nagix/nk-missile-tests",
+    "name": "nagix/nk-missile-tests",
+    "description": "An interactive visualization of flight tests of all missiles launched by North Korea from 1984 to 2026",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 8,
+    "score_rationale": "High-signal dataset and visualization of North Korean missile tests.",
+    "stars": 474,
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 69.4,
+    "tags": [
+      "north-korea",
+      "missiles",
+      "tests",
+      "visualization",
+      "weapons"
+    ],
+    "category": "Missile Test Visualizer",
+    "summary": "Interactive timeline of North Korean missile flight tests."
+  },
+  {
+    "repo_url": "https://github.com/globalfishingwatch/gfwr",
+    "name": "GlobalFishingWatch/gfwr",
+    "description": "R package for accessing data from Global Fishing Watch APIs",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 9,
+    "score_rationale": "High-signal client for accessing Global Fishing Watch maritime data APIs.",
+    "stars": 79,
+    "language": "HTML",
+    "license": "Apache-2.0",
+    "last_activity": "2026-02-25",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 69.2,
+    "tags": [
+      "maritime-data",
+      "api-client",
+      "fishing",
+      "python"
+    ],
+    "category": "Fishing API Client",
+    "summary": "R package for accessing Global Fishing Watch API data."
+  },
+  {
+    "repo_url": "https://github.com/oasis-open/cti-python-stix2",
+    "name": "oasis-open/cti-python-stix2",
+    "description": "OASIS TC Open Repository: Python APIs for STIX 2",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 8,
+    "score_rationale": "Core Python implementation for serializing and manipulating STIX 2 content.",
+    "stars": 418,
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "last_activity": "2026-02-12",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 69.0,
+    "tags": [
+      "stix",
+      "python",
+      "api",
+      "standards"
+    ],
+    "category": "STIX Python APIs",
+    "summary": "Python APIs for creating and manipulating STIX 2 content."
+  },
+  {
+    "repo_url": "https://github.com/projectdiscovery/subfinder",
+    "name": "projectdiscovery/subfinder",
+    "description": "Fast passive subdomain enumeration tool.",
+    "stars": 13299,
+    "language": "Go",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "sub_domain": "osint-frameworks",
+    "score": 6,
+    "score_rationale": "Fast passive subdomain enumeration utility that is a strong reconnaissance primitive.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 69.0,
+    "tags": [
+      "osint",
+      "subdomains",
+      "enumeration",
+      "passive",
+      "reconnaissance"
+    ],
+    "category": "Passive Subdomain Tool",
+    "summary": "Fast passive subdomain enumeration tool."
+  },
+  {
+    "repo_url": "https://github.com/voteview/rvoteview",
+    "name": "voteview/Rvoteview",
+    "description": "R package to query Voteview US roll call voting database",
+    "sub_domain": "network-alliance-analysis",
+    "score": 9,
+    "score_rationale": "It is a reusable roll-call analysis client for a major legislative voting dataset and supports alignment studies.",
+    "stars": 71,
+    "language": "R",
+    "license": null,
+    "last_activity": "2019-10-15",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 68.9,
+    "tags": [
+      "roll-call",
+      "voting",
+      "congress",
+      "analysis",
+      "r-package"
+    ],
+    "category": "Roll Call Analysis",
+    "summary": "R client for the Voteview roll-call voting database."
+  },
+  {
+    "repo_url": "https://github.com/sheffieldnlp/stance-conditional",
+    "name": "sheffieldnlp/stance-conditional",
+    "description": "Stance Detection with Conditional Encoding.",
+    "sub_domain": "political-text-nlp",
+    "score": 9,
+    "score_rationale": "A dedicated stance-detection model that is more canonical and directly relevant than the weaker long-tail political text repos.",
+    "stars": 71,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2017-01-14",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 68.9,
+    "tags": [
+      "stance-detection",
+      "political-nlp",
+      "conditional-encoding"
+    ],
+    "category": "Stance Detection",
+    "summary": "Conditional encoding model for political stance detection."
+  },
+  {
+    "repo_url": "https://github.com/snstac/aiscot",
+    "name": "snstac/aiscot",
+    "description": "Display Ships in TAK - AIS to TAK Gateway",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 9,
+    "score_rationale": "AIS-to-TAK gateway with direct maritime domain-awareness utility.",
+    "stars": 67,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-21",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 68.7,
+    "tags": [
+      "ais",
+      "gateway",
+      "maritime",
+      "tracking"
+    ],
+    "category": "AIS Gateway",
+    "summary": "Bridges AIS vessel data into TAK for maritime awareness."
+  },
+  {
+    "repo_url": "https://github.com/graphdetec/mgtab",
+    "name": "GraphDetec/MGTAB",
+    "description": "Multi-relational graph-based Twitter account detection benchmark for stance and bot detection.",
+    "sub_domain": "social-media-influence",
+    "score": 9,
+    "score_rationale": "It directly benchmarks bot and stance detection on Twitter graph data, which is central to influence work.",
+    "stars": 66,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2023-06-09",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 68.6,
+    "tags": [
+      "bot-detection",
+      "stance-detection",
+      "graph-learning",
+      "twitter"
+    ],
+    "category": "Graph Benchmark",
+    "summary": "Graph benchmark for Twitter bot and stance detection."
+  },
+  {
+    "repo_url": "https://github.com/misp/misp-modules",
+    "name": "MISP/misp-modules",
+    "description": "Modules for expansion services, enrichment, import and export in MISP and other tools.",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 8,
+    "score_rationale": "Operational MISP expansion modules for enrichment, import, and export workflows.",
+    "stars": 363,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-17",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 68.5,
+    "tags": [
+      "misp",
+      "modules",
+      "enrichment",
+      "import-export"
+    ],
+    "category": "MISP Modules",
+    "summary": "MISP modules for enrichment, import, and export workflows."
+  },
+  {
+    "repo_url": "https://github.com/iliaschalkidis/legalcrawler",
+    "name": "iliaschalkidis/LegalCrawler",
+    "description": "LegalCrawler: A tool for automated scraping of English legal corpora",
+    "sub_domain": "international-law-treaties",
+    "score": 9,
+    "score_rationale": "It is a direct legal-corpus scraping tool rather than a one-off dataset notebook.",
+    "stars": 62,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2022-08-18",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 68.4,
+    "tags": [
+      "legal-data",
+      "web-scraping",
+      "corpus",
+      "international-law"
+    ],
+    "category": "Legal Data Scraper",
+    "summary": "Automates scraping of English legal corpora for downstream analysis."
+  },
+  {
+    "repo_url": "https://github.com/blacklanternsecurity/bbot",
+    "name": "blacklanternsecurity/bbot",
+    "description": "The recursive internet scanner for hackers. \ud83e\udde1",
+    "stars": 9536,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-24",
+    "sub_domain": "osint-frameworks",
+    "score": 6,
+    "score_rationale": "Recursive OSINT and internet-scanning engine that covers broad reconnaissance workflows.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 67.8,
+    "tags": [
+      "osint",
+      "internet-scanning",
+      "reconnaissance",
+      "automation",
+      "attack-surface"
+    ],
+    "category": "Recursive OSINT Scanner",
+    "summary": "Recursive internet scanner for broad reconnaissance."
+  },
+  {
+    "repo_url": "https://github.com/thehive-project/cortex",
+    "name": "TheHive-Project/Cortex",
+    "description": "Cortex: a Powerful Observable Analysis and Active Response Engine",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 7,
+    "score_rationale": "Operational observable analysis and active-response engine used in CTI workflows.",
+    "stars": 1563,
+    "language": "Scala",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 67.6,
+    "tags": [
+      "observable-analysis",
+      "active-response",
+      "threat-intel",
+      "scala"
+    ],
+    "category": "Observable Analysis Engine",
+    "summary": "Engine for observable analysis and active response in CTI workflows."
+  },
+  {
+    "repo_url": "https://github.com/openelections/openelections-data-ny",
+    "name": "openelections/openelections-data-ny",
+    "description": "Election results for New York.",
+    "sub_domain": "election-governance-data",
+    "score": 9,
+    "score_rationale": "State-level preprocessed election results are directly aligned with the target data domain.",
+    "stars": 44,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-15",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 67.2,
+    "tags": [
+      "elections",
+      "new-york",
+      "election-results",
+      "open-data"
+    ],
+    "category": "Election Results Data",
+    "summary": "Preprocessed New York election results dataset."
+  },
+  {
+    "repo_url": "https://github.com/tigmint/tigmint",
+    "name": "TIGMINT/TIGMINT",
+    "description": "TIGMINT: OSINT (Open Source Intelligence) GUI software framework",
+    "stars": 250,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2021-07-29",
+    "sub_domain": "osint-frameworks",
+    "score": 8,
+    "score_rationale": "GUI OSINT framework for investigations with direct alignment to the subdomain.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 67.2,
+    "tags": [
+      "osint",
+      "gui",
+      "framework",
+      "investigation",
+      "intelligence"
+    ],
+    "category": "OSINT GUI Framework",
+    "summary": "GUI framework for OSINT investigations."
+  },
+  {
+    "repo_url": "https://github.com/bunsenfeng/botrgcn",
+    "name": "BunsenFeng/BotRGCN",
+    "description": "Code listing for the paper \"BotRGCN: Twitter Bot Detection with Relational Graph Convolutional Networks\".",
+    "sub_domain": "social-media-influence",
+    "score": 9,
+    "score_rationale": "A stronger and more focused Twitter bot-detection implementation than the weaker advocacy-oriented repos.",
+    "stars": 42,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2022-11-07",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 67.1,
+    "tags": [
+      "bot-detection",
+      "graph-neural-networks",
+      "twitter",
+      "relational-gcn"
+    ],
+    "category": "Bot Detection",
+    "summary": "Relational GCN model for Twitter bot detection."
+  },
+  {
+    "repo_url": "https://github.com/medsl/2024-elections-official",
+    "name": "MEDSL/2024-elections-official",
+    "description": "Repository for the results of the 2024 U.S. general election, mostly at the precinct level",
+    "sub_domain": "election-governance-data",
+    "score": 9,
+    "score_rationale": "This is a current, precinct-level elections dataset and a stronger direct fit than a generic voting-information platform.",
+    "stars": 39,
+    "language": null,
+    "license": null,
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 66.8,
+    "tags": [
+      "elections",
+      "precincts",
+      "us-politics",
+      "results"
+    ],
+    "category": "Election Results Dataset",
+    "summary": "Precinct-level results for the 2024 U.S. general election."
+  },
+  {
+    "repo_url": "https://github.com/launchnlp/politics",
+    "name": "launchnlp/POLITICS",
+    "description": "Code, data, and models for ideology prediction and stance detection from same-story article comparison.",
+    "sub_domain": "political-text-nlp",
+    "score": 9,
+    "score_rationale": "It targets ideology prediction and stance detection in news, which is central to political text analysis.",
+    "stars": 39,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2024-07-22",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 66.8,
+    "tags": [
+      "political",
+      "ideology",
+      "stance-detection",
+      "news",
+      "nlp"
+    ],
+    "category": "Ideology Prediction",
+    "summary": "Predicts ideology and stance from same-story news comparisons."
+  },
+  {
+    "repo_url": "https://github.com/gu-datalab/stance-detection-ke-mlm",
+    "name": "GU-DataLab/stance-detection-KE-MLM",
+    "description": "Official implementation of a knowledge-enhanced masked language model for stance detection in the political domain.",
+    "sub_domain": "political-text-nlp",
+    "score": 9,
+    "score_rationale": "It is a focused political stance-detection implementation tied to a peer-reviewed paper.",
+    "stars": 39,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2021-10-26",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 66.8,
+    "tags": [
+      "political",
+      "stance-detection",
+      "bert",
+      "mlm",
+      "nlp"
+    ],
+    "category": "Stance Detection Model",
+    "summary": "Knowledge-enhanced MLM for political stance detection."
+  },
+  {
+    "repo_url": "https://github.com/pyproj4/pyproj",
+    "name": "pyproj4/pyproj",
+    "description": "Python interface to PROJ (cartographic projections and coordinate transformations library)",
+    "stars": 1193,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-10",
+    "sub_domain": "geoint-tools",
+    "score": 7,
+    "score_rationale": "Coordinate transformation layer used throughout geospatial intelligence pipelines.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 66.6,
+    "tags": [
+      "projections",
+      "coordinate-transform",
+      "geospatial",
+      "python"
+    ],
+    "category": "Coordinate Transformations",
+    "summary": "Python interface to PROJ for map projections and coordinate transforms."
+  },
+  {
+    "repo_url": "https://github.com/openlegaldata/awesome-legal-data",
+    "name": "openlegaldata/awesome-legal-data",
+    "description": "A collection of datasets and other resources for legal text processing.",
+    "sub_domain": "international-law-treaties",
+    "score": 8,
+    "score_rationale": "It is a curated gateway into legal corpora and processing resources relevant to treaty workflows.",
+    "stars": 200,
+    "language": null,
+    "license": null,
+    "last_activity": "2026-03-15",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 66.4,
+    "tags": [
+      "legal-resources",
+      "datasets",
+      "curation",
+      "text-processing"
+    ],
+    "category": "Legal Resource Directory",
+    "summary": "Curated directory of legal datasets and text-processing resources."
+  },
+  {
+    "repo_url": "https://github.com/openelections/openelections-data-tx",
+    "name": "openelections/openelections-data-tx",
+    "description": "Pre-processed results for Texas elections.",
+    "sub_domain": "election-governance-data",
+    "score": 9,
+    "score_rationale": "This is directly reusable election results data at the state level.",
+    "stars": 33,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-16",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 66.3,
+    "tags": [
+      "elections",
+      "texas",
+      "election-results",
+      "open-data"
+    ],
+    "category": "Election Results Data",
+    "summary": "Preprocessed Texas election results dataset."
+  },
+  {
+    "repo_url": "https://github.com/evoeten/united-nations-general-assembly-votes-and-ideal-points",
+    "name": "evoeten/United-Nations-General-Assembly-Votes-and-Ideal-Points",
+    "description": "Code to produce ideal point estimates for United Nations General Assembly votes, including issue specific ideal points.",
+    "sub_domain": "network-alliance-analysis",
+    "score": 9,
+    "score_rationale": "Ideal-point estimation from UNGA votes is a direct method for measuring diplomatic alignment.",
+    "stars": 32,
+    "language": "HTML",
+    "license": "MIT",
+    "last_activity": "2024-04-08",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 66.1,
+    "tags": [
+      "un",
+      "voting",
+      "ideal-points",
+      "diplomacy",
+      "analysis"
+    ],
+    "category": "Ideal Point Estimation",
+    "summary": "Computes UNGA ideal points from vote records."
+  },
+  {
+    "repo_url": "https://github.com/openstates/pyopenstates",
+    "name": "openstates/pyopenstates",
+    "description": "A Python module for accessing the Open States API",
+    "sub_domain": "election-governance-data",
+    "score": 9,
+    "score_rationale": "This is the primary client for a major state-legislature API and is more reusable than thin wrappers.",
+    "stars": 31,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2023-08-22",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 66.0,
+    "tags": [
+      "elections",
+      "state-legislatures",
+      "civic-data",
+      "api"
+    ],
+    "category": "Legislative Data API",
+    "summary": "Python client for the Open States API and state-legislature data."
+  },
+  {
+    "repo_url": "https://github.com/elliottmorris/politicaldata",
+    "name": "elliottmorris/politicaldata",
+    "description": "An R package for acquiring and analyzing political data \u2014 including polls, election results, legislator information, and demographic data.",
+    "sub_domain": "election-governance-data",
+    "score": 8,
+    "score_rationale": "It is a broad political-data package with explicit election-results support.",
+    "stars": 164,
+    "language": "R",
+    "license": "NOASSERTION",
+    "last_activity": "2019-08-10",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 65.7,
+    "tags": [
+      "politics",
+      "elections",
+      "polls",
+      "demographics"
+    ],
+    "category": "Political Data Toolkit",
+    "summary": "R package for polls, election results, legislators, and demographics."
+  },
+  {
+    "repo_url": "https://github.com/openstates/openstates-core",
+    "name": "openstates/openstates-core",
+    "description": "Open States data model and scraper backend",
+    "sub_domain": "election-governance-data",
+    "score": 9,
+    "score_rationale": "This is the operating backend for a major civic-data platform and directly serves legislative governance data.",
+    "stars": 27,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-01-31",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 65.6,
+    "tags": [
+      "legislative-data",
+      "scraper-backend",
+      "open-states",
+      "python"
+    ],
+    "category": "Legislative Data Backend",
+    "summary": "Backend and data model for the Open States civic data platform."
+  },
+  {
+    "repo_url": "https://github.com/regardscitoyens/nosdeputes.fr",
+    "name": "regardscitoyens/nosdeputes.fr",
+    "description": "Repository of NosD\u00e9put\u00e9s.fr : the french parliamentary monitoring website",
+    "sub_domain": "network-alliance-analysis",
+    "score": 8,
+    "score_rationale": "It is a large parliamentary-monitoring and voting-behavior platform with direct network-analysis potential.",
+    "stars": 155,
+    "language": "PHP",
+    "license": "AGPL-3.0",
+    "last_activity": "2024-11-14",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 65.5,
+    "tags": [
+      "france",
+      "parliament",
+      "voting",
+      "transparency",
+      "monitoring"
+    ],
+    "category": "Parliament Monitoring",
+    "summary": "French parliamentary monitoring site for deputies and votes."
+  },
+  {
+    "repo_url": "https://github.com/openaustralia/theyvoteforyou",
+    "name": "openaustralia/theyvoteforyou",
+    "description": "Making parliamentary voting information accessible, understandable, and easy to use so that you can hold your elected representatives to account.",
+    "sub_domain": "network-alliance-analysis",
+    "score": 8,
+    "score_rationale": "It is a mature parliamentary-voting platform with clear utility for voting-network analysis.",
+    "stars": 155,
+    "language": "Ruby",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 65.5,
+    "tags": [
+      "parliament",
+      "voting",
+      "australia",
+      "transparency",
+      "accountability"
+    ],
+    "category": "Parliament Monitoring",
+    "summary": "Makes Australian parliamentary votes easy to search and hold accountable."
+  },
+  {
+    "repo_url": "https://github.com/lyh6560new/botmoe",
+    "name": "lyh6560new/BotMoE",
+    "description": "The code for \"BotMoE: Twitter Bot Detection with Community-Aware Mixtures of Modal-Specific Experts\".",
+    "sub_domain": "social-media-influence",
+    "score": 9,
+    "score_rationale": "A current Twitter bot-detection paper implementation that is more relevant than the resource-list style entries.",
+    "stars": 26,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2023-09-16",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 65.5,
+    "tags": [
+      "bot-detection",
+      "mixture-of-experts",
+      "twitter",
+      "graph-learning"
+    ],
+    "category": "Bot Detection",
+    "summary": "Community-aware mixture-of-experts model for Twitter bot detection."
+  },
+  {
+    "repo_url": "https://github.com/opencti-platform/client-python",
+    "name": "OpenCTI-Platform/client-python",
+    "description": "OpenCTI Python Client",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 8,
+    "score_rationale": "Official Python client for automating OpenCTI integration and data access.",
+    "stars": 144,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2025-11-13",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 65.3,
+    "tags": [
+      "opencti",
+      "python-client",
+      "api",
+      "integration"
+    ],
+    "category": "OpenCTI Python Client",
+    "summary": "Official Python client for OpenCTI integration and data access."
+  },
+  {
+    "repo_url": "https://github.com/codeforboston/migrant_service_map",
+    "name": "codeforboston/migrant_service_map",
+    "description": "Refugees welcome",
+    "sub_domain": "migration-refugee-data",
+    "score": 9,
+    "score_rationale": "Service map for migrants and refugees with direct support-finding utility.",
+    "stars": 25,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2025-09-01",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 65.3,
+    "tags": [
+      "migration",
+      "refugees",
+      "service-map",
+      "humanitarian"
+    ],
+    "category": "Refugee Service Map",
+    "summary": "Maps services and support resources for migrants and refugees."
+  },
+  {
+    "repo_url": "https://github.com/microsoft/earth-copilot",
+    "name": "microsoft/Earth-Copilot",
+    "description": "An AI powered geospatial application that allows you to explore and visualize Earth science data using natural language.",
+    "stars": 139,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-21",
+    "sub_domain": "geoint-tools",
+    "score": 8,
+    "score_rationale": "AI-assisted Earth science exploration tool; relevant but broader than pure GEOINT.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 65.2,
+    "tags": [
+      "geospatial-ai",
+      "earth-science",
+      "natural-language",
+      "visualization"
+    ],
+    "category": "Earth Science Copilot",
+    "summary": "Natural-language app for exploring and visualizing Earth science data."
+  },
+  {
+    "repo_url": "https://github.com/openlegaldata/oldp",
+    "name": "openlegaldata/oldp",
+    "description": "Open Legal Data Platform",
+    "sub_domain": "international-law-treaties",
+    "score": 8,
+    "score_rationale": "This is a strong legal-data platform with reusable access and corpus organization.",
+    "stars": 132,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 65.0,
+    "tags": [
+      "legal-platform",
+      "open-data",
+      "corpus",
+      "search"
+    ],
+    "category": "Legal Data Platform",
+    "summary": "Open platform for organizing and accessing legal datasets."
+  },
+  {
+    "repo_url": "https://github.com/shehel/bert_propaganda_detection",
+    "name": "shehel/BERT_propaganda_detection",
+    "description": "Propaganda detection using fine-tuned BERT.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 9,
+    "score_rationale": "A direct propaganda-detection implementation that is stronger than the weaker notebook-style entries.",
+    "stars": 20,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2022-07-21",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 64.6,
+    "tags": [
+      "propaganda",
+      "bert",
+      "classification",
+      "misinformation"
+    ],
+    "category": "Propaganda Detection",
+    "summary": "Fine-tuned BERT model for detecting propaganda text."
+  },
+  {
+    "repo_url": "https://github.com/opendatalab/earth-agent",
+    "name": "opendatalab/Earth-Agent",
+    "description": "[ICLR 2026] The official implementation of the paper \u201cEarth-Agent: Unlocking the Full Landscape of Earth Observation with Agents\u201d",
+    "stars": 113,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-02-01",
+    "sub_domain": "geoint-tools",
+    "score": 8,
+    "score_rationale": "Agentic earth-observation toolkit with multiple geospatial analysis capabilities.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 64.5,
+    "tags": [
+      "earth-observation",
+      "agents",
+      "remote-sensing",
+      "ai"
+    ],
+    "category": "Earth Observation Agents",
+    "summary": "Agentic earth-observation implementation from an ICLR 2026 paper."
+  },
+  {
+    "repo_url": "https://github.com/globalfishingwatch/gfw-api-python-client",
+    "name": "GlobalFishingWatch/gfw-api-python-client",
+    "description": "Python package for accessing data from Global Fishing Watch APIs",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 9,
+    "score_rationale": "Python client for Global Fishing Watch data access and downstream analysis.",
+    "stars": 19,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-05",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 64.4,
+    "tags": [
+      "maritime-data",
+      "api-client",
+      "fishing",
+      "python"
+    ],
+    "category": "Fishing API Client",
+    "summary": "Python client for Global Fishing Watch APIs and analysis workflows."
+  },
+  {
+    "repo_url": "https://github.com/iliaschalkidis/lmtc-eurlex57k",
+    "name": "iliaschalkidis/lmtc-eurlex57k",
+    "description": "Large-Scale Multi-Label Text Classification on EU Legislation.",
+    "sub_domain": "international-law-treaties",
+    "score": 8,
+    "score_rationale": "It provides a large-scale EU legislation dataset for legal classification work.",
+    "stars": 99,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2023-07-24",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 64.0,
+    "tags": [
+      "eu-law",
+      "legislation",
+      "dataset",
+      "classification"
+    ],
+    "category": "EU Legislation Dataset",
+    "summary": "Large-scale EU legislation dataset for multi-label legal classification."
+  },
+  {
+    "repo_url": "https://github.com/cofacts/rumors-site",
+    "name": "cofacts/rumors-site",
+    "description": "Collaborative fact-checking UI for rumor tracking and creation.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 8,
+    "score_rationale": "It supports collaborative rumor checking and public verification workflows.",
+    "stars": 93,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2026-03-16",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 63.8,
+    "tags": [
+      "fact-checking",
+      "rumors",
+      "collaboration",
+      "verification"
+    ],
+    "category": "Rumor Fact-Checking",
+    "summary": "Collaborative UI for tracking and verifying rumors."
+  },
+  {
+    "repo_url": "https://github.com/captainfact/captain-fact-frontend",
+    "name": "CaptainFact/captain-fact-frontend",
+    "description": "Frontend for CaptainFact, a collaborative fact-checking platform.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 8,
+    "score_rationale": "It is a mature civic fact-checking frontend used for collaborative verification.",
+    "stars": 90,
+    "language": "JavaScript",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-07",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 63.7,
+    "tags": [
+      "fact-checking",
+      "collaboration",
+      "verification",
+      "frontend"
+    ],
+    "category": "Fact-Checking Platform",
+    "summary": "Frontend for collaborative fact-checking workflows."
+  },
+  {
+    "repo_url": "https://github.com/prio-data/viewsforecasting",
+    "name": "prio-data/viewsforecasting",
+    "description": "Jupyter notebooks and Python scripts for producing ViEWS monthly conflict forecasts.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 9,
+    "score_rationale": "Core forecasting repository from the VIEWS ecosystem, which is a flagship conflict-forecasting effort.",
+    "stars": 15,
+    "language": "Jupyter Notebook",
+    "license": "NOASSERTION",
+    "last_activity": "2025-11-26",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 63.6,
+    "tags": [
+      "conflict-forecasting",
+      "views",
+      "monthly-forecasting",
+      "notebooks"
+    ],
+    "category": "Conflict Forecasting",
+    "summary": "ViEWS notebooks and scripts for monthly conflict forecasts."
+  },
+  {
+    "repo_url": "https://github.com/gofai/glasstone",
+    "name": "GOFAI/glasstone",
+    "description": "Python library for modelling nuclear weapons effects",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 8,
+    "score_rationale": "Operational nuclear weapons effects model used for blast and fallout analysis.",
+    "stars": 86,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-08",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 63.5,
+    "tags": [
+      "nuclear",
+      "weapons",
+      "effects",
+      "modeling",
+      "blast"
+    ],
+    "category": "Nuclear Effects Modeling",
+    "summary": "Python library for nuclear weapons effects modeling."
+  },
+  {
+    "repo_url": "https://github.com/jgcri/gcam-core",
+    "name": "JGCRI/gcam-core",
+    "description": "GCAM, the Global Change Analysis Model, used for energy-system and policy scenarios.",
+    "sub_domain": "energy-geopolitics",
+    "score": 7,
+    "score_rationale": "Large scenario model frequently used for energy-policy and transition analysis.",
+    "stars": 393,
+    "language": "R",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-09",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 62.8,
+    "tags": [
+      "scenarios",
+      "energy",
+      "policy",
+      "climate-modeling"
+    ],
+    "category": "Scenario Modeling",
+    "summary": "Global change model for energy-system and policy scenarios."
+  },
+  {
+    "repo_url": "https://github.com/openkamer/openkamer",
+    "name": "openkamer/openkamer",
+    "description": "Insight into the Dutch parliament (openkamer.org)",
+    "sub_domain": "network-alliance-analysis",
+    "score": 8,
+    "score_rationale": "It provides a live parliamentary-voting surface that can support coalition and alliance analysis.",
+    "stars": 70,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-11-16",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 62.8,
+    "tags": [
+      "netherlands",
+      "parliament",
+      "voting",
+      "coalitions",
+      "analysis"
+    ],
+    "category": "Parliament Voting Data",
+    "summary": "Tracks Dutch parliamentary voting and coalition patterns."
+  },
+  {
+    "repo_url": "https://github.com/global-displacement-locations/displacement_locations_unhcr",
+    "name": "global-displacement-locations/displacement_locations_unhcr",
+    "description": "UNHCR Displacement Locations data from ZHOU, Y-Y., & SHAVER, A. (2021). \"Reexamining the Effect of Refugees on Civil Conflict: A Global Subnational Analysis.\" American Political Science Review.",
+    "sub_domain": "migration-refugee-data",
+    "score": 9,
+    "score_rationale": "UNHCR displacement-location dataset for refugee and conflict analysis.",
+    "stars": 11,
+    "language": null,
+    "license": null,
+    "last_activity": "2026-03-19",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 62.6,
+    "tags": [
+      "refugees",
+      "displacement",
+      "unhcr",
+      "dataset"
+    ],
+    "category": "Displacement Dataset",
+    "summary": "UNHCR displacement-location data for refugee and conflict analysis."
+  },
+  {
+    "repo_url": "https://github.com/datanfr/datan",
+    "name": "datanfr/datan",
+    "description": "Datan is a website anlaysing the voting behaviour of French MPs.",
+    "sub_domain": "network-alliance-analysis",
+    "score": 8,
+    "score_rationale": "It is a live voting-behavior analysis platform with direct relevance to bloc and alliance studies.",
+    "stars": 59,
+    "language": "PHP",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 62.2,
+    "tags": [
+      "france",
+      "mps",
+      "voting",
+      "parliament",
+      "analytics"
+    ],
+    "category": "Voting Behavior Site",
+    "summary": "Analyzes the voting behavior of French MPs."
+  },
+  {
+    "repo_url": "https://github.com/ictmcg/llm-for-misinformation-research",
+    "name": "ICTMCG/LLM-for-misinformation-research",
+    "description": "Paper list of misinformation research using multimodal large language models.",
+    "sub_domain": "social-media-influence",
+    "score": 7,
+    "score_rationale": "It is a high-signal research index for misinformation analysis even though it is not a detector itself.",
+    "stars": 323,
+    "language": null,
+    "license": "MIT",
+    "last_activity": "2024-12-08",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 62.1,
+    "tags": [
+      "misinformation",
+      "llm-research",
+      "paper-list",
+      "multimodal"
+    ],
+    "category": "Misinformation Research",
+    "summary": "Paper list on misinformation research with multimodal LLMs."
+  },
+  {
+    "repo_url": "https://github.com/wevote/wevoteserver",
+    "name": "wevote/WeVoteServer",
+    "description": "We Vote's API application server written in Django/Python. Election data pulled from many sources, used by https://github.com/wevote/WebApp and https://github.com/wevote/WeVoteCordova and https://github.com/wevote/Campaigns.",
+    "sub_domain": "election-governance-data",
+    "score": 8,
+    "score_rationale": "This is a live election-information API server that aggregates data from multiple sources.",
+    "stars": 53,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 61.9,
+    "tags": [
+      "elections",
+      "civic-tech",
+      "api",
+      "voting-information"
+    ],
+    "category": "Election Info Platform",
+    "summary": "Django API server aggregating election data from many sources."
+  },
+  {
+    "repo_url": "https://github.com/opencybersecurityalliance/stix-shifter",
+    "name": "opencybersecurityalliance/stix-shifter",
+    "description": "This project consists of an open source library allowing software to connect to data repositories using STIX Patterning, and return results as STIX Observations.",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 7,
+    "score_rationale": "STIX-based connector library for querying repositories and returning standardized observables.",
+    "stars": 261,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2026-02-27",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 61.3,
+    "tags": [
+      "stix",
+      "connector",
+      "observables",
+      "querying"
+    ],
+    "category": "STIX Connector Library",
+    "summary": "Library for querying data repositories and returning STIX observations."
+  },
+  {
+    "repo_url": "https://github.com/ukplab/mdl-stance-robustness",
+    "name": "UKPLab/mdl-stance-robustness",
+    "description": "Multi-dataset stance detection and robustness experiments for evaluating stance models across political and related tasks.",
+    "sub_domain": "political-text-nlp",
+    "score": 8,
+    "score_rationale": "It provides robust stance-detection experiments that are directly applicable to political text modeling.",
+    "stars": 45,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2023-07-06",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 61.3,
+    "tags": [
+      "political",
+      "stance-detection",
+      "robustness",
+      "evaluation",
+      "nlp"
+    ],
+    "category": "Stance Robustness Experiments",
+    "summary": "Tests stance models across multiple political datasets."
+  },
+  {
+    "repo_url": "https://github.com/jlanversin/onix",
+    "name": "jlanversin/ONIX",
+    "description": "ONIX is an open-source depletion software for nuclear reactor simulations and nuclear archaeology. It is written in Python 3 and offers coupling with the open-source transport code OpenMC.",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 8,
+    "score_rationale": "Open-source depletion software for reactor simulations and nuclear archaeology.",
+    "stars": 44,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-14",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 61.2,
+    "tags": [
+      "nuclear",
+      "reactor",
+      "depletion",
+      "simulation",
+      "openmc"
+    ],
+    "category": "Reactor Depletion Software",
+    "summary": "Open-source depletion software for reactor and archaeology studies."
+  },
+  {
+    "repo_url": "https://github.com/geopython/pycsw",
+    "name": "geopython/pycsw",
+    "description": "pycsw is an OGC CSW server implementation written in Python.  pycsw fully implements the OpenGIS Catalogue Service Implementation Specification [Catalogue Service for the Web]. Initial development started in 2010 (more formally announced in 2011). The project is certified OGC Compliant, and is an OGC Reference Implementation.  pycsw allows for the publishing and discovery of geospatial metadata via numerous APIs (CSW 2/CSW 3, OpenSearch, OAI-PMH, SRU). Existing repositories of geospatial metadata can also be exposed, providing a standards-based metadata and catalogue component of spatial data infrastructures.  pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).  Please read the docs at https://pycsw.org/docs for more information.",
+    "stars": 234,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "sub_domain": "geoint-tools",
+    "score": 7,
+    "score_rationale": "Operational geospatial metadata/catalog service rather than a notebook or list.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 61.0,
+    "tags": [
+      "metadata",
+      "catalog",
+      "ogc",
+      "geospatial"
+    ],
+    "category": "Geospatial Catalog",
+    "summary": "OGC-compliant catalog server for publishing and discovering geospatial metadata."
+  },
+  {
+    "repo_url": "https://github.com/nlpaueb/multi-eurlex",
+    "name": "nlpaueb/multi-eurlex",
+    "description": "MultiEURLEX - A multi-lingual and multi-label legal document classification dataset for zero-shot cross-lingual transfer.",
+    "sub_domain": "international-law-treaties",
+    "score": 8,
+    "score_rationale": "It is a reusable multilingual legal-document dataset, directly useful for treaty and legislation NLP.",
+    "stars": 41,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2022-06-07",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 61.0,
+    "tags": [
+      "multilingual",
+      "legal-dataset",
+      "classification",
+      "cross-lingual"
+    ],
+    "category": "Multilingual Legal Dataset",
+    "summary": "Multilingual legal classification dataset for cross-lingual transfer."
+  },
+  {
+    "repo_url": "https://github.com/openstreetmap-polska/ua-2022-map",
+    "name": "openstreetmap-polska/ua-2022-map",
+    "description": "Map of reception points for refugees near Polish-Ukrainian border",
+    "sub_domain": "migration-refugee-data",
+    "score": 8,
+    "score_rationale": "Operational reception-point map for refugees near the Polish-Ukrainian border.",
+    "stars": 38,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2025-12-02",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 60.7,
+    "tags": [
+      "refugees",
+      "maps",
+      "border",
+      "humanitarian"
+    ],
+    "category": "Reception Point Map",
+    "summary": "Maps refugee reception points near the Polish-Ukrainian border."
+  },
+  {
+    "repo_url": "https://github.com/ukraine-relief-efforts/ukraine-info-guide",
+    "name": "Ukraine-Relief-Efforts/ukraine-info-guide",
+    "description": "A website containing vital information for Ukrainian refugees",
+    "sub_domain": "migration-refugee-data",
+    "score": 8,
+    "score_rationale": "Practical information hub for Ukrainian refugees and support services.",
+    "stars": 34,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2024-04-24",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 60.4,
+    "tags": [
+      "refugees",
+      "information",
+      "support",
+      "ukraine"
+    ],
+    "category": "Refugee Info Site",
+    "summary": "Provides vital information for Ukrainian refugees."
+  },
+  {
+    "repo_url": "https://github.com/fr4nc1stein/osint-framework",
+    "name": "fr4nc1stein/osint-framework",
+    "description": "OSINT Framework : A python based Open Source Intelligence CLI framework similar to Metasploit.",
+    "stars": 192,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2026-02-07",
+    "sub_domain": "osint-frameworks",
+    "score": 7,
+    "score_rationale": "An OSINT CLI framework, relevant but less established than the canonical tools.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 60.3,
+    "tags": [
+      "osint",
+      "cli",
+      "framework",
+      "reconnaissance",
+      "metasploit"
+    ],
+    "category": "OSINT CLI Framework",
+    "summary": "Python OSINT CLI framework inspired by Metasploit."
+  },
+  {
+    "repo_url": "https://github.com/quantlaw/legal-data-preprocessing",
+    "name": "QuantLaw/legal-data-preprocessing",
+    "description": "Convert legal statutes and cases from official sources (or juris) to graphs",
+    "sub_domain": "international-law-treaties",
+    "score": 8,
+    "score_rationale": "It is a practical preprocessing layer for transforming legal sources into analyzable structures.",
+    "stars": 30,
+    "language": "Python",
+    "license": "BSD-2-Clause",
+    "last_activity": "2025-09-11",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 59.9,
+    "tags": [
+      "legal-data",
+      "preprocessing",
+      "graph",
+      "statutes"
+    ],
+    "category": "Legal Graph Preprocessing",
+    "summary": "Converts statutes and cases into graph-ready legal data structures."
+  },
+  {
+    "repo_url": "https://github.com/reyemb/oss-aisexplorer",
+    "name": "reyemb/oss-aisexplorer",
+    "description": "Marine vessel tracking tool by geolocation, MMSI, or MarineTraffic URLs",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 8,
+    "score_rationale": "Vessel-tracking tool with geolocation and MMSI lookup workflows.",
+    "stars": 30,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-02-21",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 59.9,
+    "tags": [
+      "ais",
+      "vessel-search",
+      "marine-traffic",
+      "geolocation"
+    ],
+    "category": "Vessel Search Tool",
+    "summary": "Searches and tracks vessels by location, MMSI, or MarineTraffic URL."
+  },
+  {
+    "repo_url": "https://github.com/lale-help/lale-help",
+    "name": "lale-help/lale-help",
+    "description": "A collaborative platform for volunteer refugee support.",
+    "sub_domain": "migration-refugee-data",
+    "score": 8,
+    "score_rationale": "Collaborative platform for volunteer refugee support and coordination.",
+    "stars": 28,
+    "language": "Ruby",
+    "license": "MIT",
+    "last_activity": "2026-03-09",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 59.7,
+    "tags": [
+      "refugees",
+      "volunteer-coordination",
+      "support",
+      "platform"
+    ],
+    "category": "Volunteer Support Platform",
+    "summary": "Collaborative platform for volunteer refugee support."
+  },
+  {
+    "repo_url": "https://github.com/0xb10c/ofac-sanctioned-digital-currency-addresses",
+    "name": "0xB10C/ofac-sanctioned-digital-currency-addresses",
+    "description": "Tool to extract the 'sanctioned' digital currency (Bitcoin and others) addresses from the Specially Designated Nationals list by the US Office of Foreign Asset Control.",
+    "stars": 157,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-13",
+    "sub_domain": "sanctions-compliance",
+    "score": 7,
+    "score_rationale": "Maintains sanctioned crypto address lists, a real compliance niche.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 59.6,
+    "tags": [
+      "sanctions",
+      "crypto-addresses",
+      "ofac",
+      "blockchain"
+    ],
+    "category": "Sanctions Data",
+    "summary": "Extracts sanctioned crypto addresses from the OFAC SDN list."
+  },
+  {
+    "repo_url": "https://github.com/unhcr/jetson",
+    "name": "unhcr/Jetson",
+    "description": "http://jetson.unhcr.org",
+    "sub_domain": "migration-refugee-data",
+    "score": 8,
+    "score_rationale": "UNHCR-associated notebook repo for refugee and displacement analysis.",
+    "stars": 26,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2025-05-26",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 59.5,
+    "tags": [
+      "unhcr",
+      "displacement",
+      "analysis",
+      "notebook"
+    ],
+    "category": "Refugee Analysis Notebook",
+    "summary": "UNHCR notebook repo for refugee and displacement analysis."
+  },
+  {
+    "repo_url": "https://github.com/translation-cards/translation-cards",
+    "name": "translation-cards/translation-cards",
+    "description": "An app that enables refugees and field workers to communicate more effectively and confidently.",
+    "sub_domain": "migration-refugee-data",
+    "score": 8,
+    "score_rationale": "Communication aid that helps refugees and field workers bridge language gaps.",
+    "stars": 26,
+    "language": "Java",
+    "license": "Apache-2.0",
+    "last_activity": "2025-07-02",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 59.5,
+    "tags": [
+      "refugees",
+      "translation",
+      "communication",
+      "field-work"
+    ],
+    "category": "Translation Aid",
+    "summary": "Helps refugees and field workers communicate more effectively."
+  },
+  {
+    "repo_url": "https://github.com/perchrh/sanction_list_search",
+    "name": "perchrh/sanction_list_search",
+    "description": "name search for people and entities on the EU, OFAC and UN sanction lists",
+    "stars": 26,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2020-11-17",
+    "sub_domain": "sanctions-compliance",
+    "score": 8,
+    "score_rationale": "Simple EU/UN/OFAC list searcher that is directly relevant to watchlist screening.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 59.5,
+    "tags": [
+      "sanctions-search",
+      "eu-sanctions",
+      "ofac",
+      "un"
+    ],
+    "category": "Sanctions Search",
+    "summary": "Searches EU, OFAC, and UN sanctions lists by name."
+  },
+  {
+    "repo_url": "https://github.com/mcorts/ais-ship-tracking-receiver",
+    "name": "McOrts/AIS-ship-tracking-receiver",
+    "description": "Marine traffic monitoring system based on AIS for Marine Traffic",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 8,
+    "score_rationale": "AIS ship-tracking receiver for maritime surveillance and vessel monitoring.",
+    "stars": 24,
+    "language": "HTML",
+    "license": null,
+    "last_activity": "2026-03-19",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 59.2,
+    "tags": [
+      "ais",
+      "maritime-surveillance",
+      "vessel-monitoring",
+      "security"
+    ],
+    "category": "Marine Monitoring System",
+    "summary": "AIS-based marine traffic monitoring system for vessel surveillance."
+  },
+  {
+    "repo_url": "https://github.com/shrebox/political-ideology-detection-on-twitter",
+    "name": "shrebox/Political-Ideology-Detection-on-Twitter",
+    "description": "Predicts political ideology from Twitter text using supervised classification and feature engineering.",
+    "sub_domain": "political-text-nlp",
+    "score": 8,
+    "score_rationale": "It directly models political ideology from social text, which is a strong fit for this subdomain.",
+    "stars": 24,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2020-09-20",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 59.2,
+    "tags": [
+      "political",
+      "ideology",
+      "twitter",
+      "classification",
+      "nlp"
+    ],
+    "category": "Ideology Classification",
+    "summary": "Classifies political ideology from Twitter text."
+  },
+  {
+    "repo_url": "https://github.com/kbhujbal/trident-synthetic_aperture_radar_maritime_vessel_detection_yolov8",
+    "name": "kbhujbal/Trident-synthetic_aperture_radar_maritime_vessel_detection_yolov8",
+    "description": "\ud83d\udce1 Production-grade maritime surveillance system for detecting ships in Synthetic Aperture Radar (SAR) imagery using YOLOv8-OBB (Oriented Bounding Boxes) and Lee speckle filtering. Handles the unique challenges of radar imagery: multiplicative noise and arbitrarily-oriented vessels.",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 8,
+    "score_rationale": "SAR-based maritime surveillance and ship-detection pipeline.",
+    "stars": 23,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 59.0,
+    "tags": [
+      "sar",
+      "vessel-detection",
+      "computer-vision",
+      "maritime"
+    ],
+    "category": "SAR Vessel Detection",
+    "summary": "Detects ships in SAR imagery with oriented bounding boxes."
+  },
+  {
+    "repo_url": "https://github.com/parliament-in-data/federal-parliament-scraper",
+    "name": "Parliament-in-Data/Federal-Parliament-Scraper",
+    "description": "A scraper for obtaining information on the workings of the Belgian Federal Parliament.",
+    "sub_domain": "election-governance-data",
+    "score": 8,
+    "score_rationale": "It is a reusable parliamentary-data scraper with a clear data-ingestion role.",
+    "stars": 22,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2023-08-04",
+    "found_in_domains": [
+      "election-governance-data"
+    ],
+    "quality_score": 58.9,
+    "tags": [
+      "parliament",
+      "scraping",
+      "belgium",
+      "government-data"
+    ],
+    "category": "Parliament Scraper",
+    "summary": "Scraper for Belgian federal parliament proceedings and data."
+  },
+  {
+    "repo_url": "https://github.com/opensanctions/yente",
+    "name": "opensanctions/yente",
+    "description": "API for OpenSanctions with support for entity search and bulk matching of data collections. Supports Reconciliation API spec.",
+    "stars": 126,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "sub_domain": "sanctions-compliance",
+    "score": 7,
+    "score_rationale": "OpenSanctions API with entity search and bulk matching, making it a stronger screening engine.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 58.8,
+    "tags": [
+      "sanctions-screening",
+      "entity-matching",
+      "reconciliation-api",
+      "opensanctions"
+    ],
+    "category": "Entity Matching",
+    "summary": "OpenSanctions API for entity search and bulk matching."
+  },
+  {
+    "repo_url": "https://github.com/oasis-open/cti-taxii-client",
+    "name": "oasis-open/cti-taxii-client",
+    "description": "OASIS TC Open Repository: TAXII 2 Client Library Written in Python",
+    "sub_domain": "cyber-geopolitics-threat-intel",
+    "score": 7,
+    "score_rationale": "Reference TAXII client for exchanging STIX-formatted threat intelligence.",
+    "stars": 120,
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "last_activity": "2024-04-15",
+    "found_in_domains": [
+      "cyber-geopolitics-threat-intel"
+    ],
+    "quality_score": 58.7,
+    "tags": [
+      "taxii",
+      "stix",
+      "python",
+      "client"
+    ],
+    "category": "TAXII Client Library",
+    "summary": "Python client library for exchanging STIX data over TAXII 2."
+  },
+  {
+    "repo_url": "https://github.com/fhamborg/newsbirdserver",
+    "name": "fhamborg/NewsBirdServer",
+    "description": "Matrix-based news aggregation tool for exploring media bias.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 8,
+    "score_rationale": "It directly targets media-bias exploration and narrative comparison across outlets.",
+    "stars": 20,
+    "language": "Java",
+    "license": null,
+    "last_activity": "2018-06-26",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 58.6,
+    "tags": [
+      "news-bias",
+      "aggregation",
+      "media-analysis",
+      "java"
+    ],
+    "category": "News Bias Explorer",
+    "summary": "Matrix-based news aggregation tool for exploring media bias."
+  },
+  {
+    "repo_url": "https://github.com/checkstep/senti-stance",
+    "name": "checkstep/senti-stance",
+    "description": "Few-shot cross-lingual stance detection with sentiment-based pre-training.",
+    "sub_domain": "political-text-nlp",
+    "score": 8,
+    "score_rationale": "It is a modern stance-detection system that can be adapted to political text problems.",
+    "stars": 20,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2022-03-04",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 58.6,
+    "tags": [
+      "political",
+      "stance-detection",
+      "cross-lingual",
+      "sentiment",
+      "nlp"
+    ],
+    "category": "Stance Detection Model",
+    "summary": "Few-shot cross-lingual stance detection with sentiment pretraining."
+  },
+  {
+    "repo_url": "https://github.com/lucified/lucify-refugees",
+    "name": "lucified/lucify-refugees",
+    "description": "A visualization of the flow of asylum seekers to European countries from 2012 onwards.",
+    "sub_domain": "migration-refugee-data",
+    "score": 7,
+    "score_rationale": "Historical visualization of asylum-seeker flows to European countries.",
+    "stars": 113,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2018-11-12",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 58.5,
+    "tags": [
+      "asylum",
+      "migration",
+      "visualization",
+      "europe"
+    ],
+    "category": "Asylum Flow Visualization",
+    "summary": "Visualizes asylum-seeker flows to European countries."
+  },
+  {
+    "repo_url": "https://github.com/yikai-wang/attention-based-siamese-text-cnn-for-stance-detection",
+    "name": "Yikai-Wang/Attention-Based-Siamese-Text-CNN-for-Stance-Detection",
+    "description": "Final project code for a stance-detection model built with an attention-based Siamese Text-CNN.",
+    "sub_domain": "political-text-nlp",
+    "score": 8,
+    "score_rationale": "A focused stance-detection implementation that is still directly applicable to political text classification.",
+    "stars": 18,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2018-06-13",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 58.2,
+    "tags": [
+      "stance-detection",
+      "siamese-networks",
+      "text-cnn",
+      "political-claims"
+    ],
+    "category": "Stance Detection",
+    "summary": "Attention Siamese Text-CNN stance detector for political claims."
+  },
+  {
+    "repo_url": "https://github.com/rsepulveda911112/headline-stance-detection",
+    "name": "rsepulveda911112/Headline-Stance-Detection",
+    "description": "Headline stance detection for evaluating whether a headline agrees with a target claim or topic.",
+    "sub_domain": "political-text-nlp",
+    "score": 8,
+    "score_rationale": "A focused stance-detection project that is more directly useful than the lower-signal language-specific entries.",
+    "stars": 18,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2021-10-28",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 58.2,
+    "tags": [
+      "headline-analysis",
+      "stance-detection",
+      "claim-matching"
+    ],
+    "category": "Headline Analysis",
+    "summary": "Checks whether headlines agree with a target claim or topic."
+  },
+  {
+    "repo_url": "https://github.com/hassanhabib/refugee.core",
+    "name": "hassanhabib/Refugee.Core",
+    "description": "This is an API to help support refugees everywhere around the world.",
+    "sub_domain": "migration-refugee-data",
+    "score": 8,
+    "score_rationale": "API project aimed at refugee-focused service workflows.",
+    "stars": 16,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2025-10-17",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 57.8,
+    "tags": [
+      "refugees",
+      "api",
+      "support-services",
+      "global"
+    ],
+    "category": "Refugee Support API",
+    "summary": "API for building services that support refugees worldwide."
+  },
+  {
+    "repo_url": "https://github.com/cardonator/ofac",
+    "name": "cardonator/ofac",
+    "description": "Office of Foreign Asset Control (OFAC) - US Sanctions Search API",
+    "stars": 2,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2020-01-24",
+    "sub_domain": "sanctions-compliance",
+    "score": 9,
+    "score_rationale": "Direct OFAC API/library for sanctions data serving and screening.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 57.8,
+    "tags": [
+      "ofac",
+      "sanctions-api",
+      "go",
+      "search"
+    ],
+    "category": "Sanctions API",
+    "summary": "Go API for searching U.S. OFAC sanctions data."
+  },
+  {
+    "repo_url": "https://github.com/fourmilab/bombcalc_nuclear_bomb_effects_computer",
+    "name": "Fourmilab/bombcalc_nuclear_bomb_effects_computer",
+    "description": "Development environment and archive for Fourmilab's Web implementation of the Nuclear Bomb Effects Computer slide rule from the 1962 edition of the book \u201cThe Effects of Nuclear Weapons\u201d",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 8,
+    "score_rationale": "Reference bomb-effects computer for classic nuclear-effects calculations.",
+    "stars": 15,
+    "language": "HTML",
+    "license": "NOASSERTION",
+    "last_activity": "2025-11-16",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 57.6,
+    "tags": [
+      "nuclear",
+      "effects",
+      "calculator",
+      "weapons",
+      "blast"
+    ],
+    "category": "Nuclear Effects Calculator",
+    "summary": "Web implementation of the classic nuclear bomb effects computer."
+  },
+  {
+    "repo_url": "https://github.com/marc-shade/world-intel-mcp",
+    "name": "marc-shade/world-intel-mcp",
+    "description": "100+ tool MCP server for real-time global intelligence \u2014 markets, FX, bonds, earnings, SEC filings, conflict, military, cyber, climate, news, company enrichment, and 30+ domains. Live Leaflet dashboard with 20 map layers, SSE streaming, and AI situation briefs.",
+    "stars": 14,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-09",
+    "sub_domain": "conflict-event-tracking",
+    "score": 8,
+    "score_rationale": "Broad live intelligence stack that explicitly includes conflict and military monitoring.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 57.4,
+    "tags": [
+      "mcp-server",
+      "intelligence",
+      "conflict-data",
+      "dashboard"
+    ],
+    "category": "Intelligence MCP Server",
+    "summary": "MCP server for live global intelligence, maps, and situation briefs."
+  },
+  {
+    "repo_url": "https://github.com/julianhinz/kite",
+    "name": "julianhinz/KITE",
+    "description": "Kiel Institute Trade Policy Evaluation Model for simulating and estimating trade-policy changes.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 8,
+    "score_rationale": "A dedicated trade-policy evaluation model with clear statecraft relevance.",
+    "stars": 11,
+    "language": "R",
+    "license": "NOASSERTION",
+    "last_activity": "2026-02-24",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 56.6,
+    "tags": [
+      "trade-policy",
+      "simulation",
+      "r",
+      "model"
+    ],
+    "category": "Trade Policy Model",
+    "summary": "Trade-policy evaluation model for simulating policy changes."
+  },
+  {
+    "repo_url": "https://github.com/franciellevargas/factnews",
+    "name": "franciellevargas/FactNews",
+    "description": "Sentence-level factuality and media-bias dataset for Portuguese news reporting.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 8,
+    "score_rationale": "It is a specialized media-bias dataset with clear downstream fact-checking value.",
+    "stars": 11,
+    "language": null,
+    "license": null,
+    "last_activity": "2025-06-12",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 56.6,
+    "tags": [
+      "media-bias",
+      "dataset",
+      "factuality",
+      "portuguese"
+    ],
+    "category": "Bias Dataset",
+    "summary": "Sentence-level factuality and media-bias dataset for Portuguese news."
+  },
+  {
+    "repo_url": "https://github.com/jlball/arc-nonproliferation",
+    "name": "jlball/arc-nonproliferation",
+    "description": "An OpenMC-based repo for studying proliferation issues in ARC-class fusion reactors.",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 8,
+    "score_rationale": "OpenMC-based proliferation study for ARC-class fusion reactor scenarios.",
+    "stars": 11,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-09-25",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 56.6,
+    "tags": [
+      "nuclear",
+      "fusion",
+      "proliferation",
+      "openmc",
+      "analysis"
+    ],
+    "category": "Fusion Proliferation Study",
+    "summary": "Studies proliferation issues in ARC-class fusion reactors."
+  },
+  {
+    "repo_url": "https://github.com/osome-iu/botometer101",
+    "name": "osome-iu/Botometer101",
+    "description": "Social-bot practicum code showing how to use Botometer for bot detection research.",
+    "sub_domain": "social-media-influence",
+    "score": 8,
+    "score_rationale": "It is a practical bot-detection workflow tied to a standard bot-detection service.",
+    "stars": 11,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2022-10-06",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 56.6,
+    "tags": [
+      "bot-detection",
+      "botometer",
+      "twitter",
+      "research-workflow"
+    ],
+    "category": "Bot Detection",
+    "summary": "Practicum code for using Botometer in bot research."
+  },
+  {
+    "repo_url": "https://github.com/vireen555/global-conflict-intelligence-dashboard",
+    "name": "Vireen555/global-conflict-intelligence-dashboard",
+    "description": "Hybrid conflict intelligence dashboard built with Python, Streamlit, GDELT, ACLED, and GitHub Actions to monitor recent war-news signals and structured conflict patterns.",
+    "stars": 0,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-24",
+    "sub_domain": "conflict-event-tracking",
+    "score": 9,
+    "score_rationale": "Strong real-time conflict dashboard that explicitly fuses GDELT and conflict signals.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 56.4,
+    "tags": [
+      "conflict-intelligence",
+      "gdelt",
+      "acled",
+      "dashboard"
+    ],
+    "category": "Conflict Intelligence",
+    "summary": "Hybrid dashboard for war news signals and structured conflict patterns."
+  },
+  {
+    "repo_url": "https://github.com/pigeon-effect/mapping-unga-voting-alliances",
+    "name": "Pigeon-Effect/Mapping-UNGA-Voting-Alliances",
+    "description": "Mapping UNGA Voting Alliances analyzes United Nations General Assembly voting patterns (1970-2022) to reveal geopolitical clusters and bilateral alignments.",
+    "sub_domain": "network-alliance-analysis",
+    "score": 9,
+    "score_rationale": "It is explicitly built to reveal voting alliances and bilateral alignments from UNGA data.",
+    "stars": 1,
+    "language": "JavaScript",
+    "license": null,
+    "last_activity": "2025-06-24",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 56.4,
+    "tags": [
+      "un",
+      "voting",
+      "alliances",
+      "geopolitics",
+      "mapping"
+    ],
+    "category": "UN Alliance Mapping",
+    "summary": "Maps UNGA voting blocs and bilateral alignments."
+  },
+  {
+    "repo_url": "https://github.com/michaelfaerber/ukraine-news-bias",
+    "name": "michaelfaerber/ukraine-news-bias",
+    "description": "Multidimensional dataset for analyzing and detecting news bias based on crowdsourcing.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 8,
+    "score_rationale": "It is a purpose-built news-bias dataset with geopolitical relevance.",
+    "stars": 9,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2020-11-19",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 56.0,
+    "tags": [
+      "news-bias",
+      "dataset",
+      "crowdsourcing",
+      "ukraine"
+    ],
+    "category": "News Bias Dataset",
+    "summary": "Crowdsourced dataset for analyzing and detecting news bias."
+  },
+  {
+    "repo_url": "https://github.com/trade-tariff/trade-tariff-backend",
+    "name": "trade-tariff/trade-tariff-backend",
+    "description": "Backend service for the trade tariff platform used to surface tariff and customs data.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 8,
+    "score_rationale": "Core production tooling for tariff lookup and trade-rule workflows.",
+    "stars": 8,
+    "language": "Ruby",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 55.6,
+    "tags": [
+      "tariffs",
+      "customs",
+      "backend",
+      "trade-data"
+    ],
+    "category": "Tariff Backend Service",
+    "summary": "Backend service for surfacing tariff and customs data."
+  },
+  {
+    "repo_url": "https://github.com/sig-gis/open-geoai",
+    "name": "sig-gis/open-geoai",
+    "description": "Geospatial AI for Everyone",
+    "stars": 8,
+    "language": "HTML",
+    "license": null,
+    "last_activity": "2024-10-16",
+    "sub_domain": "geoint-tools",
+    "score": 8,
+    "score_rationale": "GeoAI framework focused on geospatial processing and collaborative analysis.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 55.6,
+    "tags": [
+      "geospatial-ai",
+      "collaboration",
+      "imagery",
+      "analysis"
+    ],
+    "category": "GeoAI Platform",
+    "summary": "GeoAI framework for collaborative geospatial processing and analysis."
+  },
+  {
+    "repo_url": "https://github.com/prethea-phoenixia/hewu",
+    "name": "Prethea-Phoenixia/HeWu",
+    "description": "Nuclear weapon effects modeling in Python",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 8,
+    "score_rationale": "Nuclear weapon effects modeling library in Python.",
+    "stars": 8,
+    "language": "Python",
+    "license": "Unlicense",
+    "last_activity": "2024-04-29",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 55.6,
+    "tags": [
+      "nuclear",
+      "weapons",
+      "effects",
+      "modeling",
+      "python"
+    ],
+    "category": "Nuclear Effects Modeling",
+    "summary": "Python toolkit for nuclear weapon effects modeling."
+  },
+  {
+    "repo_url": "https://github.com/cran/acled.api",
+    "name": "cran/acled.api",
+    "description": ":exclamation:\u00a0This\u00a0is\u00a0a\u00a0read-only\u00a0mirror\u00a0of\u00a0the\u00a0CRAN\u00a0R\u00a0package\u00a0repository.  acled.api\u00a0\u2014\u00a0Automated\u00a0Retrieval\u00a0of\u00a0ACLED\u00a0Conflict\u00a0Event\u00a0Data.\u00a0Homepage:\u00a0<https://gitlab.com/chris-dworschak/acled.api>",
+    "stars": 7,
+    "language": "R",
+    "license": null,
+    "last_activity": "2024-04-23",
+    "sub_domain": "conflict-event-tracking",
+    "score": 8,
+    "score_rationale": "Established API wrapper for ACLED data, which is central to conflict-event tracking workflows.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 55.2,
+    "tags": [
+      "acled",
+      "conflict-data",
+      "r-package",
+      "api-client"
+    ],
+    "category": "ACLED Data Access",
+    "summary": "Read-only mirror of an R package for retrieving ACLED conflict events."
+  },
+  {
+    "repo_url": "https://github.com/pachadotdev/tradepolicy",
+    "name": "pachadotdev/tradepolicy",
+    "description": "Replication of 'An Advanced Guide To Trade Policy Analysis'.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 8,
+    "score_rationale": "Strong trade-policy analysis package with direct relevance to trade modeling.",
+    "stars": 7,
+    "language": "Stata",
+    "license": "CC-BY-4.0",
+    "last_activity": "2026-02-11",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 55.2,
+    "tags": [
+      "trade-policy",
+      "economic-modeling",
+      "stata",
+      "analysis"
+    ],
+    "category": "Trade Policy Analysis",
+    "summary": "Replication repo for a trade policy analysis guide."
+  },
+  {
+    "repo_url": "https://github.com/randcorporation/romancer",
+    "name": "RANDCorporation/ROMANCER",
+    "description": "RAND Ontological Model for Assessing Nuclear Crisis Escalation Risk (ROMANCER) is a model that represents nuclear escalation behaviours, and includes multiple theories-of-mind that afford exploration of decisionmakers taking actions, and making threats and demands, to see how this might affect nuclear escalation outcomes.",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 8,
+    "score_rationale": "Nuclear crisis escalation risk model with scenario exploration.",
+    "stars": 7,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-22",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 55.2,
+    "tags": [
+      "nuclear",
+      "escalation",
+      "crisis",
+      "decision-making",
+      "modeling"
+    ],
+    "category": "Nuclear Escalation Model",
+    "summary": "Models nuclear crisis escalation risk and decision dynamics."
+  },
+  {
+    "repo_url": "https://github.com/parrotsec/spiderfoot",
+    "name": "ParrotSec/spiderfoot",
+    "description": "No description provided.",
+    "stars": 39,
+    "language": "Python",
+    "license": "GPL-2.0",
+    "last_activity": "2017-07-26",
+    "sub_domain": "osint-frameworks",
+    "score": 7,
+    "score_rationale": "A distribution-maintained SpiderFoot fork that remains directly relevant, though derivative.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 54.8,
+    "tags": [
+      "osint",
+      "fork",
+      "reconnaissance",
+      "automation",
+      "intelligence"
+    ],
+    "category": "OSINT Fork",
+    "summary": "Distribution-maintained SpiderFoot fork for OSINT work."
+  },
+  {
+    "repo_url": "https://github.com/fif911/probabilistic_conflict_modelling",
+    "name": "fif911/probabilistic_conflict_modelling",
+    "description": "Machine-learning project that predicts wars with explainable probabilistic conflict models.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 8,
+    "score_rationale": "Strong direct match for conflict prediction with an explicit forecasting objective.",
+    "stars": 6,
+    "language": "Jupyter Notebook",
+    "license": "MPL-2.0",
+    "last_activity": "2024-10-27",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 54.8,
+    "tags": [
+      "conflict-forecasting",
+      "probabilistic-models",
+      "war-prediction",
+      "explainability"
+    ],
+    "category": "Conflict Forecasting",
+    "summary": "Explainable probabilistic models for war forecasting."
+  },
+  {
+    "repo_url": "https://github.com/hue-jhan/osint-war-room",
+    "name": "Hue-Jhan/OSINT-War-Room",
+    "description": "War Tactical dashboard designed for tracking global conflicts, military movements, and geopolitical events in real-time, it aggregates many OSINT feeds into a single, customizable, and interactive command center.",
+    "stars": 5,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2026-03-06",
+    "sub_domain": "conflict-event-tracking",
+    "score": 8,
+    "score_rationale": "Tactical conflict-monitoring dashboard with real-time geopolitical event focus.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 54.2,
+    "tags": [
+      "osint",
+      "war-room",
+      "conflict-monitoring",
+      "dashboard"
+    ],
+    "category": "OSINT Command Center",
+    "summary": "OSINT war room for tracking conflicts, military movements, and geopolitics."
+  },
+  {
+    "repo_url": "https://github.com/arshsingh/sanctions",
+    "name": "arshsingh/sanctions",
+    "description": "simple JSON API to check individual/entity names against multiple sources",
+    "stars": 5,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2022-02-20",
+    "sub_domain": "sanctions-compliance",
+    "score": 8,
+    "score_rationale": "Unified sanctions JSON API that consolidates multiple watchlists into one service.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 54.2,
+    "tags": [
+      "sanctions-api",
+      "entity-screening",
+      "watchlists",
+      "json-api"
+    ],
+    "category": "Sanctions API",
+    "summary": "JSON API for checking names against multiple sanctions sources."
+  },
+  {
+    "repo_url": "https://github.com/mwaugh0328/tradewar-tracker",
+    "name": "mwaugh0328/tradewar-tracker",
+    "description": "Code and data behind a tracker for the US-China trade war.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 7,
+    "score_rationale": "Tracks tariff escalation in a way that is directly useful for trade-war analysis.",
+    "stars": 32,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2021-04-07",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 54.1,
+    "tags": [
+      "trade-war",
+      "tracker",
+      "us-china",
+      "data"
+    ],
+    "category": "Trade War Tracker",
+    "summary": "Code and data behind a tracker for the US-China trade war."
+  },
+  {
+    "repo_url": "https://github.com/plantl-gob-es/lm-legal-es",
+    "name": "PlanTL-GOB-ES/lm-legal-es",
+    "description": "Language Models for the legal domain in Spanish done @ BSC-TEMU within the \"Plan de las Tecnolog\u00edas del Lenguaje\" (Plan-TL).",
+    "sub_domain": "international-law-treaties",
+    "score": 7,
+    "score_rationale": "It is a reusable legal-domain language-model stack that complements treaty and corpus workflows.",
+    "stars": 30,
+    "language": null,
+    "license": "Apache-2.0",
+    "last_activity": "2022-11-17",
+    "found_in_domains": [
+      "international-law-treaties"
+    ],
+    "quality_score": 53.9,
+    "tags": [
+      "spanish",
+      "legal-nlp",
+      "language-models",
+      "bert"
+    ],
+    "category": "Spanish Legal LM",
+    "summary": "Spanish legal-domain language models for specialized NLP workflows."
+  },
+  {
+    "repo_url": "https://github.com/refugeehotspot/refugeehotspot",
+    "name": "RefugeeHotspot/RefugeeHotspot",
+    "description": "a mobile device that provides Internet access to refugees and migrants",
+    "sub_domain": "migration-refugee-data",
+    "score": 7,
+    "score_rationale": "Connectivity tool designed to provide internet access and support for refugees and migrants.",
+    "stars": 30,
+    "language": "HTML",
+    "license": "NOASSERTION",
+    "last_activity": "2023-06-17",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 53.9,
+    "tags": [
+      "refugees",
+      "connectivity",
+      "internet-access",
+      "humanitarian"
+    ],
+    "category": "Refugee Connectivity",
+    "summary": "Provides internet access to refugees and migrants."
+  },
+  {
+    "repo_url": "https://github.com/unhcr-dataviz/unhcrdown",
+    "name": "unhcr-dataviz/unhcrdown",
+    "description": "UNHCR branded R Markdown templates for reports, presentations, and web documents",
+    "sub_domain": "migration-refugee-data",
+    "score": 7,
+    "score_rationale": "UNHCR report and publishing tooling for displacement data products.",
+    "stars": 26,
+    "language": "SCSS",
+    "license": "NOASSERTION",
+    "last_activity": "2025-01-17",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 53.5,
+    "tags": [
+      "unhcr",
+      "publishing",
+      "reports",
+      "r-markdown"
+    ],
+    "category": "UNHCR Report Templates",
+    "summary": "Branded templates for UNHCR reports, presentations, and web docs."
+  },
+  {
+    "repo_url": "https://github.com/us-cbo/conventional-tariff-analysis-model",
+    "name": "US-CBO/conventional-tariff-analysis-model",
+    "description": "Python-based model for analyzing conventional tariff policy effects and import data.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 8,
+    "score_rationale": "Direct tariff-policy analysis tooling from a high-signal public-policy source.",
+    "stars": 3,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2026-02-17",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 52.8,
+    "tags": [
+      "tariffs",
+      "trade-policy",
+      "economic-modeling",
+      "python"
+    ],
+    "category": "Tariff Analysis Model",
+    "summary": "Python model for analyzing conventional tariff policy effects."
+  },
+  {
+    "repo_url": "https://github.com/views-platform/views-hydranet",
+    "name": "views-platform/views-hydranet",
+    "description": "HydraNet is a spatiotemporal conflict forecasting model with probabilistic predictions.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 8,
+    "score_rationale": "Modern conflict-forecasting model inside the VIEWS ecosystem with strong methodological fit.",
+    "stars": 3,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-17",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 52.8,
+    "tags": [
+      "conflict-forecasting",
+      "spatiotemporal-models",
+      "probabilistic-forecasting",
+      "views"
+    ],
+    "category": "Conflict Forecasting",
+    "summary": "HydraNet predicts conflict with spatiotemporal uncertainty."
+  },
+  {
+    "repo_url": "https://github.com/theunlocked/bias-finder",
+    "name": "TheUnlocked/Bias-Finder",
+    "description": "Chrome extension that shows the bias of websites you visit.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 7,
+    "score_rationale": "It is a lightweight bias-detection tool aimed at everyday news consumption.",
+    "stars": 19,
+    "language": "JavaScript",
+    "license": "BSD-2-Clause",
+    "last_activity": "2023-12-30",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 52.4,
+    "tags": [
+      "browser-extension",
+      "media-bias",
+      "news",
+      "javascript"
+    ],
+    "category": "Bias Browser Extension",
+    "summary": "Chrome extension that surfaces website bias while browsing."
+  },
+  {
+    "repo_url": "https://github.com/datapartnership/acled_conflict_analysis",
+    "name": "datapartnership/acled_conflict_analysis",
+    "description": "Python package to extract analyze and map ACLED data",
+    "stars": 2,
+    "language": "Jupyter Notebook",
+    "license": "MPL-2.0",
+    "last_activity": "2026-02-23",
+    "sub_domain": "conflict-event-tracking",
+    "score": 8,
+    "score_rationale": "Practical ACLED analysis package for extracting, processing, and mapping conflict events.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 51.8,
+    "tags": [
+      "acled",
+      "conflict-analysis",
+      "mapping",
+      "python-package"
+    ],
+    "category": "Conflict Analysis",
+    "summary": "Python package to extract, analyze, and map ACLED conflict data."
+  },
+  {
+    "repo_url": "https://github.com/adityabandi/sitpulse-westasia",
+    "name": "adityabandi/sitpulse-westasia",
+    "description": "Military-style OSINT command dashboard for West Asia conflict monitoring. Zero infrastructure \u2014 GitHub Actions + GitHub Pages.",
+    "stars": 2,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-18",
+    "sub_domain": "conflict-event-tracking",
+    "score": 8,
+    "score_rationale": "Operational conflict-monitoring dashboard with a specific regional intelligence workflow.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 51.8,
+    "tags": [
+      "osint",
+      "west-asia",
+      "conflict-monitoring",
+      "dashboard"
+    ],
+    "category": "Regional Conflict Monitor",
+    "summary": "GitHub-hosted dashboard for West Asia conflict monitoring."
+  },
+  {
+    "repo_url": "https://github.com/debanjan06/geospatial-rag",
+    "name": "debanjan06/geospatial-rag",
+    "description": "AI Framework for Remote Sensing Image Analysis using RAG - 88%+ accuracy, multi-modal queries, ChatGPT-like interface",
+    "stars": 13,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-07-27",
+    "sub_domain": "geoint-tools",
+    "score": 7,
+    "score_rationale": "Specialized AI framework for remote sensing and geospatial analysis.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 51.2,
+    "tags": [
+      "remote-sensing",
+      "rag",
+      "geospatial-ai",
+      "multimodal"
+    ],
+    "category": "Geospatial RAG",
+    "summary": "AI framework for remote-sensing analysis with multimodal RAG queries."
+  },
+  {
+    "repo_url": "https://github.com/openeventdata/plover",
+    "name": "openeventdata/PLOVER",
+    "description": "Next-generation event-data ontology for political event extraction and modeling.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 6,
+    "score_rationale": "Foundational event-data ontology that feeds downstream forecasting and early-warning systems.",
+    "stars": 75,
+    "language": "TeX",
+    "license": null,
+    "last_activity": "2024-02-04",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 51.0,
+    "tags": [
+      "event-data",
+      "ontology",
+      "political-extraction",
+      "data-modeling"
+    ],
+    "category": "Event Data Ontology",
+    "summary": "Event-data ontology for political event extraction and modeling."
+  },
+  {
+    "repo_url": "https://github.com/tradewartracker/trade-war-redux-2025",
+    "name": "tradewartracker/trade-war-redux-2025",
+    "description": "Tracker for the US trade war in 2025 and 2026.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 7,
+    "score_rationale": "Current-trend trade-war tracking is highly aligned with economic statecraft monitoring.",
+    "stars": 12,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2026-03-21",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 50.9,
+    "tags": [
+      "trade-war",
+      "tracker",
+      "tariffs",
+      "2025"
+    ],
+    "category": "Trade War Tracker",
+    "summary": "Tracker for the US trade war in 2025 and 2026."
+  },
+  {
+    "repo_url": "https://github.com/sciro24/world-conflict-map",
+    "name": "sciro24/World-Conflict-Map",
+    "description": "Real-time global conflict monitor. Powered by GDELT data, Next.js, and interactive maps.",
+    "stars": 1,
+    "language": "TypeScript",
+    "license": null,
+    "last_activity": "2026-01-19",
+    "sub_domain": "conflict-event-tracking",
+    "score": 8,
+    "score_rationale": "Purpose-built conflict visualization dashboard and a strong fit for event tracking.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "conflict-monitoring",
+      "gdelt",
+      "nextjs",
+      "map"
+    ],
+    "category": "Conflict Visualization",
+    "summary": "Real-time conflict map powered by GDELT and interactive views."
+  },
+  {
+    "repo_url": "https://github.com/robert-schmidt/warcast.app",
+    "name": "robert-schmidt/warcast.app",
+    "description": "No description provided.",
+    "stars": 0,
+    "language": null,
+    "license": null,
+    "last_activity": "2026-03-24",
+    "sub_domain": "conflict-event-tracking",
+    "score": 8,
+    "score_rationale": "Conflict monitor that aggregates news and conflict signals into an operational dashboard.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "conflict-monitoring",
+      "news-aggregation",
+      "dashboard",
+      "osint"
+    ],
+    "category": "Conflict Monitoring",
+    "summary": "Aggregates news and conflict signals into one operational dashboard."
+  },
+  {
+    "repo_url": "https://github.com/sagehourihan/clermont",
+    "name": "SageHourihan/clermont",
+    "description": "Clermont is an open source world situation monitor \u2014 a live, aggregated view of the forces shaping our planet.",
+    "stars": 0,
+    "language": "JavaScript",
+    "license": null,
+    "last_activity": "2026-02-23",
+    "sub_domain": "conflict-event-tracking",
+    "score": 8,
+    "score_rationale": "Open source world situation monitor that tracks global forces and fits event monitoring well.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "world-monitor",
+      "geopolitics",
+      "situation-awareness",
+      "dashboard"
+    ],
+    "category": "World Situation Monitor",
+    "summary": "Open source monitor for live global situations and shifting forces."
+  },
+  {
+    "repo_url": "https://github.com/n3rmix/watchtower",
+    "name": "n3rmix/WatchTower",
+    "description": "Real-Time Global Conflict Monitoring Dashboard  A comprehensive, data-driven platform for tracking ongoing global conflicts, casualty statistics, and geopolitical analysis from multiple verified sources.",
+    "stars": 1,
+    "language": "JavaScript",
+    "license": null,
+    "last_activity": "2026-03-24",
+    "sub_domain": "conflict-event-tracking",
+    "score": 8,
+    "score_rationale": "Purpose-built real-time conflict monitoring dashboard with explicit casualty and geopolitical tracking.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "conflict-monitoring",
+      "casualty-data",
+      "geopolitics",
+      "dashboard"
+    ],
+    "category": "Conflict Dashboard",
+    "summary": "Real-time dashboard for global conflicts, casualties, and analysis."
+  },
+  {
+    "repo_url": "https://github.com/sesam-polimi/geop_likemindedness_eu-gas",
+    "name": "SESAM-Polimi/GeoP_LikeMindedness_EU-gas",
+    "description": "Geopolitical analysis of potential gas suppliers for the EU.",
+    "sub_domain": "energy-geopolitics",
+    "score": 8,
+    "score_rationale": "Directly about EU gas geopolitics and supplier alignment.",
+    "stars": 0,
+    "language": "HTML",
+    "license": null,
+    "last_activity": "2024-08-07",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "gas",
+      "europe",
+      "geopolitics",
+      "supplier-risk"
+    ],
+    "category": "Gas Geopolitics",
+    "summary": "Analysis of EU gas supplier geopolitics and alignment."
+  },
+  {
+    "repo_url": "https://github.com/vidyullathaks/critical-mineral-supply-chain",
+    "name": "vidyullathaks/Critical-Mineral-Supply-Chain",
+    "description": "Capstone project on the resilience and sustainability of a cobalt supply chain.",
+    "sub_domain": "energy-geopolitics",
+    "score": 8,
+    "score_rationale": "Direct critical-minerals supply-chain analysis with clear energy-transition relevance.",
+    "stars": 0,
+    "language": "R",
+    "license": null,
+    "last_activity": "2026-02-01",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "critical-minerals",
+      "cobalt",
+      "supply-chain",
+      "resilience"
+    ],
+    "category": "Mineral Supply Chains",
+    "summary": "Cobalt supply-chain model for critical-mineral resilience analysis."
+  },
+  {
+    "repo_url": "https://github.com/cnes/eolabtools",
+    "name": "CNES/eolabtools",
+    "description": "Various tools for satellite imagery analysis",
+    "stars": 1,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2025-12-03",
+    "sub_domain": "geoint-tools",
+    "score": 8,
+    "score_rationale": "Useful satellite imagery analysis tooling from a major space agency context.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "satellite-imagery",
+      "remote-sensing",
+      "tooling",
+      "python"
+    ],
+    "category": "Satellite Imagery Tools",
+    "summary": "Tools for satellite imagery analysis and processing."
+  },
+  {
+    "repo_url": "https://github.com/hackops-academy/astralosint",
+    "name": "hackops-academy/AstralOSINT",
+    "description": "AstraOSINT is a professional-grade, web-based Geospatial Intelligence (GEOINT) tool designed for researchers, OSINT analysts, and hobbyists. It provides a centralized interface for satellite imagery analysis, point-of-interest tracking, and tactical route planning.",
+    "stars": 1,
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "last_activity": "2026-02-05",
+    "sub_domain": "geoint-tools",
+    "score": 8,
+    "score_rationale": "Web-based GEOINT tool designed for analysts and hobbyists, directly aligned to the subdomain.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "geoint",
+      "osint",
+      "satellite-imagery",
+      "route-planning"
+    ],
+    "category": "GEOINT Platform",
+    "summary": "Web-based GEOINT tool for imagery analysis, tracking, and route planning."
+  },
+  {
+    "repo_url": "https://github.com/avfaulkner/geo-osint-change-detection-solonytsivka",
+    "name": "avfaulkner/geo-osint-change-detection-solonytsivka",
+    "description": "Open-source GEOINT/OSINT analysis using Sentinel-1 SAR and Sentinel-2 optical imagery to detect surface change in conflict-adjacent areas.",
+    "stars": 0,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2025-10-18",
+    "sub_domain": "geoint-tools",
+    "score": 8,
+    "score_rationale": "Conflict-adjacent GEOINT/OSINT change-detection workflow with a strong imagery-analysis fit.",
+    "found_in_domains": [
+      "geoint-tools"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "geoint",
+      "osint",
+      "change-detection",
+      "sentinel"
+    ],
+    "category": "Change Detection",
+    "summary": "Sentinel-based GEOINT workflow for conflict-adjacent surface change detection."
+  },
+  {
+    "repo_url": "https://github.com/tmcknight/bridgeview-ais",
+    "name": "tmcknight/bridgeview-ais",
+    "description": "A real-time ship tracking application that displays vessel traffic near the Blue Water Bridge using Automatic Identification System (AIS) data.",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 8,
+    "score_rationale": "Real-time ship-tracking app tied to a border-adjacent maritime chokepoint.",
+    "stars": 1,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2026-02-14",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "ais",
+      "vessel-tracking",
+      "real-time",
+      "maritime"
+    ],
+    "category": "Vessel Tracking App",
+    "summary": "Real-time ship tracking near the Blue Water Bridge."
+  },
+  {
+    "repo_url": "https://github.com/views-platform/views-r2darts2",
+    "name": "views-platform/views-r2darts2",
+    "description": "Time-series deep learning suite for conflict forecasting within the VIEWS ecosystem.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 8,
+    "score_rationale": "A dedicated forecasting stack for the same high-signal conflict-prediction ecosystem.",
+    "stars": 0,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "conflict-forecasting",
+      "time-series",
+      "deep-learning",
+      "views"
+    ],
+    "category": "Conflict Forecasting",
+    "summary": "VIEWS time-series deep learning suite for conflict prediction."
+  },
+  {
+    "repo_url": "https://github.com/views-platform/views-pipeline-core",
+    "name": "views-platform/views-pipeline-core",
+    "description": "VIEWS Pipeline Core is a comprehensive machine learning pipeline designed to produce monthly predictions of future violent conflict at both country and sub-country levels. ",
+    "sub_domain": "risk-forecasting-models",
+    "score": 8,
+    "score_rationale": "Core VIEWS forecasting pipeline for monthly violent-conflict predictions.",
+    "stars": 1,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-17",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "conflict-forecasting",
+      "ml-pipeline",
+      "violent-conflict",
+      "views"
+    ],
+    "category": "Conflict Forecasting",
+    "summary": "Core VIEWS pipeline for monthly violent-conflict prediction."
+  },
+  {
+    "repo_url": "https://github.com/views-platform/views-stepshifter",
+    "name": "views-platform/views-stepshifter",
+    "description": "VIEWS Stepshifter is a package that contains modeling procedure, evaluation and forecasting using Darts",
+    "sub_domain": "risk-forecasting-models",
+    "score": 8,
+    "score_rationale": "Reusable modeling and evaluation package from the VIEWS forecasting stack.",
+    "stars": 0,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2025-12-11",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "conflict-forecasting",
+      "model-evaluation",
+      "darts",
+      "views"
+    ],
+    "category": "Forecasting Toolkit",
+    "summary": "VIEWS modeling and evaluation package built on Darts."
+  },
+  {
+    "repo_url": "https://github.com/hackclub/ofac-sl-api",
+    "name": "hackclub/ofac-sl-api",
+    "description": "A REST API for searching the U.S. Treasury's Office of Foreign Assets Control (OFAC) sanctions lists.",
+    "stars": 0,
+    "language": "TypeScript",
+    "license": null,
+    "last_activity": "2025-12-31",
+    "sub_domain": "sanctions-compliance",
+    "score": 8,
+    "score_rationale": "Clean REST API for OFAC list search with strong utility for compliance workflows.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 50.4,
+    "tags": [
+      "ofac",
+      "rest-api",
+      "sanctions-screening",
+      "us-treasury"
+    ],
+    "category": "Sanctions API",
+    "summary": "REST API for searching OFAC sanctions lists."
+  },
+  {
+    "repo_url": "https://github.com/theeconomist/fires-in-sudan",
+    "name": "TheEconomist/fires-in-sudan",
+    "description": "Code and data to analyse fire events in Sudan",
+    "stars": 10,
+    "language": "R",
+    "license": null,
+    "last_activity": "2023-11-01",
+    "sub_domain": "conflict-event-tracking",
+    "score": 7,
+    "score_rationale": "A real analysis codebase tying ACLED to conflict monitoring, but scoped to a single study.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 50.3,
+    "tags": [
+      "sudan",
+      "fire-events",
+      "conflict-analysis",
+      "r"
+    ],
+    "category": "Sudan Conflict Analysis",
+    "summary": "Code and data for analyzing fire events in Sudan."
+  },
+  {
+    "repo_url": "https://github.com/chris-dworschak/acled.api",
+    "name": "chris-dworschak/acled.api",
+    "description": "A small package to access the API of ACLED and retrieve conflict event data. IMPORTANT: the dev version is maintained on my GitLab page.",
+    "stars": 9,
+    "language": "R",
+    "license": "NOASSERTION",
+    "last_activity": "2024-10-02",
+    "sub_domain": "conflict-event-tracking",
+    "score": 7,
+    "score_rationale": "Another ACLED wrapper that is directly relevant, though less central than the main ACLED tooling.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 50.0,
+    "tags": [
+      "acled",
+      "api-client",
+      "conflict-data",
+      "r-package"
+    ],
+    "category": "ACLED API Client",
+    "summary": "Small R package for accessing ACLED conflict event data."
+  },
+  {
+    "repo_url": "https://github.com/iaea-nds/iaea-pd2019",
+    "name": "IAEA-NDS/IAEA-PD2019",
+    "description": "IAEA-Photonuclear Data Library",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 7,
+    "score_rationale": "IAEA photonuclear data library for nuclear data analysis.",
+    "stars": 8,
+    "language": "AGS Script",
+    "license": null,
+    "last_activity": "2026-03-05",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 49.6,
+    "tags": [
+      "iaea",
+      "photonuclear",
+      "data",
+      "library",
+      "nuclear"
+    ],
+    "category": "Photonuclear Data Library",
+    "summary": "IAEA photonuclear data library for nuclear analysis."
+  },
+  {
+    "repo_url": "https://github.com/followthemoney/vessel_research",
+    "name": "followthemoney/vessel_research",
+    "description": "Code for investigating vessels",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 7,
+    "score_rationale": "Investigative vessel-research notebook using Global Fishing Watch data.",
+    "stars": 7,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2026-03-07",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 49.2,
+    "tags": [
+      "vessel-research",
+      "global-fishing-watch",
+      "investigation",
+      "maritime"
+    ],
+    "category": "Vessel Research Toolkit",
+    "summary": "Notebook toolkit for investigating vessels with maritime datasets."
+  },
+  {
+    "repo_url": "https://github.com/celo-org/compliance",
+    "name": "celo-org/compliance",
+    "description": "No description provided.",
+    "stars": 7,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-21",
+    "sub_domain": "sanctions-compliance",
+    "score": 7,
+    "score_rationale": "Compliance data package and OFAC feed helper, relevant but narrower in scope.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 49.2,
+    "tags": [],
+    "category": "",
+    "summary": ""
+  },
+  {
+    "repo_url": "https://github.com/josna-14/maritime_vessel_tracking",
+    "name": "josna-14/Maritime_Vessel_Tracking",
+    "description": "Real-time maritime vessel tracking and port congestion analytics platform with safety alerts using React, Django, and AIS data",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 7,
+    "score_rationale": "Tracking and port-congestion analytics platform built on AIS data.",
+    "stars": 6,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2026-03-19",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 48.8,
+    "tags": [
+      "ais",
+      "port-analytics",
+      "vessel-tracking",
+      "dashboard"
+    ],
+    "category": "Vessel Analytics App",
+    "summary": "Tracks vessels and port congestion with AIS-driven safety alerts."
+  },
+  {
+    "repo_url": "https://github.com/nlp-team-unibo/stance-prediction",
+    "name": "NLP-Team-Unibo/stance-prediction",
+    "description": "Implicit stance prediction on political debates using speech features.",
+    "sub_domain": "political-text-nlp",
+    "score": 7,
+    "score_rationale": "It is explicitly about political debate stance prediction rather than generic NLP.",
+    "stars": 6,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2022-11-28",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 48.8,
+    "tags": [
+      "stance-prediction",
+      "political-debates",
+      "speech-features"
+    ],
+    "category": "Stance Prediction",
+    "summary": "Predicts stance in political debates from speech features."
+  },
+  {
+    "repo_url": "https://github.com/budget-lab-yale/tariff-etrs",
+    "name": "Budget-Lab-Yale/Tariff-ETRs",
+    "description": "R-based analysis of US import trade data by HTS10 commodity codes and trading partners.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 7,
+    "score_rationale": "Solid tariff-impact analysis repo with direct policy and trade data relevance.",
+    "stars": 5,
+    "language": "R",
+    "license": null,
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 48.2,
+    "tags": [
+      "tariffs",
+      "trade-data",
+      "etrs",
+      "analysis"
+    ],
+    "category": "Tariff Data Analysis",
+    "summary": "R analysis of US import trade data by commodity codes and partners."
+  },
+  {
+    "repo_url": "https://github.com/un-project/un-votes",
+    "name": "un-project/un-votes",
+    "description": "Visualizer for United Nations General Assembly voting records.",
+    "sub_domain": "network-alliance-analysis",
+    "score": 7,
+    "score_rationale": "It is a reusable voting-record visualizer, even if the scope is narrower than the core dataset packages.",
+    "stars": 5,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2024-08-18",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 48.2,
+    "tags": [
+      "un",
+      "voting",
+      "visualization",
+      "general-assembly",
+      "analysis"
+    ],
+    "category": "UN Voting Visualizer",
+    "summary": "Visualizes United Nations General Assembly voting records."
+  },
+  {
+    "repo_url": "https://github.com/dbrennand/twitter-stream-bot-data-gatherer",
+    "name": "dbrennand/twitter-stream-bot-data-gatherer",
+    "description": "Twitter stream application that forwards accounts to Botometer for bot analysis and stores the results.",
+    "sub_domain": "social-media-influence",
+    "score": 7,
+    "score_rationale": "It is a supporting pipeline for bot analysis rather than a full detector, but still directly useful.",
+    "stars": 5,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2022-02-28",
+    "found_in_domains": [
+      "social-media-influence"
+    ],
+    "quality_score": 48.2,
+    "tags": [
+      "bot-detection",
+      "botometer",
+      "data-pipeline",
+      "twitter"
+    ],
+    "category": "Bot Detection",
+    "summary": "Streams Twitter accounts into Botometer and stores results."
+  },
+  {
+    "repo_url": "https://github.com/unhcr-dataviz/unhcrthemes",
+    "name": "unhcr-dataviz/unhcrthemes",
+    "description": "UNHCR branded theme for ggplot2 and data visualization colour palettes",
+    "sub_domain": "migration-refugee-data",
+    "score": 6,
+    "score_rationale": "Data-visualization theme package supporting UNHCR reporting output.",
+    "stars": 31,
+    "language": "R",
+    "license": "NOASSERTION",
+    "last_activity": "2025-09-04",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 48.0,
+    "tags": [
+      "unhcr",
+      "visualization",
+      "themes",
+      "r"
+    ],
+    "category": "UNHCR Theme Package",
+    "summary": "Theme package and color palettes for UNHCR data visualizations."
+  },
+  {
+    "repo_url": "https://github.com/bigger312/sanctions-lists",
+    "name": "bigger312/Sanctions-Lists",
+    "description": "List of Sanctions and Most wanted",
+    "stars": 29,
+    "language": null,
+    "license": null,
+    "last_activity": "2017-06-09",
+    "sub_domain": "sanctions-compliance",
+    "score": 6,
+    "score_rationale": "Repository of sanctions lists that is relevant but more of a data mirror than a tool.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 47.8,
+    "tags": [
+      "sanctions-lists",
+      "watchlists",
+      "data-mirror",
+      "compliance"
+    ],
+    "category": "Sanctions Lists",
+    "summary": "Curates sanctions and most-wanted lists."
+  },
+  {
+    "repo_url": "https://github.com/uic-indexlab/news-ordering",
+    "name": "UIC-InDeXLab/news-ordering",
+    "description": "Project focused on maximizing neutrality in news ordering.",
+    "sub_domain": "media-bias-propaganda",
+    "score": 7,
+    "score_rationale": "It addresses neutrality in news presentation, which is adjacent to bias and propaganda analysis.",
+    "stars": 4,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2023-07-16",
+    "found_in_domains": [
+      "media-bias-propaganda"
+    ],
+    "quality_score": 47.6,
+    "tags": [
+      "news-ordering",
+      "neutrality",
+      "ranking",
+      "media-bias"
+    ],
+    "category": "Neutral News Ordering",
+    "summary": "Explores algorithms for maximizing neutrality in news ordering."
+  },
+  {
+    "repo_url": "https://github.com/allisterb/osiris",
+    "name": "allisterb/osiris",
+    "description": "Forecasting societal conflict and violence using open-source indicators and graph databases.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 7,
+    "score_rationale": "Clear early-warning framing with open indicators and a forecasting workflow.",
+    "stars": 4,
+    "language": "Jupyter Notebook",
+    "license": "GPL-3.0",
+    "last_activity": "2022-06-04",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 47.6,
+    "tags": [
+      "conflict-forecasting",
+      "open-indicators",
+      "graph-databases",
+      "early-warning"
+    ],
+    "category": "Conflict Forecasting",
+    "summary": "Forecasts societal conflict using open indicators and graph databases."
+  },
+  {
+    "repo_url": "https://github.com/kpcyrd/sn0int-modules",
+    "name": "kpcyrd/sn0int-modules",
+    "description": "No description provided.",
+    "stars": 24,
+    "language": "Lua",
+    "license": "GPL-3.0",
+    "last_activity": "2024-07-13",
+    "sub_domain": "osint-frameworks",
+    "score": 6,
+    "score_rationale": "Support modules for sn0int, so it is relevant but auxiliary.",
+    "found_in_domains": [
+      "osint-frameworks"
+    ],
+    "quality_score": 47.2,
+    "tags": [
+      "osint",
+      "modules",
+      "automation",
+      "reconnaissance",
+      "intelligence"
+    ],
+    "category": "OSINT Module Pack",
+    "summary": "Support modules for sn0int's OSINT workflows."
+  },
+  {
+    "repo_url": "https://github.com/nismod/transport-critical-minerals",
+    "name": "nismod/transport-critical-minerals",
+    "description": "Critical minerals transport analysis.",
+    "sub_domain": "energy-geopolitics",
+    "score": 7,
+    "score_rationale": "Directly addresses transport bottlenecks in critical-mineral supply chains.",
+    "stars": 2,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-02-05",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 45.8,
+    "tags": [
+      "critical-minerals",
+      "logistics",
+      "transport",
+      "supply-chain"
+    ],
+    "category": "Mineral Logistics",
+    "summary": "Analyzes transport bottlenecks in critical-mineral supply chains."
+  },
+  {
+    "repo_url": "https://github.com/zgastel/iaeasafeguardsinnovations",
+    "name": "zgastel/IAEASafeguardsInnovations",
+    "description": "Selected data from IAEA Annual Reports from 1970 - 2021",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 7,
+    "score_rationale": "IAEA annual-report data selected around safeguards and reporting.",
+    "stars": 2,
+    "language": null,
+    "license": null,
+    "last_activity": "2026-03-22",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 45.8,
+    "tags": [
+      "iaea",
+      "safeguards",
+      "nuclear",
+      "data",
+      "reports"
+    ],
+    "category": "IAEA Data Extract",
+    "summary": "Selected data from IAEA annual reports, 1970-2021."
+  },
+  {
+    "repo_url": "https://github.com/yecchen/gdelt-complexevent",
+    "name": "yecchen/GDELT-ComplexEvent",
+    "description": "Code and data for a temporal event forecasting benchmark built on GDELT.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 6,
+    "score_rationale": "Strong event-forecasting benchmark work with a clear GDELT connection.",
+    "stars": 16,
+    "language": "HTML",
+    "license": null,
+    "last_activity": "2024-02-02",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 45.8,
+    "tags": [
+      "event-forecasting",
+      "gdelt",
+      "benchmark",
+      "temporal-analysis"
+    ],
+    "category": "Event Forecasting",
+    "summary": "Temporal event-forecasting benchmark built on GDELT data."
+  },
+  {
+    "repo_url": "https://github.com/madupay/mcp-sanctions",
+    "name": "madupay/mcp-sanctions",
+    "description": "No description provided.",
+    "stars": 2,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2025-04-24",
+    "sub_domain": "sanctions-compliance",
+    "score": 7,
+    "score_rationale": "MCP server for sanctions screening, useful but more infrastructure-specific.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 45.8,
+    "tags": [
+      "sanctions-screening",
+      "mcp",
+      "ai-tools",
+      "compliance"
+    ],
+    "category": "Sanctions Screening",
+    "summary": "MCP server for sanctions screening workflows."
+  },
+  {
+    "repo_url": "https://github.com/qujx/ais-visual-fusion",
+    "name": "QuJX/AIS-Visual-Fusion",
+    "description": "Video/AIS Fusion-Empowered Intelligent Maritime Surveillance in Inland Waterways",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 6,
+    "score_rationale": "Video/AIS fusion project for inland-waterway maritime surveillance.",
+    "stars": 12,
+    "language": null,
+    "license": null,
+    "last_activity": "2025-11-01",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 44.9,
+    "tags": [
+      "ais",
+      "video-analytics",
+      "sensor-fusion",
+      "maritime"
+    ],
+    "category": "AIS Video Fusion",
+    "summary": "Fuses video and AIS for inland-waterway maritime surveillance."
+  },
+  {
+    "repo_url": "https://github.com/ravimildseven/globe-iq",
+    "name": "ravimildseven/globe-iq",
+    "description": "Interactive 3D world intelligence dashboard \u2014 click any country for news, economy, conflicts & more",
+    "stars": 1,
+    "language": "TypeScript",
+    "license": null,
+    "last_activity": "2026-03-24",
+    "sub_domain": "conflict-event-tracking",
+    "score": 7,
+    "score_rationale": "Interactive monitoring surface with direct conflict and geopolitical context across countries.",
+    "found_in_domains": [
+      "conflict-event-tracking"
+    ],
+    "quality_score": 44.4,
+    "tags": [
+      "world-intelligence",
+      "3d-map",
+      "geopolitics",
+      "news"
+    ],
+    "category": "World Intelligence Dashboard",
+    "summary": "Interactive 3D world dashboard combining news, economy, and conflicts."
+  },
+  {
+    "repo_url": "https://github.com/redliana/critical-minerals-data-tools",
+    "name": "Redliana/critical-minerals-data-tools",
+    "description": "MCP servers and REST APIs for critical minerals data access.",
+    "sub_domain": "energy-geopolitics",
+    "score": 7,
+    "score_rationale": "Useful infrastructure for critical-minerals intelligence and data access.",
+    "stars": 0,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-02-15",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 44.4,
+    "tags": [
+      "critical-minerals",
+      "mcp",
+      "api",
+      "data-access"
+    ],
+    "category": "Mineral Data Infrastructure",
+    "summary": "MCP servers and REST APIs for critical-mineral data access."
+  },
+  {
+    "repo_url": "https://github.com/pmbusch/critical-minerals-ev",
+    "name": "pmbusch/Critical-Minerals-EV",
+    "description": "Critical materials and supply-chain modeling for the EV transition.",
+    "sub_domain": "energy-geopolitics",
+    "score": 7,
+    "score_rationale": "Strong energy-transition supply-chain modeling with geopolitical implications.",
+    "stars": 1,
+    "language": "R",
+    "license": "MIT",
+    "last_activity": "2025-07-15",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 44.4,
+    "tags": [
+      "evs",
+      "critical-minerals",
+      "supply-chain",
+      "modeling"
+    ],
+    "category": "EV Supply Chains",
+    "summary": "Models critical materials for the electric-vehicle transition."
+  },
+  {
+    "repo_url": "https://github.com/group-geopulse/geopulse",
+    "name": "group-geopulse/GeoPulse",
+    "description": "AI system analyzing links between geopolitical events and crude oil pricing.",
+    "sub_domain": "energy-geopolitics",
+    "score": 7,
+    "score_rationale": "Direct bridge between geopolitical events and oil-market dynamics.",
+    "stars": 0,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2025-05-09",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 44.4,
+    "tags": [
+      "oil",
+      "geopolitics",
+      "pricing",
+      "analytics"
+    ],
+    "category": "Oil Geopolitics",
+    "summary": "AI system linking geopolitical events to crude-oil prices."
+  },
+  {
+    "repo_url": "https://github.com/sourize/navai-guard",
+    "name": "sourize/NavAI-Guard",
+    "description": "AI-Powered Maritime Security Through Intelligent Anomaly Detection",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 7,
+    "score_rationale": "Maritime anomaly-detection system for security-oriented monitoring.",
+    "stars": 1,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2026-01-21",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 44.4,
+    "tags": [
+      "maritime-security",
+      "anomaly-detection",
+      "ais",
+      "ai"
+    ],
+    "category": "Maritime Anomaly Detection",
+    "summary": "AI system for detecting anomalous maritime activity."
+  },
+  {
+    "repo_url": "https://github.com/nlplab-iust/adversarial_stance_detection",
+    "name": "NLPLab-IUST/adversarial_stance_detection",
+    "description": "Code and data for adversarial learning for zero-shot stance detection on social media.",
+    "sub_domain": "political-text-nlp",
+    "score": 7,
+    "score_rationale": "It is stance detection on social media with a clear downstream political-text use case.",
+    "stars": 0,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2022-07-16",
+    "found_in_domains": [
+      "political-text-nlp"
+    ],
+    "quality_score": 44.4,
+    "tags": [
+      "stance-detection",
+      "adversarial-learning",
+      "zero-shot",
+      "social-media"
+    ],
+    "category": "Stance Detection",
+    "summary": "Zero-shot stance detection with adversarial learning on social media."
+  },
+  {
+    "repo_url": "https://github.com/tbd54566975/sanctions-checker",
+    "name": "TBD54566975/sanctions-checker",
+    "description": "Experimental sanctions checker app for checking if a person is on a sanctions list with fuzzy string logic",
+    "stars": 0,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2023-11-07",
+    "sub_domain": "sanctions-compliance",
+    "score": 7,
+    "score_rationale": "Direct sanctions checker with fuzzy list-matching logic.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 44.4,
+    "tags": [
+      "sanctions-screening",
+      "fuzzy-matching",
+      "list-screening",
+      "compliance"
+    ],
+    "category": "Sanctions Screening",
+    "summary": "Fuzzy sanctions-list checker for people screening."
+  },
+  {
+    "repo_url": "https://github.com/userenigmatic/sanctions-pep-screening",
+    "name": "userenigmatic/sanctions-pep-screening",
+    "description": "Fuzzy matching for sanctions & PEP screening (OFAC list + Onboarding Customers) with Python, Streamlit dashboard - tests.",
+    "stars": 0,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-09-11",
+    "sub_domain": "sanctions-compliance",
+    "score": 7,
+    "score_rationale": "Fuzzy sanctions and PEP matching demo that directly fits the screening use case.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 44.4,
+    "tags": [
+      "sanctions-screening",
+      "pep-screening",
+      "streamlit",
+      "fuzzy-matching"
+    ],
+    "category": "Sanctions Screening",
+    "summary": "Fuzzy sanctions and PEP screening dashboard in Python."
+  },
+  {
+    "repo_url": "https://github.com/ahmadlp/tariffwar",
+    "name": "ahmadlp/tariffwar",
+    "description": "Self-contained tariff-war analysis package based on a trade model.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 6,
+    "score_rationale": "Specific tariff-war model, useful for scenario analysis even if narrower in scope.",
+    "stars": 8,
+    "language": "MATLAB",
+    "license": null,
+    "last_activity": "2026-03-11",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 43.6,
+    "tags": [
+      "tariff-war",
+      "trade-model",
+      "matlab",
+      "simulation"
+    ],
+    "category": "Tariff War Model",
+    "summary": "Self-contained model for tariff-war scenario analysis."
+  },
+  {
+    "repo_url": "https://github.com/connorrothschild/map-missing-migrants",
+    "name": "connorrothschild/map-missing-migrants",
+    "description": "\ud83c\udf0e A project to explore migrants who have been killed or gone missing",
+    "sub_domain": "migration-refugee-data",
+    "score": 6,
+    "score_rationale": "Mapping project focused on migrants who have been killed or gone missing.",
+    "stars": 8,
+    "language": "JavaScript",
+    "license": null,
+    "last_activity": "2020-01-31",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 43.6,
+    "tags": [
+      "migration",
+      "refugees",
+      "missing-migrants",
+      "humanitarian",
+      "mapping"
+    ],
+    "category": "Migration Data Map",
+    "summary": "Map of migrant deaths and disappearances."
+  },
+  {
+    "repo_url": "https://github.com/meisin/crudeoilnews-corpus",
+    "name": "meisin/CrudeOilNews-Corpus",
+    "description": "ACE/ERE-like crude-oil news corpus suitable for event extraction.",
+    "sub_domain": "energy-geopolitics",
+    "score": 6,
+    "score_rationale": "Event corpus for oil-news extraction is valuable input to energy-risk and geopolitics analysis.",
+    "stars": 5,
+    "language": null,
+    "license": "MIT",
+    "last_activity": "2022-04-07",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 42.2,
+    "tags": [
+      "oil",
+      "news",
+      "corpus",
+      "event-extraction"
+    ],
+    "category": "News Corpus",
+    "summary": "Crude-oil news corpus built for event extraction research."
+  },
+  {
+    "repo_url": "https://github.com/fossology/fossology",
+    "name": "fossology/fossology",
+    "description": "Open source license compliance system with export-control scanning support.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 3,
+    "score_rationale": "Tangential but still useful as compliance infrastructure for export-control workflows.",
+    "stars": 975,
+    "language": "HTML",
+    "license": "GPL-2.0",
+    "last_activity": "2026-03-18",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 41.9,
+    "tags": [
+      "compliance",
+      "export-control",
+      "license-scanning",
+      "security"
+    ],
+    "category": "Compliance Scanning System",
+    "summary": "Open source compliance system with export-control scanning support."
+  },
+  {
+    "repo_url": "https://github.com/trade-tariff/trade-tariff-api-docs",
+    "name": "trade-tariff/trade-tariff-api-docs",
+    "description": "Documentation site for the trade tariff API and related customs endpoints.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 6,
+    "score_rationale": "Useful supporting docs for a real tariff platform, though not the core engine.",
+    "stars": 4,
+    "language": "HTML",
+    "license": "MIT",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 41.6,
+    "tags": [
+      "tariffs",
+      "api-docs",
+      "customs",
+      "documentation"
+    ],
+    "category": "API Documentation Site",
+    "summary": "Documentation site for the trade tariff API and customs endpoints."
+  },
+  {
+    "repo_url": "https://github.com/ltgoslo/diachronic_armed_conflicts",
+    "name": "ltgoslo/diachronic_armed_conflicts",
+    "description": "Diachronic armed-conflict prediction from news texts and word embeddings.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 6,
+    "score_rationale": "Older but still clearly aligned with conflict forecasting from textual indicators.",
+    "stars": 4,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2019-07-29",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 41.6,
+    "tags": [
+      "conflict-forecasting",
+      "news-text",
+      "word-embeddings",
+      "armed-conflict"
+    ],
+    "category": "Conflict Forecasting",
+    "summary": "News embeddings for diachronic armed-conflict prediction."
+  },
+  {
+    "repo_url": "https://github.com/siacus/conflicts",
+    "name": "siacus/conflicts",
+    "description": "Replication material for forecasting change in conflict fatalities with dynamic elastic net models.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 6,
+    "score_rationale": "A direct replication of a conflict-fatality forecasting method.",
+    "stars": 4,
+    "language": "R",
+    "license": null,
+    "last_activity": "2022-10-20",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 41.6,
+    "tags": [
+      "conflict-forecasting",
+      "elastic-net",
+      "fatalities",
+      "replication"
+    ],
+    "category": "Conflict Forecasting",
+    "summary": "Replicates dynamic elastic-net models for conflict fatalities."
+  },
+  {
+    "repo_url": "https://github.com/bhemen/ofac-sdn-analysis",
+    "name": "bhemen/OFAC-SDN-analysis",
+    "description": "Python scripts for scraping OFAC's list of Specially Designated Nationals (The SDN List), with the goal of extracting blockchain addresses",
+    "stars": 4,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2023-04-11",
+    "sub_domain": "sanctions-compliance",
+    "score": 6,
+    "score_rationale": "Focused analysis scripts around OFAC SDN data, relevant but limited in scope.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 41.6,
+    "tags": [
+      "ofac",
+      "sdn-list",
+      "blockchain",
+      "data-extraction"
+    ],
+    "category": "Sanctions Analysis",
+    "summary": "Scrapes OFAC SDN data to extract blockchain addresses."
+  },
+  {
+    "repo_url": "https://github.com/supermayo/ais_tracker",
+    "name": "SuperMayo/AIS_tracker",
+    "description": "Vessel tracking for free with scheduled Github workflow",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 6,
+    "score_rationale": "Automated AIS tracking setup for vessel monitoring.",
+    "stars": 3,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 40.8,
+    "tags": [
+      "ais",
+      "automation",
+      "vessel-tracking",
+      "github-actions"
+    ],
+    "category": "Automated AIS Tracking",
+    "summary": "Scheduled workflow for free vessel tracking using AIS."
+  },
+  {
+    "repo_url": "https://github.com/small-hack/kaartmaker",
+    "name": "small-hack/kaartmaker",
+    "description": "Make maps of world voting patterns, such as UN General Assembly votes.",
+    "sub_domain": "network-alliance-analysis",
+    "score": 6,
+    "score_rationale": "It supports world-voting-pattern visualization, which is useful for alliance mapping even if it is not a core dataset.",
+    "stars": 2,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-14",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 39.8,
+    "tags": [
+      "un",
+      "voting",
+      "mapping",
+      "visualization",
+      "geopolitics"
+    ],
+    "category": "Voting Map Generator",
+    "summary": "Makes maps of world voting patterns such as UN votes."
+  },
+  {
+    "repo_url": "https://github.com/gwilliford/conflict-forecasting",
+    "name": "gwilliford/Conflict-Forecasting",
+    "description": "Replication files for a Bayesian forecasting model of international conflict.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 6,
+    "score_rationale": "Direct conflict-forecasting replication work, useful despite being narrower in scope.",
+    "stars": 2,
+    "language": "R",
+    "license": null,
+    "last_activity": "2021-03-21",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 39.8,
+    "tags": [
+      "conflict-forecasting",
+      "bayesian-models",
+      "replication-code",
+      "international-conflict"
+    ],
+    "category": "Conflict Forecasting",
+    "summary": "Bayesian replication code for international conflict forecasting."
+  },
+  {
+    "repo_url": "https://github.com/dw-data/crm-africa",
+    "name": "dw-data/CRM-africa",
+    "description": "Data analysis and methodology for a 2025 story on critical minerals in Africa.",
+    "sub_domain": "energy-geopolitics",
+    "score": 6,
+    "score_rationale": "Regional critical-minerals analysis is relevant to energy geopolitics and resource security.",
+    "stars": 0,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2025-09-25",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "africa",
+      "critical-minerals",
+      "resource-security",
+      "data-analysis"
+    ],
+    "category": "Minerals in Africa",
+    "summary": "Data analysis for a story on critical minerals in Africa."
+  },
+  {
+    "repo_url": "https://github.com/mrajancsr/oil-market-dashboard",
+    "name": "mrajancsr/oil-market-dashboard",
+    "description": "Interactive dashboard monitoring WTI, Brent, inventories, and volatility.",
+    "sub_domain": "energy-geopolitics",
+    "score": 6,
+    "score_rationale": "Useful oil-market monitoring dashboard with direct relevance to energy pricing dynamics.",
+    "stars": 1,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-07-29",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "oil",
+      "dashboard",
+      "wti",
+      "brent",
+      "markets"
+    ],
+    "category": "Oil Market Monitor",
+    "summary": "Interactive dashboard for WTI, Brent, inventories, and volatility."
+  },
+  {
+    "repo_url": "https://github.com/wuwenchang666/geopolitics-reshapes-the-global-lng-trade",
+    "name": "wuwenchang666/Geopolitics-reshapes-the-global-LNG-trade",
+    "description": "Network-analysis code for studying how geopolitics reshapes the global LNG trade.",
+    "sub_domain": "energy-geopolitics",
+    "score": 6,
+    "score_rationale": "Directly on LNG trade geopolitics, albeit in a relatively small academic repo.",
+    "stars": 0,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2025-12-31",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "lng",
+      "trade",
+      "geopolitics",
+      "network-analysis"
+    ],
+    "category": "LNG Trade Analysis",
+    "summary": "Network analysis of how geopolitics reshapes global LNG trade."
+  },
+  {
+    "repo_url": "https://github.com/global-fishing-effort/mapping_fishing_effort_app",
+    "name": "Global-Fishing-Effort/mapping_fishing_effort_app",
+    "description": "Shiny application to display new fishing effort data",
+    "sub_domain": "maritime-border-monitoring",
+    "score": 6,
+    "score_rationale": "Operational platform for exploring and downloading global fishing-effort data.",
+    "stars": 0,
+    "language": "R",
+    "license": null,
+    "last_activity": "2026-02-11",
+    "found_in_domains": [
+      "maritime-border-monitoring"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "fishing-effort",
+      "dashboard",
+      "shiny",
+      "maritime"
+    ],
+    "category": "Fishing Effort Dashboard",
+    "summary": "Shiny app for exploring and downloading fishing-effort data."
+  },
+  {
+    "repo_url": "https://github.com/munterfi/missing-migrants",
+    "name": "munterfi/missing-migrants",
+    "description": "Visualization of IOM's Missing Migrants Project data  (2014-2019).",
+    "sub_domain": "migration-refugee-data",
+    "score": 6,
+    "score_rationale": "Missing-migrants analysis and visualization project tied to displacement data.",
+    "stars": 1,
+    "language": "R",
+    "license": "GPL-3.0",
+    "last_activity": "2021-10-02",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "migration",
+      "refugees",
+      "iom",
+      "data-visualization",
+      "humanitarian"
+    ],
+    "category": "Migration Data Visualization",
+    "summary": "R visualizes IOM missing migrants data from 2014-2019."
+  },
+  {
+    "repo_url": "https://github.com/evalipska/un-general-assembly-votes",
+    "name": "EvaLipska/UN-General-Assembly-votes",
+    "description": "The analysis of the United Nations General Assembly votes from 1946 to 2017, including predictive modeling analysis.",
+    "sub_domain": "network-alliance-analysis",
+    "score": 6,
+    "score_rationale": "It is directly about UNGA vote analysis, though it is more notebook-style than a reusable package.",
+    "stars": 1,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2018-05-30",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "un",
+      "voting",
+      "analysis",
+      "prediction",
+      "ideal-points"
+    ],
+    "category": "UN Voting Analysis",
+    "summary": "Notebook analysis of UNGA votes with predictive modeling."
+  },
+  {
+    "repo_url": "https://github.com/ghoye/un_voting",
+    "name": "ghoye/un_voting",
+    "description": "A look at the voting history of the United Nations General Assembly, utilizing various packages from the R tidyverse.",
+    "sub_domain": "network-alliance-analysis",
+    "score": 6,
+    "score_rationale": "It is a direct UNGA voting-history analysis repo, but not a widely reused toolkit.",
+    "stars": 1,
+    "language": "R",
+    "license": null,
+    "last_activity": "2023-01-18",
+    "found_in_domains": [
+      "network-alliance-analysis"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "un",
+      "voting",
+      "analysis",
+      "tidyverse",
+      "general-assembly"
+    ],
+    "category": "UN Voting Analysis",
+    "summary": "R tidyverse analysis of UN General Assembly voting history."
+  },
+  {
+    "repo_url": "https://github.com/edx/sanctions",
+    "name": "edx/sanctions",
+    "description": "Backend Django IDA for checking users against Specially Designated Nationals (SDN) and Nonproliferation Sanctions (ISN), as well as managing these sanctions hit records.",
+    "sub_domain": "nuclear-wmd-proliferation",
+    "score": 6,
+    "score_rationale": "Sanctions backend adjacent to proliferation enforcement and screening.",
+    "stars": 1,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "last_activity": "2025-09-11",
+    "found_in_domains": [
+      "nuclear-wmd-proliferation"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "sanctions",
+      "screening",
+      "nonproliferation",
+      "compliance",
+      "backend"
+    ],
+    "category": "Sanctions Screening Backend",
+    "summary": "Django backend for sanctions and nonproliferation screening."
+  },
+  {
+    "repo_url": "https://github.com/kitmetricslab/tadda",
+    "name": "KITmetricslab/tadda",
+    "description": "Code for the TADDA score used in armed-conflict forecasting evaluation.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 6,
+    "score_rationale": "Evaluation tooling for conflict forecasts rather than the forecast model itself.",
+    "stars": 0,
+    "language": "R",
+    "license": null,
+    "last_activity": "2025-07-24",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "conflict-forecasting",
+      "evaluation-metric",
+      "forecast-scoring",
+      "armed-conflict"
+    ],
+    "category": "Forecast Evaluation",
+    "summary": "Implements the TADDA evaluation score for conflict forecasts."
+  },
+  {
+    "repo_url": "https://github.com/eventdata/utdeventdata",
+    "name": "eventdata/UTDEventData",
+    "description": "R package for retrieving political event data from the UTD API server.",
+    "sub_domain": "risk-forecasting-models",
+    "score": 6,
+    "score_rationale": "Useful political event-data plumbing that supports risk and early-warning models.",
+    "stars": 1,
+    "language": "SCSS",
+    "license": "MIT",
+    "last_activity": "2024-01-12",
+    "found_in_domains": [
+      "risk-forecasting-models"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "political-event-data",
+      "r-package",
+      "api-client",
+      "data-access"
+    ],
+    "category": "Event Data Access",
+    "summary": "R package for pulling political event data from the UTD API."
+  },
+  {
+    "repo_url": "https://github.com/mbanq/watchman",
+    "name": "Mbanq/watchman",
+    "description": "watchman",
+    "stars": 0,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2025-06-26",
+    "sub_domain": "sanctions-compliance",
+    "score": 6,
+    "score_rationale": "Another watchman implementation, relevant but less clearly central than moov-io/watchman.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "sanctions-screening",
+      "watchlists",
+      "go",
+      "compliance"
+    ],
+    "category": "Sanctions Screening",
+    "summary": "Alternative watchman implementation for sanctions screening."
+  },
+  {
+    "repo_url": "https://github.com/russellpwirtz/java-compliance-api",
+    "name": "russellpwirtz/java-compliance-api",
+    "description": "PEPS and Sanctions API",
+    "stars": 0,
+    "language": "Java",
+    "license": null,
+    "last_activity": "2019-01-14",
+    "sub_domain": "sanctions-compliance",
+    "score": 6,
+    "score_rationale": "ComplyAdvantage API wrapper, useful but dependent on a commercial service.",
+    "found_in_domains": [
+      "sanctions-compliance"
+    ],
+    "quality_score": 38.4,
+    "tags": [
+      "sanctions-api",
+      "pep-screening",
+      "java",
+      "compliance"
+    ],
+    "category": "Compliance API",
+    "summary": "Java API for PEP and sanctions checks."
+  },
+  {
+    "repo_url": "https://github.com/affinitybridge/unhcr",
+    "name": "affinitybridge/unhcr",
+    "description": "Map of services for Syrian refugees in Jordan",
+    "sub_domain": "migration-refugee-data",
+    "score": 5,
+    "score_rationale": "Older refugee services map; kept only as a lightweight historical reference.",
+    "stars": 5,
+    "language": "CSS",
+    "license": "MIT",
+    "last_activity": "2016-07-12",
+    "found_in_domains": [
+      "migration-refugee-data"
+    ],
+    "quality_score": 36.2,
+    "tags": [
+      "refugees",
+      "jordan",
+      "humanitarian",
+      "services",
+      "mapping"
+    ],
+    "category": "Refugee Services Map",
+    "summary": "Map of Syrian refugee services in Jordan."
+  },
+  {
+    "repo_url": "https://github.com/iept/iess2047",
+    "name": "iept/iess2047",
+    "description": "India Energy Security Scenarios 2047 source code.",
+    "sub_domain": "energy-geopolitics",
+    "score": 5,
+    "score_rationale": "Energy-security scenario work is relevant, though this repo is older and narrower.",
+    "stars": 2,
+    "language": "JavaScript",
+    "license": null,
+    "last_activity": "2015-05-12",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 33.8,
+    "tags": [
+      "india",
+      "energy-security",
+      "scenarios",
+      "policy"
+    ],
+    "category": "Energy Scenarios",
+    "summary": "India Energy Security Scenarios 2047 source code."
+  },
+  {
+    "repo_url": "https://github.com/davidkeebler/tariffs-analysis",
+    "name": "Davidkeebler/Tariffs-Analysis",
+    "description": "Analysis project focused on U.S. international trade and tariff policy datasets.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 5,
+    "score_rationale": "Relevant tariff analysis work, but lighter-weight than the policy tooling above.",
+    "stars": 0,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2025-04-23",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 32.4,
+    "tags": [
+      "tariffs",
+      "analysis",
+      "notebook",
+      "trade-policy"
+    ],
+    "category": "Tariff Analysis Notebook",
+    "summary": "Notebook project analyzing U.S. tariff and trade policy datasets."
+  },
+  {
+    "repo_url": "https://github.com/laurencehw/economic-coercion",
+    "name": "laurencehw/economic-coercion",
+    "description": "Living textbook on sanctions, economic statecraft, and geoeconomic strategy.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 5,
+    "score_rationale": "Conceptually on-target for coercive economic statecraft, though more educational than operational.",
+    "stars": 0,
+    "language": "R",
+    "license": "NOASSERTION",
+    "last_activity": "2026-02-25",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 32.4,
+    "tags": [
+      "sanctions",
+      "economic-statecraft",
+      "geoeconomics",
+      "textbook"
+    ],
+    "category": "Economic Statecraft Textbook",
+    "summary": "Living textbook on sanctions, economic statecraft, and geoeconomic strategy."
+  },
+  {
+    "repo_url": "https://github.com/celebmunyiri/oil-prices-forecaster",
+    "name": "CelebMunyiri/oil-prices-forecaster",
+    "description": "Oil-price prediction model incorporating economic indicators and geopolitical events.",
+    "sub_domain": "energy-geopolitics",
+    "score": 5,
+    "score_rationale": "Forecasting oil prices with geopolitical inputs is relevant, though the repo is lightweight.",
+    "stars": 1,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2023-05-01",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 32.4,
+    "tags": [
+      "oil",
+      "forecasting",
+      "geopolitics",
+      "economics"
+    ],
+    "category": "Oil Forecasting",
+    "summary": "Oil-price predictor using economic indicators and geopolitical events."
+  },
+  {
+    "repo_url": "https://github.com/kacperkerszen/energy_security",
+    "name": "kacperkerszen/energy_security",
+    "description": "Analysis of energy security in EU countries using multivariate methods.",
+    "sub_domain": "energy-geopolitics",
+    "score": 5,
+    "score_rationale": "A narrower energy-security analysis project, but still on topic for the subdomain.",
+    "stars": 0,
+    "language": "R",
+    "license": null,
+    "last_activity": "2024-02-19",
+    "found_in_domains": [
+      "energy-geopolitics"
+    ],
+    "quality_score": 32.4,
+    "tags": [
+      "europe",
+      "energy-security",
+      "statistics",
+      "r-analysis"
+    ],
+    "category": "Energy Security Study",
+    "summary": "Multivariate analysis of energy security across EU countries."
+  },
+  {
+    "repo_url": "https://github.com/defra/waste-export-controls-tool",
+    "name": "DEFRA/waste-export-controls-tool",
+    "description": "Service for checking waste export controls for shipments from the UK.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 2,
+    "score_rationale": "Export-control adjacent, but narrower and less central than trade-policy tooling.",
+    "stars": 2,
+    "language": "JavaScript",
+    "license": null,
+    "last_activity": "2023-10-16",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 15.8,
+    "tags": [
+      "export-control",
+      "shipments",
+      "compliance",
+      "uk"
+    ],
+    "category": "Export Controls Tool",
+    "summary": "Service for checking waste export controls for UK shipments."
+  },
+  {
+    "repo_url": "https://github.com/dhrubo2003/export-control-class-hierarchy",
+    "name": "Dhrubo2003/Export-Control-Class-Hierarchy",
+    "description": "Streamlit app for identifying and categorizing export control codes.",
+    "sub_domain": "economic-statecraft-trade",
+    "score": 1,
+    "score_rationale": "Weak but still related export-control support tooling.",
+    "stars": 2,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2024-12-14",
+    "found_in_domains": [
+      "economic-statecraft-trade"
+    ],
+    "quality_score": 9.8,
+    "tags": [
+      "export-control",
+      "classification",
+      "streamlit",
+      "python"
+    ],
+    "category": "Export Code Classifier",
+    "summary": "Streamlit app for identifying and categorizing export control codes."
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/reyemb/oss-aisexplorer",
+  "name": "reyemb/oss-aisexplorer",
+  "description": "Marine vessel tracking tool by geolocation, MMSI, or MarineTraffic URLs",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 8,
+  "score_rationale": "Vessel-tracking tool with geolocation and MMSI lookup workflows.",
+  "stars": 30,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-02-21",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 59.9,
+  "tags": [
+    "ais",
+    "vessel-search",
+    "marine-traffic",
+    "geolocation"
+  ],
+  "category": "Vessel Search Tool",
+  "summary": "Searches and tracks vessels by location, MMSI, or MarineTraffic URL.",
+  "slug": "reyemb-oss-aisexplorer"
+}

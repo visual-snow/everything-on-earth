@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bioimageit/bioimageit",
+  "name": "bioimageit/bioimageit",
+  "description": "A FAIR data management and image analysis framework. FAIR stands for Findable, Accessible, Interoperable and Reusable.",
+  "sub_domain": "biomedical-imaging",
+  "score": 7,
+  "score_rationale": "BioImageIT is a genuinely bioimage-focused framework for managing and running analysis workflows, not a generic utility layer.",
+  "stars": 9,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-08-25",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 50.0,
+  "discovery_score": 7,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "A FAIR data management and image analysis framework. FAIR stands for Findable, Accessible, Interoperable and Reusable.",
+  "slug": "bioimageit-bioimageit"
+}

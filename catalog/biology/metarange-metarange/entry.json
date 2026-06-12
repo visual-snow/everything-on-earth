@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/metarange/metarange",
+  "name": "metarange/metarange",
+  "description": "R package to perform mechanistic & metabolic constrained species range simulations",
+  "sub_domain": "climate-biology",
+  "score": 9,
+  "score_rationale": "It is purpose-built for species range simulation under changing environmental conditions, including climate variables.",
+  "stars": 12,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2025-07-09",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 62.9,
+  "discovery_score": 9,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "R package to perform mechanistic & metabolic constrained species range simulations",
+  "slug": "metarange-metarange"
+}

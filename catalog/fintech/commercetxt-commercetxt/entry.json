@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/commercetxt/commercetxt",
+  "name": "commercetxt/commercetxt",
+  "description": "Transaction-ready context for AI agents. Like llms.txt, but for e-commerce.",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 21,
+  "language": "Python",
+  "license": "CC0-1.0",
+  "last_activity": "2026-01-16",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 16.7,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Transaction-ready context for AI agents. Like llms.txt, but for e-commerce.",
+  "slug": "commercetxt-commercetxt"
+}

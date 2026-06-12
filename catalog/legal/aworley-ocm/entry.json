@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aworley/ocm",
+  "name": "aworley/ocm",
+  "description": "The Open Case Management Project",
+  "sub_domain": "court-case-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 24,
+  "language": "PHP",
+  "license": "GPL-2.0",
+  "last_activity": "2022-08-20",
+  "found_in_domains": [
+    "court-case-management"
+  ],
+  "quality_score": 35.2,
+  "discovery_score": 4,
+  "tags": [
+    "court-case-management",
+    "e-filing",
+    "docket-management",
+    "judicial-workflow"
+  ],
+  "category": "Court / Case Management \u2014 docketing, e-filing, case tracking, judicial workflow",
+  "summary": "The Open Case Management Project",
+  "slug": "aworley-ocm"
+}

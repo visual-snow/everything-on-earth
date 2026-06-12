@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jniedballa/camtrapr",
+  "name": "jniedballa/camtrapR",
+  "description": "R package for camera trap data management.",
+  "sub_domain": "ecology-conservation",
+  "score": 9,
+  "score_rationale": "Canonical camera-trap workflow package for organizing images and generating occupancy and capture-recapture inputs.",
+  "stars": 42,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-12-20",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 67.1,
+  "discovery_score": 9,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "R package for camera trap data management.",
+  "slug": "jniedballa-camtrapr"
+}

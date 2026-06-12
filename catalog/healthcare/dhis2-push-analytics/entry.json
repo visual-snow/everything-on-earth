@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dhis2/push-analytics",
+  "name": "dhis2/push-analytics",
+  "description": "No description provided.",
+  "sub_domain": "public-health-population-analytics",
+  "score": 7,
+  "score_rationale": "DHIS2 analytics delivery tool that supports reporting workflows and downstream public-health consumption.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "public-health-population-analytics"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "public-health",
+    "population-health",
+    "equity",
+    "demographics"
+  ],
+  "category": "Public Health, Population Analytics, Health Equity & Demographic Modeling",
+  "summary": "No description provided.",
+  "slug": "dhis2-push-analytics"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/drshahizan/special-topic-data-engineering",
+  "name": "drshahizan/special-topic-data-engineering",
+  "description": "This course presents to the students recent research and industrial issues pertaining to data engineering, database systems and technologies. Various topics of interests that are directly or indirectly affecting or are being influenced by data engineering, database systems and technologies are explored and discussed.",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption; penalized for course-style signals.",
+  "stars": 126,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-01-02",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 1,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "This course presents to the students recent research and industrial issues pertaining to data engineering, database systems and technolog...",
+  "slug": "drshahizan-special-topic-data-engineering"
+}

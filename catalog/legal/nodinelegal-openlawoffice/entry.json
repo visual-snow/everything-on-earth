@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nodinelegal/openlawoffice",
+  "name": "nodinelegal/openlawoffice",
+  "description": "Open source law office management - case management, billing, tasking and more",
+  "sub_domain": "legal-practice-management",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+  "stars": 33,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2016-04-10",
+  "found_in_domains": [
+    "legal-practice-management"
+  ],
+  "quality_score": 48.3,
+  "discovery_score": 6,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "Open source law office management - case management, billing, tasking and more",
+  "slug": "nodinelegal-openlawoffice"
+}

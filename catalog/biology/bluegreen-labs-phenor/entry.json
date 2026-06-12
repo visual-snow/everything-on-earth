@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bluegreen-labs/phenor",
+  "name": "bluegreen-labs/phenor",
+  "description": "A phenology modelling framework in R",
+  "sub_domain": "climate-biology",
+  "score": 10,
+  "score_rationale": "Direct phenology modeling framework in R, which is an exact match for the subdomain.",
+  "stars": 50,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 73.7,
+  "discovery_score": 10,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "A phenology modelling framework in R",
+  "slug": "bluegreen-labs-phenor"
+}

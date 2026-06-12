@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/adorsys/ledgers",
+  "name": "adorsys/ledgers",
+  "description": "Simple Open Source implementation of a deposit account application (ASPSP core-banking) from adorsys",
+  "sub_domain": "core-banking-ledger",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+  "stars": 80,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2025-08-01",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 45.3,
+  "discovery_score": 5,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "Simple Open Source implementation of a deposit account application (ASPSP core-banking) from adorsys",
+  "slug": "adorsys-ledgers"
+}

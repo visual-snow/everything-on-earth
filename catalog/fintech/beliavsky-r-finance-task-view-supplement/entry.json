@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/beliavsky/r-finance-task-view-supplement",
+  "name": "beliavsky/r-finance-task-view-supplement",
+  "description": "R Finance packages not listed in the Empirical Finance Task View",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 13,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 15.2,
+  "discovery_score": 1,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "R Finance packages not listed in the Empirical Finance Task View",
+  "slug": "beliavsky-r-finance-task-view-supplement"
+}

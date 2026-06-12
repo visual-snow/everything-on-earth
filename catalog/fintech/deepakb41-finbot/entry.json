@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/deepakb41/finbot",
+  "name": "deepakb41/finbot",
+  "description": "Finbot is an AI-powered financial chatbot designed to analyse and provide insights on corporate financial performance from 10-K and 10-Q financial documents. This tool leverages langchain and RAG to make complex financial data easily accessible and understandable through a conversational interface.",
+  "sub_domain": "financial-document-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 7,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "financial document processing open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 25.2,
+  "discovery_score": 3,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Finbot is an AI-powered financial chatbot designed to analyse and provide insights on corporate financial performance from 10-K and 10-Q...",
+  "slug": "deepakb41-finbot"
+}

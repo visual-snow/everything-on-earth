@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kevalabs/keva",
+  "name": "kevalabs/keva",
+  "description": "A High-Performance, Composable Banking Platform",
+  "sub_domain": "core-banking-ledger",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "A High-Performance, Composable Banking Platform",
+  "slug": "kevalabs-keva"
+}

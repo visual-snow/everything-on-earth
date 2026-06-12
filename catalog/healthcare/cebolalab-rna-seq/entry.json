@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cebolalab/rna-seq",
+  "name": "CebolaLab/RNA-seq",
+  "description": "Step-by-step analysis pipeline for RNA-seq data",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 4,
+  "score_rationale": "Concrete RNA-seq workflow, though smaller and less maintained than major community pipelines.",
+  "stars": 166,
+  "language": "Shell",
+  "license": null,
+  "last_activity": "2023-09-05",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 41.8,
+  "discovery_score": 4,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Step-by-step analysis pipeline for RNA-seq data",
+  "slug": "cebolalab-rna-seq"
+}

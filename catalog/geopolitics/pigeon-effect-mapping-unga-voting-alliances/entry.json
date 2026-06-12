@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pigeon-effect/mapping-unga-voting-alliances",
+  "name": "Pigeon-Effect/Mapping-UNGA-Voting-Alliances",
+  "description": "Mapping UNGA Voting Alliances analyzes United Nations General Assembly voting patterns (1970-2022) to reveal geopolitical clusters and bilateral alignments.",
+  "sub_domain": "network-alliance-analysis",
+  "score": 9,
+  "score_rationale": "It is explicitly built to reveal voting alliances and bilateral alignments from UNGA data.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2025-06-24",
+  "found_in_domains": [
+    "network-alliance-analysis"
+  ],
+  "quality_score": 56.4,
+  "tags": [
+    "un",
+    "voting",
+    "alliances",
+    "geopolitics",
+    "mapping"
+  ],
+  "category": "UN Alliance Mapping",
+  "summary": "Maps UNGA voting blocs and bilateral alignments.",
+  "slug": "pigeon-effect-mapping-unga-voting-alliances"
+}

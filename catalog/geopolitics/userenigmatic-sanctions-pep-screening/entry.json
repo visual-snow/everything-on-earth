@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/userenigmatic/sanctions-pep-screening",
+  "name": "userenigmatic/sanctions-pep-screening",
+  "description": "Fuzzy matching for sanctions & PEP screening (OFAC list + Onboarding Customers) with Python, Streamlit dashboard - tests.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-09-11",
+  "sub_domain": "sanctions-compliance",
+  "score": 7,
+  "score_rationale": "Fuzzy sanctions and PEP matching demo that directly fits the screening use case.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 44.4,
+  "tags": [
+    "sanctions-screening",
+    "pep-screening",
+    "streamlit",
+    "fuzzy-matching"
+  ],
+  "category": "Sanctions Screening",
+  "summary": "Fuzzy sanctions and PEP screening dashboard in Python.",
+  "slug": "userenigmatic-sanctions-pep-screening"
+}

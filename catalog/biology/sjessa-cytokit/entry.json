@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sjessa/cytokit",
+  "name": "sjessa/cytokit",
+  "description": "Toolkit for analyzing single cell RNA-seq data",
+  "sub_domain": "transcriptomics",
+  "score": 5,
+  "score_rationale": "Single-cell RNA-seq toolkit that is relevant but comparatively small and older than the major ecosystem packages.",
+  "stars": 2,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2020-02-06",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Toolkit for analyzing single cell RNA-seq data",
+  "slug": "sjessa-cytokit"
+}

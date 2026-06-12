@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/albert-z-guo/deep-reinforcement-stock-trading",
+  "name": "albert-z-guo/deep-reinforcement-stock-trading",
+  "description": "A light-weight deep reinforcement learning framework for portfolio management. This project explores the possibility of applying deep reinforcement learning algorithms to stock trading in a highly modular and scalable framework.",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 9,
+  "score_rationale": "Applied deep-RL framework for stock trading and portfolio management.",
+  "stars": 692,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2024-11-06",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 76.7,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning",
+    "portfolio"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "A light-weight deep reinforcement learning framework for portfolio management. This project explores the...",
+  "slug": "albert-z-guo-deep-reinforcement-stock-trading"
+}

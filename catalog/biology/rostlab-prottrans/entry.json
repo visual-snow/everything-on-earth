@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rostlab/prottrans",
+  "name": "rostlab/prottrans",
+  "description": "ProtTrans is providing state of the art pretrained language models for proteins.",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 7,
+  "score_rationale": "Canonical protein language-model work, but the GitHub repo is a fork with weak maintenance signal and little recent activity.",
+  "stars": 11,
+  "language": null,
+  "license": "AFL-3.0",
+  "last_activity": "2022-06-02",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 50.6,
+  "discovery_score": 7,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "ProtTrans is providing state of the art pretrained language models for proteins.",
+  "slug": "rostlab-prottrans"
+}

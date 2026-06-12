@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mrc-ide/individual",
+  "name": "mrc-ide/individual",
+  "description": "R package for individual-based infectious-disease simulations.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 9,
+  "score_rationale": "Established individual-based modeling package that supports more realistic infectious-disease simulation than simple compartment models.",
+  "stars": 33,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-08-12",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 66.3,
+  "discovery_score": 9,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "R package for individual-based infectious-disease simulations.",
+  "slug": "mrc-ide-individual"
+}

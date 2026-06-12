@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sprasadhpy/credit-risk-models-pd-lgd-ead-expected-loss",
+  "name": "sprasadhpy/credit-risk-models-pd-lgd-ead-expected-loss",
+  "description": "We calculate PD,LGD,EAD and Expected loss using logistic and beta regression.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 11,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-02-16",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 32.6,
+  "discovery_score": 4,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "We calculate PD,LGD,EAD and Expected loss using logistic and beta regression.",
+  "slug": "sprasadhpy-credit-risk-models-pd-lgd-ead-expected-loss"
+}

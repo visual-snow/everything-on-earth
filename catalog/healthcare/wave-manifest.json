@@ -1,0 +1,36 @@
+{
+  "wave": 19,
+  "domain": "medical-ai-diagnostics",
+  "total_entries": 348,
+  "slugs": [
+    {
+      "slug": "som-shahlab-ehr-rwe",
+      "tier": 3,
+      "stars": 35
+    },
+    {
+      "slug": "opentrials-registers",
+      "tier": 3,
+      "stars": 35
+    },
+    {
+      "slug": "chanzuckerberg-full-text-mining-ner",
+      "tier": 3,
+      "stars": 5
+    }
+  ],
+  "batch_size": {
+    "1": 10,
+    "2": 5,
+    "3": 3
+  },
+  "judge_scope": {
+    "1": 5,
+    "2": 3,
+    "3": 1
+  },
+  "style_anchors": [
+    "/Users/emolero/Documents/GitHub/ot/everything-on-earth/catalog/healthcare/project-monai-monai/capability.md",
+    "/Users/emolero/Documents/GitHub/ot/everything-on-earth/catalog/healthcare/microsoft-presidio/capability.md"
+  ]
+}

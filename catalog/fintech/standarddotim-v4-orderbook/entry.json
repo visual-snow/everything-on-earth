@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/standarddotim/v4-orderbook",
+  "name": "standarddotim/v4-orderbook",
+  "description": "Uniswap v4 hook with limit order integration on orderbook",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 3,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2024-06-10",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Uniswap v4 hook with limit order integration on orderbook",
+  "slug": "standarddotim-v4-orderbook"
+}

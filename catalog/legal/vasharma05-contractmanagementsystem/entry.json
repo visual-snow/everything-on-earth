@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/vasharma05/contractmanagementsystem",
+  "name": "vasharma05/contractmanagementsystem",
+  "description": "A Contract Management System that was built by me as an intern.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 6,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2019-11-18",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 24.8,
+  "discovery_score": 3,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining",
+    "contract"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "A Contract Management System that was built by me as an intern.",
+  "slug": "vasharma05-contractmanagementsystem"
+}

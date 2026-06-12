@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/gwilliford/conflict-forecasting",
+  "name": "gwilliford/Conflict-Forecasting",
+  "description": "Replication files for a Bayesian forecasting model of international conflict.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 6,
+  "score_rationale": "Direct conflict-forecasting replication work, useful despite being narrower in scope.",
+  "stars": 2,
+  "language": "R",
+  "license": null,
+  "last_activity": "2021-03-21",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 39.8,
+  "tags": [
+    "conflict-forecasting",
+    "bayesian-models",
+    "replication-code",
+    "international-conflict"
+  ],
+  "category": "Conflict Forecasting",
+  "summary": "Bayesian replication code for international conflict forecasting.",
+  "slug": "gwilliford-conflict-forecasting"
+}

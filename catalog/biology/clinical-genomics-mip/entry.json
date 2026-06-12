@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clinical-genomics/mip",
+  "name": "clinical-genomics/mip",
+  "description": "Mutation Identification Pipeline. Read the latest documentation:",
+  "sub_domain": "clinical-genomics",
+  "score": 6,
+  "score_rationale": "It is a clinical mutation identification pipeline, but the description is thin and the repo looks more general-purpose than the top-tier ACMG tools.",
+  "stars": 47,
+  "language": "Perl",
+  "license": "MIT",
+  "last_activity": "2025-11-18",
+  "found_in_domains": [
+    "clinical-genomics"
+  ],
+  "quality_score": 49.4,
+  "discovery_score": 6,
+  "tags": [
+    "clinical-genomics",
+    "genomics",
+    "variant-interpretation",
+    "acmg"
+  ],
+  "category": "Clinical Genomics \u2014 variant interpretation and pharmacogenomics",
+  "summary": "Mutation Identification Pipeline. Read the latest documentation:",
+  "slug": "clinical-genomics-mip"
+}

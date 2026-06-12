@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/stefanbauwens/skills-lab",
+  "name": "StefanBauwens/skills-lab",
+  "description": "A VR training simulation for students with a major in nursing. The students will practice working with a complicated VANAS shelf where they can get the right ...",
+  "sub_domain": "medical-education-simulation",
+  "score": 8,
+  "score_rationale": "VR hospital simulator for medical students, a strong educational simulation match.",
+  "stars": 16,
+  "language": null,
+  "license": null,
+  "last_activity": "2018-01-31",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 57.8,
+  "discovery_score": 8,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient",
+    "lab",
+    "practice-management"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "A VR training simulation for students with a major in nursing. The students will practice working with a complicated VANAS shelf where th...",
+  "slug": "stefanbauwens-skills-lab"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yulab-smu/chipseeker",
+  "name": "YuLab-SMU/ChIPseeker",
+  "description": ":dart: ChIP peak Annotation, Comparison and Visualization",
+  "sub_domain": "epigenomics",
+  "score": 9,
+  "score_rationale": "Canonical ChIP-seq peak annotation and visualization package with direct relevance to histone-mark workflows.",
+  "stars": 250,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-11-04",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 73.2,
+  "discovery_score": 9,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": ":dart: ChIP peak Annotation, Comparison and Visualization",
+  "slug": "yulab-smu-chipseeker"
+}

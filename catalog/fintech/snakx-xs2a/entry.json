@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/snakx/xs2a",
+  "name": "snakx/xs2a",
+  "description": "PSD2 XS2A Client",
+  "sub_domain": "open-banking-psd2",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2021-05-06",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "PSD2 XS2A Client",
+  "slug": "snakx-xs2a"
+}

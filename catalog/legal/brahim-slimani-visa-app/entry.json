@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brahim-slimani/visa-app",
+  "name": "brahim-slimani/visa-app",
+  "description": "Java app allows to fill visa form and obtain the PDF version at the filling end",
+  "sub_domain": "immigration-visa-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2020-12-24",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "Java app allows to fill visa form and obtain the PDF version at the filling end",
+  "slug": "brahim-slimani-visa-app"
+}

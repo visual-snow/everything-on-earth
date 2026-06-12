@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/architecture-building-systems/cityenergyanalyst",
+  "name": "architecture-building-systems/cityenergyanalyst",
+  "description": "City Energy Analyst (CEA) is an open-source urban building energy modeling (UBEM) platform and computation tool for the design of low-carbon and highly efficient cities.",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 262,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 49.4,
+  "discovery_score": 5,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "City Energy Analyst (CEA) is an open-source urban building energy modeling (UBEM) platform and computation tool for the design of low-car...",
+  "slug": "architecture-building-systems-cityenergyanalyst"
+}

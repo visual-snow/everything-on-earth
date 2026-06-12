@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/thisisthejay/programming-for-lawyers",
+  "name": "thisisthejay/programming-for-lawyers",
+  "description": "An introduction to programming for lawyers",
+  "sub_domain": "legal-practice-management",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 24,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-03-22",
+  "found_in_domains": [
+    "legal-practice-management"
+  ],
+  "quality_score": 17.2,
+  "discovery_score": 1,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "An introduction to programming for lawyers",
+  "slug": "thisisthejay-programming-for-lawyers"
+}

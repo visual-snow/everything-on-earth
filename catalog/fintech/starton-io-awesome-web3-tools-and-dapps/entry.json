@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/starton-io/awesome-web3-tools-and-dapps",
+  "name": "starton-io/awesome-web3-tools-and-dapps",
+  "description": "A curated list of awesome Web3 tools and dApps.",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for awesome-style signals.",
+  "stars": 8,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2023-12-18",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 13.6,
+  "discovery_score": 1,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "A curated list of awesome Web3 tools and dApps.",
+  "slug": "starton-io-awesome-web3-tools-and-dapps"
+}

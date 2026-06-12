@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/lhncbc/map-rxnorm-to-snomed",
+  "name": "LHNCBC/map-rxnorm-to-snomed",
+  "description": "No description provided.",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 4,
+  "score_rationale": "Narrow mapping utility between RxNorm and SNOMED; relevant, but limited in scope and metadata richness.",
+  "stars": 3,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2024-01-11",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "snomed"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "No description provided.",
+  "slug": "lhncbc-map-rxnorm-to-snomed"
+}

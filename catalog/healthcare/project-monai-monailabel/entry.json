@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/project-monai/monailabel",
+  "name": "Project-MONAI/MONAILabel",
+  "description": "MONAI Label is an intelligent open source image labeling and learning tool.",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 10,
+  "score_rationale": "Core active learning and annotation workflow for medical imaging, tightly used with segmentation and radiology tooling.",
+  "stars": 824,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 83.3,
+  "discovery_score": 10,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "MONAI Label is an intelligent open source image labeling and learning tool.",
+  "slug": "project-monai-monailabel"
+}

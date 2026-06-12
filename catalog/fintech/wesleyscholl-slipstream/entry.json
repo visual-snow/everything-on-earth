@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wesleyscholl/slipstream",
+  "name": "wesleyscholl/slipstream",
+  "description": "\u26a1 Real-time fraud & anomaly detection system for streaming transactions. Built with Kafka Streams + Isolation Forest ML. Low-latency processing, online learning, and scalable architecture for detecting fraud patterns in transaction data. \ud83d\udea8\ud83d\udd0d",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 7 domain terms in repo text.",
+  "stars": 3,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2025-11-20",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 34.8,
+  "discovery_score": 5,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "\u26a1 Real-time fraud & anomaly detection system for streaming transactions. Built with Kafka Streams + Isolation Forest ML. Low-latency proc...",
+  "slug": "wesleyscholl-slipstream"
+}

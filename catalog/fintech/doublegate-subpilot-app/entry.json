@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/doublegate/subpilot-app",
+  "name": "doublegate/subpilot-app",
+  "description": "Take Control of Any Recurring Finances ... a modern subscription management (monitoring / cancellation) platform ...",
+  "sub_domain": "payment-processing-gateways",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 2,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-01-23",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 9.8,
+  "discovery_score": 1,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "Take Control of Any Recurring Finances ... a modern subscription management (monitoring / cancellation) platform ...",
+  "slug": "doublegate-subpilot-app"
+}

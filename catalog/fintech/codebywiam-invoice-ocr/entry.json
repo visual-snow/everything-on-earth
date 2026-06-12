@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/codebywiam/invoice-ocr",
+  "name": "codebywiam/invoice-ocr",
+  "description": "This project extracts key fields (like invoice number, date, total, and payment details) from invoices using OCR for PDF inputs and includes a Streamlit web app for interactive usage.",
+  "sub_domain": "financial-document-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "C",
+  "query_hits": 1,
+  "matched_queries": [
+    "invoice ocr open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing",
+    "invoicing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "This project extracts key fields (like invoice number, date, total, and payment details) from invoices using OCR for PDF inputs and inclu...",
+  "slug": "codebywiam-invoice-ocr"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ukraine-relief-efforts/ukraine-info-guide",
+  "name": "Ukraine-Relief-Efforts/ukraine-info-guide",
+  "description": "A website containing vital information for Ukrainian refugees",
+  "sub_domain": "migration-refugee-data",
+  "score": 8,
+  "score_rationale": "Practical information hub for Ukrainian refugees and support services.",
+  "stars": 34,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-04-24",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 60.4,
+  "tags": [
+    "refugees",
+    "information",
+    "support",
+    "ukraine"
+  ],
+  "category": "Refugee Info Site",
+  "summary": "Provides vital information for Ukrainian refugees.",
+  "slug": "ukraine-relief-efforts-ukraine-info-guide"
+}

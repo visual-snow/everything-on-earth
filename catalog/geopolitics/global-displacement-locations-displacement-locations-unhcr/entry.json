@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/global-displacement-locations/displacement_locations_unhcr",
+  "name": "global-displacement-locations/displacement_locations_unhcr",
+  "description": "UNHCR Displacement Locations data from ZHOU, Y-Y., & SHAVER, A. (2021). \"Reexamining the Effect of Refugees on Civil Conflict: A Global Subnational Analysis.\" American Political Science Review.",
+  "sub_domain": "migration-refugee-data",
+  "score": 9,
+  "score_rationale": "UNHCR displacement-location dataset for refugee and conflict analysis.",
+  "stars": 11,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 62.6,
+  "tags": [
+    "refugees",
+    "displacement",
+    "unhcr",
+    "dataset"
+  ],
+  "category": "Displacement Dataset",
+  "summary": "UNHCR displacement-location data for refugee and conflict analysis.",
+  "slug": "global-displacement-locations-displacement-locations-unhcr"
+}

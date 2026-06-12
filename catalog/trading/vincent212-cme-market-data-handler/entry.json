@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/vincent212/cme-market-data-handler",
+  "name": "vincent212/CME-Market-Data-Handler",
+  "description": "A minimalist, low-latency, HFT CME MDP3.0 C++ market data feed handler and pcap file reader (MDP 3.0)",
+  "sub_domain": "market-data-feeds",
+  "score": 4,
+  "score_rationale": "Very strong institutional feed-handler fit, focused on CME MDP3.0 market data capture and replay.",
+  "stars": 53,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-12-25",
+  "found_in_domains": [
+    "market-data-feeds"
+  ],
+  "quality_score": 37.9,
+  "tags": [
+    "market-data",
+    "data-ingestion",
+    "real-time-feeds"
+  ],
+  "category": "Market Data Feed",
+  "summary": "A minimalist, low-latency, HFT CME MDP3.0 C++ market data feed handler and pcap file reader (MDP 3.0)",
+  "slug": "vincent212-cme-market-data-handler"
+}

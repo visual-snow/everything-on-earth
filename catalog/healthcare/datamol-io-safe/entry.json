@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/datamol-io/safe",
+  "name": "datamol-io/safe",
+  "description": "A single model for all your molecular design tasks",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 7,
+  "score_rationale": "Modern molecular design model with direct relevance to representation learning and generation.",
+  "stars": 172,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-09-17",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 59.9,
+  "discovery_score": 7,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "A single model for all your molecular design tasks",
+  "slug": "datamol-io-safe"
+}

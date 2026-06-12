@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clinical-genomics/genmod",
+  "name": "clinical-genomics/genmod",
+  "description": "Annotate models of genetic inheritance patterns in variant files (vcf files)",
+  "sub_domain": "clinical-genomics",
+  "score": 7,
+  "score_rationale": "It supports inheritance-pattern annotation in VCF workflows, which is relevant to family-based clinical interpretation.",
+  "stars": 88,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "clinical-genomics"
+  ],
+  "quality_score": 57.6,
+  "discovery_score": 7,
+  "tags": [
+    "clinical-genomics",
+    "genomics",
+    "variant-interpretation",
+    "acmg"
+  ],
+  "category": "Clinical Genomics \u2014 variant interpretation and pharmacogenomics",
+  "summary": "Annotate models of genetic inheritance patterns in variant files (vcf files)",
+  "slug": "clinical-genomics-genmod"
+}

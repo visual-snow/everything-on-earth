@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/othentic-labs/uniswap-orderbook",
+  "name": "othentic-labs/uniswap-orderbook",
+  "description": "A decentralized Orderbook System",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; fork penalty.",
+  "stars": 0,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-03-01",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 14.4,
+  "discovery_score": 2,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "A decentralized Orderbook System",
+  "slug": "othentic-labs-uniswap-orderbook"
+}

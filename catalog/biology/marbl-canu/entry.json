@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/marbl/canu",
+  "name": "marbl/canu",
+  "description": "A single molecule sequence assembler for genomes large and small.",
+  "sub_domain": "genomics",
+  "score": 9,
+  "score_rationale": "Classic long-read assembler that remains a core reference implementation for genome assembly pipelines.",
+  "stars": 699,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2026-02-24",
+  "found_in_domains": [
+    "genomics",
+    "long-read-sequencing"
+  ],
+  "quality_score": 76.8,
+  "discovery_score": 9,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "A single molecule sequence assembler for genomes large and small.",
+  "slug": "marbl-canu"
+}

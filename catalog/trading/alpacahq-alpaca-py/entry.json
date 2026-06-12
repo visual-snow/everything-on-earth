@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/alpacahq/alpaca-py",
+  "name": "alpacahq/alpaca-py",
+  "description": "The Official Python SDK for Alpaca API",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 10,
+  "score_rationale": "Official Alpaca Python SDK; directly matches the broker connector use case and is maintained by the vendor.",
+  "stars": 1196,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-11-13",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 84.6,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "The Official Python SDK for Alpaca API",
+  "slug": "alpacahq-alpaca-py"
+}

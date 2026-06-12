@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ematvey/pybacktest",
+  "name": "ematvey/pybacktest",
+  "description": "Vectorized backtesting framework in Python / pandas, designed to make your backtesting easier \u2014 compact, simple and fast",
+  "sub_domain": "backtesting-frameworks",
+  "score": 8,
+  "score_rationale": "Compact vectorized backtesting framework that fills another established Python backtesting gap.",
+  "stars": 817,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 71.3,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "Vectorized backtesting framework in Python / pandas, designed to make your backtesting easier \u2014 compact...",
+  "slug": "ematvey-pybacktest"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nardew/talipp",
+  "name": "nardew/talipp",
+  "description": "talipp - incremental technical analysis library for python",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 5,
+  "score_rationale": "Incremental TA library focused on indicator updates, which is a strong technical-analysis primitive fit.",
+  "stars": 527,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-09-09",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 51.8,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "talipp - incremental technical analysis library for python",
+  "slug": "nardew-talipp"
+}

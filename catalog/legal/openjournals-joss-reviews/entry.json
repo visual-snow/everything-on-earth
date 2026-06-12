@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/openjournals/joss-reviews",
+  "name": "openjournals/joss-reviews",
+  "description": "Reviews for the Journal of Open Source Software",
+  "sub_domain": "e-discovery-document-review",
+  "score": 2,
+  "score_rationale": "Matched 2 queries; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 816,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "contract-analysis-clm",
+    "e-discovery-document-review"
+  ],
+  "quality_score": 35.3,
+  "discovery_score": 2,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "Reviews for the Journal of Open Source Software",
+  "slug": "openjournals-joss-reviews"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cdcgov/geneflow",
+  "name": "cdcgov/geneflow",
+  "description": "GeneFlow: A Workflow Engine for Bioinformatics and Public Health Analytics.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 8,
+  "score_rationale": "Bioinformatics-oriented workflow engine with an explicit public-health and genomics use case.",
+  "stars": 8,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2020-05-20",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 55.6,
+  "discovery_score": 8,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "GeneFlow: A Workflow Engine for Bioinformatics and Public Health Analytics.",
+  "slug": "cdcgov-geneflow"
+}

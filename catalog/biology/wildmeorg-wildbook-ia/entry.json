@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wildmeorg/wildbook-ia",
+  "name": "WildMeOrg/wildbook-ia",
+  "description": "Wildbook's Image Analysis backend service supporting machine learning for wildlife conservation.",
+  "sub_domain": "ecology-conservation",
+  "score": 9,
+  "score_rationale": "Core machine-vision backend for Wildbook, used for wildlife identification and conservation analytics.",
+  "stars": 90,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 69.7,
+  "discovery_score": 9,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Wildbook's Image Analysis backend service supporting machine learning for wildlife conservation.",
+  "slug": "wildmeorg-wildbook-ia"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/victorbenoiston/legal_interoperability_ids_ontology",
+  "name": "victorbenoiston/legal_interoperability_ids_ontology",
+  "description": "No description provided.",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 3,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2024-03-07",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif",
+    "ontology"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "No description provided.",
+  "slug": "victorbenoiston-legal-interoperability-ids-ontology"
+}

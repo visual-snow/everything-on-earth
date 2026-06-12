@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ahlashkari/scsvullyzer",
+  "name": "ahlashkari/scsvullyzer",
+  "description": "Smart Contracts Vulnerability Analyzer",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 7,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-09-22",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Smart Contracts Vulnerability Analyzer",
+  "slug": "ahlashkari-scsvullyzer"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opensanctions/opensanctions",
+  "name": "opensanctions/opensanctions",
+  "description": "An open database of international sanctions data, persons of interest and politically exposed persons",
+  "sub_domain": "aml-kyc-identity",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 696,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 46.7,
+  "discovery_score": 4,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity"
+  ],
+  "category": "AML / KYC / Identity",
+  "summary": "An open database of international sanctions data, persons of interest and politically exposed persons",
+  "slug": "opensanctions-opensanctions"
+}

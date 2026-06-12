@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/xmarquez/democracydata",
+  "name": "xmarquez/democracyData",
+  "description": "Access and manipulate most standard scholarly measures of democracy",
+  "sub_domain": "election-governance-data",
+  "score": 9,
+  "score_rationale": "It is a broad, reusable gateway to major democracy datasets used in governance research.",
+  "stars": 89,
+  "language": "Portugol",
+  "license": null,
+  "last_activity": "2025-10-29",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 69.6,
+  "tags": [
+    "democracy",
+    "governance",
+    "datasets",
+    "social-science"
+  ],
+  "category": "Democracy Metrics",
+  "summary": "Access package for standard scholarly democracy measures.",
+  "slug": "xmarquez-democracydata"
+}

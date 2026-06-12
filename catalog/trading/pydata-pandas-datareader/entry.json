@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/pydata/pandas-datareader",
+  "name": "pydata/pandas-datareader",
+  "description": "Extract data from a wide range of Internet sources into a pandas DataFrame.",
+  "sub_domain": "market-data-feeds",
+  "score": 8,
+  "score_rationale": "Widely used historical data access layer that pulls market and macro data from multiple sources into pandas.",
+  "stars": 3169,
+  "language": "Python",
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "market-data-feeds"
+  ],
+  "quality_score": 76.0,
+  "tags": [
+    "market-data",
+    "data-ingestion",
+    "real-time-feeds"
+  ],
+  "category": "Market Data Feed",
+  "summary": "Extract data from a wide range of Internet sources into a pandas DataFrame.",
+  "slug": "pydata-pandas-datareader"
+}

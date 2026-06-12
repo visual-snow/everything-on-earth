@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opencbs/opencbs-cloud",
+  "name": "opencbs/opencbs-cloud",
+  "description": "Simple, scalable open-source Core Banking System optimised for the Cloud",
+  "sub_domain": "core-banking-ledger",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 95,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2023-01-27",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 39.9,
+  "discovery_score": 4,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "Simple, scalable open-source Core Banking System optimised for the Cloud",
+  "slug": "opencbs-opencbs-cloud"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/emvolz-phylodynamics/mlesky",
+  "name": "emvolz-phylodynamics/mlesky",
+  "description": "Maximum-likelihood estimation of past population size dynamics from dated phylogenies.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 8,
+  "score_rationale": "Specialized phylodynamic population-dynamics estimator with a clear biological use case, albeit a narrow one.",
+  "stars": 11,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2025-02-09",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 56.6,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Maximum-likelihood estimation of past population size dynamics from dated phylogenies.",
+  "slug": "emvolz-phylodynamics-mlesky"
+}

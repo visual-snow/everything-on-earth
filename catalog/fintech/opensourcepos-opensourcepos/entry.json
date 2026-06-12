@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opensourcepos/opensourcepos",
+  "name": "opensourcepos/opensourcepos",
+  "description": "Open Source Point of Sale is a web based point of sale application written in PHP using CodeIgniter framework. It uses MySQL as the data back end and has a Bootstrap 3 based user interface. If you like this project, please give it a star! Doing so helps maintain Popular OSS status for the project.",
+  "sub_domain": "tax-calculation-filing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 4097,
+  "language": "PHP",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 40.9,
+  "discovery_score": 2,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Open Source Point of Sale is a web based point of sale application written in PHP using CodeIgniter framework. It uses MySQL as the data...",
+  "slug": "opensourcepos-opensourcepos"
+}

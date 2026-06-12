@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biomedisa/biomedisa",
+  "name": "biomedisa/biomedisa",
+  "description": "Biomedisa is a free and open-source application for segmenting 3D images such as CT and MRI scans, developed at The Australian National University CTLab.",
+  "sub_domain": "biomedical-imaging",
+  "score": 78,
+  "score_rationale": "Specialized 3D medical/bioimage segmentation tool for volumetric scans.",
+  "stars": 60,
+  "language": "HTML",
+  "license": "EUPL-1.2",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 482.3,
+  "discovery_score": 78,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Biomedisa is a free and open-source application for segmenting 3D images such as CT and MRI scans, developed at The Australian National U...",
+  "slug": "biomedisa-biomedisa"
+}

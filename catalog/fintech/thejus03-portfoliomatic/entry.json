@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/thejus03/portfoliomatic",
+  "name": "thejus03/portfoliomatic",
+  "description": "\ud83d\udcc8 Robo-advisory platform using Black-Litterman & MVO for risk-based personalised portfolio generation and simulation.",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 6 domain terms in repo text.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2025-08-08",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "\ud83d\udcc8 Robo-advisory platform using Black-Litterman & MVO for risk-based personalised portfolio generation and simulation.",
+  "slug": "thejus03-portfoliomatic"
+}

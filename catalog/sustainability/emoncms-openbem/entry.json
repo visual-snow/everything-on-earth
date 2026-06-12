@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/emoncms/openbem",
+  "name": "emoncms/openbem",
+  "description": "Open Source Building Energy Model based on SAP 2012",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 20,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2021-02-23",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 34.6,
+  "discovery_score": 4,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "Open Source Building Energy Model based on SAP 2012",
+  "slug": "emoncms-openbem"
+}

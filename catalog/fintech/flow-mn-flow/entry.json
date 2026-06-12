@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/flow-mn/flow",
+  "name": "flow-mn/flow",
+  "description": "A personal finance tracker app built with love, and Flutter",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 413,
+  "language": "Dart",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 50.9,
+  "discovery_score": 5,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "A personal finance tracker app built with love, and Flutter",
+  "slug": "flow-mn-flow"
+}

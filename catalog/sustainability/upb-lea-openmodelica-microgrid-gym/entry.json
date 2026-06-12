@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/upb-lea/openmodelica-microgrid-gym",
+  "name": "upb-lea/openmodelica-microgrid-gym",
+  "description": "OpenModelica Microgrid Gym (OMG): An OpenAI Gym Environment for Microgrids",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 220,
+  "language": "Modelica",
+  "license": "GPL-3.0",
+  "last_activity": "2022-06-13",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 4,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy",
+    "microgrid"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "OpenModelica Microgrid Gym (OMG): An OpenAI Gym Environment for Microgrids",
+  "slug": "upb-lea-openmodelica-microgrid-gym"
+}

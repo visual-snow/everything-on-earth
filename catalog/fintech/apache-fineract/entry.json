@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/apache/fineract",
+  "name": "apache/fineract",
+  "description": "Apache Fineract",
+  "sub_domain": "core-banking-ledger",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 2098,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 56.6,
+  "discovery_score": 5,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "Apache Fineract",
+  "slug": "apache-fineract"
+}

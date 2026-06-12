@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/interledgerjs/settlement-paypal",
+  "name": "interledgerjs/settlement-paypal",
+  "description": "An Interledger settlement engine for PayPal",
+  "sub_domain": "reconciliation-settlement",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 9,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2023-03-03",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 4,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "An Interledger settlement engine for PayPal",
+  "slug": "interledgerjs-settlement-paypal"
+}

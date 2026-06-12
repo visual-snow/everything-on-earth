@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wallysalami/gamified-education",
+  "name": "wallysalami/gamified-education",
+  "description": "A website for gamified education, built with Django.",
+  "sub_domain": "gamification-engagement",
+  "score": 8,
+  "score_rationale": "Straightforward education-focused gamification site with direct classroom and course engagement framing.",
+  "stars": 20,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "gamification-engagement"
+  ],
+  "quality_score": 58.6,
+  "discovery_score": 8,
+  "tags": [
+    "gamification",
+    "badges",
+    "leaderboards",
+    "engagement"
+  ],
+  "category": "Gamification, Badges, Leaderboards, Educational Games & Classroom Engagement",
+  "summary": "A website for gamified education, built with Django.",
+  "slug": "wallysalami-gamified-education"
+}

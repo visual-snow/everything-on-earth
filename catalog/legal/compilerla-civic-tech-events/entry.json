@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/compilerla/civic-tech-events",
+  "name": "compilerla/civic-tech-events",
+  "description": "Ongoing list of civic tech or gov tech events.",
+  "sub_domain": "access-to-justice-civic-tech",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 32,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2020-09-28",
+  "found_in_domains": [
+    "access-to-justice-civic-tech"
+  ],
+  "quality_score": 36.1,
+  "discovery_score": 4,
+  "tags": [
+    "access-to-justice",
+    "legal-aid",
+    "self-help",
+    "civic-tech"
+  ],
+  "category": "Access to Justice / Civic Tech \u2014 legal aid, self-help, pro bono, guided court forms",
+  "summary": "Ongoing list of civic tech or gov tech events.",
+  "slug": "compilerla-civic-tech-events"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mikeroyal/digital-forensics-guide",
+  "name": "mikeroyal/digital-forensics-guide",
+  "description": "Digital Forensics Guide. Learn all about Digital Forensics, Computer Forensics, Mobile device Forensics, Network Forensics, and Database Forensics.",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 2480,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-01-04",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 63.2,
+  "discovery_score": 6,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "Digital Forensics Guide. Learn all about Digital Forensics, Computer Forensics, Mobile device Forensics, Network Forensics, and Database...",
+  "slug": "mikeroyal-digital-forensics-guide"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/defra/waste-tracking-service",
+  "name": "defra/waste-tracking-service",
+  "description": "The Department for Environment, Food & Rural Affairs (Defra) intend to transform how data about waste movements is collected and shared with the regulators across all 4 UK nations. This is part of the government's mandatory digital waste tracking policy which is planned to be introduced from April 2026.",
+  "sub_domain": "circular-economy-waste",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 14,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "circular-economy-waste"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 4,
+  "tags": [
+    "circular-economy",
+    "material-flow",
+    "recycling",
+    "waste-tracking"
+  ],
+  "category": "Circular Economy / Waste \u2014 material flow analysis, recycling optimization, waste tracking",
+  "summary": "The Department for Environment, Food & Rural Affairs (Defra) intend to transform how data about waste movements is collected and shared w...",
+  "slug": "defra-waste-tracking-service"
+}

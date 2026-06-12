@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hppanpaliya/mindfulme",
+  "name": "hppanpaliya/MindfulMe",
+  "description": "Your Companion for Mental Well-being Web App that provides resources and tools to help users manage their mental health and well-being.",
+  "sub_domain": "mental-health-behavioral",
+  "score": 6,
+  "score_rationale": "Direct mental-wellbeing app with resource and tool surfaces, though smaller than the strongest core platforms.",
+  "stars": 11,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-04-26",
+  "found_in_domains": [
+    "mental-health-behavioral"
+  ],
+  "quality_score": 44.6,
+  "discovery_score": 6,
+  "tags": [
+    "mental-health",
+    "behavioral-health",
+    "cbt",
+    "screening"
+  ],
+  "category": "Mental Health, Behavioral Health, CBT, Mood Tracking & Crisis Support",
+  "summary": "Your Companion for Mental Well-being Web App that provides resources and tools to help users manage their mental health and well-being.",
+  "slug": "hppanpaliya-mindfulme"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ever-works/awesome-time-tracking",
+  "name": "ever-works/awesome-time-tracking",
+  "description": "Time Tracking - Software, Methodologies and Practices - https://timetrack.works",
+  "sub_domain": "legal-practice-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 160,
+  "language": null,
+  "license": "CC-BY-SA-4.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "legal-practice-management"
+  ],
+  "quality_score": 41.7,
+  "discovery_score": 4,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "Time Tracking - Software, Methodologies and Practices - https://timetrack.works",
+  "slug": "ever-works-awesome-time-tracking"
+}

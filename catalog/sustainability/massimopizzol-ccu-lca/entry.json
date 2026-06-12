@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/massimopizzol/ccu-lca",
+  "name": "massimopizzol/ccu-lca",
+  "description": "Code used in the scientific article: Consequential life cycle assessment of carbon capture and utilization technologies within the chemical industry",
+  "sub_domain": "life-cycle-assessment",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 13,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2021-04-28",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 39.2,
+  "discovery_score": 5,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Code used in the scientific article: Consequential life cycle assessment of carbon capture and utilization technologies within the chemic...",
+  "slug": "massimopizzol-ccu-lca"
+}

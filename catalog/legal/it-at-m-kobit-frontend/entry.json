@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/it-at-m/kobit-frontend",
+  "name": "it-at-m/kobit-frontend",
+  "description": "Conflict Resolution Web Application for government organisations and businesses",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "Vue",
+  "license": "MIT",
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "Conflict Resolution Web Application for government organisations and businesses",
+  "slug": "it-at-m-kobit-frontend"
+}

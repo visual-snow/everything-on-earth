@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mongodb-industry-solutions/credit_score",
+  "name": "mongodb-industry-solutions/credit_score",
+  "description": "This repository contains a demo application showcasing the use of AI-driven alternative credit scoring. It leverages generative AI to explain credit card application rejections and provides tailored credit product recommendations using MongoDB Vector Search.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for demo-style signals.",
+  "stars": 7,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 25.2,
+  "discovery_score": 3,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "This repository contains a demo application showcasing the use of AI-driven alternative credit scoring. It leverages generative AI to exp...",
+  "slug": "mongodb-industry-solutions-credit-score"
+}

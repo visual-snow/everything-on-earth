@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/1edtech/openbadges-validator-core",
+  "name": "1EdTech/openbadges-validator-core",
+  "description": "Open Badges validation in python",
+  "sub_domain": "credentialing-certification",
+  "score": 7,
+  "score_rationale": "Python validator for Open Badges; direct verification infrastructure.",
+  "stars": 60,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-11-04",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 56.3,
+  "discovery_score": 7,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials",
+    "badges"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "Open Badges validation in python",
+  "slug": "1edtech-openbadges-validator-core"
+}

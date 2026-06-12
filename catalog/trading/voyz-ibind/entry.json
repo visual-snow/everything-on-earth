@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/voyz/ibind",
+  "name": "voyz/ibind",
+  "description": "IBind is a REST and WebSocket client library for Interactive Brokers Client Portal Web API.",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 8,
+  "score_rationale": "REST and WebSocket client for the Interactive Brokers Client Portal API.",
+  "stars": 385,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-08",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 68.7,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "IBind is a REST and WebSocket client library for Interactive Brokers Client Portal Web API.",
+  "slug": "voyz-ibind"
+}

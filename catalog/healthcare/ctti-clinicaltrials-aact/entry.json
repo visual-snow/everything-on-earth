@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ctti-clinicaltrials/aact",
+  "name": "ctti-clinicaltrials/aact",
+  "description": "Improving Public Access to Aggregate Content of ClinicalTrials.gov",
+  "sub_domain": "clinical-trials-research",
+  "score": 10,
+  "score_rationale": "Foundational registry data warehouse for ClinicalTrials.gov aggregate analysis and downstream research.",
+  "stars": 175,
+  "language": "PLpgSQL",
+  "license": "MIT",
+  "last_activity": "2025-10-20",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 78.0,
+  "discovery_score": 10,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Improving Public Access to Aggregate Content of ClinicalTrials.gov",
+  "slug": "ctti-clinicaltrials-aact"
+}

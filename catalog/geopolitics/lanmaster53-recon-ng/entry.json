@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lanmaster53/recon-ng",
+  "name": "lanmaster53/recon-ng",
+  "description": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources.",
+  "stars": 5468,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-11-01",
+  "sub_domain": "osint-frameworks",
+  "score": 10,
+  "score_rationale": "Longstanding reconnaissance framework with broad OSINT adoption and a mature module ecosystem.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 89.9,
+  "tags": [
+    "osint",
+    "reconnaissance",
+    "framework",
+    "modules",
+    "intelligence"
+  ],
+  "category": "Reconnaissance Framework",
+  "summary": "Modular OSINT framework for open-source intelligence gathering.",
+  "slug": "lanmaster53-recon-ng"
+}

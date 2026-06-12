@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/oscal-compass/compliance-to-policy",
+  "name": "oscal-compass/compliance-to-policy",
+  "description": "Compliance-to-Policy (C2P) provides the framework to bridge the gap between compliance and policy administration.",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 39,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-20",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 36.8,
+  "discovery_score": 4,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "Compliance-to-Policy (C2P) provides the framework to bridge the gap between compliance and policy administration.",
+  "slug": "oscal-compass-compliance-to-policy"
+}

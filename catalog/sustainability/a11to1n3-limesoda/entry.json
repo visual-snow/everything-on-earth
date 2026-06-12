@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/a11to1n3/limesoda",
+  "name": "a11to1n3/limesoda",
+  "description": "Precision Liming Soil Datasets (LimeSoDa) for Python",
+  "sub_domain": "sustainable-agriculture",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 6,
+  "language": "Python",
+  "license": "CC-BY-SA-4.0",
+  "last_activity": "2025-08-23",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "Precision Liming Soil Datasets (LimeSoDa) for Python",
+  "slug": "a11to1n3-limesoda"
+}

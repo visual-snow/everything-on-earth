@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eprbell/rp2",
+  "name": "eprbell/rp2",
+  "description": "Privacy-focused, free, open-source cryptocurrency tax calculator for multiple countries: it handles multiple coins/exchanges and computes long/short-term capital gains, cost bases, in/out lot relationships/fractioning, and account balances. It supports FIFO, LIFO, HIFO and it outputs in form 8949 format. It has a programmable plugin architecture",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 376,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-26",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 26.6,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Privacy-focused, free, open-source cryptocurrency tax calculator for multiple countries: it handles multiple coins/exchanges and computes...",
+  "slug": "eprbell-rp2"
+}

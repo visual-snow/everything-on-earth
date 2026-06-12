@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kosasih/agricorp",
+  "name": "kosasih/agricorp",
+  "description": "Agricorp is a microservice project aimed at promoting sustainable agriculture by implementing drought-resistant crop varieties, water management strategies, and sustainable agricultural practices.",
+  "sub_domain": "sustainable-agriculture",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 10,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2025-11-27",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 4,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "Agricorp is a microservice project aimed at promoting sustainable agriculture by implementing drought-resistant crop varieties, water man...",
+  "slug": "kosasih-agricorp"
+}

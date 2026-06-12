@@ -1,0 +1,60 @@
+{
+  "slug": "thefinalcutbg-dinodent",
+  "name": "thefinalcutbg/DinoDent",
+  "what_it_is": "Open-source dental practice management desktop application written in C++ with Qt6, built specifically for Bulgarian dentists with deep integration into Bulgarian national health and tax systems. It manages patient dental and periodontal records, financial documents, and electronic submissions to NHIF, NHIS, NRA, and PIS.",
+  "components": [
+    "Qt6 desktop GUI",
+    "SQLite3 local database backend",
+    "rqlite distributed SQL backend",
+    "LimeReport print/PDF engine",
+    "PKCS11 hardware token interface for document signing",
+    "NHIS service client",
+    "NHIF/PIS SOAP client",
+    "NRA XML service client",
+    "NSSI pension service client",
+    "Google Calendar integration",
+    "SMS gateway client",
+    "Auto-update service"
+  ],
+  "protocols": [
+    "PKCS11 (electronic signature via hardware token)",
+    "SOAP/XML (NHIF API)",
+    "XML with C14N canonicalization (NHIS message signing)",
+    "HTTPS (national services, update service)",
+    "rqlite HTTP REST (optional distributed database)"
+  ],
+  "measurement": [
+    "Dental status and procedure history per tooth",
+    "Periodontal status per tooth",
+    "NHIF package counters",
+    "Patient dental statistics",
+    "Financial aggregates: invoices, debit/credit notifications, fiscal receipts"
+  ],
+  "configuration": [
+    "Database backend mode (SQLite or rqlite)",
+    "PKCS11 library paths, signer model",
+    "PDF output directory and naming structure",
+    "Debug flags"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "SQLite mode: single-user local database",
+    "Rqlite mode: distributed SQL with optional mTLS",
+    "Debug mode with request/reply logging"
+  ],
+  "constraints": [
+    "Bulgaria-specific: national health/tax integrations are hard-coded; not usable outside Bulgaria (an international fork QDento exists separately)",
+    "Requires physical PKCS11 hardware token for signing official documents",
+    "Qt6.8+ required; LimeReport must be built from source",
+    "Desktop-only; no web, mobile, or API interface",
+    "No automated test suite or CI configuration"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No Docker or container support",
+    "No REST or web API",
+    "No automated tests or CI",
+    "No multi-tenancy or cloud model",
+    "No audit log beyond practice-level separation"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nomadicjosh/edutrac-sis",
+  "name": "nomadicjosh/eduTrac-SIS",
+  "description": "eduTrac SIS is the most advanced open source student information system for higher education.",
+  "sub_domain": "sis",
+  "score": 8,
+  "score_rationale": "Higher-ed SIS explicitly centered on student records and transcript-style administration.",
+  "stars": 46,
+  "language": "PHP",
+  "license": "GNU GPLv3",
+  "last_activity": "2018-02-28",
+  "found_in_domains": [
+    "sis"
+  ],
+  "quality_score": 61.4,
+  "discovery_score": 8,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "eduTrac SIS is the most advanced open source student information system for higher education.",
+  "slug": "nomadicjosh-edutrac-sis"
+}

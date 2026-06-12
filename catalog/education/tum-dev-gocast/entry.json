@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tum-dev/gocast",
+  "name": "TUM-Dev/gocast",
+  "description": "TUMs lecture streaming service.",
+  "sub_domain": "video-lecture-platforms",
+  "score": 8,
+  "score_rationale": "University lecture streaming service with direct classroom deployment.",
+  "stars": 249,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "video-lecture-platforms"
+  ],
+  "quality_score": 67.2,
+  "discovery_score": 8,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "TUMs lecture streaming service.",
+  "slug": "tum-dev-gocast"
+}

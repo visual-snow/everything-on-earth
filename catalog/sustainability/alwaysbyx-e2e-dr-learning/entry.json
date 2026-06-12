@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alwaysbyx/e2e-dr-learning",
+  "name": "alwaysbyx/e2e-dr-learning",
+  "description": "Code for our paper Demand Response Model Identification and Behavior Forecast with OptNet: a Gradient-based Approach.",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for paper-style signals.",
+  "stars": 10,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-07-07",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 26.3,
+  "discovery_score": 3,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Code for our paper Demand Response Model Identification and Behavior Forecast with OptNet: a Gradient-based Approach.",
+  "slug": "alwaysbyx-e2e-dr-learning"
+}

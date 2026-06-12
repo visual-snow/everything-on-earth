@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/abbiodiversity/wildrtrax",
+  "name": "abbiodiversity/wildrtrax",
+  "description": "This is an R package that enables environmental sensor users to create comprehensive work flows for managing and analyzing data",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 17,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 16.0,
+  "discovery_score": 1,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "This is an R package that enables environmental sensor users to create comprehensive work flows for managing and analyzing data",
+  "slug": "abbiodiversity-wildrtrax"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/trade-tariff/trade-tariff-backend",
+  "name": "trade-tariff/trade-tariff-backend",
+  "description": "Backend service for the trade tariff platform used to surface tariff and customs data.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 8,
+  "score_rationale": "Core production tooling for tariff lookup and trade-rule workflows.",
+  "stars": 8,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 55.6,
+  "tags": [
+    "tariffs",
+    "customs",
+    "backend",
+    "trade-data"
+  ],
+  "category": "Tariff Backend Service",
+  "summary": "Backend service for surfacing tariff and customs data.",
+  "slug": "trade-tariff-trade-tariff-backend"
+}

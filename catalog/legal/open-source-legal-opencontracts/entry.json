@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/open-source-legal/opencontracts",
+  "name": "open-source-legal/opencontracts",
+  "description": "Humans and AI agents, building knowledge bases together. Self-hosted document annotation, version control, semantic search, and MCP.",
+  "sub_domain": "legal-document-automation",
+  "score": 7,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1246,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "contract-analysis-clm",
+    "e-discovery-document-review",
+    "legal-document-automation"
+  ],
+  "quality_score": 66.8,
+  "discovery_score": 7,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "Humans and AI agents, building knowledge bases together. Self-hosted document annotation, version control, semantic search, and MCP.",
+  "slug": "open-source-legal-opencontracts"
+}

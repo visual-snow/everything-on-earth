@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ahmet/awesome-web3",
+  "name": "ahmet/awesome-web3",
+  "description": "A curated list of awesome Web3 resources, libraries, tools and more.",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 845,
+  "language": "JavaScript",
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 29.4,
+  "discovery_score": 1,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "A curated list of awesome Web3 resources, libraries, tools and more.",
+  "slug": "ahmet-awesome-web3"
+}

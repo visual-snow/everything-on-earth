@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/scipion-em/scipion-em-continuousflex",
+  "name": "scipion-em/scipion-em-continuousflex",
+  "description": "Plugin for continuous conformational flexibility analysis containing HEMNMA, StructMap, HEMNMA-3D, TomoFlow, NMMD, and DeepHEMNMA for in vitro and in situ cryo-EM/ET.",
+  "sub_domain": "structural-biology",
+  "score": 7,
+  "score_rationale": "An official cryo-EM/ET flexibility plugin that is clearly relevant, though it is a forked plugin repo rather than a standalone core package.",
+  "stars": 10,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-11-12",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 50.3,
+  "discovery_score": 7,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Plugin for continuous conformational flexibility analysis containing HEMNMA, StructMap, HEMNMA-3D, TomoFlow, NMMD, and DeepHEMNMA for in...",
+  "slug": "scipion-em-scipion-em-continuousflex"
+}

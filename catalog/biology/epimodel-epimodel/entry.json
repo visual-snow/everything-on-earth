@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/epimodel/epimodel",
+  "name": "EpiModel/EpiModel",
+  "description": "R toolkit for simulating infectious-disease dynamics with compartmental and network models.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 10,
+  "score_rationale": "Canonical infectious-disease modeling package with broad use for compartmental and network-based simulation workflows.",
+  "stars": 269,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 79.5,
+  "discovery_score": 10,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "R toolkit for simulating infectious-disease dynamics with compartmental and network models.",
+  "slug": "epimodel-epimodel"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chainapsis/oko",
+  "name": "chainapsis/oko",
+  "description": "Oko is an open-source embedded wallet stack that provides passwordless crypto experience via multi-party computation",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 20,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 28.6,
+  "discovery_score": 3,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Oko is an open-source embedded wallet stack that provides passwordless crypto experience via multi-party computation",
+  "slug": "chainapsis-oko"
+}

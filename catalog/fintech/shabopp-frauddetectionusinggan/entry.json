@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shabopp/frauddetectionusinggan",
+  "name": "shabopp/frauddetectionusinggan",
+  "description": "AI-powered fraud detection and prevention system using GANs and Random Forest for secure digital transactions.",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+  "stars": 36,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-12-22",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 42.5,
+  "discovery_score": 5,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "AI-powered fraud detection and prevention system using GANs and Random Forest for secure digital transactions.",
+  "slug": "shabopp-frauddetectionusinggan"
+}

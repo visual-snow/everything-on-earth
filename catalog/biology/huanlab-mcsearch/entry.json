@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/huanlab/mcsearch",
+  "name": "HuanLab/McSearch",
+  "description": "metabolite annotation",
+  "sub_domain": "metabolomics",
+  "score": 7,
+  "score_rationale": "It stays within metabolite annotation, but the metadata is sparse and the repo appears narrower than the major metabolomics packages.",
+  "stars": 6,
+  "language": "R",
+  "license": "",
+  "last_activity": "2021-09-23",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 48.8,
+  "discovery_score": 7,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "metabolite annotation",
+  "slug": "huanlab-mcsearch"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/arwagiz/ai-sustainable-mobility",
+  "name": "arwagiz/ai-sustainable-mobility",
+  "description": "Community list of: AI, ML, IoT, big&open data & co.: The evolving eco-system of machine-assisted transport planning, management and operations  :bike::bus::train:\ud83c\udf33\ud83d\ude8a",
+  "sub_domain": "sustainable-transport",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 11,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-09-30",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 32.6,
+  "discovery_score": 4,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "Community list of: AI, ML, IoT, big&open data & co.: The evolving eco-system of machine-assisted transport planning, management and opera...",
+  "slug": "arwagiz-ai-sustainable-mobility"
+}

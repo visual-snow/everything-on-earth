@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/thelovelab/tximeta",
+  "name": "thelovelab/tximeta",
+  "description": "Transcript quantification import with automatic metadata detection",
+  "sub_domain": "transcriptomics",
+  "score": 9,
+  "score_rationale": "Modern transcript quantification import layer that strengthens reproducibility through automatic metadata detection.",
+  "stars": 70,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 68.8,
+  "discovery_score": 9,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Transcript quantification import with automatic metadata detection",
+  "slug": "thelovelab-tximeta"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pomodoren/awesome-open-transport",
+  "name": "pomodoren/awesome-open-transport",
+  "description": "Awesome resources for Open-Source and AI for Transport.",
+  "sub_domain": "sustainable-transport",
+  "score": 3,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text; penalized for awesome-style signals.",
+  "stars": 30,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2023-12-03",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 29.9,
+  "discovery_score": 3,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "Awesome resources for Open-Source and AI for Transport.",
+  "slug": "pomodoren-awesome-open-transport"
+}

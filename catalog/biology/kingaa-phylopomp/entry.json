@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kingaa/phylopomp",
+  "name": "kingaa/phylopomp",
+  "description": "R package for phylodynamic inference.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 8,
+  "score_rationale": "Direct phylodynamics package with a clear biological use case, though it is smaller than the flagship toolchains.",
+  "stars": 14,
+  "language": "HTML",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 57.4,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "R package for phylodynamic inference.",
+  "slug": "kingaa-phylopomp"
+}

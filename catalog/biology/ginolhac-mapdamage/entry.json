@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ginolhac/mapdamage",
+  "name": "ginolhac/mapDamage",
+  "description": "mapDamage: tracking and quantifying damage patterns in ancient DNA sequences",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 10,
+  "score_rationale": "The standard damage-profile tool for ancient DNA misincorporation and fragment-end analysis.",
+  "stars": 49,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-07-14",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 73.6,
+  "discovery_score": 10,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "mapDamage: tracking and quantifying damage patterns in ancient DNA sequences",
+  "slug": "ginolhac-mapdamage"
+}

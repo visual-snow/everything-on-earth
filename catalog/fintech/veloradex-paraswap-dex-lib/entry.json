@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/veloradex/paraswap-dex-lib",
+  "name": "veloradex/paraswap-dex-lib",
+  "description": "DexLib is a library used by ParaSwap backend to integrate with decentralized exchanges. This library enables external DEX developers to integrate their DEX with ParaSwap by creating pull requests to this repository.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 808,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 29.3,
+  "discovery_score": 1,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "DexLib is a library used by ParaSwap backend to integrate with decentralized exchanges. This library enables external DEX developers to i...",
+  "slug": "veloradex-paraswap-dex-lib"
+}

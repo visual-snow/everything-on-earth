@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biosimulators/biosimulators_cbmpy",
+  "name": "biosimulators/biosimulators_cbmpy",
+  "description": "CBMPy biochemical network simulation program via BioSimulators-compliant command-line interface and Docker container",
+  "sub_domain": "systems-biology",
+  "score": 8,
+  "score_rationale": "Standardized BioSimulators wrapper for CBMPy that makes SBML and biochemical-network simulation reproducible and runnable.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-02-23",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "CBMPy biochemical network simulation program via BioSimulators-compliant command-line interface and Docker container",
+  "slug": "biosimulators-biosimulators-cbmpy"
+}

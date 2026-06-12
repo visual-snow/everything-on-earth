@@ -1,0 +1,51 @@
+{
+  "slug": "deepchem-deepchem",
+  "name": "deepchem/deepchem",
+  "what_it_is": "DeepChem is an open-source Python library that provides deep learning models, featurizers, datasets, and benchmarks for drug discovery, quantum chemistry, materials science, and computational biology. It wraps TensorFlow, PyTorch, and JAX backends under a unified API, with MoleculeNet as its curated benchmark suite.",
+  "components": [
+    "deepchem.models — model zoo (GCN, GAT, MPNN, AttentiveFP, ChemBERTa, MolFormer, GROVER, FermiNet, DTNN, GAN, MolGAN, seq2seq, sklearn wrappers, and more)",
+    "deepchem.feat — featurizer library (circular fingerprints, Coulomb matrices, graph convolution, RDKit descriptors, Mordred, MACCS keys, PubChem fingerprints, image featurizers, material featurizers, sequence featurizers)",
+    "deepchem.molnet — MoleculeNet dataset loaders (Tox21, HIV, BACE, BBBP, ClinTox, MUV, PCBA, QM7/8/9, PDBbind, ZINC15, ChEMBL, and others)",
+    "deepchem.dock — molecular docking module (pose generation, pose scoring, binding pocket detection)",
+    "deepchem.splits — dataset splitters",
+    "deepchem.metrics — evaluation metrics",
+    "deepchem.hyper — hyperparameter optimization",
+    "deepchem.rl — reinforcement learning module",
+    "deepchem.trans — data transformers",
+    "deepchem.metalearning — meta-learning support",
+    "deepchem.data — dataset management and I/O"
+  ],
+  "protocols": [],
+  "measurement": [
+    "Model training and evaluation metrics (accuracy, AUC-ROC, RMSE, MAE, R2, etc.) via deepchem.metrics",
+    "Weights & Biases integration for tracking training and evaluation metrics"
+  ],
+  "configuration": [
+    "Choice of deep learning backend: TensorFlow, PyTorch, or JAX (installed as optional extras)",
+    "GPU vs CPU execution (CUDA required for GPU)",
+    "Hyperparameter tuning via deepchem.hyper module",
+    "Dataset splitting strategy (random, scaffold, stratified, etc.) via deepchem.splits",
+    "Featurizer selection per model type"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Library mode — imported as a Python package in scripts or notebooks",
+    "Docker image — deepchemio/deepchem:latest (nightly, GPU-enabled) or versioned tag images",
+    "Google Colab tutorials — pre-built Jupyter notebooks for interactive use"
+  ],
+  "constraints": [
+    "Python 3.7-3.10 only; Python 3.11+ not officially supported per README",
+    "No no-code or GUI interface; all usage requires Python scripting or notebooks",
+    "Docking module depends on external third-party docking engines for pose generation; DeepChem only wraps them",
+    "Soft dependencies (TensorFlow, PyTorch, JAX, RDKit, etc.) must be installed separately per use case; a plain pip install gives only the minimal core",
+    "Docker images are single-container; no orchestrated multi-service compose configuration is provided"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No REST API or web service interface",
+    "No built-in experiment database or model registry",
+    "No docker-compose multi-service setup",
+    "No native support for protein structure prediction (e.g., AlphaFold-style folding)",
+    "No visual/GUI molecular editor or viewer"
+  ]
+}

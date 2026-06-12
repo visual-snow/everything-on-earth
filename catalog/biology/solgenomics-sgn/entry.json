@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/solgenomics/sgn",
+  "name": "solgenomics/sgn",
+  "description": "The code behind the Sol Genomics Network, Cassavabase and other Breedbase websites",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "Production breeding-network and Breedbase code for germplasm, trait, and crop data workflows.",
+  "stars": 74,
+  "language": "PLpgSQL",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 63.0,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture",
+    "genomics"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "The code behind the Sol Genomics Network, Cassavabase and other Breedbase websites",
+  "slug": "solgenomics-sgn"
+}

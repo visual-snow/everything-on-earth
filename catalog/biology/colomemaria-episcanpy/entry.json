@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/colomemaria/episcanpy",
+  "name": "colomemaria/episcanpy",
+  "description": "Episcanpy: Epigenomics Single Cell Analysis in Python",
+  "sub_domain": "epigenomics",
+  "score": 8,
+  "score_rationale": "Established single-cell epigenomics toolkit for ATAC-style analysis, though it is older and less active than newer alternatives.",
+  "stars": 151,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-12-05",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 65.5,
+  "discovery_score": 8,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "Episcanpy: Epigenomics Single Cell Analysis in Python",
+  "slug": "colomemaria-episcanpy"
+}

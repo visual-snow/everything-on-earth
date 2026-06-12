@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/firefly-iii/firefly-iii",
+  "name": "firefly-iii/firefly-iii",
+  "description": "Firefly III: a personal finances manager",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 8,
+  "score_rationale": "Matched 3 queries; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 22766,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 82.9,
+  "discovery_score": 8,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "Firefly III: a personal finances manager",
+  "slug": "firefly-iii-firefly-iii"
+}

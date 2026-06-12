@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/projectdossier/patient-trial-matching",
+  "name": "ProjectDossier/patient-trial-matching",
+  "description": "[JBI] Effective Matching of Patients to Clinical Trials using Entity Extraction and Neural Re-ranking",
+  "sub_domain": "clinical-trials-research",
+  "score": 7,
+  "score_rationale": "Relevant patient-to-trial matching pipeline, but narrower and more research-article driven than core platforms.",
+  "stars": 7,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2023-10-19",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 49.2,
+  "discovery_score": 7,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture",
+    "patient-records"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "[JBI] Effective Matching of Patients to Clinical Trials using Entity Extraction and Neural Re-ranking",
+  "slug": "projectdossier-patient-trial-matching"
+}

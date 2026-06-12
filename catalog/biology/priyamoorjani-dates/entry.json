@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/priyamoorjani/dates",
+  "name": "priyamoorjani/DATES",
+  "description": "Method for dating admixture in ancient DNA specimens",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 8,
+  "score_rationale": "Important paleogenomics inference method, even though it sits downstream of the core processing stack.",
+  "stars": 28,
+  "language": "C",
+  "license": null,
+  "last_activity": "2022-01-12",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 59.7,
+  "discovery_score": 8,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Method for dating admixture in ancient DNA specimens",
+  "slug": "priyamoorjani-dates"
+}

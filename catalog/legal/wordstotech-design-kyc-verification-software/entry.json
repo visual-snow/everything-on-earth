@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/wordstotech-design/kyc-verification-software",
+  "name": "wordstotech-design/kyc-verification-software",
+  "description": "Explore top KYC providers and KYC companies offering the best AML KYC software and compliance",
+  "sub_domain": "aml-kyc-identity",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-09",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification",
+    "compliance"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "Explore top KYC providers and KYC companies offering the best AML KYC software and compliance",
+  "slug": "wordstotech-design-kyc-verification-software"
+}

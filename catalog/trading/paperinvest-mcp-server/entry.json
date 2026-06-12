@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/paperinvest/mcp-server",
+  "name": "paperinvest/mcp-server",
+  "description": "Official MCP server for Paper's trading platform - enables AI assistants to interact with Paper's API",
+  "sub_domain": "paper-trading-simulation",
+  "score": 8,
+  "score_rationale": "Direct paper-trading API surface for fetching quotes, placing paper orders, and inspecting portfolios.",
+  "stars": 22,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-09-19",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 58.9,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "Official MCP server for Paper's trading platform - enables AI assistants to interact with Paper's API",
+  "slug": "paperinvest-mcp-server"
+}

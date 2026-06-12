@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/oxpig/anarci",
+  "name": "oxpig/ANARCI",
+  "description": "Antibody Numbering and Antigen Receptor ClassIfication",
+  "sub_domain": "immunoinformatics",
+  "score": 10,
+  "score_rationale": "Canonical antibody and antigen-receptor numbering/classification utility that is foundational for immunoinformatics workflows.",
+  "stars": 266,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-05-21",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 79.4,
+  "discovery_score": 10,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Antibody Numbering and Antigen Receptor ClassIfication",
+  "slug": "oxpig-anarci"
+}

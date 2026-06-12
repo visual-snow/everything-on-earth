@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/finos/common-domain-model",
+  "name": "finos/common-domain-model",
+  "description": "The CDM is a model for financial products, trades in those products, and the lifecycle events of those trades. It is an open source standard that aligns data, systems and processes and is available as code in multiple languages for easy implementation across technologies.",
+  "sub_domain": "financial-data-standards",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 228,
+  "language": "Java",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "regulatory-reporting-compliance",
+    "financial-data-standards"
+  ],
+  "quality_score": 48.9,
+  "discovery_score": 5,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "The CDM is a model for financial products, trades in those products, and the lifecycle events of those trades. It is an open source stand...",
+  "slug": "finos-common-domain-model"
+}

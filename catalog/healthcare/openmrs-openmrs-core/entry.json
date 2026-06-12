@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openmrs/openmrs-core",
+  "name": "openmrs/openmrs-core",
+  "description": "OpenMRS API and web application code.",
+  "sub_domain": "ehr-practice-management",
+  "score": 10,
+  "score_rationale": "Core application layer for one of the largest open-source EMR ecosystems.",
+  "stars": 1798,
+  "language": "Java",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "ehr-practice-management"
+  ],
+  "quality_score": 86.0,
+  "discovery_score": 10,
+  "tags": [
+    "ehr",
+    "emr",
+    "patient-records",
+    "practice-management"
+  ],
+  "category": "Electronic Health Records (EHR), Clinical Documentation & Practice Management",
+  "summary": "OpenMRS API and web application code.",
+  "slug": "openmrs-openmrs-core"
+}

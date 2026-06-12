@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/huggingface/blog",
+  "name": "huggingface/blog",
+  "description": "Public repo for HF blog posts",
+  "sub_domain": "e-discovery-document-review",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 3348,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 40.2,
+  "discovery_score": 2,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "Public repo for HF blog posts",
+  "slug": "huggingface-blog"
+}

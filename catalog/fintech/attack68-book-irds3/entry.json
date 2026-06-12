@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/attack68/book_irds3",
+  "name": "attack68/book_irds3",
+  "description": "Code repository for Pricing and Trading Interest Rate Derivatives",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+  "stars": 114,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2022-10-29",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 52.5,
+  "discovery_score": 6,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "Code repository for Pricing and Trading Interest Rate Derivatives",
+  "slug": "attack68-book-irds3"
+}

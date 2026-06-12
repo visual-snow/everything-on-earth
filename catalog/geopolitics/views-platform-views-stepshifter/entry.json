@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/views-platform/views-stepshifter",
+  "name": "views-platform/views-stepshifter",
+  "description": "VIEWS Stepshifter is a package that contains modeling procedure, evaluation and forecasting using Darts",
+  "sub_domain": "risk-forecasting-models",
+  "score": 8,
+  "score_rationale": "Reusable modeling and evaluation package from the VIEWS forecasting stack.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-12-11",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "conflict-forecasting",
+    "model-evaluation",
+    "darts",
+    "views"
+  ],
+  "category": "Forecasting Toolkit",
+  "summary": "VIEWS modeling and evaluation package built on Darts.",
+  "slug": "views-platform-views-stepshifter"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/tseemann/snippy",
+  "name": "tseemann/snippy",
+  "description": ":scissors: :zap: Rapid haploid variant calling and core genome alignment",
+  "sub_domain": "genomics",
+  "score": 8,
+  "score_rationale": "Practical haploid variant-calling and core-genome alignment workflow, especially useful for bacterial genomics.",
+  "stars": 575,
+  "language": "Perl",
+  "license": "GPL-2.0",
+  "last_activity": "2025-12-12",
+  "found_in_domains": [
+    "genomics",
+    "phylogenetics"
+  ],
+  "quality_score": 70.1,
+  "discovery_score": 8,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": ":scissors: :zap: Rapid haploid variant calling and core genome alignment",
+  "slug": "tseemann-snippy"
+}

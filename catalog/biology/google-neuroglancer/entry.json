@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/google/neuroglancer",
+  "name": "google/neuroglancer",
+  "description": "WebGL-based viewer for volumetric data.",
+  "sub_domain": "connectomics",
+  "score": 10,
+  "score_rationale": "Field-standard connectomics visualization surface for EM volumes and segmentation workflows, despite also serving broader volumetric use cases.",
+  "stars": 1300,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 84.9,
+  "discovery_score": 10,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "WebGL-based viewer for volumetric data.",
+  "slug": "google-neuroglancer"
+}

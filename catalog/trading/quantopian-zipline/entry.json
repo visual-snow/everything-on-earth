@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/quantopian/zipline",
+  "name": "quantopian/zipline",
+  "description": "Zipline, a Pythonic Algorithmic Trading Library",
+  "sub_domain": "backtesting-frameworks",
+  "score": 10,
+  "score_rationale": "Canonical Python backtesting engine and the primary historical anchor for this subdomain.",
+  "stars": 19545,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 94.3,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "Zipline, a Pythonic Algorithmic Trading Library",
+  "slug": "quantopian-zipline"
+}

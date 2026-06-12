@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/skfolio/skfolio",
+  "name": "skfolio/skfolio",
+  "description": "Python library for portfolio optimization built on top of scikit-learn",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1910,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 62.3,
+  "discovery_score": 6,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "Python library for portfolio optimization built on top of scikit-learn",
+  "slug": "skfolio-skfolio"
+}

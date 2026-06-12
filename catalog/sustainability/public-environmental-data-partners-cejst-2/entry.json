@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/public-environmental-data-partners/cejst-2",
+  "name": "public-environmental-data-partners/cejst-2",
+  "description": "[PEDP's copy] A tool to identify disadvantaged communities due to environmental, socioeconomic and health burdens.",
+  "sub_domain": "environmental-justice",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "license": "CC0-1.0",
+  "last_activity": "2025-12-08",
+  "found_in_domains": [
+    "environmental-justice"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "environmental-justice",
+    "equity",
+    "exposure-mapping",
+    "community-impact"
+  ],
+  "category": "Environmental Justice \u2014 exposure mapping, equity analysis, community impact tools",
+  "summary": "[PEDP's copy] A tool to identify disadvantaged communities due to environmental, socioeconomic and health burdens.",
+  "slug": "public-environmental-data-partners-cejst-2"
+}

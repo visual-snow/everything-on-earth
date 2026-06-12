@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/trilogy-group/oneroster-ts",
+  "name": "trilogy-group/oneroster-ts",
+  "description": "TypeScript SDK for the 1EdTech OneRoster API.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 7,
+  "score_rationale": "Useful OneRoster client SDK for school roster sync and integration work.",
+  "stars": 9,
+  "language": "TypeScript",
+  "license": "0BSD",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 50.0,
+  "discovery_score": 7,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "TypeScript SDK for the 1EdTech OneRoster API.",
+  "slug": "trilogy-group-oneroster-ts"
+}

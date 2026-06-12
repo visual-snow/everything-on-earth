@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bebop/poly",
+  "name": "bebop/poly",
+  "description": "A Go package for engineering organisms.",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Useful Go package for organism engineering that bridges software and synthetic-biology design workflows.",
+  "stars": 720,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2024-10-21",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 70.9,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "A Go package for engineering organisms.",
+  "slug": "bebop-poly"
+}

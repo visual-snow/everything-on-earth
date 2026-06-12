@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lkruitwagen/global-fossil-fuel-supply-chain",
+  "name": "Lkruitwagen/global-fossil-fuel-supply-chain",
+  "description": "Asset-level mapping of the global fossil fuel supply chain.",
+  "sub_domain": "energy-geopolitics",
+  "score": 9,
+  "score_rationale": "Best-in-class supply-chain mapping for fossil fuels, which is central to energy geopolitics.",
+  "stars": 187,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-07-06",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 72.2,
+  "tags": [
+    "fossil-fuels",
+    "supply-chain",
+    "mapping",
+    "energy"
+  ],
+  "category": "Energy Supply Chains",
+  "summary": "Asset-level map of the global fossil-fuel supply chain.",
+  "slug": "lkruitwagen-global-fossil-fuel-supply-chain"
+}

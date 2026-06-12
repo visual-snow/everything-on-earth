@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jlball/arc-nonproliferation",
+  "name": "jlball/arc-nonproliferation",
+  "description": "An OpenMC-based repo for studying proliferation issues in ARC-class fusion reactors.",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 8,
+  "score_rationale": "OpenMC-based proliferation study for ARC-class fusion reactor scenarios.",
+  "stars": 11,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-09-25",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 56.6,
+  "tags": [
+    "nuclear",
+    "fusion",
+    "proliferation",
+    "openmc",
+    "analysis"
+  ],
+  "category": "Fusion Proliferation Study",
+  "summary": "Studies proliferation issues in ARC-class fusion reactors.",
+  "slug": "jlball-arc-nonproliferation"
+}

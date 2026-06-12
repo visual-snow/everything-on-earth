@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/deacs11/crewai_contract_clause_risk_assessment",
+  "name": "deacs11/crewai_contract_clause_risk_assessment",
+  "description": "This CrewAI project uses AI agents to review contracts, flag risks, classify clauses, and create a \u201cReview Brief\u201d for legal professionals.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 9,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-04-06",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 4,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining",
+    "contract"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "This CrewAI project uses AI agents to review contracts, flag risks, classify clauses, and create a \u201cReview Brief\u201d for legal professionals.",
+  "slug": "deacs11-crewai-contract-clause-risk-assessment"
+}

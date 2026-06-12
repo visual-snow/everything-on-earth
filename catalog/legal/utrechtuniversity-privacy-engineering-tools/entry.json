@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/utrechtuniversity/privacy-engineering-tools",
+  "name": "utrechtuniversity/privacy-engineering-tools",
+  "description": "Overview of tools to de-identify, synthesize and work safely with (sensitive) data",
+  "sub_domain": "privacy-data-protection",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 24,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2024-11-28",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 35.2,
+  "discovery_score": 4,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "Overview of tools to de-identify, synthesize and work safely with (sensitive) data",
+  "slug": "utrechtuniversity-privacy-engineering-tools"
+}

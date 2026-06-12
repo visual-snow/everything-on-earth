@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yanglinyi/finnlp-progress",
+  "name": "yanglinyi/finnlp-progress",
+  "description": "NLP progress in Fintech. A repository to track the progress in Natural Language Processing (NLP) related to the domain of Finance, including the datasets, papers, and current state-of-the-art results for the most popular tasks.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 379,
+  "language": null,
+  "license": null,
+  "last_activity": "2022-04-18",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 44.6,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "NLP progress in Fintech. A repository to track the progress in Natural Language Processing (NLP) related to the domain of Finance, includ...",
+  "slug": "yanglinyi-finnlp-progress"
+}

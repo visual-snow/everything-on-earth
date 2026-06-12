@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pfizer-opensource/cospred",
+  "name": "pfizer-opensource/CoSpred",
+  "description": "Mass Spectrometry Spectrum Prediction Workflow",
+  "sub_domain": "proteomics",
+  "score": 6,
+  "score_rationale": "Proteomics spectrum prediction workflow that is directly usable in MS proteomics pipelines, though it is more model-oriented than analysis-first.",
+  "stars": 9,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-06-22",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 44.0,
+  "discovery_score": 6,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "Mass Spectrometry Spectrum Prediction Workflow",
+  "slug": "pfizer-opensource-cospred"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/alea-institute/folio-api",
+  "name": "alea-institute/folio-api",
+  "description": "API for FOLIO - Federated Open Legal Information Ontology",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 5,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif",
+    "ontology"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "API for FOLIO - Federated Open Legal Information Ontology",
+  "slug": "alea-institute-folio-api"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kennethleungty/finance-llms",
+  "name": "kennethleungty/finance-llms",
+  "description": "Comprehensive Compilation of Real-World LLM Implementation in Financial Services",
+  "sub_domain": "financial-ai-nlp",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 109,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 52.3,
+  "discovery_score": 6,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Comprehensive Compilation of Real-World LLM Implementation in Financial Services",
+  "slug": "kennethleungty-finance-llms"
+}

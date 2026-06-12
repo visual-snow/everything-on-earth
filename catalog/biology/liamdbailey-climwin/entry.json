@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/liamdbailey/climwin",
+  "name": "LiamDBailey/climwin",
+  "description": "An R package for detecting and analysing climate windows",
+  "sub_domain": "climate-biology",
+  "score": 9,
+  "score_rationale": "Direct climate-window analysis package for identifying biologically meaningful climate periods.",
+  "stars": 14,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-02-13",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 63.4,
+  "discovery_score": 9,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "An R package for detecting and analysing climate windows",
+  "slug": "liamdbailey-climwin"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/adgefficiency/energy-py-linear",
+  "name": "adgefficiency/energy-py-linear",
+  "description": "Optimize energy assets using mixed-integer linear programming",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 99,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-14",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 34.0,
+  "discovery_score": 3,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "Optimize energy assets using mixed-integer linear programming",
+  "slug": "adgefficiency-energy-py-linear"
+}

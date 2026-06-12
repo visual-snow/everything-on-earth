@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aroyy007/air_quality_monitoring_system",
+  "name": "aroyy007/air_quality_monitoring_system",
+  "description": "A real-time air quality monitoring system featuring Arduino sensors, Node.js backend, and React dashboard with personalized health alerts and historical data analysis.A real-time air quality monitoring system featuring Arduino sensors, Node.js backend, and React dashboard with personalized health alerts and historical data analysis.",
+  "sub_domain": "air-quality-emissions",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-04-21",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "A real-time air quality monitoring system featuring Arduino sensors, Node.js backend, and React dashboard with personalized health alerts...",
+  "slug": "aroyy007-air-quality-monitoring-system"
+}

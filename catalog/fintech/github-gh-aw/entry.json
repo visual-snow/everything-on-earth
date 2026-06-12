@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/github/gh-aw",
+  "name": "github/gh-aw",
+  "description": "GitHub Agentic Workflows",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 4162,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 41.0,
+  "discovery_score": 2,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "GitHub Agentic Workflows",
+  "slug": "github-gh-aw"
+}

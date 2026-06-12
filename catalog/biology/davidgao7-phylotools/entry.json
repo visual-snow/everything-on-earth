@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/davidgao7/phylotools",
+  "name": "davidgao7/phylotools",
+  "description": "A User-Friendly Toolkit for Gene Tree Rooting, Ortholog Retrieval, Gene Duplication Identification, Species Hybridization Detection,and Visualization.",
+  "sub_domain": "phylogenetics",
+  "score": 8,
+  "score_rationale": "It bundles several classic phylogenomics workflows into a single biology-facing toolkit, which makes it directly useful here.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-10-24",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "A User-Friendly Toolkit for Gene Tree Rooting, Ortholog Retrieval, Gene Duplication Identification, Species Hybridization Detection,and V...",
+  "slug": "davidgao7-phylotools"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/msdllcpapers/ovo",
+  "name": "msdllcpapers/ovo",
+  "description": "OVO, an open-source ecosystem for de novo protein design",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 9,
+  "score_rationale": "Active, directly protein-design focused, and centered on a modern de novo design workflow rather than a generic ML or reference repo.",
+  "stars": 118,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 70.6,
+  "discovery_score": 9,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "OVO, an open-source ecosystem for de novo protein design",
+  "slug": "msdllcpapers-ovo"
+}

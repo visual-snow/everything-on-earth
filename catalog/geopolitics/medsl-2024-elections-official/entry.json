@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/medsl/2024-elections-official",
+  "name": "MEDSL/2024-elections-official",
+  "description": "Repository for the results of the 2024 U.S. general election, mostly at the precinct level",
+  "sub_domain": "election-governance-data",
+  "score": 9,
+  "score_rationale": "This is a current, precinct-level elections dataset and a stronger direct fit than a generic voting-information platform.",
+  "stars": 39,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 66.8,
+  "tags": [
+    "elections",
+    "precincts",
+    "us-politics",
+    "results"
+  ],
+  "category": "Election Results Dataset",
+  "summary": "Precinct-level results for the 2024 U.S. general election.",
+  "slug": "medsl-2024-elections-official"
+}

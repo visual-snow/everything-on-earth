@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ruleworld/pybionetgen",
+  "name": "RuleWorld/PyBioNetGen",
+  "description": "A simple CLI for BioNetGen",
+  "sub_domain": "systems-biology",
+  "score": 8,
+  "score_rationale": "Useful command-line interface around the BioNetGen ecosystem for working with rule-based biochemical models.",
+  "stars": 5,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 54.2,
+  "discovery_score": 8,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "A simple CLI for BioNetGen",
+  "slug": "ruleworld-pybionetgen"
+}

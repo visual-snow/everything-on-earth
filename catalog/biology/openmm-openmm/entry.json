@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openmm/openmm",
+  "name": "openmm/openmm",
+  "description": "OpenMM is a toolkit for molecular simulation using high performance GPU code.",
+  "sub_domain": "structural-biology",
+  "score": 10,
+  "score_rationale": "A canonical biomolecular simulation engine used heavily for structure-driven modeling and molecular dynamics.",
+  "stars": 1821,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 86.1,
+  "discovery_score": 10,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "OpenMM is a toolkit for molecular simulation using high performance GPU code.",
+  "slug": "openmm-openmm"
+}

@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/electrovir/statement-parser",
+  "name": "electrovir/statement-parser",
+  "description": "Parse bank and credit card statements",
+  "sub_domain": "financial-document-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 38,
+  "language": "TypeScript",
+  "query_hits": 1,
+  "matched_queries": [
+    "statement parser financial document ai github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 36.7,
+  "discovery_score": 4,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing",
+    "credit"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Parse bank and credit card statements",
+  "slug": "electrovir-statement-parser"
+}

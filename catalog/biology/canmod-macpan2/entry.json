@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/canmod/macpan2",
+  "name": "canmod/macpan2",
+  "description": "R tools for building and calibrating infectious-disease compartment models.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 9,
+  "score_rationale": "Dedicated platform for constructing and calibrating infectious-disease compartmental models.",
+  "stars": 7,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 61.2,
+  "discovery_score": 9,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "R tools for building and calibrating infectious-disease compartment models.",
+  "slug": "canmod-macpan2"
+}

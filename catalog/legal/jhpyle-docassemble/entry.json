@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/jhpyle/docassemble",
+  "name": "jhpyle/docassemble",
+  "description": "A free, open-source expert system for guided interviews and document assembly, based on Python, YAML, and Markdown.",
+  "sub_domain": "legal-document-automation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 928,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "legal-document-automation",
+    "access-to-justice-civic-tech"
+  ],
+  "quality_score": 53.7,
+  "discovery_score": 5,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "A free, open-source expert system for guided interviews and document assembly, based on Python, YAML, and Markdown.",
+  "slug": "jhpyle-docassemble"
+}

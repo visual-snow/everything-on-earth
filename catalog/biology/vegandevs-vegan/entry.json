@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vegandevs/vegan",
+  "name": "vegandevs/vegan",
+  "description": "R package for community ecologists: popular ordination methods, ecological null models & diversity analysis",
+  "sub_domain": "ecology-conservation",
+  "score": 10,
+  "score_rationale": "Foundational ecology analysis package for ordination, diversity analysis, and related community-ecology workflows.",
+  "stars": 522,
+  "language": "R",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 81.7,
+  "discovery_score": 10,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "R package for community ecologists: popular ordination methods, ecological null models & diversity analysis",
+  "slug": "vegandevs-vegan"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gberesearch/optionvisualizer",
+  "name": "gberesearch/optionvisualizer",
+  "description": "Visualize option prices and sensitivities",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 60,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-11-28",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 20.3,
+  "discovery_score": 1,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "Visualize option prices and sensitivities",
+  "slug": "gberesearch-optionvisualizer"
+}

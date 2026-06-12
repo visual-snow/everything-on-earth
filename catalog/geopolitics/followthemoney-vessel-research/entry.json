@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/followthemoney/vessel_research",
+  "name": "followthemoney/vessel_research",
+  "description": "Code for investigating vessels",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 7,
+  "score_rationale": "Investigative vessel-research notebook using Global Fishing Watch data.",
+  "stars": 7,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2026-03-07",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 49.2,
+  "tags": [
+    "vessel-research",
+    "global-fishing-watch",
+    "investigation",
+    "maritime"
+  ],
+  "category": "Vessel Research Toolkit",
+  "summary": "Notebook toolkit for investigating vessels with maritime datasets.",
+  "slug": "followthemoney-vessel-research"
+}

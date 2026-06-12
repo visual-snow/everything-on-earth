@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jkirkby3/proj_option_pricing_matlab",
+  "name": "jkirkby3/proj_option_pricing_matlab",
+  "description": "Quant Option Pricing - Exotic/Vanilla: Barrier, Asian, European, American, Parisian, Lookback, Cliquet, Variance Swap, Swing, Forward Starting, Step, Fader",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 208,
+  "language": "MATLAB",
+  "license": "MIT",
+  "last_activity": "2024-11-19",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 48.6,
+  "discovery_score": 5,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "Quant Option Pricing - Exotic/Vanilla: Barrier, Asian, European, American, Parisian, Lookback, Cliquet, Variance Swap, Swing, Forward Sta...",
+  "slug": "jkirkby3-proj-option-pricing-matlab"
+}

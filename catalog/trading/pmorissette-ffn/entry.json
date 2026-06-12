@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/pmorissette/ffn",
+  "name": "pmorissette/ffn",
+  "description": "ffn - a financial function library for Python",
+  "sub_domain": "quant-research-notebooks",
+  "score": 8,
+  "score_rationale": "Broad financial function library that complements notebook-based research and portfolio analysis stacks.",
+  "stars": 2519,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "quant-research-notebooks"
+  ],
+  "quality_score": 75.2,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "ffn - a financial function library for Python",
+  "slug": "pmorissette-ffn"
+}

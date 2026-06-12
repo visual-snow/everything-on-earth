@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opensignlabs/opensign",
+  "name": "opensignlabs/opensign",
+  "description": "\ud83d\udd25 The free & Open Source DocuSign alternative",
+  "sub_domain": "legal-document-automation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 6125,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 60.3,
+  "discovery_score": 5,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "\ud83d\udd25 The free & Open Source DocuSign alternative",
+  "slug": "opensignlabs-opensign"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/bunsenfeng/twibot-20",
+  "name": "BunsenFeng/TwiBot-20",
+  "description": "A comprehensive benchmark for Twitter bot detection. CIKM 2021.",
+  "sub_domain": "social-media-influence",
+  "score": 10,
+  "score_rationale": "This is a major Twitter bot-detection benchmark and a stronger anchor for influence-analysis work.",
+  "stars": 62,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2022-10-16",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 74.4,
+  "tags": [
+    "bot-detection",
+    "benchmark",
+    "twitter",
+    "evaluation"
+  ],
+  "category": "Bot Detection",
+  "summary": "Twitter bot benchmark for evaluating detection models.",
+  "slug": "bunsenfeng-twibot-20"
+}

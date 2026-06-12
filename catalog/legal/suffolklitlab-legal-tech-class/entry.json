@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/suffolklitlab/legal-tech-class",
+  "name": "suffolklitlab/legal-tech-class",
+  "description": "Materials for a Law School class based around the open source platform Docassemble",
+  "sub_domain": "legal-document-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 29,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-26",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 35.8,
+  "discovery_score": 4,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "Materials for a Law School class based around the open source platform Docassemble",
+  "slug": "suffolklitlab-legal-tech-class"
+}

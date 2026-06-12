@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/emodnet/emodnet-biology-shellfish-ocean-acidification",
+  "name": "emodnet/emodnet-biology-shellfish-ocean-acidification",
+  "description": "No description provided.",
+  "sub_domain": "ocean-climate",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "R",
+  "license": null,
+  "last_activity": "2024-03-15",
+  "found_in_domains": [
+    "ocean-climate"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "ocean-climate",
+    "blue-carbon",
+    "marine-carbon",
+    "ocean-acidification"
+  ],
+  "category": "Ocean / Climate \u2014 ocean acidification, marine carbon, blue economy tools",
+  "summary": "No description provided.",
+  "slug": "emodnet-emodnet-biology-shellfish-ocean-acidification"
+}

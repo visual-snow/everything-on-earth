@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/yeti-platform/yeti",
+  "name": "yeti-platform/yeti",
+  "description": "Your Everyday Threat Intelligence",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 9,
+  "score_rationale": "Threat-intelligence platform focused on ingestion, normalization, and analysis of indicators and reports.",
+  "stars": 1963,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 80.3,
+  "tags": [
+    "threat-intel",
+    "normalization",
+    "analysis",
+    "platform"
+  ],
+  "category": "Threat Intelligence Platform",
+  "summary": "Threat intelligence platform for ingesting, normalizing, and analyzing data.",
+  "slug": "yeti-platform-yeti"
+}

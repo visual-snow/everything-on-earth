@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gbif/pipelines",
+  "name": "gbif/pipelines",
+  "description": "Pipelines for data processing (GBIF and LivingAtlases)",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This repo covers GBIF data-processing pipelines, which makes it directly relevant to taxonomic-data workflow infrastructure.",
+  "stars": 48,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 61.5,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Pipelines for data processing (GBIF and LivingAtlases)",
+  "slug": "gbif-pipelines"
+}

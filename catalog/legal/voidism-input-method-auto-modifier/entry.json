@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/voidism/input_method_auto-modifier",
+  "name": "voidism/input_method_auto-modifier",
+  "description": "Windows \u81ea\u52d5\u5207\u63db\u8f38\u5165\u6cd5\u7a0b\u5f0f     Chinese computer user always annoyed with modifying input types between Chinese and English every now and then. Sometimes you type in a lot of words but finally find it was under wrong input type. It is a kind of tolerant. So I write this tiny Python code to solve this problem. With this program, we almost no need to press \"Shift\" to change our input type. It will modify you input type automatically according to the words you type in.",
+  "sub_domain": "smart-contracts-legal",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 6,
+  "language": "AutoHotkey",
+  "license": null,
+  "last_activity": "2018-09-27",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 12.8,
+  "discovery_score": 1,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Windows \u81ea\u52d5\u5207\u63db\u8f38\u5165\u6cd5\u7a0b\u5f0f     Chinese computer user always annoyed with modifying input types between Chinese and English every now and then. Som...",
+  "slug": "voidism-input-method-auto-modifier"
+}

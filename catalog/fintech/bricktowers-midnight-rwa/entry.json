@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bricktowers/midnight-rwa",
+  "name": "bricktowers/midnight-rwa",
+  "description": "Brick Towers Real World Assets on Midnight Network",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 12,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 14.9,
+  "discovery_score": 1,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Brick Towers Real World Assets on Midnight Network",
+  "slug": "bricktowers-midnight-rwa"
+}

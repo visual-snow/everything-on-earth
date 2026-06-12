@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brunobrr/bdc",
+  "name": "brunobrr/bdc",
+  "description": "Check out the vignettes with detailed documentation on each module of the bdc package",
+  "sub_domain": "biodiversity-informatics",
+  "score": 9,
+  "score_rationale": "This package is tightly focused on biodiversity data cleaning and harmonization, which is a direct fit for the subdomain.",
+  "stars": 24,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 65.2,
+  "discovery_score": 9,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Check out the vignettes with detailed documentation on each module of the bdc package",
+  "slug": "brunobrr-bdc"
+}

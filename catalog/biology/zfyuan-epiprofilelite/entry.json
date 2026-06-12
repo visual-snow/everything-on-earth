@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zfyuan/epiprofilelite",
+  "name": "zfyuan/epiprofilelite",
+  "description": "One minute analysis of histone post-translational modifications by direct infusion mass spectrometry",
+  "sub_domain": "epigenomics",
+  "score": 5,
+  "score_rationale": "A specialized histone PTM quantification tool that is relevant but extremely narrow and low-visibility.",
+  "stars": 1,
+  "language": null,
+  "license": "GPL-3.0",
+  "last_activity": "2024-06-04",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "One minute analysis of histone post-translational modifications by direct infusion mass spectrometry",
+  "slug": "zfyuan-epiprofilelite"
+}

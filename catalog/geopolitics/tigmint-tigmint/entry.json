@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tigmint/tigmint",
+  "name": "TIGMINT/TIGMINT",
+  "description": "TIGMINT: OSINT (Open Source Intelligence) GUI software framework",
+  "stars": 250,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2021-07-29",
+  "sub_domain": "osint-frameworks",
+  "score": 8,
+  "score_rationale": "GUI OSINT framework for investigations with direct alignment to the subdomain.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 67.2,
+  "tags": [
+    "osint",
+    "gui",
+    "framework",
+    "investigation",
+    "intelligence"
+  ],
+  "category": "OSINT GUI Framework",
+  "summary": "GUI framework for OSINT investigations.",
+  "slug": "tigmint-tigmint"
+}

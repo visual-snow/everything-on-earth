@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brainlife/bct",
+  "name": "brainlife/bct",
+  "description": "The Brain Connectivity Toolbox: https://sites.google.com/site/bctnet/",
+  "sub_domain": "computational-neuroscience",
+  "score": 8,
+  "score_rationale": "Established brain-connectivity analysis toolbox that fits computational neuroscience analysis rather than generic ML.",
+  "stars": 28,
+  "language": "MATLAB",
+  "license": "MIT",
+  "last_activity": "2020-12-16",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 59.7,
+  "discovery_score": 8,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "The Brain Connectivity Toolbox: https://sites.google.com/site/bctnet/",
+  "slug": "brainlife-bct"
+}

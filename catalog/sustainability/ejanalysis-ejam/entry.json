@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ejanalysis/ejam",
+  "name": "ejanalysis/ejam",
+  "description": "Environmental Justice Analysis Multisite tool for summarizing environmental and residential population information for multiple locations. This detached fork of the package and this repository are not associated with the USEPA.",
+  "sub_domain": "environmental-justice",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "environmental-justice"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "environmental-justice",
+    "equity",
+    "exposure-mapping",
+    "community-impact"
+  ],
+  "category": "Environmental Justice \u2014 exposure mapping, equity analysis, community impact tools",
+  "summary": "Environmental Justice Analysis Multisite tool for summarizing environmental and residential population information for multiple locations...",
+  "slug": "ejanalysis-ejam"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mitre/cti",
+  "name": "mitre/cti",
+  "description": "Cyber Threat Intelligence Repository expressed in STIX 2.0",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 8,
+  "score_rationale": "MITRE\u2019s STIX-formatted cyber threat intelligence repository and reference corpus.",
+  "stars": 2044,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2025-12-19",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 74.5,
+  "tags": [
+    "stix",
+    "threat-intel",
+    "corpus",
+    "mitre"
+  ],
+  "category": "STIX Intelligence Corpus",
+  "summary": "MITRE's STIX-formatted cyber threat intelligence repository.",
+  "slug": "mitre-cti"
+}

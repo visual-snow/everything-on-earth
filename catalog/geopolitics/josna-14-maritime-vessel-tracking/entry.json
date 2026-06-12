@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/josna-14/maritime_vessel_tracking",
+  "name": "josna-14/Maritime_Vessel_Tracking",
+  "description": "Real-time maritime vessel tracking and port congestion analytics platform with safety alerts using React, Django, and AIS data",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 7,
+  "score_rationale": "Tracking and port-congestion analytics platform built on AIS data.",
+  "stars": 6,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 48.8,
+  "tags": [
+    "ais",
+    "port-analytics",
+    "vessel-tracking",
+    "dashboard"
+  ],
+  "category": "Vessel Analytics App",
+  "summary": "Tracks vessels and port congestion with AIS-driven safety alerts.",
+  "slug": "josna-14-maritime-vessel-tracking"
+}

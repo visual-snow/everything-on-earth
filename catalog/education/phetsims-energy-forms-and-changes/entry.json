@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/phetsims/energy-forms-and-changes",
+  "name": "phetsims/energy-forms-and-changes",
+  "description": "\"Energy Forms And Changes\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Official PhET simulation repo for a canonical learner-facing energy classroom activity.",
+  "stars": 7,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 61.2,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning",
+    "interactive"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "\"Energy Forms And Changes\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "slug": "phetsims-energy-forms-and-changes"
+}

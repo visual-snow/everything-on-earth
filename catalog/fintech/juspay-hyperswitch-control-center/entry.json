@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/juspay/hyperswitch-control-center",
+  "name": "juspay/hyperswitch-control-center",
+  "description": "Open sourced control center for managing Hyperswitch - an open sourced payment switch.",
+  "sub_domain": "payment-processing-gateways",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 75,
+  "language": "ReScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 39.0,
+  "discovery_score": 4,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "Open sourced control center for managing Hyperswitch - an open sourced payment switch.",
+  "slug": "juspay-hyperswitch-control-center"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/xbrlus/xbrl-api",
+  "name": "xbrlus/xbrl-api",
+  "description": "Open API documentation for XBRL US API",
+  "sub_domain": "financial-data-standards",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 13,
+  "language": "CSS",
+  "license": null,
+  "last_activity": "2023-08-11",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 27.2,
+  "discovery_score": 3,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "Open API documentation for XBRL US API",
+  "slug": "xbrlus-xbrl-api"
+}

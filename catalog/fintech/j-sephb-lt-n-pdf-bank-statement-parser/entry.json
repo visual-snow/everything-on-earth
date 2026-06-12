@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/j-sephb-lt-n/pdf-bank-statement-parser",
+  "name": "j-sephb-lt-n/pdf-bank-statement-parser",
+  "description": "Tool for converting First National Bank (FNB) bank statement PDFs into useful structured data",
+  "sub_domain": "financial-document-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 6,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "statement parser financial document ai github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Tool for converting First National Bank (FNB) bank statement PDFs into useful structured data",
+  "slug": "j-sephb-lt-n-pdf-bank-statement-parser"
+}

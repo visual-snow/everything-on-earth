@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shivam3310/real-time-fraud-detection-system-azure-cloud",
+  "name": "shivam3310/real-time-fraud-detection-system-azure-cloud",
+  "description": "No description provided.",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-08-27",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "No description provided.",
+  "slug": "shivam3310-real-time-fraud-detection-system-azure-cloud"
+}

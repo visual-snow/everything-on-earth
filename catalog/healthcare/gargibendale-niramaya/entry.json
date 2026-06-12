@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gargibendale/niramaya",
+  "name": "gargibendale/Niramaya",
+  "description": "A mental health monitoring app which offers personalized advice and support, along with emotion detection, diagnosis tests and mental health report.",
+  "sub_domain": "mental-health-behavioral",
+  "score": 7,
+  "score_rationale": "Behavioral-health monitoring app with emotion detection and assessment flows, making it a direct subdomain match.",
+  "stars": 8,
+  "language": "Dart",
+  "license": null,
+  "last_activity": "2024-07-06",
+  "found_in_domains": [
+    "mental-health-behavioral"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 7,
+  "tags": [
+    "mental-health",
+    "behavioral-health",
+    "cbt",
+    "screening"
+  ],
+  "category": "Mental Health, Behavioral Health, CBT, Mood Tracking & Crisis Support",
+  "summary": "A mental health monitoring app which offers personalized advice and support, along with emotion detection, diagnosis tests and mental hea...",
+  "slug": "gargibendale-niramaya"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/adityabandi/sitpulse-westasia",
+  "name": "adityabandi/sitpulse-westasia",
+  "description": "Military-style OSINT command dashboard for West Asia conflict monitoring. Zero infrastructure \u2014 GitHub Actions + GitHub Pages.",
+  "stars": 2,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-18",
+  "sub_domain": "conflict-event-tracking",
+  "score": 8,
+  "score_rationale": "Operational conflict-monitoring dashboard with a specific regional intelligence workflow.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 51.8,
+  "tags": [
+    "osint",
+    "west-asia",
+    "conflict-monitoring",
+    "dashboard"
+  ],
+  "category": "Regional Conflict Monitor",
+  "summary": "GitHub-hosted dashboard for West Asia conflict monitoring.",
+  "slug": "adityabandi-sitpulse-westasia"
+}

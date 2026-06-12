@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sim-eng-ii/augmented",
+  "name": "sim-eng-ii/AugmentEd",
+  "description": "Virtual Simulations of Science Experiments using Augmented Reality (AR) with Python and OpenCV. [team project]",
+  "sub_domain": "k12-stem",
+  "score": 3,
+  "score_rationale": "Learner-facing science simulation project, though smaller and more experimental than the top-tier education platforms.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-05-04",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "Virtual Simulations of Science Experiments using Augmented Reality (AR) with Python and OpenCV. [team project]",
+  "slug": "sim-eng-ii-augmented"
+}

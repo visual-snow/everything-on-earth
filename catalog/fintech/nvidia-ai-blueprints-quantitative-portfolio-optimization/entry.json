@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nvidia-ai-blueprints/quantitative-portfolio-optimization",
+  "name": "nvidia-ai-blueprints/quantitative-portfolio-optimization",
+  "description": "NVIDIA Quantitative Portfolio Optimization developer example",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for example-style signals.",
+  "stars": 191,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-15",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 42.3,
+  "discovery_score": 4,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "NVIDIA Quantitative Portfolio Optimization developer example",
+  "slug": "nvidia-ai-blueprints-quantitative-portfolio-optimization"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lazear/sage",
+  "name": "lazear/sage",
+  "description": "Proteomics search & quantification so fast that it feels like magic",
+  "sub_domain": "proteomics",
+  "score": 90,
+  "score_rationale": "Fast proteomics search engine with a narrow but highly relevant use case.",
+  "stars": 278,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 559.6,
+  "discovery_score": 90,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "Proteomics search & quantification so fast that it feels like magic",
+  "slug": "lazear-sage"
+}

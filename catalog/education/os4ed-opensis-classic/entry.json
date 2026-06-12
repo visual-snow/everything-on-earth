@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/os4ed/opensis-classic",
+  "name": "OS4ED/openSIS-Classic",
+  "description": "openSIS is a commercial grade, secure, scalable & intuitive Student Information System, School Management Software from OS4ED. Has all functionalities to run single or multiple institutions in one installation. Web based, php code, MySQL database.",
+  "sub_domain": "sis",
+  "score": 10,
+  "score_rationale": "Dedicated SIS with school administration, multi-institution support, and strong fit for enrollment, attendance, and records workflows.",
+  "stars": 305,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "sis"
+  ],
+  "quality_score": 79.9,
+  "discovery_score": 10,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "openSIS is a commercial grade, secure, scalable & intuitive Student Information System, School Management Software from OS4ED. Has all fu...",
+  "slug": "os4ed-opensis-classic"
+}

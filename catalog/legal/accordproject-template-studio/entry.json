@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/accordproject/template-studio",
+  "name": "accordproject/template-studio",
+  "description": "A Web UI for creating, editing and testing Accord Project templates",
+  "sub_domain": "smart-contracts-legal",
+  "score": 1,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for template-style signals; archived repo penalty.",
+  "stars": 33,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2023-03-03",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 18.3,
+  "discovery_score": 1,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "A Web UI for creating, editing and testing Accord Project templates",
+  "slug": "accordproject-template-studio"
+}

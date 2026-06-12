@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/campsych/concerto-platform",
+  "name": "campsych/concerto-platform",
+  "description": "Open-source online adaptive testing platform.",
+  "sub_domain": "assessment-testing",
+  "score": 9,
+  "score_rationale": "Directly targeted at adaptive testing workflows used in educational assessment.",
+  "stars": 168,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 71.8,
+  "discovery_score": 9,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Open-source online adaptive testing platform.",
+  "slug": "campsych-concerto-platform"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ainative-studio/agent-402",
+  "name": "ainative-studio/agent-402",
+  "description": "Autonomous Fintech Agent Crew (AINative Edition: CrewAI \u00d7 X402 \u00d7 ZeroDB \u00d7 AIKit)",
+  "sub_domain": "payment-processing-gateways",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-04",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "Autonomous Fintech Agent Crew (AINative Edition: CrewAI \u00d7 X402 \u00d7 ZeroDB \u00d7 AIKit)",
+  "slug": "ainative-studio-agent-402"
+}

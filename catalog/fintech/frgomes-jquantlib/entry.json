@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/frgomes/jquantlib",
+  "name": "frgomes/jquantlib",
+  "description": "JQuantLib is a library for Quantitative Finance written in 100% Java",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 153,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2016-03-14",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 41.5,
+  "discovery_score": 4,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "JQuantLib is a library for Quantitative Finance written in 100% Java",
+  "slug": "frgomes-jquantlib"
+}

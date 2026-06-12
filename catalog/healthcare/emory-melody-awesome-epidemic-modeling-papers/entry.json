@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/emory-melody/awesome-epidemic-modeling-papers",
+  "name": "Emory-Melody/awesome-epidemic-modeling-papers",
+  "description": "[KDD 2024] Papers about deep learning in epidemic modeling.",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 5,
+  "score_rationale": "Curated research index for epidemic modeling rather than an implementation tool.",
+  "stars": 66,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-10-03",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 44.6,
+  "discovery_score": 5,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "[KDD 2024] Papers about deep learning in epidemic modeling.",
+  "slug": "emory-melody-awesome-epidemic-modeling-papers"
+}

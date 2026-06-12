@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/actuarial-notes/actuarial-ontology",
+  "name": "actuarial-notes/actuarial-ontology",
+  "description": "An open source ontology for the domain of actuarial science.",
+  "sub_domain": "financial-data-standards",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 3,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2026-01-15",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology",
+    "actuarial"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "An open source ontology for the domain of actuarial science.",
+  "slug": "actuarial-notes-actuarial-ontology"
+}

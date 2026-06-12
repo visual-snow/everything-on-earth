@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/callahantiff/omop2obo",
+  "name": "callahantiff/OMOP2OBO",
+  "description": "OMOP2OBO: A Python Library for mapping OMOP standardized clinical terminologies to Open Biomedical Ontologies",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 8,
+  "score_rationale": "Directly bridges OMOP standardized vocabularies to OBO ontologies, which is a strong fit for terminology interoperability.",
+  "stars": 96,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-10-03",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 63.9,
+  "discovery_score": 8,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "omop"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "OMOP2OBO: A Python Library for mapping OMOP standardized clinical terminologies to Open Biomedical Ontologies",
+  "slug": "callahantiff-omop2obo"
+}

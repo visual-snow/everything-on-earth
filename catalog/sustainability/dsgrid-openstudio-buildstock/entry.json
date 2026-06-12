@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dsgrid/openstudio-buildstock",
+  "name": "dsgrid/openstudio-buildstock",
+  "description": "Modeling the existing building stock (residential and commercial) using OpenStudio/EnergyPlus.",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; fork penalty.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2021-10-13",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "Modeling the existing building stock (residential and commercial) using OpenStudio/EnergyPlus.",
+  "slug": "dsgrid-openstudio-buildstock"
+}

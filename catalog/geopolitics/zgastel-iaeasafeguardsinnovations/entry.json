@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zgastel/iaeasafeguardsinnovations",
+  "name": "zgastel/IAEASafeguardsInnovations",
+  "description": "Selected data from IAEA Annual Reports from 1970 - 2021",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 7,
+  "score_rationale": "IAEA annual-report data selected around safeguards and reporting.",
+  "stars": 2,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 45.8,
+  "tags": [
+    "iaea",
+    "safeguards",
+    "nuclear",
+    "data",
+    "reports"
+  ],
+  "category": "IAEA Data Extract",
+  "summary": "Selected data from IAEA annual reports, 1970-2021.",
+  "slug": "zgastel-iaeasafeguardsinnovations"
+}

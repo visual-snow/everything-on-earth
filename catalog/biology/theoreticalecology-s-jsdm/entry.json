@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/theoreticalecology/s-jsdm",
+  "name": "TheoreticalEcology/s-jSDM",
+  "description": "Scalable joint species distribution modeling",
+  "sub_domain": "climate-biology",
+  "score": 9,
+  "score_rationale": "Explicit joint species distribution modeling, a core tool for species-climate interaction and community response analysis.",
+  "stars": 76,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 69.1,
+  "discovery_score": 9,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "Scalable joint species distribution modeling",
+  "slug": "theoreticalecology-s-jsdm"
+}

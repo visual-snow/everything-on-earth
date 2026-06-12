@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zotero/zotero",
+  "name": "zotero/zotero",
+  "description": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.",
+  "sub_domain": "research-academic-publishing",
+  "score": 10,
+  "score_rationale": "Category-defining open reference manager for research and scholarship.",
+  "stars": 13737,
+  "language": "JavaScript",
+  "license": "Other",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 93.1,
+  "discovery_score": 10,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share your research sources.",
+  "slug": "zotero-zotero"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/austinsonger/automated-vendor-risk-assessment",
+  "name": "austinsonger/automated-vendor-risk-assessment",
+  "description": "Vendor Risk Assessment",
+  "sub_domain": "aml-kyc-identity",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-10-27",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "Vendor Risk Assessment",
+  "slug": "austinsonger-automated-vendor-risk-assessment"
+}

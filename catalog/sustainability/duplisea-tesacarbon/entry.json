@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/duplisea/tesacarbon",
+  "name": "duplisea/tesacarbon",
+  "description": "Carbon footprint calculator for meetings drawing a world map with origins and destination, carbon per meeting, total carbon and per capita carbon emissions",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2021-04-14",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "Carbon footprint calculator for meetings drawing a world map with origins and destination, carbon per meeting, total carbon and per capit...",
+  "slug": "duplisea-tesacarbon"
+}

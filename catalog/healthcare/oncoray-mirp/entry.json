@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/oncoray/mirp",
+  "name": "oncoray/mirp",
+  "description": "Medical Image Radiomics Processor",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 8,
+  "score_rationale": "Focused radiomics processor with clear imaging-analysis relevance and active development.",
+  "stars": 79,
+  "language": "Python",
+  "license": "EUPL-1.2",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 63.2,
+  "discovery_score": 8,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "Medical Image Radiomics Processor",
+  "slug": "oncoray-mirp"
+}

@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/openaplis/open-ap-lis",
+  "name": "openaplis/open-ap-lis",
+  "description": "Open Anatomic Pathology Lab Information System",
+  "sub_domain": "lab-information-systems",
+  "score": 5,
+  "score_rationale": "Specialized pathology LIS that is clearly relevant to laboratory informatics, though it appears smaller and less established.",
+  "stars": 0,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2017-03-02",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows",
+    "pathology",
+    "lab"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "Open Anatomic Pathology Lab Information System",
+  "slug": "openaplis-open-ap-lis"
+}

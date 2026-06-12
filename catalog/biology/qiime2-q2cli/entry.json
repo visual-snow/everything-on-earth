@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/qiime2/q2cli",
+  "name": "qiime2/q2cli",
+  "description": "Command line interface for QIIME 2",
+  "sub_domain": "metagenomics",
+  "score": 10,
+  "score_rationale": "Core QIIME 2 command-line entry point with direct relevance to microbiome and amplicon analysis workflows.",
+  "stars": 19,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "metagenomics"
+  ],
+  "quality_score": 70.4,
+  "discovery_score": 10,
+  "tags": [
+    "metagenomics",
+    "microbiome",
+    "taxonomic-classification",
+    "shotgun-sequencing"
+  ],
+  "category": "Metagenomics \u2014 microbiome analysis and taxonomic classification",
+  "summary": "Command line interface for QIIME 2",
+  "slug": "qiime2-q2cli"
+}

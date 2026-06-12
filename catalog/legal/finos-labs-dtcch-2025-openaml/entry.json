@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/finos-labs/dtcch-2025-openaml",
+  "name": "finos-labs/dtcch-2025-openaml",
+  "description": "Open and Intelligent Compliance for On-Chain Anti-Money Laundering.",
+  "sub_domain": "aml-kyc-identity",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 4,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 23.6,
+  "discovery_score": 3,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification",
+    "compliance"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "Open and Intelligent Compliance for On-Chain Anti-Money Laundering.",
+  "slug": "finos-labs-dtcch-2025-openaml"
+}

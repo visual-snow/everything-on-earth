@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aws-solutions-library-samples/fraud-detection-using-machine-learning",
+  "name": "aws-solutions-library-samples/fraud-detection-using-machine-learning",
+  "description": "Setup end to end demo architecture for predicting fraud events with Machine Learning using Amazon SageMaker",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text; has some GitHub adoption; penalized for demo-style signals.",
+  "stars": 333,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2024-10-02",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 56.2,
+  "discovery_score": 6,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "Setup end to end demo architecture for predicting fraud events with Machine Learning using Amazon SageMaker",
+  "slug": "aws-solutions-library-samples-fraud-detection-using-machine-learning"
+}

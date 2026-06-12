@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zj-binxia/amsa",
+  "name": "zj-binxia/amsa",
+  "description": "This project is the official implementation of 'Coarse-to-Fine Embedded PatchMatch and Multi-Scale Dynamic Aggregation for Reference-based Super-Resolution', AAAI2022",
+  "sub_domain": "open-banking-psd2",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 76,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-09-03",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 39.1,
+  "discovery_score": 4,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "This project is the official implementation of 'Coarse-to-Fine Embedded PatchMatch and Multi-Scale Dynamic Aggregation for Reference-base...",
+  "slug": "zj-binxia-amsa"
+}

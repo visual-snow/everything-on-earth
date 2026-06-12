@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gaiaehr/gaiaehr",
+  "name": "gaiaehr/gaiaehr",
+  "description": "Open Source Electronic Health Record -- Simple and Intuitive By Design.",
+  "sub_domain": "ehr-practice-management",
+  "score": 5,
+  "score_rationale": "Directly in the EHR category, though the project is old and comparatively small.",
+  "stars": 39,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2016-06-03",
+  "found_in_domains": [
+    "ehr-practice-management"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 5,
+  "tags": [
+    "ehr",
+    "emr",
+    "patient-records",
+    "practice-management"
+  ],
+  "category": "Electronic Health Records (EHR), Clinical Documentation & Practice Management",
+  "summary": "Open Source Electronic Health Record -- Simple and Intuitive By Design.",
+  "slug": "gaiaehr-gaiaehr"
+}

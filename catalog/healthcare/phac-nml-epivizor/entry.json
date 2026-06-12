@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/phac-nml/epivizor",
+  "name": "phac-nml/epivizor",
+  "description": "Epidemiological web application for visual data analytics",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 8,
+  "score_rationale": "Epidemiological data-visualization app for outbreak analytics.",
+  "stars": 0,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-01-29",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Epidemiological web application for visual data analytics",
+  "slug": "phac-nml-epivizor"
+}

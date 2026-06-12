@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/msds-5x01/python-programming-for-data-science",
+  "name": "msds-5x01/python-programming-for-data-science",
+  "description": "Introductory programming in Python",
+  "sub_domain": "supply-chain-sustainability",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-06-25",
+  "found_in_domains": [
+    "supply-chain-sustainability"
+  ],
+  "quality_score": 10.8,
+  "discovery_score": 1,
+  "tags": [
+    "supply-chain",
+    "traceability",
+    "scope-3",
+    "deforestation"
+  ],
+  "category": "Supply Chain Sustainability \u2014 scope 3 traceability, deforestation-free supply chains, fair trade tracking",
+  "summary": "Introductory programming in Python",
+  "slug": "msds-5x01-python-programming-for-data-science"
+}

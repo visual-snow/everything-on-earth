@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoftdocs/well-architected",
+  "name": "microsoftdocs/well-architected",
+  "description": "Public sync with well-architected-pr",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 96,
+  "language": null,
+  "license": "CC-BY-4.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 21.9,
+  "discovery_score": 1,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "Public sync with well-architected-pr",
+  "slug": "microsoftdocs-well-architected"
+}

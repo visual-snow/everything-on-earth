@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mariamwalaa/stocksportfoliooptimization",
+  "name": "mariamwalaa/stocksportfoliooptimization",
+  "description": "End-to-end tool for performing portfolio optimization on a given set of assets and historical stock data.",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 9,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-09-17",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 4,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "End-to-end tool for performing portfolio optimization on a given set of assets and historical stock data.",
+  "slug": "mariamwalaa-stocksportfoliooptimization"
+}

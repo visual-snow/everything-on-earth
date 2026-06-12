@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gnina/gnina",
+  "name": "gnina/gnina",
+  "description": "A deep learning framework for molecular docking",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 10,
+  "score_rationale": "Highly relevant docking stack with integrated CNN scoring and ligand optimization.",
+  "stars": 879,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-26",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 83.6,
+  "discovery_score": 10,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "A deep learning framework for molecular docking",
+  "slug": "gnina-gnina"
+}

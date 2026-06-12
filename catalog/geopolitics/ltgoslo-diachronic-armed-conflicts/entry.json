@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ltgoslo/diachronic_armed_conflicts",
+  "name": "ltgoslo/diachronic_armed_conflicts",
+  "description": "Diachronic armed-conflict prediction from news texts and word embeddings.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 6,
+  "score_rationale": "Older but still clearly aligned with conflict forecasting from textual indicators.",
+  "stars": 4,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2019-07-29",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 41.6,
+  "tags": [
+    "conflict-forecasting",
+    "news-text",
+    "word-embeddings",
+    "armed-conflict"
+  ],
+  "category": "Conflict Forecasting",
+  "summary": "News embeddings for diachronic armed-conflict prediction.",
+  "slug": "ltgoslo-diachronic-armed-conflicts"
+}

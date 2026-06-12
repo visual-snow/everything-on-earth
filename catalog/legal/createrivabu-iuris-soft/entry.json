@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/createrivabu/iuris-soft",
+  "name": "createrivabu/iuris-soft",
+  "description": "Open Source Legal Management System",
+  "sub_domain": "legal-practice-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 19,
+  "language": "CSS",
+  "license": null,
+  "last_activity": "2025-12-03",
+  "found_in_domains": [
+    "legal-practice-management"
+  ],
+  "quality_score": 34.4,
+  "discovery_score": 4,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "Open Source Legal Management System",
+  "slug": "createrivabu-iuris-soft"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vitessce/vitessce",
+  "name": "vitessce/vitessce",
+  "description": "Vitessce is a visual integration tool for exploration of spatial single-cell experiments.",
+  "sub_domain": "spatial-omics",
+  "score": 9,
+  "score_rationale": "Cross-modal visualization and exploration layer used across spatial and single-cell workflows.",
+  "stars": 244,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 73.1,
+  "discovery_score": 9,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Vitessce is a visual integration tool for exploration of spatial single-cell experiments.",
+  "slug": "vitessce-vitessce"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/carbonplan/cmip6-downscaling",
+  "name": "carbonplan/cmip6-downscaling",
+  "description": "Climate downscaling using CMIP6 data",
+  "sub_domain": "climate-data-analysis",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 205,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-01-05",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 48.5,
+  "discovery_score": 5,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "Climate downscaling using CMIP6 data",
+  "slug": "carbonplan-cmip6-downscaling"
+}

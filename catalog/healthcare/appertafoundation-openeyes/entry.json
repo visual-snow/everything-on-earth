@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/appertafoundation/openeyes",
+  "name": "AppertaFoundation/openeyes",
+  "description": "An Open Source electronic patient record system. This is the Gold Master \"Community Edition\" release. Please note that this could be up to 3 months behind the latest development tip. If you are interested in being involved with latest developments, please email openeyes@apperta.org or visit",
+  "sub_domain": "dental-specialty-clinics",
+  "score": 8,
+  "score_rationale": "Canonical open-source ophthalmology EPR for specialty clinics with strong maintenance and clear fit to the sub-domain.",
+  "stars": 94,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "dental-specialty-clinics"
+  ],
+  "quality_score": 63.8,
+  "discovery_score": 8,
+  "tags": [
+    "specialty-clinics",
+    "practice-management",
+    "patient-records"
+  ],
+  "category": "Dental, Ophthalmology & Specialty Clinic Systems",
+  "summary": "An Open Source electronic patient record system. This is the Gold Master \"Community Edition\" release. Please note that this could be up t...",
+  "slug": "appertafoundation-openeyes"
+}

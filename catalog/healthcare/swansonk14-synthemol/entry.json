@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/swansonk14/synthemol",
+  "name": "swansonk14/SyntheMol",
+  "description": "Combinatorial antibiotic generation",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 7,
+  "score_rationale": "Relevant generative design repo aimed at antibiotic molecule generation and synthesis-aware search.",
+  "stars": 196,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-01-13",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 60.4,
+  "discovery_score": 7,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "Combinatorial antibiotic generation",
+  "slug": "swansonk14-synthemol"
+}

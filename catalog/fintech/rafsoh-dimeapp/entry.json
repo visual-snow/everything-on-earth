@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rafsoh/dimeapp",
+  "name": "rafsoh/dimeapp",
+  "description": "Dime is a beautiful expense tracker built with iOS design guidelines in mind.",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 1706,
+  "language": "Swift",
+  "license": "GPL-3.0",
+  "last_activity": "2025-03-29",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 55.9,
+  "discovery_score": 5,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "Dime is a beautiful expense tracker built with iOS design guidelines in mind.",
+  "slug": "rafsoh-dimeapp"
+}

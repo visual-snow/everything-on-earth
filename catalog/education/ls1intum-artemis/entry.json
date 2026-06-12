@@ -1,0 +1,31 @@
+{
+  "repo_url": "https://github.com/ls1intum/artemis",
+  "name": "ls1intum/Artemis",
+  "description": "Interactive learning platform with built-in automated feedback for exercises, quizzes, and modeling tasks.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 10,
+  "score_rationale": "Most mature and directly aligned automated-feedback platform in the set; widely used, actively maintained, and purpose-built for education.",
+  "stars": 727,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "adaptive-learning",
+    "interactive-coding-education",
+    "collaborative-learning",
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 82.9,
+  "discovery_score": 10,
+  "tags": [
+    "adaptive-learning",
+    "tutoring",
+    "mastery",
+    "knowledge-tracing",
+    "coding",
+    "playgrounds"
+  ],
+  "category": "Adaptive Learning, Personalization, Knowledge Tracing & AI Tutoring",
+  "summary": "Interactive learning platform with built-in automated feedback for exercises, quizzes, and modeling tasks.",
+  "slug": "ls1intum-artemis"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/digitalbiomarkerdiscoverypipeline/digital_health_data_repository",
+  "name": "DigitalBiomarkerDiscoveryPipeline/Digital_Health_Data_Repository",
+  "description": "The DHDR (Digital Health Data Repository) is a repository with sample data for use with the DBDP.",
+  "sub_domain": "wearable-iot-health",
+  "score": 6,
+  "score_rationale": "Useful sample-data repository for digital health and wearable research workflows, though less of a device bridge itself.",
+  "stars": 54,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2025-04-22",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 49.9,
+  "discovery_score": 6,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "The DHDR (Digital Health Data Repository) is a repository with sample data for use with the DBDP.",
+  "slug": "digitalbiomarkerdiscoverypipeline-digital-health-data-repository"
+}

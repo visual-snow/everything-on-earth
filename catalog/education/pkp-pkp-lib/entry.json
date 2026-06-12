@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pkp/pkp-lib",
+  "name": "pkp/pkp-lib",
+  "description": "The library used by PKP's applications OJS, OMP and OPS, open source software for scholarly publishing.",
+  "sub_domain": "research-academic-publishing",
+  "score": 7,
+  "score_rationale": "Core scholarly publishing library underpinning PKP's journal and proceedings software.",
+  "stars": 341,
+  "language": "PHP",
+  "license": "GNU General Public License v3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 62.3,
+  "discovery_score": 7,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "The library used by PKP's applications OJS, OMP and OPS, open source software for scholarly publishing.",
+  "slug": "pkp-pkp-lib"
+}

@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/apostleoffinance/solana-forensic-analysis-tool",
+  "name": "apostleoffinance/solana-forensic-analysis-tool",
+  "description": "The Solana Forensic Analysis Tool is designed to detect and analyze fraudulent activities on the Solana blockchain. The project employs a combination of traditional blockchain analysis techniques and machine learning models to trace transactions, identify suspicious wallet behaviors, and label entities involved in potential fraud.",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 5,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-06-20",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 24.2,
+  "discovery_score": 3,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev",
+    "wallet",
+    "fraud"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "The Solana Forensic Analysis Tool is designed to detect and analyze fraudulent activities on the Solana blockchain. The project employs a...",
+  "slug": "apostleoffinance-solana-forensic-analysis-tool"
+}

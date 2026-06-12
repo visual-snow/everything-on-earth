@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nagix/nk-missile-tests",
+  "name": "nagix/nk-missile-tests",
+  "description": "An interactive visualization of flight tests of all missiles launched by North Korea from 1984 to 2026",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 8,
+  "score_rationale": "High-signal dataset and visualization of North Korean missile tests.",
+  "stars": 474,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 69.4,
+  "tags": [
+    "north-korea",
+    "missiles",
+    "tests",
+    "visualization",
+    "weapons"
+  ],
+  "category": "Missile Test Visualizer",
+  "summary": "Interactive timeline of North Korean missile flight tests.",
+  "slug": "nagix-nk-missile-tests"
+}

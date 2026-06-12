@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/celebmunyiri/oil-prices-forecaster",
+  "name": "CelebMunyiri/oil-prices-forecaster",
+  "description": "Oil-price prediction model incorporating economic indicators and geopolitical events.",
+  "sub_domain": "energy-geopolitics",
+  "score": 5,
+  "score_rationale": "Forecasting oil prices with geopolitical inputs is relevant, though the repo is lightweight.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-05-01",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 32.4,
+  "tags": [
+    "oil",
+    "forecasting",
+    "geopolitics",
+    "economics"
+  ],
+  "category": "Oil Forecasting",
+  "summary": "Oil-price predictor using economic indicators and geopolitical events.",
+  "slug": "celebmunyiri-oil-prices-forecaster"
+}

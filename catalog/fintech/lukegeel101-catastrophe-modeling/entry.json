@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lukegeel101/catastrophe-modeling",
+  "name": "lukegeel101/catastrophe-modeling",
+  "description": "Catastrophe modeling project, presented to Professor Havens (Math department) at UMass Amherst 2022",
+  "sub_domain": "insurance-actuarial-tech",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": null,
+  "license": null,
+  "last_activity": "2022-12-01",
+  "found_in_domains": [
+    "insurance-actuarial-tech"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "insurance",
+    "actuarial",
+    "claims",
+    "cat-modeling"
+  ],
+  "category": "Insurance / Actuarial Tech",
+  "summary": "Catastrophe modeling project, presented to Professor Havens (Math department) at UMass Amherst 2022",
+  "slug": "lukegeel101-catastrophe-modeling"
+}

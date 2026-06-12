@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chandika/pii-redactor",
+  "name": "chandika/pii-redactor",
+  "description": "Fast, layered PII redaction for LLM pipelines. Anonymize before sending to any provider, rehydrate on the way back.",
+  "sub_domain": "privacy-data-protection",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 3,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-18",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "Fast, layered PII redaction for LLM pipelines. Anonymize before sending to any provider, rehydrate on the way back.",
+  "slug": "chandika-pii-redactor"
+}

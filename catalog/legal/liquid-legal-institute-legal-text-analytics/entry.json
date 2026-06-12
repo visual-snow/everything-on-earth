@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/liquid-legal-institute/legal-text-analytics",
+  "name": "liquid-legal-institute/legal-text-analytics",
+  "description": "A list of selected resources, methods, and tools dedicated to Legal Text Analytics.",
+  "sub_domain": "legal-ai-nlp",
+  "score": 6,
+  "score_rationale": "Matched 3 queries; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 706,
+  "language": null,
+  "license": "CC-BY-SA-4.0",
+  "last_activity": "2024-11-05",
+  "found_in_domains": [
+    "legal-ai-nlp",
+    "legal-analytics-prediction",
+    "immigration-visa-processing",
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 58.8,
+  "discovery_score": 6,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "A list of selected resources, methods, and tools dedicated to Legal Text Analytics.",
+  "slug": "liquid-legal-institute-legal-text-analytics"
+}

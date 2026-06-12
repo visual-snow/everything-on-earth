@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gmod/jbrowse",
+  "name": "GMOD/jbrowse",
+  "description": "JBrowse 1, a full-featured genome browser built with JavaScript and HTML5. For JBrowse 2, see https://github.com/GMOD/jbrowse-components.",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 8,
+  "score_rationale": "Core web genome browser with broad adoption in genomics viewing workflows.",
+  "stars": 473,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 69.4,
+  "discovery_score": 8,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "JBrowse 1, a full-featured genome browser built with JavaScript and HTML5. For JBrowse 2, see https://github.com/GMOD/jbrowse-components.",
+  "slug": "gmod-jbrowse"
+}

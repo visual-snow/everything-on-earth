@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/microsoftdocs/dynamics-365-unified-operations-public",
+  "name": "microsoftdocs/dynamics-365-unified-operations-public",
+  "description": "Documentation for Microsoft Dynamics 365 apps such as Dynamics 365 Finance, Dynamics 365 Commerce, Dynamics 365 Supply Chain Management, and Dynamics 365 Human Resources",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 362,
+  "language": null,
+  "license": "CC-BY-4.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "contract-analysis-clm",
+    "tax-compliance-automation"
+  ],
+  "quality_score": 26.5,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "Documentation for Microsoft Dynamics 365 apps such as Dynamics 365 Finance, Dynamics 365 Commerce, Dynamics 365 Supply Chain Management,...",
+  "slug": "microsoftdocs-dynamics-365-unified-operations-public"
+}

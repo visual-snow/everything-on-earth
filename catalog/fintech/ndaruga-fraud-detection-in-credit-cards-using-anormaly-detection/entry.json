@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ndaruga/fraud-detection-in-credit-cards-using-anormaly-detection",
+  "name": "ndaruga/fraud-detection-in-credit-cards-using-anormaly-detection",
+  "description": "This project involves identifying unusual patterns or behaviors that may indicate fraudulent activity in credit cards. Anomaly detection algorithms work by learning patterns from historical data and then detecting deviations from those patterns in new data. Two algorithms have been utilized. i.e Autoencoders & Angle-based Outlier Detection (ABOD)",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-02-17",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring",
+    "credit"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "This project involves identifying unusual patterns or behaviors that may indicate fraudulent activity in credit cards. Anomaly detection...",
+  "slug": "ndaruga-fraud-detection-in-credit-cards-using-anormaly-detection"
+}

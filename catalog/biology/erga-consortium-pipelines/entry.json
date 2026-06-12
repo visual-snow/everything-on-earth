@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/erga-consortium/pipelines",
+  "name": "erga-consortium/pipelines",
+  "description": "A collection of pipelines in Galaxy, NextFlow and Snakemake related to genome assembly and annotation.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 8,
+  "score_rationale": "A focused collection of reusable genomics pipelines in the major workflow ecosystems used for assembly and annotation.",
+  "stars": 17,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 58.0,
+  "discovery_score": 8,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "A collection of pipelines in Galaxy, NextFlow and Snakemake related to genome assembly and annotation.",
+  "slug": "erga-consortium-pipelines"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/som-shahlab/clinical_trial_patient_matching",
+  "name": "som-shahlab/clinical_trial_patient_matching",
+  "description": "Zero-shot clinical trial matching with LLMs",
+  "sub_domain": "clinical-trials-research",
+  "score": 8,
+  "score_rationale": "Strong recruitment-adjacent tool focused on matching patients to trials from clinical text.",
+  "stars": 17,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-03-01",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 58.0,
+  "discovery_score": 8,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture",
+    "patient-records"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Zero-shot clinical trial matching with LLMs",
+  "slug": "som-shahlab-clinical-trial-patient-matching"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bioai-oslo/spikeometric",
+  "name": "bioAI-Oslo/Spikeometric",
+  "description": "Spiking Neural Network Simulator based on Generalized Linear Models",
+  "sub_domain": "computational-neuroscience",
+  "score": 72,
+  "score_rationale": "Specialized GLM-based simulator with clear neuroscience relevance but smaller footprint.",
+  "stars": 9,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-10-01",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 440.0,
+  "discovery_score": 72,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Spiking Neural Network Simulator based on Generalized Linear Models",
+  "slug": "bioai-oslo-spikeometric"
+}

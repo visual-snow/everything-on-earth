@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openms/openms",
+  "name": "OpenMS/OpenMS",
+  "description": "The codebase of the OpenMS project",
+  "sub_domain": "proteomics",
+  "score": 10,
+  "score_rationale": "Canonical LC-MS proteomics platform with active development and broad direct use in proteomics workflows.",
+  "stars": 577,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 82.1,
+  "discovery_score": 10,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "The codebase of the OpenMS project",
+  "slug": "openms-openms"
+}

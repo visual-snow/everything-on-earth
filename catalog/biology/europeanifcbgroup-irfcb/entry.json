@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/europeanifcbgroup/irfcb",
+  "name": "EuropeanIFCBGroup/iRfcb",
+  "description": "Tools for Managing Imaging FlowCytobot (IFCB) Data.",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Focused plankton-data management and quality-control package for Imaging FlowCytobot workflows, with direct support for marine ecological research and publication pipelines.",
+  "stars": 3,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 52.8,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Tools for Managing Imaging FlowCytobot (IFCB) Data.",
+  "slug": "europeanifcbgroup-irfcb"
+}

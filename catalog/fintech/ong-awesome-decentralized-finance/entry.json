@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ong/awesome-decentralized-finance",
+  "name": "ong/awesome-decentralized-finance",
+  "description": "A curated list of awesome decentralized finance projects",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 2,
+  "score_rationale": "Matched 2 queries; shows little direct domain terminology; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 1628,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-01-14",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 37.7,
+  "discovery_score": 2,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "A curated list of awesome decentralized finance projects",
+  "slug": "ong-awesome-decentralized-finance"
+}

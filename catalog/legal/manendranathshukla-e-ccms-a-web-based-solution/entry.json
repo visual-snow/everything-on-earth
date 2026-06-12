@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/manendranathshukla/e-ccms-a-web-based-solution",
+  "name": "manendranathshukla/e-ccms-a-web-based-solution",
+  "description": "E-Court Case Management System is a web based solution for managing the end to end process of court case management online.",
+  "sub_domain": "court-case-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2020-05-24",
+  "found_in_domains": [
+    "court-case-management"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "court-case-management",
+    "e-filing",
+    "docket-management",
+    "judicial-workflow",
+    "court"
+  ],
+  "category": "Court / Case Management \u2014 docketing, e-filing, case tracking, judicial workflow",
+  "summary": "E-Court Case Management System is a web based solution for managing the end to end process of court case management online.",
+  "slug": "manendranathshukla-e-ccms-a-web-based-solution"
+}

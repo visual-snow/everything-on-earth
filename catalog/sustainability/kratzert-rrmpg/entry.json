@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kratzert/rrmpg",
+  "name": "kratzert/rrmpg",
+  "description": "Rainfall-Runoff modelling playground",
+  "sub_domain": "water-resource-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 85,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-12-11",
+  "found_in_domains": [
+    "water-resource-management"
+  ],
+  "quality_score": 39.5,
+  "discovery_score": 4,
+  "tags": [
+    "hydrology",
+    "watershed",
+    "water-quality",
+    "water-modeling"
+  ],
+  "category": "Water Resource Management \u2014 hydrological modeling, water quality, watershed analysis",
+  "summary": "Rainfall-Runoff modelling playground",
+  "slug": "kratzert-rrmpg"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/bunsenfeng/botrgcn",
+  "name": "BunsenFeng/BotRGCN",
+  "description": "Code listing for the paper \"BotRGCN: Twitter Bot Detection with Relational Graph Convolutional Networks\".",
+  "sub_domain": "social-media-influence",
+  "score": 9,
+  "score_rationale": "A stronger and more focused Twitter bot-detection implementation than the weaker advocacy-oriented repos.",
+  "stars": 42,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-11-07",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 67.1,
+  "tags": [
+    "bot-detection",
+    "graph-neural-networks",
+    "twitter",
+    "relational-gcn"
+  ],
+  "category": "Bot Detection",
+  "summary": "Relational GCN model for Twitter bot detection.",
+  "slug": "bunsenfeng-botrgcn"
+}

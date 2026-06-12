@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/chartbrew/chartbrew",
+  "name": "chartbrew/chartbrew",
+  "description": "Open-source reporting platform to build and share live dashboards from APIs, SQL and NoSQL databases, with powerful AI assistant, scheduling, and embeddable charts \ud83d\udcc8\ud83d\udcca",
+  "sub_domain": "charting-visualization",
+  "score": 8,
+  "score_rationale": "General dashboarding platform with embeddable charts; useful for financial visualization even if not trading-specific.",
+  "stars": 3685,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "charting-visualization"
+  ],
+  "quality_score": 76.5,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "Open-source reporting platform to build and share live dashboards from APIs, SQL and NoSQL databases, with...",
+  "slug": "chartbrew-chartbrew"
+}

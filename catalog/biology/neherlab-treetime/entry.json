@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/neherlab/treetime",
+  "name": "neherlab/treetime",
+  "description": "Maximum likelihood inference of time stamped phylogenies and ancestral reconstruction",
+  "sub_domain": "phylogenetics",
+  "score": 10,
+  "score_rationale": "This is a core phylogenetics tool for time-resolved trees and ancestral-state reconstruction, which sits squarely in the target scope.",
+  "stars": 250,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "phylogenetics",
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 79.2,
+  "discovery_score": 10,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Maximum likelihood inference of time stamped phylogenies and ancestral reconstruction",
+  "slug": "neherlab-treetime"
+}

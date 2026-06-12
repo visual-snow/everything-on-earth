@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/franciellevargas/factnews",
+  "name": "franciellevargas/FactNews",
+  "description": "Sentence-level factuality and media-bias dataset for Portuguese news reporting.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 8,
+  "score_rationale": "It is a specialized media-bias dataset with clear downstream fact-checking value.",
+  "stars": 11,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-06-12",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 56.6,
+  "tags": [
+    "media-bias",
+    "dataset",
+    "factuality",
+    "portuguese"
+  ],
+  "category": "Bias Dataset",
+  "summary": "Sentence-level factuality and media-bias dataset for Portuguese news.",
+  "slug": "franciellevargas-factnews"
+}

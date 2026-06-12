@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/e-prescription-2-0/e-prescription-2.0",
+  "name": "e-prescription-2-0/e-prescription-2.0",
+  "description": "No description provided.",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 5,
+  "score_rationale": "Relevant prescription-management workflow that connects doctors, pharmacists, and patients.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2024-02-03",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "No description provided.",
+  "slug": "e-prescription-2-0-e-prescription-2-0"
+}

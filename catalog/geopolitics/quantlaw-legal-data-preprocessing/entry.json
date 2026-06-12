@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/quantlaw/legal-data-preprocessing",
+  "name": "QuantLaw/legal-data-preprocessing",
+  "description": "Convert legal statutes and cases from official sources (or juris) to graphs",
+  "sub_domain": "international-law-treaties",
+  "score": 8,
+  "score_rationale": "It is a practical preprocessing layer for transforming legal sources into analyzable structures.",
+  "stars": 30,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2025-09-11",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 59.9,
+  "tags": [
+    "legal-data",
+    "preprocessing",
+    "graph",
+    "statutes"
+  ],
+  "category": "Legal Graph Preprocessing",
+  "summary": "Converts statutes and cases into graph-ready legal data structures.",
+  "slug": "quantlaw-legal-data-preprocessing"
+}

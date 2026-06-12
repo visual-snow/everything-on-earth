@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lczech/gappa",
+  "name": "lczech/gappa",
+  "description": "A toolkit for analyzing and visualizing phylogenetic placement data",
+  "sub_domain": "phylogenetics",
+  "score": 8,
+  "score_rationale": "A specialized phylogenetics analysis toolkit for placement data, which is a strong adjacent workflow to tree inference.",
+  "stars": 65,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-10-14",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 62.6,
+  "discovery_score": 8,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "A toolkit for analyzing and visualizing phylogenetic placement data",
+  "slug": "lczech-gappa"
+}

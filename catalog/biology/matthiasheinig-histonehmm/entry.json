@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/matthiasheinig/histonehmm",
+  "name": "matthiasheinig/histonehmm",
+  "description": "Differential peak calling tool for ChIP-seq data",
+  "sub_domain": "epigenomics",
+  "score": 6,
+  "score_rationale": "A direct histone ChIP-seq analysis tool, but it is older and appears lightly maintained.",
+  "stars": 6,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2020-02-25",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 6,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "Differential peak calling tool for ChIP-seq data",
+  "slug": "matthiasheinig-histonehmm"
+}

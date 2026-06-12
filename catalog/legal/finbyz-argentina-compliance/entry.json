@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/finbyz/argentina_compliance",
+  "name": "finbyz/argentina_compliance",
+  "description": "AFIP-compliant electronic invoicing for ERPNext, with CAE, VAT, QR codes, and automated workflows.",
+  "sub_domain": "tax-compliance-automation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 3,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-11-20",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat",
+    "compliance"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "AFIP-compliant electronic invoicing for ERPNext, with CAE, VAT, QR codes, and automated workflows.",
+  "slug": "finbyz-argentina-compliance"
+}

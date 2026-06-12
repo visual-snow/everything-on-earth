@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sbmlteam/python-libsbml",
+  "name": "sbmlteam/python-libsbml",
+  "description": "Standalone Python package containing libSBML with support for SBML Level 3 Core and accepted SBML Level 3 packages.",
+  "sub_domain": "systems-biology",
+  "score": 9,
+  "score_rationale": "Official Python distribution of libSBML that is directly useful for SBML-centric model manipulation and tooling.",
+  "stars": 23,
+  "language": "Python",
+  "license": "Other",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 65.0,
+  "discovery_score": 9,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "Standalone Python package containing libSBML with support for SBML Level 3 Core and accepted SBML Level 3 packages.",
+  "slug": "sbmlteam-python-libsbml"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/supermayo/ais_tracker",
+  "name": "SuperMayo/AIS_tracker",
+  "description": "Vessel tracking for free with scheduled Github workflow",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 6,
+  "score_rationale": "Automated AIS tracking setup for vessel monitoring.",
+  "stars": 3,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 40.8,
+  "tags": [
+    "ais",
+    "automation",
+    "vessel-tracking",
+    "github-actions"
+  ],
+  "category": "Automated AIS Tracking",
+  "summary": "Scheduled workflow for free vessel tracking using AIS.",
+  "slug": "supermayo-ais-tracker"
+}

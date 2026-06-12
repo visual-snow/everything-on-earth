@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/juliaigz/coffeetrack-ordinals",
+  "name": "juliaigz/coffeetrack-ordinals",
+  "description": "Coffee Track Ordinals is a decentralized platform using ICP blockchain and BITCOIN Ordinals to ensure full traceability of coffee, from farm to Export. Each batch receives a unique identifier, an Ordinal, guaranteeing transparency and immutability in the supply chain, empowering producers, cooperatives, certifiers, and consumers.",
+  "sub_domain": "supply-chain-sustainability",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 3,
+  "language": "Svelte",
+  "license": null,
+  "last_activity": "2024-10-31",
+  "found_in_domains": [
+    "supply-chain-sustainability"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "supply-chain",
+    "traceability",
+    "scope-3",
+    "deforestation"
+  ],
+  "category": "Supply Chain Sustainability \u2014 scope 3 traceability, deforestation-free supply chains, fair trade tracking",
+  "summary": "Coffee Track Ordinals is a decentralized platform using ICP blockchain and BITCOIN Ordinals to ensure full traceability of coffee, from f...",
+  "slug": "juliaigz-coffeetrack-ordinals"
+}

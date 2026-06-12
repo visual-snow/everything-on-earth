@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/cahlr/oatutor-ai-feedback-experiment",
+  "name": "CAHLR/OATutor-AI-Feedback-Experiment",
+  "description": "Open-source intelligent tutoring system with Bayesian Knowledge Tracing used for AI feedback experiments.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 7,
+  "score_rationale": "Education-first tutoring system with explicit feedback orientation, though it looks more experimental than the strongest entries.",
+  "stars": 0,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-03-21",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring",
+    "tutoring"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "Open-source intelligent tutoring system with Bayesian Knowledge Tracing used for AI feedback experiments.",
+  "slug": "cahlr-oatutor-ai-feedback-experiment"
+}

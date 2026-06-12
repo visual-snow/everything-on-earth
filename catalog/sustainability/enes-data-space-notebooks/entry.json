@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/enes-data-space/notebooks",
+  "name": "enes-data-space/notebooks",
+  "description": "Ready-to-use example notebooks",
+  "sub_domain": "sustainability-dashboards-viz",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for example-style signals.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2024-05-16",
+  "found_in_domains": [
+    "sustainability-dashboards-viz"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "sdg",
+    "kpi-dashboard",
+    "data-portal",
+    "climate-visualization"
+  ],
+  "category": "Sustainability Dashboards / Visualization \u2014 SDG trackers, environmental KPI dashboards, data portals",
+  "summary": "Ready-to-use example notebooks",
+  "slug": "enes-data-space-notebooks"
+}

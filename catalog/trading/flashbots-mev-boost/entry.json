@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/flashbots/mev-boost",
+  "name": "flashbots/mev-boost",
+  "description": "MEV-Boost allows Ethereum validators to source high-MEV blocks from a competitive builder marketplace",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 10,
+  "score_rationale": "Canonical Flashbots MEV infrastructure; central to Ethereum builder and execution flows.",
+  "stars": 1414,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-02-23",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 85.2,
+  "tags": [
+    "defi",
+    "dex",
+    "mev",
+    "flashbots"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "MEV-Boost allows Ethereum validators to source high-MEV blocks from a competitive builder marketplace",
+  "slug": "flashbots-mev-boost"
+}

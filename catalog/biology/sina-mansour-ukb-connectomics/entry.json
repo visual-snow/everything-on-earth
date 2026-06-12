@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sina-mansour/ukb-connectomics",
+  "name": "sina-mansour/UKB-connectomics",
+  "description": "Scripts to map structural and functional brain connectivity matrices for the UK Biobank.",
+  "sub_domain": "connectomics",
+  "score": 8,
+  "score_rationale": "Straightforward brain connectomics workflow for large cohort connectivity matrix construction.",
+  "stars": 74,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-12-03",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 63.0,
+  "discovery_score": 8,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Scripts to map structural and functional brain connectivity matrices for the UK Biobank.",
+  "slug": "sina-mansour-ukb-connectomics"
+}

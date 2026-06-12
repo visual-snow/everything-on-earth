@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kchen-lab/sifit",
+  "name": "kchen-lab/sifit",
+  "description": "Reconstructing phylogenetic tree from noisy mutation profile of single cells",
+  "sub_domain": "phylogenetics",
+  "score": 8,
+  "score_rationale": "It directly infers phylogenetic trees from single-cell mutation data, which is a strong fit for the subdomain.",
+  "stars": 6,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2019-07-04",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 54.8,
+  "discovery_score": 8,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Reconstructing phylogenetic tree from noisy mutation profile of single cells",
+  "slug": "kchen-lab-sifit"
+}

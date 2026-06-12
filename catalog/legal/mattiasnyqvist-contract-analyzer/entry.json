@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mattiasnyqvist/contract-analyzer",
+  "name": "mattiasnyqvist/contract-analyzer",
+  "description": "AI-powered contract analysis for risk detection, clause evaluation, and automated legal review",
+  "sub_domain": "contract-analysis-clm",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-06",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining",
+    "contract"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "AI-powered contract analysis for risk detection, clause evaluation, and automated legal review",
+  "slug": "mattiasnyqvist-contract-analyzer"
+}

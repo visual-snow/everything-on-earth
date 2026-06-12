@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/digdgeo/ndvi2gif",
+  "name": "digdgeo/ndvi2gif",
+  "description": "Library to create Multi Seasonal remote sensing indexes composites",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 38,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 36.7,
+  "discovery_score": 4,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "Library to create Multi Seasonal remote sensing indexes composites",
+  "slug": "digdgeo-ndvi2gif"
+}

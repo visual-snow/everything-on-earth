@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/oxpig/immunebuilder",
+  "name": "oxpig/ImmuneBuilder",
+  "description": "Predict the structure of immune receptor proteins",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Explicitly immune-receptor-focused structure prediction tool, so it fits the domain better than generic protein-structure ML repos.",
+  "stars": 175,
+  "language": "Jupyter Notebook",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-11-11",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 66.0,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Predict the structure of immune receptor proteins",
+  "slug": "oxpig-immunebuilder"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/onc-healthit/fhir-tools",
+  "name": "onc-healthit/fhir-tools",
+  "description": "FHIR tools from ONC Health IT.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 7,
+  "score_rationale": "Focused FHIR tooling from a healthcare interoperability organization.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "FHIR tools from ONC Health IT.",
+  "slug": "onc-healthit-fhir-tools"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/macs3-project/macs",
+  "name": "macs3-project/MACS",
+  "description": "MACS -- Model-based Analysis of ChIP-Seq",
+  "sub_domain": "epigenomics",
+  "score": 10,
+  "score_rationale": "The canonical ChIP-seq and ATAC-seq peak caller remains a core epigenomics workhorse.",
+  "stars": 768,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 83.1,
+  "discovery_score": 10,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "MACS -- Model-based Analysis of ChIP-Seq",
+  "slug": "macs3-project-macs"
+}

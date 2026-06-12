@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/muellerberndt/awesome-mythx-smart-contract-security-tools",
+  "name": "muellerberndt/awesome-mythx-smart-contract-security-tools",
+  "description": "A curated list of resources and tools for the MythX smart contract security API",
+  "sub_domain": "smart-contract-security",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 254,
+  "language": null,
+  "license": null,
+  "last_activity": "2020-06-15",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 49.3,
+  "discovery_score": 5,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A curated list of resources and tools for the MythX smart contract security API",
+  "slug": "muellerberndt-awesome-mythx-smart-contract-security-tools"
+}

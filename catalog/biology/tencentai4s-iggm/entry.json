@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tencentai4s/iggm",
+  "name": "TencentAI4S/IgGM",
+  "description": "Official Implementation of IgGM",
+  "sub_domain": "immunoinformatics",
+  "score": 9,
+  "score_rationale": "Explicit antibody design foundation model with strong relevance to modern antibody engineering workflows.",
+  "stars": 183,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-11-30",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 72.1,
+  "discovery_score": 9,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Official Implementation of IgGM",
+  "slug": "tencentai4s-iggm"
+}

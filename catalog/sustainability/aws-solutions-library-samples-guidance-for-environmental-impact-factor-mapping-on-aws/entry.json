@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aws-solutions-library-samples/guidance-for-environmental-impact-factor-mapping-on-aws",
+  "name": "aws-solutions-library-samples/guidance-for-environmental-impact-factor-mapping-on-aws",
+  "description": "This Guidance helps scale product carbon footprint assessments by reducing the manual effort involved in emission factor mapping steps.",
+  "sub_domain": "life-cycle-assessment",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 3,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-10-19",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "This Guidance helps scale product carbon footprint assessments by reducing the manual effort involved in emission factor mapping steps.",
+  "slug": "aws-solutions-library-samples-guidance-for-environmental-impact-factor-mapping-on-aws"
+}

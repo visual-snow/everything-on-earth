@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gt4sd/molecular-design",
+  "name": "GT4SD/molecular-design",
+  "description": "Generative AI pipeline for target-based molecular design",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 8,
+  "score_rationale": "Directly focused target-based molecular design pipeline, though much smaller than the major frameworks.",
+  "stars": 8,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-07-29",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 55.6,
+  "discovery_score": 8,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "Generative AI pipeline for target-based molecular design",
+  "slug": "gt4sd-molecular-design"
+}

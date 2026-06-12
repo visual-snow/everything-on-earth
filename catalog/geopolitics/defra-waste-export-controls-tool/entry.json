@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/defra/waste-export-controls-tool",
+  "name": "DEFRA/waste-export-controls-tool",
+  "description": "Service for checking waste export controls for shipments from the UK.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 2,
+  "score_rationale": "Export-control adjacent, but narrower and less central than trade-policy tooling.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2023-10-16",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 15.8,
+  "tags": [
+    "export-control",
+    "shipments",
+    "compliance",
+    "uk"
+  ],
+  "category": "Export Controls Tool",
+  "summary": "Service for checking waste export controls for UK shipments.",
+  "slug": "defra-waste-export-controls-tool"
+}

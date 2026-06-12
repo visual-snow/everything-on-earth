@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/decidim/decidim",
+  "name": "decidim/decidim",
+  "description": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails.",
+  "sub_domain": "election-governance-data",
+  "score": 8,
+  "score_rationale": "It is a major participatory democracy platform with a mature reusable codebase.",
+  "stars": 1726,
+  "language": "Ruby",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 73.9,
+  "tags": [
+    "civic-tech",
+    "participatory-democracy",
+    "rails",
+    "governance"
+  ],
+  "category": "Participatory Democracy",
+  "summary": "Rails framework for participatory democracy and civic engagement.",
+  "slug": "decidim-decidim"
+}

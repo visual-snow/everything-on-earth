@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/misp/pymisp",
+  "name": "MISP/PyMISP",
+  "description": "Python library using the MISP Rest API",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 8,
+  "score_rationale": "Python client library for automating MISP interactions and CTI workflows.",
+  "stars": 482,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 69.5,
+  "tags": [
+    "misp",
+    "python-client",
+    "api",
+    "threat-intel"
+  ],
+  "category": "MISP Python Client",
+  "summary": "Python library for working with the MISP REST API.",
+  "slug": "misp-pymisp"
+}

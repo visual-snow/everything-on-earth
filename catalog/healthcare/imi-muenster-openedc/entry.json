@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/imi-muenster/openedc",
+  "name": "imi-muenster/OpenEDC",
+  "description": "Electronic data capture (EDC) system for medical research that runs in the browser. Unmaintained prototype for JMIR publication. Please visit https://openedc.health/ for an entirely re-written, GCP-compliant, and validated version.",
+  "sub_domain": "clinical-trials-research",
+  "score": 8,
+  "score_rationale": "Relevant EDC prototype for clinical research data capture, though the repository is explicitly marked as an unmaintained prototype.",
+  "stars": 32,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-03-05",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 60.1,
+  "discovery_score": 8,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Electronic data capture (EDC) system for medical research that runs in the browser. Unmaintained prototype for JMIR publication. Please v...",
+  "slug": "imi-muenster-openedc"
+}

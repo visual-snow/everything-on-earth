@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ropensci/ramlegacy",
+  "name": "ropensci/ramlegacy",
+  "description": "R :package: to download, cache and read in different versions of the RAM Legacy Stock Assessment Data Base, an online compilation of stock assessment results for commercially exploited marine populations from around the world.",
+  "sub_domain": "marine-biology",
+  "score": 7,
+  "score_rationale": "Useful marine fisheries reference package for accessing a standard stock-assessment database, though it is older and less actively maintained than the top anchors.",
+  "stars": 5,
+  "language": "R",
+  "license": "Other",
+  "last_activity": "2019-12-09",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 48.2,
+  "discovery_score": 7,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "R :package: to download, cache and read in different versions of the RAM Legacy Stock Assessment Data Base, an online compilation of stoc...",
+  "slug": "ropensci-ramlegacy"
+}

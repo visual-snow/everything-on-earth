@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/helixcn/sdm_r_packages",
+  "name": "helixcn/sdm_r_packages",
+  "description": "A curated list of R packages used in species distribution modelling",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 55,
+  "language": null,
+  "license": null,
+  "last_activity": "2018-07-18",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 3,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "A curated list of R packages used in species distribution modelling",
+  "slug": "helixcn-sdm-r-packages"
+}

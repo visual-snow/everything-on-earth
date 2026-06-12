@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/anabelsmruggiero/sbmltoodepy",
+  "name": "AnabelSMRuggiero/sbmltoodepy",
+  "description": "A tool for creating Python implementations of SBML models.",
+  "sub_domain": "systems-biology",
+  "score": 8,
+  "score_rationale": "Utility for generating Python implementations of SBML models, which is directly useful for mechanistic simulation pipelines.",
+  "stars": 15,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2022-10-05",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 57.6,
+  "discovery_score": 8,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "A tool for creating Python implementations of SBML models.",
+  "slug": "anabelsmruggiero-sbmltoodepy"
+}

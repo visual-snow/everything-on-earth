@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/luxfi/dex",
+  "name": "luxfi/dex",
+  "description": "High-performance DEX for Lux Network.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Go",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "High-performance DEX for Lux Network.",
+  "slug": "luxfi-dex"
+}

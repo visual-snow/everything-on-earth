@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cdcgov/data-exchange-fhir-tools",
+  "name": "CDCgov/data-exchange-fhir-tools",
+  "description": "CDCgov data exchange FHIR tools.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 8,
+  "score_rationale": "Practical companion tooling for FHIR-based data exchange pipelines.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "CDCgov data exchange FHIR tools.",
+  "slug": "cdcgov-data-exchange-fhir-tools"
+}

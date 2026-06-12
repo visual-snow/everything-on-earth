@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mojusko/mutedpy",
+  "name": "mojusko/mutedpy",
+  "description": "python library for protein design with active learning",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 7,
+  "score_rationale": "Smaller but still directly focused on active-learning-driven protein design.",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-08-24",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "python library for protein design with active learning",
+  "slug": "mojusko-mutedpy"
+}

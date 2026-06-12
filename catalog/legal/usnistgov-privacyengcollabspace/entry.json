@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/usnistgov/privacyengcollabspace",
+  "name": "usnistgov/privacyengcollabspace",
+  "description": "Privacy Engineering Collaboration Space",
+  "sub_domain": "privacy-data-protection",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 274,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-08-18",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 49.5,
+  "discovery_score": 5,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "Privacy Engineering Collaboration Space",
+  "slug": "usnistgov-privacyengcollabspace"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/medspacy/medspacy",
+  "name": "medspacy/medspacy",
+  "description": "Library for clinical NLP with spaCy.",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 10,
+  "score_rationale": "Core clinical NLP library, widely used for note processing and rule-based extraction.",
+  "stars": 640,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-08-04",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 82.5,
+  "discovery_score": 10,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "Library for clinical NLP with spaCy.",
+  "slug": "medspacy-medspacy"
+}

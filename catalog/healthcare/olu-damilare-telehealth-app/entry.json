@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/olu-damilare/telehealth_app",
+  "name": "olu-damilare/Telehealth_app",
+  "description": "A telehealth applicatoin that integrates 100ms Flutter SDK with the functionality of booking and joining an audio/visual appointment.",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 5,
+  "score_rationale": "A direct telehealth app, but it is small and lightweight compared with the stronger platforms in this crawl.",
+  "stars": 2,
+  "language": "Dart",
+  "license": null,
+  "last_activity": "2023-01-09",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "A telehealth applicatoin that integrates 100ms Flutter SDK with the functionality of booking and joining an audio/visual appointment.",
+  "slug": "olu-damilare-telehealth-app"
+}

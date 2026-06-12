@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brightway-lca/brightway2-io",
+  "name": "brightway-lca/brightway2-io",
+  "description": "Importing and exporting for the Brightway LCA framework",
+  "sub_domain": "life-cycle-assessment",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 40,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-01-13",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 36.9,
+  "discovery_score": 4,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Importing and exporting for the Brightway LCA framework",
+  "slug": "brightway-lca-brightway2-io"
+}

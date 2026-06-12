@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/p-casgrain/limitorderbook.jl",
+  "name": "p-casgrain/LimitOrderBook.jl",
+  "description": "A limit order book matching engine written in Julia",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 7,
+  "score_rationale": "Direct Julia matching engine, useful but smaller in scope.",
+  "stars": 34,
+  "language": "Julia",
+  "license": "MIT",
+  "last_activity": "2021-12-02",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 54.4,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "A limit order book matching engine written in Julia",
+  "slug": "p-casgrain-limitorderbook-jl"
+}

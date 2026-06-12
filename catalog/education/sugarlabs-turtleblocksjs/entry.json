@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sugarlabs/turtleblocksjs",
+  "name": "sugarlabs/turtleblocksjs",
+  "description": "Javascript/HTML5 port of Turtle Blocks",
+  "sub_domain": "k12-stem",
+  "score": 8,
+  "score_rationale": "Purpose-built kid-friendly programming environment with strong classroom and early-learner fit.",
+  "stars": 97,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 63.9,
+  "discovery_score": 8,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "Javascript/HTML5 port of Turtle Blocks",
+  "slug": "sugarlabs-turtleblocksjs"
+}

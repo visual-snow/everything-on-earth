@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ip-tools/patzilla",
+  "name": "ip-tools/patzilla",
+  "description": "PatZilla is a modular patent information research platform and data integration toolkit with a modern user interface and access to multiple data sources.",
+  "sub_domain": "ip-patent-trademark",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 114,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-09-09",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 52.5,
+  "discovery_score": 6,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics",
+    "access"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "PatZilla is a modular patent information research platform and data integration toolkit with a modern user interface and access to multip...",
+  "slug": "ip-tools-patzilla"
+}

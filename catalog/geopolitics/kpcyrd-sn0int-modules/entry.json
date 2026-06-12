@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kpcyrd/sn0int-modules",
+  "name": "kpcyrd/sn0int-modules",
+  "description": "No description provided.",
+  "stars": 24,
+  "language": "Lua",
+  "license": "GPL-3.0",
+  "last_activity": "2024-07-13",
+  "sub_domain": "osint-frameworks",
+  "score": 6,
+  "score_rationale": "Support modules for sn0int, so it is relevant but auxiliary.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 47.2,
+  "tags": [
+    "osint",
+    "modules",
+    "automation",
+    "reconnaissance",
+    "intelligence"
+  ],
+  "category": "OSINT Module Pack",
+  "summary": "Support modules for sn0int's OSINT workflows.",
+  "slug": "kpcyrd-sn0int-modules"
+}

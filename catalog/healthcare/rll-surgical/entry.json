@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rll/surgical",
+  "name": "rll/surgical",
+  "description": "An open-source simulator for surgical tools. Contribute to rll/surgical development by creating an account on GitHub.",
+  "sub_domain": "medical-education-simulation",
+  "score": 9,
+  "score_rationale": "Purpose-built open-source simulator for surgical tools, which is squarely in scope.",
+  "stars": 23,
+  "language": null,
+  "license": null,
+  "last_activity": "2011-10-17",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 65.0,
+  "discovery_score": 9,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "An open-source simulator for surgical tools. Contribute to rll/surgical development by creating an account on GitHub.",
+  "slug": "rll-surgical"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/oxpig/humatch",
+  "name": "oxpig/Humatch",
+  "description": "Fast, gene-specific joint humanisation of antibody heavy and light chains.",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Fast gene-specific antibody humanization tool that is clearly immunology-facing despite being a fork.",
+  "stars": 21,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-11-11",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 58.7,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Fast, gene-specific joint humanisation of antibody heavy and light chains.",
+  "slug": "oxpig-humatch"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/krishna-aditi/nlp-sentiment-analysis-on-stock-news-and-price-monitoring",
+  "name": "krishna-aditi/nlp-sentiment-analysis-on-stock-news-and-price-monitoring",
+  "description": "WebApp to bring together Text Summarization and Sentiment Analysis of the stock related news to better understand the stock price trends.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 17,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-04-07",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 34.0,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "WebApp to bring together Text Summarization and Sentiment Analysis of the stock related news to better understand the stock price trends.",
+  "slug": "krishna-aditi-nlp-sentiment-analysis-on-stock-news-and-price-monitoring"
+}

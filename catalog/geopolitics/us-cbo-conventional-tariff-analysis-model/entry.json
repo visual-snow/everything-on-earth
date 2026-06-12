@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/us-cbo/conventional-tariff-analysis-model",
+  "name": "US-CBO/conventional-tariff-analysis-model",
+  "description": "Python-based model for analyzing conventional tariff policy effects and import data.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 8,
+  "score_rationale": "Direct tariff-policy analysis tooling from a high-signal public-policy source.",
+  "stars": 3,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 52.8,
+  "tags": [
+    "tariffs",
+    "trade-policy",
+    "economic-modeling",
+    "python"
+  ],
+  "category": "Tariff Analysis Model",
+  "summary": "Python model for analyzing conventional tariff policy effects.",
+  "slug": "us-cbo-conventional-tariff-analysis-model"
+}

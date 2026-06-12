@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/policyengine/policyengine-us",
+  "name": "policyengine/policyengine-us",
+  "description": "The PolicyEngine US Python package contains a rules engine of the US tax-benefit system, and microdata generation for microsimulation analysis.",
+  "sub_domain": "tax-compliance-automation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 138,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 47.1,
+  "discovery_score": 5,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat",
+    "tax"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "The PolicyEngine US Python package contains a rules engine of the US tax-benefit system, and microdata generation for microsimulation ana...",
+  "slug": "policyengine-policyengine-us"
+}

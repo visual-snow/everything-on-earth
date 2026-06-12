@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/finos/traderx",
+  "name": "finos/traderx",
+  "description": "No description provided.",
+  "sub_domain": "climate-finance",
+  "score": 1,
+  "score_rationale": "Matched 2 queries; shows little direct domain terminology.",
+  "stars": 91,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 21.7,
+  "discovery_score": 1,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "No description provided.",
+  "slug": "finos-traderx"
+}

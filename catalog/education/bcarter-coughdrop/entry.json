@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bcarter/coughdrop",
+  "name": "bcarter/coughdrop",
+  "description": "Open source web-based AAC app",
+  "sub_domain": "special-education-therapy",
+  "score": 6,
+  "score_rationale": "Direct AAC app with clear relevance to alternative communication in educational environments.",
+  "stars": 3,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2016-11-28",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 6,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "Open source web-based AAC app",
+  "slug": "bcarter-coughdrop"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/iota-uz/iota-sdk",
+  "name": "iota-uz/iota-sdk",
+  "description": "IOTA-SDK - is an open-source modular ERP. An alternative to SAP, Oracle, Odoo written in Go with modern look & feel",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 421,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 27.0,
+  "discovery_score": 1,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "IOTA-SDK - is an open-source modular ERP. An alternative to SAP, Oracle, Odoo written in Go with modern look & feel",
+  "slug": "iota-uz-iota-sdk"
+}

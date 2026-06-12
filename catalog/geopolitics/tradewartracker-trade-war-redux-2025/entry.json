@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tradewartracker/trade-war-redux-2025",
+  "name": "tradewartracker/trade-war-redux-2025",
+  "description": "Tracker for the US trade war in 2025 and 2026.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 7,
+  "score_rationale": "Current-trend trade-war tracking is highly aligned with economic statecraft monitoring.",
+  "stars": 12,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 50.9,
+  "tags": [
+    "trade-war",
+    "tracker",
+    "tariffs",
+    "2025"
+  ],
+  "category": "Trade War Tracker",
+  "summary": "Tracker for the US trade war in 2025 and 2026.",
+  "slug": "tradewartracker-trade-war-redux-2025"
+}

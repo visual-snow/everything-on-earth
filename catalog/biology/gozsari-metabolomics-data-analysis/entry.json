@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gozsari/metabolomics_data_analysis",
+  "name": "gozsari/metabolomics_data_analysis",
+  "description": "This repo covers my studies and work about metabolomics data analysis",
+  "sub_domain": "metabolomics",
+  "score": 4,
+  "score_rationale": "It is metabolomics-specific, but it looks like a small personal analysis notebook rather than a maintained workflow or tool.",
+  "stars": 4,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-09-05",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "This repo covers my studies and work about metabolomics data analysis",
+  "slug": "gozsari-metabolomics-data-analysis"
+}

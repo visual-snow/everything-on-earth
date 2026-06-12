@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kzohan2000/legal_text_summarization",
+  "name": "kzohan2000/legal_text_summarization",
+  "description": "legal text summarization is a done to find an answer to the hypothesis of the effect of various summarization techniques on the comparison ratio of legal judgement.",
+  "sub_domain": "legal-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-09-26",
+  "found_in_domains": [
+    "legal-ai-nlp"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "legal text summarization is a done to find an answer to the hypothesis of the effect of various summarization techniques on the compariso...",
+  "slug": "kzohan2000-legal-text-summarization"
+}

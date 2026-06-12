@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cheinle/nanolims",
+  "name": "cheinle/NanoLIMS",
+  "description": "NanoLIMS, A Simple Open-Source Laboratory Information Management System for Small Metagenomic Labs",
+  "sub_domain": "lab-information-systems",
+  "score": 4,
+  "score_rationale": "Relevant small-lab LIMS, but the project is old and appears lightly maintained.",
+  "stars": 6,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2017-02-12",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "NanoLIMS, A Simple Open-Source Laboratory Information Management System for Small Metagenomic Labs",
+  "slug": "cheinle-nanolims"
+}

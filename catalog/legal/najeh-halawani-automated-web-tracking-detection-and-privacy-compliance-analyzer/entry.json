@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/najeh-halawani/automated-web-tracking-detection-and-privacy-compliance-analyzer",
+  "name": "najeh-halawani/automated-web-tracking-detection-and-privacy-compliance-analyzer",
+  "description": "Automates web tracking detection & privacy compliance testing by crawling sites in accept/reject/block consent modes.",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-11-27",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls",
+    "privacy",
+    "consent"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "Automates web tracking detection & privacy compliance testing by crawling sites in accept/reject/block consent modes.",
+  "slug": "najeh-halawani-automated-web-tracking-detection-and-privacy-compliance-analyzer"
+}

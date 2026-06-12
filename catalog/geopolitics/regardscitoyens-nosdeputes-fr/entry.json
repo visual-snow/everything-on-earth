@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/regardscitoyens/nosdeputes.fr",
+  "name": "regardscitoyens/nosdeputes.fr",
+  "description": "Repository of NosD\u00e9put\u00e9s.fr : the french parliamentary monitoring website",
+  "sub_domain": "network-alliance-analysis",
+  "score": 8,
+  "score_rationale": "It is a large parliamentary-monitoring and voting-behavior platform with direct network-analysis potential.",
+  "stars": 155,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2024-11-14",
+  "found_in_domains": [
+    "network-alliance-analysis"
+  ],
+  "quality_score": 65.5,
+  "tags": [
+    "france",
+    "parliament",
+    "voting",
+    "transparency",
+    "monitoring"
+  ],
+  "category": "Parliament Monitoring",
+  "summary": "French parliamentary monitoring site for deputies and votes.",
+  "slug": "regardscitoyens-nosdeputes-fr"
+}

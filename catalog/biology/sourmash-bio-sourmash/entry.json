@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sourmash-bio/sourmash",
+  "name": "sourmash-bio/sourmash",
+  "description": "Quickly search, compare, and analyze genomic and metagenomic data sets.",
+  "sub_domain": "metagenomics",
+  "score": 9,
+  "score_rationale": "Widely used sketch-based metagenomic comparison toolkit with strong fit for fast screening and classification.",
+  "stars": 541,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "metagenomics"
+  ],
+  "quality_score": 75.9,
+  "discovery_score": 9,
+  "tags": [
+    "metagenomics",
+    "microbiome",
+    "taxonomic-classification",
+    "shotgun-sequencing"
+  ],
+  "category": "Metagenomics \u2014 microbiome analysis and taxonomic classification",
+  "summary": "Quickly search, compare, and analyze genomic and metagenomic data sets.",
+  "slug": "sourmash-bio-sourmash"
+}

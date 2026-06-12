@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bencevans/camtrap-detector",
+  "name": "bencevans/camtrap-detector",
+  "description": "Detect Animals, Humans and Vehicles in Camera Trap Imagery. Powered by MegaDetector v5.",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 51,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 37.7,
+  "discovery_score": 4,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "Detect Animals, Humans and Vehicles in Camera Trap Imagery. Powered by MegaDetector v5.",
+  "slug": "bencevans-camtrap-detector"
+}

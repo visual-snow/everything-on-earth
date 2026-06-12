@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nvidia/earth2studio",
+  "name": "nvidia/earth2studio",
+  "description": "Open-source deep-learning framework for exploring, building and deploying AI weather/climate workflows.",
+  "sub_domain": "climate-data-analysis",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 725,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 58.9,
+  "discovery_score": 6,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "Open-source deep-learning framework for exploring, building and deploying AI weather/climate workflows.",
+  "slug": "nvidia-earth2studio"
+}

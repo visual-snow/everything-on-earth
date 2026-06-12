@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mp2893/doctorai",
+  "name": "mp2893/doctorai",
+  "description": "Repository for Doctor AI project",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 5,
+  "score_rationale": "Directly relevant medical AI diagnostic project, but more of a project repo than a reusable toolkit.",
+  "stars": 279,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-03-20",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 5,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "Repository for Doctor AI project",
+  "slug": "mp2893-doctorai"
+}

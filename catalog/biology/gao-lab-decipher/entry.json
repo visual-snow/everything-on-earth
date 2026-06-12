@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gao-lab/decipher",
+  "name": "gao-lab/decipher",
+  "description": "DECIPHER for learning high-fidelity disentangled embeddings from spatial omics data",
+  "sub_domain": "spatial-omics",
+  "score": 8,
+  "score_rationale": "Focused spatial-omics representation-learning project with a direct transcriptomics emphasis and active docs.",
+  "stars": 24,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-20",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 59.2,
+  "discovery_score": 8,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "DECIPHER for learning high-fidelity disentangled embeddings from spatial omics data",
+  "slug": "gao-lab-decipher"
+}

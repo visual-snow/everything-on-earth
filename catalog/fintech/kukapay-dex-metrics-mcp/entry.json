@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kukapay/dex-metrics-mcp",
+  "name": "kukapay/dex-metrics-mcp",
+  "description": "An MCP server that tracks trading volume metrics segmented by DEX, blockchain, aggregator, frontend, and Telegram bot.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-06-17",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "An MCP server that tracks trading volume metrics segmented by DEX, blockchain, aggregator, frontend, and Telegram bot.",
+  "slug": "kukapay-dex-metrics-mcp"
+}

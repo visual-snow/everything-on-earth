@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yorkeccak/patents",
+  "name": "yorkeccak/patents",
+  "description": "The world\u2019s most comprehensive open-source patents AI assistant \u2014 Search and analyze the entire USPTO corpus, track innovation trends, link patents to federal spending and grants data, and uncover emerging technologies \u2014 all through natural conversation.",
+  "sub_domain": "ip-patent-trademark",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+  "stars": 8,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-02-05",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 37.6,
+  "discovery_score": 5,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "The world\u2019s most comprehensive open-source patents AI assistant \u2014 Search and analyze the entire USPTO corpus, track innovation trends, li...",
+  "slug": "yorkeccak-patents"
+}

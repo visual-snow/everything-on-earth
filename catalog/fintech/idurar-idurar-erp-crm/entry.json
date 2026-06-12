@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/idurar/idurar-erp-crm",
+  "name": "idurar/idurar-erp-crm",
+  "description": "Free Open Source ERP CRM Software Accounting Invoicing | Node Js React",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 8268,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 61.3,
+  "discovery_score": 5,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger",
+    "invoicing"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Free Open Source ERP CRM Software Accounting Invoicing | Node Js React",
+  "slug": "idurar-idurar-erp-crm"
+}

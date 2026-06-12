@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/irs-public/tax-withholding-estimator",
+  "name": "irs-public/tax-withholding-estimator",
+  "description": "IRS Tax Withholding Estimator",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 2 queries; shows little direct domain terminology.",
+  "stars": 64,
+  "language": "Scala",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 20.5,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "IRS Tax Withholding Estimator",
+  "slug": "irs-public-tax-withholding-estimator"
+}

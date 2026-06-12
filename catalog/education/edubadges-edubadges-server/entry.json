@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/edubadges/edubadges-server",
+  "name": "edubadges/edubadges-server",
+  "description": "Edubadges: A SURF project for Open Badge issuing and management with Django.",
+  "sub_domain": "credentialing-certification",
+  "score": 9,
+  "score_rationale": "Active Django Open Badges backend for educational institutions; directly matches issuance and management.",
+  "stars": 43,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 67.1,
+  "discovery_score": 9,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "Edubadges: A SURF project for Open Badge issuing and management with Django.",
+  "slug": "edubadges-edubadges-server"
+}

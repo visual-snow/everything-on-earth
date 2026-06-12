@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/metabolomicsworkbench/metenp",
+  "name": "metabolomicsworkbench/MetENP",
+  "description": "Metabolite enrichment analysis and their associated enriched pathways",
+  "sub_domain": "metabolomics",
+  "score": 7,
+  "score_rationale": "It is clearly metabolomics pathway enrichment software, though smaller and less complete than the top-tier processing packages.",
+  "stars": 7,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-01-02",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 49.2,
+  "discovery_score": 7,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "Metabolite enrichment analysis and their associated enriched pathways",
+  "slug": "metabolomicsworkbench-metenp"
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "openelisglobal-openelisglobal-core",
+  "name": "OpenELIS Global Core (1.x)",
+  "what_it_is": "OpenELIS Global Core is a Java/Struts web application providing a laboratory information system (LIS) for resource-constrained clinical and reference laboratories, covering order entry, specimen tracking, result entry, QA, and reporting. This is the 1.x branch, explicitly declared end-of-life by the project; active development has moved to OpenELIS-Global-2.",
+  "components": [
+    "Struts 1.x MVC servlet for all web actions",
+    "Hibernate ORM data access layer backed by PostgreSQL",
+    "Liquibase database migration engine",
+    "Quartz scheduler for background jobs",
+    "AnalyzerImport servlet with reader plugins for Cobas C311, Cobas Taqman, Evolis, FACSCanto, FACSCalibur, Sysmex",
+    "DataExchange subsystem: HL7 order intake, result reporting, aggregate/malaria reporting",
+    "Report engine using JasperReports for patient, workplan, QA, and aggregate reports",
+    "LabelMaker servlet generating ZPL-II barcode labels for Zebra printers",
+    "Plugin framework for runtime extension",
+    "SecurityFilter and role/module/section-based access control"
+  ],
+  "protocols": [
+    "HL7 v2.5.1 (OML_O21 messages for electronic lab orders)",
+    "HL7 v2.x for result reporting outbound",
+    "HTTP POST and HTTP GET for external result/aggregate report sending",
+    "ZPL-II for Zebra barcode label printing",
+    "JDBC over PostgreSQL"
+  ],
+  "measurement": [
+    "Sample status progression (quick entry, entry complete, released, label printed)",
+    "Analysis status (assigned, canceled, result completed, released, verified)",
+    "Non-conformity counts by category, date, and lab number",
+    "Validation backlog count",
+    "Aggregate/indicator reports transmitted on schedule"
+  ],
+  "configuration": [
+    "Application name, datasource, page sizes, label printer name/copies/ZPL-II parameters",
+    "HL7 transport IDs and processing IDs",
+    "PostgreSQL URL, username, password, schema",
+    "Quartz thread pool size",
+    "Analyzer plugin JARs dropped into plugin directory at runtime",
+    "Locale/language (English and French)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Quick entry (abbreviated sample and order entry flow)",
+    "Human sample entry (multi-step order entry)",
+    "Workplan mode (lab bench worklist by test or test section)",
+    "Result validation mode",
+    "Electronic order intake mode (HL7 OML_O21 orders from external systems)",
+    "Referred-out specimen tracking"
+  ],
+  "constraints": [
+    "Declared end-of-life (1.x branch); no active upstream maintenance",
+    "Requires PostgreSQL with a specific schema; no other database backend is supported",
+    "Quartz scheduler uses in-memory store only; scheduled job state is lost on restart",
+    "HL7 order intake is limited to OML_O21 (v2.5.1) message type only",
+    "Label printing assumes ZPL-II compatible Zebra printers; no other label format supported",
+    "No Docker Compose or container-based deployment provided"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No FHIR interface (FHIR support is in OpenELIS-Global-2 only)",
+    "No REST or SOAP API layer",
+    "No automated test suite with documented coverage",
+    "No audit log export or SIEM integration",
+    "No multi-tenancy support",
+    "No TLS/HTTPS configuration within the application itself"
+  ]
+}

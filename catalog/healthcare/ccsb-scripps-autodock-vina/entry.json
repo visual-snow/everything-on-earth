@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ccsb-scripps/autodock-vina",
+  "name": "ccsb-scripps/AutoDock-Vina",
+  "description": "AutoDock Vina",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 10,
+  "score_rationale": "Canonical docking engine for structure-based virtual screening and pose prediction.",
+  "stars": 948,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 83.8,
+  "discovery_score": 10,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "AutoDock Vina",
+  "slug": "ccsb-scripps-autodock-vina"
+}

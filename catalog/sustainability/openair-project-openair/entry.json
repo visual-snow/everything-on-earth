@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openair-project/openair",
+  "name": "openair-project/openair",
+  "description": "\ud83e\udded Open source tools for air quality data analysis",
+  "sub_domain": "air-quality-emissions",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 349,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 4,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "\ud83e\udded Open source tools for air quality data analysis",
+  "slug": "openair-project-openair"
+}

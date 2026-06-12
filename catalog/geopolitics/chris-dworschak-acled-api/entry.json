@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/chris-dworschak/acled.api",
+  "name": "chris-dworschak/acled.api",
+  "description": "A small package to access the API of ACLED and retrieve conflict event data. IMPORTANT: the dev version is maintained on my GitLab page.",
+  "stars": 9,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2024-10-02",
+  "sub_domain": "conflict-event-tracking",
+  "score": 7,
+  "score_rationale": "Another ACLED wrapper that is directly relevant, though less central than the main ACLED tooling.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 50.0,
+  "tags": [
+    "acled",
+    "api-client",
+    "conflict-data",
+    "r-package"
+  ],
+  "category": "ACLED API Client",
+  "summary": "Small R package for accessing ACLED conflict event data.",
+  "slug": "chris-dworschak-acled-api"
+}

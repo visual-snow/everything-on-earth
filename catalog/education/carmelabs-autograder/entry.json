@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/carmelabs/autograder",
+  "name": "CarmeLabs/autograder",
+  "description": "Autograder for use with colab.",
+  "sub_domain": "interactive-coding-education",
+  "score": 5,
+  "score_rationale": "Notebook-based grading workflow centered on Colab and notebook execution, useful for teaching and lab assessment.",
+  "stars": 5,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2020-02-14",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 36.2,
+  "discovery_score": 5,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "Autograder for use with colab.",
+  "slug": "carmelabs-autograder"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mahmoodlab/maps",
+  "name": "mahmoodlab/maps",
+  "description": "Machine learning for Analysis of Proteomics in Spatial biology - Nature Communications",
+  "sub_domain": "spatial-omics",
+  "score": 7,
+  "score_rationale": "Spatial proteomics research code with a clear biology focus, though it reads more like project analysis than a general toolkit.",
+  "stars": 64,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2024-03-14",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 56.5,
+  "discovery_score": 7,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq",
+    "proteomics"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Machine learning for Analysis of Proteomics in Spatial biology - Nature Communications",
+  "slug": "mahmoodlab-maps"
+}

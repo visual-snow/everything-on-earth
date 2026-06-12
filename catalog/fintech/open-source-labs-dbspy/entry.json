@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-source-labs/dbspy",
+  "name": "open-source-labs/dbspy",
+  "description": "Visualize, modify, and build your database with dbSpy! An open-source data modeling tool to facilitate relational database development.",
+  "sub_domain": "financial-data-standards",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 285,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-04-28",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 25.7,
+  "discovery_score": 1,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "Visualize, modify, and build your database with dbSpy! An open-source data modeling tool to facilitate relational database development.",
+  "slug": "open-source-labs-dbspy"
+}

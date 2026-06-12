@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biocat-ugent/open-anatomy-explorer",
+  "name": "biocat-ugent/Open-Anatomy-Explorer",
+  "description": "The Open Anatomy Explorer (OPANEX) is an open-source, web-based anatomy atlas viewer. The platform displays three-dimensional (3D) anatomical models.",
+  "sub_domain": "medical-education-simulation",
+  "score": 9,
+  "score_rationale": "Direct anatomy exploration and atlas tooling, tightly aligned to the subdomain.",
+  "stars": 6,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-09-09",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 60.8,
+  "discovery_score": 9,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "The Open Anatomy Explorer (OPANEX) is an open-source, web-based anatomy atlas viewer. The platform displays three-dimensional (3D) anatom...",
+  "slug": "biocat-ugent-open-anatomy-explorer"
+}

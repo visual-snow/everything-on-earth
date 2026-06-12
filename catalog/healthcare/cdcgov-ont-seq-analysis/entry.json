@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cdcgov/ont-seq-analysis",
+  "name": "CDCgov/ONT-Seq-analysis",
+  "description": "ONT-Seq-analysis is a specialized pipeline designed for analyzing Oxford Nanopore Technologies (ONT) sequencing data from Mpox isolates. It performs reference-based assemblies, identifies variants, designates clades, and generates a detailed quality control (QC) report.",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 3,
+  "score_rationale": "Highly specialized but clearly relevant Nanopore genomics pipeline.",
+  "stars": 1,
+  "language": "Nextflow",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-11",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "ONT-Seq-analysis is a specialized pipeline designed for analyzing Oxford Nanopore Technologies (ONT) sequencing data from Mpox isolates....",
+  "slug": "cdcgov-ont-seq-analysis"
+}

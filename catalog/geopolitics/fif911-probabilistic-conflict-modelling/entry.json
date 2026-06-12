@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/fif911/probabilistic_conflict_modelling",
+  "name": "fif911/probabilistic_conflict_modelling",
+  "description": "Machine-learning project that predicts wars with explainable probabilistic conflict models.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 8,
+  "score_rationale": "Strong direct match for conflict prediction with an explicit forecasting objective.",
+  "stars": 6,
+  "language": "Jupyter Notebook",
+  "license": "MPL-2.0",
+  "last_activity": "2024-10-27",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 54.8,
+  "tags": [
+    "conflict-forecasting",
+    "probabilistic-models",
+    "war-prediction",
+    "explainability"
+  ],
+  "category": "Conflict Forecasting",
+  "summary": "Explainable probabilistic models for war forecasting.",
+  "slug": "fif911-probabilistic-conflict-modelling"
+}

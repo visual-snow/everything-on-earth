@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/translation-cards/translation-cards",
+  "name": "translation-cards/translation-cards",
+  "description": "An app that enables refugees and field workers to communicate more effectively and confidently.",
+  "sub_domain": "migration-refugee-data",
+  "score": 8,
+  "score_rationale": "Communication aid that helps refugees and field workers bridge language gaps.",
+  "stars": 26,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2025-07-02",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 59.5,
+  "tags": [
+    "refugees",
+    "translation",
+    "communication",
+    "field-work"
+  ],
+  "category": "Translation Aid",
+  "summary": "Helps refugees and field workers communicate more effectively.",
+  "slug": "translation-cards-translation-cards"
+}

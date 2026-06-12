@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aposin/openinsuranceplatform",
+  "name": "aposin/openinsuranceplatform",
+  "description": "This project provides a comprehensive core insurance platform delivering the complete scope of business capabilities for the insurance industry across all lines of business and business models (B2C, B2B, B2B2C).",
+  "sub_domain": "insurance-actuarial-tech",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 86,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2019-11-27",
+  "found_in_domains": [
+    "insurance-actuarial-tech"
+  ],
+  "quality_score": 33.5,
+  "discovery_score": 3,
+  "tags": [
+    "insurance",
+    "actuarial",
+    "claims",
+    "cat-modeling"
+  ],
+  "category": "Insurance / Actuarial Tech",
+  "summary": "This project provides a comprehensive core insurance platform delivering the complete scope of business capabilities for the insurance in...",
+  "slug": "aposin-openinsuranceplatform"
+}

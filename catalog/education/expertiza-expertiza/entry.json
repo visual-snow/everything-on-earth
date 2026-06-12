@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/expertiza/expertiza",
+  "name": "expertiza/expertiza",
+  "description": "Expertiza is a web application through which students can submit and peer-review learning objects (articles, code, web sites, etc). The Expertiza project is supported by the National Science Foundation.",
+  "sub_domain": "collaborative-learning",
+  "score": 9,
+  "score_rationale": "Strong match for peer review and group learning workflows in education.",
+  "stars": 193,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "collaborative-learning"
+  ],
+  "quality_score": 72.3,
+  "discovery_score": 9,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "Expertiza is a web application through which students can submit and peer-review learning objects (articles, code, web sites, etc). The E...",
+  "slug": "expertiza-expertiza"
+}

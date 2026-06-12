@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alt-research/solidityguard",
+  "name": "alt-research/solidityguard",
+  "description": "Solidity/EVM smart contract security auditor \u2014 104 vulnerability patterns, 8 tools, 100% CTF + EVMBench benchmark (120/120)",
+  "sub_domain": "smart-contract-security",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for benchmark-style signals.",
+  "stars": 81,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 33.3,
+  "discovery_score": 3,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Solidity/EVM smart contract security auditor \u2014 104 vulnerability patterns, 8 tools, 100% CTF + EVMBench benchmark (120/120)",
+  "slug": "alt-research-solidityguard"
+}

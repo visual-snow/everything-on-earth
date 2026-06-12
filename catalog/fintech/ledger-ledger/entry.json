@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ledger/ledger",
+  "name": "ledger/ledger",
+  "description": "Double-entry accounting system with a command-line reporting interface",
+  "sub_domain": "core-banking-ledger",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 5891,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 66.2,
+  "discovery_score": 6,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "Double-entry accounting system with a command-line reporting interface",
+  "slug": "ledger-ledger"
+}

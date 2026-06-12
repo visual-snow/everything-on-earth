@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/acellera/acegen-open",
+  "name": "Acellera/acegen-open",
+  "description": "Language models for drug discovery using torchrl",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 8,
+  "score_rationale": "Relevant generative-AI stack for molecular design and sequence-like drug discovery exploration.",
+  "stars": 116,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-09-16",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 64.5,
+  "discovery_score": 8,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "Language models for drug discovery using torchrl",
+  "slug": "acellera-acegen-open"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ai-agriculture-circuits-and-systems/ai_agriculture_news",
+  "name": "ai-agriculture-circuits-and-systems/ai_agriculture_news",
+  "description": "This project curates a comprehensive collection of research papers examining the relationship between artificial intelligence and sustainability.",
+  "sub_domain": "supply-chain-sustainability",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 14,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "supply-chain-sustainability",
+    "sustainable-agriculture"
+  ],
+  "quality_score": 27.4,
+  "discovery_score": 3,
+  "tags": [
+    "supply-chain",
+    "traceability",
+    "scope-3",
+    "deforestation"
+  ],
+  "category": "Supply Chain Sustainability \u2014 scope 3 traceability, deforestation-free supply chains, fair trade tracking",
+  "summary": "This project curates a comprehensive collection of research papers examining the relationship between artificial intelligence and sustain...",
+  "slug": "ai-agriculture-circuits-and-systems-ai-agriculture-news"
+}

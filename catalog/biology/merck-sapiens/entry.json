@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/merck/sapiens",
+  "name": "Merck/Sapiens",
+  "description": "Sapiens is a human antibody language model based on BERT.",
+  "sub_domain": "immunoinformatics",
+  "score": 9,
+  "score_rationale": "Human antibody language model that is explicitly positioned for antibody design and humanization tasks.",
+  "stars": 73,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-01-22",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 69.0,
+  "discovery_score": 9,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Sapiens is a human antibody language model based on BERT.",
+  "slug": "merck-sapiens"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tstanislawek/awesome-document-understanding",
+  "name": "tstanislawek/awesome-document-understanding",
+  "description": "A curated list of resources for Document Understanding (DU) topic",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 1506,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-06-02",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 31.4,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "A curated list of resources for Document Understanding (DU) topic",
+  "slug": "tstanislawek-awesome-document-understanding"
+}

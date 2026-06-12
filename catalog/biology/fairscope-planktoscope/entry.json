@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fairscope/planktoscope",
+  "name": "fairscope/PlanktoScope",
+  "description": "Open and Affordable Quantitative Imaging Platform",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Active plankton imaging platform software that is clearly reusable for field and lab plankton workflows.",
+  "stars": 80,
+  "language": "Python",
+  "license": "CC-BY-SA-4.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 63.3,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Open and Affordable Quantitative Imaging Platform",
+  "slug": "fairscope-planktoscope"
+}

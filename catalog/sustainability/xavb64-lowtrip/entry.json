@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/xavb64/lowtrip",
+  "name": "xavb64/lowtrip",
+  "description": "A web app to compute travel CO2eq for different means of transport worldwide",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 71,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 20.9,
+  "discovery_score": 1,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint",
+    "transport"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "A web app to compute travel CO2eq for different means of transport worldwide",
+  "slug": "xavb64-lowtrip"
+}

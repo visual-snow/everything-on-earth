@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microblink/about",
+  "name": "microblink/about",
+  "description": "About Microblink code repositories",
+  "sub_domain": "aml-kyc-identity",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 37,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-10-27",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 18.6,
+  "discovery_score": 1,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity"
+  ],
+  "category": "AML / KYC / Identity",
+  "summary": "About Microblink code repositories",
+  "slug": "microblink-about"
+}

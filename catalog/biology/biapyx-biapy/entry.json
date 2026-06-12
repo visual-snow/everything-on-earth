@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biapyx/biapy",
+  "name": "BiaPyX/BiaPy",
+  "description": "Open source Python library for building bioimage analysis pipelines",
+  "sub_domain": "biomedical-imaging",
+  "score": 90,
+  "score_rationale": "Pipeline builder for deep-learning bioimage tasks with direct biomedical relevance.",
+  "stars": 194,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 558.3,
+  "discovery_score": 90,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Open source Python library for building bioimage analysis pipelines",
+  "slug": "biapyx-biapy"
+}

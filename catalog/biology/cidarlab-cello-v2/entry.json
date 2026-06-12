@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cidarlab/cello-v2",
+  "name": "CIDARLAB/Cello-v2",
+  "description": "Cello v2 is the continuation of the Cello genetic circuit design software.",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Core genetic circuit design software with a direct synthetic-biology use case.",
+  "stars": 68,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2022-05-16",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 62.7,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "Cello v2 is the continuation of the Cello genetic circuit design software.",
+  "slug": "cidarlab-cello-v2"
+}

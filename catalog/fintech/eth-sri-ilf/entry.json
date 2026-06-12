@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eth-sri/ilf",
+  "name": "eth-sri/ilf",
+  "description": "AI based fuzzer based on imitation learning",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 154,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-06-17",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 41.5,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "AI based fuzzer based on imitation learning",
+  "slug": "eth-sri-ilf"
+}

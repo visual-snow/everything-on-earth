@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/koala73/worldmonitor",
+  "name": "koala73/worldmonitor",
+  "description": "Real-time global intelligence dashboard \u2014 AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+  "stars": 43537,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "sub_domain": "conflict-event-tracking",
+  "score": 9,
+  "score_rationale": "Real-time geopolitical monitoring dashboard with clear overlap to event tracking use cases.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 91.1,
+  "tags": [
+    "intelligence-dashboard",
+    "news-aggregation",
+    "geopolitics",
+    "infrastructure"
+  ],
+  "category": "Global Intelligence",
+  "summary": "Real-time dashboard for geopolitical news, monitoring, and infrastructure.",
+  "slug": "koala73-worldmonitor"
+}

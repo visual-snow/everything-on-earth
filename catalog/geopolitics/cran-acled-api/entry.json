@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cran/acled.api",
+  "name": "cran/acled.api",
+  "description": ":exclamation:\u00a0This\u00a0is\u00a0a\u00a0read-only\u00a0mirror\u00a0of\u00a0the\u00a0CRAN\u00a0R\u00a0package\u00a0repository.  acled.api\u00a0\u2014\u00a0Automated\u00a0Retrieval\u00a0of\u00a0ACLED\u00a0Conflict\u00a0Event\u00a0Data.\u00a0Homepage:\u00a0<https://gitlab.com/chris-dworschak/acled.api>",
+  "stars": 7,
+  "language": "R",
+  "license": null,
+  "last_activity": "2024-04-23",
+  "sub_domain": "conflict-event-tracking",
+  "score": 8,
+  "score_rationale": "Established API wrapper for ACLED data, which is central to conflict-event tracking workflows.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 55.2,
+  "tags": [
+    "acled",
+    "conflict-data",
+    "r-package",
+    "api-client"
+  ],
+  "category": "ACLED Data Access",
+  "summary": "Read-only mirror of an R package for retrieving ACLED conflict events.",
+  "slug": "cran-acled-api"
+}

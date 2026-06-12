@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cboard-org/cboard-mobile",
+  "name": "cboard-org/cboard-mobile",
+  "description": "Mobile companion app for the Cboard AAC platform",
+  "sub_domain": "special-education-therapy",
+  "score": 6,
+  "score_rationale": "Mobile extension of a strong AAC platform; useful for classroom and home communication support.",
+  "stars": 10,
+  "language": "Dart",
+  "license": null,
+  "last_activity": "2022-01-13",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 44.3,
+  "discovery_score": 6,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "Mobile companion app for the Cboard AAC platform",
+  "slug": "cboard-org-cboard-mobile"
+}

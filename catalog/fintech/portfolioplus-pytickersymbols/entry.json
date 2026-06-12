@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/portfolioplus/pytickersymbols",
+  "name": "portfolioplus/pytickersymbols",
+  "description": "Fundamental stock data and yahoo/google ticker symbols for several indices.",
+  "sub_domain": "financial-market-data",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 135,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 23.1,
+  "discovery_score": 1,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "Fundamental stock data and yahoo/google ticker symbols for several indices.",
+  "slug": "portfolioplus-pytickersymbols"
+}

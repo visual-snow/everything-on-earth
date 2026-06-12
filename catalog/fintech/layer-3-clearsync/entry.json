@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/layer-3/clearsync",
+  "name": "layer-3/clearsync",
+  "description": "Clearing system for Inter-Exchange and others trading firms.",
+  "sub_domain": "reconciliation-settlement",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 210,
+  "language": "Go",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 42.6,
+  "discovery_score": 4,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Clearing system for Inter-Exchange and others trading firms.",
+  "slug": "layer-3-clearsync"
+}

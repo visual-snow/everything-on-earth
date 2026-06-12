@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/fossology/fossology",
+  "name": "fossology/fossology",
+  "description": "Open source license compliance system with export-control scanning support.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 3,
+  "score_rationale": "Tangential but still useful as compliance infrastructure for export-control workflows.",
+  "stars": 975,
+  "language": "HTML",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 41.9,
+  "tags": [
+    "compliance",
+    "export-control",
+    "license-scanning",
+    "security"
+  ],
+  "category": "Compliance Scanning System",
+  "summary": "Open source compliance system with export-control scanning support.",
+  "slug": "fossology-fossology"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/genxlabs/lims-frontend",
+  "name": "GenXLabs/LIMS-Frontend",
+  "description": "Comprehensive Laboratory Information Management System (LIMS) - Frontend",
+  "sub_domain": "lab-information-systems",
+  "score": 3,
+  "score_rationale": "Relevant as a LIMS user interface component, but it is only the frontend layer and not a full LIS product.",
+  "stars": 3,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-04-12",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "Comprehensive Laboratory Information Management System (LIMS) - Frontend",
+  "slug": "genxlabs-lims-frontend"
+}

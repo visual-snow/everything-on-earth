@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/datadrivenconstruction/co2_calculating-the-embodied-carbon",
+  "name": "datadrivenconstruction/co2_calculating-the-embodied-carbon",
+  "description": "Fossil Carbon Emitted in Production BIMjson (Revit, IFC projects)",
+  "sub_domain": "green-building-certification",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 24,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2023-12-18",
+  "found_in_domains": [
+    "green-building-certification"
+  ],
+  "quality_score": 35.2,
+  "discovery_score": 4,
+  "tags": [
+    "green-building",
+    "leed",
+    "breeam",
+    "embodied-carbon",
+    "ghg"
+  ],
+  "category": "Green Building Certification \u2014 LEED/BREEAM tools and building material databases",
+  "summary": "Fossil Carbon Emitted in Production BIMjson (Revit, IFC projects)",
+  "slug": "datadrivenconstruction-co2-calculating-the-embodied-carbon"
+}

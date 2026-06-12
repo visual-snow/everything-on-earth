@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openstates/openstates-core",
+  "name": "openstates/openstates-core",
+  "description": "Open States data model and scraper backend",
+  "sub_domain": "election-governance-data",
+  "score": 9,
+  "score_rationale": "This is the operating backend for a major civic-data platform and directly serves legislative governance data.",
+  "stars": 27,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-31",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 65.6,
+  "tags": [
+    "legislative-data",
+    "scraper-backend",
+    "open-states",
+    "python"
+  ],
+  "category": "Legislative Data Backend",
+  "summary": "Backend and data model for the Open States civic data platform.",
+  "slug": "openstates-openstates-core"
+}

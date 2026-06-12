@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/qiime2/q2-feature-classifier",
+  "name": "qiime2/q2-feature-classifier",
+  "description": "QIIME 2 plugin supporting taxonomic classification",
+  "sub_domain": "metagenomics",
+  "score": 10,
+  "score_rationale": "Canonical QIIME 2 taxonomic-classification plugin, directly aligned with 16S and metagenomic profiling.",
+  "stars": 21,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "metagenomics"
+  ],
+  "quality_score": 70.7,
+  "discovery_score": 10,
+  "tags": [
+    "metagenomics",
+    "microbiome",
+    "taxonomic-classification",
+    "shotgun-sequencing"
+  ],
+  "category": "Metagenomics \u2014 microbiome analysis and taxonomic classification",
+  "summary": "QIIME 2 plugin supporting taxonomic classification",
+  "slug": "qiime2-q2-feature-classifier"
+}

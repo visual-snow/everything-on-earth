@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/leo-aa88/go-iso8583",
+  "name": "leo-aa88/go-iso8583",
+  "description": "Spec-driven ISO 8583 parser and builder for Go \u2014 supports primary/secondary bitmaps, LLVAR/LLLVAR, BCD encoding, and typed field errors.",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 10,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "Spec-driven ISO 8583 parser and builder for Go \u2014 supports primary/secondary bitmaps, LLVAR/LLLVAR, BCD encoding, and typed field errors.",
+  "slug": "leo-aa88-go-iso8583"
+}

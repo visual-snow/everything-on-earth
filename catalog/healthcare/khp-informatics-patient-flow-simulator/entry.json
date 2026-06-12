@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/khp-informatics/patient-flow-simulator",
+  "name": "KHP-Informatics/patient-flow-simulator",
+  "description": "Manage a simulated hospital to understand patient flow bottlenecks",
+  "sub_domain": "hospital-operations-scheduling",
+  "score": 6,
+  "score_rationale": "Directly explores patient-flow bottlenecks and hospital capacity, but it is a simulator rather than a production operations platform.",
+  "stars": 17,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2018-11-09",
+  "found_in_domains": [
+    "hospital-operations-scheduling"
+  ],
+  "quality_score": 46.0,
+  "discovery_score": 6,
+  "tags": [
+    "hospital-ops",
+    "scheduling",
+    "bed-management",
+    "patient-flow",
+    "patient-records"
+  ],
+  "category": "Hospital Operations, Scheduling, Bed Management & Patient Flow",
+  "summary": "Manage a simulated hospital to understand patient flow bottlenecks",
+  "slug": "khp-informatics-patient-flow-simulator"
+}

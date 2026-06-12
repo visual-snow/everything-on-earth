@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/aojdevstudio/dental-dashboard",
+  "name": "AojdevStudio/dental-dashboard",
+  "description": "A production-grade dental practice dashboard that provides comprehensive data visualization and KPI tracking for dental clinics.",
+  "sub_domain": "dental-specialty-clinics",
+  "score": 4,
+  "score_rationale": "Dental-specific dashboard project, but it is small and has no established adoption signal.",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-12-05",
+  "found_in_domains": [
+    "dental-specialty-clinics"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "specialty-clinics",
+    "practice-management",
+    "dental"
+  ],
+  "category": "Dental, Ophthalmology & Specialty Clinic Systems",
+  "summary": "A production-grade dental practice dashboard that provides comprehensive data visualization and KPI tracking for dental clinics.",
+  "slug": "aojdevstudio-dental-dashboard"
+}

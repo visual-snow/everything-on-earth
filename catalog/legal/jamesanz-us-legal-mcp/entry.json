@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jamesanz/us-legal-mcp",
+  "name": "jamesanz/us-legal-mcp",
+  "description": "An MCP server that provides comprehensive US legislation.",
+  "sub_domain": "immigration-visa-processing",
+  "score": 4,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text.",
+  "stars": 18,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-12-10",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 34.2,
+  "discovery_score": 4,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "An MCP server that provides comprehensive US legislation.",
+  "slug": "jamesanz-us-legal-mcp"
+}

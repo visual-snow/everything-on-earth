@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/m-d-brown/plain-text-accounting-tools",
+  "name": "m-d-brown/plain-text-accounting-tools",
+  "description": "Python libraries for extracting information from PDF statements of American financial institutions, particularly to import into a Beancount ledger.",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "stars": 6,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-07-31",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 36.8,
+  "discovery_score": 5,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger",
+    "ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Python libraries for extracting information from PDF statements of American financial institutions, particularly to import into a Beancou...",
+  "slug": "m-d-brown-plain-text-accounting-tools"
+}

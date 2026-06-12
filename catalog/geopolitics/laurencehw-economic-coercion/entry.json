@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/laurencehw/economic-coercion",
+  "name": "laurencehw/economic-coercion",
+  "description": "Living textbook on sanctions, economic statecraft, and geoeconomic strategy.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 5,
+  "score_rationale": "Conceptually on-target for coercive economic statecraft, though more educational than operational.",
+  "stars": 0,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 32.4,
+  "tags": [
+    "sanctions",
+    "economic-statecraft",
+    "geoeconomics",
+    "textbook"
+  ],
+  "category": "Economic Statecraft Textbook",
+  "summary": "Living textbook on sanctions, economic statecraft, and geoeconomic strategy.",
+  "slug": "laurencehw-economic-coercion"
+}

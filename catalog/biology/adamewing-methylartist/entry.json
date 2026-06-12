@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/adamewing/methylartist",
+  "name": "adamewing/methylartist",
+  "description": "Tools for plotting methylation data in various ways",
+  "sub_domain": "long-read-sequencing",
+  "score": 8,
+  "score_rationale": "Useful long-read methylation visualization toolkit that bridges sequencing and epigenomics.",
+  "stars": 178,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 66.0,
+  "discovery_score": 8,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "Tools for plotting methylation data in various ways",
+  "slug": "adamewing-methylartist"
+}

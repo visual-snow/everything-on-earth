@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ngecom/ngbillingdocker",
+  "name": "ngecom/ngbillingdocker",
+  "description": "Open-Source Billing And Rating Platform For Subscription",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 10,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2024-02-05",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 4,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "Open-Source Billing And Rating Platform For Subscription",
+  "slug": "ngecom-ngbillingdocker"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/simon-initiative/lti_1p3",
+  "name": "Simon-Initiative/lti_1p3",
+  "description": "An Elixir library for LTI 1.3 platforms and tools.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 6,
+  "score_rationale": "Useful LTI 1.3 support library for Elixir-based education systems and integrations.",
+  "stars": 15,
+  "language": "Elixir",
+  "license": "MIT",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 45.6,
+  "discovery_score": 6,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "An Elixir library for LTI 1.3 platforms and tools.",
+  "slug": "simon-initiative-lti-1p3"
+}

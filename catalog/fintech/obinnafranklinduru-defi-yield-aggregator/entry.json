@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/obinnafranklinduru/defi-yield-aggregator",
+  "name": "obinnafranklinduru/defi-yield-aggregator",
+  "description": "The YieldAggregator smart contract is designed to manage user deposits to maximize yield across popular DeFi protocols, such as Aave and Compound. The contract dynamically allocates funds to the protocol with the highest yield, provides fee management, and allows emergency withdrawals for enhanced security.",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 2,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2024-11-16",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "The YieldAggregator smart contract is designed to manage user deposits to maximize yield across popular DeFi protocols, such as Aave and...",
+  "slug": "obinnafranklinduru-defi-yield-aggregator"
+}

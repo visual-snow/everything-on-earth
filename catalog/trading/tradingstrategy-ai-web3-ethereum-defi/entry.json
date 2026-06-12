@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tradingstrategy-ai/web3-ethereum-defi",
+  "name": "tradingstrategy-ai/web3-ethereum-defi",
+  "description": "A Python library for trading automation on DeFi, data research and integration. Supporting Uniswap, Aave, Chainlink, USDC and other protocols.",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 9,
+  "score_rationale": "Broad DeFi automation library with explicit Uniswap and trading support.",
+  "stars": 797,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 77.2,
+  "tags": [
+    "defi",
+    "dex",
+    "mev",
+    "uniswap"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "A Python library for trading automation on DeFi, data research and integration. Supporting Uniswap, Aave...",
+  "slug": "tradingstrategy-ai-web3-ethereum-defi"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/abstractsins/envelope-budget",
+  "name": "abstractsins/envelope-budget",
+  "description": "API project with front end!",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2022-09-15",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "API project with front end!",
+  "slug": "abstractsins-envelope-budget"
+}

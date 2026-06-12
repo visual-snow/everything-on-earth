@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/synbiodex/sboldesigner",
+  "name": "SynBioDex/SBOLDesigner",
+  "description": "SBOL Designer Project",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Canonical SBOL design tool for composing and editing synthetic biology designs.",
+  "stars": 31,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2025-11-14",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 60.0,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "SBOL Designer Project",
+  "slug": "synbiodex-sboldesigner"
+}

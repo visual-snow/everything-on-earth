@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/danielrosehill/claude-legal-aid-clinic",
+  "name": "danielrosehill/claude-legal-aid-clinic",
+  "description": "Simulated legal aid clinic staffed by AI agents",
+  "sub_domain": "immigration-visa-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-01-20",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "Simulated legal aid clinic staffed by AI agents",
+  "slug": "danielrosehill-claude-legal-aid-clinic"
+}

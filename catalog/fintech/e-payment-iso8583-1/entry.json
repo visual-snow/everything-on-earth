@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/e-payment/iso8583-1",
+  "name": "e-payment/iso8583-1",
+  "description": "A golang implementation to marshal and unmarshal iso8583 message.",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; fork penalty.",
+  "stars": 0,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2021-12-16",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "A golang implementation to marshal and unmarshal iso8583 message.",
+  "slug": "e-payment-iso8583-1"
+}

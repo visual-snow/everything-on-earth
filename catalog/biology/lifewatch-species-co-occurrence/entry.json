@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lifewatch/species-co-occurrence",
+  "name": "lifewatch/species-co-occurrence",
+  "description": "No description provided.",
+  "sub_domain": "biodiversity-informatics",
+  "score": 5,
+  "score_rationale": "It is biologically relevant co-occurrence analysis code, but the repo is niche, lightly maintained, and sparsely described.",
+  "stars": 0,
+  "language": "R",
+  "license": null,
+  "last_activity": "2023-04-17",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "No description provided.",
+  "slug": "lifewatch-species-co-occurrence"
+}

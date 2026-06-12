@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rdkit/rdkit",
+  "name": "rdkit/rdkit",
+  "description": "The official sources for the RDKit library",
+  "sub_domain": "cheminformatics",
+  "score": 10,
+  "score_rationale": "The canonical open-source cheminformatics toolkit for fingerprints, descriptors, substructure search, and drug-discovery workflows.",
+  "stars": 3355,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "cheminformatics"
+  ],
+  "quality_score": 88.2,
+  "discovery_score": 10,
+  "tags": [
+    "cheminformatics",
+    "smiles",
+    "qsar",
+    "drug-discovery"
+  ],
+  "category": "Cheminformatics \u2014 drug discovery and molecular fingerprints",
+  "summary": "The official sources for the RDKit library",
+  "slug": "rdkit-rdkit"
+}

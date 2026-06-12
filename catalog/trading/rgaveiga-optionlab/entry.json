@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/rgaveiga/optionlab",
+  "name": "rgaveiga/optionlab",
+  "description": "A Python library for evaluating option trading strategies.",
+  "sub_domain": "options-derivatives",
+  "score": 8,
+  "score_rationale": "Focused on evaluating option strategies, so it maps well to payoff, scenario, and strategy-engine workflows.",
+  "stars": 487,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-25",
+  "found_in_domains": [
+    "options-derivatives"
+  ],
+  "quality_score": 69.5,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "A Python library for evaluating option trading strategies.",
+  "slug": "rgaveiga-optionlab"
+}

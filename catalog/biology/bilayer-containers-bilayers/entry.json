@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bilayer-containers/bilayers",
+  "name": "bilayer-containers/bilayers",
+  "description": "A specification and CI/CD platform for wrapping bioimage-analysis containers with user-friendly interfaces.",
+  "sub_domain": "biomedical-imaging",
+  "score": 7,
+  "score_rationale": "Bilayers is bioimage-analysis infrastructure aimed at making containerized tools usable by biologists and HPC users.",
+  "stars": 19,
+  "language": "Jinja",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 52.4,
+  "discovery_score": 7,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "A specification and CI/CD platform for wrapping bioimage-analysis containers with user-friendly interfaces.",
+  "slug": "bilayer-containers-bilayers"
+}

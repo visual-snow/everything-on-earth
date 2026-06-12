@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/santandermetgroup/deepdownscaling",
+  "name": "santandermetgroup/deepdownscaling",
+  "description": "Deep learning approaches for statistical downscaling in climate",
+  "sub_domain": "climate-data-analysis",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 74,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2022-07-01",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 39.0,
+  "discovery_score": 4,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "Deep learning approaches for statistical downscaling in climate",
+  "slug": "santandermetgroup-deepdownscaling"
+}

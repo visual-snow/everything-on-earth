@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/melclic/biopathopt",
+  "name": "melclic/biopathopt",
+  "description": "This project provides a simulation framework for synthetic biology and metabolic engineering, with a focus on the analysis of metabolic models for the production of novel compounds.",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Useful pathway-engineering and metabolic-engineering modeling framework rather than generic bioinformatics code.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-04",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 51.8,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "This project provides a simulation framework for synthetic biology and metabolic engineering, with a focus on the analysis of metabolic m...",
+  "slug": "melclic-biopathopt"
+}

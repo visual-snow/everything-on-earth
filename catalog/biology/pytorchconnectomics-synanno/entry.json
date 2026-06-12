@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pytorchconnectomics/synanno",
+  "name": "PytorchConnectomics/SynAnno",
+  "description": "Tool for proofreading and refining synaptic polarity annotations in EM volumes.",
+  "sub_domain": "connectomics",
+  "score": 9,
+  "score_rationale": "Directly supports EM synapse annotation, which is central to connectomics curation and reconstruction.",
+  "stars": 10,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-10-13",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 62.3,
+  "discovery_score": 9,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Tool for proofreading and refining synaptic polarity annotations in EM volumes.",
+  "slug": "pytorchconnectomics-synanno"
+}

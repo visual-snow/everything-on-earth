@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/yecchen/gdelt-complexevent",
+  "name": "yecchen/GDELT-ComplexEvent",
+  "description": "Code and data for a temporal event forecasting benchmark built on GDELT.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 6,
+  "score_rationale": "Strong event-forecasting benchmark work with a clear GDELT connection.",
+  "stars": 16,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2024-02-02",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 45.8,
+  "tags": [
+    "event-forecasting",
+    "gdelt",
+    "benchmark",
+    "temporal-analysis"
+  ],
+  "category": "Event Forecasting",
+  "summary": "Temporal event-forecasting benchmark built on GDELT data.",
+  "slug": "yecchen-gdelt-complexevent"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ai4finance-foundation/finrl",
+  "name": "ai4finance-foundation/finrl",
+  "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 10,
+  "score_rationale": "Flagship financial reinforcement learning framework for trading research and experimentation.",
+  "stars": 14519,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 93.3,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "FinRL\u00ae: Financial Reinforcement Learning. \ud83d\udd25",
+  "slug": "ai4finance-foundation-finrl"
+}

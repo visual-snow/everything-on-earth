@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/randcorporation/romancer",
+  "name": "RANDCorporation/ROMANCER",
+  "description": "RAND Ontological Model for Assessing Nuclear Crisis Escalation Risk (ROMANCER) is a model that represents nuclear escalation behaviours, and includes multiple theories-of-mind that afford exploration of decisionmakers taking actions, and making threats and demands, to see how this might affect nuclear escalation outcomes.",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 8,
+  "score_rationale": "Nuclear crisis escalation risk model with scenario exploration.",
+  "stars": 7,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 55.2,
+  "tags": [
+    "nuclear",
+    "escalation",
+    "crisis",
+    "decision-making",
+    "modeling"
+  ],
+  "category": "Nuclear Escalation Model",
+  "summary": "Models nuclear crisis escalation risk and decision dynamics.",
+  "slug": "randcorporation-romancer"
+}

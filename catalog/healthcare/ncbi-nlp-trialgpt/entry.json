@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ncbi-nlp/trialgpt",
+  "name": "ncbi-nlp/TrialGPT",
+  "description": "Code and data for TrialGPT.",
+  "sub_domain": "clinical-trials-research",
+  "score": 8,
+  "score_rationale": "Relevant trial search and matching work that supports recruitment and feasibility workflows.",
+  "stars": 146,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-01-24",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 65.3,
+  "discovery_score": 8,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture",
+    "nlp"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Code and data for TrialGPT.",
+  "slug": "ncbi-nlp-trialgpt"
+}

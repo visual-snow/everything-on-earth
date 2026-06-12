@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/facebookresearch/esm",
+  "name": "facebookresearch/esm",
+  "description": "Evolutionary Scale Modeling (esm): Pretrained language models for proteins",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 9,
+  "score_rationale": "A foundational protein language model used throughout protein engineering for mutation-effect modeling and design.",
+  "stars": 4009,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-02-07",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 82.8,
+  "discovery_score": 9,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Evolutionary Scale Modeling (esm): Pretrained language models for proteins",
+  "slug": "facebookresearch-esm"
+}

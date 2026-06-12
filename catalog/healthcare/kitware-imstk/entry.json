@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kitware/imstk",
+  "name": "Kitware/iMSTK",
+  "description": "iMSTK is a C++ based free & open-source toolkit that aids rapid prototyping of real-time multi-modal surgical simulation scenarios.",
+  "sub_domain": "medical-education-simulation",
+  "score": 8,
+  "score_rationale": "Foundation simulation toolkit used for interactive medical and surgical simulation.",
+  "stars": 35,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-05-02",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 60.5,
+  "discovery_score": 8,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "iMSTK is a C++ based free & open-source toolkit that aids rapid prototyping of real-time multi-modal surgical simulation scenarios.",
+  "slug": "kitware-imstk"
+}

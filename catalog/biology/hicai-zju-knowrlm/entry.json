@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hicai-zju/knowrlm",
+  "name": "hicai-zju/knowrlm",
+  "description": "Knowledge-aware Reinforced Language Models for Protein Directed Evolution",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 9,
+  "score_rationale": "A direct implementation of a protein-directed-evolution method that combines domain knowledge with reinforcement learning.",
+  "stars": 10,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-07-02",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 62.3,
+  "discovery_score": 9,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Knowledge-aware Reinforced Language Models for Protein Directed Evolution",
+  "slug": "hicai-zju-knowrlm"
+}

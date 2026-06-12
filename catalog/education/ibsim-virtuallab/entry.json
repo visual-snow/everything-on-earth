@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://gitlab.com/ibsim/virtuallab",
+  "name": "ibsim/virtuallab",
+  "description": "Modular platform for simulations of physical laboratory experiments and their virtual counterparts.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 9,
+  "score_rationale": "Explicitly models laboratory experiments in simulation form and is directly aligned with virtual lab use.",
+  "stars": null,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-01-19",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Modular platform for simulations of physical laboratory experiments and their virtual counterparts.",
+  "slug": "ibsim-virtuallab"
+}

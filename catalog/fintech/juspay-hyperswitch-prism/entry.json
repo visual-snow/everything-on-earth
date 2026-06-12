@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/juspay/hyperswitch-prism",
+  "name": "juspay/hyperswitch-prism",
+  "description": "Open-Source Payments Connector Service",
+  "sub_domain": "payment-processing-gateways",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 36,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 36.5,
+  "discovery_score": 4,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "Open-Source Payments Connector Service",
+  "slug": "juspay-hyperswitch-prism"
+}

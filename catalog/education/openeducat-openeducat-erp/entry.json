@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openeducat/openeducat_erp",
+  "name": "openeducat/openeducat_erp",
+  "description": "Comprehensive Open Source ERP for Educational Institutes",
+  "sub_domain": "sis",
+  "score": 9,
+  "score_rationale": "Education-first ERP with explicit SIS workflows for admissions, enrollment, attendance, fees, and parent-facing school administration.",
+  "stars": 793,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-21",
+  "found_in_domains": [
+    "sis"
+  ],
+  "quality_score": 77.2,
+  "discovery_score": 9,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "Comprehensive Open Source ERP for Educational Institutes",
+  "slug": "openeducat-openeducat-erp"
+}

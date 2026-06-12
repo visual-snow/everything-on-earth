@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zombor/hledger-envelope-budget",
+  "name": "zombor/hledger-envelope-budget",
+  "description": "A description for YNAB-like envelope budgeting with hledger",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 46,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-02-10",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 37.4,
+  "discovery_score": 4,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "A description for YNAB-like envelope budgeting with hledger",
+  "slug": "zombor-hledger-envelope-budget"
+}

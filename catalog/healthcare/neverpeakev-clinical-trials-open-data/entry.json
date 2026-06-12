@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/neverpeakev/clinical-trials-open-data",
+  "name": "neverpeakev/clinical-trials-open-data",
+  "description": "Open-source clinical trial data, tools, and resources. Find recruiting trials across 300+ conditions.",
+  "sub_domain": "clinical-trials-research",
+  "score": 4,
+  "score_rationale": "Relevant but very small and more of a resource bundle than a durable core repository.",
+  "stars": 1,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Open-source clinical trial data, tools, and resources. Find recruiting trials across 300+ conditions.",
+  "slug": "neverpeakev-clinical-trials-open-data"
+}

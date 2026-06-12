@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/orange-opensource/marine-detect",
+  "name": "orange-opensource/marine-detect",
+  "description": "Object detection models for identifying species in marine environments.",
+  "sub_domain": "marine-biology",
+  "score": 9,
+  "score_rationale": "Direct marine-species detection model for identifying organisms in marine imagery, which is tightly aligned with marine biology workflows.",
+  "stars": 41,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-05-06",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 67.0,
+  "discovery_score": 9,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Object detection models for identifying species in marine environments.",
+  "slug": "orange-opensource-marine-detect"
+}

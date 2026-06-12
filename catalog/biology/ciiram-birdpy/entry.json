@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ciiram/birdpy",
+  "name": "ciiram/BirdPy",
+  "description": "Bioacoustics software developed as part of the Kenya Bioacoustics Project to support biodiversity monitoring.",
+  "sub_domain": "ecology-conservation",
+  "score": 6,
+  "score_rationale": "Niche but real biodiversity-monitoring software from a conservation bioacoustics effort.",
+  "stars": 7,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2016-02-04",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 43.2,
+  "discovery_score": 6,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent",
+    "biodiversity"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Bioacoustics software developed as part of the Kenya Bioacoustics Project to support biodiversity monitoring.",
+  "slug": "ciiram-birdpy"
+}

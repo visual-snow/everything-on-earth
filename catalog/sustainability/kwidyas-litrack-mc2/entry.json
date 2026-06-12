@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kwidyas/litrack-mc2",
+  "name": "kwidyas/litrack-mc2",
+  "description": "An app to track plastic, can and glass waste using coreML and coreData",
+  "sub_domain": "circular-economy-waste",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "Swift",
+  "license": null,
+  "last_activity": "2025-12-16",
+  "found_in_domains": [
+    "circular-economy-waste"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "circular-economy",
+    "material-flow",
+    "recycling",
+    "waste-tracking"
+  ],
+  "category": "Circular Economy / Waste \u2014 material flow analysis, recycling optimization, waste tracking",
+  "summary": "An app to track plastic, can and glass waste using coreML and coreData",
+  "slug": "kwidyas-litrack-mc2"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tardis-dev/tardis-node",
+  "name": "tardis-dev/tardis-node",
+  "description": "Convenient access to tick-level real-time and historical cryptocurrency market data via Node.js",
+  "sub_domain": "market-data-feeds",
+  "score": 5,
+  "score_rationale": "Strong match for both real-time and historical crypto feeds; directly focused on tick-level market data access.",
+  "stars": 348,
+  "language": "TypeScript",
+  "license": "MPL-2.0",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "market-data-feeds"
+  ],
+  "quality_score": 50.3,
+  "tags": [
+    "market-data",
+    "data-ingestion",
+    "real-time-feeds"
+  ],
+  "category": "Market Data Feed",
+  "summary": "Convenient access to tick-level real-time and historical cryptocurrency market data via Node.js",
+  "slug": "tardis-dev-tardis-node"
+}

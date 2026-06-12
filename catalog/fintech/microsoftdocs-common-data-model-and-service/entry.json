@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoftdocs/common-data-model-and-service",
+  "name": "microsoftdocs/common-data-model-and-service",
+  "description": "Documentation for the Common Data Model and Service",
+  "sub_domain": "financial-data-standards",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 59,
+  "language": null,
+  "license": "CC-BY-4.0",
+  "last_activity": "2026-01-24",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 20.2,
+  "discovery_score": 1,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "Documentation for the Common Data Model and Service",
+  "slug": "microsoftdocs-common-data-model-and-service"
+}

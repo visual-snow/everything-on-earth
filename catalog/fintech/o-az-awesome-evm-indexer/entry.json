@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/o-az/awesome-evm-indexer",
+  "name": "o-az/awesome-evm-indexer",
+  "description": "Awesome list of EVM indexing tools and libraries",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for awesome-style signals.",
+  "stars": 37,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-11-04",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 30.6,
+  "discovery_score": 3,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Awesome list of EVM indexing tools and libraries",
+  "slug": "o-az-awesome-evm-indexer"
+}

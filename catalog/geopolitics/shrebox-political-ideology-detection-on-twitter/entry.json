@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shrebox/political-ideology-detection-on-twitter",
+  "name": "shrebox/Political-Ideology-Detection-on-Twitter",
+  "description": "Predicts political ideology from Twitter text using supervised classification and feature engineering.",
+  "sub_domain": "political-text-nlp",
+  "score": 8,
+  "score_rationale": "It directly models political ideology from social text, which is a strong fit for this subdomain.",
+  "stars": 24,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2020-09-20",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 59.2,
+  "tags": [
+    "political",
+    "ideology",
+    "twitter",
+    "classification",
+    "nlp"
+  ],
+  "category": "Ideology Classification",
+  "summary": "Classifies political ideology from Twitter text.",
+  "slug": "shrebox-political-ideology-detection-on-twitter"
+}

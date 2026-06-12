@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/samwel-gachiri/agribackup",
+  "name": "samwel-gachiri/agribackup",
+  "description": "AgriBackup is a hedera-powered deforestation-free Agricultural Compliance infrastructure helping farmers, processors, and exporters prove sustainability and deforestation-free sourcing across global agricultural supply chains.",
+  "sub_domain": "supply-chain-sustainability",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 0,
+  "language": "Vue",
+  "license": null,
+  "last_activity": "2026-01-10",
+  "found_in_domains": [
+    "supply-chain-sustainability"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "supply-chain",
+    "traceability",
+    "scope-3",
+    "deforestation"
+  ],
+  "category": "Supply Chain Sustainability \u2014 scope 3 traceability, deforestation-free supply chains, fair trade tracking",
+  "summary": "AgriBackup is a hedera-powered deforestation-free Agricultural Compliance infrastructure helping farmers, processors, and exporters prove...",
+  "slug": "samwel-gachiri-agribackup"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/thunlp/legalpapers",
+  "name": "thunlp/legalpapers",
+  "description": "Must-read Papers on Legal Intelligence",
+  "sub_domain": "legal-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 489,
+  "language": null,
+  "license": null,
+  "last_activity": "2021-01-22",
+  "found_in_domains": [
+    "legal-ai-nlp",
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 45.5,
+  "discovery_score": 4,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "Must-read Papers on Legal Intelligence",
+  "slug": "thunlp-legalpapers"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hcdp/ascdp",
+  "name": "hcdp/ascdp",
+  "description": "American Samoa Climate Data Portal web application",
+  "sub_domain": "sustainability-dashboards-viz",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; fork penalty.",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-09-06",
+  "found_in_domains": [
+    "sustainability-dashboards-viz"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "sdg",
+    "kpi-dashboard",
+    "data-portal",
+    "climate-visualization"
+  ],
+  "category": "Sustainability Dashboards / Visualization \u2014 SDG trackers, environmental KPI dashboards, data portals",
+  "summary": "American Samoa Climate Data Portal web application",
+  "slug": "hcdp-ascdp"
+}

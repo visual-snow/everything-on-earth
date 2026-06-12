@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kadnan/pymtmessages",
+  "name": "kadnan/pymtmessages",
+  "description": "Python based parsers to parse SWIFT MT messages",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2018-10-18",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 23.6,
+  "discovery_score": 3,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "Python based parsers to parse SWIFT MT messages",
+  "slug": "kadnan-pymtmessages"
+}

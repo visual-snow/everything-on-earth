@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-energy-transition/awesome-grid-model-data",
+  "name": "open-energy-transition/awesome-grid-model-data",
+  "description": "Open catalogue of power grid datasets for testing tool interoperability and reproducibility",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for awesome-style signals.",
+  "stars": 65,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-07-24",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 32.6,
+  "discovery_score": 3,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "Open catalogue of power grid datasets for testing tool interoperability and reproducibility",
+  "slug": "open-energy-transition-awesome-grid-model-data"
+}

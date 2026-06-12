@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/blockchain-etl/ethereum-etl-airflow",
+  "name": "blockchain-etl/ethereum-etl-airflow",
+  "description": "Airflow DAGs for exporting, loading, and parsing the Ethereum blockchain data. How to get any Ethereum smart contract into BigQuery https://towardsdatascience.com/how-to-get-any-ethereum-smart-contract-into-bigquery-in-8-mins-bab5db1fdeee",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 437,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-07-06",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 45.1,
+  "discovery_score": 4,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Airflow DAGs for exporting, loading, and parsing the Ethereum blockchain data. How to get any Ethereum smart contract into BigQuery https...",
+  "slug": "blockchain-etl-ethereum-etl-airflow"
+}

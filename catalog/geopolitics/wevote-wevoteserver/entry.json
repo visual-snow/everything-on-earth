@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/wevote/wevoteserver",
+  "name": "wevote/WeVoteServer",
+  "description": "We Vote's API application server written in Django/Python. Election data pulled from many sources, used by https://github.com/wevote/WebApp and https://github.com/wevote/WeVoteCordova and https://github.com/wevote/Campaigns.",
+  "sub_domain": "election-governance-data",
+  "score": 8,
+  "score_rationale": "This is a live election-information API server that aggregates data from multiple sources.",
+  "stars": 53,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 61.9,
+  "tags": [
+    "elections",
+    "civic-tech",
+    "api",
+    "voting-information"
+  ],
+  "category": "Election Info Platform",
+  "summary": "Django API server aggregating election data from many sources.",
+  "slug": "wevote-wevoteserver"
+}

@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/jobright-ai/2026-legal-new-grad",
+  "name": "jobright-ai/2026-legal-new-grad",
+  "description": "Collection of 2026 New Grad Jobs in Legal and Compliance!",
+  "sub_domain": "immigration-visa-processing",
+  "score": 4,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "immigration-visa-processing",
+    "legal-practice-management"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation",
+    "compliance"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "Collection of 2026 New Grad Jobs in Legal and Compliance!",
+  "slug": "jobright-ai-2026-legal-new-grad"
+}

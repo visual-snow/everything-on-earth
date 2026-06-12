@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bluebrain/connectomeutilities",
+  "name": "BlueBrain/ConnectomeUtilities",
+  "description": "Connectome utilities.",
+  "sub_domain": "connectomics",
+  "score": 7,
+  "score_rationale": "Useful supporting library for connectome analysis, but narrower and less self-contained than the core tooling above.",
+  "stars": 7,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-02-26",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 49.2,
+  "discovery_score": 7,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Connectome utilities.",
+  "slug": "bluebrain-connectomeutilities"
+}

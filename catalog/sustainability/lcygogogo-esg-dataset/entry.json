@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/lcygogogo/esg-dataset",
+  "name": "lcygogogo/esg-dataset",
+  "description": "Comprehensive ESG dataset from Chinese listed companies' reports. Contains 8,467 annotated sentences with 36 topic labels and 2 quality labels. Ideal for evaluating ESG report completeness, automated analysis, content trends, and more.",
+  "sub_domain": "esg-reporting-compliance",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for dataset-style signals.",
+  "stars": 33,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2024-06-06",
+  "found_in_domains": [
+    "esg-reporting-compliance",
+    "sustainability-dashboards-viz"
+  ],
+  "quality_score": 24.3,
+  "discovery_score": 2,
+  "tags": [
+    "esg",
+    "csrd",
+    "tcfd",
+    "issb"
+  ],
+  "category": "ESG Reporting / Compliance \u2014 ESG aggregation and CSRD/TCFD/ISSB reporting tooling",
+  "summary": "Comprehensive ESG dataset from Chinese listed companies' reports. Contains 8,467 annotated sentences with 36 topic labels and 2 quality l...",
+  "slug": "lcygogogo-esg-dataset"
+}

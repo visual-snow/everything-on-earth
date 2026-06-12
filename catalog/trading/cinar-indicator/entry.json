@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cinar/indicator",
+  "name": "cinar/indicator",
+  "description": "Indicator Go delivers a rich set of technical analysis indicators, customizable strategies, and a powerful backtesting framework. No dependencies, just pure simplicity. \u2728 See how! \ud83d\udc40",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 4,
+  "score_rationale": "Relevant Go TA library with a broad indicator surface and strong technical-analysis emphasis.",
+  "stars": 828,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 47.3,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation",
+    "backtesting"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "Indicator Go delivers a rich set of technical analysis indicators, customizable strategies, and a powerful...",
+  "slug": "cinar-indicator"
+}

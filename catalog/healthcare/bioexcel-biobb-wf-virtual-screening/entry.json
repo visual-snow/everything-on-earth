@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bioexcel/biobb_wf_virtual-screening",
+  "name": "bioexcel/biobb_wf_virtual-screening",
+  "description": "This tutorials aim to illustrate the process of protein-ligand docking, step by step, using the BioExcel Building Blocks library (biobb).",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 5,
+  "score_rationale": "Helpful virtual-screening workflow tutorial, but more educational than core infrastructure.",
+  "stars": 7,
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 37.2,
+  "discovery_score": 5,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "This tutorials aim to illustrate the process of protein-ligand docking, step by step, using the BioExcel Building Blocks library (biobb).",
+  "slug": "bioexcel-biobb-wf-virtual-screening"
+}

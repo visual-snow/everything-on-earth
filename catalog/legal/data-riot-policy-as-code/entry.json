@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/data-riot/policy-as-code",
+  "name": "data-riot/policy-as-code",
+  "description": "This repository implements a production-grade foundation for agentic governance that transforms policy and legislation into executable, accountable Decision Functions. It represents an open standard for Agentic State where every automated decision is bound to law, signed and explainable.",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 7,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-11-24",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls",
+    "corporate-governance"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "This repository implements a production-grade foundation for agentic governance that transforms policy and legislation into executable, a...",
+  "slug": "data-riot-policy-as-code"
+}

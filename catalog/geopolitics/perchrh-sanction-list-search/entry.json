@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/perchrh/sanction_list_search",
+  "name": "perchrh/sanction_list_search",
+  "description": "name search for people and entities on the EU, OFAC and UN sanction lists",
+  "stars": 26,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2020-11-17",
+  "sub_domain": "sanctions-compliance",
+  "score": 8,
+  "score_rationale": "Simple EU/UN/OFAC list searcher that is directly relevant to watchlist screening.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 59.5,
+  "tags": [
+    "sanctions-search",
+    "eu-sanctions",
+    "ofac",
+    "un"
+  ],
+  "category": "Sanctions Search",
+  "summary": "Searches EU, OFAC, and UN sanctions lists by name.",
+  "slug": "perchrh-sanction-list-search"
+}

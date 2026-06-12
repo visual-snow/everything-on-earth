@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/voteview/rvoteview",
+  "name": "voteview/Rvoteview",
+  "description": "R package to query Voteview US roll call voting database",
+  "sub_domain": "network-alliance-analysis",
+  "score": 9,
+  "score_rationale": "It is a reusable roll-call analysis client for a major legislative voting dataset and supports alignment studies.",
+  "stars": 71,
+  "language": "R",
+  "license": null,
+  "last_activity": "2019-10-15",
+  "found_in_domains": [
+    "network-alliance-analysis"
+  ],
+  "quality_score": 68.9,
+  "tags": [
+    "roll-call",
+    "voting",
+    "congress",
+    "analysis",
+    "r-package"
+  ],
+  "category": "Roll Call Analysis",
+  "summary": "R client for the Voteview roll-call voting database.",
+  "slug": "voteview-rvoteview"
+}

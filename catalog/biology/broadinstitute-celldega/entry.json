@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/broadinstitute/celldega",
+  "name": "broadinstitute/celldega",
+  "description": "Spatial omics analysis and visualization library",
+  "sub_domain": "spatial-omics",
+  "score": 8,
+  "score_rationale": "Active spatial-omics toolkit with clear support for Xenium, Visium HD, MERFISH, and related analysis and visualization tasks.",
+  "stars": 24,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 59.2,
+  "discovery_score": 8,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Spatial omics analysis and visualization library",
+  "slug": "broadinstitute-celldega"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/runonflux/account-abstraction",
+  "name": "runonflux/account-abstraction",
+  "description": "Account Abstraction - Schnorr multi signature accounts based on ERC4337 standard",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 6,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization",
+    "account-abstraction"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Account Abstraction - Schnorr multi signature accounts based on ERC4337 standard",
+  "slug": "runonflux-account-abstraction"
+}

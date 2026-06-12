@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sap-samples/btp-a2a-dispute-resolution",
+  "name": "sap-samples/btp-a2a-dispute-resolution",
+  "description": "This repository demonstrates an end-to-end scenario where multiple organizations collaborate through domain-specific agents (discovered via ORD and communicating via A2A) to resolve a customer dispute.",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 23,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-11-26",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 35.0,
+  "discovery_score": 4,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "This repository demonstrates an end-to-end scenario where multiple organizations collaborate through domain-specific agents (discovered v...",
+  "slug": "sap-samples-btp-a2a-dispute-resolution"
+}

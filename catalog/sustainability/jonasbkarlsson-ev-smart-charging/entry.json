@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jonasbkarlsson/ev_smart_charging",
+  "name": "jonasbkarlsson/ev_smart_charging",
+  "description": "Electric vehicle smart charging for Home Assistant.",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 285,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-12-12",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 49.7,
+  "discovery_score": 5,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Electric vehicle smart charging for Home Assistant.",
+  "slug": "jonasbkarlsson-ev-smart-charging"
+}

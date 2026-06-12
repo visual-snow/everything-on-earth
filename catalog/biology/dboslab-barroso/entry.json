@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dboslab/barroso",
+  "name": "dboslab/barroso",
+  "description": "Comprehensive toolkit for cleaning, standardizing, and reconciling herbarium specimen records from public biodiversity databases. The package includes functions for taxonomic and geographic harmonization, and duplicate detection.",
+  "sub_domain": "biodiversity-informatics",
+  "score": 9,
+  "score_rationale": "This package directly targets herbarium record reconciliation, taxonomic harmonization, and duplicate detection for biodiversity databases.",
+  "stars": 2,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-30",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 57.8,
+  "discovery_score": 9,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Comprehensive toolkit for cleaning, standardizing, and reconciling herbarium specimen records from public biodiversity databases. The pac...",
+  "slug": "dboslab-barroso"
+}

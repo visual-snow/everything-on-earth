@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wglab/intervar",
+  "name": "wglab/intervar",
+  "description": "A bioinformatics software tool for clinical interpretation of genetic variants by the 2015 ACMG-AMP guideline",
+  "sub_domain": "clinical-genomics",
+  "score": 10,
+  "score_rationale": "Directly targets ACMG-AMP clinical variant interpretation and remains a canonical reference in the space.",
+  "stars": 207,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-05-28",
+  "found_in_domains": [
+    "clinical-genomics"
+  ],
+  "quality_score": 78.5,
+  "discovery_score": 10,
+  "tags": [
+    "clinical-genomics",
+    "genomics",
+    "variant-interpretation",
+    "acmg"
+  ],
+  "category": "Clinical Genomics \u2014 variant interpretation and pharmacogenomics",
+  "summary": "A bioinformatics software tool for clinical interpretation of genetic variants by the 2015 ACMG-AMP guideline",
+  "slug": "wglab-intervar"
+}

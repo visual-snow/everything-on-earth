@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/coastalcph/lex-glue",
+  "name": "coastalcph/lex-glue",
+  "description": "LexGLUE: A Benchmark Dataset for Legal Language Understanding in English.",
+  "sub_domain": "international-law-treaties",
+  "score": 9,
+  "score_rationale": "It is one of the strongest reusable legal-language benchmark suites in the ecosystem.",
+  "stars": 244,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-07-23",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 73.1,
+  "tags": [
+    "legal-nlp",
+    "benchmark",
+    "dataset",
+    "classification"
+  ],
+  "category": "Legal NLP Benchmark",
+  "summary": "Benchmark suite for legal language understanding tasks in English.",
+  "slug": "coastalcph-lex-glue"
+}

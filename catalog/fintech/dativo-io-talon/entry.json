@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dativo-io/talon",
+  "name": "dativo-io/talon",
+  "description": "Policy-enforced AI proxy. Policy-enforced AI: PII scan, tool block, cost limits, signed evidence. One URL change. \ud83c\uddea\ud83c\uddfa  compliance by default.",
+  "sub_domain": "payment-processing-gateways",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 7,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 13.2,
+  "discovery_score": 1,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "Policy-enforced AI proxy. Policy-enforced AI: PII scan, tool block, cost limits, signed evidence. One URL change. \ud83c\uddea\ud83c\uddfa  compliance by default.",
+  "slug": "dativo-io-talon"
+}

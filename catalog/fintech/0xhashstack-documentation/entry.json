@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/0xhashstack/documentation",
+  "name": "0xhashstack/documentation",
+  "description": "No description provided.",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-05-15",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "No description provided.",
+  "slug": "0xhashstack-documentation"
+}

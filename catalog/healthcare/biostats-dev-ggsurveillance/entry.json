@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biostats-dev/ggsurveillance",
+  "name": "biostats-dev/ggsurveillance",
+  "description": "Tools And ggplot Extensions For Infectious Disease Surveillance And Outbreak Investigation",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 8,
+  "score_rationale": "Infectious-disease surveillance and outbreak-investigation plotting toolkit.",
+  "stars": 9,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2025-11-27",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 56.0,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Tools And ggplot Extensions For Infectious Disease Surveillance And Outbreak Investigation",
+  "slug": "biostats-dev-ggsurveillance"
+}

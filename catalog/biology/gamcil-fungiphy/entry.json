@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gamcil/fungiphy",
+  "name": "gamcil/fungiphy",
+  "description": "Fungal marker-based phylogenetics toolkit",
+  "sub_domain": "phylogenetics",
+  "score": 7,
+  "score_rationale": "A niche but clearly biology-facing toolkit for fungal phylogenetics, so it belongs despite being smaller.",
+  "stars": 1,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Fungal marker-based phylogenetics toolkit",
+  "slug": "gamcil-fungiphy"
+}

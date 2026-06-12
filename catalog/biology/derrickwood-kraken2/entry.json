@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/derrickwood/kraken2",
+  "name": "DerrickWood/kraken2",
+  "description": "The second version of the Kraken taxonomic sequence classification system",
+  "sub_domain": "metagenomics",
+  "score": 10,
+  "score_rationale": "Canonical k-mer taxonomic classifier with broad adoption in shotgun metagenomics and microbiome profiling.",
+  "stars": 885,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "metagenomics"
+  ],
+  "quality_score": 83.6,
+  "discovery_score": 10,
+  "tags": [
+    "metagenomics",
+    "microbiome",
+    "taxonomic-classification",
+    "shotgun-sequencing"
+  ],
+  "category": "Metagenomics \u2014 microbiome analysis and taxonomic classification",
+  "summary": "The second version of the Kraken taxonomic sequence classification system",
+  "slug": "derrickwood-kraken2"
+}

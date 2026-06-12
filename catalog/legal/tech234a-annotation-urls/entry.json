@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tech234a/annotation-urls",
+  "name": "tech234a/annotation-urls",
+  "description": "URLs extracted from the YouTube annotations archive. See README.md for details.",
+  "sub_domain": "ip-patent-trademark",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 33,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-08-28",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 18.3,
+  "discovery_score": 1,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "URLs extracted from the YouTube annotations archive. See README.md for details.",
+  "slug": "tech234a-annotation-urls"
+}

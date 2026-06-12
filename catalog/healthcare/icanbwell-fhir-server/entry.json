@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/icanbwell/fhir-server",
+  "name": "icanbwell/fhir-server",
+  "description": "Open Source FHIR Server backed by MongoDB.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 7,
+  "score_rationale": "Useful open-source FHIR server, though narrower than the largest ecosystem projects.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "Open Source FHIR Server backed by MongoDB.",
+  "slug": "icanbwell-fhir-server"
+}

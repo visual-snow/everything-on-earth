@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vnglst/dyslexia-reader",
+  "name": "vnglst/dyslexia-reader",
+  "description": "A audio text reader helping people with dyslexia improve their whole word recognition",
+  "sub_domain": "special-education-therapy",
+  "score": 5,
+  "score_rationale": "Small but direct reading-support tool for dyslexia and literacy practice.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2017-03-06",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "A audio text reader helping people with dyslexia improve their whole word recognition",
+  "slug": "vnglst-dyslexia-reader"
+}

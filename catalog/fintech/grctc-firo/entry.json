@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/grctc/firo",
+  "name": "grctc/firo",
+  "description": "Financial Industry Regulatory Ontology",
+  "sub_domain": "financial-data-standards",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 10,
+  "language": "Web Ontology Language",
+  "license": "Apache-2.0",
+  "last_activity": "2016-11-16",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 4,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "Financial Industry Regulatory Ontology",
+  "slug": "grctc-firo"
+}

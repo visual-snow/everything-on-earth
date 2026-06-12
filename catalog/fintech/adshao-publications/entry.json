@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/adshao/publications",
+  "name": "adshao/publications",
+  "description": "blogs about uniswap and other defi projects",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 214,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-01-31",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 42.7,
+  "discovery_score": 4,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making",
+    "defi"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "blogs about uniswap and other defi projects",
+  "slug": "adshao-publications"
+}

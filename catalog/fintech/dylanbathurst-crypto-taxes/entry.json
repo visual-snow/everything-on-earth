@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dylanbathurst/crypto-taxes",
+  "name": "dylanbathurst/crypto-taxes",
+  "description": "A collection of links and documentation to help anyone struggling with paying their crypto taxes",
+  "sub_domain": "tax-calculation-filing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 7,
+  "language": null,
+  "license": null,
+  "last_activity": "2019-01-07",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 25.2,
+  "discovery_score": 3,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "A collection of links and documentation to help anyone struggling with paying their crypto taxes",
+  "slug": "dylanbathurst-crypto-taxes"
+}

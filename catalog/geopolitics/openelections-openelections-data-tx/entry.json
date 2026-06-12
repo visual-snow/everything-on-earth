@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openelections/openelections-data-tx",
+  "name": "openelections/openelections-data-tx",
+  "description": "Pre-processed results for Texas elections.",
+  "sub_domain": "election-governance-data",
+  "score": 9,
+  "score_rationale": "This is directly reusable election results data at the state level.",
+  "stars": 33,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 66.3,
+  "tags": [
+    "elections",
+    "texas",
+    "election-results",
+    "open-data"
+  ],
+  "category": "Election Results Data",
+  "summary": "Preprocessed Texas election results dataset.",
+  "slug": "openelections-openelections-data-tx"
+}

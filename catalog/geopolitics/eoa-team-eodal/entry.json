@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/eoa-team/eodal",
+  "name": "EOA-team/eodal",
+  "description": "Earth Observation Data Analysis Library",
+  "stars": 99,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-03-21",
+  "sub_domain": "geoint-tools",
+  "score": 9,
+  "score_rationale": "Earth observation data analysis library with strong relevance to geospatial intelligence workflows.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 70.0,
+  "tags": [
+    "earth-observation",
+    "remote-sensing",
+    "analysis",
+    "python"
+  ],
+  "category": "Earth Observation",
+  "summary": "Library for earth-observation data analysis workflows.",
+  "slug": "eoa-team-eodal"
+}

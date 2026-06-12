@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nychealth/realtime-air-quality",
+  "name": "nychealth/realtime-air-quality",
+  "description": "Near-real-time PM2.5 measurements from air quality monitors in NYC",
+  "sub_domain": "air-quality-emissions",
+  "score": 1,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; archived repo penalty.",
+  "stars": 6,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2024-07-02",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 12.8,
+  "discovery_score": 1,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Near-real-time PM2.5 measurements from air quality monitors in NYC",
+  "slug": "nychealth-realtime-air-quality"
+}

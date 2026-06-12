@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bm2-lab/ptuneos",
+  "name": "bm2-lab/pTuneos",
+  "description": "pTuneos: prioritizing Tumor neoantigen from next-generation sequencing data",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Direct neoantigen prioritization pipeline with a strong match to tumor epitope discovery.",
+  "stars": 38,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2021-11-14",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 60.7,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "pTuneos: prioritizing Tumor neoantigen from next-generation sequencing data",
+  "slug": "bm2-lab-ptuneos"
+}

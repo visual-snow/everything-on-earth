@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/quantopian/pyfolio",
+  "name": "quantopian/pyfolio",
+  "description": "Portfolio and risk analytics in Python",
+  "sub_domain": "quant-research-notebooks",
+  "score": 10,
+  "score_rationale": "Canonical quant research analytics stack for portfolio and risk evaluation, widely reused in notebook-driven workflows.",
+  "stars": 6267,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2023-12-23",
+  "found_in_domains": [
+    "quant-research-notebooks"
+  ],
+  "quality_score": 90.4,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks",
+    "portfolio"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "Portfolio and risk analytics in Python",
+  "slug": "quantopian-pyfolio"
+}

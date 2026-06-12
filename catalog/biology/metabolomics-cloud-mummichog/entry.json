@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/metabolomics-cloud/mummichog",
+  "name": "metabolomics-cloud/mummichog",
+  "description": "pathway and network analysis for metabolomics",
+  "sub_domain": "metabolomics",
+  "score": 8,
+  "score_rationale": "It is a canonical metabolomics pathway analysis repo and stays tightly aligned with the requested scope.",
+  "stars": 43,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-12-08",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 61.1,
+  "discovery_score": 8,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "pathway and network analysis for metabolomics",
+  "slug": "metabolomics-cloud-mummichog"
+}

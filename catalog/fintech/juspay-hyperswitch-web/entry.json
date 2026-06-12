@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/juspay/hyperswitch-web",
+  "name": "juspay/hyperswitch-web",
+  "description": "Hyperswitch Web SDK: A Rescript powered React library for seamless payment integration and customization.",
+  "sub_domain": "payment-processing-gateways",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 111,
+  "language": "ReScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 46.4,
+  "discovery_score": 5,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "Hyperswitch Web SDK: A Rescript powered React library for seamless payment integration and customization.",
+  "slug": "juspay-hyperswitch-web"
+}

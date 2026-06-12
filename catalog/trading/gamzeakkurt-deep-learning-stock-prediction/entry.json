@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/gamzeakkurt/deep-learning-stock-prediction",
+  "name": "gamzeakkurt/deep-learning-stock-prediction",
+  "description": "This project uses machine learning models (Linear Regression and LSTM) to analyze and forecast stock market prices. It retrieves stock data from Yahoo Finance, performs exploratory data analysis (EDA), processes and engineers features, and predicts future prices. The project includes model evaluation metrics",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 6,
+  "score_rationale": "Generic but explicit LSTM-based stock prediction project.",
+  "stars": 19,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-04-21",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 46.4,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "This project uses machine learning models (Linear Regression and LSTM) to analyze and forecast stock market...",
+  "slug": "gamzeakkurt-deep-learning-stock-prediction"
+}

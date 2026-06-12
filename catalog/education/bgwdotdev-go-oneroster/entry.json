@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bgwdotdev/go-oneroster",
+  "name": "bgwdotdev/go-oneroster",
+  "description": "A OneRoster API implementation written in Go.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 4,
+  "score_rationale": "Small but direct OneRoster implementation for sync and integration scenarios.",
+  "stars": 7,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2020-07-30",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "A OneRoster API implementation written in Go.",
+  "slug": "bgwdotdev-go-oneroster"
+}

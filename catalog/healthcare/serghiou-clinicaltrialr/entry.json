@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/serghiou/clinicaltrialr",
+  "name": "serghiou/clinicaltrialr",
+  "description": "clinicaltrialr: Import study records from ClinicalTrials.gov",
+  "sub_domain": "clinical-trials-research",
+  "score": 7,
+  "score_rationale": "Practical R tool for importing trial registry records into analysis workflows.",
+  "stars": 22,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2021-12-18",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 52.9,
+  "discovery_score": 7,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "clinicaltrialr: Import study records from ClinicalTrials.gov",
+  "slug": "serghiou-clinicaltrialr"
+}

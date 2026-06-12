@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/openjournals/joss-reviews",
+  "name": "openjournals/joss-reviews",
+  "description": "Reviews for the Journal of Open Source Software",
+  "sub_domain": "climate-data-analysis",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 816,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "climate-data-analysis",
+    "life-cycle-assessment"
+  ],
+  "quality_score": 29.3,
+  "discovery_score": 1,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "Reviews for the Journal of Open Source Software",
+  "slug": "openjournals-joss-reviews"
+}

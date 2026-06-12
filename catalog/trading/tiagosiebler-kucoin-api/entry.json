@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tiagosiebler/kucoin-api",
+  "name": "tiagosiebler/kucoin-api",
+  "description": "Node.js & JavaScript SDK for Kucoin REST APIs & WebSockets, with TypeScript & browser support.",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 7,
+  "score_rationale": "Exchange-specific KuCoin API wrapper in TypeScript for trading integrations.",
+  "stars": 13,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 51.2,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "Node.js & JavaScript SDK for Kucoin REST APIs & WebSockets, with TypeScript & browser support.",
+  "slug": "tiagosiebler-kucoin-api"
+}

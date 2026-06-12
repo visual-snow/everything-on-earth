@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/joequant/scms",
+  "name": "joequant/scms",
+  "description": "Smart contract management system",
+  "sub_domain": "smart-contracts-legal",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 5,
+  "language": "Ruby",
+  "license": "BSD-2-Clause",
+  "last_activity": "2016-02-09",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Smart contract management system",
+  "slug": "joequant-scms"
+}

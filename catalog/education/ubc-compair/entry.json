@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ubc/compair",
+  "name": "ubc/compair",
+  "description": "ComPAIR: a peer review application pairing student answers for deeper learning through comparison of peer work",
+  "sub_domain": "collaborative-learning",
+  "score": 8,
+  "score_rationale": "Peer review workflow centered on comparing student work for deeper learning.",
+  "stars": 38,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "collaborative-learning"
+  ],
+  "quality_score": 60.7,
+  "discovery_score": 8,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "ComPAIR: a peer review application pairing student answers for deeper learning through comparison of peer work",
+  "slug": "ubc-compair"
+}

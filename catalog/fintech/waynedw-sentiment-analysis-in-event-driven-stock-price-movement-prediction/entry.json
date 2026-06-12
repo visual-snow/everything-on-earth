@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/waynedw/sentiment-analysis-in-event-driven-stock-price-movement-prediction",
+  "name": "waynedw/sentiment-analysis-in-event-driven-stock-price-movement-prediction",
+  "description": "Use NLP to predict stock price movement associated with news",
+  "sub_domain": "financial-ai-nlp",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 877,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-07-15",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 53.5,
+  "discovery_score": 5,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Use NLP to predict stock price movement associated with news",
+  "slug": "waynedw-sentiment-analysis-in-event-driven-stock-price-movement-prediction"
+}

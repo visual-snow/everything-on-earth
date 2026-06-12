@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jerbouma/financetoolkit",
+  "name": "jerbouma/financetoolkit",
+  "description": "Transparent and Efficient Financial Analysis",
+  "sub_domain": "open-banking-psd2",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 4552,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 41.3,
+  "discovery_score": 2,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "Transparent and Efficient Financial Analysis",
+  "slug": "jerbouma-financetoolkit"
+}

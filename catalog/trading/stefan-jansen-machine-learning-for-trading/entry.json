@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+  "name": "stefan-jansen/machine-learning-for-trading",
+  "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+  "sub_domain": "quant-research-notebooks",
+  "score": 10,
+  "score_rationale": "Highly relevant notebook-heavy quant research codebase with broad adoption and strong reusable research content.",
+  "stars": 16821,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-08-18",
+  "found_in_domains": [
+    "quant-research-notebooks",
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 93.8,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+  "slug": "stefan-jansen-machine-learning-for-trading"
+}

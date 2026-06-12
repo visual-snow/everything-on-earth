@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-source-lab-dfki/sustainable-mobility-kit",
+  "name": "open-source-lab-dfki/sustainable-mobility-kit",
+  "description": "A deck of 24 cards that support group discussion and ideation activities surrounding open approaches in mobility systems including open data, open code and open innovation. Includes a blank card in order for participants to create their own systems components according to local conditions.",
+  "sub_domain": "sustainable-transport",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2020-07-20",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "A deck of 24 cards that support group discussion and ideation activities surrounding open approaches in mobility systems including open d...",
+  "slug": "open-source-lab-dfki-sustainable-mobility-kit"
+}

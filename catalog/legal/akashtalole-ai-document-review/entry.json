@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/akashtalole/ai-document-review",
+  "name": "akashtalole/ai-document-review",
+  "description": "A Solution Accelerator bringing together the latest AI agentic patterns and Azure services to automate the first line of review for documents across any domain.",
+  "sub_domain": "e-discovery-document-review",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 24,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2025-01-17",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 35.2,
+  "discovery_score": 4,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "A Solution Accelerator bringing together the latest AI agentic patterns and Azure services to automate the first line of review for docum...",
+  "slug": "akashtalole-ai-document-review"
+}

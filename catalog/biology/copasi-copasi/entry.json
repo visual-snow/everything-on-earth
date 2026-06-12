@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/copasi/copasi",
+  "name": "copasi/COPASI",
+  "description": "COPASI is a software application for simulation and analysis of biochemical networks and their dynamics.",
+  "sub_domain": "systems-biology",
+  "score": 10,
+  "score_rationale": "Canonical biochemical-network simulator and analysis platform with broad SBML and mechanistic modeling relevance.",
+  "stars": 125,
+  "language": "C++",
+  "license": "Artistic-2.0",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 76.8,
+  "discovery_score": 10,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "COPASI is a software application for simulation and analysis of biochemical networks and their dynamics.",
+  "slug": "copasi-copasi"
+}

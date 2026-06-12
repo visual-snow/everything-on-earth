@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/neilgebhard/ai-therapist",
+  "name": "neilgebhard/ai-therapist",
+  "description": "A personal AI therapist to help you with your mental health",
+  "sub_domain": "mental-health-behavioral",
+  "score": 7,
+  "score_rationale": "Clear therapist-style mental-health assistant with active recent development and direct relevance.",
+  "stars": 22,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-11-29",
+  "found_in_domains": [
+    "mental-health-behavioral"
+  ],
+  "quality_score": 52.9,
+  "discovery_score": 7,
+  "tags": [
+    "mental-health",
+    "behavioral-health",
+    "cbt",
+    "screening"
+  ],
+  "category": "Mental Health, Behavioral Health, CBT, Mood Tracking & Crisis Support",
+  "summary": "A personal AI therapist to help you with your mental health",
+  "slug": "neilgebhard-ai-therapist"
+}

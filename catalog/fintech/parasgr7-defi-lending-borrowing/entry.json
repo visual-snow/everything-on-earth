@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/parasgr7/defi-lending-borrowing",
+  "name": "parasgr7/defi-lending-borrowing",
+  "description": "DeFi Lending Borrowing DApp",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 25,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2022-10-11",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 35.3,
+  "discovery_score": 4,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "DeFi Lending Borrowing DApp",
+  "slug": "parasgr7-defi-lending-borrowing"
+}

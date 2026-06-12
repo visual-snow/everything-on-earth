@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tayoowolabi/credit-risk-pd-scorecard-woe",
+  "name": "tayoowolabi/credit-risk-pd-scorecard-woe",
+  "description": "Production-ready PD scorecard model using WoE binning and logistic regression, including discrimination testing (AUC/KS), calibration, PSI stability monitoring, and risk-based decision policy under a Basel-aligned framework.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "Production-ready PD scorecard model using WoE binning and logistic regression, including discrimination testing (AUC/KS), calibration, PS...",
+  "slug": "tayoowolabi-credit-risk-pd-scorecard-woe"
+}

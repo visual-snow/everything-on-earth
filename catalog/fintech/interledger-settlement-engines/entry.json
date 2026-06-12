@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/interledger/settlement-engines",
+  "name": "interledger/settlement-engines",
+  "description": "Interledger Settlement Engines written in Rust",
+  "sub_domain": "reconciliation-settlement",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 13,
+  "language": "Rust",
+  "license": null,
+  "last_activity": "2020-06-17",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 39.2,
+  "discovery_score": 5,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Interledger Settlement Engines written in Rust",
+  "slug": "interledger-settlement-engines"
+}

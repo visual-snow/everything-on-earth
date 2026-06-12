@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/draeger-lab/sbmlsqueezer",
+  "name": "draeger-lab/SBMLsqueezer",
+  "description": "Context-sensitive creation of kinetic equations in biochemical networks",
+  "sub_domain": "systems-biology",
+  "score": 9,
+  "score_rationale": "Focused SBML tool for generating kinetic equations in biochemical networks, directly supporting mechanistic model construction.",
+  "stars": 5,
+  "language": "HTML",
+  "license": "GPL-3.0",
+  "last_activity": "2021-03-16",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 60.2,
+  "discovery_score": 9,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "Context-sensitive creation of kinetic equations in biochemical networks",
+  "slug": "draeger-lab-sbmlsqueezer"
+}

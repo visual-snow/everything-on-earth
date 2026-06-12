@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/oasislmf/ods_openexposuredata",
+  "name": "oasislmf/ods_openexposuredata",
+  "description": "Open data standards curated by Oasis.",
+  "sub_domain": "insurance-actuarial-tech",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 73,
+  "language": "TSQL",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "insurance-actuarial-tech"
+  ],
+  "quality_score": 21.0,
+  "discovery_score": 1,
+  "tags": [
+    "insurance",
+    "actuarial",
+    "claims",
+    "cat-modeling"
+  ],
+  "category": "Insurance / Actuarial Tech",
+  "summary": "Open data standards curated by Oasis.",
+  "slug": "oasislmf-ods-openexposuredata"
+}

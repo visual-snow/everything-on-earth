@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pp-namias/student-attendance-management-system",
+  "name": "PP-Namias/Student-Attendance-Management-System",
+  "description": "The Student Attendance Management System is designed to modernize the attendance tracking process in educational institutions.",
+  "sub_domain": "classroom-management",
+  "score": 6,
+  "score_rationale": "Straightforward attendance management for educational institutions, useful as a classroom workflow component.",
+  "stars": 13,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2024-06-06",
+  "found_in_domains": [
+    "classroom-management"
+  ],
+  "quality_score": 45.2,
+  "discovery_score": 6,
+  "tags": [
+    "classroom",
+    "device-management",
+    "monitoring",
+    "scheduling"
+  ],
+  "category": "Classroom Management, Device Supervision, Screen Monitoring & Scheduling",
+  "summary": "The Student Attendance Management System is designed to modernize the attendance tracking process in educational institutions.",
+  "slug": "pp-namias-student-attendance-management-system"
+}

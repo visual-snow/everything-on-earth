@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/highlanderlab/jbancic_alphasimr_plants",
+  "name": "highlanderlab/jbancic_alphasimr_plants",
+  "description": "R scripts for simulating plant breeding programs with AlphaSimR across line, clonal, and hybrid systems.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 9,
+  "score_rationale": "A focused plant breeding simulation package with direct application to crop improvement workflows.",
+  "stars": 27,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2025-01-05",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 65.6,
+  "discovery_score": 9,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "R scripts for simulating plant breeding programs with AlphaSimR across line, clonal, and hybrid systems.",
+  "slug": "highlanderlab-jbancic-alphasimr-plants"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/neo4j-product-examples/graphrag-contract-review",
+  "name": "neo4j-product-examples/graphrag-contract-review",
+  "description": "Demonstration an contract review Agent",
+  "sub_domain": "contract-analysis-clm",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for examples-style signals.",
+  "stars": 105,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-11-02",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 40.2,
+  "discovery_score": 4,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining",
+    "contract"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "Demonstration an contract review Agent",
+  "slug": "neo4j-product-examples-graphrag-contract-review"
+}

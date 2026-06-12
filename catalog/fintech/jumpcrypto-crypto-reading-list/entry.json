@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jumpcrypto/crypto-reading-list",
+  "name": "jumpcrypto/crypto-reading-list",
+  "description": "No description provided.",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 1386,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-08-06",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 31.1,
+  "discovery_score": 1,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "No description provided.",
+  "slug": "jumpcrypto-crypto-reading-list"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/petervanlunteren/addaxai",
+  "name": "PetervanLunteren/AddaxAI",
+  "description": "Simplify camera trap image analysis with AI species recognition models based around the MegaDetector model",
+  "sub_domain": "ecology-conservation",
+  "score": 9,
+  "score_rationale": "Strong wildlife-monitoring package centered on camera-trap species recognition and MegaDetector workflows.",
+  "stars": 169,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 71.8,
+  "discovery_score": 9,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Simplify camera trap image analysis with AI species recognition models based around the MegaDetector model",
+  "slug": "petervanlunteren-addaxai"
+}

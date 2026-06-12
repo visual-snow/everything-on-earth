@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fzenke/auryn",
+  "name": "fzenke/auryn",
+  "description": "Auryn: A fast simulator for spiking neural networks with synaptic plasticity",
+  "sub_domain": "computational-neuroscience",
+  "score": 8,
+  "score_rationale": "Purpose-built spiking neural network simulator with synaptic plasticity support and clear neuroscience relevance.",
+  "stars": 108,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-03-11",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 64.3,
+  "discovery_score": 8,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Auryn: A fast simulator for spiking neural networks with synaptic plasticity",
+  "slug": "fzenke-auryn"
+}

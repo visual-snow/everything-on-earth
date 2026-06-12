@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/benjym/mapping",
+  "name": "benjym/mapping",
+  "description": "Visualise the dispersion of a plume on top of a map",
+  "sub_domain": "air-quality-emissions",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2025-06-23",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Visualise the dispersion of a plume on top of a map",
+  "slug": "benjym-mapping"
+}

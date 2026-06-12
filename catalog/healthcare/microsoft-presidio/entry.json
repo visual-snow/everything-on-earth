@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/presidio",
+  "name": "microsoft/presidio",
+  "description": "It provides fast identification and anonymization modules for private entities in text such as credit card numbers, names, locations, social security numbers.",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 10,
+  "score_rationale": "Essential general-purpose PII/PHI redaction platform with broad healthcare applicability and strong adoption.",
+  "stars": 7400,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 91.0,
+  "discovery_score": 10,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "It provides fast identification and anonymization modules for private entities in text such as credit card numbers, names, locations, soc...",
+  "slug": "microsoft-presidio"
+}

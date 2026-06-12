@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/robaho/cpp_orderbook",
+  "name": "robaho/cpp_orderbook",
+  "description": "a financial \"order book\" in C++",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 6,
+  "score_rationale": "Generic C++ order-book implementation with limited context.",
+  "stars": 20,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-07-31",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 46.6,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "a financial \"order book\" in C++",
+  "slug": "robaho-cpp-orderbook"
+}

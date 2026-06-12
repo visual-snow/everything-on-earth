@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/caresymphony/rxcare",
+  "name": "Caresymphony/RxCare",
+  "description": "\ud83c\udfe5 RxCare is a pharmacy management platform designed to provide store owners with an efficient and effective way to manage their pharmacy business.",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 9,
+  "score_rationale": "Strong fit: it is explicitly a pharmacy management platform rather than a loose medical-adjacent utility.",
+  "stars": 5,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2023-02-19",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 60.2,
+  "discovery_score": 9,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "\ud83c\udfe5 RxCare is a pharmacy management platform designed to provide store owners with an efficient and effective way to manage their pharmacy...",
+  "slug": "caresymphony-rxcare"
+}

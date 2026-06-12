@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/kernc/backtesting.py",
+  "name": "kernc/backtesting.py",
+  "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
+  "sub_domain": "backtesting-frameworks",
+  "score": 10,
+  "score_rationale": "Canonical Python backtesting engine with 8.1k stars and very recent activity; a direct fit for the subdomain.",
+  "stars": 8104,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-12-20",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 91.3,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0 Backtest trading strategies in Python.",
+  "slug": "kernc-backtesting-py"
+}

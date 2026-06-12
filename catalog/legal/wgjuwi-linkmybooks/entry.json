@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/wgjuwi/linkmybooks",
+  "name": "wgjuwi/linkmybooks",
+  "description": "LinkMyBooks Ecommerce Accounting Automation: Save Hours Every Month, Automate VAT Compliance, Cut Costs by 50%",
+  "sub_domain": "tax-compliance-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-02-06",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat",
+    "compliance"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "LinkMyBooks Ecommerce Accounting Automation: Save Hours Every Month, Automate VAT Compliance, Cut Costs by 50%",
+  "slug": "wgjuwi-linkmybooks"
+}

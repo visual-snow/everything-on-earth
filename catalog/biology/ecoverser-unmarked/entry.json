@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ecoverser/unmarked",
+  "name": "ecoverser/unmarked",
+  "description": "R package for hierarchical models in ecological research",
+  "sub_domain": "ecology-conservation",
+  "score": 10,
+  "score_rationale": "Canonical package for occupancy, abundance, and imperfect-detection models in ecological research.",
+  "stars": 8,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-02-05",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 67.6,
+  "discovery_score": 10,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "R package for hierarchical models in ecological research",
+  "slug": "ecoverser-unmarked"
+}

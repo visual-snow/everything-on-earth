@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/compevol/beast2",
+  "name": "CompEvol/beast2",
+  "description": "Bayesian Evolutionary Analysis by Sampling Trees",
+  "sub_domain": "phylogenetics",
+  "score": 10,
+  "score_rationale": "The canonical Bayesian phylogenetics platform for time-measured and relaxed-clock analyses, squarely in scope.",
+  "stars": 269,
+  "language": "Java",
+  "license": "LGPL-2.1",
+  "last_activity": "2025-06-17",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 79.5,
+  "discovery_score": 10,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Bayesian Evolutionary Analysis by Sampling Trees",
+  "slug": "compevol-beast2"
+}

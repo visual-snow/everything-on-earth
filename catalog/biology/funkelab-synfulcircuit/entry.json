@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/funkelab/synfulcircuit",
+  "name": "funkelab/synfulcircuit",
+  "description": "Library for querying neural circuits from predicted synaptic partners in EM datasets.",
+  "sub_domain": "connectomics",
+  "score": 9,
+  "score_rationale": "Directly operates on EM connectome data to query and analyze neuronal circuits.",
+  "stars": 3,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2021-03-24",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 58.8,
+  "discovery_score": 9,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Library for querying neural circuits from predicted synaptic partners in EM datasets.",
+  "slug": "funkelab-synfulcircuit"
+}

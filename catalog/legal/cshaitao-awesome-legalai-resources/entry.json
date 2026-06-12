@@ -1,0 +1,30 @@
+{
+  "repo_url": "https://github.com/cshaitao/awesome-legalai-resources",
+  "name": "cshaitao/awesome-legalai-resources",
+  "description": "This repository aims to collect all LegalAI data to facilitate the development of intelligent justice systems",
+  "sub_domain": "curated-lists-meta-sweep",
+  "score": 4,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 289,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2023-07-15",
+  "found_in_domains": [
+    "legal-research-case-law",
+    "legal-analytics-prediction",
+    "access-to-justice-civic-tech",
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 43.7,
+  "discovery_score": 4,
+  "tags": [
+    "awesome-list",
+    "legal-data",
+    "legal-nlp",
+    "privacy",
+    "access-to-justice"
+  ],
+  "category": "Curated Lists / Meta Sweep \u2014 awesome lists, GitHub topics, canonical meta-sources",
+  "summary": "This repository aims to collect all LegalAI data to facilitate the development of intelligent justice systems",
+  "slug": "cshaitao-awesome-legalai-resources"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/corda/corda-settler",
+  "name": "corda/corda-settler",
+  "description": "Corda Off-ledger settlement for all the things",
+  "sub_domain": "reconciliation-settlement",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 62,
+  "language": "Kotlin",
+  "license": null,
+  "last_activity": "2020-11-24",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 5,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching",
+    "ledger"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Corda Off-ledger settlement for all the things",
+  "slug": "corda-corda-settler"
+}

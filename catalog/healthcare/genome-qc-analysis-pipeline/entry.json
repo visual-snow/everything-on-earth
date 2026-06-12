@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/genome/qc-analysis-pipeline",
+  "name": "genome/qc-analysis-pipeline",
+  "description": "Workflow used for WGS/WES data QC",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 5,
+  "score_rationale": "Targeted QC workflow for whole-genome and exome sequencing datasets.",
+  "stars": 8,
+  "language": "WDL",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-10-16",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 37.6,
+  "discovery_score": 5,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Workflow used for WGS/WES data QC",
+  "slug": "genome-qc-analysis-pipeline"
+}

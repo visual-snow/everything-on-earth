@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lsloan/myla",
+  "name": "lsloan/myla",
+  "description": "Learning analytics platform and dashboard forked from the My Learning Analytics project.",
+  "sub_domain": "analytics-learning-dashboards",
+  "score": 7,
+  "score_rationale": "A direct learning analytics dashboard with an open license and clear education-domain fit.",
+  "stars": 0,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-01-26",
+  "found_in_domains": [
+    "analytics-learning-dashboards"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "analytics",
+    "dashboards",
+    "engagement",
+    "early-alerts"
+  ],
+  "category": "Analytics, Learning Dashboards, Engagement Metrics & Early Alerts",
+  "summary": "Learning analytics platform and dashboard forked from the My Learning Analytics project.",
+  "slug": "lsloan-myla"
+}

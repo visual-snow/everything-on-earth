@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/agshumate/liftoff",
+  "name": "agshumate/Liftoff",
+  "description": "An accurate GFF3/GTF lift over pipeline",
+  "sub_domain": "genomics",
+  "score": 7,
+  "score_rationale": "Focused and widely useful annotation liftover tool for transferring gene models between assemblies.",
+  "stars": 531,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-08-01",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 63.8,
+  "discovery_score": 7,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "An accurate GFF3/GTF lift over pipeline",
+  "slug": "agshumate-liftoff"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/c2sm-rcm/emiproc",
+  "name": "c2sm-rcm/emiproc",
+  "description": "Processing emissions: from any inventory to any model",
+  "sub_domain": "air-quality-emissions",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 14,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 4,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Processing emissions: from any inventory to any model",
+  "slug": "c2sm-rcm-emiproc"
+}

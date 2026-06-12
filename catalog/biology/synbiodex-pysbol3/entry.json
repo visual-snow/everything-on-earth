@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/synbiodex/pysbol3",
+  "name": "SynBioDex/pySBOL3",
+  "description": "Native python implementation of SBOL 3.0 specification",
+  "sub_domain": "synthetic-biology",
+  "score": 10,
+  "score_rationale": "Core Python implementation of the SBOL 3 standard and a canonical ecosystem library.",
+  "stars": 43,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-01-20",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 73.1,
+  "discovery_score": 10,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "Native python implementation of SBOL 3.0 specification",
+  "slug": "synbiodex-pysbol3"
+}

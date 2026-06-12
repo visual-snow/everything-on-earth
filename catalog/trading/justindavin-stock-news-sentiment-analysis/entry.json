@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/justindavin/stock-news-sentiment-analysis",
+  "name": "justindavin/Stock-News-Sentiment-Analysis",
+  "description": "This project is designed to scrape all articles on Yahoo! Finance based on the inputted stocks and provides a Sentiment Analysis using the Transformers library.",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 6,
+  "score_rationale": "Yahoo Finance scraping plus transformer sentiment is relevant, but the project is smaller and less mature.",
+  "stars": 4,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-11-26",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 41.6,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "This project is designed to scrape all articles on Yahoo! Finance based on the inputted stocks and provides a...",
+  "slug": "justindavin-stock-news-sentiment-analysis"
+}

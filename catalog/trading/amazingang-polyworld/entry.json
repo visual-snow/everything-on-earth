@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/amazingang/polyworld",
+  "name": "amazingang/polyworld",
+  "description": "Real-time Polymarket prediction market visualization dashboard with an interactive world map.",
+  "sub_domain": "charting-visualization",
+  "score": 7,
+  "score_rationale": "Market visualization dashboard with a concrete trading-adjacent use case, though more niche than core charting libraries.",
+  "stars": 93,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "charting-visualization"
+  ],
+  "quality_score": 57.8,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "Real-time Polymarket prediction market visualization dashboard with an interactive world map.",
+  "slug": "amazingang-polyworld"
+}

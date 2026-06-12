@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/theunlocked/bias-finder",
+  "name": "TheUnlocked/Bias-Finder",
+  "description": "Chrome extension that shows the bias of websites you visit.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 7,
+  "score_rationale": "It is a lightweight bias-detection tool aimed at everyday news consumption.",
+  "stars": 19,
+  "language": "JavaScript",
+  "license": "BSD-2-Clause",
+  "last_activity": "2023-12-30",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 52.4,
+  "tags": [
+    "browser-extension",
+    "media-bias",
+    "news",
+    "javascript"
+  ],
+  "category": "Bias Browser Extension",
+  "summary": "Chrome extension that surfaces website bias while browsing.",
+  "slug": "theunlocked-bias-finder"
+}

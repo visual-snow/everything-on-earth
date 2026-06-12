@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openfisca/openfisca-core",
+  "name": "openfisca/openfisca-core",
+  "description": "OpenFisca core engine. See other repositories for countries-specific code & data.",
+  "sub_domain": "tax-compliance-automation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 218,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 48.7,
+  "discovery_score": 5,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "OpenFisca core engine. See other repositories for countries-specific code & data.",
+  "slug": "openfisca-openfisca-core"
+}

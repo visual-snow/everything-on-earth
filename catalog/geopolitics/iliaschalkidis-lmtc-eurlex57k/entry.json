@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/iliaschalkidis/lmtc-eurlex57k",
+  "name": "iliaschalkidis/lmtc-eurlex57k",
+  "description": "Large-Scale Multi-Label Text Classification on EU Legislation.",
+  "sub_domain": "international-law-treaties",
+  "score": 8,
+  "score_rationale": "It provides a large-scale EU legislation dataset for legal classification work.",
+  "stars": 99,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2023-07-24",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 64.0,
+  "tags": [
+    "eu-law",
+    "legislation",
+    "dataset",
+    "classification"
+  ],
+  "category": "EU Legislation Dataset",
+  "summary": "Large-scale EU legislation dataset for multi-label legal classification.",
+  "slug": "iliaschalkidis-lmtc-eurlex57k"
+}

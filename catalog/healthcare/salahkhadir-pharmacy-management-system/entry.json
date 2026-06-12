@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/salahkhadir/pharmacy-management-system",
+  "name": "SalahKhadir/Pharmacy-Management-System",
+  "description": "A robust Java Swing-based pharmacy management system designed for small to medium-scale pharmacies. Features dual-role architecture (Administrator & Pharmacist) with complete inventory tracking, sales processing, and automated billing capabilities.",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 7,
+  "score_rationale": "A conventional but clearly aligned pharmacy management application with core operational modules.",
+  "stars": 2,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2025-06-24",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 7,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "A robust Java Swing-based pharmacy management system designed for small to medium-scale pharmacies. Features dual-role architecture (Admi...",
+  "slug": "salahkhadir-pharmacy-management-system"
+}

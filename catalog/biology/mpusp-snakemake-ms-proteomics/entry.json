@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mpusp/snakemake-ms-proteomics",
+  "name": "MPUSP/snakemake-ms-proteomics",
+  "description": "Pipeline for automatic processing and quality control of mass spectrometry data",
+  "sub_domain": "proteomics",
+  "score": 7,
+  "score_rationale": "A proteomics-specific Snakemake pipeline for automated processing and QC rather than a generic MS helper.",
+  "stars": 13,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-01-30",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 51.2,
+  "discovery_score": 7,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "Pipeline for automatic processing and quality control of mass spectrometry data",
+  "slug": "mpusp-snakemake-ms-proteomics"
+}

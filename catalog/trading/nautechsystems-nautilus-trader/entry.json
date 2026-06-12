@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nautechsystems/nautilus_trader",
+  "name": "nautechsystems/nautilus_trader",
+  "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture.",
+  "sub_domain": "live-algo-execution-engines",
+  "score": 10,
+  "score_rationale": "Deterministic event-driven trading engine with production-grade live execution and broker connectivity; this is the clearest match.",
+  "stars": 21406,
+  "language": "Rust",
+  "license": "LGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "live-algo-execution-engines"
+  ],
+  "quality_score": 94.6,
+  "tags": [
+    "live-trading",
+    "execution",
+    "order-routing"
+  ],
+  "category": "Trading Execution Engine",
+  "summary": "Production-grade Rust-native trading engine with deterministic event-driven architecture.",
+  "slug": "nautechsystems-nautilus-trader"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jwillis0720/sadie",
+  "name": "jwillis0720/sadie",
+  "description": "The Complete Python Antibody Library",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Complete antibody sequence library with practical utility for antibody engineering and analysis.",
+  "stars": 24,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-28",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 59.2,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "The Complete Python Antibody Library",
+  "slug": "jwillis0720-sadie"
+}

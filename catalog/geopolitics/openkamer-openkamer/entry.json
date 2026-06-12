@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openkamer/openkamer",
+  "name": "openkamer/openkamer",
+  "description": "Insight into the Dutch parliament (openkamer.org)",
+  "sub_domain": "network-alliance-analysis",
+  "score": 8,
+  "score_rationale": "It provides a live parliamentary-voting surface that can support coalition and alliance analysis.",
+  "stars": 70,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-11-16",
+  "found_in_domains": [
+    "network-alliance-analysis"
+  ],
+  "quality_score": 62.8,
+  "tags": [
+    "netherlands",
+    "parliament",
+    "voting",
+    "coalitions",
+    "analysis"
+  ],
+  "category": "Parliament Voting Data",
+  "summary": "Tracks Dutch parliamentary voting and coalition patterns.",
+  "slug": "openkamer-openkamer"
+}

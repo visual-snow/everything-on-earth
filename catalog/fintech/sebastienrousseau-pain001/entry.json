@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sebastienrousseau/pain001",
+  "name": "sebastienrousseau/pain001",
+  "description": "Pain001, A Powerful Python Library that enables you to create ISO 20022-Compliant Payment Files from CSV, SQLite, or Python data structures.\ud83d\udc0d",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 37,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-23",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 36.6,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "Pain001, A Powerful Python Library that enables you to create ISO 20022-Compliant Payment Files from CSV, SQLite, or Python data structur...",
+  "slug": "sebastienrousseau-pain001"
+}

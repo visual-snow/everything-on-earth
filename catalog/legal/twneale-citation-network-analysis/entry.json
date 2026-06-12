@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/twneale/citation-network-analysis",
+  "name": "twneale/citation-network-analysis",
+  "description": "Materials for my PyData Boston 2013 talk",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 15,
+  "language": null,
+  "license": "BSD-3-Clause",
+  "last_activity": "2013-09-26",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 33.6,
+  "discovery_score": 4,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction",
+    "citation"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "Materials for my PyData Boston 2013 talk",
+  "slug": "twneale-citation-network-analysis"
+}

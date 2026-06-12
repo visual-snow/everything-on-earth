@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/philterd/philter",
+  "name": "philterd/philter",
+  "description": "Philter redacts sensitive information such as PII and PHI in text.",
+  "sub_domain": "privacy-data-protection",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 36,
+  "language": "CSS",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 18.5,
+  "discovery_score": 1,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "Philter redacts sensitive information such as PII and PHI in text.",
+  "slug": "philterd-philter"
+}

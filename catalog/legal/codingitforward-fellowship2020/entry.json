@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/codingitforward/fellowship2020",
+  "name": "codingitforward/fellowship2020",
+  "description": "Presentations from the 2020 Fellowship.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 6,
+  "language": null,
+  "license": null,
+  "last_activity": "2020-11-30",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 12.8,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "Presentations from the 2020 Fellowship.",
+  "slug": "codingitforward-fellowship2020"
+}

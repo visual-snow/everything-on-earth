@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/beancount/ledger2beancount",
+  "name": "beancount/ledger2beancount",
+  "description": "Ledger to Beancount text-based converter",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 95,
+  "language": "Perl",
+  "license": "GPL-3.0",
+  "last_activity": "2024-05-09",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 39.9,
+  "discovery_score": 4,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger",
+    "ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Ledger to Beancount text-based converter",
+  "slug": "beancount-ledger2beancount"
+}

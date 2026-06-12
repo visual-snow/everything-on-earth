@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/8ginette8/gbif.range",
+  "name": "8ginette8/gbif.range",
+  "description": "An R package to generate species range maps based on ecoregions and a user-friendly GBIF wrapper",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "It combines GBIF occurrence access with species range mapping, which is squarely in biodiversity informatics.",
+  "stars": 37,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 60.6,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "An R package to generate species range maps based on ecoregions and a user-friendly GBIF wrapper",
+  "slug": "8ginette8-gbif-range"
+}

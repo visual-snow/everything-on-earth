@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/hafzan-quant-labs/risk-toolkit",
+  "name": "hafzan-quant-labs/risk-toolkit",
+  "description": "Interactive quant toolkit for modeling risk, exposure, and trader flow dynamics in FX A/B-book environments. Implements client toxicity scoring, delta/gamma risk, VaR/CVaR, hedge optimization, VPIN, and stop-cluster analysis.",
+  "sub_domain": "portfolio-risk-management",
+  "score": 5,
+  "score_rationale": "Risk/exposure toolkit with VaR, CVaR, and hedge optimization, which aligns with the subdomain.",
+  "stars": 0,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-03-07",
+  "found_in_domains": [
+    "portfolio-risk-management"
+  ],
+  "quality_score": 32.4,
+  "tags": [
+    "portfolio",
+    "risk-management",
+    "allocation"
+  ],
+  "category": "Portfolio Optimization",
+  "summary": "Interactive quant toolkit for modeling risk, exposure, and trader flow dynamics in FX A/B-book environments...",
+  "slug": "hafzan-quant-labs-risk-toolkit"
+}

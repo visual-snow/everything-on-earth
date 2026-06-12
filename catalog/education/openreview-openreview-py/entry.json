@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openreview/openreview-py",
+  "name": "openreview/openreview-py",
+  "description": "Official Python client library for the OpenReview API",
+  "sub_domain": "research-academic-publishing",
+  "score": 6,
+  "score_rationale": "Useful peer-review infrastructure client for a major academic review platform, though it is a library rather than the platform itself.",
+  "stars": 236,
+  "language": "Python",
+  "license": "MIT License",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 55.0,
+  "discovery_score": 6,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "Official Python client library for the OpenReview API",
+  "slug": "openreview-openreview-py"
+}

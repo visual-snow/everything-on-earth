@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/usds/ej-scorecard",
+  "name": "usds/ej-scorecard",
+  "description": "Environmental Justice scorecard",
+  "sub_domain": "environmental-justice",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-02-08",
+  "found_in_domains": [
+    "environmental-justice"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "environmental-justice",
+    "equity",
+    "exposure-mapping",
+    "community-impact"
+  ],
+  "category": "Environmental Justice \u2014 exposure mapping, equity analysis, community impact tools",
+  "summary": "Environmental Justice scorecard",
+  "slug": "usds-ej-scorecard"
+}

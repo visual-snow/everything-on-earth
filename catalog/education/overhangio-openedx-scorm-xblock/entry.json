@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/overhangio/openedx-scorm-xblock",
+  "name": "overhangio/openedx-scorm-xblock",
+  "description": "SCORM XBlock for Open edX.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 8,
+  "score_rationale": "Direct Open edX SCORM integration for an established learning platform ecosystem.",
+  "stars": 38,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-10-27",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 60.7,
+  "discovery_score": 8,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "SCORM XBlock for Open edX.",
+  "slug": "overhangio-openedx-scorm-xblock"
+}

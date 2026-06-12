@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biapol/bio-image_analysis_with_python",
+  "name": "biapol/bio-image_analysis_with_python",
+  "description": "Lecture materials \"Bio-image analysis, biostatistics, programming and machine learning for computational biology\" at the Center of Molecular and Cellular Bioengineering (CMCB) / University of Technology, TU Dresden",
+  "sub_domain": "biomedical-imaging",
+  "score": 5,
+  "score_rationale": "These are teaching materials, but they are still directly centered on bio-image analysis and related computational biology workflows.",
+  "stars": 234,
+  "language": "Jupyter Notebook",
+  "license": "CC-BY-4.0",
+  "last_activity": "2023-09-11",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 49.0,
+  "discovery_score": 5,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Lecture materials \"Bio-image analysis, biostatistics, programming and machine learning for computational biology\" at the Center of Molecu...",
+  "slug": "biapol-bio-image-analysis-with-python"
+}

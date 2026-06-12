@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/recon-fuzz/chimera",
+  "name": "recon-fuzz/chimera",
+  "description": "Smart Contract Property-Based Testing Framework",
+  "sub_domain": "smart-contract-security",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+  "stars": 147,
+  "language": "Solidity",
+  "license": null,
+  "last_activity": "2026-02-10",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 53.4,
+  "discovery_score": 6,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Smart Contract Property-Based Testing Framework",
+  "slug": "recon-fuzz-chimera"
+}

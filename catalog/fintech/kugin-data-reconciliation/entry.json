@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kugin/data-reconciliation",
+  "name": "Kugin/data-reconciliation",
+  "description": "\u901a\u7528\u5bf9\u8d26\u5904\u7406\u5668",
+  "sub_domain": "reconciliation-settlement",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 44,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2024-10-09",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 43.2,
+  "discovery_score": 5,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "\u901a\u7528\u5bf9\u8d26\u5904\u7406\u5668",
+  "slug": "kugin-data-reconciliation"
+}

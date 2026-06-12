@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mjhelf/metaboseek",
+  "name": "mjhelf/Metaboseek",
+  "description": "Open-source analysis platform for untargeted comparative metabolomics.",
+  "sub_domain": "metabolomics",
+  "score": 8,
+  "score_rationale": "The project page makes its untargeted comparative metabolomics focus explicit, which makes it a strong fit.",
+  "stars": 21,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2025-07-03",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 58.7,
+  "discovery_score": 8,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "Open-source analysis platform for untargeted comparative metabolomics.",
+  "slug": "mjhelf-metaboseek"
+}

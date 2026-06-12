@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vdemichev/diann",
+  "name": "vdemichev/DiaNN",
+  "description": "DIA-NN - a universal automated software suite for DIA proteomics data analysis.",
+  "sub_domain": "proteomics",
+  "score": 10,
+  "score_rationale": "Core DIA proteomics analysis suite that is widely relevant to peptide identification and quantification workflows.",
+  "stars": 431,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-05",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 81.1,
+  "discovery_score": 10,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "DIA-NN - a universal automated software suite for DIA proteomics data analysis.",
+  "slug": "vdemichev-diann"
+}

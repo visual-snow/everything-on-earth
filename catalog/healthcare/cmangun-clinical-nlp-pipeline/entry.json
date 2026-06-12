@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cmangun/clinical-nlp-pipeline",
+  "name": "cmangun/clinical-nlp-pipeline",
+  "description": "Medical NLP pipeline. Named entity recognition, UMLS concept linking, ICD-10 coding, clinical text processing.",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 7,
+  "score_rationale": "Broad clinical NLP pipeline spanning NER, concept linking, and coding.",
+  "stars": 2,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-01-15",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 7,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "Medical NLP pipeline. Named entity recognition, UMLS concept linking, ICD-10 coding, clinical text processing.",
+  "slug": "cmangun-clinical-nlp-pipeline"
+}

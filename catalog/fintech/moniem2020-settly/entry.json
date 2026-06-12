@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/moniem2020/settly",
+  "name": "moniem2020/Settly",
+  "description": "A reconciliation & settlement-optimization engine (Under Development) for banks, payment aggregators, and corporates.",
+  "sub_domain": "reconciliation-settlement",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 2,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-12-21",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "A reconciliation & settlement-optimization engine (Under Development) for banks, payment aggregators, and corporates.",
+  "slug": "moniem2020-settly"
+}

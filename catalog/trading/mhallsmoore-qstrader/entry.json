@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mhallsmoore/qstrader",
+  "name": "mhallsmoore/qstrader",
+  "description": "QuantStart.com - QSTrader backtesting simulation engine.",
+  "sub_domain": "backtesting-frameworks",
+  "score": 9,
+  "score_rationale": "Well-known backtesting simulation engine from QuantStart with enduring relevance in systematic trading.",
+  "stars": 3328,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 82.2,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "QuantStart.com - QSTrader backtesting simulation engine.",
+  "slug": "mhallsmoore-qstrader"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stabilis-labs/flux-protocol",
+  "name": "stabilis-labs/flux-protocol",
+  "description": "Flux",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2025-05-31",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "Flux",
+  "slug": "stabilis-labs-flux-protocol"
+}

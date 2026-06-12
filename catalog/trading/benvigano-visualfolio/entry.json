@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/benvigano/visualfolio",
+  "name": "benvigano/visualfolio",
+  "description": "Self-hosted personal finance analytics dashboard and account aggregator.",
+  "sub_domain": "charting-visualization",
+  "score": 6,
+  "score_rationale": "Useful finance dashboard, but less directly aligned with trading charts than the higher-ranked repos.",
+  "stars": 10,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "charting-visualization"
+  ],
+  "quality_score": 44.3,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "Self-hosted personal finance analytics dashboard and account aggregator.",
+  "slug": "benvigano-visualfolio"
+}

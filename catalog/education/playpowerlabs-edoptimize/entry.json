@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/playpowerlabs/edoptimize",
+  "name": "PlaypowerLabs/EdOptimize",
+  "description": "Open-source learning analytics platform for K-12 digital learning systems.",
+  "sub_domain": "analytics-learning-dashboards",
+  "score": 8,
+  "score_rationale": "Education-first analytics platform with explicit dashboarding and K-12 workflow focus.",
+  "stars": 26,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2021-06-05",
+  "found_in_domains": [
+    "k12-stem",
+    "analytics-learning-dashboards"
+  ],
+  "quality_score": 59.5,
+  "discovery_score": 8,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning",
+    "analytics",
+    "dashboards"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "Open-source learning analytics platform for K-12 digital learning systems.",
+  "slug": "playpowerlabs-edoptimize"
+}

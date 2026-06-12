@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openagritech/open-phenolidar",
+  "name": "OpenAgriTech/Open-PhenoLiDAR",
+  "description": "Open-PhenoLiDAR is an open-source package from the integration of LiDAR sensors in plant phenotyping and crop monitoring applications.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "Adds precision-agriculture biology coverage through LiDAR-based plant phenotyping and crop monitoring.",
+  "stars": 54,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 61.9,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Open-PhenoLiDAR is an open-source package from the integration of LiDAR sensors in plant phenotyping and crop monitoring applications.",
+  "slug": "openagritech-open-phenolidar"
+}

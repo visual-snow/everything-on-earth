@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cma2015/deepgs",
+  "name": "cma2015/DeepGS",
+  "description": "DeepGS is a R package for predicting phenotypes from genotypes using deep learning techniques.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "Adds genotype-to-phenotype deep-learning coverage for breeding and genomic prediction.",
+  "stars": 56,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-02-14",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 62.0,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "DeepGS is a R package for predicting phenotypes from genotypes using deep learning techniques.",
+  "slug": "cma2015-deepgs"
+}

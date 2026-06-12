@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pktparticle/gaussianplume",
+  "name": "pktparticle/gaussianplume",
+  "description": "Plotting dispersion of dust particles emerging from chimney stacks using Gaussian Plume Dispersion Model",
+  "sub_domain": "air-quality-emissions",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 42,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-06-05",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 31.1,
+  "discovery_score": 3,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Plotting dispersion of dust particles emerging from chimney stacks using Gaussian Plume Dispersion Model",
+  "slug": "pktparticle-gaussianplume"
+}

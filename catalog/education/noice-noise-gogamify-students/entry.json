@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/noice-noise/gogamify-students",
+  "name": "noice-noise/GoGamify-Students",
+  "description": "Gamify Self-Learning Modules into a Progressive Web App",
+  "sub_domain": "gamification-engagement",
+  "score": 7,
+  "score_rationale": "Purpose-built to add gamification to learning modules, with a clear fit for student self-learning workflows.",
+  "stars": 6,
+  "language": "CSS",
+  "license": "MIT",
+  "last_activity": "2022-06-28",
+  "found_in_domains": [
+    "gamification-engagement"
+  ],
+  "quality_score": 48.8,
+  "discovery_score": 7,
+  "tags": [
+    "gamification",
+    "badges",
+    "leaderboards",
+    "engagement"
+  ],
+  "category": "Gamification, Badges, Leaderboards, Educational Games & Classroom Engagement",
+  "summary": "Gamify Self-Learning Modules into a Progressive Web App",
+  "slug": "noice-noise-gogamify-students"
+}

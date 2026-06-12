@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hms-idac/publicity",
+  "name": "hms-idac/publicity",
+  "description": "Python Bioimage Computing Toolkit",
+  "sub_domain": "biomedical-imaging",
+  "score": 6,
+  "score_rationale": "PuBliCiTy is an explicitly bioimage-computing toolkit, though its public footprint is smaller than the major imaging platforms.",
+  "stars": 2,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2021-03-05",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 39.8,
+  "discovery_score": 6,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Python Bioimage Computing Toolkit",
+  "slug": "hms-idac-publicity"
+}

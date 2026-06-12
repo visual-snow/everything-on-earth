@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sesam-polimi/microgridspy-sesam",
+  "name": "sesam-polimi/microgridspy-sesam",
+  "description": "MicroGridsPy - SESAM-PoliMi",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; fork penalty.",
+  "stars": 28,
+  "language": "Python",
+  "license": "EUPL-1.2",
+  "last_activity": "2024-11-20",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 17.7,
+  "discovery_score": 1,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "MicroGridsPy - SESAM-PoliMi",
+  "slug": "sesam-polimi-microgridspy-sesam"
+}

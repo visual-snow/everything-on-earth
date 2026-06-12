@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openconceptlab/oclweb2",
+  "name": "OpenConceptLab/oclweb2",
+  "description": "OCL TermBrowser v2",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 8,
+  "score_rationale": "Frontend/browser layer for OCL terminology management; relevant as a user-facing standards and terminology tool.",
+  "stars": 13,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 57.2,
+  "discovery_score": 8,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "OCL TermBrowser v2",
+  "slug": "openconceptlab-oclweb2"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/kacperkerszen/energy_security",
+  "name": "kacperkerszen/energy_security",
+  "description": "Analysis of energy security in EU countries using multivariate methods.",
+  "sub_domain": "energy-geopolitics",
+  "score": 5,
+  "score_rationale": "A narrower energy-security analysis project, but still on topic for the subdomain.",
+  "stars": 0,
+  "language": "R",
+  "license": null,
+  "last_activity": "2024-02-19",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 32.4,
+  "tags": [
+    "europe",
+    "energy-security",
+    "statistics",
+    "r-analysis"
+  ],
+  "category": "Energy Security Study",
+  "summary": "Multivariate analysis of energy security across EU countries.",
+  "slug": "kacperkerszen-energy-security"
+}

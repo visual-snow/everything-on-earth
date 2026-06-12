@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/github-education-resources/autograding-grading-reporter",
+  "name": "github-education-resources/autograding-grading-reporter",
+  "description": "Renders Autograding output and syncs results to classroom",
+  "sub_domain": "interactive-coding-education",
+  "score": 6,
+  "score_rationale": "Supporting package in the GitHub Classroom autograding toolchain.",
+  "stars": 11,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-05-20",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 44.6,
+  "discovery_score": 6,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "grading",
+    "classroom"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "Renders Autograding output and syncs results to classroom",
+  "slug": "github-education-resources-autograding-grading-reporter"
+}

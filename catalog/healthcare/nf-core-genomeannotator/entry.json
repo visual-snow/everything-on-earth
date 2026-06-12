@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nf-core/genomeannotator",
+  "name": "nf-core/genomeannotator",
+  "description": "Pipeline for the identification of (coding) gene structures in draft genomes.",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 5,
+  "score_rationale": "Genome annotation workflow aligned with sequencing and assembly analysis.",
+  "stars": 36,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2024-05-09",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 42.5,
+  "discovery_score": 5,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Pipeline for the identification of (coding) gene structures in draft genomes.",
+  "slug": "nf-core-genomeannotator"
+}

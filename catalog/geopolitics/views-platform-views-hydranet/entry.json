@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/views-platform/views-hydranet",
+  "name": "views-platform/views-hydranet",
+  "description": "HydraNet is a spatiotemporal conflict forecasting model with probabilistic predictions.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 8,
+  "score_rationale": "Modern conflict-forecasting model inside the VIEWS ecosystem with strong methodological fit.",
+  "stars": 3,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 52.8,
+  "tags": [
+    "conflict-forecasting",
+    "spatiotemporal-models",
+    "probabilistic-forecasting",
+    "views"
+  ],
+  "category": "Conflict Forecasting",
+  "summary": "HydraNet predicts conflict with spatiotemporal uncertainty.",
+  "slug": "views-platform-views-hydranet"
+}

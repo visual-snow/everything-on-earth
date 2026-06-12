@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ai4finance-foundation/finrobot",
+  "name": "ai4finance-foundation/finrobot",
+  "description": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs \ud83d\ude80 \ud83d\ude80 \ud83d\ude80",
+  "sub_domain": "financial-ai-nlp",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 6483,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 60.5,
+  "discovery_score": 5,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs \ud83d\ude80 \ud83d\ude80 \ud83d\ude80",
+  "slug": "ai4finance-foundation-finrobot"
+}

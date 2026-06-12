@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/learn-static/eng-470",
+  "name": "learn-static/eng-470",
+  "description": "Environmental Justice Research Repository. Developed and used as research source data for the Spring 2022 University of Oregon ENG 470 Technologies and Text Capstone Course.",
+  "sub_domain": "environmental-justice",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for course-style signals.",
+  "stars": 3,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2022-06-21",
+  "found_in_domains": [
+    "environmental-justice"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "environmental-justice",
+    "equity",
+    "exposure-mapping",
+    "community-impact"
+  ],
+  "category": "Environmental Justice \u2014 exposure mapping, equity analysis, community impact tools",
+  "summary": "Environmental Justice Research Repository. Developed and used as research source data for the Spring 2022 University of Oregon ENG 470 Te...",
+  "slug": "learn-static-eng-470"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ropensci/stplanr",
+  "name": "ropensci/stplanr",
+  "description": "Sustainable transport planning with R",
+  "sub_domain": "sustainable-transport",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 439,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-04-28",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 51.1,
+  "discovery_score": 5,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "Sustainable transport planning with R",
+  "slug": "ropensci-stplanr"
+}

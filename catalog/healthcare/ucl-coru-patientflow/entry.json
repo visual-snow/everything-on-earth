@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ucl-coru/patientflow",
+  "name": "UCL-CORU/patientflow",
+  "description": "Code and explanatory notebooks for predicting short-term hospital bed demand using real-time data",
+  "sub_domain": "hospital-operations-scheduling",
+  "score": 7,
+  "score_rationale": "Strong operational analytics fit because it predicts bed demand and supports patient-flow planning, though it is more modeling than an operations suite.",
+  "stars": 36,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "hospital-operations-scheduling"
+  ],
+  "quality_score": 54.5,
+  "discovery_score": 7,
+  "tags": [
+    "hospital-ops",
+    "scheduling",
+    "bed-management",
+    "patient-flow"
+  ],
+  "category": "Hospital Operations, Scheduling, Bed Management & Patient Flow",
+  "summary": "Code and explanatory notebooks for predicting short-term hospital bed demand using real-time data",
+  "slug": "ucl-coru-patientflow"
+}

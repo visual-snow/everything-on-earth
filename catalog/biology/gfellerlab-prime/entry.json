@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gfellerlab/prime",
+  "name": "GfellerLab/PRIME",
+  "description": "PRedictor of IMmunogenic Epitopes",
+  "sub_domain": "immunoinformatics",
+  "score": 9,
+  "score_rationale": "Focused immunogenic epitope predictor from a reputable immunoinformatics lab, with strong domain alignment.",
+  "stars": 29,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-24",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 65.8,
+  "discovery_score": 9,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "PRedictor of IMmunogenic Epitopes",
+  "slug": "gfellerlab-prime"
+}

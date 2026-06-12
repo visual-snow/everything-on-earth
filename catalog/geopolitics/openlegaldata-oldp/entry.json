@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openlegaldata/oldp",
+  "name": "openlegaldata/oldp",
+  "description": "Open Legal Data Platform",
+  "sub_domain": "international-law-treaties",
+  "score": 8,
+  "score_rationale": "This is a strong legal-data platform with reusable access and corpus organization.",
+  "stars": 132,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 65.0,
+  "tags": [
+    "legal-platform",
+    "open-data",
+    "corpus",
+    "search"
+  ],
+  "category": "Legal Data Platform",
+  "summary": "Open platform for organizing and accessing legal datasets.",
+  "slug": "openlegaldata-oldp"
+}

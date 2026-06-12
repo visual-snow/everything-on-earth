@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/deflockyourcity/flock-alpr-toolkit",
+  "name": "deflockyourcity/flock-alpr-toolkit",
+  "description": "Redacted, sourced toolkit for residents addressing Flock Safety ALPR cameras at city council. Research, council handouts, talk tracks, legal analysis, and follow-up briefings \u2014 all built from government audits, court filings, NVD CVEs, patents, and named reporting. CC BY-SA 4.0.",
+  "sub_domain": "e-discovery-document-review",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 58,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 32.2,
+  "discovery_score": 3,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction",
+    "court",
+    "patent-search"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "Redacted, sourced toolkit for residents addressing Flock Safety ALPR cameras at city council. Research, council handouts, talk tracks, le...",
+  "slug": "deflockyourcity-flock-alpr-toolkit"
+}

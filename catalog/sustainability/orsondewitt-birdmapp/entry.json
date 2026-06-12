@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/orsondewitt/birdmapp",
+  "name": "orsondewitt/birdmapp",
+  "description": "BirdMApp is a tool to empower bird enthusiasts with high-level knowledge of their surroundings, best times and places to find certain species, and a convenient way to track their hobby.",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 6,
+  "language": "R",
+  "license": "AGPL-3.0",
+  "last_activity": "2023-11-16",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "BirdMApp is a tool to empower bird enthusiasts with high-level knowledge of their surroundings, best times and places to find certain spe...",
+  "slug": "orsondewitt-birdmapp"
+}

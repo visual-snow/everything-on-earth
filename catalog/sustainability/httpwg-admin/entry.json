@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/httpwg/admin",
+  "name": "httpwg/admin",
+  "description": "When you want to speak to the manager.",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 15,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-09-18",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 15.6,
+  "discovery_score": 1,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "When you want to speak to the manager.",
+  "slug": "httpwg-admin"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/adept/full-fledged-hledger",
+  "name": "adept/full-fledged-hledger",
+  "description": "Tutorial on Hledger setup with multi-year files, multi-source imports and a range of auto-generated reports",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption; penalized for tutorial-style signals.",
+  "stars": 549,
+  "language": "Haskell",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 39.9,
+  "discovery_score": 3,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Tutorial on Hledger setup with multi-year files, multi-source imports and a range of auto-generated reports",
+  "slug": "adept-full-fledged-hledger"
+}

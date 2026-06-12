@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-dev-society/openstock",
+  "name": "open-dev-society/openstock",
+  "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights \u2014 built openly, for everyone, forever free.",
+  "sub_domain": "financial-market-data",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 10053,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 62.0,
+  "discovery_score": 5,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detai...",
+  "slug": "open-dev-society-openstock"
+}

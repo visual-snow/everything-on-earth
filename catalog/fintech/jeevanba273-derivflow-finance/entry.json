@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jeevanba273/derivflow-finance",
+  "name": "jeevanba273/derivflow-finance",
+  "description": "Advanced derivatives analytics platform for quantitative finance - Multi-method pricing, exotic options, stochastic volatility models, and real-time risk management",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 5,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-07-10",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "Advanced derivatives analytics platform for quantitative finance - Multi-method pricing, exotic options, stochastic volatility models, an...",
+  "slug": "jeevanba273-derivflow-finance"
+}

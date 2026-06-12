@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eisenzopf/redactomatic",
+  "name": "eisenzopf/redactomatic",
+  "description": "Removes personally identifiable information from conversation data in CSV format",
+  "sub_domain": "privacy-data-protection",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 17,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-06",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 16.0,
+  "discovery_score": 1,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "Removes personally identifiable information from conversation data in CSV format",
+  "slug": "eisenzopf-redactomatic"
+}

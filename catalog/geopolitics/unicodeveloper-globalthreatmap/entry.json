@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/unicodeveloper/globalthreatmap",
+  "name": "unicodeveloper/globalthreatmap",
+  "description": "Global threat map. Learn wars, conflicts, military bases and history of nations.",
+  "stars": 1388,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-03-02",
+  "sub_domain": "conflict-event-tracking",
+  "score": 10,
+  "score_rationale": "Broad conflict-monitoring map with strong overlap to real-time geopolitical event tracking.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 85.1,
+  "tags": [
+    "conflict-monitoring",
+    "world-map",
+    "military-bases",
+    "geopolitics"
+  ],
+  "category": "Conflict Mapping",
+  "summary": "Global map for wars, conflicts, bases, and nation history.",
+  "slug": "unicodeveloper-globalthreatmap"
+}

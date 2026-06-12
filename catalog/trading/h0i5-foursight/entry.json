@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/h0i5/foursight",
+  "name": "h0i5/foursight",
+  "description": "An open source virtual trading and analysis platform for the Indian Stock Market.",
+  "sub_domain": "paper-trading-simulation",
+  "score": 9,
+  "score_rationale": "Open source virtual trading and analysis platform for the Indian stock market.",
+  "stars": 31,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-01-31",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 66.0,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "An open source virtual trading and analysis platform for the Indian Stock Market.",
+  "slug": "h0i5-foursight"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jivoi/awesome-osint",
+  "name": "jivoi/awesome-osint",
+  "description": ":scream: A curated list of amazingly awesome OSINT",
+  "stars": 25452,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-19",
+  "sub_domain": "osint-frameworks",
+  "score": 8,
+  "score_rationale": "Highly useful OSINT resource collection, though it is more a curated index than a framework.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 83.2,
+  "tags": [
+    "osint",
+    "resources",
+    "directory",
+    "curation",
+    "intelligence"
+  ],
+  "category": "OSINT Resource List",
+  "summary": "Curated list of OSINT resources and tools.",
+  "slug": "jivoi-awesome-osint"
+}

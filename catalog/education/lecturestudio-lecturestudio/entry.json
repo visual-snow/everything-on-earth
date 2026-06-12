@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lecturestudio/lecturestudio",
+  "name": "lectureStudio/lectureStudio",
+  "description": "An integrated tool for presenting lectures.",
+  "sub_domain": "video-lecture-platforms",
+  "score": 8,
+  "score_rationale": "Lecture-focused presentation and capture workflow for e-teaching.",
+  "stars": 48,
+  "language": "Java",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "video-lecture-platforms"
+  ],
+  "quality_score": 61.5,
+  "discovery_score": 8,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "An integrated tool for presenting lectures.",
+  "slug": "lecturestudio-lecturestudio"
+}

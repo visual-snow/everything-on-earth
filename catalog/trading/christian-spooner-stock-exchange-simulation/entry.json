@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/christian-spooner/stock-exchange-simulation",
+  "name": "christian-spooner/stock-exchange-simulation",
+  "description": "Microservices-based stock exchange simulation with order entry gateway, matching engine, clearing & settlement, market data feed etc.",
+  "sub_domain": "paper-trading-simulation",
+  "score": 10,
+  "score_rationale": "Dedicated simulated exchange with order entry, matching, clearing, settlement, and market data.",
+  "stars": 3,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2024-06-17",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 64.8,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker",
+    "market-data"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "Microservices-based stock exchange simulation with order entry gateway, matching engine, clearing &...",
+  "slug": "christian-spooner-stock-exchange-simulation"
+}

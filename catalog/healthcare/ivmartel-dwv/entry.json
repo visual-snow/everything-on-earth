@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ivmartel/dwv",
+  "name": "ivmartel/dwv",
+  "description": "DICOM Web Viewer: open source zero footprint medical image library.",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 9,
+  "score_rationale": "Established browser-based DICOM viewer library with direct relevance to radiology viewing workflows.",
+  "stars": 1805,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 80.1,
+  "discovery_score": 9,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "DICOM Web Viewer: open source zero footprint medical image library.",
+  "slug": "ivmartel-dwv"
+}

@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/intersystems-community/fhir-terminology-service",
+  "name": "intersystems-community/fhir-terminology-service",
+  "description": "Implementation of FHIR Terminology Service specification (https://www.hl7.org/fhir/R4/terminology-service.html) to expose arbitrary persistent classes as FHIR value sets and code systems. Runs on InterSystems IRIS for Health 2020+.",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 7,
+  "score_rationale": "FHIR terminology service implementation with practical value set and code system exposure; relevant infrastructure though less specialized than the top-tier servers.",
+  "stars": 3,
+  "language": "ObjectScript",
+  "license": "MIT",
+  "last_activity": "2023-10-06",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 46.8,
+  "discovery_score": 7,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "fhir",
+    "hl7"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "Implementation of FHIR Terminology Service specification (https://www.hl7.org/fhir/R4/terminology-service.html) to expose arbitrary persi...",
+  "slug": "intersystems-community-fhir-terminology-service"
+}

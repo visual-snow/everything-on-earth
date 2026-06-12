@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openmobilityfoundation/mobility-data-specification",
+  "name": "openmobilityfoundation/mobility-data-specification",
+  "description": "A data specification to enable right-of-way regulation, digital policy, geofencing, and two-way communication between mobility companies and public agencies worldwide for any regulated, shared vehicle.",
+  "sub_domain": "sustainable-transport",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 727,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 52.9,
+  "discovery_score": 5,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "A data specification to enable right-of-way regulation, digital policy, geofencing, and two-way communication between mobility companies...",
+  "slug": "openmobilityfoundation-mobility-data-specification"
+}

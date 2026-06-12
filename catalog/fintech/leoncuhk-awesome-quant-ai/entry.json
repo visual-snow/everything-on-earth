@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/leoncuhk/awesome-quant-ai",
+  "name": "leoncuhk/awesome-quant-ai",
+  "description": "A curated list of awesome resources for quantitative investment and trading strategies focusing on artificial intelligence and machine learning applications in finance.",
+  "sub_domain": "financial-market-data",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 184,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 42.1,
+  "discovery_score": 4,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions",
+    "quant"
+  ],
+  "category": "Financial Market Data",
+  "summary": "A curated list of awesome resources for quantitative investment and trading strategies focusing on artificial intelligence and machine le...",
+  "slug": "leoncuhk-awesome-quant-ai"
+}

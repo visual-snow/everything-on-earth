@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/uniswap/uniswapx",
+  "name": "Uniswap/UniswapX",
+  "description": "Gasless ERC20 swap settlement protocol",
+  "sub_domain": "reconciliation-settlement",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 446,
+  "language": "Solidity",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 51.2,
+  "discovery_score": 5,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Gasless ERC20 swap settlement protocol",
+  "slug": "uniswap-uniswapx"
+}

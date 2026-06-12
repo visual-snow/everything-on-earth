@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/grenaud/gargammel",
+  "name": "grenaud/gargammel",
+  "description": "An ancient DNA simulator.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 9,
+  "score_rationale": "Useful simulator for realistic ancient-fragment and contamination scenarios in aDNA benchmarking.",
+  "stars": 39,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2024-07-22",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 66.8,
+  "discovery_score": 9,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "An ancient DNA simulator.",
+  "slug": "grenaud-gargammel"
+}

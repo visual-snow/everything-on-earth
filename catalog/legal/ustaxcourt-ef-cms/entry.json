@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ustaxcourt/ef-cms",
+  "name": "ustaxcourt/ef-cms",
+  "description": "An Electronic Filing / Case Management System.",
+  "sub_domain": "court-case-management",
+  "score": 8,
+  "score_rationale": "Matched 4 queries; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 105,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "court-case-management"
+  ],
+  "quality_score": 64.2,
+  "discovery_score": 8,
+  "tags": [
+    "court-case-management",
+    "e-filing",
+    "docket-management",
+    "judicial-workflow",
+    "filing"
+  ],
+  "category": "Court / Case Management \u2014 docketing, e-filing, case tracking, judicial workflow",
+  "summary": "An Electronic Filing / Case Management System.",
+  "slug": "ustaxcourt-ef-cms"
+}

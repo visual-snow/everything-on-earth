@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/freehealth/freehealth",
+  "name": "freehealth/freehealth",
+  "description": "Free and open source Electronic Health Record.",
+  "sub_domain": "ehr-practice-management",
+  "score": 5,
+  "score_rationale": "Relevant open-source EHR, but smaller and less active than the leading projects.",
+  "stars": 44,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2018-03-13",
+  "found_in_domains": [
+    "ehr-practice-management"
+  ],
+  "quality_score": 43.2,
+  "discovery_score": 5,
+  "tags": [
+    "ehr",
+    "emr",
+    "patient-records",
+    "practice-management"
+  ],
+  "category": "Electronic Health Records (EHR), Clinical Documentation & Practice Management",
+  "summary": "Free and open source Electronic Health Record.",
+  "slug": "freehealth-freehealth"
+}

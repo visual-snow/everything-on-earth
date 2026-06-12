@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cardonator/ofac",
+  "name": "cardonator/ofac",
+  "description": "Office of Foreign Asset Control (OFAC) - US Sanctions Search API",
+  "stars": 2,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2020-01-24",
+  "sub_domain": "sanctions-compliance",
+  "score": 9,
+  "score_rationale": "Direct OFAC API/library for sanctions data serving and screening.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 57.8,
+  "tags": [
+    "ofac",
+    "sanctions-api",
+    "go",
+    "search"
+  ],
+  "category": "Sanctions API",
+  "summary": "Go API for searching U.S. OFAC sanctions data.",
+  "slug": "cardonator-ofac"
+}

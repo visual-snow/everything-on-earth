@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/synbiodex/dnaplotlib_gsoc",
+  "name": "synbiodex/dnaplotlib_gsoc",
+  "description": "DNA plotting library for Python",
+  "sub_domain": "synthetic-biology",
+  "score": 7,
+  "score_rationale": "Visualization and SBOL export/import support for genetic designs makes it part of the core tooling stack.",
+  "stars": 5,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2020-12-21",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 48.2,
+  "discovery_score": 7,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "DNA plotting library for Python",
+  "slug": "synbiodex-dnaplotlib-gsoc"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/qutip/governance",
+  "name": "qutip/governance",
+  "description": "The governance process and model for the QuTiP Project",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2023-02-22",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "The governance process and model for the QuTiP Project",
+  "slug": "qutip-governance"
+}

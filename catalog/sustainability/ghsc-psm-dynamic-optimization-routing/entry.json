@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ghsc-psm/dynamic-optimization-routing",
+  "name": "ghsc-psm/dynamic-optimization-routing",
+  "description": "Dynamic Optimization Routing",
+  "sub_domain": "sustainable-transport",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 8,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-11-13",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 31.6,
+  "discovery_score": 4,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "Dynamic Optimization Routing",
+  "slug": "ghsc-psm-dynamic-optimization-routing"
+}

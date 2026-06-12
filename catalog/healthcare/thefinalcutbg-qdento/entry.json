@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/thefinalcutbg/qdento",
+  "name": "thefinalcutbg/QDento",
+  "description": "Free open-source dental management software",
+  "sub_domain": "dental-specialty-clinics",
+  "score": 8,
+  "score_rationale": "Purpose-built dental management software with an active codebase and a strong specialty fit.",
+  "stars": 12,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-18",
+  "found_in_domains": [
+    "dental-specialty-clinics"
+  ],
+  "quality_score": 56.9,
+  "discovery_score": 8,
+  "tags": [
+    "specialty-clinics",
+    "practice-management",
+    "dental"
+  ],
+  "category": "Dental, Ophthalmology & Specialty Clinic Systems",
+  "summary": "Free open-source dental management software",
+  "slug": "thefinalcutbg-qdento"
+}

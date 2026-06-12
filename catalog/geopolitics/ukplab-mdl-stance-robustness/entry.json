@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ukplab/mdl-stance-robustness",
+  "name": "UKPLab/mdl-stance-robustness",
+  "description": "Multi-dataset stance detection and robustness experiments for evaluating stance models across political and related tasks.",
+  "sub_domain": "political-text-nlp",
+  "score": 8,
+  "score_rationale": "It provides robust stance-detection experiments that are directly applicable to political text modeling.",
+  "stars": 45,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-07-06",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 61.3,
+  "tags": [
+    "political",
+    "stance-detection",
+    "robustness",
+    "evaluation",
+    "nlp"
+  ],
+  "category": "Stance Robustness Experiments",
+  "summary": "Tests stance models across multiple political datasets.",
+  "slug": "ukplab-mdl-stance-robustness"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/sheffieldnlp/stance-conditional",
+  "name": "sheffieldnlp/stance-conditional",
+  "description": "Stance Detection with Conditional Encoding.",
+  "sub_domain": "political-text-nlp",
+  "score": 9,
+  "score_rationale": "A dedicated stance-detection model that is more canonical and directly relevant than the weaker long-tail political text repos.",
+  "stars": 71,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2017-01-14",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 68.9,
+  "tags": [
+    "stance-detection",
+    "political-nlp",
+    "conditional-encoding"
+  ],
+  "category": "Stance Detection",
+  "summary": "Conditional encoding model for political stance detection.",
+  "slug": "sheffieldnlp-stance-conditional"
+}

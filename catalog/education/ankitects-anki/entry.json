@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ankitects/anki",
+  "name": "ankitects/anki",
+  "description": "A smart spaced repetition flashcard program.",
+  "sub_domain": "language-learning",
+  "score": 10,
+  "score_rationale": "Core flashcard system widely used for vocabulary retention and language study.",
+  "stars": 27025,
+  "language": "Rust",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "language-learning"
+  ],
+  "quality_score": 95.5,
+  "discovery_score": 10,
+  "tags": [
+    "language-learning",
+    "flashcards",
+    "vocabulary",
+    "reading-support"
+  ],
+  "category": "Language Learning, Vocabulary Training, Reading Support & Speaking Practice",
+  "summary": "A smart spaced repetition flashcard program.",
+  "slug": "ankitects-anki"
+}

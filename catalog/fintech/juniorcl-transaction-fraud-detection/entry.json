@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/juniorcl/transaction-fraud-detection",
+  "name": "juniorcl/transaction-fraud-detection",
+  "description": "A data science project to predict whether a transaction is a fraud or not.",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 210,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-02-03",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 54.6,
+  "discovery_score": 6,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "A data science project to predict whether a transaction is a fraud or not.",
+  "slug": "juniorcl-transaction-fraud-detection"
+}

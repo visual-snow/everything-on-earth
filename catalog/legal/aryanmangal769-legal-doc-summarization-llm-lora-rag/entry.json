@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aryanmangal769/legal-doc-summarization-llm-lora-rag",
+  "name": "aryanmangal769/legal-doc-summarization-llm-lora-rag",
+  "description": "This project involves code for summarization of legal documents with a two step process. First we fine-tune the llm for legal documents using a big check and Indian cases and their summaries using LoRA and then we use RAG for better in context examples.",
+  "sub_domain": "legal-ai-nlp",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for examples-style signals.",
+  "stars": 16,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-01-26",
+  "found_in_domains": [
+    "legal-ai-nlp"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 3,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "This project involves code for summarization of legal documents with a two step process. First we fine-tune the llm for legal documents u...",
+  "slug": "aryanmangal769-legal-doc-summarization-llm-lora-rag"
+}

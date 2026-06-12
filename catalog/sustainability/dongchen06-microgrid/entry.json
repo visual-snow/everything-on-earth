@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/dongchen06/microgrid",
+  "name": "dongchen06/microgrid",
+  "description": "A Inverter-based microgrid system with PID controller",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 15,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2023-01-27",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 27.6,
+  "discovery_score": 3,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy",
+    "microgrid"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "A Inverter-based microgrid system with PID controller",
+  "slug": "dongchen06-microgrid"
+}

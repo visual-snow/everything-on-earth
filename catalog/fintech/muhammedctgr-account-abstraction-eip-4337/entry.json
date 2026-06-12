@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/muhammedctgr/account-abstraction-eip-4337",
+  "name": "muhammedctgr/account-abstraction-eip-4337",
+  "description": "No description provided.",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 0,
+  "language": "Solidity",
+  "license": null,
+  "last_activity": "2026-01-17",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization",
+    "account-abstraction"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "No description provided.",
+  "slug": "muhammedctgr-account-abstraction-eip-4337"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mjwestgate/synthesisr",
+  "name": "mjwestgate/synthesisr",
+  "description": "Data import and deduplication for evidence synthesis projects",
+  "sub_domain": "e-discovery-document-review",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 34,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-12-15",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 36.4,
+  "discovery_score": 4,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction",
+    "evidence"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "Data import and deduplication for evidence synthesis projects",
+  "slug": "mjwestgate-synthesisr"
+}

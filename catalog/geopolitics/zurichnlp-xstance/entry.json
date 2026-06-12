@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zurichnlp/xstance",
+  "name": "ZurichNLP/xstance",
+  "description": "Data and code accompanying the X-Stance dataset for multilingual, multi-target stance detection on political questions.",
+  "sub_domain": "political-text-nlp",
+  "score": 10,
+  "score_rationale": "This is a core political stance-detection benchmark with direct relevance to political text NLP.",
+  "stars": 41,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-06-17",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 73.0,
+  "tags": [
+    "political",
+    "stance-detection",
+    "dataset",
+    "multilingual",
+    "nlp"
+  ],
+  "category": "Political Stance Dataset",
+  "summary": "Multilingual stance-detection dataset for political questions.",
+  "slug": "zurichnlp-xstance"
+}

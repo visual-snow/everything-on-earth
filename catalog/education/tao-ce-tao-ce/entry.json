@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tao-ce/tao-ce",
+  "name": "tao-ce/tao-ce",
+  "description": "Open-source community edition of the TAO testing platform.",
+  "sub_domain": "assessment-testing",
+  "score": 9,
+  "score_rationale": "Strong fit for open-source online assessment with clear education/testing orientation.",
+  "stars": 12,
+  "language": "Jsonnet",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 62.9,
+  "discovery_score": 9,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Open-source community edition of the TAO testing platform.",
+  "slug": "tao-ce-tao-ce"
+}

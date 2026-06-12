@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vatshayan/upi-fraud-detection-using-machine-learning",
+  "name": "vatshayan/upi-fraud-detection-using-machine-learning",
+  "description": "UPI Fraud Detection Using Machine Learning with Source Code and documents",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 46,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-12-18",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 43.4,
+  "discovery_score": 5,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "UPI Fraud Detection Using Machine Learning with Source Code and documents",
+  "slug": "vatshayan-upi-fraud-detection-using-machine-learning"
+}

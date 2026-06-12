@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nlesc/magma",
+  "name": "NLeSC/MAGMa",
+  "description": "eMetabolomics project: Mass Annotation based on in silico Generated Metabolites",
+  "sub_domain": "metabolomics",
+  "score": 8,
+  "score_rationale": "It is a metabolomics annotation project with a clear in-silico mass annotation focus.",
+  "stars": 16,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2022-10-30",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 57.8,
+  "discovery_score": 8,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "eMetabolomics project: Mass Annotation based on in silico Generated Metabolites",
+  "slug": "nlesc-magma"
+}

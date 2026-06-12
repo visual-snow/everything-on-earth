@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mahmoodlab/clam",
+  "name": "mahmoodlab/CLAM",
+  "description": "Open source tools for computational pathology - Nature BME",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 8,
+  "score_rationale": "Widely cited computational pathology toolkit for slide-level learning and diagnostic modeling.",
+  "stars": 1638,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-04-14",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 73.7,
+  "discovery_score": 8,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "Open source tools for computational pathology - Nature BME",
+  "slug": "mahmoodlab-clam"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/epimodel/epimodelcovid",
+  "name": "EpiModel/EpiModelCOVID",
+  "description": "Network-Based Epidemic Modeling of Transmission Dynamics for SARS-CoV-2",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 8,
+  "score_rationale": "Network-based SARS-CoV-2 transmission modeling toolkit with direct epidemic modeling relevance.",
+  "stars": 10,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 56.3,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Network-Based Epidemic Modeling of Transmission Dynamics for SARS-CoV-2",
+  "slug": "epimodel-epimodelcovid"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fred-2/fred2",
+  "name": "FRED-2/Fred2",
+  "description": "Python-based framework for computational immunomics",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Broad computational immunomics framework that covers epitope and vaccine-design workflows well.",
+  "stars": 40,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2021-07-07",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 60.9,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Python-based framework for computational immunomics",
+  "slug": "fred-2-fred2"
+}

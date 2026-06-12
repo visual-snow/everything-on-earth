@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/claroline/claroline",
+  "name": "claroline/Claroline",
+  "description": "Learning management system",
+  "sub_domain": "lms",
+  "score": 7,
+  "score_rationale": "Direct LMS repository with a straightforward education-platform fit.",
+  "stars": 344,
+  "language": "PHP",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lms"
+  ],
+  "quality_score": 62.3,
+  "discovery_score": 7,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "Learning management system",
+  "slug": "claroline-claroline"
+}

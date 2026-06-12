@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/amzn/chalet-charging-location-for-electric-trucks",
+  "name": "amzn/chalet-charging-location-for-electric-trucks",
+  "description": "Optimization tool to identify charging locations for electric trucks",
+  "sub_domain": "sustainable-transport",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 41,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-11-12",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 31.0,
+  "discovery_score": 3,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "Optimization tool to identify charging locations for electric trucks",
+  "slug": "amzn-chalet-charging-location-for-electric-trucks"
+}

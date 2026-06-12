@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tauferlab/somospie",
+  "name": "tauferlab/somospie",
+  "description": "SOMOSPIE (Soil Moisture Spatial Inference Engine) consists of a Jupyter Notebook and a suite of machine learning methods to process inputs of available coarse-grained soil moisture data at its native spatial resolution. Features include the selection of a geographic region of interest, prediction of missing values across the entire region of interest (i.e., gap-filling), analysis of generated fine-grained predictions, and visualization of both predictions and analyses.",
+  "sub_domain": "sustainable-agriculture",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for notebook-style signals.",
+  "stars": 16,
+  "language": "Jupyter Notebook",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-09-16",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 2,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "SOMOSPIE (Soil Moisture Spatial Inference Engine) consists of a Jupyter Notebook and a suite of machine learning methods to process input...",
+  "slug": "tauferlab-somospie"
+}

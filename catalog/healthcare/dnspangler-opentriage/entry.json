@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dnspangler/opentriage",
+  "name": "dnspangler/openTriage",
+  "description": "A platform for deploying machine learning models in clinical decision support systems",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 6,
+  "score_rationale": "Clinical decision-support deployment platform with direct ML diagnostic use, though smaller in adoption.",
+  "stars": 7,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-05-07",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 43.2,
+  "discovery_score": 6,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "A platform for deploying machine learning models in clinical decision support systems",
+  "slug": "dnspangler-opentriage"
+}

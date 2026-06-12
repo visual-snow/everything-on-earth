@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hannahawalsh/esg_ai",
+  "name": "hannahawalsh/esg_ai",
+  "description": "No description provided.",
+  "sub_domain": "esg-reporting-compliance",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 103,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-08-16",
+  "found_in_domains": [
+    "esg-reporting-compliance"
+  ],
+  "quality_score": 34.1,
+  "discovery_score": 3,
+  "tags": [
+    "esg",
+    "csrd",
+    "tcfd",
+    "issb"
+  ],
+  "category": "ESG Reporting / Compliance \u2014 ESG aggregation and CSRD/TCFD/ISSB reporting tooling",
+  "summary": "No description provided.",
+  "slug": "hannahawalsh-esg-ai"
+}

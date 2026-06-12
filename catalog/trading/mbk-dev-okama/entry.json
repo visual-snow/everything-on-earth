@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mbk-dev/okama",
+  "name": "mbk-dev/okama",
+  "description": "Investment portfolio and stocks analyzing tools for Python with free historical data",
+  "sub_domain": "portfolio-risk-management",
+  "score": 7,
+  "score_rationale": "Practical portfolio analysis toolkit for asset allocation and historical risk/return analysis.",
+  "stars": 249,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "portfolio-risk-management"
+  ],
+  "quality_score": 61.2,
+  "tags": [
+    "portfolio",
+    "risk-management",
+    "allocation"
+  ],
+  "category": "Portfolio Optimization",
+  "summary": "Investment portfolio and stocks analyzing tools for Python with free historical data",
+  "slug": "mbk-dev-okama"
+}

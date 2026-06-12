@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/trevorld/r-ledger",
+  "name": "trevorld/r-ledger",
+  "description": "Imports data from plain text accounting files",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+  "stars": 46,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2024-05-20",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 49.4,
+  "discovery_score": 6,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger",
+    "ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Imports data from plain text accounting files",
+  "slug": "trevorld-r-ledger"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/maastrichtlawtech/awesome-legal-nlp",
+  "name": "maastrichtlawtech/awesome-legal-nlp",
+  "description": "\ud83d\udcd6  A curated list of LegalNLP resources from all around the web.",
+  "sub_domain": "curated-lists-meta-sweep",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 310,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2025-10-14",
+  "found_in_domains": [
+    "legal-ai-nlp",
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 49.9,
+  "discovery_score": 5,
+  "tags": [
+    "awesome-list",
+    "legal-data",
+    "legal-nlp",
+    "privacy"
+  ],
+  "category": "Curated Lists / Meta Sweep \u2014 awesome lists, GitHub topics, canonical meta-sources",
+  "summary": "\ud83d\udcd6  A curated list of LegalNLP resources from all around the web.",
+  "slug": "maastrichtlawtech-awesome-legal-nlp"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/coralnet/coralnet",
+  "name": "coralnet/coralnet",
+  "description": "Development of CoralNet.",
+  "sub_domain": "marine-biology",
+  "score": 9,
+  "score_rationale": "Official coral image annotation platform with direct relevance to benthic reef surveys and a strong reusable workflow footprint.",
+  "stars": 68,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 68.7,
+  "discovery_score": 9,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Development of CoralNet.",
+  "slug": "coralnet-coralnet"
+}

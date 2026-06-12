@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dzpum05/bookkeeping-automation-platforms",
+  "name": "dzpum05/bookkeeping-automation-platforms",
+  "description": "35+ Industry-Leading Bookkeeping Automation Platforms: Save Time, Reduce Errors!",
+  "sub_domain": "tax-compliance-automation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-10-13",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "35+ Industry-Leading Bookkeeping Automation Platforms: Save Time, Reduce Errors!",
+  "slug": "dzpum05-bookkeeping-automation-platforms"
+}

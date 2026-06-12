@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maize-genetics/rtassel",
+  "name": "maize-genetics/rTASSEL",
+  "description": "R front-end for TASSEL 5",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "Brings TASSEL's association-genetics tooling into R, making it directly useful for crop genomics analysis.",
+  "stars": 33,
+  "language": "R",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 60.3,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "R front-end for TASSEL 5",
+  "slug": "maize-genetics-rtassel"
+}

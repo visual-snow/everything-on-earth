@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/proftomwbell/ulex",
+  "name": "proftomwbell/ulex",
+  "description": "For version control of Ulex, the open source legal system",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 82,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2020-11-15",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 21.4,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "For version control of Ulex, the open source legal system",
+  "slug": "proftomwbell-ulex"
+}

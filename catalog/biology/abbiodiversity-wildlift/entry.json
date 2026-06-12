@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/abbiodiversity/wildlift",
+  "name": "abbiodiversity/wildlift",
+  "description": "Open-source tool to guide decisions for wildlife conservation.",
+  "sub_domain": "ecology-conservation",
+  "score": 7,
+  "score_rationale": "Conservation planning tool that models recovery-action trade-offs for wildlife populations.",
+  "stars": 6,
+  "language": "R",
+  "license": "Apache-2.0",
+  "last_activity": "2021-08-22",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 48.8,
+  "discovery_score": 7,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Open-source tool to guide decisions for wildlife conservation.",
+  "slug": "abbiodiversity-wildlift"
+}

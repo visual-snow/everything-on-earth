@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hannes101/filtertrace",
+  "name": "hannes101/filtertrace",
+  "description": "Steps to filter the TRACE enhanced database",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 7,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2022-11-19",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 13.2,
+  "discovery_score": 1,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "Steps to filter the TRACE enhanced database",
+  "slug": "hannes101-filtertrace"
+}

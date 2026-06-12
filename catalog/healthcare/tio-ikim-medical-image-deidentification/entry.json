@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tio-ikim/medical_image_deidentification",
+  "name": "TIO-IKIM/medical_image_deidentification",
+  "description": "This tool combines multiple anonymization steps, including metadata deidentification, defacing and skull-stripping while being faster than current state-of-the ...",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 7,
+  "score_rationale": "Strong medical-image de-identification pipeline combining metadata removal and defacing.",
+  "stars": 21,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 52.7,
+  "discovery_score": 7,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "This tool combines multiple anonymization steps, including metadata deidentification, defacing and skull-stripping while being faster tha...",
+  "slug": "tio-ikim-medical-image-deidentification"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dreichlab/adna-workflow",
+  "name": "DReichLab/adna-workflow",
+  "description": "Workflow for processing Illumina sequencing runs for ancient human DNA",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 9,
+  "score_rationale": "Lab-grade ancient-human DNA workflow with a clear end-to-end processing focus.",
+  "stars": 26,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2020-10-29",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 65.5,
+  "discovery_score": 9,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Workflow for processing Illumina sequencing runs for ancient human DNA",
+  "slug": "dreichlab-adna-workflow"
+}

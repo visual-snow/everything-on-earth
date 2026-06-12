@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/p2irc/deepplantphenomics",
+  "name": "p2irc/deepplantphenomics",
+  "description": "Deep learning for plant phenotyping.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 9,
+  "score_rationale": "A focused plant-phenotyping deep-learning package, stronger than one-off notebooks or ad hoc computer-vision demos.",
+  "stars": 139,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2025-11-28",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 71.2,
+  "discovery_score": 9,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Deep learning for plant phenotyping.",
+  "slug": "p2irc-deepplantphenomics"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/w3c/pwetf",
+  "name": "w3c/pwetf",
+  "description": "Positive Work Environment Community Group",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 188,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2025-10-20",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 24.2,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "Positive Work Environment Community Group",
+  "slug": "w3c-pwetf"
+}

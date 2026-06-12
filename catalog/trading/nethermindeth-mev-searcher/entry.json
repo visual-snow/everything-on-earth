@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nethermindeth/mev-searcher",
+  "name": "NethermindEth/Mev-Searcher",
+  "description": "No description provided.",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 7,
+  "score_rationale": "Searcher-oriented MEV repo; relevant despite being archived and lower activity.",
+  "stars": 12,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2021-07-31",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 50.9,
+  "tags": [
+    "defi",
+    "dex",
+    "mev"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "No description provided.",
+  "slug": "nethermindeth-mev-searcher"
+}

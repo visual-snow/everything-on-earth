@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/opensource-emr/hospital-management-emr",
+  "name": "opensource-emr/hospital-management-emr",
+  "description": "A complete open source for electronic healthcare record management in Hospitals, Clinics and Pharmacy.",
+  "sub_domain": "hospital-operations-scheduling",
+  "score": 8,
+  "score_rationale": "Hospital/clinic/pharmacy management suite with direct operational workflow coverage and clear hospital-domain fit.",
+  "stars": 459,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-09-02",
+  "found_in_domains": [
+    "ehr-practice-management",
+    "hospital-operations-scheduling"
+  ],
+  "quality_score": 69.3,
+  "discovery_score": 8,
+  "tags": [
+    "hospital-ops",
+    "scheduling",
+    "bed-management",
+    "patient-flow",
+    "emr",
+    "pharmacy"
+  ],
+  "category": "Hospital Operations, Scheduling, Bed Management & Patient Flow",
+  "summary": "A complete open source for electronic healthcare record management in Hospitals, Clinics and Pharmacy.",
+  "slug": "opensource-emr-hospital-management-emr"
+}

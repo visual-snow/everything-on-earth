@@ -1,0 +1,59 @@
+{
+  "slug": "microsoft-presidio",
+  "name": "microsoft/presidio",
+  "what_it_is": "Presidio is a Python SDK and set of REST microservices for detecting and anonymizing PII entities in unstructured text, structured/semi-structured data, and images. It ships four independent modules: Analyzer, Anonymizer, Image Redactor, and Structured.",
+  "components": [
+    "presidio-analyzer: PII detection engine using NLP, regex, rule-based logic, and checksum recognizers",
+    "presidio-anonymizer: PII replacement engine supporting redact, replace, mask, hash, and encrypt operators; includes a deanonymizer",
+    "presidio-image-redactor: OCR-based PII redaction in raster images and DICOM medical images",
+    "presidio-structured: PII identification and anonymization in structured/semi-structured data",
+    "RecognizerRegistry: pluggable registry of PII recognizers",
+    "NlpEngine: swappable NLP backend (spaCy, Transformers, Stanza)",
+    "ContextAwareEnhancer: boosts confidence scores using surrounding word context",
+    "ollama: local LLM sidecar used by the analyzer for model-backed detection"
+  ],
+  "protocols": [
+    "HTTP REST (JSON payloads) for all three service endpoints",
+    "Python library API (direct in-process calls)",
+    "PySpark batch processing interface"
+  ],
+  "measurement": [
+    "Per-entity confidence score (float 0-1) returned with every RecognizerResult",
+    "Entity type, start offset, and end offset for each detected span"
+  ],
+  "configuration": [
+    "Custom PII recognizers (regex patterns, deny lists, checksums, ML models)",
+    "NLP engine backend selection (spaCy, Transformers/HuggingFace, Stanza)",
+    "Anonymization operator per entity type (replace, mask, redact, hash, encrypt, custom)",
+    "Context words list for context-aware score enhancement",
+    "Supported languages per recognizer",
+    "External PII detection model endpoints"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Python library (in-process)",
+    "HTTP microservice (Docker or native Python runtime)",
+    "PySpark batch workload",
+    "Kubernetes deployment"
+  ],
+  "constraints": [
+    "Automated detection does not guarantee 100% recall; additional safeguards are required for compliance",
+    "Image redaction relies on OCR accuracy; degraded images may yield missed PII",
+    "Deanonymization is only possible for encryption-based operators; destructive operators (redact, hash) are irreversible",
+    "Language support depends on the underlying NLP model; not all entity types are available in all languages",
+    "DICOM support is limited to the image-redactor module; no native HL7/FHIR parsing"
+  ],
+  "docker_services": [
+    "presidio-analyzer (port 5002)",
+    "presidio-anonymizer (port 5001)",
+    "presidio-image-redactor (port 5003)",
+    "ollama (port 11434, local LLM backend for analyzer)"
+  ],
+  "notable_absences": [
+    "No built-in audit log or decision trail for anonymization actions",
+    "No native HL7 or FHIR data parsing",
+    "No data-at-rest storage or database; stateless service only",
+    "No built-in synthetic data generation (de-identification only, not synthesis)",
+    "No UI dashboard; purely programmatic/API access"
+  ]
+}

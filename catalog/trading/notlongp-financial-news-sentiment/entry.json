@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/notlongp/financial-news-sentiment",
+  "name": "notlongp/financial-news-sentiment",
+  "description": "This project aims to assess the sentiment of financial news headlines and preview texts. Data is scraped from 3 major financial news website (CNBC, Reuters, the Guardian).",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 8,
+  "score_rationale": "Good breadth across major financial news sources, with sentiment extraction on headline and preview text.",
+  "stars": 8,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2020-08-02",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 55.6,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "This project aims to assess the sentiment of financial news headlines and preview texts. Data is scraped from...",
+  "slug": "notlongp-financial-news-sentiment"
+}

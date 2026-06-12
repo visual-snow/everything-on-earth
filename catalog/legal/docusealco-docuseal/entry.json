@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/docusealco/docuseal",
+  "name": "docusealco/docuseal",
+  "description": "Open source DocuSign alternative. Create, fill, and sign digital documents \u270d\ufe0f",
+  "sub_domain": "legal-document-automation",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 11636,
+  "language": "Ruby",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 68.5,
+  "discovery_score": 6,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "Open source DocuSign alternative. Create, fill, and sign digital documents \u270d\ufe0f",
+  "slug": "docusealco-docuseal"
+}

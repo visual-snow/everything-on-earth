@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/yurigabrich/microgrid-dapp",
+  "name": "yurigabrich/microgrid-dapp",
+  "description": "Microgrid Transactive Energy Smart Contract",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 22,
+  "language": "C#",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-22",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 34.9,
+  "discovery_score": 4,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging",
+    "microgrid"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Microgrid Transactive Energy Smart Contract",
+  "slug": "yurigabrich-microgrid-dapp"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/joaquinbejar/optionstratlib",
+  "name": "joaquinbejar/optionstratlib",
+  "description": "OptionStratLib is a comprehensive Rust library for options trading and strategy development across multiple asset classes.",
+  "sub_domain": "options-derivatives",
+  "score": 8,
+  "score_rationale": "Clear options-strategy library with multi-asset support and a strong fit for payoff modeling and strategy composition.",
+  "stars": 175,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "options-derivatives"
+  ],
+  "quality_score": 66.0,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "OptionStratLib is a comprehensive Rust library for options trading and strategy development across multiple...",
+  "slug": "joaquinbejar-optionstratlib"
+}

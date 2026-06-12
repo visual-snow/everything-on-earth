@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ravimildseven/globe-iq",
+  "name": "ravimildseven/globe-iq",
+  "description": "Interactive 3D world intelligence dashboard \u2014 click any country for news, economy, conflicts & more",
+  "stars": 1,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "sub_domain": "conflict-event-tracking",
+  "score": 7,
+  "score_rationale": "Interactive monitoring surface with direct conflict and geopolitical context across countries.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 44.4,
+  "tags": [
+    "world-intelligence",
+    "3d-map",
+    "geopolitics",
+    "news"
+  ],
+  "category": "World Intelligence Dashboard",
+  "summary": "Interactive 3D world dashboard combining news, economy, and conflicts.",
+  "slug": "ravimildseven-globe-iq"
+}

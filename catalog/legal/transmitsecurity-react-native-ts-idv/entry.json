@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/transmitsecurity/react-native-ts-idv",
+  "name": "transmitsecurity/react-native-ts-idv",
+  "description": "Integrate our Identity Verification SDK seamlessly into your React Native apps for secure and trusted user verification.",
+  "sub_domain": "aml-kyc-identity",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-11-14",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "Integrate our Identity Verification SDK seamlessly into your React Native apps for secure and trusted user verification.",
+  "slug": "transmitsecurity-react-native-ts-idv"
+}

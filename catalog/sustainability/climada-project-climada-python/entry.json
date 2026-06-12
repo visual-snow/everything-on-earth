@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/climada-project/climada_python",
+  "name": "climada-project/climada_python",
+  "description": "CLIMADA is a free and open-source software framework for climate risk assessment and adaptation option appraisal.",
+  "sub_domain": "climate-finance",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 431,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 51.1,
+  "discovery_score": 5,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "CLIMADA is a free and open-source software framework for climate risk assessment and adaptation option appraisal.",
+  "slug": "climada-project-climada-python"
+}

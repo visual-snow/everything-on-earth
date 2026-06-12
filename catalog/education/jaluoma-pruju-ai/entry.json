@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jaluoma/pruju-ai",
+  "name": "jaluoma/pruju-ai",
+  "description": "Course-material-grounded teaching assistant that answers student questions from instructor-provided content.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 9,
+  "score_rationale": "Clear education-first design with strong control over the knowledge base and answer style, which makes it highly relevant to classroom deployments.",
+  "stars": 55,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2025-07-08",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 68.0,
+  "discovery_score": 9,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "Course-material-grounded teaching assistant that answers student questions from instructor-provided content.",
+  "slug": "jaluoma-pruju-ai"
+}

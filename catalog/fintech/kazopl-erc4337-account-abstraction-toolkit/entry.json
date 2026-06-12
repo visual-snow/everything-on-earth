@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/kazopl/erc4337-account-abstraction-toolkit",
+  "name": "kazopl/erc4337-account-abstraction-toolkit",
+  "description": "Production-grade ERC-4337 Account Abstraction implementation with modular smart accounts, paymasters, session keys, multisig, social recovery, and spending limits. Built with Foundry.",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 0,
+  "language": "Solidity",
+  "license": null,
+  "last_activity": "2026-01-07",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization",
+    "account-abstraction"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Production-grade ERC-4337 Account Abstraction implementation with modular smart accounts, paymasters, session keys, multisig, social reco...",
+  "slug": "kazopl-erc4337-account-abstraction-toolkit"
+}

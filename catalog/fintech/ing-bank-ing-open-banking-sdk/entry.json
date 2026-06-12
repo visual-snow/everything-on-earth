@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ing-bank/ing-open-banking-sdk",
+  "name": "ing-bank/ing-open-banking-sdk",
+  "description": "No description provided.",
+  "sub_domain": "open-banking-psd2",
+  "score": 1,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; archived repo penalty.",
+  "stars": 56,
+  "language": "Mustache",
+  "license": "MIT",
+  "last_activity": "2024-11-13",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 20.0,
+  "discovery_score": 1,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "No description provided.",
+  "slug": "ing-bank-ing-open-banking-sdk"
+}

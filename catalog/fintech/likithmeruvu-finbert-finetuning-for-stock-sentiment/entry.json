@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/likithmeruvu/finbert-finetuning-for-stock-sentiment",
+  "name": "likithmeruvu/finbert-finetuning-for-stock-sentiment",
+  "description": "I have fineTuned FinBert Model on 4.9k Financial News Headlines, Got 81-82% ACC and it perfrom well in Financial Stock News Sentiment Analysis",
+  "sub_domain": "financial-ai-nlp",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 13,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2024-03-04",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 39.2,
+  "discovery_score": 5,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "I have fineTuned FinBert Model on 4.9k Financial News Headlines, Got 81-82% ACC and it perfrom well in Financial Stock News Sentiment Ana...",
+  "slug": "likithmeruvu-finbert-finetuning-for-stock-sentiment"
+}

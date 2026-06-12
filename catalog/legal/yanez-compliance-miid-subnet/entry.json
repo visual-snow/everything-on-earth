@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/yanez-compliance/miid-subnet",
+  "name": "yanez-compliance/miid-subnet",
+  "description": "No description provided.",
+  "sub_domain": "aml-kyc-identity",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 5,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 18.2,
+  "discovery_score": 2,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification",
+    "compliance"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "No description provided.",
+  "slug": "yanez-compliance-miid-subnet"
+}

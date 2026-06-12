@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/eddiepiper/02-04-compliance-checker",
+  "name": "eddiepiper/02-04-compliance-checker",
+  "description": "\u2705 AI-powered banking compliance checker that ensures regulatory compliance using natural language processing",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-03-24",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls",
+    "regulatory"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "\u2705 AI-powered banking compliance checker that ensures regulatory compliance using natural language processing",
+  "slug": "eddiepiper-02-04-compliance-checker"
+}

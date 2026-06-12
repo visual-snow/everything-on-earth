@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pykt-team/pykt-toolkit",
+  "name": "pykt-team/pykt-toolkit",
+  "description": "pyKT: A Python Library to Benchmark Deep Learning based Knowledge Tracing Models",
+  "sub_domain": "adaptive-learning",
+  "score": 8,
+  "score_rationale": "High-signal knowledge-tracing toolkit used to benchmark deep learner-modeling methods on education datasets.",
+  "stars": 380,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "adaptive-learning"
+  ],
+  "quality_score": 68.6,
+  "discovery_score": 8,
+  "tags": [
+    "adaptive-learning",
+    "tutoring",
+    "mastery",
+    "knowledge-tracing"
+  ],
+  "category": "Adaptive Learning, Personalization, Knowledge Tracing & AI Tutoring",
+  "summary": "pyKT: A Python Library to Benchmark Deep Learning based Knowledge Tracing Models",
+  "slug": "pykt-team-pykt-toolkit"
+}

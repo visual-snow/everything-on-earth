@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/alistairewj/bert-deid",
+  "name": "alistairewj/bert-deid",
+  "description": "deidentify patient notes using pre-trained BERT",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 6,
+  "score_rationale": "BERT-based de-identification prototype for patient notes; relevant but smaller.",
+  "stars": 14,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-01-11",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 45.4,
+  "discovery_score": 6,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding",
+    "patient-records"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "deidentify patient notes using pre-trained BERT",
+  "slug": "alistairewj-bert-deid"
+}

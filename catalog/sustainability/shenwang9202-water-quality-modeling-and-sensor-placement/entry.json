@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shenwang9202/water-quality-modeling-and-sensor-placement",
+  "name": "shenwang9202/water-quality-modeling-and-sensor-placement",
+  "description": "No description provided.",
+  "sub_domain": "water-resource-management",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 4,
+  "language": "MATLAB",
+  "license": "EUPL-1.1",
+  "last_activity": "2020-10-13",
+  "found_in_domains": [
+    "water-resource-management"
+  ],
+  "quality_score": 23.6,
+  "discovery_score": 3,
+  "tags": [
+    "hydrology",
+    "watershed",
+    "water-quality",
+    "water-modeling"
+  ],
+  "category": "Water Resource Management \u2014 hydrological modeling, water quality, watershed analysis",
+  "summary": "No description provided.",
+  "slug": "shenwang9202-water-quality-modeling-and-sensor-placement"
+}

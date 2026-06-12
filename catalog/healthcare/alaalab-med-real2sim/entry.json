@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/alaalab/med-real2sim",
+  "name": "AlaaLab/med-real2sim",
+  "description": "By constructing digital twins for disease processes, we can perform in-silico simulations that mimic patients' health conditions and counterfactual outcomes ...",
+  "sub_domain": "medical-education-simulation",
+  "score": 6,
+  "score_rationale": "Medical digital twin and real-to-sim work is adjacent but still relevant to simulation.",
+  "stars": 20,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-10-19",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 46.6,
+  "discovery_score": 6,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient",
+    "patient-records"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "By constructing digital twins for disease processes, we can perform in-silico simulations that mimic patients' health conditions and coun...",
+  "slug": "alaalab-med-real2sim"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/alpacahq/alpaca-trade-api-python",
+  "name": "alpacahq/alpaca-trade-api-python",
+  "description": "Python client for Alpaca's trade API",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 9,
+  "score_rationale": "Older but still relevant Alpaca Python client for trading and market-data integration.",
+  "stars": 1861,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-12-02",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 80.2,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "Python client for Alpaca's trade API",
+  "slug": "alpacahq-alpaca-trade-api-python"
+}

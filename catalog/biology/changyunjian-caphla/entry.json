@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/changyunjian/caphla",
+  "name": "changyunjian/CapHLA",
+  "description": "A comprehensive tools to predict peptide presentation and binding to HLA class I and class II",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Broad HLA class I/II binding and presentation predictor with a clear fit for epitope prioritization.",
+  "stars": 8,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-11-16",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 55.6,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "A comprehensive tools to predict peptide presentation and binding to HLA class I and class II",
+  "slug": "changyunjian-caphla"
+}

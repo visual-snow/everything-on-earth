@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/transpose-publishing/transpose",
+  "name": "transpose-publishing/transpose",
+  "description": "TRANsparency in Scholarly Publishing for Open Scholarship Evolution",
+  "sub_domain": "research-academic-publishing",
+  "score": 5,
+  "score_rationale": "Directly tied to scholarly publishing transparency, but the project is small and less active than the major platforms.",
+  "stars": 1,
+  "language": "Vue",
+  "license": "GNU Affero General Public License v3.0",
+  "last_activity": "2018-06-01",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "TRANsparency in Scholarly Publishing for Open Scholarship Evolution",
+  "slug": "transpose-publishing-transpose"
+}

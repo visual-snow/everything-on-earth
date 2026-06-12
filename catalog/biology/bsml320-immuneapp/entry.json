@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bsml320/immuneapp",
+  "name": "bsml320/ImmuneApp",
+  "description": "ImmuneApp for HLA-I epitope prediction and immunopeptidome analysis",
+  "sub_domain": "immunoinformatics",
+  "score": 7,
+  "score_rationale": "Focused HLA-I epitope and immunopeptidome analysis tool, but smaller and less established than the canonical binders.",
+  "stars": 14,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-09-21",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 51.4,
+  "discovery_score": 7,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "ImmuneApp for HLA-I epitope prediction and immunopeptidome analysis",
+  "slug": "bsml320-immuneapp"
+}

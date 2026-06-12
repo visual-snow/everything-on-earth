@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aican-research/fast-pathology",
+  "name": "AICAN-Research/FAST-Pathology",
+  "description": "\u26a1 Open-source software for deep learning-based digital pathology",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 7,
+  "score_rationale": "Dedicated digital pathology software stack with clear diagnostic use and active development.",
+  "stars": 141,
+  "language": "C++",
+  "license": "BSD-2-Clause",
+  "last_activity": "2024-06-14",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 59.2,
+  "discovery_score": 7,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "\u26a1 Open-source software for deep learning-based digital pathology",
+  "slug": "aican-research-fast-pathology"
+}

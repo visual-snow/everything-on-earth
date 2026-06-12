@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/center-for-ai-innovation/ai-teaching-assistant-uiuc",
+  "name": "Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
+  "description": "Multi-model TA chatbot that retrieves from lecture, text, and image sources and evaluates responses.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 8,
+  "score_rationale": "Very on-target for teaching-assistant workflows, with multimodal retrieval and an explicit evaluation pipeline.",
+  "stars": 32,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-04-16",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 60.1,
+  "discovery_score": 8,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "Multi-model TA chatbot that retrieves from lecture, text, and image sources and evaluates responses.",
+  "slug": "center-for-ai-innovation-ai-teaching-assistant-uiuc"
+}

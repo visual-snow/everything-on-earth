@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/kdeldycke/awesome-billing",
+  "name": "kdeldycke/awesome-billing",
+  "description": "\ud83d\udcb0 Billing & Payments knowledge for cloud platforms",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 1250,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 1,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring",
+    "billing",
+    "payments"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "\ud83d\udcb0 Billing & Payments knowledge for cloud platforms",
+  "slug": "kdeldycke-awesome-billing"
+}

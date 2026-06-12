@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/sriram9573/block-chain-of-custody",
+  "name": "sriram9573/block-chain-of-custody",
+  "description": "Blockchain-based chain of custody system for forensic evidence tracking. Uses SHA-256 hashing and AES-128 encryption to create an immutable, tamper-proof ledger. CLI tool with role-based access control for law enforcement and legal teams.",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-12-14",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support",
+    "evidence",
+    "access"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "Blockchain-based chain of custody system for forensic evidence tracking. Uses SHA-256 hashing and AES-128 encryption to create an immutab...",
+  "slug": "sriram9573-block-chain-of-custody"
+}

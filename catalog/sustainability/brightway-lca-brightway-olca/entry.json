@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brightway-lca/brightway-olca",
+  "name": "brightway-lca/brightway-olca",
+  "description": "Library for interacting with openLCA via the openLCA IPC Server",
+  "sub_domain": "life-cycle-assessment",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 7,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2023-12-15",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Library for interacting with openLCA via the openLCA IPC Server",
+  "slug": "brightway-lca-brightway-olca"
+}

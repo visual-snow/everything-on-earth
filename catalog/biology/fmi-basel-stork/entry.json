@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fmi-basel/stork",
+  "name": "fmi-basel/stork",
+  "description": "A differentiable spiking neural network simulator",
+  "sub_domain": "computational-neuroscience",
+  "score": 84,
+  "score_rationale": "Niche differentiable SNN simulator for model fitting and optimization.",
+  "stars": 25,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-12-05",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 515.3,
+  "discovery_score": 84,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "A differentiable spiking neural network simulator",
+  "slug": "fmi-basel-stork"
+}

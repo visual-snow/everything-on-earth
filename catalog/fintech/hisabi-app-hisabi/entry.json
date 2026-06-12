@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hisabi-app/hisabi",
+  "name": "hisabi-app/hisabi",
+  "description": "\ud83e\udd11 Open-source personal finance tracking web application with SMS parser",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 442,
+  "language": "PHP",
+  "license": "MIT",
+  "last_activity": "2026-02-15",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 51.2,
+  "discovery_score": 5,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "\ud83e\udd11 Open-source personal finance tracking web application with SMS parser",
+  "slug": "hisabi-app-hisabi"
+}

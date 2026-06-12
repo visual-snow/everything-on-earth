@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/danguzzo/circulareee_sdmodel",
+  "name": "danguzzo/circulareee_sdmodel",
+  "description": "Model to verify the behaviour of EEE stocks considering Circular Economy strategies",
+  "sub_domain": "circular-economy-waste",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": null,
+  "license": "GPL-3.0",
+  "last_activity": "2021-03-25",
+  "found_in_domains": [
+    "circular-economy-waste"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "circular-economy",
+    "material-flow",
+    "recycling",
+    "waste-tracking"
+  ],
+  "category": "Circular Economy / Waste \u2014 material flow analysis, recycling optimization, waste tracking",
+  "summary": "Model to verify the behaviour of EEE stocks considering Circular Economy strategies",
+  "slug": "danguzzo-circulareee-sdmodel"
+}

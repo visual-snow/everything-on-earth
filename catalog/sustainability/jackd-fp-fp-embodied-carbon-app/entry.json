@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jackd-fp/fp-embodied-carbon-app",
+  "name": "jackd-fp/fp-embodied-carbon-app",
+  "description": "App to calculate the embodied carbon of a design's structure",
+  "sub_domain": "green-building-certification",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-03-20",
+  "found_in_domains": [
+    "green-building-certification"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "green-building",
+    "leed",
+    "breeam",
+    "embodied-carbon"
+  ],
+  "category": "Green Building Certification \u2014 LEED/BREEAM tools and building material databases",
+  "summary": "App to calculate the embodied carbon of a design's structure",
+  "slug": "jackd-fp-fp-embodied-carbon-app"
+}

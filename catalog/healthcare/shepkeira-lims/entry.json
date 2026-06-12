@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shepkeira/lims",
+  "name": "shepkeira/LIMS",
+  "description": "A user-friendly Laboratory Information Management System (LIMS) development and implementation",
+  "sub_domain": "lab-information-systems",
+  "score": 4,
+  "score_rationale": "On-topic LIMS project, but relatively small and not as clearly established as the primary ecosystem repos.",
+  "stars": 10,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-04-11",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 4,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "A user-friendly Laboratory Information Management System (LIMS) development and implementation",
+  "slug": "shepkeira-lims"
+}

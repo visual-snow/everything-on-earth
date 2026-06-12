@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nf-core/phaseimpute",
+  "name": "nf-core/phaseimpute",
+  "description": "A bioinformatics pipeline to phase and impute genetic data.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 10,
+  "score_rationale": "Canonical nf-core pipeline for genotype phasing and imputation, with a narrow bioinformatics focus and active maintenance.",
+  "stars": 30,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 71.9,
+  "discovery_score": 10,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "A bioinformatics pipeline to phase and impute genetic data.",
+  "slug": "nf-core-phaseimpute"
+}

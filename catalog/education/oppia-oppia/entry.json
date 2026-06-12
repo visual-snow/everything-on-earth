@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/oppia/oppia",
+  "name": "oppia/oppia",
+  "description": "A free, online learning platform to make quality education accessible for all.",
+  "sub_domain": "collaborative-learning",
+  "score": 9,
+  "score_rationale": "Large, active open-source education platform for interactive learning activities.",
+  "stars": 6615,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "collaborative-learning",
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 84.6,
+  "discovery_score": 9,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis",
+    "accessibility",
+    "captioning"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "A free, online learning platform to make quality education accessible for all.",
+  "slug": "oppia-oppia"
+}

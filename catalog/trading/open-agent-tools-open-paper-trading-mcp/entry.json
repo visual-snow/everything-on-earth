@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/open-agent-tools/open-paper-trading-mcp",
+  "name": "open-agent-tools/open-paper-trading-mcp",
+  "description": "Open Paper Trading MCP - A dual-interface paper trading simulation platform with FastAPI REST API and MCP server",
+  "sub_domain": "paper-trading-simulation",
+  "score": 10,
+  "score_rationale": "Explicit paper-trading simulator with REST and MCP surfaces; matches the subdomain exactly.",
+  "stars": 4,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-10-09",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 65.6,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "Open Paper Trading MCP - A dual-interface paper trading simulation platform with FastAPI REST API and MCP...",
+  "slug": "open-agent-tools-open-paper-trading-mcp"
+}

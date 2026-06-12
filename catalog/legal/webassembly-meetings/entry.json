@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/webassembly/meetings",
+  "name": "webassembly/meetings",
+  "description": "WebAssembly meetings (VC or in-person), agendas, and notes",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 531,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "WebAssembly meetings (VC or in-person), agendas, and notes",
+  "slug": "webassembly-meetings"
+}

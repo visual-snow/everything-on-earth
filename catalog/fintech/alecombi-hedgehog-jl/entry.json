@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alecombi/hedgehog.jl",
+  "name": "alecombi/hedgehog.jl",
+  "description": "A derivatives pricing library with AD sensitivities and calibration",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 9,
+  "language": "Julia",
+  "license": "MIT",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 4,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "A derivatives pricing library with AD sensitivities and calibration",
+  "slug": "alecombi-hedgehog-jl"
+}

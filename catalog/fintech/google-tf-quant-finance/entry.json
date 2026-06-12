@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/google/tf-quant-finance",
+  "name": "google/tf-quant-finance",
+  "description": "High-performance TensorFlow library for quantitative finance.",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 5271,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-12",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 65.8,
+  "discovery_score": 6,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "High-performance TensorFlow library for quantitative finance.",
+  "slug": "google-tf-quant-finance"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ossf/foundation",
+  "name": "ossf/foundation",
+  "description": "OpenSSF Governance and Legal Docs",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 76,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2025-09-09",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 39.1,
+  "discovery_score": 4,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "OpenSSF Governance and Legal Docs",
+  "slug": "ossf-foundation"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kratsz/cape-criticalassessmentofproteinengineering",
+  "name": "kratsz/cape-criticalassessmentofproteinengineering",
+  "description": "Official Repository for Critical Assessment of Protein Engineering(CAPE)",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 6,
+  "score_rationale": "Biology-facing and directly about protein engineering, but more of a benchmark/archive than a reusable engineering framework.",
+  "stars": 86,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-22",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 51.5,
+  "discovery_score": 6,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Official Repository for Critical Assessment of Protein Engineering(CAPE)",
+  "slug": "kratsz-cape-criticalassessmentofproteinengineering"
+}

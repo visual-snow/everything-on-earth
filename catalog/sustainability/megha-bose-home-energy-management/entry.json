@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/megha-bose/home-energy-management",
+  "name": "megha-bose/home-energy-management",
+  "description": "Home energy multi-agent recommender framework with demand response and power limit consideration.",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 20,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2022-11-18",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 34.6,
+  "discovery_score": 4,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Home energy multi-agent recommender framework with demand response and power limit consideration.",
+  "slug": "megha-bose-home-energy-management"
+}

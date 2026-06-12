@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/polakowo/vectorbt",
+  "name": "polakowo/vectorbt",
+  "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
+  "sub_domain": "backtesting-frameworks",
+  "score": 10,
+  "score_rationale": "High-signal backtesting engine with strong adoption, active maintenance, and a clear focus on trading research.",
+  "stars": 6973,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 90.7,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
+  "slug": "polakowo-vectorbt"
+}

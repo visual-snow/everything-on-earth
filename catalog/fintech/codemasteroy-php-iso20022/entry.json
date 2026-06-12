@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/codemasteroy/php-iso20022",
+  "name": "codemasteroy/php-iso20022",
+  "description": "ISO 20022 XML Message generation class",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 4,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2014-06-30",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "ISO 20022 XML Message generation class",
+  "slug": "codemasteroy-php-iso20022"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/digitalcredentials/signing-service",
+  "name": "digitalcredentials/signing-service",
+  "description": "Minimal VC-API Verifiable Credential signing service (for Node.js)",
+  "sub_domain": "credentialing-certification",
+  "score": 6,
+  "score_rationale": "Minimal VC-API signing service for credential issuance pipelines; directly useful but narrower in scope.",
+  "stars": 4,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-07-31",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 41.6,
+  "discovery_score": 6,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "Minimal VC-API Verifiable Credential signing service (for Node.js)",
+  "slug": "digitalcredentials-signing-service"
+}

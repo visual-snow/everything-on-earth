@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lawvable/awesome-legal-skills",
+  "name": "lawvable/awesome-legal-skills",
+  "description": "A curated list of awesome Agent Skills for automating legal work",
+  "sub_domain": "curated-lists-meta-sweep",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 210,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 42.6,
+  "discovery_score": 4,
+  "tags": [
+    "awesome-list",
+    "legal-data",
+    "legal-nlp",
+    "privacy"
+  ],
+  "category": "Curated Lists / Meta Sweep \u2014 awesome lists, GitHub topics, canonical meta-sources",
+  "summary": "A curated list of awesome Agent Skills for automating legal work",
+  "slug": "lawvable-awesome-legal-skills"
+}

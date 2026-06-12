@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ecampostrini/iso8583lib",
+  "name": "ecampostrini/iso8583lib",
+  "description": "C++ library to work with Iso8583 messages",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 11,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2018-09-22",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 26.6,
+  "discovery_score": 3,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "C++ library to work with Iso8583 messages",
+  "slug": "ecampostrini-iso8583lib"
+}

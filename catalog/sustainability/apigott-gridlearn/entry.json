@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/apigott/gridlearn",
+  "name": "apigott/gridlearn",
+  "description": "Official reinforcement learning environment for demand response and grid services. This repository is based on, but distinct from the original branch: github.com/intellegent-environments-lab/CityLearn.",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; fork penalty.",
+  "stars": 30,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2021-10-13",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 29.9,
+  "discovery_score": 3,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Official reinforcement learning environment for demand response and grid services. This repository is based on, but distinct from the ori...",
+  "slug": "apigott-gridlearn"
+}

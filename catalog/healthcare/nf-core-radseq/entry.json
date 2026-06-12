@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nf-core/radseq",
+  "name": "nf-core/radseq",
+  "description": "Variant-calling pipeline for Restriction site-associated DNA sequencing (RADseq).",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 5,
+  "score_rationale": "Well-scoped sequencing analysis workflow for RAD-seq variant calling.",
+  "stars": 7,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2025-06-03",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 37.2,
+  "discovery_score": 5,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Variant-calling pipeline for Restriction site-associated DNA sequencing (RADseq).",
+  "slug": "nf-core-radseq"
+}

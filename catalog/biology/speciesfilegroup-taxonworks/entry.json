@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/speciesfilegroup/taxonworks",
+  "name": "speciesfilegroup/taxonworks",
+  "description": "Workbench for biodiversity informatics.",
+  "sub_domain": "biodiversity-informatics",
+  "score": 10,
+  "score_rationale": "This is a core biodiversity informatics workbench with broad support for taxonomy, nomenclature, specimens, and collections.",
+  "stars": 107,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 76.3,
+  "discovery_score": 10,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Workbench for biodiversity informatics.",
+  "slug": "speciesfilegroup-taxonworks"
+}

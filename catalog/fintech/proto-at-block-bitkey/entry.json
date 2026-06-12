@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/proto-at-block/bitkey",
+  "name": "proto-at-block/bitkey",
+  "description": "Bitkey is a self-custody bitcoin wallet with an app, hardware, and recovery tools.",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 200,
+  "language": "Kotlin",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 48.4,
+  "discovery_score": 5,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Bitkey is a self-custody bitcoin wallet with an app, hardware, and recovery tools.",
+  "slug": "proto-at-block-bitkey"
+}

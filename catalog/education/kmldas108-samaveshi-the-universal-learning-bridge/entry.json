@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kmldas108/samaveshi-the-universal-learning-bridge",
+  "name": "kmldas108/Samaveshi-The-Universal-Learning-Bridge",
+  "description": "A multimodal accessibility platform that breaks down every barrier - language, disability, comprehension, and context - to make education truly universal.",
+  "sub_domain": "accessibility-inclusive-education",
+  "score": 5,
+  "score_rationale": "Very direct inclusive-education concept, but still early-stage with no adoption signal yet.",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-12-10",
+  "found_in_domains": [
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "A multimodal accessibility platform that breaks down every barrier - language, disability, comprehension, and context - to make education...",
+  "slug": "kmldas108-samaveshi-the-universal-learning-bridge"
+}

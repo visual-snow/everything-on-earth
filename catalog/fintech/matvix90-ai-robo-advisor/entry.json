@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/matvix90/ai-robo-advisor",
+  "name": "matvix90/ai-robo-advisor",
+  "description": "AI Robo-Advisor",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 46,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-10-31",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 31.4,
+  "discovery_score": 3,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "AI Robo-Advisor",
+  "slug": "matvix90-ai-robo-advisor"
+}

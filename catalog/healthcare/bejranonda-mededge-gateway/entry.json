@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/bejranonda/mededge-gateway",
+  "name": "bejranonda/MedEdge-Gateway",
+  "description": "Production-grade Medical Device IoT Platform. Real-time Clinical AI anomaly detection. FHIR R4 healthcare interoperability. Edge Gateway processing. Modbus -> MQTT -> FHIR integration. SignalR dashboards. ASP.NET Core innovation.",
+  "sub_domain": "wearable-iot-health",
+  "score": 8,
+  "score_rationale": "Direct medical device IoT gateway with FHIR interoperability and anomaly detection; strongly aligned with wearable/device health pipelines.",
+  "stars": 0,
+  "language": "C#",
+  "license": null,
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring",
+    "fhir",
+    "interoperability"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "Production-grade Medical Device IoT Platform. Real-time Clinical AI anomaly detection. FHIR R4 healthcare interoperability. Edge Gateway...",
+  "slug": "bejranonda-mededge-gateway"
+}

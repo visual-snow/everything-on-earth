@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/revbayes/revbayes",
+  "name": "revbayes/revbayes",
+  "description": "Bayesian Phylogenetic Inference Using Graphical Models and an Interactive Model-Specification Language",
+  "sub_domain": "phylogenetics",
+  "score": 10,
+  "score_rationale": "A major Bayesian phylogenetics platform with an active codebase and a clear fit for advanced evolutionary inference workflows.",
+  "stars": 80,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-11",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 75.3,
+  "discovery_score": 10,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Bayesian Phylogenetic Inference Using Graphical Models and an Interactive Model-Specification Language",
+  "slug": "revbayes-revbayes"
+}

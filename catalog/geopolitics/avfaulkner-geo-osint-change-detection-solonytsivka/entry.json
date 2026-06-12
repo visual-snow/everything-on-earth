@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/avfaulkner/geo-osint-change-detection-solonytsivka",
+  "name": "avfaulkner/geo-osint-change-detection-solonytsivka",
+  "description": "Open-source GEOINT/OSINT analysis using Sentinel-1 SAR and Sentinel-2 optical imagery to detect surface change in conflict-adjacent areas.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-10-18",
+  "sub_domain": "geoint-tools",
+  "score": 8,
+  "score_rationale": "Conflict-adjacent GEOINT/OSINT change-detection workflow with a strong imagery-analysis fit.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "geoint",
+    "osint",
+    "change-detection",
+    "sentinel"
+  ],
+  "category": "Change Detection",
+  "summary": "Sentinel-based GEOINT workflow for conflict-adjacent surface change detection.",
+  "slug": "avfaulkner-geo-osint-change-detection-solonytsivka"
+}

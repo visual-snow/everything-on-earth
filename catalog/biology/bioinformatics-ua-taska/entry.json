@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bioinformatics-ua/taska",
+  "name": "bioinformatics-ua/taska",
+  "description": "A modular and easily extendable system for repeatable workflows.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 7,
+  "score_rationale": "Bioinformatics-specific workflow platform that mixes manual task coordination with computational pipelines.",
+  "stars": 30,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2018-11-08",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 53.9,
+  "discovery_score": 7,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "A modular and easily extendable system for repeatable workflows.",
+  "slug": "bioinformatics-ua-taska"
+}

@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/pirimid/financial-documents-ocr-deep-learning",
+  "name": "pirimid/financial-documents-ocr-deep-learning",
+  "description": "No description provided.",
+  "sub_domain": "financial-document-processing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 42,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "financial document processing open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 25.1,
+  "discovery_score": 2,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "No description provided.",
+  "slug": "pirimid-financial-documents-ocr-deep-learning"
+}

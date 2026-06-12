@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/icbi-lab/nextneopi",
+  "name": "icbi-lab/nextNEOpi",
+  "description": "nextNEOpi: a comprehensive pipeline for computational neoantigen prediction",
+  "sub_domain": "immunoinformatics",
+  "score": 9,
+  "score_rationale": "Comprehensive and actively maintained neoantigen prediction workflow with broad sequencing-input coverage.",
+  "stars": 85,
+  "language": "Nextflow",
+  "license": "NOASSERTION",
+  "last_activity": "2025-06-06",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 69.5,
+  "discovery_score": 9,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "nextNEOpi: a comprehensive pipeline for computational neoantigen prediction",
+  "slug": "icbi-lab-nextneopi"
+}

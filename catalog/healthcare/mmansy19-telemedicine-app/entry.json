@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mmansy19/telemedicine-app",
+  "name": "MMansy19/Telemedicine-App",
+  "description": "A telemedicine platform designed to connect patients with certified doctors via secure online consultations.",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 7,
+  "score_rationale": "Direct telemedicine app with current activity, solid stars, and a product-shaped feature set.",
+  "stars": 33,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2025-10-03",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 54.3,
+  "discovery_score": 7,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video",
+    "patient-records"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "A telemedicine platform designed to connect patients with certified doctors via secure online consultations.",
+  "slug": "mmansy19-telemedicine-app"
+}

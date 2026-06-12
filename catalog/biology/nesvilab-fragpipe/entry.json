@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nesvilab/fragpipe",
+  "name": "Nesvilab/FragPipe",
+  "description": "A cross-platform proteomics data analysis suite",
+  "sub_domain": "proteomics",
+  "score": 95,
+  "score_rationale": "End-to-end proteomics suite built around MSFragger and adjacent workflows.",
+  "stars": 282,
+  "language": "Java",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 589.6,
+  "discovery_score": 95,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "A cross-platform proteomics data analysis suite",
+  "slug": "nesvilab-fragpipe"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/hirsch-lab/mhealth",
+  "name": "hirsch-lab/mhealth",
+  "description": "Data analysis and visualization for health data from wearable devices",
+  "sub_domain": "wearable-iot-health",
+  "score": 5,
+  "score_rationale": "Wearable-device data analysis and visualization is relevant, but this is more of a research utility than a full health platform.",
+  "stars": 6,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-08-12",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 36.8,
+  "discovery_score": 5,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring",
+    "lab"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "Data analysis and visualization for health data from wearable devices",
+  "slug": "hirsch-lab-mhealth"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/useautumn/autumn",
+  "name": "useautumn/autumn",
+  "description": "Autumn is an open-source pricing & billing platform",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 2428,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 57.1,
+  "discovery_score": 5,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "Autumn is an open-source pricing & billing platform",
+  "slug": "useautumn-autumn"
+}

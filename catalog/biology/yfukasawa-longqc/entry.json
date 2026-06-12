@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yfukasawa/longqc",
+  "name": "yfukasawa/longqc",
+  "description": "LongQC is a tool for the data quality control of the PacBio and ONT long reads.",
+  "sub_domain": "long-read-sequencing",
+  "score": 8,
+  "score_rationale": "Dedicated QC tool for PacBio and ONT long reads, making it a strong fit for long-read analysis.",
+  "stars": 180,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 66.1,
+  "discovery_score": 8,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "LongQC is a tool for the data quality control of the PacBio and ONT long reads.",
+  "slug": "yfukasawa-longqc"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openconceptlab/oclmap",
+  "name": "OpenConceptLab/oclmap",
+  "description": "OCL Mapper (beta): an open-source AI-supported terminology mapping solution for the global community",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 8,
+  "score_rationale": "Terminology mapping tool in the Open Concept Lab ecosystem; directly relevant to crosswalk and mapping workflows.",
+  "stars": 9,
+  "language": "JavaScript",
+  "license": "MPL-2.0",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 56.0,
+  "discovery_score": 8,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "OCL Mapper (beta): an open-source AI-supported terminology mapping solution for the global community",
+  "slug": "openconceptlab-oclmap"
+}

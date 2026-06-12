@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+  "name": "paperswithbacktest/awesome-systematic-trading",
+  "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+  "sub_domain": "backtesting-frameworks",
+  "score": 9,
+  "score_rationale": "Central curated index for systematic trading libraries and backtesting tools; useful as a discovery hub for the subdomain.",
+  "stars": 7495,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-01-22",
+  "found_in_domains": [
+    "backtesting-frameworks",
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 85.0,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+  "slug": "paperswithbacktest-awesome-systematic-trading"
+}

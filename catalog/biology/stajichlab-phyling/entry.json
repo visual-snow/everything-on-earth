@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stajichlab/phyling",
+  "name": "stajichlab/phyling",
+  "description": "Phyling: phylogenetic inference from annotated genomes",
+  "sub_domain": "phylogenetics",
+  "score": 9,
+  "score_rationale": "It is a direct phylogenetic inference workflow from annotated genomes and fits the requested scope cleanly.",
+  "stars": 32,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 66.1,
+  "discovery_score": 9,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Phyling: phylogenetic inference from annotated genomes",
+  "slug": "stajichlab-phyling"
+}

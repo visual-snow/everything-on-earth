@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cancerbioinformatics/cosmx_lite",
+  "name": "cancerbioinformatics/cosmx_lite",
+  "description": "No description provided.",
+  "sub_domain": "spatial-omics",
+  "score": 7,
+  "score_rationale": "Applied CosMx analysis guide built around a lightweight R/Seurat workflow rather than a generic imaging framework.",
+  "stars": 9,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2024-07-10",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 50.0,
+  "discovery_score": 7,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "No description provided.",
+  "slug": "cancerbioinformatics-cosmx-lite"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/remote-sensing-of-land-resource-lab/pyxccd",
+  "name": "remote-sensing-of-land-resource-lab/pyxccd",
+  "description": "No description provided.",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 31,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 30.0,
+  "discovery_score": 3,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "No description provided.",
+  "slug": "remote-sensing-of-land-resource-lab-pyxccd"
+}

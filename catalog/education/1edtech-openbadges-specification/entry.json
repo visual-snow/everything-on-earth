@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/1edtech/openbadges-specification",
+  "name": "1EdTech/openbadges-specification",
+  "description": "Specs related to Open Badges",
+  "sub_domain": "credentialing-certification",
+  "score": 5,
+  "score_rationale": "Open Badges specification repo; standards reference rather than platform, but central to the ecosystem.",
+  "stars": 205,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 48.5,
+  "discovery_score": 5,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials",
+    "badges"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "Specs related to Open Badges",
+  "slug": "1edtech-openbadges-specification"
+}

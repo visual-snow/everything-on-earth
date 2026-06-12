@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bpowell122/tomodrgn",
+  "name": "bpowell122/tomodrgn",
+  "description": "Neural networks to analyze structural heterogeneity in cryo-electron sub-tomograms",
+  "sub_domain": "structural-biology",
+  "score": 7,
+  "score_rationale": "Sub-tomogram heterogeneity analysis is squarely in scope, but this is a forked repo so it carries a bit less confidence than the canonical upstream.",
+  "stars": 31,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-07-17",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 54.0,
+  "discovery_score": 7,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Neural networks to analyze structural heterogeneity in cryo-electron sub-tomograms",
+  "slug": "bpowell122-tomodrgn"
+}

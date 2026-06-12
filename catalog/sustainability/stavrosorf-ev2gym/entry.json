@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stavrosorf/ev2gym",
+  "name": "stavrosorf/ev2gym",
+  "description": "A V2G Simulation Environment for large scale EV charging optimization",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 192,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-30",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 48.3,
+  "discovery_score": 5,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "A V2G Simulation Environment for large scale EV charging optimization",
+  "slug": "stavrosorf-ev2gym"
+}

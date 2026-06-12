@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/github-education-resources/autograding-io-grader",
+  "name": "github-education-resources/autograding-io-grader",
+  "description": "GitHub Classroom autograding IO grader template",
+  "sub_domain": "interactive-coding-education",
+  "score": 6,
+  "score_rationale": "Narrow but useful autograding component for classroom input-output style assignments.",
+  "stars": 3,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-05-01",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 6,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "classroom",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "GitHub Classroom autograding IO grader template",
+  "slug": "github-education-resources-autograding-io-grader"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/pmbusch/critical-minerals-ev",
+  "name": "pmbusch/Critical-Minerals-EV",
+  "description": "Critical materials and supply-chain modeling for the EV transition.",
+  "sub_domain": "energy-geopolitics",
+  "score": 7,
+  "score_rationale": "Strong energy-transition supply-chain modeling with geopolitical implications.",
+  "stars": 1,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2025-07-15",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 44.4,
+  "tags": [
+    "evs",
+    "critical-minerals",
+    "supply-chain",
+    "modeling"
+  ],
+  "category": "EV Supply Chains",
+  "summary": "Models critical materials for the electric-vehicle transition.",
+  "slug": "pmbusch-critical-minerals-ev"
+}

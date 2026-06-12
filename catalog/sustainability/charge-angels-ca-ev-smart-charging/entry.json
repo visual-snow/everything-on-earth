@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/charge-angels/ca-ev-smart-charging",
+  "name": "charge-angels/ca-ev-smart-charging",
+  "description": "Smart charging algorithms with REST API for electric vehicle fleets",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; fork penalty.",
+  "stars": 5,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2023-03-29",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 24.2,
+  "discovery_score": 3,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Smart charging algorithms with REST API for electric vehicle fleets",
+  "slug": "charge-angels-ca-ev-smart-charging"
+}

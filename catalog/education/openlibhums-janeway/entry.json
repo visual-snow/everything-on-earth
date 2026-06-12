@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openlibhums/janeway",
+  "name": "openlibhums/janeway",
+  "description": "A web-based platform for publishing journals, preprints, conference proceedings, and books.",
+  "sub_domain": "research-academic-publishing",
+  "score": 9,
+  "score_rationale": "Broad scholarly publishing platform covering journals and related publication formats.",
+  "stars": 219,
+  "language": "Python",
+  "license": "GNU Affero General Public License v3.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 72.7,
+  "discovery_score": 9,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "A web-based platform for publishing journals, preprints, conference proceedings, and books.",
+  "slug": "openlibhums-janeway"
+}

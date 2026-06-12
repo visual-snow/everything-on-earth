@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vxtr10/earnings-call-nlp-strategy-v2",
+  "name": "vxtr10/earnings-call-nlp-strategy-v2",
+  "description": "Expanded earnings call stock prediction model by incorporating different industries and dozens more NLP features",
+  "sub_domain": "financial-ai-nlp",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-11-19",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Expanded earnings call stock prediction model by incorporating different industries and dozens more NLP features",
+  "slug": "vxtr10-earnings-call-nlp-strategy-v2"
+}

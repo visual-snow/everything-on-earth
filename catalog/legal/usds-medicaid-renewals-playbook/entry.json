@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/usds/medicaid-renewals-playbook",
+  "name": "usds/medicaid-renewals-playbook",
+  "description": "The USDS Medicaid renewals playbook; a resource for civic technologists engaging in Medicaid renewals work at the state level.",
+  "sub_domain": "access-to-justice-civic-tech",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 10,
+  "language": "HTML",
+  "license": "CC0-1.0",
+  "last_activity": "2025-02-13",
+  "found_in_domains": [
+    "access-to-justice-civic-tech"
+  ],
+  "quality_score": 26.3,
+  "discovery_score": 3,
+  "tags": [
+    "access-to-justice",
+    "legal-aid",
+    "self-help",
+    "civic-tech"
+  ],
+  "category": "Access to Justice / Civic Tech \u2014 legal aid, self-help, pro bono, guided court forms",
+  "summary": "The USDS Medicaid renewals playbook; a resource for civic technologists engaging in Medicaid renewals work at the state level.",
+  "slug": "usds-medicaid-renewals-playbook"
+}

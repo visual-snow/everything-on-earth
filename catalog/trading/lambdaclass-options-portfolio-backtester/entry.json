@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lambdaclass/options_portfolio_backtester",
+  "name": "lambdaclass/options_portfolio_backtester",
+  "description": "Backtester for evaluating options and equity portfolio strategies over historical data. Includes tools for strategy sweeps, tail-risk hedge analysis, and signal-based timing research.",
+  "sub_domain": "options-derivatives",
+  "score": 8,
+  "score_rationale": "Useful for options strategy evaluation and portfolio backtesting, especially where strategy sweeps and hedge analysis matter.",
+  "stars": 201,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "portfolio-risk-management",
+    "options-derivatives"
+  ],
+  "quality_score": 66.4,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility",
+    "portfolio"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "Backtester for evaluating options and equity portfolio strategies over historical data. Includes tools for...",
+  "slug": "lambdaclass-options-portfolio-backtester"
+}

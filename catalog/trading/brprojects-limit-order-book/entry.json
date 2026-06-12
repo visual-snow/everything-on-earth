@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/brprojects/limit-order-book",
+  "name": "brprojects/Limit-Order-Book",
+  "description": "Low latency Limit Order Book and Matching Engine created in C++, able to handle over 1.4 million transactions per second.",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 9,
+  "score_rationale": "Low-latency C++ limit order book with explicit matching-engine focus.",
+  "stars": 150,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2024-06-12",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 71.4,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "Low latency Limit Order Book and Matching Engine created in C++, able to handle over 1.4 million transactions...",
+  "slug": "brprojects-limit-order-book"
+}

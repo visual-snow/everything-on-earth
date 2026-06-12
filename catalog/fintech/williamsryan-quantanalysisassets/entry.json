@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/williamsryan/quantanalysisassets",
+  "name": "williamsryan/quantanalysisassets",
+  "description": "Aggregation of assets related to quantitative finance jobs",
+  "sub_domain": "open-banking-psd2",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-05-18",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "Aggregation of assets related to quantitative finance jobs",
+  "slug": "williamsryan-quantanalysisassets"
+}

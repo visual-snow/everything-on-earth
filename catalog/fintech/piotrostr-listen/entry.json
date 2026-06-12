@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/piotrostr/listen",
+  "name": "piotrostr/listen",
+  "description": "DeFAI Swiss Army Knife",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 1085,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-11-05",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 36.3,
+  "discovery_score": 2,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "DeFAI Swiss Army Knife",
+  "slug": "piotrostr-listen"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/daylily-informatics/daylily-omics-analysis",
+  "name": "daylily-informatics/daylily-omics-analysis",
+  "description": "Operator runbook and workflow repository for Daylily whole-genome analysis.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 8,
+  "score_rationale": "A current Snakemake-based whole-genome analysis workflow with operator-facing CLI and cluster execution support.",
+  "stars": 3,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 52.8,
+  "discovery_score": 8,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "Operator runbook and workflow repository for Daylily whole-genome analysis.",
+  "slug": "daylily-informatics-daylily-omics-analysis"
+}

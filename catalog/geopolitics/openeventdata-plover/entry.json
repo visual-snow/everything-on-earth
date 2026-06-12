@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openeventdata/plover",
+  "name": "openeventdata/PLOVER",
+  "description": "Next-generation event-data ontology for political event extraction and modeling.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 6,
+  "score_rationale": "Foundational event-data ontology that feeds downstream forecasting and early-warning systems.",
+  "stars": 75,
+  "language": "TeX",
+  "license": null,
+  "last_activity": "2024-02-04",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 51.0,
+  "tags": [
+    "event-data",
+    "ontology",
+    "political-extraction",
+    "data-modeling"
+  ],
+  "category": "Event Data Ontology",
+  "summary": "Event-data ontology for political event extraction and modeling.",
+  "slug": "openeventdata-plover"
+}

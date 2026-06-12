@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/utaresearch/claimbuster-spotter",
+  "name": "utaresearch/claimbuster-spotter",
+  "description": "Adversarially trained transformer system for discovering check-worthy factual claims.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 9,
+  "score_rationale": "It is a direct fact-checking and claim-detection system, which is central to propaganda analysis.",
+  "stars": 84,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-11-29",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 69.4,
+  "tags": [
+    "fact-checking",
+    "claim-detection",
+    "misinformation",
+    "transformers"
+  ],
+  "category": "Claim Detection",
+  "summary": "Finds check-worthy factual claims with an adversarial transformer model.",
+  "slug": "utaresearch-claimbuster-spotter"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kurator-org/kurator-validation",
+  "name": "kurator-org/kurator-validation",
+  "description": "Biodiversity data validation services and actors for the Kurator toolkit.",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This repo is explicitly about validating biodiversity data, which is a core informatics workflow.",
+  "stars": 4,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-05-21",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 53.6,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Biodiversity data validation services and actors for the Kurator toolkit.",
+  "slug": "kurator-org-kurator-validation"
+}

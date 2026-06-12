@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/azankl/ontoclick",
+  "name": "azankl/Ontoclick",
+  "description": "Ontoclick - A web browser extension to turn highlighted text into a proper Ontology term.",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 4,
+  "score_rationale": "Browser extension for ontology term lookup, directly relevant to ontology navigation but less core than terminology servers and mapping libraries.",
+  "stars": 13,
+  "language": "HTML",
+  "license": "GPL-3.0",
+  "last_activity": "2023-06-02",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 33.2,
+  "discovery_score": 4,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "Ontoclick - A web browser extension to turn highlighted text into a proper Ontology term.",
+  "slug": "azankl-ontoclick"
+}

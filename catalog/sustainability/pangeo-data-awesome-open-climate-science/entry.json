@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pangeo-data/awesome-open-climate-science",
+  "name": "pangeo-data/awesome-open-climate-science",
+  "description": "Awesome Open Atmospheric, Ocean, and Climate Science",
+  "sub_domain": "climate-data-analysis",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 583,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2025-11-12",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 40.1,
+  "discovery_score": 3,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "Awesome Open Atmospheric, Ocean, and Climate Science",
+  "slug": "pangeo-data-awesome-open-climate-science"
+}

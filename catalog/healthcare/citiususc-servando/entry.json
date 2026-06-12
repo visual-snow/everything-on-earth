@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/citiususc/servando",
+  "name": "citiususc/servando",
+  "description": "An open distributed telemedicine platform",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 8,
+  "score_rationale": "Explicit telemedicine platform from an organization account; a strong fit even though the codebase is older.",
+  "stars": 21,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2015-07-02",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 58.7,
+  "discovery_score": 8,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "An open distributed telemedicine platform",
+  "slug": "citiususc-servando"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/birdnet-team/birdnet",
+  "name": "birdnet-team/birdnet",
+  "description": "A Python library for identifying bird species by their sounds.",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 81,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 39.3,
+  "discovery_score": 4,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "A Python library for identifying bird species by their sounds.",
+  "slug": "birdnet-team-birdnet"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mgnfy-view/soho-orderbook",
+  "name": "mgnfy-view/soho-orderbook",
+  "description": "Soho is a central limit order-book protocol for high frequency, gasless trades on multiple chains including Blast",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2024-10-05",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Soho is a central limit order-book protocol for high frequency, gasless trades on multiple chains including Blast",
+  "slug": "mgnfy-view-soho-orderbook"
+}

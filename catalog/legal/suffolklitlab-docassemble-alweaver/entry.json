@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/suffolklitlab/docassemble-alweaver",
+  "name": "suffolklitlab/docassemble-alweaver",
+  "description": "A tool to help quickly generate draft interviews from an existing document (pdf or DOCX) for the docassemble platform.",
+  "sub_domain": "legal-document-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 24,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 35.2,
+  "discovery_score": 4,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "A tool to help quickly generate draft interviews from an existing document (pdf or DOCX) for the docassemble platform.",
+  "slug": "suffolklitlab-docassemble-alweaver"
+}

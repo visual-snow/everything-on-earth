@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sig-gis/open-geoai",
+  "name": "sig-gis/open-geoai",
+  "description": "Geospatial AI for Everyone",
+  "stars": 8,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2024-10-16",
+  "sub_domain": "geoint-tools",
+  "score": 8,
+  "score_rationale": "GeoAI framework focused on geospatial processing and collaborative analysis.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 55.6,
+  "tags": [
+    "geospatial-ai",
+    "collaboration",
+    "imagery",
+    "analysis"
+  ],
+  "category": "GeoAI Platform",
+  "summary": "GeoAI framework for collaborative geospatial processing and analysis.",
+  "slug": "sig-gis-open-geoai"
+}

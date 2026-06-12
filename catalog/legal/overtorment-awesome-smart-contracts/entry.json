@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/overtorment/awesome-smart-contracts",
+  "name": "overtorment/awesome-smart-contracts",
+  "description": "\ud83d\udd76 List of awesome platforms for smart contracts",
+  "sub_domain": "smart-contracts-legal",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 458,
+  "language": null,
+  "license": null,
+  "last_activity": "2022-11-25",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 45.3,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract-analysis"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "\ud83d\udd76 List of awesome platforms for smart contracts",
+  "slug": "overtorment-awesome-smart-contracts"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bdi-pathogens/epiline",
+  "name": "BDI-pathogens/EpiLine",
+  "description": "Bayesian Modelling in Epidemiology Case Line Lists",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 8,
+  "score_rationale": "Bayesian case line-list modeling for epidemic curve estimation.",
+  "stars": 14,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2025-10-07",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 57.4,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Bayesian Modelling in Epidemiology Case Line Lists",
+  "slug": "bdi-pathogens-epiline"
+}

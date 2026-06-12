@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/linjc16/panacea",
+  "name": "linjc16/Panacea",
+  "description": "Official implementation of Panacea: A foundation model for clinical trial design, recruitment, search, and summarization.",
+  "sub_domain": "clinical-trials-research",
+  "score": 8,
+  "score_rationale": "Broad trial-design and recruitment model with direct relevance to clinical research workflows.",
+  "stars": 18,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-12-24",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 58.2,
+  "discovery_score": 8,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Official implementation of Panacea: A foundation model for clinical trial design, recruitment, search, and summarization.",
+  "slug": "linjc16-panacea"
+}

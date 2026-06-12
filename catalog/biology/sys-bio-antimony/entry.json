@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sys-bio/antimony",
+  "name": "sys-bio/antimony",
+  "description": "Antimony is a human-readable, human-writable modular model definition language for creating SBML models.",
+  "sub_domain": "systems-biology",
+  "score": 9,
+  "score_rationale": "Canonical compact model-definition language and repository for exchanging mechanistic systems-biology models via SBML.",
+  "stars": 19,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 64.4,
+  "discovery_score": 9,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "Antimony is a human-readable, human-writable modular model definition language for creating SBML models.",
+  "slug": "sys-bio-antimony"
+}

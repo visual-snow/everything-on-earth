@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/structurebiology-bnl/cryofem",
+  "name": "structurebiology-bnl/cryofem",
+  "description": "Deep learning based cryoEM density map feature enhancement",
+  "sub_domain": "structural-biology",
+  "score": 7,
+  "score_rationale": "A narrow but on-topic cryo-EM map enhancement repo with a clear structural-biology focus.",
+  "stars": 3,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2024-03-08",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 46.8,
+  "discovery_score": 7,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Deep learning based cryoEM density map feature enhancement",
+  "slug": "structurebiology-bnl-cryofem"
+}

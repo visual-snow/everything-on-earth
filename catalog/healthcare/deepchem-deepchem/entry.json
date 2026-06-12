@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/deepchem/deepchem",
+  "name": "deepchem/deepchem",
+  "description": "Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 10,
+  "score_rationale": "Major open-source ML toolkit for drug discovery with broad coverage of featurization, modeling, and evaluation.",
+  "stars": 6629,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 90.6,
+  "discovery_score": 10,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology",
+  "slug": "deepchem-deepchem"
+}

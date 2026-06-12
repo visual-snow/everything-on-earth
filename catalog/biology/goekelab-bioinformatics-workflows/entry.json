@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/goekelab/bioinformatics-workflows",
+  "name": "goekelab/bioinformatics-workflows",
+  "description": "Proof-of-concept bioinformatics workflows implemented across multiple workflow managers.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 8,
+  "score_rationale": "Directly targets reproducible bioinformatics pipelines across Galaxy, Nextflow, Snakemake, Toil, and other managers.",
+  "stars": 283,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2021-10-27",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 67.6,
+  "discovery_score": 8,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "Proof-of-concept bioinformatics workflows implemented across multiple workflow managers.",
+  "slug": "goekelab-bioinformatics-workflows"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/scottlogic/inferesg",
+  "name": "scottlogic/inferesg",
+  "description": "AI-Augmented ESG Analysis",
+  "sub_domain": "esg-reporting-compliance",
+  "score": 3,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text; fork penalty.",
+  "stars": 13,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-04-03",
+  "found_in_domains": [
+    "esg-reporting-compliance"
+  ],
+  "quality_score": 27.2,
+  "discovery_score": 3,
+  "tags": [
+    "esg",
+    "csrd",
+    "tcfd",
+    "issb"
+  ],
+  "category": "ESG Reporting / Compliance \u2014 ESG aggregation and CSRD/TCFD/ISSB reporting tooling",
+  "summary": "AI-Augmented ESG Analysis",
+  "slug": "scottlogic-inferesg"
+}

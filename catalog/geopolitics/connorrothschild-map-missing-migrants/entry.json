@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/connorrothschild/map-missing-migrants",
+  "name": "connorrothschild/map-missing-migrants",
+  "description": "\ud83c\udf0e A project to explore migrants who have been killed or gone missing",
+  "sub_domain": "migration-refugee-data",
+  "score": 6,
+  "score_rationale": "Mapping project focused on migrants who have been killed or gone missing.",
+  "stars": 8,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2020-01-31",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 43.6,
+  "tags": [
+    "migration",
+    "refugees",
+    "missing-migrants",
+    "humanitarian",
+    "mapping"
+  ],
+  "category": "Migration Data Map",
+  "summary": "Map of migrant deaths and disappearances.",
+  "slug": "connorrothschild-map-missing-migrants"
+}

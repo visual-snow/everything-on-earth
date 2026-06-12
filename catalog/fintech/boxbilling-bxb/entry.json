@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/boxbilling/bxb",
+  "name": "boxbilling/bxb",
+  "description": "Usage-based billing, solved",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "Usage-based billing, solved",
+  "slug": "boxbilling-bxb"
+}

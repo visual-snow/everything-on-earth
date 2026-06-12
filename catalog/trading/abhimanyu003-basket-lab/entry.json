@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/abhimanyu003/basket-lab",
+  "name": "abhimanyu003/basket-lab",
+  "description": "An interactive Mutual Fund Backtesting & Portfolio Allocation Analyzer",
+  "sub_domain": "portfolio-risk-management",
+  "score": 4,
+  "score_rationale": "Mutual-fund portfolio allocation analyzer; smaller project but still directly tied to portfolio construction.",
+  "stars": 1,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2025-12-11",
+  "found_in_domains": [
+    "portfolio-risk-management"
+  ],
+  "quality_score": 26.4,
+  "tags": [
+    "portfolio",
+    "risk-management",
+    "allocation",
+    "backtesting"
+  ],
+  "category": "Portfolio Optimization",
+  "summary": "An interactive Mutual Fund Backtesting & Portfolio Allocation Analyzer",
+  "slug": "abhimanyu003-basket-lab"
+}

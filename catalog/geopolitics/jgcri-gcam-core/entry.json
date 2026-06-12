@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jgcri/gcam-core",
+  "name": "JGCRI/gcam-core",
+  "description": "GCAM, the Global Change Analysis Model, used for energy-system and policy scenarios.",
+  "sub_domain": "energy-geopolitics",
+  "score": 7,
+  "score_rationale": "Large scenario model frequently used for energy-policy and transition analysis.",
+  "stars": 393,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 62.8,
+  "tags": [
+    "scenarios",
+    "energy",
+    "policy",
+    "climate-modeling"
+  ],
+  "category": "Scenario Modeling",
+  "summary": "Global change model for energy-system and policy scenarios.",
+  "slug": "jgcri-gcam-core"
+}

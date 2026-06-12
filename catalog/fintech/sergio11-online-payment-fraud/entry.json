@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sergio11/online_payment_fraud",
+  "name": "sergio11/online_payment_fraud",
+  "description": "\ud83d\udea8 Fraud Detection with Deep Neural Networks (PoC) \ud83e\udd16 A hands-on personal project to predict fraudulent financial transactions using deep learning. Covers the full pipeline: from exploratory data analysis (EDA) and preprocessing to model training and evaluation. An experimental approach to tackling real-world financial fraud. \ud83d\udcca\ud83d\udd0d",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+  "stars": 13,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-06-21",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 45.2,
+  "discovery_score": 6,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "\ud83d\udea8 Fraud Detection with Deep Neural Networks (PoC) \ud83e\udd16 A hands-on personal project to predict fraudulent financial transactions using deep l...",
+  "slug": "sergio11-online-payment-fraud"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/centrifuge/protocol",
+  "name": "centrifuge/protocol",
+  "description": "Centrifuge Protocol: The open infrastructure for onchain asset management",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 45,
+  "language": "Solidity",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 31.3,
+  "discovery_score": 3,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "Centrifuge Protocol: The open infrastructure for onchain asset management",
+  "slug": "centrifuge-protocol"
+}

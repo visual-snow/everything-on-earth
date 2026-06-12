@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nlp-team-unibo/stance-prediction",
+  "name": "NLP-Team-Unibo/stance-prediction",
+  "description": "Implicit stance prediction on political debates using speech features.",
+  "sub_domain": "political-text-nlp",
+  "score": 7,
+  "score_rationale": "It is explicitly about political debate stance prediction rather than generic NLP.",
+  "stars": 6,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2022-11-28",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 48.8,
+  "tags": [
+    "stance-prediction",
+    "political-debates",
+    "speech-features"
+  ],
+  "category": "Stance Prediction",
+  "summary": "Predicts stance in political debates from speech features.",
+  "slug": "nlp-team-unibo-stance-prediction"
+}

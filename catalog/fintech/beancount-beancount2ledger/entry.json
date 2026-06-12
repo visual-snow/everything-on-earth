@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/beancount/beancount2ledger",
+  "name": "beancount/beancount2ledger",
+  "description": "A converter from Beancount to equivalent Ledger syntax.",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 16,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2022-08-08",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 4,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger",
+    "ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "A converter from Beancount to equivalent Ledger syntax.",
+  "slug": "beancount-beancount2ledger"
+}

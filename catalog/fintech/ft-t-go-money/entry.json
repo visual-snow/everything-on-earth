@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ft-t/go-money",
+  "name": "ft-t/go-money",
+  "description": "Go Money is a opensource personal finances manager",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 268,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 43.4,
+  "discovery_score": 4,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "Go Money is a opensource personal finances manager",
+  "slug": "ft-t-go-money"
+}

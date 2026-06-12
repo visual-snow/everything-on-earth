@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openclinica/openclinica",
+  "name": "OpenClinica/OpenClinica",
+  "description": "OpenClinica is the world's first commercial open source clinical trial software for Electronic Data Capture (EDC) Clinical Data Management (CDM).",
+  "sub_domain": "clinical-trials-research",
+  "score": 10,
+  "score_rationale": "Canonical open-source EDC/CDM platform for trial operations and study data capture.",
+  "stars": 483,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2025-10-28",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 81.5,
+  "discovery_score": 10,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "OpenClinica is the world's first commercial open source clinical trial software for Electronic Data Capture (EDC) Clinical Data Managemen...",
+  "slug": "openclinica-openclinica"
+}

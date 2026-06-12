@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/stocksharp/stocksharp",
+  "name": "StockSharp/StockSharp",
+  "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
+  "sub_domain": "trading-bots-strategy-frameworks",
+  "score": 10,
+  "score_rationale": "Broad multi-market trading platform with strategy designer, backtesting, and live trading coverage.",
+  "stars": 9310,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "trading-bots-strategy-frameworks"
+  ],
+  "quality_score": 91.8,
+  "tags": [
+    "trading-bot",
+    "strategy-framework",
+    "automation"
+  ],
+  "category": "Trading Bot Framework",
+  "summary": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets...",
+  "slug": "stocksharp-stocksharp"
+}

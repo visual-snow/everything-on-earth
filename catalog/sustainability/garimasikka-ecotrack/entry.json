@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/garimasikka/ecotrack",
+  "name": "garimasikka/ecotrack",
+  "description": "Intelligent Tree Mapping and Ecological Planning",
+  "sub_domain": "sustainability-dashboards-viz",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "sustainability-dashboards-viz"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "sdg",
+    "kpi-dashboard",
+    "data-portal",
+    "climate-visualization"
+  ],
+  "category": "Sustainability Dashboards / Visualization \u2014 SDG trackers, environmental KPI dashboards, data portals",
+  "summary": "Intelligent Tree Mapping and Ecological Planning",
+  "slug": "garimasikka-ecotrack"
+}

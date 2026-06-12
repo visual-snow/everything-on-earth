@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ashrafeldawody/online-exam-system",
+  "name": "ashrafeldawody/online-exam-system",
+  "description": "Open source online examination system developed with pure PHP.",
+  "sub_domain": "assessment-testing",
+  "score": 4,
+  "score_rationale": "Simple but directly relevant exam system for educational testing.",
+  "stars": 14,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2022-03-21",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 4,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Open source online examination system developed with pure PHP.",
+  "slug": "ashrafeldawody-online-exam-system"
+}

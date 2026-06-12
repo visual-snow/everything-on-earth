@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kiranonline/online-examination-system",
+  "name": "kiranonline/Online-Examination-System",
+  "description": "Online examination system with user management, exam delivery, results, and feedback.",
+  "sub_domain": "assessment-testing",
+  "score": 5,
+  "score_rationale": "Direct online exam workflow with practical assessment features, though less mature than the flagship platforms.",
+  "stars": 94,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2023-03-04",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 5,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Online examination system with user management, exam delivery, results, and feedback.",
+  "slug": "kiranonline-online-examination-system"
+}

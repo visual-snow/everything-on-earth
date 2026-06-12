@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/theeconomist/fires-in-sudan",
+  "name": "TheEconomist/fires-in-sudan",
+  "description": "Code and data to analyse fire events in Sudan",
+  "stars": 10,
+  "language": "R",
+  "license": null,
+  "last_activity": "2023-11-01",
+  "sub_domain": "conflict-event-tracking",
+  "score": 7,
+  "score_rationale": "A real analysis codebase tying ACLED to conflict monitoring, but scoped to a single study.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 50.3,
+  "tags": [
+    "sudan",
+    "fire-events",
+    "conflict-analysis",
+    "r"
+  ],
+  "category": "Sudan Conflict Analysis",
+  "summary": "Code and data for analyzing fire events in Sudan.",
+  "slug": "theeconomist-fires-in-sudan"
+}

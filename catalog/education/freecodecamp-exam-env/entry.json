@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/freecodecamp/exam-env",
+  "name": "freeCodeCamp/exam-env",
+  "description": "The freeCodeCamp Exam Environment desktop application.",
+  "sub_domain": "assessment-testing",
+  "score": 5,
+  "score_rationale": "Assessment environment tooling used in a nonprofit education context.",
+  "stars": 28,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 41.7,
+  "discovery_score": 5,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "The freeCodeCamp Exam Environment desktop application.",
+  "slug": "freecodecamp-exam-env"
+}

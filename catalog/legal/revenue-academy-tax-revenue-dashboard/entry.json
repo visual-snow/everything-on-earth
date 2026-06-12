@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/revenue-academy/tax-revenue-dashboard",
+  "name": "revenue-academy/tax-revenue-dashboard",
+  "description": "This repository includes latest source code, important source and metadata files, and Tableau files for Tax Revenue Dashboard",
+  "sub_domain": "tax-compliance-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 3,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-03-09",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 10.8,
+  "discovery_score": 1,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat",
+    "tax"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "This repository includes latest source code, important source and metadata files, and Tableau files for Tax Revenue Dashboard",
+  "slug": "revenue-academy-tax-revenue-dashboard"
+}

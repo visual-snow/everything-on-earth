@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sheninthjr/ai-learning-platform",
+  "name": "sheninthjr/ai-learning-platform",
+  "description": "AI Learning Platform is a project that focuses on creating an accessible and personalized online education experience using artificial intelligence.",
+  "sub_domain": "accessibility-inclusive-education",
+  "score": 5,
+  "score_rationale": "Accessible personalized learning platform with moderate community signal and a clear education support angle.",
+  "stars": 24,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2024-09-10",
+  "found_in_domains": [
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 41.2,
+  "discovery_score": 5,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "AI Learning Platform is a project that focuses on creating an accessible and personalized online education experience using artificial in...",
+  "slug": "sheninthjr-ai-learning-platform"
+}

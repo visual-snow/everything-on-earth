@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ohshint/ohshint.gitbook.io",
+  "name": "ohshint/ohshint.gitbook.io",
+  "description": "So what is this all about? Yep, its an OSINT blog and a collection of OSINT resources and tools. Suggestions for new OSINT resources is always welcomed.",
+  "sub_domain": "open-banking-psd2",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 912,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2024-08-01",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 29.7,
+  "discovery_score": 1,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "So what is this all about? Yep, its an OSINT blog and a collection of OSINT resources and tools. Suggestions for new OSINT resources is a...",
+  "slug": "ohshint-ohshint-gitbook-io"
+}

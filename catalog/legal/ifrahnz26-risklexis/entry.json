@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ifrahnz26/risklexis",
+  "name": "ifrahnz26/risklexis",
+  "description": "This project develops an AI-driven tool using transformer-based models (T5) to automate contract clause analysis, classify clauses by risk levels, and provide actionable recommendations for legal professionals.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-01-16",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining",
+    "contract"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "This project develops an AI-driven tool using transformer-based models (T5) to automate contract clause analysis, classify clauses by ris...",
+  "slug": "ifrahnz26-risklexis"
+}

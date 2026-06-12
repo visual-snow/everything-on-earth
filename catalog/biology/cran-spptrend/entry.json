@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cran/spptrend",
+  "name": "cran/spptrend",
+  "description": ":exclamation:\u00a0This\u00a0is\u00a0a\u00a0read-only\u00a0mirror\u00a0of\u00a0the\u00a0CRAN\u00a0R\u00a0package\u00a0repository.  SppTrend\u00a0\u2014\u00a0Analyzing\u00a0Linear\u00a0Trends\u00a0in\u00a0Species\u00a0Occurrence\u00a0Data",
+  "sub_domain": "biodiversity-informatics",
+  "score": 4,
+  "score_rationale": "It fits the topic well, but it is only a read-only CRAN mirror with no real repository activity of its own.",
+  "stars": 0,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-07",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": ":exclamation:\u00a0This\u00a0is\u00a0a\u00a0read-only\u00a0mirror\u00a0of\u00a0the\u00a0CRAN\u00a0R\u00a0package\u00a0repository.  SppTrend\u00a0\u2014\u00a0Analyzing\u00a0Linear\u00a0Trends\u00a0in\u00a0Species\u00a0Occurrence\u00a0Data",
+  "slug": "cran-spptrend"
+}

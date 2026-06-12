@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sagehourihan/clermont",
+  "name": "SageHourihan/clermont",
+  "description": "Clermont is an open source world situation monitor \u2014 a live, aggregated view of the forces shaping our planet.",
+  "stars": 0,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-02-23",
+  "sub_domain": "conflict-event-tracking",
+  "score": 8,
+  "score_rationale": "Open source world situation monitor that tracks global forces and fits event monitoring well.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "world-monitor",
+    "geopolitics",
+    "situation-awareness",
+    "dashboard"
+  ],
+  "category": "World Situation Monitor",
+  "summary": "Open source monitor for live global situations and shifting forces.",
+  "slug": "sagehourihan-clermont"
+}

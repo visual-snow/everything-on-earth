@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jayeshshaw/mindcare",
+  "name": "jayeshshaw/MindCare",
+  "description": "MindCare is a mental health solution that aims to provide users with easy access to resources related to mental wellbeing.",
+  "sub_domain": "mental-health-behavioral",
+  "score": 5,
+  "score_rationale": "Relevant mental-health resource app, but the repo appears smaller and less specialized than the stronger platforms.",
+  "stars": 4,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2023-08-23",
+  "found_in_domains": [
+    "mental-health-behavioral"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 5,
+  "tags": [
+    "mental-health",
+    "behavioral-health",
+    "cbt",
+    "screening"
+  ],
+  "category": "Mental Health, Behavioral Health, CBT, Mood Tracking & Crisis Support",
+  "summary": "MindCare is a mental health solution that aims to provide users with easy access to resources related to mental wellbeing.",
+  "slug": "jayeshshaw-mindcare"
+}

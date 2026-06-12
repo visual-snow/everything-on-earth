@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/slmolenaar/orderbook-simulator-cpp",
+  "name": "SLMolenaar/orderbook-simulator-cpp",
+  "description": "A high-performance C++ orderbook engine with microsecond-level latency, supporting multiple ordertypes, price-time priority matching and real time data integration from Binance",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 9,
+  "score_rationale": "Strong C++ matching engine with microsecond latency and exchange-style semantics.",
+  "stars": 249,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 73.2,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "A high-performance C++ orderbook engine with microsecond-level latency, supporting multiple ordertypes...",
+  "slug": "slmolenaar-orderbook-simulator-cpp"
+}

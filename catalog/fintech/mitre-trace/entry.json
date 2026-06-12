@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mitre/trace",
+  "name": "mitre/trace",
+  "description": "Traversal-driven Risk Assessment of Composite Effects",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 8,
+  "language": null,
+  "license": null,
+  "last_activity": "2020-07-14",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 13.6,
+  "discovery_score": 1,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "Traversal-driven Risk Assessment of Composite Effects",
+  "slug": "mitre-trace"
+}

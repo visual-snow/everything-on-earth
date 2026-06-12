@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ekycsolutions/ekyc-id-flutter",
+  "name": "ekycsolutions/ekyc-id-flutter",
+  "description": "An easy to use SDK for developing Identity Verification for KYC process. With this SDK, developers can quickly integrate KYC process into their Flutter apps.",
+  "sub_domain": "aml-kyc-identity",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 42,
+  "language": "Dart",
+  "license": null,
+  "last_activity": "2024-04-10",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 37.1,
+  "discovery_score": 4,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity"
+  ],
+  "category": "AML / KYC / Identity",
+  "summary": "An easy to use SDK for developing Identity Verification for KYC process. With this SDK, developers can quickly integrate KYC process into...",
+  "slug": "ekycsolutions-ekyc-id-flutter"
+}

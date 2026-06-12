@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/federal-courts-software-factory/open-case-filing-system",
+  "name": "federal-courts-software-factory/open-case-filing-system",
+  "description": "A worthy contender in the race for a replacement to the Case Management / Electronic Case Filing System.",
+  "sub_domain": "court-case-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 14,
+  "language": "Rust",
+  "license": "CC0-1.0",
+  "last_activity": "2024-05-08",
+  "found_in_domains": [
+    "court-case-management"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 4,
+  "tags": [
+    "court-case-management",
+    "e-filing",
+    "docket-management",
+    "judicial-workflow",
+    "court-data",
+    "filing"
+  ],
+  "category": "Court / Case Management \u2014 docketing, e-filing, case tracking, judicial workflow",
+  "summary": "A worthy contender in the race for a replacement to the Case Management / Electronic Case Filing System.",
+  "slug": "federal-courts-software-factory-open-case-filing-system"
+}

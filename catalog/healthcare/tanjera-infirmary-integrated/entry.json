@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tanjera/infirmary-integrated",
+  "name": "tanjera/infirmary-integrated",
+  "description": "Infirmary Integrated is free and open-source software suite consisting of the Infirmary Integrated Simulator, Scenario Editor, and Development Tools",
+  "sub_domain": "medical-education-simulation",
+  "score": 6,
+  "score_rationale": "Medical device simulator suite that is relevant to training environments.",
+  "stars": 68,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 50.7,
+  "discovery_score": 6,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "Infirmary Integrated is free and open-source software suite consisting of the Infirmary Integrated Simulator, Scenario Editor, and Develo...",
+  "slug": "tanjera-infirmary-integrated"
+}

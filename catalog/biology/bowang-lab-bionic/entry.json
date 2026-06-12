@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bowang-lab/bionic",
+  "name": "bowang-lab/bionic",
+  "description": "Biological Network Integration using Convolutions",
+  "sub_domain": "systems-biology",
+  "score": 7,
+  "score_rationale": "Biological network integration platform using graph convolutions, relevant for network biology analysis rather than generic graph work.",
+  "stars": 64,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-01-17",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 56.5,
+  "discovery_score": 7,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "Biological Network Integration using Convolutions",
+  "slug": "bowang-lab-bionic"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wikieducationfoundation/wikiedudashboard",
+  "name": "WikiEducationFoundation/WikiEduDashboard",
+  "description": "Wiki Education Foundation's Wikipedia course dashboard system",
+  "sub_domain": "collaborative-learning",
+  "score": 9,
+  "score_rationale": "Directly supports wiki-based learning assignments, edit-a-thons, and collaborative editing projects.",
+  "stars": 431,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "collaborative-learning"
+  ],
+  "quality_score": 75.1,
+  "discovery_score": 9,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "Wiki Education Foundation's Wikipedia course dashboard system",
+  "slug": "wikieducationfoundation-wikiedudashboard"
+}

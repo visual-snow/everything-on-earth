@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/jobikinobi/digital-forensics-toolkit",
+  "name": "jobikinobi/digital-forensics-toolkit",
+  "description": "Professional forensic evidence gallery generator for law enforcement. Creates responsive web applications from digital evidence (photos + PDFs) with complete metadata preservation, lazy loading, and multi-agency support.",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-28",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support",
+    "evidence"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "Professional forensic evidence gallery generator for law enforcement. Creates responsive web applications from digital evidence (photos +...",
+  "slug": "jobikinobi-digital-forensics-toolkit"
+}

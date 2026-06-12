@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/hl7-davinci/pdex-formulary-client",
+  "name": "HL7-DaVinci/pdex-formulary-client",
+  "description": "Da Vinci Reference Implementation for Formulary Client",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 7,
+  "score_rationale": "Directly relevant to formulary lookup and medication coverage, which sits inside medication management.",
+  "stars": 3,
+  "language": "Ruby",
+  "license": "Apache-2.0",
+  "last_activity": "2024-10-03",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 46.8,
+  "discovery_score": 7,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety",
+    "hl7"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "Da Vinci Reference Implementation for Formulary Client",
+  "slug": "hl7-davinci-pdex-formulary-client"
+}

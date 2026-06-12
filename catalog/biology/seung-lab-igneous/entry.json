@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/seung-lab/igneous",
+  "name": "seung-lab/igneous",
+  "description": "Neuroglancer-compatible downsampling, meshing, skeletonizing, and transfer tooling.",
+  "sub_domain": "connectomics",
+  "score": 9,
+  "score_rationale": "Core companion infrastructure for preparing large connectomics datasets for Neuroglancer and related workflows.",
+  "stars": 66,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 68.6,
+  "discovery_score": 9,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Neuroglancer-compatible downsampling, meshing, skeletonizing, and transfer tooling.",
+  "slug": "seung-lab-igneous"
+}

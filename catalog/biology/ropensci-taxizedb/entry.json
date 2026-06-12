@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ropensci/taxizedb",
+  "name": "ropensci/taxizedb",
+  "description": "Tools for Working with Taxonomic SQL Databases",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This repo focuses on taxonomic SQL databases, which is a direct fit for taxon lookup and data integration workflows.",
+  "stars": 33,
+  "language": "R",
+  "license": "Other",
+  "last_activity": "2025-10-28",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 60.3,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Tools for Working with Taxonomic SQL Databases",
+  "slug": "ropensci-taxizedb"
+}

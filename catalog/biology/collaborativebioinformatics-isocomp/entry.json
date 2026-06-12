@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/collaborativebioinformatics/isocomp",
+  "name": "collaborativebioinformatics/isocomp",
+  "description": "Isocomp provides tools to compare any number of transcriptome assemblies (GTF + fasta) from long read RNAseq",
+  "sub_domain": "long-read-sequencing",
+  "score": 6,
+  "score_rationale": "Long-read RNA-seq transcriptome comparison tool with a focused analysis role.",
+  "stars": 3,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2024-05-03",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 6,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq",
+    "rna-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "Isocomp provides tools to compare any number of transcriptome assemblies (GTF + fasta) from long read RNAseq",
+  "slug": "collaborativebioinformatics-isocomp"
+}

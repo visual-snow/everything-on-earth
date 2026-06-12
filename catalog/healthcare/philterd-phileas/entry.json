@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/philterd/phileas",
+  "name": "philterd/phileas",
+  "description": "Phileas is a Java library to deidentify and redact PII, PHI, and other sensitive information from text.",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 8,
+  "score_rationale": "Strong underlying redaction engine used by Philter; useful for text and document de-identification.",
+  "stars": 88,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-26",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 63.6,
+  "discovery_score": 8,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "Phileas is a Java library to deidentify and redact PII, PHI, and other sensitive information from text.",
+  "slug": "philterd-phileas"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/hospital-management-system-emr/hospital-management-system-emr-opensource",
+  "name": "hospital-management-system-emr/hospital-management-system-emr-opensource",
+  "description": "A complete open source for electronic healthcare record management in Hospitals, Clinics and Pharmacy. This application is made using ASP.NET MVC, C# , SQL Server.",
+  "sub_domain": "ehr-practice-management",
+  "score": 6,
+  "score_rationale": "Comparable full-stack EHR management project with direct practice-management overlap.",
+  "stars": 55,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "ehr-practice-management"
+  ],
+  "quality_score": 50.0,
+  "discovery_score": 6,
+  "tags": [
+    "ehr",
+    "emr",
+    "patient-records",
+    "practice-management",
+    "pharmacy"
+  ],
+  "category": "Electronic Health Records (EHR), Clinical Documentation & Practice Management",
+  "summary": "A complete open source for electronic healthcare record management in Hospitals, Clinics and Pharmacy. This application is made using ASP...",
+  "slug": "hospital-management-system-emr-hospital-management-system-emr-opensource"
+}

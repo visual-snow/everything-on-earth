@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/wardle/hades",
+  "name": "wardle/hades",
+  "description": "A FHIR terminology server.",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 8,
+  "score_rationale": "Direct FHIR terminology server implementation with active development and clear fit for terminology infrastructure.",
+  "stars": 47,
+  "language": "Clojure",
+  "license": "EPL-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 61.4,
+  "discovery_score": 8,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "fhir"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "A FHIR terminology server.",
+  "slug": "wardle-hades"
+}

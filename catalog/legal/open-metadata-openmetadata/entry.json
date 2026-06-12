@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/open-metadata/openmetadata",
+  "name": "open-metadata/openmetadata",
+  "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 9008,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 61.6,
+  "discovery_score": 5,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance",
+    "discovery"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata rep...",
+  "slug": "open-metadata-openmetadata"
+}

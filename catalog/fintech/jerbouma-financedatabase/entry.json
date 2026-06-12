@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/jerbouma/financedatabase",
+  "name": "jerbouma/financedatabase",
+  "description": "This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.",
+  "sub_domain": "financial-market-data",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 7255,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "financial-market-data",
+    "financial-data-standards"
+  ],
+  "quality_score": 60.9,
+  "discovery_score": 5,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.",
+  "slug": "jerbouma-financedatabase"
+}

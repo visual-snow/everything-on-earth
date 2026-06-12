@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kmayerb/tcrdist3",
+  "name": "kmayerb/tcrdist3",
+  "description": "flexible CDR based distance metrics",
+  "sub_domain": "immunoinformatics",
+  "score": 9,
+  "score_rationale": "Canonical TCR repertoire analysis toolkit with active maintenance and a clear immunoinformatics fit.",
+  "stars": 71,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-12-16",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 68.9,
+  "discovery_score": 9,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "flexible CDR based distance metrics",
+  "slug": "kmayerb-tcrdist3"
+}

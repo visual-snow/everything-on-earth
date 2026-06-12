@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/safe-graph/gnn-fakenews",
+  "name": "safe-graph/GNN-FakeNews",
+  "description": "A collection of GNN-based fake news detection models.",
+  "sub_domain": "social-media-influence",
+  "score": 8,
+  "score_rationale": "Fake-news detection is a core signal for influence operations and coordinated social manipulation.",
+  "stars": 546,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-11",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 69.9,
+  "tags": [
+    "fake-news",
+    "graph-neural-networks",
+    "misinformation",
+    "detection"
+  ],
+  "category": "Fake News Detection",
+  "summary": "GNN models for fake-news detection.",
+  "slug": "safe-graph-gnn-fakenews"
+}

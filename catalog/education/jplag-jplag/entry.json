@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jplag/jplag",
+  "name": "jplag/JPlag",
+  "description": "State-of-the-art source code plagiarism and collusion detection for sets of programs.",
+  "sub_domain": "assessment-testing",
+  "score": 10,
+  "score_rationale": "High-signal academic integrity tool with strong fit for plagiarism and collusion detection in education.",
+  "stars": 1844,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 86.1,
+  "discovery_score": 10,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "State-of-the-art source code plagiarism and collusion detection for sets of programs.",
+  "slug": "jplag-jplag"
+}

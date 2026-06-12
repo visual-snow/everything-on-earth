@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/senresearch/diseaseoutbreak.jl",
+  "name": "senresearch/DiseaseOutbreak.jl",
+  "description": "Julia tools for simulating and fitting disease-outbreak models.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 7,
+  "score_rationale": "On-topic outbreak modeling package, but it is stale and has no visible adoption signal.",
+  "stars": 0,
+  "language": "Julia",
+  "license": "MIT",
+  "last_activity": "2020-05-14",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Julia tools for simulating and fitting disease-outbreak models.",
+  "slug": "senresearch-diseaseoutbreak-jl"
+}

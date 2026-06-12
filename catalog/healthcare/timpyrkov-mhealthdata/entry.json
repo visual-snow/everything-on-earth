@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/timpyrkov/mhealthdata",
+  "name": "timpyrkov/mhealthdata",
+  "description": "mobile and wearable health app data parsers",
+  "sub_domain": "wearable-iot-health",
+  "score": 5,
+  "score_rationale": "Data parsing for mobile and wearable health apps is relevant, though it is more of a supporting library than a complete platform.",
+  "stars": 5,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-10-01",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 36.2,
+  "discovery_score": 5,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "mobile and wearable health app data parsers",
+  "slug": "timpyrkov-mhealthdata"
+}

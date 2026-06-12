@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/blockchain-etl/awesome-bigquery-views",
+  "name": "blockchain-etl/awesome-bigquery-views",
+  "description": "Useful SQL queries for Blockchain ETL datasets in BigQuery.",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 210,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2022-11-06",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 36.6,
+  "discovery_score": 3,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Useful SQL queries for Blockchain ETL datasets in BigQuery.",
+  "slug": "blockchain-etl-awesome-bigquery-views"
+}

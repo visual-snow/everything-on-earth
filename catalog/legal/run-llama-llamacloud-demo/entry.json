@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/run-llama/llamacloud-demo",
+  "name": "run-llama/llamacloud-demo",
+  "description": "No description provided.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption; penalized for demo-style signals; archived repo penalty.",
+  "stars": 451,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-09-02",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 27.2,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "No description provided.",
+  "slug": "run-llama-llamacloud-demo"
+}

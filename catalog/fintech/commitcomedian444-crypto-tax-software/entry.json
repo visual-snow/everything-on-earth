@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/commitcomedian444/crypto-tax-software",
+  "name": "commitcomedian444/crypto-tax-software",
+  "description": "Welcome to the ultimate guide on cryptotaxsoftware, your go-to software for simplifying cryptocurrency tax reporting! Whether you're a trader, investor, or miner, crypto tax tracker is designed to make compliance a breeze with its powerful features and in",
+  "sub_domain": "tax-calculation-filing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-05-12",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Welcome to the ultimate guide on cryptotaxsoftware, your go-to software for simplifying cryptocurrency tax reporting! Whether you're a tr...",
+  "slug": "commitcomedian444-crypto-tax-software"
+}

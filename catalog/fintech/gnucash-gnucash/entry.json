@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gnucash/gnucash",
+  "name": "gnucash/gnucash",
+  "description": "GnuCash Double-Entry Accounting Program.",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 4148,
+  "language": "C",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 64.9,
+  "discovery_score": 6,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "GnuCash Double-Entry Accounting Program.",
+  "slug": "gnucash-gnucash"
+}

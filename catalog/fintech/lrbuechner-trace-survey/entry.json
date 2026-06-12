@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lrbuechner/trace-survey",
+  "name": "lrbuechner/trace-survey",
+  "description": "Dash / Plotly survey hosted on Heroku",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2022-06-21",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "Dash / Plotly survey hosted on Heroku",
+  "slug": "lrbuechner-trace-survey"
+}

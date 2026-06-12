@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/civicactions/accessibility",
+  "name": "civicactions/accessibility",
+  "description": "CivicActions Accessibility Site: A collection of resources about digital accessibility and how it aligns with open source, CivicTech and Digital Transformation.",
+  "sub_domain": "access-to-justice-civic-tech",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 32,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "access-to-justice-civic-tech"
+  ],
+  "quality_score": 18.1,
+  "discovery_score": 1,
+  "tags": [
+    "access-to-justice",
+    "legal-aid",
+    "self-help",
+    "civic-tech"
+  ],
+  "category": "Access to Justice / Civic Tech \u2014 legal aid, self-help, pro bono, guided court forms",
+  "summary": "CivicActions Accessibility Site: A collection of resources about digital accessibility and how it aligns with open source, CivicTech and...",
+  "slug": "civicactions-accessibility"
+}

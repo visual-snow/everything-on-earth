@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/devabdulsalam/learncha",
+  "name": "devAbdulsalam/learncha",
+  "description": "a gamified learning platform",
+  "sub_domain": "gamification-engagement",
+  "score": 7,
+  "score_rationale": "Direct gamified learning platform with an explicit education mission, including offline and remote-learning emphasis.",
+  "stars": 4,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2024-07-25",
+  "found_in_domains": [
+    "gamification-engagement"
+  ],
+  "quality_score": 47.6,
+  "discovery_score": 7,
+  "tags": [
+    "gamification",
+    "badges",
+    "leaderboards",
+    "engagement"
+  ],
+  "category": "Gamification, Badges, Leaderboards, Educational Games & Classroom Engagement",
+  "summary": "a gamified learning platform",
+  "slug": "devabdulsalam-learncha"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alegaballo/aml",
+  "name": "alegaballo/aml",
+  "description": "Notebooks for the Algorthmic Machine Learning class @ Eurecom",
+  "sub_domain": "climate-finance",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 13,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2017-06-07",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 15.2,
+  "discovery_score": 1,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "Notebooks for the Algorthmic Machine Learning class @ Eurecom",
+  "slug": "alegaballo-aml"
+}

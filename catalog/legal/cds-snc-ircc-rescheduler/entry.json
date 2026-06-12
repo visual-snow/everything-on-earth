@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cds-snc/ircc-rescheduler",
+  "name": "cds-snc/ircc-rescheduler",
+  "description": "\ud83d\ude45\ud83d\uddd3",
+  "sub_domain": "immigration-visa-processing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; archived repo penalty.",
+  "stars": 24,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2019-10-29",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 17.2,
+  "discovery_score": 1,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "\ud83d\ude45\ud83d\uddd3",
+  "slug": "cds-snc-ircc-rescheduler"
+}

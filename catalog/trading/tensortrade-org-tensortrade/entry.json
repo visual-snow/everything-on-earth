@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tensortrade-org/tensortrade",
+  "name": "tensortrade-org/tensortrade",
+  "description": "An open source reinforcement learning framework for training, evaluating, and deploying robust trading agents.",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 9,
+  "score_rationale": "RL trading framework for training, evaluating, and deploying trading agents.",
+  "stars": 6075,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-19",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 84.3,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "An open source reinforcement learning framework for training, evaluating, and deploying robust trading agents.",
+  "slug": "tensortrade-org-tensortrade"
+}

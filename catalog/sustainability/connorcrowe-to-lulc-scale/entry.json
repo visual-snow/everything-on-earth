@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/connorcrowe/to-lulc-scale",
+  "name": "connorcrowe/to-lulc-scale",
+  "description": "This project uses a U-Net CNN to classify land use for the entire City ot Toronto at high-resolution in an automated pipeline.",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 8,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-05-12",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 25.6,
+  "discovery_score": 3,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "This project uses a U-Net CNN to classify land use for the entire City ot Toronto at high-resolution in an automated pipeline.",
+  "slug": "connorcrowe-to-lulc-scale"
+}

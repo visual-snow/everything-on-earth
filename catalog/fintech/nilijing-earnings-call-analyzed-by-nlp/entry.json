@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nilijing/earnings_call_analyzed_by_nlp",
+  "name": "nilijing/earnings_call_analyzed_by_nlp",
+  "description": "Earnings Call Sentiment Analysis. This repository includes my work on extracting the focus area of companies from their earnings calls transcripts.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 16,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-03-21",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Earnings Call Sentiment Analysis. This repository includes my work on extracting the focus area of companies from their earnings calls tr...",
+  "slug": "nilijing-earnings-call-analyzed-by-nlp"
+}

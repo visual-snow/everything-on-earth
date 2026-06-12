@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clima/climaocean.jl",
+  "name": "clima/climaocean.jl",
+  "description": "\ud83c\udf0e Regional-to-global coupled ocean and sea ice simulations based on Oceananigans",
+  "sub_domain": "ocean-climate",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 60,
+  "language": "Julia",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "ocean-climate"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 3,
+  "tags": [
+    "ocean-climate",
+    "blue-carbon",
+    "marine-carbon",
+    "ocean-acidification"
+  ],
+  "category": "Ocean / Climate \u2014 ocean acidification, marine carbon, blue economy tools",
+  "summary": "\ud83c\udf0e Regional-to-global coupled ocean and sea ice simulations based on Oceananigans",
+  "slug": "clima-climaocean-jl"
+}

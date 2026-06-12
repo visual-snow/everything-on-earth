@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/natlabrockies/liaison",
+  "name": "natlabrockies/liaison",
+  "description": "Lifecyle Analysis Integration into Scalable Opensource Numerical models (LiAISON)",
+  "sub_domain": "life-cycle-assessment",
+  "score": 2,
+  "score_rationale": "Matched 3 queries; shows little direct domain terminology.",
+  "stars": 17,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 22.0,
+  "discovery_score": 2,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Lifecyle Analysis Integration into Scalable Opensource Numerical models (LiAISON)",
+  "slug": "natlabrockies-liaison"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "repo_url": "https://github.com/quantopian/zipline",
+    "name": "quantopian/zipline",
+    "description": "Zipline, a Pythonic Algorithmic Trading Library",
+    "sub_domain": "backtesting-frameworks",
+    "score": 10,
+    "score_rationale": "Canonical Python backtesting engine and the primary historical anchor for this subdomain.",
+    "stars": 19545,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-24"
+  },
+  {
+    "repo_url": "https://github.com/stefan-jansen/zipline-reloaded",
+    "name": "stefan-jansen/zipline-reloaded",
+    "description": "Zipline, a Pythonic Algorithmic Trading Library",
+    "sub_domain": "backtesting-frameworks",
+    "score": 9,
+    "score_rationale": "Maintained Zipline fork that preserves the canonical API and remains highly relevant for Python backtesting.",
+    "stars": 1690,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-24"
+  },
+  {
+    "repo_url": "https://github.com/pmorissette/bt",
+    "name": "pmorissette/bt",
+    "description": "bt - flexible backtesting for Python",
+    "sub_domain": "backtesting-frameworks",
+    "score": 9,
+    "score_rationale": "Established flexible backtesting framework with broad recognition and strong fit for the category.",
+    "stars": 2831,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-24"
+  },
+  {
+    "repo_url": "https://github.com/mhallsmoore/qstrader",
+    "name": "mhallsmoore/qstrader",
+    "description": "QuantStart.com - QSTrader backtesting simulation engine.",
+    "sub_domain": "backtesting-frameworks",
+    "score": 9,
+    "score_rationale": "Well-known backtesting simulation engine from QuantStart with enduring relevance in systematic trading.",
+    "stars": 3328,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-22"
+  },
+  {
+    "repo_url": "https://github.com/gbeced/pyalgotrade",
+    "name": "gbeced/pyalgotrade",
+    "description": "Python Algorithmic Trading Library",
+    "sub_domain": "backtesting-frameworks",
+    "score": 8,
+    "score_rationale": "Classic Python algorithmic trading and backtesting library that is still a canonical reference point.",
+    "stars": 4643,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-22"
+  },
+  {
+    "repo_url": "https://github.com/ematvey/pybacktest",
+    "name": "ematvey/pybacktest",
+    "description": "Vectorized backtesting framework in Python / pandas, designed to make your backtesting easier \u2014 compact, simple and fast",
+    "sub_domain": "backtesting-frameworks",
+    "score": 8,
+    "score_rationale": "Compact vectorized backtesting framework that fills another established Python backtesting gap.",
+    "stars": 817,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-12"
+  }
+]

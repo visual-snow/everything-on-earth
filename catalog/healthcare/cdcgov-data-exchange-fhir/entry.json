@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cdcgov/data-exchange-fhir",
+  "name": "CDCgov/data-exchange-fhir",
+  "description": "CDC FHIR data exchange repository.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 8,
+  "score_rationale": "Relevant government-backed FHIR exchange tooling and examples.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "CDC FHIR data exchange repository.",
+  "slug": "cdcgov-data-exchange-fhir"
+}

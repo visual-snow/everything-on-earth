@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/meisin/crudeoilnews-corpus",
+  "name": "meisin/CrudeOilNews-Corpus",
+  "description": "ACE/ERE-like crude-oil news corpus suitable for event extraction.",
+  "sub_domain": "energy-geopolitics",
+  "score": 6,
+  "score_rationale": "Event corpus for oil-news extraction is valuable input to energy-risk and geopolitics analysis.",
+  "stars": 5,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2022-04-07",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 42.2,
+  "tags": [
+    "oil",
+    "news",
+    "corpus",
+    "event-extraction"
+  ],
+  "category": "News Corpus",
+  "summary": "Crude-oil news corpus built for event extraction research.",
+  "slug": "meisin-crudeoilnews-corpus"
+}

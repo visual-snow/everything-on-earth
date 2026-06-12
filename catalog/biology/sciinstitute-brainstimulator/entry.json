@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sciinstitute/brainstimulator",
+  "name": "sciinstitute/brainstimulator",
+  "description": "BrainStimulator is a software package to simulate (transcranial) brain stimulation and is implemented in the scientific problem solving environment that SCIRun offers (version > 5.0).",
+  "sub_domain": "computational-neuroscience",
+  "score": 7,
+  "score_rationale": "Directly supports brain-stimulation simulation workflows, which is a strong fit for the subdomain.",
+  "stars": 8,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-06-28",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 7,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "BrainStimulator is a software package to simulate (transcranial) brain stimulation and is implemented in the scientific problem solving e...",
+  "slug": "sciinstitute-brainstimulator"
+}

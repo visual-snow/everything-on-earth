@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/tools-for-health-data-anonymization",
+  "name": "microsoft/Tools-for-Health-Data-Anonymization",
+  "description": "Tools for Health Data Anonymization is an open-source project that helps anonymize healthcare data, on-premises or in the cloud.",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 8,
+  "score_rationale": "Strong Microsoft toolkit focused on anonymizing healthcare data across FHIR and DICOM workflows.",
+  "stars": 299,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-09-05",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 67.8,
+  "discovery_score": 8,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "Tools for Health Data Anonymization is an open-source project that helps anonymize healthcare data, on-premises or in the cloud.",
+  "slug": "microsoft-tools-for-health-data-anonymization"
+}

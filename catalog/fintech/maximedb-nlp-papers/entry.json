@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maximedb/nlp_papers",
+  "name": "maximedb/nlp_papers",
+  "description": "NLP papers applicable to financial markets",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 135,
+  "language": null,
+  "license": null,
+  "last_activity": "2020-11-23",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 41.1,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "NLP papers applicable to financial markets",
+  "slug": "maximedb-nlp-papers"
+}

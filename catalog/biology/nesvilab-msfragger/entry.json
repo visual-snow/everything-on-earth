@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nesvilab/msfragger",
+  "name": "Nesvilab/MSFragger",
+  "description": "Ultrafast, comprehensive peptide identification for mass spectrometry-based proteomics",
+  "sub_domain": "proteomics",
+  "score": 96,
+  "score_rationale": "High-impact peptide-identification engine for mass-spectrometry proteomics.",
+  "stars": 128,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 592.9,
+  "discovery_score": 96,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "Ultrafast, comprehensive peptide identification for mass spectrometry-based proteomics",
+  "slug": "nesvilab-msfragger"
+}

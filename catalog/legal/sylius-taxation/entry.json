@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sylius/taxation",
+  "name": "sylius/taxation",
+  "description": "[READ-ONLY] Taxation system with multiple categories and rates support, for PHP.",
+  "sub_domain": "tax-compliance-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 11,
+  "language": "PHP",
+  "license": "MIT",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 14.6,
+  "discovery_score": 1,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "[READ-ONLY] Taxation system with multiple categories and rates support, for PHP.",
+  "slug": "sylius-taxation"
+}

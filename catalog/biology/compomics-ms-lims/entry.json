@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/compomics/ms-lims",
+  "name": "CompOmics/ms-lims",
+  "description": "Mass spectrometry based proteomics information management system.",
+  "sub_domain": "proteomics",
+  "score": 5,
+  "score_rationale": "Proteomics-facing LIMS software, but it is more data management infrastructure than an analysis workflow.",
+  "stars": 2,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2022-06-21",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "Mass spectrometry based proteomics information management system.",
+  "slug": "compomics-ms-lims"
+}

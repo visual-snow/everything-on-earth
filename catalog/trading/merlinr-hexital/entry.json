@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/merlinr/hexital",
+  "name": "merlinr/hexital",
+  "description": "Hexital - Incremental Technical Analysis Library",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 3,
+  "score_rationale": "Incremental TA library with a clean focus on indicator computation and updates.",
+  "stars": 26,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-28",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 29.5,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "Hexital - Incremental Technical Analysis Library",
+  "slug": "merlinr-hexital"
+}

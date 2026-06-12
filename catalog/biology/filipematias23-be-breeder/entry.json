@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/filipematias23/be-breeder",
+  "name": "filipematias23/be-breeder",
+  "description": "R/Shiny platform for phenotypic and molecular analyses to simulate and compare plant breeding scenarios.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "It bundles phenotypic and molecular breeding analyses into a practical plant-breeding web app.",
+  "stars": 7,
+  "language": "Roff",
+  "license": null,
+  "last_activity": "2020-03-02",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 55.2,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "R/Shiny platform for phenotypic and molecular analyses to simulate and compare plant breeding scenarios.",
+  "slug": "filipematias23-be-breeder"
+}

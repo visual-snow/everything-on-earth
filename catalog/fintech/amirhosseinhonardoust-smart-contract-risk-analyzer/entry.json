@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/amirhosseinhonardoust/smart-contract-risk-analyzer",
+  "name": "amirhosseinhonardoust/smart-contract-risk-analyzer",
+  "description": "A lightweight static analysis engine for Solidity smart contracts. Extracts code features, detects dangerous patterns (delegatecall, tx.origin, call.value), computes heuristic risk scores, and classifies contracts into Low/Medium/High risk levels. Includes multiple example vulnerabilities and a clean CLI for rapid security assessment.",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; penalized for example-style signals.",
+  "stars": 22,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2025-11-15",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 34.9,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A lightweight static analysis engine for Solidity smart contracts. Extracts code features, detects dangerous patterns (delegatecall, tx.o...",
+  "slug": "amirhosseinhonardoust-smart-contract-risk-analyzer"
+}

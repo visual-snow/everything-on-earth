@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mlmed/torchxrayvision",
+  "name": "mlmed/torchxrayvision",
+  "description": "TorchXRayVision: A library of chest X-ray datasets and models. Classifiers, segmentation, and autoencoders.",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 9,
+  "score_rationale": "Canonical chest X-ray diagnostics library with datasets, pretrained models, and active community use.",
+  "stars": 1126,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2025-09-18",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 78.4,
+  "discovery_score": 9,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "TorchXRayVision: A library of chest X-ray datasets and models. Classifiers, segmentation, and autoencoders.",
+  "slug": "mlmed-torchxrayvision"
+}

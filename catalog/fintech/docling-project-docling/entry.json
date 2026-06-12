@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/docling-project/docling",
+  "name": "docling-project/docling",
+  "description": "Get your documents ready for gen AI",
+  "sub_domain": "financial-document-processing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 56476,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "financial document processing open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 50.0,
+  "discovery_score": 2,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Get your documents ready for gen AI",
+  "slug": "docling-project-docling"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pnnl/cactus",
+  "name": "pnnl/cactus",
+  "description": "LLM Agent that leverages cheminformatics tools to provide informed responses.",
+  "sub_domain": "cheminformatics",
+  "score": 7,
+  "score_rationale": "A drug-discovery-oriented chemistry agent that wraps cheminformatics tools for molecular properties, filters, and screening workflows.",
+  "stars": 49,
+  "language": "Jupyter Notebook",
+  "license": "BSD-2-Clause",
+  "last_activity": "2025-07-07",
+  "found_in_domains": [
+    "cheminformatics"
+  ],
+  "quality_score": 55.6,
+  "discovery_score": 7,
+  "tags": [
+    "cheminformatics",
+    "smiles",
+    "qsar",
+    "drug-discovery"
+  ],
+  "category": "Cheminformatics \u2014 drug discovery and molecular fingerprints",
+  "summary": "LLM Agent that leverages cheminformatics tools to provide informed responses.",
+  "slug": "pnnl-cactus"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/matsengrp/gctree",
+  "name": "matsengrp/gctree",
+  "description": "GCtree: phylogenetic inference of genotype-collapsed trees",
+  "sub_domain": "phylogenetics",
+  "score": 8,
+  "score_rationale": "A specialized inference package for genotype-collapsed trees, which is directly within the phylogenetics target area.",
+  "stars": 18,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-08-27",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 58.2,
+  "discovery_score": 8,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "GCtree: phylogenetic inference of genotype-collapsed trees",
+  "slug": "matsengrp-gctree"
+}

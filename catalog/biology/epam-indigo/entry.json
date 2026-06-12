@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/epam/indigo",
+  "name": "epam/indigo",
+  "description": "Universal cheminformatics toolkit, utilities and database search tools",
+  "sub_domain": "cheminformatics",
+  "score": 8,
+  "score_rationale": "General-purpose cheminformatics toolkit that explicitly covers fingerprinting, substructure search, canonical SMILES, and R-group deconvolution for discovery pipelines.",
+  "stars": 378,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "cheminformatics"
+  ],
+  "quality_score": 68.6,
+  "discovery_score": 8,
+  "tags": [
+    "cheminformatics",
+    "smiles",
+    "qsar",
+    "drug-discovery"
+  ],
+  "category": "Cheminformatics \u2014 drug discovery and molecular fingerprints",
+  "summary": "Universal cheminformatics toolkit, utilities and database search tools",
+  "slug": "epam-indigo"
+}

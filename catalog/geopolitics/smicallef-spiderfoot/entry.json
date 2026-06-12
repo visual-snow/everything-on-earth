@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/smicallef/spiderfoot",
+  "name": "smicallef/spiderfoot",
+  "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+  "stars": 17139,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-12-15",
+  "sub_domain": "osint-frameworks",
+  "score": 10,
+  "score_rationale": "One of the canonical OSINT automation frameworks and a core reference in the space.",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel",
+    "osint-frameworks"
+  ],
+  "quality_score": 93.9,
+  "tags": [
+    "osint",
+    "automation",
+    "threat-intel",
+    "reconnaissance"
+  ],
+  "category": "OSINT Automation",
+  "summary": "Automates OSINT for threat intelligence and attack-surface mapping.",
+  "slug": "smicallef-spiderfoot"
+}

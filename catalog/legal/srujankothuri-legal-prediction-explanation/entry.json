@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/srujankothuri/legal-prediction-explanation",
+  "name": "srujankothuri/legal-prediction-explanation",
+  "description": "AI-powered legal NLP system for Indian court cases: case summarization, judgement outcome prediction (Accepted/Rejected), explainability, and a RAG-based legal chatbot.",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction",
+    "court"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "AI-powered legal NLP system for Indian court cases: case summarization, judgement outcome prediction (Accepted/Rejected), explainability,...",
+  "slug": "srujankothuri-legal-prediction-explanation"
+}

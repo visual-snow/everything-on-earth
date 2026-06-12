@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yeager/autismapps",
+  "name": "yeager/autismapps",
+  "description": "Autism Apps - SvelteKit PWA with 20+ AAC/TEACCH apps for children with autism, ADHD and verbal dyspraxia",
+  "sub_domain": "special-education-therapy",
+  "score": 9,
+  "score_rationale": "Directly targets autism support and classroom-adjacent AAC/TEACCH workflows for children.",
+  "stars": 1,
+  "language": "Svelte",
+  "license": null,
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "Autism Apps - SvelteKit PWA with 20+ AAC/TEACCH apps for children with autism, ADHD and verbal dyspraxia",
+  "slug": "yeager-autismapps"
+}

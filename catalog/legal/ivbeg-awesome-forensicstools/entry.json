@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ivbeg/awesome-forensicstools",
+  "name": "ivbeg/awesome-forensicstools",
+  "description": "Awesome list of digital forensic tools",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 546,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2020-11-16",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 51.9,
+  "discovery_score": 5,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "Awesome list of digital forensic tools",
+  "slug": "ivbeg-awesome-forensicstools"
+}

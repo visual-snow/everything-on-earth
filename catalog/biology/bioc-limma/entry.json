@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bioc/limma",
+  "name": "bioc/limma",
+  "description": "Linear Models for Microarray and RNA-Seq Data",
+  "sub_domain": "transcriptomics",
+  "score": 9,
+  "score_rationale": "Widely used differential expression package for RNA-seq, but the GitHub repo is a Bioconductor mirror so it stays a lower-priority canonical add.",
+  "stars": 1,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-10-30",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Linear Models for Microarray and RNA-Seq Data",
+  "slug": "bioc-limma"
+}

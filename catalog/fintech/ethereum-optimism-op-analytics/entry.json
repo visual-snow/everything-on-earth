@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ethereum-optimism/op-analytics",
+  "name": "ethereum-optimism/op-analytics",
+  "description": "Onchain Data, Utilities, References, and other Analytics on Optimism",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 151,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 41.5,
+  "discovery_score": 4,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Onchain Data, Utilities, References, and other Analytics on Optimism",
+  "slug": "ethereum-optimism-op-analytics"
+}

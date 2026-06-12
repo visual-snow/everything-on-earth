@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/louistsai-csie/awesome-smart-contract-analysis-tools",
+  "name": "louistsai-csie/awesome-smart-contract-analysis-tools",
+  "description": "A curated list of awesome smart contract analysis tools",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 127,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-03-30",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 40.9,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A curated list of awesome smart contract analysis tools",
+  "slug": "louistsai-csie-awesome-smart-contract-analysis-tools"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/databricks-industry-solutions/anti-money-laundering",
+  "name": "databricks-industry-solutions/anti-money-laundering",
+  "description": "AML Solutions at Scale Using Databricks Lakehouse Platform",
+  "sub_domain": "aml-kyc-identity",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 5,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2023-04-11",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 12.2,
+  "discovery_score": 1,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity"
+  ],
+  "category": "AML / KYC / Identity",
+  "summary": "AML Solutions at Scale Using Databricks Lakehouse Platform",
+  "slug": "databricks-industry-solutions-anti-money-laundering"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-aac/sweet-suite-aac",
+  "name": "open-aac/sweet-suite-aac",
+  "description": "Open source web-based AAC app and support suite",
+  "sub_domain": "special-education-therapy",
+  "score": 8,
+  "score_rationale": "Purpose-built AAC application plus support suite; directly relevant to communication support in school settings.",
+  "stars": 6,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2025-04-24",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 54.8,
+  "discovery_score": 8,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "Open source web-based AAC app and support suite",
+  "slug": "open-aac-sweet-suite-aac"
+}

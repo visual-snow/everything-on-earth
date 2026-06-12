@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/29ki/29k",
+  "name": "29ki/29k",
+  "description": "This is the repository of the free, non-profit, open-source and co-created mental health app Aware.",
+  "sub_domain": "mental-health-behavioral",
+  "score": 9,
+  "score_rationale": "Strong core mental-health app with clear user-facing support focus, active maintenance, and open-source distribution.",
+  "stars": 101,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-01-15",
+  "found_in_domains": [
+    "mental-health-behavioral"
+  ],
+  "quality_score": 70.1,
+  "discovery_score": 9,
+  "tags": [
+    "mental-health",
+    "behavioral-health",
+    "cbt",
+    "screening"
+  ],
+  "category": "Mental Health, Behavioral Health, CBT, Mood Tracking & Crisis Support",
+  "summary": "This is the repository of the free, non-profit, open-source and co-created mental health app Aware.",
+  "slug": "29ki-29k"
+}

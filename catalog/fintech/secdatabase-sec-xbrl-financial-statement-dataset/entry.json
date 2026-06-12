@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/secdatabase/sec-xbrl-financial-statement-dataset",
+  "name": "secdatabase/sec-xbrl-financial-statement-dataset",
+  "description": "SECDatabase.com produced this dataset with the text and detailed numeric information of all financial statements. The Dataset is extracted from corporate annual and quarterly reports filed with the SEC using XBRL since January 2009.",
+  "sub_domain": "financial-document-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for dataset-style signals.",
+  "stars": 85,
+  "language": null,
+  "query_hits": 1,
+  "matched_queries": [
+    "sec filing xbrl extraction open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 33.5,
+  "discovery_score": 3,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "SECDatabase.com produced this dataset with the text and detailed numeric information of all financial statements. The Dataset is extracte...",
+  "slug": "secdatabase-sec-xbrl-financial-statement-dataset"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clariah/awesome-humanities-ontologies",
+  "name": "clariah/awesome-humanities-ontologies",
+  "description": "A curated list of ontologies for Digital Humanities",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 128,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2025-02-19",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 34.9,
+  "discovery_score": 3,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "A curated list of ontologies for Digital Humanities",
+  "slug": "clariah-awesome-humanities-ontologies"
+}

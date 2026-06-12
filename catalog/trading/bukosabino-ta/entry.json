@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/bukosabino/ta",
+  "name": "bukosabino/ta",
+  "description": "Technical Analysis Library using Pandas and Numpy",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 5,
+  "score_rationale": "Widely used Python TA library built on Pandas/Numpy with broad indicator coverage and direct relevance.",
+  "stars": 4916,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 59.5,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "Technical Analysis Library using Pandas and Numpy",
+  "slug": "bukosabino-ta"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/accordproject/template-archive",
+  "name": "accordproject/template-archive",
+  "description": "Smart Legal Contracts & Templating System",
+  "sub_domain": "smart-contracts-legal",
+  "score": 6,
+  "score_rationale": "Matched 3 queries; contains 3 domain terms in repo text; has some GitHub adoption; penalized for template-style signals.",
+  "stars": 333,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 56.2,
+  "discovery_score": 6,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract-analysis"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Smart Legal Contracts & Templating System",
+  "slug": "accordproject-template-archive"
+}

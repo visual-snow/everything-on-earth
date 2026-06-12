@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/kartikx/obsidian-finances-parser",
+  "name": "kartikx/obsidian-finances-parser",
+  "description": "A program written in Golang to convert Indian bank statements into a format understood by my Obsidian Budget Management workflow.",
+  "sub_domain": "financial-document-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": "Go",
+  "query_hits": 1,
+  "matched_queries": [
+    "statement parser financial document ai github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "A program written in Golang to convert Indian bank statements into a format understood by my Obsidian Budget Management workflow.",
+  "slug": "kartikx-obsidian-finances-parser"
+}

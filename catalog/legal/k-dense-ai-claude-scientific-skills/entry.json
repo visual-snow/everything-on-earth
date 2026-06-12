@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/k-dense-ai/claude-scientific-skills",
+  "name": "k-dense-ai/claude-scientific-skills",
+  "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+  "sub_domain": "ip-patent-trademark",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 16181,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 45.7,
+  "discovery_score": 2,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+  "slug": "k-dense-ai-claude-scientific-skills"
+}

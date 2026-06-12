@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/opendatalab/earth-agent",
+  "name": "opendatalab/Earth-Agent",
+  "description": "[ICLR 2026] The official implementation of the paper \u201cEarth-Agent: Unlocking the Full Landscape of Earth Observation with Agents\u201d",
+  "stars": 113,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-01",
+  "sub_domain": "geoint-tools",
+  "score": 8,
+  "score_rationale": "Agentic earth-observation toolkit with multiple geospatial analysis capabilities.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 64.5,
+  "tags": [
+    "earth-observation",
+    "agents",
+    "remote-sensing",
+    "ai"
+  ],
+  "category": "Earth Observation Agents",
+  "summary": "Agentic earth-observation implementation from an ICLR 2026 paper.",
+  "slug": "opendatalab-earth-agent"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ablab/quast",
+  "name": "ablab/quast",
+  "description": "Genome assembly evaluation tool",
+  "sub_domain": "genomics",
+  "score": 7,
+  "score_rationale": "Standard assembly QC and evaluation utility for measuring contiguity, misassemblies, and related metrics.",
+  "stars": 507,
+  "language": "AMPL",
+  "license": "NOASSERTION",
+  "last_activity": "2024-11-14",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 63.6,
+  "discovery_score": 7,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Genome assembly evaluation tool",
+  "slug": "ablab-quast"
+}

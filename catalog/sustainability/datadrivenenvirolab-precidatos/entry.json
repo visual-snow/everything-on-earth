@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/datadrivenenvirolab/precidatos",
+  "name": "datadrivenenvirolab/precidatos",
+  "description": "No description provided.",
+  "sub_domain": "climate-finance",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": null,
+  "license": null,
+  "last_activity": "2020-04-26",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "No description provided.",
+  "slug": "datadrivenenvirolab-precidatos"
+}

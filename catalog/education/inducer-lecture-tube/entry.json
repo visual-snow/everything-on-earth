@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/inducer/lecture-tube",
+  "name": "inducer/lecture-tube",
+  "description": "Set of scripts and web stuff for showing recorded lectures online",
+  "sub_domain": "video-lecture-platforms",
+  "score": 7,
+  "score_rationale": "Directly centered on publishing recorded lectures online.",
+  "stars": 9,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2014-12-16",
+  "found_in_domains": [
+    "video-lecture-platforms"
+  ],
+  "quality_score": 50.0,
+  "discovery_score": 7,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "Set of scripts and web stuff for showing recorded lectures online",
+  "slug": "inducer-lecture-tube"
+}

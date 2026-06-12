@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kolmogorovlab/severus",
+  "name": "KolmogorovLab/Severus",
+  "description": "A tool for somatic structural variant calling using long reads",
+  "sub_domain": "long-read-sequencing",
+  "score": 8,
+  "score_rationale": "Focused long-read somatic SV caller with a direct biological use case.",
+  "stars": 166,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 65.8,
+  "discovery_score": 8,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "A tool for somatic structural variant calling using long reads",
+  "slug": "kolmogorovlab-severus"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biodiversitydata-se/repo-overview",
+  "name": "biodiversitydata-se/repo-overview",
+  "description": "Overview of SBDI-related repos",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-12-03",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "Overview of SBDI-related repos",
+  "slug": "biodiversitydata-se-repo-overview"
+}

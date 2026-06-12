@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/insightedge/geospatial-catastrophe-modeling",
+  "name": "insightedge/geospatial-catastrophe-modeling",
+  "description": "Gigaspaces' XAP Catastrophe-Modeling demo is a risk management tool that demonstrates how insurers, reinsurers, private businesses, and government agencies can assess exposure due to natural and man-made catastrophes.",
+  "sub_domain": "insurance-actuarial-tech",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for demo-style signals.",
+  "stars": 1,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2018-09-13",
+  "found_in_domains": [
+    "insurance-actuarial-tech"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "insurance",
+    "actuarial",
+    "claims",
+    "cat-modeling"
+  ],
+  "category": "Insurance / Actuarial Tech",
+  "summary": "Gigaspaces' XAP Catastrophe-Modeling demo is a risk management tool that demonstrates how insurers, reinsurers, private businesses, and g...",
+  "slug": "insightedge-geospatial-catastrophe-modeling"
+}

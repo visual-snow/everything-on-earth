@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/zemse/uniswap-sushiswap-arbitrager",
+  "name": "zemse/uniswap-sushiswap-arbitrager",
+  "description": "\u26a1\ufe0fFlash Arbitrage UniswapV2 and Sushiswap Pairs",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 8,
+  "score_rationale": "Direct Uniswap/Sushiswap arbitrage bot; squarely in the execution tooling bucket.",
+  "stars": 6,
+  "language": "Solidity",
+  "license": null,
+  "last_activity": "2022-03-26",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 54.8,
+  "tags": [
+    "defi",
+    "dex",
+    "mev",
+    "uniswap"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "\u26a1\ufe0fFlash Arbitrage UniswapV2 and Sushiswap Pairs",
+  "slug": "zemse-uniswap-sushiswap-arbitrager"
+}

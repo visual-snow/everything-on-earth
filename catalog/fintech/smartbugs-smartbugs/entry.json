@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/smartbugs/smartbugs",
+  "name": "smartbugs/smartbugs",
+  "description": "SmartBugs: A Framework to Analyze Ethereum Smart Contracts",
+  "sub_domain": "smart-contract-security",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 664,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 52.6,
+  "discovery_score": 5,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "SmartBugs: A Framework to Analyze Ethereum Smart Contracts",
+  "slug": "smartbugs-smartbugs"
+}

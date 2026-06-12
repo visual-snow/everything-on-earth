@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gianfrancobazzani/awesome-advanced-smart-contracts-testing-and-verification",
+  "name": "gianfrancobazzani/awesome-advanced-smart-contracts-testing-and-verification",
+  "description": "A curated collection of tools, frameworks, and methodologies for testing and verifying Solidity smart contracts.",
+  "sub_domain": "smart-contract-security",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for awesome-style signals.",
+  "stars": 78,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-07-31",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 33.2,
+  "discovery_score": 3,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A curated collection of tools, frameworks, and methodologies for testing and verifying Solidity smart contracts.",
+  "slug": "gianfrancobazzani-awesome-advanced-smart-contracts-testing-and-verification"
+}

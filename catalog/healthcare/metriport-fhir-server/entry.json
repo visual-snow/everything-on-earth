@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/metriport/fhir-server",
+  "name": "metriport/fhir-server",
+  "description": "FHIR server for Metriport, an open-source universal API platform.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 7,
+  "score_rationale": "Relevant FHIR server implementation tied to a broader interoperability platform.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "FHIR server for Metriport, an open-source universal API platform.",
+  "slug": "metriport-fhir-server"
+}

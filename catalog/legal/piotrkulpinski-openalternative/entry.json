@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/piotrkulpinski/openalternative",
+  "name": "piotrkulpinski/openalternative",
+  "description": "Curated list of open source alternatives to proprietary software.",
+  "sub_domain": "legal-document-automation",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 5703,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 42.0,
+  "discovery_score": 2,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "Curated list of open source alternatives to proprietary software.",
+  "slug": "piotrkulpinski-openalternative"
+}

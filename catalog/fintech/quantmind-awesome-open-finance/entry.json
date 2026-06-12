@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/quantmind/awesome-open-finance",
+  "name": "quantmind/awesome-open-finance",
+  "description": "A curated list of open finance and open banking resources",
+  "sub_domain": "open-banking-psd2",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 158,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-01-21",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 41.6,
+  "discovery_score": 4,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "A curated list of open finance and open banking resources",
+  "slug": "quantmind-awesome-open-finance"
+}

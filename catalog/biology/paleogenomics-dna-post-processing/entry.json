@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/paleogenomics/dna-post-processing",
+  "name": "Paleogenomics/DNA-Post-Processing",
+  "description": "Post-processing scripts for ancient DNA, including mitochondrial assembly and BAM/VCF handling.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 7,
+  "score_rationale": "Small but clearly aDNA-focused post-processing code used after mapping and consensus steps.",
+  "stars": 4,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2019-11-15",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 47.6,
+  "discovery_score": 7,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Post-processing scripts for ancient DNA, including mitochondrial assembly and BAM/VCF handling.",
+  "slug": "paleogenomics-dna-post-processing"
+}

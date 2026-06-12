@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/proycon/vocage",
+  "name": "proycon/vocage",
+  "description": "A minimalistic spaced-repetition vocabulary trainer for the terminal.",
+  "sub_domain": "language-learning",
+  "score": 8,
+  "score_rationale": "Purpose-built spaced-repetition vocabulary trainer, albeit terminal-based and narrower in scope.",
+  "stars": 187,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2024-07-06",
+  "found_in_domains": [
+    "language-learning"
+  ],
+  "quality_score": 66.2,
+  "discovery_score": 8,
+  "tags": [
+    "language-learning",
+    "flashcards",
+    "vocabulary",
+    "reading-support"
+  ],
+  "category": "Language Learning, Vocabulary Training, Reading Support & Speaking Practice",
+  "summary": "A minimalistic spaced-repetition vocabulary trainer for the terminal.",
+  "slug": "proycon-vocage"
+}

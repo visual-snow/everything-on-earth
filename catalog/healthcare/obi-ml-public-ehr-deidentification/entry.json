@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/obi-ml-public/ehr_deidentification",
+  "name": "obi-ml-public/ehr_deidentification",
+  "description": "Robust de-identification of medical notes using transformer architectures",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 7,
+  "score_rationale": "Modern transformer-based de-identification for medical notes.",
+  "stars": 59,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-06-27",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 56.2,
+  "discovery_score": 7,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding",
+    "ehr"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "Robust de-identification of medical notes using transformer architectures",
+  "slug": "obi-ml-public-ehr-deidentification"
+}

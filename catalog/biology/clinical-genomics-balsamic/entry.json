@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clinical-genomics/balsamic",
+  "name": "clinical-genomics/balsamic",
+  "description": "Bioinformatic Analysis pipeLine for SomAtic Mutations In Cancer",
+  "sub_domain": "clinical-genomics",
+  "score": 8,
+  "score_rationale": "A clinically oriented somatic cancer pipeline that is clearly within the requested scope.",
+  "stars": 58,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "clinical-genomics"
+  ],
+  "quality_score": 62.2,
+  "discovery_score": 8,
+  "tags": [
+    "clinical-genomics",
+    "genomics",
+    "variant-interpretation",
+    "acmg"
+  ],
+  "category": "Clinical Genomics \u2014 variant interpretation and pharmacogenomics",
+  "summary": "Bioinformatic Analysis pipeLine for SomAtic Mutations In Cancer",
+  "slug": "clinical-genomics-balsamic"
+}

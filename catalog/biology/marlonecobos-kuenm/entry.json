@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/marlonecobos/kuenm",
+  "name": "marlonecobos/kuenm",
+  "description": "kuenm: An R package for detailed calibration and construction of Maxent Ecological Niche Models.",
+  "sub_domain": "ecology-conservation",
+  "score": 8,
+  "score_rationale": "Focused Maxent calibration toolkit that streamlines candidate-model selection and transfer analysis.",
+  "stars": 69,
+  "language": "TeX",
+  "license": null,
+  "last_activity": "2023-12-04",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 62.8,
+  "discovery_score": 8,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "kuenm: An R package for detailed calibration and construction of Maxent Ecological Niche Models.",
+  "slug": "marlonecobos-kuenm"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fabioherrera97/protein_engineering_code_center",
+  "name": "fabioherrera97/protein_engineering_code_center",
+  "description": "Guide to machine-learning guided protein engineering with tutorials, reusable code, and external resources.",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 6,
+  "score_rationale": "Useful as a protein-engineering resource hub, but it reads more like a curated code center than a maintained core workflow repo.",
+  "stars": 12,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-06-03",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 44.9,
+  "discovery_score": 6,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Guide to machine-learning guided protein engineering with tutorials, reusable code, and external resources.",
+  "slug": "fabioherrera97-protein-engineering-code-center"
+}

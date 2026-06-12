@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openconceptlab/oclapi2",
+  "name": "OpenConceptLab/oclapi2",
+  "description": "OCL Terminology Service v2 in python/django",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 9,
+  "score_rationale": "Core backend for Open Concept Lab's terminology service, directly centered on health terminology management.",
+  "stars": 19,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 64.4,
+  "discovery_score": 9,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "OCL Terminology Service v2 in python/django",
+  "slug": "openconceptlab-oclapi2"
+}

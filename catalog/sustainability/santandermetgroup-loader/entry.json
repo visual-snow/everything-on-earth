@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/santandermetgroup/loader",
+  "name": "santandermetgroup/loader",
+  "description": "A climate4R package for data access",
+  "sub_domain": "climate-data-analysis",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 13,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 15.2,
+  "discovery_score": 1,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "A climate4R package for data access",
+  "slug": "santandermetgroup-loader"
+}

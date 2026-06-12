@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/chen-friedman/awesome-legaltech",
+  "name": "chen-friedman/awesome-legaltech",
+  "description": "Curated open-source Legal AI & LegalTech \u2014 tools, datasets, benchmarks, and learning resources. Global scope; jurisdiction-tagged.",
+  "sub_domain": "legal-ai-nlp",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for awesome-style signals.",
+  "stars": 6,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2025-09-10",
+  "found_in_domains": [
+    "legal-ai-nlp",
+    "legal-research-case-law",
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 18.8,
+  "discovery_score": 2,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "Curated open-source Legal AI & LegalTech \u2014 tools, datasets, benchmarks, and learning resources. Global scope; jurisdiction-tagged.",
+  "slug": "chen-friedman-awesome-legaltech"
+}

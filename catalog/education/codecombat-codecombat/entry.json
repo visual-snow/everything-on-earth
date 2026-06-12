@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/codecombat/codecombat",
+  "name": "codecombat/codecombat",
+  "description": "Game for learning how to code.",
+  "sub_domain": "k12-stem",
+  "score": 10,
+  "score_rationale": "One of the clearest kid-friendly programming repos, with an explicit game-based coding learning workflow.",
+  "stars": 8451,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "interactive-coding-education",
+    "k12-stem"
+  ],
+  "quality_score": 91.4,
+  "discovery_score": 10,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "k12",
+    "stem"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "Game for learning how to code.",
+  "slug": "codecombat-codecombat"
+}

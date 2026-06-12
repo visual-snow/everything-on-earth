@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fiji/fiji",
+  "name": "fiji/fiji",
+  "description": "A \"batteries-included\" distribution of ImageJ",
+  "sub_domain": "biomedical-imaging",
+  "score": 10,
+  "score_rationale": "Fiji is a canonical microscopy and bioimage-analysis distribution that anchors many biological imaging workflows.",
+  "stars": 942,
+  "language": "Shell",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-26",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 83.8,
+  "discovery_score": 10,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "A \"batteries-included\" distribution of ImageJ",
+  "slug": "fiji-fiji"
+}

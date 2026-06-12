@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gdsaxton/financial-analysis-using-python",
+  "name": "gdsaxton/financial-analysis-using-python",
+  "description": "Cookbook of iPython Notebook Recipes",
+  "sub_domain": "climate-finance",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for notebook-style signals.",
+  "stars": 18,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2020-09-04",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 16.2,
+  "discovery_score": 1,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "Cookbook of iPython Notebook Recipes",
+  "slug": "gdsaxton-financial-analysis-using-python"
+}

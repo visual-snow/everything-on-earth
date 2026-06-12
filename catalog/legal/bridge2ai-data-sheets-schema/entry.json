@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bridge2ai/data-sheets-schema",
+  "name": "bridge2ai/data-sheets-schema",
+  "description": "Datasheets for Datasets, as LinkML Schema",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 5,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 24.2,
+  "discovery_score": 3,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "Datasheets for Datasets, as LinkML Schema",
+  "slug": "bridge2ai-data-sheets-schema"
+}

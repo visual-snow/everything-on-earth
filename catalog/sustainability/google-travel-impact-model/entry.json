@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/google/travel-impact-model",
+  "name": "google/travel-impact-model",
+  "description": "Emission estimation model for flights",
+  "sub_domain": "life-cycle-assessment",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 172,
+  "language": null,
+  "license": "CC-BY-4.0",
+  "last_activity": "2025-10-16",
+  "found_in_domains": [
+    "carbon-accounting-ghg",
+    "life-cycle-assessment"
+  ],
+  "quality_score": 41.9,
+  "discovery_score": 4,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Emission estimation model for flights",
+  "slug": "google-travel-impact-model"
+}

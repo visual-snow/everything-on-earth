@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aokdata/land_cover_classification",
+  "name": "aokdata/land_cover_classification",
+  "description": "A deep learning (neural network) land cover classification project using satellite images (remote sensing).",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 6 domain terms in repo text.",
+  "stars": 34,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-04-20",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 42.4,
+  "discovery_score": 5,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "A deep learning (neural network) land cover classification project using satellite images (remote sensing).",
+  "slug": "aokdata-land-cover-classification"
+}

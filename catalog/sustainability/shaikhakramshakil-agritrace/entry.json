@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shaikhakramshakil/agritrace",
+  "name": "shaikhakramshakil/agritrace",
+  "description": "AI-Enabled Edible Oil Value Chain Platform with Blockchain Traceability",
+  "sub_domain": "supply-chain-sustainability",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Dart",
+  "license": null,
+  "last_activity": "2025-10-26",
+  "found_in_domains": [
+    "supply-chain-sustainability"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "supply-chain",
+    "traceability",
+    "scope-3",
+    "deforestation"
+  ],
+  "category": "Supply Chain Sustainability \u2014 scope 3 traceability, deforestation-free supply chains, fair trade tracking",
+  "summary": "AI-Enabled Edible Oil Value Chain Platform with Blockchain Traceability",
+  "slug": "shaikhakramshakil-agritrace"
+}

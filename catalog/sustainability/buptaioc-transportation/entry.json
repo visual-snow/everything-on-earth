@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/buptaioc/transportation",
+  "name": "buptaioc/transportation",
+  "description": "Data, test cases and codes related to papers in the field of transportation.",
+  "sub_domain": "sustainable-transport",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 19,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 16.4,
+  "discovery_score": 1,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "Data, test cases and codes related to papers in the field of transportation.",
+  "slug": "buptaioc-transportation"
+}

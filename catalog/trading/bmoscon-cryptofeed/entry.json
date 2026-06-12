@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/bmoscon/cryptofeed",
+  "name": "bmoscon/cryptofeed",
+  "description": "Cryptocurrency Exchange Websocket Data Feed Handler",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 8,
+  "score_rationale": "Exchange websocket feed handler with broad venue coverage and connector-adjacent infrastructure.",
+  "stars": 2777,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-02-01",
+  "found_in_domains": [
+    "market-data-feeds",
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 75.5,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "Cryptocurrency Exchange Websocket Data Feed Handler",
+  "slug": "bmoscon-cryptofeed"
+}

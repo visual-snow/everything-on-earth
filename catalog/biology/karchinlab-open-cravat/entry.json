@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/karchinlab/open-cravat",
+  "name": "karchinlab/open-cravat",
+  "description": "A modular annotation tool for genomic variants",
+  "sub_domain": "clinical-genomics",
+  "score": 7,
+  "score_rationale": "It is a broad variant annotation framework that is commonly applicable to clinical interpretation pipelines, though not clinical-only.",
+  "stars": 148,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "clinical-genomics"
+  ],
+  "quality_score": 59.4,
+  "discovery_score": 7,
+  "tags": [
+    "clinical-genomics",
+    "genomics",
+    "variant-interpretation",
+    "acmg"
+  ],
+  "category": "Clinical Genomics \u2014 variant interpretation and pharmacogenomics",
+  "summary": "A modular annotation tool for genomic variants",
+  "slug": "karchinlab-open-cravat"
+}

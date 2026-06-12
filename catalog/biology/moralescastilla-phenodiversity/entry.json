@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/moralescastilla/phenodiversity",
+  "name": "moralescastilla/phenodiversity",
+  "description": "Code utilized in Morales-Castilla et al. (2020) to forecast phenology and climatic suitability for winegrape cultivars over the 1950-2100 period.",
+  "sub_domain": "climate-biology",
+  "score": 10,
+  "score_rationale": "It explicitly forecasts phenology and climatic suitability for a crop across historical and future periods.",
+  "stars": 4,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2020-01-28",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 65.6,
+  "discovery_score": 10,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "Code utilized in Morales-Castilla et al. (2020) to forecast phenology and climatic suitability for winegrape cultivars over the 1950-2100...",
+  "slug": "moralescastilla-phenodiversity"
+}

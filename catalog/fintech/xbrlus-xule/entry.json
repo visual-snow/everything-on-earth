@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/xbrlus/xule",
+  "name": "xbrlus/xule",
+  "description": "An open-source XBRL processor for business rules, rendering and custom data reporting. See https://xbrl.us/xule for documentation and https://xbrl.us/xule-editor for a VS Code syntax highlighter.",
+  "sub_domain": "financial-data-standards",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 36,
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-18",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 30.5,
+  "discovery_score": 3,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "An open-source XBRL processor for business rules, rendering and custom data reporting. See https://xbrl.us/xule for documentation and htt...",
+  "slug": "xbrlus-xule"
+}

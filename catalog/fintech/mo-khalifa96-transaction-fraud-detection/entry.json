@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mo-khalifa96/transaction-fraud-detection",
+  "name": "mo-khalifa96/transaction-fraud-detection",
+  "description": "Developing machine learning classification models for transaction fraud detection",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-10-18",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "Developing machine learning classification models for transaction fraud detection",
+  "slug": "mo-khalifa96-transaction-fraud-detection"
+}

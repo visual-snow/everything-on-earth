@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+  "name": "paperswithbacktest/awesome-systematic-trading",
+  "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+  "sub_domain": "financial-market-data",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 7506,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-01-22",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 37.0,
+  "discovery_score": 1,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+  "slug": "paperswithbacktest-awesome-systematic-trading"
+}

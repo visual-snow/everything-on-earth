@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/openhpi/openlrs",
+  "name": "openHPI/openLRS",
+  "description": "Learning record store for interactive H5P exercises.",
+  "sub_domain": "analytics-learning-dashboards",
+  "score": 7,
+  "score_rationale": "Education-specific xAPI/LRS tooling with a dashboard component and direct H5P workflow relevance.",
+  "stars": 3,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-01-20",
+  "found_in_domains": [
+    "analytics-learning-dashboards",
+    "edtech-infrastructure"
+  ],
+  "quality_score": 46.8,
+  "discovery_score": 7,
+  "tags": [
+    "analytics",
+    "dashboards",
+    "engagement",
+    "early-alerts",
+    "lti",
+    "xapi"
+  ],
+  "category": "Analytics, Learning Dashboards, Engagement Metrics & Early Alerts",
+  "summary": "Learning record store for interactive H5P exercises.",
+  "slug": "openhpi-openlrs"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eliteloser/cryptaxcalc",
+  "name": "eliteloser/cryptaxcalc",
+  "description": "Svendsen Tech's CrypTaxCalc is an open-source Coinbase transaction log parser to get the numbers you need for the tax reports (\"tax calculator\")",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 2,
+  "language": "PowerShell",
+  "license": "MIT",
+  "last_activity": "2025-01-01",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 9.8,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Svendsen Tech's CrypTaxCalc is an open-source Coinbase transaction log parser to get the numbers you need for the tax reports (\"tax calcu...",
+  "slug": "eliteloser-cryptaxcalc"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fhir-fuel/awesome-fhir",
+  "name": "fhir-fuel/awesome-FHIR",
+  "description": "A curated list of awesome FHIR software, libraries, and tools.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 5,
+  "score_rationale": "Useful discovery index for the ecosystem, but not a core interoperability implementation itself.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "A curated list of awesome FHIR software, libraries, and tools.",
+  "slug": "fhir-fuel-awesome-fhir"
+}

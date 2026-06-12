@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dhimmel/clintrials",
+  "name": "dhimmel/clintrials",
+  "description": "Cataloging pharmacotherapies in clinical trial from ClinicalTrials.gov",
+  "sub_domain": "clinical-trials-research",
+  "score": 5,
+  "score_rationale": "Direct ClinicalTrials.gov research notebook, but older and more exploratory than operational tools.",
+  "stars": 26,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2016-06-17",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 41.5,
+  "discovery_score": 5,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Cataloging pharmacotherapies in clinical trial from ClinicalTrials.gov",
+  "slug": "dhimmel-clintrials"
+}

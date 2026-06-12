@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/backtestjs/framework",
+  "name": "backtestjs/framework",
+  "description": "Backtesting trading strategies in TypeScript / JavaScript.",
+  "sub_domain": "backtesting-frameworks",
+  "score": 6,
+  "score_rationale": "Purpose-built TypeScript/JavaScript backtesting framework, which expands coverage beyond the dominant Python ecosystem.",
+  "stars": 29,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2025-05-13",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 47.8,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "Backtesting trading strategies in TypeScript / JavaScript.",
+  "slug": "backtestjs-framework"
+}

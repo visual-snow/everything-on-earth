@@ -1,0 +1,14 @@
+{
+  "slug": "epiverse-trace-epidemics",
+  "name": "epiverse-trace/epidemics",
+  "what_it_is": "An R package providing a library of published deterministic and stochastic compartmental epidemic models, with modular classes for population demographic structure, non-pharmaceutical interventions, and vaccination regimes to compose and compare epidemic scenarios.",
+  "components": ["population() class for demographic structure and contact matrix", "intervention() class for contacts or rate interventions", "vaccination() class for group-specific vaccination regimes", "model_default() — deterministic SEIR-V model", "model_vacamole() — RIVM Vacamole Covid-19 model", "model_ebola() — stochastic discrete-time SEIR model", "model_diphtheria() — compartmental diphtheria model"],
+  "protocols": [],
+  "measurement": ["Compartment counts over time (S, E, I, R, V per group)", "R0 / basic reproduction number", "Transmission, infectiousness, recovery rates", "Hospitalisation and reporting rates"],
+  "configuration": ["contact_matrix (age-structured social contacts)", "demography_vector (population sizes)", "initial_conditions per compartment", "intervention timing and reduction", "simulation duration and time step", "core ODE parameters"],
+  "modes": ["Deterministic ODE integration", "Stochastic discrete-time simulation", "Baseline vs intervention comparison"],
+  "constraints": ["Directly transmitted infections only; no vector-borne diseases", "R package with C++ backend; requires RTools on Windows", "WIP status; API may change", "Models parameterised for specific diseases, not general-purpose ODE solvers"],
+  "docker_services": [],
+  "notable_absences": ["No spatial or network models", "No Bayesian/MCMC fitting", "No data ingestion from surveillance feeds", "No Docker"],
+  "fault_injection": []
+}

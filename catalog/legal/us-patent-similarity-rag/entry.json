@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/us/patent-similarity-rag",
+  "name": "us/patent-similarity-rag",
+  "description": "RAG app for patent similarity search with chatgpt llm over google patents",
+  "sub_domain": "ip-patent-trademark",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 44,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2024-08-09",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 37.2,
+  "discovery_score": 4,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "RAG app for patent similarity search with chatgpt llm over google patents",
+  "slug": "us-patent-similarity-rag"
+}

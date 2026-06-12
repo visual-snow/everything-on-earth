@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/numbas/numbas-lockdown-app",
+  "name": "numbas/numbas-lockdown-app",
+  "description": "A locked-down browser for running Numbas exams in a controlled environment.",
+  "sub_domain": "assessment-testing",
+  "score": 8,
+  "score_rationale": "Purpose-built lockdown browser for a concrete exam platform, which makes it a strong fit for secure assessment workflows.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2025-04-11",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 51.8,
+  "discovery_score": 8,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "A locked-down browser for running Numbas exams in a controlled environment.",
+  "slug": "numbas-numbas-lockdown-app"
+}

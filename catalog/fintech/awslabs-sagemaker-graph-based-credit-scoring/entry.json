@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/awslabs/sagemaker-graph-based-credit-scoring",
+  "name": "awslabs/sagemaker-graph-based-credit-scoring",
+  "description": "No description provided.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 10,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2023-02-27",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 26.3,
+  "discovery_score": 3,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "No description provided.",
+  "slug": "awslabs-sagemaker-graph-based-credit-scoring"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hack23/cia-compliance-manager",
+  "name": "hack23/cia-compliance-manager",
+  "description": "The CIA Compliance Manager is an application that helps organizations assess and manage the availability, integrity, and confidentiality of their systems and data based on customizable security levels, providing real-time cost estimates, business impact assessments, and technical implementation details.",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 15,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 27.6,
+  "discovery_score": 3,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "The CIA Compliance Manager is an application that helps organizations assess and manage the availability, integrity, and confidentiality...",
+  "slug": "hack23-cia-compliance-manager"
+}

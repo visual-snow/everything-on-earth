@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/green-software-foundation/sci",
+  "name": "green-software-foundation/sci",
+  "description": "A specification that describes how to calculate a carbon intensity for software applications.",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 290,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-05",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 43.7,
+  "discovery_score": 4,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "A specification that describes how to calculate a carbon intensity for software applications.",
+  "slug": "green-software-foundation-sci"
+}

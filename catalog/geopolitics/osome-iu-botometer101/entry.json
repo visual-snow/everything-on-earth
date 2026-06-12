@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/osome-iu/botometer101",
+  "name": "osome-iu/Botometer101",
+  "description": "Social-bot practicum code showing how to use Botometer for bot detection research.",
+  "sub_domain": "social-media-influence",
+  "score": 8,
+  "score_rationale": "It is a practical bot-detection workflow tied to a standard bot-detection service.",
+  "stars": 11,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2022-10-06",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 56.6,
+  "tags": [
+    "bot-detection",
+    "botometer",
+    "twitter",
+    "research-workflow"
+  ],
+  "category": "Bot Detection",
+  "summary": "Practicum code for using Botometer in bot research.",
+  "slug": "osome-iu-botometer101"
+}

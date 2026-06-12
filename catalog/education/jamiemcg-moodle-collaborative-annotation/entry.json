@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jamiemcg/moodle-collaborative-annotation",
+  "name": "jamiemcg/moodle-collaborative-annotation",
+  "description": "Collaborative Annotation Plugin for Moodle",
+  "sub_domain": "collaborative-learning",
+  "score": 8,
+  "score_rationale": "Education-specific annotation plugin that enables collaborative markup inside Moodle.",
+  "stars": 4,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2017-05-13",
+  "found_in_domains": [
+    "collaborative-learning"
+  ],
+  "quality_score": 53.6,
+  "discovery_score": 8,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "Collaborative Annotation Plugin for Moodle",
+  "slug": "jamiemcg-moodle-collaborative-annotation"
+}

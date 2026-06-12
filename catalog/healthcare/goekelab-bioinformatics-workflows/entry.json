@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/goekelab/bioinformatics-workflows",
+  "name": "GoekeLab/bioinformatics-workflows",
+  "description": "minimal example implementations for bioinformatics workflow managers",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 5,
+  "score_rationale": "Breadth-oriented workflow examples useful for genomics pipeline work.",
+  "stars": 283,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2021-10-27",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 5,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "minimal example implementations for bioinformatics workflow managers",
+  "slug": "goekelab-bioinformatics-workflows"
+}

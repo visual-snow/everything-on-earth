@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/suadelabs/fire",
+  "name": "suadelabs/fire",
+  "description": "Financial Regulation (FIRE) Data Standard",
+  "sub_domain": "financial-data-standards",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 79,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "regulatory-reporting-compliance",
+    "financial-data-standards"
+  ],
+  "quality_score": 33.2,
+  "discovery_score": 3,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "Financial Regulation (FIRE) Data Standard",
+  "slug": "suadelabs-fire"
+}

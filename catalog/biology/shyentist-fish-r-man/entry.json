@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shyentist/fish-r-man",
+  "name": "Shyentist/fish-r-man",
+  "description": "A bundle of analytics tools for fisheries scientists",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Focused fisheries analytics bundle with direct relevance to marine biology and management.",
+  "stars": 14,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2024-03-27",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 57.4,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "A bundle of analytics tools for fisheries scientists",
+  "slug": "shyentist-fish-r-man"
+}

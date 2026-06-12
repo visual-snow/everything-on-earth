@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/btschwertfeger/python-cmethods",
+  "name": "btschwertfeger/python-cmethods",
+  "description": "A collection of bias correction techniques written in Python - for climate sciences.",
+  "sub_domain": "climate-data-analysis",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 81,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 39.3,
+  "discovery_score": 4,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "A collection of bias correction techniques written in Python - for climate sciences.",
+  "slug": "btschwertfeger-python-cmethods"
+}

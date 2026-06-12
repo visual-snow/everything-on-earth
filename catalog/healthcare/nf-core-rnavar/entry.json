@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nf-core/rnavar",
+  "name": "nf-core/rnavar",
+  "description": "gatk4 RNA variant calling pipeline",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 8,
+  "score_rationale": "Focused RNA-seq variant calling workflow built on established nf-core patterns.",
+  "stars": 59,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 62.2,
+  "discovery_score": 8,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "gatk4 RNA variant calling pipeline",
+  "slug": "nf-core-rnavar"
+}

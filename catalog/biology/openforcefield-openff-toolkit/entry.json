@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openforcefield/openff-toolkit",
+  "name": "openforcefield/openff-toolkit",
+  "description": "The Open Forcefield Toolkit provides implementations of the SMIRNOFF format, parameterization engine, and other tools.",
+  "sub_domain": "cheminformatics",
+  "score": 7,
+  "score_rationale": "A widely used molecular-perception and parameterization toolkit that is adjacent to core cheminformatics and useful in drug-discovery pipelines.",
+  "stars": 387,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "cheminformatics"
+  ],
+  "quality_score": 62.7,
+  "discovery_score": 7,
+  "tags": [
+    "cheminformatics",
+    "smiles",
+    "qsar",
+    "drug-discovery"
+  ],
+  "category": "Cheminformatics \u2014 drug discovery and molecular fingerprints",
+  "summary": "The Open Forcefield Toolkit provides implementations of the SMIRNOFF format, parameterization engine, and other tools.",
+  "slug": "openforcefield-openff-toolkit"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/broadinstitute/tangram",
+  "name": "broadinstitute/tangram",
+  "description": "Spatial alignment of single cell transcriptomic data.",
+  "sub_domain": "spatial-omics",
+  "score": 9,
+  "score_rationale": "Established mapping and alignment tool for transferring single-cell information into spatial transcriptomics data.",
+  "stars": 360,
+  "language": "Jupyter Notebook",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-07-01",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 74.5,
+  "discovery_score": 9,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Spatial alignment of single cell transcriptomic data.",
+  "slug": "broadinstitute-tangram"
+}

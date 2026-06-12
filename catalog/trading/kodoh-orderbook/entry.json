@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/kodoh/orderbook",
+  "name": "Kodoh/Orderbook",
+  "description": "Open source High-Frequency Trading Order Book with FPGA Acceleration",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 8,
+  "score_rationale": "Relevant HFT order book with FPGA acceleration emphasis.",
+  "stars": 63,
+  "language": "Makefile",
+  "license": "MIT",
+  "last_activity": "2025-01-26",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 62.4,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "Open source High-Frequency Trading Order Book with FPGA Acceleration",
+  "slug": "kodoh-orderbook"
+}

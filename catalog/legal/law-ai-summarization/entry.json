@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/law-ai/summarization",
+  "name": "law-ai/summarization",
+  "description": "Implementation of different summarization algorithms applied to legal case judgements.",
+  "sub_domain": "legal-ai-nlp",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 220,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-11-09",
+  "found_in_domains": [
+    "legal-ai-nlp"
+  ],
+  "quality_score": 48.8,
+  "discovery_score": 5,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "Implementation of different summarization algorithms applied to legal case judgements.",
+  "slug": "law-ai-summarization"
+}

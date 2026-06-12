@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/acumatica/mtdcompliance",
+  "name": "acumatica/mtdcompliance",
+  "description": "Making Tax Digital (MTD) is a UK government initiative that requires most UK taxpayers to send HM Revenue and Customs (HRMC) summaries of their income and expenditure at least four times a year. Additional information is available from the HM Revenue and Customs website.",
+  "sub_domain": "tax-compliance-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2019-03-28",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat",
+    "tax"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "Making Tax Digital (MTD) is a UK government initiative that requires most UK taxpayers to send HM Revenue and Customs (HRMC) summaries of...",
+  "slug": "acumatica-mtdcompliance"
+}

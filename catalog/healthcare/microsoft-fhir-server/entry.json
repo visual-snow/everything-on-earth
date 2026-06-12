@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/fhir-server",
+  "name": "microsoft/fhir-server",
+  "description": "FHIR Server for Azure, an open-source implementation of the HL7 FHIR specification.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 9,
+  "score_rationale": "Major open-source FHIR server used as a reference implementation and deployment target.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "FHIR Server for Azure, an open-source implementation of the HL7 FHIR specification.",
+  "slug": "microsoft-fhir-server"
+}

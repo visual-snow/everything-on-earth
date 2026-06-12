@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/idaholab/raven",
+  "name": "idaholab/raven",
+  "description": "RAVEN is a flexible and multi-purpose probabilistic risk analysis, validation and uncertainty quantification, parameter optimization, model reduction and data knowledge-discovering framework.",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 9,
+  "score_rationale": "Probabilistic risk and uncertainty framework used in nuclear workflows.",
+  "stars": 254,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 73.3,
+  "tags": [
+    "nuclear",
+    "risk",
+    "uncertainty",
+    "probabilistic",
+    "analysis"
+  ],
+  "category": "Risk Analysis Framework",
+  "summary": "Probabilistic risk and uncertainty framework for nuclear workflows.",
+  "slug": "idaholab-raven"
+}

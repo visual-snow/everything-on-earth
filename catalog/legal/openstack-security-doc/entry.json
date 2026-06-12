@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openstack/security-doc",
+  "name": "openstack/security-doc",
+  "description": "Documentation work from the OpenStack Security Group (OSSG). Mirror of code maintained at opendev.org.",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 60,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 3,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "Documentation work from the OpenStack Security Group (OSSG). Mirror of code maintained at opendev.org.",
+  "slug": "openstack-security-doc"
+}

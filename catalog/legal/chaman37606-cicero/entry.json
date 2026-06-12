@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chaman37606/cicero",
+  "name": "chaman37606/cicero",
+  "description": "Implementation of the Accord Project Template Specification",
+  "sub_domain": "smart-contracts-legal",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for template-style signals; fork penalty.",
+  "stars": 1,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2019-10-29",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 14.4,
+  "discovery_score": 2,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Implementation of the Accord Project Template Specification",
+  "slug": "chaman37606-cicero"
+}

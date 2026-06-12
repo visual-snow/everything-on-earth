@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/launchnlp/politics",
+  "name": "launchnlp/POLITICS",
+  "description": "Code, data, and models for ideology prediction and stance detection from same-story article comparison.",
+  "sub_domain": "political-text-nlp",
+  "score": 9,
+  "score_rationale": "It targets ideology prediction and stance detection in news, which is central to political text analysis.",
+  "stars": 39,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2024-07-22",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 66.8,
+  "tags": [
+    "political",
+    "ideology",
+    "stance-detection",
+    "news",
+    "nlp"
+  ],
+  "category": "Ideology Prediction",
+  "summary": "Predicts ideology and stance from same-story news comparisons.",
+  "slug": "launchnlp-politics"
+}

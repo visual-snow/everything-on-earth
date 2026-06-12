@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gid-ctl/bitstable",
+  "name": "gid-ctl/bitstable",
+  "description": "A decentralized stablecoin protocol implemented on the Stacks blockchain, allowing users to create stablecoins backed by Bitcoin (BTC) collateral. The system implements a CDP (Collateralized Debt Position) model with built-in governance, price oracle integration, and liquidation mechanisms.",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Clarity",
+  "license": "MIT",
+  "last_activity": "2024-10-31",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "A decentralized stablecoin protocol implemented on the Stacks blockchain, allowing users to create stablecoins backed by Bitcoin (BTC) co...",
+  "slug": "gid-ctl-bitstable"
+}

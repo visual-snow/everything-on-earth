@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/exthand/gateway",
+  "name": "exthand/gateway",
+  "description": "This tool is a client package to connect to Exthand's API in seamless way.",
+  "sub_domain": "open-banking-psd2",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": "C#",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-18",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "This tool is a client package to connect to Exthand's API in seamless way.",
+  "slug": "exthand-gateway"
+}

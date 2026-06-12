@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/schrodinger/pymol-open-source",
+  "name": "schrodinger/pymol-open-source",
+  "description": "Open-source foundation of the user-sponsored PyMOL molecular visualization system.",
+  "sub_domain": "structural-biology",
+  "score": 9,
+  "score_rationale": "PyMOL is a canonical structure visualization and analysis tool that sits close to core structural biology workflows.",
+  "stars": 1630,
+  "language": "C",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 79.7,
+  "discovery_score": 9,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Open-source foundation of the user-sponsored PyMOL molecular visualization system.",
+  "slug": "schrodinger-pymol-open-source"
+}

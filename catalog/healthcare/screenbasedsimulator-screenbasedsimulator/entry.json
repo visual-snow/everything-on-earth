@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/screenbasedsimulator/screenbasedsimulator",
+  "name": "ScreenBasedSimulator/ScreenBasedSimulator",
+  "description": "It is a simulator for medical students to be trained to deal with emergency situation - ScreenBasedSimulator/ScreenBasedSimulator.",
+  "sub_domain": "medical-education-simulation",
+  "score": 8,
+  "score_rationale": "Medical student simulator focused on emergency response training.",
+  "stars": 5,
+  "language": null,
+  "license": null,
+  "last_activity": "2015-05-22",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 54.2,
+  "discovery_score": 8,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "It is a simulator for medical students to be trained to deal with emergency situation - ScreenBasedSimulator/ScreenBasedSimulator.",
+  "slug": "screenbasedsimulator-screenbasedsimulator"
+}

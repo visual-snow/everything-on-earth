@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/realamirhe/awesome-adaptive-learning",
+  "name": "realamirhe/awesome-adaptive-learning",
+  "description": "A curated list of adaptive-learning frameworks, libraries, software, and publications.",
+  "sub_domain": "adaptive-learning",
+  "score": 4,
+  "score_rationale": "Useful discovery index for the topic, but it is a list rather than a learning system itself.",
+  "stars": 7,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2022-04-13",
+  "found_in_domains": [
+    "adaptive-learning"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "adaptive-learning",
+    "tutoring",
+    "mastery",
+    "knowledge-tracing"
+  ],
+  "category": "Adaptive Learning, Personalization, Knowledge Tracing & AI Tutoring",
+  "summary": "A curated list of adaptive-learning frameworks, libraries, software, and publications.",
+  "slug": "realamirhe-awesome-adaptive-learning"
+}

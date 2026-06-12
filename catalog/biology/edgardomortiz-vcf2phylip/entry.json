@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/edgardomortiz/vcf2phylip",
+  "name": "edgardomortiz/vcf2phylip",
+  "description": "Convert SNPs in VCF format to PHYLIP, NEXUS, binary NEXUS, or FASTA alignments for phylogenetic analysis",
+  "sub_domain": "phylogenetics",
+  "score": 8,
+  "score_rationale": "It directly bridges variant data into phylogenetic input formats and is a common utility in tree inference pipelines.",
+  "stars": 333,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-07-07",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 68.2,
+  "discovery_score": 8,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Convert SNPs in VCF format to PHYLIP, NEXUS, binary NEXUS, or FASTA alignments for phylogenetic analysis",
+  "slug": "edgardomortiz-vcf2phylip"
+}

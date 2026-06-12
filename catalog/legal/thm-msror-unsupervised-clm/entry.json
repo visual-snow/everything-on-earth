@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/thm-msror/unsupervised-clm",
+  "name": "thm-msror/unsupervised-clm",
+  "description": "AI-powered Contract Lifecycle Management platform that analyzes legal contracts in seconds, extracts key data, identifies risks, and provides actionable insights. Built for QDB AI Hackathon 2025.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-10-26",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining",
+    "contract"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "AI-powered Contract Lifecycle Management platform that analyzes legal contracts in seconds, extracts key data, identifies risks, and prov...",
+  "slug": "thm-msror-unsupervised-clm"
+}

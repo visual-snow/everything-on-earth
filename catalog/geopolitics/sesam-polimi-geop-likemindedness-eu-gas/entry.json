@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sesam-polimi/geop_likemindedness_eu-gas",
+  "name": "SESAM-Polimi/GeoP_LikeMindedness_EU-gas",
+  "description": "Geopolitical analysis of potential gas suppliers for the EU.",
+  "sub_domain": "energy-geopolitics",
+  "score": 8,
+  "score_rationale": "Directly about EU gas geopolitics and supplier alignment.",
+  "stars": 0,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2024-08-07",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "gas",
+    "europe",
+    "geopolitics",
+    "supplier-risk"
+  ],
+  "category": "Gas Geopolitics",
+  "summary": "Analysis of EU gas supplier geopolitics and alignment.",
+  "slug": "sesam-polimi-geop-likemindedness-eu-gas"
+}

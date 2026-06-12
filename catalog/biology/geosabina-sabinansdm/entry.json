@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/geosabina/sabinansdm",
+  "name": "geosabina/sabinansdm",
+  "description": "Spatially-nested hierarchical SDMs",
+  "sub_domain": "ecology-conservation",
+  "score": 7,
+  "score_rationale": "Specialized package for spatially nested hierarchical species distribution models.",
+  "stars": 7,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 49.2,
+  "discovery_score": 7,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Spatially-nested hierarchical SDMs",
+  "slug": "geosabina-sabinansdm"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/planeshifter/deidentify",
+  "name": "Planeshifter/deidentify",
+  "description": "deidentify is a tool to remove personal identifiers from free-text medical record data. Detected identifiers are replaced by randomly generated substitutes.",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 5,
+  "score_rationale": "Relevant older text de-identification utility for medical record data with a clear privacy purpose.",
+  "stars": 42,
+  "language": "JavaScript",
+  "license": "GPL-2.0",
+  "last_activity": "2018-08-09",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 43.1,
+  "discovery_score": 5,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "deidentify is a tool to remove personal identifiers from free-text medical record data. Detected identifiers are replaced by randomly gen...",
+  "slug": "planeshifter-deidentify"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/marketcalls/openalgo",
+  "name": "marketcalls/openalgo",
+  "description": "Open Source Algo Trading Platform for Everyone",
+  "sub_domain": "trading-bots-strategy-frameworks",
+  "score": 9,
+  "score_rationale": "Self-hosted algo-trading platform that standardizes execution across many brokers and strategy tools.",
+  "stars": 1536,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "backtesting-frameworks",
+    "live-algo-execution-engines",
+    "trading-bots-strategy-frameworks"
+  ],
+  "quality_score": 79.5,
+  "tags": [
+    "trading-bot",
+    "strategy-framework",
+    "automation"
+  ],
+  "category": "Trading Bot Framework",
+  "summary": "Open Source Algo Trading Platform for Everyone",
+  "slug": "marketcalls-openalgo"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/contentsquare/readapt",
+  "name": "ContentSquare/readapt",
+  "description": "Readapt helps those with reading challenges like dyslexia to more easily read digital text.",
+  "sub_domain": "special-education-therapy",
+  "score": 9,
+  "score_rationale": "Strong dyslexia support tool aimed at reading accessibility in digital learning workflows.",
+  "stars": 37,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 66.6,
+  "discovery_score": 9,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "Readapt helps those with reading challenges like dyslexia to more easily read digital text.",
+  "slug": "contentsquare-readapt"
+}

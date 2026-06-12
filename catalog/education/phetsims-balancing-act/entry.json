@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/phetsims/balancing-act",
+  "name": "phetsims/balancing-act",
+  "description": "\"Balancing Act\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Official PhET simulation repo for a classroom-friendly introductory physics balancing activity.",
+  "stars": 1,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning",
+    "interactive"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "\"Balancing Act\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "slug": "phetsims-balancing-act"
+}

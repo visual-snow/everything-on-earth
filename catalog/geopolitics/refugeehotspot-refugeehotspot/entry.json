@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/refugeehotspot/refugeehotspot",
+  "name": "RefugeeHotspot/RefugeeHotspot",
+  "description": "a mobile device that provides Internet access to refugees and migrants",
+  "sub_domain": "migration-refugee-data",
+  "score": 7,
+  "score_rationale": "Connectivity tool designed to provide internet access and support for refugees and migrants.",
+  "stars": 30,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2023-06-17",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 53.9,
+  "tags": [
+    "refugees",
+    "connectivity",
+    "internet-access",
+    "humanitarian"
+  ],
+  "category": "Refugee Connectivity",
+  "summary": "Provides internet access to refugees and migrants.",
+  "slug": "refugeehotspot-refugeehotspot"
+}

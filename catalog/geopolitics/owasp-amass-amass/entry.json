@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/owasp-amass/amass",
+  "name": "owasp-amass/amass",
+  "description": "In-depth attack surface mapping and asset discovery",
+  "stars": 14299,
+  "language": "Go",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "sub_domain": "osint-frameworks",
+  "score": 7,
+  "score_rationale": "Canonical attack-surface mapping and asset discovery framework with broad OSINT use.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 75.2,
+  "tags": [
+    "osint",
+    "attack-surface",
+    "asset-discovery",
+    "subdomains",
+    "reconnaissance"
+  ],
+  "category": "Attack Surface Mapping",
+  "summary": "Maps attack surface and discovers assets and subdomains.",
+  "slug": "owasp-amass-amass"
+}

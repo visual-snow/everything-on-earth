@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aashishh1/edunet_sap",
+  "name": "aashishh1/edunet_sap",
+  "description": "Real-time Air Quality Index forecasting using machine learning.\ud83d\udd0d",
+  "sub_domain": "air-quality-emissions",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-06-19",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Real-time Air Quality Index forecasting using machine learning.\ud83d\udd0d",
+  "slug": "aashishh1-edunet-sap"
+}

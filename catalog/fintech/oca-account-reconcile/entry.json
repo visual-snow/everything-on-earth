@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/oca/account-reconcile",
+  "name": "OCA/account-reconcile",
+  "description": "Odoo account reconciliation modules (statements, data completion...)",
+  "sub_domain": "reconciliation-settlement",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 181,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 54.1,
+  "discovery_score": 6,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Odoo account reconciliation modules (statements, data completion...)",
+  "slug": "oca-account-reconcile"
+}

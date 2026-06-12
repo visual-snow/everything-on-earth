@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/iozwang/homeicu",
+  "name": "iozwang/homeicu",
+  "description": "A low-cost remote vital signs monitor for home patients",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 8,
+  "score_rationale": "Direct remote patient monitoring project with a clear home-care use case and active recent updates.",
+  "stars": 12,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2026-02-19",
+  "found_in_domains": [
+    "telemedicine-remote-care",
+    "wearable-iot-health"
+  ],
+  "quality_score": 56.9,
+  "discovery_score": 8,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video",
+    "patient-records"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "A low-cost remote vital signs monitor for home patients",
+  "slug": "iozwang-homeicu"
+}

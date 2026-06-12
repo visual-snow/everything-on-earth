@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ropensci/worrms",
+  "name": "ropensci/worrms",
+  "description": "World Register of Marine Species R client",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Canonical WoRMS client for marine taxonomy resolution and species lookup, which is a useful reusable biology utility.",
+  "stars": 28,
+  "language": "R",
+  "license": "Other",
+  "last_activity": "2024-01-15",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 59.7,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "World Register of Marine Species R client",
+  "slug": "ropensci-worrms"
+}

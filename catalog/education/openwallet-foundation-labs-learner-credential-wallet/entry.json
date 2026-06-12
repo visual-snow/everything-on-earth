@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openwallet-foundation-labs/learner-credential-wallet",
+  "name": "openwallet-foundation-labs/learner-credential-wallet",
+  "description": "Learner Credential Wallet is a cross-platform iOS and Android mobile application for storing and sharing digital learner credentials.",
+  "sub_domain": "credentialing-certification",
+  "score": 9,
+  "score_rationale": "Learner-facing wallet for storing and sharing digital credentials; central to education credential workflows.",
+  "stars": 84,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 69.4,
+  "discovery_score": 9,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "Learner Credential Wallet is a cross-platform iOS and Android mobile application for storing and sharing digital learner credentials.",
+  "slug": "openwallet-foundation-labs-learner-credential-wallet"
+}

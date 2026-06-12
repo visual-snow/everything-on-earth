@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/prosusai/finbert",
+  "name": "prosusai/finbert",
+  "description": "Financial Sentiment Analysis with BERT",
+  "sub_domain": "financial-ai-nlp",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 2059,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2022-09-09",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 62.5,
+  "discovery_score": 6,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Financial Sentiment Analysis with BERT",
+  "slug": "prosusai-finbert"
+}

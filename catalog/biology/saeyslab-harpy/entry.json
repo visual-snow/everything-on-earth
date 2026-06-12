@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/saeyslab/harpy",
+  "name": "saeyslab/harpy",
+  "description": "Single-cell spatial omics analysis that makes you happy!",
+  "sub_domain": "spatial-omics",
+  "score": 9,
+  "score_rationale": "Modern spatial omics analysis library with explicit support for transcriptomics and proteomics workflows inside the scverse stack.",
+  "stars": 53,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 67.9,
+  "discovery_score": 9,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Single-cell spatial omics analysis that makes you happy!",
+  "slug": "saeyslab-harpy"
+}

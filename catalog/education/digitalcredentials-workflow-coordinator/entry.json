@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/digitalcredentials/workflow-coordinator",
+  "name": "digitalcredentials/workflow-coordinator",
+  "description": "VC-API Workflow Coordinator",
+  "sub_domain": "credentialing-certification",
+  "score": 2,
+  "score_rationale": "VC-API workflow component for credential issuance flows; infrastructure-adjacent and narrowly scoped.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-10-21",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 14.4,
+  "discovery_score": 2,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "VC-API Workflow Coordinator",
+  "slug": "digitalcredentials-workflow-coordinator"
+}

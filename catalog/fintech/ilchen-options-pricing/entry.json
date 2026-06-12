@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ilchen/options-pricing",
+  "name": "ilchen/options-pricing",
+  "description": "Python code for pricing European and American options with examples for individual stock, index, and FX options denominated in USD and Euro. Jupyter notebooks for pricing options using free publicly available datasets.",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for examples-style signals.",
+  "stars": 30,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-07",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 29.9,
+  "discovery_score": 3,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "Python code for pricing European and American options with examples for individual stock, index, and FX options denominated in USD and Eu...",
+  "slug": "ilchen-options-pricing"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/artemiusgreat/quantitative-resources",
+  "name": "artemiusgreat/quantitative-resources",
+  "description": "A list of online resources for quantitative modeling, trading, portfolio management",
+  "sub_domain": "financial-market-data",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; fork penalty.",
+  "stars": 34,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2020-09-01",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 18.4,
+  "discovery_score": 1,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions",
+    "portfolio"
+  ],
+  "category": "Financial Market Data",
+  "summary": "A list of online resources for quantitative modeling, trading, portfolio management",
+  "slug": "artemiusgreat-quantitative-resources"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/iiasa/cwatm",
+  "name": "iiasa/cwatm",
+  "description": "Community Water Model (CWatM) is a hydrological model simulating the water cycle daily at global and local levels, historically and into the future, maintained by IIASA\u2019s Water Security group",
+  "sub_domain": "water-resource-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 91,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "water-resource-management"
+  ],
+  "quality_score": 39.7,
+  "discovery_score": 4,
+  "tags": [
+    "hydrology",
+    "watershed",
+    "water-quality",
+    "water-modeling"
+  ],
+  "category": "Water Resource Management \u2014 hydrological modeling, water quality, watershed analysis",
+  "summary": "Community Water Model (CWatM) is a hydrological model simulating the water cycle daily at global and local levels, historically and into...",
+  "slug": "iiasa-cwatm"
+}

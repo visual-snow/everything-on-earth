@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alessandroryo/student-dropout-prediction",
+  "name": "alessandroryo/student-dropout-prediction",
+  "description": "Machine learning project to predict student dropout risk and improve retention rates.",
+  "sub_domain": "analytics-learning-dashboards",
+  "score": 7,
+  "score_rationale": "Useful dropout-prediction workflow for retention analytics, with an explicit student-risk focus.",
+  "stars": 8,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2024-09-03",
+  "found_in_domains": [
+    "analytics-learning-dashboards"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 7,
+  "tags": [
+    "analytics",
+    "dashboards",
+    "engagement",
+    "early-alerts"
+  ],
+  "category": "Analytics, Learning Dashboards, Engagement Metrics & Early Alerts",
+  "summary": "Machine learning project to predict student dropout risk and improve retention rates.",
+  "slug": "alessandroryo-student-dropout-prediction"
+}

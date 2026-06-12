@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rajohansen/waterquality",
+  "name": "rajohansen/waterquality",
+  "description": "Package designed to detect and quantify water quality and cyanobacterial harmful algal bloom (CHABs) from remotely sensed imagery",
+  "sub_domain": "water-resource-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 49,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2024-03-25",
+  "found_in_domains": [
+    "water-resource-management"
+  ],
+  "quality_score": 37.6,
+  "discovery_score": 4,
+  "tags": [
+    "hydrology",
+    "watershed",
+    "water-quality",
+    "water-modeling"
+  ],
+  "category": "Water Resource Management \u2014 hydrological modeling, water quality, watershed analysis",
+  "summary": "Package designed to detect and quantify water quality and cyanobacterial harmful algal bloom (CHABs) from remotely sensed imagery",
+  "slug": "rajohansen-waterquality"
+}

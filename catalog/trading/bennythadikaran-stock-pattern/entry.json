@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/bennythadikaran/stock-pattern",
+  "name": "bennythadikaran/stock-pattern",
+  "description": "A Python CLI tool to scan, detect, and plot stock chart patterns",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 4,
+  "score_rationale": "Reusable chart-pattern detector/plotter with a clear TA pattern-recognition focus.",
+  "stars": 359,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-02",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 44.5,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "A Python CLI tool to scan, detect, and plot stock chart patterns",
+  "slug": "bennythadikaran-stock-pattern"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/natlabrockies/reopt_api",
+  "name": "natlabrockies/reopt_api",
+  "description": "The model for the REopt API, which is used as the back-end for the REopt Webtool (reopt.nrel.gov/tool), and can be accessed directly via the NREL Developer Network (https://developer.nrel.gov/docs/energy-optimization/reopt)",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 120,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 46.7,
+  "discovery_score": 5,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "The model for the REopt API, which is used as the back-end for the REopt Webtool (reopt.nrel.gov/tool), and can be accessed directly via...",
+  "slug": "natlabrockies-reopt-api"
+}

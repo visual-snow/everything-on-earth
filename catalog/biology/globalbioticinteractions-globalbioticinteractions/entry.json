@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/globalbioticinteractions/globalbioticinteractions",
+  "name": "globalbioticinteractions/globalbioticinteractions",
+  "description": "Global Biotic Interactions provides access to existing species interaction datasets",
+  "sub_domain": "biodiversity-informatics",
+  "score": 9,
+  "score_rationale": "Major biodiversity platform for species-interaction data access and synthesis.",
+  "stars": 141,
+  "language": "Java",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 71.2,
+  "discovery_score": 9,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Global Biotic Interactions provides access to existing species interaction datasets",
+  "slug": "globalbioticinteractions-globalbioticinteractions"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sarangian/bulkrnaseqpipe",
+  "name": "sarangian/bulkrnaseqpipe",
+  "description": "Differential Expression Analysis of bulk-RNASeq data",
+  "sub_domain": "transcriptomics",
+  "score": 6,
+  "score_rationale": "Compact bulk RNA-seq differential-expression pipeline with a direct transcriptomics use case.",
+  "stars": 2,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-05",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 39.8,
+  "discovery_score": 6,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Differential Expression Analysis of bulk-RNASeq data",
+  "slug": "sarangian-bulkrnaseqpipe"
+}

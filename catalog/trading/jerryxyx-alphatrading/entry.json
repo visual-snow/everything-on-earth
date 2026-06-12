@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jerryxyx/alphatrading",
+  "name": "jerryxyx/AlphaTrading",
+  "description": "An workflow in factor-based equity trading, including factor analysis and factor modeling. For well-established factor models, I implement APT model, BARRA's risk model and dynamic multi-factor model in this project.",
+  "sub_domain": "quant-research-notebooks",
+  "score": 8,
+  "score_rationale": "Strong factor-modeling and alpha-research fit, even though it is more project-like than notebook-first.",
+  "stars": 386,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2018-08-07",
+  "found_in_domains": [
+    "quant-research-notebooks"
+  ],
+  "quality_score": 68.7,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks",
+    "risk-management"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "An workflow in factor-based equity trading, including factor analysis and factor modeling. For...",
+  "slug": "jerryxyx-alphatrading"
+}

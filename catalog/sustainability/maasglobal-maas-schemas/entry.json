@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maasglobal/maas-schemas",
+  "name": "maasglobal/maas-schemas",
+  "description": "Mobility as a Service API - data model, tests, and validation",
+  "sub_domain": "sustainable-transport",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 18,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-01-22",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 34.2,
+  "discovery_score": 4,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "Mobility as a Service API - data model, tests, and validation",
+  "slug": "maasglobal-maas-schemas"
+}

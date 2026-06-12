@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vzhaog/legaltemplates",
+  "name": "vzhaog/legaltemplates",
+  "description": "LegalTemplates Affordable Attorney-Crafted Documents: 7-Day Free Trial, 200+ Legal Forms, Save 80% vs Lawyer Fees",
+  "sub_domain": "legal-document-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-02-01",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "LegalTemplates Affordable Attorney-Crafted Documents: 7-Day Free Trial, 200+ Legal Forms, Save 80% vs Lawyer Fees",
+  "slug": "vzhaog-legaltemplates"
+}

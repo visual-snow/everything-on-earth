@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/imageomics/latloncover",
+  "name": "imageomics/latloncover",
+  "description": "Land usage descriptions for neighborhoods around given lat/long",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2024-05-21",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "Land usage descriptions for neighborhoods around given lat/long",
+  "slug": "imageomics-latloncover"
+}

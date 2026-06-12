@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/graldispersionmodel/gramm",
+  "name": "graldispersionmodel/gramm",
+  "description": "Gramm calculation core",
+  "sub_domain": "air-quality-emissions",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 11,
+  "language": "C#",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 14.6,
+  "discovery_score": 1,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Gramm calculation core",
+  "slug": "graldispersionmodel-gramm"
+}

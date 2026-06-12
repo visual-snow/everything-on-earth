@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/small-hack/kaartmaker",
+  "name": "small-hack/kaartmaker",
+  "description": "Make maps of world voting patterns, such as UN General Assembly votes.",
+  "sub_domain": "network-alliance-analysis",
+  "score": 6,
+  "score_rationale": "It supports world-voting-pattern visualization, which is useful for alliance mapping even if it is not a core dataset.",
+  "stars": 2,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "network-alliance-analysis"
+  ],
+  "quality_score": 39.8,
+  "tags": [
+    "un",
+    "voting",
+    "mapping",
+    "visualization",
+    "geopolitics"
+  ],
+  "category": "Voting Map Generator",
+  "summary": "Makes maps of world voting patterns such as UN votes.",
+  "slug": "small-hack-kaartmaker"
+}

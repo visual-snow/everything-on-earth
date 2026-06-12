@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/nedap/deidentify",
+  "name": "nedap/deidentify",
+  "description": "A Python library to de-identify medical records with state-of-the-art NLP methods. Pre-trained models for the Dutch language are available.",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 6,
+  "score_rationale": "Relevant NLP-based medical-record de-identification library with a healthcare-specific model focus.",
+  "stars": 144,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-11-13",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 53.3,
+  "discovery_score": 6,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa",
+    "nlp"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "A Python library to de-identify medical records with state-of-the-art NLP methods. Pre-trained models for the Dutch language are available.",
+  "slug": "nedap-deidentify"
+}

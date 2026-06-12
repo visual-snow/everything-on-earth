@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hummingbot/hummingbot",
+  "name": "hummingbot/hummingbot",
+  "description": "Open source software that helps you create and deploy high-frequency crypto trading bots.",
+  "sub_domain": "live-algo-execution-engines",
+  "score": 10,
+  "score_rationale": "Purpose-built open-source live crypto bot framework for creating and deploying bots across exchanges.",
+  "stars": 17826,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "live-algo-execution-engines",
+    "trading-bots-strategy-frameworks"
+  ],
+  "quality_score": 94.0,
+  "tags": [
+    "live-trading",
+    "execution",
+    "order-routing"
+  ],
+  "category": "Trading Execution Engine",
+  "summary": "Open source software that helps you create and deploy high-frequency crypto trading bots.",
+  "slug": "hummingbot-hummingbot"
+}

@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/jupyter/nbgrader",
+  "name": "jupyter/nbgrader",
+  "description": "A system for assigning and grading notebooks",
+  "sub_domain": "interactive-coding-education",
+  "score": 8,
+  "score_rationale": "Strong fit for autograded notebook-based education workflows.",
+  "stars": 1367,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 73.1,
+  "discovery_score": 8,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "grading",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "A system for assigning and grading notebooks",
+  "slug": "jupyter-nbgrader"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/felipeczpaz/ceac-visa-status-automator",
+  "name": "felipeczpaz/ceac-visa-status-automator",
+  "description": "This script automates the process of checking visa application status on the CEAC website (ceac.state.gov) by filling out the required fields using data extracted from PDF files containing visa confirmation details.",
+  "sub_domain": "immigration-visa-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "Batchfile",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-03-03",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "This script automates the process of checking visa application status on the CEAC website (ceac.state.gov) by filling out the required fi...",
+  "slug": "felipeczpaz-ceac-visa-status-automator"
+}

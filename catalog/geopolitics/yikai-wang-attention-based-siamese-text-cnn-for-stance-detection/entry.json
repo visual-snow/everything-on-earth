@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/yikai-wang/attention-based-siamese-text-cnn-for-stance-detection",
+  "name": "Yikai-Wang/Attention-Based-Siamese-Text-CNN-for-Stance-Detection",
+  "description": "Final project code for a stance-detection model built with an attention-based Siamese Text-CNN.",
+  "sub_domain": "political-text-nlp",
+  "score": 8,
+  "score_rationale": "A focused stance-detection implementation that is still directly applicable to political text classification.",
+  "stars": 18,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2018-06-13",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 58.2,
+  "tags": [
+    "stance-detection",
+    "siamese-networks",
+    "text-cnn",
+    "political-claims"
+  ],
+  "category": "Stance Detection",
+  "summary": "Attention Siamese Text-CNN stance detector for political claims.",
+  "slug": "yikai-wang-attention-based-siamese-text-cnn-for-stance-detection"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hydropml/hydropml_rainfall_runoff",
+  "name": "hydropml/hydropml_rainfall_runoff",
+  "description": "Rainfall-runoff Forecast Meets Physics-aware Machine Learning",
+  "sub_domain": "water-resource-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-10-08",
+  "found_in_domains": [
+    "water-resource-management"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "hydrology",
+    "watershed",
+    "water-quality",
+    "water-modeling"
+  ],
+  "category": "Water Resource Management \u2014 hydrological modeling, water quality, watershed analysis",
+  "summary": "Rainfall-runoff Forecast Meets Physics-aware Machine Learning",
+  "slug": "hydropml-hydropml-rainfall-runoff"
+}

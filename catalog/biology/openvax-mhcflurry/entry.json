@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openvax/mhcflurry",
+  "name": "openvax/mhcflurry",
+  "description": "Peptide-MHC I binding affinity prediction",
+  "sub_domain": "immunoinformatics",
+  "score": 10,
+  "score_rationale": "Canonical class I peptide-MHC binder with broad adoption, active maintenance, and a clear immunoinformatics focus.",
+  "stars": 237,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 79.0,
+  "discovery_score": 10,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Peptide-MHC I binding affinity prediction",
+  "slug": "openvax-mhcflurry"
+}

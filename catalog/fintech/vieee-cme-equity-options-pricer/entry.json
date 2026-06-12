@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vieee/cme_equity_options_pricer",
+  "name": "vieee/cme_equity_options_pricer",
+  "description": "Professional-grade options pricing and analytics platform with real-time market data, advanced visualization, and multiple option pricing models.",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-08-09",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "Professional-grade options pricing and analytics platform with real-time market data, advanced visualization, and multiple option pricing...",
+  "slug": "vieee-cme-equity-options-pricer"
+}

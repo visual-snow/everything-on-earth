@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/azizka/speciesgeocoder",
+  "name": "azizka/speciesgeocoder",
+  "description": "Preparation of species occurrences and distribution data for the use in phylogenetic analyses. SpeciesgeocodeR is built for data exploration and data analysis and especially suited for biogeographical and ecological questions on large datasets. The package includes the easy creation of summary-tables and -graphs and geographical maps, the calculating of coexistence matrices and species ranges (EOO) as well as mapping diversity in geographic areas.",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "It is purpose-built for preparing occurrence and distribution data for biogeographic and ecological analysis.",
+  "stars": 23,
+  "language": "R",
+  "license": null,
+  "last_activity": "2023-08-31",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 59.0,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Preparation of species occurrences and distribution data for the use in phylogenetic analyses. SpeciesgeocodeR is built for data explorat...",
+  "slug": "azizka-speciesgeocoder"
+}

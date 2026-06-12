@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lovasoa/whitebophir",
+  "name": "lovasoa/whitebophir",
+  "description": "Online collaborative Whiteboard that is simple, free, easy to use and to deploy",
+  "sub_domain": "collaborative-learning",
+  "score": 7,
+  "score_rationale": "General collaborative whiteboard that can support group learning and brainstorming sessions.",
+  "stars": 2571,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-01-21",
+  "found_in_domains": [
+    "collaborative-learning"
+  ],
+  "quality_score": 69.3,
+  "discovery_score": 7,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "Online collaborative Whiteboard that is simple, free, easy to use and to deploy",
+  "slug": "lovasoa-whitebophir"
+}

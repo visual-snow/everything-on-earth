@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nest/nest-simulator",
+  "name": "nest/nest-simulator",
+  "description": "The NEST simulator",
+  "sub_domain": "computational-neuroscience",
+  "score": 10,
+  "score_rationale": "Canonical large-scale spiking neural network simulator widely used in computational neuroscience.",
+  "stars": 637,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 82.4,
+  "discovery_score": 10,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "The NEST simulator",
+  "slug": "nest-nest-simulator"
+}

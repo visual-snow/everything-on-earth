@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/axion66/ai_livefinancialnews_forecasting",
+  "name": "axion66/AI_LiveFinancialNews_Forecasting",
+  "description": "Website using FinBERT + live financial news scraping to assess short-term investment potential.",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 8,
+  "score_rationale": "Live news scraping plus FinBERT scoring makes this a strong trading-oriented alternative-data project.",
+  "stars": 14,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2025-03-07",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 57.4,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics",
+    "finbert"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "Website using FinBERT + live financial news scraping to assess short-term investment potential.",
+  "slug": "axion66-ai-livefinancialnews-forecasting"
+}

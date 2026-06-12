@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/greenings/transitionvaluation",
+  "name": "greenings/transitionvaluation",
+  "description": "This open-source repository contains resources for the valuation of corporate transitions to net zero. The intended users are researchers, analysts, and developers for academic and professional applications, primarily in the fields of sustainability and finance: asset owners, asset managers, impact valuation providers, policy-makers and regulators.",
+  "sub_domain": "esg-reporting-compliance",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "esg-reporting-compliance"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "esg",
+    "csrd",
+    "tcfd",
+    "issb"
+  ],
+  "category": "ESG Reporting / Compliance \u2014 ESG aggregation and CSRD/TCFD/ISSB reporting tooling",
+  "summary": "This open-source repository contains resources for the valuation of corporate transitions to net zero. The intended users are researchers...",
+  "slug": "greenings-transitionvaluation"
+}

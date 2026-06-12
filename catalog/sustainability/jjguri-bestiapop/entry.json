@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jjguri/bestiapop",
+  "name": "jjguri/bestiapop",
+  "description": "Python package to automatically generate gridded climate data to be used as input for crop models",
+  "sub_domain": "sustainable-agriculture",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 15,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2022-01-10",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 27.6,
+  "discovery_score": 3,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "Python package to automatically generate gridded climate data to be used as input for crop models",
+  "slug": "jjguri-bestiapop"
+}

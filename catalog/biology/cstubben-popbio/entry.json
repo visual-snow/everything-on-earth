@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cstubben/popbio",
+  "name": "cstubben/popbio",
+  "description": "Construction and analysis of matrix population models",
+  "sub_domain": "ecology-conservation",
+  "score": 8,
+  "score_rationale": "Classic package for matrix population models and basic population-ecology analysis.",
+  "stars": 14,
+  "language": "R",
+  "license": null,
+  "last_activity": "2024-03-28",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 57.4,
+  "discovery_score": 8,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Construction and analysis of matrix population models",
+  "slug": "cstubben-popbio"
+}

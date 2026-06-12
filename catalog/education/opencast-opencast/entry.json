@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/opencast/opencast",
+  "name": "opencast/opencast",
+  "description": "The free and open source solution for automated video capture and distribution at scale.",
+  "sub_domain": "video-lecture-platforms",
+  "score": 10,
+  "score_rationale": "Purpose-built for educational lecture capture, processing, and distribution.",
+  "stars": 485,
+  "language": "Java",
+  "license": "ECL-2.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "video-lecture-platforms",
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 81.5,
+  "discovery_score": 10,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation",
+    "accessibility",
+    "captioning"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "The free and open source solution for automated video capture and distribution at scale.",
+  "slug": "opencast-opencast"
+}

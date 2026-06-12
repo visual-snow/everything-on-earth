@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/snstac/aiscot",
+  "name": "snstac/aiscot",
+  "description": "Display Ships in TAK - AIS to TAK Gateway",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 9,
+  "score_rationale": "AIS-to-TAK gateway with direct maritime domain-awareness utility.",
+  "stars": 67,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 68.7,
+  "tags": [
+    "ais",
+    "gateway",
+    "maritime",
+    "tracking"
+  ],
+  "category": "AIS Gateway",
+  "summary": "Bridges AIS vessel data into TAK for maritime awareness.",
+  "slug": "snstac-aiscot"
+}

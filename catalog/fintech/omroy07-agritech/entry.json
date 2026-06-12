@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/omroy07/agritech",
+  "name": "omroy07/agritech",
+  "description": "AgriTech is an AI-powered web platform that offers crop recommendations, yield prediction, disease detection, and collaborative tools to empower farmers and promote smart, sustainable agriculture.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 103,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 22.1,
+  "discovery_score": 1,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "AgriTech is an AI-powered web platform that offers crop recommendations, yield prediction, disease detection, and collaborative tools to...",
+  "slug": "omroy07-agritech"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/slicerdmri/slicerdmri",
+  "name": "SlicerDMRI/SlicerDMRI",
+  "description": "Diffusion MRI analysis and visualization in 3D Slicer open source medical imaging platform.",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 8,
+  "score_rationale": "Strong 3D Slicer extension for diffusion MRI analysis and visualization.",
+  "stars": 86,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 63.5,
+  "discovery_score": 8,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "Diffusion MRI analysis and visualization in 3D Slicer open source medical imaging platform.",
+  "slug": "slicerdmri-slicerdmri"
+}

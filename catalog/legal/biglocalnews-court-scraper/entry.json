@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/biglocalnews/court-scraper",
+  "name": "biglocalnews/court-scraper",
+  "description": "Scrapers for U.S. county court sites.",
+  "sub_domain": "court-case-management",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 79,
+  "language": "Python",
+  "license": "ISC",
+  "last_activity": "2022-12-13",
+  "found_in_domains": [
+    "court-case-management"
+  ],
+  "quality_score": 33.2,
+  "discovery_score": 3,
+  "tags": [
+    "court-case-management",
+    "e-filing",
+    "docket-management",
+    "judicial-workflow",
+    "court"
+  ],
+  "category": "Court / Case Management \u2014 docketing, e-filing, case tracking, judicial workflow",
+  "summary": "Scrapers for U.S. county court sites.",
+  "slug": "biglocalnews-court-scraper"
+}

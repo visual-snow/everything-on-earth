@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bczernecki/climate",
+  "name": "bczernecki/climate",
+  "description": "The R climate package: an interface for downloading in-situ meteorological (and hydrological) dataset",
+  "sub_domain": "climate-data-analysis",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption; penalized for dataset-style signals.",
+  "stars": 101,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 34.1,
+  "discovery_score": 3,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "The R climate package: an interface for downloading in-situ meteorological (and hydrological) dataset",
+  "slug": "bczernecki-climate"
+}

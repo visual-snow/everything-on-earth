@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/biomodhub/biomod2",
+  "name": "biomodhub/biomod2",
+  "description": "BIOMOD is a computer platform for ensemble forecasting of species distributions, enabling the treatment of a range of methodological uncertainties in models and the examination of species-environment relationships.",
+  "sub_domain": "climate-biology",
+  "score": 10,
+  "score_rationale": "Canonical ensemble species-distribution forecasting platform; directly addresses ecological forecasting under climate uncertainty.",
+  "stars": 119,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "ecology-conservation",
+    "climate-biology"
+  ],
+  "quality_score": 76.6,
+  "discovery_score": 10,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "BIOMOD is a computer platform for ensemble forecasting of species distributions, enabling the treatment of a range of methodological unce...",
+  "slug": "biomodhub-biomod2"
+}

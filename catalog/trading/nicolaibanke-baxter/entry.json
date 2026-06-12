@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nicolaibanke/baxter",
+  "name": "nicolaibanke/baxter",
+  "description": "An event-driven backtester for quantitative trading strategies.",
+  "sub_domain": "backtesting-frameworks",
+  "score": 3,
+  "score_rationale": "Fresh, directly named event-driven backtester for quantitative trading strategies, albeit still very small.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 20.4,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "An event-driven backtester for quantitative trading strategies.",
+  "slug": "nicolaibanke-baxter"
+}

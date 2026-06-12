@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/academico-sis/academico",
+  "name": "academico-sis/academico",
+  "description": "Lavarel & Filament-based school management platform for small and medium institutions",
+  "sub_domain": "sis",
+  "score": 8,
+  "score_rationale": "Clearly education-first and school-management focused, with modern stack and a direct SIS-oriented positioning.",
+  "stars": 347,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "sis"
+  ],
+  "quality_score": 68.3,
+  "discovery_score": 8,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "Lavarel & Filament-based school management platform for small and medium institutions",
+  "slug": "academico-sis-academico"
+}

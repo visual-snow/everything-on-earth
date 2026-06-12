@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lmbw97/microexchange",
+  "name": "lmbw97/MicroExchange",
+  "description": "Build and analyze exchange-grade order book matching, market data replay, and microstructure analytics with modern C++20.",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 8,
+  "score_rationale": "Well aligned to exchange-grade matching, replay, and analytics.",
+  "stars": 0,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine",
+    "market-data"
+  ],
+  "category": "Order Book Engine",
+  "summary": "Build and analyze exchange-grade order book matching, market data replay, and microstructure analytics with...",
+  "slug": "lmbw97-microexchange"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fedramp/community",
+  "name": "fedramp/community",
+  "description": "FedRAMP Community Working Groups & Discussions",
+  "sub_domain": "e-discovery-document-review",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 70,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-01-23",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 20.8,
+  "discovery_score": 1,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "FedRAMP Community Working Groups & Discussions",
+  "slug": "fedramp-community"
+}

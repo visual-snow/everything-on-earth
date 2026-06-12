@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jianhong/atacseqqc",
+  "name": "jianhong/ATACseqQC",
+  "description": "ATAC-seq Quality Control",
+  "sub_domain": "epigenomics",
+  "score": 8,
+  "score_rationale": "Focused ATAC-seq QC package that is highly relevant but narrower than the main analysis stacks.",
+  "stars": 26,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-11-05",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 59.5,
+  "discovery_score": 8,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "ATAC-seq Quality Control",
+  "slug": "jianhong-atacseqqc"
+}

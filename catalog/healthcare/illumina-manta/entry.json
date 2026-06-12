@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/illumina/manta",
+  "name": "Illumina/manta",
+  "description": "Structural variant and indel caller for mapped sequencing data",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 8,
+  "score_rationale": "Strong, established structural variant caller for germline and somatic analysis.",
+  "stars": 460,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-10-11",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 69.3,
+  "discovery_score": 8,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Structural variant and indel caller for mapped sequencing data",
+  "slug": "illumina-manta"
+}

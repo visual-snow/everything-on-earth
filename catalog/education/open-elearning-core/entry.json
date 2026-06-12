@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-elearning/core",
+  "name": "open-elearning/core",
+  "description": "Open eLearning editor.",
+  "sub_domain": "curriculum-authoring",
+  "score": 3,
+  "score_rationale": "Directly related to course authoring, but the repository metadata is thin and the project scope is less clearly established than the stronger matches.",
+  "stars": 5,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-28",
+  "found_in_domains": [
+    "curriculum-authoring"
+  ],
+  "quality_score": 24.2,
+  "discovery_score": 3,
+  "tags": [
+    "curriculum",
+    "authoring",
+    "oer",
+    "courseware"
+  ],
+  "category": "Curriculum, Content Authoring, OER Publishing & Interactive Courseware",
+  "summary": "Open eLearning editor.",
+  "slug": "open-elearning-core"
+}

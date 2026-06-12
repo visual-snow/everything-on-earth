@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/antonvsdata/notame",
+  "name": "antonvsdata/notame",
+  "description": "An R package for non-targeted LC-MS metabolomics",
+  "sub_domain": "metabolomics",
+  "score": 8,
+  "score_rationale": "This is a direct non-targeted LC-MS metabolomics package with a clear preprocessing and analysis role.",
+  "stars": 20,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2025-10-31",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 58.6,
+  "discovery_score": 8,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "An R package for non-targeted LC-MS metabolomics",
+  "slug": "antonvsdata-notame"
+}

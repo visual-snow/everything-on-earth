@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/sebastienrousseau/bankstatementparser",
+  "name": "sebastienrousseau/bankstatementparser",
+  "description": "Secure Python library for parsing CAMT, PAIN.001, CSV, OFX/QFX, and MT940 bank files, with safe ZIP/XML ingestion, CLI tooling, and DataFrame exports.",
+  "sub_domain": "financial-document-processing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 10,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "statement parser financial document ai github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 14.3,
+  "discovery_score": 1,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Secure Python library for parsing CAMT, PAIN.001, CSV, OFX/QFX, and MT940 bank files, with safe ZIP/XML ingestion, CLI tooling, and DataF...",
+  "slug": "sebastienrousseau-bankstatementparser"
+}

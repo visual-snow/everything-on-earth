@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-spaced-repetition/fsrs4anki",
+  "name": "open-spaced-repetition/fsrs4anki",
+  "description": "A modern Anki custom scheduling based on the Free Spaced Repetition Scheduler algorithm.",
+  "sub_domain": "language-learning",
+  "score": 9,
+  "score_rationale": "Directly improves spaced-repetition learning workflows used heavily for language vocabulary study.",
+  "stars": 3859,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "language-learning"
+  ],
+  "quality_score": 82.7,
+  "discovery_score": 9,
+  "tags": [
+    "language-learning",
+    "flashcards",
+    "vocabulary",
+    "reading-support"
+  ],
+  "category": "Language Learning, Vocabulary Training, Reading Support & Speaking Practice",
+  "summary": "A modern Anki custom scheduling based on the Free Spaced Repetition Scheduler algorithm.",
+  "slug": "open-spaced-repetition-fsrs4anki"
+}

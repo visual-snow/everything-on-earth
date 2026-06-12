@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ranaroussi/yfinance",
+  "name": "ranaroussi/yfinance",
+  "description": "Download market data from Yahoo! Finance's API",
+  "sub_domain": "market-data-feeds",
+  "score": 9,
+  "score_rationale": "Canonical open-source Yahoo Finance downloader with broad use for historical price ingestion and research workflows.",
+  "stars": 22312,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": null,
+  "found_in_domains": [
+    "market-data-feeds"
+  ],
+  "quality_score": 88.8,
+  "tags": [
+    "market-data",
+    "data-ingestion",
+    "real-time-feeds",
+    "historical-data"
+  ],
+  "category": "Market Data Feed",
+  "summary": "Download market data from Yahoo! Finance's API",
+  "slug": "ranaroussi-yfinance"
+}

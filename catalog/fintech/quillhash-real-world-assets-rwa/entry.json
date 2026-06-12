@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/quillhash/real-world-assets-rwa",
+  "name": "quillhash/real-world-assets-rwa",
+  "description": "This repository comprises the theoretical and technical aspects of tokenisation of real world assets.",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 91,
+  "language": "Solidity",
+  "license": null,
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 21.7,
+  "discovery_score": 1,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "This repository comprises the theoretical and technical aspects of tokenisation of real world assets.",
+  "slug": "quillhash-real-world-assets-rwa"
+}

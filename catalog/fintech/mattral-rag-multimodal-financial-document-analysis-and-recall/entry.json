@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/mattral/rag-multimodal-financial-document-analysis-and-recall",
+  "name": "mattral/rag-multimodal-financial-document-analysis-and-recall",
+  "description": "(RAG) Developing a chatbot capable of utilizing PDF files as a knowledge base to answer questions. Additionally, we employed the vision capability of GPT-4V to identify and describe graphs from each page. Describing the charts and their illustrated trends improves the chatbot's accuracy in answering and providing additional context.",
+  "sub_domain": "financial-document-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 54,
+  "language": "Jupyter Notebook",
+  "query_hits": 1,
+  "matched_queries": [
+    "financial document processing open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 37.9,
+  "discovery_score": 4,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "(RAG) Developing a chatbot capable of utilizing PDF files as a knowledge base to answer questions. Additionally, we employed the vision c...",
+  "slug": "mattral-rag-multimodal-financial-document-analysis-and-recall"
+}

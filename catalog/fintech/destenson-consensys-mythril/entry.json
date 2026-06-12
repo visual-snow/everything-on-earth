@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/destenson/consensys--mythril",
+  "name": "destenson/consensys--mythril",
+  "description": "Security analysis tool for Ethereum smart contracts",
+  "sub_domain": "smart-contract-security",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; fork penalty.",
+  "stars": 2,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2018-01-24",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Security analysis tool for Ethereum smart contracts",
+  "slug": "destenson-consensys-mythril"
+}

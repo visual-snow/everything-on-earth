@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/jordicorbilla/stock-prediction-deep-neural-learning",
+  "name": "jordicorbilla/stock-prediction-deep-neural-learning",
+  "description": "Predicting stock prices using a TensorFlow LSTM (long short-term memory) neural network for times series forecasting",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 7,
+  "score_rationale": "Direct deep-learning stock forecasting project; narrower but on-topic.",
+  "stars": 668,
+  "language": "Jupyter Notebook",
+  "license": "CC0-1.0",
+  "last_activity": "2025-12-28",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 64.6,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "Predicting stock prices using a TensorFlow LSTM (long short-term memory) neural network for times series...",
+  "slug": "jordicorbilla-stock-prediction-deep-neural-learning"
+}

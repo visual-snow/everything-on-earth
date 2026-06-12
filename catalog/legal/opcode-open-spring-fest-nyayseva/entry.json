@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opcode-open-spring-fest/nyayseva",
+  "name": "opcode-open-spring-fest/nyayseva",
+  "description": "Project Name: NyaySeva  \"NyaySeva\" is a captivating project featured at Open Spring Fest, meticulously crafted to assess and demonstrate profound expertise in React and its workings. With a sophisticated tech stack, the project offers a comprehensive exploration of React's capabilities and intricacies.",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2024-03-22",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "Project Name: NyaySeva  \"NyaySeva\" is a captivating project featured at Open Spring Fest, meticulously crafted to assess and demonstrate...",
+  "slug": "opcode-open-spring-fest-nyayseva"
+}

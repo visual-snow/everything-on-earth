@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/francoisjacquet/rosariosis",
+  "name": "francoisjacquet/rosariosis",
+  "description": "RosarioSIS Student Information System for school management.",
+  "sub_domain": "sis",
+  "score": 10,
+  "score_rationale": "Direct SIS project for school management with a strong canonical fit and active maintenance.",
+  "stars": 621,
+  "language": "PHP",
+  "license": "GNU GPLv2",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "sis",
+    "edtech-infrastructure"
+  ],
+  "quality_score": 82.4,
+  "discovery_score": 10,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment",
+    "lti",
+    "xapi"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "RosarioSIS Student Information System for school management.",
+  "slug": "francoisjacquet-rosariosis"
+}

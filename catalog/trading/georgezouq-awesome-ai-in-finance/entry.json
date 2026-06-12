@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/georgezouq/awesome-ai-in-finance",
+  "name": "georgezouq/awesome-ai-in-finance",
+  "description": "\ud83d\udd2c A curated list of awesome LLMs & deep learning strategies & tools in financial market.",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 7,
+  "score_rationale": "Broad curated index of AI/finance resources with explicit deep-learning and LLM coverage.",
+  "stars": 5521,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 71.9,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "\ud83d\udd2c A curated list of awesome LLMs & deep learning strategies & tools in financial market.",
+  "slug": "georgezouq-awesome-ai-in-finance"
+}

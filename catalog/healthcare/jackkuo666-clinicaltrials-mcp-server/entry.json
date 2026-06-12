@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jackkuo666/clinicaltrials-mcp-server",
+  "name": "JackKuo666/ClinicalTrials-MCP-Server",
+  "description": "Enable AI assistants to search and access ClinicalTrials.gov data through a simple MCP interface.",
+  "sub_domain": "clinical-trials-research",
+  "score": 5,
+  "score_rationale": "Useful interface layer for ClinicalTrials.gov access, but peripheral to the core research stack.",
+  "stars": 15,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-04-09",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 39.6,
+  "discovery_score": 5,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Enable AI assistants to search and access ClinicalTrials.gov data through a simple MCP interface.",
+  "slug": "jackkuo666-clinicaltrials-mcp-server"
+}

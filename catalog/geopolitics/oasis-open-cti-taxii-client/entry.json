@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/oasis-open/cti-taxii-client",
+  "name": "oasis-open/cti-taxii-client",
+  "description": "OASIS TC Open Repository: TAXII 2 Client Library Written in Python",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 7,
+  "score_rationale": "Reference TAXII client for exchanging STIX-formatted threat intelligence.",
+  "stars": 120,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-04-15",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 58.7,
+  "tags": [
+    "taxii",
+    "stix",
+    "python",
+    "client"
+  ],
+  "category": "TAXII Client Library",
+  "summary": "Python client library for exchanging STIX data over TAXII 2.",
+  "slug": "oasis-open-cti-taxii-client"
+}

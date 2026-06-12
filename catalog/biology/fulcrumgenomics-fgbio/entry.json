@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fulcrumgenomics/fgbio",
+  "name": "fulcrumgenomics/fgbio",
+  "description": "Tools for working with genomic and high throughput sequencing data.",
+  "sub_domain": "genomics",
+  "score": 7,
+  "score_rationale": "Practical collection of sequencing-data utilities for UMI handling, BAM/VCF processing, and assay-specific pipelines.",
+  "stars": 360,
+  "language": "Scala",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 62.5,
+  "discovery_score": 7,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Tools for working with genomic and high throughput sequencing data.",
+  "slug": "fulcrumgenomics-fgbio"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sagar87/spatialproteomics",
+  "name": "sagar87/spatialproteomics",
+  "description": "Spatialproteomics is a light weight wrapper around xarray with the intention to facilitate the data exploration and analysis of highly multiplexed immunohistochemistry data. Docs available here:  https://sagar87.github.io/spatialproteomics/ .",
+  "sub_domain": "spatial-omics",
+  "score": 8,
+  "score_rationale": "Good fit for spatial proteomics because it centers exploratory analysis of highly multiplexed immunohistochemistry data.",
+  "stars": 40,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 60.9,
+  "discovery_score": 8,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Spatialproteomics is a light weight wrapper around xarray with the intention to facilitate the data exploration and analysis of highly mu...",
+  "slug": "sagar87-spatialproteomics"
+}

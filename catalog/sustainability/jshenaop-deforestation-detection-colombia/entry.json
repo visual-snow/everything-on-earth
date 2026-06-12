@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jshenaop/deforestation-detection-colombia",
+  "name": "jshenaop/deforestation-detection-colombia",
+  "description": "Pipeline de clasificaci\u00f3n de cobertura del suelo mediante im\u00e1genes multiespectrales Landsat para detecci\u00f3n de deforestaci\u00f3n en Colombia. Validado en el departamento del Guaviare.",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-26",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "Pipeline de clasificaci\u00f3n de cobertura del suelo mediante im\u00e1genes multiespectrales Landsat para detecci\u00f3n de deforestaci\u00f3n en Colombia....",
+  "slug": "jshenaop-deforestation-detection-colombia"
+}

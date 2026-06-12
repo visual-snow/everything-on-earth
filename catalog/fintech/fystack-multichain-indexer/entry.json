@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fystack/multichain-indexer",
+  "name": "fystack/multichain-indexer",
+  "description": "Highly effiicient, resilient transaction indexers for multiple blockchains: Ethereum, BNB, Tron and more",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 70,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 32.8,
+  "discovery_score": 3,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Highly effiicient, resilient transaction indexers for multiple blockchains: Ethereum, BNB, Tron and more",
+  "slug": "fystack-multichain-indexer"
+}

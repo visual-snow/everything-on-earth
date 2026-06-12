@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nmdp-bioinformatics/flow-optitype",
+  "name": "nmdp-bioinformatics/flow-OptiType",
+  "description": "Use nextflow to run BAM files through OptiType",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 3,
+  "score_rationale": "Relevant HLA typing workflow, but narrow in scope and lightly maintained.",
+  "stars": 4,
+  "language": null,
+  "license": "GPL-3.0",
+  "last_activity": "2017-08-10",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 23.6,
+  "discovery_score": 3,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Use nextflow to run BAM files through OptiType",
+  "slug": "nmdp-bioinformatics-flow-optitype"
+}

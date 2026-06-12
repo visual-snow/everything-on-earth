@@ -1,0 +1,14 @@
+{
+  "slug": "openconceptlab-oclapi2",
+  "name": "OpenConceptLab/oclapi2",
+  "what_it_is": "OCL Terminology Service v2 is a Python/Django REST API that manages and serves health terminology resources (concepts, sources, collections, code systems) with FHIR R4 compatibility and full-text search via Elasticsearch.",
+  "components": ["Django REST API", "PostgreSQL", "Redis (Celery broker and cache)", "Elasticsearch (full-text search)", "Celery workers (multiple queues)", "Celery Beat (scheduled tasks)", "FHIR Validator sidecar", "Swagger UI"],
+  "protocols": ["REST/HTTP", "OpenID Connect (OIDC)", "FHIR R4 (CodeSystem, ValueSet)", "Django Auth (token-based fallback)"],
+  "measurement": ["django-silk profiler", "Sentry error tracking", "Healthcheck endpoints"],
+  "configuration": ["OIDC SSO settings", "Elasticsearch connection", "PostgreSQL connection", "Redis/Celery broker", "S3/Azure/MinIO object storage", "FHIR validator endpoint", "API rate limiting toggle"],
+  "modes": ["Standard mode (Django Auth)", "SSO mode (Keycloak)", "CI mode", "Profiling mode"],
+  "constraints": ["Requires vm.max_map_count=262144 on host for Elasticsearch", "Celery bulk-import workers limited to single concurrency", "Redis maxmemory capped at 2048 MB", "FHIR validator is a required sidecar for FHIR resource imports"],
+  "docker_services": ["db (postgres)", "redis", "api", "fhir_validator", "celery (multiple queue workers)", "celery_beat"],
+  "notable_absences": ["No reverse proxy in compose", "No metrics exporter (Prometheus/OTEL)", "No database migration service"],
+  "fault_injection": []
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/plantnet/gbif-dl",
+  "name": "plantnet/gbif-dl",
+  "description": "GBIF classification dataloaders",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This is a GBIF-specific ingestion utility that supports downstream biodiversity data workflows.",
+  "stars": 47,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-19",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 61.4,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "GBIF classification dataloaders",
+  "slug": "plantnet-gbif-dl"
+}

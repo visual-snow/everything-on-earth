@@ -1,0 +1,65 @@
+{
+  "slug": "project-monai-monai",
+  "name": "Project-MONAI/MONAI",
+  "what_it_is": "MONAI (Medical Open Network for AI) is a PyTorch-based open-source framework for deep learning in healthcare imaging. It provides domain-specific components for building, training, and evaluating medical image analysis models, including segmentation, classification, and detection tasks.",
+  "components": [
+    "transforms (medical image pre-processing and augmentation)",
+    "networks (domain-specific model architectures)",
+    "losses (medical imaging loss functions)",
+    "metrics (evaluation metrics for medical tasks)",
+    "data (datasets, dataloaders, caching)",
+    "engines (training and evaluation loop runners, pytorch-ignite based)",
+    "inferers (inference strategies including sliding window, patch-based)",
+    "handlers (event-driven training callbacks)",
+    "bundle (MONAI Bundle format for portable model configs)",
+    "auto3dseg (automated 3D segmentation pipeline)",
+    "fl (federated learning support)",
+    "apps (end-to-end application workflows)",
+    "visualize (visualization utilities)",
+    "config (config-driven workflow system)",
+    "optimizers (domain-specific optimizers)"
+  ],
+  "protocols": [],
+  "measurement": [
+    "Dice similarity coefficient",
+    "Hausdorff distance",
+    "Mean IoU (intersection over union)",
+    "Surface distance metrics",
+    "ROC AUC",
+    "Confusion matrix metrics (precision, recall, F1)"
+  ],
+  "configuration": [
+    "MONAI Bundle JSON/YAML config files",
+    "PyTorch model architecture selection",
+    "Data transforms pipeline composition",
+    "Multi-GPU / multi-node data parallelism (via PyTorch DistributedDataParallel)",
+    "Optional dependencies (nibabel, ITK, cucim, openslide, mlflow, clearml, etc.)",
+    "Docker base image (PYTORCH_IMAGE build arg, default nvcr.io/nvidia/pytorch)",
+    "CUDA architecture list (TORCH_CUDA_ARCH_LIST build arg)",
+    "Shared memory size (--shm-size for slim image)"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Training mode (supervised deep learning workflows)",
+    "Inference mode (sliding window, patch-based, simple)",
+    "Auto3DSeg mode (automated 3D segmentation with NAS-style selection)",
+    "Federated learning mode",
+    "Bundle execution mode (config-driven portable inference/training)"
+  ],
+  "constraints": [
+    "Requires Python >= 3.9 and PyTorch >= 2.4.1",
+    "GPU (NVIDIA CUDA) required for full performance; cucim GPU acceleration only available on Linux",
+    "No built-in DICOM networking or PACS connectivity; imaging I/O depends on third-party libs (nibabel, ITK, openslide)",
+    "MONAI Bundle format requires JSON/YAML schema compliance; not interoperable with other model-serving formats out of the box",
+    "Transformers integration capped at <4.41.0 for Python <= 3.10"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No DICOM server or PACS integration",
+    "No built-in model serving / REST inference endpoint",
+    "No annotation tooling (labeling UI)",
+    "No docker-compose multi-service orchestration provided",
+    "No built-in dataset registry or data versioning",
+    "No HL7/FHIR interface"
+  ]
+}

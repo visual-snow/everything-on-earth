@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hanlulong/awesome-ai-for-economists",
+  "name": "hanlulong/awesome-ai-for-economists",
+  "description": "A curated list of AI tools, libraries, and resources for economics research, teaching, and policy analysis. Maintained by the OpenEcon team.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for awesome-style signals.",
+  "stars": 50,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-02-21",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 19.7,
+  "discovery_score": 1,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "A curated list of AI tools, libraries, and resources for economics research, teaching, and policy analysis. Maintained by the OpenEcon team.",
+  "slug": "hanlulong-awesome-ai-for-economists"
+}

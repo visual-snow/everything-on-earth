@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jvrana/terrarium",
+  "name": "jvrana/terrarium",
+  "description": "Computer-Aided Process Planner (CAPP) for Synthetic Biology Research",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Synthetic-biology planning software focused on experiment planning and DBTL-style workflow support.",
+  "stars": 11,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-06-01",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 56.6,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "Computer-Aided Process Planner (CAPP) for Synthetic Biology Research",
+  "slug": "jvrana-terrarium"
+}

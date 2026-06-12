@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/offciercia/on-chain-investigations-tools-list",
+  "name": "offciercia/on-chain-investigations-tools-list",
+  "description": "Here we discuss how one can investigate crypto hacks and security incidents, and collect all the possible tools and manuals! PRs are welcome! If any tool is missing - please open PR!",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 1864,
+  "language": null,
+  "license": "Unlicense",
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 56.2,
+  "discovery_score": 5,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Here we discuss how one can investigate crypto hacks and security incidents, and collect all the possible tools and manuals! PRs are welc...",
+  "slug": "offciercia-on-chain-investigations-tools-list"
+}

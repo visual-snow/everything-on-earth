@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/carlos-molina/contraval",
+  "name": "carlos-molina/contraval",
+  "description": "A tool for validating the logical consistency of smart contracts implemented at Newcastle Univ. and maintained by Univ. of Cambridge.",
+  "sub_domain": "smart-contracts-legal",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": null,
+  "license": null,
+  "last_activity": "2019-01-07",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract-analysis"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "A tool for validating the logical consistency of smart contracts implemented at Newcastle Univ. and maintained by Univ. of Cambridge.",
+  "slug": "carlos-molina-contraval"
+}

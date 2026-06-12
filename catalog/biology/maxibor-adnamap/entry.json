@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maxibor/adnamap",
+  "name": "maxibor/adnamap",
+  "description": "aDNA mapping to multiple genomes",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 8,
+  "score_rationale": "Focused mapping workflow that stays within the ancient-DNA processing lane.",
+  "stars": 1,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2025-02-04",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "aDNA mapping to multiple genomes",
+  "slug": "maxibor-adnamap"
+}

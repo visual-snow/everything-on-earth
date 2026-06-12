@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/piy0999/egalex",
+  "name": "piy0999/egalex",
+  "description": "A LegalTech project to enhance access to justice",
+  "sub_domain": "access-to-justice-civic-tech",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "CSS",
+  "license": null,
+  "last_activity": "2020-07-29",
+  "found_in_domains": [
+    "access-to-justice-civic-tech"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "access-to-justice",
+    "legal-aid",
+    "self-help",
+    "civic-tech",
+    "access"
+  ],
+  "category": "Access to Justice / Civic Tech \u2014 legal aid, self-help, pro bono, guided court forms",
+  "summary": "A LegalTech project to enhance access to justice",
+  "slug": "piy0999-egalex"
+}

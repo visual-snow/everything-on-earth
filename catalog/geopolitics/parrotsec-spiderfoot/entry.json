@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/parrotsec/spiderfoot",
+  "name": "ParrotSec/spiderfoot",
+  "description": "No description provided.",
+  "stars": 39,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2017-07-26",
+  "sub_domain": "osint-frameworks",
+  "score": 7,
+  "score_rationale": "A distribution-maintained SpiderFoot fork that remains directly relevant, though derivative.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 54.8,
+  "tags": [
+    "osint",
+    "fork",
+    "reconnaissance",
+    "automation",
+    "intelligence"
+  ],
+  "category": "OSINT Fork",
+  "summary": "Distribution-maintained SpiderFoot fork for OSINT work.",
+  "slug": "parrotsec-spiderfoot"
+}

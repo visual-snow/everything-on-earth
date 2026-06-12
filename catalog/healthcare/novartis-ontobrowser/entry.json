@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/novartis/ontobrowser",
+  "name": "Novartis/ontobrowser",
+  "description": "OntoBrowser is a web-based application for managing ontologies",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 6,
+  "score_rationale": "Ontology management and browser UI with explicit support for controlled terminologies, making it relevant though older and less active.",
+  "stars": 45,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2023-02-15",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 49.3,
+  "discovery_score": 6,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "OntoBrowser is a web-based application for managing ontologies",
+  "slug": "novartis-ontobrowser"
+}

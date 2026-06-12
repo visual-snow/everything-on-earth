@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/rishabhrawat05/microservice-fintech",
+  "name": "rishabhrawat05/microservice-fintech",
+  "description": "A distributed fintech platform built with microservices architecture implementing the Saga pattern for managing distributed transactions across wallet and payment services.",
+  "sub_domain": "payment-processing-gateways",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing",
+    "wallet"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "A distributed fintech platform built with microservices architecture implementing the Saga pattern for managing distributed transactions...",
+  "slug": "rishabhrawat05-microservice-fintech"
+}

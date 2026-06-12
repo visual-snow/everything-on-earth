@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ccb-hms/ontology-mapper",
+  "name": "ccb-hms/ontology-mapper",
+  "description": "a tool for mapping free-text descriptions of entities to ontology terms",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 6,
+  "score_rationale": "Useful ontology mapping utility for free-text to terms, but narrower and less central than the major terminology servers.",
+  "stars": 25,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-07-30",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 47.3,
+  "discovery_score": 6,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "a tool for mapping free-text descriptions of entities to ontology terms",
+  "slug": "ccb-hms-ontology-mapper"
+}

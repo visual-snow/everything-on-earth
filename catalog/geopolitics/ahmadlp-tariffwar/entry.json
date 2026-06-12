@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ahmadlp/tariffwar",
+  "name": "ahmadlp/tariffwar",
+  "description": "Self-contained tariff-war analysis package based on a trade model.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 6,
+  "score_rationale": "Specific tariff-war model, useful for scenario analysis even if narrower in scope.",
+  "stars": 8,
+  "language": "MATLAB",
+  "license": null,
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 43.6,
+  "tags": [
+    "tariff-war",
+    "trade-model",
+    "matlab",
+    "simulation"
+  ],
+  "category": "Tariff War Model",
+  "summary": "Self-contained model for tariff-war scenario analysis.",
+  "slug": "ahmadlp-tariffwar"
+}

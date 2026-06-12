@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/devdacian/solidity-fuzzing-comparison",
+  "name": "devdacian/solidity-fuzzing-comparison",
+  "description": "A comparison of solidity fuzzing tools Foundry, Echidna & Medusa",
+  "sub_domain": "smart-contract-security",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 187,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2025-02-01",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 48.2,
+  "discovery_score": 5,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A comparison of solidity fuzzing tools Foundry, Echidna & Medusa",
+  "slug": "devdacian-solidity-fuzzing-comparison"
+}

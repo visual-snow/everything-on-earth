@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/voltagent/awesome-claude-code-subagents",
+  "name": "voltagent/awesome-claude-code-subagents",
+  "description": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+  "sub_domain": "payment-processing-gateways",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 15127,
+  "language": "Shell",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 39.4,
+  "discovery_score": 1,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases",
+  "slug": "voltagent-awesome-claude-code-subagents"
+}

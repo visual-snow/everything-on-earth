@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/siacus/conflicts",
+  "name": "siacus/conflicts",
+  "description": "Replication material for forecasting change in conflict fatalities with dynamic elastic net models.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 6,
+  "score_rationale": "A direct replication of a conflict-fatality forecasting method.",
+  "stars": 4,
+  "language": "R",
+  "license": null,
+  "last_activity": "2022-10-20",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 41.6,
+  "tags": [
+    "conflict-forecasting",
+    "elastic-net",
+    "fatalities",
+    "replication"
+  ],
+  "category": "Conflict Forecasting",
+  "summary": "Replicates dynamic elastic-net models for conflict fatalities.",
+  "slug": "siacus-conflicts"
+}

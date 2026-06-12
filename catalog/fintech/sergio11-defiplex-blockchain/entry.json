@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sergio11/defiplex_blockchain",
+  "name": "sergio11/defiplex_blockchain",
+  "description": "DeFiPlex is a decentralized finance (DeFi) platform designed to be a versatile and comprehensive hub for decentralized financial activities. Built on the Polygon blockchain, DeFiPlex offers a wide range of financial services, including staking, lending, borrowing, and governance, all powered by smart contracts. \ud83c\udf10\ud83d\udcb0\ud83d\udd12",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 6,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2025-06-21",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "DeFiPlex is a decentralized finance (DeFi) platform designed to be a versatile and comprehensive hub for decentralized financial activiti...",
+  "slug": "sergio11-defiplex-blockchain"
+}

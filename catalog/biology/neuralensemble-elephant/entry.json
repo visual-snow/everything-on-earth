@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/neuralensemble/elephant",
+  "name": "NeuralEnsemble/elephant",
+  "description": "Elephant is the Electrophysiology Analysis Toolkit",
+  "sub_domain": "computational-neuroscience",
+  "score": 8,
+  "score_rationale": "Standard electrophysiology analysis toolkit for spike-train and neural data workflows.",
+  "stars": 237,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 67.0,
+  "discovery_score": 8,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Elephant is the Electrophysiology Analysis Toolkit",
+  "slug": "neuralensemble-elephant"
+}

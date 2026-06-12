@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/marc-shade/world-intel-mcp",
+  "name": "marc-shade/world-intel-mcp",
+  "description": "100+ tool MCP server for real-time global intelligence \u2014 markets, FX, bonds, earnings, SEC filings, conflict, military, cyber, climate, news, company enrichment, and 30+ domains. Live Leaflet dashboard with 20 map layers, SSE streaming, and AI situation briefs.",
+  "stars": 14,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-09",
+  "sub_domain": "conflict-event-tracking",
+  "score": 8,
+  "score_rationale": "Broad live intelligence stack that explicitly includes conflict and military monitoring.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 57.4,
+  "tags": [
+    "mcp-server",
+    "intelligence",
+    "conflict-data",
+    "dashboard"
+  ],
+  "category": "Intelligence MCP Server",
+  "summary": "MCP server for live global intelligence, maps, and situation briefs.",
+  "slug": "marc-shade-world-intel-mcp"
+}

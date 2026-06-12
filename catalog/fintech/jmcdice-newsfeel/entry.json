@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jmcdice/newsfeel",
+  "name": "jmcdice/newsfeel",
+  "description": "NewsFeel: A Sentiment Analysis Tool for Financial News",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 12,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-11-11",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 32.9,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "NewsFeel: A Sentiment Analysis Tool for Financial News",
+  "slug": "jmcdice-newsfeel"
+}

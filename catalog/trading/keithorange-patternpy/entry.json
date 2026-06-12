@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/keithorange/patternpy",
+  "name": "keithorange/patternpy",
+  "description": "\ud83d\udcc8 PatternPy: A Python package revolutionizing trading analysis with high-speed pattern recognition, leveraging Pandas & Numpy. Effortlessly spot Head & Shoulders, Tops & Bottoms, Supports & Resistances. For experts & beginners. #TradingMadeEasy \ud83d\udd25",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 4,
+  "score_rationale": "Chart-pattern recognition library aligned with technical analysis and signal generation.",
+  "stars": 441,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-02-27",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 45.2,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "\ud83d\udcc8 PatternPy: A Python package revolutionizing trading analysis with high-speed pattern recognition...",
+  "slug": "keithorange-patternpy"
+}

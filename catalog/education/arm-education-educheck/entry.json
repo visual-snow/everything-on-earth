@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/arm-education/educheck",
+  "name": "arm-education/EduCheck",
+  "description": "Auto-grading tool for Rapid Embedded Education Kit labs using Mbed OS and Greentea on physical boards (educational)",
+  "sub_domain": "interactive-coding-education",
+  "score": 4,
+  "score_rationale": "Specialized education sandbox for embedded labs and physical board autograding.",
+  "stars": 2,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-06-13",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "grading",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "Auto-grading tool for Rapid Embedded Education Kit labs using Mbed OS and Greentea on physical boards (educational)",
+  "slug": "arm-education-educheck"
+}

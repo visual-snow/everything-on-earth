@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/neuronsimulator/coreneuron",
+  "name": "neuronsimulator/CoreNeuron",
+  "description": "Simulator optimized for large scale neural network simulations.",
+  "sub_domain": "computational-neuroscience",
+  "score": 9,
+  "score_rationale": "High-performance companion simulator in the NEURON ecosystem for large-scale neural modeling.",
+  "stars": 0,
+  "language": null,
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-04-10",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Simulator optimized for large scale neural network simulations.",
+  "slug": "neuronsimulator-coreneuron"
+}

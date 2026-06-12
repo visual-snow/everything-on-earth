@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ryantmi/flob",
+  "name": "RyanTmi/flob",
+  "description": "High-performance C++ limit order book engine built for quantitative research, with microsecond-level matching, realistic order types, and strict price-time priority.",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 9,
+  "score_rationale": "Research-oriented limit order book with realistic matching semantics.",
+  "stars": 0,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-10-22",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 56.4,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "High-performance C++ limit order book engine built for quantitative research, with microsecond-level...",
+  "slug": "ryantmi-flob"
+}

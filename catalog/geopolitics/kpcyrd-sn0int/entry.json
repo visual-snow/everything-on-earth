@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kpcyrd/sn0int",
+  "name": "kpcyrd/sn0int",
+  "description": "Semi-automatic OSINT framework and package manager",
+  "stars": 2416,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-31",
+  "sub_domain": "osint-frameworks",
+  "score": 9,
+  "score_rationale": "Popular semi-automatic OSINT framework and package manager with a very direct fit.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 81.1,
+  "tags": [
+    "osint",
+    "automation",
+    "reconnaissance",
+    "package-manager",
+    "intelligence"
+  ],
+  "category": "OSINT Framework",
+  "summary": "Semi-automatic OSINT framework with a package manager.",
+  "slug": "kpcyrd-sn0int"
+}

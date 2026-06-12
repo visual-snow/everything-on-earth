@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/openstax/research-question-generation-gpt3",
+  "name": "openstax/research-question-generation-gpt3",
+  "description": "OpenStax research code exploring GPT-3-based educational assessment question generation.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 7,
+  "score_rationale": "Relevant research code for assessment question generation, though it is less of a turnkey classroom product.",
+  "stars": 7,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-06-03",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 49.2,
+  "discovery_score": 7,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring",
+    "assessment"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "OpenStax research code exploring GPT-3-based educational assessment question generation.",
+  "slug": "openstax-research-question-generation-gpt3"
+}

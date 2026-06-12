@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/john-walkoe/uspto_fpd_mcp",
+  "name": "john-walkoe/uspto_fpd_mcp",
+  "description": "High-performance MCP server for USPTO Final Petition Decisions API with context reduction and cross-MCP integration",
+  "sub_domain": "ip-patent-trademark",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 23.6,
+  "discovery_score": 3,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "High-performance MCP server for USPTO Final Petition Decisions API with context reduction and cross-MCP integration",
+  "slug": "john-walkoe-uspto-fpd-mcp"
+}

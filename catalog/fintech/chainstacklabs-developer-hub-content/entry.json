@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chainstacklabs/developer-hub-content",
+  "name": "chainstacklabs/developer-hub-content",
+  "description": "Articles submitted by the community for the Chainstack Developer Hub content initiative",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 36,
+  "language": "Solidity",
+  "license": null,
+  "last_activity": "2025-03-31",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 18.5,
+  "discovery_score": 1,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Articles submitted by the community for the Chainstack Developer Hub content initiative",
+  "slug": "chainstacklabs-developer-hub-content"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/christoftorres/confuzzius",
+  "name": "christoftorres/confuzzius",
+  "description": "A data dependency-aware hybrid fuzzer for Ethereum smart contracts (EuroS&P 2021).",
+  "sub_domain": "smart-contract-security",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 102,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2023-10-11",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 46.1,
+  "discovery_score": 5,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A data dependency-aware hybrid fuzzer for Ethereum smart contracts (EuroS&P 2021).",
+  "slug": "christoftorres-confuzzius"
+}

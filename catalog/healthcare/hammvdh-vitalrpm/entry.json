@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/hammvdh/vitalrpm",
+  "name": "hammvdh/vitalrpm",
+  "description": "Remote Patient Monitoring system to monitor Patient's Health Vital Signs with Automated Heath Status Assessments using Hybrid Machine Learning.",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 7,
+  "score_rationale": "Remote monitoring focused on patient vitals and automated assessment, squarely within remote care.",
+  "stars": 9,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-06-28",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 50.0,
+  "discovery_score": 7,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video",
+    "patient-records"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "Remote Patient Monitoring system to monitor Patient's Health Vital Signs with Automated Heath Status Assessments using Hybrid Machine Lea...",
+  "slug": "hammvdh-vitalrpm"
+}

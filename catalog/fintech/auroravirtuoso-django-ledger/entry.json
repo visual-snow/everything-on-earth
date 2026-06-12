@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/auroravirtuoso/django-ledger",
+  "name": "auroravirtuoso/django-ledger",
+  "description": "Double entry accounting system built on the Django Web Framework",
+  "sub_domain": "core-banking-ledger",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-07-06",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "Double entry accounting system built on the Django Web Framework",
+  "slug": "auroravirtuoso-django-ledger"
+}

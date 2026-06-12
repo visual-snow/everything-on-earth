@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jodogne/orthanc",
+  "name": "jodogne/Orthanc",
+  "description": "Orthanc is a lightweight DICOM server for medical imaging.",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 9,
+  "score_rationale": "Core DICOM server and integration point for radiology archives, viewers, and interoperability workflows.",
+  "stars": 89,
+  "language": null,
+  "license": "GPL-3.0",
+  "last_activity": "2020-06-30",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 69.6,
+  "discovery_score": 9,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "Orthanc is a lightweight DICOM server for medical imaging.",
+  "slug": "jodogne-orthanc"
+}

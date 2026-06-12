@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nf-core/proteomicslfq",
+  "name": "nf-core/proteomicslfq",
+  "description": "Proteomics label-free quantification (LFQ) analysis pipeline",
+  "sub_domain": "proteomics",
+  "score": 9,
+  "score_rationale": "Broad LFQ workflow that explicitly combines OpenMS with downstream statistical proteomics analysis.",
+  "stars": 37,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2025-01-13",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 66.6,
+  "discovery_score": 9,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "Proteomics label-free quantification (LFQ) analysis pipeline",
+  "slug": "nf-core-proteomicslfq"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/the-finai/pixiu",
+  "name": "the-finai/pixiu",
+  "description": "This repository introduces PIXIU, an open-source resource featuring the first financial large language models (LLMs), instruction tuning data, and evaluation benchmarks to holistically assess financial LLMs. Our goal is to continually push forward the open-source development of financial artificial intelligence (AI).",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 839,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-03-04",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 47.4,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "This repository introduces PIXIU, an open-source resource featuring the first financial large language models (LLMs), instruction tuning...",
+  "slug": "the-finai-pixiu"
+}

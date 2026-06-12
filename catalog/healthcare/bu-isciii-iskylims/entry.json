@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/bu-isciii/iskylims",
+  "name": "BU-ISCIII/iskylims",
+  "description": "is an open-source LIMS (laboratory Information Management System) for Next Generation Sequencing sample management, statistics and reports, and bioinformatics analysis service management.",
+  "sub_domain": "lab-information-systems",
+  "score": 8,
+  "score_rationale": "Clear LIMS for NGS sample management and reporting; directly relevant to specimen and lab workflow operations.",
+  "stars": 89,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 63.6,
+  "discovery_score": 8,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows",
+    "bioinformatics"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "is an open-source LIMS (laboratory Information Management System) for Next Generation Sequencing sample management, statistics and report...",
+  "slug": "bu-isciii-iskylims"
+}

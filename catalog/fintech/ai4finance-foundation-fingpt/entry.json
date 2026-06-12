@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ai4finance-foundation/fingpt",
+  "name": "ai4finance-foundation/fingpt",
+  "description": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize \ud83d\udd25    We release the trained model on HuggingFace.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 7,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 18914,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 76.2,
+  "discovery_score": 7,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize \ud83d\udd25    We release the trained model on HuggingFace.",
+  "slug": "ai4finance-foundation-fingpt"
+}

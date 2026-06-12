@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/laramies/theharvester",
+  "name": "laramies/theHarvester",
+  "description": "E-mails, subdomains and names Harvester - OSINT",
+  "stars": 15879,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-19",
+  "sub_domain": "osint-frameworks",
+  "score": 10,
+  "score_rationale": "Classic recon tool for harvesting targets from open sources and a standard OSINT utility.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 93.6,
+  "tags": [
+    "osint",
+    "reconnaissance",
+    "emails",
+    "subdomains",
+    "intelligence"
+  ],
+  "category": "OSINT Recon Tool",
+  "summary": "Harvests emails, subdomains, and names from open sources.",
+  "slug": "laramies-theharvester"
+}

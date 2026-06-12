@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/vishalthehuman/taxease.ai-vertex-ai-agent",
+  "name": "vishalthehuman/taxease.ai-vertex-ai-agent",
+  "description": "TaxEase.AI is a user-friendly AI assistant designed to demystify and simplify US tax filing, a system that has become needlessly convoluted and stressful for millions of Americans.",
+  "sub_domain": "tax-compliance-automation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 13,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-06-03",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 27.2,
+  "discovery_score": 3,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat",
+    "tax",
+    "filing"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "TaxEase.AI is a user-friendly AI assistant designed to demystify and simplify US tax filing, a system that has become needlessly convolut...",
+  "slug": "vishalthehuman-taxease-ai-vertex-ai-agent"
+}

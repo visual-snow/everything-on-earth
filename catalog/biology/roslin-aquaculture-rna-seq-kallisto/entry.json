@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/roslin-aquaculture/rna-seq-kallisto",
+  "name": "roslin-aquaculture/rna-seq-kallisto",
+  "description": "Analysis of RNA sequencing Illumina data: differential expression using Kallisto and DESeq2",
+  "sub_domain": "transcriptomics",
+  "score": 6,
+  "score_rationale": "Targeted bulk RNA-seq workflow centered on kallisto quantification and DESeq2 differential expression.",
+  "stars": 8,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-03-05",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 43.6,
+  "discovery_score": 6,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Analysis of RNA sequencing Illumina data: differential expression using Kallisto and DESeq2",
+  "slug": "roslin-aquaculture-rna-seq-kallisto"
+}

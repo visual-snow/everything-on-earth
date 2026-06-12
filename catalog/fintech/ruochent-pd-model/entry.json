@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ruochent/pd_model",
+  "name": "ruochent/pd_model",
+  "description": "This project build logistic regression model to predict the probability of default of each customer and evaluate by using Gini Coefficients",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-09-28",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "This project build logistic regression model to predict the probability of default of each customer and evaluate by using Gini Coefficients",
+  "slug": "ruochent-pd-model"
+}

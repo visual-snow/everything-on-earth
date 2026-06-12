@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/abehou/clerc",
+  "name": "abehou/clerc",
+  "description": "Code repo for CLERC: A Legal Precedent Dataset for Case Retrieval and Retrieval-Augmented Analysis Generation (NAACL 2025)",
+  "sub_domain": "legal-research-case-law",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for dataset-style signals.",
+  "stars": 25,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-01-28",
+  "found_in_domains": [
+    "legal-research-case-law"
+  ],
+  "quality_score": 29.3,
+  "discovery_score": 3,
+  "tags": [
+    "case-law",
+    "citation",
+    "court-data",
+    "dockets"
+  ],
+  "category": "Legal Research / Case Law \u2014 opinions, citations, court data, dockets, scrapers",
+  "summary": "Code repo for CLERC: A Legal Precedent Dataset for Case Retrieval and Retrieval-Augmented Analysis Generation (NAACL 2025)",
+  "slug": "abehou-clerc"
+}

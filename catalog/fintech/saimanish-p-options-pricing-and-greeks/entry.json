@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/saimanish-p/options-pricing-and-greeks",
+  "name": "saimanish-p/options-pricing-and-greeks",
+  "description": "An interactive toolkit visualising options pricing and Greeks across Black-Scholes and Monte Carlo models with comparative analytics.",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 3,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-03-14",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "An interactive toolkit visualising options pricing and Greeks across Black-Scholes and Monte Carlo models with comparative analytics.",
+  "slug": "saimanish-p-options-pricing-and-greeks"
+}

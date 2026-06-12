@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jahankohan/mpc_wallet",
+  "name": "jahankohan/mpc_wallet",
+  "description": "A Multi-Party Computation solution for Custodial Wallet which relies on EVM based blockchains like ETH, Polygon and Avalanche for storing the Key Shares.",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 14,
+  "language": "Go",
+  "license": null,
+  "last_activity": "2023-07-19",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 27.4,
+  "discovery_score": 3,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "A Multi-Party Computation solution for Custodial Wallet which relies on EVM based blockchains like ETH, Polygon and Avalanche for storing...",
+  "slug": "jahankohan-mpc-wallet"
+}

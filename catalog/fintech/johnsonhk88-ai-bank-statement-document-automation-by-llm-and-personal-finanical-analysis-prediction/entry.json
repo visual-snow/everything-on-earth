@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/johnsonhk88/ai-bank-statement-document-automation-by-llm-and-personal-finanical-analysis-prediction",
+  "name": "johnsonhk88/ai-bank-statement-document-automation-by-llm-and-personal-finanical-analysis-prediction",
+  "description": "AI Bank Statement Document Automation By LLM model and Personal Finanical Analysis",
+  "sub_domain": "financial-document-processing",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 564,
+  "language": "Jupyter Notebook",
+  "query_hits": 2,
+  "matched_queries": [
+    "statement parser financial document ai github",
+    "financial document processing open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 58.0,
+  "discovery_score": 6,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "AI Bank Statement Document Automation By LLM model and Personal Finanical Analysis",
+  "slug": "johnsonhk88-ai-bank-statement-document-automation-by-llm-and-personal-finanical-analysis-prediction"
+}

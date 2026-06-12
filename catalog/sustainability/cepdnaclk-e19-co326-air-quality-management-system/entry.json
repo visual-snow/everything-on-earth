@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cepdnaclk/e19-co326-air-quality-management-system",
+  "name": "cepdnaclk/e19-co326-air-quality-management-system",
+  "description": "Air Quality Management System",
+  "sub_domain": "air-quality-emissions",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 3,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2024-12-22",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Air Quality Management System",
+  "slug": "cepdnaclk-e19-co326-air-quality-management-system"
+}

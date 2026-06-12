@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jubins/machinelearning-detecting-twitter-bots",
+  "name": "jubins/MachineLearning-Detecting-Twitter-Bots",
+  "description": "Custom classification approach for detecting Twitter bots and distinguishing them from humans.",
+  "sub_domain": "social-media-influence",
+  "score": 9,
+  "score_rationale": "It is a sizeable bot-detection project with clear social-media influence implications.",
+  "stars": 130,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2022-06-17",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 70.9,
+  "tags": [
+    "bot-detection",
+    "twitter",
+    "machine-learning",
+    "classification"
+  ],
+  "category": "Bot Detection",
+  "summary": "Twitter bot classifier using custom machine-learning features.",
+  "slug": "jubins-machinelearning-detecting-twitter-bots"
+}

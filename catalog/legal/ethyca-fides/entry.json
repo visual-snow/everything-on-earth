@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ethyca/fides",
+  "name": "ethyca/fides",
+  "description": "The Privacy Engineering & Compliance Framework",
+  "sub_domain": "privacy-data-protection",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 451,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 51.2,
+  "discovery_score": 5,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction",
+    "compliance"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "The Privacy Engineering & Compliance Framework",
+  "slug": "ethyca-fides"
+}

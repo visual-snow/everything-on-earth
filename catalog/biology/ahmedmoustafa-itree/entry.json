@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ahmedmoustafa/itree",
+  "name": "ahmedmoustafa/itree",
+  "description": "Phylogenomic Pipeline",
+  "sub_domain": "phylogenetics",
+  "score": 3,
+  "score_rationale": "It is on-topic but very old and sparse, so it looks more like legacy paper code than a maintained analysis workflow.",
+  "stars": 0,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2013-11-05",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Phylogenomic Pipeline",
+  "slug": "ahmedmoustafa-itree"
+}

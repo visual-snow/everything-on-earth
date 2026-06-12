@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/neuronsimulator/nrn",
+  "name": "neuronsimulator/nrn",
+  "description": "NEURON Simulator",
+  "sub_domain": "computational-neuroscience",
+  "score": 10,
+  "score_rationale": "The canonical neuron-modeling simulator for computational neuroscience and multicompartment cell simulations.",
+  "stars": 503,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 81.6,
+  "discovery_score": 10,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "NEURON Simulator",
+  "slug": "neuronsimulator-nrn"
+}

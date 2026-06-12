@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/attack68/rateslib",
+  "name": "attack68/rateslib",
+  "description": "A fixed income library for pricing bonds and bond futures, and derivatives such as interest rate swaps (IRS), cross-currency swaps (XCS) and FX swaps. Contains tools for full curveset construction with market standard optimisers and automatic differentiation (AD) and risk sensitivity calculations including delta and cross-gamma.",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 7 domain terms in repo text; has some GitHub adoption.",
+  "stars": 328,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 56.1,
+  "discovery_score": 6,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "A fixed income library for pricing bonds and bond futures, and derivatives such as interest rate swaps (IRS), cross-currency swaps (XCS)...",
+  "slug": "attack68-rateslib"
+}

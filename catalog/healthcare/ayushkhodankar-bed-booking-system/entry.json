@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ayushkhodankar/bed-booking-system",
+  "name": "Ayushkhodankar/Bed-Booking-System",
+  "description": "Bed Booking System For Hospital",
+  "sub_domain": "hospital-operations-scheduling",
+  "score": 5,
+  "score_rationale": "Direct bed-booking workflow for hospitals, but the project is compact and less mature than the stronger operational platforms.",
+  "stars": 5,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2024-09-06",
+  "found_in_domains": [
+    "hospital-operations-scheduling"
+  ],
+  "quality_score": 36.2,
+  "discovery_score": 5,
+  "tags": [
+    "hospital-ops",
+    "scheduling",
+    "bed-management",
+    "patient-flow"
+  ],
+  "category": "Hospital Operations, Scheduling, Bed Management & Patient Flow",
+  "summary": "Bed Booking System For Hospital",
+  "slug": "ayushkhodankar-bed-booking-system"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openjournals/joss",
+  "name": "openjournals/joss",
+  "description": "The Journal of Open Source Software",
+  "sub_domain": "research-academic-publishing",
+  "score": 9,
+  "score_rationale": "Well-known open peer review and journal workflow used in research software publishing.",
+  "stars": 1830,
+  "language": "Ruby",
+  "license": "MIT License",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 80.1,
+  "discovery_score": 9,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "The Journal of Open Source Software",
+  "slug": "openjournals-joss"
+}

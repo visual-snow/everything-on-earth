@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/bigger312/sanctions-lists",
+  "name": "bigger312/Sanctions-Lists",
+  "description": "List of Sanctions and Most wanted",
+  "stars": 29,
+  "language": null,
+  "license": null,
+  "last_activity": "2017-06-09",
+  "sub_domain": "sanctions-compliance",
+  "score": 6,
+  "score_rationale": "Repository of sanctions lists that is relevant but more of a data mirror than a tool.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 47.8,
+  "tags": [
+    "sanctions-lists",
+    "watchlists",
+    "data-mirror",
+    "compliance"
+  ],
+  "category": "Sanctions Lists",
+  "summary": "Curates sanctions and most-wanted lists.",
+  "slug": "bigger312-sanctions-lists"
+}

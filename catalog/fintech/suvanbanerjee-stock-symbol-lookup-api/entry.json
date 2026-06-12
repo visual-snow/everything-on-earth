@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/suvanbanerjee/stock_symbol_lookup_api",
+  "name": "suvanbanerjee/stock_symbol_lookup_api",
+  "description": "This is a simple stock symbol or ticker lookup API that converts a company name to a stock symbol. It is build using FastAPI and is free to use (no keys attached :D) moreover it's typo proof, that means you dont have to write the exact name of the company, it will try to find the closest match.",
+  "sub_domain": "financial-market-data",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": "Unlicense",
+  "last_activity": "2024-05-28",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 23.6,
+  "discovery_score": 3,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "This is a simple stock symbol or ticker lookup API that converts a company name to a stock symbol. It is build using FastAPI and is free...",
+  "slug": "suvanbanerjee-stock-symbol-lookup-api"
+}

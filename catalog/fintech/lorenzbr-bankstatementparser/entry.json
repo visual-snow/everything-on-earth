@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/lorenzbr/bankstatementparser",
+  "name": "lorenzbr/bankstatementparser",
+  "description": "Parse PDF bank statements and extract financial transactions such as purchases of stocks and funds. Several banks located in Germany are included.",
+  "sub_domain": "financial-document-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 7,
+  "language": "R",
+  "query_hits": 1,
+  "matched_queries": [
+    "statement parser financial document ai github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 25.2,
+  "discovery_score": 3,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Parse PDF bank statements and extract financial transactions such as purchases of stocks and funds. Several banks located in Germany are...",
+  "slug": "lorenzbr-bankstatementparser"
+}

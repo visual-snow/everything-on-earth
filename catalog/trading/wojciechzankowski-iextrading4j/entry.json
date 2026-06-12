@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/wojciechzankowski/iextrading4j",
+  "name": "wojciechzankowski/iextrading4j",
+  "description": "IEX Cloud open source API wrapper",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 7,
+  "score_rationale": "Java client for IEX Trading with a straightforward exchange API wrapper profile.",
+  "stars": 123,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-26",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 58.7,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "IEX Cloud open source API wrapper",
+  "slug": "wojciechzankowski-iextrading4j"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/baharmon/panama_hydrological_modeling",
+  "name": "baharmon/panama_hydrological_modeling",
+  "description": "Hydrological modeling and analysis of the Greater Panama Canal Watershed in GRASS GIS",
+  "sub_domain": "water-resource-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 6,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2020-06-02",
+  "found_in_domains": [
+    "water-resource-management"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "hydrology",
+    "watershed",
+    "water-quality",
+    "water-modeling"
+  ],
+  "category": "Water Resource Management \u2014 hydrological modeling, water quality, watershed analysis",
+  "summary": "Hydrological modeling and analysis of the Greater Panama Canal Watershed in GRASS GIS",
+  "slug": "baharmon-panama-hydrological-modeling"
+}

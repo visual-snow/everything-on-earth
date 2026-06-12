@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mahmoodlab/clam",
+  "name": "mahmoodlab/clam",
+  "description": "Open source tools for computational pathology - Nature BME",
+  "sub_domain": "biomedical-imaging",
+  "score": 9,
+  "score_rationale": "CLAM is a well-known computational pathology toolkit for whole-slide analysis and weak supervision on histology data.",
+  "stars": 1640,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-04-14",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 79.7,
+  "discovery_score": 9,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Open source tools for computational pathology - Nature BME",
+  "slug": "mahmoodlab-clam"
+}

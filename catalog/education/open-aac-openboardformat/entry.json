@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-aac/openboardformat",
+  "name": "open-aac/openboardformat",
+  "description": "Web site documenting and supporting the open board format",
+  "sub_domain": "special-education-therapy",
+  "score": 6,
+  "score_rationale": "Interoperability and documentation layer for AAC board formats used in assistive communication workflows.",
+  "stars": 8,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2025-01-13",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 43.6,
+  "discovery_score": 6,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "Web site documenting and supporting the open board format",
+  "slug": "open-aac-openboardformat"
+}

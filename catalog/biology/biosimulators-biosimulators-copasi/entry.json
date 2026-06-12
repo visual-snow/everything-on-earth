@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biosimulators/biosimulators_copasi",
+  "name": "biosimulators/Biosimulators_COPASI",
+  "description": "COPASI biochemical network simulation program via BioSimulators-compliant command-line interface and Docker container",
+  "sub_domain": "systems-biology",
+  "score": 8,
+  "score_rationale": "BioSimulators-compliant COPASI wrapper that preserves the canonical COPASI workflow in reproducible containerized form.",
+  "stars": 2,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 51.8,
+  "discovery_score": 8,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "COPASI biochemical network simulation program via BioSimulators-compliant command-line interface and Docker container",
+  "slug": "biosimulators-biosimulators-copasi"
+}

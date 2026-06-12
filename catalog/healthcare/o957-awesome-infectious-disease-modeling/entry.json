@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/o957/awesome-infectious-disease-modeling",
+  "name": "O957/awesome-infectious-disease-modeling",
+  "description": "A curated list of awesome resources for infectious disease modeling.",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 4,
+  "score_rationale": "Resource list for the field; relevant but indirect.",
+  "stars": 1,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "A curated list of awesome resources for infectious disease modeling.",
+  "slug": "o957-awesome-infectious-disease-modeling"
+}

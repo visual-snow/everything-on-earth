@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/histolab/histolab",
+  "name": "histolab/histolab",
+  "description": "Library for Digital Pathology Image Processing",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 6,
+  "score_rationale": "Useful digital pathology image-processing library that supports diagnostic ML workflows.",
+  "stars": 448,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 57.2,
+  "discovery_score": 6,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "Library for Digital Pathology Image Processing",
+  "slug": "histolab-histolab"
+}

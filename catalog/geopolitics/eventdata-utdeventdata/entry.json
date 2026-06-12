@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/eventdata/utdeventdata",
+  "name": "eventdata/UTDEventData",
+  "description": "R package for retrieving political event data from the UTD API server.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 6,
+  "score_rationale": "Useful political event-data plumbing that supports risk and early-warning models.",
+  "stars": 1,
+  "language": "SCSS",
+  "license": "MIT",
+  "last_activity": "2024-01-12",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 38.4,
+  "tags": [
+    "political-event-data",
+    "r-package",
+    "api-client",
+    "data-access"
+  ],
+  "category": "Event Data Access",
+  "summary": "R package for pulling political event data from the UTD API.",
+  "slug": "eventdata-utdeventdata"
+}

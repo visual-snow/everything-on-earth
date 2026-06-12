@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/openbankproject/obp-api",
+  "name": "openbankproject/obp-api",
+  "description": "An open source RESTful API platform for banks that supports Open Banking, XS2A, PSD2 and Open Finance through access to accounts, transactions, counterparties, payments, entitlements and metadata - plus a host of internal banking and management APIs.",
+  "sub_domain": "open-banking-psd2",
+  "score": 7,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1686,
+  "language": "Scala",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 67.8,
+  "discovery_score": 7,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance",
+    "payments"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "An open source RESTful API platform for banks that supports Open Banking, XS2A, PSD2 and Open Finance through access to accounts, transac...",
+  "slug": "openbankproject-obp-api"
+}

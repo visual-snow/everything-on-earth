@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/reconsumeralization/smart-mcp-server",
+  "name": "reconsumeralization/smart-mcp-server",
+  "description": "The Smart MCP Server stands out from other tool orchestration or AI workflow systems in a few meaningful ways: Context Awareness: Unlike many workflow engines or tool servers that require explicit user input to select and run tools, Smart MCP Server automatically analyzes user messages, historical activity, and project context. This intelligent.",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "The Smart MCP Server stands out from other tool orchestration or AI workflow systems in a few meaningful ways: Context Awareness: Unlike...",
+  "slug": "reconsumeralization-smart-mcp-server"
+}

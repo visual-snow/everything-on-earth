@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zhaozj89/educational-question-generation",
+  "name": "zhaozj89/Educational-Question-Generation",
+  "description": "Implementation for generating high-cognitive-demand educational questions from text and question types.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 8,
+  "score_rationale": "Directly in-scope for educational question generation and clearly focused on instructor-authored assessment material.",
+  "stars": 21,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-01-10",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 58.7,
+  "discovery_score": 8,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "Implementation for generating high-cognitive-demand educational questions from text and question types.",
+  "slug": "zhaozj89-educational-question-generation"
+}

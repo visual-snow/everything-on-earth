@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/microsoft/qlib",
+  "name": "microsoft/qlib",
+  "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 10,
+  "score_rationale": "AI-oriented quant research platform with end-to-end ML/RL pipelines for trading.",
+  "stars": 39291,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 96.8,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from...",
+  "slug": "microsoft-qlib"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/poyawu/optimize_potato_breeding_program_i",
+  "name": "poyawu/optimize_potato_breeding_program_i",
+  "description": "R scripts and genotypic data for simulating genomic selection strategies in potato breeding.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "It is tightly aligned to crop breeding optimization and genomic selection in potato, which is a direct agricultural biology use case.",
+  "stars": 0,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "R scripts and genotypic data for simulating genomic selection strategies in potato breeding.",
+  "slug": "poyawu-optimize-potato-breeding-program-i"
+}

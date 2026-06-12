@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/liibre/rocc",
+  "name": "liibre/rocc",
+  "description": "Get species occurrence data from speciesLink and GBIF, and species lists from the Brazilian Flora 2020. Perform basic taxonomic checks based on Brazilian Flora 2020. Download GADM, WDPA and DIVA-GIS gazetteer shapefiles.",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This repo blends occurrence retrieval with taxonomic checks and biodiversity data access from major sources.",
+  "stars": 17,
+  "language": "R",
+  "license": null,
+  "last_activity": "2022-06-03",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 58.0,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Get species occurrence data from speciesLink and GBIF, and species lists from the Brazilian Flora 2020. Perform basic taxonomic checks ba...",
+  "slug": "liibre-rocc"
+}

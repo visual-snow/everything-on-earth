@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/rahulautade2288/payments-modernization-hub",
+  "name": "rahulautade2288/payments-modernization-hub",
+  "description": "A comprehensive hub for Payments Modernization in the FinTech domain focusing on real time rails high value wires ISO 20022 transformations event driven microservices fraud and risk workflows and next generation digital payment architectures built for scalable and secure financial ecosystems.",
+  "sub_domain": "payment-processing-gateways",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 220,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2025-12-03",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 48.8,
+  "discovery_score": 5,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing",
+    "fraud"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "A comprehensive hub for Payments Modernization in the FinTech domain focusing on real time rails high value wires ISO 20022 transformatio...",
+  "slug": "rahulautade2288-payments-modernization-hub"
+}

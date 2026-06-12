@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/grenaud/leehom",
+  "name": "grenaud/leeHom",
+  "description": "Bayesian reconstruction of ancient DNA fragments.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 9,
+  "score_rationale": "Specialized aDNA read-processing tool for adapter trimming and overlap-aware merging.",
+  "stars": 30,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2024-08-06",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 65.9,
+  "discovery_score": 9,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Bayesian reconstruction of ancient DNA fragments.",
+  "slug": "grenaud-leehom"
+}

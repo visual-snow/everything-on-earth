@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/hashgraph/hedera-accelerator-rwa-defi-fe",
+  "name": "hashgraph/hedera-accelerator-rwa-defi-fe",
+  "description": "hedera-accelerator-rwa-re-ui",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 2,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 9.8,
+  "discovery_score": 1,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization",
+    "defi"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "hedera-accelerator-rwa-re-ui",
+  "slug": "hashgraph-hedera-accelerator-rwa-defi-fe"
+}

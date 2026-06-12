@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ron89/bionetworksimulation",
+  "name": "ron89/bionetworksimulation",
+  "description": "A simulation module for biochemical networks, written in C++.",
+  "sub_domain": "systems-biology",
+  "score": 5,
+  "score_rationale": "Older C++ module for biochemical network simulation, still relevant but lightly maintained.",
+  "stars": 0,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2016-02-19",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "A simulation module for biochemical networks, written in C++.",
+  "slug": "ron89-bionetworksimulation"
+}

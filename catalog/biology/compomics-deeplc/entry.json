@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/compomics/deeplc",
+  "name": "CompOmics/DeepLC",
+  "description": "DeepLC: Retention time prediction for peptides carrying any modification.",
+  "sub_domain": "proteomics",
+  "score": 8,
+  "score_rationale": "Useful downstream proteomics model for retention-time prediction and interpretation.",
+  "stars": 74,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 63.0,
+  "discovery_score": 8,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "DeepLC: Retention time prediction for peptides carrying any modification.",
+  "slug": "compomics-deeplc"
+}

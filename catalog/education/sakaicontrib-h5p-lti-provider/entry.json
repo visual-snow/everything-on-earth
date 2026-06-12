@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sakaicontrib/h5p-lti-provider",
+  "name": "sakaicontrib/h5p-lti-provider",
+  "description": "LTI tool to provide H5P content.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 5,
+  "score_rationale": "Directly supports education content delivery through LTI, though it is a smaller project.",
+  "stars": 5,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2023-11-28",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 36.2,
+  "discovery_score": 5,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "LTI tool to provide H5P content.",
+  "slug": "sakaicontrib-h5p-lti-provider"
+}

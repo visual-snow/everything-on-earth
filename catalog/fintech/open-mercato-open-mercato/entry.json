@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-mercato/open-mercato",
+  "name": "open-mercato/open-mercato",
+  "description": "AI\u2011supportive CRM / ERP foundation framework \u2014 built to power R&D, new processes, operations, and growth. It\u2019s modular, extensible, and designed for teams that want strong defaults with room to customize everything. Better than Django, Retool and other alternatives - and Enterprise Grade!",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 1128,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 36.4,
+  "discovery_score": 2,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "AI\u2011supportive CRM / ERP foundation framework \u2014 built to power R&D, new processes, operations, and growth. It\u2019s modular, extensible, and d...",
+  "slug": "open-mercato-open-mercato"
+}

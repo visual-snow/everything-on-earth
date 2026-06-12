@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nf-core/taxprofiler",
+  "name": "nf-core/taxprofiler",
+  "description": "Highly parallelised multi-taxonomic profiling of shotgun short- and long-read metagenomic data",
+  "sub_domain": "metagenomics",
+  "score": 9,
+  "score_rationale": "Well-maintained canonical workflow for taxonomic profiling of metagenomic datasets across short and long reads.",
+  "stars": 184,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "metagenomics"
+  ],
+  "quality_score": 72.1,
+  "discovery_score": 9,
+  "tags": [
+    "metagenomics",
+    "microbiome",
+    "taxonomic-classification",
+    "shotgun-sequencing"
+  ],
+  "category": "Metagenomics \u2014 microbiome analysis and taxonomic classification",
+  "summary": "Highly parallelised multi-taxonomic profiling of shotgun short- and long-read metagenomic data",
+  "slug": "nf-core-taxprofiler"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lepo-project/roster-hub",
+  "name": "lepo-project/roster-hub",
+  "description": "RosterHub: roster management system based on the IMS OneRoster specification.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 5,
+  "score_rationale": "OneRoster-based roster management system directly tied to education provisioning and sync.",
+  "stars": 4,
+  "language": "Ruby",
+  "license": "AGPL-3.0",
+  "last_activity": "2024-03-01",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 5,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "RosterHub: roster management system based on the IMS OneRoster specification.",
+  "slug": "lepo-project-roster-hub"
+}

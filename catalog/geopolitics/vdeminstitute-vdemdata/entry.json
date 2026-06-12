@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/vdeminstitute/vdemdata",
+  "name": "vdeminstitute/vdemdata",
+  "description": "An R package to load, explore and work with the most recent V-Dem (Varieties of Democracy) dataset.",
+  "sub_domain": "election-governance-data",
+  "score": 9,
+  "score_rationale": "V-Dem is a core governance-metrics dataset and this package is the primary access layer.",
+  "stars": 157,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 71.6,
+  "tags": [
+    "democracy",
+    "governance",
+    "dataset",
+    "r-package"
+  ],
+  "category": "Democracy Dataset Access",
+  "summary": "R package for loading and exploring the V-Dem democracy dataset.",
+  "slug": "vdeminstitute-vdemdata"
+}

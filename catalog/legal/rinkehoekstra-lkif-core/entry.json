@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/rinkehoekstra/lkif-core",
+  "name": "rinkehoekstra/lkif-core",
+  "description": "The LKIF Core Ontology of Basic Legal Concepts",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 156,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-02-23",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 47.6,
+  "discovery_score": 5,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif",
+    "ontology"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "The LKIF Core Ontology of Basic Legal Concepts",
+  "slug": "rinkehoekstra-lkif-core"
+}

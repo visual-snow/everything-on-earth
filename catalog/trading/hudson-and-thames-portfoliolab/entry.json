@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/hudson-and-thames/portfoliolab",
+  "name": "hudson-and-thames/portfoliolab",
+  "description": "PortfolioLab is a python library that enables traders to take advantage of the latest portfolio optimisation algorithms used by professionals in the industry.",
+  "sub_domain": "portfolio-risk-management",
+  "score": 7,
+  "score_rationale": "Portfolio optimization library aimed at professional-grade allocation algorithms.",
+  "stars": 176,
+  "language": null,
+  "license": null,
+  "last_activity": "2021-12-02",
+  "found_in_domains": [
+    "portfolio-risk-management"
+  ],
+  "quality_score": 60.0,
+  "tags": [
+    "portfolio",
+    "risk-management",
+    "allocation"
+  ],
+  "category": "Portfolio Optimization",
+  "summary": "PortfolioLab is a python library that enables traders to take advantage of the latest portfolio optimisation...",
+  "slug": "hudson-and-thames-portfoliolab"
+}

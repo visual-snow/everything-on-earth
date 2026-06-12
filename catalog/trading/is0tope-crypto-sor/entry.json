@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/is0tope/crypto_sor",
+  "name": "is0tope/crypto_sor",
+  "description": "Simple Smart Order Router for crypto market.",
+  "sub_domain": "live-algo-execution-engines",
+  "score": 4,
+  "score_rationale": "Smart order router for crypto markets; relevant as execution infrastructure but smaller in scope.",
+  "stars": 28,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-06-05",
+  "found_in_domains": [
+    "live-algo-execution-engines"
+  ],
+  "quality_score": 35.7,
+  "tags": [
+    "live-trading",
+    "execution",
+    "order-routing"
+  ],
+  "category": "Trading Execution Engine",
+  "summary": "Simple Smart Order Router for crypto market.",
+  "slug": "is0tope-crypto-sor"
+}

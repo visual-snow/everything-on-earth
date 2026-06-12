@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jgcri/ceds",
+  "name": "jgcri/ceds",
+  "description": "Community Earth atmospheric Data System (CEDS)",
+  "sub_domain": "air-quality-emissions",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 115,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-06-09",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 40.5,
+  "discovery_score": 4,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Community Earth atmospheric Data System (CEDS)",
+  "slug": "jgcri-ceds"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nyu-molecular-pathology/snsxt",
+  "name": "nyu-molecular-pathology/snsxt",
+  "description": "Bioinformatics pipeline framework for data analysis, designed as a wrapper and extension for sns analyses.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 7,
+  "score_rationale": "Explicit bioinformatics pipeline framework, but it is an older project and appears more legacy than ecosystem-defining.",
+  "stars": 4,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2018-04-24",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 47.6,
+  "discovery_score": 7,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "Bioinformatics pipeline framework for data analysis, designed as a wrapper and extension for sns analyses.",
+  "slug": "nyu-molecular-pathology-snsxt"
+}

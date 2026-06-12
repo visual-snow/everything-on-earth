@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gustaveroussy/sopa",
+  "name": "gustaveroussy/sopa",
+  "description": "Technology-invariant pipeline for spatial omics analysis that scales to millions of cells (Xenium / Visium HD / MERSCOPE / CosMx / PhenoCycler / MACSima / etc)",
+  "sub_domain": "spatial-omics",
+  "score": 93,
+  "score_rationale": "Modern spatial-omics pipeline targeting high-throughput multiplex imaging workflows.",
+  "stars": 267,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 577.4,
+  "discovery_score": 93,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Technology-invariant pipeline for spatial omics analysis that scales to millions of cells (Xenium / Visium HD / MERSCOPE / CosMx / PhenoC...",
+  "slug": "gustaveroussy-sopa"
+}

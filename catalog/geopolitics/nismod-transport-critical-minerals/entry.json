@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/nismod/transport-critical-minerals",
+  "name": "nismod/transport-critical-minerals",
+  "description": "Critical minerals transport analysis.",
+  "sub_domain": "energy-geopolitics",
+  "score": 7,
+  "score_rationale": "Directly addresses transport bottlenecks in critical-mineral supply chains.",
+  "stars": 2,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-05",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 45.8,
+  "tags": [
+    "critical-minerals",
+    "logistics",
+    "transport",
+    "supply-chain"
+  ],
+  "category": "Mineral Logistics",
+  "summary": "Analyzes transport bottlenecks in critical-mineral supply chains.",
+  "slug": "nismod-transport-critical-minerals"
+}

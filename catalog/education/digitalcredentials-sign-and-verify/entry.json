@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/digitalcredentials/sign-and-verify",
+  "name": "digitalcredentials/sign-and-verify",
+  "description": "A minimal REST service that demonstrates signing and verification functionality.",
+  "sub_domain": "credentialing-certification",
+  "score": 6,
+  "score_rationale": "Minimal REST demo for signing and verification via VC-API; useful implementation reference for credential workflows.",
+  "stars": 7,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2023-09-22",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 43.2,
+  "discovery_score": 6,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "A minimal REST service that demonstrates signing and verification functionality.",
+  "slug": "digitalcredentials-sign-and-verify"
+}

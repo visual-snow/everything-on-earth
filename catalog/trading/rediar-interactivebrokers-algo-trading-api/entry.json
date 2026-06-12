@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/rediar/interactivebrokers-algo-trading-api",
+  "name": "rediar/interactivebrokers-algo-trading-api",
+  "description": "Java/MySQL real-time algorithmic trading using Interactive Brokers API.",
+  "sub_domain": "live-algo-execution-engines",
+  "score": 5,
+  "score_rationale": "IB-connected real-time algorithmic trading system, though older and narrower than the major engines.",
+  "stars": 271,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2023-06-12",
+  "found_in_domains": [
+    "live-algo-execution-engines"
+  ],
+  "quality_score": 49.5,
+  "tags": [
+    "live-trading",
+    "execution",
+    "order-routing",
+    "broker-api"
+  ],
+  "category": "Trading Execution Engine",
+  "summary": "Java/MySQL real-time algorithmic trading using Interactive Brokers API.",
+  "slug": "rediar-interactivebrokers-algo-trading-api"
+}

@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/techno-tut/financialstatement-data-extraction",
+  "name": "techno-tut/financialstatement-data-extraction",
+  "description": "Automated PDF bank statement parser that extracts transaction data from credit  and debit statements into Python objects for further processing and analysis. It analyzes pdf statements (credit or debit) bank statements and extracts python objects for it to be used by computer",
+  "sub_domain": "financial-document-processing",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "query_hits": 1,
+  "matched_queries": [
+    "statement parser financial document ai github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing",
+    "credit"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Automated PDF bank statement parser that extracts transaction data from credit  and debit statements into Python objects for further proc...",
+  "slug": "techno-tut-financialstatement-data-extraction"
+}

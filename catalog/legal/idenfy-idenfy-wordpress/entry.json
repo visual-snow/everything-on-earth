@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/idenfy/idenfy-wordpress",
+  "name": "idenfy/idenfy-wordpress",
+  "description": "Identity verification plugin for WordPress",
+  "sub_domain": "aml-kyc-identity",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2025-09-11",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "Identity verification plugin for WordPress",
+  "slug": "idenfy-idenfy-wordpress"
+}

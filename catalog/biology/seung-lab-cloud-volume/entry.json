@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/seung-lab/cloud-volume",
+  "name": "seung-lab/cloud-volume",
+  "description": "Read and write Neuroglancer datasets programmatically.",
+  "sub_domain": "connectomics",
+  "score": 9,
+  "score_rationale": "Essential infrastructure for working with large connectomics volumes, skeletons, and meshes in Neuroglancer-compatible datasets.",
+  "stars": 170,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 71.9,
+  "discovery_score": 9,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Read and write Neuroglancer datasets programmatically.",
+  "slug": "seung-lab-cloud-volume"
+}

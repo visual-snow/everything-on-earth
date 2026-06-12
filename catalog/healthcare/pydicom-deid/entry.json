@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pydicom/deid",
+  "name": "pydicom/deid",
+  "description": "These are basic Python based tools for working with medical images and text, specifically for de-identification.",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 8,
+  "score_rationale": "Strong de-identification tooling for medical images and text, especially DICOM-centric workflows.",
+  "stars": 170,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-12",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 65.9,
+  "discovery_score": 8,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "These are basic Python based tools for working with medical images and text, specifically for de-identification.",
+  "slug": "pydicom-deid"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/johannestampere/order_book_simulator",
+  "name": "Johannestampere/order_book_simulator",
+  "description": "High-Performance C++ Order Book Simulator",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 8,
+  "score_rationale": "Direct order-book simulator with performance-oriented C++ implementation.",
+  "stars": 2,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-12-04",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 51.8,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "High-Performance C++ Order Book Simulator",
+  "slug": "johannestampere-order-book-simulator"
+}

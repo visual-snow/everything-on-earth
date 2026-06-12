@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ksluckow/awesome-symbolic-execution",
+  "name": "ksluckow/awesome-symbolic-execution",
+  "description": "A curated list of awesome symbolic execution resources including essential research papers, lectures, videos, and tools.",
+  "sub_domain": "smart-contract-security",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 1476,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 55.4,
+  "discovery_score": 5,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A curated list of awesome symbolic execution resources including essential research papers, lectures, videos, and tools.",
+  "slug": "ksluckow-awesome-symbolic-execution"
+}

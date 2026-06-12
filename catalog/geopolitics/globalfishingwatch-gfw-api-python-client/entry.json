@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/globalfishingwatch/gfw-api-python-client",
+  "name": "GlobalFishingWatch/gfw-api-python-client",
+  "description": "Python package for accessing data from Global Fishing Watch APIs",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 9,
+  "score_rationale": "Python client for Global Fishing Watch data access and downstream analysis.",
+  "stars": 19,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 64.4,
+  "tags": [
+    "maritime-data",
+    "api-client",
+    "fishing",
+    "python"
+  ],
+  "category": "Fishing API Client",
+  "summary": "Python client for Global Fishing Watch APIs and analysis workflows.",
+  "slug": "globalfishingwatch-gfw-api-python-client"
+}

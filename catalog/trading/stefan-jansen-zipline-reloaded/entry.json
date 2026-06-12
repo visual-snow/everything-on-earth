@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/stefan-jansen/zipline-reloaded",
+  "name": "stefan-jansen/zipline-reloaded",
+  "description": "Zipline, a Pythonic Algorithmic Trading Library",
+  "sub_domain": "backtesting-frameworks",
+  "score": 9,
+  "score_rationale": "Maintained Zipline fork that preserves the canonical API and remains highly relevant for Python backtesting.",
+  "stars": 1690,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 79.8,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "Zipline, a Pythonic Algorithmic Trading Library",
+  "slug": "stefan-jansen-zipline-reloaded"
+}

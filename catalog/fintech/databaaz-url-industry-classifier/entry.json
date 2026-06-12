@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/databaaz/url-industry-classifier",
+  "name": "databaaz/url-industry-classifier",
+  "description": "A text classifier API that accepts url of a company and returns the industry the company belongs to",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2019-10-04",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 10.8,
+  "discovery_score": 1,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "A text classifier API that accepts url of a company and returns the industry the company belongs to",
+  "slug": "databaaz-url-industry-classifier"
+}

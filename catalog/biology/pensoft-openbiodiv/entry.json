@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pensoft/openbiodiv",
+  "name": "pensoft/openbiodiv",
+  "description": "Open Biodiversity Knowledge Management System",
+  "sub_domain": "biodiversity-informatics",
+  "score": 7,
+  "score_rationale": "It is a biodiversity knowledge management system, but the scope is broader and less tool-like than the strongest matches.",
+  "stars": 18,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2023-07-20",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 52.2,
+  "discovery_score": 7,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Open Biodiversity Knowledge Management System",
+  "slug": "pensoft-openbiodiv"
+}

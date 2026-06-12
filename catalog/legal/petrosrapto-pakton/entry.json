@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/petrosrapto/pakton",
+  "name": "petrosrapto/pakton",
+  "description": "Code for \"PAKTON: A Multi-Agent Framework for Question Answering in Long Legal Agreements\", accepted for Oral Presentation at the Main Conference of EMNLP 2025. Paper available at: https://arxiv.org/abs/2506.00608",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for paper-style signals.",
+  "stars": 34,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-08",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 18.4,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "Code for \"PAKTON: A Multi-Agent Framework for Question Answering in Long Legal Agreements\", accepted for Oral Presentation at the Main Co...",
+  "slug": "petrosrapto-pakton"
+}

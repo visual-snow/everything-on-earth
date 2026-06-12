@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/prio-data/viewsforecasting",
+  "name": "prio-data/viewsforecasting",
+  "description": "Jupyter notebooks and Python scripts for producing ViEWS monthly conflict forecasts.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 9,
+  "score_rationale": "Core forecasting repository from the VIEWS ecosystem, which is a flagship conflict-forecasting effort.",
+  "stars": 15,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2025-11-26",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 63.6,
+  "tags": [
+    "conflict-forecasting",
+    "views",
+    "monthly-forecasting",
+    "notebooks"
+  ],
+  "category": "Conflict Forecasting",
+  "summary": "ViEWS notebooks and scripts for monthly conflict forecasts.",
+  "slug": "prio-data-viewsforecasting"
+}

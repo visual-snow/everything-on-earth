@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/arumugamlab/minto",
+  "name": "arumugamlab/minto",
+  "description": "Pipeline for reproducible and scalable integration of metagenomic and metatranscriptomic data.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 8,
+  "score_rationale": "Clear omics pipeline for metagenomic and metatranscriptomic integration with a strong reproducibility focus.",
+  "stars": 17,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 58.0,
+  "discovery_score": 8,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "Pipeline for reproducible and scalable integration of metagenomic and metatranscriptomic data.",
+  "slug": "arumugamlab-minto"
+}

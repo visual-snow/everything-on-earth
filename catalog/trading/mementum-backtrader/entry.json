@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mementum/backtrader",
+  "name": "mementum/backtrader",
+  "description": "Python Backtesting library for trading strategies",
+  "sub_domain": "backtesting-frameworks",
+  "score": 10,
+  "score_rationale": "One of the standard Python backtesting libraries, widely adopted and still actively referenced in trading workflows.",
+  "stars": 20892,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-08-19",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 94.6,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "Python Backtesting library for trading strategies",
+  "slug": "mementum-backtrader"
+}

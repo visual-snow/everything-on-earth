@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/packtpublishing/hands-on-machine-learning-for-algorithmic-trading",
+  "name": "packtpublishing/hands-on-machine-learning-for-algorithmic-trading",
+  "description": "Hands-On Machine Learning for Algorithmic Trading, published by Packt",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 8,
+  "score_rationale": "Book companion repository with hands-on algorithmic trading ML examples.",
+  "stars": 1817,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-01-18",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 74.1,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "Hands-On Machine Learning for Algorithmic Trading, published by Packt",
+  "slug": "packtpublishing-hands-on-machine-learning-for-algorithmic-trading"
+}

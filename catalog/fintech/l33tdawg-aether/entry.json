@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/l33tdawg/aether",
+  "name": "l33tdawg/aether",
+  "description": "AI Smart Contract Security Analysis and PoC Generation Framework",
+  "sub_domain": "smart-contract-security",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+  "stars": 36,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 48.5,
+  "discovery_score": 6,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "AI Smart Contract Security Analysis and PoC Generation Framework",
+  "slug": "l33tdawg-aether"
+}

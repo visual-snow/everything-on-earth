@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cmu-delphi/covidcast-indicators",
+  "name": "cmu-delphi/covidcast-indicators",
+  "description": "Back end for producing indicators and loading them into the COVIDcast API.",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 8,
+  "score_rationale": "Backend for generating COVIDcast indicators and feeding the API; a key data pipeline component.",
+  "stars": 12,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-28",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 56.9,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Back end for producing indicators and loading them into the COVIDcast API.",
+  "slug": "cmu-delphi-covidcast-indicators"
+}

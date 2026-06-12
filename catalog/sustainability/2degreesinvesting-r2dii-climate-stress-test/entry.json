@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/2degreesinvesting/r2dii.climate.stress.test",
+  "name": "2degreesinvesting/r2dii.climate.stress.test",
+  "description": "Functions and workflows to run financial stress tests on climate change related risk types",
+  "sub_domain": "climate-finance",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 27,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2024-06-03",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 4,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "Functions and workflows to run financial stress tests on climate change related risk types",
+  "slug": "2degreesinvesting-r2dii-climate-stress-test"
+}

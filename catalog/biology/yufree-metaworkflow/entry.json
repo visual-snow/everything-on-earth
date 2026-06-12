@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yufree/metaworkflow",
+  "name": "yufree/metaworkflow",
+  "description": "Online workflow guidelines for metabolomics",
+  "sub_domain": "metabolomics",
+  "score": 6,
+  "score_rationale": "It is metabolomics-facing and workflow-oriented, but it is guidance material rather than an analysis implementation.",
+  "stars": 24,
+  "language": "TeX",
+  "license": "CC0-1.0",
+  "last_activity": "2026-01-04",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 47.2,
+  "discovery_score": 6,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "Online workflow guidelines for metabolomics",
+  "slug": "yufree-metaworkflow"
+}

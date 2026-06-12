@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/felgru/bank-statement-parser",
+  "name": "felgru/bank-statement-parser",
+  "description": "scripts to import bank statement PDFs into hledger files",
+  "sub_domain": "financial-document-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 27,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "statement parser financial document ai github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 4,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "scripts to import bank statement PDFs into hledger files",
+  "slug": "felgru-bank-statement-parser"
+}

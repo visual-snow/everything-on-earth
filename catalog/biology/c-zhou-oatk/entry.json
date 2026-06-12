@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/c-zhou/oatk",
+  "name": "c-zhou/oatk",
+  "description": "Oatk: an organelle genome assembly toolkit",
+  "sub_domain": "genomics",
+  "score": 6,
+  "score_rationale": "Focused organelle assembly and annotation toolkit with concrete utility for chloroplast and mitochondrial genome workflows.",
+  "stars": 76,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-02-22",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 51.1,
+  "discovery_score": 6,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Oatk: an organelle genome assembly toolkit",
+  "slug": "c-zhou-oatk"
+}

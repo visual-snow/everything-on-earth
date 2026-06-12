@@ -52,12 +52,27 @@ try {
 
   const pct = Math.round((done / total) * 100);
 
-  let status = `map-capabilities | ${catalogName} | ${done}/${total} | ${pct}%`;
-  if (inProgress > 0) {
-    status += ` | ${inProgress} in flight`;
+  // Read wave manifest for tier info
+  const manifestPath = path.join(outputDir, 'wave-manifest.json');
+  let tierLabel = '';
+
+  if (fs.existsSync(manifestPath)) {
+    try {
+      const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+      const waveNum = manifest.wave || '?';
+      if (Array.isArray(manifest.slugs) && manifest.slugs.length > 0) {
+        const tiers = manifest.slugs.map(s => s.tier);
+        const dominant = tiers.sort((a, b) => a - b)[Math.floor(tiers.length / 2)];
+        tierLabel = ` | wave ${waveNum} T${dominant}x${manifest.slugs.length}`;
+      }
+    } catch {
+      // Ignore parse errors
+    }
   }
+
+  let status = `map-capabilities | ${catalogName} | ${done}/${total} | ${pct}%${tierLabel}`;
   if (failed > 0) {
-    status += ` | ${failed} to retry`;
+    status += ` | ${failed} retry`;
   }
 
   const hookOutput = {

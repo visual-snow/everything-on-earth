@@ -39,15 +39,31 @@ TOTAL=$(jq 'length' "$CATALOG" 2>/dev/null || echo "?")
 DONE=$((COMPLETED))
 REMAINING=$((TOTAL - DONE))
 
+# Per-tier stats from manifest
+TIER_STATS=""
+WAVE_NUM="?"
+MANIFEST_PATH="$OUTPUT_DIR/wave-manifest.json"
+if [[ -f "$MANIFEST_PATH" ]]; then
+  WAVE_NUM=$(jq -r '.wave' "$MANIFEST_PATH")
+  TIER_STATS=$(jq -r '
+    .slugs | group_by(.tier) | map(
+      "T\(.[0].tier): \(length)"
+    ) | join(" | ")
+  ' "$MANIFEST_PATH" 2>/dev/null || echo "")
+fi
+
 if [[ "$REMAINING" -le 0 && "$FAILED" -eq 0 ]]; then
   SUMMARY="map-capabilities ($CATALOG_NAME): All $TOTAL entries processed successfully."
 else
-  SUMMARY="map-capabilities ($CATALOG_NAME) wave complete: $DONE/$TOTAL done"
+  SUMMARY="map-capabilities ($CATALOG_NAME) wave $WAVE_NUM: $DONE/$TOTAL done"
+  if [[ -n "$TIER_STATS" ]]; then
+    SUMMARY="$SUMMARY | $TIER_STATS"
+  fi
   if [[ "$FAILED" -gt 0 ]]; then
-    SUMMARY="$SUMMARY, $FAILED failed (will retry)"
+    SUMMARY="$SUMMARY | $FAILED to retry"
   fi
   if [[ "$REMAINING" -gt 0 ]]; then
-    SUMMARY="$SUMMARY, $REMAINING remaining"
+    SUMMARY="$SUMMARY | $REMAINING remaining"
   fi
 fi
 

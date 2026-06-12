@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Route Decision",
+  "description": "Output schema for the capability router classifier",
+  "type": "object",
+  "required": ["primary_domain", "confidence", "rationale"],
+  "properties": {
+    "primary_domain": {
+      "type": "string",
+      "description": "The most relevant domain for the user query"
+    },
+    "secondary_domain": {
+      "type": ["string", "null"],
+      "description": "Optional second-most relevant domain, if close in score",
+      "default": null
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "Classifier confidence in the routing decision"
+    },
+    "rationale": {
+      "type": "string",
+      "description": "One sentence explaining why this domain was selected"
+    }
+  },
+  "additionalProperties": false
+}

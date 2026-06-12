@@ -10,7 +10,7 @@
   <img src="assets/everything-on-earth.png" alt="everything-on-earth" width="600">
 </p>
 
-**Do a massive parallel crawl that searches everything on earth about whatever you want.**
+**Max the fuck out of your AI subscriptions by doing a massive parallel crawl that searches everything on earth about whatever you want.**
 
 [Getting Started](#getting-started) · [How It Works](#how-it-works) · [What You Get](#what-you-get)
 
@@ -87,6 +87,26 @@ Processes entries in batched waves of 15 with full resumability.
 > [!NOTE]
 > Interrupted mid-run? It picks up where you left off via `wave-progress.json`.
 
+### `/supercharge` — Feed Claude the full capability graph
+
+```
+/supercharge
+```
+
+One invocation builds a canonical capability graph from all 11 domain catalogs,
+generates Claude skill artifacts, and wires hooks that keep Claude domain-aware
+across every future session.
+
+After supercharge runs, three hooks fire automatically:
+
+1. **SessionStart** — Injects capability graph overview so Claude knows all domains, capability counts, and key asset paths from the first message
+2. **UserPromptSubmit** — Keyword-matches every prompt against 3,000+ routing hints; when a domain matches, injects that domain's capability summary and graph pointers
+3. **Compact restore** — Re-injects the overview after context compaction so domain awareness survives compression
+
+V1 is Claude-first. Telecoms is the pilot domain with a full capability graph (1,330 capabilities, 1,939 repo-capability edges). All 11 domains have routing hints for classification; deep capability graphs for other domains will be added as their `provides[]` data is populated.
+
+Run `/supercharge` again any time catalogs change to rebuild the graph and re-verify hooks.
+
 ---
 
 ## What You Get
@@ -97,6 +117,9 @@ Processes entries in batched waves of 15 with full resumability.
 | `explorer.html` | HTML | Browse and filter results in your browser |
 | `RESULTS.md` | Markdown | Stats, domain breakdown, top repos |
 | `catalog/<domain>/<slug>/capability.md` | Markdown | Per-tool capability docs (via `/map-capabilities`) |
+| `capability-graph/ontology/capability-registry.json` | JSON | Canonical capability entities with relationships and evidence |
+| `capability-graph/graph/domains/<domain>.json` | JSON | Per-domain graph slice (capabilities, repos, edges) |
+| `capability-graph/exports/csv/domain-routing.csv` | CSV | Routing hints for all 11 domains (classifier input) |
 
 > [!IMPORTANT]
 > This plugin uses Claude Code's experimental Agent Teams feature (`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`).

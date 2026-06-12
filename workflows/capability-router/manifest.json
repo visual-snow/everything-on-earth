@@ -1,0 +1,8 @@
+{
+  "files": [
+    "contract.md",
+    "runtime.json",
+    "prompts/router-classifier.md",
+    "schemas/route-decision-schema.json"
+  ]
+}

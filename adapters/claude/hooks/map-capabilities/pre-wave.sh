@@ -12,10 +12,10 @@
 # Uses JSON {"decision": "block/allow"} on stdout (PreToolUse pattern).
 # NEVER mixes exit 2 with JSON stdout (CLAUDE.md rule).
 
-set -euo pipefail
+set -uo pipefail
 
-INPUT=$(cat)
-AGENT_NAME=$(echo "$INPUT" | jq -r '.tool_input.name // empty')
+INPUT=$(cat) || true
+AGENT_NAME=$(echo "$INPUT" | jq -r '.tool_input.name // empty' 2>/dev/null) || true
 
 # Passthrough for non-map-capabilities agents
 if [[ -z "$AGENT_NAME" ]]; then

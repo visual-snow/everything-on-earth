@@ -1,0 +1,1940 @@
+repo_slug,capability_id,capability_label,domain
+docker-open5gs-herlesupreeth,opensips-ims,Opensips Ims,telecoms
+docker-open5gs-herlesupreeth,4g-core-mme,4G Core Mme,telecoms
+docker-open5gs-herlesupreeth,end-to-end-4g-5g-lab,End To End 4G 5G Lab,telecoms
+docker-open5gs-herlesupreeth,4g-core-pgw,4G Core Pgw,telecoms
+docker-open5gs-herlesupreeth,gtp-tunneling,Gtp Tunneling,telecoms
+docker-open5gs-herlesupreeth,sip-signaling,Sip Signaling,telecoms
+docker-open5gs-herlesupreeth,ueransim-integration,Ueransim Integration,telecoms
+docker-open5gs-herlesupreeth,web-dashboard,Web Dashboard,telecoms
+docker-open5gs-herlesupreeth,srsran-integration,Srsran Integration,telecoms
+docker-open5gs-herlesupreeth,volte-support,Volte Support,telecoms
+docker-open5gs-herlesupreeth,docker-compose-orchestration,Docker Compose Orchestration,telecoms
+docker-open5gs-herlesupreeth,vonr-support,Vonr Support,telecoms
+docker-open5gs-herlesupreeth,s1ap-interface,S1Ap Interface,telecoms
+docker-open5gs-herlesupreeth,multi-scenario-deployment,Multi Scenario Deployment,telecoms
+docker-open5gs-herlesupreeth,pfcp-session-management,Pfcp Session Management,telecoms
+docker-open5gs-herlesupreeth,subscriber-management,Subscriber Management,telecoms
+docker-open5gs-herlesupreeth,ngap-interface,Ngap Interface,telecoms
+docker-open5gs-herlesupreeth,config-mutation,Config Mutation,telecoms
+docker-open5gs-herlesupreeth,5g-core-amf,5G Core Amf,telecoms
+docker-open5gs-herlesupreeth,5g-core-smf,5G Core Smf,telecoms
+docker-open5gs-herlesupreeth,kamailio-ims,Kamailio Ims,telecoms
+docker-open5gs-herlesupreeth,sctp-transport,Sctp Transport,telecoms
+docker-open5gs-herlesupreeth,ims-stack,Ims Stack,telecoms
+docker-open5gs-herlesupreeth,5g-core-upf,5G Core Upf,telecoms
+docker-open5gs-herlesupreeth,4g-core-sgw,4G Core Sgw,telecoms
+docker-open5gs-herlesupreeth,diameter-signaling,Diameter Signaling,telecoms
+docker-open5gs-herlesupreeth,zmq-rf-simulation,Zmq Rf Simulation,telecoms
+akvorado,geo-enrichment,Geo Enrichment,telecoms
+akvorado,ipfix-collection,Ipfix Collection,telecoms
+akvorado,flow-data-enrichment,Flow Data Enrichment,telecoms
+akvorado,web-dashboard,Web Dashboard,telecoms
+akvorado,kafka-pipeline,Kafka Pipeline,telecoms
+akvorado,flow-visualization,Flow Visualization,telecoms
+akvorado,snmp-enrichment,Snmp Enrichment,telecoms
+akvorado,clickhouse-export,Clickhouse Export,telecoms
+akvorado,streaming-telemetry,Streaming Telemetry,telecoms
+akvorado,netflow-collection,Netflow Collection,telecoms
+akvorado,interface-name-resolution,Interface Name Resolution,telecoms
+akvorado,sflow-collection,Sflow Collection,telecoms
+akvorado,multi-protocol-flow-ingestion,Multi Protocol Flow Ingestion,telecoms
+containerlab,rootless-container-support,Rootless Container Support,telecoms
+containerlab,multi-vendor-topology,Multi Vendor Topology,telecoms
+containerlab,link-impairment,Link Impairment,telecoms
+containerlab,mpls-dataplane,Mpls Dataplane,telecoms
+containerlab,containerized-nos,Containerized Nos,telecoms
+containerlab,snmp-agent,Snmp Agent,telecoms
+containerlab,packet-capture,Packet Capture,telecoms
+containerlab,topology-as-code,Topology As Code,telecoms
+containerlab,restconf-api,Restconf Api,telecoms
+containerlab,infrastructure-as-code,Infrastructure As Code,telecoms
+containerlab,network-lab-orchestration,Network Lab Orchestration,telecoms
+containerlab,vrnetlab-vm-integration,Vrnetlab Vm Integration,telecoms
+containerlab,gnmi-telemetry,Gnmi Telemetry,telecoms
+containerlab,ansible-inventory-generation,Ansible Inventory Generation,telecoms
+containerlab,sr-segment-routing,Sr Segment Routing,telecoms
+containerlab,netconf-server,Netconf Server,telecoms
+containerlab,vxlan-overlay,Vxlan Overlay,telecoms
+containerlab,vscode-extension,Vscode Extension,telecoms
+containerlab,nornir-inventory-generation,Nornir Inventory Generation,telecoms
+containerlab,topology-mutation,Topology Mutation,telecoms
+containerlab,config-mutation,Config Mutation,telecoms
+containerlab,topology-graph-export,Topology Graph Export,telecoms
+containerlab,isis-routing,Isis Routing,telecoms
+containerlab,grpc-interface,Grpc Interface,telecoms
+containerlab,ospf-routing,Ospf Routing,telecoms
+containerlab,node-failure-simulation,Node Failure Simulation,telecoms
+containerlab,cicd-network-testing,Cicd Network Testing,telecoms
+containerlab,fault-injection,Fault Injection,telecoms
+containerlab,bgp-routing,Bgp Routing,telecoms
+containerlab,evpn-fabric,Evpn Fabric,telecoms
+etsi-open-source-mano-osm,vnf-lifecycle-management,Vnf Lifecycle Management,telecoms
+etsi-open-source-mano-osm,vnf-onboarding,Vnf Onboarding,telecoms
+etsi-open-source-mano-osm,nbi-sol005-api,Nbi Sol005 Api,telecoms
+etsi-open-source-mano-osm,web-dashboard,Web Dashboard,telecoms
+etsi-open-source-mano-osm,config-mutation,Config Mutation,telecoms
+etsi-open-source-mano-osm,resource-orchestrator,Resource Orchestrator,telecoms
+etsi-open-source-mano-osm,policy-management,Policy Management,telecoms
+etsi-open-source-mano-osm,vnf-monitoring,Vnf Monitoring,telecoms
+etsi-open-source-mano-osm,cloud-native-orchestration,Cloud Native Orchestration,telecoms
+etsi-open-source-mano-osm,network-service-orchestration,Network Service Orchestration,telecoms
+etsi-open-source-mano-osm,nfv-mano-orchestration,Nfv Mano Orchestration,telecoms
+etsi-open-source-mano-osm,multi-vim-support,Multi Vim Support,telecoms
+faucet,yaml-network-config,Yaml Network Config,telecoms
+faucet,multi-table-pipeline,Multi Table Pipeline,telecoms
+faucet,ipv6-routing,Ipv6 Routing,telecoms
+faucet,vlan-management,Vlan Management,telecoms
+faucet,layer2-switching,Layer2 Switching,telecoms
+faucet,openflow-controller,Openflow Controller,telecoms
+faucet,web-dashboard,Web Dashboard,telecoms
+faucet,config-mutation,Config Mutation,telecoms
+faucet,prometheus-metrics,Prometheus Metrics,telecoms
+faucet,lldp-discovery,Lldp Discovery,telecoms
+faucet,fuzz-testing,Fuzz Testing,telecoms
+faucet,ipv4-routing,Ipv4 Routing,telecoms
+faucet,sdn-control-plane,Sdn Control Plane,telecoms
+faucet,acl-enforcement,Acl Enforcement,telecoms
+faucet,lacp-bonding,Lacp Bonding,telecoms
+faucet,bgp-peering,Bgp Peering,telecoms
+free5gc,nas-protocol-handling,Nas Protocol Handling,telecoms
+free5gc,5g-core-nrf,5G Core Nrf,telecoms
+free5gc,web-dashboard,Web Dashboard,telecoms
+free5gc,5g-core-udm,5G Core Udm,telecoms
+free5gc,5g-core-pcf,5G Core Pcf,telecoms
+free5gc,5g-core-udr,5G Core Udr,telecoms
+free5gc,multi-service-compose-stack,Multi Service Compose Stack,telecoms
+free5gc,pfcp-session-management,Pfcp Session Management,telecoms
+free5gc,gtp-u-tunneling,Gtp U Tunneling,telecoms
+free5gc,subscriber-management,Subscriber Management,telecoms
+free5gc,ngap-interface,Ngap Interface,telecoms
+free5gc,config-mutation,Config Mutation,telecoms
+free5gc,5g-core-amf,5G Core Amf,telecoms
+free5gc,5g-core-nssf,5G Core Nssf,telecoms
+free5gc,5g-core-smf,5G Core Smf,telecoms
+free5gc,5g-core-n3iwf,5G Core N3Iwf,telecoms
+free5gc,sbi-rest-api,Sbi Rest Api,telecoms
+free5gc,5g-core-upf,5G Core Upf,telecoms
+free5gc,5g-core-ausf,5G Core Ausf,telecoms
+free5gc-compose,ran-simulation,Ran Simulation,telecoms
+free5gc-compose,multi-nf-orchestration,Multi Nf Orchestration,telecoms
+free5gc-compose,5g-core-nrf,5G Core Nrf,telecoms
+free5gc-compose,web-dashboard,Web Dashboard,telecoms
+free5gc-compose,5g-core-udm,5G Core Udm,telecoms
+free5gc-compose,end-to-end-5g-sa,End To End 5G Sa,telecoms
+free5gc-compose,5g-core-pcf,5G Core Pcf,telecoms
+free5gc-compose,pdu-session-management,Pdu Session Management,telecoms
+free5gc-compose,5g-core-udr,5G Core Udr,telecoms
+free5gc-compose,ueransim-ue,Ueransim Ue,telecoms
+free5gc-compose,subscriber-management,Subscriber Management,telecoms
+free5gc-compose,5g-core-nef,5G Core Nef,telecoms
+free5gc-compose,5g-core-ausf,5G Core Ausf,telecoms
+free5gc-compose,config-mutation,Config Mutation,telecoms
+free5gc-compose,5g-core-amf,5G Core Amf,telecoms
+free5gc-compose,5g-core-nssf,5G Core Nssf,telecoms
+free5gc-compose,5g-core-smf,5G Core Smf,telecoms
+free5gc-compose,5g-core-n3iwf,5G Core N3Iwf,telecoms
+free5gc-compose,5g-core-upf,5G Core Upf,telecoms
+free5gc-compose,ueransim-gnb,Ueransim Gnb,telecoms
+free5gc-compose,5g-core-chf,5G Core Chf,telecoms
+ixia-c-open-traffic-generator,l2-l7-traffic-engine,L2 L7 Traffic Engine,telecoms
+ixia-c-open-traffic-generator,ipv4-ipv6-traffic,Ipv4 Ipv6 Traffic,telecoms
+ixia-c-open-traffic-generator,multi-container-orchestration,Multi Container Orchestration,telecoms
+ixia-c-open-traffic-generator,protocol-emulation,Protocol Emulation,telecoms
+ixia-c-open-traffic-generator,vxlan-traffic-generation,Vxlan Traffic Generation,telecoms
+ixia-c-open-traffic-generator,rest-api-control-plane,Rest Api Control Plane,telecoms
+ixia-c-open-traffic-generator,gtp-traffic-generation,Gtp Traffic Generation,telecoms
+ixia-c-open-traffic-generator,scripted-test-scenarios,Scripted Test Scenarios,telecoms
+ixia-c-open-traffic-generator,traffic-generation,Traffic Generation,telecoms
+ixia-c-open-traffic-generator,otg-api-server,Otg Api Server,telecoms
+ixia-c-open-traffic-generator,load-testing,Load Testing,telecoms
+kathara,multi-container-networking,Multi Container Networking,telecoms
+kathara,kubernetes-backend,Kubernetes Backend,telecoms
+kathara,virtual-l2-lan,Virtual L2 Lan,telecoms
+kathara,container-based-topology,Container Based Topology,telecoms
+kathara,packet-capture,Packet Capture,telecoms
+kathara,network-emulation,Network Emulation,telecoms
+kathara,docker-backend,Docker Backend,telecoms
+kathara,python-api,Python Api,telecoms
+kathara,agentic-network-troubleshooting,Agentic Network Troubleshooting,telecoms
+kathara,p4-dataplane,P4 Dataplane,telecoms
+kathara,topology-mutation,Topology Mutation,telecoms
+kathara,lab-scenario-automation,Lab Scenario Automation,telecoms
+kathara,config-mutation,Config Mutation,telecoms
+kathara,isis-routing,Isis Routing,telecoms
+kathara,ospf-routing,Ospf Routing,telecoms
+kathara,rip-routing,Rip Routing,telecoms
+kathara,node-failure-simulation,Node Failure Simulation,telecoms
+kathara,openvswitch-integration,Openvswitch Integration,telecoms
+kathara,frrouting-integration,Frrouting Integration,telecoms
+kathara,openflow-sdn,Openflow Sdn,telecoms
+kathara,quagga-integration,Quagga Integration,telecoms
+kathara,dns-server,Dns Server,telecoms
+kathara,bgp-routing,Bgp Routing,telecoms
+netbox-docker,ipam-management,Ipam Management,telecoms
+netbox-docker,dcim-inventory,Dcim Inventory,telecoms
+netbox-docker,network-source-of-truth,Network Source Of Truth,telecoms
+netbox-docker,rest-api-server,Rest Api Server,telecoms
+netbox-docker,graphql-api,Graphql Api,telecoms
+netbox-docker,web-dashboard,Web Dashboard,telecoms
+netbox-docker,ip-prefix-management,Ip Prefix Management,telecoms
+netbox-docker,vlan-management,Vlan Management,telecoms
+netbox-docker,rack-management,Rack Management,telecoms
+netbox-docker,device-inventory,Device Inventory,telecoms
+netbox-docker,cable-management,Cable Management,telecoms
+netbox-docker,circuit-tracking,Circuit Tracking,telecoms
+netbox-docker,virtualization-inventory,Virtualization Inventory,telecoms
+o-ran-testbed-automation-nist,5g-gnb-simulation,5G Gnb Simulation,telecoms
+o-ran-testbed-automation-nist,ngap-interface,Ngap Interface,telecoms
+o-ran-testbed-automation-nist,osc-ric-integration,Osc Ric Integration,telecoms
+o-ran-testbed-automation-nist,flexric-integration,Flexric Integration,telecoms
+o-ran-testbed-automation-nist,near-rt-ric,Near Rt Ric,telecoms
+o-ran-testbed-automation-nist,oai-ran-integration,Oai Ran Integration,telecoms
+o-ran-testbed-automation-nist,config-mutation,Config Mutation,telecoms
+o-ran-testbed-automation-nist,xapp-testing-environment,Xapp Testing Environment,telecoms
+o-ran-testbed-automation-nist,5g-ue-simulation,5G Ue Simulation,telecoms
+o-ran-testbed-automation-nist,multi-component-orchestration,Multi Component Orchestration,telecoms
+o-ran-testbed-automation-nist,o-ran-testbed-automation,O Ran Testbed Automation,telecoms
+o-ran-testbed-automation-nist,e2ap-interface,E2Ap Interface,telecoms
+o-ran-testbed-automation-nist,e2sm-rc-control,E2Sm Rc Control,telecoms
+o-ran-testbed-automation-nist,5g-core-deployment,5G Core Deployment,telecoms
+o-ran-testbed-automation-nist,reproducible-testbed-deployment,Reproducible Testbed Deployment,telecoms
+o-ran-testbed-automation-nist,e2sm-kpm-monitoring,E2Sm Kpm Monitoring,telecoms
+open5gs,multi-compose-stack,Multi Compose Stack,telecoms
+open5gs,4g-epc-sgw,4G Epc Sgw,telecoms
+open5gs,gtp-c-plane,Gtp C Plane,telecoms
+open5gs,pfcp-endpoint,Pfcp Endpoint,telecoms
+open5gs,ngap-endpoint,Ngap Endpoint,telecoms
+open5gs,5g-core-nrf,5G Core Nrf,telecoms
+open5gs,s1ap-endpoint,S1Ap Endpoint,telecoms
+open5gs,4g-epc-pgw,4G Epc Pgw,telecoms
+open5gs,5g-core-udm,5G Core Udm,telecoms
+open5gs,dual-mode-4g-5g-core,Dual Mode 4G 5G Core,telecoms
+open5gs,5g-core-pcf,5G Core Pcf,telecoms
+open5gs,diameter-server,Diameter Server,telecoms
+open5gs,5g-core-udr,5G Core Udr,telecoms
+open5gs,nas-5gs-stack,Nas 5Gs Stack,telecoms
+open5gs,gtp-u-plane,Gtp U Plane,telecoms
+open5gs,4g-epc-pcrf,4G Epc Pcrf,telecoms
+open5gs,subscriber-management,Subscriber Management,telecoms
+open5gs,config-mutation,Config Mutation,telecoms
+open5gs,5g-core-amf,5G Core Amf,telecoms
+open5gs,4g-epc-mme,4G Epc Mme,telecoms
+open5gs,5g-core-nssf,5G Core Nssf,telecoms
+open5gs,5g-core-bsf,5G Core Bsf,telecoms
+open5gs,4g-epc-hss,4G Epc Hss,telecoms
+open5gs,5g-core-smf,5G Core Smf,telecoms
+open5gs,sbi-rest-api,Sbi Rest Api,telecoms
+open5gs,5g-core-upf,5G Core Upf,telecoms
+open5gs,5g-core-ausf,5G Core Ausf,telecoms
+openairinterface-5g-ran-oai,5g-nr-gnb,5G Nr Gnb,telecoms
+openairinterface-5g-ran-oai,4g-lte-enb,4G Lte Enb,telecoms
+openairinterface-5g-ran-oai,nr-ue-simulator,Nr Ue Simulator,telecoms
+openairinterface-5g-ran-oai,rf-simulator,Rf Simulator,telecoms
+openairinterface-5g-ran-oai,phy-layer-simulation,Phy Layer Simulation,telecoms
+openairinterface-5g-ran-oai,mac-scheduler,Mac Scheduler,telecoms
+openairinterface-5g-ran-oai,rlc-layer,Rlc Layer,telecoms
+openairinterface-5g-ran-oai,pdcp-layer,Pdcp Layer,telecoms
+openairinterface-5g-ran-oai,rrc-layer,Rrc Layer,telecoms
+openairinterface-5g-ran-oai,sdap-layer,Sdap Layer,telecoms
+openairinterface-5g-ran-oai,f1ap-interface,F1Ap Interface,telecoms
+openairinterface-5g-ran-oai,e1ap-interface,E1Ap Interface,telecoms
+openairinterface-5g-ran-oai,e2ap-interface,E2Ap Interface,telecoms
+openairinterface-5g-ran-oai,ngap-interface,Ngap Interface,telecoms
+openairinterface-5g-ran-oai,s1ap-interface,S1Ap Interface,telecoms
+openairinterface-5g-ran-oai,gtp-u-tunneling,Gtp U Tunneling,telecoms
+openairinterface-5g-ran-oai,o-ran-e2-agent,O Ran E2 Agent,telecoms
+openairinterface-5g-ran-oai,containerized-e2e-ran,Containerized E2E Ran,telecoms
+openairinterface-5g-ran-oai,phy-simulators-dlsim-ulsim,Phy Simulators Dlsim Ulsim,telecoms
+openairinterface-5g-ran-oai,ldpc-codec,Ldpc Codec,telecoms
+sr-linux-sros-streaming-telemetry-lab,netconf-server,Netconf Server,telecoms
+sr-linux-sros-streaming-telemetry-lab,sros-nodes,Sros Nodes,telecoms
+sr-linux-sros-streaming-telemetry-lab,gnmic-collector,Gnmic Collector,telecoms
+sr-linux-sros-streaming-telemetry-lab,multi-vendor-nms,Multi Vendor Nms,telecoms
+sr-linux-sros-streaming-telemetry-lab,clos-fabric-topology,Clos Fabric Topology,telecoms
+sr-linux-sros-streaming-telemetry-lab,grpc-telemetry-collector,Grpc Telemetry Collector,telecoms
+sr-linux-sros-streaming-telemetry-lab,web-dashboard,Web Dashboard,telecoms
+sr-linux-sros-streaming-telemetry-lab,prometheus-metrics,Prometheus Metrics,telecoms
+sr-linux-sros-streaming-telemetry-lab,yang-datastore,Yang Datastore,telecoms
+sr-linux-sros-streaming-telemetry-lab,sr-linux-nodes,Sr Linux Nodes,telecoms
+sr-linux-sros-streaming-telemetry-lab,grafana-dashboard,Grafana Dashboard,telecoms
+sr-linux-sros-streaming-telemetry-lab,streaming-telemetry,Streaming Telemetry,telecoms
+sr-linux-sros-streaming-telemetry-lab,gnmi-streaming-telemetry,Gnmi Streaming Telemetry,telecoms
+srsran-o-ran-sc-ric,rmr-messaging,Rmr Messaging,telecoms
+srsran-o-ran-sc-ric,app-manager,App Manager,telecoms
+srsran-o-ran-sc-ric,near-rt-ric,Near Rt Ric,telecoms
+srsran-o-ran-sc-ric,config-mutation,Config Mutation,telecoms
+srsran-o-ran-sc-ric,subscription-manager,Subscription Manager,telecoms
+srsran-o-ran-sc-ric,e2-manager,E2 Manager,telecoms
+srsran-o-ran-sc-ric,redis-dbaas,Redis Dbaas,telecoms
+srsran-o-ran-sc-ric,routing-manager-sim,Routing Manager Sim,telecoms
+srsran-o-ran-sc-ric,rc-xapp,Rc Xapp,telecoms
+srsran-o-ran-sc-ric,e2ap-interface,E2Ap Interface,telecoms
+srsran-o-ran-sc-ric,e2sm-rc-control,E2Sm Rc Control,telecoms
+srsran-o-ran-sc-ric,xapp-runtime-environment,Xapp Runtime Environment,telecoms
+srsran-o-ran-sc-ric,multi-service-compose-stack,Multi Service Compose Stack,telecoms
+srsran-o-ran-sc-ric,e2sm-kpm-monitoring,E2Sm Kpm Monitoring,telecoms
+srsran-o-ran-sc-ric,e2-termination,E2 Termination,telecoms
+srsran-o-ran-sc-ric,kpm-xapp,Kpm Xapp,telecoms
+srsran-project-5g,5g-gnb,5G Gnb,telecoms
+srsran-project-5g,5g-cu,5G Cu,telecoms
+srsran-project-5g,5g-du,5G Du,telecoms
+srsran-project-5g,o-ran-e2-interface,O Ran E2 Interface,telecoms
+srsran-project-5g,f1ap-interface,F1Ap Interface,telecoms
+srsran-project-5g,e1ap-interface,E1Ap Interface,telecoms
+srsran-project-5g,ngap-interface,Ngap Interface,telecoms
+srsran-project-5g,zmq-rf-simulation,Zmq Rf Simulation,telecoms
+srsran-project-5g,phy-layer-simulation,Phy Layer Simulation,telecoms
+srsran-project-5g,5g-nr-phy,5G Nr Phy,telecoms
+srsran-project-5g,fapi-interface,Fapi Interface,telecoms
+srsran-project-5g,gtp-u-tunneling,Gtp U Tunneling,telecoms
+srsran-project-5g,sctp-transport,Sctp Transport,telecoms
+srsran-project-5g,docker-compose-stack,Docker Compose Stack,telecoms
+srsran-project-5g,sdr-hardware-support,Sdr Hardware Support,telecoms
+zabbix-docker,zabbix-agent,Zabbix Agent,telecoms
+zabbix-docker,snmpv3-support,Snmpv3 Support,telecoms
+zabbix-docker,snmp-monitoring,Snmp Monitoring,telecoms
+zabbix-docker,snmp-trap-receiver,Snmp Trap Receiver,telecoms
+zabbix-docker,ipmi-monitoring,Ipmi Monitoring,telecoms
+zabbix-docker,web-dashboard,Web Dashboard,telecoms
+zabbix-docker,device-discovery,Device Discovery,telecoms
+zabbix-docker,network-monitoring-system,Network Monitoring System,telecoms
+zabbix-docker,metrics-collection,Metrics Collection,telecoms
+zabbix-docker,streaming-telemetry,Streaming Telemetry,telecoms
+zabbix-docker,zabbix-server,Zabbix Server,telecoms
+zabbix-docker,jmx-monitoring,Jmx Monitoring,telecoms
+zabbix-docker,multi-service-compose-stack,Multi Service Compose Stack,telecoms
+zabbix-docker,alerting-engine,Alerting Engine,telecoms
+5g-mag-mbs-examples,udm,Udm,telecoms
+5g-mag-mbs-examples,nssf,Nssf,telecoms
+5g-mag-mbs-examples,sbi-northbound,Sbi Northbound,telecoms
+5g-mag-mbs-examples,mb-smf,Mb Smf,telecoms
+5g-mag-mbs-examples,mb-upf,Mb Upf,telecoms
+5g-mag-mbs-examples,pcf,Pcf,telecoms
+5g-mag-mbs-examples,rel17-mbs-stack,Rel17 Mbs Stack,telecoms
+5g-mag-mbs-examples,bsf,Bsf,telecoms
+5g-mag-mbs-examples,ue-simulation,Ue Simulation,telecoms
+5g-mag-mbs-examples,gnb-simulation,Gnb Simulation,telecoms
+5g-mag-mbs-examples,pfcp-session-management,Pfcp Session Management,telecoms
+5g-mag-mbs-examples,gtp-u-tunneling,Gtp U Tunneling,telecoms
+5g-mag-mbs-examples,mbs-multicast-broadcast,Mbs Multicast Broadcast,telecoms
+5g-mag-mbs-examples,udr,Udr,telecoms
+5g-mag-mbs-examples,nrf,Nrf,telecoms
+5g-mag-mbs-examples,config-mutation,Config Mutation,telecoms
+5g-mag-mbs-examples,5g-core-amf,5G Core Amf,telecoms
+5g-mag-mbs-examples,ausf,Ausf,telecoms
+5g-mag-mbs-examples,nas-signaling,Nas Signaling,telecoms
+5g-mag-mbs-examples,5g-core-smf,5G Core Smf,telecoms
+5g-mag-mbs-examples,ngap-signaling,Ngap Signaling,telecoms
+5g-mag-mbs-examples,open5gs-core,Open5Gs Core,telecoms
+5g-mag-mbs-examples,5g-core-upf,5G Core Upf,telecoms
+batfish,isis-analysis,Isis Analysis,telecoms
+batfish,acl-verification,Acl Verification,telecoms
+batfish,rip-analysis,Rip Analysis,telecoms
+batfish,eigrp-analysis,Eigrp Analysis,telecoms
+batfish,route-analysis,Route Analysis,telecoms
+batfish,multi-vendor-config-parsing,Multi Vendor Config Parsing,telecoms
+batfish,rest-api,Rest Api,telecoms
+batfish,ospf-analysis,Ospf Analysis,telecoms
+batfish,offline-config-analysis,Offline Config Analysis,telecoms
+batfish,network-config-analysis,Network Config Analysis,telecoms
+batfish,protocol-analysis,Protocol Analysis,telecoms
+batfish,change-impact-analysis,Change Impact Analysis,telecoms
+batfish,compliance-checking,Compliance Checking,telecoms
+batfish,jupyter-notebook-interface,Jupyter Notebook Interface,telecoms
+batfish,reachability-analysis,Reachability Analysis,telecoms
+batfish,pre-deployment-validation,Pre Deployment Validation,telecoms
+batfish,bgp-analysis,Bgp Analysis,telecoms
+batfish,firewall-policy-analysis,Firewall Policy Analysis,telecoms
+eclipse-ditto,digital-twin-framework,Digital Twin Framework,telecoms
+eclipse-ditto,iot-device-modeling,Iot Device Modeling,telecoms
+eclipse-ditto,rest-api-gateway,Rest Api Gateway,telecoms
+eclipse-ditto,websocket-api,Websocket Api,telecoms
+eclipse-ditto,mqtt-connectivity,Mqtt Connectivity,telecoms
+eclipse-ditto,amqp-connectivity,Amqp Connectivity,telecoms
+eclipse-ditto,kafka-connectivity,Kafka Connectivity,telecoms
+eclipse-ditto,device-state-management,Device State Management,telecoms
+eclipse-ditto,things-search-api,Things Search Api,telecoms
+eclipse-ditto,policy-based-access-control,Policy Based Access Control,telecoms
+eclipse-ditto,telemetry-mirroring,Telemetry Mirroring,telecoms
+eclipse-ditto,web-dashboard,Web Dashboard,telecoms
+frrouting-frr,bfd-support,Bfd Support,telecoms
+frrouting-frr,pim-multicast,Pim Multicast,telecoms
+frrouting-frr,ldp-signaling,Ldp Signaling,telecoms
+frrouting-frr,vtysh-cli,Vtysh Cli,telecoms
+frrouting-frr,bgp-routing,Bgp Routing,telecoms
+frrouting-frr,restconf-api,Restconf Api,telecoms
+frrouting-frr,eigrp-routing,Eigrp Routing,telecoms
+frrouting-frr,docker-image,Docker Image,telecoms
+frrouting-frr,netconf-server,Netconf Server,telecoms
+frrouting-frr,vrrp-redundancy,Vrrp Redundancy,telecoms
+frrouting-frr,ipv6-routing,Ipv6 Routing,telecoms
+frrouting-frr,route-policy-engine,Route Policy Engine,telecoms
+frrouting-frr,mpls-forwarding,Mpls Forwarding,telecoms
+frrouting-frr,config-mutation,Config Mutation,telecoms
+frrouting-frr,isis-routing,Isis Routing,telecoms
+frrouting-frr,ospf-routing,Ospf Routing,telecoms
+frrouting-frr,yang-datastore,Yang Datastore,telecoms
+frrouting-frr,rip-routing,Rip Routing,telecoms
+gnmic,gnmi-client,Gnmi Client,telecoms
+gnmic,gnmi-collector,Gnmi Collector,telecoms
+gnmic,streaming-telemetry,Streaming Telemetry,telecoms
+gnmic,openconfig-support,Openconfig Support,telecoms
+gnmic,prometheus-exporter,Prometheus Exporter,telecoms
+gnmic,influxdb-output,Influxdb Output,telecoms
+gnmic,kafka-output,Kafka Output,telecoms
+gnmic,nats-output,Nats Output,telecoms
+gnmic,grpc-client,Grpc Client,telecoms
+gnmic,dynamic-target-discovery,Dynamic Target Discovery,telecoms
+gnmic,clustering,Clustering,telecoms
+gnmic,data-pipeline,Data Pipeline,telecoms
+gnmic,cli-tool,Cli Tool,telecoms
+gnmic,containerlab-integration,Containerlab Integration,telecoms
+gns3-server,multi-vendor-topology,Multi Vendor Topology,telecoms
+gns3-server,ospf-emulation,Ospf Emulation,telecoms
+gns3-server,web-dashboard,Web Dashboard,telecoms
+gns3-server,bgp-emulation,Bgp Emulation,telecoms
+gns3-server,rest-api-control,Rest Api Control,telecoms
+gns3-server,network-emulation-server,Network Emulation Server,telecoms
+gns3-server,snmp-agent,Snmp Agent,telecoms
+gns3-server,packet-capture,Packet Capture,telecoms
+gns3-server,docker-node-support,Docker Node Support,telecoms
+gns3-server,vlan-emulation,Vlan Emulation,telecoms
+gns3-server,dynamips-integration,Dynamips Integration,telecoms
+gns3-server,qemu-kvm-integration,Qemu Kvm Integration,telecoms
+gns3-server,virtualbox-integration,Virtualbox Integration,telecoms
+gns3-server,topology-mutation,Topology Mutation,telecoms
+gns3-server,config-mutation,Config Mutation,telecoms
+gns3-server,isis-emulation,Isis Emulation,telecoms
+gns3-server,network-digital-twin,Network Digital Twin,telecoms
+gns3-server,node-failure-simulation,Node Failure Simulation,telecoms
+gns3-server,eigrp-emulation,Eigrp Emulation,telecoms
+gns3-server,mpls-emulation,Mpls Emulation,telecoms
+homer,rtp-rtcp-analysis,Rtp Rtcp Analysis,telecoms
+homer,hep-capture,Hep Capture,telecoms
+homer,carrier-grade-monitoring,Carrier Grade Monitoring,telecoms
+homer,sip-monitoring,Sip Monitoring,telecoms
+homer,web-dashboard,Web Dashboard,telecoms
+homer,voip-observability,Voip Observability,telecoms
+homer,sip-search,Sip Search,telecoms
+homer,packet-capture,Packet Capture,telecoms
+homer,call-flow-analysis,Call Flow Analysis,telecoms
+homer,event-correlation,Event Correlation,telecoms
+homer,protocol-analysis,Protocol Analysis,telecoms
+librenms-docker,network-auto-discovery,Network Auto Discovery,telecoms
+librenms-docker,snmpv3-support,Snmpv3 Support,telecoms
+librenms-docker,snmp-trap-receiver,Snmp Trap Receiver,telecoms
+librenms-docker,snmp-monitoring,Snmp Monitoring,telecoms
+librenms-docker,bgp-monitoring,Bgp Monitoring,telecoms
+librenms-docker,cdp-lldp-discovery,Cdp Lldp Discovery,telecoms
+librenms-docker,web-dashboard,Web Dashboard,telecoms
+librenms-docker,multi-vendor-device-support,Multi Vendor Device Support,telecoms
+librenms-docker,network-topology-mapping,Network Topology Mapping,telecoms
+librenms-docker,syslog-collection,Syslog Collection,telecoms
+librenms-docker,streaming-telemetry,Streaming Telemetry,telecoms
+librenms-docker,ospf-monitoring,Ospf Monitoring,telecoms
+librenms-docker,alerting-engine,Alerting Engine,telecoms
+magma,gtp-tunneling,Gtp Tunneling,telecoms
+magma,ngap-handler,Ngap Handler,telecoms
+magma,5g-sbi-interface,5G Sbi Interface,telecoms
+magma,web-dashboard,Web Dashboard,telecoms
+magma,rest-api-northbound,Rest Api Northbound,telecoms
+magma,enodeb-connectivity,Enodeb Connectivity,telecoms
+magma,diameter-server,Diameter Server,telecoms
+magma,access-gateway,Access Gateway,telecoms
+magma,4g-lte-core,4G Lte Core,telecoms
+magma,policy-enforcement,Policy Enforcement,telecoms
+magma,s1ap-handler,S1Ap Handler,telecoms
+magma,subscriber-management,Subscriber Management,telecoms
+magma,federation-gateway,Federation Gateway,telecoms
+magma,config-mutation,Config Mutation,telecoms
+magma,5g-core,5G Core,telecoms
+magma,nas-processing,Nas Processing,telecoms
+magma,network-orchestrator,Network Orchestrator,telecoms
+magma,multi-tenant-orchestration,Multi Tenant Orchestration,telecoms
+nautobot,rest-api-server,Rest Api Server,telecoms
+nautobot,graphql-api,Graphql Api,telecoms
+nautobot,network-source-of-truth,Network Source Of Truth,telecoms
+nautobot,ip-address-management,Ip Address Management,telecoms
+nautobot,dcim-modeling,Dcim Modeling,telecoms
+nautobot,network-automation-platform,Network Automation Platform,telecoms
+nautobot,web-dashboard,Web Dashboard,telecoms
+nautobot,plugin-system,Plugin System,telecoms
+nautobot,git-integration,Git Integration,telecoms
+nautobot,device-inventory,Device Inventory,telecoms
+nautobot,circuit-management,Circuit Management,telecoms
+nautobot,vlan-management,Vlan Management,telecoms
+nautobot,prefix-management,Prefix Management,telecoms
+netlab,multi-vendor-lab,Multi Vendor Lab,telecoms
+netlab,containerlab-config-generation,Containerlab Config Generation,telecoms
+netlab,yaml-driven-topology,Yaml Driven Topology,telecoms
+netlab,vxlan-configuration,Vxlan Configuration,telecoms
+netlab,isis-configuration,Isis Configuration,telecoms
+netlab,ansible-inventory-generation,Ansible Inventory Generation,telecoms
+netlab,mpls-configuration,Mpls Configuration,telecoms
+netlab,bgp-configuration,Bgp Configuration,telecoms
+netlab,bfd-configuration,Bfd Configuration,telecoms
+netlab,ipv4-ipv6-addressing,Ipv4 Ipv6 Addressing,telecoms
+netlab,vagrant-topology-generation,Vagrant Topology Generation,telecoms
+netlab,vrrp-configuration,Vrrp Configuration,telecoms
+netlab,topology-mutation,Topology Mutation,telecoms
+netlab,config-mutation,Config Mutation,telecoms
+netlab,network-topology-generation,Network Topology Generation,telecoms
+netlab,network-digital-twin,Network Digital Twin,telecoms
+netlab,jinja2-device-templates,Jinja2 Device Templates,telecoms
+netlab,srv6-configuration,Srv6 Configuration,telecoms
+netlab,ospf-configuration,Ospf Configuration,telecoms
+netlab,evpn-configuration,Evpn Configuration,telecoms
+netopeer2,netconf-cli-client,Netconf Cli Client,telecoms
+netopeer2,netconf-server,Netconf Server,telecoms
+netopeer2,mock-network-device,Mock Network Device,telecoms
+netopeer2,ssh-transport,Ssh Transport,telecoms
+netopeer2,config-mutation,Config Mutation,telecoms
+netopeer2,netconf-event-notifications,Netconf Event Notifications,telecoms
+netopeer2,yang-datastore,Yang Datastore,telecoms
+netopeer2,nacm-access-control,Nacm Access Control,telecoms
+netopeer2,yang-validation,Yang Validation,telecoms
+netopeer2,netconf-call-home,Netconf Call Home,telecoms
+netopeer2,nmda-support,Nmda Support,telecoms
+netopeer2,tls-transport,Tls Transport,telecoms
+netopeer2,sysrepo-integration,Sysrepo Integration,telecoms
+netshoot,traffic-generation,Traffic Generation,telecoms
+netshoot,packet-capture,Packet Capture,telecoms
+netshoot,network-diagnostics,Network Diagnostics,telecoms
+netshoot,port-scanning,Port Scanning,telecoms
+netshoot,bandwidth-testing,Bandwidth Testing,telecoms
+netshoot,dns-analysis,Dns Analysis,telecoms
+netshoot,http-testing,Http Testing,telecoms
+netshoot,grpc-testing,Grpc Testing,telecoms
+netshoot,packet-crafting,Packet Crafting,telecoms
+netshoot,latency-measurement,Latency Measurement,telecoms
+netshoot,sidecar-toolbox,Sidecar Toolbox,telecoms
+netshoot,tcp-analysis,Tcp Analysis,telecoms
+netshoot,ssl-inspection,Ssl Inspection,telecoms
+nokia-sr-linux-container-image,netconf-server,Netconf Server,telecoms
+nokia-sr-linux-container-image,gnmi-server,Gnmi Server,telecoms
+nokia-sr-linux-container-image,ssh-cli,Ssh Cli,telecoms
+nokia-sr-linux-container-image,config-mutation,Config Mutation,telecoms
+nokia-sr-linux-container-image,isis-routing,Isis Routing,telecoms
+nokia-sr-linux-container-image,ospf-routing,Ospf Routing,telecoms
+nokia-sr-linux-container-image,json-rpc-api,Json Rpc Api,telecoms
+nokia-sr-linux-container-image,yang-datastore,Yang Datastore,telecoms
+nokia-sr-linux-container-image,streaming-telemetry,Streaming Telemetry,telecoms
+nokia-sr-linux-container-image,network-os-container,Network Os Container,telecoms
+nokia-sr-linux-container-image,evpn-overlay,Evpn Overlay,telecoms
+nokia-sr-linux-container-image,containerlab-integration,Containerlab Integration,telecoms
+nokia-sr-linux-container-image,bgp-routing,Bgp Routing,telecoms
+nokia-sr-linux-container-image,grpc-server,Grpc Server,telecoms
+nokia-sr-linux-container-image,vxlan-tunneling,Vxlan Tunneling,telecoms
+notconf,cisco-xr-model,Cisco Xr Model,telecoms
+notconf,netconf-server,Netconf Server,telecoms
+notconf,juniper-junos-model,Juniper Junos Model,telecoms
+notconf,sysrepo-backend,Sysrepo Backend,telecoms
+notconf,device-simulator,Device Simulator,telecoms
+notconf,netopeer2-server,Netopeer2 Server,telecoms
+notconf,nokia-sros-model,Nokia Sros Model,telecoms
+notconf,config-mutation,Config Mutation,telecoms
+notconf,multi-arch-container,Multi Arch Container,telecoms
+notconf,yang-datastore,Yang Datastore,telecoms
+notconf,ietf-yang-model,Ietf Yang Model,telecoms
+notconf,custom-yang-loader,Custom Yang Loader,telecoms
+notconf,rousette-restconf,Rousette Restconf,telecoms
+notconf,netsim-replacement,Netsim Replacement,telecoms
+notconf,restconf-server,Restconf Server,telecoms
+ntopng,traffic-visualization,Traffic Visualization,telecoms
+ntopng,flow-analysis,Flow Analysis,telecoms
+ntopng,snmp-monitoring,Snmp Monitoring,telecoms
+ntopng,ipfix-collection,Ipfix Collection,telecoms
+ntopng,web-dashboard,Web Dashboard,telecoms
+ntopng,security-monitoring,Security Monitoring,telecoms
+ntopng,real-time-alerting,Real Time Alerting,telecoms
+ntopng,ndpi-classification,Ndpi Classification,telecoms
+ntopng,packet-capture,Packet Capture,telecoms
+ntopng,netflow-collection,Netflow Collection,telecoms
+ntopng,deep-packet-inspection,Deep Packet Inspection,telecoms
+ntopng,sflow-collection,Sflow Collection,telecoms
+ntopng,protocol-analysis,Protocol Analysis,telecoms
+onos-open-network-operating-system,high-availability-clustering,High Availability Clustering,telecoms
+onos-open-network-operating-system,netconf-client,Netconf Client,telecoms
+onos-open-network-operating-system,openflow-controller,Openflow Controller,telecoms
+onos-open-network-operating-system,network-intent-abstraction,Network Intent Abstraction,telecoms
+onos-open-network-operating-system,web-dashboard,Web Dashboard,telecoms
+onos-open-network-operating-system,config-mutation,Config Mutation,telecoms
+onos-open-network-operating-system,sdn-controller,Sdn Controller,telecoms
+onos-open-network-operating-system,p4runtime-controller,P4Runtime Controller,telecoms
+onos-open-network-operating-system,ovsdb-client,Ovsdb Client,telecoms
+onos-open-network-operating-system,restconf-client,Restconf Client,telecoms
+onos-open-network-operating-system,gnmi-client,Gnmi Client,telecoms
+onos-open-network-operating-system,flow-rule-programming,Flow Rule Programming,telecoms
+onos-open-network-operating-system,rest-api,Rest Api,telecoms
+onos-open-network-operating-system,topology-discovery,Topology Discovery,telecoms
+onos-open-network-operating-system,network-virtualization,Network Virtualization,telecoms
+openimss,opensips-ims,Opensips Ims,telecoms
+openimss,ims-cscf,Ims Cscf,telecoms
+openimss,metrics-collection,Metrics Collection,telecoms
+openimss,rcs-support,Rcs Support,telecoms
+openimss,web-dashboard,Web Dashboard,telecoms
+openimss,volte-support,Volte Support,telecoms
+openimss,diameter-server,Diameter Server,telecoms
+openimss,gnb-simulator,Gnb Simulator,telecoms
+openimss,grafana-monitoring,Grafana Monitoring,telecoms
+openimss,container-orchestration,Container Orchestration,telecoms
+openimss,sa-deployment,Sa Deployment,telecoms
+openimss,sip-proxy,Sip Proxy,telecoms
+openimss,ue-simulator,Ue Simulator,telecoms
+openimss,enb-simulator,Enb Simulator,telecoms
+openimss,4g-lte-epc,4G Lte Epc,telecoms
+openimss,5g-core-amf,5G Core Amf,telecoms
+openimss,config-mutation,Config Mutation,telecoms
+openimss,5g-core-smf,5G Core Smf,telecoms
+openimss,ueransim-ran,Ueransim Ran,telecoms
+openimss,srsran-ran,Srsran Ran,telecoms
+openimss,nsa-deployment,Nsa Deployment,telecoms
+openimss,open5gs-core,Open5Gs Core,telecoms
+openimss,5g-core-upf,5G Core Upf,telecoms
+openimss,multi-service-compose,Multi Service Compose,telecoms
+openimss,distributed-tracing,Distributed Tracing,telecoms
+openkilda,flow-mirroring,Flow Mirroring,telecoms
+openkilda,storm-topology-processing,Storm Topology Processing,telecoms
+openkilda,openflow-controller,Openflow Controller,telecoms
+openkilda,web-dashboard,Web Dashboard,telecoms
+openkilda,config-mutation,Config Mutation,telecoms
+openkilda,path-pinning,Path Pinning,telecoms
+openkilda,multi-switch-orchestration,Multi Switch Orchestration,telecoms
+openkilda,sdn-flow-management,Sdn Flow Management,telecoms
+openkilda,l2-network-services,L2 Network Services,telecoms
+openkilda,blue-green-deployment,Blue Green Deployment,telecoms
+openkilda,southbound-openflow,Southbound Openflow,telecoms
+openkilda,northbound-rest-api,Northbound Rest Api,telecoms
+openkilda,kafka-event-streaming,Kafka Event Streaming,telecoms
+pyhss,geored-replication,Geored Replication,telecoms
+pyhss,gsup-interface,Gsup Interface,telecoms
+pyhss,pcrf-policy-control,Pcrf Policy Control,telecoms
+pyhss,config-mutation,Config Mutation,telecoms
+pyhss,eir-equipment-identity,Eir Equipment Identity,telecoms
+pyhss,diameter-server,Diameter Server,telecoms
+pyhss,rest-api,Rest Api,telecoms
+pyhss,multi-database-backend,Multi Database Backend,telecoms
+pyhss,metrics-dashboard,Metrics Dashboard,telecoms
+pyhss,lte-epc-core,Lte Epc Core,telecoms
+pyhss,hss-subscriber-management,Hss Subscriber Management,telecoms
+pyhss,volte-hss,Volte Hss,telecoms
+routr,sip-proxy,Sip Proxy,telecoms
+routr,programmable-sip-routing,Programmable Sip Routing,telecoms
+routr,tls-sip-transport,Tls Sip Transport,telecoms
+routr,load-balancing,Load Balancing,telecoms
+routr,grpc-api,Grpc Api,telecoms
+routr,sip-registrar,Sip Registrar,telecoms
+routr,multi-tenant-sip,Multi Tenant Sip,telecoms
+routr,config-mutation,Config Mutation,telecoms
+routr,webrtc-gateway,Webrtc Gateway,telecoms
+routr,sip-location-server,Sip Location Server,telecoms
+routr,helm-charts,Helm Charts,telecoms
+routr,sip-over-websocket,Sip Over Websocket,telecoms
+slice-aware-ntn,slice-aware-routing,Slice Aware Routing,telecoms
+slice-aware-ntn,config-mutation,Config Mutation,telecoms
+slice-aware-ntn,5g-core-amf,5G Core Amf,telecoms
+slice-aware-ntn,qos-management,Qos Management,telecoms
+slice-aware-ntn,traffic-generation,Traffic Generation,telecoms
+slice-aware-ntn,free5gc-core,Free5Gc Core,telecoms
+slice-aware-ntn,multi-slice-orchestration,Multi Slice Orchestration,telecoms
+slice-aware-ntn,5g-core-smf,5G Core Smf,telecoms
+slice-aware-ntn,5g-core-pcf,5G Core Pcf,telecoms
+slice-aware-ntn,gnb-simulation,Gnb Simulation,telecoms
+slice-aware-ntn,network-slicing,Network Slicing,telecoms
+slice-aware-ntn,5g-core-upf,5G Core Upf,telecoms
+slice-aware-ntn,ntn-backhaul,Ntn Backhaul,telecoms
+slice-aware-ntn,satellite-link-emulation,Satellite Link Emulation,telecoms
+slice-aware-ntn,ue-simulation,Ue Simulation,telecoms
+slice-aware-ntn,ueransim-integration,Ueransim Integration,telecoms
+topolograph-docker,ospf-topology-visualization,Ospf Topology Visualization,telecoms
+topolograph-docker,multi-vendor-support,Multi Vendor Support,telecoms
+topolograph-docker,web-dashboard,Web Dashboard,telecoms
+topolograph-docker,mcp-server,Mcp Server,telecoms
+topolograph-docker,lsdb-ingestion,Lsdb Ingestion,telecoms
+topolograph-docker,fault-injection,Fault Injection,telecoms
+topolograph-docker,node-failure-simulation,Node Failure Simulation,telecoms
+topolograph-docker,link-failure-simulation,Link Failure Simulation,telecoms
+topolograph-docker,shortest-path-calculation,Shortest Path Calculation,telecoms
+topolograph-docker,rest-api,Rest Api,telecoms
+topolograph-docker,ai-agent-integration,Ai Agent Integration,telecoms
+topolograph-docker,traffic-flow-analysis,Traffic Flow Analysis,telecoms
+topolograph-docker,what-if-failure-simulation,What If Failure Simulation,telecoms
+topolograph-docker,isis-topology-visualization,Isis Topology Visualization,telecoms
+topolograph-docker,protocol-analysis,Protocol Analysis,telecoms
+topolograph-docker,bgp-ls-support,Bgp Ls Support,telecoms
+trex,flow-simulation,Flow Simulation,telecoms
+trex,bgp-simulation,Bgp Simulation,telecoms
+trex,stateful-traffic-generation,Stateful Traffic Generation,telecoms
+trex,line-rate-packet-generation,Line Rate Packet Generation,telecoms
+trex,ipv6-traffic,Ipv6 Traffic,telecoms
+trex,mpls-traffic,Mpls Traffic,telecoms
+trex,rest-api-control,Rest Api Control,telecoms
+trex,dpdk-packet-processing,Dpdk Packet Processing,telecoms
+trex,load-testing,Load Testing,telecoms
+trex,pcap-replay,Pcap Replay,telecoms
+trex,sip-traffic,Sip Traffic,telecoms
+trex,l2-l7-traffic-generation,L2 L7 Traffic Generation,telecoms
+trex,protocol-emulation,Protocol Emulation,telecoms
+trex,traffic-generation,Traffic Generation,telecoms
+trex,python-automation-api,Python Automation Api,telecoms
+trex,vxlan-traffic,Vxlan Traffic,telecoms
+trex,ospf-simulation,Ospf Simulation,telecoms
+trex,stateless-traffic-generation,Stateless Traffic Generation,telecoms
+trex,http-traffic-generation,Http Traffic Generation,telecoms
+trex,ipv4-traffic,Ipv4 Traffic,telecoms
+trex,network-performance-testing,Network Performance Testing,telecoms
+vrnetlab-original,netconf-server,Netconf Server,telecoms
+vrnetlab-original,multi-vendor-nos,Multi Vendor Nos,telecoms
+vrnetlab-original,serial-console-access,Serial Console Access,telecoms
+vrnetlab-original,containerized-kvm-router,Containerized Kvm Router,telecoms
+vrnetlab-original,config-mutation,Config Mutation,telecoms
+vrnetlab-original,ospf-routing,Ospf Routing,telecoms
+vrnetlab-original,isis-routing,Isis Routing,telecoms
+vrnetlab-original,mpls-dataplane,Mpls Dataplane,telecoms
+vrnetlab-original,yang-datastore,Yang Datastore,telecoms
+vrnetlab-original,snmp-agent,Snmp Agent,telecoms
+vrnetlab-original,virtual-router-container,Virtual Router Container,telecoms
+vrnetlab-original,bgp-routing,Bgp Routing,telecoms
+vrnetlab-original,ssh-cli-access,Ssh Cli Access,telecoms
+vyos,router-os,Router Os,telecoms
+vyos,vrrp-ha,Vrrp Ha,telecoms
+vyos,ipsec-vpn,Ipsec Vpn,telecoms
+vyos,network-operating-system,Network Operating System,telecoms
+vyos,wireguard-vpn,Wireguard Vpn,telecoms
+vyos,containerlab-node,Containerlab Node,telecoms
+vyos,openvpn-server,Openvpn Server,telecoms
+vyos,bgp-routing,Bgp Routing,telecoms
+vyos,commit-rollback-config,Commit Rollback Config,telecoms
+vyos,firewall-policy,Firewall Policy,telecoms
+vyos,cli-config-management,Cli Config Management,telecoms
+vyos,config-mutation,Config Mutation,telecoms
+vyos,isis-routing,Isis Routing,telecoms
+vyos,ospf-routing,Ospf Routing,telecoms
+vyos,packet-routing,Packet Routing,telecoms
+vyos,nat-gateway,Nat Gateway,telecoms
+vyos,rip-routing,Rip Routing,telecoms
+yang-catalog-deployment,yang-module-catalog,Yang Module Catalog,telecoms
+yang-catalog-deployment,yang-validation,Yang Validation,telecoms
+yang-catalog-deployment,yang-model-search,Yang Model Search,telecoms
+yang-catalog-deployment,restconf-api,Restconf Api,telecoms
+yang-catalog-deployment,web-dashboard,Web Dashboard,telecoms
+yang-catalog-deployment,metadata-extraction,Metadata Extraction,telecoms
+yang-catalog-deployment,impact-analysis,Impact Analysis,telecoms
+yang-catalog-deployment,module-comparison,Module Comparison,telecoms
+yang-catalog-deployment,opensearch-indexing,Opensearch Indexing,telecoms
+yang-catalog-deployment,rabbitmq-messaging,Rabbitmq Messaging,telecoms
+yang-catalog-deployment,redis-cache,Redis Cache,telecoms
+yang-catalog-deployment,nginx-reverse-proxy,Nginx Reverse Proxy,telecoms
+5gdeploy-nist,docker-compose-network-emulation,Docker Compose Network Emulation,telecoms
+5gdeploy-nist,upf-orchestration,Upf Orchestration,telecoms
+5gdeploy-nist,config-mutation,Config Mutation,telecoms
+5gdeploy-nist,free5gc-integration,Free5Gc Integration,telecoms
+5gdeploy-nist,pfcp-n4-control,Pfcp N4 Control,telecoms
+5gdeploy-nist,ran-emulation-orchestration,Ran Emulation Orchestration,telecoms
+5gdeploy-nist,5g-core-orchestration,5G Core Orchestration,telecoms
+5gdeploy-nist,multi-upf-deployment,Multi Upf Deployment,telecoms
+5gdeploy-nist,nas-ngap-signaling,Nas Ngap Signaling,telecoms
+5gdeploy-nist,multi-vendor-5g-deployment,Multi Vendor 5G Deployment,telecoms
+5gdeploy-nist,oai-integration,Oai Integration,telecoms
+5gdeploy-nist,gtp-u-dataplane,Gtp U Dataplane,telecoms
+5gdeploy-nist,open5gs-integration,Open5Gs Integration,telecoms
+5gdeploy-nist,comparative-5g-testing,Comparative 5G Testing,telecoms
+advanced-netconf-explorer-anx,netconf-client,Netconf Client,telecoms
+advanced-netconf-explorer-anx,yang-model-browser,Yang Model Browser,telecoms
+advanced-netconf-explorer-anx,web-dashboard,Web Dashboard,telecoms
+advanced-netconf-explorer-anx,config-mutation,Config Mutation,telecoms
+advanced-netconf-explorer-anx,gnmi-client,Gnmi Client,telecoms
+advanced-netconf-explorer-anx,java-netconf-library,Java Netconf Library,telecoms
+advanced-netconf-explorer-anx,netconf-explorer,Netconf Explorer,telecoms
+advanced-netconf-explorer-anx,yang-tree-navigation,Yang Tree Navigation,telecoms
+advanced-netconf-explorer-anx,grpc-telemetry-client,Grpc Telemetry Client,telecoms
+artillery,websocket-load-testing,Websocket Load Testing,telecoms
+artillery,http-load-testing,Http Load Testing,telecoms
+artillery,browser-automation-testing,Browser Automation Testing,telecoms
+artillery,distributed-load-testing,Distributed Load Testing,telecoms
+artillery,graphql-load-testing,Graphql Load Testing,telecoms
+artillery,multi-protocol-testing,Multi Protocol Testing,telecoms
+artillery,traffic-generation,Traffic Generation,telecoms
+artillery,load-testing,Load Testing,telecoms
+artillery,metrics-reporting,Metrics Reporting,telecoms
+artillery,api-stress-testing,Api Stress Testing,telecoms
+artillery,scenario-based-testing,Scenario Based Testing,telecoms
+artillery,performance-benchmarking,Performance Benchmarking,telecoms
+artillery,grpc-load-testing,Grpc Load Testing,telecoms
+checkmk,snmpv3-support,Snmpv3 Support,telecoms
+checkmk,snmp-monitoring,Snmp Monitoring,telecoms
+checkmk,ipmi-monitoring,Ipmi Monitoring,telecoms
+checkmk,web-dashboard,Web Dashboard,telecoms
+checkmk,event-management,Event Management,telecoms
+checkmk,network-device-monitoring,Network Device Monitoring,telecoms
+checkmk,streaming-telemetry,Streaming Telemetry,telecoms
+checkmk,infrastructure-monitoring,Infrastructure Monitoring,telecoms
+checkmk,rest-api,Rest Api,telecoms
+checkmk,alerting-engine,Alerting Engine,telecoms
+checkmk,auto-discovery,Auto Discovery,telecoms
+cisco-devnet-mdt-tig,yang-model-telemetry,Yang Model Telemetry,telecoms
+cisco-devnet-mdt-tig,mdt-telemetry-collection,Mdt Telemetry Collection,telecoms
+cisco-devnet-mdt-tig,influxdb-timeseries-storage,Influxdb Timeseries Storage,telecoms
+cisco-devnet-mdt-tig,grafana-dashboard,Grafana Dashboard,telecoms
+cisco-devnet-mdt-tig,streaming-telemetry,Streaming Telemetry,telecoms
+cisco-devnet-mdt-tig,telegraf-pipeline,Telegraf Pipeline,telecoms
+cisco-devnet-mdt-tig,docker-compose-stack,Docker Compose Stack,telecoms
+cisco-devnet-mdt-tig,grpc-telemetry-receiver,Grpc Telemetry Receiver,telecoms
+cisco-devnet-mdt-tig,cisco-ios-xe-telemetry,Cisco Ios Xe Telemetry,telecoms
+cisco-nso-docker,netconf-server,Netconf Server,telecoms
+cisco-nso-docker,cli-management,Cli Management,telecoms
+cisco-nso-docker,netsim-device-simulation,Netsim Device Simulation,telecoms
+cisco-nso-docker,config-mutation,Config Mutation,telecoms
+cisco-nso-docker,dev-prod-docker-images,Dev Prod Docker Images,telecoms
+cisco-nso-docker,yang-datastore,Yang Datastore,telecoms
+cisco-nso-docker,ci-cd-pipeline,Ci Cd Pipeline,telecoms
+cisco-nso-docker,ssh-server,Ssh Server,telecoms
+cisco-nso-docker,network-orchestration,Network Orchestration,telecoms
+cisco-nso-docker,multi-vendor-ned-support,Multi Vendor Ned Support,telecoms
+cisco-nso-docker,restconf-server,Restconf Server,telecoms
+cisco-xr-netconf-lab,time-series-metrics,Time Series Metrics,telecoms
+cisco-xr-netconf-lab,jupyter-notebook-lab,Jupyter Notebook Lab,telecoms
+cisco-xr-netconf-lab,netconf-client,Netconf Client,telecoms
+cisco-xr-netconf-lab,web-dashboard,Web Dashboard,telecoms
+cisco-xr-netconf-lab,config-mutation,Config Mutation,telecoms
+cisco-xr-netconf-lab,yang-datastore,Yang Datastore,telecoms
+cisco-xr-netconf-lab,traffic-generation,Traffic Generation,telecoms
+cisco-xr-netconf-lab,streaming-telemetry,Streaming Telemetry,telecoms
+cisco-xr-netconf-lab,model-driven-telemetry,Model Driven Telemetry,telecoms
+cisco-xr-netconf-lab,grpc-telemetry-pipeline,Grpc Telemetry Pipeline,telecoms
+clixon,netconf-server,Netconf Server,telecoms
+clixon,multi-device-controller,Multi Device Controller,telecoms
+clixon,cli-management-interface,Cli Management Interface,telecoms
+clixon,config-mutation,Config Mutation,telecoms
+clixon,atomic-transaction-rollback,Atomic Transaction Rollback,telecoms
+clixon,yang-datastore,Yang Datastore,telecoms
+clixon,nos-management-plane-framework,Nos Management Plane Framework,telecoms
+clixon,embedded-configuration-database,Embedded Configuration Database,telecoms
+clixon,xpath-query-support,Xpath Query Support,telecoms
+clixon,xml-configuration-management,Xml Configuration Management,telecoms
+clixon,restconf-server,Restconf Server,telecoms
+docker-asterisk,config-mutation,Config Mutation,telecoms
+docker-asterisk,health-checks,Health Checks,telecoms
+docker-asterisk,srtp-encryption,Srtp Encryption,telecoms
+docker-asterisk,sip-server,Sip Server,telecoms
+docker-asterisk,tls-support,Tls Support,telecoms
+docker-asterisk,webrtc-sip,Webrtc Sip,telecoms
+docker-asterisk,multi-variant-docker-image,Multi Variant Docker Image,telecoms
+docker-asterisk,intrusion-detection,Intrusion Detection,telecoms
+docker-asterisk,asterisk-pbx,Asterisk Pbx,telecoms
+docker-asterisk,voip-gateway,Voip Gateway,telecoms
+docker-asterisk,websms-messaging,Websms Messaging,telecoms
+elastiflow,kibana-visualization,Kibana Visualization,telecoms
+elastiflow,ipfix-collection,Ipfix Collection,telecoms
+elastiflow,flow-analytics,Flow Analytics,telecoms
+elastiflow,web-dashboard,Web Dashboard,telecoms
+elastiflow,streaming-telemetry,Streaming Telemetry,telecoms
+elastiflow,logstash-pipeline,Logstash Pipeline,telecoms
+elastiflow,netflow-collection,Netflow Collection,telecoms
+elastiflow,elasticsearch-indexing,Elasticsearch Indexing,telecoms
+elastiflow,sflow-collection,Sflow Collection,telecoms
+elastiflow,multi-service-compose,Multi Service Compose,telecoms
+ella-core,nas-protocol-handling,Nas Protocol Handling,telecoms
+ella-core,sbi-rest-interface,Sbi Rest Interface,telecoms
+ella-core,5g-core-nrf,5G Core Nrf,telecoms
+ella-core,embedded-database,Embedded Database,telecoms
+ella-core,single-binary-core,Single Binary Core,telecoms
+ella-core,ebpf-data-plane,Ebpf Data Plane,telecoms
+ella-core,web-dashboard,Web Dashboard,telecoms
+ella-core,5g-core-udm,5G Core Udm,telecoms
+ella-core,pfcp-session-management,Pfcp Session Management,telecoms
+ella-core,gtp-u-tunneling,Gtp U Tunneling,telecoms
+ella-core,private-5g-core,Private 5G Core,telecoms
+ella-core,5g-core-amf,5G Core Amf,telecoms
+ella-core,config-mutation,Config Mutation,telecoms
+ella-core,ngap-protocol-handling,Ngap Protocol Handling,telecoms
+ella-core,5g-core-smf,5G Core Smf,telecoms
+ella-core,5g-core-upf,5G Core Upf,telecoms
+ella-core,5g-core-ausf,5G Core Ausf,telecoms
+exabgp,json-api-control-plane,Json Api Control Plane,telecoms
+exabgp,traffic-engineering,Traffic Engineering,telecoms
+exabgp,mpls-signaling,Mpls Signaling,telecoms
+exabgp,config-mutation,Config Mutation,telecoms
+exabgp,flowspec-ddos-mitigation,Flowspec Ddos Mitigation,telecoms
+exabgp,bgp-policy-testing,Bgp Policy Testing,telecoms
+exabgp,traffic-generation,Traffic Generation,telecoms
+exabgp,srv6-support,Srv6 Support,telecoms
+exabgp,evpn-simulation,Evpn Simulation,telecoms
+exabgp,python-scripting-interface,Python Scripting Interface,telecoms
+exabgp,bgp-ls-topology-advertisement,Bgp Ls Topology Advertisement,telecoms
+exabgp,bgp-route-injection,Bgp Route Injection,telecoms
+exabgp,vpls-emulation,Vpls Emulation,telecoms
+fd-io-vpp-vector-packet-processing,segment-routing,Segment Routing,telecoms
+fd-io-vpp-vector-packet-processing,ipsec-tunnel,Ipsec Tunnel,telecoms
+fd-io-vpp-vector-packet-processing,linux-control-plane-integration,Linux Control Plane Integration,telecoms
+fd-io-vpp-vector-packet-processing,containerlab-node,Containerlab Node,telecoms
+fd-io-vpp-vector-packet-processing,gre-tunnel,Gre Tunnel,telecoms
+fd-io-vpp-vector-packet-processing,mpls-dataplane,Mpls Dataplane,telecoms
+fd-io-vpp-vector-packet-processing,high-performance-packet-processing,High Performance Packet Processing,telecoms
+fd-io-vpp-vector-packet-processing,acl-enforcement,Acl Enforcement,telecoms
+fd-io-vpp-vector-packet-processing,nat64,Nat64,telecoms
+fd-io-vpp-vector-packet-processing,lisp-dataplane,Lisp Dataplane,telecoms
+fd-io-vpp-vector-packet-processing,ipv4-forwarding,Ipv4 Forwarding,telecoms
+fd-io-vpp-vector-packet-processing,ipv6-forwarding,Ipv6 Forwarding,telecoms
+fd-io-vpp-vector-packet-processing,config-mutation,Config Mutation,telecoms
+fd-io-vpp-vector-packet-processing,vswitch,Vswitch,telecoms
+fd-io-vpp-vector-packet-processing,vxlan-termination,Vxlan Termination,telecoms
+fd-io-vpp-vector-packet-processing,userspace-networking,Userspace Networking,telecoms
+fd-io-vpp-vector-packet-processing,vrouter,Vrouter,telecoms
+fd-io-vpp-vector-packet-processing,nat44,Nat44,telecoms
+gobgp,flowspec-support,Flowspec Support,telecoms
+gobgp,sr-policy-support,Sr Policy Support,telecoms
+gobgp,cli-management,Cli Management,telecoms
+gobgp,grpc-api,Grpc Api,telecoms
+gobgp,bgp-route-reflector,Bgp Route Reflector,telecoms
+gobgp,config-mutation,Config Mutation,telecoms
+gobgp,mrt-dump,Mrt Dump,telecoms
+gobgp,bgp-policy-engine,Bgp Policy Engine,telecoms
+gobgp,rpki-validation,Rpki Validation,telecoms
+gobgp,bgp-daemon,Bgp Daemon,telecoms
+gobgp,evpn-support,Evpn Support,telecoms
+gobgp,bmp-monitoring,Bmp Monitoring,telecoms
+gobgp,bgp-ls-support,Bgp Ls Support,telecoms
+goflow2,kafka-output,Kafka Output,telecoms
+goflow2,file-output,File Output,telecoms
+goflow2,ipfix-collection,Ipfix Collection,telecoms
+goflow2,json-encoding,Json Encoding,telecoms
+goflow2,stdout-output,Stdout Output,telecoms
+goflow2,streaming-telemetry,Streaming Telemetry,telecoms
+goflow2,netflow-collection,Netflow Collection,telecoms
+goflow2,flow-pipeline-configuration,Flow Pipeline Configuration,telecoms
+goflow2,sflow-collection,Sflow Collection,telecoms
+goflow2,flow-data-serialization,Flow Data Serialization,telecoms
+goflow2,protobuf-encoding,Protobuf Encoding,telecoms
+gradiant-5g-charts,ran-simulator-ueransim,Ran Simulator Ueransim,telecoms
+gradiant-5g-charts,ran-simulator-packetrusher,Ran Simulator Packetrusher,telecoms
+gradiant-5g-charts,scp-service-communication-proxy,Scp Service Communication Proxy,telecoms
+gradiant-5g-charts,lte-core,Lte Core,telecoms
+gradiant-5g-charts,automated-testing-pipeline,Automated Testing Pipeline,telecoms
+gradiant-5g-charts,config-mutation,Config Mutation,telecoms
+gradiant-5g-charts,5g-nr-stack,5G Nr Stack,telecoms
+gradiant-5g-charts,helm-chart-deployment,Helm Chart Deployment,telecoms
+gradiant-5g-charts,dockerhub-images,Dockerhub Images,telecoms
+gradiant-5g-charts,ran-simulator-oai-gnb,Ran Simulator Oai Gnb,telecoms
+gradiant-5g-charts,5g-core-open5gs,5G Core Open5Gs,telecoms
+gradiant-5g-charts,multi-ran-integration,Multi Ran Integration,telecoms
+gradiant-5g-charts,ran-simulator-srsran,Ran Simulator Srsran,telecoms
+icinga2-docker,master-agent-architecture,Master Agent Architecture,telecoms
+icinga2-docker,snmp-monitoring,Snmp Monitoring,telecoms
+icinga2-docker,snmp-trap-receiver,Snmp Trap Receiver,telecoms
+icinga2-docker,web-dashboard,Web Dashboard,telecoms
+icinga2-docker,monitoring-configuration-api,Monitoring Configuration Api,telecoms
+icinga2-docker,streaming-telemetry,Streaming Telemetry,telecoms
+icinga2-docker,distributed-monitoring,Distributed Monitoring,telecoms
+icinga2-docker,http-endpoint-checks,Http Endpoint Checks,telecoms
+icinga2-docker,alerting-engine,Alerting Engine,telecoms
+icinga2-docker,icmp-health-checks,Icmp Health Checks,telecoms
+internet-monitoring-geerlingguy,prometheus-stack,Prometheus Stack,telecoms
+internet-monitoring-geerlingguy,metrics-collection,Metrics Collection,telecoms
+internet-monitoring-geerlingguy,web-dashboard,Web Dashboard,telecoms
+internet-monitoring-geerlingguy,speedtest-exporter,Speedtest Exporter,telecoms
+internet-monitoring-geerlingguy,icmp-probing,Icmp Probing,telecoms
+internet-monitoring-geerlingguy,bandwidth-measurement,Bandwidth Measurement,telecoms
+internet-monitoring-geerlingguy,http-probing,Http Probing,telecoms
+internet-monitoring-geerlingguy,grafana-dashboard,Grafana Dashboard,telecoms
+internet-monitoring-geerlingguy,blackbox-exporter,Blackbox Exporter,telecoms
+internet-monitoring-geerlingguy,streaming-telemetry,Streaming Telemetry,telecoms
+internet-monitoring-geerlingguy,dns-monitoring,Dns Monitoring,telecoms
+internet-monitoring-geerlingguy,latency-measurement,Latency Measurement,telecoms
+internet-monitoring-geerlingguy,network-monitoring,Network Monitoring,telecoms
+ivoz-provider,sip-proxy,Sip Proxy,telecoms
+ivoz-provider,pbx-management,Pbx Management,telecoms
+ivoz-provider,multitenant-voip-platform,Multitenant Voip Platform,telecoms
+ivoz-provider,voip-provider-management,Voip Provider Management,telecoms
+ivoz-provider,web-dashboard,Web Dashboard,telecoms
+ivoz-provider,kamailio-integration,Kamailio Integration,telecoms
+ivoz-provider,config-mutation,Config Mutation,telecoms
+ivoz-provider,rtp-media-handling,Rtp Media Handling,telecoms
+ivoz-provider,rest-api,Rest Api,telecoms
+ivoz-provider,webrtc-gateway,Webrtc Gateway,telecoms
+ivoz-provider,docker-compose-stack,Docker Compose Stack,telecoms
+ivoz-provider,asterisk-integration,Asterisk Integration,telecoms
+ivoz-provider,call-routing,Call Routing,telecoms
+k3s,kubernetes-orchestration,Kubernetes Orchestration,telecoms
+k3s,edge-compute-platform,Edge Compute Platform,telecoms
+k3s,container-runtime,Container Runtime,telecoms
+k3s,lightweight-k8s-cluster,Lightweight K8S Cluster,telecoms
+k3s,service-mesh-foundation,Service Mesh Foundation,telecoms
+k3s,embedded-etcd,Embedded Etcd,telecoms
+k3s,load-balancer-servicelb,Load Balancer Servicelb,telecoms
+k3s,ingress-controller,Ingress Controller,telecoms
+k3s,helm-controller,Helm Controller,telecoms
+kamailio,sip-proxy,Sip Proxy,telecoms
+kamailio,websocket-sip-gateway,Websocket Sip Gateway,telecoms
+kamailio,ims-core-support,Ims Core Support,telecoms
+kamailio,sip-registrar,Sip Registrar,telecoms
+kamailio,sip-b2bua,Sip B2Bua,telecoms
+kamailio,config-mutation,Config Mutation,telecoms
+kamailio,voip-signaling,Voip Signaling,telecoms
+kamailio,sip-router,Sip Router,telecoms
+kamailio,tls-sip-termination,Tls Sip Termination,telecoms
+kamailio,kamailio-scripting,Kamailio Scripting,telecoms
+kne-kubernetes-network-emulation,network-topology-emulation,Network Topology Emulation,telecoms
+kne-kubernetes-network-emulation,multi-vendor-device-emulation,Multi Vendor Device Emulation,telecoms
+kne-kubernetes-network-emulation,gnmi-server,Gnmi Server,telecoms
+kne-kubernetes-network-emulation,grpc-topology-management,Grpc Topology Management,telecoms
+kne-kubernetes-network-emulation,ospf-emulation,Ospf Emulation,telecoms
+kne-kubernetes-network-emulation,topology-mutation,Topology Mutation,telecoms
+kne-kubernetes-network-emulation,bgp-emulation,Bgp Emulation,telecoms
+kne-kubernetes-network-emulation,kubernetes-network-lab,Kubernetes Network Lab,telecoms
+kne-kubernetes-network-emulation,isis-emulation,Isis Emulation,telecoms
+kne-kubernetes-network-emulation,config-mutation,Config Mutation,telecoms
+kne-kubernetes-network-emulation,virtual-network-node,Virtual Network Node,telecoms
+kne-kubernetes-network-emulation,openconfig-support,Openconfig Support,telecoms
+kubeedge,edge-orchestration,Edge Orchestration,telecoms
+kubeedge,device-management,Device Management,telecoms
+kubeedge,cloud-edge-sync,Cloud Edge Sync,telecoms
+kubeedge,mqtt-broker-integration,Mqtt Broker Integration,telecoms
+kubeedge,kubernetes-edge-runtime,Kubernetes Edge Runtime,telecoms
+kubeedge,edge-autonomy,Edge Autonomy,telecoms
+kubeedge,cloudhub-edgehub-messaging,Cloudhub Edgehub Messaging,telecoms
+kubeedge,containerized-edge-workloads,Containerized Edge Workloads,telecoms
+kubeedge,rest-api-gateway,Rest Api Gateway,telecoms
+kubeedge,websocket-tunnel,Websocket Tunnel,telecoms
+livekit-sip,sip-digest-authentication,Sip Digest Authentication,telecoms
+livekit-sip,sip-inbound-trunk,Sip Inbound Trunk,telecoms
+livekit-sip,dtmf-support,Dtmf Support,telecoms
+livekit-sip,config-mutation,Config Mutation,telecoms
+livekit-sip,sip-outbound-trunk,Sip Outbound Trunk,telecoms
+livekit-sip,rtp-media-handling,Rtp Media Handling,telecoms
+livekit-sip,telephony-room-integration,Telephony Room Integration,telecoms
+livekit-sip,webrtc-bridge,Webrtc Bridge,telecoms
+livekit-sip,sip-gateway,Sip Gateway,telecoms
+my5g-rantester,gtp-u-tunneling,Gtp U Tunneling,telecoms
+my5g-rantester,5g-ran-simulation,5G Ran Simulation,telecoms
+my5g-rantester,3gpp-compliance-testing,3Gpp Compliance Testing,telecoms
+my5g-rantester,multi-core-compatibility,Multi Core Compatibility,telecoms
+my5g-rantester,nas-5gs-protocol,Nas 5Gs Protocol,telecoms
+my5g-rantester,ngap-protocol,Ngap Protocol,telecoms
+my5g-rantester,traffic-generation,Traffic Generation,telecoms
+my5g-rantester,gnb-emulation,Gnb Emulation,telecoms
+my5g-rantester,load-testing,Load Testing,telecoms
+my5g-rantester,large-scale-ue-load-testing,Large Scale Ue Load Testing,telecoms
+my5g-rantester,ue-emulation,Ue Emulation,telecoms
+napalm,netconf-client,Netconf Client,telecoms
+napalm,device-state-retrieval,Device State Retrieval,telecoms
+napalm,ssh-cli-client,Ssh Cli Client,telecoms
+napalm,network-automation-library,Network Automation Library,telecoms
+napalm,config-mutation,Config Mutation,telecoms
+napalm,eapi-client,Eapi Client,telecoms
+napalm,nxapi-client,Nxapi Client,telecoms
+napalm,unified-getter-api,Unified Getter Api,telecoms
+napalm,multi-vendor-network-api,Multi Vendor Network Api,telecoms
+napalm,configuration-diff,Configuration Diff,telecoms
+napalm,config-management,Config Management,telecoms
+netxms,network-topology-discovery,Network Topology Discovery,telecoms
+netxms,alerting-engine,Alerting Engine,telecoms
+netxms,snmpv3-support,Snmpv3 Support,telecoms
+netxms,snmp-monitoring,Snmp Monitoring,telecoms
+netxms,agent-based-monitoring,Agent Based Monitoring,telecoms
+netxms,web-dashboard,Web Dashboard,telecoms
+netxms,ssh-management,Ssh Management,telecoms
+netxms,streaming-telemetry,Streaming Telemetry,telecoms
+netxms,infrastructure-monitoring,Infrastructure Monitoring,telecoms
+netxms,unified-network-management,Unified Network Management,telecoms
+netxms,wmi-collection,Wmi Collection,telecoms
+netxms,icmp-polling,Icmp Polling,telecoms
+observium-docker,smokeping-integration,Smokeping Integration,telecoms
+observium-docker,network-auto-discovery,Network Auto Discovery,telecoms
+observium-docker,snmp-monitoring,Snmp Monitoring,telecoms
+observium-docker,web-dashboard,Web Dashboard,telecoms
+observium-docker,network-health-visualization,Network Health Visualization,telecoms
+observium-docker,lldp-cdp-topology,Lldp Cdp Topology,telecoms
+observium-docker,multi-service-compose-stack,Multi Service Compose Stack,telecoms
+observium-docker,device-polling,Device Polling,telecoms
+observium-docker,streaming-telemetry,Streaming Telemetry,telecoms
+observium-docker,mariadb-backend,Mariadb Backend,telecoms
+odtn-emulator,openconfig-device-emulator,Openconfig Device Emulator,telecoms
+odtn-emulator,netconf-server,Netconf Server,telecoms
+odtn-emulator,optical-transport-emulation,Optical Transport Emulation,telecoms
+odtn-emulator,netopeer2-server,Netopeer2 Server,telecoms
+odtn-emulator,config-mutation,Config Mutation,telecoms
+odtn-emulator,yang-datastore,Yang Datastore,telecoms
+odtn-emulator,ssh-server,Ssh Server,telecoms
+odtn-emulator,tapi-emulator,Tapi Emulator,telecoms
+odtn-emulator,multi-node-topology,Multi Node Topology,telecoms
+odtn-emulator,sysrepo-datastore,Sysrepo Datastore,telecoms
+open-vswitch-ovs,gtp-u-tunneling,Gtp U Tunneling,telecoms
+open-vswitch-ovs,srv6-forwarding,Srv6 Forwarding,telecoms
+open-vswitch-ovs,sdn-dataplane,Sdn Dataplane,telecoms
+open-vswitch-ovs,ipfix-export,Ipfix Export,telecoms
+open-vswitch-ovs,geneve-tunneling,Geneve Tunneling,telecoms
+open-vswitch-ovs,netflow-export,Netflow Export,telecoms
+open-vswitch-ovs,ovsdb-server,Ovsdb Server,telecoms
+open-vswitch-ovs,config-mutation,Config Mutation,telecoms
+open-vswitch-ovs,vlan-switching,Vlan Switching,telecoms
+open-vswitch-ovs,erspan-mirroring,Erspan Mirroring,telecoms
+open-vswitch-ovs,vxlan-tunneling,Vxlan Tunneling,telecoms
+open-vswitch-ovs,packet-forwarding,Packet Forwarding,telecoms
+open-vswitch-ovs,openflow-switch,Openflow Switch,telecoms
+open-vswitch-ovs,lacp-bonding,Lacp Bonding,telecoms
+open-vswitch-ovs,gre-tunneling,Gre Tunneling,telecoms
+open-vswitch-ovs,sflow-export,Sflow Export,telecoms
+open5gs-k8s,ran-simulation,Ran Simulation,telecoms
+open5gs-k8s,5g-core-nrf,5G Core Nrf,telecoms
+open5gs-k8s,kubernetes-native-deployment,Kubernetes Native Deployment,telecoms
+open5gs-k8s,microservices-5g-core,Microservices 5G Core,telecoms
+open5gs-k8s,multi-slice-support,Multi Slice Support,telecoms
+open5gs-k8s,5g-core-udm,5G Core Udm,telecoms
+open5gs-k8s,5g-core-pcf,5G Core Pcf,telecoms
+open5gs-k8s,monitoring-integration,Monitoring Integration,telecoms
+open5gs-k8s,network-slicing,Network Slicing,telecoms
+open5gs-k8s,5g-core-udr,5G Core Udr,telecoms
+open5gs-k8s,pfcp-session-management,Pfcp Session Management,telecoms
+open5gs-k8s,gtp-u-tunneling,Gtp U Tunneling,telecoms
+open5gs-k8s,5g-core-ausf,5G Core Ausf,telecoms
+open5gs-k8s,config-mutation,Config Mutation,telecoms
+open5gs-k8s,5g-core-amf,5G Core Amf,telecoms
+open5gs-k8s,5g-core-nssf,5G Core Nssf,telecoms
+open5gs-k8s,5g-core-bsf,5G Core Bsf,telecoms
+open5gs-k8s,5g-core-smf,5G Core Smf,telecoms
+open5gs-k8s,sbi-rest-api,Sbi Rest Api,telecoms
+open5gs-k8s,5g-core-upf,5G Core Upf,telecoms
+open5gs-k8s,ueransim-integration,Ueransim Integration,telecoms
+opensips-ims-community-edition,sip-proxy,Sip Proxy,telecoms
+opensips-ims-community-edition,ims-cscf,Ims Cscf,telecoms
+opensips-ims-community-edition,config-mutation,Config Mutation,telecoms
+opensips-ims-community-edition,i-cscf,I Cscf,telecoms
+opensips-ims-community-edition,ims-registration,Ims Registration,telecoms
+opensips-ims-community-edition,s-cscf,S Cscf,telecoms
+opensips-ims-community-edition,3gpp-ims-core,3Gpp Ims Core,telecoms
+opensips-ims-community-edition,p-cscf,P Cscf,telecoms
+opensips-ims-community-edition,volte-signaling,Volte Signaling,telecoms
+opensips-ims-community-edition,diameter-signaling,Diameter Signaling,telecoms
+osmocom-docker-playground,gsm-sgsn,Gsm Sgsn,telecoms
+osmocom-docker-playground,gsm-bts,Gsm Bts,telecoms
+osmocom-docker-playground,gsm-msc,Gsm Msc,telecoms
+osmocom-docker-playground,ttcn3-test-automation,Ttcn3 Test Automation,telecoms
+osmocom-docker-playground,gsm-bsc,Gsm Bsc,telecoms
+osmocom-docker-playground,sigtran-sccp,Sigtran Sccp,telecoms
+osmocom-docker-playground,containerized-telecom-stack,Containerized Telecom Stack,telecoms
+osmocom-docker-playground,gsm-hlr,Gsm Hlr,telecoms
+osmocom-docker-playground,ss7-stp,Ss7 Stp,telecoms
+osmocom-docker-playground,config-mutation,Config Mutation,telecoms
+osmocom-docker-playground,media-gateway,Media Gateway,telecoms
+osmocom-docker-playground,umts-core-network,Umts Core Network,telecoms
+osmocom-docker-playground,osmocom-ecosystem,Osmocom Ecosystem,telecoms
+osmocom-docker-playground,sigtran-m3ua,Sigtran M3Ua,telecoms
+pmacct,traffic-aggregation,Traffic Aggregation,telecoms
+pmacct,database-export,Database Export,telecoms
+pmacct,bgp-correlation,Bgp Correlation,telecoms
+pmacct,ipfix-collection,Ipfix Collection,telecoms
+pmacct,network-data-enrichment,Network Data Enrichment,telecoms
+pmacct,flow-accounting,Flow Accounting,telecoms
+pmacct,streaming-telemetry,Streaming Telemetry,telecoms
+pmacct,packet-capture,Packet Capture,telecoms
+pmacct,rpki-validation,Rpki Validation,telecoms
+pmacct,netflow-collection,Netflow Collection,telecoms
+pmacct,flow-classification,Flow Classification,telecoms
+pmacct,sflow-collection,Sflow Collection,telecoms
+pmacct,protocol-analysis,Protocol Analysis,telecoms
+pmacct,kafka-export,Kafka Export,telecoms
+pmacct,bmp-monitoring,Bmp Monitoring,telecoms
+pmacct,rabbitmq-export,Rabbitmq Export,telecoms
+poseidon,openflow-integration,Openflow Integration,telecoms
+poseidon,network-situational-awareness,Network Situational Awareness,telecoms
+poseidon,web-dashboard,Web Dashboard,telecoms
+poseidon,packet-capture,Packet Capture,telecoms
+poseidon,docker-compose-stack,Docker Compose Stack,telecoms
+poseidon,sdn-network-visibility,Sdn Network Visibility,telecoms
+poseidon,ml-device-classification,Ml Device Classification,telecoms
+poseidon,network-anomaly-detection,Network Anomaly Detection,telecoms
+poseidon,protocol-analysis,Protocol Analysis,telecoms
+poseidon,faucet-sdn-controller,Faucet Sdn Controller,telecoms
+quic-network-simulator,ns3-integration,Ns3 Integration,telecoms
+quic-network-simulator,multi-container-client-server,Multi Container Client Server,telecoms
+quic-network-simulator,packet-loss-simulation,Packet Loss Simulation,telecoms
+quic-network-simulator,protocol-interoperability-testing,Protocol Interoperability Testing,telecoms
+quic-network-simulator,network-simulation,Network Simulation,telecoms
+quic-network-simulator,latency-emulation,Latency Emulation,telecoms
+quic-network-simulator,link-impairment,Link Impairment,telecoms
+quic-network-simulator,traffic-generation,Traffic Generation,telecoms
+quic-network-simulator,bandwidth-throttling,Bandwidth Throttling,telecoms
+quic-network-simulator,quic-protocol-testing,Quic Protocol Testing,telecoms
+quic-network-simulator,udp-traffic-generation,Udp Traffic Generation,telecoms
+rousette,netconf-restconf-bridge,Netconf Restconf Bridge,telecoms
+rousette,xml-json-encoding,Xml Json Encoding,telecoms
+rousette,rpc-execution,Rpc Execution,telecoms
+rousette,config-mutation,Config Mutation,telecoms
+rousette,yang-datastore,Yang Datastore,telecoms
+rousette,nacm-access-control,Nacm Access Control,telecoms
+rousette,yang-module-library,Yang Module Library,telecoms
+rousette,netconf-notification-streams,Netconf Notification Streams,telecoms
+rousette,restconf-server,Restconf Server,telecoms
+salt-nornir-docker,salt-api,Salt Api,telecoms
+salt-nornir-docker,saltstack-master,Saltstack Master,telecoms
+salt-nornir-docker,nornir-execution-engine,Nornir Execution Engine,telecoms
+salt-nornir-docker,netconf-client,Netconf Client,telecoms
+salt-nornir-docker,event-driven-automation,Event Driven Automation,telecoms
+salt-nornir-docker,config-mutation,Config Mutation,telecoms
+salt-nornir-docker,ssh-automation,Ssh Automation,telecoms
+salt-nornir-docker,salt-proxy-minion,Salt Proxy Minion,telecoms
+salt-nornir-docker,network-orchestration,Network Orchestration,telecoms
+salt-nornir-docker,multi-device-management,Multi Device Management,telecoms
+sflow-rt,network-telemetry,Network Telemetry,telecoms
+sflow-rt,prometheus-exporter,Prometheus Exporter,telecoms
+sflow-rt,real-time-flow-analysis,Real Time Flow Analysis,telecoms
+sflow-rt,flow-monitoring,Flow Monitoring,telecoms
+sflow-rt,sflow-analytics-engine,Sflow Analytics Engine,telecoms
+sflow-rt,web-dashboard,Web Dashboard,telecoms
+sflow-rt,grafana-dashboard,Grafana Dashboard,telecoms
+sflow-rt,streaming-telemetry,Streaming Telemetry,telecoms
+sflow-rt,rest-api,Rest Api,telecoms
+shadow,deterministic-replay,Deterministic Replay,telecoms
+shadow,udp-stack-emulation,Udp Stack Emulation,telecoms
+shadow,discrete-event-network-simulation,Discrete Event Network Simulation,telecoms
+shadow,tls-support,Tls Support,telecoms
+shadow,link-impairment,Link Impairment,telecoms
+shadow,tcp-stack-emulation,Tcp Stack Emulation,telecoms
+shadow,syscall-interposition,Syscall Interposition,telecoms
+shadow,fault-injection,Fault Injection,telecoms
+shadow,reproducible-experiments,Reproducible Experiments,telecoms
+shadow,real-application-execution,Real Application Execution,telecoms
+shadow,controlled-network-conditions,Controlled Network Conditions,telecoms
+shadow,large-scale-process-simulation,Large Scale Process Simulation,telecoms
+sionna-visualizer,web-dashboard,Web Dashboard,telecoms
+sionna-visualizer,6g-simulation-visualization,6G Simulation Visualization,telecoms
+sionna-visualizer,ber-analysis,Ber Analysis,telecoms
+sionna-visualizer,beam-pattern-visualization,Beam Pattern Visualization,telecoms
+sionna-visualizer,path-loss-analysis,Path Loss Analysis,telecoms
+sionna-visualizer,channel-capacity-visualization,Channel Capacity Visualization,telecoms
+sionna-visualizer,ofdm-simulation,Ofdm Simulation,telecoms
+sionna-visualizer,sionna-bridge,Sionna Bridge,telecoms
+sionna-visualizer,rest-api-backend,Rest Api Backend,telecoms
+sionna-visualizer,postgresql-datastore,Postgresql Datastore,telecoms
+sionna-visualizer,multi-service-compose-stack,Multi Service Compose Stack,telecoms
+sipp,sctp-sip-support,Sctp Sip Support,telecoms
+sipp,xml-scenario-execution,Xml Scenario Execution,telecoms
+sipp,call-flow-simulation,Call Flow Simulation,telecoms
+sipp,sip-traffic-generation,Sip Traffic Generation,telecoms
+sipp,traffic-generation,Traffic Generation,telecoms
+sipp,load-testing,Load Testing,telecoms
+sipp,rtp-media-simulation,Rtp Media Simulation,telecoms
+sipp,pcap-replay,Pcap Replay,telecoms
+sipp,sip-load-testing,Sip Load Testing,telecoms
+sipp,sip-protocol-conformance-testing,Sip Protocol Conformance Testing,telecoms
+sipp,tls-sip-support,Tls Sip Support,telecoms
+sonic-software-for-open-networking-in-the-cloud,virtual-switch-sonic-vs,Virtual Switch Sonic Vs,telecoms
+sonic-software-for-open-networking-in-the-cloud,network-operating-system,Network Operating System,telecoms
+sonic-software-for-open-networking-in-the-cloud,qos-management,Qos Management,telecoms
+sonic-software-for-open-networking-in-the-cloud,snmp-agent,Snmp Agent,telecoms
+sonic-software-for-open-networking-in-the-cloud,containerized-nos,Containerized Nos,telecoms
+sonic-software-for-open-networking-in-the-cloud,containerlab-integration,Containerlab Integration,telecoms
+sonic-software-for-open-networking-in-the-cloud,data-center-switching,Data Center Switching,telecoms
+sonic-software-for-open-networking-in-the-cloud,lacp-bonding,Lacp Bonding,telecoms
+sonic-software-for-open-networking-in-the-cloud,rdma-support,Rdma Support,telecoms
+sonic-software-for-open-networking-in-the-cloud,config-mutation,Config Mutation,telecoms
+sonic-software-for-open-networking-in-the-cloud,ospf-routing,Ospf Routing,telecoms
+sonic-software-for-open-networking-in-the-cloud,lldp-discovery,Lldp Discovery,telecoms
+sonic-software-for-open-networking-in-the-cloud,ecmp-load-balancing,Ecmp Load Balancing,telecoms
+sonic-software-for-open-networking-in-the-cloud,pfc-flow-control,Pfc Flow Control,telecoms
+sonic-software-for-open-networking-in-the-cloud,modular-docker-architecture,Modular Docker Architecture,telecoms
+sonic-software-for-open-networking-in-the-cloud,bgp-routing,Bgp Routing,telecoms
+sonic-software-for-open-networking-in-the-cloud,sflow-telemetry,Sflow Telemetry,telecoms
+telegraf,sflow-collection,Sflow Collection,telecoms
+telegraf,snmpv3-polling,Snmpv3 Polling,telecoms
+telegraf,plugin-driven-agent,Plugin Driven Agent,telecoms
+telegraf,ipfix-collection,Ipfix Collection,telecoms
+telegraf,prometheus-output,Prometheus Output,telecoms
+telegraf,mqtt-ingestion,Mqtt Ingestion,telecoms
+telegraf,snmp-polling,Snmp Polling,telecoms
+telegraf,metrics-aggregation,Metrics Aggregation,telecoms
+telegraf,metrics-pipeline,Metrics Pipeline,telecoms
+telegraf,gnmi-subscription,Gnmi Subscription,telecoms
+telegraf,streaming-telemetry,Streaming Telemetry,telecoms
+telegraf,system-stats-collection,System Stats Collection,telecoms
+telegraf,netflow-collection,Netflow Collection,telecoms
+telegraf,openconfig-telemetry,Openconfig Telemetry,telecoms
+telegraf,influxdb-output,Influxdb Output,telecoms
+towards5gs-helm,5g-core-upf,5G Core Upf,telecoms
+towards5gs-helm,5g-core-nrf,5G Core Nrf,telecoms
+towards5gs-helm,web-dashboard,Web Dashboard,telecoms
+towards5gs-helm,5g-core-udm,5G Core Udm,telecoms
+towards5gs-helm,helm-chart-deployment,Helm Chart Deployment,telecoms
+towards5gs-helm,5g-core-pcf,5G Core Pcf,telecoms
+towards5gs-helm,5g-core-udr,5G Core Udr,telecoms
+towards5gs-helm,ue-simulator,Ue Simulator,telecoms
+towards5gs-helm,pfcp-session-management,Pfcp Session Management,telecoms
+towards5gs-helm,5g-ran-simulator,5G Ran Simulator,telecoms
+towards5gs-helm,ngap-interface,Ngap Interface,telecoms
+towards5gs-helm,config-mutation,Config Mutation,telecoms
+towards5gs-helm,5g-core-amf,5G Core Amf,telecoms
+towards5gs-helm,5g-core-nssf,5G Core Nssf,telecoms
+towards5gs-helm,5g-core-smf,5G Core Smf,telecoms
+towards5gs-helm,sbi-rest-api,Sbi Rest Api,telecoms
+towards5gs-helm,cloud-native-5g,Cloud Native 5G,telecoms
+towards5gs-helm,gtp-u-dataplane,Gtp U Dataplane,telecoms
+towards5gs-helm,n3iwf-untrusted-access,N3Iwf Untrusted Access,telecoms
+towards5gs-helm,5g-core-ausf,5G Core Ausf,telecoms
+aether-sd-core-omec-project,5g-core-amf,5G Core Amf,telecoms
+aether-sd-core-omec-project,5g-core-smf,5G Core Smf,telecoms
+aether-sd-core-omec-project,5g-core-upf,5G Core Upf,telecoms
+aether-sd-core-omec-project,5g-core-ausf,5G Core Ausf,telecoms
+aether-sd-core-omec-project,5g-core-nrf,5G Core Nrf,telecoms
+aether-sd-core-omec-project,5g-core-pcf,5G Core Pcf,telecoms
+aether-sd-core-omec-project,5g-core-udm,5G Core Udm,telecoms
+aether-sd-core-omec-project,5g-core-udr,5G Core Udr,telecoms
+aether-sd-core-omec-project,ran-simulator-gnbsim,Ran Simulator Gnbsim,telecoms
+aether-sd-core-omec-project,sctp-load-balancer,Sctp Load Balancer,telecoms
+aether-sd-core-omec-project,nas-protocol-handling,Nas Protocol Handling,telecoms
+aether-sd-core-omec-project,ngap-protocol-handling,Ngap Protocol Handling,telecoms
+aether-sd-core-omec-project,pfcp-session-management,Pfcp Session Management,telecoms
+aether-sd-core-omec-project,gtp-u-tunneling,Gtp U Tunneling,telecoms
+aether-sd-core-omec-project,sbi-rest-api,Sbi Rest Api,telecoms
+aether-sd-core-omec-project,cloud-native-5g-core,Cloud Native 5G Core,telecoms
+anteon-ddosify,http-load-testing,Http Load Testing,telecoms
+anteon-ddosify,ebpf-monitoring,Ebpf Monitoring,telecoms
+anteon-ddosify,service-map-generation,Service Map Generation,telecoms
+anteon-ddosify,traffic-generation,Traffic Generation,telecoms
+anteon-ddosify,web-dashboard,Web Dashboard,telecoms
+anteon-ddosify,performance-testing,Performance Testing,telecoms
+anteon-ddosify,no-code-scenario-builder,No Code Scenario Builder,telecoms
+anteon-ddosify,kubernetes-observability,Kubernetes Observability,telecoms
+blockstream-satellite-api,rest-api-server,Rest Api Server,telecoms
+blockstream-satellite-api,message-queue-management,Message Queue Management,telecoms
+blockstream-satellite-api,lightning-payment-processing,Lightning Payment Processing,telecoms
+blockstream-satellite-api,satellite-broadcast-scheduling,Satellite Broadcast Scheduling,telecoms
+blockstream-satellite-api,transmitter-daemon,Transmitter Daemon,telecoms
+blockstream-satellite-api,redis-backed-queue,Redis Backed Queue,telecoms
+blockstream-satellite-api,bitcoin-lightning-charge,Bitcoin Lightning Charge,telecoms
+cgrates,diameter-agent,Diameter Agent,telecoms
+cgrates,radius-agent,Radius Agent,telecoms
+cgrates,online-charging-system,Online Charging System,telecoms
+cgrates,offline-charging-system,Offline Charging System,telecoms
+cgrates,cdr-logging,Cdr Logging,telecoms
+cgrates,rating-engine,Rating Engine,telecoms
+cgrates,fraud-detection,Fraud Detection,telecoms
+cgrates,json-rpc-api,Json Rpc Api,telecoms
+cgrates,billing-engine,Billing Engine,telecoms
+cgrates,session-management,Session Management,telecoms
+cisco-ios-xe-mdt,grpc-dial-out-receiver,Grpc Dial Out Receiver,telecoms
+cisco-ios-xe-mdt,yang-model-driven-telemetry,Yang Model Driven Telemetry,telecoms
+cisco-ios-xe-mdt,tls-grpc-endpoint,Tls Grpc Endpoint,telecoms
+cisco-ios-xe-mdt,ios-xe-mdt-lab,Ios Xe Mdt Lab,telecoms
+cisco-ios-xe-mdt,netconf-client,Netconf Client,telecoms
+cisco-ios-xe-mdt,telemetry-pipeline,Telemetry Pipeline,telecoms
+colosseum-near-rt-ric,near-rt-ric,Near Rt Ric,telecoms
+colosseum-near-rt-ric,e2ap-interface,E2Ap Interface,telecoms
+colosseum-near-rt-ric,rmr-message-routing,Rmr Message Routing,telecoms
+colosseum-near-rt-ric,e2term-endpoint,E2Term Endpoint,telecoms
+colosseum-near-rt-ric,e2mgr-service,E2Mgr Service,telecoms
+colosseum-near-rt-ric,xapp-hosting,Xapp Hosting,telecoms
+colosseum-near-rt-ric,sctp-transport,Sctp Transport,telecoms
+colosseum-near-rt-ric,o-ran-e2-simulation,O Ran E2 Simulation,telecoms
+colosseum-near-rt-ric,containerized-ric-stack,Containerized Ric Stack,telecoms
+core-common-open-research-emulator,network-emulation,Network Emulation,telecoms
+core-common-open-research-emulator,topology-design-gui,Topology Design Gui,telecoms
+core-common-open-research-emulator,python-scripting-api,Python Scripting Api,telecoms
+core-common-open-research-emulator,bgp-emulation,Bgp Emulation,telecoms
+core-common-open-research-emulator,ospf-emulation,Ospf Emulation,telecoms
+core-common-open-research-emulator,rip-emulation,Rip Emulation,telecoms
+core-common-open-research-emulator,olsr-emulation,Olsr Emulation,telecoms
+core-common-open-research-emulator,manet-emulation,Manet Emulation,telecoms
+core-common-open-research-emulator,wireless-rf-emulation,Wireless Rf Emulation,telecoms
+core-common-open-research-emulator,virtual-network-nodes,Virtual Network Nodes,telecoms
+core-common-open-research-emulator,automated-topology-creation,Automated Topology Creation,telecoms
+core-common-open-research-emulator,live-network-bridging,Live Network Bridging,telecoms
+coturn,turn-server,Turn Server,telecoms
+coturn,stun-server,Stun Server,telecoms
+coturn,ice-negotiation,Ice Negotiation,telecoms
+coturn,nat-traversal,Nat Traversal,telecoms
+coturn,webrtc-relay,Webrtc Relay,telecoms
+coturn,voip-signaling-support,Voip Signaling Support,telecoms
+coturn,tls-dtls-termination,Tls Dtls Termination,telecoms
+coturn,udp-tcp-relay,Udp Tcp Relay,telecoms
+drachtio-server,sip-server,Sip Server,telecoms
+drachtio-server,sip-call-processing,Sip Call Processing,telecoms
+drachtio-server,sip-proxy,Sip Proxy,telecoms
+drachtio-server,sip-registrar,Sip Registrar,telecoms
+drachtio-server,websocket-sip,Websocket Sip,telecoms
+drachtio-server,tls-sip,Tls Sip,telecoms
+drachtio-server,prometheus-metrics,Prometheus Metrics,telecoms
+drachtio-server,homer-integration,Homer Integration,telecoms
+drachtio-server,programmable-sip-engine,Programmable Sip Engine,telecoms
+drachtio-server,sofia-sip-stack,Sofia Sip Stack,telecoms
+eclipse-basyx,asset-administration-shell-server,Asset Administration Shell Server,telecoms
+eclipse-basyx,digital-twin-registry,Digital Twin Registry,telecoms
+eclipse-basyx,rest-api-server,Rest Api Server,telecoms
+eclipse-basyx,submodel-repository,Submodel Repository,telecoms
+eclipse-basyx,aas-repository,Aas Repository,telecoms
+eclipse-basyx,mqtt-broker-integration,Mqtt Broker Integration,telecoms
+eclipse-basyx,opcua-server,Opcua Server,telecoms
+eclipse-basyx,concept-description-repository,Concept Description Repository,telecoms
+eupf,5g-upf,5G Upf,telecoms
+eupf,pfcp-server,Pfcp Server,telecoms
+eupf,gtp-u-forwarding,Gtp U Forwarding,telecoms
+eupf,ebpf-packet-forwarding,Ebpf Packet Forwarding,telecoms
+eupf,n3-interface,N3 Interface,telecoms
+eupf,n4-interface,N4 Interface,telecoms
+eupf,n6-interface,N6 Interface,telecoms
+eupf,prometheus-metrics,Prometheus Metrics,telecoms
+eupf,far-processing,Far Processing,telecoms
+eupf,qer-processing,Qer Processing,telecoms
+eupf,sdf-filtering,Sdf Filtering,telecoms
+eupf,rest-api,Rest Api,telecoms
+fortio,traffic-generation,Traffic Generation,telecoms
+fortio,load-testing,Load Testing,telecoms
+fortio,http-server,Http Server,telecoms
+fortio,grpc-server,Grpc Server,telecoms
+fortio,echo-server,Echo Server,telecoms
+fortio,latency-measurement,Latency Measurement,telecoms
+fortio,web-dashboard,Web Dashboard,telecoms
+fortio,udp-traffic-generation,Udp Traffic Generation,telecoms
+fortio,tcp-traffic-generation,Tcp Traffic Generation,telecoms
+fortio,tls-support,Tls Support,telecoms
+fortio,rest-api,Rest Api,telecoms
+fortio,metrics-collection,Metrics Collection,telecoms
+freeswitch,sip-proxy,Sip Proxy,telecoms
+freeswitch,sip-registrar,Sip Registrar,telecoms
+freeswitch,pbx-server,Pbx Server,telecoms
+freeswitch,ivr-engine,Ivr Engine,telecoms
+freeswitch,conference-bridge,Conference Bridge,telecoms
+freeswitch,media-server,Media Server,telecoms
+freeswitch,webrtc-gateway,Webrtc Gateway,telecoms
+freeswitch,srtp-support,Srtp Support,telecoms
+freeswitch,rtp-relay,Rtp Relay,telecoms
+freeswitch,mrcp-client,Mrcp Client,telecoms
+freeswitch,voip-routing,Voip Routing,telecoms
+freeswitch,dialplan-engine,Dialplan Engine,telecoms
+freeswitch,fax-over-ip,Fax Over Ip,telecoms
+freeswitch,voicemail-server,Voicemail Server,telecoms
+freeswitch,call-recording,Call Recording,telecoms
+gnbsim-omec-sd-core,gnb-simulation,Gnb Simulation,telecoms
+gnbsim-omec-sd-core,ue-simulation,Ue Simulation,telecoms
+gnbsim-omec-sd-core,nas-5gs-signaling,Nas 5Gs Signaling,telecoms
+gnbsim-omec-sd-core,ngap-signaling,Ngap Signaling,telecoms
+gnbsim-omec-sd-core,5g-registration-procedures,5G Registration Procedures,telecoms
+gnbsim-omec-sd-core,pdu-session-establishment,Pdu Session Establishment,telecoms
+gnbsim-omec-sd-core,handover-simulation,Handover Simulation,telecoms
+gnbsim-omec-sd-core,gtp-u-user-plane,Gtp U User Plane,telecoms
+gnbsim-omec-sd-core,profile-based-test-execution,Profile Based Test Execution,telecoms
+gnbsim-omec-sd-core,icmp-user-plane-validation,Icmp User Plane Validation,telecoms
+gnbsim-omec-sd-core,5gc-control-plane-testing,5Gc Control Plane Testing,telecoms
+ground-station,satellite-tracking,Satellite Tracking,telecoms
+ground-station,sdr-waterfall-display,Sdr Waterfall Display,telecoms
+ground-station,signal-decoding,Signal Decoding,telecoms
+ground-station,tle-synchronization,Tle Synchronization,telecoms
+ground-station,antenna-rotator-control,Antenna Rotator Control,telecoms
+ground-station,multi-sdr-device-management,Multi Sdr Device Management,telecoms
+ground-station,ax25-decoding,Ax25 Decoding,telecoms
+ground-station,gmsk-demodulation,Gmsk Demodulation,telecoms
+ground-station,web-dashboard,Web Dashboard,telecoms
+ground-station,satellite-pass-scheduling,Satellite Pass Scheduling,telecoms
+k6,http-load-generation,Http Load Generation,telecoms
+k6,http2-load-generation,Http2 Load Generation,telecoms
+k6,websocket-load-generation,Websocket Load Generation,telecoms
+k6,grpc-load-generation,Grpc Load Generation,telecoms
+k6,browser-testing,Browser Testing,telecoms
+k6,javascript-scripting,Javascript Scripting,telecoms
+k6,performance-metrics,Performance Metrics,telecoms
+k6,traffic-generation,Traffic Generation,telecoms
+k6,synthetic-testing,Synthetic Testing,telecoms
+k6,grafana-integration,Grafana Integration,telecoms
+ktranslate-kentik,snmp-collection,Snmp Collection,telecoms
+ktranslate-kentik,netflow-ingestion,Netflow Ingestion,telecoms
+ktranslate-kentik,sflow-ingestion,Sflow Ingestion,telecoms
+ktranslate-kentik,ipfix-ingestion,Ipfix Ingestion,telecoms
+ktranslate-kentik,gnmi-telemetry-collection,Gnmi Telemetry Collection,telecoms
+ktranslate-kentik,multi-format-export,Multi Format Export,telecoms
+ktranslate-kentik,prometheus-metrics-export,Prometheus Metrics Export,telecoms
+ktranslate-kentik,influxdb-export,Influxdb Export,telecoms
+ktranslate-kentik,flow-format-translation,Flow Format Translation,telecoms
+ktranslate-kentik,network-telemetry-pipeline,Network Telemetry Pipeline,telecoms
+ligato-vpp-agent,vpp-control-plane,Vpp Control Plane,telecoms
+ligato-vpp-agent,grpc-server,Grpc Server,telecoms
+ligato-vpp-agent,rest-api,Rest Api,telecoms
+ligato-vpp-agent,etcd-integration,Etcd Integration,telecoms
+ligato-vpp-agent,kafka-integration,Kafka Integration,telecoms
+ligato-vpp-agent,vnf-management,Vnf Management,telecoms
+ligato-vpp-agent,interface-configuration,Interface Configuration,telecoms
+ligato-vpp-agent,l2-bridging,L2 Bridging,telecoms
+ligato-vpp-agent,l3-routing,L3 Routing,telecoms
+ligato-vpp-agent,acl-management,Acl Management,telecoms
+ligato-vpp-agent,nat-configuration,Nat Configuration,telecoms
+ligato-vpp-agent,ipsec-management,Ipsec Management,telecoms
+ligato-vpp-agent,cloud-native-agent,Cloud Native Agent,telecoms
+locust,load-testing,Load Testing,telecoms
+locust,traffic-generation,Traffic Generation,telecoms
+locust,http-client,Http Client,telecoms
+locust,distributed-testing,Distributed Testing,telecoms
+locust,web-dashboard,Web Dashboard,telecoms
+locust,custom-protocol-client,Custom Protocol Client,telecoms
+locust,python-test-scripting,Python Test Scripting,telecoms
+locust,real-time-metrics,Real Time Metrics,telecoms
+locust,performance-benchmarking,Performance Benchmarking,telecoms
+loxilb,ebpf-load-balancer,Ebpf Load Balancer,telecoms
+loxilb,bgp-routing,Bgp Routing,telecoms
+loxilb,sctp-support,Sctp Support,telecoms
+loxilb,gtp-tunneling,Gtp Tunneling,telecoms
+loxilb,kubernetes-load-balancer,Kubernetes Load Balancer,telecoms
+loxilb,5g-aware-networking,5G Aware Networking,telecoms
+loxilb,cloud-native-load-balancing,Cloud Native Load Balancing,telecoms
+loxilb,nat-gateway,Nat Gateway,telecoms
+loxilb,service-proxy,Service Proxy,telecoms
+netdata,real-time-monitoring,Real Time Monitoring,telecoms
+netdata,snmp-collection,Snmp Collection,telecoms
+netdata,metrics-visualization,Metrics Visualization,telecoms
+netdata,web-dashboard,Web Dashboard,telecoms
+netdata,statsd-server,Statsd Server,telecoms
+netdata,http-api,Http Api,telecoms
+netdata,system-metrics,System Metrics,telecoms
+netdata,network-metrics,Network Metrics,telecoms
+netdata,docker-monitoring,Docker Monitoring,telecoms
+netdata,alerting,Alerting,telecoms
+nfsen-ng-docker,netflow-collection,Netflow Collection,telecoms
+nfsen-ng-docker,netflow-visualization,Netflow Visualization,telecoms
+nfsen-ng-docker,web-dashboard,Web Dashboard,telecoms
+nfsen-ng-docker,multi-source-flow-analysis,Multi Source Flow Analysis,telecoms
+nfsen-ng-docker,ipfix-collection,Ipfix Collection,telecoms
+nfsen-ng-docker,sflow-collection,Sflow Collection,telecoms
+nfsen-ng-docker,nfdump-integration,Nfdump Integration,telecoms
+nfsen-ng-docker,flow-data-storage,Flow Data Storage,telecoms
+nornir,network-automation-framework,Network Automation Framework,telecoms
+nornir,multi-threaded-task-execution,Multi Threaded Task Execution,telecoms
+nornir,inventory-management,Inventory Management,telecoms
+nornir,netconf-client,Netconf Client,telecoms
+nornir,restconf-client,Restconf Client,telecoms
+nornir,ssh-cli-automation,Ssh Cli Automation,telecoms
+nornir,gnmi-client,Gnmi Client,telecoms
+nornir,multi-vendor-device-access,Multi Vendor Device Access,telecoms
+nornir,config-templating,Config Templating,telecoms
+nornir,plugin-ecosystem,Plugin Ecosystem,telecoms
+openconfig-gnmi-gateway,gnmi-gateway,Gnmi Gateway,telecoms
+openconfig-gnmi-gateway,gnmi-aggregator,Gnmi Aggregator,telecoms
+openconfig-gnmi-gateway,telemetry-collection,Telemetry Collection,telecoms
+openconfig-gnmi-gateway,prometheus-exporter,Prometheus Exporter,telecoms
+openconfig-gnmi-gateway,kafka-exporter,Kafka Exporter,telecoms
+openconfig-gnmi-gateway,openconfig-streaming,Openconfig Streaming,telecoms
+openconfig-gnmi-gateway,grpc-telemetry-proxy,Grpc Telemetry Proxy,telecoms
+openconfig-gnmi-gateway,high-availability-clustering,High Availability Clustering,telecoms
+oxidized,network-config-backup,Network Config Backup,telecoms
+oxidized,git-version-control,Git Version Control,telecoms
+oxidized,multi-vendor-device-support,Multi Vendor Device Support,telecoms
+oxidized,ssh-telnet-connectivity,Ssh Telnet Connectivity,telecoms
+oxidized,config-diff-tracking,Config Diff Tracking,telecoms
+oxidized,rest-api,Rest Api,telecoms
+oxidized,web-dashboard,Web Dashboard,telecoms
+oxidized,snmp-polling,Snmp Polling,telecoms
+panoptes,snmp-polling,Snmp Polling,telecoms
+panoptes,network-discovery,Network Discovery,telecoms
+panoptes,device-enrichment,Device Enrichment,telecoms
+panoptes,plugin-architecture,Plugin Architecture,telecoms
+panoptes,telemetry-collection,Telemetry Collection,telecoms
+panoptes,horizontal-scalability,Horizontal Scalability,telecoms
+panoptes,metrics-pipeline,Metrics Pipeline,telecoms
+predator,api-load-testing,Api Load Testing,telecoms
+predator,traffic-generation,Traffic Generation,telecoms
+predator,web-dashboard,Web Dashboard,telecoms
+predator,distributed-load-execution,Distributed Load Execution,telecoms
+predator,test-scheduling,Test Scheduling,telecoms
+predator,live-reporting,Live Reporting,telecoms
+predator,prometheus-metrics,Prometheus Metrics,telecoms
+predator,influxdb-integration,Influxdb Integration,telecoms
+predator,rest-api-management,Rest Api Management,telecoms
+predator,performance-regression-testing,Performance Regression Testing,telecoms
+prometheus-snmp-exporter,snmp-polling,Snmp Polling,telecoms
+prometheus-snmp-exporter,prometheus-metrics-export,Prometheus Metrics Export,telecoms
+prometheus-snmp-exporter,snmp-to-prometheus-translation,Snmp To Prometheus Translation,telecoms
+prometheus-snmp-exporter,mib-config-generator,Mib Config Generator,telecoms
+prometheus-snmp-exporter,snmpv3-auth,Snmpv3 Auth,telecoms
+prometheus-snmp-exporter,network-device-monitoring,Network Device Monitoring,telecoms
+prometheus-snmp-exporter,multi-device-polling,Multi Device Polling,telecoms
+pumba,chaos-engineering,Chaos Engineering,telecoms
+pumba,network-fault-injection,Network Fault Injection,telecoms
+pumba,latency-injection,Latency Injection,telecoms
+pumba,packet-loss-emulation,Packet Loss Emulation,telecoms
+pumba,packet-corruption-emulation,Packet Corruption Emulation,telecoms
+pumba,bandwidth-rate-limiting,Bandwidth Rate Limiting,telecoms
+pumba,container-kill,Container Kill,telecoms
+pumba,container-pause,Container Pause,telecoms
+pumba,container-stop,Container Stop,telecoms
+pumba,netem-emulation,Netem Emulation,telecoms
+pumba,docker-container-management,Docker Container Management,telecoms
+pyats-docker,netconf-client,Netconf Client,telecoms
+pyats-docker,restconf-client,Restconf Client,telecoms
+pyats-docker,gnmi-client,Gnmi Client,telecoms
+pyats-docker,cli-automation,Cli Automation,telecoms
+pyats-docker,snmp-client,Snmp Client,telecoms
+pyats-docker,network-test-automation,Network Test Automation,telecoms
+pyats-docker,genie-parsers,Genie Parsers,telecoms
+pyats-docker,yang-model-validation,Yang Model Validation,telecoms
+pyats-docker,multi-vendor-device-testing,Multi Vendor Device Testing,telecoms
+pyats-docker,test-reporting-dashboard,Test Reporting Dashboard,telecoms
+rf-swift,sdr-toolbox,Sdr Toolbox,telecoms
+rf-swift,gsm-analysis,Gsm Analysis,telecoms
+rf-swift,lte-analysis,Lte Analysis,telecoms
+rf-swift,5g-nr-analysis,5G Nr Analysis,telecoms
+rf-swift,bluetooth-analysis,Bluetooth Analysis,telecoms
+rf-swift,wifi-analysis,Wifi Analysis,telecoms
+rf-swift,zigbee-analysis,Zigbee Analysis,telecoms
+rf-swift,rf-signal-capture,Rf Signal Capture,telecoms
+rf-swift,container-images,Container Images,telecoms
+rf-swift,gpu-accelerated-sdr,Gpu Accelerated Sdr,telecoms
+rf-swift,usb-passthrough,Usb Passthrough,telecoms
+rf-swift,rfid-tools,Rfid Tools,telecoms
+rf-swift,automotive-rf-tools,Automotive Rf Tools,telecoms
+sigploiter-srslte-docker,lte-enb,Lte Enb,telecoms
+sigploiter-srslte-docker,lte-ue-simulation,Lte Ue Simulation,telecoms
+sigploiter-srslte-docker,lte-epc,Lte Epc,telecoms
+sigploiter-srslte-docker,s1ap-signaling,S1Ap Signaling,telecoms
+sigploiter-srslte-docker,gtp-u-tunneling,Gtp U Tunneling,telecoms
+sigploiter-srslte-docker,nas-emulation,Nas Emulation,telecoms
+sigploiter-srslte-docker,virtual-network-interface,Virtual Network Interface,telecoms
+sigploiter-srslte-docker,pre-configured-lte-stack,Pre Configured Lte Stack,telecoms
+sonata-mano-framework,nfv-mano-orchestration,Nfv Mano Orchestration,telecoms
+sonata-mano-framework,service-lifecycle-management,Service Lifecycle Management,telecoms
+sonata-mano-framework,vnf-onboarding,Vnf Onboarding,telecoms
+sonata-mano-framework,function-lifecycle-management,Function Lifecycle Management,telecoms
+sonata-mano-framework,service-registry,Service Registry,telecoms
+sonata-mano-framework,vnf-placement,Vnf Placement,telecoms
+sonata-mano-framework,amqp-message-bus,Amqp Message Bus,telecoms
+sonata-mano-framework,microservice-orchestration,Microservice Orchestration,telecoms
+sonata-mano-framework,network-service-descriptor-processing,Network Service Descriptor Processing,telecoms
+sonata-mano-framework,vnf-benchmarking,Vnf Benchmarking,telecoms
+stratum,p4runtime-server,P4Runtime Server,telecoms
+stratum,gnmi-server,Gnmi Server,telecoms
+stratum,gnoi-server,Gnoi Server,telecoms
+stratum,openconfig-datastore,Openconfig Datastore,telecoms
+stratum,bmv2-softswitch,Bmv2 Softswitch,telecoms
+stratum,mininet-topology,Mininet Topology,telecoms
+stratum,sdn-switch-os,Sdn Switch Os,telecoms
+stratum,hardware-abstraction-layer,Hardware Abstraction Layer,telecoms
+stratum,p4-programmable-dataplane,P4 Programmable Dataplane,telecoms
+synthetic-network,network-impairment-simulation,Network Impairment Simulation,telecoms
+synthetic-network,packet-loss-injection,Packet Loss Injection,telecoms
+synthetic-network,latency-injection,Latency Injection,telecoms
+synthetic-network,bandwidth-limiting,Bandwidth Limiting,telecoms
+synthetic-network,jitter-simulation,Jitter Simulation,telecoms
+synthetic-network,per-flow-qos-control,Per Flow Qos Control,telecoms
+synthetic-network,web-dashboard,Web Dashboard,telecoms
+synthetic-network,json-api,Json Api,telecoms
+synthetic-network,docker-network-emulation,Docker Network Emulation,telecoms
+synthetic-network,vnc-browser-testing,Vnc Browser Testing,telecoms
+sysrepo,yang-datastore,Yang Datastore,telecoms
+sysrepo,netconf-backend,Netconf Backend,telecoms
+sysrepo,restconf-backend,Restconf Backend,telecoms
+sysrepo,yang-model-validation,Yang Model Validation,telecoms
+sysrepo,configuration-datastore,Configuration Datastore,telecoms
+sysrepo,operational-state-store,Operational State Store,telecoms
+sysrepo,change-notifications,Change Notifications,telecoms
+sysrepo,subscription-management,Subscription Management,telecoms
+sysrepo,startup-running-candidate-datastores,Startup Running Candidate Datastores,telecoms
+telemetry-collector-cisco-nx-os,gnmi-dial-in,Gnmi Dial In,telecoms
+telemetry-collector-cisco-nx-os,grpc-dial-out,Grpc Dial Out,telecoms
+telemetry-collector-cisco-nx-os,mdt-collection,Mdt Collection,telecoms
+telemetry-collector-cisco-nx-os,telemetry-pipeline,Telemetry Pipeline,telecoms
+telemetry-collector-cisco-nx-os,influxdb-timeseries,Influxdb Timeseries,telecoms
+telemetry-collector-cisco-nx-os,grafana-dashboard,Grafana Dashboard,telecoms
+telemetry-collector-cisco-nx-os,telegraf-collector,Telegraf Collector,telecoms
+telemetry-collector-cisco-nx-os,nxos-telemetry,Nxos Telemetry,telecoms
+telemetry-collector-cisco-nx-os,multi-service-compose,Multi Service Compose,telecoms
+toxiproxy,network-fault-injection,Network Fault Injection,telecoms
+toxiproxy,tcp-proxy,Tcp Proxy,telecoms
+toxiproxy,latency-simulation,Latency Simulation,telecoms
+toxiproxy,bandwidth-throttling,Bandwidth Throttling,telecoms
+toxiproxy,connection-drop-simulation,Connection Drop Simulation,telecoms
+toxiproxy,chaos-testing,Chaos Testing,telecoms
+toxiproxy,rest-api,Rest Api,telecoms
+toxiproxy,toxic-injection,Toxic Injection,telecoms
+toxiproxy,resiliency-testing,Resiliency Testing,telecoms
+uptime-kuma,uptime-monitoring,Uptime Monitoring,telecoms
+uptime-kuma,http-health-checks,Http Health Checks,telecoms
+uptime-kuma,tcp-port-monitoring,Tcp Port Monitoring,telecoms
+uptime-kuma,dns-monitoring,Dns Monitoring,telecoms
+uptime-kuma,icmp-ping-monitoring,Icmp Ping Monitoring,telecoms
+uptime-kuma,websocket-monitoring,Websocket Monitoring,telecoms
+uptime-kuma,docker-container-monitoring,Docker Container Monitoring,telecoms
+uptime-kuma,alerting,Alerting,telecoms
+uptime-kuma,status-page,Status Page,telecoms
+uptime-kuma,web-dashboard,Web Dashboard,telecoms
+uptime-kuma,rest-api,Rest Api,telecoms
+vflow,ipfix-collector,Ipfix Collector,telecoms
+vflow,netflow-collector,Netflow Collector,telecoms
+vflow,sflow-collector,Sflow Collector,telecoms
+vflow,multi-protocol-flow-collection,Multi Protocol Flow Collection,telecoms
+vflow,kafka-output,Kafka Output,telecoms
+vflow,flow-data-processing,Flow Data Processing,telecoms
+vflow,udp-listener,Udp Listener,telecoms
+ydk-gen-yang-development-kit,yang-api-generation,Yang Api Generation,telecoms
+ydk-gen-yang-development-kit,netconf-client,Netconf Client,telecoms
+ydk-gen-yang-development-kit,restconf-client,Restconf Client,telecoms
+ydk-gen-yang-development-kit,gnmi-client,Gnmi Client,telecoms
+ydk-gen-yang-development-kit,yang-model-binding,Yang Model Binding,telecoms
+ydk-gen-yang-development-kit,sdk-codegen,Sdk Codegen,telecoms
+ydk-gen-yang-development-kit,opendaylight-integration,Opendaylight Integration,telecoms
+ydk-gen-yang-development-kit,multi-language-sdk,Multi Language Sdk,telecoms
+arista-ceos-lab-demo,netconf-server,Netconf Server,telecoms
+arista-ceos-lab-demo,gnmi-server,Gnmi Server,telecoms
+arista-ceos-lab-demo,rest-api-eapi,Rest Api Eapi,telecoms
+arista-ceos-lab-demo,ssh-cli-access,Ssh Cli Access,telecoms
+arista-ceos-lab-demo,containerized-network-os,Containerized Network Os,telecoms
+arista-ceos-lab-demo,arista-eos-emulation,Arista Eos Emulation,telecoms
+arista-ceos-lab-demo,yang-datastore,Yang Datastore,telecoms
+arista-ceos-lab-demo,network-automation-lab,Network Automation Lab,telecoms
+beszel,server-monitoring,Server Monitoring,telecoms
+beszel,docker-stats-collection,Docker Stats Collection,telecoms
+beszel,web-dashboard,Web Dashboard,telecoms
+beszel,historical-metrics,Historical Metrics,telecoms
+beszel,alerting,Alerting,telecoms
+beszel,ssh-agent-communication,Ssh Agent Communication,telecoms
+beszel,rest-api,Rest Api,telecoms
+blockstream-satellite,dvb-s2-receiver-config,Dvb S2 Receiver Config,telecoms
+blockstream-satellite,satellite-signal-monitoring,Satellite Signal Monitoring,telecoms
+blockstream-satellite,bitcoin-blockchain-sync,Bitcoin Blockchain Sync,telecoms
+blockstream-satellite,lightning-network-client,Lightning Network Client,telecoms
+blockstream-satellite,satellite-cli-tools,Satellite Cli Tools,telecoms
+blockstream-satellite,docker-containerized-receiver,Docker Containerized Receiver,telecoms
+cisco-yang-suite,yang-model-browser,Yang Model Browser,telecoms
+cisco-yang-suite,netconf-rpc-builder,Netconf Rpc Builder,telecoms
+cisco-yang-suite,restconf-client,Restconf Client,telecoms
+cisco-yang-suite,gnmi-client,Gnmi Client,telecoms
+cisco-yang-suite,yang-datastore,Yang Datastore,telecoms
+cisco-yang-suite,web-dashboard,Web Dashboard,telecoms
+cisco-yang-suite,rpc-testing,Rpc Testing,telecoms
+cisco-yang-suite,yang-validation,Yang Validation,telecoms
+cisco-yang-suite,multi-protocol-yang-testing,Multi Protocol Yang Testing,telecoms
+contiv-vpp,cni-plugin,Cni Plugin,telecoms
+contiv-vpp,vpp-vswitch,Vpp Vswitch,telecoms
+contiv-vpp,kubernetes-networking,Kubernetes Networking,telecoms
+contiv-vpp,vxlan-overlay,Vxlan Overlay,telecoms
+contiv-vpp,srv6-routing,Srv6 Routing,telecoms
+contiv-vpp,ipsec-tunneling,Ipsec Tunneling,telecoms
+contiv-vpp,memif-interface,Memif Interface,telecoms
+contiv-vpp,tap-interface,Tap Interface,telecoms
+contiv-vpp,network-policy-enforcement,Network Policy Enforcement,telecoms
+contiv-vpp,service-load-balancing,Service Load Balancing,telecoms
+docker-dummyran,lte-ue-simulation,Lte Ue Simulation,telecoms
+docker-dummyran,lte-enb-simulation,Lte Enb Simulation,telecoms
+docker-dummyran,ran-simulation,Ran Simulation,telecoms
+docker-dummyran,faux-rf-radio-simulation,Faux Rf Radio Simulation,telecoms
+docker-dummyran,s1ap-connectivity,S1Ap Connectivity,telecoms
+docker-dummyran,gtp-u-tunneling,Gtp U Tunneling,telecoms
+docker-dummyran,nas-signaling,Nas Signaling,telecoms
+docker-dummyran,srslte-ue,Srslte Ue,telecoms
+docker-dummyran,srslte-enb,Srslte Enb,telecoms
+docker-dummyran,epc-testing-client,Epc Testing Client,telecoms
+floodlight,openflow-controller,Openflow Controller,telecoms
+floodlight,sdn-controller,Sdn Controller,telecoms
+floodlight,rest-api,Rest Api,telecoms
+floodlight,web-dashboard,Web Dashboard,telecoms
+floodlight,flow-management,Flow Management,telecoms
+floodlight,network-topology-discovery,Network Topology Discovery,telecoms
+floodlight,openflow-1-0,Openflow 1 0,telecoms
+floodlight,openflow-1-3,Openflow 1 3,telecoms
+ghz,grpc-load-testing,Grpc Load Testing,telecoms
+ghz,grpc-benchmarking,Grpc Benchmarking,telecoms
+ghz,traffic-generation,Traffic Generation,telecoms
+ghz,tls-mtls-support,Tls Mtls Support,telecoms
+ghz,configurable-load-schedules,Configurable Load Schedules,telecoms
+ghz,metrics-reporting,Metrics Reporting,telecoms
+ghz,multiple-output-formats,Multiple Output Formats,telecoms
+gnmi-openconfig-reference,gnmi-server,Gnmi Server,telecoms
+gnmi-openconfig-reference,gnmi-collector,Gnmi Collector,telecoms
+gnmi-openconfig-reference,grpc-telemetry,Grpc Telemetry,telecoms
+gnmi-openconfig-reference,yang-datastore,Yang Datastore,telecoms
+gnmi-openconfig-reference,streaming-telemetry,Streaming Telemetry,telecoms
+gnmi-openconfig-reference,openconfig-reference-impl,Openconfig Reference Impl,telecoms
+gnmi-openconfig-reference,multi-target-aggregation,Multi Target Aggregation,telecoms
+goflow-cloudflare,netflow-collection,Netflow Collection,telecoms
+goflow-cloudflare,ipfix-collection,Ipfix Collection,telecoms
+goflow-cloudflare,sflow-collection,Sflow Collection,telecoms
+goflow-cloudflare,kafka-producer,Kafka Producer,telecoms
+goflow-cloudflare,protobuf-encoding,Protobuf Encoding,telecoms
+goflow-cloudflare,flow-telemetry-pipeline,Flow Telemetry Pipeline,telecoms
+goflow-cloudflare,high-throughput-collector,High Throughput Collector,telecoms
+gr-dvbs2rx,dvbs2-transmitter,Dvbs2 Transmitter,telecoms
+gr-dvbs2rx,dvbs2-receiver,Dvbs2 Receiver,telecoms
+gr-dvbs2rx,ldpc-fec-processing,Ldpc Fec Processing,telecoms
+gr-dvbs2rx,bch-fec-processing,Bch Fec Processing,telecoms
+gr-dvbs2rx,modcod-selection,Modcod Selection,telecoms
+gr-dvbs2rx,sdr-signal-processing,Sdr Signal Processing,telecoms
+gr-dvbs2rx,gnu-radio-oot-module,Gnu Radio Oot Module,telecoms
+gr-dvbs2rx,satellite-signal-reception,Satellite Signal Reception,telecoms
+gr-dvbs2rx,baseband-processing,Baseband Processing,telecoms
+iperf3-docker,bandwidth-measurement,Bandwidth Measurement,telecoms
+iperf3-docker,tcp-throughput-testing,Tcp Throughput Testing,telecoms
+iperf3-docker,udp-throughput-testing,Udp Throughput Testing,telecoms
+iperf3-docker,sctp-throughput-testing,Sctp Throughput Testing,telecoms
+iperf3-docker,iperf3-server,Iperf3 Server,telecoms
+iperf3-docker,traffic-generation,Traffic Generation,telecoms
+iperf3-docker,network-performance-testing,Network Performance Testing,telecoms
+libyang,yang-parser,Yang Parser,telecoms
+libyang,yang-validator,Yang Validator,telecoms
+libyang,yang-schema-compilation,Yang Schema Compilation,telecoms
+libyang,xml-data-validation,Xml Data Validation,telecoms
+libyang,json-data-validation,Json Data Validation,telecoms
+libyang,yin-conversion,Yin Conversion,telecoms
+libyang,yanglint-cli,Yanglint Cli,telecoms
+libyang,yang-instance-data-validation,Yang Instance Data Validation,telecoms
+maxinet,distributed-network-emulation,Distributed Network Emulation,telecoms
+maxinet,sdn-topology-emulation,Sdn Topology Emulation,telecoms
+maxinet,openflow-control-plane,Openflow Control Plane,telecoms
+maxinet,large-scale-network-topology,Large Scale Network Topology,telecoms
+maxinet,gre-tunnel-interconnect,Gre Tunnel Interconnect,telecoms
+maxinet,mininet-extension,Mininet Extension,telecoms
+maxinet,docker-host-emulation,Docker Host Emulation,telecoms
+mininet-wifi,wifi-network-emulation,Wifi Network Emulation,telecoms
+mininet-wifi,sdn-wireless-controller,Sdn Wireless Controller,telecoms
+mininet-wifi,openflow-dataplane,Openflow Dataplane,telecoms
+mininet-wifi,mobility-simulation,Mobility Simulation,telecoms
+mininet-wifi,802-11-emulation,802 11 Emulation,telecoms
+mininet-wifi,virtual-wifi-nodes,Virtual Wifi Nodes,telecoms
+mininet-wifi,network-topology-scripting,Network Topology Scripting,telecoms
+mininet-wifi,mininet-extension,Mininet Extension,telecoms
+nfdump,netflow-collection,Netflow Collection,telecoms
+nfdump,ipfix-collection,Ipfix Collection,telecoms
+nfdump,sflow-collection,Sflow Collection,telecoms
+nfdump,flow-data-analysis,Flow Data Analysis,telecoms
+nfdump,flow-data-processing,Flow Data Processing,telecoms
+nfdump,packet-capture,Packet Capture,telecoms
+nfdump,traffic-analytics,Traffic Analytics,telecoms
+nfdump,flow-export,Flow Export,telecoms
+o-ran-sc-smo-ves-collector,ves-collector,Ves Collector,telecoms
+o-ran-sc-smo-ves-collector,rest-api-endpoint,Rest Api Endpoint,telecoms
+o-ran-sc-smo-ves-collector,grafana-dashboard,Grafana Dashboard,telecoms
+o-ran-sc-smo-ves-collector,influxdb-persistence,Influxdb Persistence,telecoms
+o-ran-sc-smo-ves-collector,oran-event-streaming,Oran Event Streaming,telecoms
+o-ran-sc-smo-ves-collector,smo-monitoring,Smo Monitoring,telecoms
+oha,http-load-generation,Http Load Generation,telecoms
+oha,traffic-generation,Traffic Generation,telecoms
+oha,latency-measurement,Latency Measurement,telecoms
+oha,throughput-benchmarking,Throughput Benchmarking,telecoms
+oha,tui-dashboard,Tui Dashboard,telecoms
+oha,http3-support,Http3 Support,telecoms
+oha,rate-limiting,Rate Limiting,telecoms
+oha,real-time-metrics,Real Time Metrics,telecoms
+openstack-tacker,nfv-orchestration,Nfv Orchestration,telecoms
+openstack-tacker,vnf-manager,Vnf Manager,telecoms
+openstack-tacker,cnf-lifecycle-management,Cnf Lifecycle Management,telecoms
+openstack-tacker,etsi-mano-nfvo,Etsi Mano Nfvo,telecoms
+openstack-tacker,tosca-template-processing,Tosca Template Processing,telecoms
+openstack-tacker,vim-management,Vim Management,telecoms
+openstack-tacker,vnf-deployment,Vnf Deployment,telecoms
+openstack-tacker,nsd-management,Nsd Management,telecoms
+openstack-tacker,rest-api-server,Rest Api Server,telecoms
+p4-behavioral-model-bmv2,p4-software-switch,P4 Software Switch,telecoms
+p4-behavioral-model-bmv2,programmable-dataplane,Programmable Dataplane,telecoms
+p4-behavioral-model-bmv2,p4runtime-server,P4Runtime Server,telecoms
+p4-behavioral-model-bmv2,packet-processing-pipeline,Packet Processing Pipeline,telecoms
+p4-behavioral-model-bmv2,simple-switch-target,Simple Switch Target,telecoms
+p4-behavioral-model-bmv2,psa-switch-target,Psa Switch Target,telecoms
+p4-behavioral-model-bmv2,thrift-control-plane,Thrift Control Plane,telecoms
+p4-behavioral-model-bmv2,grpc-control-plane,Grpc Control Plane,telecoms
+polycube,ebpf-network-functions,Ebpf Network Functions,telecoms
+polycube,xdp-packet-processing,Xdp Packet Processing,telecoms
+polycube,kubernetes-cni-plugin,Kubernetes Cni Plugin,telecoms
+polycube,software-firewall,Software Firewall,telecoms
+polycube,nat-service,Nat Service,telecoms
+polycube,load-balancer,Load Balancer,telecoms
+polycube,virtual-router,Virtual Router,telecoms
+polycube,ddos-protection,Ddos Protection,telecoms
+polycube,network-function-framework,Network Function Framework,telecoms
+pyang,yang-validation,Yang Validation,telecoms
+pyang,yang-linting,Yang Linting,telecoms
+pyang,yang-to-dsdl,Yang To Dsdl,telecoms
+pyang,yang-tree-view,Yang Tree View,telecoms
+pyang,yang-code-generation,Yang Code Generation,telecoms
+pyang,yin-conversion,Yin Conversion,telecoms
+pyang,netconf-schema-validation,Netconf Schema Validation,telecoms
+pyang,restconf-schema-validation,Restconf Schema Validation,telecoms
+pyang,yang-uml-diagrams,Yang Uml Diagrams,telecoms
+rtpengine,rtp-media-proxy,Rtp Media Proxy,telecoms
+rtpengine,srtp-termination,Srtp Termination,telecoms
+rtpengine,dtls-srtp-negotiation,Dtls Srtp Negotiation,telecoms
+rtpengine,nat-traversal,Nat Traversal,telecoms
+rtpengine,rtp-transcoding,Rtp Transcoding,telecoms
+rtpengine,call-recording,Call Recording,telecoms
+rtpengine,rtcp-handling,Rtcp Handling,telecoms
+rtpengine,sip-media-plane,Sip Media Plane,telecoms
+ryu-sdn-framework,openflow-controller,Openflow Controller,telecoms
+ryu-sdn-framework,sdn-controller,Sdn Controller,telecoms
+ryu-sdn-framework,netconf-client,Netconf Client,telecoms
+ryu-sdn-framework,of-config-support,Of Config Support,telecoms
+ryu-sdn-framework,flow-table-management,Flow Table Management,telecoms
+ryu-sdn-framework,network-topology-discovery,Network Topology Discovery,telecoms
+ryu-sdn-framework,packet-in-processing,Packet In Processing,telecoms
+ryu-sdn-framework,rest-api,Rest Api,telecoms
+ryu-sdn-framework,python-sdn-api,Python Sdn Api,telecoms
+sd-ran-ran-simulator,ran-simulation,Ran Simulation,telecoms
+sd-ran-ran-simulator,e2ap-interface,E2Ap Interface,telecoms
+sd-ran-ran-simulator,oran-e2-node,Oran E2 Node,telecoms
+sd-ran-ran-simulator,cu-du-emulation,Cu Du Emulation,telecoms
+sd-ran-ran-simulator,cell-topology-model,Cell Topology Model,telecoms
+sd-ran-ran-simulator,grpc-api,Grpc Api,telecoms
+sd-ran-ran-simulator,dynamic-topology-control,Dynamic Topology Control,telecoms
+sd-ran-ran-simulator,ue-mobility-simulation,Ue Mobility Simulation,telecoms
+srsran-4g-docker,lte-enodeb,Lte Enodeb,telecoms
+srsran-4g-docker,lte-epc,Lte Epc,telecoms
+srsran-4g-docker,lte-ue-simulation,Lte Ue Simulation,telecoms
+srsran-4g-docker,multi-ue-support,Multi Ue Support,telecoms
+srsran-4g-docker,s1ap-stack,S1Ap Stack,telecoms
+srsran-4g-docker,gtp-u-tunneling,Gtp U Tunneling,telecoms
+srsran-4g-docker,nas-signaling,Nas Signaling,telecoms
+srsran-4g-docker,subscriber-database,Subscriber Database,telecoms
+upg-vpp,5g-upf,5G Upf,telecoms
+upg-vpp,gtp-u-gateway,Gtp U Gateway,telecoms
+upg-vpp,pfcp-agent,Pfcp Agent,telecoms
+upg-vpp,user-plane-processing,User Plane Processing,telecoms
+upg-vpp,packet-forwarding,Packet Forwarding,telecoms
+upg-vpp,vpp-dataplane,Vpp Dataplane,telecoms
+upg-vpp,gtp-tunnel-management,Gtp Tunnel Management,telecoms
+vegeta,http-load-testing,Http Load Testing,telecoms
+vegeta,constant-rate-traffic-generation,Constant Rate Traffic Generation,telecoms
+vegeta,latency-measurement,Latency Measurement,telecoms
+vegeta,throughput-benchmarking,Throughput Benchmarking,telecoms
+vegeta,http2-support,Http2 Support,telecoms
+vegeta,cli-tool,Cli Tool,telecoms
+vegeta,go-library,Go Library,telecoms
+gradiant-5g-images,5g-core-amf,5G Core Amf,telecoms
+gradiant-5g-images,5g-core-smf,5G Core Smf,telecoms
+gradiant-5g-images,5g-core-upf,5G Core Upf,telecoms
+gradiant-5g-images,5g-ran-gnb,5G Ran Gnb,telecoms
+gradiant-5g-images,cnf-container-images,Cnf Container Images,telecoms
+gradiant-5g-images,dockerfile-build-pipeline,Dockerfile Build Pipeline,telecoms
+gradiant-5g-images,cloud-native-network-functions,Cloud Native Network Functions,telecoms
+hey,http-load-generation,Http Load Generation,telecoms
+hey,http2-support,Http2 Support,telecoms
+hey,concurrent-traffic-generation,Concurrent Traffic Generation,telecoms
+hey,latency-measurement,Latency Measurement,telecoms
+hey,throughput-benchmarking,Throughput Benchmarking,telecoms
+intel-flexran,5g-phy-l1,5G Phy L1,telecoms
+intel-flexran,4g-phy-l1,4G Phy L1,telecoms
+intel-flexran,o-ran-fronthaul,O Ran Fronthaul,telecoms
+intel-flexran,fapi-interface,Fapi Interface,telecoms
+intel-flexran,baseband-processing,Baseband Processing,telecoms
+intel-flexran,o-du-low-integration,O Du Low Integration,telecoms
+intel-flexran,docker-image-build,Docker Image Build,telecoms
+ncclient,netconf-client,Netconf Client,telecoms
+ncclient,yang-rpc-execution,Yang Rpc Execution,telecoms
+ncclient,vendor-extension-support,Vendor Extension Support,telecoms
+ncclient,netconf-session-management,Netconf Session Management,telecoms
+ncclient,python-netconf-library,Python Netconf Library,telecoms
+netopeer-v1,netconf-server,Netconf Server,telecoms
+netopeer-v1,netconf-cli-client,Netconf Cli Client,telecoms
+netopeer-v1,yang-datastore,Yang Datastore,telecoms
+netopeer-v1,ssh-transport,Ssh Transport,telecoms
+netopeer-v1,netconf-1-0-support,Netconf 1 0 Support,telecoms
+netopeer-v1,netconf-1-1-support,Netconf 1 1 Support,telecoms
+unifyair-core,5g-core-amf,5G Core Amf,telecoms
+unifyair-core,nas-protocol-handling,Nas Protocol Handling,telecoms
+unifyair-core,ngap-protocol-handling,Ngap Protocol Handling,telecoms
+unifyair-core,sbi-rest-interface,Sbi Rest Interface,telecoms
+unifyair-core,rust-async-runtime,Rust Async Runtime,telecoms
+unifyair-core,docker-container-build,Docker Container Build,telecoms
+yang2swagger,yang-to-openapi-conversion,Yang To Openapi Conversion,telecoms
+yang2swagger,restconf-api-generation,Restconf Api Generation,telecoms
+yang2swagger,swagger-spec-generator,Swagger Spec Generator,telecoms
+yang2swagger,yang-model-parser,Yang Model Parser,telecoms
+yang2swagger,openapi-stub-generator,Openapi Stub Generator,telecoms
+yanger,yang-validation,Yang Validation,telecoms
+yanger,yang-to-yin-conversion,Yang To Yin Conversion,telecoms
+yanger,openapi-generation,Openapi Generation,telecoms
+yanger,swagger-plugin,Swagger Plugin,telecoms
+yanger,dsdl-schema-generation,Dsdl Schema Generation,telecoms
+yanger,yang-linting,Yang Linting,telecoms

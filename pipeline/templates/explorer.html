@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ topic }} — Explorer</title>
+<title>{{ title }} — Explorer</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -25,6 +25,8 @@
     border: 1px solid #30363d;
     border-radius: 12px;
     padding: 1rem;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
   }
   .sidebar-eyebrow {
     color: #58a6ff;
@@ -43,10 +45,17 @@
     line-height: 1.45;
     margin-bottom: 1rem;
   }
+  .sidebar-section-label {
+    color: #8b949e;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0.8rem 0 0.4rem;
+  }
   .domain-sidebar {
     display: flex;
     flex-direction: column;
-    gap: 0.55rem;
+    gap: 0.4rem;
   }
   .sidebar-domain-button {
     width: 100%;
@@ -54,14 +63,15 @@
     background: #161b22;
     color: #c9d1d9;
     border-radius: 10px;
-    padding: 0.7rem 0.8rem;
+    padding: 0.6rem 0.8rem;
     display: flex;
     justify-content: space-between;
     gap: 0.75rem;
     align-items: center;
     cursor: pointer;
-    transition: border-color 0.2s, background 0.2s, transform 0.2s;
+    transition: border-color 0.2s, background 0.2s, transform 0.1s;
     text-align: left;
+    font-size: 0.88rem;
   }
   .sidebar-domain-button:hover {
     border-color: hsl(var(--domain-hue, 210), 72%, 68%);
@@ -73,7 +83,7 @@
   }
   .sidebar-domain-label {
     text-transform: capitalize;
-    font-size: 0.92rem;
+    font-size: 0.88rem;
     line-height: 1.2;
   }
   .sidebar-domain-count {
@@ -81,11 +91,33 @@
     color: #8b949e;
     border-radius: 999px;
     padding: 0.15rem 0.55rem;
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     white-space: nowrap;
   }
+  .sub-domain-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .sub-domain-button {
+    width: 100%;
+    border: 1px solid transparent;
+    background: transparent;
+    color: #8b949e;
+    border-radius: 6px;
+    padding: 0.35rem 0.65rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.15s;
+    text-align: left;
+  }
+  .sub-domain-button:hover { color: #c9d1d9; background: rgba(255,255,255,0.04); }
+  .sub-domain-button.active { color: #58a6ff; background: rgba(88,166,255,0.08); border-color: rgba(88,166,255,0.2); }
   .main-panel { min-width: 0; }
-  h1 { color: #58a6ff; margin-bottom: 0.5rem; }
+  h1 { color: #58a6ff; margin-bottom: 0.5rem; font-size: 1.6rem; }
   .stats { color: #8b949e; margin-bottom: 1.5rem; }
   .controls { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
   .domain-type-mobile { display: none; }
@@ -102,7 +134,7 @@
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1rem; }
   .card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1.25rem; transition: border-color 0.2s; }
   .card:hover { border-color: #58a6ff; }
-  .card h3 { color: #58a6ff; font-size: 1rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
+  .card h3 { color: #58a6ff; font-size: 1rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
   .card h3 a { color: inherit; text-decoration: none; }
   .card h3 a:hover { text-decoration: underline; }
   .card p { color: #8b949e; font-size: 0.85rem; line-height: 1.4; margin-bottom: 0.75rem; }
@@ -110,14 +142,15 @@
   .meta span { background: #21262d; padding: 0.15rem 0.5rem; border-radius: 4px; }
   .score { color: #3fb950; font-weight: 600; }
   .tag { background: #1f3a5f; color: #58a6ff; padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.75rem; }
-  .domain-badge { padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; white-space: nowrap; }
+  .catalog-badge { padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; white-space: nowrap; }
+  .domain-badge { padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.02em; white-space: nowrap; opacity: 0.8; }
   .count { color: #8b949e; margin-bottom: 1rem; }
   .hidden { display: none; }
 
   @media (max-width: 980px) {
     body { padding: 1rem; }
     .page { grid-template-columns: 1fr; }
-    .sidebar { position: static; }
+    .sidebar { position: static; max-height: none; }
     .domain-sidebar {
       flex-direction: row;
       overflow-x: auto;
@@ -127,6 +160,8 @@
       min-width: max-content;
       width: auto;
     }
+    .sub-domain-list { flex-direction: row; overflow-x: auto; }
+    .sub-domain-button { min-width: max-content; width: auto; }
     .domain-type-mobile { display: block; }
     input[type="text"] { min-width: 0; width: 100%; }
   }
@@ -135,26 +170,28 @@
 <body>
 <div class="page">
   <aside class="sidebar">
-    <p class="sidebar-eyebrow">Domains</p>
-    <h2>Browse the catalog</h2>
-    <p class="sidebar-copy">Use the domain rail to jump between top-level catalog domains without losing the full search and sort controls.</p>
-    <div class="domain-sidebar" id="domain-sidebar"></div>
+    <p class="sidebar-eyebrow">Everything on Earth</p>
+    <h2>Explorer</h2>
+    <p class="sidebar-copy">{{ total }} open-source tools across {{ catalog_count }} domains. Pick a domain to drill down.</p>
+    <p class="sidebar-section-label">Domains</p>
+    <div class="domain-sidebar" id="catalog-sidebar"></div>
+    <div id="sub-domain-section" class="hidden">
+      <p class="sidebar-section-label">Sub-domains</p>
+      <div class="sub-domain-list" id="sub-domain-sidebar"></div>
+    </div>
   </aside>
 
   <main class="main-panel">
-    <h1>{{ topic }}</h1>
-    <p class="stats">{{ total }} repos across {{ domain_count }} domains</p>
+    <h1 id="heading">{{ title }}</h1>
+    <p class="stats" id="stats">{{ total }} repos across {{ catalog_count }} domains</p>
 
     <div class="controls">
       <input type="text" id="search" placeholder="Filter by name, description, or tag...">
       <div class="domain-type-mobile">
-        <select id="domain-type-filter">
+        <select id="catalog-filter-mobile">
           <option value="">All domains</option>
         </select>
       </div>
-      <select id="domain-filter">
-        <option value="">All sub-domains</option>
-      </select>
       <select id="sort-by">
         <option value="score">Sort by quality score</option>
         <option value="stars">Sort by stars</option>
@@ -170,6 +207,7 @@
 
 <script>
 const CATALOG = {{ catalog_json }};
+const TOTAL = CATALOG.length;
 
 function domainHue(name) {
   let hash = 0;
@@ -177,103 +215,137 @@ function domainHue(name) {
   return Math.abs(hash) % 360;
 }
 
-const domainTypeFilter = document.getElementById('domain-type-filter');
-const domainSidebar = document.getElementById('domain-sidebar');
-const domainTypes = [...new Set(CATALOG.map(e => e.domain).filter(Boolean))].sort();
-const domainCounts = CATALOG.reduce((counts, entry) => {
-  const key = entry.domain || 'unknown';
-  counts[key] = (counts[key] || 0) + 1;
-  return counts;
-}, {});
+// State
+let activeCatalog = '';
+let activeSubDomain = '';
 
-domainTypes.forEach(d => {
+// Build catalog domain index
+const catalogDomains = [...new Set(CATALOG.map(e => e._catalog))].sort();
+const catalogCounts = {};
+catalogDomains.forEach(c => { catalogCounts[c] = CATALOG.filter(e => e._catalog === c).length; });
+
+// Mobile select
+const mobileSelect = document.getElementById('catalog-filter-mobile');
+catalogDomains.forEach(c => {
   const opt = document.createElement('option');
-  opt.value = d;
-  opt.textContent = d;
-  domainTypeFilter.appendChild(opt);
+  opt.value = c;
+  opt.textContent = c.replace(/-/g, ' ');
+  mobileSelect.appendChild(opt);
 });
 
-function renderDomainSidebar(activeDomain) {
-  const items = [{ value: '', label: 'All domains', count: CATALOG.length }]
-    .concat(domainTypes.map(domain => ({ value: domain, label: domain, count: domainCounts[domain] || 0 })));
+function getSubDomains(catalogSlug) {
+  const entries = catalogSlug ? CATALOG.filter(e => e._catalog === catalogSlug) : CATALOG;
+  const counts = {};
+  entries.forEach(e => {
+    const domains = e.found_in_domains || [e.sub_domain];
+    domains.forEach(d => { if (d) counts[d] = (counts[d] || 0) + 1; });
+  });
+  return Object.entries(counts).sort((a, b) => b[1] - a[1]);
+}
 
-  domainSidebar.innerHTML = items.map(item => {
+function renderCatalogSidebar() {
+  const sidebar = document.getElementById('catalog-sidebar');
+  const items = [{ value: '', label: 'All domains', count: TOTAL }]
+    .concat(catalogDomains.map(c => ({ value: c, label: c.replace(/-/g, ' '), count: catalogCounts[c] })));
+
+  sidebar.innerHTML = items.map(item => {
     const hue = item.value ? domainHue(item.value) : 210;
-    const activeClass = item.value === activeDomain ? 'active' : '';
-    return `
-      <button
-        type="button"
-        class="sidebar-domain-button ${activeClass}"
-        data-domain="${item.value}"
-        style="--domain-hue:${hue}"
-      >
-        <span class="sidebar-domain-label">${item.label}</span>
-        <span class="sidebar-domain-count">${item.count}</span>
-      </button>
-    `;
+    const cls = item.value === activeCatalog ? 'active' : '';
+    return `<button type="button" class="sidebar-domain-button ${cls}" data-catalog="${item.value}" style="--domain-hue:${hue}">
+      <span class="sidebar-domain-label">${item.label}</span>
+      <span class="sidebar-domain-count">${item.count}</span>
+    </button>`;
   }).join('');
 
-  domainSidebar.querySelectorAll('.sidebar-domain-button').forEach(button => {
-    button.addEventListener('click', () => {
-      domainTypeFilter.value = button.dataset.domain;
+  sidebar.querySelectorAll('.sidebar-domain-button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeCatalog = btn.dataset.catalog;
+      activeSubDomain = '';
+      mobileSelect.value = activeCatalog;
       applyFilters();
     });
   });
 }
 
-const domainFilter = document.getElementById('domain-filter');
-const subDomains = [...new Set(CATALOG.flatMap(e => e.found_in_domains || [e.sub_domain]))].sort();
-subDomains.forEach(d => {
-  const opt = document.createElement('option');
-  opt.value = d;
-  opt.textContent = d;
-  domainFilter.appendChild(opt);
-});
+function renderSubDomainSidebar() {
+  const section = document.getElementById('sub-domain-section');
+  const sidebar = document.getElementById('sub-domain-sidebar');
+
+  if (!activeCatalog) {
+    section.classList.add('hidden');
+    return;
+  }
+
+  const subs = getSubDomains(activeCatalog);
+  if (subs.length === 0) {
+    section.classList.add('hidden');
+    return;
+  }
+
+  section.classList.remove('hidden');
+  const items = [{ value: '', label: 'All sub-domains', count: catalogCounts[activeCatalog] }]
+    .concat(subs.map(([name, count]) => ({ value: name, label: name, count })));
+
+  sidebar.innerHTML = items.map(item => {
+    const cls = item.value === activeSubDomain ? 'active' : '';
+    return `<button type="button" class="sub-domain-button ${cls}" data-sub="${item.value}">
+      <span>${item.label}</span>
+      <span class="sidebar-domain-count">${item.count}</span>
+    </button>`;
+  }).join('');
+
+  sidebar.querySelectorAll('.sub-domain-button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeSubDomain = btn.dataset.sub;
+      applyFilters();
+    });
+  });
+}
 
 function render(entries) {
   const grid = document.getElementById('grid');
   grid.innerHTML = entries.map(e => {
-    const hue = domainHue(e.domain || 'unknown');
-    const badgeBg = `hsla(${hue}, 60%, 25%, 0.8)`;
-    const badgeColor = `hsl(${hue}, 80%, 75%)`;
+    const catHue = domainHue(e._catalog || 'unknown');
+    const catBg = `hsla(${catHue}, 60%, 25%, 0.8)`;
+    const catColor = `hsl(${catHue}, 80%, 75%)`;
+    const domHue = domainHue(e.domain || e.sub_domain || 'unknown');
+    const domBg = `hsla(${domHue}, 45%, 20%, 0.6)`;
+    const domColor = `hsl(${domHue}, 60%, 70%)`;
+    const detailHref = `catalog/${e._catalog}/detail/${e.slug}.html`;
     return `
     <div class="card">
       <h3>
-        <a href="${e.repo_url}" target="_blank">${e.name}</a>
-        ${e.domain ? `<span class="domain-badge" style="background:${badgeBg};color:${badgeColor}">${e.domain}</span>` : ''}
+        <a href="${detailHref}">${e.name}</a>
+        <span class="catalog-badge" style="background:${catBg};color:${catColor}">${(e._catalog || '').replace(/-/g, ' ')}</span>
+        ${e.domain || e.sub_domain ? `<span class="domain-badge" style="background:${domBg};color:${domColor}">${e.domain || e.sub_domain}</span>` : ''}
       </h3>
-      <p>${e.summary || e.description}</p>
+      <p>${e.summary || e.description || ''}</p>
       <div class="meta">
-        <span class="score" style="color: ${e.quality_score >= 70 ? '#3fb950' : e.quality_score >= 40 ? '#d29922' : '#8b949e'}">${e.quality_score ?? e.score}</span>
-        ${e.discovery_score != null ? `<span>relevance ${e.discovery_score}/10</span>` : ''}
-        ${e.stars ? `<span>★ ${e.stars.toLocaleString()}</span>` : ''}
+        <span class="score" style="color: ${(e.quality_score ?? e.score ?? 0) >= 70 ? '#3fb950' : (e.quality_score ?? e.score ?? 0) >= 40 ? '#d29922' : '#8b949e'}">${e.quality_score ?? e.score ?? '—'}</span>
+        ${e.stars ? `<span>\u2605 ${e.stars.toLocaleString()}</span>` : ''}
         ${e.language ? `<span>${e.language}</span>` : ''}
         ${e.license ? `<span>${e.license}</span>` : ''}
       </div>
-      <div class="meta" style="margin-top:0.5rem">
-        ${(e.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}
-      </div>
-    </div>
-  `;
+      ${(e.tags || []).length ? `<div class="meta" style="margin-top:0.5rem">${e.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>` : ''}
+    </div>`;
   }).join('');
-  document.getElementById('count').textContent = `Showing ${entries.length} of ${CATALOG.length}`;
+  document.getElementById('count').textContent = `Showing ${entries.length} of ${TOTAL}`;
 }
 
 function applyFilters() {
   let filtered = [...CATALOG];
   const q = document.getElementById('search').value.toLowerCase();
-  const domainType = domainTypeFilter.value;
-  const subDomain = domainFilter.value;
   const sort = document.getElementById('sort-by').value;
 
+  if (activeCatalog) filtered = filtered.filter(e => e._catalog === activeCatalog);
+  if (activeSubDomain) filtered = filtered.filter(e =>
+    (e.found_in_domains || [e.sub_domain]).includes(activeSubDomain)
+  );
   if (q) filtered = filtered.filter(e =>
     e.name.toLowerCase().includes(q) ||
     (e.description || '').toLowerCase().includes(q) ||
-    (e.tags || []).some(t => t.includes(q))
-  );
-  if (domainType) filtered = filtered.filter(e => e.domain === domainType);
-  if (subDomain) filtered = filtered.filter(e =>
-    (e.found_in_domains || [e.sub_domain]).includes(subDomain)
+    (e.summary || '').toLowerCase().includes(q) ||
+    (e.tags || []).some(t => t.toLowerCase().includes(q))
   );
 
   if (sort === 'score') filtered.sort((a, b) => (b.quality_score ?? b.score ?? 0) - (a.quality_score ?? a.score ?? 0));
@@ -281,13 +353,25 @@ function applyFilters() {
   else if (sort === 'activity') filtered.sort((a, b) => (b.last_activity || '').localeCompare(a.last_activity || ''));
   else if (sort === 'name') filtered.sort((a, b) => a.name.localeCompare(b.name));
 
-  renderDomainSidebar(domainType);
+  // Update heading
+  const heading = document.getElementById('heading');
+  const stats = document.getElementById('stats');
+  if (activeCatalog) {
+    const label = activeCatalog.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    heading.textContent = label;
+    stats.textContent = `${catalogCounts[activeCatalog]} repos`;
+  } else {
+    heading.textContent = '{{ title }}';
+    stats.textContent = `${TOTAL} repos across ${catalogDomains.length} domains`;
+  }
+
+  renderCatalogSidebar();
+  renderSubDomainSidebar();
   render(filtered);
 }
 
 document.getElementById('search').addEventListener('input', applyFilters);
-domainTypeFilter.addEventListener('change', applyFilters);
-domainFilter.addEventListener('change', applyFilters);
+mobileSelect.addEventListener('change', () => { activeCatalog = mobileSelect.value; activeSubDomain = ''; applyFilters(); });
 document.getElementById('sort-by').addEventListener('change', applyFilters);
 applyFilters();
 </script>

@@ -76,6 +76,16 @@ def test_score_removes_empty_description():
     assert result[0]["name"] == "has-desc"
 
 
+def test_score_removes_null_description():
+    entries = [
+        {"repo_url": "https://github.com/a/b", "name": "null-desc", "description": None, "score": 5},
+        {"repo_url": "https://github.com/c/d", "name": "has-desc", "description": "A real tool", "score": 5},
+    ]
+    result, _ = run_score(entries)
+    assert len(result) == 1
+    assert result[0]["name"] == "has-desc"
+
+
 def test_score_attaches_quality_score():
     entries = [
         {"repo_url": "https://github.com/a/b", "name": "tool", "description": "A tool", "score": 8, "stars": 5000},
@@ -136,6 +146,31 @@ def test_finalize_produces_catalog_and_results(tmp_path):
     catalog = json.loads((tmp_path / "catalog.json").read_text())
     assert len(catalog) == 2
     assert catalog[0]["quality_score"] >= catalog[1]["quality_score"]
+
+
+def test_finalize_distribution_uses_primary_subdomain(tmp_path):
+    entries = [
+        {
+            "repo_url": "https://github.com/a/one", "name": "a/one", "description": "Tool One",
+            "sub_domain": "primary", "score": 9, "quality_score": 80.0, "discovery_score": 9,
+            "stars": 100, "language": "Python", "license": "MIT", "last_activity": "2025-01-01",
+            "tags": ["x"], "category": "Primary", "summary": "One", "found_in_domains": ["primary", "secondary"]
+        },
+        {
+            "repo_url": "https://github.com/b/two", "name": "b/two", "description": "Tool Two",
+            "sub_domain": "secondary", "score": 7, "quality_score": 60.0, "discovery_score": 7,
+            "stars": 80, "language": "Go", "license": "Apache-2.0", "last_activity": "2025-01-02",
+            "tags": ["y"], "category": "Secondary", "summary": "Two", "found_in_domains": ["secondary"]
+        },
+    ]
+    template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
+    run_finalize(entries, topic="Test Topic", output_dir=tmp_path, template_dir=template_dir)
+
+    content = (tmp_path / "RESULTS.md").read_text()
+    assert "| primary | 1 | 9.0 |" in content
+    assert "| secondary | 1 | 7.0 |" in content
+    assert "| Sub-domain | Repos | Avg Discovery Score |" in content
+    assert "See `explorer.html` to browse interactively." in content
 
 
 # --- Edge computation tests ---
@@ -216,19 +251,17 @@ def test_site_generates_landing(tmp_path):
     assert landing.exists()
     content = landing.read_text()
     assert "Everything on Earth" in content
-    assert "Test Domain" in content
+    assert "test-domain" in content
 
 
-def test_site_generates_graph_page(tmp_path):
+def test_site_generates_detail_dir(tmp_path):
     _make_catalog(tmp_path, "mydom", SAMPLE_ENTRIES)
     template_dir = Path(__file__).parent.parent / "pipeline" / "templates"
     run_site(tmp_path / "catalog", template_dir=template_dir)
 
-    graph = tmp_path / "catalog" / "mydom" / "index.html"
-    assert graph.exists()
-    content = graph.read_text()
-    assert "force-graph" in content
-    assert "EDGES" in content
+    detail_dir = tmp_path / "catalog" / "mydom" / "detail"
+    assert detail_dir.exists()
+    assert len(list(detail_dir.glob("*.html"))) == 2
 
 
 def test_site_generates_detail_pages(tmp_path):
@@ -276,5 +309,10 @@ def test_site_prefers_telecoms_over_legacy_telecom(tmp_path):
     run_site(tmp_path / "catalog", template_dir=template_dir)
 
     assert (tmp_path / "index.html").exists()
-    assert not (tmp_path / "catalog" / "telecom" / "index.html").exists()
-    assert (tmp_path / "catalog" / "telecoms" / "index.html").exists()
+    assert not (tmp_path / "catalog" / "telecom" / "detail").exists()
+    assert (tmp_path / "catalog" / "telecoms" / "detail").exists()
+
+
+# --- build_graph_data tests ---
+
+

@@ -21,7 +21,65 @@ from pathlib import Path
 
 from utils import load_catalog, slugify
 
-WAVE_SIZE = 15
+TIER_BATCH_SIZE = {1: 10, 2: 5, 3: 3}
+TIER_JUDGE_SCOPE = {1: 5, 2: 3, 3: 1}
+BOOTSTRAP_SIZE = 5
+
+
+def classify_tier(entry: dict) -> int:
+    """Classify a catalog entry into quality tiers based on stars.
+
+    Tier 1 (>500 stars): well-known, standard processing
+    Tier 2 (50-500 stars): mid-tier, extra writer exemplars
+    Tier 3 (<50 stars): obscure, deep research + strict validation
+    """
+    stars = entry.get("stars") or 0
+    if stars > 500:
+        return 1
+    if stars >= 50:
+        return 2
+    return 3
+
+
+def build_wave_manifest(entries: list[dict], wave_number: int, domain: str,
+                        total_entries: int, output_dir: Path) -> dict:
+    """Build wave-manifest.json with tier metadata and style anchors."""
+    slugs = []
+    for entry in entries:
+        tier = classify_tier(entry)
+        slugs.append({
+            "slug": entry["slug"],
+            "tier": tier,
+            "stars": entry.get("stars", 0),
+        })
+
+    style_anchors = _collect_style_anchors(output_dir, max_anchors=2)
+
+    return {
+        "wave": wave_number,
+        "domain": domain,
+        "total_entries": total_entries,
+        "slugs": slugs,
+        "batch_size": dict(TIER_BATCH_SIZE),
+        "judge_scope": dict(TIER_JUDGE_SCOPE),
+        "style_anchors": style_anchors,
+    }
+
+
+def _collect_style_anchors(output_dir: Path, max_anchors: int = 2) -> list[str]:
+    """Find approved capability.md files to use as style anchors."""
+    anchors = []
+    if not output_dir.exists():
+        return anchors
+    progress_path = output_dir / "wave-progress.json"
+    if not progress_path.exists():
+        return anchors
+    progress = json.loads(progress_path.read_text())
+    for slug in progress.get("completed", []):
+        cap_path = output_dir / slug / "capability.md"
+        if cap_path.exists() and len(anchors) < max_anchors:
+            anchors.append(str(cap_path))
+    return anchors
 
 
 def slug_dir(output_dir: Path, slug: str) -> Path:
@@ -73,7 +131,7 @@ def write_config(catalog_path: Path, output_dir: Path, total_entries: int) -> No
 
 def action_load(entries: list[dict], output_dir: Path, do_write_config: bool = False,
                 catalog_path: Path | None = None) -> None:
-    """Print catalog summary and initialize progress if needed."""
+    """Print catalog summary with tier distribution and initialize progress if needed."""
     if do_write_config and catalog_path:
         write_config(catalog_path, output_dir, len(entries))
 
@@ -81,13 +139,27 @@ def action_load(entries: list[dict], output_dir: Path, do_write_config: bool = F
     pending = get_pending(entries, progress)
     retries = get_retry_queue(progress)
 
+    tier_counts = {1: 0, 2: 0, 3: 0}
+    for e in entries:
+        tier_counts[classify_tier(e)] += 1
+
+    pending_by_tier = {1: 0, 2: 0, 3: 0}
+    for e in pending:
+        pending_by_tier[classify_tier(e)] += 1
+    estimated_waves = sum(
+        (pending_by_tier[t] + TIER_BATCH_SIZE[t] - 1) // TIER_BATCH_SIZE[t]
+        for t in [1, 2, 3]
+    )
+    estimated_waves += (len(retries) + TIER_BATCH_SIZE[2] - 1) // TIER_BATCH_SIZE[2]
+
     print(json.dumps({
         "total_entries": len(entries),
         "completed": len(progress["completed"]),
         "failed": len(progress.get("failed", {})),
         "pending": len(pending),
         "retry_queue": len(retries),
-        "waves_remaining": (len(pending) + len(retries) + WAVE_SIZE - 1) // WAVE_SIZE,
+        "waves_remaining": estimated_waves,
+        "tiers": {"t1": tier_counts[1], "t2": tier_counts[2], "t3": tier_counts[3]},
     }, indent=2))
 
 
@@ -100,16 +172,38 @@ def action_status(entries: list[dict], output_dir: Path) -> None:
         "completed": progress["completed"],
         "failed": progress.get("failed", {}),
         "in_progress": progress.get("in_progress", []),
-        "pending_slugs": [e["slug"] for e in pending[:WAVE_SIZE]],
+        "pending_slugs": [e["slug"] for e in pending[:TIER_BATCH_SIZE[1]]],
         "total_pending": len(pending),
     }, indent=2))
 
 
+def _infer_wave_number(progress: dict) -> int:
+    """Infer current wave number from completed count."""
+    completed = len(progress.get("completed", []))
+    return (completed // TIER_BATCH_SIZE[2]) + 1
+
+
+def _is_bootstrap_needed(output_dir: Path) -> bool:
+    """Check if this is the first wave (no approved outputs yet)."""
+    progress_path = output_dir / "wave-progress.json"
+    if not progress_path.exists():
+        return True
+    progress = json.loads(progress_path.read_text())
+    return len(progress.get("completed", [])) == 0
+
+
+def _infer_domain(entries: list[dict]) -> str:
+    """Infer domain name from catalog entries."""
+    if entries and "found_in_domains" in entries[0]:
+        return entries[0]["found_in_domains"][0]
+    return "unknown"
+
+
 def action_next_wave(entries: list[dict], output_dir: Path) -> None:
-    """Output the next wave of entries to process (retries first, then pending)."""
+    """Output the next wave of entries, tier-sorted with adaptive batch sizes."""
     progress = load_progress(output_dir)
 
-    # Recover stranded in_progress entries from a previous interrupted run
+    # Recover stranded in_progress entries
     stranded = progress.get("in_progress", [])
     if stranded:
         for slug in stranded:
@@ -124,15 +218,36 @@ def action_next_wave(entries: list[dict], output_dir: Path) -> None:
 
     # Retries get priority
     retry_entries = [e for e in entries if e["slug"] in retries]
-    for entry in retry_entries[:WAVE_SIZE]:
+    for entry in retry_entries:
         entry_with_feedback = dict(entry)
         entry_with_feedback["_retry_reason"] = progress["failed"][entry["slug"]]
         wave.append(entry_with_feedback)
 
-    # Fill remaining slots with pending
-    remaining = WAVE_SIZE - len(wave)
-    if remaining > 0:
-        wave.extend(pending[:remaining])
+    if not wave and not pending:
+        print(json.dumps({"done": True, "message": "All entries processed"}))
+        return
+
+    # Bootstrap mode: pick T1 entries first to create style anchors
+    bootstrap = _is_bootstrap_needed(output_dir)
+    if bootstrap and not wave:
+        t1 = [e for e in pending if classify_tier(e) == 1]
+        wave.extend(t1[:BOOTSTRAP_SIZE])
+        # If not enough T1, fill with T2
+        if len(wave) < BOOTSTRAP_SIZE:
+            t2 = [e for e in pending if classify_tier(e) == 2]
+            wave.extend(t2[:BOOTSTRAP_SIZE - len(wave)])
+    elif not wave:
+        # Normal mode: single-tier waves for judge coherence
+        tiered = {1: [], 2: [], 3: []}
+        for e in pending:
+            tiered[classify_tier(e)].append(e)
+
+        # Process T3 first (hardest), then T2, then T1
+        for tier in [3, 2, 1]:
+            if tiered[tier]:
+                batch_size = TIER_BATCH_SIZE[tier]
+                wave.extend(tiered[tier][:batch_size])
+                break
 
     if not wave:
         print(json.dumps({"done": True, "message": "All entries processed"}))
@@ -140,11 +255,18 @@ def action_next_wave(entries: list[dict], output_dir: Path) -> None:
 
     # Mark as in_progress
     progress["in_progress"] = [e["slug"] for e in wave]
-    # Remove retries from failed
     for e in wave:
         if e["slug"] in progress.get("failed", {}):
             del progress["failed"][e["slug"]]
     save_progress(output_dir, progress)
+
+    # Write wave manifest for hooks
+    entry_lookup = {e["slug"]: e for e in entries}
+    manifest_entries = [entry_lookup.get(e["slug"], e) for e in wave]
+    domain = _infer_domain(entries)
+    manifest = build_wave_manifest(manifest_entries, _infer_wave_number(progress),
+                                   domain, len(entries), output_dir)
+    (output_dir / "wave-manifest.json").write_text(json.dumps(manifest, indent=2))
 
     print(json.dumps(wave, indent=2))
 

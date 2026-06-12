@@ -9,10 +9,10 @@
 
 ## Distribution
 
-| Sub-domain | Repos | Avg Score |
-|-----------|-------|-----------|
+| Sub-domain | Repos | Avg Discovery Score |
+|-----------|-------|---------------------|
 {% for domain in domains %}
-| {{ domain.name }} | {{ domain.count }} | {{ domain.avg_score }} |
+| {{ domain.name }} | {{ domain.count }} | {{ domain.avg_discovery_score }} |
 {% endfor %}
 
 ---
@@ -37,4 +37,4 @@
 ## Full Catalog
 
 See `catalog.json` for the complete machine-readable dataset.
-See `../explorer.html` to browse interactively.
+See `explorer.html` to browse interactively.

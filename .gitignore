@@ -1,4 +1,5 @@
 # Runtime outputs
+.firecrawl/
 discovery/
 raw-discovery.json
 dedup.json
@@ -7,6 +8,11 @@ swarm-config.json
 map-capabilities-config.json
 massive-crawl-output/
 test-output/
+
+# Catalog build intermediates
+enrich-batch-*.json
+enriched-batch-*.json
+scored.json
 
 # Python
 __pycache__/

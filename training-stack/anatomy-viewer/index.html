@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D Anatomy Viewer</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: #0a0a0f;
+  color: #e2e8f0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+canvas { display: block; }
+
+.toolbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: rgba(15, 17, 23, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #2a2d3a;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.toolbar h1 { font-size: 1rem; font-weight: 700; }
+.toolbar .subtitle { color: #94a3b8; font-size: 0.8rem; margin-left: 0.75rem; }
+
+.controls { display: flex; gap: 0.5rem; align-items: center; }
+
+.ctrl-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #2a2d3a;
+  border-radius: 6px;
+  background: #1a1d27;
+  color: #e2e8f0;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.ctrl-btn:hover { border-color: #4f8cff; }
+.ctrl-btn.active { border-color: #4f8cff; background: #1e2a4a; }
+
+.sidebar {
+  position: fixed;
+  top: 52px; right: 0;
+  width: 320px;
+  height: calc(100vh - 52px);
+  background: rgba(15, 17, 23, 0.95);
+  backdrop-filter: blur(8px);
+  border-left: 1px solid #2a2d3a;
+  z-index: 90;
+  overflow-y: auto;
+  padding: 1rem;
+  transform: translateX(0);
+  transition: transform 0.25s ease;
+}
+
+.sidebar.closed { transform: translateX(100%); }
+
+.sidebar h3 {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  margin-top: 1rem;
+}
+
+.sidebar h3:first-child { margin-top: 0; }
+
+.trauma-card {
+  background: #111318;
+  border: 1px solid #2a2d3a;
+  border-radius: 8px;
+  padding: 0.85rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.trauma-card:hover { border-color: #4f8cff; }
+.trauma-card.active { border-color: #ff4444; background: #1a1118; }
+
+.trauma-card h4 { font-size: 0.85rem; margin-bottom: 0.3rem; }
+.trauma-card p { font-size: 0.75rem; color: #94a3b8; line-height: 1.5; }
+.trauma-card .tag {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-top: 0.4rem;
+}
+.tag.critical { background: #dc262633; color: #dc2626; }
+.tag.high { background: #eab30833; color: #eab308; }
+.tag.moderate { background: #4f8cff33; color: #4f8cff; }
+
+.info-panel {
+  position: fixed;
+  bottom: 1rem; left: 1rem;
+  background: rgba(15, 17, 23, 0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid #2a2d3a;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  z-index: 90;
+  max-width: 380px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.info-panel h3 { font-size: 1rem; margin-bottom: 0.5rem; }
+.info-panel .detail { color: #94a3b8; }
+.info-panel .trauma-note { color: #ff8888; margin-top: 0.5rem; }
+
+.help-text {
+  position: fixed;
+  bottom: 1rem; right: 1rem;
+  color: #94a3b8;
+  font-size: 0.7rem;
+  z-index: 90;
+  text-align: right;
+  line-height: 1.6;
+}
+
+.loading {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 200;
+}
+
+.loading h2 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+.loading p { color: #94a3b8; font-size: 0.85rem; }
+
+.spinner {
+  width: 40px; height: 40px;
+  border: 3px solid #2a2d3a;
+  border-top: 3px solid #4f8cff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.hidden { display: none !important; }
+
+.back-link { color: #4f8cff; text-decoration: none; font-size: 0.8rem; }
+
+.view-btns { display: flex; gap: 0.35rem; }
+.view-btn {
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #2a2d3a;
+  border-radius: 4px;
+  background: #1a1d27;
+  color: #94a3b8;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+.view-btn:hover { border-color: #4f8cff; color: #e2e8f0; }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <div style="display:flex;align-items:center">
+    <a href="/" class="back-link" style="margin-right:1rem">Portal</a>
+    <h1>3D Anatomy Viewer</h1>
+    <span class="subtitle">Trauma Reference</span>
+  </div>
+  <div class="controls">
+    <div class="view-btns">
+      <button class="view-btn" onclick="setView('front')">Front</button>
+      <button class="view-btn" onclick="setView('back')">Back</button>
+      <button class="view-btn" onclick="setView('side')">Side</button>
+      <button class="view-btn" onclick="setView('top')">Top</button>
+    </div>
+    <button class="ctrl-btn" onclick="resetView()">Reset</button>
+    <button class="ctrl-btn" onclick="toggleWireframe()">Wireframe</button>
+    <button class="ctrl-btn" onclick="toggleXray()">X-Ray</button>
+    <button class="ctrl-btn" onclick="toggleSidebar()">Reference</button>
+  </div>
+</div>
+
+<div class="loading" id="loadingScreen">
+  <div class="spinner"></div>
+  <h2>Loading Anatomy Model</h2>
+  <p id="loadingStatus">Downloading 3D model (11MB)...</p>
+</div>
+
+<div id="canvas-container"></div>
+
+<div class="sidebar" id="sidebar">
+  <h3>Trauma Quick Reference</h3>
+
+  <div class="trauma-card" onclick="selectTrauma(this, 'chest')">
+    <h4>Tension Pneumothorax</h4>
+    <p>Tracheal deviation, absent breath sounds, JVD, hypotension. Needle decompression: 2nd intercostal space, midclavicular line.</p>
+    <span class="tag critical">IMMEDIATE</span>
+  </div>
+
+  <div class="trauma-card" onclick="selectTrauma(this, 'chest')">
+    <h4>Cardiac Tamponade</h4>
+    <p>Beck's triad: hypotension, muffled heart sounds, JVD. Pericardiocentesis or thoracotomy required.</p>
+    <span class="tag critical">IMMEDIATE</span>
+  </div>
+
+  <div class="trauma-card" onclick="selectTrauma(this, 'abdomen')">
+    <h4>Splenic Rupture</h4>
+    <p>Left upper quadrant pain, Kehr's sign (referred left shoulder pain). FAST exam for free fluid. Splenectomy may be needed.</p>
+    <span class="tag critical">IMMEDIATE</span>
+  </div>
+
+  <div class="trauma-card" onclick="selectTrauma(this, 'legs')">
+    <h4>Crush Syndrome</h4>
+    <p>After prolonged compression (>1hr). Dark urine = myoglobinuria. Hyperkalemia risk = cardiac arrest. Aggressive IV fluids BEFORE release. Tourniquet if potassium uncontrolled.</p>
+    <span class="tag critical">IMMEDIATE</span>
+  </div>
+
+  <div class="trauma-card" onclick="selectTrauma(this, 'head')">
+    <h4>Traumatic Brain Injury</h4>
+    <p>GCS assessment: Eye (4) + Verbal (5) + Motor (6) = 15. GCS &lt;8 = severe, intubate. Cushing's triad: hypertension, bradycardia, irregular breathing = raised ICP.</p>
+    <span class="tag critical">IMMEDIATE</span>
+  </div>
+
+  <div class="trauma-card" onclick="selectTrauma(this, 'neck')">
+    <h4>Cervical Spine Injury</h4>
+    <p>Immobilize. Log roll only. Do NOT remove impaled objects. Assess motor/sensory in all 4 limbs. Priapism + flaccid paralysis = spinal shock.</p>
+    <span class="tag high">HIGH PRIORITY</span>
+  </div>
+
+  <div class="trauma-card" onclick="selectTrauma(this, 'legs')">
+    <h4>Femoral Artery Hemorrhage</h4>
+    <p>Inguinal region bleed. Tourniquet high and tight. Junctional hemorrhage (groin/axilla/neck) needs direct pressure + hemostatic agents.</p>
+    <span class="tag critical">IMMEDIATE</span>
+  </div>
+
+  <div class="trauma-card" onclick="selectTrauma(this, 'chest')">
+    <h4>Blast Lung Injury</h4>
+    <p>Primary blast wave. Hemoptysis, dyspnea, chest tightness. CXR: bilateral "butterfly" infiltrates. Avoid positive pressure ventilation if possible (risk of air embolism).</p>
+    <span class="tag high">HIGH PRIORITY</span>
+  </div>
+
+  <div class="trauma-card" onclick="selectTrauma(this, 'arms')">
+    <h4>Tourniquet Application</h4>
+    <p>2-3 inches above wound, NOT on joint. Mark time applied on forehead. Do NOT loosen in field. Effective time: up to 6 hours for limb survival.</p>
+    <span class="tag moderate">PROCEDURE</span>
+  </div>
+
+  <h3>FAST Exam Points</h3>
+  <div class="trauma-card" onclick="selectTrauma(this, 'abdomen')">
+    <h4>Focused Assessment with Sonography</h4>
+    <p>4 views: (1) RUQ - Morrison's pouch (2) LUQ - splenorenal (3) Suprapubic - bladder (4) Subxiphoid - pericardium. Free fluid = surgical abdomen.</p>
+    <span class="tag moderate">PROCEDURE</span>
+  </div>
+</div>
+
+<div class="info-panel" id="infoPanel">
+  <h3 id="infoTitle">3D Anatomy Reference</h3>
+  <div class="detail" id="infoDetail">
+    Drag to rotate. Scroll to zoom. Use the reference panel for trauma protocols. Click mesh parts to inspect.
+  </div>
+</div>
+
+<div class="help-text">
+  Drag: rotate | Scroll: zoom | Right-drag: pan
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.162.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.162.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+const container = document.getElementById('canvas-container');
+const loadingScreen = document.getElementById('loadingScreen');
+const loadingStatus = document.getElementById('loadingStatus');
+
+// Scene
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x0a0a0f);
+
+const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.01, 100);
+camera.position.set(0, 1.0, 3.0);
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.2;
+container.appendChild(renderer.domElement);
+
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.dampingFactor = 0.05;
+controls.target.set(0, 0.9, 0);
+controls.minDistance = 0.5;
+controls.maxDistance = 6;
+controls.update();
+
+// Lighting - studio setup
+const ambientLight = new THREE.AmbientLight(0x404060, 0.5);
+scene.add(ambientLight);
+
+const keyLight = new THREE.DirectionalLight(0xffffff, 1.2);
+keyLight.position.set(3, 5, 3);
+keyLight.castShadow = true;
+scene.add(keyLight);
+
+const fillLight = new THREE.DirectionalLight(0x8899bb, 0.4);
+fillLight.position.set(-3, 3, -1);
+scene.add(fillLight);
+
+const rimLight = new THREE.DirectionalLight(0xff8855, 0.3);
+rimLight.position.set(0, 2, -4);
+scene.add(rimLight);
+
+const bottomLight = new THREE.DirectionalLight(0x334466, 0.15);
+bottomLight.position.set(0, -2, 0);
+scene.add(bottomLight);
+
+// Ground
+const groundGeo = new THREE.CircleGeometry(5, 64);
+const groundMat = new THREE.MeshStandardMaterial({ color: 0x0d0d12, roughness: 0.95 });
+const ground = new THREE.Mesh(groundGeo, groundMat);
+ground.rotation.x = -Math.PI / 2;
+ground.receiveShadow = true;
+scene.add(ground);
+
+// Grid
+const grid = new THREE.GridHelper(6, 30, 0x1a1d27, 0x141620);
+scene.add(grid);
+
+// State
+let model = null;
+let wireframeMode = false;
+let xrayMode = false;
+let originalMaterials = new Map();
+
+// Load model
+const loader = new GLTFLoader();
+loader.load(
+  'human.glb',
+  (gltf) => {
+    model = gltf.scene;
+
+    // Center and scale model
+    const box = new THREE.Box3().setFromObject(model);
+    const size = box.getSize(new THREE.Vector3());
+    const center = box.getCenter(new THREE.Vector3());
+
+    // Scale to ~1.8m tall
+    const targetHeight = 1.8;
+    const scale = targetHeight / size.y;
+    model.scale.setScalar(scale);
+
+    // Recompute after scale
+    box.setFromObject(model);
+    const newCenter = box.getCenter(new THREE.Vector3());
+    model.position.x = -newCenter.x;
+    model.position.z = -newCenter.z;
+    model.position.y = -box.min.y;
+
+    // Store original materials and enhance them
+    model.traverse((child) => {
+      if (child.isMesh) {
+        child.castShadow = true;
+        child.receiveShadow = true;
+
+        if (child.material) {
+          const mats = Array.isArray(child.material) ? child.material : [child.material];
+          mats.forEach(mat => {
+            originalMaterials.set(mat.uuid, mat.clone());
+            mat.roughness = Math.max(mat.roughness || 0.5, 0.3);
+            mat.side = THREE.DoubleSide;
+          });
+        }
+      }
+    });
+
+    scene.add(model);
+
+    // Update camera target
+    const modelCenter = new THREE.Vector3();
+    new THREE.Box3().setFromObject(model).getCenter(modelCenter);
+    controls.target.copy(modelCenter);
+    camera.position.set(0, modelCenter.y, 2.5);
+    controls.update();
+
+    loadingScreen.classList.add('hidden');
+  },
+  (progress) => {
+    if (progress.total > 0) {
+      const pct = Math.round((progress.loaded / progress.total) * 100);
+      loadingStatus.textContent = `Loading model... ${pct}%`;
+    }
+  },
+  (error) => {
+    loadingStatus.textContent = `Error loading model. Check console.`;
+    console.error('GLB load error:', error);
+  }
+);
+
+// Raycaster
+const raycaster = new THREE.Raycaster();
+const mouse = new THREE.Vector2();
+let isDragging = false;
+let mouseDownPos = { x: 0, y: 0 };
+
+renderer.domElement.addEventListener('mousedown', (e) => {
+  isDragging = false;
+  mouseDownPos = { x: e.clientX, y: e.clientY };
+});
+
+renderer.domElement.addEventListener('mousemove', (e) => {
+  if (Math.abs(e.clientX - mouseDownPos.x) > 5 || Math.abs(e.clientY - mouseDownPos.y) > 5) {
+    isDragging = true;
+  }
+});
+
+renderer.domElement.addEventListener('click', (e) => {
+  if (isDragging || !model) return;
+
+  mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+  mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+
+  raycaster.setFromCamera(mouse, camera);
+  const intersects = raycaster.intersectObject(model, true);
+
+  if (intersects.length > 0) {
+    const hit = intersects[0];
+    const meshName = hit.object.name || 'unnamed';
+    const point = hit.point;
+
+    // Determine body region from Y position
+    const modelBox = new THREE.Box3().setFromObject(model);
+    const height = modelBox.max.y - modelBox.min.y;
+    const relY = (point.y - modelBox.min.y) / height;
+
+    let region = 'Body';
+    if (relY > 0.85) region = 'Head / Cranium';
+    else if (relY > 0.78) region = 'Neck / Cervical';
+    else if (relY > 0.55) region = 'Thorax / Chest';
+    else if (relY > 0.42) region = 'Abdomen';
+    else if (relY > 0.35) region = 'Pelvis';
+    else if (relY > 0.05) region = 'Lower Extremity';
+    else region = 'Foot';
+
+    // Check lateral
+    if (Math.abs(point.x) > 0.15 && relY > 0.55 && relY < 0.78) {
+      region = 'Upper Extremity / Arm';
+    }
+
+    document.getElementById('infoTitle').textContent = region;
+    document.getElementById('infoDetail').innerHTML = getRegionInfo(region);
+  }
+});
+
+function getRegionInfo(region) {
+  const info = {
+    'Head / Cranium': '<p>Houses the brain, protected by skull bones. Key landmarks: temporal bone (thin, vulnerable), mastoid process, orbital ridges.</p><p class="trauma-note"><strong>Trauma:</strong> TBI assessment via GCS. Battle\'s sign (mastoid bruising) = basilar skull fracture. CSF from ear/nose = dural tear.</p>',
+    'Neck / Cervical': '<p>Contains carotid arteries, jugular veins, trachea, esophagus, cervical spine (C1-C7). Zone I-III injury classification guides surgical approach.</p><p class="trauma-note"><strong>Trauma:</strong> Immobilize C-spine until cleared. Expanding hematoma = surgical emergency. Never probe neck wounds.</p>',
+    'Thorax / Chest': '<p>Ribcage protects heart and lungs. Key structures: sternum, 12 rib pairs, intercostal muscles, pleural membranes, mediastinum.</p><p class="trauma-note"><strong>Trauma:</strong> Flail chest (3+ ribs broken in 2+ places). Tension pneumothorax = needle decompress 2nd ICS MCL. Massive hemothorax = chest tube 5th ICS MAL.</p>',
+    'Abdomen': '<p>Contains liver (RUQ), spleen (LUQ), kidneys (retroperitoneal), stomach, intestines, major vessels (aorta, IVC).</p><p class="trauma-note"><strong>Trauma:</strong> FAST exam for free fluid. Rigid abdomen = peritonitis. Evisceration: moist sterile dressing, do NOT push organs back in.</p>',
+    'Pelvis': '<p>Ring structure connecting spine to lower limbs. Contains bladder, reproductive organs, major neurovascular bundles.</p><p class="trauma-note"><strong>Trauma:</strong> Pelvic fracture = massive hemorrhage risk (up to 3L). Bind with sheet at level of greater trochanters. Do NOT rock pelvis to test stability.</p>',
+    'Upper Extremity / Arm': '<p>Shoulder (glenohumeral), humerus, elbow, radius/ulna, wrist, hand. Brachial artery runs medially in upper arm.</p><p class="trauma-note"><strong>Trauma:</strong> Tourniquet 2-3 inches above wound. Check CMS (circulation, motor, sensation) distally. Compartment syndrome: pain out of proportion, pain with passive stretch.</p>',
+    'Lower Extremity': '<p>Femur (strongest bone), knee, tibia/fibula, ankle. Femoral artery/vein/nerve in femoral triangle (inguinal region).</p><p class="trauma-note"><strong>Trauma:</strong> Femur fracture = 1-1.5L blood loss. Traction splint for midshaft. Junctional tourniquet for inguinal hemorrhage. Crush syndrome after prolonged entrapment.</p>',
+    'Foot': '<p>26 bones, 33 joints. Calcaneus (heel), talus, metatarsals, phalanges. Dorsal pedis pulse = perfusion check.</p><p class="trauma-note"><strong>Trauma:</strong> Blast foot injuries common in IED/mine events. Check pedal pulses bilaterally. Compartment syndrome possible in foot.</p>',
+    'Body': '<p>Click on different body regions for trauma-relevant anatomy information.</p>'
+  };
+  return info[region] || info['Body'];
+}
+
+// Window resize
+window.addEventListener('resize', () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+
+// Animation
+function animate() {
+  requestAnimationFrame(animate);
+  controls.update();
+  renderer.render(scene, camera);
+}
+animate();
+
+// Global controls
+window.resetView = () => {
+  if (model) {
+    const center = new THREE.Vector3();
+    new THREE.Box3().setFromObject(model).getCenter(center);
+    camera.position.set(0, center.y, 2.5);
+    controls.target.copy(center);
+    controls.update();
+  }
+};
+
+window.setView = (view) => {
+  if (!model) return;
+  const center = new THREE.Vector3();
+  new THREE.Box3().setFromObject(model).getCenter(center);
+  const d = 2.5;
+  switch(view) {
+    case 'front': camera.position.set(0, center.y, d); break;
+    case 'back': camera.position.set(0, center.y, -d); break;
+    case 'side': camera.position.set(d, center.y, 0); break;
+    case 'top': camera.position.set(0, center.y + d, 0.01); break;
+  }
+  controls.target.copy(center);
+  controls.update();
+};
+
+window.toggleWireframe = () => {
+  wireframeMode = !wireframeMode;
+  if (model) {
+    model.traverse((child) => {
+      if (child.isMesh && child.material) {
+        const mats = Array.isArray(child.material) ? child.material : [child.material];
+        mats.forEach(mat => { mat.wireframe = wireframeMode; });
+      }
+    });
+  }
+};
+
+window.toggleXray = () => {
+  xrayMode = !xrayMode;
+  if (model) {
+    model.traverse((child) => {
+      if (child.isMesh && child.material) {
+        const mats = Array.isArray(child.material) ? child.material : [child.material];
+        mats.forEach(mat => {
+          mat.transparent = true;
+          mat.opacity = xrayMode ? 0.35 : 1.0;
+          mat.depthWrite = !xrayMode;
+        });
+      }
+    });
+  }
+};
+
+window.toggleSidebar = () => {
+  document.getElementById('sidebar').classList.toggle('closed');
+};
+
+window.selectTrauma = (el, region) => {
+  document.querySelectorAll('.trauma-card').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+
+  // Rotate camera to relevant region
+  if (!model) return;
+  const box = new THREE.Box3().setFromObject(model);
+  const h = box.max.y - box.min.y;
+
+  let targetY;
+  switch(region) {
+    case 'head': targetY = box.min.y + h * 0.9; break;
+    case 'neck': targetY = box.min.y + h * 0.8; break;
+    case 'chest': targetY = box.min.y + h * 0.65; break;
+    case 'abdomen': targetY = box.min.y + h * 0.48; break;
+    case 'arms': targetY = box.min.y + h * 0.6; break;
+    case 'legs': targetY = box.min.y + h * 0.25; break;
+    default: targetY = box.min.y + h * 0.5;
+  }
+
+  controls.target.set(0, targetY, 0);
+  camera.position.set(0, targetY, 2.0);
+  controls.update();
+};
+</script>
+</body>
+</html>

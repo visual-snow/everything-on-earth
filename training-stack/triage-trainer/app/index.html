@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>START Triage Trainer</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --red: #dc2626;
+  --yellow: #eab308;
+  --green: #16a34a;
+  --black: #1e1e1e;
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --border: #2a2d3a;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.header h1 { font-size: 1.25rem; font-weight: 700; }
+.header .subtitle { color: var(--muted); font-size: 0.85rem; }
+
+.stats {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.stats .stat-value { font-weight: 700; font-size: 1.1rem; }
+.stats .stat-label { color: var(--muted); font-size: 0.75rem; }
+
+.container { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
+
+/* Mode Selection */
+.mode-select {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.mode-btn {
+  flex: 1;
+  min-width: 200px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  cursor: pointer;
+  color: var(--text);
+  text-align: left;
+  transition: border-color 0.2s;
+}
+
+.mode-btn:hover { border-color: #4f8cff; }
+.mode-btn.active { border-color: #4f8cff; background: #1e2a4a; }
+.mode-btn h3 { margin-bottom: 0.35rem; font-size: 1rem; }
+.mode-btn p { color: var(--muted); font-size: 0.8rem; line-height: 1.4; }
+
+/* Casualty Card */
+.casualty-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.casualty-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.casualty-id { font-weight: 700; font-size: 1.1rem; }
+.casualty-timer { font-family: monospace; font-size: 1.25rem; color: var(--muted); }
+
+.casualty-scene {
+  background: #111318;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.vitals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.vital {
+  background: #111318;
+  border-radius: 8px;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.vital-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.vital-value { font-size: 1.1rem; font-weight: 700; margin-top: 0.25rem; }
+
+/* Triage Steps */
+.triage-step {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.step-question {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.step-hint {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.step-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.answer-btn {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.answer-btn:hover { border-color: #4f8cff; background: #1e2a4a; }
+.answer-btn.yes { border-color: var(--green); }
+.answer-btn.yes:hover { background: #0a3a1a; }
+.answer-btn.no { border-color: var(--red); }
+.answer-btn.no:hover { background: #3a0a0a; }
+
+/* Triage Result */
+.triage-result {
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.triage-result h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.triage-result p { font-size: 0.95rem; opacity: 0.9; }
+
+.triage-result.immediate { background: var(--red); color: white; }
+.triage-result.delayed { background: var(--yellow); color: #1e1e1e; }
+.triage-result.minor { background: var(--green); color: white; }
+.triage-result.expectant { background: var(--black); color: white; border: 2px solid #555; }
+
+.result-correct { font-size: 1.2rem; margin-top: 0.75rem; font-weight: 700; }
+.result-time { color: inherit; opacity: 0.8; }
+
+.next-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  background: #4f8cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.next-btn:hover { background: #3a7ae8; }
+
+/* Mass Casualty Progress */
+.mci-progress {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.mci-counts {
+  display: flex;
+  gap: 1rem;
+}
+
+.mci-count {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 700;
+}
+
+.mci-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.mci-dot.red { background: var(--red); }
+.mci-dot.yellow { background: var(--yellow); }
+.mci-dot.green { background: var(--green); }
+.mci-dot.black { background: var(--black); border: 1px solid #555; }
+
+/* Summary Screen */
+.summary {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.summary h2 { font-size: 1.3rem; margin-bottom: 1.5rem; }
+
+.summary-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.summary-stat {
+  background: #111318;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.summary-stat .val { font-size: 1.5rem; font-weight: 700; }
+.summary-stat .lbl { font-size: 0.75rem; color: var(--muted); margin-top: 0.25rem; }
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.history-table th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.history-table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.tag.immediate { background: var(--red); color: white; }
+.tag.delayed { background: var(--yellow); color: #1e1e1e; }
+.tag.minor { background: var(--green); color: white; }
+.tag.expectant { background: var(--black); color: white; border: 1px solid #555; }
+
+.hidden { display: none !important; }
+
+/* Flowchart Reference */
+.flowchart-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.flowchart-toggle:hover { border-color: #4f8cff; color: var(--text); }
+
+.flowchart-ref {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+  line-height: 1.8;
+}
+
+.flowchart-ref code {
+  background: #111318;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .header { flex-direction: column; align-items: flex-start; }
+  .stats { width: 100%; justify-content: space-between; }
+  .mode-btn { min-width: 100%; }
+  .vitals-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>START Triage Trainer</h1>
+    <div class="subtitle">Mass Casualty Triage Decision Training</div>
+  </div>
+  <div class="stats" id="headerStats">
+    <div><div class="stat-value" id="statCorrect">0</div><div class="stat-label">Correct</div></div>
+    <div><div class="stat-value" id="statTotal">0</div><div class="stat-label">Total</div></div>
+    <div><div class="stat-value" id="statAvgTime">--</div><div class="stat-label">Avg Time</div></div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Mode Selection -->
+  <div id="modeScreen">
+    <div class="mode-select">
+      <button class="mode-btn" onclick="startMode('practice')">
+        <h3>Practice Mode</h3>
+        <p>One casualty at a time. Walk through the START algorithm step by step. See correct answers and explanations.</p>
+      </button>
+      <button class="mode-btn" onclick="startMode('mci')">
+        <h3>Mass Casualty Drill</h3>
+        <p>20 casualties arriving in sequence. Triage as fast and accurately as you can. Scored on speed and accuracy.</p>
+      </button>
+    </div>
+    <button class="flowchart-toggle" onclick="toggleFlowchart()">Show START Algorithm Reference</button>
+    <div id="flowchartRef" class="flowchart-ref hidden">
+      <strong>START Triage Algorithm</strong><br><br>
+      <strong>Step 1:</strong> Can the patient walk? <code>YES -> MINOR (green)</code><br>
+      <strong>Step 2:</strong> Is the patient breathing? <code>NO -> reposition airway -> still no? -> EXPECTANT (black)</code><br>
+      <strong>Step 3:</strong> Respiratory rate? <code>> 30/min -> IMMEDIATE (red)</code><br>
+      <strong>Step 4:</strong> Perfusion check (capillary refill or radial pulse)? <code>CRT > 2s or no radial pulse -> IMMEDIATE (red)</code><br>
+      <strong>Step 5:</strong> Can follow simple commands? <code>NO -> IMMEDIATE (red)</code> | <code>YES -> DELAYED (yellow)</code>
+    </div>
+  </div>
+
+  <!-- MCI Progress Bar -->
+  <div id="mciProgress" class="mci-progress hidden">
+    <div>Casualty <strong id="mciCurrent">1</strong> of <strong id="mciTotal">20</strong></div>
+    <div class="mci-counts">
+      <div class="mci-count"><span class="mci-dot red"></span> <span id="mciRed">0</span></div>
+      <div class="mci-count"><span class="mci-dot yellow"></span> <span id="mciYellow">0</span></div>
+      <div class="mci-count"><span class="mci-dot green"></span> <span id="mciGreen">0</span></div>
+      <div class="mci-count"><span class="mci-dot black"></span> <span id="mciBlack">0</span></div>
+    </div>
+    <div class="casualty-timer" id="mciTimer">00:00</div>
+  </div>
+
+  <!-- Casualty Card -->
+  <div id="casualtyCard" class="hidden">
+    <div class="casualty-card">
+      <div class="casualty-header">
+        <div class="casualty-id" id="casualtyId"></div>
+        <div class="casualty-timer" id="casualtyTimer">0.0s</div>
+      </div>
+      <div class="casualty-scene" id="casualtyScene"></div>
+      <div class="vitals-grid" id="vitalsGrid"></div>
+    </div>
+
+    <!-- Triage Steps -->
+    <div id="triageSteps"></div>
+  </div>
+
+  <!-- Result -->
+  <div id="resultCard" class="hidden"></div>
+
+  <!-- Summary -->
+  <div id="summaryScreen" class="hidden"></div>
+</div>
+
+<script>
+const INJURIES = [
+  { type: 'blast', descs: [
+    'Found near collapsed building. Multiple shrapnel wounds to torso and extremities.',
+    'Caught in explosion. Tympanic membrane rupture, debris embedded in left thigh.',
+    'Building collapse victim. Covered in dust, bleeding from scalp laceration.',
+    'Blast wave exposure. Complaining of chest tightness, visible bruising on chest wall.',
+    'Explosive device nearby. Burns on face and hands, singed eyebrows.'
+  ]},
+  { type: 'crush', descs: [
+    'Trapped under concrete slab for 4 hours. Both legs pinned. Now extracted.',
+    'Pulled from rubble. Right arm crushed, swollen and discolored below elbow.',
+    'Building collapse. Pelvis compressed by fallen beam. Extracted 2 hours ago.',
+    'Found in collapsed basement. Torso was compressed by debris. Free now.',
+    'Lower extremities trapped under masonry for unknown duration. Just freed.'
+  ]},
+  { type: 'penetrating', descs: [
+    'Projectile wound to right chest. Small entry wound, no exit wound visible.',
+    'Metal fragment lodged in left abdomen. Entry wound 3cm, actively bleeding.',
+    'Glass shrapnel to neck. Puncture wound left lateral neck, oozing blood.',
+    'Penetrating injury to right thigh. Profuse bleeding controlled with direct pressure.',
+    'Multiple small fragment wounds across back and buttocks from nearby blast.'
+  ]},
+  { type: 'burn', descs: [
+    'Thermal burns to 30% BSA including face, chest, and both arms.',
+    'Flash burn from gas explosion. Superficial burns to exposed skin areas.',
+    'Deep partial-thickness burns to both hands and forearms. In severe pain.',
+    'Full-thickness burns to left leg. Circumferential burn to left calf.',
+    'Inhalation injury suspected. Was in enclosed space with fire. Soot in nostrils.'
+  ]},
+  { type: 'amputation', descs: [
+    'Traumatic amputation of left hand at wrist. Tourniquet applied by bystander.',
+    'Partial amputation of right foot. Mangled tissue, bone exposed.',
+    'Blast caused traumatic amputation below left knee. Significant blood loss.',
+    'Right index and middle fingers amputated. Bleeding controlled.',
+    'Traumatic above-knee amputation of right leg from structural collapse.'
+  ]},
+  { type: 'head', descs: [
+    'Struck by falling debris on head. Large scalp avulsion, skull visible.',
+    'Found unconscious after blast. No visible injury except bruise behind ear.',
+    'Open skull fracture from blunt impact. Brain matter visible.',
+    'Concussive blast injury. Patient confused, repeatedly asking same questions.',
+    'Facial trauma from flying debris. Bilateral periorbital ecchymosis, CSF from nose.'
+  ]}
+];
+
+const AGES = ['8', '12', '15', '19', '22', '25', '28', '32', '35', '40', '45', '50', '55', '60', '65', '70', '75', '80'];
+const GENDERS = ['Male', 'Female'];
+
+function generateCasualty(index) {
+  const injury = INJURIES[Math.floor(Math.random() * INJURIES.length)];
+  const desc = injury.descs[Math.floor(Math.random() * injury.descs.length)];
+  const age = AGES[Math.floor(Math.random() * AGES.length)];
+  const gender = GENDERS[Math.floor(Math.random() * GENDERS.length)];
+
+  // Determine correct triage category and generate matching vitals
+  const roll = Math.random();
+  let category, vitals;
+
+  if (roll < 0.30) {
+    // IMMEDIATE
+    category = 'immediate';
+    vitals = generateImmediateVitals();
+  } else if (roll < 0.55) {
+    // DELAYED
+    category = 'delayed';
+    vitals = generateDelayedVitals();
+  } else if (roll < 0.75) {
+    // MINOR
+    category = 'minor';
+    vitals = generateMinorVitals();
+  } else {
+    // EXPECTANT
+    category = 'expectant';
+    vitals = generateExpectantVitals();
+  }
+
+  return {
+    id: `Casualty #${index + 1}`,
+    age, gender,
+    injuryType: injury.type,
+    description: desc,
+    category,
+    vitals
+  };
+}
+
+function generateImmediateVitals() {
+  const variant = Math.floor(Math.random() * 3);
+  if (variant === 0) {
+    // High respiratory rate
+    return {
+      walking: false, breathing: true,
+      rr: 32 + Math.floor(Math.random() * 10),
+      crFill: (1.0 + Math.random() * 1.5).toFixed(1),
+      radialPulse: true,
+      followsCommands: true,
+      gcs: 13 + Math.floor(Math.random() * 2),
+      hr: 100 + Math.floor(Math.random() * 30),
+      bp: `${80 + Math.floor(Math.random() * 20)}/${50 + Math.floor(Math.random() * 15)}`,
+      spo2: 88 + Math.floor(Math.random() * 6)
+    };
+  } else if (variant === 1) {
+    // Poor perfusion
+    return {
+      walking: false, breathing: true,
+      rr: 18 + Math.floor(Math.random() * 10),
+      crFill: (2.5 + Math.random() * 2.0).toFixed(1),
+      radialPulse: false,
+      followsCommands: true,
+      gcs: 12 + Math.floor(Math.random() * 3),
+      hr: 120 + Math.floor(Math.random() * 20),
+      bp: `${60 + Math.floor(Math.random() * 15)}/${35 + Math.floor(Math.random() * 10)}`,
+      spo2: 85 + Math.floor(Math.random() * 8)
+    };
+  } else {
+    // Cannot follow commands
+    return {
+      walking: false, breathing: true,
+      rr: 14 + Math.floor(Math.random() * 12),
+      crFill: (1.0 + Math.random() * 1.5).toFixed(1),
+      radialPulse: true,
+      followsCommands: false,
+      gcs: 3 + Math.floor(Math.random() * 6),
+      hr: 90 + Math.floor(Math.random() * 40),
+      bp: `${90 + Math.floor(Math.random() * 30)}/${55 + Math.floor(Math.random() * 20)}`,
+      spo2: 80 + Math.floor(Math.random() * 12)
+    };
+  }
+}
+
+function generateDelayedVitals() {
+  return {
+    walking: false, breathing: true,
+    rr: 14 + Math.floor(Math.random() * 16),
+    crFill: (0.8 + Math.random() * 1.0).toFixed(1),
+    radialPulse: true,
+    followsCommands: true,
+    gcs: 14 + Math.floor(Math.random() * 2),
+    hr: 70 + Math.floor(Math.random() * 30),
+    bp: `${110 + Math.floor(Math.random() * 20)}/${65 + Math.floor(Math.random() * 15)}`,
+    spo2: 94 + Math.floor(Math.random() * 5)
+  };
+}
+
+function generateMinorVitals() {
+  return {
+    walking: true, breathing: true,
+    rr: 12 + Math.floor(Math.random() * 8),
+    crFill: (0.8 + Math.random() * 0.8).toFixed(1),
+    radialPulse: true,
+    followsCommands: true,
+    gcs: 15,
+    hr: 65 + Math.floor(Math.random() * 25),
+    bp: `${115 + Math.floor(Math.random() * 20)}/${70 + Math.floor(Math.random() * 10)}`,
+    spo2: 96 + Math.floor(Math.random() * 4)
+  };
+}
+
+function generateExpectantVitals() {
+  const variant = Math.random() < 0.5;
+  if (variant) {
+    // Not breathing even after airway repositioning
+    return {
+      walking: false, breathing: false,
+      breathingAfterReposition: false,
+      rr: 0,
+      crFill: 'N/A',
+      radialPulse: false,
+      followsCommands: false,
+      gcs: 3,
+      hr: Math.random() < 0.5 ? 0 : 20 + Math.floor(Math.random() * 15),
+      bp: Math.random() < 0.5 ? '0/0' : `${40 + Math.floor(Math.random() * 15)}/20`,
+      spo2: Math.floor(Math.random() * 50)
+    };
+  } else {
+    return {
+      walking: false, breathing: false,
+      breathingAfterReposition: false,
+      rr: 0,
+      crFill: 'N/A',
+      radialPulse: false,
+      followsCommands: false,
+      gcs: 3,
+      hr: 0,
+      bp: '0/0',
+      spo2: 0
+    };
+  }
+}
+
+// State
+let mode = null;
+let currentCasualty = null;
+let currentStep = 0;
+let casualtyStartTime = 0;
+let mciStartTime = 0;
+let mciTimerInterval = null;
+let casualtyTimerInterval = null;
+let casualtyCount = 0;
+let results = [];
+let userPath = [];
+const MCI_TOTAL = 20;
+
+// START triage steps
+const STEPS = [
+  {
+    question: 'Can the patient WALK?',
+    hint: 'Ask or observe: can they stand and move on their own?',
+    yesLabel: 'Yes, walking',
+    noLabel: 'No, cannot walk',
+    evaluate: (casualty, answer) => {
+      if (answer === 'yes') return { category: 'minor', done: true };
+      return { done: false };
+    }
+  },
+  {
+    question: 'Is the patient BREATHING?',
+    hint: 'Look, listen, feel for breathing. Check for chest rise.',
+    yesLabel: 'Yes, breathing',
+    noLabel: 'Not breathing',
+    evaluate: (casualty, answer) => {
+      if (answer === 'no') return { done: false, subStep: 'reposition' };
+      return { done: false };
+    }
+  },
+  {
+    question: 'Reposition the airway. Is the patient breathing NOW?',
+    hint: 'Head-tilt chin-lift or jaw thrust. Check again.',
+    yesLabel: 'Yes, now breathing',
+    noLabel: 'Still not breathing',
+    isSubStep: true,
+    subStepOf: 'reposition',
+    evaluate: (casualty, answer) => {
+      if (answer === 'no') return { category: 'expectant', done: true };
+      return { done: false };
+    }
+  },
+  {
+    question: 'What is the RESPIRATORY RATE?',
+    hint: 'Count breaths for 15 seconds, multiply by 4. Is it over 30?',
+    yesLabel: 'Over 30/min',
+    noLabel: '30 or under',
+    evaluate: (casualty, answer) => {
+      if (answer === 'yes') return { category: 'immediate', done: true };
+      return { done: false };
+    }
+  },
+  {
+    question: 'Check PERFUSION: capillary refill time OR radial pulse?',
+    hint: 'Press nail bed for 2 seconds, release. CRT > 2s or absent radial pulse = poor perfusion.',
+    yesLabel: 'Good perfusion (CRT < 2s, pulse present)',
+    noLabel: 'Poor perfusion (CRT > 2s or no radial pulse)',
+    evaluate: (casualty, answer) => {
+      if (answer === 'no') return { category: 'immediate', done: true };
+      return { done: false };
+    }
+  },
+  {
+    question: 'Can the patient follow SIMPLE COMMANDS?',
+    hint: '"Squeeze my hand." "Open your eyes." Can they obey?',
+    yesLabel: 'Yes, follows commands',
+    noLabel: 'No, does not follow commands',
+    evaluate: (casualty, answer) => {
+      if (answer === 'no') return { category: 'immediate', done: true };
+      return { category: 'delayed', done: true };
+    }
+  }
+];
+
+function getCorrectPath(casualty) {
+  const v = casualty.vitals;
+  let path = [];
+
+  // Step 0: Walking?
+  if (v.walking) {
+    path.push({ step: 0, answer: 'yes', category: 'minor' });
+    return path;
+  }
+  path.push({ step: 0, answer: 'no' });
+
+  // Step 1: Breathing?
+  if (v.breathing) {
+    path.push({ step: 1, answer: 'yes' });
+  } else {
+    path.push({ step: 1, answer: 'no' });
+    // Step 2: Breathing after reposition?
+    if (v.breathingAfterReposition) {
+      path.push({ step: 2, answer: 'yes' });
+    } else {
+      path.push({ step: 2, answer: 'no', category: 'expectant' });
+      return path;
+    }
+  }
+
+  // Step 3: RR > 30?
+  if (v.rr > 30) {
+    path.push({ step: 3, answer: 'yes', category: 'immediate' });
+    return path;
+  }
+  path.push({ step: 3, answer: 'no' });
+
+  // Step 4: Perfusion
+  const poorPerfusion = parseFloat(v.crFill) > 2.0 || !v.radialPulse;
+  if (poorPerfusion) {
+    path.push({ step: 4, answer: 'no', category: 'immediate' });
+    return path;
+  }
+  path.push({ step: 4, answer: 'yes' });
+
+  // Step 5: Follows commands?
+  if (v.followsCommands) {
+    path.push({ step: 5, answer: 'yes', category: 'delayed' });
+  } else {
+    path.push({ step: 5, answer: 'no', category: 'immediate' });
+  }
+
+  return path;
+}
+
+function startMode(m) {
+  mode = m;
+  casualtyCount = 0;
+  results = [];
+  updateStats();
+
+  document.getElementById('modeScreen').classList.add('hidden');
+  document.getElementById('summaryScreen').classList.add('hidden');
+
+  if (mode === 'mci') {
+    document.getElementById('mciProgress').classList.remove('hidden');
+    mciStartTime = Date.now();
+    mciTimerInterval = setInterval(updateMciTimer, 100);
+    updateMciProgress();
+  }
+
+  nextCasualty();
+}
+
+function nextCasualty() {
+  currentCasualty = generateCasualty(casualtyCount);
+  currentStep = 0;
+  userPath = [];
+  casualtyStartTime = Date.now();
+
+  document.getElementById('resultCard').classList.add('hidden');
+  document.getElementById('casualtyCard').classList.remove('hidden');
+
+  renderCasualty();
+  renderStep();
+  startCasualtyTimer();
+}
+
+function renderCasualty() {
+  const c = currentCasualty;
+  document.getElementById('casualtyId').textContent = c.id;
+  document.getElementById('casualtyScene').textContent =
+    `${c.age}-year-old ${c.gender.toLowerCase()}. ${c.description}`;
+
+  const vitals = [
+    { label: 'Heart Rate', value: c.vitals.hr ? `${c.vitals.hr} bpm` : 'Absent' },
+    { label: 'Blood Pressure', value: c.vitals.bp },
+    { label: 'SpO2', value: c.vitals.spo2 ? `${c.vitals.spo2}%` : 'Unreadable' },
+    { label: 'GCS', value: `${c.vitals.gcs}/15` },
+    { label: 'Resp Rate', value: c.vitals.rr ? `${c.vitals.rr}/min` : 'Absent' },
+    { label: 'Cap Refill', value: c.vitals.crFill !== 'N/A' ? `${c.vitals.crFill}s` : 'N/A' }
+  ];
+
+  document.getElementById('vitalsGrid').innerHTML = vitals.map(v =>
+    `<div class="vital"><div class="vital-label">${v.label}</div><div class="vital-value">${v.value}</div></div>`
+  ).join('');
+}
+
+function renderStep() {
+  const stepsContainer = document.getElementById('triageSteps');
+  let stepIndex = currentStep;
+
+  // Skip sub-step if not relevant
+  if (STEPS[stepIndex] && STEPS[stepIndex].isSubStep) {
+    const lastAnswer = userPath[userPath.length - 1];
+    if (!lastAnswer || lastAnswer.answer !== 'no' || lastAnswer.step !== 1) {
+      currentStep++;
+      stepIndex = currentStep;
+    }
+  }
+
+  if (stepIndex >= STEPS.length) return;
+
+  const step = STEPS[stepIndex];
+  stepsContainer.innerHTML = `
+    <div class="triage-step">
+      <div class="step-question">Step ${stepIndex + 1}: ${step.question}</div>
+      <div class="step-hint">${step.hint}</div>
+      <div class="step-actions">
+        <button class="answer-btn yes" onclick="answerStep('yes')">${step.yesLabel}</button>
+        <button class="answer-btn no" onclick="answerStep('no')">${step.noLabel}</button>
+      </div>
+    </div>
+  `;
+}
+
+function answerStep(answer) {
+  const step = STEPS[currentStep];
+  const result = step.evaluate(currentCasualty, answer);
+
+  userPath.push({ step: currentStep, answer });
+
+  if (result.done) {
+    finishTriage(result.category);
+  } else {
+    currentStep++;
+    renderStep();
+  }
+}
+
+function finishTriage(userCategory) {
+  const elapsed = ((Date.now() - casualtyStartTime) / 1000).toFixed(1);
+  const correctCategory = currentCasualty.category;
+  const isCorrect = userCategory === correctCategory;
+
+  casualtyCount++;
+  results.push({
+    id: currentCasualty.id,
+    age: currentCasualty.age,
+    gender: currentCasualty.gender,
+    injury: currentCasualty.injuryType,
+    userCategory,
+    correctCategory,
+    isCorrect,
+    time: parseFloat(elapsed)
+  });
+
+  stopCasualtyTimer();
+  updateStats();
+
+  document.getElementById('casualtyCard').classList.add('hidden');
+
+  const labels = {
+    immediate: 'IMMEDIATE (Red)',
+    delayed: 'DELAYED (Yellow)',
+    minor: 'MINOR (Green)',
+    expectant: 'EXPECTANT (Black)'
+  };
+
+  let resultHTML = `
+    <div class="triage-result ${userCategory}">
+      <h2>${labels[userCategory]}</h2>
+      <p>Your classification for ${currentCasualty.id}</p>
+      <div class="result-correct">${isCorrect ? 'CORRECT' : `INCORRECT - Should be ${labels[correctCategory]}`}</div>
+      <div class="result-time">Decision time: ${elapsed}s</div>
+  `;
+
+  if (mode === 'mci' && casualtyCount < MCI_TOTAL) {
+    resultHTML += `<button class="next-btn" onclick="mciNext()">Next Casualty (${MCI_TOTAL - casualtyCount} remaining)</button>`;
+  } else if (mode === 'mci') {
+    resultHTML += `<button class="next-btn" onclick="showSummary()">View Results</button>`;
+  } else {
+    resultHTML += `
+      <button class="next-btn" onclick="nextCasualty()">Next Casualty</button>
+      <button class="next-btn" style="background:#555;margin-left:0.5rem" onclick="showSummary()">End Session</button>
+    `;
+  }
+
+  resultHTML += `</div>`;
+  document.getElementById('resultCard').innerHTML = resultHTML;
+  document.getElementById('resultCard').classList.remove('hidden');
+
+  if (mode === 'mci') updateMciProgress();
+}
+
+function mciNext() {
+  document.getElementById('resultCard').classList.add('hidden');
+  nextCasualty();
+}
+
+function showSummary() {
+  if (mciTimerInterval) clearInterval(mciTimerInterval);
+  stopCasualtyTimer();
+
+  document.getElementById('casualtyCard').classList.add('hidden');
+  document.getElementById('resultCard').classList.add('hidden');
+  document.getElementById('mciProgress').classList.add('hidden');
+
+  const correct = results.filter(r => r.isCorrect).length;
+  const total = results.length;
+  const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+  const avgTime = total > 0 ? (results.reduce((s, r) => s + r.time, 0) / total).toFixed(1) : '--';
+  const totalTime = mode === 'mci' ? ((Date.now() - mciStartTime) / 1000).toFixed(0) : '--';
+
+  const counts = { immediate: 0, delayed: 0, minor: 0, expectant: 0 };
+  results.forEach(r => counts[r.correctCategory]++);
+
+  let html = `
+    <div class="summary">
+      <h2>${mode === 'mci' ? 'Mass Casualty Drill Complete' : 'Training Session Summary'}</h2>
+      <div class="summary-stats">
+        <div class="summary-stat"><div class="val">${accuracy}%</div><div class="lbl">Accuracy</div></div>
+        <div class="summary-stat"><div class="val">${correct}/${total}</div><div class="lbl">Correct</div></div>
+        <div class="summary-stat"><div class="val">${avgTime}s</div><div class="lbl">Avg Decision</div></div>
+        ${mode === 'mci' ? `<div class="summary-stat"><div class="val">${formatTime(parseInt(totalTime))}</div><div class="lbl">Total Time</div></div>` : ''}
+      </div>
+      <div class="summary-stats">
+        <div class="summary-stat"><div class="val" style="color:var(--red)">${counts.immediate}</div><div class="lbl">Immediate</div></div>
+        <div class="summary-stat"><div class="val" style="color:var(--yellow)">${counts.delayed}</div><div class="lbl">Delayed</div></div>
+        <div class="summary-stat"><div class="val" style="color:var(--green)">${counts.minor}</div><div class="lbl">Minor</div></div>
+        <div class="summary-stat"><div class="val">${counts.expectant}</div><div class="lbl">Expectant</div></div>
+      </div>
+      <table class="history-table">
+        <thead><tr><th>#</th><th>Patient</th><th>Injury</th><th>Your Call</th><th>Correct</th><th>Time</th></tr></thead>
+        <tbody>
+          ${results.map((r, i) => `
+            <tr>
+              <td>${i + 1}</td>
+              <td>${r.age}${r.gender[0]}</td>
+              <td>${r.injury}</td>
+              <td><span class="tag ${r.userCategory}">${r.userCategory.toUpperCase()}</span></td>
+              <td>${r.isCorrect ? 'OK' : `<span class="tag ${r.correctCategory}">${r.correctCategory.toUpperCase()}</span>`}</td>
+              <td>${r.time}s</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+      <div style="margin-top:1.5rem;text-align:center">
+        <button class="next-btn" onclick="restart()">Train Again</button>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('summaryScreen').innerHTML = html;
+  document.getElementById('summaryScreen').classList.remove('hidden');
+}
+
+function restart() {
+  document.getElementById('summaryScreen').classList.add('hidden');
+  document.getElementById('modeScreen').classList.remove('hidden');
+  results = [];
+  casualtyCount = 0;
+  updateStats();
+}
+
+function updateStats() {
+  const correct = results.filter(r => r.isCorrect).length;
+  const total = results.length;
+  const avg = total > 0 ? (results.reduce((s, r) => s + r.time, 0) / total).toFixed(1) + 's' : '--';
+  document.getElementById('statCorrect').textContent = correct;
+  document.getElementById('statTotal').textContent = total;
+  document.getElementById('statAvgTime').textContent = avg;
+}
+
+function updateMciProgress() {
+  document.getElementById('mciCurrent').textContent = Math.min(casualtyCount + 1, MCI_TOTAL);
+  document.getElementById('mciTotal').textContent = MCI_TOTAL;
+
+  const counts = { immediate: 0, delayed: 0, minor: 0, expectant: 0 };
+  results.forEach(r => counts[r.userCategory]++);
+  document.getElementById('mciRed').textContent = counts.immediate;
+  document.getElementById('mciYellow').textContent = counts.delayed;
+  document.getElementById('mciGreen').textContent = counts.minor;
+  document.getElementById('mciBlack').textContent = counts.expectant;
+}
+
+function updateMciTimer() {
+  const elapsed = Math.floor((Date.now() - mciStartTime) / 1000);
+  document.getElementById('mciTimer').textContent = formatTime(elapsed);
+}
+
+function startCasualtyTimer() {
+  casualtyTimerInterval = setInterval(() => {
+    const el = ((Date.now() - casualtyStartTime) / 1000).toFixed(1);
+    document.getElementById('casualtyTimer').textContent = el + 's';
+  }, 100);
+}
+
+function stopCasualtyTimer() {
+  if (casualtyTimerInterval) clearInterval(casualtyTimerInterval);
+}
+
+function formatTime(seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+}
+
+function toggleFlowchart() {
+  document.getElementById('flowchartRef').classList.toggle('hidden');
+}
+</script>
+</body>
+</html>

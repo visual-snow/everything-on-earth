@@ -1,0 +1,88 @@
+{
+  "name": "Gaza Trauma Triage Scenarios",
+  "description": "Trauma scenarios relevant to conflict zone hospital operations",
+  "scenarios": [
+    {
+      "id": "blast_multi_casualty",
+      "name": "Multi-Casualty Blast Event",
+      "description": "Airstrike on residential building. 12 casualties arriving simultaneously. Mix of blast, crush, and penetrating injuries.",
+      "patient_profiles": [
+        {
+          "presentation": "28-year-old male, blast wave exposure, bilateral tympanic membrane rupture, complaining of chest pain and shortness of breath",
+          "expected_diagnosis": "Blast lung injury",
+          "triage_category": "immediate",
+          "key_findings": ["decreased breath sounds bilaterally", "hemoptysis", "tachypnea", "hypoxia"]
+        },
+        {
+          "presentation": "45-year-old female, extracted from rubble after 6 hours, both legs were trapped, now complaining of severe pain and dark urine",
+          "expected_diagnosis": "Crush syndrome with rhabdomyolysis",
+          "triage_category": "immediate",
+          "key_findings": ["dark brown urine", "swollen extremities", "hyperkalemia risk", "acute kidney injury risk"]
+        },
+        {
+          "presentation": "10-year-old child, walking, crying, superficial lacerations on arms from glass, no other injuries",
+          "expected_diagnosis": "Minor lacerations",
+          "triage_category": "minor",
+          "key_findings": ["ambulatory", "hemodynamically stable", "superficial wounds only"]
+        }
+      ]
+    },
+    {
+      "id": "burn_mass_casualty",
+      "name": "Fuel Depot Fire",
+      "description": "Explosion at fuel storage. 8 casualties with varying degrees of burn injuries.",
+      "patient_profiles": [
+        {
+          "presentation": "35-year-old male, 60% TBSA full-thickness burns, inhalation injury, intubated in field",
+          "expected_diagnosis": "Major burn with inhalation injury",
+          "triage_category": "expectant",
+          "key_findings": ["extensive full-thickness burns", "airway compromise", "soot in airway", "resource-intensive care required"]
+        },
+        {
+          "presentation": "22-year-old female, partial-thickness burns to both arms (18% TBSA), alert, breathing normally",
+          "expected_diagnosis": "Moderate burn injury",
+          "triage_category": "delayed",
+          "key_findings": ["limited TBSA", "no airway involvement", "hemodynamically stable", "needs fluid resuscitation"]
+        }
+      ]
+    },
+    {
+      "id": "structural_collapse",
+      "name": "Multi-Story Building Collapse",
+      "description": "Residential building collapse. Casualties extracted over several hours. Mix of crush injuries, fractures, and internal bleeding.",
+      "patient_profiles": [
+        {
+          "presentation": "55-year-old male, open fracture right femur, tourniquet applied, conscious but confused, BP 80/50",
+          "expected_diagnosis": "Hemorrhagic shock from open femur fracture",
+          "triage_category": "immediate",
+          "key_findings": ["hypotension", "tachycardia", "altered mental status", "active hemorrhage controlled"]
+        },
+        {
+          "presentation": "30-year-old female, closed fracture left humerus, alert, ambulatory with support, stable vitals",
+          "expected_diagnosis": "Closed humeral fracture",
+          "triage_category": "delayed",
+          "key_findings": ["neurovascularly intact distally", "stable hemodynamics", "can wait for treatment"]
+        }
+      ]
+    },
+    {
+      "id": "penetrating_wounds",
+      "name": "Penetrating Trauma Wave",
+      "description": "Multiple casualties with projectile and shrapnel injuries arriving over 30 minutes.",
+      "patient_profiles": [
+        {
+          "presentation": "19-year-old male, entry wound right chest 4th intercostal space, exit wound posterior, decreasing oxygen saturation, tracheal deviation to left",
+          "expected_diagnosis": "Tension pneumothorax",
+          "triage_category": "immediate",
+          "key_findings": ["tracheal deviation", "absent breath sounds right", "hypotension", "JVD", "needs immediate needle decompression"]
+        },
+        {
+          "presentation": "40-year-old female, shrapnel wound to left forearm, controlled bleeding, sensation and motor intact, stable vitals",
+          "expected_diagnosis": "Soft tissue shrapnel wound",
+          "triage_category": "minor",
+          "key_findings": ["neurovascularly intact", "bleeding controlled", "ambulatory", "superficial wound"]
+        }
+      ]
+    }
+  ]
+}

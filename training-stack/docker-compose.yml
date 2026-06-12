@@ -1,0 +1,60 @@
+services:
+  # Local LLM backend (offline-capable after first model pull)
+  ollama:
+    image: ollama/ollama
+    container_name: training-ollama
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # MedAgentSim - AI hospital simulation for trauma training
+  medagentsim:
+    build: ./medagentsim
+    container_name: training-medagentsim
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      - OPENAI_API_BASE=http://ollama:11434/v1
+      - OPENAI_API_KEY=ollama
+      - MODEL_NAME=llama3
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  # Triage Trainer - START triage decision training (static HTML)
+  triage:
+    build: ./triage-trainer
+    container_name: training-triage
+    restart: unless-stopped
+
+  # Open Anatomy Explorer - 3D anatomy atlas
+  opanex:
+    build: ./opanex
+    container_name: training-opanex
+    restart: unless-stopped
+
+  # Nginx reverse proxy - unified portal
+  nginx:
+    image: nginx:alpine
+    container_name: training-portal
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx/portal:/usr/share/nginx/portal:ro
+      - ./triage-trainer/app:/usr/share/nginx/triage:ro
+      - ./anatomy-viewer:/usr/share/nginx/anatomy:ro
+    depends_on:
+      - triage
+    restart: unless-stopped
+
+volumes:
+  ollama_data:

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gaza Hospital Training Portal</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --border: #2a2d3a;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #4f8cff;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1.5rem 2rem;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, #111825 0%, var(--bg) 100%);
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.hero .offline-badge {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.35rem 0.75rem;
+  background: #16a34a22;
+  border: 1px solid #16a34a;
+  border-radius: 20px;
+  color: #16a34a;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.modules {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.module {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s, transform 0.15s;
+  display: flex;
+  flex-direction: column;
+}
+
+.module:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.module-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.module h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.35rem;
+}
+
+.module .description {
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.module .audience {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.module .audience strong {
+  color: var(--text);
+}
+
+.module .status {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.status.ready { background: #16a34a33; color: #16a34a; }
+.status.needs-llm { background: #eab30833; color: #eab308; }
+
+.section-title {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.info {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.info h3 {
+  color: var(--text);
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.info code {
+  background: #111318;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: var(--text);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+  border-top: 1px solid var(--border);
+  margin-top: 3rem;
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Hospital Training Portal</h1>
+  <p>Open-source medical staff training tools for trauma and mass casualty triage. All modules run locally; no internet required after setup.</p>
+  <div class="offline-badge">Offline-capable</div>
+</div>
+
+<div class="container">
+  <div class="section-title">Training Modules</div>
+  <div class="modules">
+
+    <a href="/triage/" class="module">
+      <div class="module-icon">🔴</div>
+      <h2>START Triage Trainer</h2>
+      <div class="description">
+        Interactive mass casualty triage training. Practice the START algorithm with randomized virtual casualties.
+        Score your accuracy and speed. Mass casualty drill mode with 20 patients.
+      </div>
+      <div class="audience">
+        <strong>For:</strong> All medical staff, first responders, volunteers<br>
+        <strong>Skills:</strong> Triage decision-making, rapid assessment, prioritization under pressure
+      </div>
+      <span class="status ready">Ready (no setup needed)</span>
+    </a>
+
+    <a href="/sim/" class="module">
+      <div class="module-icon">🏥</div>
+      <h2>Hospital Simulation</h2>
+      <div class="description">
+        AI-powered simulated hospital environment. Interact with virtual patients presenting trauma symptoms.
+        Make diagnostic and treatment decisions. Powered by MedAgentSim + local LLM.
+      </div>
+      <div class="audience">
+        <strong>For:</strong> Physicians, medical residents, advanced nurses<br>
+        <strong>Skills:</strong> Differential diagnosis, trauma assessment, clinical reasoning
+      </div>
+      <span class="status needs-llm">Requires Ollama (LLM)</span>
+    </a>
+
+    <a href="/anatomy/" class="module">
+      <div class="module-icon">🦴</div>
+      <h2>3D Anatomy Atlas</h2>
+      <div class="description">
+        Interactive 3D anatomy viewer. Explore human anatomy in the browser with labeled structures.
+        Understand injury sites, surgical anatomy, and anatomical relationships.
+      </div>
+      <div class="audience">
+        <strong>For:</strong> All clinical staff, medical students<br>
+        <strong>Skills:</strong> Anatomical knowledge, surgical planning reference
+      </div>
+      <span class="status ready">Ready (no setup needed)</span>
+    </a>
+
+    <a href="/triage/" class="module">
+      <div class="module-icon">📋</div>
+      <h2>START Algorithm Reference</h2>
+      <div class="description">
+        Quick reference for the START (Simple Triage and Rapid Treatment) algorithm.
+        Flowchart view with decision points and color-coded categories.
+        Built into the triage trainer; click "Show START Algorithm Reference."
+      </div>
+      <div class="audience">
+        <strong>For:</strong> Quick reference during training or field use<br>
+        <strong>Skills:</strong> Protocol recall, triage procedure
+      </div>
+      <span class="status ready">Ready (no setup needed)</span>
+    </a>
+
+  </div>
+
+  <div class="info">
+    <h3>Deployment</h3>
+    This training portal runs entirely on Docker. To start all modules:<br><br>
+    <code>./start.sh</code><br><br>
+    On first run, the startup script downloads the Ollama LLM model (~4GB). After that,
+    everything works offline. The triage trainer and anatomy modules work immediately
+    with no LLM dependency.<br><br>
+    Minimum hardware: any laptop with 8GB RAM and Docker installed.
+    Recommended: 16GB RAM for running the LLM-powered hospital simulation.
+  </div>
+</div>
+
+<footer>
+  Built with open-source tools from the everything-on-earth healthcare catalog.
+</footer>
+
+</body>
+</html>

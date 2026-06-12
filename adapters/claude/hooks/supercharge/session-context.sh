@@ -15,8 +15,10 @@ ROUTING="$GRAPH_ROOT/exports/csv/domain-routing.csv"
 GRAPH="$GRAPH_ROOT/graph/graph.json"
 
 CAP_COUNT=$(python3 -c "import json; print(len(json.load(open('$REGISTRY'))))" 2>/dev/null || echo "?")
-DOMAINS=$(python3 -c "import json; g=json.load(open('$GRAPH')); print(', '.join(g['domains']))" 2>/dev/null || echo "?")
-EDGE_COUNT=$(python3 -c "import json; g=json.load(open('$GRAPH')); print(len(g['repo_capability_edges']))" 2>/dev/null || echo "?")
+# Read both graph-derived values from a single parse of graph.json (it is large).
+{ read -r DOMAINS; read -r EDGE_COUNT; } < <(python3 -c "import json; g=json.load(open('$GRAPH')); print(', '.join(g['domains'])); print(len(g['repo_capability_edges']))" 2>/dev/null) || true
+DOMAINS="${DOMAINS:-?}"
+EDGE_COUNT="${EDGE_COUNT:-?}"
 ROUTE_COUNT=$(wc -l < "$ROUTING" 2>/dev/null | tr -d ' ' || echo "?")
 
 cat <<EOF

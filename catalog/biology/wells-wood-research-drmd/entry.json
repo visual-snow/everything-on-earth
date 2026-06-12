@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wells-wood-research/drmd",
+  "name": "wells-wood-research/drmd",
+  "description": "Molecular Dynamics for Experimentalists",
+  "sub_domain": "structural-biology",
+  "score": 8,
+  "score_rationale": "An automated molecular dynamics workflow aimed squarely at experimental structural biologists.",
+  "stars": 65,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-11-18",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 62.6,
+  "discovery_score": 8,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Molecular Dynamics for Experimentalists",
+  "slug": "wells-wood-research-drmd"
+}

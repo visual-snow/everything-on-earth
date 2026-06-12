@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nextstrain/forecasts-ncov",
+  "name": "nextstrain/forecasts-ncov",
+  "description": "Workflow for forecasting SARS-CoV-2 variant growth rates and frequencies.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 8,
+  "score_rationale": "Concrete pathogen-forecasting workflow, but narrower than the reusable core libraries in the list.",
+  "stars": 9,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 56.0,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Workflow for forecasting SARS-CoV-2 variant growth rates and frequencies.",
+  "slug": "nextstrain-forecasts-ncov"
+}

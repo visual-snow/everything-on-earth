@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maxibor/pydamage",
+  "name": "maxibor/pydamage",
+  "description": "Damage parameter estimation for ancient DNA",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 9,
+  "score_rationale": "Strong fit for contig-level ancient-DNA damage estimation and downstream authenticity checks.",
+  "stars": 19,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-04-08",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 64.4,
+  "discovery_score": 9,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Damage parameter estimation for ancient DNA",
+  "slug": "maxibor-pydamage"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cdk/cdk",
+  "name": "cdk/cdk",
+  "description": "The Chemistry Development Kit",
+  "sub_domain": "cheminformatics",
+  "score": 8,
+  "score_rationale": "A long-standing Java cheminformatics library with fingerprints, descriptors, substructure search, and QSAR support.",
+  "stars": 575,
+  "language": "Java",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "cheminformatics"
+  ],
+  "quality_score": 70.1,
+  "discovery_score": 8,
+  "tags": [
+    "cheminformatics",
+    "smiles",
+    "qsar",
+    "drug-discovery"
+  ],
+  "category": "Cheminformatics \u2014 drug discovery and molecular fingerprints",
+  "summary": "The Chemistry Development Kit",
+  "slug": "cdk-cdk"
+}

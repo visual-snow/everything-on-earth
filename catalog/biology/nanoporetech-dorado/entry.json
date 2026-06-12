@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nanoporetech/dorado",
+  "name": "nanoporetech/dorado",
+  "description": "Oxford Nanopore's basecaller",
+  "sub_domain": "long-read-sequencing",
+  "score": 9,
+  "score_rationale": "Core Nanopore basecaller that sits at the front of most long-read analysis pipelines.",
+  "stars": 808,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-19",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 77.3,
+  "discovery_score": 9,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "Oxford Nanopore's basecaller",
+  "slug": "nanoporetech-dorado"
+}

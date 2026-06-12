@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/javedali99/python-resources-for-earth-sciences",
+  "name": "javedali99/python-resources-for-earth-sciences",
+  "description": "A Curated List of Python Resources for Earth Sciences",
+  "sub_domain": "climate-data-analysis",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 341,
+  "language": null,
+  "license": "GPL-3.0",
+  "last_activity": "2025-08-12",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 26.3,
+  "discovery_score": 1,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "A Curated List of Python Resources for Earth Sciences",
+  "slug": "javedali99-python-resources-for-earth-sciences"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/polkadex-substrate/polkadex",
+  "name": "polkadex-substrate/polkadex",
+  "description": "An Orderbook-based Decentralized Exchange using the Substrate Blockchain Framework.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 294,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2025-05-19",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 25.8,
+  "discovery_score": 1,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "An Orderbook-based Decentralized Exchange using the Substrate Blockchain Framework.",
+  "slug": "polkadex-substrate-polkadex"
+}

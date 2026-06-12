@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/virtual-labs/ph3-lab-mgmt",
+  "name": "virtual-labs/ph3-lab-mgmt",
+  "description": "Tools for generating and deploying lab and experiment pages.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 7,
+  "score_rationale": "Adjacent educational infrastructure that directly supports lab and experiment publishing workflows.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-22",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 7,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Tools for generating and deploying lab and experiment pages.",
+  "slug": "virtual-labs-ph3-lab-mgmt"
+}

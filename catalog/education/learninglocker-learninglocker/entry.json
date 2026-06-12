@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/learninglocker/learninglocker",
+  "name": "LearningLocker/learninglocker",
+  "description": "Open source learning record store (xAPI LRS).",
+  "sub_domain": "analytics-learning-dashboards",
+  "score": 10,
+  "score_rationale": "Canonical xAPI learning record store for education workflows; one of the strongest infrastructure fits for learning analytics.",
+  "stars": 582,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2021-11-16",
+  "found_in_domains": [
+    "analytics-learning-dashboards",
+    "edtech-infrastructure"
+  ],
+  "quality_score": 82.1,
+  "discovery_score": 10,
+  "tags": [
+    "analytics",
+    "dashboards",
+    "engagement",
+    "early-alerts",
+    "lti",
+    "xapi"
+  ],
+  "category": "Analytics, Learning Dashboards, Engagement Metrics & Early Alerts",
+  "summary": "Open source learning record store (xAPI LRS).",
+  "slug": "learninglocker-learninglocker"
+}

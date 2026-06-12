@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/narayana108/awesome-privacy",
+  "name": "narayana108/awesome-privacy",
+  "description": "A list of opensource privacy centered software, tools and web sites",
+  "sub_domain": "curated-lists-meta-sweep",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for awesome-style signals.",
+  "stars": 33,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-01-19",
+  "found_in_domains": [
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 30.3,
+  "discovery_score": 3,
+  "tags": [
+    "awesome-list",
+    "legal-data",
+    "legal-nlp",
+    "privacy"
+  ],
+  "category": "Curated Lists / Meta Sweep \u2014 awesome lists, GitHub topics, canonical meta-sources",
+  "summary": "A list of opensource privacy centered software, tools and web sites",
+  "slug": "narayana108-awesome-privacy"
+}

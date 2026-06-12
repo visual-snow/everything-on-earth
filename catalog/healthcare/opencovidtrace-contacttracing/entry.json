@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opencovidtrace/contacttracing",
+  "name": "OpenCovidTrace/ContactTracing",
+  "description": "OpenCovidTrace  is a platform to unite popular protocols of automatic COVID-19 contact tracing",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 7,
+  "score_rationale": "Open contact-tracing platform with direct pandemic surveillance relevance.",
+  "stars": 5,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2020-05-14",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 48.2,
+  "discovery_score": 7,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "OpenCovidTrace  is a platform to unite popular protocols of automatic COVID-19 contact tracing",
+  "slug": "opencovidtrace-contacttracing"
+}

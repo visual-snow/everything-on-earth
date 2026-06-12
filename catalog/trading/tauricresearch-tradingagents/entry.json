@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tauricresearch/tradingagents",
+  "name": "tauricresearch/tradingagents",
+  "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+  "sub_domain": "trading-bots-strategy-frameworks",
+  "score": 8,
+  "score_rationale": "Framework-level trading system that is especially relevant for agentic strategy orchestration.",
+  "stars": 40661,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "trading-bots-strategy-frameworks"
+  ],
+  "quality_score": 84.9,
+  "tags": [
+    "trading-bot",
+    "strategy-framework",
+    "automation"
+  ],
+  "category": "Trading Bot Framework",
+  "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+  "slug": "tauricresearch-tradingagents"
+}

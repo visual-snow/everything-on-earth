@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/unhcr-dataviz/unhcrthemes",
+  "name": "unhcr-dataviz/unhcrthemes",
+  "description": "UNHCR branded theme for ggplot2 and data visualization colour palettes",
+  "sub_domain": "migration-refugee-data",
+  "score": 6,
+  "score_rationale": "Data-visualization theme package supporting UNHCR reporting output.",
+  "stars": 31,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-04",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 48.0,
+  "tags": [
+    "unhcr",
+    "visualization",
+    "themes",
+    "r"
+  ],
+  "category": "UNHCR Theme Package",
+  "summary": "Theme package and color palettes for UNHCR data visualizations.",
+  "slug": "unhcr-dataviz-unhcrthemes"
+}

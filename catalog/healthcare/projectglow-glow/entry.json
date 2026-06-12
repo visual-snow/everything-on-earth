@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/projectglow/glow",
+  "name": "projectglow/glow",
+  "description": "An open-source toolkit for large-scale genomic analysis",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 8,
+  "score_rationale": "Useful large-scale genomic analysis toolkit with Spark integration.",
+  "stars": 297,
+  "language": "Scala",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 67.8,
+  "discovery_score": 8,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "An open-source toolkit for large-scale genomic analysis",
+  "slug": "projectglow-glow"
+}

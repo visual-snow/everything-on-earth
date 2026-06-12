@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/beast2-dev/phylodynamics",
+  "name": "BEAST2-Dev/phylodynamics",
+  "description": "BEAST2 extension for Bayesian phylodynamic methods.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 9,
+  "score_rationale": "Specialized BEAST2 phylodynamics package that directly supports epidemiological inference from genomic data.",
+  "stars": 6,
+  "language": "Java",
+  "license": "GPL-3.0",
+  "last_activity": "2023-02-22",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 60.8,
+  "discovery_score": 9,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "BEAST2 extension for Bayesian phylodynamic methods.",
+  "slug": "beast2-dev-phylodynamics"
+}

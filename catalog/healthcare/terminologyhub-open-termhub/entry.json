@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/terminologyhub/open-termhub",
+  "name": "TerminologyHub/open-termhub",
+  "description": "Open source FHIR :fire: terminology service deployable as a simple docker container",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 7,
+  "score_rationale": "Focused open-source terminology service with a simple deployment story; smaller, but still squarely in scope.",
+  "stars": 2,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 7,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "fhir"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "Open source FHIR :fire: terminology service deployable as a simple docker container",
+  "slug": "terminologyhub-open-termhub"
+}

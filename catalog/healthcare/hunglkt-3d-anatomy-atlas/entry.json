@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hunglkt/3d-anatomy-atlas",
+  "name": "hunglkt/3D-Anatomy-Atlas",
+  "description": "The go-to anatomy reference app for healthcare professionals, students, and professors. Offers limitless views inside the human body. 3D Anatomy Atlas is ...",
+  "sub_domain": "medical-education-simulation",
+  "score": 8,
+  "score_rationale": "Direct 3D anatomy atlas project, highly relevant to anatomy education.",
+  "stars": 1,
+  "language": null,
+  "license": null,
+  "last_activity": "2018-10-30",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "The go-to anatomy reference app for healthcare professionals, students, and professors. Offers limitless views inside the human body. 3D...",
+  "slug": "hunglkt-3d-anatomy-atlas"
+}

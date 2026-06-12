@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/micazev/geospatial-data-exploration-remote-sensing-santarem",
+  "name": "micazev/geospatial-data-exploration-remote-sensing-santarem",
+  "description": "temporal analysis of satellite images in the Santar\u00e9m, Para",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "temporal analysis of satellite images in the Santar\u00e9m, Para",
+  "slug": "micazev-geospatial-data-exploration-remote-sensing-santarem"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/immcantation/igphyml",
+  "name": "immcantation/igphyml",
+  "description": "IgPhyML is a phylogenetic inference package for B cell repertoires. It implements codon substitution models designed that incorporate unique features of somatic hypermutation and allow for parameter estimation across lineages to characterize entire repertoires.",
+  "sub_domain": "phylogenetics",
+  "score": 9,
+  "score_rationale": "This is a specialized phylogenetic inference engine for B-cell repertoires and is a very strong domain match.",
+  "stars": 3,
+  "language": "C",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 58.8,
+  "discovery_score": 9,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "IgPhyML is a phylogenetic inference package for B cell repertoires. It implements codon substitution models designed that incorporate uni...",
+  "slug": "immcantation-igphyml"
+}

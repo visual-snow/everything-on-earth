@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ruvnet/ruvector",
+  "name": "ruvnet/ruvector",
+  "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 3615,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 40.5,
+  "discovery_score": 2,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.",
+  "slug": "ruvnet-ruvector"
+}

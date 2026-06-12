@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/allisterb/osiris",
+  "name": "allisterb/osiris",
+  "description": "Forecasting societal conflict and violence using open-source indicators and graph databases.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 7,
+  "score_rationale": "Clear early-warning framing with open indicators and a forecasting workflow.",
+  "stars": 4,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2022-06-04",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 47.6,
+  "tags": [
+    "conflict-forecasting",
+    "open-indicators",
+    "graph-databases",
+    "early-warning"
+  ],
+  "category": "Conflict Forecasting",
+  "summary": "Forecasts societal conflict using open indicators and graph databases.",
+  "slug": "allisterb-osiris"
+}

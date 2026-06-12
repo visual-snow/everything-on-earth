@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/project-monai/monai",
+  "name": "project-monai/monai",
+  "description": "AI Toolkit for Healthcare Imaging",
+  "sub_domain": "biomedical-imaging",
+  "score": 9,
+  "score_rationale": "MONAI is a major healthcare-imaging toolkit that underpins many biomedical imaging model-development workflows.",
+  "stars": 8000,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 85.2,
+  "discovery_score": 9,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "AI Toolkit for Healthcare Imaging",
+  "slug": "project-monai-monai"
+}

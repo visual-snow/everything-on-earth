@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ustaxcourt/case-management-rfq",
+  "name": "ustaxcourt/case-management-rfq",
+  "description": "RFQ for Agile Software Development Services",
+  "sub_domain": "court-case-management",
+  "score": 3,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; archived repo penalty.",
+  "stars": 18,
+  "language": null,
+  "license": null,
+  "last_activity": "2018-08-22",
+  "found_in_domains": [
+    "court-case-management"
+  ],
+  "quality_score": 28.2,
+  "discovery_score": 3,
+  "tags": [
+    "court-case-management",
+    "e-filing",
+    "docket-management",
+    "judicial-workflow"
+  ],
+  "category": "Court / Case Management \u2014 docketing, e-filing, case tracking, judicial workflow",
+  "summary": "RFQ for Agile Software Development Services",
+  "slug": "ustaxcourt-case-management-rfq"
+}

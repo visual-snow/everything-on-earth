@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/langchain-ai/langsmith-cookbook",
+  "name": "langchain-ai/langsmith-cookbook",
+  "description": "No description provided.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption; archived repo penalty.",
+  "stars": 1014,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-11-20",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 30.1,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "No description provided.",
+  "slug": "langchain-ai-langsmith-cookbook"
+}

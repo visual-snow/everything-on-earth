@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/krishna-aditi/nlp-sentiment-analysis-on-stock-news-and-price-monitoring",
+  "name": "krishna-aditi/nlp-sentiment-analysis-on-stock-news-and-price-monitoring",
+  "description": "WebApp to bring together Text Summarization and Sentiment Analysis of the stock related news to better understand the stock price trends.",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 8,
+  "score_rationale": "Trading-oriented stock-news sentiment app with summarization and price-monitoring context.",
+  "stars": 17,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-04-07",
+  "found_in_domains": [
+    "ai-ml-for-trading",
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 58.0,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "WebApp to bring together Text Summarization and Sentiment Analysis of the stock related news to better...",
+  "slug": "krishna-aditi-nlp-sentiment-analysis-on-stock-news-and-price-monitoring"
+}

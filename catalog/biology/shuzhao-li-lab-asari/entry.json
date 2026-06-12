@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shuzhao-li-lab/asari",
+  "name": "shuzhao-li-lab/asari",
+  "description": "asari, metabolomics data preprocessing",
+  "sub_domain": "metabolomics",
+  "score": 9,
+  "score_rationale": "This is a focused metabolomics preprocessing package with a strong fit for feature extraction and LC-MS workflows.",
+  "stars": 60,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 68.3,
+  "discovery_score": 9,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "asari, metabolomics data preprocessing",
+  "slug": "shuzhao-li-lab-asari"
+}

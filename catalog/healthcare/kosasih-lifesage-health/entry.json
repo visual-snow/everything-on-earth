@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/kosasih/lifesage-health",
+  "name": "KOSASIH/LifeSage-Health",
+  "description": "Telehealth and Remote Patient Monitoring Platform app",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 6,
+  "score_rationale": "Combines telehealth with RPM, which is a direct fit, but the repository looks relatively small and less proven.",
+  "stars": 9,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-01-12",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 44.0,
+  "discovery_score": 6,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video",
+    "patient-records"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "Telehealth and Remote Patient Monitoring Platform app",
+  "slug": "kosasih-lifesage-health"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ilastik/ilastik",
+  "name": "ilastik/ilastik",
+  "description": "ilastik-shell, applets, and workflows to string them together.",
+  "sub_domain": "biomedical-imaging",
+  "score": 9,
+  "score_rationale": "ilastik is a canonical interactive bioimage-analysis environment for classification, segmentation, and workflow prototyping.",
+  "stars": 395,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 74.8,
+  "discovery_score": 9,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "ilastik-shell, applets, and workflows to string them together.",
+  "slug": "ilastik-ilastik"
+}

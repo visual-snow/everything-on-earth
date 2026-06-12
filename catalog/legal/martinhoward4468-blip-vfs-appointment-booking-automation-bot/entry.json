@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/martinhoward4468-blip/vfs-appointment-booking-automation-bot",
+  "name": "martinhoward4468-blip/vfs-appointment-booking-automation-bot",
+  "description": "vfs portal automation with appointment scheduling workflow",
+  "sub_domain": "immigration-visa-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-11-23",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "vfs portal automation with appointment scheduling workflow",
+  "slug": "martinhoward4468-blip-vfs-appointment-booking-automation-bot"
+}

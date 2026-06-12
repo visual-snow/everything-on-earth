@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bucket-protocol/v1-core",
+  "name": "bucket-protocol/v1-core",
+  "description": "Core modules of Bucket Protocol: Bucket, Well, Tank and Bottle",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "Move",
+  "license": "MIT",
+  "last_activity": "2025-11-14",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "Core modules of Bucket Protocol: Bucket, Well, Tank and Bottle",
+  "slug": "bucket-protocol-v1-core"
+}

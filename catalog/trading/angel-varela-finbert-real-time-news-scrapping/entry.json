@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/angel-varela/finbert_real-time-news-scrapping",
+  "name": "Angel-Varela/FinBERT_Real-Time-News-Scrapping",
+  "description": "How to scrap reccurent data from unbiased finantial news and use FinBERT to Extract the sentiment and probability of the news in real time",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 8,
+  "score_rationale": "FinBERT-driven real-time financial news scraping is highly relevant to sentiment alpha workflows.",
+  "stars": 3,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-05-10",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 52.8,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics",
+    "finbert"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "How to scrap reccurent data from unbiased finantial news and use FinBERT to Extract the sentiment and...",
+  "slug": "angel-varela-finbert-real-time-news-scrapping"
+}

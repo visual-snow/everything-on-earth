@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/netgroup-polito/crownlabs",
+  "name": "netgroup-polito/CrownLabs",
+  "description": "Kubernetes-based remote laboratories for per-user environments, supporting teaching labs and simulation software.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 9,
+  "score_rationale": "Strong fit for remote lab delivery in educational workflows, even though it is infrastructure-heavy.",
+  "stars": 127,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 70.9,
+  "discovery_score": 9,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Kubernetes-based remote laboratories for per-user environments, supporting teaching labs and simulation software.",
+  "slug": "netgroup-polito-crownlabs"
+}

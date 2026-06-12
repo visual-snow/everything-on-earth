@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/prethea-phoenixia/hewu",
+  "name": "Prethea-Phoenixia/HeWu",
+  "description": "Nuclear weapon effects modeling in Python",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 8,
+  "score_rationale": "Nuclear weapon effects modeling library in Python.",
+  "stars": 8,
+  "language": "Python",
+  "license": "Unlicense",
+  "last_activity": "2024-04-29",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 55.6,
+  "tags": [
+    "nuclear",
+    "weapons",
+    "effects",
+    "modeling",
+    "python"
+  ],
+  "category": "Nuclear Effects Modeling",
+  "summary": "Python toolkit for nuclear weapon effects modeling.",
+  "slug": "prethea-phoenixia-hewu"
+}

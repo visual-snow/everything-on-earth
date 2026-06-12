@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/iept/iess2047",
+  "name": "iept/iess2047",
+  "description": "India Energy Security Scenarios 2047 source code.",
+  "sub_domain": "energy-geopolitics",
+  "score": 5,
+  "score_rationale": "Energy-security scenario work is relevant, though this repo is older and narrower.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2015-05-12",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 33.8,
+  "tags": [
+    "india",
+    "energy-security",
+    "scenarios",
+    "policy"
+  ],
+  "category": "Energy Scenarios",
+  "summary": "India Energy Security Scenarios 2047 source code.",
+  "slug": "iept-iess2047"
+}

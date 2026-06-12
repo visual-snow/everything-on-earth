@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/citiususc/veryfasttree",
+  "name": "citiususc/veryfasttree",
+  "description": "Efficient phylogenetic tree inference for massive taxonomic datasets",
+  "sub_domain": "phylogenetics",
+  "score": 9,
+  "score_rationale": "A focused tree-inference engine with clear phylogenetics utility and strong fit for large-dataset workflows.",
+  "stars": 142,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2025-04-06",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 71.2,
+  "discovery_score": 9,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Efficient phylogenetic tree inference for massive taxonomic datasets",
+  "slug": "citiususc-veryfasttree"
+}

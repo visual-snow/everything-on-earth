@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/candidelabs/candide-contracts",
+  "name": "candidelabs/candide-contracts",
+  "description": "Account Abstraction smart contract accounts, modules, audits, tests, and formal verification",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 77,
+  "language": "Solidity",
+  "license": "GPL-3.0",
+  "last_activity": "2025-02-17",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 39.1,
+  "discovery_score": 4,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization",
+    "account-abstraction"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Account Abstraction smart contract accounts, modules, audits, tests, and formal verification",
+  "slug": "candidelabs-candide-contracts"
+}

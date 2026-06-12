@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/swifilaboroka/crazy-awesome-python",
+  "name": "swifilaboroka/crazy-awesome-python",
+  "description": "A curated list of awesome Python frameworks, with a bias towards data and machine learning",
+  "sub_domain": "legal-ai-nlp",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for awesome-style signals; fork penalty.",
+  "stars": 2,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2022-01-23",
+  "found_in_domains": [
+    "legal-ai-nlp"
+  ],
+  "quality_score": 9.8,
+  "discovery_score": 1,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "A curated list of awesome Python frameworks, with a bias towards data and machine learning",
+  "slug": "swifilaboroka-crazy-awesome-python"
+}

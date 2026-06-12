@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aasimwadood/alga-ed",
+  "name": "aasimwadood/ALGA-Ed",
+  "description": "Adaptive Learning with Generative AI for Customized Educational Aids for Students with Disabilities.",
+  "sub_domain": "accessibility-inclusive-education",
+  "score": 6,
+  "score_rationale": "Clear disabilities-first educational support project, though still early-stage and lightly adopted.",
+  "stars": 2,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-07-27",
+  "found_in_domains": [
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 39.8,
+  "discovery_score": 6,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "Adaptive Learning with Generative AI for Customized Educational Aids for Students with Disabilities.",
+  "slug": "aasimwadood-alga-ed"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/inducer/relate",
+  "name": "inducer/relate",
+  "description": "RELATE is an Environment for Learning And TEaching",
+  "sub_domain": "classroom-management",
+  "score": 7,
+  "score_rationale": "Courseware package for teaching workflows, content delivery, and class organization rather than generic school administration.",
+  "stars": 422,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "classroom-management"
+  ],
+  "quality_score": 63.0,
+  "discovery_score": 7,
+  "tags": [
+    "classroom",
+    "device-management",
+    "monitoring",
+    "scheduling"
+  ],
+  "category": "Classroom Management, Device Supervision, Screen Monitoring & Scheduling",
+  "summary": "RELATE is an Environment for Learning And TEaching",
+  "slug": "inducer-relate"
+}

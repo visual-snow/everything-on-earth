@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/bhemen/ofac-sdn-analysis",
+  "name": "bhemen/OFAC-SDN-analysis",
+  "description": "Python scripts for scraping OFAC's list of Specially Designated Nationals (The SDN List), with the goal of extracting blockchain addresses",
+  "stars": 4,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-04-11",
+  "sub_domain": "sanctions-compliance",
+  "score": 6,
+  "score_rationale": "Focused analysis scripts around OFAC SDN data, relevant but limited in scope.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 41.6,
+  "tags": [
+    "ofac",
+    "sdn-list",
+    "blockchain",
+    "data-extraction"
+  ],
+  "category": "Sanctions Analysis",
+  "summary": "Scrapes OFAC SDN data to extract blockchain addresses.",
+  "slug": "bhemen-ofac-sdn-analysis"
+}

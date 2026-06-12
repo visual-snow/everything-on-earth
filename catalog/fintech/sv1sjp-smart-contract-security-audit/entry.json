@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sv1sjp/smart_contract_security_audit",
+  "name": "sv1sjp/smart_contract_security_audit",
+  "description": "Designing a detailed Smart Contract Security Auditing and Maturity Framework based on my research and a collection of vulnerable and attack-ready Solidity-based smart contracts for security training.",
+  "sub_domain": "smart-contract-security",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "stars": 6,
+  "language": "Solidity",
+  "license": "GPL-3.0",
+  "last_activity": "2024-09-16",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 36.8,
+  "discovery_score": 5,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Designing a detailed Smart Contract Security Auditing and Maturity Framework based on my research and a collection of vulnerable and atta...",
+  "slug": "sv1sjp-smart-contract-security-audit"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/public-apis/public-apis",
+  "name": "public-apis/public-apis",
+  "description": "A collective list of free APIs",
+  "sub_domain": "financial-market-data",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 415945,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 52.0,
+  "discovery_score": 2,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "A collective list of free APIs",
+  "slug": "public-apis-public-apis"
+}

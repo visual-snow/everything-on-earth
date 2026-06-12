@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/penberg/helix",
+  "name": "penberg/helix",
+  "description": "Helix, a market data feed handler for C and C++.",
+  "sub_domain": "market-data-feeds",
+  "score": 3,
+  "score_rationale": "Directly on-scope as a feed handler, though it appears older and less active than the top options.",
+  "stars": 120,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2017-10-18",
+  "found_in_domains": [
+    "market-data-feeds"
+  ],
+  "quality_score": 34.7,
+  "tags": [
+    "market-data",
+    "data-ingestion",
+    "real-time-feeds"
+  ],
+  "category": "Market Data Feed",
+  "summary": "Helix, a market data feed handler for C and C++.",
+  "slug": "penberg-helix"
+}

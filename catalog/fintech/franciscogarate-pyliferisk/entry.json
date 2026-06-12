@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/franciscogarate/pyliferisk",
+  "name": "franciscogarate/pyliferisk",
+  "description": "A python library for life actuarial calculations",
+  "sub_domain": "insurance-actuarial-tech",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 119,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-09-17",
+  "found_in_domains": [
+    "insurance-actuarial-tech"
+  ],
+  "quality_score": 40.6,
+  "discovery_score": 4,
+  "tags": [
+    "insurance",
+    "actuarial",
+    "claims",
+    "cat-modeling"
+  ],
+  "category": "Insurance / Actuarial Tech",
+  "summary": "A python library for life actuarial calculations",
+  "slug": "franciscogarate-pyliferisk"
+}

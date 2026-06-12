@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/goldinlocks/quant-research",
+  "name": "GoldinLocks/Quant-Research",
+  "description": "Quantitative finance research notebooks",
+  "sub_domain": "quant-research-notebooks",
+  "score": 7,
+  "score_rationale": "Relevant notebook collection, but smaller and older than the stronger core research repos.",
+  "stars": 27,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2020-01-24",
+  "found_in_domains": [
+    "quant-research-notebooks"
+  ],
+  "quality_score": 53.6,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "Quantitative finance research notebooks",
+  "slug": "goldinlocks-quant-research"
+}

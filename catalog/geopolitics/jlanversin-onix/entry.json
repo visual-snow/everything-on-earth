@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jlanversin/onix",
+  "name": "jlanversin/ONIX",
+  "description": "ONIX is an open-source depletion software for nuclear reactor simulations and nuclear archaeology. It is written in Python 3 and offers coupling with the open-source transport code OpenMC.",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 8,
+  "score_rationale": "Open-source depletion software for reactor simulations and nuclear archaeology.",
+  "stars": 44,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 61.2,
+  "tags": [
+    "nuclear",
+    "reactor",
+    "depletion",
+    "simulation",
+    "openmc"
+  ],
+  "category": "Reactor Depletion Software",
+  "summary": "Open-source depletion software for reactor and archaeology studies.",
+  "slug": "jlanversin-onix"
+}

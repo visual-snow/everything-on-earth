@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/moov-io/watchman",
+  "name": "moov-io/watchman",
+  "description": "AML/CTF/KYC/OFAC Search of global watchlist and sanctions",
+  "stars": 440,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "sub_domain": "sanctions-compliance",
+  "score": 10,
+  "score_rationale": "High-performance sanctions screening tool and one of the core open-source compliance engines.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 81.2,
+  "tags": [
+    "sanctions-screening",
+    "aml",
+    "kyc",
+    "watchlists"
+  ],
+  "category": "Sanctions Screening",
+  "summary": "AML and OFAC watchlist screening for global sanctions checks.",
+  "slug": "moov-io-watchman"
+}

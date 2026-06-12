@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/erikkusch/krigr",
+  "name": "erikkusch/krigr",
+  "description": "An R Package for downloading, preprocessing, and statistical downscaling of the European Centre for Medium-range Weather Forecasts ReAnalysis 5 (ERA5) family provided by the European Centre for Medium\u2010Range Weather Forecasts (ECMWF).",
+  "sub_domain": "climate-data-analysis",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+  "stars": 131,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2026-02-16",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 53.0,
+  "discovery_score": 6,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "An R Package for downloading, preprocessing, and statistical downscaling of the European Centre for Medium-range Weather Forecasts ReAnal...",
+  "slug": "erikkusch-krigr"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tmcknight/bridgeview-ais",
+  "name": "tmcknight/bridgeview-ais",
+  "description": "A real-time ship tracking application that displays vessel traffic near the Blue Water Bridge using Automatic Identification System (AIS) data.",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 8,
+  "score_rationale": "Real-time ship-tracking app tied to a border-adjacent maritime chokepoint.",
+  "stars": 1,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-02-14",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "ais",
+    "vessel-tracking",
+    "real-time",
+    "maritime"
+  ],
+  "category": "Vessel Tracking App",
+  "summary": "Real-time ship tracking near the Blue Water Bridge.",
+  "slug": "tmcknight-bridgeview-ais"
+}

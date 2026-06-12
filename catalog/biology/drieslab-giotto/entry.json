@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/drieslab/giotto",
+  "name": "drieslab/Giotto",
+  "description": "Spatial omics analysis toolbox",
+  "sub_domain": "spatial-omics",
+  "score": 95,
+  "score_rationale": "Mature spatial-omics analysis toolbox with broad transcriptomics coverage.",
+  "stars": 365,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 590.5,
+  "discovery_score": 95,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Spatial omics analysis toolbox",
+  "slug": "drieslab-giotto"
+}

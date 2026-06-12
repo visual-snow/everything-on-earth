@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/freedomintelligence/easymed",
+  "name": "FreedomIntelligence/EasyMED",
+  "description": "EasyMED is a multi-agent virtual standardized patient (VSP) framework designed to support clinical skills training in medical education. The ...",
+  "sub_domain": "medical-education-simulation",
+  "score": 8,
+  "score_rationale": "Virtual standardized patient framework designed for clinical skills training.",
+  "stars": 8,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 55.6,
+  "discovery_score": 8,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient",
+    "patient-records"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "EasyMED is a multi-agent virtual standardized patient (VSP) framework designed to support clinical skills training in medical education....",
+  "slug": "freedomintelligence-easymed"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/killbill/killbill",
+  "name": "killbill/killbill",
+  "description": "Open-Source Subscription Billing & Payments Platform",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 8,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 5389,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 77.9,
+  "discovery_score": 8,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering",
+    "payments"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "Open-Source Subscription Billing & Payments Platform",
+  "slug": "killbill-killbill"
+}

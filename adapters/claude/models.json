@@ -21,5 +21,10 @@
     "judge": {
       "model": "sonnet"
     }
+  },
+  "capability-router": {
+    "classifier": {
+      "model": "haiku"
+    }
   }
 }

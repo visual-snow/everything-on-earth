@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/precision-sustainable-ag/benchbot-sonyhrcam",
+  "name": "precision-sustainable-ag/benchbot-sonyhrcam",
+  "description": "Open-source high-throughput plant phenotyping computer-vision platform for automated greenhouse trait collection.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 9,
+  "score_rationale": "Clearly focused on automated plant phenotyping with greenhouse computer vision, which is squarely within precision agriculture biology.",
+  "stars": 4,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2024-05-15",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 59.6,
+  "discovery_score": 9,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Open-source high-throughput plant phenotyping computer-vision platform for automated greenhouse trait collection.",
+  "slug": "precision-sustainable-ag-benchbot-sonyhrcam"
+}

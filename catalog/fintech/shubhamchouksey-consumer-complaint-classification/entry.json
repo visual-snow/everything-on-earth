@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shubhamchouksey/consumer-complaint-classification",
+  "name": "shubhamchouksey/consumer-complaint-classification",
+  "description": "Customer Complaint Classification using Generalized multiclass classification using SVM and Logistic Regressor",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 10,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2020-04-12",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 14.3,
+  "discovery_score": 1,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "Customer Complaint Classification using Generalized multiclass classification using SVM and Logistic Regressor",
+  "slug": "shubhamchouksey-consumer-complaint-classification"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nextstrain/augur",
+  "name": "nextstrain/augur",
+  "description": "Nextstrain's pipeline toolkit for real-time phylodynamic analysis.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 10,
+  "score_rationale": "Core Nextstrain analysis engine for real-time pathogen phylodynamics and outbreak tracking.",
+  "stars": 276,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 79.5,
+  "discovery_score": 10,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Nextstrain's pipeline toolkit for real-time phylodynamic analysis.",
+  "slug": "nextstrain-augur"
+}

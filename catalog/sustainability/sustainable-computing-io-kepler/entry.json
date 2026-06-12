@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sustainable-computing-io/kepler",
+  "name": "sustainable-computing-io/kepler",
+  "description": "Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption metrics at the container, pod, and node levels in Kubernetes clusters.",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 1480,
+  "language": "Go",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 37.4,
+  "discovery_score": 2,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption metrics at the contain...",
+  "slug": "sustainable-computing-io-kepler"
+}

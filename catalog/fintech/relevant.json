@@ -1,0 +1,4705 @@
+[
+  {
+    "repo_url": "https://github.com/juspay/hyperswitch",
+    "name": "juspay/hyperswitch",
+    "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+    "sub_domain": "payment-processing-gateways",
+    "score": 8,
+    "score_rationale": "Matched 3 queries; contains 3 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 41774,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/thephpleague/omnipay",
+    "name": "thephpleague/omnipay",
+    "description": "A framework agnostic, multi-gateway payment processing library for PHP 5.6+",
+    "sub_domain": "payment-processing-gateways",
+    "score": 7,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 6048,
+    "language": "PHP",
+    "license": "MIT",
+    "last_activity": "2025-10-05",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/activemerchant/active_merchant",
+    "name": "activemerchant/active_merchant",
+    "description": "Active Merchant is a simple payment abstraction library extracted from Shopify. The aim of the project is to feel natural to Ruby users and to abstract as many parts as possible away from the user to offer a consistent interface across all supported gateways.",
+    "sub_domain": "payment-processing-gateways",
+    "score": 7,
+    "score_rationale": "Matched 1 query; contains 5 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 4596,
+    "language": "Ruby",
+    "license": "MIT",
+    "last_activity": "2025-11-04",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/expressodev/ci-merchant",
+    "name": "expressodev/ci-merchant",
+    "description": "An open source payment processing library for CodeIgniter",
+    "sub_domain": "payment-processing-gateways",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+    "stars": 168,
+    "language": "PHP",
+    "license": "MIT",
+    "last_activity": "2013-10-10",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/juspay/hyperswitch-web",
+    "name": "juspay/hyperswitch-web",
+    "description": "Hyperswitch Web SDK: A Rescript powered React library for seamless payment integration and customization.",
+    "sub_domain": "payment-processing-gateways",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 111,
+    "language": "ReScript",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/juspay/hyperswitch-control-center",
+    "name": "juspay/hyperswitch-control-center",
+    "description": "Open sourced control center for managing Hyperswitch - an open sourced payment switch.",
+    "sub_domain": "payment-processing-gateways",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 75,
+    "language": "ReScript",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/juspay/hyperswitch-prism",
+    "name": "juspay/hyperswitch-prism",
+    "description": "Open-Source Payments Connector Service",
+    "sub_domain": "payment-processing-gateways",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 36,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/malwarebo/conductor",
+    "name": "malwarebo/conductor",
+    "description": "A smart payment switch",
+    "sub_domain": "payment-processing-gateways",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 35,
+    "language": "Go",
+    "license": "MIT",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/juspay/hyperswitch-suite",
+    "name": "juspay/hyperswitch-suite",
+    "description": "An open source payments switch to make payments fast, reliable and affordable",
+    "sub_domain": "payment-processing-gateways",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 14,
+    "language": "HCL",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/solidusio-contrib/solidus_klarna_payments",
+    "name": "solidusio-contrib/solidus_klarna_payments",
+    "description": "Klarna Payments gateway for Solidus.",
+    "sub_domain": "payment-processing-gateways",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 8,
+    "language": "Ruby",
+    "license": "Apache-2.0",
+    "last_activity": "2023-07-19",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/beneggett/figpay_gateway",
+    "name": "beneggett/figpay_gateway",
+    "description": "FigPay Payment Gateway API - whitelabel NMI Payments provider",
+    "sub_domain": "payment-processing-gateways",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 0,
+    "language": "Ruby",
+    "license": "MIT",
+    "last_activity": "2025-11-24",
+    "found_in_domains": [
+      "payment-processing-gateways"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/getlago/lago",
+    "name": "getlago/lago",
+    "description": "Open Source Metering and Usage Based Billing API \u2b50\ufe0f Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 9,
+    "score_rationale": "Matched 3 queries; contains 5 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 9458,
+    "language": "Go",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/meteroid-oss/meteroid",
+    "name": "meteroid-oss/meteroid",
+    "description": "Open-source Pricing and Billing Infrastructure \ud83d\ude80 Subscription management, Invoicing, Pricing, Usage-based billing, Cost limiting, Grandfathering, Experiments, Revenue analytics & Actionable insights",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 9,
+    "score_rationale": "Matched 3 queries; contains 4 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1003,
+    "language": "Rust",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/killbill/killbill",
+    "name": "killbill/killbill",
+    "description": "Open-Source Subscription Billing & Payments Platform",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 8,
+    "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 5389,
+    "language": "Java",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/flexprice/flexprice",
+    "name": "flexprice/flexprice",
+    "description": "Usage-based pricing and billing for developers \ud83d\udd13 Cloud or self-hosted \u2699\ufe0f No-code UI \ud83d\udcb0 Realtime usage metering \ud83c\udf9f Credits & top-ups \ud83d\udd11 Control feature access",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 7,
+    "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 3549,
+    "language": "Go",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/openmeterio/openmeter",
+    "name": "openmeterio/openmeter",
+    "description": "Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing.",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 7,
+    "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1880,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/billabear/billabear",
+    "name": "billabear/billabear",
+    "description": "Subscription Management and Billing System",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 7,
+    "score_rationale": "Matched 3 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 738,
+    "language": "PHP",
+    "license": "NOASSERTION",
+    "last_activity": "2026-02-07",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/useautumn/autumn",
+    "name": "useautumn/autumn",
+    "description": "Autumn is an open-source pricing & billing platform",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 2428,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/invoiceshelf/invoiceshelf",
+    "name": "invoiceshelf/invoiceshelf",
+    "description": "Open Source Invoicing Solution for Individuals & Businesses",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 1626,
+    "language": "PHP",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ngecom/ngbilling",
+    "name": "ngecom/ngbilling",
+    "description": "Open-Source  Billing And Rating Platform For Subscription",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 30,
+    "language": "HTML",
+    "license": "Apache-2.0",
+    "last_activity": "2020-08-11",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/aws-samples/aws-saas-factory-billing-and-metering-reference-implementation",
+    "name": "aws-samples/aws-saas-factory-billing-and-metering-reference-implementation",
+    "description": "A reference implementation for a billing and metering solution for SaaS applications.",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 29,
+    "language": "Java",
+    "license": "MIT-0",
+    "last_activity": "2025-12-19",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/geminimir/stripemeter",
+    "name": "geminimir/stripemeter",
+    "description": "Stripe-native usage metering with real-time cost projections, exactly-once processing, and invoice parity guarantees.",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 22,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2026-02-27",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ngecom/ngbillingdocker",
+    "name": "ngecom/ngbillingdocker",
+    "description": "Open-Source Billing And Rating Platform For Subscription",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 10,
+    "language": "Java",
+    "license": null,
+    "last_activity": "2024-02-05",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/nabute/saas_billing",
+    "name": "nabute/saas_billing",
+    "description": "A billing app for a SaaS platform that supports multiple subscription tiers and handles recurring billing.",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 4,
+    "language": "TypeScript",
+    "license": null,
+    "last_activity": "2024-08-25",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/boxbilling/bxb",
+    "name": "boxbilling/bxb",
+    "description": "Usage-based billing, solved",
+    "sub_domain": "billing-subscription-invoicing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 2,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-16",
+    "found_in_domains": [
+      "billing-subscription-invoicing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/arrobalytics/django-ledger",
+    "name": "arrobalytics/django-ledger",
+    "description": "Django Ledger is a double entry accounting system and financial analysis engine built on the Django Web Framework.",
+    "sub_domain": "core-banking-ledger",
+    "score": 8,
+    "score_rationale": "Matched 2 queries; contains 5 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1316,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2026-02-03",
+    "found_in_domains": [
+      "core-banking-ledger",
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/lerianstudio/midaz",
+    "name": "lerianstudio/midaz",
+    "description": "Open-source, cloud-native ledger platform for building financial infrastructure \u2014 multi-currency, multi-asset, double-entry accounting with n:n transaction support.",
+    "sub_domain": "core-banking-ledger",
+    "score": 8,
+    "score_rationale": "Matched 3 queries; contains 5 domain terms in repo text; has some GitHub adoption.",
+    "stars": 364,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "core-banking-ledger"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/blnkfinance/blnk",
+    "name": "blnkfinance/blnk",
+    "description": "Blnk is an open-source ledger & financial core for shipping fintech products fast.",
+    "sub_domain": "core-banking-ledger",
+    "score": 7,
+    "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text; has some GitHub adoption.",
+    "stars": 385,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-21",
+    "found_in_domains": [
+      "core-banking-ledger",
+      "financial-data-standards"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/formancehq/ledger",
+    "name": "formancehq/ledger",
+    "description": "The programmable open source core ledger for fintech",
+    "sub_domain": "core-banking-ledger",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1176,
+    "language": "Go",
+    "license": "MIT",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "core-banking-ledger"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/dmitry-merzlyakov/nledger",
+    "name": "dmitry-merzlyakov/nledger",
+    "description": ".Net Ledger: Double-Entry Accounting System",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+    "stars": 201,
+    "language": "C#",
+    "license": "NOASSERTION",
+    "last_activity": "2024-03-13",
+    "found_in_domains": [
+      "core-banking-ledger",
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/chvp/nanoledger",
+    "name": "chvp/nanoledger",
+    "description": "Ledger (plain text accounting) data entry app for Android",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 5 domain terms in repo text; has some GitHub adoption.",
+    "stars": 121,
+    "language": "Kotlin",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "core-banking-ledger",
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/adorsys/ledgers",
+    "name": "adorsys/ledgers",
+    "description": "Simple Open Source implementation of a deposit account application (ASPSP core-banking) from adorsys",
+    "sub_domain": "core-banking-ledger",
+    "score": 5,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+    "stars": 80,
+    "language": "Java",
+    "license": null,
+    "last_activity": "2025-08-01",
+    "found_in_domains": [
+      "core-banking-ledger"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/tgrosinger/ledger-obsidian",
+    "name": "tgrosinger/ledger-obsidian",
+    "description": "Plain text accounting in Obsidian.md",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+    "stars": 545,
+    "language": "TypeScript",
+    "license": "GPL-3.0",
+    "last_activity": "2024-07-06",
+    "found_in_domains": [
+      "core-banking-ledger",
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/openbankproject/obp-api",
+    "name": "openbankproject/obp-api",
+    "description": "An open source RESTful API platform for banks that supports Open Banking, XS2A, PSD2 and Open Finance through access to accounts, transactions, counterparties, payments, entitlements and metadata - plus a host of internal banking and management APIs.",
+    "sub_domain": "open-banking-psd2",
+    "score": 7,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1686,
+    "language": "Scala",
+    "license": null,
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "open-banking-psd2"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/adorsys/open-banking-gateway",
+    "name": "adorsys/open-banking-gateway",
+    "description": "Provides RESTful API, tools, adapters, and connectors for transparent access to open banking API's (for banks that support PSD2 and XS2A as well as HBCI/FinTS)",
+    "sub_domain": "open-banking-psd2",
+    "score": 7,
+    "score_rationale": "Matched 3 queries; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 318,
+    "language": "Java",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-01-09",
+    "found_in_domains": [
+      "open-banking-psd2"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/adorsys/xs2a",
+    "name": "adorsys/xs2a",
+    "description": "Open Source NextGenPSD2 XS2A Implementation from adorsys.",
+    "sub_domain": "open-banking-psd2",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 149,
+    "language": "Java",
+    "license": "AGPL-3.0",
+    "last_activity": "2025-04-28",
+    "found_in_domains": [
+      "open-banking-psd2"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/adorsys/xs2a-sandbox",
+    "name": "adorsys/xs2a-sandbox",
+    "description": "Open Source PSD2-compatible banking system emulator solution from adorsys",
+    "sub_domain": "open-banking-psd2",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 76,
+    "language": "TypeScript",
+    "license": "AGPL-3.0",
+    "last_activity": "2025-08-01",
+    "found_in_domains": [
+      "open-banking-psd2"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/petafuel/styx",
+    "name": "petafuel/styx",
+    "description": "Styx is a PSD2 XS2A client that implements the Berlin Group NextGenPSD2 specification.",
+    "sub_domain": "open-banking-psd2",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 21,
+    "language": "Java",
+    "license": "Apache-2.0",
+    "last_activity": "2023-06-13",
+    "found_in_domains": [
+      "open-banking-psd2"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/snakx/xs2a",
+    "name": "snakx/xs2a",
+    "description": "PSD2 XS2A Client",
+    "sub_domain": "open-banking-psd2",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 0,
+    "language": "Go",
+    "license": "MIT",
+    "last_activity": "2021-05-06",
+    "found_in_domains": [
+      "open-banking-psd2"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/prowide/prowide-iso20022",
+    "name": "prowide/prowide-iso20022",
+    "description": "Comprehensive business model and parser for all ISO 20022 messages",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 208,
+    "language": "Java",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/moov-io/iso8583",
+    "name": "moov-io/iso8583",
+    "description": "A golang implementation to marshal and unmarshal iso8583 message.",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 504,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/kpavlov/jreactive-8583",
+    "name": "kpavlov/jreactive-8583",
+    "description": "Kotlin/Java Client & Server for ISO8583 & Netty",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 350,
+    "language": "Kotlin",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/prowide/prowide-core",
+    "name": "prowide/prowide-core",
+    "description": "Model and parsers for all SWIFT MT (FIN) messages",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 273,
+    "language": "Java",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/imohsenb/iso8583-message-client-java",
+    "name": "imohsenb/iso8583-message-client-java",
+    "description": "ISO8583 Message Packer and Unpacker with ISOClient in Java",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 133,
+    "language": "Java",
+    "license": "MIT",
+    "last_activity": "2026-01-26",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/knovichikhin/pyiso8583",
+    "name": "knovichikhin/pyiso8583",
+    "description": "ISO8583 protocol parser that creates a regular Python dictionary describing ISO8583 data",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 67,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-08-28",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/tochemey/netcore8583",
+    "name": "tochemey/netcore8583",
+    "description": "NetCore8583 is a library that helps parse/read and generate ISO 8583 messages for .NET Core",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 43,
+    "language": "C#",
+    "license": "MIT",
+    "last_activity": "2026-03-16",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/sebastienrousseau/pain001",
+    "name": "sebastienrousseau/pain001",
+    "description": "Pain001, A Powerful Python Library that enables you to create ISO 20022-Compliant Payment Files from CSV, SQLite, or Python data structures.\ud83d\udc0d",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 37,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-02-23",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/payment-components/demo-iso20022",
+    "name": "payment-components/demo-iso20022",
+    "description": "Demo project using ISO20022 Message validation library",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; penalized for demo-style signals.",
+    "stars": 35,
+    "language": "Java",
+    "license": null,
+    "last_activity": "2026-03-18",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/tomkurian01/swiftparser",
+    "name": "tomkurian01/swiftparser",
+    "description": "C# Library to parse the SWIFT MT Financial Messages.",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 30,
+    "language": "C#",
+    "license": null,
+    "last_activity": "2015-03-18",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/cbidis/csharp8583",
+    "name": "cbidis/csharp8583",
+    "description": "C# Implementation of the ISO-8583 banking protocol",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 27,
+    "language": "C#",
+    "license": "LGPL-2.1",
+    "last_activity": "2024-06-01",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/payment-components/demo-swift-mt",
+    "name": "payment-components/demo-swift-mt",
+    "description": "Demo project using Swift MT Message validation library",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; penalized for demo-style signals.",
+    "stars": 23,
+    "language": "Java",
+    "license": null,
+    "last_activity": "2026-03-18",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/payment-components/rest-sdk-wrapper",
+    "name": "payment-components/rest-sdk-wrapper",
+    "description": "REST API wrapper for MT, SEPA, MX(ISO20022), CBPR+, TARGET2(RTGS) and MT-MX Translation libraries",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 2 queries; contains 1 domain term in repo text.",
+    "stars": 13,
+    "language": "Java",
+    "license": null,
+    "last_activity": "2026-03-18",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/leo-aa88/go-iso8583",
+    "name": "leo-aa88/go-iso8583",
+    "description": "Spec-driven ISO 8583 parser and builder for Go \u2014 supports primary/secondary bitmaps, LLVAR/LLLVAR, BCD encoding, and typed field errors.",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 10,
+    "language": "Go",
+    "license": "MIT",
+    "last_activity": "2026-02-27",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/issettled/iso20022-issettled",
+    "name": "issettled/iso20022-issettled",
+    "description": "Financial XML message templates, XML schemas (XSD), sample ISO 20022 messages used by IsSettled Members, and UML diagrams for key business processes.",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 7,
+    "language": null,
+    "license": "Apache-2.0",
+    "last_activity": "2024-01-17",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/goplasmatic/mxmessage",
+    "name": "goplasmatic/mxmessage",
+    "description": "ISO20022 MX Message library",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 6,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "last_activity": "2026-01-19",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/codemasteroy/php-iso20022",
+    "name": "codemasteroy/php-iso20022",
+    "description": "ISO 20022 XML Message generation class",
+    "sub_domain": "financial-messaging-protocols",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 4,
+    "language": "PHP",
+    "license": "GPL-3.0",
+    "last_activity": "2014-06-30",
+    "found_in_domains": [
+      "financial-messaging-protocols"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/obinnafranklinduru/defi-yield-aggregator",
+    "name": "obinnafranklinduru/defi-yield-aggregator",
+    "description": "The YieldAggregator smart contract is designed to manage user deposits to maximize yield across popular DeFi protocols, such as Aave and Compound. The contract dynamically allocates funds to the protocol with the highest yield, provides fee management, and allows emergency withdrawals for enhanced security.",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 2,
+    "language": "Solidity",
+    "license": "MIT",
+    "last_activity": "2024-11-16",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/smartcontractkit/defi-minimal",
+    "name": "smartcontractkit/defi-minimal",
+    "description": "This repo is dedicated to making minimal repos of existing defi primatives.",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 493,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2022-10-18",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ajna-finance/ajna-core",
+    "name": "ajna-finance/ajna-core",
+    "description": "The Ajna protocol is a non-custodial, peer-to-peer, permissionless lending, borrowing and trading system that requires no governance or external price feeds to function.",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 40,
+    "language": "Solidity",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-09",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/parasgr7/defi-lending-borrowing",
+    "name": "parasgr7/defi-lending-borrowing",
+    "description": "DeFi Lending Borrowing DApp",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 25,
+    "language": "JavaScript",
+    "license": null,
+    "last_activity": "2022-10-11",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/arcadexyz/arcade-protocol",
+    "name": "arcadexyz/arcade-protocol",
+    "description": "Core Arcade.xyz Lending Protocol",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 17,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2024-06-28",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/laina-defi/laina",
+    "name": "laina-defi/laina",
+    "description": "DeFi lending & borrowing platform built on Stellar",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 9,
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-20",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/madfish-solutions/yupana-protocol-core",
+    "name": "madfish-solutions/yupana-protocol-core",
+    "description": "Open-source lending protocol built on top of Tezos blockchain",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 7,
+    "language": "JavaScript",
+    "license": null,
+    "last_activity": "2023-12-20",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/sergio11/defiplex_blockchain",
+    "name": "sergio11/defiplex_blockchain",
+    "description": "DeFiPlex is a decentralized finance (DeFi) platform designed to be a versatile and comprehensive hub for decentralized financial activities. Built on the Polygon blockchain, DeFiPlex offers a wide range of financial services, including staking, lending, borrowing, and governance, all powered by smart contracts. \ud83c\udf10\ud83d\udcb0\ud83d\udd12",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 6,
+    "language": "Solidity",
+    "license": "MIT",
+    "last_activity": "2025-06-21",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/opdev3/opd",
+    "name": "opdev3/opd",
+    "description": "Tezos DeFi: Lending and Borrowing",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 1,
+    "language": "HTML",
+    "license": "MIT",
+    "last_activity": "2022-09-29",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ayushjhax/zephron-protocol",
+    "name": "ayushjhax/zephron-protocol",
+    "description": "Zephron Protocol is a unified ecosystem that transforms physical gold into a liquid on-chain asset, enabling users to instantly borrow against their holdings.",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 0,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2025-11-18",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/gid-ctl/bitstable",
+    "name": "gid-ctl/bitstable",
+    "description": "A decentralized stablecoin protocol implemented on the Stacks blockchain, allowing users to create stablecoins backed by Bitcoin (BTC) collateral. The system implements a CDP (Collateralized Debt Position) model with built-in governance, price oracle integration, and liquidation mechanisms.",
+    "sub_domain": "defi-lending-borrowing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 0,
+    "language": "Clarity",
+    "license": "MIT",
+    "last_activity": "2024-10-31",
+    "found_in_domains": [
+      "defi-lending-borrowing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/adshao/publications",
+    "name": "adshao/publications",
+    "description": "blogs about uniswap and other defi projects",
+    "sub_domain": "amm-dex-trading-infra",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 214,
+    "language": null,
+    "license": null,
+    "last_activity": "2026-01-31",
+    "found_in_domains": [
+      "amm-dex-trading-infra"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/openzeppelin/uniswap-hooks",
+    "name": "openzeppelin/uniswap-hooks",
+    "description": "Solidity library for secure and modular Uniswap hooks.",
+    "sub_domain": "amm-dex-trading-infra",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 121,
+    "language": "Solidity",
+    "license": "MIT",
+    "last_activity": "2026-01-07",
+    "found_in_domains": [
+      "amm-dex-trading-infra"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mantra-chain/mantra-dex",
+    "name": "mantra-chain/mantra-dex",
+    "description": "MANTRA DEX is a decentralized AMM (Automated Market Maker) protocol that allows permissionless creation of liquidity pools and farms.",
+    "sub_domain": "amm-dex-trading-infra",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 16,
+    "language": "Rust",
+    "license": "MPL-2.0",
+    "last_activity": "2026-03-03",
+    "found_in_domains": [
+      "amm-dex-trading-infra"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/standarddotim/v4-orderbook",
+    "name": "standarddotim/v4-orderbook",
+    "description": "Uniswap v4 hook with limit order integration on orderbook",
+    "sub_domain": "amm-dex-trading-infra",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 3,
+    "language": "Solidity",
+    "license": "MIT",
+    "last_activity": "2024-06-10",
+    "found_in_domains": [
+      "amm-dex-trading-infra"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mgnfy-view/soho-orderbook",
+    "name": "mgnfy-view/soho-orderbook",
+    "description": "Soho is a central limit order-book protocol for high frequency, gasless trades on multiple chains including Blast",
+    "sub_domain": "amm-dex-trading-infra",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 2,
+    "language": "Solidity",
+    "license": "MIT",
+    "last_activity": "2024-10-05",
+    "found_in_domains": [
+      "amm-dex-trading-infra"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/kukapay/dex-metrics-mcp",
+    "name": "kukapay/dex-metrics-mcp",
+    "description": "An MCP server that tracks trading volume metrics segmented by DEX, blockchain, aggregator, frontend, and Telegram bot.",
+    "sub_domain": "amm-dex-trading-infra",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 1,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-06-17",
+    "found_in_domains": [
+      "amm-dex-trading-infra"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/blockchain-etl/ethereum-etl",
+    "name": "blockchain-etl/ethereum-etl",
+    "description": "Python scripts for ETL (extract, transform and load) jobs for Ethereum blocks, transactions, ERC20 / ERC721 tokens, transfers, receipts, logs, contracts, internal transactions. Data is available in Google BigQuery https://goo.gl/oY5BCQ",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 3124,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-01-25",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/offciercia/on-chain-investigations-tools-list",
+    "name": "offciercia/on-chain-investigations-tools-list",
+    "description": "Here we discuss how one can investigate crypto hacks and security incidents, and collect all the possible tools and manuals! PRs are welcome! If any tool is missing - please open PR!",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 1864,
+    "language": null,
+    "license": "Unlicense",
+    "last_activity": "2026-03-14",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/0xpolygon/chain-indexer-framework",
+    "name": "0xpolygon/chain-indexer-framework",
+    "description": "Chain-indexer-framework",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 152,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2025-12-04",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/toncenter/ton-indexer",
+    "name": "toncenter/ton-indexer",
+    "description": "TON Indexer system to store and serve blockchain data using SQL-database",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 100,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/enviodev/hyperindex",
+    "name": "enviodev/hyperindex",
+    "description": "\ud83d\udea2 Ultra-Fast Multichain Indexer",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 494,
+    "language": "ReScript",
+    "license": null,
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/blockchain-etl/bitcoin-etl",
+    "name": "blockchain-etl/bitcoin-etl",
+    "description": "ETL scripts for Bitcoin, Litecoin, Dash, Zcash, Doge, Bitcoin Cash. Available in Google BigQuery https://goo.gl/oY5BCQ",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 452,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-05-02",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/blockchain-etl/ethereum-etl-airflow",
+    "name": "blockchain-etl/ethereum-etl-airflow",
+    "description": "Airflow DAGs for exporting, loading, and parsing the Ethereum blockchain data. How to get any Ethereum smart contract into BigQuery https://towardsdatascience.com/how-to-get-any-ethereum-smart-contract-into-bigquery-in-8-mins-bab5db1fdeee",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 437,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-07-06",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/wuzhy1ng/blockchainspider",
+    "name": "wuzhy1ng/blockchainspider",
+    "description": "A toolkit for blockchain data collection",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 178,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-02-09",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ethereum-optimism/op-analytics",
+    "name": "ethereum-optimism/op-analytics",
+    "description": "Onchain Data, Utilities, References, and other Analytics on Optimism",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 151,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/faizan-khanx/tracingdarkwebandblockchain",
+    "name": "faizan-khanx/tracingdarkwebandblockchain",
+    "description": "This repository presents a detailed case study on tracking cryptocurrency transactions and uncovering dark web operations. Using open-source intelligence (OSINT) tools and blockchain forensics, we trace Bitcoin transactions, identify hidden connections between onion sites, and track funds to cryptocurrency exchanges like Binance.",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 33,
+    "language": null,
+    "license": "MIT",
+    "last_activity": "2025-04-14",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/amrita-tifac-cyber-blockchain/blockchain-and-cryptocurrency-forensics",
+    "name": "amrita-tifac-cyber-blockchain/blockchain-and-cryptocurrency-forensics",
+    "description": "Blockchain & Cryptocurrency Forensics",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 14,
+    "language": "HTML",
+    "license": "MIT",
+    "last_activity": "2025-12-30",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/vertcoin-project/blockchain-indexer",
+    "name": "vertcoin-project/blockchain-indexer",
+    "description": "A C++ based indexer for blockfiles that works on Bitcoin and its derivatives https://blkidx.org/",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 10,
+    "language": "C++",
+    "license": "MIT",
+    "last_activity": "2022-01-27",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/shinzonetwork/shinzo-indexer-client",
+    "name": "shinzonetwork/shinzo-indexer-client",
+    "description": "A high-performance blockchain indexing solution built with Source Network, DefraDB, and LensVM.",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 8,
+    "language": "Go",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/circlesubi/blockchain-indexer",
+    "name": "circlesubi/blockchain-indexer",
+    "description": "Imports all Circles events into a Postgres database",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 7,
+    "language": "C#",
+    "license": null,
+    "last_activity": "2024-11-16",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/barreleye/barreleye",
+    "name": "barreleye/barreleye",
+    "description": "Open-source blockchain indexer and explorer \ud83d\udc20",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 3,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "last_activity": "2025-04-22",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/fused-gaming/fuckin-dans-ass",
+    "name": "fused-gaming/fuckin-dans-ass",
+    "description": "Blockchain forensic analysis toolkit for tracking illegal operations and on-chain fraud. Complete investigation framework with transaction analysis, address attribution, and evidence report generation.",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 2,
+    "language": "JavaScript",
+    "license": "ISC",
+    "last_activity": "2025-12-19",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/snowzach/blocc",
+    "name": "snowzach/blocc",
+    "description": "Bitcoin Blockchain Indexer",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 2,
+    "language": "Go",
+    "license": "MIT",
+    "last_activity": "2020-04-22",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/exyreams/arguschain",
+    "name": "exyreams/arguschain",
+    "description": "Ethereum analysis platform for transaction debugging, gas optimization, and smart contract forensics with deep EVM tracing, real-time monitoring, and developer-friendly visualizations.",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 0,
+    "language": "TypeScript",
+    "license": "AGPL-3.0",
+    "last_activity": "2025-11-25",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/testnet3/blockchain-and-cryptocurrency-forensics",
+    "name": "testnet3/blockchain-and-cryptocurrency-forensics",
+    "description": "Blockchain & Cryptocurrency Forensics",
+    "sub_domain": "blockchain-analytics-indexing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 0,
+    "language": null,
+    "license": "MIT",
+    "last_activity": "2022-05-17",
+    "found_in_domains": [
+      "blockchain-analytics-indexing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/crytic/echidna",
+    "name": "crytic/echidna",
+    "description": "Ethereum smart contract fuzzer",
+    "sub_domain": "smart-contract-security",
+    "score": 8,
+    "score_rationale": "Matched 2 queries; contains 5 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 3090,
+    "language": "Haskell",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/crytic/slither",
+    "name": "crytic/slither",
+    "description": "Static Analyzer for Solidity and Vyper",
+    "sub_domain": "smart-contract-security",
+    "score": 7,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 6174,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/trailofbits/manticore",
+    "name": "trailofbits/manticore",
+    "description": "Symbolic execution tool",
+    "sub_domain": "smart-contract-security",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 3842,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-02-13",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/nascentxyz/simple-security-toolkit",
+    "name": "nascentxyz/simple-security-toolkit",
+    "description": "A collection of practical security-focused guides and checklists for smart contract development",
+    "sub_domain": "smart-contract-security",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1219,
+    "language": null,
+    "license": "MIT",
+    "last_activity": "2023-11-15",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/fuzzland/ityfuzz",
+    "name": "fuzzland/ityfuzz",
+    "description": "Blazing Fast Bytecode-Level Hybrid Fuzzer for Smart Contracts",
+    "sub_domain": "smart-contract-security",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1070,
+    "language": "Rust",
+    "license": "MIT",
+    "last_activity": "2025-12-10",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/recon-fuzz/chimera",
+    "name": "recon-fuzz/chimera",
+    "description": "Smart Contract Property-Based Testing Framework",
+    "sub_domain": "smart-contract-security",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+    "stars": 147,
+    "language": "Solidity",
+    "license": null,
+    "last_activity": "2026-02-10",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/scabench-org/scabench",
+    "name": "scabench-org/scabench",
+    "description": "A framework for evaluating AI audit agents using recent real-world data",
+    "sub_domain": "smart-contract-security",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 105,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-10-04",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/l33tdawg/aether",
+    "name": "l33tdawg/aether",
+    "description": "AI Smart Contract Security Analysis and PoC Generation Framework",
+    "sub_domain": "smart-contract-security",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+    "stars": 36,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-02-17",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/smartbugs/smartbugs",
+    "name": "smartbugs/smartbugs",
+    "description": "SmartBugs: A Framework to Analyze Ethereum Smart Contracts",
+    "sub_domain": "smart-contract-security",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 664,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-20",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/bradmoonuestc/finite-monkey-engine",
+    "name": "bradmoonuestc/finite-monkey-engine",
+    "description": "AI engine for smart contract audit",
+    "sub_domain": "smart-contract-security",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 349,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-01-06",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/argotorg/hevm",
+    "name": "argotorg/hevm",
+    "description": "Symbolic and concrete EVM execution engine",
+    "sub_domain": "smart-contract-security",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 331,
+    "language": "Haskell",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-12",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/devdacian/solidity-fuzzing-comparison",
+    "name": "devdacian/solidity-fuzzing-comparison",
+    "description": "A comparison of solidity fuzzing tools Foundry, Echidna & Medusa",
+    "sub_domain": "smart-contract-security",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 187,
+    "language": "Solidity",
+    "license": "MIT",
+    "last_activity": "2025-02-01",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/christoftorres/confuzzius",
+    "name": "christoftorres/confuzzius",
+    "description": "A data dependency-aware hybrid fuzzer for Ethereum smart contracts (EuroS&P 2021).",
+    "sub_domain": "smart-contract-security",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 102,
+    "language": "Solidity",
+    "license": "MIT",
+    "last_activity": "2023-10-11",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/coinfabrik/scout-audit",
+    "name": "coinfabrik/scout-audit",
+    "description": "Scout is an extensible open-source tool intended to assist smart contract developers and auditors detect common security issues and deviations from best practices. Scout audit is the core development on which we extend scout for specific blockchains.",
+    "sub_domain": "smart-contract-security",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 44,
+    "language": "Rust",
+    "license": "MIT",
+    "last_activity": "2026-02-13",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/sv1sjp/smart_contract_security_audit",
+    "name": "sv1sjp/smart_contract_security_audit",
+    "description": "Designing a detailed Smart Contract Security Auditing and Maturity Framework based on my research and a collection of vulnerable and attack-ready Solidity-based smart contracts for security training.",
+    "sub_domain": "smart-contract-security",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+    "stars": 6,
+    "language": "Solidity",
+    "license": "GPL-3.0",
+    "last_activity": "2024-09-16",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/cyfrin/security-and-auditing-full-course-s23",
+    "name": "cyfrin/security-and-auditing-full-course-s23",
+    "description": "The ultimate, most advanced, security, DeFi, assembly, web3 auditor course ever created.",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption; penalized for course-style signals.",
+    "stars": 1864,
+    "language": "Solidity",
+    "license": "GPL-3.0",
+    "last_activity": "2026-02-03",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/eth-sri/ilf",
+    "name": "eth-sri/ilf",
+    "description": "AI based fuzzer based on imitation learning",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 154,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2024-06-17",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/forefy/.context",
+    "name": "forefy/.context",
+    "description": "AI Agent Skills for Smart Contract Auditing to generate triaged, industry grade report findings, code locations, pocs, attacker story flow graphs and more",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 86,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-17",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/llmsmartaudit/ftsmartaudit",
+    "name": "llmsmartaudit/ftsmartaudit",
+    "description": "This repository is dedicated to the smart contract auditing using our FTSmartAudit tool",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 30,
+    "language": "Solidity",
+    "license": null,
+    "last_activity": "2026-02-17",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/amirhosseinhonardoust/smart-contract-risk-analyzer",
+    "name": "amirhosseinhonardoust/smart-contract-risk-analyzer",
+    "description": "A lightweight static analysis engine for Solidity smart contracts. Extracts code features, detects dangerous patterns (delegatecall, tx.origin, call.value), computes heuristic risk scores, and classifies contracts into Low/Medium/High risk levels. Includes multiple example vulnerabilities and a clean CLI for rapid security assessment.",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; penalized for example-style signals.",
+    "stars": 22,
+    "language": "Solidity",
+    "license": "MIT",
+    "last_activity": "2025-11-15",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/solanaizer/solanaizer-sample-project",
+    "name": "solanaizer/solanaizer-sample-project",
+    "description": "Solana Smart Contract Auditing Tool using AI",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 13,
+    "language": "Rust",
+    "license": null,
+    "last_activity": "2024-03-10",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/leeederek/aiudit",
+    "name": "leeederek/aiudit",
+    "description": "A(i)udit is an open-source tool that gracefully adds security best practices earlier in the developer loop to help write safer, more secure smart contracts",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 8,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2023-06-25",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ahlashkari/scsvullyzer",
+    "name": "ahlashkari/scsvullyzer",
+    "description": "Smart Contracts Vulnerability Analyzer",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 7,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2025-09-22",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/vnmrtz/audits",
+    "name": "vnmrtz/audits",
+    "description": "Here's a compilation of smart contract audits I've been involved in, along with some live bugs I've discovered.",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 5,
+    "language": null,
+    "license": null,
+    "last_activity": "2025-01-28",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/gustavo-grieco/echidna-xp",
+    "name": "gustavo-grieco/echidna-xp",
+    "description": "Experimental fork for Echidna, an Ethereum smart contract fuzzer",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 5 domain terms in repo text; fork penalty.",
+    "stars": 2,
+    "language": null,
+    "license": null,
+    "last_activity": "2025-12-15",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/z1ph1us/smart-contract-auditor",
+    "name": "z1ph1us/smart-contract-auditor",
+    "description": "A Python-based tool for downloading Solidity smart contracts from blockchain explorers (Etherscan, BscScan, PolygonScan, Arbiscan) and performing automated vulnerability analysis using Slither.",
+    "sub_domain": "smart-contract-security",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 0,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2025-06-07",
+    "found_in_domains": [
+      "smart-contract-security"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/proto-at-block/bitkey",
+    "name": "proto-at-block/bitkey",
+    "description": "Bitkey is a self-custody bitcoin wallet with an app, hardware, and recovery tools.",
+    "sub_domain": "wallet-infra-tokenization",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 200,
+    "language": "Kotlin",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-18",
+    "found_in_domains": [
+      "wallet-infra-tokenization"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/polymorpher/one-wallet",
+    "name": "polymorpher/one-wallet",
+    "description": "1wallet | Modulo OTP Wallet - unconventional keyless, non-custodial wallet secured by Google Authenticator. EVM-compatible, smart contract operated, with composable security.",
+    "sub_domain": "wallet-infra-tokenization",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 114,
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "last_activity": "2024-09-19",
+    "found_in_domains": [
+      "wallet-infra-tokenization"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/kazopl/erc4337-account-abstraction-toolkit",
+    "name": "kazopl/erc4337-account-abstraction-toolkit",
+    "description": "Production-grade ERC-4337 Account Abstraction implementation with modular smart accounts, paymasters, session keys, multisig, social recovery, and spending limits. Built with Foundry.",
+    "sub_domain": "wallet-infra-tokenization",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 0,
+    "language": "Solidity",
+    "license": null,
+    "last_activity": "2026-01-07",
+    "found_in_domains": [
+      "wallet-infra-tokenization"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/bankisan/zkshield",
+    "name": "bankisan/zkshield",
+    "description": "Private multisig with hidden owners",
+    "sub_domain": "wallet-infra-tokenization",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 236,
+    "language": "Circom",
+    "license": "MIT",
+    "last_activity": "2023-09-23",
+    "found_in_domains": [
+      "wallet-infra-tokenization"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/fystack/mpcium",
+    "name": "fystack/mpcium",
+    "description": "Open-source MPC wallet infra. Effortlessly launch distributed crypto wallets with MPC technology in minutes",
+    "sub_domain": "wallet-infra-tokenization",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 142,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "wallet-infra-tokenization"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/candidelabs/candide-contracts",
+    "name": "candidelabs/candide-contracts",
+    "description": "Account Abstraction smart contract accounts, modules, audits, tests, and formal verification",
+    "sub_domain": "wallet-infra-tokenization",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 77,
+    "language": "Solidity",
+    "license": "GPL-3.0",
+    "last_activity": "2025-02-17",
+    "found_in_domains": [
+      "wallet-infra-tokenization"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mixinnetwork/safe",
+    "name": "mixinnetwork/safe",
+    "description": "\ud83c\udfe6 A multiplex cold wallet with multisig and MPC.",
+    "sub_domain": "wallet-infra-tokenization",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 24,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2026-02-28",
+    "found_in_domains": [
+      "wallet-infra-tokenization"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/runonflux/account-abstraction",
+    "name": "runonflux/account-abstraction",
+    "description": "Account Abstraction - Schnorr multi signature accounts based on ERC4337 standard",
+    "sub_domain": "wallet-infra-tokenization",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 6,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2026-03-17",
+    "found_in_domains": [
+      "wallet-infra-tokenization"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/barzkit/sdk",
+    "name": "barzkit/sdk",
+    "description": "Self-custody AI agent wallets with passkeys, gasless transactions & programmable permissions (ERC-4337)",
+    "sub_domain": "wallet-infra-tokenization",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 1,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2026-03-22",
+    "found_in_domains": [
+      "wallet-infra-tokenization"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/andrija-djurovic/adsfcr",
+    "name": "andrija-djurovic/adsfcr",
+    "description": "Applied Data Science for Credit Risk",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 181,
+    "language": "HTML",
+    "license": null,
+    "last_activity": "2026-03-18",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/max-fitzpatrick/credit-scoring-model",
+    "name": "max-fitzpatrick/credit-scoring-model",
+    "description": "Credit scoring machine learning algorithm which predicts probability of default",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 89,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2017-11-19",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/akthammomani/credit_risk_classification",
+    "name": "akthammomani/credit_risk_classification",
+    "description": "Classification Modeling: Probability of Default",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 2,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2022-01-24",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/tayoowolabi/credit-risk-pd-scorecard-woe",
+    "name": "tayoowolabi/credit-risk-pd-scorecard-woe",
+    "description": "Production-ready PD scorecard model using WoE binning and logistic regression, including discrimination testing (AUC/KS), calibration, PSI stability monitoring, and risk-based decision policy under a Basel-aligned framework.",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 0,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2026-03-02",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/avipul751/credit-risk-modeling",
+    "name": "avipul751/credit-risk-modeling",
+    "description": "Develop separate models for Probability of Default (PD), Loss Given Default (LGD) and Exposure At Default (EAD) and use them to built a credit scorecard and find the total Expected Loss for existing loans",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+    "stars": 0,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2023-02-16",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/jlzml/credit-scoring-data-sets",
+    "name": "jlzml/credit-scoring-data-sets",
+    "description": "These common credit score data sets are collected to empirical evaluations, and I will update dynamically.",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 91,
+    "language": "Common Lisp",
+    "license": null,
+    "last_activity": "2019-05-09",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/levist7/credit_risk_modelling",
+    "name": "levist7/credit_risk_modelling",
+    "description": "Credit Risk Modelling | Calculation of PD, LGD, EDA and EL with Machine Learning in Python",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 67,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2023-03-15",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/noxmoon/home-credit-default-risk",
+    "name": "noxmoon/home-credit-default-risk",
+    "description": "Kaggle home credit default risk competition",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 60,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2018-10-29",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/kozodoi/fair_credit_scoring",
+    "name": "kozodoi/fair_credit_scoring",
+    "description": "\u2696\ufe0f Fair ML in credit scoring: Assessment, implementation and profit implications",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 42,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2022-06-17",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/allmeidaapedro/lending-club-credit-scoring",
+    "name": "allmeidaapedro/lending-club-credit-scoring",
+    "description": "In this project, I estimate the PD, EAD and LGD to compute the Expected Loss (EL = PD*EAD*LGD) and design a credit policy on Lending Club's loans.",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 32,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2024-04-30",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/jgfuentesc/woe_credit_scoring",
+    "name": "jgfuentesc/woe_credit_scoring",
+    "description": "Tools for Credit Scoring",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 28,
+    "language": "Jupyter Notebook",
+    "license": "GPL-3.0",
+    "last_activity": "2025-12-20",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/machine-learning-in-credit-scoring/credit-scoring",
+    "name": "machine-learning-in-credit-scoring/credit-scoring",
+    "description": "Implement supervised machine learning techniques in order to further understanding the process in which a client will be granted a credit and be denied a credit.",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 24,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2020-06-03",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/sprasadhpy/credit-risk-models-pd-lgd-ead-expected-loss",
+    "name": "sprasadhpy/credit-risk-models-pd-lgd-ead-expected-loss",
+    "description": "We calculate PD,LGD,EAD and Expected loss using logistic and beta regression.",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 11,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2021-02-16",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/intel-samples/loan-default-risk-prediction",
+    "name": "intel-samples/loan-default-risk-prediction",
+    "description": "AI Starter Kit to predict probability of a loan default from client using XGBoost and leveraging Intel\u00ae optimizations for model serving.",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 4,
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "last_activity": "2026-03-11",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/kridosz/loan-default-prediction_model",
+    "name": "kridosz/loan-default-prediction_model",
+    "description": "Loan Default Prediction Model: A machine learning project that leverages historical lending data to create predictive models for assessing loan default risk, aiding financial institutions in making informed lending decisions.",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 3,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2023-09-06",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/viveksagarsingh/probability-of-credit-card-default",
+    "name": "viveksagarsingh/probability-of-credit-card-default",
+    "description": "Classification problem using multiple ML Algorithms",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 3,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2025-02-12",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/baglat/credit-risk-modeling",
+    "name": "baglat/credit-risk-modeling",
+    "description": "Estimated Expected Loss by modelling PD, LGD and EAD and created a scorecard to identify customers that can default on a given consumer loan in future and estimated capital requirement (Capital Adequacy or regulatory capital) using Basel II and Basel III regulations. Used consumer loan dataset on Kaggle from year 2007-2015 issued by LendingClub company. Used pre-processing techniques such as Weight of Evidence, Fine classing and Coarse Classing before building a Probability Density model. Received an AUC score of 73%.",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 5 domain terms in repo text; penalized for dataset-style signals.",
+    "stars": 2,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2020-07-23",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/samradhyadav/credit-risk-assessment",
+    "name": "samradhyadav/credit-risk-assessment",
+    "description": "Credit Risk Assessment using Probability, Statistics, and ML",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 2,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2025-04-06",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/damhtran/credit-risk-modeling",
+    "name": "damhtran/credit-risk-modeling",
+    "description": "Creating scorecard and estimate expected lost from loan data",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 1,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2022-05-19",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ruochent/pd_model",
+    "name": "ruochent/pd_model",
+    "description": "This project build logistic regression model to predict the probability of default of each customer and evaluate by using Gini Coefficients",
+    "sub_domain": "credit-scoring-risk-modeling",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 1,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2023-09-28",
+    "found_in_domains": [
+      "credit-scoring-risk-modeling"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/juniorcl/transaction-fraud-detection",
+    "name": "juniorcl/transaction-fraud-detection",
+    "description": "A data science project to predict whether a transaction is a fraud or not.",
+    "sub_domain": "fraud-detection-prevention",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 210,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2025-02-03",
+    "found_in_domains": [
+      "fraud-detection-prevention"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/jube-home/aml-fraud-transaction-monitoring",
+    "name": "jube-home/aml-fraud-transaction-monitoring",
+    "description": "Open source AML and Fraud Detection using Machine Learning for Real-Time Transaction Monitoring",
+    "sub_domain": "fraud-detection-prevention",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 7 domain terms in repo text.",
+    "stars": 60,
+    "language": "C#",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "fraud-detection-prevention",
+      "aml-kyc-identity"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/sergio11/online_payment_fraud",
+    "name": "sergio11/online_payment_fraud",
+    "description": "\ud83d\udea8 Fraud Detection with Deep Neural Networks (PoC) \ud83e\udd16 A hands-on personal project to predict fraudulent financial transactions using deep learning. Covers the full pipeline: from exploratory data analysis (EDA) and preprocessing to model training and evaluation. An experimental approach to tackling real-world financial fraud. \ud83d\udcca\ud83d\udd0d",
+    "sub_domain": "fraud-detection-prevention",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+    "stars": 13,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2025-06-21",
+    "found_in_domains": [
+      "fraud-detection-prevention"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/shakiliitju/credit-card-fraud-detection-using-machine-learning",
+    "name": "shakiliitju/credit-card-fraud-detection-using-machine-learning",
+    "description": "Credit card fraud is a significant problem, with billions of dollars lost each year. Machine learning can be used to detect credit card fraud by identifying patterns that are indicative of fraudulent transactions. Credit card fraud refers to the physical loss of a credit card or the loss of sensitive credit card information.",
+    "sub_domain": "fraud-detection-prevention",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 68,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2024-02-07",
+    "found_in_domains": [
+      "fraud-detection-prevention"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/shabopp/frauddetectionusinggan",
+    "name": "shabopp/frauddetectionusinggan",
+    "description": "AI-powered fraud detection and prevention system using GANs and Random Forest for secure digital transactions.",
+    "sub_domain": "fraud-detection-prevention",
+    "score": 5,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+    "stars": 36,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2024-12-22",
+    "found_in_domains": [
+      "fraud-detection-prevention"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/aravind-sundaresan/graph-ml-fraud-detection",
+    "name": "aravind-sundaresan/graph-ml-fraud-detection",
+    "description": "Fraud detection in bank transactions using graph databases and machine learning.",
+    "sub_domain": "fraud-detection-prevention",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 26,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2020-05-02",
+    "found_in_domains": [
+      "fraud-detection-prevention"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/wesleyscholl/slipstream",
+    "name": "wesleyscholl/slipstream",
+    "description": "\u26a1 Real-time fraud & anomaly detection system for streaming transactions. Built with Kafka Streams + Isolation Forest ML. Low-latency processing, online learning, and scalable architecture for detecting fraud patterns in transaction data. \ud83d\udea8\ud83d\udd0d",
+    "sub_domain": "fraud-detection-prevention",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 7 domain terms in repo text.",
+    "stars": 3,
+    "language": "Java",
+    "license": "MIT",
+    "last_activity": "2025-11-20",
+    "found_in_domains": [
+      "fraud-detection-prevention"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ndaruga/fraud-detection-in-credit-cards-using-anormaly-detection",
+    "name": "ndaruga/fraud-detection-in-credit-cards-using-anormaly-detection",
+    "description": "This project involves identifying unusual patterns or behaviors that may indicate fraudulent activity in credit cards. Anomaly detection algorithms work by learning patterns from historical data and then detecting deviations from those patterns in new data. Two algorithms have been utilized. i.e Autoencoders & Angle-based Outlier Detection (ABOD)",
+    "sub_domain": "fraud-detection-prevention",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 1,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2024-02-17",
+    "found_in_domains": [
+      "fraud-detection-prevention"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mo-khalifa96/transaction-fraud-detection",
+    "name": "mo-khalifa96/transaction-fraud-detection",
+    "description": "Developing machine learning classification models for transaction fraud detection",
+    "sub_domain": "fraud-detection-prevention",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+    "stars": 0,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2023-10-18",
+    "found_in_domains": [
+      "fraud-detection-prevention"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/salfaris/financial-fraud-detection",
+    "name": "salfaris/financial-fraud-detection",
+    "description": "Financial transactions fraud detection using ML (research, experimentation and deployment via Google Cloud)",
+    "sub_domain": "fraud-detection-prevention",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 4,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2024-07-31",
+    "found_in_domains": [
+      "fraud-detection-prevention"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/moov-io/watchman",
+    "name": "moov-io/watchman",
+    "description": "AML/CTF/KYC/OFAC Search of global watchlist and sanctions",
+    "sub_domain": "aml-kyc-identity",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 440,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "aml-kyc-identity"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mominalix/ai-based-anti-money-laundering-aml-system",
+    "name": "mominalix/ai-based-anti-money-laundering-aml-system",
+    "description": "A production-ready AML compliance platform that uses machine learning and AI to detect financial crimes in real-time. Built with microservices architecture, it analyzes transaction patterns, screens against sanctions lists, and automatically generates regulatory reports using OpenAI integration.",
+    "sub_domain": "aml-kyc-identity",
+    "score": 5,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+    "stars": 5,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2025-06-08",
+    "found_in_domains": [
+      "aml-kyc-identity"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/opensanctions/opensanctions",
+    "name": "opensanctions/opensanctions",
+    "description": "An open database of international sanctions data, persons of interest and politically exposed persons",
+    "sub_domain": "aml-kyc-identity",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 696,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "aml-kyc-identity"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ekycsolutions/ekyc-id-flutter",
+    "name": "ekycsolutions/ekyc-id-flutter",
+    "description": "An easy to use SDK for developing Identity Verification for KYC process. With this SDK, developers can quickly integrate KYC process into their Flutter apps.",
+    "sub_domain": "aml-kyc-identity",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 42,
+    "language": "Dart",
+    "license": null,
+    "last_activity": "2024-04-10",
+    "found_in_domains": [
+      "aml-kyc-identity"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/wordstotech-design/kyc-verification-software",
+    "name": "wordstotech-design/kyc-verification-software",
+    "description": "Explore top KYC providers and KYC companies offering the best AML KYC software and compliance",
+    "sub_domain": "aml-kyc-identity",
+    "score": 4,
+    "score_rationale": "Matched 2 queries; contains 1 domain term in repo text.",
+    "stars": 0,
+    "language": "JavaScript",
+    "license": "NOASSERTION",
+    "last_activity": "2025-09-09",
+    "found_in_domains": [
+      "aml-kyc-identity"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/trikit/trikit",
+    "name": "trikit/trikit",
+    "description": "A Pythonic Approach to Actuarial Reserving",
+    "sub_domain": "insurance-actuarial-tech",
+    "score": 5,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+    "stars": 12,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2023-12-14",
+    "found_in_domains": [
+      "insurance-actuarial-tech"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/franciscogarate/pyliferisk",
+    "name": "franciscogarate/pyliferisk",
+    "description": "A python library for life actuarial calculations",
+    "sub_domain": "insurance-actuarial-tech",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 119,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2023-09-17",
+    "found_in_domains": [
+      "insurance-actuarial-tech"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/daxaxelrod/open_insure",
+    "name": "daxaxelrod/open_insure",
+    "description": "Open source insurance policy management software",
+    "sub_domain": "insurance-actuarial-tech",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 49,
+    "language": "TypeScript",
+    "license": null,
+    "last_activity": "2024-01-22",
+    "found_in_domains": [
+      "insurance-actuarial-tech"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/vinaykumarkunder/insurance-management-system",
+    "name": "vinaykumarkunder/insurance-management-system",
+    "description": "The project is a RESTful API for a claims management system. It allows clients to register and log in, create new claims, view existing claims, and update their own claims. The API also provides endpoints for administrators to view all claims and update the status of a claim.",
+    "sub_domain": "insurance-actuarial-tech",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 22,
+    "language": "Java",
+    "license": null,
+    "last_activity": "2023-04-05",
+    "found_in_domains": [
+      "insurance-actuarial-tech"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/aws-samples/sample-agentic-insurance-claims-processing-eks",
+    "name": "aws-samples/sample-agentic-insurance-claims-processing-eks",
+    "description": "Agentic Insurance Claims Processing on Amazon EKS",
+    "sub_domain": "insurance-actuarial-tech",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 12,
+    "language": "Python",
+    "license": "MIT-0",
+    "last_activity": "2025-11-26",
+    "found_in_domains": [
+      "insurance-actuarial-tech"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/nikyls007/insurance_managment_system_py",
+    "name": "nikyls007/insurance_managment_system_py",
+    "description": "The Insurance Management System is a console-based program to handle insurance policy administration. It efficiently manages policy and policyholder information, processes claims, and provides improved customer service. It saves time and effort, improving the overall experience for insurance companies and their customers.",
+    "sub_domain": "insurance-actuarial-tech",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 3,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2023-02-08",
+    "found_in_domains": [
+      "insurance-actuarial-tech"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ahan02/catastrophebond_montecarlo",
+    "name": "ahan02/catastrophebond_montecarlo",
+    "description": "Pricing a Tornado Catastrophe Bond with Monte Carlo Method",
+    "sub_domain": "insurance-actuarial-tech",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 2,
+    "language": "R",
+    "license": null,
+    "last_activity": "2017-07-08",
+    "found_in_domains": [
+      "insurance-actuarial-tech"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/lukegeel101/catastrophe-modeling",
+    "name": "lukegeel101/catastrophe-modeling",
+    "description": "Catastrophe modeling project, presented to Professor Havens (Math department) at UMass Amherst 2022",
+    "sub_domain": "insurance-actuarial-tech",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 2,
+    "language": null,
+    "license": null,
+    "last_activity": "2022-12-01",
+    "found_in_domains": [
+      "insurance-actuarial-tech"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/vvanherk/insurance_claims_blockchain",
+    "name": "vvanherk/insurance_claims_blockchain",
+    "description": "Insurance Claims BlockChain dApp",
+    "sub_domain": "insurance-actuarial-tech",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 1,
+    "language": "JavaScript",
+    "license": null,
+    "last_activity": "2018-08-28",
+    "found_in_domains": [
+      "insurance-actuarial-tech"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/madisoncostanza/insurance-portfolio-risk-analysis",
+    "name": "madisoncostanza/insurance-portfolio-risk-analysis",
+    "description": "This is an analytical assessment I completed for Karen Clarke & Company, a Catastrophe & Risk Modeling firm based in Boston. Growing up on the Mississippi Gulf Coast, frequently exposed to major hurricanes, and being the daughter of two insurance agents, I have always been intrigued by how insurance companies assess climate and disaster risks.",
+    "sub_domain": "insurance-actuarial-tech",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 0,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2023-08-08",
+    "found_in_domains": [
+      "insurance-actuarial-tech"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/beancount/beancount",
+    "name": "beancount/beancount",
+    "description": "Beancount: Double-Entry Accounting from Text Files.",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 9,
+    "score_rationale": "Matched 3 queries; contains 5 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 5409,
+    "language": "Python",
+    "license": "GPL-2.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/simonmichael/hledger",
+    "name": "simonmichael/hledger",
+    "description": "Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces.",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 8,
+    "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 4375,
+    "language": "Haskell",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "accounting-bookkeeping",
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/gnucash/gnucash",
+    "name": "gnucash/gnucash",
+    "description": "GnuCash Double-Entry Accounting Program.",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 4148,
+    "language": "C",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/rustledger/rustledger",
+    "name": "rustledger/rustledger",
+    "description": "Modern plain text accounting. Beancount compatible.",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+    "stars": 172,
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/nick-triller/accounting",
+    "name": "nick-triller/accounting",
+    "description": "Double-entry bookkeeping library",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+    "stars": 120,
+    "language": "Java",
+    "license": "MIT",
+    "last_activity": "2023-06-14",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/trevorld/r-ledger",
+    "name": "trevorld/r-ledger",
+    "description": "Imports data from plain text accounting files",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+    "stars": 46,
+    "language": "R",
+    "license": "NOASSERTION",
+    "last_activity": "2024-05-20",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/idurar/idurar-erp-crm",
+    "name": "idurar/idurar-erp-crm",
+    "description": "Free Open Source ERP CRM Software Accounting Invoicing | Node Js React",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 8268,
+    "language": "JavaScript",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-16",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/envato/double_entry",
+    "name": "envato/double_entry",
+    "description": "A double-entry accounting system for Ruby applications.",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 453,
+    "language": "Ruby",
+    "license": "MIT",
+    "last_activity": "2026-01-05",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/flash-oss/medici",
+    "name": "flash-oss/medici",
+    "description": "Double-entry accounting system for nodejs + mongoose",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 340,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2025-07-11",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/colindean/plaintextaccounting_workshop",
+    "name": "colindean/plaintextaccounting_workshop",
+    "description": "An Introduction and Then Some to Plain Text Accounting with Ledger",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 65,
+    "language": "Makefile",
+    "license": "NOASSERTION",
+    "last_activity": "2021-04-27",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/m-d-brown/plain-text-accounting-tools",
+    "name": "m-d-brown/plain-text-accounting-tools",
+    "description": "Python libraries for extracting information from PDF statements of American financial institutions, particularly to import into a Beancount ledger.",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+    "stars": 6,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2022-07-31",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/beancount/ledger2beancount",
+    "name": "beancount/ledger2beancount",
+    "description": "Ledger to Beancount text-based converter",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 95,
+    "language": "Perl",
+    "license": "GPL-3.0",
+    "last_activity": "2024-05-09",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ash-project/ash_double_entry",
+    "name": "ash-project/ash_double_entry",
+    "description": "A customizable double entry bookkeeping system backed by Ash resources.",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 26,
+    "language": "Elixir",
+    "license": null,
+    "last_activity": "2026-03-16",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/beancount/beancount2ledger",
+    "name": "beancount/beancount2ledger",
+    "description": "A converter from Beancount to equivalent Ledger syntax.",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 16,
+    "language": "Python",
+    "license": "GPL-2.0",
+    "last_activity": "2022-08-08",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mikearaya/accouningfrontend",
+    "name": "mikearaya/accouningfrontend",
+    "description": "Accounting module written in angular",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 10,
+    "language": "TypeScript",
+    "license": null,
+    "last_activity": "2022-11-12",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/donearm/ledger",
+    "name": "donearm/ledger",
+    "description": "Beancount ledger for better financial control",
+    "sub_domain": "accounting-bookkeeping",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 2,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2026-03-11",
+    "found_in_domains": [
+      "accounting-bookkeeping"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/openbb-finance/openbb",
+    "name": "openbb-finance/openbb",
+    "description": "Financial data platform for analysts, quants and AI agents.",
+    "sub_domain": "financial-market-data",
+    "score": 7,
+    "score_rationale": "Matched 3 queries; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 63554,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "financial-market-data"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ranaroussi/yfinance",
+    "name": "ranaroussi/yfinance",
+    "description": "Download market data from Yahoo! Finance's API",
+    "sub_domain": "financial-market-data",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 22331,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-22",
+    "found_in_domains": [
+      "financial-market-data"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/open-dev-society/openstock",
+    "name": "open-dev-society/openstock",
+    "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights \u2014 built openly, for everyone, forever free.",
+    "sub_domain": "financial-market-data",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 10053,
+    "language": "TypeScript",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-22",
+    "found_in_domains": [
+      "financial-market-data"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/jerbouma/financedatabase",
+    "name": "jerbouma/financedatabase",
+    "description": "This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.",
+    "sub_domain": "financial-market-data",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 7255,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-22",
+    "found_in_domains": [
+      "financial-market-data",
+      "financial-data-standards"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/achannarasappa/ticker",
+    "name": "achannarasappa/ticker",
+    "description": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal",
+    "sub_domain": "financial-market-data",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 5998,
+    "language": "Go",
+    "license": "GPL-3.0",
+    "last_activity": "2025-12-28",
+    "found_in_domains": [
+      "financial-market-data"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/cuemacro/findatapy",
+    "name": "cuemacro/findatapy",
+    "description": "Python library to download market data via Bloomberg, Eikon, Quandl, Yahoo etc.",
+    "sub_domain": "financial-market-data",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 2008,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-20",
+    "found_in_domains": [
+      "financial-market-data"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/rreichel3/us-stock-symbols",
+    "name": "rreichel3/us-stock-symbols",
+    "description": "Full lists of US Securities on the NASDAQ, NYSE, and AMEX powered by GitHub Actions",
+    "sub_domain": "financial-market-data",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 526,
+    "language": null,
+    "license": null,
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "financial-market-data"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/radoslawkrolikowski/financial-market-data-analysis",
+    "name": "radoslawkrolikowski/financial-market-data-analysis",
+    "description": "Real-Time Financial Market Data Processing and Prediction application",
+    "sub_domain": "financial-market-data",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 101,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2023-07-23",
+    "found_in_domains": [
+      "financial-market-data"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/omerhalid/real-time-market-data-feed-handler-and-order-matching-engine",
+    "name": "omerhalid/real-time-market-data-feed-handler-and-order-matching-engine",
+    "description": "High-Frequency Trading (HFT) order matching engine optimized for low latency. Features NUMA-aware memory allocation, thread pinning, RDTSC timestamps, lock-free SPSC queues, async logging, and UDP busy polling. Built with C++20 for Linux production environments.",
+    "sub_domain": "financial-market-data",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 22,
+    "language": "C++",
+    "license": null,
+    "last_activity": "2025-11-10",
+    "found_in_domains": [
+      "financial-market-data"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/finos/open-regtech-sig",
+    "name": "finos/open-regtech-sig",
+    "description": "The FINOS Regulation Innovation Special Interest Group (SIG) is a community of people interested in creating open source solutions for regulatory and compliance issues in financial services.",
+    "sub_domain": "regulatory-reporting-compliance",
+    "stars": 43,
+    "language": null,
+    "license": "Apache-2.0",
+    "last_activity": "2024-04-12",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+    "found_in_domains": [
+      "regulatory-reporting-compliance"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/finos/common-domain-model",
+    "name": "finos/common-domain-model",
+    "description": "The CDM is a model for financial products, trades in those products, and the lifecycle events of those trades. It is an open source standard that aligns data, systems and processes and is available as code in multiple languages for easy implementation across technologies.",
+    "sub_domain": "financial-data-standards",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 228,
+    "language": "Java",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "regulatory-reporting-compliance",
+      "financial-data-standards"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/finos-labs/opensource-reg-reporting",
+    "name": "finos-labs/opensource-reg-reporting",
+    "description": "No description provided.",
+    "sub_domain": "regulatory-reporting-compliance",
+    "stars": 11,
+    "language": "Java",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-17",
+    "score": 4,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+    "found_in_domains": [
+      "regulatory-reporting-compliance"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/johnsonhk88/ai-bank-statement-document-automation-by-llm-and-personal-finanical-analysis-prediction",
+    "name": "johnsonhk88/ai-bank-statement-document-automation-by-llm-and-personal-finanical-analysis-prediction",
+    "description": "AI Bank Statement Document Automation By LLM model and Personal Finanical Analysis",
+    "sub_domain": "financial-document-processing",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 564,
+    "language": "Jupyter Notebook",
+    "query_hits": 2,
+    "matched_queries": [
+      "statement parser financial document ai github",
+      "financial document processing open source github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/naivehobo/invoicenet",
+    "name": "naivehobo/invoicenet",
+    "description": "Deep neural network to extract intelligent information from invoice documents.",
+    "sub_domain": "financial-document-processing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 2684,
+    "language": "Python",
+    "query_hits": 1,
+    "matched_queries": [
+      "invoice ocr open source github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/invoice-x/invoice2data",
+    "name": "invoice-x/invoice2data",
+    "description": "Extract structured data from PDF invoices",
+    "sub_domain": "financial-document-processing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 2132,
+    "language": "Python",
+    "query_hits": 1,
+    "matched_queries": [
+      "invoice ocr open source github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/alphanome-ai/sec-parser",
+    "name": "alphanome-ai/sec-parser",
+    "description": "Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document.",
+    "sub_domain": "financial-document-processing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 278,
+    "language": "Python",
+    "query_hits": 1,
+    "matched_queries": [
+      "statement parser financial document ai github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/farhadab/sec-edgar-financials",
+    "name": "farhadab/sec-edgar-financials",
+    "description": "Extract financial data from the SEC's EDGAR database",
+    "sub_domain": "financial-document-processing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 167,
+    "language": "Python",
+    "query_hits": 1,
+    "matched_queries": [
+      "sec filing xbrl extraction open source github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/electrovir/statement-parser",
+    "name": "electrovir/statement-parser",
+    "description": "Parse bank and credit card statements",
+    "sub_domain": "financial-document-processing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 38,
+    "language": "TypeScript",
+    "query_hits": 1,
+    "matched_queries": [
+      "statement parser financial document ai github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/felgru/bank-statement-parser",
+    "name": "felgru/bank-statement-parser",
+    "description": "scripts to import bank statement PDFs into hledger files",
+    "sub_domain": "financial-document-processing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 27,
+    "language": "Python",
+    "query_hits": 1,
+    "matched_queries": [
+      "statement parser financial document ai github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/zhaolewen/py-sec-xbrl",
+    "name": "zhaolewen/py-sec-xbrl",
+    "description": "SEC EDGAR Parser based on Python 3",
+    "sub_domain": "financial-document-processing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 25,
+    "language": "Python",
+    "query_hits": 1,
+    "matched_queries": [
+      "sec filing xbrl extraction open source github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/j-sephb-lt-n/pdf-bank-statement-parser",
+    "name": "j-sephb-lt-n/pdf-bank-statement-parser",
+    "description": "Tool for converting First National Bank (FNB) bank statement PDFs into useful structured data",
+    "sub_domain": "financial-document-processing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 6,
+    "language": "Python",
+    "query_hits": 1,
+    "matched_queries": [
+      "statement parser financial document ai github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/shafqaatmalik/llm-based-invoice-ocr",
+    "name": "shafqaatmalik/llm-based-invoice-ocr",
+    "description": "Intelligent invoice data extraction using LLM vision models and OCR. FastAPI + Gradio interface with dual processing modes.",
+    "sub_domain": "financial-document-processing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 3,
+    "language": "Python",
+    "query_hits": 1,
+    "matched_queries": [
+      "invoice ocr open source github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/techno-tut/financialstatement-data-extraction",
+    "name": "techno-tut/financialstatement-data-extraction",
+    "description": "Automated PDF bank statement parser that extracts transaction data from credit  and debit statements into Python objects for further processing and analysis. It analyzes pdf statements (credit or debit) bank statements and extracts python objects for it to be used by computer",
+    "sub_domain": "financial-document-processing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 2,
+    "language": "Jupyter Notebook",
+    "query_hits": 1,
+    "matched_queries": [
+      "statement parser financial document ai github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/hovduc/ocr-invoice",
+    "name": "hovduc/ocr-invoice",
+    "description": "An intelligent OCR system for automated invoice data extraction from Vietnamese retail receipts. The project combines traditional deep learning pipelines (PaddleOCR, DB text detection, VGG-Transformer recognition, LayoutXLM for key information extraction) with a modern Gemini-Flash VLM alternative for simpler, faster, and more accurate extraction.",
+    "sub_domain": "financial-document-processing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 1,
+    "language": "Python",
+    "query_hits": 1,
+    "matched_queries": [
+      "invoice ocr open source github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/pc-1827/statement-parser",
+    "name": "pc-1827/statement-parser",
+    "description": "A statement parser which extracts bank statements into a useable data frame.",
+    "sub_domain": "financial-document-processing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 1,
+    "language": "Python",
+    "query_hits": 1,
+    "matched_queries": [
+      "statement parser financial document ai github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/stephanewamba/finlens",
+    "name": "stephanewamba/finlens",
+    "description": "AI-powered financial document analysis system with multi-agent RAG, GPU-accelerated PDF processing, and hybrid search for SEC filings and annual reports",
+    "sub_domain": "financial-document-processing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 0,
+    "language": "JavaScript",
+    "query_hits": 1,
+    "matched_queries": [
+      "financial document processing open source github"
+    ],
+    "found_in_domains": [
+      "financial-document-processing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/edmcouncil/fibo",
+    "name": "edmcouncil/fibo",
+    "description": "The Financial Industry Business Ontology (FIBO) defines the sets of things that are of interest in financial business applications and the ways that those things can relate to one another. In this way, FIBO can give meaning to any data (e.g., spreadsheets, relational databases, XML documents) that describe the business of finance.",
+    "sub_domain": "financial-data-standards",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 510,
+    "language": "Shell",
+    "license": "MIT",
+    "last_activity": "2026-03-17",
+    "found_in_domains": [
+      "financial-data-standards"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/bfo-ontology/bfo",
+    "name": "bfo-ontology/bfo",
+    "description": "BFO repository including source code and latest documents",
+    "sub_domain": "financial-data-standards",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 298,
+    "language": "HTML",
+    "license": "CC-BY-4.0",
+    "last_activity": "2024-01-30",
+    "found_in_domains": [
+      "financial-data-standards"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/arelle/arelle",
+    "name": "arelle/arelle",
+    "description": "Arelle open source XBRL platform",
+    "sub_domain": "financial-data-standards",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 182,
+    "language": "HTML",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "financial-data-standards"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/manusimidt/py-xbrl",
+    "name": "manusimidt/py-xbrl",
+    "description": "Python-based parser for parsing XBRL and iXBRL files",
+    "sub_domain": "financial-data-standards",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 152,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-08",
+    "found_in_domains": [
+      "financial-data-standards"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/grctc/firo",
+    "name": "grctc/firo",
+    "description": "Financial Industry Regulatory Ontology",
+    "sub_domain": "financial-data-standards",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 10,
+    "language": "Web Ontology Language",
+    "license": "Apache-2.0",
+    "last_activity": "2016-11-16",
+    "found_in_domains": [
+      "financial-data-standards"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/formancehq/reconciliation",
+    "name": "formancehq/reconciliation",
+    "description": "This project tries to reconciliate your Ledger's transactions flow with your payment's provider data",
+    "sub_domain": "reconciliation-settlement",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 3,
+    "language": "Go",
+    "license": null,
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/companieshouse/payment-reconciliation-consumer",
+    "name": "companieshouse/payment-reconciliation-consumer",
+    "description": "Consumer to allow for reconciliation of payments",
+    "sub_domain": "reconciliation-settlement",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 2,
+    "language": "Go",
+    "license": "MIT",
+    "last_activity": "2025-09-05",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/the-commit-company/mint",
+    "name": "The-Commit-Company/mint",
+    "description": "Bank reconciliation made simple for ERPNext",
+    "sub_domain": "reconciliation-settlement",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 150,
+    "language": "TypeScript",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-06",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/maxiwell/ofx-bot",
+    "name": "maxiwell/ofx-bot",
+    "description": "Bank reconciliation using OFX files",
+    "sub_domain": "reconciliation-settlement",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 69,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2017-02-13",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/moniem2020/settly",
+    "name": "moniem2020/Settly",
+    "description": "A reconciliation & settlement-optimization engine (Under Development) for banks, payment aggregators, and corporates.",
+    "sub_domain": "reconciliation-settlement",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 2,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-12-21",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/corda/corda-settler",
+    "name": "corda/corda-settler",
+    "description": "Corda Off-ledger settlement for all the things",
+    "sub_domain": "reconciliation-settlement",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+    "stars": 62,
+    "language": "Kotlin",
+    "license": null,
+    "last_activity": "2020-11-24",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/interledger/settlement-engines",
+    "name": "interledger/settlement-engines",
+    "description": "Interledger Settlement Engines written in Rust",
+    "sub_domain": "reconciliation-settlement",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+    "stars": 13,
+    "language": "Rust",
+    "license": null,
+    "last_activity": "2020-06-17",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/interledgerjs/settlement-core",
+    "name": "interledgerjs/settlement-core",
+    "description": "Framework for creating Interledger settlement engines in JS",
+    "sub_domain": "reconciliation-settlement",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+    "stars": 9,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "last_activity": "2023-03-02",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/interledgerjs/settlement-paypal",
+    "name": "interledgerjs/settlement-paypal",
+    "description": "An Interledger settlement engine for PayPal",
+    "sub_domain": "reconciliation-settlement",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+    "stars": 9,
+    "language": "TypeScript",
+    "license": null,
+    "last_activity": "2023-03-03",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mediaeater/swarm-at-ledger",
+    "name": "Mediaeater/swarm-at-ledger",
+    "description": "Public settlement ledger for swarm.at \u2014 901 hash-chained entries, 76 types",
+    "sub_domain": "reconciliation-settlement",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 1,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2026-03-03",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/masurii/trustguard",
+    "name": "MasuRii/TrustGuard",
+    "description": "Offline-first group expense and settlement ledger. Track shared expenses, manage balances, and settle debts efficiently - all without internet.",
+    "sub_domain": "reconciliation-settlement",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 1,
+    "language": "Dart",
+    "license": "MIT",
+    "last_activity": "2026-01-29",
+    "found_in_domains": [
+      "reconciliation-settlement"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/lballabio/quantlib",
+    "name": "lballabio/quantlib",
+    "description": "The QuantLib C++ library",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 6908,
+    "language": "C++",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/dbrojas/optlib",
+    "name": "dbrojas/optlib",
+    "description": "A library for financial options pricing written in Python.",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1350,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2022-11-18",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/attack68/rateslib",
+    "name": "attack68/rateslib",
+    "description": "A fixed income library for pricing bonds and bond futures, and derivatives such as interest rate swaps (IRS), cross-currency swaps (XCS) and FX swaps. Contains tools for full curveset construction with market standard optimisers and automatic differentiation (AD) and risk sensitivity calculations including delta and cross-gamma.",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 7 domain terms in repo text; has some GitHub adoption.",
+    "stars": 328,
+    "language": null,
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/joaquinbejar/optionstratlib",
+    "name": "joaquinbejar/optionstratlib",
+    "description": "OptionStratLib is a comprehensive Rust library for options trading and strategy development across multiple asset classes.",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 176,
+    "language": "Rust",
+    "license": "MIT",
+    "last_activity": "2026-03-16",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/attack68/book_irds3",
+    "name": "attack68/book_irds3",
+    "description": "Code repository for Pricing and Trading Interest Rate Derivatives",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+    "stars": 114,
+    "language": "Jupyter Notebook",
+    "license": "GPL-3.0",
+    "last_activity": "2022-10-29",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/redukti/openredukti",
+    "name": "redukti/openredukti",
+    "description": "OpenRedukti is a C++ library for Interest Rate Swaps and Fras, supports bootstrapping of Interest Rate Curves, computing NPV and sensitivities using automatic/algorithmic differentiation. It provides a scripting environment in Python and Ravi (a Lua dialect).",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+    "stars": 10,
+    "language": "C",
+    "license": "GPL-3.0",
+    "last_activity": "2023-07-28",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/jkirkby3/proj_option_pricing_matlab",
+    "name": "jkirkby3/proj_option_pricing_matlab",
+    "description": "Quant Option Pricing - Exotic/Vanilla: Barrier, Asian, European, American, Parisian, Lookback, Cliquet, Variance Swap, Swing, Forward Starting, Step, Fader",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 208,
+    "language": "MATLAB",
+    "license": "MIT",
+    "last_activity": "2024-11-19",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/jkirkby3/fypy",
+    "name": "jkirkby3/fypy",
+    "description": "Vanilla and exotic option pricing library to support quantitative R&D. Focus on pricing interesting/useful models  and contracts (including and beyond Black-Scholes), as well as calibration of financial models to market data.",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 139,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-02-27",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/lballabio/quantlib-swig",
+    "name": "lballabio/quantlib-swig",
+    "description": "QuantLib wrappers to other languages",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 386,
+    "language": "SWIG",
+    "license": "NOASSERTION",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/frgomes/jquantlib",
+    "name": "frgomes/jquantlib",
+    "description": "JQuantLib is a library for Quantitative Finance written in 100% Java",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 153,
+    "language": "Java",
+    "license": null,
+    "last_activity": "2016-03-14",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/nhaga/quantlib-python-docs",
+    "name": "nhaga/quantlib-python-docs",
+    "description": "Documentation for QuantLib-Python",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 117,
+    "language": null,
+    "license": null,
+    "last_activity": "2025-12-29",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/quantgirluk/yield-curves-visual",
+    "name": "quantgirluk/yield-curves-visual",
+    "description": "\ud83d\udcc8A dash app showing Interactive Visualisation of the Yield Curve UK and US",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 41,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-12-03",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/tomasrubin/yield-curve-forecasting",
+    "name": "tomasrubin/yield-curve-forecasting",
+    "description": "This repository provides the implementation of a handful of forecasting methods in yield curve modelling.",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 28,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2021-01-22",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/marc-henrard/murisq-ir-models",
+    "name": "marc-henrard/murisq-ir-models",
+    "description": "muRisQ Advisory: Interest Rate Models for Derivatives.",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 16,
+    "language": "Java",
+    "license": "Apache-2.0",
+    "last_activity": "2022-10-09",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/alecombi/hedgehog.jl",
+    "name": "alecombi/hedgehog.jl",
+    "description": "A derivatives pricing library with AD sensitivities and calibration",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 9,
+    "language": "Julia",
+    "license": "MIT",
+    "last_activity": "2026-03-09",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/jeevanba273/derivflow-finance",
+    "name": "jeevanba273/derivflow-finance",
+    "description": "Advanced derivatives analytics platform for quantitative finance - Multi-method pricing, exotic options, stochastic volatility models, and real-time risk management",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 5,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-07-10",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/vieee/cme_equity_options_pricer",
+    "name": "vieee/cme_equity_options_pricer",
+    "description": "Professional-grade options pricing and analytics platform with real-time market data, advanced visualization, and multiple option pricing models.",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 4,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2025-08-09",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/saimanish-p/options-pricing-and-greeks",
+    "name": "saimanish-p/options-pricing-and-greeks",
+    "description": "An interactive toolkit visualising options pricing and Greeks across Black-Scholes and Monte Carlo models with comparative analytics.",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 3,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2025-03-14",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/cran/quantbondcurves",
+    "name": "cran/quantbondcurves",
+    "description": ":exclamation:\u00a0This\u00a0is\u00a0a\u00a0read-only\u00a0mirror\u00a0of\u00a0the\u00a0CRAN\u00a0R\u00a0package\u00a0repository.  QuantBondCurves\u00a0\u2014\u00a0Calculates\u00a0Bond\u00a0Values\u00a0and\u00a0Interest\u00a0Rate\u00a0Curves\u00a0for\u00a0Finance",
+    "sub_domain": "quant-pricing-derivatives",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 1,
+    "language": "R",
+    "license": null,
+    "last_activity": "2025-07-06",
+    "found_in_domains": [
+      "quant-pricing-derivatives"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/pyportfolio/pyportfolioopt",
+    "name": "pyportfolio/pyportfolioopt",
+    "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 9,
+    "score_rationale": "Matched 3 queries; contains 5 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 5582,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2026-03-10",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/dcajasn/riskfolio-lib",
+    "name": "dcajasn/riskfolio-lib",
+    "description": "Portfolio Optimization and Quantitative Strategic Asset Allocation in Python",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 9,
+    "score_rationale": "Matched 3 queries; contains 4 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 3832,
+    "language": "C++",
+    "license": "BSD-3-Clause",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/skfolio/skfolio",
+    "name": "skfolio/skfolio",
+    "description": "Python library for portfolio optimization built on top of scikit-learn",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1910,
+    "language": "Python",
+    "license": "BSD-3-Clause",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/cvxgrp/cvxportfolio",
+    "name": "cvxgrp/cvxportfolio",
+    "description": "Portfolio optimization and back-testing.",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1184,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-10",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/microprediction/precise",
+    "name": "microprediction/precise",
+    "description": "World beating online covariance and portfolio construction.",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 320,
+    "language": "Jupyter Notebook",
+    "license": "NOASSERTION",
+    "last_activity": "2025-10-13",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/convexfi/riskparity.py",
+    "name": "convexfi/riskparity.py",
+    "description": "Fast and scalable construction of risk parity portfolios",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 318,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-12-02",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/tngaspar/factor-risk-parity",
+    "name": "tngaspar/factor-risk-parity",
+    "description": "Factor Risk Parity Portfolio Construction algorithm. Built during my Master's. final project. Backtested on the S&P500.",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 11,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2022-09-18",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ebrandler/mcportfolio",
+    "name": "ebrandler/mcportfolio",
+    "description": "McPortfolio: A Model Context Protocol server providing 9 specialized tools for LLM-driven portfolio optimization using natural language, covering mean-variance to machine learning approaches.",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 6,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2025-06-11",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/lucyyang251210/portfolio-construction---robust-mvo-and-risk-parity",
+    "name": "lucyyang251210/portfolio-construction---robust-mvo-and-risk-parity",
+    "description": "Portfolio Construction - MVO, CVaR, Robust MVO and Risk Parity",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 6,
+    "language": "MATLAB",
+    "license": null,
+    "last_activity": "2022-06-22",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/vdp96/hierarchical_risk_parity",
+    "name": "vdp96/hierarchical_risk_parity",
+    "description": "Portfolio Construction with Hierarchical Risk Parity - A Study",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 4,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2023-12-27",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mumajji/portfolio-optimization---risk-parity-model",
+    "name": "mumajji/portfolio-optimization---risk-parity-model",
+    "description": "Risk Parity portfolio construction in Python, emphasizing balanced risk allocation instead of equal weighting",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 6 domain terms in repo text.",
+    "stars": 1,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2025-04-29",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/thejus03/portfoliomatic",
+    "name": "thejus03/portfoliomatic",
+    "description": "\ud83d\udcc8 Robo-advisory platform using Black-Litterman & MVO for risk-based personalised portfolio generation and simulation.",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 6 domain terms in repo text.",
+    "stars": 1,
+    "language": "JavaScript",
+    "license": null,
+    "last_activity": "2025-08-08",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/vivekpa/optimalportfolio",
+    "name": "vivekpa/optimalportfolio",
+    "description": "An open source library for portfolio optimisation",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 369,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2024-02-27",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/nvidia-ai-blueprints/quantitative-portfolio-optimization",
+    "name": "nvidia-ai-blueprints/quantitative-portfolio-optimization",
+    "description": "NVIDIA Quantitative Portfolio Optimization developer example",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for example-style signals.",
+    "stars": 191,
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "last_activity": "2026-01-15",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/andrewrosemberg/portfolioopt.jl",
+    "name": "andrewrosemberg/portfolioopt.jl",
+    "description": "Portfolio optimization",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 16,
+    "language": "Julia",
+    "license": "MIT",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/mariamwalaa/stocksportfoliooptimization",
+    "name": "mariamwalaa/stocksportfoliooptimization",
+    "description": "End-to-end tool for performing portfolio optimization on a given set of assets and historical stock data.",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 9,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2023-09-17",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/libolight/risk-parity",
+    "name": "libolight/risk-parity",
+    "description": "Risk parity weight calculations and return profiles",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 8,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2018-01-25",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/sdetshubhamthakur/ai-powered-robo-advisor",
+    "name": "sdetshubhamthakur/ai-powered-robo-advisor",
+    "description": "A full-stack, production-ready system that provides automated investment advisory services with an intuitive web interface and explainable AI backend. Perfect for financial institutions, robo-advisors, and investment platforms.",
+    "sub_domain": "portfolio-optimization-allocation",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 0,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2025-11-05",
+    "found_in_domains": [
+      "portfolio-optimization-allocation"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/actualbudget/actual",
+    "name": "actualbudget/actual",
+    "description": "A local-first personal finance app",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 8,
+    "score_rationale": "Matched 3 queries; contains 3 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 25641,
+    "language": "TypeScript",
+    "license": "MIT",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/firefly-iii/firefly-iii",
+    "name": "firefly-iii/firefly-iii",
+    "description": "Firefly III: a personal finances manager",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 8,
+    "score_rationale": "Matched 3 queries; contains 2 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 22766,
+    "language": "PHP",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-24",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/tanq16/expenseowl",
+    "name": "tanq16/expenseowl",
+    "description": "Extremely simple, self-hosted expense tracker with a beautiful UI.",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 1400,
+    "language": "HTML",
+    "license": "MIT",
+    "last_activity": "2025-10-18",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/maybe-finance/maybe",
+    "name": "maybe-finance/maybe",
+    "description": "The personal finance app for everyone",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 5,
+    "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; has strong GitHub adoption; archived repo penalty.",
+    "stars": 54050,
+    "language": "Ruby",
+    "license": "AGPL-3.0",
+    "last_activity": "2025-07-24",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/we-promise/sure",
+    "name": "we-promise/sure",
+    "description": "The personal finance app for everyone. NOT affiliated with or endorsed by Maybe Finance Inc.",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption; fork penalty.",
+    "stars": 7497,
+    "language": "Ruby",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-25",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/rafsoh/dimeapp",
+    "name": "rafsoh/dimeapp",
+    "description": "Dime is a beautiful expense tracker built with iOS design guidelines in mind.",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 1706,
+    "language": "Swift",
+    "license": "GPL-3.0",
+    "last_activity": "2025-03-29",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/budgetzero/budgetzero",
+    "name": "budgetzero/budgetzero",
+    "description": "Open-source, self-hosted, zero-based budgeting.",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 651,
+    "language": "Vue",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-11",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/hisabi-app/hisabi",
+    "name": "hisabi-app/hisabi",
+    "description": "\ud83e\udd11 Open-source personal finance tracking web application with SMS parser",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+    "stars": 442,
+    "language": "PHP",
+    "license": "MIT",
+    "last_activity": "2026-02-15",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/flow-mn/flow",
+    "name": "flow-mn/flow",
+    "description": "A personal finance tracker app built with love, and Flutter",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 413,
+    "language": "Dart",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-20",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ardov/zerro",
+    "name": "ardov/zerro",
+    "description": "Unofficial ZenMoney client with envelope budgeting superpowers",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 263,
+    "language": "TypeScript",
+    "license": "GPL-2.0",
+    "last_activity": "2026-03-02",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/polarmutex/fava-envelope",
+    "name": "polarmutex/fava-envelope",
+    "description": "A beancount fava extension to add a envelope budgeting capability",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 139,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2025-07-17",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ft-t/go-money",
+    "name": "ft-t/go-money",
+    "description": "Go Money is a opensource personal finances manager",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 268,
+    "language": "Go",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-14",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/zombor/hledger-envelope-budget",
+    "name": "zombor/hledger-envelope-budget",
+    "description": "A description for YNAB-like envelope budgeting with hledger",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 46,
+    "language": null,
+    "license": "CC0-1.0",
+    "last_activity": "2026-02-10",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/spritan/expense_tracker",
+    "name": "spritan/expense_tracker",
+    "description": "A modern, AI-powered expense tracking application built with Streamlit that helps you manage your personal finances through natural language input and intelligent categorization. It syncs with your google sheets.",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 22,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2024-12-07",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/nicholasjemblow/envelofy",
+    "name": "nicholasjemblow/envelofy",
+    "description": "Personal Finance enhanced by AI",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 17,
+    "language": "JavaScript",
+    "license": "GPL-3.0",
+    "last_activity": "2025-03-14",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/danielma/veelope",
+    "name": "danielma/veelope",
+    "description": "Envelope budgeting system",
+    "sub_domain": "personal-finance-budgeting",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 4,
+    "language": "Ruby",
+    "license": "MIT",
+    "last_activity": "2023-01-24",
+    "found_in_domains": [
+      "personal-finance-budgeting"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ai4finance-foundation/fingpt",
+    "name": "ai4finance-foundation/fingpt",
+    "description": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize \ud83d\udd25    We release the trained model on HuggingFace.",
+    "sub_domain": "financial-ai-nlp",
+    "score": 7,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 18914,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2026-03-21",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/prosusai/finbert",
+    "name": "prosusai/finbert",
+    "description": "Financial Sentiment Analysis with BERT",
+    "sub_domain": "financial-ai-nlp",
+    "score": 6,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+    "stars": 2059,
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "last_activity": "2022-09-09",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/kennethleungty/finance-llms",
+    "name": "kennethleungty/finance-llms",
+    "description": "Comprehensive Compilation of Real-World LLM Implementation in Financial Services",
+    "sub_domain": "financial-ai-nlp",
+    "score": 6,
+    "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 109,
+    "language": null,
+    "license": "MIT",
+    "last_activity": "2026-03-16",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/tauricresearch/tradingagents",
+    "name": "tauricresearch/tradingagents",
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "sub_domain": "financial-ai-nlp",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 41590,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-22",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ai4finance-foundation/finrobot",
+    "name": "ai4finance-foundation/finrobot",
+    "description": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs \ud83d\ude80 \ud83d\ude80 \ud83d\ude80",
+    "sub_domain": "financial-ai-nlp",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 6483,
+    "language": "Jupyter Notebook",
+    "license": "Apache-2.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/waynedw/sentiment-analysis-in-event-driven-stock-price-movement-prediction",
+    "name": "waynedw/sentiment-analysis-in-event-driven-stock-price-movement-prediction",
+    "description": "Use NLP to predict stock price movement associated with news",
+    "sub_domain": "financial-ai-nlp",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+    "stars": 877,
+    "language": "Python",
+    "license": "MIT",
+    "last_activity": "2024-07-15",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/dagiteferi/financial-news-sentiment-stock-market-correlation-analysis",
+    "name": "dagiteferi/financial-news-sentiment-stock-market-correlation-analysis",
+    "description": "Analyze financial news sentiment and its correlation with stock market movements. Use NLP, sentiment analysis, and financial analytics to uncover insights for enhanced financial forecasting and innovative investment strategies.",
+    "sub_domain": "financial-ai-nlp",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 15,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2025-05-22",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/likithmeruvu/finbert-finetuning-for-stock-sentiment",
+    "name": "likithmeruvu/finbert-finetuning-for-stock-sentiment",
+    "description": "I have fineTuned FinBert Model on 4.9k Financial News Headlines, Got 81-82% ACC and it perfrom well in Financial Stock News Sentiment Analysis",
+    "sub_domain": "financial-ai-nlp",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 13,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2024-03-04",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/felixcharotte/nlp_fnews",
+    "name": "felixcharotte/nlp_fnews",
+    "description": "NLP Project based on sentiment analysis of financial news to predict investment decision on stock market.",
+    "sub_domain": "financial-ai-nlp",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 5,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2025-04-02",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/azadealmasi/bitcoin-price-and-movement-forecasting-incorporating-sentiment-insights-from-vader-and-finbert",
+    "name": "azadealmasi/bitcoin-price-and-movement-forecasting-incorporating-sentiment-insights-from-vader-and-finbert",
+    "description": "This project contains a Transformer-based deep learning model specifically designed for sentiment analysis in the field of cryptocurrency. The model is trained to analyze sentiment and emotions in finance-related news articles and predict their impact on cryptocurrency portfolio performance.",
+    "sub_domain": "financial-ai-nlp",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+    "stars": 3,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2024-04-03",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/hananedupouy/llms-in-finance",
+    "name": "hananedupouy/llms-in-finance",
+    "description": "LLMs in Finance - Generative AI - AI Agents",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 850,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2026-02-23",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/the-finai/pixiu",
+    "name": "the-finai/pixiu",
+    "description": "This repository introduces PIXIU, an open-source resource featuring the first financial large language models (LLMs), instruction tuning data, and evaluation benchmarks to holistically assess financial LLMs. Our goal is to continually push forward the open-source development of financial artificial intelligence (AI).",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 839,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2025-03-04",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/zdong104/fnspid_financial_news_dataset",
+    "name": "zdong104/fnspid_financial_news_dataset",
+    "description": "FNSPID: A Comprehensive Financial News Dataset in Time Series",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for dataset-style signals.",
+    "stars": 387,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "last_activity": "2025-07-24",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/yanglinyi/finnlp-progress",
+    "name": "yanglinyi/finnlp-progress",
+    "description": "NLP progress in Fintech. A repository to track the progress in Natural Language Processing (NLP) related to the domain of Finance, including the datasets, papers, and current state-of-the-art results for the most popular tasks.",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 379,
+    "language": null,
+    "license": null,
+    "last_activity": "2022-04-18",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/adlnlp/finllms",
+    "name": "adlnlp/finllms",
+    "description": "This repository contains related work, benchmarks and datasets for the paper \"Large Language Models in Finance (FinLLMs)\".",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 2 queries; contains 1 domain term in repo text; has some GitHub adoption; penalized for paper-style signals.",
+    "stars": 360,
+    "language": null,
+    "license": null,
+    "last_activity": "2025-04-10",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/maximedb/nlp_papers",
+    "name": "maximedb/nlp_papers",
+    "description": "NLP papers applicable to financial markets",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 135,
+    "language": null,
+    "license": null,
+    "last_activity": "2020-11-23",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/czyssrs/llm_x_papers",
+    "name": "czyssrs/llm_x_papers",
+    "description": "Continually-updated reading list of LLM papers in Finance, Healthcare, and Law",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 2 queries; contains 1 domain term in repo text.",
+    "stars": 54,
+    "language": null,
+    "license": "MIT",
+    "last_activity": "2025-02-10",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/krishna-aditi/nlp-sentiment-analysis-on-stock-news-and-price-monitoring",
+    "name": "krishna-aditi/nlp-sentiment-analysis-on-stock-news-and-price-monitoring",
+    "description": "WebApp to bring together Text Summarization and Sentiment Analysis of the stock related news to better understand the stock price trends.",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 17,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "last_activity": "2025-04-07",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/nilijing/earnings_call_analyzed_by_nlp",
+    "name": "nilijing/earnings_call_analyzed_by_nlp",
+    "description": "Earnings Call Sentiment Analysis. This repository includes my work on extracting the focus area of companies from their earnings calls transcripts.",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 16,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2021-03-21",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/jmcdice/newsfeel",
+    "name": "jmcdice/newsfeel",
+    "description": "NewsFeel: A Sentiment Analysis Tool for Financial News",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 12,
+    "language": "Python",
+    "license": null,
+    "last_activity": "2024-11-11",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/damianboh/stock_sentiment_dashboard",
+    "name": "damianboh/stock_sentiment_dashboard",
+    "description": "Web app which displays the daily and hourly sentiments for a stock (user to enter ticker as input).  Stock sentiments are determined from financial headlines scraped from the web.",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 10,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2022-09-26",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ameya123ch/finanical_news_sentiment_analysis",
+    "name": "ameya123ch/finanical_news_sentiment_analysis",
+    "description": "Financial news sentiment analysis is a method used to analyze the sentiment expressed in financial news articles, such as those published by news outlets,  blogs, and social media platforms. The analysis involves using natural language processing techniques to identify the sentiment expressed in the text and categorize it as positive or negative",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+    "stars": 7,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2023-04-14",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/nazihkalo/transformers_financialnews_sentiment",
+    "name": "nazihkalo/transformers_financialnews_sentiment",
+    "description": "Fine-tuning Transformers from HuggingFace for financials news sentiment",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 4,
+    "language": "Jupyter Notebook",
+    "license": null,
+    "last_activity": "2022-12-08",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/anusky95/finai",
+    "name": "anusky95/finai",
+    "description": "The ultimate hub for financial LLM research, datasets, benchmarks, RAG pipelines, and AI-driven trading resources. Curating the best finance-focused AI tools, models, and papers.",
+    "sub_domain": "financial-ai-nlp",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+    "stars": 2,
+    "language": null,
+    "license": "NOASSERTION",
+    "last_activity": "2025-04-15",
+    "found_in_domains": [
+      "financial-ai-nlp"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/ustaxes/ustaxes",
+    "name": "ustaxes/ustaxes",
+    "description": "Tax filing web application",
+    "sub_domain": "tax-calculation-filing",
+    "score": 5,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+    "stars": 1639,
+    "language": "TypeScript",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-23",
+    "found_in_domains": [
+      "tax-calculation-filing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/chuqiao-wang-tax/open-tax-system-kit",
+    "name": "chuqiao-wang-tax/open-tax-system-kit",
+    "description": "Open-Tax is an AI-powered cloud platform transforming tax compliance through automated data integration, real-time anomaly detection, and multi-jurisdictional reconciliation.",
+    "sub_domain": "tax-calculation-filing",
+    "score": 5,
+    "score_rationale": "Matched 2 queries; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 410,
+    "language": "HTML",
+    "license": null,
+    "last_activity": "2025-02-03",
+    "found_in_domains": [
+      "tax-calculation-filing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/bittytax/bittytax",
+    "name": "bittytax/bittytax",
+    "description": "Crypto-currency tax calculator with support for all popular wallets, exchanges, explorers and migration from other crypto tax platforms",
+    "sub_domain": "tax-calculation-filing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 490,
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "last_activity": "2026-03-19",
+    "found_in_domains": [
+      "tax-calculation-filing"
+    ]
+  },
+  {
+    "repo_url": "https://github.com/valeriansaliou/node-sales-tax",
+    "name": "valeriansaliou/node-sales-tax",
+    "description": ":moneybag: International sales tax calculator for Node (offline, but provides optional online VAT number fraud check). Tax rates are kept up-to-date.",
+    "sub_domain": "tax-calculation-filing",
+    "score": 4,
+    "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+    "stars": 333,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2025-10-31",
+    "found_in_domains": [
+      "tax-calculation-filing"
+    ]
+  }
+]

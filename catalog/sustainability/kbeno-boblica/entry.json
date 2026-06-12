@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kbeno/boblica",
+  "name": "kbeno/boblica",
+  "description": "Python package to do life cycle assessment on buildings",
+  "sub_domain": "life-cycle-assessment",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 5,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-02-12",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Python package to do life cycle assessment on buildings",
+  "slug": "kbeno-boblica"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hl7/fhir",
+  "name": "HL7/fhir",
+  "description": "Official source for the HL7 FHIR Specification.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 10,
+  "score_rationale": "Canonical FHIR specification source and the base standard for interoperability work.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 62.4,
+  "discovery_score": 10,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "Official source for the HL7 FHIR Specification.",
+  "slug": "hl7-fhir"
+}

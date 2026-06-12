@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/elabftw/elabftw",
+  "name": "elabftw/elabftw",
+  "description": ":notebook: eLabFTW is the most popular open source electronic lab notebook for research labs.",
+  "sub_domain": "lab-information-systems",
+  "score": 5,
+  "score_rationale": "Important adjacent lab informatics platform, but it is an electronic lab notebook rather than a classic LIS/LIMS core.",
+  "stars": 1294,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 54.9,
+  "discovery_score": 5,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows",
+    "lab"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": ":notebook: eLabFTW is the most popular open source electronic lab notebook for research labs.",
+  "slug": "elabftw-elabftw"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ices-tools-dev/echosms",
+  "name": "ices-tools-dev/echoSMs",
+  "description": "Acoustic scattering models for fisheries and plankton acoustic research.",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Specialized acoustic-scattering models for fish and plankton research, directly supporting fisheries acoustics and plankton interpretation workflows.",
+  "stars": 20,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 58.6,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Acoustic scattering models for fisheries and plankton acoustic research.",
+  "slug": "ices-tools-dev-echosms"
+}

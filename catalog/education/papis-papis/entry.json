@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/papis/papis",
+  "name": "papis/papis",
+  "description": "Powerful and highly extensible command-line based document and bibliography manager.",
+  "sub_domain": "research-academic-publishing",
+  "score": 7,
+  "score_rationale": "Reference and bibliography manager focused on document workflows for researchers.",
+  "stars": 1667,
+  "language": "HTML",
+  "license": "GNU General Public License v3.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 67.8,
+  "discovery_score": 7,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "Powerful and highly extensible command-line based document and bibliography manager.",
+  "slug": "papis-papis"
+}

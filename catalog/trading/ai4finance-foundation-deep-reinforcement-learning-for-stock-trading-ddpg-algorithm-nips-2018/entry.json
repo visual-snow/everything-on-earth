@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ai4finance-foundation/deep-reinforcement-learning-for-stock-trading-ddpg-algorithm-nips-2018",
+  "name": "ai4finance-foundation/deep-reinforcement-learning-for-stock-trading-ddpg-algorithm-nips-2018",
+  "description": "Practical Deep Reinforcement Learning Approach for Stock Trading. NeurIPS 2018 AI in Finance.",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 8,
+  "score_rationale": "Classic DRL-for-trading implementation tied to the NeurIPS 2018 work.",
+  "stars": 98,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-03-15",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 64.0,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "Practical Deep Reinforcement Learning Approach for Stock Trading. NeurIPS 2018 AI in Finance.",
+  "slug": "ai4finance-foundation-deep-reinforcement-learning-for-stock-trading-ddpg-algorithm-nips-2018"
+}

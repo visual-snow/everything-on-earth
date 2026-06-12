@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brightway-lca/brightway2-data",
+  "name": "brightway-lca/brightway2-data",
+  "description": "Tools for the management of inventory databases and impact assessment methods. Part of the Brightway LCA framework.",
+  "sub_domain": "life-cycle-assessment",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "stars": 21,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 40.7,
+  "discovery_score": 5,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Tools for the management of inventory databases and impact assessment methods. Part of the Brightway LCA framework.",
+  "slug": "brightway-lca-brightway2-data"
+}

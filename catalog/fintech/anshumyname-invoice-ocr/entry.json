@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/anshumyname/invoice_ocr",
+  "name": "anshumyname/invoice_ocr",
+  "description": "This repo aims to convert scanned invoices to excel sheet using cv2 and pytesseract for reading the invoices. It converts the invoice to binary form and detects horizontal and vertical lines to construct the tabular data and perform tesseract reading on each block.",
+  "sub_domain": "financial-document-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 20,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "invoice ocr open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 28.6,
+  "discovery_score": 3,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing",
+    "invoicing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "This repo aims to convert scanned invoices to excel sheet using cv2 and pytesseract for reading the invoices. It converts the invoice to...",
+  "slug": "anshumyname-invoice-ocr"
+}

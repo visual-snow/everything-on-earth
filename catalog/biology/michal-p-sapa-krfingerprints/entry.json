@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/michal-p-sapa/krfingerprints",
+  "name": "michal-p-sapa/krfingerprints",
+  "description": "Script to generate, search, draw Klekota-Roth fingerprints",
+  "sub_domain": "cheminformatics",
+  "score": 5,
+  "score_rationale": "Niche but clearly relevant utility for generating Klekota-Roth fingerprints used in activity and similarity analysis.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2022-08-23",
+  "found_in_domains": [
+    "cheminformatics"
+  ],
+  "quality_score": 34.8,
+  "discovery_score": 5,
+  "tags": [
+    "cheminformatics",
+    "smiles",
+    "qsar",
+    "drug-discovery"
+  ],
+  "category": "Cheminformatics \u2014 drug discovery and molecular fingerprints",
+  "summary": "Script to generate, search, draw Klekota-Roth fingerprints",
+  "slug": "michal-p-sapa-krfingerprints"
+}

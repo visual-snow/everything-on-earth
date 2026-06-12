@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fairagro/csmtools",
+  "name": "fairagro/csmtools",
+  "description": "ETL functions for data integration into crop simulation modeling applications",
+  "sub_domain": "sustainable-agriculture",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 3,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "ETL functions for data integration into crop simulation modeling applications",
+  "slug": "fairagro-csmtools"
+}

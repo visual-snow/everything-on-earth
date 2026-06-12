@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tingwei3931/essayscore_fyp",
+  "name": "tingwei3931/EssayScore_FYP",
+  "description": "Final-year project for automated essay scoring using neural networks.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 6,
+  "score_rationale": "Direct essay-scoring work, but it reads more like a student project than a polished reusable platform.",
+  "stars": 5,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2024-08-07",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 42.2,
+  "discovery_score": 6,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "Final-year project for automated essay scoring using neural networks.",
+  "slug": "tingwei3931-essayscore-fyp"
+}

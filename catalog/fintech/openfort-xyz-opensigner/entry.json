@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openfort-xyz/opensigner",
+  "name": "openfort-xyz/opensigner",
+  "description": "Open-source and self-hostable wallet key management. Create non-custodial wallets for users in Ethereum and Solana",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 75,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 33.0,
+  "discovery_score": 3,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Open-source and self-hostable wallet key management. Create non-custodial wallets for users in Ethereum and Solana",
+  "slug": "openfort-xyz-opensigner"
+}

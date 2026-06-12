@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ogsamrat/econova",
+  "name": "ogsamrat/econova",
+  "description": "EcoNova: AI-Driven Biodiversity & Threat Detection\u00a0Platform",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2025-04-13",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "EcoNova: AI-Driven Biodiversity & Threat Detection\u00a0Platform",
+  "slug": "ogsamrat-econova"
+}

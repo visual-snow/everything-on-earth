@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wilkox/deidentifyr",
+  "name": "wilkox/deidentifyr",
+  "description": "An R package for deidentifying datasets that may contain personally identifiable information (PII) - wilkox/deidentifyr.",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 5,
+  "score_rationale": "Relevant general-purpose de-identification package in R, but less healthcare-specific than the core tools above.",
+  "stars": 30,
+  "language": "R",
+  "license": null,
+  "last_activity": "2019-02-11",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 41.9,
+  "discovery_score": 5,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "An R package for deidentifying datasets that may contain personally identifiable information (PII) - wilkox/deidentifyr.",
+  "slug": "wilkox-deidentifyr"
+}

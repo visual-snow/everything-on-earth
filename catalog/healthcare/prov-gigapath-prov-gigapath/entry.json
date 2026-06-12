@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/prov-gigapath/prov-gigapath",
+  "name": "prov-gigapath/prov-gigapath",
+  "description": "Prov-GigaPath: A whole-slide foundation model for digital pathology from real-world data",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 9,
+  "score_rationale": "Strong pathology foundation model repo with direct diagnostic relevance and substantial research value.",
+  "stars": 584,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-05-16",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 76.1,
+  "discovery_score": 9,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "Prov-GigaPath: A whole-slide foundation model for digital pathology from real-world data",
+  "slug": "prov-gigapath-prov-gigapath"
+}

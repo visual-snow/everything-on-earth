@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gsa/federal-apis",
+  "name": "gsa/federal-apis",
+  "description": "The APIs of the US federal government.",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 5,
+  "language": null,
+  "license": null,
+  "last_activity": "2018-12-04",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 12.2,
+  "discovery_score": 1,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "The APIs of the US federal government.",
+  "slug": "gsa-federal-apis"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/dw-data/crm-africa",
+  "name": "dw-data/CRM-africa",
+  "description": "Data analysis and methodology for a 2025 story on critical minerals in Africa.",
+  "sub_domain": "energy-geopolitics",
+  "score": 6,
+  "score_rationale": "Regional critical-minerals analysis is relevant to energy geopolitics and resource security.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-09-25",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 38.4,
+  "tags": [
+    "africa",
+    "critical-minerals",
+    "resource-security",
+    "data-analysis"
+  ],
+  "category": "Minerals in Africa",
+  "summary": "Data analysis for a story on critical minerals in Africa.",
+  "slug": "dw-data-crm-africa"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sys-bio/tellurium",
+  "name": "sys-bio/tellurium",
+  "description": "Python Environment for Modeling and Simulating Biological Systems",
+  "sub_domain": "systems-biology",
+  "score": 10,
+  "score_rationale": "End-to-end Python environment for SBML-based modeling and simulation, central to systems biology workflows.",
+  "stars": 136,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-05",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 77.1,
+  "discovery_score": 10,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "Python Environment for Modeling and Simulating Biological Systems",
+  "slug": "sys-bio-tellurium"
+}

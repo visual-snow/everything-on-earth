@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/senaite/senaite.core",
+  "name": "senaite/senaite.core",
+  "description": "Enterprise Open Source Laboratory System (LIMS)",
+  "sub_domain": "lab-information-systems",
+  "score": 9,
+  "score_rationale": "Primary SENAITE core package for an enterprise open-source laboratory system; highly relevant and actively maintained.",
+  "stars": 343,
+  "language": "JavaScript",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 74.3,
+  "discovery_score": 9,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "Enterprise Open Source Laboratory System (LIMS)",
+  "slug": "senaite-senaite-core"
+}

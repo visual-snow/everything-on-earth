@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ldbc/ldbc_finbench_datagen",
+  "name": "ldbc/ldbc_finbench_datagen",
+  "description": "A synthetic graph generator on spark for the LDBC Financial Benchmark, featured as temporal graph",
+  "sub_domain": "financial-data-standards",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for benchmark-style signals.",
+  "stars": 13,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-09",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 21.2,
+  "discovery_score": 2,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "A synthetic graph generator on spark for the LDBC Financial Benchmark, featured as temporal graph",
+  "slug": "ldbc-ldbc-finbench-datagen"
+}

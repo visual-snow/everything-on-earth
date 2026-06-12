@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/raudaschl/historical_crypto_trade_simulator",
+  "name": "raudaschl/historical_crypto_trade_simulator",
+  "description": "A simulator to try different trading strategies for different cryptocurrencies on historical data",
+  "sub_domain": "backtesting-frameworks",
+  "score": 2,
+  "score_rationale": "Older but still relevant historical simulator for trying trading strategies on crypto data.",
+  "stars": 27,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2018-01-18",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 23.6,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "A simulator to try different trading strategies for different cryptocurrencies on historical data",
+  "slug": "raudaschl-historical-crypto-trade-simulator"
+}

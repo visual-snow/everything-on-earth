@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/flashbots/hindsight",
+  "name": "flashbots/hindsight",
+  "description": "Retroactively estimate Uniswap-ish MEV on Flashbots MEV-Share by simulating backrun-arbitrages.",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 8,
+  "score_rationale": "Useful MEV simulation and backrun-arbitrage analysis tool for Uniswap-style markets.",
+  "stars": 126,
+  "language": "Rust",
+  "license": null,
+  "last_activity": "2024-04-26",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 64.8,
+  "tags": [
+    "defi",
+    "dex",
+    "mev",
+    "uniswap"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "Retroactively estimate Uniswap-ish MEV on Flashbots MEV-Share by simulating backrun-arbitrages.",
+  "slug": "flashbots-hindsight"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maxnorm8650/medagentsim",
+  "name": "MAXNORM8650/MedAgentSim",
+  "description": "MedAgentSim is an open-source simulated hospital environment designed to evaluate and enhance large language model (LLM) performance in dynamic diagnostic ...",
+  "sub_domain": "medical-education-simulation",
+  "score": 7,
+  "score_rationale": "Simulated hospital environment for LLM-based medical interaction and diagnosis training.",
+  "stars": 139,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-01-31",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 59.2,
+  "discovery_score": 7,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "MedAgentSim is an open-source simulated hospital environment designed to evaluate and enhance large language model (LLM) performance in d...",
+  "slug": "maxnorm8650-medagentsim"
+}

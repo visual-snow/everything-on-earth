@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/luizesser/choosegcm",
+  "name": "luizesser/choosegcm",
+  "description": "R package to help select GCM models",
+  "sub_domain": "ecology-conservation",
+  "score": 7,
+  "score_rationale": "Useful support tool for projecting SDMs and ENMs onto climate scenarios.",
+  "stars": 13,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-09",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 51.2,
+  "discovery_score": 7,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "R package to help select GCM models",
+  "slug": "luizesser-choosegcm"
+}

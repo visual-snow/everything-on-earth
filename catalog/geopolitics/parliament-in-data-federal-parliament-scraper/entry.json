@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/parliament-in-data/federal-parliament-scraper",
+  "name": "Parliament-in-Data/Federal-Parliament-Scraper",
+  "description": "A scraper for obtaining information on the workings of the Belgian Federal Parliament.",
+  "sub_domain": "election-governance-data",
+  "score": 8,
+  "score_rationale": "It is a reusable parliamentary-data scraper with a clear data-ingestion role.",
+  "stars": 22,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-08-04",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 58.9,
+  "tags": [
+    "parliament",
+    "scraping",
+    "belgium",
+    "government-data"
+  ],
+  "category": "Parliament Scraper",
+  "summary": "Scraper for Belgian federal parliament proceedings and data.",
+  "slug": "parliament-in-data-federal-parliament-scraper"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/loopscalelabs/rwa-token",
+  "name": "loopscalelabs/rwa-token",
+  "description": "The RWA Token Program is a wrapper and extension program for Solana Token Extensions that creates a uniform approach to permissions tokens on SVM blockchains.",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 29,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-10-08",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 29.8,
+  "discovery_score": 3,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "The RWA Token Program is a wrapper and extension program for Solana Token Extensions that creates a uniform approach to permissions token...",
+  "slug": "loopscalelabs-rwa-token"
+}

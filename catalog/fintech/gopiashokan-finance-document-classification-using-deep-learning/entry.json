@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/gopiashokan/finance-document-classification-using-deep-learning",
+  "name": "gopiashokan/finance-document-classification-using-deep-learning",
+  "description": "Created a deep learning model using TensorFlow and Transformers to classify financial documents in the Finance and AI domains. Fine-tuned a pre-trained LLM with transfer learning, achieving 95.84% accuracy. Built a Streamlit app for real-time inference and deployed it on Hugging Face, enabling seamless document processing.",
+  "sub_domain": "financial-document-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "query_hits": 1,
+  "matched_queries": [
+    "financial document processing open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Created a deep learning model using TensorFlow and Transformers to classify financial documents in the Finance and AI domains. Fine-tuned...",
+  "slug": "gopiashokan-finance-document-classification-using-deep-learning"
+}

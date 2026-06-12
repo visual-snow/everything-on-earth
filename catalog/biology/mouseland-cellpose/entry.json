@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mouseland/cellpose",
+  "name": "MouseLand/cellpose",
+  "description": "a generalist algorithm for cellular segmentation with human-in-the-loop capabilities",
+  "sub_domain": "biomedical-imaging",
+  "score": 96,
+  "score_rationale": "Widely used cell and nucleus segmentation tool central to bioimage analysis.",
+  "stars": 2124,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 602.6,
+  "discovery_score": 96,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "a generalist algorithm for cellular segmentation with human-in-the-loop capabilities",
+  "slug": "mouseland-cellpose"
+}

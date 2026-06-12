@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/qiyunzhu/woltka",
+  "name": "qiyunzhu/woltka",
+  "description": "Woltka: a versatile meta'omic data classifier",
+  "sub_domain": "metagenomics",
+  "score": 8,
+  "score_rationale": "Focused metagenomic classifier that is directly useful for microbiome taxonomic and functional profiling.",
+  "stars": 77,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-09-08",
+  "found_in_domains": [
+    "metagenomics"
+  ],
+  "quality_score": 63.1,
+  "discovery_score": 8,
+  "tags": [
+    "metagenomics",
+    "microbiome",
+    "taxonomic-classification",
+    "shotgun-sequencing"
+  ],
+  "category": "Metagenomics \u2014 microbiome analysis and taxonomic classification",
+  "summary": "Woltka: a versatile meta'omic data classifier",
+  "slug": "qiyunzhu-woltka"
+}

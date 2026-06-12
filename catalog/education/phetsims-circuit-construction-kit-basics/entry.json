@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/phetsims/circuit-construction-kit-basics",
+  "name": "phetsims/circuit-construction-kit-basics",
+  "description": "Circuit Construction Kit: Basics simulation from PhET Interactive Simulations.",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Official PhET basics simulation for a core learner-facing electricity classroom activity.",
+  "stars": 0,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2023-08-14",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning",
+    "interactive"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "Circuit Construction Kit: Basics simulation from PhET Interactive Simulations.",
+  "slug": "phetsims-circuit-construction-kit-basics"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/scverse/spatialdata",
+  "name": "scverse/spatialdata",
+  "description": "An open and interoperable data framework for spatial omics data",
+  "sub_domain": "spatial-omics",
+  "score": 94,
+  "score_rationale": "Core framework for interoperable spatial-omics data handling and analysis.",
+  "stars": 357,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 584.4,
+  "discovery_score": 94,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "An open and interoperable data framework for spatial omics data",
+  "slug": "scverse-spatialdata"
+}

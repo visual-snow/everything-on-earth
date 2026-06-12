@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/neerchayaphon/medical-consultation-system",
+  "name": "NeerChayaphon/Medical-Consultation-System",
+  "description": "Meet Doctor online wherever you are.",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 6,
+  "score_rationale": "Remote consultation app with WebRTC and scheduling components, but the project appears compact and low-maturity.",
+  "stars": 16,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2022-02-02",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 6,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "Meet Doctor online wherever you are.",
+  "slug": "neerchayaphon-medical-consultation-system"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/artursepp/optimalportfolios",
+  "name": "artursepp/optimalportfolios",
+  "description": "Implementation of optimisation analytics for constructing and backtesting optimal portfolios in Python",
+  "sub_domain": "portfolio-risk-management",
+  "score": 8,
+  "score_rationale": "Focused on optimal-portfolio construction, analytics, and backtesting workflows.",
+  "stars": 67,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "portfolio-risk-management"
+  ],
+  "quality_score": 62.7,
+  "tags": [
+    "portfolio",
+    "risk-management",
+    "allocation",
+    "backtesting"
+  ],
+  "category": "Portfolio Optimization",
+  "summary": "Implementation of optimisation analytics for constructing and backtesting optimal portfolios in Python",
+  "slug": "artursepp-optimalportfolios"
+}

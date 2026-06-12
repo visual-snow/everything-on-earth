@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/n3rmix/watchtower",
+  "name": "n3rmix/WatchTower",
+  "description": "Real-Time Global Conflict Monitoring Dashboard  A comprehensive, data-driven platform for tracking ongoing global conflicts, casualty statistics, and geopolitical analysis from multiple verified sources.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "sub_domain": "conflict-event-tracking",
+  "score": 8,
+  "score_rationale": "Purpose-built real-time conflict monitoring dashboard with explicit casualty and geopolitical tracking.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "conflict-monitoring",
+    "casualty-data",
+    "geopolitics",
+    "dashboard"
+  ],
+  "category": "Conflict Dashboard",
+  "summary": "Real-time dashboard for global conflicts, casualties, and analysis.",
+  "slug": "n3rmix-watchtower"
+}

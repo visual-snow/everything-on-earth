@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gcorso/diffdock",
+  "name": "gcorso/DiffDock",
+  "description": "Implementation of DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 9,
+  "score_rationale": "Strong modern docking method and a widely cited diffusion-based baseline for protein-ligand pose prediction.",
+  "stars": 1467,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-05-02",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 79.3,
+  "discovery_score": 9,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "Implementation of DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking",
+  "slug": "gcorso-diffdock"
+}

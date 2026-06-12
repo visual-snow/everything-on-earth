@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/kiprotect/klaro",
+  "name": "kiprotect/klaro",
+  "description": "Klaro Privacy Manager. An open-source, privacy-friendly & compliant consent manager for your website.",
+  "sub_domain": "privacy-data-protection",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1439,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2025-03-27",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 61.3,
+  "discovery_score": 6,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction",
+    "consent"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "Klaro Privacy Manager. An open-source, privacy-friendly & compliant consent manager for your website.",
+  "slug": "kiprotect-klaro"
+}

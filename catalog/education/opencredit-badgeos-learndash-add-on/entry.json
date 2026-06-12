@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opencredit/badgeos-learndash-add-on",
+  "name": "opencredit/BadgeOS-LearnDash-Add-on",
+  "description": "An add-on that connects BadgeOS and LearnDash",
+  "sub_domain": "credentialing-certification",
+  "score": 4,
+  "score_rationale": "LearnDash integration add-on for BadgeOS; niche but directly tied to learning credential issuance.",
+  "stars": 6,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2020-02-29",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "An add-on that connects BadgeOS and LearnDash",
+  "slug": "opencredit-badgeos-learndash-add-on"
+}

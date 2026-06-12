@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/os-climate/itr-data-pipeline",
+  "name": "os-climate/itr-data-pipeline",
+  "description": "Produce data for ITR tool using data from Data Commons",
+  "sub_domain": "climate-finance",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "Produce data for ITR tool using data from Data Commons",
+  "slug": "os-climate-itr-data-pipeline"
+}

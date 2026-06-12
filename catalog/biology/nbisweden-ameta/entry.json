@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nbisweden/ameta",
+  "name": "NBISweden/aMeta",
+  "description": "Ancient microbiome snakemake workflow",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 8,
+  "score_rationale": "Useful ancient-DNA metagenomics workflow that remains squarely inside the requested niche.",
+  "stars": 27,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-04-11",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 59.6,
+  "discovery_score": 8,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Ancient microbiome snakemake workflow",
+  "slug": "nbisweden-ameta"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/forest-modelling-lab/3d-cmcc-fem",
+  "name": "forest-modelling-lab/3d-cmcc-fem",
+  "description": "3D-CMCC-FEM code",
+  "sub_domain": "climate-biology",
+  "score": 8,
+  "score_rationale": "The forest ecosystem model is used to simulate growth, carbon, and species-mixing responses under climate change.",
+  "stars": 13,
+  "language": "C",
+  "license": null,
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 57.2,
+  "discovery_score": 8,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "3D-CMCC-FEM code",
+  "slug": "forest-modelling-lab-3d-cmcc-fem"
+}

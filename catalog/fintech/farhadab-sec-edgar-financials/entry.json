@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/farhadab/sec-edgar-financials",
+  "name": "farhadab/sec-edgar-financials",
+  "description": "Extract financial data from the SEC's EDGAR database",
+  "sub_domain": "financial-document-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 167,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "sec filing xbrl extraction open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 41.8,
+  "discovery_score": 4,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Extract financial data from the SEC's EDGAR database",
+  "slug": "farhadab-sec-edgar-financials"
+}

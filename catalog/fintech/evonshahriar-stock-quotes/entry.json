@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/evonshahriar/stock-quotes",
+  "name": "evonshahriar/stock-quotes",
+  "description": "A collection of open-source APIs and packages to access live and historical stock price data.",
+  "sub_domain": "financial-market-data",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 98,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2020-04-04",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 22.0,
+  "discovery_score": 1,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "A collection of open-source APIs and packages to access live and historical stock price data.",
+  "slug": "evonshahriar-stock-quotes"
+}

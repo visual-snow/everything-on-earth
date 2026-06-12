@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jschnase/mmx_toolkit",
+  "name": "jschnase/mmx_toolkit",
+  "description": "MMX Toolkit Project Archive",
+  "sub_domain": "ecology-conservation",
+  "score": 7,
+  "score_rationale": "Retrospective ecological niche modeling platform with direct avian-conservation use.",
+  "stars": 0,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2025-08-26",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "MMX Toolkit Project Archive",
+  "slug": "jschnase-mmx-toolkit"
+}

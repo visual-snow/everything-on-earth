@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/synthetichealth/synthea",
+  "name": "synthetichealth/synthea",
+  "description": "SyntheaTM is a Synthetic Patient Population Simulator. The goal is to output synthetic, realistic (but not real), patient data and associated health records ...",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 9,
+  "score_rationale": "Core synthetic health-data generator and a standard privacy-preserving source for realistic patient records.",
+  "stars": 3100,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 81.9,
+  "discovery_score": 9,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa",
+    "patient-records"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "SyntheaTM is a Synthetic Patient Population Simulator. The goal is to output synthetic, realistic (but not real), patient data and associ...",
+  "slug": "synthetichealth-synthea"
+}

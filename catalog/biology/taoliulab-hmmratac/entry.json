@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/taoliulab/hmmratac",
+  "name": "taoliulab/HMMRATAC",
+  "description": "HMMRATAC peak caller for ATAC-seq data",
+  "sub_domain": "epigenomics",
+  "score": 9,
+  "score_rationale": "Established ATAC-seq peak caller that is directly in scope, though the upstream is now quiet.",
+  "stars": 0,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2019-08-19",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "HMMRATAC peak caller for ATAC-seq data",
+  "slug": "taoliulab-hmmratac"
+}

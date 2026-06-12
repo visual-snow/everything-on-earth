@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/danforthcenter/plantcv",
+  "name": "danforthcenter/plantcv",
+  "description": "Plant phenotyping with image analysis",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 10,
+  "score_rationale": "The flagship open-source plant phenotyping framework; it fills the missing general-purpose image-analysis layer in this domain.",
+  "stars": 773,
+  "language": "Python",
+  "license": "MPL-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 83.1,
+  "discovery_score": 10,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Plant phenotyping with image analysis",
+  "slug": "danforthcenter-plantcv"
+}

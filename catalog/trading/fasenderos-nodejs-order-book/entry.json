@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/fasenderos/nodejs-order-book",
+  "name": "fasenderos/nodejs-order-book",
+  "description": "Ultra-fast Limit Order Book for Node.js written in TypeScript for high-frequency trading (HFT) :rocket::rocket:",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 9,
+  "score_rationale": "Focused HFT order book implementation with a clear matching-engine purpose.",
+  "stars": 194,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 72.3,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "Ultra-fast Limit Order Book for Node.js written in TypeScript for high-frequency trading (HFT)...",
+  "slug": "fasenderos-nodejs-order-book"
+}

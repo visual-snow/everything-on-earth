@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/phetsims/gravity-and-orbits",
+  "name": "phetsims/gravity-and-orbits",
+  "description": "\"Gravity And Orbits\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Official PhET simulation repo for a canonical learner-facing astronomy and physics classroom activity.",
+  "stars": 12,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 62.9,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning",
+    "interactive"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "\"Gravity And Orbits\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "slug": "phetsims-gravity-and-orbits"
+}

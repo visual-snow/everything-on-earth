@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ebgirard/quantmetaforam",
+  "name": "ebgirard/quantmetaforam",
+  "description": "Quantitative assessment of reef foraminifera community from metabarcoding data",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Reef foraminifera metabarcoding analysis tool for quantifying community composition in coral-reef studies.",
+  "stars": 0,
+  "language": "R",
+  "license": null,
+  "last_activity": "2024-10-28",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries",
+    "biodiversity"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Quantitative assessment of reef foraminifera community from metabarcoding data",
+  "slug": "ebgirard-quantmetaforam"
+}

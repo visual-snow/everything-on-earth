@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/summersqh/ammonia",
+  "name": "summersqh/ammonia",
+  "description": "This is the code and data for life cycle assessment of ammonia production.",
+  "sub_domain": "life-cycle-assessment",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-11-28",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "This is the code and data for life cycle assessment of ammonia production.",
+  "slug": "summersqh-ammonia"
+}

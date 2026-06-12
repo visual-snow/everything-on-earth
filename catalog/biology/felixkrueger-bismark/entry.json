@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/felixkrueger/bismark",
+  "name": "FelixKrueger/Bismark",
+  "description": "A tool to map bisulfite converted sequence reads and determine cytosine methylation states",
+  "sub_domain": "epigenomics",
+  "score": 10,
+  "score_rationale": "Canonical bisulfite-seq mapping and methylation calling tool that is foundational for DNA methylation analysis.",
+  "stars": 445,
+  "language": "HTML",
+  "license": "GPL-3.0",
+  "last_activity": "2025-08-08",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 81.2,
+  "discovery_score": 10,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "A tool to map bisulfite converted sequence reads and determine cytosine methylation states",
+  "slug": "felixkrueger-bismark"
+}

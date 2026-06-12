@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vnmrtz/audits",
+  "name": "vnmrtz/audits",
+  "description": "Here's a compilation of smart contract audits I've been involved in, along with some live bugs I've discovered.",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 5,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-01-28",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Here's a compilation of smart contract audits I've been involved in, along with some live bugs I've discovered.",
+  "slug": "vnmrtz-audits"
+}

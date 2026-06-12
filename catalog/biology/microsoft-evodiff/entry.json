@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/evodiff",
+  "name": "microsoft/evodiff",
+  "description": "Generation of protein sequences and evolutionary alignments via discrete diffusion models",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 9,
+  "score_rationale": "A canonical protein-sequence diffusion model with direct relevance to generative protein engineering.",
+  "stars": 665,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-15",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 76.6,
+  "discovery_score": 9,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Generation of protein sequences and evolutionary alignments via discrete diffusion models",
+  "slug": "microsoft-evodiff"
+}

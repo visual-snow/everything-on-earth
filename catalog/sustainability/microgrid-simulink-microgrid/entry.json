@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/microgrid/simulink-microgrid",
+  "name": "microgrid/simulink-microgrid",
+  "description": "24h simulation of a microgrid",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 87,
+  "language": "Matlab",
+  "license": null,
+  "last_activity": "2015-09-15",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 33.6,
+  "discovery_score": 3,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy",
+    "microgrid"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "24h simulation of a microgrid",
+  "slug": "microgrid-simulink-microgrid"
+}

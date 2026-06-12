@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sentinel-hub/sentinelhub-py",
+  "name": "sentinel-hub/sentinelhub-py",
+  "description": "Download and process satellite imagery in Python using Sentinel Hub services.",
+  "stars": 890,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-10",
+  "sub_domain": "geoint-tools",
+  "score": 8,
+  "score_rationale": "Direct satellite-imagery access and processing client for operational GEOINT work.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 71.6,
+  "tags": [
+    "satellite-imagery",
+    "sentinel",
+    "api",
+    "remote-sensing"
+  ],
+  "category": "Satellite Imagery API",
+  "summary": "Python client for downloading and processing Sentinel Hub imagery.",
+  "slug": "sentinel-hub-sentinelhub-py"
+}

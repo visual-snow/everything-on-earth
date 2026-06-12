@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/geobrodas/adalat-court-management",
+  "name": "geobrodas/adalat-court-management",
+  "description": "A court management system to add, register case, withdraw case seamlessly.",
+  "sub_domain": "court-case-management",
+  "score": 6,
+  "score_rationale": "Matched 3 queries; contains 3 domain terms in repo text.",
+  "stars": 7,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2021-11-21",
+  "found_in_domains": [
+    "court-case-management"
+  ],
+  "quality_score": 43.2,
+  "discovery_score": 6,
+  "tags": [
+    "court-case-management",
+    "e-filing",
+    "docket-management",
+    "judicial-workflow",
+    "court"
+  ],
+  "category": "Court / Case Management \u2014 docketing, e-filing, case tracking, judicial workflow",
+  "summary": "A court management system to add, register case, withdraw case seamlessly.",
+  "slug": "geobrodas-adalat-court-management"
+}

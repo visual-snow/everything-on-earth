@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/synbiodex/libsbolj",
+  "name": "synbiodex/libsbolj",
+  "description": "Java Library for Synthetic Biology Open Language (SBOL)",
+  "sub_domain": "synthetic-biology",
+  "score": 10,
+  "score_rationale": "Foundational SBOL implementation for the synthetic-biology standards ecosystem.",
+  "stars": 40,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2025-07-12",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 72.9,
+  "discovery_score": 10,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "Java Library for Synthetic Biology Open Language (SBOL)",
+  "slug": "synbiodex-libsbolj"
+}

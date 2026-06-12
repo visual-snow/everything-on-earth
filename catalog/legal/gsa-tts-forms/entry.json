@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gsa-tts/forms",
+  "name": "gsa-tts/forms",
+  "description": "Friendly government forms for everyone.",
+  "sub_domain": "legal-document-automation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 13,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 27.2,
+  "discovery_score": 3,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "Friendly government forms for everyone.",
+  "slug": "gsa-tts-forms"
+}

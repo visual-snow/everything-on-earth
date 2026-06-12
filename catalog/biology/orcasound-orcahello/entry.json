@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/orcasound/orcahello",
+  "name": "orcasound/orcahello",
+  "description": "Real-time AI-assisted killer whale notification system (model and moderator portal)",
+  "sub_domain": "marine-biology",
+  "score": 9,
+  "score_rationale": "Purpose-built marine bioacoustics software for real-time killer-whale alerting and moderation.",
+  "stars": 51,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 67.7,
+  "discovery_score": 9,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Real-time AI-assisted killer whale notification system (model and moderator portal)",
+  "slug": "orcasound-orcahello"
+}

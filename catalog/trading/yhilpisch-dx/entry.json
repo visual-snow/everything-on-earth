@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/yhilpisch/dx",
+  "name": "yhilpisch/dx",
+  "description": "DX Analytics | Financial and Derivatives Analytics with Python",
+  "sub_domain": "options-derivatives",
+  "score": 8,
+  "score_rationale": "A broad derivatives analytics toolkit with direct relevance to option valuation, calibration, and risk analysis.",
+  "stars": 768,
+  "language": "Jupyter Notebook",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-04-05",
+  "found_in_domains": [
+    "options-derivatives"
+  ],
+  "quality_score": 71.1,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "DX Analytics | Financial and Derivatives Analytics with Python",
+  "slug": "yhilpisch-dx"
+}

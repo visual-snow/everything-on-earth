@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sourize/navai-guard",
+  "name": "sourize/NavAI-Guard",
+  "description": "AI-Powered Maritime Security Through Intelligent Anomaly Detection",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 7,
+  "score_rationale": "Maritime anomaly-detection system for security-oriented monitoring.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-01-21",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 44.4,
+  "tags": [
+    "maritime-security",
+    "anomaly-detection",
+    "ais",
+    "ai"
+  ],
+  "category": "Maritime Anomaly Detection",
+  "summary": "AI system for detecting anomalous maritime activity.",
+  "slug": "sourize-navai-guard"
+}

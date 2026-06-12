@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cellprofiler/cellprofiler",
+  "name": "CellProfiler/CellProfiler",
+  "description": "An open-source application for biological image analysis",
+  "sub_domain": "biomedical-imaging",
+  "score": 10,
+  "score_rationale": "CellProfiler is one of the canonical open-source platforms for biological image analysis and batch workflow execution.",
+  "stars": 1098,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 84.3,
+  "discovery_score": 10,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "An open-source application for biological image analysis",
+  "slug": "cellprofiler-cellprofiler"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/swolfpy-project/swolfpy",
+  "name": "swolfpy-project/swolfpy",
+  "description": "SwolfPy is a free, multi-platform, Python-based, open-source, SWM LCA optimization framework with built-in parametric and Monte Carlo sensitivity and uncertainty analysis capabilities.",
+  "sub_domain": "circular-economy-waste",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 25,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2024-03-04",
+  "found_in_domains": [
+    "circular-economy-waste"
+  ],
+  "quality_score": 29.3,
+  "discovery_score": 3,
+  "tags": [
+    "circular-economy",
+    "material-flow",
+    "recycling",
+    "waste-tracking",
+    "lca"
+  ],
+  "category": "Circular Economy / Waste \u2014 material flow analysis, recycling optimization, waste tracking",
+  "summary": "SwolfPy is a free, multi-platform, Python-based, open-source, SWM LCA optimization framework with built-in parametric and Monte Carlo sen...",
+  "slug": "swolfpy-project-swolfpy"
+}

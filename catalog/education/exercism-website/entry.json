@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/exercism/website",
+  "name": "exercism/website",
+  "description": "The codebase for Exercism's website.",
+  "sub_domain": "interactive-coding-education",
+  "score": 8,
+  "score_rationale": "Exercise-driven coding education platform with mentorship and guided practice.",
+  "stars": 527,
+  "language": "Ruby",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 69.8,
+  "discovery_score": 8,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "The codebase for Exercism's website.",
+  "slug": "exercism-website"
+}

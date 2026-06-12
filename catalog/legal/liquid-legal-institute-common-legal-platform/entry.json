@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/liquid-legal-institute/common-legal-platform",
+  "name": "liquid-legal-institute/common-legal-platform",
+  "description": "CLP Principles by the Liquid Legal Institute",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 11,
+  "language": null,
+  "license": null,
+  "last_activity": "2021-04-12",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 32.6,
+  "discovery_score": 4,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "CLP Principles by the Liquid Legal Institute",
+  "slug": "liquid-legal-institute-common-legal-platform"
+}

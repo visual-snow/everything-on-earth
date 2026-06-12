@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/databricks-industry-solutions/smart-claims",
+  "name": "databricks-industry-solutions/smart-claims",
+  "description": "Use Databricks to improve the Claims Management process for faster claims settlement, lower claims processing costs and quicker identification of possible fraud",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 26,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2023-12-10",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 29.5,
+  "discovery_score": 3,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring",
+    "settlement"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "Use Databricks to improve the Claims Management process for faster claims settlement, lower claims processing costs and quicker identific...",
+  "slug": "databricks-industry-solutions-smart-claims"
+}

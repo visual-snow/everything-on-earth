@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ccnmtl/django-lti-provider",
+  "name": "ccnmtl/django-lti-provider",
+  "description": "Django package that adds LTI functionality for the framework.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 8,
+  "score_rationale": "Established Django-based LTI provider useful for integrating external tools into school platforms.",
+  "stars": 46,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 61.4,
+  "discovery_score": 8,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "Django package that adds LTI functionality for the framework.",
+  "slug": "ccnmtl-django-lti-provider"
+}

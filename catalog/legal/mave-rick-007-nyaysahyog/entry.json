@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mave-rick-007/nyaysahyog",
+  "name": "mave-rick-007/nyaysahyog",
+  "description": "SIH 2023 Project",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 2,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2023-10-31",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 9.8,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "SIH 2023 Project",
+  "slug": "mave-rick-007-nyaysahyog"
+}

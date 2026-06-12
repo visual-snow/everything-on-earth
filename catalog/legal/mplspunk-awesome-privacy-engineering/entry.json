@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mplspunk/awesome-privacy-engineering",
+  "name": "mplspunk/awesome-privacy-engineering",
+  "description": "A curated list of resources related to privacy engineering",
+  "sub_domain": "privacy-data-protection",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 184,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-09-28",
+  "found_in_domains": [
+    "privacy-data-protection",
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 48.1,
+  "discovery_score": 5,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "A curated list of resources related to privacy engineering",
+  "slug": "mplspunk-awesome-privacy-engineering"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/parisson/teleforma",
+  "name": "Parisson/TeleForma",
+  "description": "Open e-learning platform with live video conferencing",
+  "sub_domain": "video-lecture-platforms",
+  "score": 5,
+  "score_rationale": "Education-first platform that directly integrates live video into learning flows.",
+  "stars": 29,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "video-lecture-platforms"
+  ],
+  "quality_score": 41.8,
+  "discovery_score": 5,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "Open e-learning platform with live video conferencing",
+  "slug": "parisson-teleforma"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fastdatascience/clinical_trial_risk",
+  "name": "fastdatascience/clinical_trial_risk",
+  "description": "Clinical Trial Risk Tool for analysing clinical trial protocols using natural language processing and assessing the risk of ending uninformatively, developed by Fast Data Science",
+  "sub_domain": "clinical-trials-research",
+  "score": 6,
+  "score_rationale": "Useful protocol-analysis and risk-scoring notebook, but narrower than the main trial operations and registry tools.",
+  "stars": 12,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-01-29",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 44.9,
+  "discovery_score": 6,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Clinical Trial Risk Tool for analysing clinical trial protocols using natural language processing and assessing the risk of ending uninfo...",
+  "slug": "fastdatascience-clinical-trial-risk"
+}

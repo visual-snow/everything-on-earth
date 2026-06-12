@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mitre/fhir-server",
+  "name": "mitre/fhir-server",
+  "description": "A fast, open source, HL7 FHIR server.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 8,
+  "score_rationale": "Strong FHIR server implementation with clear interoperability relevance.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "A fast, open source, HL7 FHIR server.",
+  "slug": "mitre-fhir-server"
+}

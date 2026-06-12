@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jeffuz/ecoscan",
+  "name": "jeffuz/ecoscan",
+  "description": "Explore products, trace their impact, and join a community dedicated to conscious choices for a greener tomorrow.",
+  "sub_domain": "environmental-justice",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2024-06-26",
+  "found_in_domains": [
+    "environmental-justice"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "environmental-justice",
+    "equity",
+    "exposure-mapping",
+    "community-impact"
+  ],
+  "category": "Environmental Justice \u2014 exposure mapping, equity analysis, community impact tools",
+  "summary": "Explore products, trace their impact, and join a community dedicated to conscious choices for a greener tomorrow.",
+  "slug": "jeffuz-ecoscan"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/tsaftaridis/virtual_echo",
+  "name": "Tsaftaridis/Virtual_echo",
+  "description": "GMENEcho is an choose-your-own adventure educational game with four virtual patient cases developed to benchmark and enhance small-scale echocardiography ...",
+  "sub_domain": "medical-education-simulation",
+  "score": 7,
+  "score_rationale": "Virtual patient cases for echocardiography training, a good specialty simulation fit.",
+  "stars": 1,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-06-29",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient",
+    "patient-records"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "GMENEcho is an choose-your-own adventure educational game with four virtual patient cases developed to benchmark and enhance small-scale...",
+  "slug": "tsaftaridis-virtual-echo"
+}

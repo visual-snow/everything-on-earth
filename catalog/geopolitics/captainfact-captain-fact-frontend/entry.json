@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/captainfact/captain-fact-frontend",
+  "name": "CaptainFact/captain-fact-frontend",
+  "description": "Frontend for CaptainFact, a collaborative fact-checking platform.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 8,
+  "score_rationale": "It is a mature civic fact-checking frontend used for collaborative verification.",
+  "stars": 90,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-07",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 63.7,
+  "tags": [
+    "fact-checking",
+    "collaboration",
+    "verification",
+    "frontend"
+  ],
+  "category": "Fact-Checking Platform",
+  "summary": "Frontend for collaborative fact-checking workflows.",
+  "slug": "captainfact-captain-fact-frontend"
+}

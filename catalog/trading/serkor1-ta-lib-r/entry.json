@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/serkor1/ta-lib-r",
+  "name": "serkor1/ta-lib-r",
+  "description": "Technical analysis in R: indicators, candlestick pattern detection, and interactive trading charts.",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 4,
+  "score_rationale": "R-focused TA library with indicators and candlestick pattern detection, which is directly relevant.",
+  "stars": 8,
+  "language": "R",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 31.6,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation",
+    "candlesticks"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "Technical analysis in R: indicators, candlestick pattern detection, and interactive trading charts.",
+  "slug": "serkor1-ta-lib-r"
+}

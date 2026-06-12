@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lale-help/lale-help",
+  "name": "lale-help/lale-help",
+  "description": "A collaborative platform for volunteer refugee support.",
+  "sub_domain": "migration-refugee-data",
+  "score": 8,
+  "score_rationale": "Collaborative platform for volunteer refugee support and coordination.",
+  "stars": 28,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 59.7,
+  "tags": [
+    "refugees",
+    "volunteer-coordination",
+    "support",
+    "platform"
+  ],
+  "category": "Volunteer Support Platform",
+  "summary": "Collaborative platform for volunteer refugee support.",
+  "slug": "lale-help-lale-help"
+}

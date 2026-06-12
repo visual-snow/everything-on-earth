@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mihakralj/quantalib",
+  "name": "mihakralj/quantalib",
+  "description": "C# TA library for real-time financial analysis, offering ~100 indicators. Available on NuGet, Quantower compatible. Ensures early validity of calculated data, calculation accuracy tested against four TA libraries.",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 4,
+  "score_rationale": "Focused C# technical analysis library with a sizable indicator catalog and explicit TA positioning.",
+  "stars": 89,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 39.6,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "C# TA library for real-time financial analysis, offering ~100 indicators. Available on NuGet, Quantower...",
+  "slug": "mihakralj-quantalib"
+}

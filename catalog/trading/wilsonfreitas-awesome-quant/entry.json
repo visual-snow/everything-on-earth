@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/wilsonfreitas/awesome-quant",
+  "name": "wilsonfreitas/awesome-quant",
+  "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
+  "sub_domain": "backtesting-frameworks",
+  "score": 9,
+  "score_rationale": "Broad, highly cited quant resources list that prominently catalogs backtesting engines and adjacent frameworks.",
+  "stars": 25089,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 89.2,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
+  "slug": "wilsonfreitas-awesome-quant"
+}

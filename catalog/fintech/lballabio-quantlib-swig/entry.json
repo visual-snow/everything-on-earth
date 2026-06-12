@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lballabio/quantlib-swig",
+  "name": "lballabio/quantlib-swig",
+  "description": "QuantLib wrappers to other languages",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 386,
+  "language": "SWIG",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 44.7,
+  "discovery_score": 4,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "QuantLib wrappers to other languages",
+  "slug": "lballabio-quantlib-swig"
+}

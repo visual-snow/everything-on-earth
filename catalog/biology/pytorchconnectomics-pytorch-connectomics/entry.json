@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pytorchconnectomics/pytorch_connectomics",
+  "name": "PytorchConnectomics/pytorch_connectomics",
+  "description": "PyTorch Connectomics: segmentation toolbox for EM connectomics",
+  "sub_domain": "connectomics",
+  "score": 93,
+  "score_rationale": "Direct EM connectomics segmentation toolbox with a clear circuit-reconstruction focus.",
+  "stars": 191,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 576.3,
+  "discovery_score": 93,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "PyTorch Connectomics: segmentation toolbox for EM connectomics",
+  "slug": "pytorchconnectomics-pytorch-connectomics"
+}

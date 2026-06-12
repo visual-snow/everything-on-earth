@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/molinfo-vienna/cdpkit",
+  "name": "molinfo-vienna/CDPKit",
+  "description": "The Chemical Data Processing Toolkit",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 8,
+  "score_rationale": "Solid chemical data processing toolkit that supports core cheminformatics workflows.",
+  "stars": 115,
+  "language": "C++",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 64.5,
+  "discovery_score": 8,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "The Chemical Data Processing Toolkit",
+  "slug": "molinfo-vienna-cdpkit"
+}

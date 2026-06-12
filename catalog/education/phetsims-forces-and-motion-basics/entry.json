@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/phetsims/forces-and-motion-basics",
+  "name": "phetsims/forces-and-motion-basics",
+  "description": "\"Forces and Motion: Basics\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Official PhET simulation repo for a core classroom physics concept used in K-12 learning.",
+  "stars": 10,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 62.3,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning",
+    "interactive"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "\"Forces and Motion: Basics\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "slug": "phetsims-forces-and-motion-basics"
+}

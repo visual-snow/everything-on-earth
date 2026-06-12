@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/healthrex/cdss",
+  "name": "HealthRex/CDSS",
+  "description": "Clinical decision support system by HealthRex laboratory at Stanford University.",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 7,
+  "score_rationale": "Clinically oriented decision-support repo from a credible academic lab with current activity.",
+  "stars": 119,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 58.6,
+  "discovery_score": 7,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "Clinical decision support system by HealthRex laboratory at Stanford University.",
+  "slug": "healthrex-cdss"
+}

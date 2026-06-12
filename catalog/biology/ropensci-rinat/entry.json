@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ropensci/rinat",
+  "name": "ropensci/rinat",
+  "description": "A programmatic interface to iNaturalist",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This is a direct programmatic interface to iNaturalist observations and taxa, which fills a key ecosystem gap.",
+  "stars": 67,
+  "language": "R",
+  "license": "Other",
+  "last_activity": "2025-08-30",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 62.7,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "A programmatic interface to iNaturalist",
+  "slug": "ropensci-rinat"
+}

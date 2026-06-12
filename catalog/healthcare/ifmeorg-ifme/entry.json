@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ifmeorg/ifme",
+  "name": "ifmeorg/ifme",
+  "description": "Free, open source mental health communication web app to share experiences with loved ones",
+  "sub_domain": "mental-health-behavioral",
+  "score": 10,
+  "score_rationale": "Essential fit for the subdomain: a mature, open-source mental health communication platform with strong activity and the largest community signal in the set.",
+  "stars": 1612,
+  "language": "Ruby",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "mental-health-behavioral"
+  ],
+  "quality_score": 85.7,
+  "discovery_score": 10,
+  "tags": [
+    "mental-health",
+    "behavioral-health",
+    "cbt",
+    "screening"
+  ],
+  "category": "Mental Health, Behavioral Health, CBT, Mood Tracking & Crisis Support",
+  "summary": "Free, open source mental health communication web app to share experiences with loved ones",
+  "slug": "ifmeorg-ifme"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sas1997/sama",
+  "name": "sas1997/sama",
+  "description": "SAMA (Solar Alone Multi-objective Advisor)",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 3,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "SAMA (Solar Alone Multi-objective Advisor)",
+  "slug": "sas1997-sama"
+}

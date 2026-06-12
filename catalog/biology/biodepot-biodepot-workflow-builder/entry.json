@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biodepot/biodepot-workflow-builder",
+  "name": "biodepot/biodepot-workflow-builder",
+  "description": "GUI for creating bioinformatics workflows from Docker containers.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 8,
+  "score_rationale": "Purpose-built visual workflow builder for bioinformatics pipelines rather than a generic orchestration tool.",
+  "stars": 66,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-06-02",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 62.6,
+  "discovery_score": 8,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "GUI for creating bioinformatics workflows from Docker containers.",
+  "slug": "biodepot-biodepot-workflow-builder"
+}

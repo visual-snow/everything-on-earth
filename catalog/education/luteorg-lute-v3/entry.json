@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/luteorg/lute-v3",
+  "name": "LuteOrg/lute-v3",
+  "description": "Learning Using Texts: learn languages through reading.",
+  "sub_domain": "language-learning",
+  "score": 9,
+  "score_rationale": "Strong reading-first language-learning workflow with integrated lookups, progress tracking, and text study.",
+  "stars": 1298,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-05-04",
+  "found_in_domains": [
+    "language-learning"
+  ],
+  "quality_score": 78.9,
+  "discovery_score": 9,
+  "tags": [
+    "language-learning",
+    "flashcards",
+    "vocabulary",
+    "reading-support"
+  ],
+  "category": "Language Learning, Vocabulary Training, Reading Support & Speaking Practice",
+  "summary": "Learning Using Texts: learn languages through reading.",
+  "slug": "luteorg-lute-v3"
+}

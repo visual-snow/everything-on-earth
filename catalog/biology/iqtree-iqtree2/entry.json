@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/iqtree/iqtree2",
+  "name": "iqtree/iqtree2",
+  "description": "IQ-TREE software version 2: phylogenetics by maximum likelihood",
+  "sub_domain": "phylogenetics",
+  "score": 10,
+  "score_rationale": "A flagship maximum-likelihood phylogenetic inference engine with broad community adoption and a clear direct fit.",
+  "stars": 325,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2025-02-07",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 80.1,
+  "discovery_score": 10,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "IQ-TREE software version 2: phylogenetics by maximum likelihood",
+  "slug": "iqtree-iqtree2"
+}

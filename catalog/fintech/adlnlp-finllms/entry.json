@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/adlnlp/finllms",
+  "name": "adlnlp/finllms",
+  "description": "This repository contains related work, benchmarks and datasets for the paper \"Large Language Models in Finance (FinLLMs)\".",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text; has some GitHub adoption; penalized for paper-style signals.",
+  "stars": 360,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-04-10",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 44.5,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "This repository contains related work, benchmarks and datasets for the paper \"Large Language Models in Finance (FinLLMs)\".",
+  "slug": "adlnlp-finllms"
+}

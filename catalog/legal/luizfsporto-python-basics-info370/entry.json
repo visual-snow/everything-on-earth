@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/luizfsporto/python-basics-info370",
+  "name": "luizfsporto/python-basics-info370",
+  "description": "Coding assignments and exercises for the INFO 370 class at UW",
+  "sub_domain": "smart-contracts-legal",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2020-04-01",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Coding assignments and exercises for the INFO 370 class at UW",
+  "slug": "luizfsporto-python-basics-info370"
+}

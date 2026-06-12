@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tumftm/sasim",
+  "name": "tumftm/sasim",
+  "description": "Smart Advisor for Sustainable Integrated Mobility (SASIM) - Full cost calculator as a routing tool for urban mobility in Munich.",
+  "sub_domain": "sustainable-transport",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 3,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2023-04-18",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "Smart Advisor for Sustainable Integrated Mobility (SASIM) - Full cost calculator as a routing tool for urban mobility in Munich.",
+  "slug": "tumftm-sasim"
+}

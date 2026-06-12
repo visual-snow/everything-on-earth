@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dbrojas/optlib",
+  "name": "dbrojas/optlib",
+  "description": "A library for financial options pricing written in Python.",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1350,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-11-18",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 61.0,
+  "discovery_score": 6,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "A library for financial options pricing written in Python.",
+  "slug": "dbrojas-optlib"
+}

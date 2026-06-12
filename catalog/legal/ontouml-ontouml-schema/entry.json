@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ontouml/ontouml-schema",
+  "name": "ontouml/ontouml-schema",
+  "description": "JSON Schema definition of a OntoUML Model Exchange file.",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 11,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2024-12-20",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 26.6,
+  "discovery_score": 3,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "JSON Schema definition of a OntoUML Model Exchange file.",
+  "slug": "ontouml-ontouml-schema"
+}

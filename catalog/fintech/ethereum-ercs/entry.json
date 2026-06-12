@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ethereum/ercs",
+  "name": "ethereum/ercs",
+  "description": "The Ethereum Request for Comment repository",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 676,
+  "language": "Solidity",
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 28.6,
+  "discovery_score": 1,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "The Ethereum Request for Comment repository",
+  "slug": "ethereum-ercs"
+}

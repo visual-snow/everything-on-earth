@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sachit27/greenr",
+  "name": "sachit27/greenr",
+  "description": "greenR is an R package that enables the quantification, analysis, and visualization of urban greenness within city networks. It leverages data from OpenStreetMap (www.openstreetmap.org) and is implemented as both an R package and a Shiny web application for user-friendly interaction.",
+  "sub_domain": "environmental-justice",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 157,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-10",
+  "found_in_domains": [
+    "environmental-justice"
+  ],
+  "quality_score": 23.6,
+  "discovery_score": 1,
+  "tags": [
+    "environmental-justice",
+    "equity",
+    "exposure-mapping",
+    "community-impact"
+  ],
+  "category": "Environmental Justice \u2014 exposure mapping, equity analysis, community impact tools",
+  "summary": "greenR is an R package that enables the quantification, analysis, and visualization of urban greenness within city networks. It leverages...",
+  "slug": "sachit27-greenr"
+}

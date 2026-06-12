@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eichlerlab/pav",
+  "name": "EichlerLab/pav",
+  "description": "Phased Assembly Variant Caller",
+  "sub_domain": "genomics",
+  "score": 7,
+  "score_rationale": "Specialized assembly-based variant caller for phased genomes, valuable for structural variation and haplotype-aware analysis.",
+  "stars": 137,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-12-04",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 59.1,
+  "discovery_score": 7,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Phased Assembly Variant Caller",
+  "slug": "eichlerlab-pav"
+}

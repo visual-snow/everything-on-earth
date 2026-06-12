@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/engspire/engreesi",
+  "name": "engspire/engreesi",
+  "description": "Engreesi is an open-source project dedicated to making English learning accessible to all in Sri Lanka.",
+  "sub_domain": "accessibility-inclusive-education",
+  "score": 6,
+  "score_rationale": "Language-learning project with an explicit accessibility framing and a direct education use case.",
+  "stars": 4,
+  "language": "MDX",
+  "license": "AGPL-3.0",
+  "last_activity": "2024-08-01",
+  "found_in_domains": [
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 41.6,
+  "discovery_score": 6,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "Engreesi is an open-source project dedicated to making English learning accessible to all in Sri Lanka.",
+  "slug": "engspire-engreesi"
+}

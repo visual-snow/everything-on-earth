@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ruleworld/bionetgen",
+  "name": "RuleWorld/bionetgen",
+  "description": "Rule-based modeling framework",
+  "sub_domain": "systems-biology",
+  "score": 10,
+  "score_rationale": "Canonical rule-based systems-biology platform for specifying and simulating mechanistic biochemical networks.",
+  "stars": 68,
+  "language": "Perl",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 74.7,
+  "discovery_score": 10,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "Rule-based modeling framework",
+  "slug": "ruleworld-bionetgen"
+}

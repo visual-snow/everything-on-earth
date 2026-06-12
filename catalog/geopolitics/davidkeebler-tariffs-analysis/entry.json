@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/davidkeebler/tariffs-analysis",
+  "name": "Davidkeebler/Tariffs-Analysis",
+  "description": "Analysis project focused on U.S. international trade and tariff policy datasets.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 5,
+  "score_rationale": "Relevant tariff analysis work, but lighter-weight than the policy tooling above.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-04-23",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 32.4,
+  "tags": [
+    "tariffs",
+    "analysis",
+    "notebook",
+    "trade-policy"
+  ],
+  "category": "Tariff Analysis Notebook",
+  "summary": "Notebook project analyzing U.S. tariff and trade policy datasets.",
+  "slug": "davidkeebler-tariffs-analysis"
+}

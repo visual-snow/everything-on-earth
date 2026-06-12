@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cheat-sheets/negotiation-cheat-sheet",
+  "name": "cheat-sheets/negotiation-cheat-sheet",
+  "description": "Principles of effective negotiation",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 21,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-05-02",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 16.7,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "Principles of effective negotiation",
+  "slug": "cheat-sheets-negotiation-cheat-sheet"
+}

@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/flotob/legalmarkdown",
+  "name": "flotob/legalmarkdown",
+  "description": "Eris Legal Markdown -- Putting the Contract in Smart Contracts",
+  "sub_domain": "legal-document-automation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 33,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2018-06-21",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 30.3,
+  "discovery_score": 3,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature",
+    "contract",
+    "contract-analysis"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "Eris Legal Markdown -- Putting the Contract in Smart Contracts",
+  "slug": "flotob-legalmarkdown"
+}

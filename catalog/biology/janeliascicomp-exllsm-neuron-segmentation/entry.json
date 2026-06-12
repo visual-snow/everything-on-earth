@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/janeliascicomp/exllsm-neuron-segmentation",
+  "name": "JaneliaSciComp/exllsm-neuron-segmentation",
+  "description": "Neuron segmentation for expanded microscopy.",
+  "sub_domain": "connectomics",
+  "score": 8,
+  "score_rationale": "Biology-facing neuron segmentation code that plugs into a circuit reconstruction pipeline.",
+  "stars": 3,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-11-15",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 52.8,
+  "discovery_score": 8,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging",
+    "neuron",
+    "microscopy"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Neuron segmentation for expanded microscopy.",
+  "slug": "janeliascicomp-exllsm-neuron-segmentation"
+}

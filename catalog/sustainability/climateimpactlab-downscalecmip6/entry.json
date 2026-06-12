@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/climateimpactlab/downscalecmip6",
+  "name": "climateimpactlab/downscalecmip6",
+  "description": "Downscaling & bias correction of CMIP6 tasmin, tasmax,  and pr for the R/CIL GDPCIR project",
+  "sub_domain": "climate-data-analysis",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 152,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-05-28",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 47.5,
+  "discovery_score": 5,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "Downscaling & bias correction of CMIP6 tasmin, tasmax,  and pr for the R/CIL GDPCIR project",
+  "slug": "climateimpactlab-downscalecmip6"
+}

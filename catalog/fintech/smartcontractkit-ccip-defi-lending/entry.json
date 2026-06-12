@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/smartcontractkit/ccip-defi-lending",
+  "name": "smartcontractkit/ccip-defi-lending",
+  "description": "CCIP Launch Defi Demo",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for demo-style signals.",
+  "stars": 48,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2023-12-04",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 31.5,
+  "discovery_score": 3,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "CCIP Launch Defi Demo",
+  "slug": "smartcontractkit-ccip-defi-lending"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stateofca/opencred",
+  "name": "stateofca/opencred",
+  "description": "OpenCred Verifiable Credentials Platform",
+  "sub_domain": "credentialing-certification",
+  "score": 6,
+  "score_rationale": "Verifiable Credentials platform used in education contexts; adjacent infrastructure with a clear workflow use case.",
+  "stars": 80,
+  "language": "JavaScript",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 51.3,
+  "discovery_score": 6,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "OpenCred Verifiable Credentials Platform",
+  "slug": "stateofca-opencred"
+}

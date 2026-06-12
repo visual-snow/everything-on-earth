@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/jupyterhub/jupyterhub",
+  "name": "jupyterhub/jupyterhub",
+  "description": "Multi-user server for Jupyter notebooks",
+  "sub_domain": "interactive-coding-education",
+  "score": 9,
+  "score_rationale": "Core multi-user Jupyter infrastructure that is widely used in classrooms and educational notebook deployments.",
+  "stars": 8200,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 85.3,
+  "discovery_score": 9,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "Multi-user server for Jupyter notebooks",
+  "slug": "jupyterhub-jupyterhub"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/highwire-ai/open-robo-advisor",
+  "name": "highwire-ai/open-robo-advisor",
+  "description": "Open Robo-Advisor is a flexible robo-advisor library written in Python.  \ud83e\udd16",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 44,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2022-03-19",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 3,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "Open Robo-Advisor is a flexible robo-advisor library written in Python.  \ud83e\udd16",
+  "slug": "highwire-ai-open-robo-advisor"
+}

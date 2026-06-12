@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/forlilab/meeko",
+  "name": "forlilab/Meeko",
+  "description": "Interface for AutoDock, molecule parameterization",
+  "sub_domain": "structural-biology",
+  "score": 9,
+  "score_rationale": "A well-established AutoDock companion for ligand and receptor preparation, which is central to docking workflows.",
+  "stars": 349,
+  "language": "Python",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 74.4,
+  "discovery_score": 9,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Interface for AutoDock, molecule parameterization",
+  "slug": "forlilab-meeko"
+}

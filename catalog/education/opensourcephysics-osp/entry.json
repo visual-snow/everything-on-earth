@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opensourcephysics/osp",
+  "name": "OpenSourcePhysics/osp",
+  "description": "Open Source Physics core library.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 7,
+  "score_rationale": "Foundational teaching library for classroom physics simulations and lab-style activities.",
+  "stars": 50,
+  "language": "Java",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 55.7,
+  "discovery_score": 7,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Open Source Physics core library.",
+  "slug": "opensourcephysics-osp"
+}

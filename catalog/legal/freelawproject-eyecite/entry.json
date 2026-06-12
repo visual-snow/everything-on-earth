@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/freelawproject/eyecite",
+  "name": "freelawproject/eyecite",
+  "description": "Find legal citations in any block of text",
+  "sub_domain": "legal-research-case-law",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 219,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2025-10-03",
+  "found_in_domains": [
+    "legal-research-case-law"
+  ],
+  "quality_score": 48.7,
+  "discovery_score": 5,
+  "tags": [
+    "case-law",
+    "citation",
+    "court-data",
+    "dockets"
+  ],
+  "category": "Legal Research / Case Law \u2014 opinions, citations, court data, dockets, scrapers",
+  "summary": "Find legal citations in any block of text",
+  "slug": "freelawproject-eyecite"
+}

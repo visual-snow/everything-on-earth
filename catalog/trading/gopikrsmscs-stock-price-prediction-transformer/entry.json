@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/gopikrsmscs/stock-price-prediction-transformer",
+  "name": "gopikrsmscs/stock-price-prediction-transformer",
+  "description": "Tesal Stock Price Prediction Using Transformer",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 7,
+  "score_rationale": "Transformer-based price forecasting project explicitly aimed at stock prediction.",
+  "stars": 31,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-02-21",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 54.0,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "Tesal Stock Price Prediction Using Transformer",
+  "slug": "gopikrsmscs-stock-price-prediction-transformer"
+}

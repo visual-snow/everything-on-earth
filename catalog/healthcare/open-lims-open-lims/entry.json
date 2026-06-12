@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-lims/open-lims",
+  "name": "open-lims/open-lims",
+  "description": "Open-LIMS - The Open-Source Laboratory Information Management System",
+  "sub_domain": "lab-information-systems",
+  "score": 6,
+  "score_rationale": "Directly on-topic LIMS project, but older and less active than the leading ecosystems.",
+  "stars": 53,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2017-03-30",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 49.9,
+  "discovery_score": 6,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "Open-LIMS - The Open-Source Laboratory Information Management System",
+  "slug": "open-lims-open-lims"
+}

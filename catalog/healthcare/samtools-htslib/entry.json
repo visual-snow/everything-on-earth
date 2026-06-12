@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/samtools/htslib",
+  "name": "samtools/htslib",
+  "description": "C library for high-throughput sequencing data formats",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 10,
+  "score_rationale": "Core low-level library behind many genomics file-format tools.",
+  "stars": 913,
+  "language": "C",
+  "license": null,
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 83.7,
+  "discovery_score": 10,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "C library for high-throughput sequencing data formats",
+  "slug": "samtools-htslib"
+}

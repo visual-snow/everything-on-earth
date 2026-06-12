@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/anusky95/finai",
+  "name": "anusky95/finai",
+  "description": "The ultimate hub for financial LLM research, datasets, benchmarks, RAG pipelines, and AI-driven trading resources. Curating the best finance-focused AI tools, models, and papers.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2025-04-15",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "The ultimate hub for financial LLM research, datasets, benchmarks, RAG pipelines, and AI-driven trading resources. Curating the best fina...",
+  "slug": "anusky95-finai"
+}

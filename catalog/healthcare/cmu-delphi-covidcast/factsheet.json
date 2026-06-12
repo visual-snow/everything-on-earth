@@ -1,0 +1,60 @@
+{
+  "slug": "cmu-delphi-covidcast",
+  "name": "cmu-delphi/covidcast",
+  "what_it_is": "A collection of R and Python client libraries for Delphi's COVIDcast Epidata API, providing access to daily-updated COVID-19 indicators (cases, deaths, symptom surveys, claims data, mobility) across US geographic regions. Also includes R packages for forecast model building and probabilistic forecast evaluation.",
+  "components": [
+    "covidcast Python package (API client + choropleth/bubble map plotting + geo utilities)",
+    "covidcast R package (API client + ggplot2 maps + signal processing) — DEPRECATED, replaced by epidatr",
+    "modeltools R package (forecasting and hotspot prediction model tools)",
+    "evalcast R package (probabilistic forecaster evaluation with backfill-aware backtesting)",
+    "R notebooks and vignettes"
+  ],
+  "protocols": [
+    "HTTPS REST (via Epidata API client)",
+    "API key bearer auth"
+  ],
+  "measurement": [
+    "signal value (confirmed cases, deaths, symptom survey CLI, claims-based ILI, mobility, etc.)",
+    "stderr (standard error of signal estimate)",
+    "sample_size (number of observations underlying estimate)",
+    "issue date (when estimate was published/updated)",
+    "lag (days between time_value and issue date)"
+  ],
+  "configuration": [
+    "data_source: selects which COVIDcast data source to query",
+    "signal: selects which indicator within a source",
+    "geo_type: geographic aggregation level (county, state, msa, hrr, dma, hhs, nation)",
+    "geo_values: specific geographies or wildcard for all",
+    "time_type: temporal resolution (day or week/epiweek)",
+    "as_of: retrieve data as it was known on a specific past date",
+    "issues: retrieve data published within a specific issue date range",
+    "lag: retrieve data published exactly N days after time_value",
+    "API key to remove anonymous rate limits"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "anonymous access (rate-limited)",
+    "authenticated access (API key, no rate limit on parameter counts)",
+    "day resolution queries",
+    "week (epiweek) resolution queries",
+    "as-of / versioned data retrieval (point-in-time snapshots)",
+    "issue-range data retrieval (all updates within a date window)"
+  ],
+  "constraints": [
+    "API enforces a maximum result row limit per query; results beyond the limit are silently truncated",
+    "Anonymous access is rate-limited and restricted to at most two multi-valued query parameters",
+    "R covidcast package is officially deprecated; replacement is the separate epidatr package",
+    "Geographic coverage is United States only; no international geographies",
+    "evalcast backfill-aware evaluation requires as-of capability; naive backtesting on backfilled data produces overly optimistic scores"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No data ingestion or indicator computation (handled by separate covidcast-indicators repo)",
+    "No API server or database (handled by separate delphi-epidata repo)",
+    "No real-time streaming; all access is batch pull via REST",
+    "No international geographic support",
+    "No built-in forecasting models (modeltools provides building blocks, not finished models)",
+    "No Docker or container configuration",
+    "No CLI tooling; library use only"
+  ]
+}

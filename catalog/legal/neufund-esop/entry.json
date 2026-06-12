@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/neufund/esop",
+  "name": "neufund/esop",
+  "description": "legal and smart contracts framework to implement Employee Stock Options Plan",
+  "sub_domain": "smart-contracts-legal",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 91,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2018-06-22",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 39.7,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract-analysis"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "legal and smart contracts framework to implement Employee Stock Options Plan",
+  "slug": "neufund-esop"
+}

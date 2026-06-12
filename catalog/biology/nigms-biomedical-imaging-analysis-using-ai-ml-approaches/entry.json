@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nigms/biomedical-imaging-analysis-using-ai-ml-approaches",
+  "name": "nigms/biomedical-imaging-analysis-using-ai-ml-approaches",
+  "description": "Machine Learning module for cloud-based analyses developed as part of the NIGMS Sandbox Project",
+  "sub_domain": "biomedical-imaging",
+  "score": 5,
+  "score_rationale": "This notebook-based module is explicitly biomedical-imaging oriented, though it is more instructional than a reusable platform.",
+  "stars": 20,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-06-06",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 40.6,
+  "discovery_score": 5,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Machine Learning module for cloud-based analyses developed as part of the NIGMS Sandbox Project",
+  "slug": "nigms-biomedical-imaging-analysis-using-ai-ml-approaches"
+}

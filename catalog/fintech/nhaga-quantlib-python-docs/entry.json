@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nhaga/quantlib-python-docs",
+  "name": "nhaga/quantlib-python-docs",
+  "description": "Documentation for QuantLib-Python",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 117,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-12-29",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 40.6,
+  "discovery_score": 4,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "Documentation for QuantLib-Python",
+  "slug": "nhaga-quantlib-python-docs"
+}

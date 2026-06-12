@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/douglasneuroinformatics/opendatacapture",
+  "name": "DouglasNeuroInformatics/OpenDataCapture",
+  "description": "An electronic data capture platform for administering remote and in-person clinical instruments",
+  "sub_domain": "clinical-trials-research",
+  "score": 9,
+  "score_rationale": "Strong browser-based EDC platform for clinical research data capture across remote and in-person workflows.",
+  "stars": 114,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 70.5,
+  "discovery_score": 9,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "An electronic data capture platform for administering remote and in-person clinical instruments",
+  "slug": "douglasneuroinformatics-opendatacapture"
+}

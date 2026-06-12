@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jlzml/credit-scoring-data-sets",
+  "name": "jlzml/credit-scoring-data-sets",
+  "description": "These common credit score data sets are collected to empirical evaluations, and I will update dynamically.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 91,
+  "language": "Common Lisp",
+  "license": null,
+  "last_activity": "2019-05-09",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 39.7,
+  "discovery_score": 4,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "These common credit score data sets are collected to empirical evaluations, and I will update dynamically.",
+  "slug": "jlzml-credit-scoring-data-sets"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hvva/openforensics",
+  "name": "hvva/openforensics",
+  "description": "A book about how to conduct digital forensic investigations with free and open source tools.",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 12,
+  "language": "TeX",
+  "license": "NOASSERTION",
+  "last_activity": "2014-04-30",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 32.9,
+  "discovery_score": 4,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "A book about how to conduct digital forensic investigations with free and open source tools.",
+  "slug": "hvva-openforensics"
+}

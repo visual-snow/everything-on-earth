@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/openzim/phet",
+  "name": "openzim/phet",
+  "description": "Scraper for PhET Science & Math Interactive Simulations",
+  "sub_domain": "k12-stem",
+  "score": 4,
+  "score_rationale": "Adjacent infrastructure that packages educational science and math simulations for offline use in learning workflows.",
+  "stars": 14,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 4,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning",
+    "interactive"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "Scraper for PhET Science & Math Interactive Simulations",
+  "slug": "openzim-phet"
+}

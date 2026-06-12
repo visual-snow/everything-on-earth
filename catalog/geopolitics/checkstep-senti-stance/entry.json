@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/checkstep/senti-stance",
+  "name": "checkstep/senti-stance",
+  "description": "Few-shot cross-lingual stance detection with sentiment-based pre-training.",
+  "sub_domain": "political-text-nlp",
+  "score": 8,
+  "score_rationale": "It is a modern stance-detection system that can be adapted to political text problems.",
+  "stars": 20,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2022-03-04",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 58.6,
+  "tags": [
+    "political",
+    "stance-detection",
+    "cross-lingual",
+    "sentiment",
+    "nlp"
+  ],
+  "category": "Stance Detection Model",
+  "summary": "Few-shot cross-lingual stance detection with sentiment pretraining.",
+  "slug": "checkstep-senti-stance"
+}

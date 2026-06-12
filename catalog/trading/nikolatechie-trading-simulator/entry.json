@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nikolatechie/trading-simulator",
+  "name": "nikolatechie/trading-simulator",
+  "description": "Trading Simulator is a web-based investment platform that allows users to trade stocks in real-time using a simulated account.",
+  "sub_domain": "paper-trading-simulation",
+  "score": 9,
+  "score_rationale": "Real-time simulated account for stock trading in a web app.",
+  "stars": 33,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2024-05-27",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 66.3,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "Trading Simulator is a web-based investment platform that allows users to trade stocks in real-time using a...",
+  "slug": "nikolatechie-trading-simulator"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/simscape/microgrid-simscape",
+  "name": "simscape/microgrid-simscape",
+  "description": "This repository shows how to develop, evaluate, and operate a microgrid.",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 36,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 30.5,
+  "discovery_score": 3,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "This repository shows how to develop, evaluate, and operate a microgrid.",
+  "slug": "simscape-microgrid-simscape"
+}

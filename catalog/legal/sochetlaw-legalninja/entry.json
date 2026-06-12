@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sochetlaw/legalninja",
+  "name": "sochetlaw/legalninja",
+  "description": "Open Source Law Firm Managemant, Billing, and Accounting Software",
+  "sub_domain": "legal-practice-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 6,
+  "language": "Ruby",
+  "license": null,
+  "last_activity": "2010-04-28",
+  "found_in_domains": [
+    "legal-practice-management"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "Open Source Law Firm Managemant, Billing, and Accounting Software",
+  "slug": "sochetlaw-legalninja"
+}

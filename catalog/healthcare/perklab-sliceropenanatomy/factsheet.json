@@ -1,0 +1,14 @@
+{
+  "slug": "perklab-sliceropenanatomy",
+  "name": "PerkLab/SlicerOpenAnatomy",
+  "what_it_is": "A 3D Slicer extension that exports segmentation and model hierarchy data to glTF/OBJ files compatible with the Open Anatomy Project browser, and provides an atlas editor for merging or removing anatomical label groups using a JSON hierarchy schema.",
+  "components": ["OpenAnatomyExport module — exports segmentation to glTF, OBJ, or scene format with mesh decimation", "AtlasEditor module — loads atlas labelmap + color table + structure JSON, merges or removes label groups"],
+  "protocols": ["glTF", "Wavefront OBJ", "MRML scene export", "NRRD input volumetric labelmap", "JSON hierarchy schema"],
+  "measurement": [],
+  "configuration": ["reductionFactor for mesh decimation", "outputFormat (glTF, OBJ, scene)", "atlasStructureJsonPath for hierarchy tree"],
+  "modes": ["Export to file (glTF/OBJ)", "Export to scene (MRML)", "Atlas merge", "Atlas remove"],
+  "constraints": ["Requires 3D Slicer as host; cannot run standalone", "glTF export converts to PBR causing slight appearance differences", "AtlasEditor input must be labelmap .nrrd + color table + JSON structure", "OBJ export does not preserve hierarchy or model names"],
+  "docker_services": [],
+  "notable_absences": ["No DICOM support", "No CI/CD", "No server-side component"],
+  "fault_injection": []
+}

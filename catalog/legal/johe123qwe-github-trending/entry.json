@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/johe123qwe/github-trending",
+  "name": "johe123qwe/github-trending",
+  "description": "\u5b9a\u65f6\u6293\u53d6 Github Trending",
+  "sub_domain": "legal-document-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 54,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 19.9,
+  "discovery_score": 1,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "\u5b9a\u65f6\u6293\u53d6 Github Trending",
+  "slug": "johe123qwe-github-trending"
+}

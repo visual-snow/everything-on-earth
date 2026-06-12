@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lumiwealth/lumibot",
+  "name": "Lumiwealth/lumibot",
+  "description": "Backtesting and Trading Bots Made Easy for Crypto, Stocks, Options, Futures, FOREX and more",
+  "sub_domain": "paper-trading-simulation",
+  "score": 9,
+  "score_rationale": "Serious trading library with explicit paper trading account support plus backtesting and live execution paths.",
+  "stars": 1304,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 78.9,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker",
+    "backtesting"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "Backtesting and Trading Bots Made Easy for Crypto, Stocks, Options, Futures, FOREX and more",
+  "slug": "lumiwealth-lumibot"
+}

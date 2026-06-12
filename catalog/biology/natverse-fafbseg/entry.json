@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/natverse/fafbseg",
+  "name": "natverse/fafbseg",
+  "description": "Support functions for analysis of Drosophila connectomes especially the FAFB-FlyWire whole brain.",
+  "sub_domain": "connectomics",
+  "score": 9,
+  "score_rationale": "Purpose-built R tooling for a flagship whole-brain fly connectomics workflow.",
+  "stars": 11,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 62.6,
+  "discovery_score": 9,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Support functions for analysis of Drosophila connectomes especially the FAFB-FlyWire whole brain.",
+  "slug": "natverse-fafbseg"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/blacklanternsecurity/bbot",
+  "name": "blacklanternsecurity/bbot",
+  "description": "The recursive internet scanner for hackers. \ud83e\udde1",
+  "stars": 9536,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "sub_domain": "osint-frameworks",
+  "score": 6,
+  "score_rationale": "Recursive OSINT and internet-scanning engine that covers broad reconnaissance workflows.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 67.8,
+  "tags": [
+    "osint",
+    "internet-scanning",
+    "reconnaissance",
+    "automation",
+    "attack-surface"
+  ],
+  "category": "Recursive OSINT Scanner",
+  "summary": "Recursive internet scanner for broad reconnaissance.",
+  "slug": "blacklanternsecurity-bbot"
+}

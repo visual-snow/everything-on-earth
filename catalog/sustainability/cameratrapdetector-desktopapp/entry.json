@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cameratrapdetector/desktopapp",
+  "name": "cameratrapdetector/desktopapp",
+  "description": "Launch and use the CameraTrapDetectoR Shiny application as a standalone desktop app. No coding or R interface needed!",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-05-30",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "Launch and use the CameraTrapDetectoR Shiny application as a standalone desktop app. No coding or R interface needed!",
+  "slug": "cameratrapdetector-desktopapp"
+}

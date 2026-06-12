@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/riemannzeta/patent_mcp_server",
+  "name": "riemannzeta/patent_mcp_server",
+  "description": "FastMCP Server for USPTO data",
+  "sub_domain": "ip-patent-trademark",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 50,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 37.7,
+  "discovery_score": 4,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "FastMCP Server for USPTO data",
+  "slug": "riemannzeta-patent-mcp-server"
+}

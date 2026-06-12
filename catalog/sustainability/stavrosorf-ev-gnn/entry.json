@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stavrosorf/ev-gnn",
+  "name": "stavrosorf/ev-gnn",
+  "description": "Improving scalability of RL algorithms using GNNs: A case study in optimal EV charging.",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 26,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-10-16",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 35.5,
+  "discovery_score": 4,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Improving scalability of RL algorithms using GNNs: A case study in optimal EV charging.",
+  "slug": "stavrosorf-ev-gnn"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/bupt-gamma/comparenet_fakenewsdetection",
+  "name": "BUPT-GAMMA/CompareNet_FakeNewsDetection",
+  "description": "Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge (ACL 2021).",
+  "sub_domain": "media-bias-propaganda",
+  "score": 9,
+  "score_rationale": "A stronger graph-based fake-news detector that fits the propaganda and misinformation side of the cluster.",
+  "stars": 114,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2021-10-07",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 70.5,
+  "tags": [
+    "fake-news",
+    "graph-neural-networks",
+    "misinformation",
+    "classification"
+  ],
+  "category": "Fake News Detection",
+  "summary": "Graph-based fake news detector using external knowledge.",
+  "slug": "bupt-gamma-comparenet-fakenewsdetection"
+}

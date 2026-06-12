@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ossu/precollege-math",
+  "name": "ossu/precollege-math",
+  "description": "OSSU curriculum for pre-college mathematics using online materials.",
+  "sub_domain": "k12-stem",
+  "score": 6,
+  "score_rationale": "Strong precollege math curriculum repo; less of a tool, but directly useful for learners and self-study.",
+  "stars": 221,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2025-04-17",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 54.8,
+  "discovery_score": 6,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning",
+    "curriculum"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "OSSU curriculum for pre-college mathematics using online materials.",
+  "slug": "ossu-precollege-math"
+}

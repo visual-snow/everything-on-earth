@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ezazy/phillyenviroscreen",
+  "name": "ezazy/phillyenviroscreen",
+  "description": "Creating a Philadelphia version of the CalEnviroScreen",
+  "sub_domain": "environmental-justice",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2021-06-05",
+  "found_in_domains": [
+    "environmental-justice"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "environmental-justice",
+    "equity",
+    "exposure-mapping",
+    "community-impact"
+  ],
+  "category": "Environmental Justice \u2014 exposure mapping, equity analysis, community impact tools",
+  "summary": "Creating a Philadelphia version of the CalEnviroScreen",
+  "slug": "ezazy-phillyenviroscreen"
+}

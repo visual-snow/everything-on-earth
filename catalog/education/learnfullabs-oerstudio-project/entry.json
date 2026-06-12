@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/learnfullabs/oerstudio-project",
+  "name": "learnfullabs/oerstudio-project",
+  "description": "OER Studio is an open source OER authoring platform built on Drupal.",
+  "sub_domain": "curriculum-authoring",
+  "score": 4,
+  "score_rationale": "Very on-topic for OER authoring, but the repository appears stale compared with the more active alternatives.",
+  "stars": 15,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2021-12-17",
+  "found_in_domains": [
+    "curriculum-authoring"
+  ],
+  "quality_score": 33.6,
+  "discovery_score": 4,
+  "tags": [
+    "curriculum",
+    "authoring",
+    "oer",
+    "courseware"
+  ],
+  "category": "Curriculum, Content Authoring, OER Publishing & Interactive Courseware",
+  "summary": "OER Studio is an open source OER authoring platform built on Drupal.",
+  "slug": "learnfullabs-oerstudio-project"
+}

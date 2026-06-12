@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/shakiliitju/credit-card-fraud-detection-using-machine-learning",
+  "name": "shakiliitju/credit-card-fraud-detection-using-machine-learning",
+  "description": "Credit card fraud is a significant problem, with billions of dollars lost each year. Machine learning can be used to detect credit card fraud by identifying patterns that are indicative of fraudulent transactions. Credit card fraud refers to the physical loss of a credit card or the loss of sensitive credit card information.",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 68,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2024-02-07",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 44.7,
+  "discovery_score": 5,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring",
+    "credit"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "Credit card fraud is a significant problem, with billions of dollars lost each year. Machine learning can be used to detect credit card f...",
+  "slug": "shakiliitju-credit-card-fraud-detection-using-machine-learning"
+}

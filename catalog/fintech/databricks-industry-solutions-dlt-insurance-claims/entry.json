@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/databricks-industry-solutions/dlt-insurance-claims",
+  "name": "databricks-industry-solutions/dlt-insurance-claims",
+  "description": "This repository provides sample data and source code for performing a demo with auto insurance claims data flowing into the Databricks Lakehouse.",
+  "sub_domain": "insurance-actuarial-tech",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for demo-style signals.",
+  "stars": 3,
+  "language": "HCL",
+  "license": "NOASSERTION",
+  "last_activity": "2023-01-27",
+  "found_in_domains": [
+    "insurance-actuarial-tech"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 3,
+  "tags": [
+    "insurance",
+    "actuarial",
+    "claims",
+    "cat-modeling"
+  ],
+  "category": "Insurance / Actuarial Tech",
+  "summary": "This repository provides sample data and source code for performing a demo with auto insurance claims data flowing into the Databricks La...",
+  "slug": "databricks-industry-solutions-dlt-insurance-claims"
+}

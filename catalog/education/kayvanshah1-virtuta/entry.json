@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kayvanshah1/virtuta",
+  "name": "KayvanShah1/VirtuTA",
+  "description": "Virtual teaching assistant for university courses with Piazza integration, multimodal RAG, and logistics handling.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 8,
+  "score_rationale": "Strong classroom fit because it handles both student Q&A and course logistics inside a real forum workflow.",
+  "stars": 10,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 56.3,
+  "discovery_score": 8,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "Virtual teaching assistant for university courses with Piazza integration, multimodal RAG, and logistics handling.",
+  "slug": "kayvanshah1-virtuta"
+}

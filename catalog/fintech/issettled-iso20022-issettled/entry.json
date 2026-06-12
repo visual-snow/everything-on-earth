@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/issettled/iso20022-issettled",
+  "name": "issettled/iso20022-issettled",
+  "description": "Financial XML message templates, XML schemas (XSD), sample ISO 20022 messages used by IsSettled Members, and UML diagrams for key business processes.",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 7,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2024-01-17",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "Financial XML message templates, XML schemas (XSD), sample ISO 20022 messages used by IsSettled Members, and UML diagrams for key busines...",
+  "slug": "issettled-iso20022-issettled"
+}

@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/openboard-org/openboard",
+  "name": "OpenBoard-org/OpenBoard",
+  "description": "OpenBoard is a cross-platform interactive whiteboard application intended for use in a classroom setting.",
+  "sub_domain": "collaborative-learning",
+  "score": 8,
+  "score_rationale": "Classroom-oriented whiteboard software used for teaching and shared visual instruction.",
+  "stars": 2873,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "collaborative-learning"
+  ],
+  "quality_score": 75.7,
+  "discovery_score": 8,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis",
+    "interactive",
+    "classroom"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "OpenBoard is a cross-platform interactive whiteboard application intended for use in a classroom setting.",
+  "slug": "openboard-org-openboard"
+}

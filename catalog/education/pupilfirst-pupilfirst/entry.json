@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pupilfirst/pupilfirst",
+  "name": "pupilfirst/pupilfirst",
+  "description": "A learning management system (LMS) that lets you run an asynchronous online school, where learning is achieved through focused tasks, directed feedback, an iterative workflow, and community interaction.",
+  "sub_domain": "lms",
+  "score": 8,
+  "score_rationale": "Purpose-built asynchronous school and LMS workflow with tasks, feedback, and enrollment-oriented instruction.",
+  "stars": 958,
+  "language": "Ruby",
+  "license": "NOASSERTION",
+  "last_activity": "2025-12-09",
+  "found_in_domains": [
+    "lms"
+  ],
+  "quality_score": 71.9,
+  "discovery_score": 8,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "A learning management system (LMS) that lets you run an asynchronous online school, where learning is achieved through focused tasks, dir...",
+  "slug": "pupilfirst-pupilfirst"
+}

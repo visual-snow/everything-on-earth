@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/senaite/senaite.lims",
+  "name": "senaite/senaite.lims",
+  "description": "SENAITE Meta Package",
+  "sub_domain": "lab-information-systems",
+  "score": 8,
+  "score_rationale": "Top-level distribution package for the SENAITE ecosystem; not the core engine itself, but central to deployment and adoption.",
+  "stars": 229,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2025-04-04",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 66.9,
+  "discovery_score": 8,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "SENAITE Meta Package",
+  "slug": "senaite-senaite-lims"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hamx0r/stocktwits",
+  "name": "hamx0r/stocktwits",
+  "description": "Python client for StockTwits API",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 8,
+  "score_rationale": "Reusable StockTwits API client for social-sentiment ingestion in trading pipelines.",
+  "stars": 58,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-05-04",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 62.2,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics",
+    "stocktwits"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "Python client for StockTwits API",
+  "slug": "hamx0r-stocktwits"
+}

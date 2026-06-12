@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/combine-lab/salmon",
+  "name": "COMBINE-lab/salmon",
+  "description": "Highly-accurate and wicked fast transcript-level quantification from RNA-seq reads using selective alignment.",
+  "sub_domain": "transcriptomics",
+  "score": 10,
+  "score_rationale": "Canonical transcript-level quantification engine widely used in RNA-seq pipelines.",
+  "stars": 872,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 83.5,
+  "discovery_score": 10,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Highly-accurate and wicked fast transcript-level quantification from RNA-seq reads using selective alignment.",
+  "slug": "combine-lab-salmon"
+}

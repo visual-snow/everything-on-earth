@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ohdsi/vocabulary-v5.0",
+  "name": "OHDSI/Vocabulary-v5.0",
+  "description": "Build process for the OHDSI Standardized Vocabularies. Currently not available as independent release.",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 10,
+  "score_rationale": "Primary build pipeline for OMOP/OHDSI standardized vocabularies, making it a foundational vocabulary artifact rather than a peripheral tool.",
+  "stars": 263,
+  "language": "PLpgSQL",
+  "license": "Unlicense",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 79.4,
+  "discovery_score": 10,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "Build process for the OHDSI Standardized Vocabularies. Currently not available as independent release.",
+  "slug": "ohdsi-vocabulary-v5-0"
+}

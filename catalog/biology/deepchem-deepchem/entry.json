@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/deepchem/deepchem",
+  "name": "deepchem/deepchem",
+  "description": "Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology",
+  "sub_domain": "cheminformatics",
+  "score": 10,
+  "score_rationale": "Broad, actively maintained drug-discovery and quantum-chemistry library with mature biology-facing workflows and the largest footprint in this set.",
+  "stars": 6634,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "cheminformatics"
+  ],
+  "quality_score": 90.6,
+  "discovery_score": 10,
+  "tags": [
+    "cheminformatics",
+    "smiles",
+    "qsar",
+    "drug-discovery"
+  ],
+  "category": "Cheminformatics \u2014 drug discovery and molecular fingerprints",
+  "summary": "Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology",
+  "slug": "deepchem-deepchem"
+}

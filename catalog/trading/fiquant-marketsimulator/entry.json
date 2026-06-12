@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/fiquant/marketsimulator",
+  "name": "fiquant/marketsimulator",
+  "description": "The project simulates a generic agent based market model. The aim is to explore intimately, by simulation, the process of price formation and the market microstructure.",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 6,
+  "score_rationale": "Microstructure simulation work, but less focused on concrete order-book engines.",
+  "stars": 69,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2015-03-29",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 50.8,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "The project simulates a generic agent based market model. The aim is to explore intimately, by simulation...",
+  "slug": "fiquant-marketsimulator"
+}

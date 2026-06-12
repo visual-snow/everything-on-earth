@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jmbanda/drugsafetyportal",
+  "name": "jmbanda/DrugSafetyPortal",
+  "description": "Portal to check for drug interactions using more than six public APIs and research datasets",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 6,
+  "score_rationale": "Relevant medication-safety portal focused on drug interaction checks across multiple data sources.",
+  "stars": 7,
+  "language": "CSS",
+  "license": null,
+  "last_activity": "2016-06-13",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 43.2,
+  "discovery_score": 6,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "Portal to check for drug interactions using more than six public APIs and research datasets",
+  "slug": "jmbanda-drugsafetyportal"
+}

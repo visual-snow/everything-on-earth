@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/gautam132002/invoice-ocr",
+  "name": "gautam132002/invoice-ocr",
+  "description": "Invoice OCR parses invoices from multi-page PDFs, extracting key fields and tabular items into clean, structured datasets. The tool organizes invoice information into standardized rows and exports them to CSV or Excel for effortless reporting, analytics, and accounting integration.",
+  "sub_domain": "financial-document-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "invoice ocr open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing",
+    "invoicing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Invoice OCR parses invoices from multi-page PDFs, extracting key fields and tabular items into clean, structured datasets. The tool organ...",
+  "slug": "gautam132002-invoice-ocr"
+}

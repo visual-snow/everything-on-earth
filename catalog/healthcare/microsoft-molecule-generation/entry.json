@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/molecule-generation",
+  "name": "microsoft/molecule-generation",
+  "description": "Implementation of MoLeR: a generative model of molecular graphs which supports scaffold-constrained generation",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 6,
+  "score_rationale": "Relevant scaffold-constrained molecular generation research code, but older and narrower than top frameworks.",
+  "stars": 322,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-01-04",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 56.1,
+  "discovery_score": 6,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "Implementation of MoLeR: a generative model of molecular graphs which supports scaffold-constrained generation",
+  "slug": "microsoft-molecule-generation"
+}

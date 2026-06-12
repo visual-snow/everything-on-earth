@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/drgona/besim",
+  "name": "drgona/besim",
+  "description": "Building Energy Simulation (BeSim) toolbox for user-friendly and fast development and simulation of advanced building climate controllers in Matlab.",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 30,
+  "language": "MATLAB",
+  "license": "GPL-3.0",
+  "last_activity": "2020-12-10",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 35.9,
+  "discovery_score": 4,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "Building Energy Simulation (BeSim) toolbox for user-friendly and fast development and simulation of advanced building climate controllers...",
+  "slug": "drgona-besim"
+}

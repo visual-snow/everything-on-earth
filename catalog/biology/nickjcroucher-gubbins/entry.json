@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nickjcroucher/gubbins",
+  "name": "nickjcroucher/gubbins",
+  "description": "Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins",
+  "sub_domain": "phylogenetics",
+  "score": 10,
+  "score_rationale": "A canonical bacterial phylogenetics workflow for recombination-aware tree analysis with strong direct relevance.",
+  "stars": 215,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2025-08-27",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 78.7,
+  "discovery_score": 10,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins",
+  "slug": "nickjcroucher-gubbins"
+}

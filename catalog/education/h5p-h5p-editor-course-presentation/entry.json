@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/h5p/h5p-editor-course-presentation",
+  "name": "h5p/h5p-editor-course-presentation",
+  "description": "H5P editor for making course presentations.",
+  "sub_domain": "curriculum-authoring",
+  "score": 6,
+  "score_rationale": "A focused H5P content-type editor that supports interactive courseware creation, though it is narrower than a full platform.",
+  "stars": 6,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "curriculum-authoring"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 6,
+  "tags": [
+    "curriculum",
+    "authoring",
+    "oer",
+    "courseware"
+  ],
+  "category": "Curriculum, Content Authoring, OER Publishing & Interactive Courseware",
+  "summary": "H5P editor for making course presentations.",
+  "slug": "h5p-h5p-editor-course-presentation"
+}

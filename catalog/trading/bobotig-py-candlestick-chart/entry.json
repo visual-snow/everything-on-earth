@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/bobotig/py-candlestick-chart",
+  "name": "bobotig/py-candlestick-chart",
+  "description": "Draw candlesticks charts right into your terminal, using Python!",
+  "sub_domain": "charting-visualization",
+  "score": 8,
+  "score_rationale": "Niche but directly relevant candlestick visualization tool, especially for lightweight terminal workflows.",
+  "stars": 120,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "charting-visualization"
+  ],
+  "quality_score": 64.7,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "Draw candlesticks charts right into your terminal, using Python!",
+  "slug": "bobotig-py-candlestick-chart"
+}

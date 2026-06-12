@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/evcc-io/evcc",
+  "name": "evcc-io/evcc",
+  "description": "solar charging \u2600\ufe0f\ud83d\ude98",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 6297,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 60.4,
+  "discovery_score": 5,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "solar charging \u2600\ufe0f\ud83d\ude98",
+  "slug": "evcc-io-evcc"
+}

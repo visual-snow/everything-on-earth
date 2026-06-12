@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openzeppelin/uniswap-hooks",
+  "name": "openzeppelin/uniswap-hooks",
+  "description": "Solidity library for secure and modular Uniswap hooks.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 121,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2026-01-07",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 40.7,
+  "discovery_score": 4,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Solidity library for secure and modular Uniswap hooks.",
+  "slug": "openzeppelin-uniswap-hooks"
+}

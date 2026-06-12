@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/marioni-group/methylpiper",
+  "name": "marioni-group/methylpiper",
+  "description": "Modular and reproducible pipelines for multi-omics predictors of complex traits.",
+  "sub_domain": "bioinformatics-pipelines",
+  "score": 7,
+  "score_rationale": "A concrete multi-omics pipeline package with reproducible execution patterns, albeit for a narrower research niche.",
+  "stars": 6,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2024-10-08",
+  "found_in_domains": [
+    "bioinformatics-pipelines"
+  ],
+  "quality_score": 48.8,
+  "discovery_score": 7,
+  "tags": [
+    "bioinformatics-pipelines",
+    "nextflow",
+    "snakemake",
+    "reproducibility"
+  ],
+  "category": "Bioinformatics Pipelines \u2014 workflow managers and pipeline frameworks",
+  "summary": "Modular and reproducible pipelines for multi-omics predictors of complex traits.",
+  "slug": "marioni-group-methylpiper"
+}

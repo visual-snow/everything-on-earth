@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jesse-ai/jesse",
+  "name": "jesse-ai/jesse",
+  "description": "An advanced crypto trading bot written in Python.",
+  "sub_domain": "live-algo-execution-engines",
+  "score": 9,
+  "score_rationale": "Open-source crypto trading bot/framework with live execution support, widely used for live deployment.",
+  "stars": 7585,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "live-algo-execution-engines",
+    "trading-bots-strategy-frameworks"
+  ],
+  "quality_score": 85.0,
+  "tags": [
+    "live-trading",
+    "execution",
+    "order-routing"
+  ],
+  "category": "Trading Execution Engine",
+  "summary": "An advanced crypto trading bot written in Python.",
+  "slug": "jesse-ai-jesse"
+}

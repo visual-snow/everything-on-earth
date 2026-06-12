@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rpetit3/dragonflye",
+  "name": "rpetit3/dragonflye",
+  "description": "Assemble bacterial isolate genomes from Nanopore reads",
+  "sub_domain": "long-read-sequencing",
+  "score": 8,
+  "score_rationale": "Practical Nanopore-focused bacterial assembly pipeline rather than generic infrastructure.",
+  "stars": 130,
+  "language": "Perl",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-22",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 64.9,
+  "discovery_score": 8,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "Assemble bacterial isolate genomes from Nanopore reads",
+  "slug": "rpetit3-dragonflye"
+}

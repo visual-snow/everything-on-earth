@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/edgarminers/filingsdb",
+  "name": "edgarminers/filingsdb",
+  "description": "Build a local database of company filings pulled from SEC's EDGAR.",
+  "sub_domain": "financial-document-processing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 23,
+  "language": "Go",
+  "query_hits": 1,
+  "matched_queries": [
+    "sec filing xbrl extraction open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 17.0,
+  "discovery_score": 1,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Build a local database of company filings pulled from SEC's EDGAR.",
+  "slug": "edgarminers-filingsdb"
+}

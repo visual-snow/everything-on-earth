@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ignite-analytics/carbon-accounting",
+  "name": "ignite-analytics/carbon-accounting",
+  "description": "A public github repository describing the carbon accounting methodology of Ignite Procurement, as well as including changes to the Exiobase database.",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+  "stars": 23,
+  "language": "Jupyter Notebook",
+  "license": "CC-BY-SA-4.0",
+  "last_activity": "2024-02-13",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 41.0,
+  "discovery_score": 5,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "A public github repository describing the carbon accounting methodology of Ignite Procurement, as well as including changes to the Exioba...",
+  "slug": "ignite-analytics-carbon-accounting"
+}

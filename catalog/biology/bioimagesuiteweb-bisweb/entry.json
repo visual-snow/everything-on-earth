@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bioimagesuiteweb/bisweb",
+  "name": "bioimagesuiteweb/bisweb",
+  "description": "This is the repository for the BioImage Suite Web Project",
+  "sub_domain": "biomedical-imaging",
+  "score": 8,
+  "score_rationale": "BioImage Suite Web is a purpose-built biomedical image analysis platform with strong relevance to imaging workflows.",
+  "stars": 85,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 63.5,
+  "discovery_score": 8,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "This is the repository for the BioImage Suite Web Project",
+  "slug": "bioimagesuiteweb-bisweb"
+}

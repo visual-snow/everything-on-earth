@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/duracell04/metiseon",
+  "name": "duracell04/metiseon",
+  "description": "Minimal open-source robo allocator \u2013 durability score, inverse-vol basket, SQLite ledger.",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-11-24",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity",
+    "ledger"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "Minimal open-source robo allocator \u2013 durability score, inverse-vol basket, SQLite ledger.",
+  "slug": "duracell04-metiseon"
+}

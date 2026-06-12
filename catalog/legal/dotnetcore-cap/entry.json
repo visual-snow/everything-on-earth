@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dotnetcore/cap",
+  "name": "dotnetcore/cap",
+  "description": "Distributed transaction solution in micro-service base on eventually consistency, also an eventbus with Outbox pattern",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 7071,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 2,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "Distributed transaction solution in micro-service base on eventually consistency, also an eventbus with Outbox pattern",
+  "slug": "dotnetcore-cap"
+}

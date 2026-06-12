@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/codeluu/blockchain-osint",
+  "name": "codeluu/blockchain-osint",
+  "description": "A collection of tools and resources useful for OSINT investigations in the cryptocurrency. This is a dynamic list. \u2014most resources here are from investigations I've done. Feel free to contribute!",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 82,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-06-25",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 3,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "A collection of tools and resources useful for OSINT investigations in the cryptocurrency. This is a dynamic list. \u2014most resources here a...",
+  "slug": "codeluu-blockchain-osint"
+}

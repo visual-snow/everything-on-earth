@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/emocareai/chatpsychiatrist",
+  "name": "EmoCareAI/ChatPsychiatrist",
+  "description": "An AI-chat bot transforming counseling with personalized support and expert assistance.",
+  "sub_domain": "mental-health-behavioral",
+  "score": 8,
+  "score_rationale": "Direct counseling-oriented chatbot aimed at mental-health support, which fits the subdomain tightly.",
+  "stars": 150,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-03-12",
+  "found_in_domains": [
+    "mental-health-behavioral"
+  ],
+  "quality_score": 65.4,
+  "discovery_score": 8,
+  "tags": [
+    "mental-health",
+    "behavioral-health",
+    "cbt",
+    "screening"
+  ],
+  "category": "Mental Health, Behavioral Health, CBT, Mood Tracking & Crisis Support",
+  "summary": "An AI-chat bot transforming counseling with personalized support and expert assistance.",
+  "slug": "emocareai-chatpsychiatrist"
+}

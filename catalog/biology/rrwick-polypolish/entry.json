@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rrwick/polypolish",
+  "name": "rrwick/polypolish",
+  "description": "a short-read polishing tool for long-read assemblies",
+  "sub_domain": "long-read-sequencing",
+  "score": 8,
+  "score_rationale": "Widely used short-read polisher for long-read assemblies.",
+  "stars": 211,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2025-09-19",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 66.6,
+  "discovery_score": 8,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "a short-read polishing tool for long-read assemblies",
+  "slug": "rrwick-polypolish"
+}

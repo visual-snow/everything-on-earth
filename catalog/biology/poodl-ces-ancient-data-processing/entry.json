@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/poodl-ces/ancient_data_processing",
+  "name": "PoODL-CES/Ancient_data_Processing",
+  "description": "Reproducible ancient DNA processing pipeline using PALEOMIX, with sample data and setup notes.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 8,
+  "score_rationale": "Explicitly documents aDNA processing with current supporting materials and concrete workflow notes.",
+  "stars": 0,
+  "language": "Shell",
+  "license": null,
+  "last_activity": "2025-10-30",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Reproducible ancient DNA processing pipeline using PALEOMIX, with sample data and setup notes.",
+  "slug": "poodl-ces-ancient-data-processing"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/josepaulosavioli/lavoisier",
+  "name": "josepaulosavioli/lavoisier",
+  "description": "Converter for Life Cycle Assessment (LCA) inventory file formats",
+  "sub_domain": "life-cycle-assessment",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-09-24",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 5,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Converter for Life Cycle Assessment (LCA) inventory file formats",
+  "slug": "josepaulosavioli-lavoisier"
+}

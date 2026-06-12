@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ss3sim/ss3sim",
+  "name": "ss3sim/ss3sim",
+  "description": "An R package for stock-assessment simulation with Stock Synthesis",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Reusable stock-assessment simulation package used in fisheries method testing and Stock Synthesis workflows.",
+  "stars": 41,
+  "language": "R",
+  "license": "Other",
+  "last_activity": "2025-05-19",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 61.0,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "An R package for stock-assessment simulation with Stock Synthesis",
+  "slug": "ss3sim-ss3sim"
+}

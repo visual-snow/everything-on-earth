@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maia-sh/ctregistries",
+  "name": "maia-sh/ctregistries",
+  "description": "Data Package and R Functions for Clinical Trial Registries and other MEDLINE Databanks",
+  "sub_domain": "clinical-trials-research",
+  "score": 6,
+  "score_rationale": "Relevant registry data package and helper functions, but more specialized than the core analysis tooling.",
+  "stars": 2,
+  "language": "R",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-08-28",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 39.8,
+  "discovery_score": 6,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Data Package and R Functions for Clinical Trial Registries and other MEDLINE Databanks",
+  "slug": "maia-sh-ctregistries"
+}

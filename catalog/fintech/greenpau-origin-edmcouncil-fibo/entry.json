@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/greenpau/origin_edmcouncil_fibo",
+  "name": "greenpau/origin_edmcouncil_fibo",
+  "description": "The Financial Industry Business Ontology (FIBO) defines the sets of things that are of interest in financial business applications and the ways that those things can relate to one another. In this way, FIBO can give meaning to any data (e.g., spreadsheets, relational databases, XML documents) that describe the business of finance.",
+  "sub_domain": "financial-data-standards",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; fork penalty.",
+  "stars": 1,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2020-01-14",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "The Financial Industry Business Ontology (FIBO) defines the sets of things that are of interest in financial business applications and th...",
+  "slug": "greenpau-origin-edmcouncil-fibo"
+}

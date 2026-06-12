@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ashleylab/stmp",
+  "name": "ashleylab/stmp",
+  "description": "Sequence to Medical Phenotypes: A pipeline featuring variant annotation, prioritization, pharmacogenomics, and tools for analyzing genomic trios (mother, father, child).",
+  "sub_domain": "clinical-genomics",
+  "score": 4,
+  "score_rationale": "It hits pharmacogenomics and clinical prioritization, but the project is very old and appears largely unmaintained.",
+  "stars": 13,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2016-03-01",
+  "found_in_domains": [
+    "clinical-genomics"
+  ],
+  "quality_score": 33.2,
+  "discovery_score": 4,
+  "tags": [
+    "clinical-genomics",
+    "genomics",
+    "variant-interpretation",
+    "acmg"
+  ],
+  "category": "Clinical Genomics \u2014 variant interpretation and pharmacogenomics",
+  "summary": "Sequence to Medical Phenotypes: A pipeline featuring variant annotation, prioritization, pharmacogenomics, and tools for analyzing genomi...",
+  "slug": "ashleylab-stmp"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/primus852/stock-news",
+  "name": "primus852/stock-news",
+  "description": "Scrape financial News from Yahoo and analyse the sentiment (PoC)",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 9,
+  "score_rationale": "Direct Yahoo Finance news scraping with sentiment analysis; tightly aligned with trading news-signals pipelines.",
+  "stars": 20,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2019-07-16",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 64.6,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "Scrape financial News from Yahoo and analyse the sentiment (PoC)",
+  "slug": "primus852-stock-news"
+}

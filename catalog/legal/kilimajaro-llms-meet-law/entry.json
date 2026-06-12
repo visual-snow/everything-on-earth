@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kilimajaro/llms_meet_law",
+  "name": "kilimajaro/llms_meet_law",
+  "description": "This repository contains the main materials of our work\u2013\u2013When LLMs Meet Law.",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 9,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-07-11",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 14.0,
+  "discovery_score": 1,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "This repository contains the main materials of our work\u2013\u2013When LLMs Meet Law.",
+  "slug": "kilimajaro-llms-meet-law"
+}

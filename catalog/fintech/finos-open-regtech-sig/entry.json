@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/finos/open-regtech-sig",
+  "name": "finos/open-regtech-sig",
+  "description": "The FINOS Regulation Innovation Special Interest Group (SIG) is a community of people interested in creating open source solutions for regulatory and compliance issues in financial services.",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 43,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2024-04-12",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 49.1,
+  "discovery_score": 6,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "The FINOS Regulation Innovation Special Interest Group (SIG) is a community of people interested in creating open source solutions for re...",
+  "slug": "finos-open-regtech-sig"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/un-project/un-votes",
+  "name": "un-project/un-votes",
+  "description": "Visualizer for United Nations General Assembly voting records.",
+  "sub_domain": "network-alliance-analysis",
+  "score": 7,
+  "score_rationale": "It is a reusable voting-record visualizer, even if the scope is narrower than the core dataset packages.",
+  "stars": 5,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-08-18",
+  "found_in_domains": [
+    "network-alliance-analysis"
+  ],
+  "quality_score": 48.2,
+  "tags": [
+    "un",
+    "voting",
+    "visualization",
+    "general-assembly",
+    "analysis"
+  ],
+  "category": "UN Voting Visualizer",
+  "summary": "Visualizes United Nations General Assembly voting records.",
+  "slug": "un-project-un-votes"
+}

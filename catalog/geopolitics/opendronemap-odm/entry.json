@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/opendronemap/odm",
+  "name": "OpenDroneMap/ODM",
+  "description": "A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. \ud83d\udcf7",
+  "stars": 5914,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-17",
+  "sub_domain": "geoint-tools",
+  "score": 8,
+  "score_rationale": "Heavy-duty photogrammetry and mapping toolkit that directly supports GEOINT workflows.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 78.2,
+  "tags": [
+    "photogrammetry",
+    "mapping",
+    "point-clouds",
+    "drones"
+  ],
+  "category": "Photogrammetry Toolkit",
+  "summary": "Command-line toolkit for maps, point clouds, and 3D models from images.",
+  "slug": "opendronemap-odm"
+}

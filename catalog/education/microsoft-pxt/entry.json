@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/pxt",
+  "name": "microsoft/pxt",
+  "description": "Microsoft MakeCode (PXT - Programming eXperience Toolkit)",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Core MakeCode toolkit for beginner-friendly block and text programming experiences used in K-12 contexts.",
+  "stars": 2278,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 80.9,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "Microsoft MakeCode (PXT - Programming eXperience Toolkit)",
+  "slug": "microsoft-pxt"
+}

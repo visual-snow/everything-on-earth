@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cebolalab/atac-seq",
+  "name": "CebolaLab/ATAC-seq",
+  "description": "Analysis pipeline for ATAC-seq data",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 4,
+  "score_rationale": "Relevant assay-specific genomics pipeline for chromatin accessibility data.",
+  "stars": 87,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2023-10-30",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 39.6,
+  "discovery_score": 4,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Analysis pipeline for ATAC-seq data",
+  "slug": "cebolalab-atac-seq"
+}

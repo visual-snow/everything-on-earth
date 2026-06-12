@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gemini-medicine/rxnorm",
+  "name": "GEMINI-Medicine/RxNorm",
+  "description": "The GEMINI-RxNorm code automates the use of multiple RxNorm tools in tandem with other datasets to identify drug concepts from pharmacy orders.",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 5,
+  "score_rationale": "Relevant RxNorm automation for pharmacy-order normalization, though it is more of a supporting data tool.",
+  "stars": 1,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2023-12-06",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "The GEMINI-RxNorm code automates the use of multiple RxNorm tools in tandem with other datasets to identify drug concepts from pharmacy o...",
+  "slug": "gemini-medicine-rxnorm"
+}

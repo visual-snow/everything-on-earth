@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/emvolz-phylodynamics/phydynr",
+  "name": "emvolz-phylodynamics/phydynR",
+  "description": "Phylodynamic coalescent simulation and likelihood toolkit for infectious-disease models.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 9,
+  "score_rationale": "Focused phylodynamic toolkit connecting infectious-disease models with coalescent simulation and likelihood calculations.",
+  "stars": 14,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-05-15",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 63.4,
+  "discovery_score": 9,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Phylodynamic coalescent simulation and likelihood toolkit for infectious-disease models.",
+  "slug": "emvolz-phylodynamics-phydynr"
+}

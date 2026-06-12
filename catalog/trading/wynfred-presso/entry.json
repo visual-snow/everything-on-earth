@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/wynfred/presso",
+  "name": "wynfred/presso",
+  "description": "Event-driven backtest/realtime quantitative trading system.",
+  "sub_domain": "backtesting-frameworks",
+  "score": 5,
+  "score_rationale": "Event-driven backtest/realtime system that is directly relevant despite smaller community size.",
+  "stars": 76,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2021-10-19",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 45.1,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "Event-driven backtest/realtime quantitative trading system.",
+  "slug": "wynfred-presso"
+}

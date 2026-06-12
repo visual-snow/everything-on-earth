@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/k2sosint/legendary_crypto",
+  "name": "k2sosint/legendary_crypto",
+  "description": "A resource full of Crypto/OSINT tools, techniques and training courses for CTI, AML, and forensic investigations.",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 126,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 1,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev",
+    "aml"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "A resource full of Crypto/OSINT tools, techniques and training courses for CTI, AML, and forensic investigations.",
+  "slug": "k2sosint-legendary-crypto"
+}

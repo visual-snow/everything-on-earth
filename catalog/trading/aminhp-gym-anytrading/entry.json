@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/aminhp/gym-anytrading",
+  "name": "AminHP/gym-anytrading",
+  "description": "The most simple, flexible, and comprehensive OpenAI Gym trading environment (Approved by OpenAI Gym)",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 9,
+  "score_rationale": "Lightweight trading RL environment and benchmark for agent development.",
+  "stars": 2375,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-03-14",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 81.0,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "The most simple, flexible, and comprehensive OpenAI Gym trading environment (Approved by OpenAI Gym)",
+  "slug": "aminhp-gym-anytrading"
+}

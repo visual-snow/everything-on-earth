@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/aws-samples/sample-compliance-assistant-with-agents",
+  "name": "aws-samples/sample-compliance-assistant-with-agents",
+  "description": "Sample solution to automate tedious regulatory compliance processes using multi-agent systems",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+  "stars": 24,
+  "language": "Python",
+  "license": "MIT-0",
+  "last_activity": "2025-04-15",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 41.2,
+  "discovery_score": 5,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls",
+    "regulatory"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "Sample solution to automate tedious regulatory compliance processes using multi-agent systems",
+  "slug": "aws-samples-sample-compliance-assistant-with-agents"
+}

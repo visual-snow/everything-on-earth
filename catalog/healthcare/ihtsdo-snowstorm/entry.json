@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ihtsdo/snowstorm",
+  "name": "IHTSDO/snowstorm",
+  "description": "Scalable SNOMED CT Terminology Server using Elasticsearch",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 10,
+  "score_rationale": "Canonical SNOMED CT terminology server implementation with broad real-world adoption and direct fit for terminology infrastructure.",
+  "stars": 340,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 80.3,
+  "discovery_score": 10,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "snomed"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "Scalable SNOMED CT Terminology Server using Elasticsearch",
+  "slug": "ihtsdo-snowstorm"
+}

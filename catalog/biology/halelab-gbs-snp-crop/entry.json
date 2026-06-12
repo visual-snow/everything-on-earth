@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/halelab/gbs-snp-crop",
+  "name": "halelab/GBS-SNP-CROP",
+  "description": "GBS SNP Calling Reference Optional Pipeline",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 9,
+  "score_rationale": "Established crop-genomics pipeline for GBS variant calling and breeding support.",
+  "stars": 33,
+  "language": "Perl",
+  "license": "GPL-2.0",
+  "last_activity": "2022-03-09",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 66.3,
+  "discovery_score": 9,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "GBS SNP Calling Reference Optional Pipeline",
+  "slug": "halelab-gbs-snp-crop"
+}

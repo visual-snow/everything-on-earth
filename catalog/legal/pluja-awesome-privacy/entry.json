@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pluja/awesome-privacy",
+  "name": "pluja/awesome-privacy",
+  "description": "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.",
+  "sub_domain": "curated-lists-meta-sweep",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 18280,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 64.1,
+  "discovery_score": 5,
+  "tags": [
+    "awesome-list",
+    "legal-data",
+    "legal-nlp",
+    "privacy"
+  ],
+  "category": "Curated Lists / Meta Sweep \u2014 awesome lists, GitHub topics, canonical meta-sources",
+  "summary": "Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.",
+  "slug": "pluja-awesome-privacy"
+}

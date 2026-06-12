@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brightway-lca/bw_timex",
+  "name": "brightway-lca/bw_timex",
+  "description": "Time-explicit Life Cycle Assessment",
+  "sub_domain": "life-cycle-assessment",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 43,
+  "language": "Jupyter Notebook",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 43.1,
+  "discovery_score": 5,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Time-explicit Life Cycle Assessment",
+  "slug": "brightway-lca-bw-timex"
+}

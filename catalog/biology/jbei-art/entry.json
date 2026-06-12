@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jbei/art",
+  "name": "jbei/art",
+  "description": "A machine learning tool to improve the effectiveness of strain engineering in synthetic biology",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Clear synthetic-biology strain-engineering tool aimed at design and optimization.",
+  "stars": 60,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-12-15",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 62.3,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "A machine learning tool to improve the effectiveness of strain engineering in synthetic biology",
+  "slug": "jbei-art"
+}

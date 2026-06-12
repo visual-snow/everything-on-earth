@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gruncrow/bird-song-detector",
+  "name": "gruncrow/bird-song-detector",
+  "description": "Bird Song Detector - Easy To Use Scripts and App",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 7,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-07-24",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 25.2,
+  "discovery_score": 3,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "Bird Song Detector - Easy To Use Scripts and App",
+  "slug": "gruncrow-bird-song-detector"
+}

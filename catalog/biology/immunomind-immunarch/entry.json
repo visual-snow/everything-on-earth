@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/immunomind/immunarch",
+  "name": "immunomind/immunarch",
+  "description": "immunarch [R package] - Multi-Modal Immune Repertoire Analytics for Immunotherapy and Vaccine Design",
+  "sub_domain": "immunoinformatics",
+  "score": 10,
+  "score_rationale": "Leading immune repertoire analytics package with broad adoption and direct utility for AIRR workflows.",
+  "stars": 338,
+  "language": "R",
+  "license": "Apache-2.0",
+  "last_activity": "2025-11-18",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 80.2,
+  "discovery_score": 10,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "immunarch [R package] - Multi-Modal Immune Repertoire Analytics for Immunotherapy and Vaccine Design",
+  "slug": "immunomind-immunarch"
+}

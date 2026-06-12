@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rfhb/ctrdata",
+  "name": "rfhb/ctrdata",
+  "description": "Aggregate and analyse clinical trials data from public registers",
+  "sub_domain": "clinical-trials-research",
+  "score": 7,
+  "score_rationale": "Useful registry aggregation and analysis toolkit for public trial registers.",
+  "stars": 55,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 56.0,
+  "discovery_score": 7,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Aggregate and analyse clinical trials data from public registers",
+  "slug": "rfhb-ctrdata"
+}

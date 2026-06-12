@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brightway-lca/hackathons",
+  "name": "brightway-lca/hackathons",
+  "description": "Organization of Brightway hackathons",
+  "sub_domain": "life-cycle-assessment",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 5,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-09-04",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 24.2,
+  "discovery_score": 3,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Organization of Brightway hackathons",
+  "slug": "brightway-lca-hackathons"
+}

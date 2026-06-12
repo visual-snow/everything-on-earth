@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/althonos/pronto",
+  "name": "althonos/pronto",
+  "description": "A Python frontend to (Open Biomedical) Ontologies.",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 7,
+  "score_rationale": "General-purpose ontology library with broad utility for biomedical ontology parsing, browsing, and export.",
+  "stars": 254,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-13",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 61.3,
+  "discovery_score": 7,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "A Python frontend to (Open Biomedical) Ontologies.",
+  "slug": "althonos-pronto"
+}

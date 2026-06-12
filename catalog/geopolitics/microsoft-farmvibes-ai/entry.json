@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/microsoft/farmvibes-ai",
+  "name": "microsoft/farmvibes-ai",
+  "description": "FarmVibes.AI: Multi-Modal GeoSpatial ML Models for Agriculture and Sustainability",
+  "stars": 838,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-07-28",
+  "sub_domain": "geoint-tools",
+  "score": 9,
+  "score_rationale": "Large, active geospatial ML platform with direct utility for earth-observation intelligence.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 77.4,
+  "tags": [
+    "agriculture",
+    "geospatial-ml",
+    "remote-sensing",
+    "sustainability"
+  ],
+  "category": "Geospatial ML Platform",
+  "summary": "Multi-modal geospatial ML platform for agriculture and sustainability.",
+  "slug": "microsoft-farmvibes-ai"
+}

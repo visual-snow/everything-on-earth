@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clintpgeorge/ediscovery",
+  "name": "clintpgeorge/ediscovery",
+  "description": "Active Topic Learning based Legal eDiscovery",
+  "sub_domain": "e-discovery-document-review",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 8,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2014-11-20",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 25.6,
+  "discovery_score": 3,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "Active Topic Learning based Legal eDiscovery",
+  "slug": "clintpgeorge-ediscovery"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mwasifanwar/energyforecast-ai",
+  "name": "mwasifanwar/energyforecast-ai",
+  "description": "AI system for energy demand forecasting and grid optimization. Uses time series analysis and weather data to predict energy consumption, optimize renewable energy integration, and prevent grid failures.",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 2,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-11-07",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "AI system for energy demand forecasting and grid optimization. Uses time series analysis and weather data to predict energy consumption,...",
+  "slug": "mwasifanwar-energyforecast-ai"
+}

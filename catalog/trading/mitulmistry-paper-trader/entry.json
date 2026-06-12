@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/mitulmistry/paper-trader",
+  "name": "mitulmistry/paper-trader",
+  "description": "A paper trading web application to practice trading stocks, built with Flask",
+  "sub_domain": "paper-trading-simulation",
+  "score": 9,
+  "score_rationale": "Purpose-built web app for practicing stock paper trading.",
+  "stars": 22,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-08-30",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 64.9,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "A paper trading web application to practice trading stocks, built with Flask",
+  "slug": "mitulmistry-paper-trader"
+}

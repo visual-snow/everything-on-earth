@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rohitgandikota/land-use-land-cover-classification-of-satellite-images-using-deep-learning",
+  "name": "rohitgandikota/land-use-land-cover-classification-of-satellite-images-using-deep-learning",
+  "description": "This work discusses how high resolution satellite images are classified into various classes like cloud, vegetation, water and miscellaneous, using feed forward neural network. Open source python libraries like GDAL and keras were used in this work. This work is generic and can be used for satellite images of any resolution, but with MX band sensors.",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 10,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2019-11-09",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 38.3,
+  "discovery_score": 5,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "This work discusses how high resolution satellite images are classified into various classes like cloud, vegetation, water and miscellane...",
+  "slug": "rohitgandikota-land-use-land-cover-classification-of-satellite-images-using-deep-learning"
+}

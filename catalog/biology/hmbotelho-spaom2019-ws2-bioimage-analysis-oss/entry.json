@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hmbotelho/spaom2019-ws2-bioimage-analysis-oss",
+  "name": "hmbotelho/spaom2019-ws2-bioimage-analysis-oss",
+  "description": "SPAOM 2019 Community Workshop: Bioimage analysis open-source software tools",
+  "sub_domain": "biomedical-imaging",
+  "score": 4,
+  "score_rationale": "These are workshop materials and tool roundups, which are relevant background but not a standalone bioimage-analysis project.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2019-11-05",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "SPAOM 2019 Community Workshop: Bioimage analysis open-source software tools",
+  "slug": "hmbotelho-spaom2019-ws2-bioimage-analysis-oss"
+}

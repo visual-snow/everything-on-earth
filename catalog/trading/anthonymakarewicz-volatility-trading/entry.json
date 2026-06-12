@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/anthonymakarewicz/volatility-trading",
+  "name": "anthonymakarewicz/volatility-trading",
+  "description": "Systematic Volatility Research and Backtesting for equity options",
+  "sub_domain": "options-derivatives",
+  "score": 7,
+  "score_rationale": "Good fit for volatility-focused options research and backtesting, but narrower and smaller than the top-tier libraries above.",
+  "stars": 23,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "options-derivatives"
+  ],
+  "quality_score": 53.0,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility",
+    "backtesting"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "Systematic Volatility Research and Backtesting for equity options",
+  "slug": "anthonymakarewicz-volatility-trading"
+}

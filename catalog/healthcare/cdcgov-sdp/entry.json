@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cdcgov/sdp",
+  "name": "CDCgov/SDP",
+  "description": "Repository for CDC's Surveillance Data Platform project.",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 6,
+  "score_rationale": "CDC surveillance data platform project; infrastructure-relevant but smaller and less mature.",
+  "stars": 3,
+  "language": "Jinja",
+  "license": "Apache-2.0",
+  "last_activity": "2021-06-18",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 6,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Repository for CDC's Surveillance Data Platform project.",
+  "slug": "cdcgov-sdp"
+}

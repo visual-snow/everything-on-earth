@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ouyangwenyu/torchhydro",
+  "name": "ouyangwenyu/torchhydro",
+  "description": "TorchHydro: datasets, and models for watershed hydrological modeling",
+  "sub_domain": "water-resource-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 23,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-12-30",
+  "found_in_domains": [
+    "water-resource-management"
+  ],
+  "quality_score": 35.0,
+  "discovery_score": 4,
+  "tags": [
+    "hydrology",
+    "watershed",
+    "water-quality",
+    "water-modeling"
+  ],
+  "category": "Water Resource Management \u2014 hydrological modeling, water quality, watershed analysis",
+  "summary": "TorchHydro: datasets, and models for watershed hydrological modeling",
+  "slug": "ouyangwenyu-torchhydro"
+}

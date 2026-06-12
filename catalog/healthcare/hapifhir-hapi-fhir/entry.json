@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hapifhir/hapi-fhir",
+  "name": "hapifhir/hapi-fhir",
+  "description": "Java API for HL7 FHIR clients and servers.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 10,
+  "score_rationale": "One of the most important open-source FHIR client/server stacks in the ecosystem.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 62.4,
+  "discovery_score": 10,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "Java API for HL7 FHIR clients and servers.",
+  "slug": "hapifhir-hapi-fhir"
+}

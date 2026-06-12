@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ekimetrics/pyepidemics",
+  "name": "ekimetrics/pyepidemics",
+  "description": "Python notebooks for epidemiological modeling and scenario testing.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 7,
+  "score_rationale": "Directly on-topic but looks more like a compact notebook project than a maintained library.",
+  "stars": 8,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2022-06-22",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 7,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Python notebooks for epidemiological modeling and scenario testing.",
+  "slug": "ekimetrics-pyepidemics"
+}

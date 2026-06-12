@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/natlabrockies/openstudio-resources",
+  "name": "natlabrockies/openstudio-resources",
+  "description": "No description provided.",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 27,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2025-11-14",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 23.6,
+  "discovery_score": 2,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "No description provided.",
+  "slug": "natlabrockies-openstudio-resources"
+}

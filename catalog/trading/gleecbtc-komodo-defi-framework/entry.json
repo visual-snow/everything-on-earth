@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/gleecbtc/komodo-defi-framework",
+  "name": "GLEECBTC/komodo-defi-framework",
+  "description": "This is the official Komodo DeFi Framework repository",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 7,
+  "score_rationale": "DeFi framework with trading and execution implications, though narrower than Uniswap/Flashbots.",
+  "stars": 125,
+  "language": "Rust",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 58.8,
+  "tags": [
+    "defi",
+    "dex",
+    "mev"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "This is the official Komodo DeFi Framework repository",
+  "slug": "gleecbtc-komodo-defi-framework"
+}

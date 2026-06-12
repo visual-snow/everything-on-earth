@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openwateranalytics/epyt",
+  "name": "openwateranalytics/epyt",
+  "description": "EPyT: An EPANET-Python Toolkit for Smart Water Network Simulations",
+  "sub_domain": "water-resource-management",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 71,
+  "language": "Jupyter Notebook",
+  "license": "EUPL-1.2",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "water-resource-management"
+  ],
+  "quality_score": 32.9,
+  "discovery_score": 3,
+  "tags": [
+    "hydrology",
+    "watershed",
+    "water-quality",
+    "water-modeling"
+  ],
+  "category": "Water Resource Management \u2014 hydrological modeling, water quality, watershed analysis",
+  "summary": "EPyT: An EPANET-Python Toolkit for Smart Water Network Simulations",
+  "slug": "openwateranalytics-epyt"
+}

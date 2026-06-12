@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openmf/mifos-x",
+  "name": "openmf/mifos-x",
+  "description": "Unified repository containing the full Mifos X core banking suite including back-end platform/APIs, web-app, reporting plug-in and mobile fielder operations interface.",
+  "sub_domain": "core-banking-ledger",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 7,
+  "language": null,
+  "license": "MPL-2.0",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "Unified repository containing the full Mifos X core banking suite including back-end platform/APIs, web-app, reporting plug-in and mobile...",
+  "slug": "openmf-mifos-x"
+}

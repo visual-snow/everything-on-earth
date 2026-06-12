@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yazdan/dl_c_iso8583",
+  "name": "yazdan/dl_c_iso8583",
+  "description": "This is Oscar Sanderson great ISO8383 Library in C",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 4,
+  "language": "C",
+  "license": null,
+  "last_activity": "2018-02-27",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 23.6,
+  "discovery_score": 3,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "This is Oscar Sanderson great ISO8383 Library in C",
+  "slug": "yazdan-dl-c-iso8583"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mrmaxent/maxnet",
+  "name": "mrmaxent/maxnet",
+  "description": "An R package that implements much of the functionality of the Maxent Java application",
+  "sub_domain": "ecology-conservation",
+  "score": 9,
+  "score_rationale": "Compact and widely used R implementation of Maxent-style species distribution modeling.",
+  "stars": 83,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2023-07-05",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 69.4,
+  "discovery_score": 9,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "An R package that implements much of the functionality of the Maxent Java application",
+  "slug": "mrmaxent-maxnet"
+}

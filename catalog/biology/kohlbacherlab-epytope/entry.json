@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kohlbacherlab/epytope",
+  "name": "KohlbacherLab/epytope",
+  "description": "Python-based framework for computational immunomics",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Established computational immunomics framework with multiple epitope prediction and vaccine-design entry points.",
+  "stars": 15,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 57.6,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Python-based framework for computational immunomics",
+  "slug": "kohlbacherlab-epytope"
+}

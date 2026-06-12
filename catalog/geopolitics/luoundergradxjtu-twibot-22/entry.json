@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/luoundergradxjtu/twibot-22",
+  "name": "LuoUndergradXJTU/TwiBot-22",
+  "description": "Official Twitter bot detection benchmark with graph structure and multiple modalities.",
+  "sub_domain": "social-media-influence",
+  "score": 10,
+  "score_rationale": "It is a major benchmark for bot detection and social-media influence research.",
+  "stars": 246,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-10-14",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 79.1,
+  "tags": [
+    "bot-detection",
+    "benchmark",
+    "twitter",
+    "multimodal"
+  ],
+  "category": "Bot Detection",
+  "summary": "Twitter bot benchmark with graph and multimodal signals.",
+  "slug": "luoundergradxjtu-twibot-22"
+}

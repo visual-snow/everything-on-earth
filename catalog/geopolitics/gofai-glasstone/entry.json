@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gofai/glasstone",
+  "name": "GOFAI/glasstone",
+  "description": "Python library for modelling nuclear weapons effects",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 8,
+  "score_rationale": "Operational nuclear weapons effects model used for blast and fallout analysis.",
+  "stars": 86,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 63.5,
+  "tags": [
+    "nuclear",
+    "weapons",
+    "effects",
+    "modeling",
+    "blast"
+  ],
+  "category": "Nuclear Effects Modeling",
+  "summary": "Python library for nuclear weapons effects modeling.",
+  "slug": "gofai-glasstone"
+}

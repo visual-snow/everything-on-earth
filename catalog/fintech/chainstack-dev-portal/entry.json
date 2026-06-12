@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chainstack/dev-portal",
+  "name": "chainstack/dev-portal",
+  "description": "Chainstack Developer Portal",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 8,
+  "language": "MDX",
+  "license": null,
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 13.6,
+  "discovery_score": 1,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Chainstack Developer Portal",
+  "slug": "chainstack-dev-portal"
+}

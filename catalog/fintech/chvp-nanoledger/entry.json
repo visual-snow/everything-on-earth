@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/chvp/nanoledger",
+  "name": "chvp/nanoledger",
+  "description": "Ledger (plain text accounting) data entry app for Android",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text; has some GitHub adoption.",
+  "stars": 121,
+  "language": "Kotlin",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "core-banking-ledger",
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 52.7,
+  "discovery_score": 6,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger",
+    "ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Ledger (plain text accounting) data entry app for Android",
+  "slug": "chvp-nanoledger"
+}

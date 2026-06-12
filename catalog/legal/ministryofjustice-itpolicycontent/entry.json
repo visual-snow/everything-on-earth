@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ministryofjustice/itpolicycontent",
+  "name": "ministryofjustice/itpolicycontent",
+  "description": "Draft and review content for MoJ IT Policy.",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; archived repo penalty.",
+  "stars": 11,
+  "language": "Shell",
+  "license": null,
+  "last_activity": "2020-09-02",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 14.6,
+  "discovery_score": 1,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "Draft and review content for MoJ IT Policy.",
+  "slug": "ministryofjustice-itpolicycontent"
+}

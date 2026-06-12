@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/shehel/bert_propaganda_detection",
+  "name": "shehel/BERT_propaganda_detection",
+  "description": "Propaganda detection using fine-tuned BERT.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 9,
+  "score_rationale": "A direct propaganda-detection implementation that is stronger than the weaker notebook-style entries.",
+  "stars": 20,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-07-21",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 64.6,
+  "tags": [
+    "propaganda",
+    "bert",
+    "classification",
+    "misinformation"
+  ],
+  "category": "Propaganda Detection",
+  "summary": "Fine-tuned BERT model for detecting propaganda text.",
+  "slug": "shehel-bert-propaganda-detection"
+}

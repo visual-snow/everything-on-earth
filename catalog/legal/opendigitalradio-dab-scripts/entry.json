@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opendigitalradio/dab-scripts",
+  "name": "opendigitalradio/dab-scripts",
+  "description": "Setup and configuration for dab radio transmissions with odr-mmbTools",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; archived repo penalty.",
+  "stars": 21,
+  "language": "Shell",
+  "license": null,
+  "last_activity": "2025-07-31",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 16.7,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "Setup and configuration for dab radio transmissions with odr-mmbTools",
+  "slug": "opendigitalradio-dab-scripts"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ihtsdo/snomed-to-icd10-mapper",
+  "name": "IHTSDO/snomed-to-icd10-mapper",
+  "description": "No description provided.",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 5,
+  "score_rationale": "Code mapping utility relevant to clinical coding pipelines, though not a full NLP stack.",
+  "stars": 8,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2025-10-09",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 37.6,
+  "discovery_score": 5,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding",
+    "snomed"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "No description provided.",
+  "slug": "ihtsdo-snomed-to-icd10-mapper"
+}

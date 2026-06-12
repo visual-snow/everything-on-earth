@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/jackson-wozniak/stock-market-simulation",
+  "name": "jackson-wozniak/stock-market-simulation",
+  "description": "A virtual stock market and trading platform. Includes a fully simulated stock market, with dynamic price changes and news events. Simulation models a real calendar with time sped up",
+  "sub_domain": "paper-trading-simulation",
+  "score": 10,
+  "score_rationale": "Fully simulated stock market with dynamic prices, news events, and accelerated time.",
+  "stars": 50,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2026-01-26",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 73.7,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "A virtual stock market and trading platform. Includes a fully simulated stock market, with dynamic price...",
+  "slug": "jackson-wozniak-stock-market-simulation"
+}

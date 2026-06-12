@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clinical-genomics/scout",
+  "name": "clinical-genomics/scout",
+  "description": "VCF visualization interface",
+  "sub_domain": "clinical-genomics",
+  "score": 8,
+  "score_rationale": "A production-looking clinical VCF review interface from a clinical genomics org, useful for variant curation workflows.",
+  "stars": 178,
+  "language": "HTML",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "clinical-genomics"
+  ],
+  "quality_score": 66.0,
+  "discovery_score": 8,
+  "tags": [
+    "clinical-genomics",
+    "genomics",
+    "variant-interpretation",
+    "acmg"
+  ],
+  "category": "Clinical Genomics \u2014 variant interpretation and pharmacogenomics",
+  "summary": "VCF visualization interface",
+  "slug": "clinical-genomics-scout"
+}

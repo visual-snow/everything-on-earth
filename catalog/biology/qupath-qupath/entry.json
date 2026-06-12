@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/qupath/qupath",
+  "name": "qupath/qupath",
+  "description": "QuPath - Open-source bioimage analysis for research",
+  "sub_domain": "biomedical-imaging",
+  "score": 97,
+  "score_rationale": "Established bioimage-analysis workhorse for whole-slide and microscopy imaging.",
+  "stars": 1317,
+  "language": "Java",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 607.0,
+  "discovery_score": 97,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "QuPath - Open-source bioimage analysis for research",
+  "slug": "qupath-qupath"
+}

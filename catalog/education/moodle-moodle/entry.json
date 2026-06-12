@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/moodle/moodle",
+  "name": "moodle/moodle",
+  "description": "Moodle - the world's open source learning platform",
+  "sub_domain": "lms",
+  "score": 10,
+  "score_rationale": "Canonical LMS with broad adoption across education, grading, course delivery, and enrollment workflows.",
+  "stars": 6941,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "lms",
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 90.7,
+  "discovery_score": 10,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment",
+    "accessibility",
+    "captioning"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "Moodle - the world's open source learning platform",
+  "slug": "moodle-moodle"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mlibrary/heliotrope",
+  "name": "mlibrary/heliotrope",
+  "description": "Codebase for Fulcrum, a Samvera-based digital publishing platform built by the University of Michigan Library",
+  "sub_domain": "research-academic-publishing",
+  "score": 7,
+  "score_rationale": "University-backed scholarly publishing platform for books and digital publications.",
+  "stars": 52,
+  "language": "Ruby",
+  "license": "Apache License 2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 55.8,
+  "discovery_score": 7,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "Codebase for Fulcrum, a Samvera-based digital publishing platform built by the University of Michigan Library",
+  "slug": "mlibrary-heliotrope"
+}

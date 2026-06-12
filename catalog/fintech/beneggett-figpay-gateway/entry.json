@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/beneggett/figpay_gateway",
+  "name": "beneggett/figpay_gateway",
+  "description": "FigPay Payment Gateway API - whitelabel NMI Payments provider",
+  "sub_domain": "payment-processing-gateways",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 0,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2025-11-24",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "FigPay Payment Gateway API - whitelabel NMI Payments provider",
+  "slug": "beneggett-figpay-gateway"
+}

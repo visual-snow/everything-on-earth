@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gbif/pygbif",
+  "name": "gbif/pygbif",
+  "description": "GBIF Python client",
+  "sub_domain": "biodiversity-informatics",
+  "score": 9,
+  "score_rationale": "This is the main Python client for GBIF, which makes it a strong fit for occurrence retrieval and taxon lookup workflows.",
+  "stars": 143,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 71.3,
+  "discovery_score": 9,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "GBIF Python client",
+  "slug": "gbif-pygbif"
+}

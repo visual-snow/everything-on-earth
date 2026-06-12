@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cabforum/code-signing",
+  "name": "cabforum/code-signing",
+  "description": "Repository for the CA/Browser Forum Code Signing Certificate Chartered Working Group",
+  "sub_domain": "legal-document-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 30,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-01-07",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 17.9,
+  "discovery_score": 1,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "Repository for the CA/Browser Forum Code Signing Certificate Chartered Working Group",
+  "slug": "cabforum-code-signing"
+}

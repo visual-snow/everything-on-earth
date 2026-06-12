@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nbisweden/mrbayes",
+  "name": "NBISweden/MrBayes",
+  "description": "MrBayes is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models.",
+  "sub_domain": "phylogenetics",
+  "score": 9,
+  "score_rationale": "A classic Bayesian phylogenetics engine that remains directly relevant even though the repository is in maintenance mode.",
+  "stars": 259,
+  "language": "C",
+  "license": "GPL-3.0",
+  "last_activity": "2020-01-10",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 73.3,
+  "discovery_score": 9,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "MrBayes is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models.",
+  "slug": "nbisweden-mrbayes"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/b-k/py1040",
+  "name": "b-k/py1040",
+  "description": "A U.S. personal income tax calculator",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 338,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2024-04-21",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 26.2,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "A U.S. personal income tax calculator",
+  "slug": "b-k-py1040"
+}

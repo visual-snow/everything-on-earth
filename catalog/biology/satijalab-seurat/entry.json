@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/satijalab/seurat",
+  "name": "satijalab/seurat",
+  "description": "R toolkit for single cell genomics",
+  "sub_domain": "transcriptomics",
+  "score": 10,
+  "score_rationale": "Core R single-cell genomics toolkit and one of the standard analysis stacks in the field.",
+  "stars": 2693,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 87.4,
+  "discovery_score": 10,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression",
+    "genomics"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "R toolkit for single cell genomics",
+  "slug": "satijalab-seurat"
+}

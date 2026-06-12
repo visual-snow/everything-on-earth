@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ahmadvh/ai-agents-for-medical-diagnostics",
+  "name": "ahmadvh/AI-Agents-for-Medical-Diagnostics",
+  "description": "A Python project to create specialized LLM-based AI agents that analyze complex medical cases. The system integrates insights from various medical professionals to provide comprehensive assessments and personalized treatment recommendations, showcasing the potential of AI in multidisciplinary medicine.",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 5,
+  "score_rationale": "Relevant agentic diagnostic prototype, but more experimental than a core diagnostics platform.",
+  "stars": 287,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-10-18",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 49.7,
+  "discovery_score": 5,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "A Python project to create specialized LLM-based AI agents that analyze complex medical cases. The system integrates insights from variou...",
+  "slug": "ahmadvh-ai-agents-for-medical-diagnostics"
+}

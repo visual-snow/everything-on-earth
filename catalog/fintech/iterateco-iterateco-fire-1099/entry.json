@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/iterateco/iterateco-fire-1099",
+  "name": "iterateco/iterateco-fire-1099",
+  "description": "Generate 1099 tax filings formatted for the IRS electronic filing system (\"FIRE\")",
+  "sub_domain": "tax-calculation-filing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2020-03-13",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Generate 1099 tax filings formatted for the IRS electronic filing system (\"FIRE\")",
+  "slug": "iterateco-iterateco-fire-1099"
+}

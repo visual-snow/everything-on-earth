@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ucscgenomebrowser/kent",
+  "name": "ucscGenomeBrowser/kent",
+  "description": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing.",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 9,
+  "score_rationale": "Primary source tree for the UCSC Genome Browser toolchain.",
+  "stars": 260,
+  "language": "C",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 73.3,
+  "discovery_score": 9,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "UCSC Genome Browser source. \"beta\" is released version / \"master\" is testing.",
+  "slug": "ucscgenomebrowser-kent"
+}

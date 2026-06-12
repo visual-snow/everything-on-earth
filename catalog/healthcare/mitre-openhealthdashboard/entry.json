@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mitre/openhealthdashboard",
+  "name": "mitre/OpenHealthDashboard",
+  "description": "No description provided.",
+  "sub_domain": "public-health-population-analytics",
+  "score": 6,
+  "score_rationale": "Open health dashboard repo is relevant to public-health reporting and visualization, though broader and less specialized.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "public-health-population-analytics"
+  ],
+  "quality_score": 38.4,
+  "discovery_score": 6,
+  "tags": [
+    "public-health",
+    "population-health",
+    "equity",
+    "demographics"
+  ],
+  "category": "Public Health, Population Analytics, Health Equity & Demographic Modeling",
+  "summary": "No description provided.",
+  "slug": "mitre-openhealthdashboard"
+}

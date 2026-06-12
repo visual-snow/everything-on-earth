@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jeryi-sun/llm-and-law",
+  "name": "jeryi-sun/llm-and-law",
+  "description": "This repository is dedicated to summarizing papers related to large language models with the field of law",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 289,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 25.7,
+  "discovery_score": 1,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "This repository is dedicated to summarizing papers related to large language models with the field of law",
+  "slug": "jeryi-sun-llm-and-law"
+}

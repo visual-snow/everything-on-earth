@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/scverse/snapatac2",
+  "name": "scverse/snapatac2",
+  "description": "Single-cell epigenomics analysis tools",
+  "sub_domain": "epigenomics",
+  "score": 9,
+  "score_rationale": "Canonical and actively maintained single-cell ATAC-seq analysis toolkit with broad utility across epigenomics workflows.",
+  "stars": 311,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 74.0,
+  "discovery_score": 9,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "Single-cell epigenomics analysis tools",
+  "slug": "scverse-snapatac2"
+}

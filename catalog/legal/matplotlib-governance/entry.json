@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/matplotlib/governance",
+  "name": "matplotlib/governance",
+  "description": "The governance process and model for matplotlib",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "Python",
+  "license": "CC0-1.0",
+  "last_activity": "2025-09-30",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "The governance process and model for matplotlib",
+  "slug": "matplotlib-governance"
+}

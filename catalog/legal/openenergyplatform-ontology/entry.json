@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/openenergyplatform/ontology",
+  "name": "openenergyplatform/ontology",
+  "description": "Repository for the Open Energy Ontology (OEO)",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 141,
+  "language": "Python",
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 41.2,
+  "discovery_score": 4,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif",
+    "ontology"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "Repository for the Open Energy Ontology (OEO)",
+  "slug": "openenergyplatform-ontology"
+}

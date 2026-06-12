@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/uniswap/v3-sdk",
+  "name": "Uniswap/v3-sdk",
+  "description": "\ud83d\udee0 An SDK for building applications on top of Uniswap V3",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 10,
+  "score_rationale": "Canonical Uniswap V3 SDK; core DEX building block for swaps and routing.",
+  "stars": 570,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 82.1,
+  "tags": [
+    "defi",
+    "dex",
+    "mev",
+    "uniswap"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "\ud83d\udee0 An SDK for building applications on top of Uniswap V3",
+  "slug": "uniswap-v3-sdk"
+}

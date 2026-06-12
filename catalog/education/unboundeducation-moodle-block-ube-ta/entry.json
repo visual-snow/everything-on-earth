@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/unboundeducation/moodle-block_ube_ta",
+  "name": "UnboundEducation/moodle-block_ube_ta",
+  "description": "Moodle block plugin that embeds a teaching-assistant chatbot for course and site content.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 7,
+  "score_rationale": "Useful classroom integration because it brings a course-grounded assistant directly into an LMS environment.",
+  "stars": 1,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2024-07-04",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "Moodle block plugin that embeds a teaching-assistant chatbot for course and site content.",
+  "slug": "unboundeducation-moodle-block-ube-ta"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/judgmentlabs/judgeval",
+  "name": "judgmentlabs/judgeval",
+  "description": "The open source post-building layer for agents. Our environment data and evals power agent post-training (RL, SFT) and monitoring.",
+  "sub_domain": "court-case-management",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 1018,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "court-case-management"
+  ],
+  "quality_score": 36.1,
+  "discovery_score": 2,
+  "tags": [
+    "court-case-management",
+    "e-filing",
+    "docket-management",
+    "judicial-workflow"
+  ],
+  "category": "Court / Case Management \u2014 docketing, e-filing, case tracking, judicial workflow",
+  "summary": "The open source post-building layer for agents. Our environment data and evals power agent post-training (RL, SFT) and monitoring.",
+  "slug": "judgmentlabs-judgeval"
+}

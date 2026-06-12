@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/openradx/dicom-anonymizer",
+  "name": "openradx/dicom-anonymizer",
+  "description": "DICOM Web Anonymizer is a TypeScript library designed to anonymize DICOM (Digital Imaging and Communications in Medicine) datasets.",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 7,
+  "score_rationale": "Relevant DICOM anonymization library with an active codebase and a narrow, useful privacy focus.",
+  "stars": 2,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-12-08",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 7,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa",
+    "dicom",
+    "imaging"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "DICOM Web Anonymizer is a TypeScript library designed to anonymize DICOM (Digital Imaging and Communications in Medicine) datasets.",
+  "slug": "openradx-dicom-anonymizer"
+}

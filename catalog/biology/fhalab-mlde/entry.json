@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fhalab/mlde",
+  "name": "fhalab/mlde",
+  "description": "A machine-learning package for navigating combinatorial protein fitness landscapes.",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 8,
+  "score_rationale": "A canonical protein-fitness and directed-evolution toolkit with a tight fit to sequence-function modeling.",
+  "stars": 135,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2021-11-17",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 65.1,
+  "discovery_score": 8,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "A machine-learning package for navigating combinatorial protein fitness landscapes.",
+  "slug": "fhalab-mlde"
+}

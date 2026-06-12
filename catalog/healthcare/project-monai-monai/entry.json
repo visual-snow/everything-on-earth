@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/project-monai/monai",
+  "name": "Project-MONAI/MONAI",
+  "description": "AI Toolkit for Healthcare Imaging",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 10,
+  "score_rationale": "Foundational, widely used healthcare imaging toolkit with broad diagnostic coverage and active maintenance.",
+  "stars": 7997,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 91.2,
+  "discovery_score": 10,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology",
+    "imaging"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "AI Toolkit for Healthcare Imaging",
+  "slug": "project-monai-monai"
+}

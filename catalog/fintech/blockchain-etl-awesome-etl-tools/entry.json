@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/blockchain-etl/awesome-etl-tools",
+  "name": "blockchain-etl/awesome-etl-tools",
+  "description": "Awesome ETL tools for blockchain data",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for awesome-style signals.",
+  "stars": 13,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2024-04-15",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 21.2,
+  "discovery_score": 2,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Awesome ETL tools for blockchain data",
+  "slug": "blockchain-etl-awesome-etl-tools"
+}

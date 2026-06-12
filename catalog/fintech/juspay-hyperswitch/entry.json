@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/juspay/hyperswitch",
+  "name": "juspay/hyperswitch",
+  "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+  "sub_domain": "payment-processing-gateways",
+  "score": 8,
+  "score_rationale": "Matched 3 queries; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 41774,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 85.0,
+  "discovery_score": 8,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+  "slug": "juspay-hyperswitch"
+}

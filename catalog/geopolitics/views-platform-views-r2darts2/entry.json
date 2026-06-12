@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/views-platform/views-r2darts2",
+  "name": "views-platform/views-r2darts2",
+  "description": "Time-series deep learning suite for conflict forecasting within the VIEWS ecosystem.",
+  "sub_domain": "risk-forecasting-models",
+  "score": 8,
+  "score_rationale": "A dedicated forecasting stack for the same high-signal conflict-prediction ecosystem.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "conflict-forecasting",
+    "time-series",
+    "deep-learning",
+    "views"
+  ],
+  "category": "Conflict Forecasting",
+  "summary": "VIEWS time-series deep learning suite for conflict prediction.",
+  "slug": "views-platform-views-r2darts2"
+}

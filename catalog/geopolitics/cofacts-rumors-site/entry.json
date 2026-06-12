@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cofacts/rumors-site",
+  "name": "cofacts/rumors-site",
+  "description": "Collaborative fact-checking UI for rumor tracking and creation.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 8,
+  "score_rationale": "It supports collaborative rumor checking and public verification workflows.",
+  "stars": 93,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 63.8,
+  "tags": [
+    "fact-checking",
+    "rumors",
+    "collaboration",
+    "verification"
+  ],
+  "category": "Rumor Fact-Checking",
+  "summary": "Collaborative UI for tracking and verifying rumors.",
+  "slug": "cofacts-rumors-site"
+}

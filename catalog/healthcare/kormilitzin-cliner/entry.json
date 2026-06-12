@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kormilitzin/cliner",
+  "name": "kormilitzin/CliNER",
+  "description": "Clinical Named Entity Recognition system (CliNER) is an open-source natural language processing system for named entity recognition in clinical text of electronic health records.",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 8,
+  "score_rationale": "Directly targets clinical named entity recognition in EHR text.",
+  "stars": 5,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2018-05-23",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 54.2,
+  "discovery_score": 8,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "Clinical Named Entity Recognition system (CliNER) is an open-source natural language processing system for named entity recognition in cl...",
+  "slug": "kormilitzin-cliner"
+}

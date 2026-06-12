@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/davidegironi/dentned",
+  "name": "davidegironi/dentned",
+  "description": "Dental Practice Management",
+  "sub_domain": "dental-specialty-clinics",
+  "score": 8,
+  "score_rationale": "Straightforward dental practice management repo with good relevance despite older maintenance.",
+  "stars": 78,
+  "language": "C#",
+  "license": null,
+  "last_activity": "2021-08-20",
+  "found_in_domains": [
+    "dental-specialty-clinics"
+  ],
+  "quality_score": 63.2,
+  "discovery_score": 8,
+  "tags": [
+    "specialty-clinics",
+    "practice-management",
+    "dental"
+  ],
+  "category": "Dental, Ophthalmology & Specialty Clinic Systems",
+  "summary": "Dental Practice Management",
+  "slug": "davidegironi-dentned"
+}

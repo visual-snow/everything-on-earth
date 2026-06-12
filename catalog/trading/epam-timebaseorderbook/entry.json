@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/epam/timebaseorderbook",
+  "name": "epam/TimebaseOrderBook",
+  "description": "This library provides lightweight and garbage-free order book component for Java11+",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 8,
+  "score_rationale": "Clean Java order-book component with low-overhead design.",
+  "stars": 13,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2024-06-03",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 57.2,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "This library provides lightweight and garbage-free order book component for Java11+",
+  "slug": "epam-timebaseorderbook"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/oasis-open/cti-python-stix2",
+  "name": "oasis-open/cti-python-stix2",
+  "description": "OASIS TC Open Repository: Python APIs for STIX 2",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 8,
+  "score_rationale": "Core Python implementation for serializing and manipulating STIX 2 content.",
+  "stars": 418,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-02-12",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 69.0,
+  "tags": [
+    "stix",
+    "python",
+    "api",
+    "standards"
+  ],
+  "category": "STIX Python APIs",
+  "summary": "Python APIs for creating and manipulating STIX 2 content.",
+  "slug": "oasis-open-cti-python-stix2"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jcputney/scorm-again",
+  "name": "jcputney/scorm-again",
+  "description": "A modern SCORM JavaScript runtime library.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 10,
+  "score_rationale": "High-signal SCORM runtime with strong direct utility for learning package playback and tracking.",
+  "stars": 303,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 79.9,
+  "discovery_score": 10,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "A modern SCORM JavaScript runtime library.",
+  "slug": "jcputney-scorm-again"
+}

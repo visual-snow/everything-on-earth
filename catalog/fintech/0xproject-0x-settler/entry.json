@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/0xproject/0x-settler",
+  "name": "0xProject/0x-settler",
+  "description": "0x settlement contracts using Permit2",
+  "sub_domain": "reconciliation-settlement",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 94,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 5,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "0x settlement contracts using Permit2",
+  "slug": "0xproject-0x-settler"
+}

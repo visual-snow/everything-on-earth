@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pysb/pysb",
+  "name": "pysb/pysb",
+  "description": "Python framework for Systems Biology modeling",
+  "sub_domain": "systems-biology",
+  "score": 10,
+  "score_rationale": "Core rule-based systems biology framework for building and simulating biochemical network models, with strong adoption and active maintenance.",
+  "stars": 193,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 78.3,
+  "discovery_score": 10,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "Python framework for Systems Biology modeling",
+  "slug": "pysb-pysb"
+}

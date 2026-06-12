@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jrcunning/pom-dredge",
+  "name": "jrcunning/pom-dredge",
+  "description": "Analysis of dredging impacts to coral reefs at the Port of Miami",
+  "sub_domain": "marine-biology",
+  "score": 7,
+  "score_rationale": "Coral-reef impact analysis at the Port of Miami makes this a niche but clearly biology-facing reef assessment repository.",
+  "stars": 2,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2025-11-25",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 7,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Analysis of dredging impacts to coral reefs at the Port of Miami",
+  "slug": "jrcunning-pom-dredge"
+}

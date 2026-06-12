@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/digitalcredentials/verifier-plus",
+  "name": "digitalcredentials/verifier-plus",
+  "description": "VerifierPlus allows users to verify any supported digital academic credential",
+  "sub_domain": "credentialing-certification",
+  "score": 7,
+  "score_rationale": "Verifier focused on digital academic credentials; useful validation layer for learner credentials.",
+  "stars": 15,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-12-19",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 51.6,
+  "discovery_score": 7,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "VerifierPlus allows users to verify any supported digital academic credential",
+  "slug": "digitalcredentials-verifier-plus"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/expressodev/ci-merchant",
+  "name": "expressodev/ci-merchant",
+  "description": "An open source payment processing library for CodeIgniter",
+  "sub_domain": "payment-processing-gateways",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text; has some GitHub adoption.",
+  "stars": 168,
+  "language": "PHP",
+  "license": "MIT",
+  "last_activity": "2013-10-10",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 53.8,
+  "discovery_score": 6,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "An open source payment processing library for CodeIgniter",
+  "slug": "expressodev-ci-merchant"
+}

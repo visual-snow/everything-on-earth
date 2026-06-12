@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/slonigiraf/slonig",
+  "name": "slonigiraf/slonig",
+  "description": "Slonig is an open-source, free-to-use web platform that helps teachers encourage more student interaction during lessons. This repository provides an overview of all the repositories required to launch the Slonig peer-tutoring app.",
+  "sub_domain": "collaborative-learning",
+  "score": 7,
+  "score_rationale": "Teacher-facing platform aimed at student interaction and peer tutoring.",
+  "stars": 1,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2025-10-22",
+  "found_in_domains": [
+    "collaborative-learning"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis",
+    "tutoring"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "Slonig is an open-source, free-to-use web platform that helps teachers encourage more student interaction during lessons. This repository...",
+  "slug": "slonigiraf-slonig"
+}

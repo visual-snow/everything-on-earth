@@ -50,7 +50,25 @@ if [[ -z "$CONTENT" ]]; then
   exit 2
 fi
 
-# Validation checks
+# Determine tier from wave-manifest.json
+SLUG=$(basename "$(dirname "$FILE_PATH")")
+TIER="2"
+MANIFEST_PATH="$OUTPUT_DIR/wave-manifest.json"
+if [[ -f "$MANIFEST_PATH" ]]; then
+  FOUND_TIER=$(jq -r --arg s "$SLUG" '.slugs[] | select(.slug == $s) | .tier // empty' "$MANIFEST_PATH")
+  if [[ -n "$FOUND_TIER" ]]; then
+    TIER="$FOUND_TIER"
+  fi
+fi
+
+# Tier-specific limits
+case "$TIER" in
+  1) MAX_LINES=60; MIN_CONSTRAINT_BULLETS=0 ;;
+  2) MAX_LINES=80; MIN_CONSTRAINT_BULLETS=0 ;;
+  3) MAX_LINES=80; MIN_CONSTRAINT_BULLETS=2 ;;
+  *) MAX_LINES=60; MIN_CONSTRAINT_BULLETS=0 ;;
+esac
+
 ERRORS=""
 
 # 1. Must start with a heading
@@ -64,14 +82,13 @@ if ! echo "$CONTENT" | grep -q '^## Constraints'; then
   ERRORS="${ERRORS}STRUCTURE: missing '## Constraints' section\n"
 fi
 
-# 3. Must be <= 60 lines
+# 3. Line limit (tier-sensitive)
 LINE_COUNT=$(echo "$CONTENT" | wc -l | tr -d ' ')
-if [[ "$LINE_COUNT" -gt 60 ]]; then
-  ERRORS="${ERRORS}LENGTH: ${LINE_COUNT} lines exceeds 60-line limit\n"
+if [[ "$LINE_COUNT" -gt "$MAX_LINES" ]]; then
+  ERRORS="${ERRORS}LENGTH: ${LINE_COUNT} lines exceeds ${MAX_LINES}-line limit (tier $TIER)\n"
 fi
 
 # 4. No Docker image patterns (org/image:tag)
-# Narrow pattern with common container namespace prefixes
 if echo "$CONTENT" | grep -qE '(docker\.io|ghcr\.io|quay\.io|gcr\.io|registry\.|[a-z0-9]+/[a-z0-9_-]+:[0-9]+\.[0-9]+)'; then
   ERRORS="${ERRORS}ABSTRACTION: Docker image reference detected — use generic descriptions instead\n"
 fi
@@ -86,8 +103,16 @@ if echo "$CONTENT" | grep -qE '/(etc|var|opt|usr|tmp|home)/'; then
   ERRORS="${ERRORS}ABSTRACTION: file path detected — use generic descriptions instead\n"
 fi
 
+# 7. T3 minimum constraint bullets
+if [[ "$MIN_CONSTRAINT_BULLETS" -gt 0 ]]; then
+  CONSTRAINT_BULLETS=$(echo "$CONTENT" | sed -n '/^## Constraints/,/^## /p' | grep -c '^- ')
+  if [[ "$CONSTRAINT_BULLETS" -lt "$MIN_CONSTRAINT_BULLETS" ]]; then
+    ERRORS="${ERRORS}DEPTH: tier $TIER requires >= $MIN_CONSTRAINT_BULLETS constraint bullets, found $CONSTRAINT_BULLETS\n"
+  fi
+fi
+
 if [[ -n "$ERRORS" ]]; then
-  echo "output-validator: capability.md validation failed:" >&2
+  echo "output-validator: capability.md validation failed (tier $TIER):" >&2
   echo -e "$ERRORS" >&2
   exit 2
 fi

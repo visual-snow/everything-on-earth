@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maxiwell/ofx-bot",
+  "name": "maxiwell/ofx-bot",
+  "description": "Bank reconciliation using OFX files",
+  "sub_domain": "reconciliation-settlement",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 69,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2017-02-13",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 44.8,
+  "discovery_score": 5,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Bank reconciliation using OFX files",
+  "slug": "maxiwell-ofx-bot"
+}

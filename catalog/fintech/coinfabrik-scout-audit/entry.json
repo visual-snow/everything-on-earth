@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/coinfabrik/scout-audit",
+  "name": "coinfabrik/scout-audit",
+  "description": "Scout is an extensible open-source tool intended to assist smart contract developers and auditors detect common security issues and deviations from best practices. Scout audit is the core development on which we extend scout for specific blockchains.",
+  "sub_domain": "smart-contract-security",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 44,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-02-13",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 43.2,
+  "discovery_score": 5,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Scout is an extensible open-source tool intended to assist smart contract developers and auditors detect common security issues and devia...",
+  "slug": "coinfabrik-scout-audit"
+}

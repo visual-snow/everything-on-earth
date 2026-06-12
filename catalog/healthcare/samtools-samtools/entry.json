@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/samtools/samtools",
+  "name": "samtools/samtools",
+  "description": "Tools (written in C using htslib) for manipulating next-generation sequencing data",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 10,
+  "score_rationale": "Foundational sequencing utility for BAM/SAM/CRAM manipulation.",
+  "stars": 1868,
+  "language": "C",
+  "license": null,
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 86.2,
+  "discovery_score": 10,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Tools (written in C using htslib) for manipulating next-generation sequencing data",
+  "slug": "samtools-samtools"
+}

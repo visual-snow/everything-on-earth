@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/z1ph1us/smart-contract-auditor",
+  "name": "z1ph1us/smart-contract-auditor",
+  "description": "A Python-based tool for downloading Solidity smart contracts from blockchain explorers (Etherscan, BscScan, PolygonScan, Arbiscan) and performing automated vulnerability analysis using Slither.",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-06-07",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A Python-based tool for downloading Solidity smart contracts from blockchain explorers (Etherscan, BscScan, PolygonScan, Arbiscan) and pe...",
+  "slug": "z1ph1us-smart-contract-auditor"
+}

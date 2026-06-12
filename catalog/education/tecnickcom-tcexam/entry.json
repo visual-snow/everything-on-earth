@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/tecnickcom/tcexam",
+  "name": "tecnickcom/tcexam",
+  "description": "TCExam is a CBA (Computer-Based Assessment) system for authoring, scheduling, delivering, and reporting on quizzes, tests, and exams.",
+  "sub_domain": "assessment-testing",
+  "score": 10,
+  "score_rationale": "Direct match for computer-based assessment and exam delivery; mature, purpose-built, and widely referenced.",
+  "stars": 611,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 82.3,
+  "discovery_score": 10,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity",
+    "authoring"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "TCExam is a CBA (Computer-Based Assessment) system for authoring, scheduling, delivering, and reporting on quizzes, tests, and exams.",
+  "slug": "tecnickcom-tcexam"
+}

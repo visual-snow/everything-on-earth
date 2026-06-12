@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/reglab/covid-19-disease-surveillance",
+  "name": "reglab/covid-19-disease-surveillance",
+  "description": "Repository for Anderson et al., 2023, \"Leveraging Genomic Sequencing Data to Evaluate Disease Surveillance Strategies\"",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 7,
+  "score_rationale": "Research code for evaluating disease surveillance strategies from genomic data.",
+  "stars": 0,
+  "language": "R",
+  "license": null,
+  "last_activity": "2023-11-20",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Repository for Anderson et al., 2023, \"Leveraging Genomic Sequencing Data to Evaluate Disease Surveillance Strategies\"",
+  "slug": "reglab-covid-19-disease-surveillance"
+}

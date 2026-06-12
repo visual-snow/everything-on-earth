@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ekimetrics/pyepidemics",
+  "name": "ekimetrics/pyepidemics",
+  "description": "Open source epidemiological modeling in Python",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 6,
+  "score_rationale": "Epidemiological modeling library in Python; useful but smaller and older.",
+  "stars": 8,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2022-06-22",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 43.6,
+  "discovery_score": 6,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Open source epidemiological modeling in Python",
+  "slug": "ekimetrics-pyepidemics"
+}

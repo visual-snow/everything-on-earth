@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/frankligy/snaf",
+  "name": "frankligy/SNAF",
+  "description": "Splicing Neo Antigen Finder (SNAF) is an easy-to-use Python package to identify splicing-derived tumor neoantigens from RNA sequencing data, it further leverages both deep learning and hierarchical Bayesian models to prioritize certain candidates for experimental validation",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Strong splicing neoantigen finder with built-in prioritization and a clear cancer-immunology use case.",
+  "stars": 52,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-18",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 61.8,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Splicing Neo Antigen Finder (SNAF) is an easy-to-use Python package to identify splicing-derived tumor neoantigens from RNA sequencing da...",
+  "slug": "frankligy-snaf"
+}

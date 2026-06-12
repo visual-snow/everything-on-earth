@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nextstrain/auspice",
+  "name": "nextstrain/auspice",
+  "description": "Interactive web app for visualizing pathogen evolution and outbreak phylogenies.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 9,
+  "score_rationale": "Primary Nextstrain visualization layer for pathogen evolution, surveillance, and phylodynamic interpretation.",
+  "stars": 307,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 73.9,
+  "discovery_score": 9,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Interactive web app for visualizing pathogen evolution and outbreak phylogenies.",
+  "slug": "nextstrain-auspice"
+}

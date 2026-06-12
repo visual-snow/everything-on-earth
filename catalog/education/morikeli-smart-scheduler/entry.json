@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/morikeli/smart-scheduler",
+  "name": "morikeli/smart-scheduler",
+  "description": "This is a django web app that allows lecturers to schedule lectures. The app notifies students about the scheduled class depending on the lecture's recurrence pattern.",
+  "sub_domain": "classroom-management",
+  "score": 5,
+  "score_rationale": "Focused lecture scheduling and student notification makes it a direct classroom scheduling repo.",
+  "stars": 13,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-09-14",
+  "found_in_domains": [
+    "classroom-management"
+  ],
+  "quality_score": 39.2,
+  "discovery_score": 5,
+  "tags": [
+    "classroom",
+    "device-management",
+    "monitoring",
+    "scheduling"
+  ],
+  "category": "Classroom Management, Device Supervision, Screen Monitoring & Scheduling",
+  "summary": "This is a django web app that allows lecturers to schedule lectures. The app notifies students about the scheduled class depending on the...",
+  "slug": "morikeli-smart-scheduler"
+}

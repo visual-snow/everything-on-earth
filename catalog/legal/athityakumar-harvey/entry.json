@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/athityakumar/harvey",
+  "name": "athityakumar/harvey",
+  "description": "Legal cases' citation networks and their analysis",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 10,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2023-02-22",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 4,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction",
+    "citation"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "Legal cases' citation networks and their analysis",
+  "slug": "athityakumar-harvey"
+}

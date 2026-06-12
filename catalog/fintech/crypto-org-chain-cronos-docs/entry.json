@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/crypto-org-chain/cronos-docs",
+  "name": "crypto-org-chain/cronos-docs",
+  "description": "Docs for https://github.com/crypto-org-chain/cronos",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 28,
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 29.7,
+  "discovery_score": 3,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Docs for https://github.com/crypto-org-chain/cronos",
+  "slug": "crypto-org-chain-cronos-docs"
+}

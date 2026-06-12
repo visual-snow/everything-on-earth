@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/danwarren/enmtools",
+  "name": "danwarren/enmtools",
+  "description": "ENMTools R Package",
+  "sub_domain": "ecology-conservation",
+  "score": 8,
+  "score_rationale": "Established toolkit for comparing and evaluating ecological niche models.",
+  "stars": 112,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-02-16",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 64.4,
+  "discovery_score": 8,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "ENMTools R Package",
+  "slug": "danwarren-enmtools"
+}

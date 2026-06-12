@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aliciaolivaresgil/ssproteinfitnessprediction",
+  "name": "aliciaolivaresgil/ssproteinfitnessprediction",
+  "description": "Semi-supervised Protein Fitness Prediction",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 7,
+  "score_rationale": "A solid sequence-function modeling repository with direct relevance to protein-fitness prediction for engineering.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-06-02",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Semi-supervised Protein Fitness Prediction",
+  "slug": "aliciaolivaresgil-ssproteinfitnessprediction"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/marcdemers/py_vollib_vectorized",
+  "name": "marcdemers/py_vollib_vectorized",
+  "description": "A vectorized implementation of py_vollib, that supports numpy arrays and pandas Series and DataFrames.",
+  "sub_domain": "options-derivatives",
+  "score": 9,
+  "score_rationale": "Strong derivative of py_vollib that focuses on large-scale, vectorized IV and Greeks calculations across option books.",
+  "stars": 149,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-12-02",
+  "found_in_domains": [
+    "options-derivatives"
+  ],
+  "quality_score": 71.4,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "A vectorized implementation of py_vollib, that supports numpy arrays and pandas Series and DataFrames.",
+  "slug": "marcdemers-py-vollib-vectorized"
+}

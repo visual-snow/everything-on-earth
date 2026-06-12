@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tencent/angelslim",
+  "name": "tencent/angelslim",
+  "description": "Model compression toolkit engineered for enhanced usability, comprehensiveness, and efficiency.",
+  "sub_domain": "supply-chain-sustainability",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 555,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "supply-chain-sustainability"
+  ],
+  "quality_score": 28.0,
+  "discovery_score": 1,
+  "tags": [
+    "supply-chain",
+    "traceability",
+    "scope-3",
+    "deforestation"
+  ],
+  "category": "Supply Chain Sustainability \u2014 scope 3 traceability, deforestation-free supply chains, fair trade tracking",
+  "summary": "Model compression toolkit engineered for enhanced usability, comprehensiveness, and efficiency.",
+  "slug": "tencent-angelslim"
+}

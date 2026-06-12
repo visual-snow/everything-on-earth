@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/accordproject/cicero-template-library",
+  "name": "accordproject/cicero-template-library",
+  "description": "Accord Project Template Library",
+  "sub_domain": "smart-contracts-legal",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for template-style signals.",
+  "stars": 82,
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 3,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Accord Project Template Library",
+  "slug": "accordproject-cicero-template-library"
+}

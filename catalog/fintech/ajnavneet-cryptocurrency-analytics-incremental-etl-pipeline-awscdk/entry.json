@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ajnavneet/cryptocurrency-analytics-incremental-etl-pipeline-awscdk",
+  "name": "ajnavneet/cryptocurrency-analytics-incremental-etl-pipeline-awscdk",
+  "description": "Implemented incremental ETL solution utilizing AWS CDK for analysing cryptocurrency data.",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-01-12",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Implemented incremental ETL solution utilizing AWS CDK for analysing cryptocurrency data.",
+  "slug": "ajnavneet-cryptocurrency-analytics-incremental-etl-pipeline-awscdk"
+}

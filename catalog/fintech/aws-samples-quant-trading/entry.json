@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/aws-samples/quant-trading",
+  "name": "aws-samples/quant-trading",
+  "description": "This is a codebase to initialize the underlying infrastructure and stacks needed for real time quantitative trading as well as the basic application level logic.",
+  "sub_domain": "financial-market-data",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 33,
+  "language": "Python",
+  "license": "MIT-0",
+  "last_activity": "2026-02-05",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 30.3,
+  "discovery_score": 3,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions",
+    "quant"
+  ],
+  "category": "Financial Market Data",
+  "summary": "This is a codebase to initialize the underlying infrastructure and stacks needed for real time quantitative trading as well as the basic...",
+  "slug": "aws-samples-quant-trading"
+}

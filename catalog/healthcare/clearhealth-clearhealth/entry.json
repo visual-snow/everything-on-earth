@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clearhealth/clearhealth",
+  "name": "clearhealth/clearhealth",
+  "description": "Open Source Practice Management and Electronic Medical Records System.",
+  "sub_domain": "ehr-practice-management",
+  "score": 7,
+  "score_rationale": "Directly aligned to practice management and EMR, but the repo is old and less active.",
+  "stars": 90,
+  "language": "PHP",
+  "license": "NOASSERTION",
+  "last_activity": "2013-01-30",
+  "found_in_domains": [
+    "ehr-practice-management"
+  ],
+  "quality_score": 57.7,
+  "discovery_score": 7,
+  "tags": [
+    "ehr",
+    "emr",
+    "patient-records",
+    "practice-management"
+  ],
+  "category": "Electronic Health Records (EHR), Clinical Documentation & Practice Management",
+  "summary": "Open Source Practice Management and Electronic Medical Records System.",
+  "slug": "clearhealth-clearhealth"
+}

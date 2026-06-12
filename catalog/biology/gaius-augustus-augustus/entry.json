@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gaius-augustus/augustus",
+  "name": "Gaius-Augustus/Augustus",
+  "description": "Genome annotation with AUGUSTUS",
+  "sub_domain": "genomics",
+  "score": 8,
+  "score_rationale": "Longstanding gene prediction and genome annotation system that remains a standard component in annotation workflows.",
+  "stars": 328,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-08-15",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 68.1,
+  "discovery_score": 8,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Genome annotation with AUGUSTUS",
+  "slug": "gaius-augustus-augustus"
+}

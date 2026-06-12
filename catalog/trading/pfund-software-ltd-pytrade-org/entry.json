@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/pfund-software-ltd/pytrade.org",
+  "name": "pfund-software-ltd/pytrade.org",
+  "description": "Pytrade.org is a curated list of Python libraries and resources for algorithmic trading",
+  "sub_domain": "backtesting-frameworks",
+  "score": 5,
+  "score_rationale": "Curated Python trading-resources list that explicitly aggregates libraries and frameworks relevant to backtesting.",
+  "stars": 210,
+  "language": "MDX",
+  "license": "CC0-1.0",
+  "last_activity": "2025-05-19",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 48.6,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "Pytrade.org is a curated list of Python libraries and resources for algorithmic trading",
+  "slug": "pfund-software-ltd-pytrade-org"
+}

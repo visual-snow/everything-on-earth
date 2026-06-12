@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/googlecloudplatform/essai",
+  "name": "GoogleCloudPlatform/essai",
+  "description": "Open-source demo for rubric-based essay grading that automates educator workflows.",
+  "sub_domain": "ai-teaching-assistants",
+  "score": 8,
+  "score_rationale": "Directly addresses automated essay scoring with a clear educator-facing workflow and an open-source implementation.",
+  "stars": 6,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "ai-teaching-assistants"
+  ],
+  "quality_score": 54.8,
+  "discovery_score": 8,
+  "tags": [
+    "ai-tutoring",
+    "automated-feedback",
+    "question-generation",
+    "essay-scoring",
+    "grading"
+  ],
+  "category": "AI Teaching Assistants, Automated Feedback, Question Generation & Essay Scoring",
+  "summary": "Open-source demo for rubric-based essay grading that automates educator workflows.",
+  "slug": "googlecloudplatform-essai"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/colrev-environment/colrev",
+  "name": "CoLRev-Environment/colrev",
+  "description": "CoLRev: An open-source environment for collaborative reviews",
+  "sub_domain": "research-academic-publishing",
+  "score": 7,
+  "score_rationale": "Purpose-built for collaborative literature review workflows used in academic research.",
+  "stars": 42,
+  "language": "Python",
+  "license": "MIT License",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 55.1,
+  "discovery_score": 7,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "CoLRev: An open-source environment for collaborative reviews",
+  "slug": "colrev-environment-colrev"
+}

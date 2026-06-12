@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/runriotcomeon/yolov8-based-garbage-classification-app",
+  "name": "runriotcomeon/yolov8-based-garbage-classification-app",
+  "description": "A comprehensive AI-powered garbage detection system featuring YOLOv8 object detection, RESTful API backend, and cross-platform mobile application for real-time waste identification and disposal guidance.",
+  "sub_domain": "circular-economy-waste",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-11-25",
+  "found_in_domains": [
+    "circular-economy-waste"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "circular-economy",
+    "material-flow",
+    "recycling",
+    "waste-tracking"
+  ],
+  "category": "Circular Economy / Waste \u2014 material flow analysis, recycling optimization, waste tracking",
+  "summary": "A comprehensive AI-powered garbage detection system featuring YOLOv8 object detection, RESTful API backend, and cross-platform mobile app...",
+  "slug": "runriotcomeon-yolov8-based-garbage-classification-app"
+}

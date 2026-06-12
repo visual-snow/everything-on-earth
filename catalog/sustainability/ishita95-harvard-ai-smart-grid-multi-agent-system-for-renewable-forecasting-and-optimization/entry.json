@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ishita95-harvard/ai-smart-grid-multi-agent-system-for-renewable-forecasting-and-optimization",
+  "name": "ishita95-harvard/ai-smart-grid-multi-agent-system-for-renewable-forecasting-and-optimization",
+  "description": "This repository contains the simulation code, forecasting models (LSTM, Prophet, ARIMA), and optimization workflow for an MAS-based Smart Grid architecture, real-time energy forecasting, climate-resilient decision-making..",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 1,
+  "language": "TeX",
+  "license": "MIT",
+  "last_activity": "2025-11-29",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "This repository contains the simulation code, forecasting models (LSTM, Prophet, ARIMA), and optimization workflow for an MAS-based Smart...",
+  "slug": "ishita95-harvard-ai-smart-grid-multi-agent-system-for-renewable-forecasting-and-optimization"
+}

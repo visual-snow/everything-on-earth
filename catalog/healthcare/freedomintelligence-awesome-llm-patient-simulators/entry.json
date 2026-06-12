@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/freedomintelligence/awesome-llm-patient-simulators",
+  "name": "FreedomIntelligence/Awesome-LLM-Patient-Simulators",
+  "description": "This repository provides a curated collection of research papers on Large Language Models (LLMs) for patient simulation in healthcare.",
+  "sub_domain": "medical-education-simulation",
+  "score": 5,
+  "score_rationale": "Curated landscape reference for LLM patient simulation rather than a simulator itself.",
+  "stars": 109,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-01-07",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 46.3,
+  "discovery_score": 5,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient",
+    "patient-records"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "This repository provides a curated collection of research papers on Large Language Models (LLMs) for patient simulation in healthcare.",
+  "slug": "freedomintelligence-awesome-llm-patient-simulators"
+}

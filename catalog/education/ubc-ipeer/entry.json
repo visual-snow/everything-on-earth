@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ubc/ipeer",
+  "name": "ubc/iPeer",
+  "description": "Peer Evaluation System",
+  "sub_domain": "collaborative-learning",
+  "score": 7,
+  "score_rationale": "Peer evaluation tool used in team-based learning, though the repo is lighter on active development.",
+  "stars": 19,
+  "language": "PHP",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "collaborative-learning"
+  ],
+  "quality_score": 52.4,
+  "discovery_score": 7,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "Peer Evaluation System",
+  "slug": "ubc-ipeer"
+}

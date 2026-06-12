@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tatsath/fin-ml",
+  "name": "tatsath/fin-ml",
+  "description": "This github repository of \"Machine Learning and Data Science Blueprints for Finance\". Please star.",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 8,
+  "score_rationale": "Finance-focused ML blueprints and notebooks; directly aligned with trading research workflows.",
+  "stars": 1153,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-01-26",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 72.5,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "This github repository of \"Machine Learning and Data Science Blueprints for Finance\". Please star.",
+  "slug": "tatsath-fin-ml"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/hudson-and-thames/mlfinlab",
+  "name": "hudson-and-thames/mlfinlab",
+  "description": "MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools.",
+  "sub_domain": "portfolio-risk-management",
+  "score": 10,
+  "score_rationale": "Canonical quant-finance library with portfolio construction, risk estimation, and strategy research tools.",
+  "stars": 4623,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-10-02",
+  "found_in_domains": [
+    "portfolio-risk-management"
+  ],
+  "quality_score": 89.3,
+  "tags": [
+    "portfolio",
+    "risk-management",
+    "allocation"
+  ],
+  "category": "Portfolio Optimization",
+  "summary": "MlFinLab helps portfolio managers and traders who want to leverage the power of machine learning by providing...",
+  "slug": "hudson-and-thames-mlfinlab"
+}

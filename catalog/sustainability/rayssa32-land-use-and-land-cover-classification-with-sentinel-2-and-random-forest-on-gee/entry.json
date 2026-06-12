@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rayssa32/land-use-and-land-cover-classification-with-sentinel-2-and-random-forest-on-gee-",
+  "name": "rayssa32/land-use-and-land-cover-classification-with-sentinel-2-and-random-forest-on-gee-",
+  "description": "A reproducible, scalable and data-driven workflow for Sentinel-2 land cover classification \u2014 outperforming traditional desktop tools like QGIS SCP.",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-28",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "A reproducible, scalable and data-driven workflow for Sentinel-2 land cover classification \u2014 outperforming traditional desktop tools like...",
+  "slug": "rayssa32-land-use-and-land-cover-classification-with-sentinel-2-and-random-forest-on-gee"
+}

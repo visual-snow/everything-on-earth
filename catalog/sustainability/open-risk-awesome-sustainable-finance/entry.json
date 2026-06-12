@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/open-risk/awesome-sustainable-finance",
+  "name": "open-risk/awesome-sustainable-finance",
+  "description": "A curated list of sustainable finance resources (software, data and more)",
+  "sub_domain": "climate-finance",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for awesome-style signals.",
+  "stars": 73,
+  "language": "Python",
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "esg-reporting-compliance",
+    "supply-chain-sustainability",
+    "climate-finance",
+    "sustainability-dashboards-viz"
+  ],
+  "quality_score": 33.0,
+  "discovery_score": 3,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "A curated list of sustainable finance resources (software, data and more)",
+  "slug": "open-risk-awesome-sustainable-finance"
+}

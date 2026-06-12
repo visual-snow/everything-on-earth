@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/agabhi017/predicting-court-judgement-decisions-using-nlp",
+  "name": "agabhi017/predicting-court-judgement-decisions-using-nlp",
+  "description": "NLP techniques for predicting judicial decisions using case transcripts",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 6,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2020-11-24",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 24.8,
+  "discovery_score": 3,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction",
+    "court",
+    "judicial-workflow"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "NLP techniques for predicting judicial decisions using case transcripts",
+  "slug": "agabhi017-predicting-court-judgement-decisions-using-nlp"
+}

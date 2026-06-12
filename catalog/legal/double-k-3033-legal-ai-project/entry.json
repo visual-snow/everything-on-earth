@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/double-k-3033/legal-ai-project",
+  "name": "double-k-3033/legal-ai-project",
+  "description": "The Automated Legal Document Analysis Platform is a powerful web application that automates the laborious process of analyzing legal documents. By leveraging cutting-edge technologies such as Next.js, NLP, and machine learning models, our platform extracts relevant information and identifies potential risks from legal documents.",
+  "sub_domain": "legal-document-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 30,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-11-24",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 35.9,
+  "discovery_score": 4,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "The Automated Legal Document Analysis Platform is a powerful web application that automates the laborious process of analyzing legal docu...",
+  "slug": "double-k-3033-legal-ai-project"
+}

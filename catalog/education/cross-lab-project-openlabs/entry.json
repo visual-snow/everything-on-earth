@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cross-lab-project/openlabs",
+  "name": "Cross-Lab-Project/openLabs",
+  "description": "A collection of edrys lab configurations.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 7,
+  "score_rationale": "Directly supports browser-based lab setups through reusable Edrys classroom configurations.",
+  "stars": 2,
+  "language": "Dockerfile",
+  "license": "CC0-1.0",
+  "last_activity": "2023-01-29",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 7,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "A collection of edrys lab configurations.",
+  "slug": "cross-lab-project-openlabs"
+}

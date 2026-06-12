@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/karimcy/semdr-cyprus-smart-energy",
+  "name": "karimcy/semdr-cyprus-smart-energy",
+  "description": "SEMDR - Smart Energy Management & Demand Response Capabilities for Cyprus Hospitality Sector. Modern website showcasing AI-powered energy management solutions for hotels developed by Neura Energy.",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 1,
+  "language": "CSS",
+  "license": null,
+  "last_activity": "2025-06-03",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "SEMDR - Smart Energy Management & Demand Response Capabilities for Cyprus Hospitality Sector. Modern website showcasing AI-powered energy...",
+  "slug": "karimcy-semdr-cyprus-smart-energy"
+}

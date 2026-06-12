@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/renegade-fi/renegade-stylus-contracts",
+  "name": "renegade-fi/renegade-stylus-contracts",
+  "description": "Smart contracts for on-chain anonymous settlement.",
+  "sub_domain": "reconciliation-settlement",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 125,
+  "language": "Rust",
+  "license": null,
+  "last_activity": "2025-09-01",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 4,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Smart contracts for on-chain anonymous settlement.",
+  "slug": "renegade-fi-renegade-stylus-contracts"
+}

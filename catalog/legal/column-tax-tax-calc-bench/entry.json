@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/column-tax/tax-calc-bench",
+  "name": "column-tax/tax-calc-bench",
+  "description": "Code & data for TaxCalcBench",
+  "sub_domain": "tax-compliance-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 81,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 21.3,
+  "discovery_score": 1,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat",
+    "tax"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "Code & data for TaxCalcBench",
+  "slug": "column-tax-tax-calc-bench"
+}

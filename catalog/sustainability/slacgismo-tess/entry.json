@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/slacgismo/tess",
+  "name": "slacgismo/tess",
+  "description": "Transactive Energy Service System",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 14,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-03-04",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 4,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Transactive Energy Service System",
+  "slug": "slacgismo-tess"
+}

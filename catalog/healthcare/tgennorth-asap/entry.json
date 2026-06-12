@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tgennorth/asap",
+  "name": "TGenNorth/ASAP",
+  "description": "Amplicon Sequencing Analysis Pipeline",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 4,
+  "score_rationale": "Targeted amplicon sequencing workflow with direct genomics relevance.",
+  "stars": 19,
+  "language": "XSLT",
+  "license": null,
+  "last_activity": "2025-09-12",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 34.4,
+  "discovery_score": 4,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Amplicon Sequencing Analysis Pipeline",
+  "slug": "tgennorth-asap"
+}

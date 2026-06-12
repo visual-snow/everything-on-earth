@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/spree-contrib/spree_avatax_official",
+  "name": "spree-contrib/spree_avatax_official",
+  "description": "The new officially certified Spree Avatax (Avalara) extension",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 7,
+  "language": "Ruby",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-05-21",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 13.2,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "The new officially certified Spree Avatax (Avalara) extension",
+  "slug": "spree-contrib-spree-avatax-official"
+}

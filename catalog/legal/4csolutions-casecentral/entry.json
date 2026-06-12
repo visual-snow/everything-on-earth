@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/4csolutions/casecentral",
+  "name": "4csolutions/casecentral",
+  "description": "Legal Practice Management",
+  "sub_domain": "legal-practice-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 19,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-07-02",
+  "found_in_domains": [
+    "legal-practice-management"
+  ],
+  "quality_score": 34.4,
+  "discovery_score": 4,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "Legal Practice Management",
+  "slug": "4csolutions-casecentral"
+}

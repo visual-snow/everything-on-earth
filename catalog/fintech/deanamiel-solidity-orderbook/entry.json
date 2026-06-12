@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/deanamiel/solidity-orderbook",
+  "name": "deanamiel/solidity-orderbook",
+  "description": "Implementation of on-chain orderbook in Solidity",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": "Solidity",
+  "license": null,
+  "last_activity": "2022-04-01",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Implementation of on-chain orderbook in Solidity",
+  "slug": "deanamiel-solidity-orderbook"
+}

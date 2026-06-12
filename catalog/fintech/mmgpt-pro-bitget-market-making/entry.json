@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mmgpt-pro/bitget_market_making",
+  "name": "mmgpt-pro/bitget_market_making",
+  "description": "Best market making bot for Bitget Exchange in the market with anti bot mechanism to generate volume without any balance drain.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-02-07",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Best market making bot for Bitget Exchange in the market with anti bot mechanism to generate volume without any balance drain.",
+  "slug": "mmgpt-pro-bitget-market-making"
+}

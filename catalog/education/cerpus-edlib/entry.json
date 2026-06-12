@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/cerpus/edlib",
+  "name": "cerpus/Edlib",
+  "description": "Application for creating, sharing, storing, and using rich interactive learning resources.",
+  "sub_domain": "curriculum-authoring",
+  "score": 7,
+  "score_rationale": "Strong fit for interactive learning-resource authoring and reuse, squarely inside the educational content workflow.",
+  "stars": 45,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "curriculum-authoring"
+  ],
+  "quality_score": 55.3,
+  "discovery_score": 7,
+  "tags": [
+    "curriculum",
+    "authoring",
+    "oer",
+    "courseware",
+    "interactive"
+  ],
+  "category": "Curriculum, Content Authoring, OER Publishing & Interactive Courseware",
+  "summary": "Application for creating, sharing, storing, and using rich interactive learning resources.",
+  "slug": "cerpus-edlib"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/ta4j/ta4j",
+  "name": "ta4j/ta4j",
+  "description": "A Java library for technical analysis.",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 5,
+  "score_rationale": "Core Java technical analysis library with broad adoption and direct indicator implementation scope.",
+  "stars": 2394,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 57.0,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "A Java library for technical analysis.",
+  "slug": "ta4j-ta4j"
+}

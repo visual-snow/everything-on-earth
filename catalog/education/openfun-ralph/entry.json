@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openfun/ralph",
+  "name": "openfun/ralph",
+  "description": "Learning record store and analytics platform for learning data.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 7,
+  "score_rationale": "Active LRS-oriented project with a clear education analytics focus and current maintenance.",
+  "stars": 43,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 55.1,
+  "discovery_score": 7,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "Learning record store and analytics platform for learning data.",
+  "slug": "openfun-ralph"
+}

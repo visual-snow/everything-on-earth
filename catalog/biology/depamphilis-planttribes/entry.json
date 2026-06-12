@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/depamphilis/planttribes",
+  "name": "dePamphilis/PlantTribes",
+  "description": "PlantTribes is a collection of automated gene family analysis pipelines for comparative plant genomics",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "Directly targets comparative plant genomics workflows with automated gene-family analysis pipelines.",
+  "stars": 38,
+  "language": "Perl",
+  "license": "GPL-3.0",
+  "last_activity": "2025-10-28",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 60.7,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture",
+    "genomics"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "PlantTribes is a collection of automated gene family analysis pipelines for comparative plant genomics",
+  "slug": "depamphilis-planttribes"
+}

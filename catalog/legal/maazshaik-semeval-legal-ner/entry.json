@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maazshaik/semeval-legal-ner",
+  "name": "maazshaik/semeval-legal-ner",
+  "description": "Legal Named Entities Extraction",
+  "sub_domain": "legal-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2022-12-14",
+  "found_in_domains": [
+    "legal-ai-nlp"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "Legal Named Entities Extraction",
+  "slug": "maazshaik-semeval-legal-ner"
+}

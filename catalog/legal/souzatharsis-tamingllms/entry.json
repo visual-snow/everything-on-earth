@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/souzatharsis/tamingllms",
+  "name": "souzatharsis/tamingllms",
+  "description": "Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software",
+  "sub_domain": "ip-patent-trademark",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 341,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2025-02-05",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 26.3,
+  "discovery_score": 1,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software",
+  "slug": "souzatharsis-tamingllms"
+}

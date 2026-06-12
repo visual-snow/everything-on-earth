@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bytedance-seed/cryofm",
+  "name": "bytedance-seed/cryofm",
+  "description": "Generative foundation model for cryo-EM density maps.",
+  "sub_domain": "structural-biology",
+  "score": 8,
+  "score_rationale": "A biology-facing foundation model built specifically for cryo-EM density maps rather than generic ML infrastructure.",
+  "stars": 26,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 59.5,
+  "discovery_score": 8,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Generative foundation model for cryo-EM density maps.",
+  "slug": "bytedance-seed-cryofm"
+}

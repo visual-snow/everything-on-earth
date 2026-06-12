@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wri/cities-dataportal-exposure",
+  "name": "wri/cities-dataportal-exposure",
+  "description": "No description provided.",
+  "sub_domain": "sustainability-dashboards-viz",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2022-03-29",
+  "found_in_domains": [
+    "sustainability-dashboards-viz"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "sdg",
+    "kpi-dashboard",
+    "data-portal",
+    "climate-visualization"
+  ],
+  "category": "Sustainability Dashboards / Visualization \u2014 SDG trackers, environmental KPI dashboards, data portals",
+  "summary": "No description provided.",
+  "slug": "wri-cities-dataportal-exposure"
+}

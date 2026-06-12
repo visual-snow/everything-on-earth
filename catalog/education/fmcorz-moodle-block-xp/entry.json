@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fmcorz/moodle-block_xp",
+  "name": "FMCorz/moodle-block_xp",
+  "description": "A gamification plugin for Moodle allowing learners to gain experience points and level up.",
+  "sub_domain": "gamification-engagement",
+  "score": 9,
+  "score_rationale": "Directly extends a mainstream classroom LMS with XP and leveling, making it one of the clearest education-focused gamification plugins.",
+  "stars": 160,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2026-01-28",
+  "found_in_domains": [
+    "gamification-engagement"
+  ],
+  "quality_score": 71.7,
+  "discovery_score": 9,
+  "tags": [
+    "gamification",
+    "badges",
+    "leaderboards",
+    "engagement"
+  ],
+  "category": "Gamification, Badges, Leaderboards, Educational Games & Classroom Engagement",
+  "summary": "A gamification plugin for Moodle allowing learners to gain experience points and level up.",
+  "slug": "fmcorz-moodle-block-xp"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kingsahil/gamified-education",
+  "name": "KingSahil/gamified-education",
+  "description": "A comprehensive gamified educational platform designed specifically for B.Tech students.",
+  "sub_domain": "gamification-engagement",
+  "score": 7,
+  "score_rationale": "Student-focused learning platform with XP, achievements, leaderboards, quiz battles, and reward loops.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2025-10-25",
+  "found_in_domains": [
+    "gamification-engagement"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "gamification",
+    "badges",
+    "leaderboards",
+    "engagement"
+  ],
+  "category": "Gamification, Badges, Leaderboards, Educational Games & Classroom Engagement",
+  "summary": "A comprehensive gamified educational platform designed specifically for B.Tech students.",
+  "slug": "kingsahil-gamified-education"
+}

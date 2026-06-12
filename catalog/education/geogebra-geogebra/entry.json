@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/geogebra/geogebra",
+  "name": "geogebra/geogebra",
+  "description": "GeoGebra apps (mirror)",
+  "sub_domain": "k12-stem",
+  "score": 8,
+  "score_rationale": "Major math visualization and dynamic geometry suite used broadly from middle school through advanced math.",
+  "stars": 2171,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 74.7,
+  "discovery_score": 8,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "GeoGebra apps (mirror)",
+  "slug": "geogebra-geogebra"
+}

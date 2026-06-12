@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mmacpherson/tenforty",
+  "name": "mmacpherson/tenforty",
+  "description": "Python library to compute US federal taxes, and state taxes for some states.",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 72,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 20.9,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Python library to compute US federal taxes, and state taxes for some states.",
+  "slug": "mmacpherson-tenforty"
+}

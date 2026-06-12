@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/neherlab/pan-genome-analysis",
+  "name": "neherlab/pan-genome-analysis",
+  "description": "Processing pipeline for pan-genome visulization and exploration",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 5,
+  "score_rationale": "Relevant analysis pipeline for pan-genome exploration and visualization.",
+  "stars": 144,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-10-09",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 47.3,
+  "discovery_score": 5,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Processing pipeline for pan-genome visulization and exploration",
+  "slug": "neherlab-pan-genome-analysis"
+}

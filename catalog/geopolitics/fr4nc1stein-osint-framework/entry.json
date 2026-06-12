@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fr4nc1stein/osint-framework",
+  "name": "fr4nc1stein/osint-framework",
+  "description": "OSINT Framework : A python based Open Source Intelligence CLI framework similar to Metasploit.",
+  "stars": 192,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-07",
+  "sub_domain": "osint-frameworks",
+  "score": 7,
+  "score_rationale": "An OSINT CLI framework, relevant but less established than the canonical tools.",
+  "found_in_domains": [
+    "osint-frameworks"
+  ],
+  "quality_score": 60.3,
+  "tags": [
+    "osint",
+    "cli",
+    "framework",
+    "reconnaissance",
+    "metasploit"
+  ],
+  "category": "OSINT CLI Framework",
+  "summary": "Python OSINT CLI framework inspired by Metasploit.",
+  "slug": "fr4nc1stein-osint-framework"
+}

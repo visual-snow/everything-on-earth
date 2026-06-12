@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/or-dept-environmental-quality/wic-base",
+  "name": "or-dept-environmental-quality/wic-base",
+  "description": "Fundamental data and documentation for the Waste Impact Calculator (WIC) framework.  See https://or-dept-environmental-quality.github.io/wic/ for an overview of WIC project.",
+  "sub_domain": "life-cycle-assessment",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "HTML",
+  "license": "GPL-3.0",
+  "last_activity": "2023-11-30",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Fundamental data and documentation for the Waste Impact Calculator (WIC) framework.  See https://or-dept-environmental-quality.github.io/...",
+  "slug": "or-dept-environmental-quality-wic-base"
+}

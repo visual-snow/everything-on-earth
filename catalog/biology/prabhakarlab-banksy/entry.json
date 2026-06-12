@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/prabhakarlab/banksy",
+  "name": "prabhakarlab/banksy",
+  "description": "BANKSY: spatial clustering",
+  "sub_domain": "spatial-omics",
+  "score": 9,
+  "score_rationale": "Strong spatial clustering method that is directly relevant to Visium-style and other spatial transcriptomics workflows.",
+  "stars": 138,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-10-15",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 71.1,
+  "discovery_score": 9,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "BANKSY: spatial clustering",
+  "slug": "prabhakarlab-banksy"
+}

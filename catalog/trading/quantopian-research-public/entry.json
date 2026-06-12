@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/quantopian/research_public",
+  "name": "quantopian/research_public",
+  "description": "Quantitative research and educational materials",
+  "sub_domain": "quant-research-notebooks",
+  "score": 9,
+  "score_rationale": "Classic research notebook archive with direct factor and alpha research relevance, though older.",
+  "stars": 2772,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2020-11-03",
+  "found_in_domains": [
+    "quant-research-notebooks"
+  ],
+  "quality_score": 81.5,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "Quantitative research and educational materials",
+  "slug": "quantopian-research-public"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ncar/watershed_tools",
+  "name": "ncar/watershed_tools",
+  "description": "Methods for creating watershed discretizations for use in hydrological modeling or analysis.  Examples use the SUMMA modeling Framework.",
+  "sub_domain": "water-resource-management",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for examples-style signals.",
+  "stars": 12,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2024-03-29",
+  "found_in_domains": [
+    "water-resource-management"
+  ],
+  "quality_score": 26.9,
+  "discovery_score": 3,
+  "tags": [
+    "hydrology",
+    "watershed",
+    "water-quality",
+    "water-modeling"
+  ],
+  "category": "Water Resource Management \u2014 hydrological modeling, water quality, watershed analysis",
+  "summary": "Methods for creating watershed discretizations for use in hydrological modeling or analysis.  Examples use the SUMMA modeling Framework.",
+  "slug": "ncar-watershed-tools"
+}

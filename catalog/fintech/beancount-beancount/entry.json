@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/beancount/beancount",
+  "name": "beancount/beancount",
+  "description": "Beancount: Double-Entry Accounting from Text Files.",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 9,
+  "score_rationale": "Matched 3 queries; contains 5 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 5409,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 83.9,
+  "discovery_score": 9,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Beancount: Double-Entry Accounting from Text Files.",
+  "slug": "beancount-beancount"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zdong104/fnspid_financial_news_dataset",
+  "name": "zdong104/fnspid_financial_news_dataset",
+  "description": "FNSPID: A Comprehensive Financial News Dataset in Time Series",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for dataset-style signals.",
+  "stars": 387,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-07-24",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 44.7,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "FNSPID: A Comprehensive Financial News Dataset in Time Series",
+  "slug": "zdong104-fnspid-financial-news-dataset"
+}

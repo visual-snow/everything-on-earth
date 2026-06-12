@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jasonleebrown/uce_phyluce_pipeline",
+  "name": "jasonleebrown/uce_phyluce_pipeline",
+  "description": "UCE Bioinformatics Pipeline",
+  "sub_domain": "phylogenetics",
+  "score": 8,
+  "score_rationale": "A focused ultra-conserved-element workflow for phylogenomics, though it is more pipeline glue than an inference core.",
+  "stars": 17,
+  "language": "Shell",
+  "license": null,
+  "last_activity": "2025-09-29",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 58.0,
+  "discovery_score": 8,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "UCE Bioinformatics Pipeline",
+  "slug": "jasonleebrown-uce-phyluce-pipeline"
+}

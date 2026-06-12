@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/snowzach/blocc",
+  "name": "snowzach/blocc",
+  "description": "Bitcoin Blockchain Indexer",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2020-04-22",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Bitcoin Blockchain Indexer",
+  "slug": "snowzach-blocc"
+}

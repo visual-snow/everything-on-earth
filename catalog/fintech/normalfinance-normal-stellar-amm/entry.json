@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/normalfinance/normal-stellar-amm",
+  "name": "normalfinance/normal-stellar-amm",
+  "description": "Normal is a synthetic asset protocol enabling investors to trade any crypto asset or real-world asset (RWA) from a single DEX.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2025-11-06",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Normal is a synthetic asset protocol enabling investors to trade any crypto asset or real-world asset (RWA) from a single DEX.",
+  "slug": "normalfinance-normal-stellar-amm"
+}

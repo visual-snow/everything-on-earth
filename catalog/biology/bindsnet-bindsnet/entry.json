@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bindsnet/bindsnet",
+  "name": "BindsNET/bindsnet",
+  "description": "Simulation of spiking neural networks (SNNs) using PyTorch.",
+  "sub_domain": "computational-neuroscience",
+  "score": 90,
+  "score_rationale": "PyTorch-based SNN simulator that bridges neuroscience and ML workflows.",
+  "stars": 1665,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 565.8,
+  "discovery_score": 90,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Simulation of spiking neural networks (SNNs) using PyTorch.",
+  "slug": "bindsnet-bindsnet"
+}

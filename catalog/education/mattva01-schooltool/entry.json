@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mattva01/schooltool",
+  "name": "mattva01/schooltool",
+  "description": "SchoolTool is an open source, web based student information system designed for schools in the developing world, with strong support for translation.",
+  "sub_domain": "sis",
+  "score": 7,
+  "score_rationale": "Explicit web-based SIS with school administration focus and strong localization support, though the repo is stale.",
+  "stars": 10,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2014-06-11",
+  "found_in_domains": [
+    "sis"
+  ],
+  "quality_score": 50.3,
+  "discovery_score": 7,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "SchoolTool is an open source, web based student information system designed for schools in the developing world, with strong support for...",
+  "slug": "mattva01-schooltool"
+}

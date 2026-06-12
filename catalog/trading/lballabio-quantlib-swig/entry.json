@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lballabio/quantlib-swig",
+  "name": "lballabio/QuantLib-SWIG",
+  "description": "QuantLib wrappers to other languages",
+  "sub_domain": "options-derivatives",
+  "score": 8,
+  "score_rationale": "Important language-binding layer for QuantLib that extends the canonical derivatives library into Python and other ecosystems.",
+  "stars": 385,
+  "language": "SWIG",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "options-derivatives"
+  ],
+  "quality_score": 68.7,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility",
+    "quantlib"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "QuantLib wrappers to other languages",
+  "slug": "lballabio-quantlib-swig"
+}

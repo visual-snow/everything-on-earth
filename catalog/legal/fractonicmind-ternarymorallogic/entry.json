@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fractonicmind/ternarymorallogic",
+  "name": "fractonicmind/ternarymorallogic",
+  "description": "I've always believed that the hardest problems in AI aren't technical; they're architectural. We keep building systems that can't explain themselves, can't prove their own integrity, can't handle uncertainty without either freezing or lying. And then we act surprised when we don't trust them.",
+  "sub_domain": "ip-patent-trademark",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 8,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 13.6,
+  "discovery_score": 1,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "I've always believed that the hardest problems in AI aren't technical; they're architectural. We keep building systems that can't explain...",
+  "slug": "fractonicmind-ternarymorallogic"
+}

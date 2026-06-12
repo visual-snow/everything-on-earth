@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hscannell/mhw-2020",
+  "name": "hscannell/mhw-2020",
+  "description": "Data analysis for the marine heatwave sidebar that will appear in the 2020 State of the Climate Report Global Oceans Chapter.",
+  "sub_domain": "ocean-climate",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 9,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2021-08-26",
+  "found_in_domains": [
+    "ocean-climate"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 4,
+  "tags": [
+    "ocean-climate",
+    "blue-carbon",
+    "marine-carbon",
+    "ocean-acidification"
+  ],
+  "category": "Ocean / Climate \u2014 ocean acidification, marine carbon, blue economy tools",
+  "summary": "Data analysis for the marine heatwave sidebar that will appear in the 2020 State of the Climate Report Global Oceans Chapter.",
+  "slug": "hscannell-mhw-2020"
+}

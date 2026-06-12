@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/franciscrickinstitute/multi-dimensional-imaging-and-analysis",
+  "name": "franciscrickinstitute/multi-dimensional-imaging-and-analysis",
+  "description": "Workshop materials covering QuPath, OMERO, CellProfiler, tracking, and 3D segmentation.",
+  "sub_domain": "biomedical-imaging",
+  "score": 5,
+  "score_rationale": "This workshop repo is biologically on-topic and covers core imaging tools, but it is primarily training material.",
+  "stars": 4,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-09-16",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 5,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Workshop materials covering QuPath, OMERO, CellProfiler, tracking, and 3D segmentation.",
+  "slug": "franciscrickinstitute-multi-dimensional-imaging-and-analysis"
+}

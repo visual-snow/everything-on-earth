@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/freebayes/freebayes",
+  "name": "freebayes/freebayes",
+  "description": "Bayesian haplotype-based genetic polymorphism discovery and genotyping.",
+  "sub_domain": "genomics",
+  "score": 9,
+  "score_rationale": "Established haplotype-based small-variant caller that is still widely used in variant discovery pipelines.",
+  "stars": 865,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-02-08",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 77.5,
+  "discovery_score": 9,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Bayesian haplotype-based genetic polymorphism discovery and genotyping.",
+  "slug": "freebayes-freebayes"
+}

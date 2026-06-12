@@ -1,0 +1,74 @@
+{
+  "slug": "openemr-openemr",
+  "name": "openemr/openemr",
+  "what_it_is": "OpenEMR is an open source electronic health records (EHR) and medical practice management application written in PHP. It covers clinical documentation, scheduling, electronic billing, patient portal, and exposes FHIR R4 and REST APIs for interoperability.",
+  "components": [
+    "EHR / clinical documentation module",
+    "Practice management and scheduling",
+    "Electronic billing",
+    "Patient portal",
+    "FHIR R4 REST API",
+    "OpenEMR Standard REST API",
+    "Patient Portal API (experimental)",
+    "OAuth 2.0 / OpenID Connect authorization server",
+    "SMART on FHIR v2.2.0 launch framework",
+    "Bulk Data Export engine",
+    "Swagger UI interactive API explorer",
+    "Multisite tenancy support"
+  ],
+  "protocols": [
+    "FHIR R4 (HL7 FHIR Release 4)",
+    "SMART on FHIR v2.2.0",
+    "OAuth 2.0",
+    "OpenID Connect",
+    "PKCE (Proof Key for Code Exchange)",
+    "JWKS / asymmetric client authentication",
+    "HTTPS / TLS",
+    "HTTP REST",
+    "Bulk FHIR Export (NDJSON over async HTTP)",
+    "US Core 8.0",
+    "USCDI v1"
+  ],
+  "measurement": [
+    "API token introspection endpoint for token validity checks",
+    "Health readiness endpoint",
+    "Codecov test coverage reporting",
+    "CI pipeline badges: syntax, styling, unit tests, JS tests, PHPStan, Rector, ShellCheck, Docker Compose lint, Dockerfile lint, Inferno certification test, Composer checks"
+  ],
+  "configuration": [
+    "Enable/disable REST API and FHIR API via Administration settings",
+    "Site base URL for OAuth2 and FHIR endpoint resolution",
+    "OAuth2 client registration (client_name, redirect_uris, scopes)",
+    "Granular FHIR scopes with permission flags and category filters",
+    "Multisite tenant routing (site identifier in API path)",
+    "MySQL/MariaDB credentials and host",
+    "Admin user credentials",
+    "HTTP/HTTPS port bindings"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Production Docker (versioned tags)",
+    "Flex development Docker (highly configurable)",
+    "Nightly build development Docker",
+    "Bare-metal / native install (Windows, Linux, macOS)"
+  ],
+  "constraints": [
+    "Requires HTTPS/TLS for all API and OAuth2 communication; HTTP-only deployments cannot use OAuth2 or FHIR",
+    "MariaDB/MySQL is the only supported database backend",
+    "Patient Portal API is documented as experimental and not production-stable",
+    "Node.js 22.x is required to build front-end assets from source",
+    "SMART app launch and OAuth2 flows require a publicly resolvable or explicitly configured Site Address",
+    "Multi-tenancy is path-based only; no per-tenant database isolation is described"
+  ],
+  "docker_services": [
+    "mysql (mariadb)",
+    "openemr"
+  ],
+  "notable_absences": [
+    "No built-in time-series or analytics database",
+    "No native telemedicine or video-call module",
+    "No built-in lab instrument integration layer",
+    "No DICOM imaging server bundled",
+    "No dedicated message broker or event streaming component"
+  ]
+}

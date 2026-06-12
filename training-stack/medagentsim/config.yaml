@@ -1,0 +1,24 @@
+# MedAgentSim configuration for Gaza Hospital Training
+# Uses local Ollama LLM backend (offline-capable)
+
+llm:
+  provider: openai_compatible
+  base_url: http://ollama:11434/v1
+  api_key: ollama
+  model: llama3
+
+simulation:
+  focus: trauma
+  language: en
+  max_patients: 10
+  scenario_dir: /app/scenarios
+
+# Trauma-focused settings
+trauma_profiles:
+  - blast_injury
+  - crush_syndrome
+  - penetrating_trauma
+  - burn_injury
+  - traumatic_amputation
+  - head_trauma
+  - multi_system_trauma

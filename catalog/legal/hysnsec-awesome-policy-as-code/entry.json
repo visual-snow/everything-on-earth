@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hysnsec/awesome-policy-as-code",
+  "name": "hysnsec/awesome-policy-as-code",
+  "description": "A curated list of policy-as-code resources like blogs, videos, and tools to practice on for learning Policy-as-Code.",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 206,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2023-12-06",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 42.5,
+  "discovery_score": 4,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "A curated list of policy-as-code resources like blogs, videos, and tools to practice on for learning Policy-as-Code.",
+  "slug": "hysnsec-awesome-policy-as-code"
+}

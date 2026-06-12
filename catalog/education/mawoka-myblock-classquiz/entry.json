@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mawoka-myblock/classquiz",
+  "name": "mawoka-myblock/ClassQuiz",
+  "description": "Open-source quiz application similar to Kahoot!.",
+  "sub_domain": "assessment-testing",
+  "score": 8,
+  "score_rationale": "Good fit for classroom quiz creation and live assessment workflows.",
+  "stars": 669,
+  "language": "Svelte",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 70.6,
+  "discovery_score": 8,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Open-source quiz application similar to Kahoot!.",
+  "slug": "mawoka-myblock-classquiz"
+}

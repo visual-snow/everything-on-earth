@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eth-pbl/h-watch",
+  "name": "ETH-PBL/H-Watch",
+  "description": "Smart Watch for Healthcare",
+  "sub_domain": "wearable-iot-health",
+  "score": 5,
+  "score_rationale": "Healthcare-specific smartwatch hardware keeps it squarely in the wearable-health space, even though it is a prototype.",
+  "stars": 153,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2022-01-03",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 47.5,
+  "discovery_score": 5,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "Smart Watch for Healthcare",
+  "slug": "eth-pbl-h-watch"
+}

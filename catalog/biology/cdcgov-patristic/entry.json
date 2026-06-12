@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cdcgov/patristic",
+  "name": "cdcgov/patristic",
+  "description": "A Phylogenetics toolkit for Javascript",
+  "sub_domain": "phylogenetics",
+  "score": 7,
+  "score_rationale": "A small but specialized phylogenetics toolkit that supports tree-distance and tree-manipulation tasks rather than generic graph work.",
+  "stars": 9,
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "last_activity": "2025-05-20",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 50.0,
+  "discovery_score": 7,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "A Phylogenetics toolkit for Javascript",
+  "slug": "cdcgov-patristic"
+}

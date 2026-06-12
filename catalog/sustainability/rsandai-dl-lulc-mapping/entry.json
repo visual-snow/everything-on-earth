@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rsandai/dl-lulc-mapping",
+  "name": "rsandai/dl-lulc-mapping",
+  "description": "Land Use / Land Cover Mappings Using Deep Learning Methods",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-01-15",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "Land Use / Land Cover Mappings Using Deep Learning Methods",
+  "slug": "rsandai-dl-lulc-mapping"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/moov-io/iso8583",
+  "name": "moov-io/iso8583",
+  "description": "A golang implementation to marshal and unmarshal iso8583 message.",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 504,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 45.6,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "A golang implementation to marshal and unmarshal iso8583 message.",
+  "slug": "moov-io-iso8583"
+}

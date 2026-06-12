@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microprediction/precise",
+  "name": "microprediction/precise",
+  "description": "World beating online covariance and portfolio construction.",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 320,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2025-10-13",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 50.1,
+  "discovery_score": 5,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "World beating online covariance and portfolio construction.",
+  "slug": "microprediction-precise"
+}

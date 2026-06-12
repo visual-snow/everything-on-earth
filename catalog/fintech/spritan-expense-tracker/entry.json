@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/spritan/expense_tracker",
+  "name": "spritan/expense_tracker",
+  "description": "A modern, AI-powered expense tracking application built with Streamlit that helps you manage your personal finances through natural language input and intelligent categorization. It syncs with your google sheets.",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 22,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-12-07",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 34.9,
+  "discovery_score": 4,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "A modern, AI-powered expense tracking application built with Streamlit that helps you manage your personal finances through natural langu...",
+  "slug": "spritan-expense-tracker"
+}

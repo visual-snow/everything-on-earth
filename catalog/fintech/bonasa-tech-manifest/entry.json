@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bonasa-tech/manifest",
+  "name": "bonasa-tech/manifest",
+  "description": "The Unlimited Orderbook DEX on Solana",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 124,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 22.8,
+  "discovery_score": 1,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "The Unlimited Orderbook DEX on Solana",
+  "slug": "bonasa-tech-manifest"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/levist7/credit_risk_modelling",
+  "name": "levist7/credit_risk_modelling",
+  "description": "Credit Risk Modelling | Calculation of PD, LGD, EDA and EL with Machine Learning in Python",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 67,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-03-15",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 38.7,
+  "discovery_score": 4,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "Credit Risk Modelling | Calculation of PD, LGD, EDA and EL with Machine Learning in Python",
+  "slug": "levist7-credit-risk-modelling"
+}

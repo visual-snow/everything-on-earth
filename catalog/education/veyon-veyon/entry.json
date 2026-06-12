@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/veyon/veyon",
+  "name": "veyon/veyon",
+  "description": "Cross-platform computer monitoring and classroom management",
+  "sub_domain": "classroom-management",
+  "score": 10,
+  "score_rationale": "Direct fit for device supervision, screen monitoring, remote control, lesson broadcast, and classroom lock/attention workflows.",
+  "stars": 1789,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "classroom-management"
+  ],
+  "quality_score": 86.0,
+  "discovery_score": 10,
+  "tags": [
+    "classroom",
+    "device-management",
+    "monitoring",
+    "scheduling"
+  ],
+  "category": "Classroom Management, Device Supervision, Screen Monitoring & Scheduling",
+  "summary": "Cross-platform computer monitoring and classroom management",
+  "slug": "veyon-veyon"
+}

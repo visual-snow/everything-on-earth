@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/inaturalist/inaturalist",
+  "name": "inaturalist/inaturalist",
+  "description": "The Rails app behind iNaturalist.org",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This is the core iNaturalist platform rather than a wrapper or docs repo, so it anchors the ecosystem coverage.",
+  "stars": 795,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 71.2,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "The Rails app behind iNaturalist.org",
+  "slug": "inaturalist-inaturalist"
+}

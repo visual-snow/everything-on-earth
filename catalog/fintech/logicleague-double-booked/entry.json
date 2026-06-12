@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/logicleague/double_booked",
+  "name": "logicleague/double_booked",
+  "description": "Flexible double-entry accounting engine for Rails apps",
+  "sub_domain": "core-banking-ledger",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 5,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2015-10-07",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "Flexible double-entry accounting engine for Rails apps",
+  "slug": "logicleague-double-booked"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/connectomicslab/chimera",
+  "name": "connectomicslab/chimera",
+  "description": "Framework for combining multiple parcellations.",
+  "sub_domain": "connectomics",
+  "score": 8,
+  "score_rationale": "Brain parcellation and atlas fusion workflow that supports connectome-oriented MRI pipelines.",
+  "stars": 7,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 55.2,
+  "discovery_score": 8,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Framework for combining multiple parcellations.",
+  "slug": "connectomicslab-chimera"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pedrohavay/followthemoney",
+  "name": "pedrohavay/followthemoney",
+  "description": "A Go port of FollowTheMoney (FtM) \u2014 a pragmatic data model for people, companies, assets, relationships and documents used in investigative work and financial crime analysis.",
+  "sub_domain": "open-banking-psd2",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 21,
+  "language": "Go",
+  "license": null,
+  "last_activity": "2025-09-08",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 16.7,
+  "discovery_score": 1,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "A Go port of FollowTheMoney (FtM) \u2014 a pragmatic data model for people, companies, assets, relationships and documents used in investigati...",
+  "slug": "pedrohavay-followthemoney"
+}

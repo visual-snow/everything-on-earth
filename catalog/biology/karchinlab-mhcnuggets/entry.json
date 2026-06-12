@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/karchinlab/mhcnuggets",
+  "name": "KarchinLab/mhcnuggets",
+  "description": "MHC Class I and Class II neoantigen binding prediction",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Solid MHC class I/II binding and neoantigen predictor that remains directly useful for immunoinformatics pipelines.",
+  "stars": 36,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-07-23",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 60.5,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "MHC Class I and Class II neoantigen binding prediction",
+  "slug": "karchinlab-mhcnuggets"
+}

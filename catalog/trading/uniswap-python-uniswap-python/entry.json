@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/uniswap-python/uniswap-python",
+  "name": "uniswap-python/uniswap-python",
+  "description": "\ud83e\udd84 The unofficial Python client for the Uniswap exchange.",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 7,
+  "score_rationale": "Well-used Uniswap client; relevant though less canonical than the official SDKs.",
+  "stars": 1005,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 66.0,
+  "tags": [
+    "defi",
+    "dex",
+    "mev",
+    "uniswap"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "\ud83e\udd84 The unofficial Python client for the Uniswap exchange.",
+  "slug": "uniswap-python-uniswap-python"
+}

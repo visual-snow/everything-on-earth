@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/phoughton/pyiso20022",
+  "name": "phoughton/pyiso20022",
+  "description": "A Python package (on PYPI) to create or parse ISO20022 messages.",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 18,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-20",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 16.2,
+  "discovery_score": 1,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "A Python package (on PYPI) to create or parse ISO20022 messages.",
+  "slug": "phoughton-pyiso20022"
+}

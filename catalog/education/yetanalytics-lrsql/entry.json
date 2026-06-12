@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yetanalytics/lrsql",
+  "name": "yetanalytics/lrsql",
+  "description": "A SQL-based Learning Record Store.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 8,
+  "score_rationale": "Direct LRS fit with a database-backed approach that is useful for learning data storage and querying.",
+  "stars": 132,
+  "language": "Clojure",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 65.0,
+  "discovery_score": 8,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "A SQL-based Learning Record Store.",
+  "slug": "yetanalytics-lrsql"
+}

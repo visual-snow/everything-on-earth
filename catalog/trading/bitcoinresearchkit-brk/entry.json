@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/bitcoinresearchkit/brk",
+  "name": "bitcoinresearchkit/brk",
+  "description": "Open-source on-chain analytics for Bitcoin.",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 8,
+  "score_rationale": "A genuine on-chain analytics library with clear trading-research utility for crypto alternative data.",
+  "stars": 112,
+  "language": "Rust",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 64.4,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "Open-source on-chain analytics for Bitcoin.",
+  "slug": "bitcoinresearchkit-brk"
+}

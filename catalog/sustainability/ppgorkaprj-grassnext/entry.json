@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ppgorkaprj/grassnext",
+  "name": "ppgorkaprj/grassnext",
+  "description": "Grass Next - Air pollution dispersion model",
+  "sub_domain": "air-quality-emissions",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2025-11-23",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Grass Next - Air pollution dispersion model",
+  "slug": "ppgorkaprj-grassnext"
+}

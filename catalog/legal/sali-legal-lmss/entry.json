@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sali-legal/lmss",
+  "name": "sali-legal/lmss",
+  "description": "SALI LMSS: Legal Matter Standard Specification",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 75,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 33.0,
+  "discovery_score": 3,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "SALI LMSS: Legal Matter Standard Specification",
+  "slug": "sali-legal-lmss"
+}

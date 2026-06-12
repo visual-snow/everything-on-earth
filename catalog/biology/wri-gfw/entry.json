@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wri/gfw",
+  "name": "wri/gfw",
+  "description": "Global Forest Watch: An online, global, near-real time forest monitoring tool",
+  "sub_domain": "ecology-conservation",
+  "score": 8,
+  "score_rationale": "High-visibility forest monitoring platform with direct conservation relevance and current activity.",
+  "stars": 310,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 67.9,
+  "discovery_score": 8,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Global Forest Watch: An online, global, near-real time forest monitoring tool",
+  "slug": "wri-gfw"
+}

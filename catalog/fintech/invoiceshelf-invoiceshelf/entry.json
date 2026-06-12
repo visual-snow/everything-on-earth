@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/invoiceshelf/invoiceshelf",
+  "name": "invoiceshelf/invoiceshelf",
+  "description": "Open Source Invoicing Solution for Individuals & Businesses",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 1626,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 55.7,
+  "discovery_score": 5,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "Open Source Invoicing Solution for Individuals & Businesses",
+  "slug": "invoiceshelf-invoiceshelf"
+}

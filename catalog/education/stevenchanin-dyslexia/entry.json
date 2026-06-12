@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stevenchanin/dyslexia",
+  "name": "stevenchanin/dyslexia",
+  "description": "Free Dyslexia Reading Intervention",
+  "sub_domain": "special-education-therapy",
+  "score": 3,
+  "score_rationale": "Dyslexia-specific intervention repo, but smaller and less mature than the higher-ranked reading tools.",
+  "stars": 0,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2025-11-16",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "Free Dyslexia Reading Intervention",
+  "slug": "stevenchanin-dyslexia"
+}

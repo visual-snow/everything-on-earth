@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/kaushiktarun05/cybertriagetool",
+  "name": "kaushiktarun05/cybertriagetool",
+  "description": "An innovative digital forensics and incident response tool with an intuitive and accessible interface for investigators, that streamlines the process of importing evidence, conducting automated analysis, and generating detailed reports.",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-10-02",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support",
+    "evidence"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "An innovative digital forensics and incident response tool with an intuitive and accessible interface for investigators, that streamlines...",
+  "slug": "kaushiktarun05-cybertriagetool"
+}

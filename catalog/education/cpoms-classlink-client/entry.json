@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cpoms/classlink_client",
+  "name": "cpoms/classlink_client",
+  "description": "ClassLink OneRoster API Ruby client library.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 4,
+  "score_rationale": "Specific school rostering client for ClassLink integrations, which is directly relevant to sync workflows.",
+  "stars": 0,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2024-02-16",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "ClassLink OneRoster API Ruby client library.",
+  "slug": "cpoms-classlink-client"
+}

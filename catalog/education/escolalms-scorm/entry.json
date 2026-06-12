@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/escolalms/scorm",
+  "name": "EscolaLMS/Scorm",
+  "description": "Attach SCORM packages to courses.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 7,
+  "score_rationale": "Practical SCORM integration package for attaching course content in an LMS workflow.",
+  "stars": 13,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-01-23",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 51.2,
+  "discovery_score": 7,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "Attach SCORM packages to courses.",
+  "slug": "escolalms-scorm"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openboxes/openboxes",
+  "name": "openboxes/openboxes",
+  "description": "OpenBoxes is a supply chain management system designed to manage inventory and track stock movements for healthcare facilities.",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 10,
+  "score_rationale": "Essential: healthcare inventory and stock movement management is a core pharmacy operations workflow.",
+  "stars": 834,
+  "language": "Groovy",
+  "license": "EPL-1.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 83.4,
+  "discovery_score": 10,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "OpenBoxes is a supply chain management system designed to manage inventory and track stock movements for healthcare facilities.",
+  "slug": "openboxes-openboxes"
+}

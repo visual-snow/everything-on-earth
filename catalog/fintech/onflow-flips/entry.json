@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/onflow/flips",
+  "name": "onflow/flips",
+  "description": "Flow Improvement Proposals",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 26,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 17.5,
+  "discovery_score": 1,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "Flow Improvement Proposals",
+  "slug": "onflow-flips"
+}

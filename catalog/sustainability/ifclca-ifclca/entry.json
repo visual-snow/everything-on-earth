@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ifclca/ifclca",
+  "name": "ifclca/ifclca",
+  "description": "Open Source Life Cycle Assessment for Built Environment with Industry Foundation Classes",
+  "sub_domain": "life-cycle-assessment",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 34,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-02-15",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 36.4,
+  "discovery_score": 4,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Open Source Life Cycle Assessment for Built Environment with Industry Foundation Classes",
+  "slug": "ifclca-ifclca"
+}

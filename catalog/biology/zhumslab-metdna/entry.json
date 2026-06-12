@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zhumslab/metdna",
+  "name": "ZhuMSLab/MetDNA",
+  "description": "All the source code of MetDNA.",
+  "sub_domain": "metabolomics",
+  "score": 8,
+  "score_rationale": "MetDNA is a metabolomics annotation package with direct relevance to metabolite identification workflows.",
+  "stars": 20,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2022-03-01",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 58.6,
+  "discovery_score": 8,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "All the source code of MetDNA.",
+  "slug": "zhumslab-metdna"
+}

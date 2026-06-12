@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/arpitaapatel/global-climate-data-analytics-dashboard-",
+  "name": "arpitaapatel/global-climate-data-analytics-dashboard-",
+  "description": "An interactive data science dashboard for real-time climate analytics and ML predictions. Built with Next.js, React, TypeScript, and Tailwind CSS for performance and scalability. Features correlation matrices, predictive modeling, and an interactive global map. Showcases statistical analysis, machine learning, and modern web visualization.",
+  "sub_domain": "climate-data-analysis",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-10-05",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "An interactive data science dashboard for real-time climate analytics and ML predictions. Built with Next.js, React, TypeScript, and Tail...",
+  "slug": "arpitaapatel-global-climate-data-analytics-dashboard"
+}

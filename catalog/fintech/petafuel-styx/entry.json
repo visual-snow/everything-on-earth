@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/petafuel/styx",
+  "name": "petafuel/styx",
+  "description": "Styx is a PSD2 XS2A client that implements the Berlin Group NextGenPSD2 specification.",
+  "sub_domain": "open-banking-psd2",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 21,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2023-06-13",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 34.7,
+  "discovery_score": 4,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "Styx is a PSD2 XS2A client that implements the Berlin Group NextGenPSD2 specification.",
+  "slug": "petafuel-styx"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sukarnascience/rogidoot-virtualcare",
+  "name": "Sukarnascience/RogiDoot-VirtualCare",
+  "description": "RogiDoot-VirtualCare is an advanced open-source project integrating a mobile app and IoT-enabled diagnostic hardware to provide comprehensive and accessible healthcare solutions, especially in rural areas.",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 5,
+  "score_rationale": "Adjacent to virtual care and remote diagnostics, but it leans more toward AI/IoT-assisted screening than pure telemedicine.",
+  "stars": 1,
+  "language": "HTML",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-22",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "RogiDoot-VirtualCare is an advanced open-source project integrating a mobile app and IoT-enabled diagnostic hardware to provide comprehen...",
+  "slug": "sukarnascience-rogidoot-virtualcare"
+}

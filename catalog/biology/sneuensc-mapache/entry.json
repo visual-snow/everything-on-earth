@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sneuensc/mapache",
+  "name": "sneuensc/mapache",
+  "description": "Mapping pipeline for ancient DNA.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 9,
+  "score_rationale": "Modern, clearly aDNA-specific mapping workflow with an unambiguous scope.",
+  "stars": 34,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 66.4,
+  "discovery_score": 9,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Mapping pipeline for ancient DNA.",
+  "slug": "sneuensc-mapache"
+}

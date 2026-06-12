@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/intel-samples/loan-default-risk-prediction",
+  "name": "intel-samples/loan-default-risk-prediction",
+  "description": "AI Starter Kit to predict probability of a loan default from client using XGBoost and leveraging Intel\u00ae optimizations for model serving.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "AI Starter Kit to predict probability of a loan default from client using XGBoost and leveraging Intel\u00ae optimizations for model serving.",
+  "slug": "intel-samples-loan-default-risk-prediction"
+}

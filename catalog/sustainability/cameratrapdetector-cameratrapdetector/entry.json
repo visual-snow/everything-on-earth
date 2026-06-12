@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cameratrapdetector/cameratrapdetector",
+  "name": "cameratrapdetector/cameratrapdetector",
+  "description": "CameraTrapDetector: Detect, classify, and count animals in camera trap images",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 16,
+  "language": "R",
+  "license": "CC0-1.0",
+  "last_activity": "2025-02-20",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 4,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "CameraTrapDetector: Detect, classify, and count animals in camera trap images",
+  "slug": "cameratrapdetector-cameratrapdetector"
+}

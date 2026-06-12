@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/frappe/lms",
+  "name": "frappe/lms",
+  "description": "Easy to Use, 100% Open Source Learning Management System",
+  "sub_domain": "lms",
+  "score": 9,
+  "score_rationale": "Directly on-scope LMS with active development and explicit positioning as an open-source learning management system.",
+  "stars": 2755,
+  "language": "Vue",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lms"
+  ],
+  "quality_score": 81.5,
+  "discovery_score": 9,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "Easy to Use, 100% Open Source Learning Management System",
+  "slug": "frappe-lms"
+}

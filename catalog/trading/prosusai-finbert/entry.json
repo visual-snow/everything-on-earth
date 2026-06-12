@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/prosusai/finbert",
+  "name": "ProsusAI/finBERT",
+  "description": "Financial Sentiment Analysis with BERT",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 10,
+  "score_rationale": "Canonical financial-sentiment model repo and the clearest anchor for sentiment-driven trading workflows.",
+  "stars": 2056,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 86.5,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics",
+    "finbert"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "Financial Sentiment Analysis with BERT",
+  "slug": "prosusai-finbert"
+}

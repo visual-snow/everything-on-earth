@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/slideflow/slideflow",
+  "name": "slideflow/slideflow",
+  "description": "Powerful, open-source AI tools for digital pathology.",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 8,
+  "score_rationale": "Mature digital pathology AI toolkit with broad utility for slide-based diagnosis workflows.",
+  "stars": 356,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-11-13",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 68.4,
+  "discovery_score": 8,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "Powerful, open-source AI tools for digital pathology.",
+  "slug": "slideflow-slideflow"
+}

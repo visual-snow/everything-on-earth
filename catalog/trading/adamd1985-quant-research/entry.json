@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/adamd1985/quant_research",
+  "name": "adamd1985/quant_research",
+  "description": "Collection of notebooks and scripts related to financial engineering, quant-research and algo-trading.",
+  "sub_domain": "quant-research-notebooks",
+  "score": 8,
+  "score_rationale": "Directly matches the notebook-and-scripts research pattern, with recent activity and practical scope.",
+  "stars": 96,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "quant-research-notebooks"
+  ],
+  "quality_score": 63.9,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "Collection of notebooks and scripts related to financial engineering, quant-research and algo-trading.",
+  "slug": "adamd1985-quant-research"
+}

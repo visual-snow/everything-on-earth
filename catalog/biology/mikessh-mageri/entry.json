@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mikessh/mageri",
+  "name": "mikessh/mageri",
+  "description": "MAGERI - Assemble, align and call variants for targeted genome re-sequencing with unique molecular identifiers",
+  "sub_domain": "genomics",
+  "score": 4,
+  "score_rationale": "Genuine UMI-aware rare-variant pipeline with consensus assembly and calling, but the project is old and lightly maintained.",
+  "stars": 22,
+  "language": "Java",
+  "license": "NOASSERTION",
+  "last_activity": "2017-05-08",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 34.9,
+  "discovery_score": 4,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "MAGERI - Assemble, align and call variants for targeted genome re-sequencing with unique molecular identifiers",
+  "slug": "mikessh-mageri"
+}

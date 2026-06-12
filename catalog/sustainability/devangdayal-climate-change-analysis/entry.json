@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/devangdayal/climate-change-analysis",
+  "name": "devangdayal/climate-change-analysis",
+  "description": "S-ARIMA Model on Earth Land Temperature Dataset",
+  "sub_domain": "climate-data-analysis",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for dataset-style signals.",
+  "stars": 6,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-10-05",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 18.8,
+  "discovery_score": 2,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "S-ARIMA Model on Earth Land Temperature Dataset",
+  "slug": "devangdayal-climate-change-analysis"
+}

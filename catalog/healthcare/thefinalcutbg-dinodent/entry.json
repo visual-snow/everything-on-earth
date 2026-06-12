@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/thefinalcutbg/dinodent",
+  "name": "thefinalcutbg/DinoDent",
+  "description": "Dental practice management software for the needs of all dentists in Bulgaria",
+  "sub_domain": "dental-specialty-clinics",
+  "score": 9,
+  "score_rationale": "Directly targeted dental practice management project with recent activity and a clear domain match.",
+  "stars": 31,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "dental-specialty-clinics"
+  ],
+  "quality_score": 66.0,
+  "discovery_score": 9,
+  "tags": [
+    "specialty-clinics",
+    "practice-management",
+    "dental"
+  ],
+  "category": "Dental, Ophthalmology & Specialty Clinic Systems",
+  "summary": "Dental practice management software for the needs of all dentists in Bulgaria",
+  "slug": "thefinalcutbg-dinodent"
+}

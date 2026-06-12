@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/cameratraps",
+  "name": "microsoft/cameratraps",
+  "description": "PyTorch Wildlife: a Collaborative Deep Learning Framework for Conservation.",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 996,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 30.0,
+  "discovery_score": 1,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "PyTorch Wildlife: a Collaborative Deep Learning Framework for Conservation.",
+  "slug": "microsoft-cameratraps"
+}

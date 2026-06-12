@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brightway-lca/dynamic_characterization",
+  "name": "brightway-lca/dynamic_characterization",
+  "description": "Collection of dynamic characterization functions for life cycle inventories with temporal information",
+  "sub_domain": "life-cycle-assessment",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 8,
+  "language": "Jupyter Notebook",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-02-03",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 31.6,
+  "discovery_score": 4,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "Collection of dynamic characterization functions for life cycle inventories with temporal information",
+  "slug": "brightway-lca-dynamic-characterization"
+}

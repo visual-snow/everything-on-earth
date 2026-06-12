@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/computational-metabolomics/beamspy",
+  "name": "computational-metabolomics/beamspy",
+  "description": "BEAMSpy - Birmingham mEtabolite Annotation for Mass Spectrometry (Python Package)",
+  "sub_domain": "metabolomics",
+  "score": 7,
+  "score_rationale": "It is squarely in metabolite annotation for computational metabolomics, but it is narrower than the biggest end-to-end tools.",
+  "stars": 19,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2023-05-12",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 52.4,
+  "discovery_score": 7,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "BEAMSpy - Birmingham mEtabolite Annotation for Mass Spectrometry (Python Package)",
+  "slug": "computational-metabolomics-beamspy"
+}

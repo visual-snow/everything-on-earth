@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mechatronixlab/wpm",
+  "name": "MechatronixLab/WPM",
+  "description": "Wearable Patient Monitor prototype based on STM32WL55JC1",
+  "sub_domain": "wearable-iot-health",
+  "score": 7,
+  "score_rationale": "A wearable patient monitor prototype is directly on-topic for healthcare wearables and sensor telemetry.",
+  "stars": 8,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2024-02-29",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 7,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring",
+    "patient-records"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "Wearable Patient Monitor prototype based on STM32WL55JC1",
+  "slug": "mechatronixlab-wpm"
+}

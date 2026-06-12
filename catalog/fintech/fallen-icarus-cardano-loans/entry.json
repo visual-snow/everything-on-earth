@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/fallen-icarus/cardano-loans",
+  "name": "fallen-icarus/cardano-loans",
+  "description": "A p2p lending/borrowing protocol for the Cardano Settlement Layer, with trustlessly negotiable and enforceable loan terms, built-in credit histories, and full delegation control.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 28,
+  "language": "Haskell",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-15",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 29.7,
+  "discovery_score": 3,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting",
+    "lending",
+    "settlement"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "A p2p lending/borrowing protocol for the Cardano Settlement Layer, with trustlessly negotiable and enforceable loan terms, built-in credi...",
+  "slug": "fallen-icarus-cardano-loans"
+}

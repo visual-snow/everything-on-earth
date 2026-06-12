@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/alpacahq/alpaca-mcp-server",
+  "name": "alpacahq/alpaca-mcp-server",
+  "description": "Alpaca\u2019s official MCP Server lets you trade stocks, ETFs, crypto, and options, run data analysis, and build strategies in plain English directly from your favorite LLM tools and IDEs",
+  "sub_domain": "paper-trading-simulation",
+  "score": 8,
+  "score_rationale": "Official broker MCP server that supports Alpaca trading workflows, including paper-trading use cases.",
+  "stars": 573,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 70.1,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "Alpaca\u2019s official MCP Server lets you trade stocks, ETFs, crypto, and options, run data analysis, and build...",
+  "slug": "alpacahq-alpaca-mcp-server"
+}

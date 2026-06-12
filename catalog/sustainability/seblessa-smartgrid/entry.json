@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/seblessa/smartgrid",
+  "name": "seblessa/smartgrid",
+  "description": "Introduction to Intelligent Autonomous Systems, 3\u00ba Year, 1\u00ba Semester , Bachelor in Artificial Intelligence and Data Science.",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; archived repo penalty.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-12-21",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Introduction to Intelligent Autonomous Systems, 3\u00ba Year, 1\u00ba Semester , Bachelor in Artificial Intelligence and Data Science.",
+  "slug": "seblessa-smartgrid"
+}

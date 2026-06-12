@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bioscan-ml/clibd",
+  "name": "bioscan-ml/clibd",
+  "description": "A multimodal model bridging vision and genomics for biodiversity monitoring at scale.",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 18,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-09-18",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 34.2,
+  "discovery_score": 4,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "A multimodal model bridging vision and genomics for biodiversity monitoring at scale.",
+  "slug": "bioscan-ml-clibd"
+}

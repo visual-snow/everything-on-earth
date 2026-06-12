@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/optionxi/optionxi-webapp-community",
+  "name": "optionxi/optionxi-webapp-community",
+  "description": "\ud83d\ude80 OptionXI Web \u2013 Open Source Virtual Trading Platform using real Indian stock market data. Built with Next.js, Supabase, Arcjet, and Posthog.",
+  "sub_domain": "paper-trading-simulation",
+  "score": 9,
+  "score_rationale": "Open virtual trading platform built around real market data.",
+  "stars": 2,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 57.8,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker",
+    "market-data"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "\ud83d\ude80 OptionXI Web \u2013 Open Source Virtual Trading Platform using real Indian stock market data. Built with...",
+  "slug": "optionxi-optionxi-webapp-community"
+}

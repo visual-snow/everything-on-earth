@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/miso-lims/miso-lims",
+  "name": "miso-lims/miso-lims",
+  "description": "MISO: An open-source LIMS for NGS sequencing centres",
+  "sub_domain": "lab-information-systems",
+  "score": 8,
+  "score_rationale": "Strong, domain-specific LIMS for sequencing centers with active maintenance and clear laboratory workflow fit.",
+  "stars": 295,
+  "language": "Java",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 67.8,
+  "discovery_score": 8,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "MISO: An open-source LIMS for NGS sequencing centres",
+  "slug": "miso-lims-miso-lims"
+}

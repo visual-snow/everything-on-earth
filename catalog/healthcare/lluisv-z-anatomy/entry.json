@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lluisv/z-anatomy",
+  "name": "LluisV/Z-Anatomy",
+  "description": "This repository includes the Unity project for the Z-Anatomy PC application. It was made by Llu\u00eds Vinent Juanico, featuring models from the Z-Anatomy project.",
+  "sub_domain": "medical-education-simulation",
+  "score": 8,
+  "score_rationale": "Standalone anatomy app and Unity project aimed at anatomy visualization.",
+  "stars": 352,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-12-25",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 68.4,
+  "discovery_score": 8,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "This repository includes the Unity project for the Z-Anatomy PC application. It was made by Llu\u00eds Vinent Juanico, featuring models from t...",
+  "slug": "lluisv-z-anatomy"
+}

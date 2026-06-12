@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opdev3/opd",
+  "name": "opdev3/opd",
+  "description": "Tezos DeFi: Lending and Borrowing",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2022-09-29",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "Tezos DeFi: Lending and Borrowing",
+  "slug": "opdev3-opd"
+}

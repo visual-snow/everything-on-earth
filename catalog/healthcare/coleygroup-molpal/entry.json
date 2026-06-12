@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/coleygroup/molpal",
+  "name": "coleygroup/molpal",
+  "description": "active learning for accelerated high-throughput virtual screening",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 7,
+  "score_rationale": "Good fit for active learning and screening loop acceleration in discovery campaigns.",
+  "stars": 202,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2024-06-15",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 60.5,
+  "discovery_score": 7,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "active learning for accelerated high-throughput virtual screening",
+  "slug": "coleygroup-molpal"
+}

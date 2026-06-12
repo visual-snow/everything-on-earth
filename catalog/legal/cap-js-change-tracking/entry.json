@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cap-js/change-tracking",
+  "name": "cap-js/change-tracking",
+  "description": "CDS plugin providing out-of-the box support for automatic capturing, storing, and viewing of the change records of modeled entities.",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 40,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 18.9,
+  "discovery_score": 1,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "CDS plugin providing out-of-the box support for automatic capturing, storing, and viewing of the change records of modeled entities.",
+  "slug": "cap-js-change-tracking"
+}

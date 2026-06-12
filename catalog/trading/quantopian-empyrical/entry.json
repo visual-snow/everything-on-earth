@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/quantopian/empyrical",
+  "name": "quantopian/empyrical",
+  "description": "Common financial risk and performance metrics. Used by zipline and pyfolio.",
+  "sub_domain": "quant-research-notebooks",
+  "score": 9,
+  "score_rationale": "Core metrics library that underpins multiple quant research tools and fills an important reusable analytics layer.",
+  "stars": 1474,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-07-26",
+  "found_in_domains": [
+    "quant-research-notebooks"
+  ],
+  "quality_score": 79.4,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks",
+    "risk-management"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "Common financial risk and performance metrics. Used by zipline and pyfolio.",
+  "slug": "quantopian-empyrical"
+}

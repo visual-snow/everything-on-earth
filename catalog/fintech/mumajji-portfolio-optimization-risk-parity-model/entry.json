@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mumajji/portfolio-optimization---risk-parity-model",
+  "name": "mumajji/portfolio-optimization---risk-parity-model",
+  "description": "Risk Parity portfolio construction in Python, emphasizing balanced risk allocation instead of equal weighting",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 6 domain terms in repo text.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-04-29",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "Risk Parity portfolio construction in Python, emphasizing balanced risk allocation instead of equal weighting",
+  "slug": "mumajji-portfolio-optimization-risk-parity-model"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sadakhyanarnur/waste-management",
+  "name": "sadakhyanarnur/waste-management",
+  "description": "No description provided.",
+  "sub_domain": "circular-economy-waste",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-07-18",
+  "found_in_domains": [
+    "circular-economy-waste"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "circular-economy",
+    "material-flow",
+    "recycling",
+    "waste-tracking"
+  ],
+  "category": "Circular Economy / Waste \u2014 material flow analysis, recycling optimization, waste tracking",
+  "summary": "No description provided.",
+  "slug": "sadakhyanarnur-waste-management"
+}

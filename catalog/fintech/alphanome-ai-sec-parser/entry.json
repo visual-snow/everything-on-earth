@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/alphanome-ai/sec-parser",
+  "name": "alphanome-ai/sec-parser",
+  "description": "Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document.",
+  "sub_domain": "financial-document-processing",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 278,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "statement parser financial document ai github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 5,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Parse SEC EDGAR HTML documents into a tree of elements that correspond to the visual (semantic) structure of the document.",
+  "slug": "alphanome-ai-sec-parser"
+}

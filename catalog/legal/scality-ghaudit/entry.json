@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/scality/ghaudit",
+  "name": "scality/ghaudit",
+  "description": "Github organisation security auditing tool",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2022-04-21",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "Github organisation security auditing tool",
+  "slug": "scality-ghaudit"
+}

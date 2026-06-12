@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/openlegaldata/awesome-legal-data",
+  "name": "openlegaldata/awesome-legal-data",
+  "description": "A collection of datasets and other resources for legal text processing.",
+  "sub_domain": "curated-lists-meta-sweep",
+  "score": 6,
+  "score_rationale": "Matched 3 queries; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 200,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "legal-research-case-law",
+    "legal-analytics-prediction",
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 54.4,
+  "discovery_score": 6,
+  "tags": [
+    "awesome-list",
+    "legal-data",
+    "legal-nlp",
+    "privacy"
+  ],
+  "category": "Curated Lists / Meta Sweep \u2014 awesome lists, GitHub topics, canonical meta-sources",
+  "summary": "A collection of datasets and other resources for legal text processing.",
+  "slug": "openlegaldata-awesome-legal-data"
+}

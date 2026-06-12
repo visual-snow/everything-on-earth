@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nikhilmukraj/spiking-neural-networks",
+  "name": "nikhilmukraj/spiking-neural-networks",
+  "description": "Implementations of various simulations for integrate and fire models, as well as conductance based models with synaptic neurotransmission",
+  "sub_domain": "computational-neuroscience",
+  "score": 7,
+  "score_rationale": "Includes concrete neuron-model simulations for integrate-and-fire and conductance-based neuroscience experiments.",
+  "stars": 22,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 52.9,
+  "discovery_score": 7,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Implementations of various simulations for integrate and fire models, as well as conductance based models with synaptic neurotransmission",
+  "slug": "nikhilmukraj-spiking-neural-networks"
+}

@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/earth-chris/elapid",
+  "name": "earth-chris/elapid",
+  "description": "Species distribution modeling tools, including a python implementation of Maxent.",
+  "sub_domain": "ecology-conservation",
+  "score": 9,
+  "score_rationale": "Modern Python SDM toolkit with a direct Maxent implementation and clear species-distribution focus.",
+  "stars": 69,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "ecology-conservation",
+    "climate-biology",
+    "biodiversity-informatics"
+  ],
+  "quality_score": 68.8,
+  "discovery_score": 9,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Species distribution modeling tools, including a python implementation of Maxent.",
+  "slug": "earth-chris-elapid"
+}

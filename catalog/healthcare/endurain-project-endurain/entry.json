@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/endurain-project/endurain",
+  "name": "endurain-project/endurain",
+  "description": "Endurain is a self-hosted fitness tracking service designed to give users full control over their data and hosting environment",
+  "sub_domain": "wearable-iot-health",
+  "score": 4,
+  "score_rationale": "A self-hosted fitness tracker is adjacent to wearable-health data, but it is broader than the specific device and sensor-bridge niche.",
+  "stars": 1841,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 50.1,
+  "discovery_score": 4,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "Endurain is a self-hosted fitness tracking service designed to give users full control over their data and hosting environment",
+  "slug": "endurain-project-endurain"
+}

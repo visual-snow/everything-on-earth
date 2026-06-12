@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/views-platform/views-pipeline-core",
+  "name": "views-platform/views-pipeline-core",
+  "description": "VIEWS Pipeline Core is a comprehensive machine learning pipeline designed to produce monthly predictions of future violent conflict at both country and sub-country levels. ",
+  "sub_domain": "risk-forecasting-models",
+  "score": 8,
+  "score_rationale": "Core VIEWS forecasting pipeline for monthly violent-conflict predictions.",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "risk-forecasting-models"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "conflict-forecasting",
+    "ml-pipeline",
+    "violent-conflict",
+    "views"
+  ],
+  "category": "Conflict Forecasting",
+  "summary": "Core VIEWS pipeline for monthly violent-conflict prediction.",
+  "slug": "views-platform-views-pipeline-core"
+}

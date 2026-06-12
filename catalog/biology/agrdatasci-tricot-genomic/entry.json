@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/agrdatasci/tricot-genomic",
+  "name": "agrdatasci/tricot-genomic",
+  "description": "Data-driven decentralized breeding and genomic selection for crop improvement in farmer-managed plots.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "The repo is centered on decentralized crop breeding and genomic selection rather than generic agriculture tooling.",
+  "stars": 3,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2021-05-05",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 52.8,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Data-driven decentralized breeding and genomic selection for crop improvement in farmer-managed plots.",
+  "slug": "agrdatasci-tricot-genomic"
+}

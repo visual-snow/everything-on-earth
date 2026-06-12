@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/floracharbo/marl_local_electricity",
+  "name": "floracharbo/marl_local_electricity",
+  "description": "Multi-agent reinforcement learning for privacy-preserving, scalable residential energy flexibility coordination",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 34,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2023-11-04",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 36.4,
+  "discovery_score": 4,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Multi-agent reinforcement learning for privacy-preserving, scalable residential energy flexibility coordination",
+  "slug": "floracharbo-marl-local-electricity"
+}

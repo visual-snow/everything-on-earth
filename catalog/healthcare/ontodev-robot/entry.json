@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ontodev/robot",
+  "name": "ontodev/robot",
+  "description": "ROBOT is an OBO Tool",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 8,
+  "score_rationale": "Widely used ontology automation tool in the OBO ecosystem; central for ontology builds, validation, and release workflows.",
+  "stars": 301,
+  "language": "Java",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 67.8,
+  "discovery_score": 8,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "ROBOT is an OBO Tool",
+  "slug": "ontodev-robot"
+}

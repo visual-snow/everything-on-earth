@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/prairielearn/prairielearn",
+  "name": "PrairieLearn/PrairieLearn",
+  "description": "Online problem-driven learning system",
+  "sub_domain": "interactive-coding-education",
+  "score": 8,
+  "score_rationale": "Established assessment platform with autograding and problem-driven teaching workflows.",
+  "stars": 456,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 69.3,
+  "discovery_score": 8,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "Online problem-driven learning system",
+  "slug": "prairielearn-prairielearn"
+}

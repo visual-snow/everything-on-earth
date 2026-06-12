@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cahlr/oatutor",
+  "name": "CAHLR/OATutor",
+  "description": "Open Source Intelligent Tutoring System w/ BKT (ReactJS and Firebase)",
+  "sub_domain": "adaptive-learning",
+  "score": 9,
+  "score_rationale": "Direct intelligent tutoring system with Bayesian knowledge tracing and an explicit learner practice workflow.",
+  "stars": 181,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "adaptive-learning"
+  ],
+  "quality_score": 72.1,
+  "discovery_score": 9,
+  "tags": [
+    "adaptive-learning",
+    "tutoring",
+    "mastery",
+    "knowledge-tracing"
+  ],
+  "category": "Adaptive Learning, Personalization, Knowledge Tracing & AI Tutoring",
+  "summary": "Open Source Intelligent Tutoring System w/ BKT (ReactJS and Firebase)",
+  "slug": "cahlr-oatutor"
+}

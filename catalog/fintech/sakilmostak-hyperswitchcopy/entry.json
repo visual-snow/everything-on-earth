@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sakilmostak/hyperswitchcopy",
+  "name": "sakilmostak/hyperswitchcopy",
+  "description": "An Open Source Financial Switch to make Payments fast, reliable and affordable",
+  "sub_domain": "payment-processing-gateways",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; fork penalty.",
+  "stars": 0,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2023-04-26",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "An Open Source Financial Switch to make Payments fast, reliable and affordable",
+  "slug": "sakilmostak-hyperswitchcopy"
+}

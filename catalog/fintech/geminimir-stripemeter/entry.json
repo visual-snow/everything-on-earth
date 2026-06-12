@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/geminimir/stripemeter",
+  "name": "geminimir/stripemeter",
+  "description": "Stripe-native usage metering with real-time cost projections, exactly-once processing, and invoice parity guarantees.",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 22,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 34.9,
+  "discovery_score": 4,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "Stripe-native usage metering with real-time cost projections, exactly-once processing, and invoice parity guarantees.",
+  "slug": "geminimir-stripemeter"
+}

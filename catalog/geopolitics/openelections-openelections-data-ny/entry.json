@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openelections/openelections-data-ny",
+  "name": "openelections/openelections-data-ny",
+  "description": "Election results for New York.",
+  "sub_domain": "election-governance-data",
+  "score": 9,
+  "score_rationale": "State-level preprocessed election results are directly aligned with the target data domain.",
+  "stars": 44,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-15",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 67.2,
+  "tags": [
+    "elections",
+    "new-york",
+    "election-results",
+    "open-data"
+  ],
+  "category": "Election Results Data",
+  "summary": "Preprocessed New York election results dataset.",
+  "slug": "openelections-openelections-data-ny"
+}

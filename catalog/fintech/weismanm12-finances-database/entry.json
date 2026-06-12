@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/weismanm12/finances-database",
+  "name": "weismanm12/finances-database",
+  "description": "Personal finance database creation, SQL analysis, and Power BI dashboard",
+  "sub_domain": "financial-data-standards",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 20,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-12-09",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 16.6,
+  "discovery_score": 1,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "Personal finance database creation, SQL analysis, and Power BI dashboard",
+  "slug": "weismanm12-finances-database"
+}

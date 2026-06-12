@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/spectrum-finance/cardano-dex-contracts",
+  "name": "spectrum-finance/cardano-dex-contracts",
+  "description": "Smart contracts and specification of the AMM protocol on top of the Cardano blockchain",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 36,
+  "language": "Haskell",
+  "license": "CC0-1.0",
+  "last_activity": "2023-09-13",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 18.5,
+  "discovery_score": 1,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Smart contracts and specification of the AMM protocol on top of the Cardano blockchain",
+  "slug": "spectrum-finance-cardano-dex-contracts"
+}

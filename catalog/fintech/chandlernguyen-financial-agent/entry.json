@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/chandlernguyen/financial_agent",
+  "name": "chandlernguyen/financial_agent",
+  "description": "This repository contains a Python script for automatically downloading XBRL and TXT filings from the U.S. Securities and Exchange Commission (SEC) database. It is designed to fetch recent filings for specified companies using their Central Index Key (CIK).",
+  "sub_domain": "financial-document-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 9,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "sec filing xbrl extraction open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 4,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "This repository contains a Python script for automatically downloading XBRL and TXT filings from the U.S. Securities and Exchange Commiss...",
+  "slug": "chandlernguyen-financial-agent"
+}

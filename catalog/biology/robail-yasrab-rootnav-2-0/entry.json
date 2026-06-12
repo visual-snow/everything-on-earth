@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/robail-yasrab/rootnav-2.0",
+  "name": "robail-yasrab/RootNav-2.0",
+  "description": "Command-line tool for segmentation and analysis of root architectures in 2D.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 9,
+  "score_rationale": "Active root-phenotyping software with deep-learning segmentation for complex root architectures, directly useful in crop breeding and phenomics.",
+  "stars": 49,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-04-14",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 67.6,
+  "discovery_score": 9,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Command-line tool for segmentation and analysis of root architectures in 2D.",
+  "slug": "robail-yasrab-rootnav-2-0"
+}

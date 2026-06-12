@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/padrinodb/ipmr",
+  "name": "padrinodb/ipmr",
+  "description": "Flexibly implement Integral Projection Models (IPMs)",
+  "sub_domain": "ecology-conservation",
+  "score": 8,
+  "score_rationale": "Flexible Integral Projection Model package with direct relevance to population modeling.",
+  "stars": 7,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-06-08",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 55.2,
+  "discovery_score": 8,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Flexibly implement Integral Projection Models (IPMs)",
+  "slug": "padrinodb-ipmr"
+}

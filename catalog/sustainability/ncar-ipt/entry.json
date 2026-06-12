@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ncar/ipt",
+  "name": "ncar/ipt",
+  "description": "Emissions Model Interface Tool",
+  "sub_domain": "air-quality-emissions",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 12,
+  "language": "NCL",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-03",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 26.9,
+  "discovery_score": 3,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Emissions Model Interface Tool",
+  "slug": "ncar-ipt"
+}

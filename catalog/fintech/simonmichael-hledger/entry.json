@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/simonmichael/hledger",
+  "name": "simonmichael/hledger",
+  "description": "Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces.",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 8,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 4375,
+  "language": "Haskell",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "accounting-bookkeeping",
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 77.1,
+  "discovery_score": 8,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces.",
+  "slug": "simonmichael-hledger"
+}

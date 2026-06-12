@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jamietso/tabular_review",
+  "name": "jamietso/tabular_review",
+  "description": "An AI-powered tabular review tool for legal professionals. Ingest unstructured documents, define dynamic extraction columns, and query your data with an integrated analyst chat.",
+  "sub_domain": "e-discovery-document-review",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 34,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 36.4,
+  "discovery_score": 4,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "An AI-powered tabular review tool for legal professionals. Ingest unstructured documents, define dynamic extraction columns, and query yo...",
+  "slug": "jamietso-tabular-review"
+}

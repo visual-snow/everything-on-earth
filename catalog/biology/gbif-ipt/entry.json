@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gbif/ipt",
+  "name": "gbif/ipt",
+  "description": "GBIF Integrated Publishing Toolkit (IPT)",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This is GBIF's publishing toolkit for building and publishing biodiversity datasets, which is a core workflow tool.",
+  "stars": 134,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 65.0,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "GBIF Integrated Publishing Toolkit (IPT)",
+  "slug": "gbif-ipt"
+}

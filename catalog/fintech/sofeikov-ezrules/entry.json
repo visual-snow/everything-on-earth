@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sofeikov/ezrules",
+  "name": "sofeikov/ezrules",
+  "description": "Welcome to an open-source transaction monitoring engine! This product is designed to simplify the definition and management of business rules while also offering a scalable infrastructure for rule execution and backtesting.",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 8,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 31.6,
+  "discovery_score": 4,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "Welcome to an open-source transaction monitoring engine! This product is designed to simplify the definition and management of business r...",
+  "slug": "sofeikov-ezrules"
+}

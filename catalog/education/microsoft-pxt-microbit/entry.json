@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/pxt-microbit",
+  "name": "microsoft/pxt-microbit",
+  "description": "A Blocks / JavaScript code editor for the micro:bit built on Microsoft MakeCode",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Direct learner-facing MakeCode editor used widely in classroom micro:bit programming.",
+  "stars": 797,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 77.2,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "A Blocks / JavaScript code editor for the micro:bit built on Microsoft MakeCode",
+  "slug": "microsoft-pxt-microbit"
+}

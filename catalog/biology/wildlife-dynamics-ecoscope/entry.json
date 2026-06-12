@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wildlife-dynamics/ecoscope",
+  "name": "wildlife-dynamics/ecoscope",
+  "description": "Conservation data analytics library for wildlife movement and environmental analysis.",
+  "sub_domain": "ecology-conservation",
+  "score": 8,
+  "score_rationale": "Purpose-built Python library for wildlife movement and conservation data analysis.",
+  "stars": 30,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 59.9,
+  "discovery_score": 8,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Conservation data analytics library for wildlife movement and environmental analysis.",
+  "slug": "wildlife-dynamics-ecoscope"
+}

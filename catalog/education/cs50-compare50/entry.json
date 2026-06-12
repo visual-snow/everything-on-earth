@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cs50/compare50",
+  "name": "cs50/compare50",
+  "description": "Fast and extensible plagiarism-detection tool.",
+  "sub_domain": "assessment-testing",
+  "score": 7,
+  "score_rationale": "Commonly used in academic code review and plagiarism checking.",
+  "stars": 230,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-01-04",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 60.9,
+  "discovery_score": 7,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Fast and extensible plagiarism-detection tool.",
+  "slug": "cs50-compare50"
+}

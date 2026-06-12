@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dlt-science/crypto-mpc-wallet-bloom",
+  "name": "dlt-science/crypto-mpc-wallet-bloom",
+  "description": "No description provided.",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-01-07",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 14.4,
+  "discovery_score": 2,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "No description provided.",
+  "slug": "dlt-science-crypto-mpc-wallet-bloom"
+}

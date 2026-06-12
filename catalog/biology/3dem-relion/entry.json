@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/3dem/relion",
+  "name": "3dem/relion",
+  "description": "Image-processing software for cryo-electron microscopy",
+  "sub_domain": "structural-biology",
+  "score": 10,
+  "score_rationale": "A canonical cryo-EM image-processing package and one of the core references in the field.",
+  "stars": 527,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 81.8,
+  "discovery_score": 10,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking",
+    "microscopy"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Image-processing software for cryo-electron microscopy",
+  "slug": "3dem-relion"
+}

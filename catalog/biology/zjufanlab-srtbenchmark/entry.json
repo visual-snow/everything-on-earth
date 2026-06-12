@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/zjufanlab/srtbenchmark",
+  "name": "zjufanlab/srtbenchmark",
+  "description": "Benchmarking spatial clustering methods for spatial resolved transcriptomics",
+  "sub_domain": "spatial-omics",
+  "score": 7,
+  "score_rationale": "Broad benchmark across Visium, Slide-seq, MERFISH, Xenium, and other spatial-transcriptomics technologies makes it highly relevant.",
+  "stars": 5,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-09-29",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 48.2,
+  "discovery_score": 7,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq",
+    "transcriptomics"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Benchmarking spatial clustering methods for spatial resolved transcriptomics",
+  "slug": "zjufanlab-srtbenchmark"
+}

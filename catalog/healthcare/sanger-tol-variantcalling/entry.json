@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sanger-tol/variantcalling",
+  "name": "sanger-tol/variantcalling",
+  "description": "Nextflow DSL2 pipeline to call variants on long read alignment.",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 7,
+  "score_rationale": "Relevant long-read variant calling pipeline with current activity.",
+  "stars": 11,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 50.6,
+  "discovery_score": 7,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "Nextflow DSL2 pipeline to call variants on long read alignment.",
+  "slug": "sanger-tol-variantcalling"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/usepa/pyaqsapi",
+  "name": "usepa/pyaqsapi",
+  "description": "A python 3 package to retrieve ambient air monitoring data from the United States Environmental Protection Agency\u2019s (US EPA) Air Quality System (AQS) Data Mart API v2 interface",
+  "sub_domain": "air-quality-emissions",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 29,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-26",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 35.8,
+  "discovery_score": 4,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "A python 3 package to retrieve ambient air monitoring data from the United States Environmental Protection Agency\u2019s (US EPA) Air Quality...",
+  "slug": "usepa-pyaqsapi"
+}

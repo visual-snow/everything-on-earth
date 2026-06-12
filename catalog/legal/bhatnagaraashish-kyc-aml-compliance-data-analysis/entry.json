@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/bhatnagaraashish/kyc_aml_compliance_data_analysis",
+  "name": "bhatnagaraashish/kyc_aml_compliance_data_analysis",
+  "description": "End-to-end KYC/AML compliance data analysis using mock datasets. Includes customer risk scoring, suspicious transaction flagging, and compliance reporting in Python (Pandas, Matplotlib).",
+  "sub_domain": "aml-kyc-identity",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-08-14",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification",
+    "compliance"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "End-to-end KYC/AML compliance data analysis using mock datasets. Includes customer risk scoring, suspicious transaction flagging, and com...",
+  "slug": "bhatnagaraashish-kyc-aml-compliance-data-analysis"
+}

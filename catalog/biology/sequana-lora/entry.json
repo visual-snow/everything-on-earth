@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sequana/lora",
+  "name": "sequana/lora",
+  "description": "Run assembler (Canu, flye, hifiasm) on a set of long read files",
+  "sub_domain": "long-read-sequencing",
+  "score": 6,
+  "score_rationale": "Analysis wrapper that orchestrates established long-read assemblers without becoming generic infrastructure.",
+  "stars": 5,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-01-22",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 42.2,
+  "discovery_score": 6,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "Run assembler (Canu, flye, hifiasm) on a set of long read files",
+  "slug": "sequana-lora"
+}

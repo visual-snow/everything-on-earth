@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/jinglescode/time-series-forecasting-pytorch",
+  "name": "jinglescode/time-series-forecasting-pytorch",
+  "description": "Acquiring data from Alpha Vantage and predicting stock prices with PyTorch's LSTM",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 7,
+  "score_rationale": "PyTorch forecasting workflow with stock price examples, useful for financial prediction baselines.",
+  "stars": 325,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2024-04-21",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 62.1,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "Acquiring data from Alpha Vantage and predicting stock prices with PyTorch's LSTM",
+  "slug": "jinglescode-time-series-forecasting-pytorch"
+}

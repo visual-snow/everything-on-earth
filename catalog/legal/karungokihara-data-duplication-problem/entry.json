@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/karungokihara/data-duplication-problem",
+  "name": "karungokihara/data-duplication-problem",
+  "description": "This is a research done based on the data duplication to adress the problem of duplication",
+  "sub_domain": "e-discovery-document-review",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2021-09-02",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "This is a research done based on the data duplication to adress the problem of duplication",
+  "slug": "karungokihara-data-duplication-problem"
+}

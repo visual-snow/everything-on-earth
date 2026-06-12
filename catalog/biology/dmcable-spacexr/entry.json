@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/dmcable/spacexr",
+  "name": "dmcable/spacexr",
+  "description": "Spatial-eXpression-R: Cell type identification (including cell type mixtures) and cell type-specific differential expression for spatial transcriptomics",
+  "sub_domain": "spatial-omics",
+  "score": 9,
+  "score_rationale": "Widely used spatial transcriptomics deconvolution and differential-expression package with a very direct biology use case.",
+  "stars": 445,
+  "language": "HTML",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-22",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 75.2,
+  "discovery_score": 9,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq",
+    "transcriptomics"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Spatial-eXpression-R: Cell type identification (including cell type mixtures) and cell type-specific differential expression for spatial...",
+  "slug": "dmcable-spacexr"
+}

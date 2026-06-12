@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/companieshouse/payment-reconciliation-consumer",
+  "name": "companieshouse/payment-reconciliation-consumer",
+  "description": "Consumer to allow for reconciliation of payments",
+  "sub_domain": "reconciliation-settlement",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2025-09-05",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 39.8,
+  "discovery_score": 6,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching",
+    "payments"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Consumer to allow for reconciliation of payments",
+  "slug": "companieshouse-payment-reconciliation-consumer"
+}

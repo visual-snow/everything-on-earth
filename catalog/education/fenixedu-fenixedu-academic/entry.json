@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fenixedu/fenixedu-academic",
+  "name": "FenixEdu/fenixedu-academic",
+  "description": "FenixEdu Academic is open source Student Information System",
+  "sub_domain": "sis",
+  "score": 8,
+  "score_rationale": "Higher-education SIS with student records focus; good match for transcripts and academic administration.",
+  "stars": 172,
+  "language": "Java",
+  "license": "GNU LGPLv3",
+  "last_activity": "2023-06-14",
+  "found_in_domains": [
+    "sis"
+  ],
+  "quality_score": 65.9,
+  "discovery_score": 8,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "FenixEdu Academic is open source Student Information System",
+  "slug": "fenixedu-fenixedu-academic"
+}

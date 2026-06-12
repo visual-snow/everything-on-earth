@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/masterphysicist/satellite-image-analysis",
+  "name": "masterphysicist/satellite-image-analysis",
+  "description": "PlanetScope, Landsat-8 and Sentinel-2 Image analysis Python codes",
+  "sub_domain": "remote-sensing-land-use",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2020-03-19",
+  "found_in_domains": [
+    "remote-sensing-land-use"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "remote-sensing",
+    "land-cover",
+    "deforestation",
+    "ndvi"
+  ],
+  "category": "Remote Sensing / Land Use \u2014 satellite imagery for deforestation and land cover change",
+  "summary": "PlanetScope, Landsat-8 and Sentinel-2 Image analysis Python codes",
+  "slug": "masterphysicist-satellite-image-analysis"
+}

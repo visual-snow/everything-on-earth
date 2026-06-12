@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/nicknochnack/stock-and-crypto-news-scrapingsummarizationsentiment",
+  "name": "nicknochnack/Stock-and-Crypto-News-ScrapingSummarizationSentiment",
+  "description": "A full Python pipeline that allows for the scraping, summarization and sentiment calculation for stock and crypto news.",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 9,
+  "score_rationale": "End-to-end cross-asset scraping and sentiment pipeline that is directly usable for trading signal research.",
+  "stars": 92,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-07-18",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 69.7,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "A full Python pipeline that allows for the scraping, summarization and sentiment calculation for stock and...",
+  "slug": "nicknochnack-stock-and-crypto-news-scrapingsummarizationsentiment"
+}

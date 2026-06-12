@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sallvainian/fermi",
+  "name": "Sallvainian/Fermi",
+  "description": "A Flutter-based teacher dashboard application with Firebase backend",
+  "sub_domain": "classroom-management",
+  "score": 8,
+  "score_rationale": "Direct teacher dashboard with class management, attendance, behavior points, assignments, and parent/student collaboration.",
+  "stars": 1,
+  "language": "Dart",
+  "license": "MIT",
+  "last_activity": "2025-11-18",
+  "found_in_domains": [
+    "classroom-management"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "classroom",
+    "device-management",
+    "monitoring",
+    "scheduling"
+  ],
+  "category": "Classroom Management, Device Supervision, Screen Monitoring & Scheduling",
+  "summary": "A Flutter-based teacher dashboard application with Firebase backend",
+  "slug": "sallvainian-fermi"
+}

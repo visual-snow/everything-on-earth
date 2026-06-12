@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aaditya1273/rwa-exchange",
+  "name": "aaditya1273/rwa-exchange",
+  "description": "A marketplace for tokenized Real-World Assets (RWA)",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-01-23",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "A marketplace for tokenized Real-World Assets (RWA)",
+  "slug": "aaditya1273-rwa-exchange"
+}

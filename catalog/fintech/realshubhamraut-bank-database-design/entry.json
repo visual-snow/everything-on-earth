@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/realshubhamraut/bank-database-design",
+  "name": "realshubhamraut/bank-database-design",
+  "description": "Designed Entire Database for Customers Banks Account, Loans, Branch, Payment, Transaction, Transfer, Person.",
+  "sub_domain": "financial-data-standards",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2024-12-07",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "Designed Entire Database for Customers Banks Account, Loans, Branch, Payment, Transaction, Transfer, Person.",
+  "slug": "realshubhamraut-bank-database-design"
+}

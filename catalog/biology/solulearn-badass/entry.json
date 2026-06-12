@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/solulearn/badass",
+  "name": "solulearn/badass",
+  "description": "Directed evolution with machine learning by Solugen",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 8,
+  "score_rationale": "Application-facing directed-evolution work with a clear ML-assisted protein engineering scope.",
+  "stars": 10,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2024-11-04",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 56.3,
+  "discovery_score": 8,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Directed evolution with machine learning by Solugen",
+  "slug": "solulearn-badass"
+}

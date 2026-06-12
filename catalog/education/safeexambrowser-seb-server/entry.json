@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/safeexambrowser/seb-server",
+  "name": "SafeExamBrowser/seb-server",
+  "description": "Safe Exam Browser Server for configuring and monitoring SEB clients during e-assessments.",
+  "sub_domain": "assessment-testing",
+  "score": 9,
+  "score_rationale": "Core companion service for SEB that supports secure exam setup and live assessment control.",
+  "stars": 75,
+  "language": "Java",
+  "license": "MPL-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 69.0,
+  "discovery_score": 9,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Safe Exam Browser Server for configuring and monitoring SEB clients during e-assessments.",
+  "slug": "safeexambrowser-seb-server"
+}

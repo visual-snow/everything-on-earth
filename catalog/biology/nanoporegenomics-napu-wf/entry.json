@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nanoporegenomics/napu_wf",
+  "name": "nanoporegenomics/napu_wf",
+  "description": "WDL workflows for variant calling and assembly using ONT",
+  "sub_domain": "genomics",
+  "score": 6,
+  "score_rationale": "Current ONT-focused WDL workflow for assembly and variant calling, useful as a practical production pipeline.",
+  "stars": 39,
+  "language": "WDL",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 48.8,
+  "discovery_score": 6,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "WDL workflows for variant calling and assembly using ONT",
+  "slug": "nanoporegenomics-napu-wf"
+}

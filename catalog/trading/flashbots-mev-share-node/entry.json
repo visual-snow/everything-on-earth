@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/flashbots/mev-share-node",
+  "name": "flashbots/mev-share-node",
+  "description": "No description provided.",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 8,
+  "score_rationale": "Implementation of the MEV-Share API; useful execution-side infrastructure for searchers.",
+  "stars": 110,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-01-11",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 64.4,
+  "tags": [
+    "defi",
+    "dex",
+    "mev",
+    "flashbots"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "No description provided.",
+  "slug": "flashbots-mev-share-node"
+}

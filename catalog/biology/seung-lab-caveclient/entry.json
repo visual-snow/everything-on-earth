@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/seung-lab/caveclient",
+  "name": "seung-lab/caveclient",
+  "description": "Python client for accessing Connectome Annotation Versioning Engine REST APIs.",
+  "sub_domain": "connectomics",
+  "score": 8,
+  "score_rationale": "Important connectomics API client for annotation and dataset access, though narrower than the visualization and reconstruction staples.",
+  "stars": 35,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 60.5,
+  "discovery_score": 8,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Python client for accessing Connectome Annotation Versioning Engine REST APIs.",
+  "slug": "seung-lab-caveclient"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tanq16/expenseowl",
+  "name": "tanq16/expenseowl",
+  "description": "Extremely simple, self-hosted expense tracker with a beautiful UI.",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1400,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2025-10-18",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 61.2,
+  "discovery_score": 6,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "Extremely simple, self-hosted expense tracker with a beautiful UI.",
+  "slug": "tanq16-expenseowl"
+}

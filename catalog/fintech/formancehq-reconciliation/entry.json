@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/formancehq/reconciliation",
+  "name": "formancehq/reconciliation",
+  "description": "This project tries to reconciliate your Ledger's transactions flow with your payment's provider data",
+  "sub_domain": "reconciliation-settlement",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 3,
+  "language": "Go",
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 6,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching",
+    "ledger"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "This project tries to reconciliate your Ledger's transactions flow with your payment's provider data",
+  "slug": "formancehq-reconciliation"
+}

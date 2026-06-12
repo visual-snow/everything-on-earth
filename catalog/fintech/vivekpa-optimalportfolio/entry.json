@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vivekpa/optimalportfolio",
+  "name": "vivekpa/optimalportfolio",
+  "description": "An open source library for portfolio optimisation",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 369,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-02-27",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 44.5,
+  "discovery_score": 4,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "An open source library for portfolio optimisation",
+  "slug": "vivekpa-optimalportfolio"
+}

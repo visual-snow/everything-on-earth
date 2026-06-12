@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ministryofjustice/laa-access-civil-legal-aid",
+  "name": "ministryofjustice/laa-access-civil-legal-aid",
+  "description": "A web service used by the public to get access to civil legal aid services.",
+  "sub_domain": "access-to-justice-civic-tech",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "access-to-justice-civic-tech"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "access-to-justice",
+    "legal-aid",
+    "self-help",
+    "civic-tech",
+    "access"
+  ],
+  "category": "Access to Justice / Civic Tech \u2014 legal aid, self-help, pro bono, guided court forms",
+  "summary": "A web service used by the public to get access to civil legal aid services.",
+  "slug": "ministryofjustice-laa-access-civil-legal-aid"
+}

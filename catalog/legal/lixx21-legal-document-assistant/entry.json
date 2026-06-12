@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/lixx21/legal-document-assistant",
+  "name": "lixx21/legal-document-assistant",
+  "description": "A Retrieval-Augmented Generation (RAG) application for querying legal documents. It uses PostgreSQL, Elasticsearch, and LLM to provide summaries and suggestions based on user queries. Features data ingestion with Airflow, real-time monitoring with Grafana, and a Streamlit interface.",
+  "sub_domain": "e-discovery-document-review",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 98,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-09-08",
+  "found_in_domains": [
+    "e-discovery-document-review",
+    "legal-document-automation"
+  ],
+  "quality_score": 40.0,
+  "discovery_score": 4,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "A Retrieval-Augmented Generation (RAG) application for querying legal documents. It uses PostgreSQL, Elasticsearch, and LLM to provide su...",
+  "slug": "lixx21-legal-document-assistant"
+}

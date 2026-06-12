@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoft/farmvibes-ai",
+  "name": "microsoft/farmvibes-ai",
+  "description": "FarmVibes.AI: Multi-Modal GeoSpatial ML Models for Agriculture and Sustainability",
+  "sub_domain": "sustainable-agriculture",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 838,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-07-28",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 47.4,
+  "discovery_score": 4,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "FarmVibes.AI: Multi-Modal GeoSpatial ML Models for Agriculture and Sustainability",
+  "slug": "microsoft-farmvibes-ai"
+}

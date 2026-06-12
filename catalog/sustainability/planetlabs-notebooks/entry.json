@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/planetlabs/notebooks",
+  "name": "planetlabs/notebooks",
+  "description": "interactive notebooks from Planet Engineering",
+  "sub_domain": "sustainable-agriculture",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 664,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 28.6,
+  "discovery_score": 1,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "interactive notebooks from Planet Engineering",
+  "slug": "planetlabs-notebooks"
+}

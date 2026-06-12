@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biosystemsum/deepmol",
+  "name": "BioSystemsUM/DeepMol",
+  "description": "DeepMol: A Machine and Deep Learning Framework for Computational Chemistry",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 7,
+  "score_rationale": "General computational chemistry ML framework that fits drug discovery modeling work.",
+  "stars": 171,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 59.9,
+  "discovery_score": 7,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "DeepMol: A Machine and Deep Learning Framework for Computational Chemistry",
+  "slug": "biosystemsum-deepmol"
+}

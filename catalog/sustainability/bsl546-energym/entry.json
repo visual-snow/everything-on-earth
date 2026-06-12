@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bsl546/energym",
+  "name": "bsl546/energym",
+  "description": "Energym is an open source building simulation library designed  to test climate control and energy management strategies on buildings in a systematic and reproducible way.",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 83,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2021-11-17",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 39.4,
+  "discovery_score": 4,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "Energym is an open source building simulation library designed  to test climate control and energy management strategies on buildings in...",
+  "slug": "bsl546-energym"
+}

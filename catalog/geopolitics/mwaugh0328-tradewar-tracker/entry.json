@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mwaugh0328/tradewar-tracker",
+  "name": "mwaugh0328/tradewar-tracker",
+  "description": "Code and data behind a tracker for the US-China trade war.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 7,
+  "score_rationale": "Tracks tariff escalation in a way that is directly useful for trade-war analysis.",
+  "stars": 32,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2021-04-07",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 54.1,
+  "tags": [
+    "trade-war",
+    "tracker",
+    "us-china",
+    "data"
+  ],
+  "category": "Trade War Tracker",
+  "summary": "Code and data behind a tracker for the US-China trade war.",
+  "slug": "mwaugh0328-tradewar-tracker"
+}

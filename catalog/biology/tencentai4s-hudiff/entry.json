@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tencentai4s/hudiff",
+  "name": "TencentAI4S/HuDiff",
+  "description": "Code for humanization of antibody and nanobody",
+  "sub_domain": "immunoinformatics",
+  "score": 9,
+  "score_rationale": "Clear antibody and nanobody humanization codebase with direct therapeutic relevance.",
+  "stars": 78,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-08-28",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 69.2,
+  "discovery_score": 9,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Code for humanization of antibody and nanobody",
+  "slug": "tencentai4s-hudiff"
+}

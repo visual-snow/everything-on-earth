@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/blockchain-certificates/cert-issuer",
+  "name": "blockchain-certificates/cert-issuer",
+  "description": "Issues Blockcerts using either the Bitcoin or Ethereum blockchain",
+  "sub_domain": "credentialing-certification",
+  "score": 8,
+  "score_rationale": "Core Blockcerts issuer for blockchain-backed academic certificates; foundational credential issuance stack.",
+  "stars": 430,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 69.1,
+  "discovery_score": 8,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "Issues Blockcerts using either the Bitcoin or Ethereum blockchain",
+  "slug": "blockchain-certificates-cert-issuer"
+}

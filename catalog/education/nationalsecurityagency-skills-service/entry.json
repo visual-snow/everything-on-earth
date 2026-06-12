@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nationalsecurityagency/skills-service",
+  "name": "NationalSecurityAgency/skills-service",
+  "description": "SkillTree is a micro-learning gamification platform supporting the rapid integration of a gamified tool training approach into new and existing applications.",
+  "sub_domain": "gamification-engagement",
+  "score": 10,
+  "score_rationale": "Canonical micro-learning gamification platform with points, badges, and training workflows that map directly to educational and classroom-adjacent use cases.",
+  "stars": 556,
+  "language": "Groovy",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "gamification-engagement"
+  ],
+  "quality_score": 82.0,
+  "discovery_score": 10,
+  "tags": [
+    "gamification",
+    "badges",
+    "leaderboards",
+    "engagement"
+  ],
+  "category": "Gamification, Badges, Leaderboards, Educational Games & Classroom Engagement",
+  "summary": "SkillTree is a micro-learning gamification platform supporting the rapid integration of a gamified tool training approach into new and ex...",
+  "slug": "nationalsecurityagency-skills-service"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opendigitalradio/odr-encodermanager",
+  "name": "opendigitalradio/odr-encodermanager",
+  "description": "Opendigitalradio Encoder Manager",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 10,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2023-05-22",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 14.3,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "Opendigitalradio Encoder Manager",
+  "slug": "opendigitalradio-odr-encodermanager"
+}

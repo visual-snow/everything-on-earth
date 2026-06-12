@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chuchun8/pstance",
+  "name": "chuchun8/PStance",
+  "description": "ACL 2021 code and data for P-Stance, a large political-domain stance detection dataset for tweets about U.S. candidates.",
+  "sub_domain": "political-text-nlp",
+  "score": 10,
+  "score_rationale": "It is one of the most direct and useful political stance-detection resources in the corpus.",
+  "stars": 32,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-08-24",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 72.1,
+  "tags": [
+    "political",
+    "stance-detection",
+    "twitter",
+    "dataset",
+    "nlp"
+  ],
+  "category": "Political Stance Dataset",
+  "summary": "Large Twitter dataset for political stance detection.",
+  "slug": "chuchun8-pstance"
+}

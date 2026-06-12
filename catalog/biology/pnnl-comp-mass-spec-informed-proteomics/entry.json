@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pnnl-comp-mass-spec/informed-proteomics",
+  "name": "PNNL-Comp-Mass-Spec/Informed-Proteomics",
+  "description": "Top down / bottom up, MS/MS analysis tool for DDA and DIA mass spectrometry data",
+  "sub_domain": "proteomics",
+  "score": 8,
+  "score_rationale": "Established proteomics analysis toolkit with direct top-down and bottom-up MS/MS functionality.",
+  "stars": 31,
+  "language": "C#",
+  "license": null,
+  "last_activity": "2022-10-05",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 60.0,
+  "discovery_score": 8,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "Top down / bottom up, MS/MS analysis tool for DDA and DIA mass spectrometry data",
+  "slug": "pnnl-comp-mass-spec-informed-proteomics"
+}

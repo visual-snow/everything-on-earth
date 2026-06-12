@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/prowide/prowide-iso20022",
+  "name": "prowide/prowide-iso20022",
+  "description": "Comprehensive business model and parser for all ISO 20022 messages",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 208,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 48.6,
+  "discovery_score": 5,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "Comprehensive business model and parser for all ISO 20022 messages",
+  "slug": "prowide-prowide-iso20022"
+}

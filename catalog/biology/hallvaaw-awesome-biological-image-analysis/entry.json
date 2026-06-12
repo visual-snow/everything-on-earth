@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hallvaaw/awesome-biological-image-analysis",
+  "name": "hallvaaw/awesome-biological-image-analysis",
+  "description": "A curated list of software, tools, pipelines, plugins etc. for image analysis related to biological questions.",
+  "sub_domain": "biomedical-imaging",
+  "score": 4,
+  "score_rationale": "This is a useful curated index of biological image-analysis resources, but it is not a workflow or method package itself.",
+  "stars": 178,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-14",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 42.0,
+  "discovery_score": 4,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "A curated list of software, tools, pipelines, plugins etc. for image analysis related to biological questions.",
+  "slug": "hallvaaw-awesome-biological-image-analysis"
+}

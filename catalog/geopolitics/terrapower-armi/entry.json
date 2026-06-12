@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/terrapower/armi",
+  "name": "terrapower/armi",
+  "description": "An open-source nuclear reactor analysis automation framework that helps design teams increase efficiency and quality",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 9,
+  "score_rationale": "Large nuclear reactor analysis automation framework with operational depth.",
+  "stars": 263,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 73.4,
+  "tags": [
+    "nuclear",
+    "reactor",
+    "simulation",
+    "analysis",
+    "automation"
+  ],
+  "category": "Nuclear Reactor Framework",
+  "summary": "Automation framework for nuclear reactor analysis workflows.",
+  "slug": "terrapower-armi"
+}

@@ -1,0 +1,30 @@
+{
+  "repo_url": "https://github.com/openedx/openedx-platform",
+  "name": "openedx/openedx-platform",
+  "description": "The Open edX LMS & Studio, powering education sites around the world!",
+  "sub_domain": "lms",
+  "score": 10,
+  "score_rationale": "Core open-source LMS platform with course delivery, authoring, enrollment, and assessment at large scale.",
+  "stars": 8048,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lms",
+    "video-lecture-platforms",
+    "curriculum-authoring"
+  ],
+  "quality_score": 91.2,
+  "discovery_score": 10,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment",
+    "lecture-capture",
+    "video-learning"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "The Open edX LMS & Studio, powering education sites around the world!",
+  "slug": "openedx-openedx-platform"
+}

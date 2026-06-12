@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/freqtrade/freqtrade",
+  "name": "freqtrade/freqtrade",
+  "description": "Free, open source crypto trading bot",
+  "sub_domain": "trading-bots-strategy-frameworks",
+  "score": 10,
+  "score_rationale": "Large, mature crypto trading bot platform with broad strategy support and an active ecosystem.",
+  "stars": 47992,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "live-algo-execution-engines",
+    "trading-bots-strategy-frameworks",
+    "ai-ml-for-trading",
+    "paper-trading-simulation"
+  ],
+  "quality_score": 97.4,
+  "tags": [
+    "trading-bot",
+    "strategy-framework",
+    "automation"
+  ],
+  "category": "Trading Bot Framework",
+  "summary": "Free, open source crypto trading bot",
+  "slug": "freqtrade-freqtrade"
+}

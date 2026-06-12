@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openelisglobal/openelisglobal-core",
+  "name": "openelisglobal/openelisglobal-core",
+  "description": "Global OpenELIS (Enterprise Laboratory Information System) is an initiative to provide laboratory information systems for resource-constrained international clinical and reference laboratories.",
+  "sub_domain": "lab-information-systems",
+  "score": 9,
+  "score_rationale": "Core open-source LIS for clinical and reference laboratories; directly matches the sub-domain and is one of the most established projects in the space.",
+  "stars": 44,
+  "language": "Java",
+  "license": "MPL-2.0",
+  "last_activity": "2021-03-15",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 67.2,
+  "discovery_score": 9,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "Global OpenELIS (Enterprise Laboratory Information System) is an initiative to provide laboratory information systems for resource-constr...",
+  "slug": "openelisglobal-openelisglobal-core"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/julianhinz/kite",
+  "name": "julianhinz/KITE",
+  "description": "Kiel Institute Trade Policy Evaluation Model for simulating and estimating trade-policy changes.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 8,
+  "score_rationale": "A dedicated trade-policy evaluation model with clear statecraft relevance.",
+  "stars": 11,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-24",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 56.6,
+  "tags": [
+    "trade-policy",
+    "simulation",
+    "r",
+    "model"
+  ],
+  "category": "Trade Policy Model",
+  "summary": "Trade-policy evaluation model for simulating policy changes.",
+  "slug": "julianhinz-kite"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/itsemon245/tax-project",
+  "name": "itsemon245/tax-project",
+  "description": "A multipurpose application that handles various tasks like client management, project management, finance & invoice management etc",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2024-12-03",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "A multipurpose application that handles various tasks like client management, project management, finance & invoice management etc",
+  "slug": "itsemon245-tax-project"
+}

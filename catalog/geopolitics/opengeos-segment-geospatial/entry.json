@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/opengeos/segment-geospatial",
+  "name": "opengeos/segment-geospatial",
+  "description": "A Python package for segmenting geospatial data with the Segment Anything Model (SAM)",
+  "stars": 3940,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "sub_domain": "geoint-tools",
+  "score": 9,
+  "score_rationale": "Purpose-built geospatial segmentation tool for imagery analysis and a core GEOINT utility.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 82.8,
+  "tags": [
+    "segmentation",
+    "remote-sensing",
+    "sam",
+    "imagery"
+  ],
+  "category": "Geospatial Segmentation",
+  "summary": "Python package for segmenting geospatial imagery with SAM.",
+  "slug": "opengeos-segment-geospatial"
+}

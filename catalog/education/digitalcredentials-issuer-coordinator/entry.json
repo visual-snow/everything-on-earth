@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/digitalcredentials/issuer-coordinator",
+  "name": "digitalcredentials/issuer-coordinator",
+  "description": "An app that issues signed Verifiable Credentials and allows them to be revoked",
+  "sub_domain": "credentialing-certification",
+  "score": 7,
+  "score_rationale": "Issuer-side VC workflow component with revocation support; directly relevant to credential issuance.",
+  "stars": 10,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-11-06",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 50.3,
+  "discovery_score": 7,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "An app that issues signed Verifiable Credentials and allows them to be revoked",
+  "slug": "digitalcredentials-issuer-coordinator"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ozturkoktay/insurance-llm-framework",
+  "name": "ozturkoktay/insurance-llm-framework",
+  "description": "An interactive framework for experimenting with and evaluating open-source large language models (LLMs) for insurance-related tasks. This application provides a user-friendly interface for prompt engineering, text generation, model comparison, and benchmark creation.",
+  "sub_domain": "insurance-actuarial-tech",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for benchmark-style signals.",
+  "stars": 15,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-03-04",
+  "found_in_domains": [
+    "insurance-actuarial-tech"
+  ],
+  "quality_score": 21.6,
+  "discovery_score": 2,
+  "tags": [
+    "insurance",
+    "actuarial",
+    "claims",
+    "cat-modeling"
+  ],
+  "category": "Insurance / Actuarial Tech",
+  "summary": "An interactive framework for experimenting with and evaluating open-source large language models (LLMs) for insurance-related tasks. This...",
+  "slug": "ozturkoktay-insurance-llm-framework"
+}

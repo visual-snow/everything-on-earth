@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/birdnet-team/birdbox",
+  "name": "birdnet-team/birdbox",
+  "description": "Code for detecting bird vocalizations in audio recordings using an object detection model.",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 16,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 4,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "Code for detecting bird vocalizations in audio recordings using an object detection model.",
+  "slug": "birdnet-team-birdbox"
+}

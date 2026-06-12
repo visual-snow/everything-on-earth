@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/osemosys/osemosys",
+  "name": "osemosys/osemosys",
+  "description": "OSeMOSYS - the Open Source Energy Modelling System",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 183,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2025-10-22",
+  "found_in_domains": [
+    "energy-modeling-simulation",
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 42.1,
+  "discovery_score": 4,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "OSeMOSYS - the Open Source Energy Modelling System",
+  "slug": "osemosys-osemosys"
+}

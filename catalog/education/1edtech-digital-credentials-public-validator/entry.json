@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/1edtech/digital-credentials-public-validator",
+  "name": "1EdTech/digital-credentials-public-validator",
+  "description": "Public validator for Digital Credentials (Open Badges and Comprehensive Learner Record)",
+  "sub_domain": "credentialing-certification",
+  "score": 8,
+  "score_rationale": "Public validator for Open Badges and CLRs; directly supports verification workflows.",
+  "stars": 17,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 58.0,
+  "discovery_score": 8,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials",
+    "badges"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "Public validator for Digital Credentials (Open Badges and Comprehensive Learner Record)",
+  "slug": "1edtech-digital-credentials-public-validator"
+}

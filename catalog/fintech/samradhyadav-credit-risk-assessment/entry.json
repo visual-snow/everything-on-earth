@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/samradhyadav/credit-risk-assessment",
+  "name": "samradhyadav/credit-risk-assessment",
+  "description": "Credit Risk Assessment using Probability, Statistics, and ML",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-04-06",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "Credit Risk Assessment using Probability, Statistics, and ML",
+  "slug": "samradhyadav-credit-risk-assessment"
+}

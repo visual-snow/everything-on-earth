@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/moov-io/ach",
+  "name": "moov-io/ach",
+  "description": "ACH implements a reader, writer, and validator for Automated Clearing House (ACH) files. The HTTP server is available in a Docker image and the Go package is available.",
+  "sub_domain": "reconciliation-settlement",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 535,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "financial-messaging-protocols",
+    "reconciliation-settlement"
+  ],
+  "quality_score": 51.8,
+  "discovery_score": 5,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching",
+    "ach"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "ACH implements a reader, writer, and validator for Automated Clearing House (ACH) files. The HTTP server is available in a Docker image a...",
+  "slug": "moov-io-ach"
+}

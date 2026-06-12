@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/quantgirluk/yield-curves-visual",
+  "name": "quantgirluk/yield-curves-visual",
+  "description": "\ud83d\udcc8A dash app showing Interactive Visualisation of the Yield Curve UK and US",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 41,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-12-03",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 37.0,
+  "discovery_score": 4,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "\ud83d\udcc8A dash app showing Interactive Visualisation of the Yield Curve UK and US",
+  "slug": "quantgirluk-yield-curves-visual"
+}

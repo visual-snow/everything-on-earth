@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/instructure/canvas-lms",
+  "name": "instructure/canvas-lms",
+  "description": "The open LMS by Instructure, Inc.",
+  "sub_domain": "lms",
+  "score": 10,
+  "score_rationale": "Canonical open-source LMS platform with broad adoption across core teaching, enrollment, and assessment workflows.",
+  "stars": 6497,
+  "language": "Ruby",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lms"
+  ],
+  "quality_score": 90.5,
+  "discovery_score": 10,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "The open LMS by Instructure, Inc.",
+  "slug": "instructure-canvas-lms"
+}

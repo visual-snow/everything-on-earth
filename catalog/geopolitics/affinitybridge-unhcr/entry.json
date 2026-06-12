@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/affinitybridge/unhcr",
+  "name": "affinitybridge/unhcr",
+  "description": "Map of services for Syrian refugees in Jordan",
+  "sub_domain": "migration-refugee-data",
+  "score": 5,
+  "score_rationale": "Older refugee services map; kept only as a lightweight historical reference.",
+  "stars": 5,
+  "language": "CSS",
+  "license": "MIT",
+  "last_activity": "2016-07-12",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 36.2,
+  "tags": [
+    "refugees",
+    "jordan",
+    "humanitarian",
+    "services",
+    "mapping"
+  ],
+  "category": "Refugee Services Map",
+  "summary": "Map of Syrian refugee services in Jordan.",
+  "slug": "affinitybridge-unhcr"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cvxgrp/cvxportfolio",
+  "name": "cvxgrp/cvxportfolio",
+  "description": "Portfolio optimization and back-testing.",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1184,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 60.6,
+  "discovery_score": 6,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "Portfolio optimization and back-testing.",
+  "slug": "cvxgrp-cvxportfolio"
+}

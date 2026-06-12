@@ -112,7 +112,7 @@ def run_score(entries: list[dict]) -> tuple[list[dict], list[dict]]:
 
     for entry in entries:
         url = entry.get("repo_url", "").strip()
-        desc = entry.get("description", "").strip()
+        desc = (entry.get("description") or "").strip()
 
         if not url:
             removed_log.append({"name": entry.get("name", "?"), "reason": "no_url"})
@@ -164,6 +164,7 @@ def compute_edges(entries: list[dict]) -> list[dict]:
     return [{"source": sorted(pair)[0], "target": sorted(pair)[1]} for pair in edges]
 
 
+
 def run_finalize(
     entries: list[dict],
     topic: str,
@@ -182,14 +183,17 @@ def run_finalize(
 
     domain_entries = defaultdict(list)
     for e in entries:
-        for d in entry_domains(e):
-            domain_entries[d].append(e)
+        domain_entries[e.get("sub_domain", "unknown")].append(e)
 
     domains_summary = []
     for d_name in sorted(domain_entries.keys()):
         d_entries = domain_entries[d_name]
-        avg = sum(e.get("score", 0) for e in d_entries) / len(d_entries)
-        domains_summary.append({"name": d_name, "count": len(d_entries), "avg_score": f"{avg:.1f}"})
+        avg = sum(e.get("discovery_score", e.get("score", 0)) for e in d_entries) / len(d_entries)
+        domains_summary.append({
+            "name": d_name,
+            "count": len(d_entries),
+            "avg_discovery_score": f"{avg:.1f}",
+        })
 
     scores = [effective_score(e) for e in entries]
     context = {
@@ -217,7 +221,7 @@ def run_site(
     template_dir: Path | None = None,
     capability_root: Path | None = None,
 ) -> None:
-    """Generate the full static site: landing + per-domain graph + per-repo detail pages."""
+    """Generate the full static site: unified explorer + per-repo detail pages."""
     if template_dir is None:
         template_dir = Path(__file__).parent / "templates"
     if capability_root is None:
@@ -253,54 +257,39 @@ def run_site(
 
     total_repos = sum(d["count"] for d in domain_catalogs)
 
-    # Generate landing page
-    project_root = catalog_root.parent
-    landing_html = env.get_template("landing.html").render(
-        domains=domain_catalogs,
-        total_repos=total_repos,
-    )
-    landing_path = project_root / "index.html"
-    landing_path.write_text(landing_html)
-    print(f"[site] Wrote {landing_path}")
+    # Tag every entry with its catalog domain and merge into one list
+    all_entries: list[dict] = []
+    for domain in domain_catalogs:
+        for e in domain["entries"]:
+            e["_catalog"] = domain["slug"]
+        all_entries.extend(domain["entries"])
+    all_entries.sort(key=effective_score, reverse=True)
 
-    # Generate per-domain pages
+    # Generate unified explorer as root index.html
+    project_root = catalog_root.parent
+    explorer_html = env.get_template("explorer.html").render(
+        title="Everything on Earth",
+        total=total_repos,
+        catalog_count=len(domain_catalogs),
+        catalog_json=json.dumps(all_entries),
+    )
+    explorer_path = project_root / "index.html"
+    explorer_path.write_text(explorer_html)
+    print(f"[site] Wrote {explorer_path} ({total_repos} entries, {len(domain_catalogs)} domains)")
+
+    # Generate per-domain detail pages
     for domain in domain_catalogs:
         entries = domain["entries"]
         domain_dir = catalog_root / domain["slug"]
 
-        # Compute edges
+        # Compute edges for detail page neighbors
         edges = compute_edges(entries)
-
-        # Build sub-domain list with counts
-        sd_counts: dict[str, int] = defaultdict(int)
-        for e in entries:
-            for d in entry_domains(e):
-                sd_counts[d] += 1
-        sub_domains = [{"name": n, "count": c} for n, c in sorted(sd_counts.items())]
-
-        stats = {
-            "total": len(entries),
-            "domain_count": len(sub_domains),
-        }
 
         # Build neighbor index from edges
         neighbors: dict[str, list[str]] = defaultdict(list)
         for edge in edges:
             neighbors[edge["source"]].append(edge["target"])
             neighbors[edge["target"]].append(edge["source"])
-
-        # Graph page
-        graph_html = env.get_template("graph.html").render(
-            domain_name=domain["name"],
-            domain_slug=domain["slug"],
-            entries_json=json.dumps(entries),
-            edges_json=json.dumps(edges),
-            sub_domains=sub_domains,
-            stats=stats,
-        )
-        graph_path = domain_dir / "index.html"
-        graph_path.write_text(graph_html)
-        print(f"[site] Wrote {graph_path} ({len(entries)} nodes, {len(edges)} edges)")
 
         # Detail pages
         detail_dir = domain_dir / "detail"

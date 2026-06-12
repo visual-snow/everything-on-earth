@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/derekgan08/caseace-law-firm-management-system-frontend",
+  "name": "derekgan08/caseace-law-firm-management-system-frontend",
+  "description": "CaseAce - A frontend solution for case and staff management in law firms, built with HTML and PHP",
+  "sub_domain": "legal-practice-management",
+  "score": 6,
+  "score_rationale": "Matched 3 queries; contains 3 domain terms in repo text.",
+  "stars": 6,
+  "language": "PHP",
+  "license": "NOASSERTION",
+  "last_activity": "2024-12-21",
+  "found_in_domains": [
+    "court-case-management",
+    "legal-practice-management"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 6,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "CaseAce - A frontend solution for case and staff management in law firms, built with HTML and PHP",
+  "slug": "derekgan08-caseace-law-firm-management-system-frontend"
+}

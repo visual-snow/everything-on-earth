@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/connectomicslab/probconnatlas",
+  "name": "connectomicslab/probconnatlas",
+  "description": "Tools to manipulate and apply the multi-scale connectome atlas.",
+  "sub_domain": "connectomics",
+  "score": 68,
+  "score_rationale": "Smaller but clearly connectomics-specific atlas utility.",
+  "stars": 13,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-04-14",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 417.2,
+  "discovery_score": 68,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Tools to manipulate and apply the multi-scale connectome atlas.",
+  "slug": "connectomicslab-probconnatlas"
+}

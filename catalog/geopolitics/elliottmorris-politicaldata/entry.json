@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/elliottmorris/politicaldata",
+  "name": "elliottmorris/politicaldata",
+  "description": "An R package for acquiring and analyzing political data \u2014 including polls, election results, legislator information, and demographic data.",
+  "sub_domain": "election-governance-data",
+  "score": 8,
+  "score_rationale": "It is a broad political-data package with explicit election-results support.",
+  "stars": 164,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2019-08-10",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 65.7,
+  "tags": [
+    "politics",
+    "elections",
+    "polls",
+    "demographics"
+  ],
+  "category": "Political Data Toolkit",
+  "summary": "R package for polls, election results, legislators, and demographics.",
+  "slug": "elliottmorris-politicaldata"
+}

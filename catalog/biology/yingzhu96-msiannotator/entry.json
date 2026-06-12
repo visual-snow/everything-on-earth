@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yingzhu96/msiannotator",
+  "name": "Yingzhu96/MSIannotator",
+  "description": "Metabolite Annotation Tool for Mass Spectrometry Imaging",
+  "sub_domain": "metabolomics",
+  "score": 6,
+  "score_rationale": "It is metabolite annotation software, but the mass spectrometry imaging focus makes it somewhat adjacent to the LC-MS/GC-MS core.",
+  "stars": 3,
+  "language": "MATLAB",
+  "license": "",
+  "last_activity": "2022-04-11",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 6,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "Metabolite Annotation Tool for Mass Spectrometry Imaging",
+  "slug": "yingzhu96-msiannotator"
+}

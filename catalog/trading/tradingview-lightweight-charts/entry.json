@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tradingview/lightweight-charts",
+  "name": "tradingview/lightweight-charts",
+  "description": "Performant financial charts built with HTML5 canvas",
+  "sub_domain": "charting-visualization",
+  "score": 10,
+  "score_rationale": "Best-in-class open source charting library for trading UIs; directly targeted at financial charts.",
+  "stars": 14129,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "charting-visualization"
+  ],
+  "quality_score": 93.2,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "Performant financial charts built with HTML5 canvas",
+  "slug": "tradingview-lightweight-charts"
+}

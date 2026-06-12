@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/manusimidt/py-xbrl",
+  "name": "manusimidt/py-xbrl",
+  "description": "Python-based parser for parsing XBRL and iXBRL files",
+  "sub_domain": "financial-data-standards",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 152,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 41.5,
+  "discovery_score": 4,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "Python-based parser for parsing XBRL and iXBRL files",
+  "slug": "manusimidt-py-xbrl"
+}

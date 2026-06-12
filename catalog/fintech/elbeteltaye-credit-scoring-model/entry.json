@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/elbeteltaye/credit-scoring-model-",
+  "name": "elbeteltaye/credit-scoring-model-",
+  "description": "This project focuses on developing a Credit Scoring Model for a buy-now-pay-later service in partnership with an eCommerce company. The dataset contains transaction records, and the aim is to analyze the data and engineer relevant features that will help in predicting credit risk.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for dataset-style signals.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-10-10",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "This project focuses on developing a Credit Scoring Model for a buy-now-pay-later service in partnership with an eCommerce company. The d...",
+  "slug": "elbeteltaye-credit-scoring-model"
+}

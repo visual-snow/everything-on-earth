@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/3yit/limit-order-book-simulator",
+  "name": "3yit/Limit-Order-Book-Simulator",
+  "description": "C++20 limit order book simulator modeling real-time market microstructure. Features multi-threaded matching engine, microsecond latency, and Python bindings for quantitative finance research and trading strategy analysis.",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 8,
+  "score_rationale": "Good simulator coverage with microstructure modeling and Python bindings.",
+  "stars": 2,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-10-27",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 51.8,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "C++20 limit order book simulator modeling real-time market microstructure. Features multi-threaded matching...",
+  "slug": "3yit-limit-order-book-simulator"
+}

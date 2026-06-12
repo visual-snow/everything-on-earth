@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/veritaschain/vcp-ibkr-rta-reference",
+  "name": "veritaschain/vcp-ibkr-rta-reference",
+  "description": "World-first, publicly documented cryptographic audit trail PoC for Interactive Brokers (IBKR) trading workflows. Demonstrates event-level, tamper-evident logging with Merkle proofs, digital signatures, and independent third-party verification using VeritasChain Protocol (VCP) v1.1.",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 0,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-06",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "World-first, publicly documented cryptographic audit trail PoC for Interactive Brokers (IBKR) trading workflows. Demonstrates event-level...",
+  "slug": "veritaschain-vcp-ibkr-rta-reference"
+}

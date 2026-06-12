@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ajna-finance/ajna-core",
+  "name": "ajna-finance/ajna-core",
+  "description": "The Ajna protocol is a non-custodial, peer-to-peer, permissionless lending, borrowing and trading system that requires no governance or external price feeds to function.",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 40,
+  "language": "Solidity",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 36.9,
+  "discovery_score": 4,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "The Ajna protocol is a non-custodial, peer-to-peer, permissionless lending, borrowing and trading system that requires no governance or e...",
+  "slug": "ajna-finance-ajna-core"
+}

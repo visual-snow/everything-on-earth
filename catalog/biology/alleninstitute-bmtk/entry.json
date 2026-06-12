@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alleninstitute/bmtk",
+  "name": "alleninstitute/bmtk",
+  "description": "Brain Modeling Toolkit",
+  "sub_domain": "computational-neuroscience",
+  "score": 10,
+  "score_rationale": "Core brain-modeling toolkit from Allen Institute for building and running neural simulations and workflows.",
+  "stars": 320,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 80.1,
+  "discovery_score": 10,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Brain Modeling Toolkit",
+  "slug": "alleninstitute-bmtk"
+}

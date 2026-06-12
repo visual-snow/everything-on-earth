@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/accordproject/hlf-cicero-contract",
+  "name": "accordproject/hlf-cicero-contract",
+  "description": "Accord Project Cicero contracts on Hyperledger Fabric v2",
+  "sub_domain": "smart-contracts-legal",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text; archived repo penalty.",
+  "stars": 14,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2022-12-22",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 27.4,
+  "discovery_score": 3,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract",
+    "contract-analysis"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Accord Project Cicero contracts on Hyperledger Fabric v2",
+  "slug": "accordproject-hlf-cicero-contract"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bitergia/radar-report-hedera-and-oss-crypto-ecosystems-2024",
+  "name": "bitergia/radar-report-hedera-and-oss-crypto-ecosystems-2024",
+  "description": "Radar Report: The State of Hedera and the Open Source Crypto Ecosystems in 2024",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-02-20",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Radar Report: The State of Hedera and the Open Source Crypto Ecosystems in 2024",
+  "slug": "bitergia-radar-report-hedera-and-oss-crypto-ecosystems-2024"
+}

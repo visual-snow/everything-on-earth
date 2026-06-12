@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/nishitpatel01/fake_news_detection",
+  "name": "nishitpatel01/Fake_News_Detection",
+  "description": "Fake News Detection in Python.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 9,
+  "score_rationale": "A much larger and more established fake-news detection repo than the weak comparison-oriented long tail.",
+  "stars": 626,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-08-09",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 76.4,
+  "tags": [
+    "fake-news",
+    "classification",
+    "python",
+    "misinformation"
+  ],
+  "category": "Fake News Detection",
+  "summary": "Large Python project for fake news detection.",
+  "slug": "nishitpatel01-fake-news-detection"
+}

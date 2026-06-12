@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/darkmatter2222/nlu-redact-pii",
+  "name": "darkmatter2222/nlu-redact-pii",
+  "description": "Python pipeline for synthetic data generation with a custom Llama sentence generator. It creates field values, prompts & validated sentences (stored in JSON) and includes a training template focused on PII redaction, data sensitivity & compliance.",
+  "sub_domain": "privacy-data-protection",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for template-style signals.",
+  "stars": 2,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-02-12",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 15.8,
+  "discovery_score": 2,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction",
+    "compliance"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "Python pipeline for synthetic data generation with a custom Llama sentence generator. It creates field values, prompts & validated senten...",
+  "slug": "darkmatter2222-nlu-redact-pii"
+}

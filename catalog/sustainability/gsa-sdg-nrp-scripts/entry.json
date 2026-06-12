@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gsa/sdg-nrp-scripts",
+  "name": "gsa/sdg-nrp-scripts",
+  "description": "Scripts and data to generate and manipulate YAML and CSV files for the U.S. National Reporting Platform for the Sustainable Development Goals",
+  "sub_domain": "sustainability-dashboards-viz",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2018-08-17",
+  "found_in_domains": [
+    "sustainability-dashboards-viz"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "sdg",
+    "kpi-dashboard",
+    "data-portal",
+    "climate-visualization"
+  ],
+  "category": "Sustainability Dashboards / Visualization \u2014 SDG trackers, environmental KPI dashboards, data portals",
+  "summary": "Scripts and data to generate and manipulate YAML and CSV files for the U.S. National Reporting Platform for the Sustainable Development G...",
+  "slug": "gsa-sdg-nrp-scripts"
+}

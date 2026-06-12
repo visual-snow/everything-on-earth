@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/felixcharotte/nlp_fnews",
+  "name": "felixcharotte/nlp_fnews",
+  "description": "NLP Project based on sentiment analysis of financial news to predict investment decision on stock market.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 5,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-04-02",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 36.2,
+  "discovery_score": 5,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "NLP Project based on sentiment analysis of financial news to predict investment decision on stock market.",
+  "slug": "felixcharotte-nlp-fnews"
+}

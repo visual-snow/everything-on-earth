@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/llmsmartaudit/ftsmartaudit",
+  "name": "llmsmartaudit/ftsmartaudit",
+  "description": "This repository is dedicated to the smart contract auditing using our FTSmartAudit tool",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 30,
+  "language": "Solidity",
+  "license": null,
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 35.9,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "This repository is dedicated to the smart contract auditing using our FTSmartAudit tool",
+  "slug": "llmsmartaudit-ftsmartaudit"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/rladiesphl/2021_datathon",
+  "name": "rladiesphl/2021_datathon",
+  "description": "Public repository for the R-Ladies Philly & JAT datathon on \"Exploring judicial patterns in Philadelphia courts\"",
+  "sub_domain": "legal-research-case-law",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 7,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2021-07-12",
+  "found_in_domains": [
+    "legal-research-case-law"
+  ],
+  "quality_score": 13.2,
+  "discovery_score": 1,
+  "tags": [
+    "case-law",
+    "citation",
+    "court-data",
+    "dockets",
+    "judicial-workflow"
+  ],
+  "category": "Legal Research / Case Law \u2014 opinions, citations, court data, dockets, scrapers",
+  "summary": "Public repository for the R-Ladies Philly & JAT datathon on \"Exploring judicial patterns in Philadelphia courts\"",
+  "slug": "rladiesphl-2021-datathon"
+}

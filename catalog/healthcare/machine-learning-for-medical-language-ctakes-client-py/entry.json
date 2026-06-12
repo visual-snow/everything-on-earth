@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/machine-learning-for-medical-language/ctakes-client-py",
+  "name": "Machine-Learning-for-Medical-Language/ctakes-client-py",
+  "description": "No description provided.",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 5,
+  "score_rationale": "Useful integration client for cTAKES, but narrower than the core clinical NLP engines.",
+  "stars": 5,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-07-10",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 36.2,
+  "discovery_score": 5,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "No description provided.",
+  "slug": "machine-learning-for-medical-language-ctakes-client-py"
+}

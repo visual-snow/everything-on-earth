@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sky-ecosystem/awesome-makerdao",
+  "name": "sky-ecosystem/awesome-makerdao",
+  "description": "A collection of tools, documents, articles, blog posts, interviews, and videos related to MakerDAO and the Dai stablecoin.",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals; archived repo penalty.",
+  "stars": 714,
+  "language": null,
+  "license": "AGPL-3.0",
+  "last_activity": "2024-07-22",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 34.8,
+  "discovery_score": 2,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "A collection of tools, documents, articles, blog posts, interviews, and videos related to MakerDAO and the Dai stablecoin.",
+  "slug": "sky-ecosystem-awesome-makerdao"
+}

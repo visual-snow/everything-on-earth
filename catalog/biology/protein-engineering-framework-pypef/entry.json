@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/protein-engineering-framework/pypef",
+  "name": "protein-engineering-framework/pypef",
+  "description": "PyPEF \u2013 Pythonic Protein Engineering Framework",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 8,
+  "score_rationale": "A purpose-built framework for protein engineering rather than a general-purpose ML or data-science package.",
+  "stars": 25,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-20",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 59.3,
+  "discovery_score": 8,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "PyPEF \u2013 Pythonic Protein Engineering Framework",
+  "slug": "protein-engineering-framework-pypef"
+}

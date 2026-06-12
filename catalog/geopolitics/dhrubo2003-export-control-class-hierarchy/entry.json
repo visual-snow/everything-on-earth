@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/dhrubo2003/export-control-class-hierarchy",
+  "name": "Dhrubo2003/Export-Control-Class-Hierarchy",
+  "description": "Streamlit app for identifying and categorizing export control codes.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 1,
+  "score_rationale": "Weak but still related export-control support tooling.",
+  "stars": 2,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-12-14",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 9.8,
+  "tags": [
+    "export-control",
+    "classification",
+    "streamlit",
+    "python"
+  ],
+  "category": "Export Code Classifier",
+  "summary": "Streamlit app for identifying and categorizing export control codes.",
+  "slug": "dhrubo2003-export-control-class-hierarchy"
+}

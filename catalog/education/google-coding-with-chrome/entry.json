@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/google/coding-with-chrome",
+  "name": "google/coding-with-chrome",
+  "description": "An Open Source Educational IDE.",
+  "sub_domain": "interactive-coding-education",
+  "score": 8,
+  "score_rationale": "Browser-based educational IDE that fits the requested sandbox and classroom-adjacent workflow.",
+  "stars": 529,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2025-03-21",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 69.8,
+  "discovery_score": 8,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "An Open Source Educational IDE.",
+  "slug": "google-coding-with-chrome"
+}

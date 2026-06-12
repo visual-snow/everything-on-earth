@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/natlabrockies/energyplus",
+  "name": "natlabrockies/energyplus",
+  "description": "EnergyPlus\u2122 is a whole building energy simulation program that engineers, architects, and researchers use to model both energy consumption and water use in buildings.",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1427,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 61.2,
+  "discovery_score": 6,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "EnergyPlus\u2122 is a whole building energy simulation program that engineers, architects, and researchers use to model both energy consumptio...",
+  "slug": "natlabrockies-energyplus"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/liquid-legal-institute/legal-ontologies",
+  "name": "liquid-legal-institute/legal-ontologies",
+  "description": "A list of selected resources, methods, and tools dedicated to legal data schemes and ontologies.",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 9,
+  "score_rationale": "Matched 4 queries; contains 4 domain terms in repo text; has some GitHub adoption.",
+  "stars": 155,
+  "language": null,
+  "license": "CC-BY-SA-4.0",
+  "last_activity": "2024-03-30",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 71.5,
+  "discovery_score": 9,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "A list of selected resources, methods, and tools dedicated to legal data schemes and ontologies.",
+  "slug": "liquid-legal-institute-legal-ontologies"
+}

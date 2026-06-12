@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/katspaugh/fluentcards",
+  "name": "katspaugh/fluentcards",
+  "description": "Flashcards from dictionary look-ups.",
+  "sub_domain": "language-learning",
+  "score": 6,
+  "score_rationale": "Narrow but directly relevant bridge from reading lookups to flashcard creation.",
+  "stars": 62,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2024-02-11",
+  "found_in_domains": [
+    "language-learning"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 6,
+  "tags": [
+    "language-learning",
+    "flashcards",
+    "vocabulary",
+    "reading-support"
+  ],
+  "category": "Language Learning, Vocabulary Training, Reading Support & Speaking Practice",
+  "summary": "Flashcards from dictionary look-ups.",
+  "slug": "katspaugh-fluentcards"
+}

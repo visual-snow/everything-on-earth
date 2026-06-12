@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fuzzland/ityfuzz",
+  "name": "fuzzland/ityfuzz",
+  "description": "Blazing Fast Bytecode-Level Hybrid Fuzzer for Smart Contracts",
+  "sub_domain": "smart-contract-security",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1070,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2025-12-10",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 60.2,
+  "discovery_score": 6,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Blazing Fast Bytecode-Level Hybrid Fuzzer for Smart Contracts",
+  "slug": "fuzzland-ityfuzz"
+}

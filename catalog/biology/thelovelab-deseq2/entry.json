@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/thelovelab/deseq2",
+  "name": "thelovelab/DESeq2",
+  "description": "Differential expression of RNA-seq data using the Negative Binomial",
+  "sub_domain": "transcriptomics",
+  "score": 10,
+  "score_rationale": "Canonical bulk RNA-seq differential expression package and one of the standard analysis backbones.",
+  "stars": 453,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 81.3,
+  "discovery_score": 10,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Differential expression of RNA-seq data using the Negative Binomial",
+  "slug": "thelovelab-deseq2"
+}

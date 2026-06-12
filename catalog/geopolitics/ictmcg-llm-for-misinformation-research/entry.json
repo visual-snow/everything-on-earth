@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ictmcg/llm-for-misinformation-research",
+  "name": "ICTMCG/LLM-for-misinformation-research",
+  "description": "Paper list of misinformation research using multimodal large language models.",
+  "sub_domain": "social-media-influence",
+  "score": 7,
+  "score_rationale": "It is a high-signal research index for misinformation analysis even though it is not a detector itself.",
+  "stars": 323,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2024-12-08",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 62.1,
+  "tags": [
+    "misinformation",
+    "llm-research",
+    "paper-list",
+    "multimodal"
+  ],
+  "category": "Misinformation Research",
+  "summary": "Paper list on misinformation research with multimodal LLMs.",
+  "slug": "ictmcg-llm-for-misinformation-research"
+}

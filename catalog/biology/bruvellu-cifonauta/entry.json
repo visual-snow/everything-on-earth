@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bruvellu/cifonauta",
+  "name": "bruvellu/cifonauta",
+  "description": "Marine biology image database by CEBIMar/USP",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Marine biology image database from CEBIMar/USP that supports specimen lookup, annotation, and reference workflows.",
+  "stars": 28,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-10-05",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 59.7,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Marine biology image database by CEBIMar/USP",
+  "slug": "bruvellu-cifonauta"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/convexfi/riskparity.py",
+  "name": "convexfi/riskparity.py",
+  "description": "Fast and scalable construction of risk parity portfolios",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 318,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-12-02",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 50.0,
+  "discovery_score": 5,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "Fast and scalable construction of risk parity portfolios",
+  "slug": "convexfi-riskparity-py"
+}

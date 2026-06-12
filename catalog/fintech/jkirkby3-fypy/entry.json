@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jkirkby3/fypy",
+  "name": "jkirkby3/fypy",
+  "description": "Vanilla and exotic option pricing library to support quantitative R&D. Focus on pricing interesting/useful models  and contracts (including and beyond Black-Scholes), as well as calibration of financial models to market data.",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 139,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-02-27",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 47.2,
+  "discovery_score": 5,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "Vanilla and exotic option pricing library to support quantitative R&D. Focus on pricing interesting/useful models  and contracts (includi...",
+  "slug": "jkirkby3-fypy"
+}

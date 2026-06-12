@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bittytax/bittytax",
+  "name": "bittytax/bittytax",
+  "description": "Crypto-currency tax calculator with support for all popular wallets, exchanges, explorers and migration from other crypto tax platforms",
+  "sub_domain": "tax-calculation-filing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 490,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 45.5,
+  "discovery_score": 4,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Crypto-currency tax calculator with support for all popular wallets, exchanges, explorers and migration from other crypto tax platforms",
+  "slug": "bittytax-bittytax"
+}

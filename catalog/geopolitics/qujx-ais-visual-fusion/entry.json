@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/qujx/ais-visual-fusion",
+  "name": "QuJX/AIS-Visual-Fusion",
+  "description": "Video/AIS Fusion-Empowered Intelligent Maritime Surveillance in Inland Waterways",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 6,
+  "score_rationale": "Video/AIS fusion project for inland-waterway maritime surveillance.",
+  "stars": 12,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-11-01",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 44.9,
+  "tags": [
+    "ais",
+    "video-analytics",
+    "sensor-fusion",
+    "maritime"
+  ],
+  "category": "AIS Video Fusion",
+  "summary": "Fuses video and AIS for inland-waterway maritime surveillance.",
+  "slug": "qujx-ais-visual-fusion"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/brainpy/brainpy",
+  "name": "brainpy/BrainPy",
+  "description": "Brain Dynamics Programming in Python",
+  "sub_domain": "computational-neuroscience",
+  "score": 9,
+  "score_rationale": "Active brain-dynamics and spiking-network programming toolkit with explicit computational neuroscience scope.",
+  "stars": 675,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 76.6,
+  "discovery_score": 9,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Brain Dynamics Programming in Python",
+  "slug": "brainpy-brainpy"
+}

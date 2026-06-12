@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/blockchain-etl/blockchain-etl-architecture",
+  "name": "blockchain-etl/blockchain-etl-architecture",
+  "description": "Blockchain ETL Architecture",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 46,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2022-10-10",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 31.4,
+  "discovery_score": 3,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Blockchain ETL Architecture",
+  "slug": "blockchain-etl-blockchain-etl-architecture"
+}

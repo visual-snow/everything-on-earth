@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/lgatto/prolocgui",
+  "name": "lgatto/prolocgui",
+  "description": "Interactive visualisation and exploration of spatial proteomics data",
+  "sub_domain": "spatial-omics",
+  "score": 7,
+  "score_rationale": "Interactive R GUI dedicated to spatial proteomics exploration, which makes it a strong domain-specific utility.",
+  "stars": 8,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-11-05",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 7,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq",
+    "proteomics"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "Interactive visualisation and exploration of spatial proteomics data",
+  "slug": "lgatto-prolocgui"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kamlendras/openproctor",
+  "name": "kamlendras/OpenProctor",
+  "description": "Open-source online proctoring software for conducting secure online tests.",
+  "sub_domain": "assessment-testing",
+  "score": 7,
+  "score_rationale": "Exam-specific proctoring software with a direct education testing use case.",
+  "stars": 7,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-05-28",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 49.2,
+  "discovery_score": 7,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Open-source online proctoring software for conducting secure online tests.",
+  "slug": "kamlendras-openproctor"
+}

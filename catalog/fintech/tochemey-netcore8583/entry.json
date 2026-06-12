@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tochemey/netcore8583",
+  "name": "tochemey/netcore8583",
+  "description": "NetCore8583 is a library that helps parse/read and generate ISO 8583 messages for .NET Core",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 43,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 37.1,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "NetCore8583 is a library that helps parse/read and generate ISO 8583 messages for .NET Core",
+  "slug": "tochemey-netcore8583"
+}

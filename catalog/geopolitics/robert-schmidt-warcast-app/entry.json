@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/robert-schmidt/warcast.app",
+  "name": "robert-schmidt/warcast.app",
+  "description": "No description provided.",
+  "stars": 0,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-24",
+  "sub_domain": "conflict-event-tracking",
+  "score": 8,
+  "score_rationale": "Conflict monitor that aggregates news and conflict signals into an operational dashboard.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "conflict-monitoring",
+    "news-aggregation",
+    "dashboard",
+    "osint"
+  ],
+  "category": "Conflict Monitoring",
+  "summary": "Aggregates news and conflict signals into one operational dashboard.",
+  "slug": "robert-schmidt-warcast-app"
+}

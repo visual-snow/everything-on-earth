@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/crytic/echidna",
+  "name": "crytic/echidna",
+  "description": "Ethereum smart contract fuzzer",
+  "sub_domain": "smart-contract-security",
+  "score": 8,
+  "score_rationale": "Matched 2 queries; contains 5 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 3090,
+  "language": "Haskell",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 75.9,
+  "discovery_score": 8,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Ethereum smart contract fuzzer",
+  "slug": "crytic-echidna"
+}

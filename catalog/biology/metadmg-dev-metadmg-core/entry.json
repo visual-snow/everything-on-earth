@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/metadmg-dev/metadmg-core",
+  "name": "metaDMG-dev/metaDMG-core",
+  "description": "A fast and accurate ancient DNA damage toolkit for metagenomic data.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 8,
+  "score_rationale": "Core Python layer for aDNA damage analysis and downstream reporting, though less low-level than the C++ backend.",
+  "stars": 7,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-03-05",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 55.2,
+  "discovery_score": 8,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "A fast and accurate ancient DNA damage toolkit for metagenomic data.",
+  "slug": "metadmg-dev-metadmg-core"
+}

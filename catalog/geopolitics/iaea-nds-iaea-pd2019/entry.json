@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/iaea-nds/iaea-pd2019",
+  "name": "IAEA-NDS/IAEA-PD2019",
+  "description": "IAEA-Photonuclear Data Library",
+  "sub_domain": "nuclear-wmd-proliferation",
+  "score": 7,
+  "score_rationale": "IAEA photonuclear data library for nuclear data analysis.",
+  "stars": 8,
+  "language": "AGS Script",
+  "license": null,
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "nuclear-wmd-proliferation"
+  ],
+  "quality_score": 49.6,
+  "tags": [
+    "iaea",
+    "photonuclear",
+    "data",
+    "library",
+    "nuclear"
+  ],
+  "category": "Photonuclear Data Library",
+  "summary": "IAEA photonuclear data library for nuclear analysis.",
+  "slug": "iaea-nds-iaea-pd2019"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/barzkit/sdk",
+  "name": "barzkit/sdk",
+  "description": "Self-custody AI agent wallets with passkeys, gasless transactions & programmable permissions (ERC-4337)",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Self-custody AI agent wallets with passkeys, gasless transactions & programmable permissions (ERC-4337)",
+  "slug": "barzkit-sdk"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bryanlzl/edusys-learning-platform",
+  "name": "bryanlzl/EduSYS-learning-platform",
+  "description": "Bringing mobility & accessibility to education with Telegram Bot API, NUS LifeHack 2021.",
+  "sub_domain": "accessibility-inclusive-education",
+  "score": 4,
+  "score_rationale": "Old but directly accessibility-oriented education project with a mobility focus, despite low adoption signal.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-07-27",
+  "found_in_domains": [
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "Bringing mobility & accessibility to education with Telegram Bot API, NUS LifeHack 2021.",
+  "slug": "bryanlzl-edusys-learning-platform"
+}

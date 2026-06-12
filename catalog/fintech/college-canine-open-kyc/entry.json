@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/college-canine/open-kyc",
+  "name": "college-canine/open-kyc",
+  "description": "\ud83d\ude36\u200d\ud83c\udf2b\ufe0f An open-source KYC solution that enables you to be compliant for free.",
+  "sub_domain": "aml-kyc-identity",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2024-07-13",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity"
+  ],
+  "category": "AML / KYC / Identity",
+  "summary": "\ud83d\ude36\u200d\ud83c\udf2b\ufe0f An open-source KYC solution that enables you to be compliant for free.",
+  "slug": "college-canine-open-kyc"
+}

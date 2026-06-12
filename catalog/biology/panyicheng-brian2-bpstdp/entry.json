@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/panyicheng/brian2-bpstdp",
+  "name": "panyicheng/brian2-bpstdp",
+  "description": "implement bpstdp using brian2",
+  "sub_domain": "computational-neuroscience",
+  "score": 3,
+  "score_rationale": "Relevant as a Brian2-based plasticity example, but it is a very small notebook-style repo with limited breadth.",
+  "stars": 5,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2018-10-05",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 24.2,
+  "discovery_score": 3,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "implement bpstdp using brian2",
+  "slug": "panyicheng-brian2-bpstdp"
+}

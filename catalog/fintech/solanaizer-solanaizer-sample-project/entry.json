@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/solanaizer/solanaizer-sample-project",
+  "name": "solanaizer/solanaizer-sample-project",
+  "description": "Solana Smart Contract Auditing Tool using AI",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 13,
+  "language": "Rust",
+  "license": null,
+  "last_activity": "2024-03-10",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 33.2,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Solana Smart Contract Auditing Tool using AI",
+  "slug": "solanaizer-solanaizer-sample-project"
+}

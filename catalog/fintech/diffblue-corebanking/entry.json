@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/diffblue/corebanking",
+  "name": "diffblue/corebanking",
+  "description": "A simple CoreBanking app for demo purposes.",
+  "sub_domain": "core-banking-ledger",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for demo-style signals.",
+  "stars": 11,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2025-09-12",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 14.6,
+  "discovery_score": 1,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "A simple CoreBanking app for demo purposes.",
+  "slug": "diffblue-corebanking"
+}

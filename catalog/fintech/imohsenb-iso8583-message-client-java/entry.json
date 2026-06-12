@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/imohsenb/iso8583-message-client-java",
+  "name": "imohsenb/iso8583-message-client-java",
+  "description": "ISO8583 Message Packer and Unpacker with ISOClient in Java",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 133,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2026-01-26",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 41.0,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "ISO8583 Message Packer and Unpacker with ISOClient in Java",
+  "slug": "imohsenb-iso8583-message-client-java"
+}

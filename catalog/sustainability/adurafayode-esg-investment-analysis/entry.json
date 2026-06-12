@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/adurafayode/esg-investment-analysis",
+  "name": "adurafayode/esg-investment-analysis",
+  "description": "A quantitative analysis of ESG-driven portfolio strategies, implementing a long-short approach based on Sustainalytics risk ratings for US equities",
+  "sub_domain": "climate-finance",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-11-05",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk",
+    "esg"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "A quantitative analysis of ESG-driven portfolio strategies, implementing a long-short approach based on Sustainalytics risk ratings for U...",
+  "slug": "adurafayode-esg-investment-analysis"
+}

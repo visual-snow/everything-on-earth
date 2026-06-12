@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/legal-nlp-ekstep/judgment_extractive_summarizer",
+  "name": "legal-nlp-ekstep/judgment_extractive_summarizer",
+  "description": "OpenNyAI is a mission aimed at developing open source software and datasets to catalyze the creation of AI-powered solutions to improve access to justice in India. Jugment Extractive Summarizer is one the AI component developed under this mission",
+  "sub_domain": "legal-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 10,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-11-22",
+  "found_in_domains": [
+    "legal-ai-nlp"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 4,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation",
+    "access",
+    "access-to-justice"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "OpenNyAI is a mission aimed at developing open source software and datasets to catalyze the creation of AI-powered solutions to improve a...",
+  "slug": "legal-nlp-ekstep-judgment-extractive-summarizer"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/idc9/law-net",
+  "name": "idc9/law-net",
+  "description": "code to analyze the legal citation network",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 25,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2017-09-16",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 35.3,
+  "discovery_score": 4,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction",
+    "citation"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "code to analyze the legal citation network",
+  "slug": "idc9-law-net"
+}

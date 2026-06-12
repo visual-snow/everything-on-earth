@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/natlabrockies/solarpilot",
+  "name": "natlabrockies/solarpilot",
+  "description": "SolarPILOT power tower layout and optimization tool",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 57,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-29",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 32.1,
+  "discovery_score": 3,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "SolarPILOT power tower layout and optimization tool",
+  "slug": "natlabrockies-solarpilot"
+}

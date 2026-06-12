@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ucb-bioe-anderson-lab/c6-multiplatform",
+  "name": "ucb-bioe-anderson-lab/c6-multiplatform",
+  "description": "C6-Tools v2.0 Synthetic Biology Functions for Multiple Platforms",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Direct synthetic-biology toolkit for recombinant DNA workflows, assembly simulation, and verification.",
+  "stars": 0,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2025-12-31",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "C6-Tools v2.0 Synthetic Biology Functions for Multiple Platforms",
+  "slug": "ucb-bioe-anderson-lab-c6-multiplatform"
+}

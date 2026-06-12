@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/c99koder/healthconnect-librelinkup",
+  "name": "c99koder/HealthConnect-LibreLinkUp",
+  "description": "Sync LibreLinkUp data to HealthConnect and WearOS",
+  "sub_domain": "wearable-iot-health",
+  "score": 8,
+  "score_rationale": "Bridges health-device data into Android Health Connect and WearOS, which is a strong fit for wearable-health interoperability.",
+  "stars": 6,
+  "language": "Kotlin",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 54.8,
+  "discovery_score": 8,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "Sync LibreLinkUp data to HealthConnect and WearOS",
+  "slug": "c99koder-healthconnect-librelinkup"
+}

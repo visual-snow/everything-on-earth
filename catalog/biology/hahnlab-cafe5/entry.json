@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hahnlab/cafe5",
+  "name": "hahnlab/cafe5",
+  "description": "Version 5 of the CAFE phylogenetics software",
+  "sub_domain": "phylogenetics",
+  "score": 8,
+  "score_rationale": "Established phylogenetics software for gene family evolution analysis, which is highly relevant to comparative genomics workflows.",
+  "stars": 164,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 65.7,
+  "discovery_score": 8,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Version 5 of the CAFE phylogenetics software",
+  "slug": "hahnlab-cafe5"
+}

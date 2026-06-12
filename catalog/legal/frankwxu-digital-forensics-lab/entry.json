@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/frankwxu/digital-forensics-lab",
+  "name": "frankwxu/digital-forensics-lab",
+  "description": "Free hands-on digital forensics labs for students and faculty",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 8,
+  "score_rationale": "Matched 3 queries; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 2548,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 75.3,
+  "discovery_score": 8,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "Free hands-on digital forensics labs for students and faculty",
+  "slug": "frankwxu-digital-forensics-lab"
+}

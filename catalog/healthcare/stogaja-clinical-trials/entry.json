@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/stogaja/clinical-trials",
+  "name": "stogaja/clinical-trials",
+  "description": "A comprehensive notebook for clinical trials spanning various medical fields. Access vital information on study titles, conditions, interventions, and outcomes for evidence-based decision-making in healthcare research and practice. Explore a wealth of diverse trials for informed medical advancements.",
+  "sub_domain": "clinical-trials-research",
+  "score": 3,
+  "score_rationale": "Marginal notebook-style repository with some relevance to trial research, but limited evidence of sustained tooling value.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-11-24",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture",
+    "practice-management"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "A comprehensive notebook for clinical trials spanning various medical fields. Access vital information on study titles, conditions, inter...",
+  "slug": "stogaja-clinical-trials"
+}

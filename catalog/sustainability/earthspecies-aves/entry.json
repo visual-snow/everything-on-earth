@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/earthspecies/aves",
+  "name": "earthspecies/aves",
+  "description": "AVES: Animal Vocalization Encoder based on Self-Supervision",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 140,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-04",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 23.2,
+  "discovery_score": 1,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "AVES: Animal Vocalization Encoder based on Self-Supervision",
+  "slug": "earthspecies-aves"
+}

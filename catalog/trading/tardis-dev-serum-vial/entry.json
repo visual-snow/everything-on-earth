@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tardis-dev/serum-vial",
+  "name": "tardis-dev/serum-vial",
+  "description": "Real-time WebSocket market data API for Serum",
+  "sub_domain": "market-data-feeds",
+  "score": 3,
+  "score_rationale": "Crypto DEX market data API is relevant, but the scope is narrower and tied to Serum specifically.",
+  "stars": 180,
+  "language": "TypeScript",
+  "license": "MPL-2.0",
+  "last_activity": "2022-08-21",
+  "found_in_domains": [
+    "market-data-feeds"
+  ],
+  "quality_score": 36.1,
+  "tags": [
+    "market-data",
+    "data-ingestion",
+    "real-time-feeds"
+  ],
+  "category": "Market Data Feed",
+  "summary": "Real-time WebSocket market data API for Serum",
+  "slug": "tardis-dev-serum-vial"
+}

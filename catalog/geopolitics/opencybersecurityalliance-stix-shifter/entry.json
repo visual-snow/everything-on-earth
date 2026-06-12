@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/opencybersecurityalliance/stix-shifter",
+  "name": "opencybersecurityalliance/stix-shifter",
+  "description": "This project consists of an open source library allowing software to connect to data repositories using STIX Patterning, and return results as STIX Observations.",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 7,
+  "score_rationale": "STIX-based connector library for querying repositories and returning standardized observables.",
+  "stars": 261,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 61.3,
+  "tags": [
+    "stix",
+    "connector",
+    "observables",
+    "querying"
+  ],
+  "category": "STIX Connector Library",
+  "summary": "Library for querying data repositories and returning STIX observations.",
+  "slug": "opencybersecurityalliance-stix-shifter"
+}

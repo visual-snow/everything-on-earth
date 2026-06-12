@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bbarker505/ddrp_v3",
+  "name": "bbarker505/ddrp_v3",
+  "description": "An updated version of the DDRP platform (from v2) that uses newer R packages (\"terra\" and \"sf\"). The objective of the Degree-Day, establishment Risk, and Pest event mapping system (DDRP) is to predict phenology and climate suitability of invasive, biocontrol, and IPM species for the conterminous United States.",
+  "sub_domain": "climate-biology",
+  "score": 10,
+  "score_rationale": "The DDRP platform directly predicts phenology and climate suitability for managed and invasive species.",
+  "stars": 4,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-04-19",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 65.6,
+  "discovery_score": 10,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "An updated version of the DDRP platform (from v2) that uses newer R packages (\"terra\" and \"sf\"). The objective of the Degree-Day, establi...",
+  "slug": "bbarker505-ddrp-v3"
+}

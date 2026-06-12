@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/apache/atlas",
+  "name": "apache/atlas",
+  "description": "Apache Atlas - Open Metadata Management and Governance capabilities across the Hadoop platform and beyond",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 2084,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 62.6,
+  "discovery_score": 6,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "Apache Atlas - Open Metadata Management and Governance capabilities across the Hadoop platform and beyond",
+  "slug": "apache-atlas"
+}

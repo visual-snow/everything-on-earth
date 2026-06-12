@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eidss/eidss7-source",
+  "name": "EIDSS/eidss7-source",
+  "description": "EIDSSv7 source code",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 9,
+  "score_rationale": "Full disease surveillance system source code with direct public-health operations relevance.",
+  "stars": 0,
+  "language": "TSQL",
+  "license": "BSD-2-Clause",
+  "last_activity": "2024-10-25",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "EIDSSv7 source code",
+  "slug": "eidss-eidss7-source"
+}

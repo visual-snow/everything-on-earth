@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/edrys-org/edrys",
+  "name": "edrys-org/edrys",
+  "description": "Open and modular remote teaching platform and live LMS for browser-based lab and classroom workflows.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 10,
+  "score_rationale": "Directly education-first and purpose-built for remote teaching, live classes, and remote labs.",
+  "stars": 329,
+  "language": "Vue",
+  "license": "MPL-2.0",
+  "last_activity": "2024-08-12",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 80.1,
+  "discovery_score": 10,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning",
+    "lms",
+    "classroom"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Open and modular remote teaching platform and live LMS for browser-based lab and classroom workflows.",
+  "slug": "edrys-org-edrys"
+}

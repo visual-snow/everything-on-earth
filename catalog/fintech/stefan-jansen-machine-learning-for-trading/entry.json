@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+  "name": "stefan-jansen/machine-learning-for-trading",
+  "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 16826,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-08-18",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 2,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+  "slug": "stefan-jansen-machine-learning-for-trading"
+}

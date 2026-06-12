@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/varnerlab/bstmodelkit.jl",
+  "name": "varnerlab/bstmodelkit.jl",
+  "description": "A Julia package for building, and running Biochemical Systems Theory (BST) models",
+  "sub_domain": "systems-biology",
+  "score": 8,
+  "score_rationale": "Julia package for building and running biochemical systems theory models, useful for mechanistic pathway modeling.",
+  "stars": 5,
+  "language": "Julia",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 54.2,
+  "discovery_score": 8,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "A Julia package for building, and running Biochemical Systems Theory (BST) models",
+  "slug": "varnerlab-bstmodelkit-jl"
+}

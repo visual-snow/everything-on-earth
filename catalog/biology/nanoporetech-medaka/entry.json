@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nanoporetech/medaka",
+  "name": "nanoporetech/medaka",
+  "description": "Sequence correction provided by ONT Research",
+  "sub_domain": "long-read-sequencing",
+  "score": 9,
+  "score_rationale": "ONT Research's polishing tool for improving Nanopore assemblies and consensus.",
+  "stars": 503,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-12-08",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 75.6,
+  "discovery_score": 9,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "Sequence correction provided by ONT Research",
+  "slug": "nanoporetech-medaka"
+}

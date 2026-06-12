@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/chhylp123/hifiasm",
+  "name": "chhylp123/hifiasm",
+  "description": "Hifiasm: a haplotype-resolved assembler for accurate Hifi reads",
+  "sub_domain": "genomics",
+  "score": 10,
+  "score_rationale": "Canonical haplotype-resolved assembler for PacBio HiFi data and one of the most important modern genome assembly tools.",
+  "stars": 756,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2025-03-18",
+  "found_in_domains": [
+    "genomics",
+    "long-read-sequencing"
+  ],
+  "quality_score": 83.0,
+  "discovery_score": 10,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Hifiasm: a haplotype-resolved assembler for accurate Hifi reads",
+  "slug": "chhylp123-hifiasm"
+}

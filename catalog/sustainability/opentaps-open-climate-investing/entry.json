@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opentaps/open-climate-investing",
+  "name": "opentaps/open-climate-investing",
+  "description": "Application and data for analyzing and structuring portfolios for climate investing.",
+  "sub_domain": "climate-finance",
+  "score": 4,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text.",
+  "stars": 50,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2022-10-20",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 37.7,
+  "discovery_score": 4,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "Application and data for analyzing and structuring portfolios for climate investing.",
+  "slug": "opentaps-open-climate-investing"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sd2e/synbict",
+  "name": "sd2e/synbict",
+  "description": "Synthetic Biology Curation Tools",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Focused SBOL curation and annotation tooling for synthetic-biology design data.",
+  "stars": 5,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-06-17",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 54.2,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "Synthetic Biology Curation Tools",
+  "slug": "sd2e-synbict"
+}

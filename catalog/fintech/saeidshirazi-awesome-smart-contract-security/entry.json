@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/saeidshirazi/awesome-smart-contract-security",
+  "name": "saeidshirazi/awesome-smart-contract-security",
+  "description": "A curated list of Smart Contract Security materials and resources For Researchers",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 869,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-01-30",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 47.5,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A curated list of Smart Contract Security materials and resources For Researchers",
+  "slug": "saeidshirazi-awesome-smart-contract-security"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alexander-m-dickerson/trace-data-pipeline",
+  "name": "alexander-m-dickerson/trace-data-pipeline",
+  "description": "End-to-end solution to process TRACE corporate bond data.",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 45,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 19.3,
+  "discovery_score": 1,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "End-to-end solution to process TRACE corporate bond data.",
+  "slug": "alexander-m-dickerson-trace-data-pipeline"
+}

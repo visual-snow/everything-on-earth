@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ahow/climate-risk-dashboard",
+  "name": "ahow/climate-risk-dashboard",
+  "description": "An interactive web dashboard that displays company climate risk exposure by integrating asset location, geographic risk, and risk management APIs to calculate and visualize direct exposure and overall expected losses \u00b7 Built with Manus",
+  "sub_domain": "climate-finance",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "An interactive web dashboard that displays company climate risk exposure by integrating asset location, geographic risk, and risk managem...",
+  "slug": "ahow-climate-risk-dashboard"
+}

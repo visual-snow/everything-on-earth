@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kerala-blockchain-academy/agrochain",
+  "name": "kerala-blockchain-academy/agrochain",
+  "description": "Agricultural Supply Chain Dapp With Micro-Finance",
+  "sub_domain": "supply-chain-sustainability",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; archived repo penalty.",
+  "stars": 229,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2019-03-04",
+  "found_in_domains": [
+    "supply-chain-sustainability"
+  ],
+  "quality_score": 36.9,
+  "discovery_score": 3,
+  "tags": [
+    "supply-chain",
+    "traceability",
+    "scope-3",
+    "deforestation"
+  ],
+  "category": "Supply Chain Sustainability \u2014 scope 3 traceability, deforestation-free supply chains, fair trade tracking",
+  "summary": "Agricultural Supply Chain Dapp With Micro-Finance",
+  "slug": "kerala-blockchain-academy-agrochain"
+}

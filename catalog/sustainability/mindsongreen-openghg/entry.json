@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mindsongreen/openghg",
+  "name": "mindsongreen/openghg",
+  "description": "OpenGHG \u2014 a flexible, actionable and reliable open\u2011source foundation for the future of carbon accounting.",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-27",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "OpenGHG \u2014 a flexible, actionable and reliable open\u2011source foundation for the future of carbon accounting.",
+  "slug": "mindsongreen-openghg"
+}

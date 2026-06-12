@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/changeweb/unifiedtransform",
+  "name": "changeweb/Unifiedtransform",
+  "description": "A school management Software",
+  "sub_domain": "sis",
+  "score": 9,
+  "score_rationale": "Large, active school-management platform with broad SIS coverage across registration, attendance, grades, and administration.",
+  "stars": 2969,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-05",
+  "found_in_domains": [
+    "sis"
+  ],
+  "quality_score": 81.8,
+  "discovery_score": 9,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "A school management Software",
+  "slug": "changeweb-unifiedtransform"
+}

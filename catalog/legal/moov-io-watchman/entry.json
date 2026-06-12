@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/moov-io/watchman",
+  "name": "moov-io/watchman",
+  "description": "AML/CTF/KYC/OFAC Search of global watchlist and sanctions",
+  "sub_domain": "aml-kyc-identity",
+  "score": 7,
+  "score_rationale": "Matched 3 queries; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 440,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 63.2,
+  "discovery_score": 7,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "AML/CTF/KYC/OFAC Search of global watchlist and sanctions",
+  "slug": "moov-io-watchman"
+}

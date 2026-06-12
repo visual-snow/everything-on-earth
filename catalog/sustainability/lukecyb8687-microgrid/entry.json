@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lukecyb8687/microgrid",
+  "name": "lukecyb8687/microgrid",
+  "description": "Optimization of Microgrid (Multi-Objective Optimization)",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 85,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2020-04-10",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 39.5,
+  "discovery_score": 4,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "Optimization of Microgrid (Multi-Objective Optimization)",
+  "slug": "lukecyb8687-microgrid"
+}

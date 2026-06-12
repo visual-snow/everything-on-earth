@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/gatoreducator/gatorgrader",
+  "name": "GatorEducator/gatorgrader",
+  "description": "Checks student code and writing for classroom assignments",
+  "sub_domain": "interactive-coding-education",
+  "score": 7,
+  "score_rationale": "Autograding and feedback tooling with explicit GitHub Classroom integration for student assignments.",
+  "stars": 82,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-28",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 57.4,
+  "discovery_score": 7,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "classroom",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "Checks student code and writing for classroom assignments",
+  "slug": "gatoreducator-gatorgrader"
+}

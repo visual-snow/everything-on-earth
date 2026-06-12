@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mafedavila/sustainability_reporting",
+  "name": "mafedavila/sustainability_reporting",
+  "description": "Open-source solution designed to help companies comply with the Corporate Sustainability Reporting Directive (CSRD). It provides tools to collect, process, and visualize environmental data, including emissions, resource usage, and waste management, facilitating comprehensive sustainability reporting and performance analysis.",
+  "sub_domain": "sustainability-dashboards-viz",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2024-08-15",
+  "found_in_domains": [
+    "sustainability-dashboards-viz"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "sdg",
+    "kpi-dashboard",
+    "data-portal",
+    "climate-visualization",
+    "csrd"
+  ],
+  "category": "Sustainability Dashboards / Visualization \u2014 SDG trackers, environmental KPI dashboards, data portals",
+  "summary": "Open-source solution designed to help companies comply with the Corporate Sustainability Reporting Directive (CSRD). It provides tools to...",
+  "slug": "mafedavila-sustainability-reporting"
+}

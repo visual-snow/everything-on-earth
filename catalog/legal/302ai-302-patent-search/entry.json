@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/302ai/302_patent_search",
+  "name": "302ai/302_patent_search",
+  "description": "\ud83e\udd16 302 AI Patent Search! \ud83d\ude80\u2728",
+  "sub_domain": "ip-patent-trademark",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 16,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-08-26",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 4,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "\ud83e\udd16 302 AI Patent Search! \ud83d\ude80\u2728",
+  "slug": "302ai-302-patent-search"
+}

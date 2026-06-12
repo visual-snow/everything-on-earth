@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/j3soon/nurse-scheduling",
+  "name": "j3soon/nurse-scheduling",
+  "description": "A flexible web application designed to streamline and automate nurse scheduling, suitable for a wide range of diverse and complex real-world requirements.",
+  "sub_domain": "hospital-operations-scheduling",
+  "score": 6,
+  "score_rationale": "Direct nurse scheduling tool with a clear staffing-operations use case, but it is narrower than a full hospital management platform.",
+  "stars": 6,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "hospital-operations-scheduling"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 6,
+  "tags": [
+    "hospital-ops",
+    "scheduling",
+    "bed-management",
+    "patient-flow"
+  ],
+  "category": "Hospital Operations, Scheduling, Bed Management & Patient Flow",
+  "summary": "A flexible web application designed to streamline and automate nurse scheduling, suitable for a wide range of diverse and complex real-wo...",
+  "slug": "j3soon-nurse-scheduling"
+}

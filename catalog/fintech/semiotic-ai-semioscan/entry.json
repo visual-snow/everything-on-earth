@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/semiotic-ai/semioscan",
+  "name": "semiotic-ai/semioscan",
+  "description": "Rust library for EVM blockchain analytics: gas cost calculation (L1/L2), block window mapping, and DEX price extraction. Built on Alloy.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 5,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 12.2,
+  "discovery_score": 1,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Rust library for EVM blockchain analytics: gas cost calculation (L1/L2), block window mapping, and DEX price extraction. Built on Alloy.",
+  "slug": "semiotic-ai-semioscan"
+}

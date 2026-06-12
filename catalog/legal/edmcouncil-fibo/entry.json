@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/edmcouncil/fibo",
+  "name": "edmcouncil/fibo",
+  "description": "The Financial Industry Business Ontology (FIBO) defines the sets of things that are of interest in financial business applications and the ways that those things can relate to one another. In this way, FIBO can give meaning to any data (e.g., spreadsheets, relational databases, XML documents) that describe the business of finance.",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 510,
+  "language": "Shell",
+  "license": "MIT",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 45.7,
+  "discovery_score": 4,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif",
+    "ontology"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "The Financial Industry Business Ontology (FIBO) defines the sets of things that are of interest in financial business applications and th...",
+  "slug": "edmcouncil-fibo"
+}

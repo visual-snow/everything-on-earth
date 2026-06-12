@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/allenai/scispacy",
+  "name": "allenai/scispacy",
+  "description": "A full spaCy pipeline and models for scientific/biomedical documents.",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 9,
+  "score_rationale": "Primary biomedical NLP stack for entity extraction and linking; strong adjacent foundation for clinical text mining.",
+  "stars": 1935,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-04",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 80.3,
+  "discovery_score": 9,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "A full spaCy pipeline and models for scientific/biomedical documents.",
+  "slug": "allenai-scispacy"
+}

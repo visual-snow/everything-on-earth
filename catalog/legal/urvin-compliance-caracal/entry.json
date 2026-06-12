@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/urvin-compliance/caracal",
+  "name": "urvin-compliance/caracal",
+  "description": "Caracal is a ruby library for dynamically creating professional-quality Microsoft Word documents (.docx).",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 333,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2024-01-21",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 44.2,
+  "discovery_score": 4,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance",
+    "compliance"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "Caracal is a ruby library for dynamically creating professional-quality Microsoft Word documents (.docx).",
+  "slug": "urvin-compliance-caracal"
+}

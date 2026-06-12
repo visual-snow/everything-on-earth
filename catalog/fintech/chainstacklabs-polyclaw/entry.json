@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/chainstacklabs/polyclaw",
+  "name": "chainstacklabs/polyclaw",
+  "description": "Trading-enabled Polymarket skill for OpenClaw - browse markets, execute trades, track positions, discover hedges",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 266,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 43.4,
+  "discovery_score": 4,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Trading-enabled Polymarket skill for OpenClaw - browse markets, execute trades, track positions, discover hedges",
+  "slug": "chainstacklabs-polyclaw"
+}

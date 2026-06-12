@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/framverse/framr",
+  "name": "FRAMverse/framr",
+  "description": "R package for working with the Fishery Regulation Assessment Model (FRAM)",
+  "sub_domain": "marine-biology",
+  "score": 7,
+  "score_rationale": "Reusable fisheries model interface for FRAM, useful for marine stock and regulation assessment workflows.",
+  "stars": 7,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2023-01-18",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 49.2,
+  "discovery_score": 7,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "R package for working with the Fishery Regulation Assessment Model (FRAM)",
+  "slug": "framverse-framr"
+}

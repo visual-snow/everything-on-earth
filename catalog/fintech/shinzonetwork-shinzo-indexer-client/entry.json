@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shinzonetwork/shinzo-indexer-client",
+  "name": "shinzonetwork/shinzo-indexer-client",
+  "description": "A high-performance blockchain indexing solution built with Source Network, DefraDB, and LensVM.",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 8,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 31.6,
+  "discovery_score": 4,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "A high-performance blockchain indexing solution built with Source Network, DefraDB, and LensVM.",
+  "slug": "shinzonetwork-shinzo-indexer-client"
+}

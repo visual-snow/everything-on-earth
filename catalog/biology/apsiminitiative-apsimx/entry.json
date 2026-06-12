@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/apsiminitiative/apsimx",
+  "name": "APSIMInitiative/ApsimX",
+  "description": "ApsimX is the next generation of APSIM",
+  "sub_domain": "climate-biology",
+  "score": 8,
+  "score_rationale": "Large, maintained crop simulation platform for climate-driven biological response studies; broader than pure ecology but clearly relevant.",
+  "stars": 188,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 66.2,
+  "discovery_score": 8,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "ApsimX is the next generation of APSIM",
+  "slug": "apsiminitiative-apsimx"
+}

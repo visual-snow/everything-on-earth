@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wraft/wraft",
+  "name": "wraft/wraft",
+  "description": "Wraft is an open-source Document Lifecycle Management platform.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 130,
+  "language": "Elixir",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 22.9,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "Wraft is an open-source Document Lifecycle Management platform.",
+  "slug": "wraft-wraft"
+}

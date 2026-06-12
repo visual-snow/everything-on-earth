@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/spherity/product-pass",
+  "name": "spherity/product-pass",
+  "description": "Product Pass for Circular Economy",
+  "sub_domain": "circular-economy-waste",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+  "stars": 8,
+  "language": null,
+  "license": null,
+  "last_activity": "2021-05-10",
+  "found_in_domains": [
+    "circular-economy-waste"
+  ],
+  "quality_score": 37.6,
+  "discovery_score": 5,
+  "tags": [
+    "circular-economy",
+    "material-flow",
+    "recycling",
+    "waste-tracking"
+  ],
+  "category": "Circular Economy / Waste \u2014 material flow analysis, recycling optimization, waste tracking",
+  "summary": "Product Pass for Circular Economy",
+  "slug": "spherity-product-pass"
+}

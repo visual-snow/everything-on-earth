@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/imsharad/ai-swift-transaction-processor",
+  "name": "imsharad/ai-swift-transaction-processor",
+  "description": "AI agent development using Swift programming language",
+  "sub_domain": "payment-processing-gateways",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-01-13",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing",
+    "swift"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "AI agent development using Swift programming language",
+  "slug": "imsharad-ai-swift-transaction-processor"
+}

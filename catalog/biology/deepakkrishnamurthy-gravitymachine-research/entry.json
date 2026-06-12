@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/deepakkrishnamurthy/gravitymachine-research",
+  "name": "deepakkrishnamurthy/gravitymachine-research",
+  "description": "Scale-free Vertical Tracking Microscopy (a.k.a Gravity Machine) repo.",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Research code for vertical tracking microscopy used in marine and ocean-science specimen studies.",
+  "stars": 12,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-06-25",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 56.9,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries",
+    "microscopy"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Scale-free Vertical Tracking Microscopy (a.k.a Gravity Machine) repo.",
+  "slug": "deepakkrishnamurthy-gravitymachine-research"
+}

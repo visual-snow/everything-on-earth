@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/r-a-dobson/dynamicsdm",
+  "name": "r-a-dobson/dynamicSDM",
+  "description": "An R package for species geographical distribution and abundance modelling at high spatiotemporal resolution",
+  "sub_domain": "climate-biology",
+  "score": 9,
+  "score_rationale": "Purpose-built for species geographical distribution and abundance modelling at high spatiotemporal resolution, which is strong climate-response tooling.",
+  "stars": 7,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-01-03",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 61.2,
+  "discovery_score": 9,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "An R package for species geographical distribution and abundance modelling at high spatiotemporal resolution",
+  "slug": "r-a-dobson-dynamicsdm"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/opensanctions/opensanctions",
+  "name": "opensanctions/opensanctions",
+  "description": "An open database of international sanctions data, persons of interest and politically exposed persons",
+  "stars": 696,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "sub_domain": "sanctions-compliance",
+  "score": 10,
+  "score_rationale": "Foundational open sanctions and PEP data platform, essential for this subdomain.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 82.7,
+  "tags": [
+    "sanctions",
+    "peps",
+    "persons-of-interest",
+    "open-data"
+  ],
+  "category": "Sanctions Data",
+  "summary": "Open database of sanctions, PEPs, and persons of interest.",
+  "slug": "opensanctions-opensanctions"
+}

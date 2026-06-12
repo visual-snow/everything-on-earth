@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/0xpolygon/chain-indexer-framework",
+  "name": "0xpolygon/chain-indexer-framework",
+  "description": "Chain-indexer-framework",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 152,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-12-04",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 47.5,
+  "discovery_score": 5,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Chain-indexer-framework",
+  "slug": "0xpolygon-chain-indexer-framework"
+}

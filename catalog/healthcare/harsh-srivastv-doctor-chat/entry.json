@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/harsh-srivastv/doctor-chat",
+  "name": "harsh-srivastv/Doctor-Chat",
+  "description": "Doctor Chat is a health consultancy platform that helps bridge the accessibility gap by remotely providing care to patients.",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 6,
+  "score_rationale": "Remote doctor-patient communication is the core use case, with WebRTC and real-time chat as the main delivery mechanism.",
+  "stars": 6,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2023-06-01",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 6,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video",
+    "patient-records"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "Doctor Chat is a health consultancy platform that helps bridge the accessibility gap by remotely providing care to patients.",
+  "slug": "harsh-srivastv-doctor-chat"
+}

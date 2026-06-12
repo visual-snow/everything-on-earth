@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/churchmanlab/mtfiberseq",
+  "name": "churchmanlab/mtfiberseq",
+  "description": "Scripts necessary to analyze mtFiber-seq data from the associated manuscript.",
+  "sub_domain": "epigenomics",
+  "score": 7,
+  "score_rationale": "Directly targets mtFiber-seq signal analysis from the originating lab, but it is a narrow project-specific codebase.",
+  "stars": 0,
+  "language": "Shell",
+  "license": "MIT",
+  "last_activity": "2023-11-14",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "Scripts necessary to analyze mtFiber-seq data from the associated manuscript.",
+  "slug": "churchmanlab-mtfiberseq"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/librehealthio/lh-ehr",
+  "name": "librehealthio/lh-ehr",
+  "description": "LibreHealth EHR - Free Open Source Electronic Health Records.",
+  "sub_domain": "ehr-practice-management",
+  "score": 8,
+  "score_rationale": "Dedicated EHR codebase that sits squarely in the target sub-domain.",
+  "stars": 291,
+  "language": "PHP",
+  "license": "NOASSERTION",
+  "last_activity": "2023-09-09",
+  "found_in_domains": [
+    "ehr-practice-management"
+  ],
+  "quality_score": 67.7,
+  "discovery_score": 8,
+  "tags": [
+    "ehr",
+    "emr",
+    "patient-records",
+    "practice-management"
+  ],
+  "category": "Electronic Health Records (EHR), Clinical Documentation & Practice Management",
+  "summary": "LibreHealth EHR - Free Open Source Electronic Health Records.",
+  "slug": "librehealthio-lh-ehr"
+}

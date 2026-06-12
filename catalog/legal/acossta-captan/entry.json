@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/acossta/captan",
+  "name": "acossta/captan",
+  "description": "Captan is a lightweight, hackable CLI tool for managing startup cap tables.",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 3,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-08-22",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 10.8,
+  "discovery_score": 1,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "Captan is a lightweight, hackable CLI tool for managing startup cap tables.",
+  "slug": "acossta-captan"
+}

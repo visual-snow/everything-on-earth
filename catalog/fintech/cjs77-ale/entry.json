@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cjs77/ale",
+  "name": "cjs77/ale",
+  "description": "Double-entry accounting system based on node.js + Sequelize",
+  "sub_domain": "core-banking-ledger",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; archived repo penalty.",
+  "stars": 55,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2021-01-07",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 26.0,
+  "discovery_score": 2,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "Double-entry accounting system based on node.js + Sequelize",
+  "slug": "cjs77-ale"
+}

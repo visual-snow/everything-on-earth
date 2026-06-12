@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/khaosresearch/edaanowl",
+  "name": "khaosresearch/edaanowl",
+  "description": "EDAAnOWL: ontology for data-space assets aligned with IDSA & BIGOWL; SHACL shapes enable discovery, interoperability & governance in Andalusian Agrifood Data Space Demonstrator Center.",
+  "sub_domain": "legal-knowledge-ontologies",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 4,
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "legal-knowledge-ontologies"
+  ],
+  "quality_score": 23.6,
+  "discovery_score": 3,
+  "tags": [
+    "legal-ontology",
+    "knowledge-graph",
+    "akoma-ntoso",
+    "lkif",
+    "ontology",
+    "discovery"
+  ],
+  "category": "Legal Knowledge / Ontologies \u2014 legal schemas, knowledge graphs, Akoma Ntoso, LKIF",
+  "summary": "EDAAnOWL: ontology for data-space assets aligned with IDSA & BIGOWL; SHACL shapes enable discovery, interoperability & governance in Anda...",
+  "slug": "khaosresearch-edaanowl"
+}

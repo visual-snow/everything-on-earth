@@ -1,0 +1,3123 @@
+domain,keyword_or_alias,source,weight
+biology,biology,domain_name,1.0
+biology,agricultural-biology-agtech,sub_domain,0.8
+biology,ancient-dna-paleogenomics,sub_domain,0.8
+biology,biodiversity-informatics,sub_domain,0.8
+biology,bioinformatics-pipelines,sub_domain,0.8
+biology,biomedical-imaging,sub_domain,0.8
+biology,cheminformatics,sub_domain,0.8
+biology,climate-biology,sub_domain,0.8
+biology,clinical-genomics,sub_domain,0.8
+biology,computational-neuroscience,sub_domain,0.8
+biology,connectomics,sub_domain,0.8
+biology,ecology-conservation,sub_domain,0.8
+biology,epidemiology-disease-modeling,sub_domain,0.8
+biology,epigenomics,sub_domain,0.8
+biology,genomics,sub_domain,0.8
+biology,immunoinformatics,sub_domain,0.8
+biology,long-read-sequencing,sub_domain,0.8
+biology,marine-biology,sub_domain,0.8
+biology,metabolomics,sub_domain,0.8
+biology,metagenomics,sub_domain,0.8
+biology,phylogenetics,sub_domain,0.8
+biology,protein-engineering-directed-evolution,sub_domain,0.8
+biology,proteomics,sub_domain,0.8
+biology,spatial-omics,sub_domain,0.8
+biology,structural-biology,sub_domain,0.8
+biology,synthetic-biology,sub_domain,0.8
+biology,systems-biology,sub_domain,0.8
+biology,transcriptomics,sub_domain,0.8
+biology,acmg,tag,0.5
+biology,agtech,tag,0.5
+biology,ancient-dna,tag,0.5
+biology,archaeogenomics,tag,0.5
+biology,atac-seq,tag,0.5
+biology,biodiversity,tag,0.5
+biology,bioimage,tag,0.5
+biology,bioinformatics-pipelines,tag,0.5
+biology,biomedical-imaging,tag,0.5
+biology,brian2,tag,0.5
+biology,cheminformatics,tag,0.5
+biology,chip-seq,tag,0.5
+biology,climate-biology,tag,0.5
+biology,clinical-genomics,tag,0.5
+biology,computational-neuroscience,tag,0.5
+biology,connectomics,tag,0.5
+biology,conservation,tag,0.5
+biology,contamination-detection,tag,0.5
+biology,crop-genomics,tag,0.5
+biology,cryo-em,tag,0.5
+biology,differential-expression,tag,0.5
+biology,directed-evolution,tag,0.5
+biology,dna-assembly,tag,0.5
+biology,dna-methylation,tag,0.5
+biology,docking,tag,0.5
+biology,drug-discovery,tag,0.5
+biology,ecological-forecasting,tag,0.5
+biology,ecology,tag,0.5
+biology,em-imaging,tag,0.5
+biology,enzyme-engineering,tag,0.5
+biology,epidemiology,tag,0.5
+biology,epigenomics,tag,0.5
+biology,epitope-prediction,tag,0.5
+biology,fisheries,tag,0.5
+biology,gbif,tag,0.5
+biology,genetic-circuits,tag,0.5
+biology,genome-assembly,tag,0.5
+biology,genomics,tag,0.5
+biology,histopathology,tag,0.5
+biology,hla,tag,0.5
+biology,immunoinformatics,tag,0.5
+biology,iso-seq,tag,0.5
+biology,lc-ms,tag,0.5
+biology,long-read,tag,0.5
+biology,marine-biology,tag,0.5
+biology,mass-spectrometry,tag,0.5
+biology,maxent,tag,0.5
+biology,metabolic-engineering,tag,0.5
+biology,metabolite-annotation,tag,0.5
+biology,metabolomics,tag,0.5
+biology,metagenomics,tag,0.5
+biology,microbiome,tag,0.5
+biology,microscopy,tag,0.5
+biology,molecular-dynamics,tag,0.5
+biology,molecular-evolution,tag,0.5
+biology,nanopore,tag,0.5
+biology,neoantigen,tag,0.5
+biology,nest,tag,0.5
+biology,network-biology,tag,0.5
+biology,neuron,tag,0.5
+biology,neuronal-reconstruction,tag,0.5
+biology,nextflow,tag,0.5
+biology,occurrence-data,tag,0.5
+biology,ocean-microbiome,tag,0.5
+biology,outbreak-modeling,tag,0.5
+biology,pacbio,tag,0.5
+biology,paleogenomics,tag,0.5
+biology,pathway-analysis,tag,0.5
+biology,pathway-modeling,tag,0.5
+biology,peptide-identification,tag,0.5
+biology,phenology,tag,0.5
+biology,phylodynamics,tag,0.5
+biology,phylogenetics,tag,0.5
+biology,phylogenomics,tag,0.5
+biology,plankton,tag,0.5
+biology,plant-phenotyping,tag,0.5
+biology,precision-agriculture,tag,0.5
+biology,protein-design,tag,0.5
+biology,protein-engineering,tag,0.5
+biology,protein-quantification,tag,0.5
+biology,proteomics,tag,0.5
+biology,qsar,tag,0.5
+biology,reproducibility,tag,0.5
+biology,rna-seq,tag,0.5
+biology,sbml,tag,0.5
+biology,sequence-analysis,tag,0.5
+biology,shotgun-sequencing,tag,0.5
+biology,single-cell,tag,0.5
+biology,sir,tag,0.5
+biology,slide-seq,tag,0.5
+biology,smiles,tag,0.5
+biology,snakemake,tag,0.5
+biology,spatial-omics,tag,0.5
+biology,spatial-transcriptomics,tag,0.5
+biology,species-climate,tag,0.5
+biology,species-distribution,tag,0.5
+biology,structural-biology,tag,0.5
+biology,synapse-segmentation,tag,0.5
+biology,synthetic-biology,tag,0.5
+biology,systems-biology,tag,0.5
+biology,taxonomic-classification,tag,0.5
+biology,taxonomy,tag,0.5
+biology,transcriptomics,tag,0.5
+biology,tree-inference,tag,0.5
+biology,variant-calling,tag,0.5
+biology,variant-interpretation,tag,0.5
+biology,visium,tag,0.5
+biology,agricultural biology / agtech — crop genomics and plant phenotyping,category,0.6
+biology,ancient dna / paleogenomics — adna processing and contamination detection,category,0.6
+biology,biodiversity informatics — species occurrence and taxonomy databases,category,0.6
+biology,bioinformatics pipelines — workflow managers and pipeline frameworks,category,0.6
+biology,"biomedical imaging — microscopy, histopathology, cell segmentation",category,0.6
+biology,cheminformatics — drug discovery and molecular fingerprints,category,0.6
+biology,climate biology — phenology and climate-species interaction models,category,0.6
+biology,clinical genomics — variant interpretation and pharmacogenomics,category,0.6
+biology,computational neuroscience — brain simulation and neural modeling,category,0.6
+biology,connectomics — neural circuit reconstruction and brain mapping,category,0.6
+biology,ecology & conservation — species distribution and population modeling,category,0.6
+biology,epidemiology & disease modeling — outbreak tracking and compartment models,category,0.6
+biology,"epigenomics — dna methylation, chromatin accessibility, histone modifications",category,0.6
+biology,"genomics — sequence analysis, variant calling, genome assembly",category,0.6
+biology,immunoinformatics — epitope prediction and antibody design,category,0.6
+biology,long-read sequencing — oxford nanopore and pacbio tools,category,0.6
+biology,"marine biology — ocean monitoring, fisheries, coral reef analysis",category,0.6
+biology,metabolomics — metabolite identification and pathway analysis,category,0.6
+biology,metagenomics — microbiome analysis and taxonomic classification,category,0.6
+biology,phylogenetics — tree building and molecular evolution,category,0.6
+biology,protein engineering / directed evolution — ml for protein design,category,0.6
+biology,proteomics — protein structure prediction and mass spectrometry analysis,category,0.6
+biology,spatial omics — spatial transcriptomics and spatial proteomics,category,0.6
+biology,"structural biology — cryo-em, molecular dynamics, docking",category,0.6
+biology,synthetic biology — genetic circuit design and dna assembly,category,0.6
+biology,systems biology — network modeling and pathway simulation,category,0.6
+biology,transcriptomics — rna-seq and single-cell rna-seq analysis,category,0.6
+cybersecurity,cybersecurity,domain_name,1.0
+cybersecurity,ai-security,sub_domain,0.8
+cybersecurity,awesome-lists,sub_domain,0.8
+cybersecurity,blue team & defensive tools,sub_domain,0.8
+cybersecurity,bug bounty tools,sub_domain,0.8
+cybersecurity,compliance-policy,sub_domain,0.8
+cybersecurity,container-cloud-security,sub_domain,0.8
+cybersecurity,cryptography,sub_domain,0.8
+cybersecurity,exploit development & fuzzing,sub_domain,0.8
+cybersecurity,forensics-ir,sub_domain,0.8
+cybersecurity,iam-auth,sub_domain,0.8
+cybersecurity,malware-reversing,sub_domain,0.8
+cybersecurity,mobile security,sub_domain,0.8
+cybersecurity,network-security,sub_domain,0.8
+cybersecurity,osint-recon,sub_domain,0.8
+cybersecurity,password cracking & brute-force,sub_domain,0.8
+cybersecurity,pentest-frameworks,sub_domain,0.8
+cybersecurity,phishing & social engineering,sub_domain,0.8
+cybersecurity,red team & c2 frameworks,sub_domain,0.8
+cybersecurity,siem / soc / threat detection,sub_domain,0.8
+cybersecurity,supply chain security,sub_domain,0.8
+cybersecurity,vuln-scanners,sub_domain,0.8
+cybersecurity,webapp-security,sub_domain,0.8
+cybersecurity,wireless & rf security,sub_domain,0.8
+cybersecurity,access,tag,0.5
+cybersecurity,adversarial-ml,tag,0.5
+cybersecurity,agent-catalog,tag,0.5
+cybersecurity,ai-security,tag,0.5
+cybersecurity,analysis,tag,0.5
+cybersecurity,api-security,tag,0.5
+cybersecurity,api-testing,tag,0.5
+cybersecurity,artifact-extraction,tag,0.5
+cybersecurity,assessment,tag,0.5
+cybersecurity,automation,tag,0.5
+cybersecurity,autonomous-pentesting,tag,0.5
+cybersecurity,beaconing,tag,0.5
+cybersecurity,benchmark-framework,tag,0.5
+cybersecurity,binary-analysis,tag,0.5
+cybersecurity,brute-force,tag,0.5
+cybersecurity,bug-bounty,tag,0.5
+cybersecurity,c2,tag,0.5
+cybersecurity,certificate-generation,tag,0.5
+cybersecurity,code-analysis,tag,0.5
+cybersecurity,command-control,tag,0.5
+cybersecurity,cracking,tag,0.5
+cybersecurity,cryptography,tag,0.5
+cybersecurity,cybersecurity,tag,0.5
+cybersecurity,decompilation,tag,0.5
+cybersecurity,defensive-automation,tag,0.5
+cybersecurity,detection,tag,0.5
+cybersecurity,development-tool,tag,0.5
+cybersecurity,digital-forensics,tag,0.5
+cybersecurity,disassembly,tag,0.5
+cybersecurity,disk-analysis,tag,0.5
+cybersecurity,dynamic-analysis,tag,0.5
+cybersecurity,elf-format,tag,0.5
+cybersecurity,encryption,tag,0.5
+cybersecurity,evasion-attacks,tag,0.5
+cybersecurity,evidence-management,tag,0.5
+cybersecurity,exploit,tag,0.5
+cybersecurity,exploit-dev,tag,0.5
+cybersecurity,exploitation,tag,0.5
+cybersecurity,forensics,tag,0.5
+cybersecurity,framework,tag,0.5
+cybersecurity,generative-ai,tag,0.5
+cybersecurity,guardrails-framework,tag,0.5
+cybersecurity,hallucination,tag,0.5
+cybersecurity,hash-cracking,tag,0.5
+cybersecurity,hash-recovery,tag,0.5
+cybersecurity,hashing,tag,0.5
+cybersecurity,incident-response,tag,0.5
+cybersecurity,injection,tag,0.5
+cybersecurity,intelligence,tag,0.5
+cybersecurity,jailbreak-detection,tag,0.5
+cybersecurity,large-language-model,tag,0.5
+cybersecurity,library,tag,0.5
+cybersecurity,llm-evaluation,tag,0.5
+cybersecurity,llm-safety,tag,0.5
+cybersecurity,llm-vulnerability,tag,0.5
+cybersecurity,macho-format,tag,0.5
+cybersecurity,malware,tag,0.5
+cybersecurity,malware-analysis,tag,0.5
+cybersecurity,memory-forensics,tag,0.5
+cybersecurity,model-extraction,tag,0.5
+cybersecurity,modules,tag,0.5
+cybersecurity,network-analysis,tag,0.5
+cybersecurity,nlp,tag,0.5
+cybersecurity,offensive-automation,tag,0.5
+cybersecurity,offensive-security,tag,0.5
+cybersecurity,open-source,tag,0.5
+cybersecurity,osint,tag,0.5
+cybersecurity,output-validation,tag,0.5
+cybersecurity,packet-capture,tag,0.5
+cybersecurity,password,tag,0.5
+cybersecurity,password-cracking,tag,0.5
+cybersecurity,pattern-matching,tag,0.5
+cybersecurity,payload,tag,0.5
+cybersecurity,payload-gen,tag,0.5
+cybersecurity,pe-format,tag,0.5
+cybersecurity,penetration-testing,tag,0.5
+cybersecurity,pentesting,tag,0.5
+cybersecurity,persistence,tag,0.5
+cybersecurity,poc,tag,0.5
+cybersecurity,poisoning-attacks,tag,0.5
+cybersecurity,ports,tag,0.5
+cybersecurity,programming,tag,0.5
+cybersecurity,prompt-injection,tag,0.5
+cybersecurity,prompt-testing,tag,0.5
+cybersecurity,prompt-validation,tag,0.5
+cybersecurity,protocols,tag,0.5
+cybersecurity,recon,tag,0.5
+cybersecurity,reconnaissance,tag,0.5
+cybersecurity,red-teaming,tag,0.5
+cybersecurity,reverse-engineering,tag,0.5
+cybersecurity,reverse-shell,tag,0.5
+cybersecurity,sandboxing,tag,0.5
+cybersecurity,scanning,tag,0.5
+cybersecurity,scripting,tag,0.5
+cybersecurity,security,tag,0.5
+cybersecurity,security-scanning,tag,0.5
+cybersecurity,security-testing,tag,0.5
+cybersecurity,security-tool,tag,0.5
+cybersecurity,shellcode,tag,0.5
+cybersecurity,software-engineering,tag,0.5
+cybersecurity,ssl-tls,tag,0.5
+cybersecurity,static-analysis,tag,0.5
+cybersecurity,testing,tag,0.5
+cybersecurity,threat-hunting,tag,0.5
+cybersecurity,threat-intel,tag,0.5
+cybersecurity,timeline,tag,0.5
+cybersecurity,transformer,tag,0.5
+cybersecurity,vuln-research,tag,0.5
+cybersecurity,vulnerability,tag,0.5
+cybersecurity,vulnerability-analysis,tag,0.5
+cybersecurity,vulnerability-assessment,tag,0.5
+cybersecurity,vulnerability-discovery,tag,0.5
+cybersecurity,vulnerability-scanning,tag,0.5
+cybersecurity,web-app-security,tag,0.5
+cybersecurity,web-security,tag,0.5
+cybersecurity,web-testing,tag,0.5
+cybersecurity,wifi,tag,0.5
+cybersecurity,wireless,tag,0.5
+cybersecurity,wireless-security,tag,0.5
+cybersecurity,wordlist,tag,0.5
+cybersecurity,ai security agent catalog,category,0.6
+cybersecurity,ai security framework,category,0.6
+cybersecurity,autonomous web pentester,category,0.6
+cybersecurity,binary analysis,category,0.6
+cybersecurity,c2 framework,category,0.6
+cybersecurity,code analysis tool,category,0.6
+cybersecurity,credential testing,category,0.6
+cybersecurity,crypto toolkit,category,0.6
+cybersecurity,development tool,category,0.6
+cybersecurity,exploit framework,category,0.6
+cybersecurity,forensic platform,category,0.6
+cybersecurity,forensics tool,category,0.6
+cybersecurity,incident response,category,0.6
+cybersecurity,language model,category,0.6
+cybersecurity,llm output validation,category,0.6
+cybersecurity,llm safety framework,category,0.6
+cybersecurity,llm testing & evaluation,category,0.6
+cybersecurity,llm vulnerability scanner,category,0.6
+cybersecurity,malware analysis,category,0.6
+cybersecurity,malware analysis tool,category,0.6
+cybersecurity,malware tool,category,0.6
+cybersecurity,memory forensics,category,0.6
+cybersecurity,ml security library,category,0.6
+cybersecurity,network analysis,category,0.6
+cybersecurity,network scanner,category,0.6
+cybersecurity,osint platform,category,0.6
+cybersecurity,password cracker,category,0.6
+cybersecurity,payload generator,category,0.6
+cybersecurity,pentesting framework,category,0.6
+cybersecurity,remote access,category,0.6
+cybersecurity,reverse engineering,category,0.6
+cybersecurity,security tool,category,0.6
+cybersecurity,testing tool,category,0.6
+cybersecurity,vulnerability scanner,category,0.6
+cybersecurity,web security,category,0.6
+cybersecurity,web security tool,category,0.6
+cybersecurity,wireless security,category,0.6
+education,education,domain_name,1.0
+education,accessibility-inclusive-education,sub_domain,0.8
+education,adaptive-learning,sub_domain,0.8
+education,ai-teaching-assistants,sub_domain,0.8
+education,analytics-learning-dashboards,sub_domain,0.8
+education,assessment-testing,sub_domain,0.8
+education,classroom-management,sub_domain,0.8
+education,collaborative-learning,sub_domain,0.8
+education,credentialing-certification,sub_domain,0.8
+education,curriculum-authoring,sub_domain,0.8
+education,edtech-infrastructure,sub_domain,0.8
+education,gamification-engagement,sub_domain,0.8
+education,interactive-coding-education,sub_domain,0.8
+education,k12-stem,sub_domain,0.8
+education,language-learning,sub_domain,0.8
+education,lms,sub_domain,0.8
+education,research-academic-publishing,sub_domain,0.8
+education,sis,sub_domain,0.8
+education,special-education-therapy,sub_domain,0.8
+education,video-lecture-platforms,sub_domain,0.8
+education,virtual-labs-simulations,sub_domain,0.8
+education,aac,tag,0.5
+education,academic-integrity,tag,0.5
+education,accessibility,tag,0.5
+education,adaptive-learning,tag,0.5
+education,ai-tutoring,tag,0.5
+education,analytics,tag,0.5
+education,annotation,tag,0.5
+education,assessment,tag,0.5
+education,attendance,tag,0.5
+education,authoring,tag,0.5
+education,autism-support,tag,0.5
+education,autograding,tag,0.5
+education,automated-feedback,tag,0.5
+education,badges,tag,0.5
+education,captioning,tag,0.5
+education,certification,tag,0.5
+education,classroom,tag,0.5
+education,coding,tag,0.5
+education,collaboration,tag,0.5
+education,course-delivery,tag,0.5
+education,courseware,tag,0.5
+education,credentialing,tag,0.5
+education,curriculum,tag,0.5
+education,dashboards,tag,0.5
+education,device-management,tag,0.5
+education,early-alerts,tag,0.5
+education,engagement,tag,0.5
+education,enrollment,tag,0.5
+education,essay-scoring,tag,0.5
+education,exams,tag,0.5
+education,flashcards,tag,0.5
+education,gamification,tag,0.5
+education,grading,tag,0.5
+education,inclusive-learning,tag,0.5
+education,interactive,tag,0.5
+education,journals,tag,0.5
+education,k12,tag,0.5
+education,knowledge-tracing,tag,0.5
+education,language-learning,tag,0.5
+education,leaderboards,tag,0.5
+education,lecture-capture,tag,0.5
+education,lms,tag,0.5
+education,lti,tag,0.5
+education,mastery,tag,0.5
+education,microcredentials,tag,0.5
+education,monitoring,tag,0.5
+education,oer,tag,0.5
+education,open-badges,tag,0.5
+education,peer-review,tag,0.5
+education,playgrounds,tag,0.5
+education,publishing,tag,0.5
+education,question-generation,tag,0.5
+education,reading-support,tag,0.5
+education,references,tag,0.5
+education,remote-labs,tag,0.5
+education,rostering,tag,0.5
+education,sandboxes,tag,0.5
+education,scheduling,tag,0.5
+education,science-learning,tag,0.5
+education,scorm,tag,0.5
+education,simulations,tag,0.5
+education,sis,tag,0.5
+education,special-education,tag,0.5
+education,speech-therapy,tag,0.5
+education,stem,tag,0.5
+education,streaming,tag,0.5
+education,student-learning,tag,0.5
+education,transcripts,tag,0.5
+education,tutoring,tag,0.5
+education,video-learning,tag,0.5
+education,virtual-labs,tag,0.5
+education,vocabulary,tag,0.5
+education,whiteboards,tag,0.5
+education,wikis,tag,0.5
+education,xapi,tag,0.5
+education,"accessibility, inclusive education, captioning, aac & learning support",category,0.6
+education,"adaptive learning, personalization, knowledge tracing & ai tutoring",category,0.6
+education,"ai teaching assistants, automated feedback, question generation & essay scoring",category,0.6
+education,"analytics, learning dashboards, engagement metrics & early alerts",category,0.6
+education,"assessment, testing, exam creation, auto-grading & academic integrity",category,0.6
+education,"classroom management, device supervision, screen monitoring & scheduling",category,0.6
+education,"collaborative learning, peer review, whiteboards, wikis & group work",category,0.6
+education,"credentialing, certification, open badges, diplomas & micro-credentials",category,0.6
+education,"curriculum, content authoring, oer publishing & interactive courseware",category,0.6
+education,"edtech infrastructure, lti, xapi, scorm, sso, rostering & data sync",category,0.6
+education,"gamification, badges, leaderboards, educational games & classroom engagement",category,0.6
+education,"interactive coding education, browser ides, sandboxes & code playgrounds",category,0.6
+education,"k-12 learning, stem education, simulations & kid-friendly programming",category,0.6
+education,"language learning, vocabulary training, reading support & speaking practice",category,0.6
+education,"learning management systems (lms), course delivery, grading & enrollment",category,0.6
+education,"research, academic publishing, journal platforms, peer review & references",category,0.6
+education,"special education, aac, speech therapy, autism & therapy support tools",category,0.6
+education,"student information systems (sis), attendance, transcripts & parent portals",category,0.6
+education,"video, lecture capture, streaming, annotation & video-based learning",category,0.6
+education,"virtual labs, remote labs, science simulations & experiment platforms",category,0.6
+fintech,fintech,domain_name,1.0
+fintech,accounting-bookkeeping,sub_domain,0.8
+fintech,aml-kyc-identity,sub_domain,0.8
+fintech,amm-dex-trading-infra,sub_domain,0.8
+fintech,billing-subscription-invoicing,sub_domain,0.8
+fintech,blockchain-analytics-indexing,sub_domain,0.8
+fintech,core-banking-ledger,sub_domain,0.8
+fintech,credit-scoring-risk-modeling,sub_domain,0.8
+fintech,defi-lending-borrowing,sub_domain,0.8
+fintech,financial-ai-nlp,sub_domain,0.8
+fintech,financial-data-standards,sub_domain,0.8
+fintech,financial-document-processing,sub_domain,0.8
+fintech,financial-market-data,sub_domain,0.8
+fintech,financial-messaging-protocols,sub_domain,0.8
+fintech,fraud-detection-prevention,sub_domain,0.8
+fintech,insurance-actuarial-tech,sub_domain,0.8
+fintech,open-banking-psd2,sub_domain,0.8
+fintech,payment-processing-gateways,sub_domain,0.8
+fintech,personal-finance-budgeting,sub_domain,0.8
+fintech,portfolio-optimization-allocation,sub_domain,0.8
+fintech,quant-pricing-derivatives,sub_domain,0.8
+fintech,reconciliation-settlement,sub_domain,0.8
+fintech,regulatory-reporting-compliance,sub_domain,0.8
+fintech,smart-contract-security,sub_domain,0.8
+fintech,tax-calculation-filing,sub_domain,0.8
+fintech,wallet-infra-tokenization,sub_domain,0.8
+fintech,account-abstraction,tag,0.5
+fintech,account-aggregation,tag,0.5
+fintech,accounting,tag,0.5
+fintech,actuarial,tag,0.5
+fintech,aml,tag,0.5
+fintech,amm,tag,0.5
+fintech,anomaly-detection,tag,0.5
+fintech,asset-allocation,tag,0.5
+fintech,billing,tag,0.5
+fintech,blockchain-analytics,tag,0.5
+fintech,bookkeeping,tag,0.5
+fintech,borrowing,tag,0.5
+fintech,budgeting,tag,0.5
+fintech,calculation,tag,0.5
+fintech,cat-modeling,tag,0.5
+fintech,checkout,tag,0.5
+fintech,claims,tag,0.5
+fintech,clearing,tag,0.5
+fintech,compliance,tag,0.5
+fintech,core-banking,tag,0.5
+fintech,corporate-actions,tag,0.5
+fintech,credit,tag,0.5
+fintech,defi,tag,0.5
+fintech,derivatives,tag,0.5
+fintech,dex,tag,0.5
+fintech,document-processing,tag,0.5
+fintech,double-entry,tag,0.5
+fintech,embedded-finance,tag,0.5
+fintech,envelope-budgeting,tag,0.5
+fintech,erc-4337,tag,0.5
+fintech,expense-tracking,tag,0.5
+fintech,fibo,tag,0.5
+fintech,filing,tag,0.5
+fintech,financial-ai,tag,0.5
+fintech,financial-nlp,tag,0.5
+fintech,financial-ontology,tag,0.5
+fintech,fix,tag,0.5
+fintech,formal-verification,tag,0.5
+fintech,fpml,tag,0.5
+fintech,fraud,tag,0.5
+fintech,fuzzing,tag,0.5
+fintech,general-ledger,tag,0.5
+fintech,greeks,tag,0.5
+fintech,identity,tag,0.5
+fintech,indexing,tag,0.5
+fintech,insurance,tag,0.5
+fintech,invoicing,tag,0.5
+fintech,iso-20022,tag,0.5
+fintech,iso-8583,tag,0.5
+fintech,kyc,tag,0.5
+fintech,ledger,tag,0.5
+fintech,lending,tag,0.5
+fintech,llm,tag,0.5
+fintech,market-data,tag,0.5
+fintech,market-making,tag,0.5
+fintech,mev,tag,0.5
+fintech,multi-jurisdiction,tag,0.5
+fintech,multisig,tag,0.5
+fintech,ocr,tag,0.5
+fintech,open-banking,tag,0.5
+fintech,optimization,tag,0.5
+fintech,payment-gateway,tag,0.5
+fintech,payment-routing,tag,0.5
+fintech,payments,tag,0.5
+fintech,personal-finance,tag,0.5
+fintech,portfolio,tag,0.5
+fintech,psd2,tag,0.5
+fintech,quant,tag,0.5
+fintech,reconciliation,tag,0.5
+fintech,regtech,tag,0.5
+fintech,regulatory-reporting,tag,0.5
+fintech,research-terminal,tag,0.5
+fintech,risk-modeling,tag,0.5
+fintech,risk-parity,tag,0.5
+fintech,risk-scoring,tag,0.5
+fintech,routing,tag,0.5
+fintech,sanctions,tag,0.5
+fintech,scorecards,tag,0.5
+fintech,security,tag,0.5
+fintech,sentiment,tag,0.5
+fintech,settlement,tag,0.5
+fintech,smart-contracts,tag,0.5
+fintech,stablecoin,tag,0.5
+fintech,statement-parsing,tag,0.5
+fintech,subgraph,tag,0.5
+fintech,subscriptions,tag,0.5
+fintech,swift,tag,0.5
+fintech,symbol-master,tag,0.5
+fintech,tax,tag,0.5
+fintech,tokenization,tag,0.5
+fintech,trade-reporting,tag,0.5
+fintech,transaction-engine,tag,0.5
+fintech,transaction-matching,tag,0.5
+fintech,transaction-monitoring,tag,0.5
+fintech,underwriting,tag,0.5
+fintech,usage-metering,tag,0.5
+fintech,wallet,tag,0.5
+fintech,xbrl,tag,0.5
+fintech,yield-curve,tag,0.5
+fintech,accounting / bookkeeping,category,0.6
+fintech,aml / kyc / identity,category,0.6
+fintech,amm / dex trading infrastructure,category,0.6
+fintech,billing / subscription / invoicing,category,0.6
+fintech,blockchain analytics / indexing,category,0.6
+fintech,core banking / ledger,category,0.6
+fintech,credit scoring / risk modeling,category,0.6
+fintech,defi lending / borrowing,category,0.6
+fintech,financial ai / nlp,category,0.6
+fintech,financial data standards,category,0.6
+fintech,financial document processing,category,0.6
+fintech,financial market data,category,0.6
+fintech,financial messaging protocols,category,0.6
+fintech,fraud detection / prevention,category,0.6
+fintech,insurance / actuarial tech,category,0.6
+fintech,open banking / psd2,category,0.6
+fintech,payment processing / gateways,category,0.6
+fintech,personal finance / budgeting,category,0.6
+fintech,portfolio optimization / allocation,category,0.6
+fintech,quant pricing / derivatives,category,0.6
+fintech,reconciliation / settlement,category,0.6
+fintech,regulatory reporting / compliance,category,0.6
+fintech,smart contract security,category,0.6
+fintech,tax calculation / filing,category,0.6
+fintech,wallet infrastructure / tokenization,category,0.6
+gaming,gaming,domain_name,1.0
+gaming,asset-formats,sub_domain,0.8
+gaming,asset-tools,sub_domain,0.8
+gaming,behavior-ai,sub_domain,0.8
+gaming,chiptune-trackers,sub_domain,0.8
+gaming,dialogue-narrative,sub_domain,0.8
+gaming,ecs-frameworks,sub_domain,0.8
+gaming,emulators-retro,sub_domain,0.8
+gaming,fluid-cloth-simulation,sub_domain,0.8
+gaming,game-audio,sub_domain,0.8
+gaming,game-backends,sub_domain,0.8
+gaming,game-devops-analytics,sub_domain,0.8
+gaming,game-engines-2d,sub_domain,0.8
+gaming,game-engines-3d,sub_domain,0.8
+gaming,game-networking,sub_domain,0.8
+gaming,game-scripting,sub_domain,0.8
+gaming,game-server-orchestration,sub_domain,0.8
+gaming,game-ui,sub_domain,0.8
+gaming,graphics-rendering,sub_domain,0.8
+gaming,input-controllers,sub_domain,0.8
+gaming,modding-frameworks,sub_domain,0.8
+gaming,pathfinding-navmesh,sub_domain,0.8
+gaming,physics-engines,sub_domain,0.8
+gaming,procedural-generation,sub_domain,0.8
+gaming,ray-tracing,sub_domain,0.8
+gaming,roguelike-frameworks,sub_domain,0.8
+gaming,visual-novel-engines,sub_domain,0.8
+gaming,voxel-engines,sub_domain,0.8
+gaming,web-game-engines,sub_domain,0.8
+gaming,2d,tag,0.5
+gaming,2d-3d,tag,0.5
+gaming,2d-design,tag,0.5
+gaming,2d-engine,tag,0.5
+gaming,2d-game-engine,tag,0.5
+gaming,2d-games,tag,0.5
+gaming,2d-rendering,tag,0.5
+gaming,3d,tag,0.5
+gaming,3d-audio,tag,0.5
+gaming,3d-editing,tag,0.5
+gaming,3d-engine,tag,0.5
+gaming,3d-formats,tag,0.5
+gaming,3d-game-engine,tag,0.5
+gaming,3d-games,tag,0.5
+gaming,3d-gizmo,tag,0.5
+gaming,3d-graphics,tag,0.5
+gaming,3d-import,tag,0.5
+gaming,3d-loading,tag,0.5
+gaming,3d-modeling,tag,0.5
+gaming,8-bit,tag,0.5
+gaming,aaa,tag,0.5
+gaming,aaa-game,tag,0.5
+gaming,aaa-games,tag,0.5
+gaming,abandoned,tag,0.5
+gaming,abstraction,tag,0.5
+gaming,academic,tag,0.5
+gaming,accessibility,tag,0.5
+gaming,accuracy,tag,0.5
+gaming,accurate,tag,0.5
+gaming,action-planning,tag,0.5
+gaming,action-rpg,tag,0.5
+gaming,addon,tag,0.5
+gaming,agent,tag,0.5
+gaming,ai-navigation,tag,0.5
+gaming,ai-pathfinding,tag,0.5
+gaming,ai-planning,tag,0.5
+gaming,ai-research,tag,0.5
+gaming,algorithm,tag,0.5
+gaming,algorithms,tag,0.5
+gaming,amd,tag,0.5
+gaming,amiga,tag,0.5
+gaming,analysis,tag,0.5
+gaming,android,tag,0.5
+gaming,animation,tag,0.5
+gaming,anomaly-detection,tag,0.5
+gaming,anti-cheat,tag,0.5
+gaming,api,tag,0.5
+gaming,api-abstraction,tag,0.5
+gaming,archived,tag,0.5
+gaming,artist-friendly,tag,0.5
+gaming,ascii,tag,0.5
+gaming,asset-import,tag,0.5
+gaming,asset-pipeline,tag,0.5
+gaming,asset-processing,tag,0.5
+gaming,astar,tag,0.5
+gaming,audio,tag,0.5
+gaming,audio-editor,tag,0.5
+gaming,audio-middleware,tag,0.5
+gaming,audio-playback,tag,0.5
+gaming,audio-tool,tag,0.5
+gaming,authentication,tag,0.5
+gaming,automation,tag,0.5
+gaming,autonomous-agents,tag,0.5
+gaming,baas,tag,0.5
+gaming,backend,tag,0.5
+gaming,batch-packing,tag,0.5
+gaming,beginner,tag,0.5
+gaming,beginner-friendly,tag,0.5
+gaming,behavior-modeling,tag,0.5
+gaming,behavior-tree,tag,0.5
+gaming,bevy,tag,0.5
+gaming,beyond-all-reason,tag,0.5
+gaming,bindings,tag,0.5
+gaming,biomes,tag,0.5
+gaming,blender-integration,tag,0.5
+gaming,blueprint,tag,0.5
+gaming,boardgame,tag,0.5
+gaming,botany,tag,0.5
+gaming,box2d,tag,0.5
+gaming,branching-dialogue,tag,0.5
+gaming,brdf,tag,0.5
+gaming,browser,tag,0.5
+gaming,bsp,tag,0.5
+gaming,bsp-trees,tag,0.5
+gaming,build,tag,0.5
+gaming,builder-pattern,tag,0.5
+gaming,bytecode,tag,0.5
+gaming,c,tag,0.5
+gaming,c#,tag,0.5
+gaming,c++,tag,0.5
+gaming,c-api,tag,0.5
+gaming,c-library,tag,0.5
+gaming,c-plus-plus,tag,0.5
+gaming,canvas,tag,0.5
+gaming,card-game,tag,0.5
+gaming,cheating-detection,tag,0.5
+gaming,chiptune,tag,0.5
+gaming,chiptune-emulation,tag,0.5
+gaming,chiptune-player,tag,0.5
+gaming,chunk-streaming,tag,0.5
+gaming,ci-cd,tag,0.5
+gaming,city-generation,tag,0.5
+gaming,citygml,tag,0.5
+gaming,classic,tag,0.5
+gaming,cli,tag,0.5
+gaming,client-prediction,tag,0.5
+gaming,client-server,tag,0.5
+gaming,cloth-simulation,tag,0.5
+gaming,cloud-gaming,tag,0.5
+gaming,cloud-saves,tag,0.5
+gaming,code-generation,tag,0.5
+gaming,coherent-noise,tag,0.5
+gaming,collision-detection,tag,0.5
+gaming,command-conquer,tag,0.5
+gaming,commercial,tag,0.5
+gaming,community-driven,tag,0.5
+gaming,community-games,tag,0.5
+gaming,competitive,tag,0.5
+gaming,compilation,tag,0.5
+gaming,compiler,tag,0.5
+gaming,concurrency,tag,0.5
+gaming,console,tag,0.5
+gaming,console-music,tag,0.5
+gaming,constraint-propagation,tag,0.5
+gaming,cpp,tag,0.5
+gaming,crash-reporting,tag,0.5
+gaming,cross-platform,tag,0.5
+gaming,crowd-simulation,tag,0.5
+gaming,csharp,tag,0.5
+gaming,curated-list,tag,0.5
+gaming,dag,tag,0.5
+gaming,data-driven,tag,0.5
+gaming,data-oriented,tag,0.5
+gaming,database,tag,0.5
+gaming,debug,tag,0.5
+gaming,debug-console,tag,0.5
+gaming,debug-ui,tag,0.5
+gaming,debugging,tag,0.5
+gaming,deckbuilding,tag,0.5
+gaming,deformable,tag,0.5
+gaming,demos,tag,0.5
+gaming,demoscene,tag,0.5
+gaming,denoising,tag,0.5
+gaming,dependency-free,tag,0.5
+gaming,desktop,tag,0.5
+gaming,deterministic,tag,0.5
+gaming,development,tag,0.5
+gaming,dialogue,tag,0.5
+gaming,dialogue-editor,tag,0.5
+gaming,dialogue-system,tag,0.5
+gaming,dialogue-tree,tag,0.5
+gaming,directx,tag,0.5
+gaming,distributed,tag,0.5
+gaming,dll-injection,tag,0.5
+gaming,dlss,tag,0.5
+gaming,docker,tag,0.5
+gaming,documentation,tag,0.5
+gaming,dotnet,tag,0.5
+gaming,drag-and-drop,tag,0.5
+gaming,dsl,tag,0.5
+gaming,dsp,tag,0.5
+gaming,dungeon-generation,tag,0.5
+gaming,dxr,tag,0.5
+gaming,dxt-compression,tag,0.5
+gaming,early-stage,tag,0.5
+gaming,ecs,tag,0.5
+gaming,editor,tag,0.5
+gaming,education,tag,0.5
+gaming,educational,tag,0.5
+gaming,elo,tag,0.5
+gaming,embeddable,tag,0.5
+gaming,embedded,tag,0.5
+gaming,emulation,tag,0.5
+gaming,emulator,tag,0.5
+gaming,encryption,tag,0.5
+gaming,engine-agnostic,tag,0.5
+gaming,engine-integration,tag,0.5
+gaming,entity-component-system,tag,0.5
+gaming,erosion-simulation,tag,0.5
+gaming,error-tracking,tag,0.5
+gaming,experimental,tag,0.5
+gaming,fantasy-console,tag,0.5
+gaming,fbx-format,tag,0.5
+gaming,fighting-games,tag,0.5
+gaming,flamegraph,tag,0.5
+gaming,fluid-simulation,tag,0.5
+gaming,fog-of-war,tag,0.5
+gaming,format-conversion,tag,0.5
+gaming,format-loader,tag,0.5
+gaming,fov,tag,0.5
+gaming,frame-capture,tag,0.5
+gaming,framework-guide,tag,0.5
+gaming,fsm,tag,0.5
+gaming,fsr2,tag,0.5
+gaming,gaijin,tag,0.5
+gaming,game,tag,0.5
+gaming,game-ai,tag,0.5
+gaming,game-architecture,tag,0.5
+gaming,game-audio,tag,0.5
+gaming,game-boy,tag,0.5
+gaming,game-creation,tag,0.5
+gaming,game-dev,tag,0.5
+gaming,game-development,tag,0.5
+gaming,game-emulation,tag,0.5
+gaming,game-engine,tag,0.5
+gaming,game-focused,tag,0.5
+gaming,game-jam,tag,0.5
+gaming,game-jams,tag,0.5
+gaming,game-networking,tag,0.5
+gaming,game-scripting,tag,0.5
+gaming,game-servers,tag,0.5
+gaming,game-tools,tag,0.5
+gaming,game-ui,tag,0.5
+gaming,gamecube,tag,0.5
+gaming,gamepad,tag,0.5
+gaming,gamepad-mapping,tag,0.5
+gaming,gas,tag,0.5
+gaming,gba,tag,0.5
+gaming,gdscript,tag,0.5
+gaming,generation,tag,0.5
+gaming,generator,tag,0.5
+gaming,gesture-recognition,tag,0.5
+gaming,gis,tag,0.5
+gaming,github-actions,tag,0.5
+gaming,global-illumination,tag,0.5
+gaming,glsl,tag,0.5
+gaming,gltf,tag,0.5
+gaming,gltf-x3d,tag,0.5
+gaming,go,tag,0.5
+gaming,goap,tag,0.5
+gaming,godot,tag,0.5
+gaming,godot-fork,tag,0.5
+gaming,google,tag,0.5
+gaming,gpu,tag,0.5
+gaming,gpu-acceleration,tag,0.5
+gaming,gpu-codec,tag,0.5
+gaming,gpu-driven,tag,0.5
+gaming,gpu-programming,tag,0.5
+gaming,graph,tag,0.5
+gaming,graph-algorithms,tag,0.5
+gaming,graph-based,tag,0.5
+gaming,graph-editor,tag,0.5
+gaming,graphical-editor,tag,0.5
+gaming,graphics,tag,0.5
+gaming,grid-based,tag,0.5
+gaming,gui,tag,0.5
+gaming,hardware-acceleration,tag,0.5
+gaming,haxe,tag,0.5
+gaming,header-only,tag,0.5
+gaming,hiprt,tag,0.5
+gaming,homebrew,tag,0.5
+gaming,hosting,tag,0.5
+gaming,hot-reload,tag,0.5
+gaming,hot-reloading,tag,0.5
+gaming,hpc,tag,0.5
+gaming,hrtf,tag,0.5
+gaming,html-css,tag,0.5
+gaming,html5,tag,0.5
+gaming,http-api,tag,0.5
+gaming,ide,tag,0.5
+gaming,il2cpp,tag,0.5
+gaming,image-recognition,tag,0.5
+gaming,imgui,tag,0.5
+gaming,immediate-mode,tag,0.5
+gaming,indie,tag,0.5
+gaming,indie-games,tag,0.5
+gaming,industry-standard,tag,0.5
+gaming,infrastructure,tag,0.5
+gaming,ink,tag,0.5
+gaming,ink-language,tag,0.5
+gaming,input,tag,0.5
+gaming,input-mapping,tag,0.5
+gaming,input-playback,tag,0.5
+gaming,input-recording,tag,0.5
+gaming,instrument,tag,0.5
+gaming,intel,tag,0.5
+gaming,interactive,tag,0.5
+gaming,interactive-fiction,tag,0.5
+gaming,interpreter,tag,0.5
+gaming,java,tag,0.5
+gaming,javascript,tag,0.5
+gaming,javascript-like,tag,0.5
+gaming,jps,tag,0.5
+gaming,json,tag,0.5
+gaming,json-export,tag,0.5
+gaming,jukebox,tag,0.5
+gaming,kaplay,tag,0.5
+gaming,khronos,tag,0.5
+gaming,kotlin,tag,0.5
+gaming,ktx2,tag,0.5
+gaming,kubernetes,tag,0.5
+gaming,l-systems,tag,0.5
+gaming,lag-compensation,tag,0.5
+gaming,launcher,tag,0.5
+gaming,layers,tag,0.5
+gaming,leaderboards,tag,0.5
+gaming,learning,tag,0.5
+gaming,legacy,tag,0.5
+gaming,level-design,tag,0.5
+gaming,level-editor,tag,0.5
+gaming,library,tag,0.5
+gaming,libretro,tag,0.5
+gaming,libtcod,tag,0.5
+gaming,lightweight,tag,0.5
+gaming,linux,tag,0.5
+gaming,live-coding,tag,0.5
+gaming,load-order,tag,0.5
+gaming,lod,tag,0.5
+gaming,low-latency,tag,0.5
+gaming,low-level,tag,0.5
+gaming,lua,tag,0.5
+gaming,lua-scripting,tag,0.5
+gaming,machine-learning,tag,0.5
+gaming,macos,tag,0.5
+gaming,magicavoxel,tag,0.5
+gaming,map-editor,tag,0.5
+gaming,map-generation,tag,0.5
+gaming,marching-cubes,tag,0.5
+gaming,markov-chain,tag,0.5
+gaming,matchmaking,tag,0.5
+gaming,maze-generation,tag,0.5
+gaming,mesh-compression,tag,0.5
+gaming,microservices,tag,0.5
+gaming,middleware,tag,0.5
+gaming,midi,tag,0.5
+gaming,minecraft,tag,0.5
+gaming,minecraft-client,tag,0.5
+gaming,minecraft-clone,tag,0.5
+gaming,minecraft-inspired,tag,0.5
+gaming,miniaudio,tag,0.5
+gaming,minimal,tag,0.5
+gaming,minimal-boilerplate,tag,0.5
+gaming,minimalist,tag,0.5
+gaming,mission-graph,tag,0.5
+gaming,mixer,tag,0.5
+gaming,ml,tag,0.5
+gaming,mmo,tag,0.5
+gaming,mmorpg,tag,0.5
+gaming,mobile,tag,0.5
+gaming,mobile-game,tag,0.5
+gaming,mobile-input,tag,0.5
+gaming,mod-loader,tag,0.5
+gaming,mod-manager,tag,0.5
+gaming,mod-xm,tag,0.5
+gaming,modding,tag,0.5
+gaming,modern-api,tag,0.5
+gaming,modern-graphics,tag,0.5
+gaming,modular,tag,0.5
+gaming,modular-architecture,tag,0.5
+gaming,monitoring,tag,0.5
+gaming,morphogenesis,tag,0.5
+gaming,mud,tag,0.5
+gaming,multi-format,tag,0.5
+gaming,multi-language,tag,0.5
+gaming,multi-platform,tag,0.5
+gaming,multi-system,tag,0.5
+gaming,multicore,tag,0.5
+gaming,multimedia,tag,0.5
+gaming,multiplayer,tag,0.5
+gaming,mush,tag,0.5
+gaming,music-editor,tag,0.5
+gaming,music-player,tag,0.5
+gaming,narrative,tag,0.5
+gaming,narrative-design,tag,0.5
+gaming,narrative-editor,tag,0.5
+gaming,narrative-engine,tag,0.5
+gaming,nat-traversal,tag,0.5
+gaming,native,tag,0.5
+gaming,native-extensions,tag,0.5
+gaming,natural-language,tag,0.5
+gaming,navigation,tag,0.5
+gaming,navmesh,tag,0.5
+gaming,nes-music,tag,0.5
+gaming,netcode,tag,0.5
+gaming,networking,tag,0.5
+gaming,nexus-mods,tag,0.5
+gaming,no-allocation,tag,0.5
+gaming,no-code,tag,0.5
+gaming,node,tag,0.5
+gaming,node-based,tag,0.5
+gaming,node-editor,tag,0.5
+gaming,nodejs,tag,0.5
+gaming,noise,tag,0.5
+gaming,noise-generation,tag,0.5
+gaming,normal-maps,tag,0.5
+gaming,npc,tag,0.5
+gaming,npc-ai,tag,0.5
+gaming,npc-behavior,tag,0.5
+gaming,nuget,tag,0.5
+gaming,numpy,tag,0.5
+gaming,nvidia,tag,0.5
+gaming,oop,tag,0.5
+gaming,open-source,tag,0.5
+gaming,openal,tag,0.5
+gaming,openfl,tag,0.5
+gaming,opengl,tag,0.5
+gaming,opensimplex,tag,0.5
+gaming,optimization,tag,0.5
+gaming,orchestration,tag,0.5
+gaming,p2p,tag,0.5
+gaming,panel,tag,0.5
+gaming,pascal,tag,0.5
+gaming,patent-free,tag,0.5
+gaming,path-tracing,tag,0.5
+gaming,pathfinding,tag,0.5
+gaming,pbd,tag,0.5
+gaming,pbr,tag,0.5
+gaming,pbr-rendering,tag,0.5
+gaming,pedestrian,tag,0.5
+gaming,performance,tag,0.5
+gaming,perlin,tag,0.5
+gaming,phaser,tag,0.5
+gaming,physically-based-rendering,tag,0.5
+gaming,physics,tag,0.5
+gaming,pipeline,tag,0.5
+gaming,pixel-art,tag,0.5
+gaming,pixi.js,tag,0.5
+gaming,planet-generation,tag,0.5
+gaming,plant-modeling,tag,0.5
+gaming,playstation-3,tag,0.5
+gaming,plugin,tag,0.5
+gaming,plugin-based,tag,0.5
+gaming,plugin-framework,tag,0.5
+gaming,plugins,tag,0.5
+gaming,portable,tag,0.5
+gaming,predecessor,tag,0.5
+gaming,preservation,tag,0.5
+gaming,procedural,tag,0.5
+gaming,procedural-generation,tag,0.5
+gaming,production,tag,0.5
+gaming,production-ready,tag,0.5
+gaming,professional,tag,0.5
+gaming,profiles,tag,0.5
+gaming,profiling,tag,0.5
+gaming,protocol,tag,0.5
+gaming,prototyping,tag,0.5
+gaming,ps1,tag,0.5
+gaming,ps3,tag,0.5
+gaming,puzzle-games,tag,0.5
+gaming,pwa,tag,0.5
+gaming,python,tag,0.5
+gaming,qt,tag,0.5
+gaming,quake,tag,0.5
+gaming,quake-engine,tag,0.5
+gaming,quest-system,tag,0.5
+gaming,ranking,tag,0.5
+gaming,rating,tag,0.5
+gaming,ray-tracing,tag,0.5
+gaming,raylib,tag,0.5
+gaming,raytracing,tag,0.5
+gaming,re-engine,tag,0.5
+gaming,re-implementation,tag,0.5
+gaming,reactive,tag,0.5
+gaming,real-time,tag,0.5
+gaming,recast,tag,0.5
+gaming,reference,tag,0.5
+gaming,reference-renderer,tag,0.5
+gaming,reimplementation,tag,0.5
+gaming,reinforcement-learning,tag,0.5
+gaming,reliable-packets,tag,0.5
+gaming,reliable-udp,tag,0.5
+gaming,remote-control,tag,0.5
+gaming,render-graph,tag,0.5
+gaming,rendering,tag,0.5
+gaming,replays,tag,0.5
+gaming,research,tag,0.5
+gaming,resource-collection,tag,0.5
+gaming,restir,tag,0.5
+gaming,retro,tag,0.5
+gaming,retro-gaming,tag,0.5
+gaming,retro-music,tag,0.5
+gaming,road-networks,tag,0.5
+gaming,roblox,tag,0.5
+gaming,robotics,tag,0.5
+gaming,roguelike,tag,0.5
+gaming,rollback,tag,0.5
+gaming,rpc,tag,0.5
+gaming,rpg,tag,0.5
+gaming,rts-game-engine,tag,0.5
+gaming,rtx,tag,0.5
+gaming,rtxdi,tag,0.5
+gaming,ruby,tag,0.5
+gaming,runtime-logging,tag,0.5
+gaming,rust,tag,0.5
+gaming,safe,tag,0.5
+gaming,sage-engine,tag,0.5
+gaming,sandbox,tag,0.5
+gaming,schema-validation,tag,0.5
+gaming,scientific-visualization,tag,0.5
+gaming,scripting,tag,0.5
+gaming,sdk,tag,0.5
+gaming,sdl,tag,0.5
+gaming,security,tag,0.5
+gaming,seed-driven,tag,0.5
+gaming,server,tag,0.5
+gaming,server-authoritative,tag,0.5
+gaming,server-management,tag,0.5
+gaming,sf2-sf3,tag,0.5
+gaming,sfxr,tag,0.5
+gaming,shaders,tag,0.5
+gaming,shipped-games,tag,0.5
+gaming,simd,tag,0.5
+gaming,simple,tag,0.5
+gaming,simple-api,tag,0.5
+gaming,simplex,tag,0.5
+gaming,simulation,tag,0.5
+gaming,single-header,tag,0.5
+gaming,skeleton,tag,0.5
+gaming,snes,tag,0.5
+gaming,sound-effects,tag,0.5
+gaming,soundfont,tag,0.5
+gaming,sparse-voxel,tag,0.5
+gaming,spatial-audio,tag,0.5
+gaming,sph,tag,0.5
+gaming,spirv,tag,0.5
+gaming,spring-fork,tag,0.5
+gaming,sprite-animation,tag,0.5
+gaming,sprite-atlas,tag,0.5
+gaming,sprite-editor,tag,0.5
+gaming,sprite-maps,tag,0.5
+gaming,spritesheet,tag,0.5
+gaming,squirrel,tag,0.5
+gaming,squirrel-variant,tag,0.5
+gaming,state-machine,tag,0.5
+gaming,stateless,tag,0.5
+gaming,steam,tag,0.5
+gaming,steering,tag,0.5
+gaming,story-authoring,tag,0.5
+gaming,story-format,tag,0.5
+gaming,strategy-game,tag,0.5
+gaming,streaming,tag,0.5
+gaming,strict,tag,0.5
+gaming,sugarcube,tag,0.5
+gaming,synchronization,tag,0.5
+gaming,synthesizer,tag,0.5
+gaming,telemetry,tag,0.5
+gaming,terminal,tag,0.5
+gaming,terrain,tag,0.5
+gaming,terrain-generation,tag,0.5
+gaming,testable,tag,0.5
+gaming,testing,tag,0.5
+gaming,text-adventure,tag,0.5
+gaming,text-based,tag,0.5
+gaming,textbook,tag,0.5
+gaming,texture-compression,tag,0.5
+gaming,texture-format,tag,0.5
+gaming,texture-generation,tag,0.5
+gaming,texture-packing,tag,0.5
+gaming,texturing,tag,0.5
+gaming,three.js,tag,0.5
+gaming,thunderstore,tag,0.5
+gaming,tile-based,tag,0.5
+gaming,tilemap,tag,0.5
+gaming,tilemap-editor,tag,0.5
+gaming,tmx,tag,0.5
+gaming,tool,tag,0.5
+gaming,toolkit,tag,0.5
+gaming,tools,tag,0.5
+gaming,tracker,tag,0.5
+gaming,tracker-module,tag,0.5
+gaming,transformation,tag,0.5
+gaming,transport-adapter,tag,0.5
+gaming,trueskill,tag,0.5
+gaming,turn-based,tag,0.5
+gaming,tutorial,tag,0.5
+gaming,twine,tag,0.5
+gaming,type-safe,tag,0.5
+gaming,typed,tag,0.5
+gaming,typescript,tag,0.5
+gaming,udp,tag,0.5
+gaming,udp-proxy,tag,0.5
+gaming,udp-tcp,tag,0.5
+gaming,ue5,tag,0.5
+gaming,ui,tag,0.5
+gaming,ui-automation,tag,0.5
+gaming,ui-framework,tag,0.5
+gaming,unity,tag,0.5
+gaming,unity-dots,tag,0.5
+gaming,unity-inspired,tag,0.5
+gaming,unity-networking,tag,0.5
+gaming,unreal,tag,0.5
+gaming,unreal-engine,tag,0.5
+gaming,usd,tag,0.5
+gaming,utility-ai,tag,0.5
+gaming,valve-games,tag,0.5
+gaming,vectorization,tag,0.5
+gaming,vertex-optimization,tag,0.5
+gaming,vfx,tag,0.5
+gaming,virtual-joystick,tag,0.5
+gaming,visual-editor,tag,0.5
+gaming,visual-novel,tag,0.5
+gaming,visual-scripting,tag,0.5
+gaming,visualization,tag,0.5
+gaming,visualizer,tag,0.5
+gaming,vn-engine,tag,0.5
+gaming,voxel,tag,0.5
+gaming,voxel-editor,tag,0.5
+gaming,vr,tag,0.5
+gaming,vr-game,tag,0.5
+gaming,vulkan,tag,0.5
+gaming,war-thunder,tag,0.5
+gaming,wasm,tag,0.5
+gaming,wave-function-collapse,tag,0.5
+gaming,web,tag,0.5
+gaming,web-audio,tag,0.5
+gaming,web-based,tag,0.5
+gaming,web-editor,tag,0.5
+gaming,web-game,tag,0.5
+gaming,web-games,tag,0.5
+gaming,web3d,tag,0.5
+gaming,webassembly,tag,0.5
+gaming,webgl,tag,0.5
+gaming,webgl2,tag,0.5
+gaming,webgpu,tag,0.5
+gaming,webrtc,tag,0.5
+gaming,webxr,tag,0.5
+gaming,wfc,tag,0.5
+gaming,wii,tag,0.5
+gaming,windows,tag,0.5
+gaming,wmr,tag,0.5
+gaming,wwise-alternative,tag,0.5
+gaming,xml,tag,0.5
+gaming,yarn-spinner,tag,0.5
+gaming,zero-gc,tag,0.5
+gaming,.net game framework,category,0.6
+gaming,.net game networking,category,0.6
+gaming,.net multiplayer library,category,0.6
+gaming,2d game library,category,0.6
+gaming,2d level editor,category,0.6
+gaming,2d texture generation,category,0.6
+gaming,3d editor gizmo,category,0.6
+gaming,3d engine,category,0.6
+gaming,3d format converter,category,0.6
+gaming,3d import library,category,0.6
+gaming,3d level editor,category,0.6
+gaming,3d voxel editor,category,0.6
+gaming,aaa 3d game engine,category,0.6
+gaming,action planning,category,0.6
+gaming,agent steering,category,0.6
+gaming,ai development framework,category,0.6
+gaming,ai framework,category,0.6
+gaming,ai research platform,category,0.6
+gaming,ai state machines,category,0.6
+gaming,ai toolkit,category,0.6
+gaming,amd path tracer,category,0.6
+gaming,anti-cheat framework,category,0.6
+gaming,archetype ecs,category,0.6
+gaming,archived game library,category,0.6
+gaming,asset pipeline system,category,0.6
+gaming,audio engine,category,0.6
+gaming,audio libraries,category,0.6
+gaming,audio library,category,0.6
+gaming,audio middleware,category,0.6
+gaming,behavior tree library,category,0.6
+gaming,behavior trees,category,0.6
+gaming,bevy generation plugin,category,0.6
+gaming,blender game engine,category,0.6
+gaming,board game framework,category,0.6
+gaming,browser city generator,category,0.6
+gaming,browser multiplayer framework,category,0.6
+gaming,browser path tracer,category,0.6
+gaming,c game ui toolkit,category,0.6
+gaming,c# 3d game engine,category,0.6
+gaming,c# console engine,category,0.6
+gaming,c# roguelike library,category,0.6
+gaming,c++ 2d game engine,category,0.6
+gaming,c++ scripting language,category,0.6
+gaming,c++17 game engine,category,0.6
+gaming,c-based rts engine,category,0.6
+gaming,citygml generation tool,category,0.6
+gaming,classic game networking,category,0.6
+gaming,client-server networking,category,0.6
+gaming,cloth simulation,category,0.6
+gaming,competitive ranking system,category,0.6
+gaming,console emulator,category,0.6
+gaming,crowd simulation,category,0.6
+gaming,data-oriented ecs,category,0.6
+gaming,debug tools,category,0.6
+gaming,deterministic dungeon gen,category,0.6
+gaming,dialogue & narrative,category,0.6
+gaming,dialogue editor,category,0.6
+gaming,dialogue systems,category,0.6
+gaming,directx path tracer,category,0.6
+gaming,dxt compression,category,0.6
+gaming,ecs ai systems,category,0.6
+gaming,embeddable game profiler,category,0.6
+gaming,embeddable scripting language,category,0.6
+gaming,embedded ruby runtime,category,0.6
+gaming,entity component system,category,0.6
+gaming,experimental ecs engine,category,0.6
+gaming,fantasy console,category,0.6
+gaming,fbx import library,category,0.6
+gaming,fiction framework guide,category,0.6
+gaming,fluid simulation,category,0.6
+gaming,fun web game engine,category,0.6
+gaming,game backend server,category,0.6
+gaming,game development sdk,category,0.6
+gaming,game input database,category,0.6
+gaming,game input plugin,category,0.6
+gaming,game launcher,category,0.6
+gaming,game networking library,category,0.6
+gaming,game performance profiler,category,0.6
+gaming,game server manager,category,0.6
+gaming,game server orchestration,category,0.6
+gaming,game testing automation,category,0.6
+gaming,game udp proxy,category,0.6
+gaming,game ui library,category,0.6
+gaming,global illumination renderer,category,0.6
+gaming,glsl path tracer,category,0.6
+gaming,gltf loader,category,0.6
+gaming,gltf optimization tools,category,0.6
+gaming,gltf processing,category,0.6
+gaming,gltf sdk,category,0.6
+gaming,go 2d game engine,category,0.6
+gaming,go ecs game engine,category,0.6
+gaming,goap ai system,category,0.6
+gaming,godot ai addon,category,0.6
+gaming,godot ai plugin,category,0.6
+gaming,godot card framework,category,0.6
+gaming,godot community fork,category,0.6
+gaming,godot pcg educational,category,0.6
+gaming,godot planet plugin,category,0.6
+gaming,godot voxel extension,category,0.6
+gaming,graphics abstraction,category,0.6
+gaming,graphics api,category,0.6
+gaming,graphics debugger tool,category,0.6
+gaming,graphics library,category,0.6
+gaming,graphics middleware,category,0.6
+gaming,handheld emulator,category,0.6
+gaming,haxe 2d game engine,category,0.6
+gaming,high-performance noise,category,0.6
+gaming,hot reload,category,0.6
+gaming,html/css game ui,category,0.6
+gaming,html5 2d game engine,category,0.6
+gaming,imgui node editor,category,0.6
+gaming,input handling,category,0.6
+gaming,input mapper,category,0.6
+gaming,input recording,category,0.6
+gaming,input remapper,category,0.6
+gaming,interactive fiction,category,0.6
+gaming,java 2d game engine,category,0.6
+gaming,java game framework,category,0.6
+gaming,java voxel platform,category,0.6
+gaming,java/kotlin 2d engine,category,0.6
+gaming,javascript dungeon generator,category,0.6
+gaming,javascript roguelike,category,0.6
+gaming,l-system plant modeling,category,0.6
+gaming,legacy 3d game engine,category,0.6
+gaming,legacy game networking,category,0.6
+gaming,legacy web ecs,category,0.6
+gaming,lightweight c++ game engine,category,0.6
+gaming,lightweight game profiler,category,0.6
+gaming,lua 2d game framework,category,0.6
+gaming,lua c++ binding,category,0.6
+gaming,lua-based game engine,category,0.6
+gaming,mesh optimization,category,0.6
+gaming,midi synthesizers,category,0.6
+gaming,minecraft classic client,category,0.6
+gaming,minecraft clone engine,category,0.6
+gaming,minecraft reimplementation,category,0.6
+gaming,minimal js game engine,category,0.6
+gaming,minimal ui library,category,0.6
+gaming,ml anti-cheat system,category,0.6
+gaming,mobile game test automation,category,0.6
+gaming,mod loader,category,0.6
+gaming,mod manager,category,0.6
+gaming,modding framework,category,0.6
+gaming,modular 2d/3d engine,category,0.6
+gaming,modular plugin engine,category,0.6
+gaming,mud framework,category,0.6
+gaming,multi-platform game engine,category,0.6
+gaming,multi-system emulator,category,0.6
+gaming,multiplayer framework,category,0.6
+gaming,multiplayer server framework,category,0.6
+gaming,music editors,category,0.6
+gaming,music players,category,0.6
+gaming,music trackers,category,0.6
+gaming,narrative design tool,category,0.6
+gaming,narrative editor,category,0.6
+gaming,narrative resource hub,category,0.6
+gaming,narrative rpg engine,category,0.6
+gaming,native crash reporting,category,0.6
+gaming,nintendo emulator,category,0.6
+gaming,no-code game engine,category,0.6
+gaming,node graph editor,category,0.6
+gaming,noise algorithm library,category,0.6
+gaming,noise generation library,category,0.6
+gaming,normal map editor,category,0.6
+gaming,normal map generator,category,0.6
+gaming,nvidia production tracer,category,0.6
+gaming,open source rts engine,category,0.6
+gaming,p2p game networking,category,0.6
+gaming,pascal 3d/2d engine,category,0.6
+gaming,pathfinding,category,0.6
+gaming,pbr reference renderer,category,0.6
+gaming,physics engine,category,0.6
+gaming,pixel art editor,category,0.6
+gaming,planet generation tutorial,category,0.6
+gaming,plant visualization toolkit,category,0.6
+gaming,playstation emulator,category,0.6
+gaming,procedural generation algorithm,category,0.6
+gaming,procedural generation language,category,0.6
+gaming,procedural texture editor,category,0.6
+gaming,production rust game engine,category,0.6
+gaming,production web 3d engine,category,0.6
+gaming,puzzle game dsl,category,0.6
+gaming,pwa visual novel engine,category,0.6
+gaming,python game framework,category,0.6
+gaming,python game library,category,0.6
+gaming,python roguelike bindings,category,0.6
+gaming,quest & dialogue,category,0.6
+gaming,ray traced game,category,0.6
+gaming,ray tracer,category,0.6
+gaming,ray tracing education,category,0.6
+gaming,ray tracing engine,category,0.6
+gaming,raylib ui module,category,0.6
+gaming,rendering engine,category,0.6
+gaming,rendering framework,category,0.6
+gaming,research voxel engine,category,0.6
+gaming,retro game emulator,category,0.6
+gaming,retro game engine,category,0.6
+gaming,roguelike map generator,category,0.6
+gaming,roguelike toolkit,category,0.6
+gaming,rts game engine,category,0.6
+gaming,ruby 2d game library,category,0.6
+gaming,rust ecs game engine,category,0.6
+gaming,rust game dialogue,category,0.6
+gaming,rust game profiler,category,0.6
+gaming,rust game ui,category,0.6
+gaming,rust imgui binding,category,0.6
+gaming,rust libtcod bindings,category,0.6
+gaming,rust roguelike toolkit,category,0.6
+gaming,rust scripting engine,category,0.6
+gaming,rust vulkan ecs engine,category,0.6
+gaming,rust webassembly roguelike,category,0.6
+gaming,sage rts re-implementation,category,0.6
+gaming,scientific ray tracer,category,0.6
+gaming,scripting language,category,0.6
+gaming,self-hosted game backend,category,0.6
+gaming,shader compiler,category,0.6
+gaming,shader library,category,0.6
+gaming,shader tools,category,0.6
+gaming,simd texture compression,category,0.6
+gaming,simple unity ecs,category,0.6
+gaming,sound editors,category,0.6
+gaming,sound tools,category,0.6
+gaming,spatial audio sdk,category,0.6
+gaming,spring rts fork,category,0.6
+gaming,sprite animation editor,category,0.6
+gaming,sprite sheet packer,category,0.6
+gaming,squirrel variant,category,0.6
+gaming,story & fiction authoring,category,0.6
+gaming,terrain generation tool,category,0.6
+gaming,text adventure engine,category,0.6
+gaming,texture compression,category,0.6
+gaming,texture format tools,category,0.6
+gaming,three.js path tracer,category,0.6
+gaming,tile map editor,category,0.6
+gaming,torque 2d game engine,category,0.6
+gaming,tree editors,category,0.6
+gaming,twine story format,category,0.6
+gaming,typed lua variant,category,0.6
+gaming,ue5 dungeon plugin,category,0.6
+gaming,ui framework,category,0.6
+gaming,unity architecture,category,0.6
+gaming,unity ci/cd automation,category,0.6
+gaming,unity debug console,category,0.6
+gaming,unity dialogue,category,0.6
+gaming,unity integration,category,0.6
+gaming,unity multiplayer framework,category,0.6
+gaming,unity networking library,category,0.6
+gaming,unity runtime automation,category,0.6
+gaming,unity test automation,category,0.6
+gaming,unity ui framework,category,0.6
+gaming,unity-inspired c# engine,category,0.6
+gaming,unreal dialogue,category,0.6
+gaming,unreal dialogue trees,category,0.6
+gaming,user-friendly 3d engine,category,0.6
+gaming,visual 2d game ide,category,0.6
+gaming,visual novel engine,category,0.6
+gaming,voxel action rpg,category,0.6
+gaming,voxel game platform,category,0.6
+gaming,vulkan path tracer,category,0.6
+gaming,vulkan ray tracing,category,0.6
+gaming,vulkan renderer,category,0.6
+gaming,vulkan rtx reference,category,0.6
+gaming,web 2d game engine,category,0.6
+gaming,web 2d game framework,category,0.6
+gaming,web 3d game engine,category,0.6
+gaming,web engine,category,0.6
+gaming,web game ecs,category,0.6
+gaming,web graphics renderer,category,0.6
+gaming,web visual novel,category,0.6
+gaming,web visual novel engine,category,0.6
+gaming,webgpu toolkit,category,0.6
+gaming,wfc library for unity,category,0.6
+geopolitics,geopolitics,domain_name,1.0
+geopolitics,conflict-event-tracking,sub_domain,0.8
+geopolitics,cyber-geopolitics-threat-intel,sub_domain,0.8
+geopolitics,economic-statecraft-trade,sub_domain,0.8
+geopolitics,election-governance-data,sub_domain,0.8
+geopolitics,energy-geopolitics,sub_domain,0.8
+geopolitics,geoint-tools,sub_domain,0.8
+geopolitics,international-law-treaties,sub_domain,0.8
+geopolitics,maritime-border-monitoring,sub_domain,0.8
+geopolitics,media-bias-propaganda,sub_domain,0.8
+geopolitics,migration-refugee-data,sub_domain,0.8
+geopolitics,network-alliance-analysis,sub_domain,0.8
+geopolitics,nuclear-wmd-proliferation,sub_domain,0.8
+geopolitics,osint-frameworks,sub_domain,0.8
+geopolitics,political-text-nlp,sub_domain,0.8
+geopolitics,risk-forecasting-models,sub_domain,0.8
+geopolitics,sanctions-compliance,sub_domain,0.8
+geopolitics,social-media-influence,sub_domain,0.8
+geopolitics,2025,tag,0.5
+geopolitics,3d-map,tag,0.5
+geopolitics,accountability,tag,0.5
+geopolitics,acled,tag,0.5
+geopolitics,active-response,tag,0.5
+geopolitics,adversarial-learning,tag,0.5
+geopolitics,africa,tag,0.5
+geopolitics,agents,tag,0.5
+geopolitics,aggregation,tag,0.5
+geopolitics,agriculture,tag,0.5
+geopolitics,ai,tag,0.5
+geopolitics,ai-tools,tag,0.5
+geopolitics,ais,tag,0.5
+geopolitics,alliances,tag,0.5
+geopolitics,aml,tag,0.5
+geopolitics,analysis,tag,0.5
+geopolitics,analytics,tag,0.5
+geopolitics,anomaly-detection,tag,0.5
+geopolitics,api,tag,0.5
+geopolitics,api-client,tag,0.5
+geopolitics,api-docs,tag,0.5
+geopolitics,apt,tag,0.5
+geopolitics,armed-conflict,tag,0.5
+geopolitics,asset-discovery,tag,0.5
+geopolitics,asylum,tag,0.5
+geopolitics,attack-surface,tag,0.5
+geopolitics,australia,tag,0.5
+geopolitics,automation,tag,0.5
+geopolitics,backend,tag,0.5
+geopolitics,bayesian-models,tag,0.5
+geopolitics,belgium,tag,0.5
+geopolitics,benchmark,tag,0.5
+geopolitics,bert,tag,0.5
+geopolitics,blast,tag,0.5
+geopolitics,blockchain,tag,0.5
+geopolitics,border,tag,0.5
+geopolitics,bot-detection,tag,0.5
+geopolitics,botometer,tag,0.5
+geopolitics,brent,tag,0.5
+geopolitics,browser-extension,tag,0.5
+geopolitics,calculator,tag,0.5
+geopolitics,campaign-finance,tag,0.5
+geopolitics,case-law,tag,0.5
+geopolitics,casualty-data,tag,0.5
+geopolitics,catalog,tag,0.5
+geopolitics,change-detection,tag,0.5
+geopolitics,civic-data,tag,0.5
+geopolitics,civic-tech,tag,0.5
+geopolitics,claim-detection,tag,0.5
+geopolitics,claim-matching,tag,0.5
+geopolitics,classification,tag,0.5
+geopolitics,cli,tag,0.5
+geopolitics,client,tag,0.5
+geopolitics,climate-modeling,tag,0.5
+geopolitics,coalitions,tag,0.5
+geopolitics,coastal,tag,0.5
+geopolitics,cobalt,tag,0.5
+geopolitics,collaboration,tag,0.5
+geopolitics,communication,tag,0.5
+geopolitics,compliance,tag,0.5
+geopolitics,computer-vision,tag,0.5
+geopolitics,conditional-encoding,tag,0.5
+geopolitics,conflict-analysis,tag,0.5
+geopolitics,conflict-data,tag,0.5
+geopolitics,conflict-forecasting,tag,0.5
+geopolitics,conflict-intelligence,tag,0.5
+geopolitics,conflict-monitoring,tag,0.5
+geopolitics,congress,tag,0.5
+geopolitics,connectivity,tag,0.5
+geopolitics,connector,tag,0.5
+geopolitics,connectors,tag,0.5
+geopolitics,coordinate-transform,tag,0.5
+geopolitics,corpus,tag,0.5
+geopolitics,courts,tag,0.5
+geopolitics,crisis,tag,0.5
+geopolitics,critical-minerals,tag,0.5
+geopolitics,cross-lingual,tag,0.5
+geopolitics,crowdsourcing,tag,0.5
+geopolitics,crypto-addresses,tag,0.5
+geopolitics,curation,tag,0.5
+geopolitics,customs,tag,0.5
+geopolitics,cyber-intelligence,tag,0.5
+geopolitics,darts,tag,0.5
+geopolitics,dashboard,tag,0.5
+geopolitics,data,tag,0.5
+geopolitics,data-access,tag,0.5
+geopolitics,data-analysis,tag,0.5
+geopolitics,data-extraction,tag,0.5
+geopolitics,data-mirror,tag,0.5
+geopolitics,data-modeling,tag,0.5
+geopolitics,data-pipeline,tag,0.5
+geopolitics,data-visualization,tag,0.5
+geopolitics,dataset,tag,0.5
+geopolitics,datasets,tag,0.5
+geopolitics,decision-making,tag,0.5
+geopolitics,deep-learning,tag,0.5
+geopolitics,democracy,tag,0.5
+geopolitics,demographics,tag,0.5
+geopolitics,depletion,tag,0.5
+geopolitics,detection,tag,0.5
+geopolitics,diplomacy,tag,0.5
+geopolitics,directory,tag,0.5
+geopolitics,displacement,tag,0.5
+geopolitics,document-processing,tag,0.5
+geopolitics,documentation,tag,0.5
+geopolitics,drones,tag,0.5
+geopolitics,early-warning,tag,0.5
+geopolitics,earth-observation,tag,0.5
+geopolitics,earth-science,tag,0.5
+geopolitics,economic-modeling,tag,0.5
+geopolitics,economic-statecraft,tag,0.5
+geopolitics,economics,tag,0.5
+geopolitics,effects,tag,0.5
+geopolitics,elastic-net,tag,0.5
+geopolitics,election-results,tag,0.5
+geopolitics,elections,tag,0.5
+geopolitics,emails,tag,0.5
+geopolitics,energy,tag,0.5
+geopolitics,energy-security,tag,0.5
+geopolitics,enrichment,tag,0.5
+geopolitics,entity-matching,tag,0.5
+geopolitics,entity-screening,tag,0.5
+geopolitics,enumeration,tag,0.5
+geopolitics,escalation,tag,0.5
+geopolitics,etrs,tag,0.5
+geopolitics,eu-law,tag,0.5
+geopolitics,eu-sanctions,tag,0.5
+geopolitics,europe,tag,0.5
+geopolitics,evaluation,tag,0.5
+geopolitics,evaluation-metric,tag,0.5
+geopolitics,event-data,tag,0.5
+geopolitics,event-extraction,tag,0.5
+geopolitics,event-forecasting,tag,0.5
+geopolitics,evs,tag,0.5
+geopolitics,explainability,tag,0.5
+geopolitics,export-control,tag,0.5
+geopolitics,fact-checking,tag,0.5
+geopolitics,factuality,tag,0.5
+geopolitics,fake-news,tag,0.5
+geopolitics,fatalities,tag,0.5
+geopolitics,fec,tag,0.5
+geopolitics,field-work,tag,0.5
+geopolitics,filings,tag,0.5
+geopolitics,fire-events,tag,0.5
+geopolitics,fishing,tag,0.5
+geopolitics,fishing-effort,tag,0.5
+geopolitics,forecast-scoring,tag,0.5
+geopolitics,forecasting,tag,0.5
+geopolitics,fork,tag,0.5
+geopolitics,fossil-fuels,tag,0.5
+geopolitics,framework,tag,0.5
+geopolitics,france,tag,0.5
+geopolitics,frontend,tag,0.5
+geopolitics,fusion,tag,0.5
+geopolitics,fuzzy-matching,tag,0.5
+geopolitics,gas,tag,0.5
+geopolitics,gateway,tag,0.5
+geopolitics,gdelt,tag,0.5
+geopolitics,general-assembly,tag,0.5
+geopolitics,geoeconomics,tag,0.5
+geopolitics,geoint,tag,0.5
+geopolitics,geolocation,tag,0.5
+geopolitics,geopolitics,tag,0.5
+geopolitics,geospatial,tag,0.5
+geopolitics,geospatial-ai,tag,0.5
+geopolitics,geospatial-ml,tag,0.5
+geopolitics,github-actions,tag,0.5
+geopolitics,global,tag,0.5
+geopolitics,global-fishing-watch,tag,0.5
+geopolitics,go,tag,0.5
+geopolitics,governance,tag,0.5
+geopolitics,government-data,tag,0.5
+geopolitics,graph,tag,0.5
+geopolitics,graph-databases,tag,0.5
+geopolitics,graph-learning,tag,0.5
+geopolitics,graph-neural-networks,tag,0.5
+geopolitics,gui,tag,0.5
+geopolitics,headline-analysis,tag,0.5
+geopolitics,humanitarian,tag,0.5
+geopolitics,iaea,tag,0.5
+geopolitics,ideal-points,tag,0.5
+geopolitics,ideology,tag,0.5
+geopolitics,imagery,tag,0.5
+geopolitics,import-export,tag,0.5
+geopolitics,india,tag,0.5
+geopolitics,information,tag,0.5
+geopolitics,infrastructure,tag,0.5
+geopolitics,ingestion,tag,0.5
+geopolitics,insar,tag,0.5
+geopolitics,integration,tag,0.5
+geopolitics,intelligence,tag,0.5
+geopolitics,intelligence-dashboard,tag,0.5
+geopolitics,international-conflict,tag,0.5
+geopolitics,international-law,tag,0.5
+geopolitics,internet-access,tag,0.5
+geopolitics,internet-scanning,tag,0.5
+geopolitics,investigation,tag,0.5
+geopolitics,io,tag,0.5
+geopolitics,iocs,tag,0.5
+geopolitics,iom,tag,0.5
+geopolitics,java,tag,0.5
+geopolitics,javascript,tag,0.5
+geopolitics,jordan,tag,0.5
+geopolitics,json-api,tag,0.5
+geopolitics,kyc,tag,0.5
+geopolitics,language-models,tag,0.5
+geopolitics,legal-archive,tag,0.5
+geopolitics,legal-data,tag,0.5
+geopolitics,legal-dataset,tag,0.5
+geopolitics,legal-nlp,tag,0.5
+geopolitics,legal-platform,tag,0.5
+geopolitics,legal-resources,tag,0.5
+geopolitics,legal-text,tag,0.5
+geopolitics,legislation,tag,0.5
+geopolitics,legislative-data,tag,0.5
+geopolitics,library,tag,0.5
+geopolitics,license-scanning,tag,0.5
+geopolitics,list-screening,tag,0.5
+geopolitics,llm-research,tag,0.5
+geopolitics,lng,tag,0.5
+geopolitics,logistics,tag,0.5
+geopolitics,machine-learning,tag,0.5
+geopolitics,map,tag,0.5
+geopolitics,mapping,tag,0.5
+geopolitics,maps,tag,0.5
+geopolitics,marine-traffic,tag,0.5
+geopolitics,maritime,tag,0.5
+geopolitics,maritime-data,tag,0.5
+geopolitics,maritime-security,tag,0.5
+geopolitics,maritime-surveillance,tag,0.5
+geopolitics,markets,tag,0.5
+geopolitics,matlab,tag,0.5
+geopolitics,mcp,tag,0.5
+geopolitics,mcp-server,tag,0.5
+geopolitics,media-analysis,tag,0.5
+geopolitics,media-bias,tag,0.5
+geopolitics,metadata,tag,0.5
+geopolitics,metasploit,tag,0.5
+geopolitics,microsoft,tag,0.5
+geopolitics,migration,tag,0.5
+geopolitics,military-bases,tag,0.5
+geopolitics,misinformation,tag,0.5
+geopolitics,misp,tag,0.5
+geopolitics,missiles,tag,0.5
+geopolitics,missing-migrants,tag,0.5
+geopolitics,mitre,tag,0.5
+geopolitics,mixture-of-experts,tag,0.5
+geopolitics,ml-pipeline,tag,0.5
+geopolitics,mlm,tag,0.5
+geopolitics,model,tag,0.5
+geopolitics,model-evaluation,tag,0.5
+geopolitics,modeling,tag,0.5
+geopolitics,modules,tag,0.5
+geopolitics,monitoring,tag,0.5
+geopolitics,monthly-forecasting,tag,0.5
+geopolitics,mps,tag,0.5
+geopolitics,multilingual,tag,0.5
+geopolitics,multimodal,tag,0.5
+geopolitics,narratives,tag,0.5
+geopolitics,natural-language,tag,0.5
+geopolitics,netherlands,tag,0.5
+geopolitics,network-analysis,tag,0.5
+geopolitics,neutrality,tag,0.5
+geopolitics,new-york,tag,0.5
+geopolitics,news,tag,0.5
+geopolitics,news-aggregation,tag,0.5
+geopolitics,news-bias,tag,0.5
+geopolitics,news-monitoring,tag,0.5
+geopolitics,news-ordering,tag,0.5
+geopolitics,news-text,tag,0.5
+geopolitics,nextjs,tag,0.5
+geopolitics,nlp,tag,0.5
+geopolitics,nonproliferation,tag,0.5
+geopolitics,normalization,tag,0.5
+geopolitics,north-korea,tag,0.5
+geopolitics,notebook,tag,0.5
+geopolitics,notebooks,tag,0.5
+geopolitics,nuclear,tag,0.5
+geopolitics,observable-analysis,tag,0.5
+geopolitics,observables,tag,0.5
+geopolitics,ofac,tag,0.5
+geopolitics,ogc,tag,0.5
+geopolitics,oil,tag,0.5
+geopolitics,ontology,tag,0.5
+geopolitics,open-data,tag,0.5
+geopolitics,open-indicators,tag,0.5
+geopolitics,open-states,tag,0.5
+geopolitics,opencti,tag,0.5
+geopolitics,openmc,tag,0.5
+geopolitics,opensanctions,tag,0.5
+geopolitics,osint,tag,0.5
+geopolitics,package-manager,tag,0.5
+geopolitics,paper-list,tag,0.5
+geopolitics,parliament,tag,0.5
+geopolitics,participatory-democracy,tag,0.5
+geopolitics,passive,tag,0.5
+geopolitics,pep-screening,tag,0.5
+geopolitics,peps,tag,0.5
+geopolitics,persons-of-interest,tag,0.5
+geopolitics,photogrammetry,tag,0.5
+geopolitics,photonuclear,tag,0.5
+geopolitics,pipelines,tag,0.5
+geopolitics,platform,tag,0.5
+geopolitics,point-clouds,tag,0.5
+geopolitics,policy,tag,0.5
+geopolitics,political,tag,0.5
+geopolitics,political-claims,tag,0.5
+geopolitics,political-debates,tag,0.5
+geopolitics,political-event-data,tag,0.5
+geopolitics,political-extraction,tag,0.5
+geopolitics,political-nlp,tag,0.5
+geopolitics,politics,tag,0.5
+geopolitics,polls,tag,0.5
+geopolitics,port-analytics,tag,0.5
+geopolitics,portuguese,tag,0.5
+geopolitics,precincts,tag,0.5
+geopolitics,prediction,tag,0.5
+geopolitics,preprocessing,tag,0.5
+geopolitics,pricing,tag,0.5
+geopolitics,probabilistic,tag,0.5
+geopolitics,probabilistic-forecasting,tag,0.5
+geopolitics,probabilistic-models,tag,0.5
+geopolitics,projections,tag,0.5
+geopolitics,proliferation,tag,0.5
+geopolitics,propaganda,tag,0.5
+geopolitics,publishing,tag,0.5
+geopolitics,python,tag,0.5
+geopolitics,python-client,tag,0.5
+geopolitics,python-package,tag,0.5
+geopolitics,querying,tag,0.5
+geopolitics,r,tag,0.5
+geopolitics,r-analysis,tag,0.5
+geopolitics,r-markdown,tag,0.5
+geopolitics,r-package,tag,0.5
+geopolitics,radar,tag,0.5
+geopolitics,rag,tag,0.5
+geopolitics,rails,tag,0.5
+geopolitics,ranking,tag,0.5
+geopolitics,raster-data,tag,0.5
+geopolitics,reactor,tag,0.5
+geopolitics,real-time,tag,0.5
+geopolitics,reconciliation-api,tag,0.5
+geopolitics,reconnaissance,tag,0.5
+geopolitics,refugees,tag,0.5
+geopolitics,relational-gcn,tag,0.5
+geopolitics,remote-sensing,tag,0.5
+geopolitics,replication,tag,0.5
+geopolitics,replication-code,tag,0.5
+geopolitics,reports,tag,0.5
+geopolitics,research-workflow,tag,0.5
+geopolitics,resilience,tag,0.5
+geopolitics,resource-security,tag,0.5
+geopolitics,resources,tag,0.5
+geopolitics,rest-api,tag,0.5
+geopolitics,results,tag,0.5
+geopolitics,risk,tag,0.5
+geopolitics,robustness,tag,0.5
+geopolitics,roll-call,tag,0.5
+geopolitics,route-planning,tag,0.5
+geopolitics,rumors,tag,0.5
+geopolitics,safeguards,tag,0.5
+geopolitics,sam,tag,0.5
+geopolitics,sanctions,tag,0.5
+geopolitics,sanctions-api,tag,0.5
+geopolitics,sanctions-lists,tag,0.5
+geopolitics,sanctions-screening,tag,0.5
+geopolitics,sanctions-search,tag,0.5
+geopolitics,sar,tag,0.5
+geopolitics,satellite-imagery,tag,0.5
+geopolitics,scala,tag,0.5
+geopolitics,scenarios,tag,0.5
+geopolitics,scraper-backend,tag,0.5
+geopolitics,scraping,tag,0.5
+geopolitics,screening,tag,0.5
+geopolitics,sdn-list,tag,0.5
+geopolitics,search,tag,0.5
+geopolitics,security,tag,0.5
+geopolitics,segmentation,tag,0.5
+geopolitics,sensor-fusion,tag,0.5
+geopolitics,sentiment,tag,0.5
+geopolitics,sentinel,tag,0.5
+geopolitics,service-map,tag,0.5
+geopolitics,services,tag,0.5
+geopolitics,sharing,tag,0.5
+geopolitics,shiny,tag,0.5
+geopolitics,shipments,tag,0.5
+geopolitics,shoreline,tag,0.5
+geopolitics,siamese-networks,tag,0.5
+geopolitics,simulation,tag,0.5
+geopolitics,situation-awareness,tag,0.5
+geopolitics,social-media,tag,0.5
+geopolitics,social-science,tag,0.5
+geopolitics,spanish,tag,0.5
+geopolitics,spatial-analysis,tag,0.5
+geopolitics,spatiotemporal-models,tag,0.5
+geopolitics,speech-features,tag,0.5
+geopolitics,stance-detection,tag,0.5
+geopolitics,stance-prediction,tag,0.5
+geopolitics,standards,tag,0.5
+geopolitics,stata,tag,0.5
+geopolitics,state-legislatures,tag,0.5
+geopolitics,statistics,tag,0.5
+geopolitics,statutes,tag,0.5
+geopolitics,stix,tag,0.5
+geopolitics,streamlit,tag,0.5
+geopolitics,subdomains,tag,0.5
+geopolitics,sudan,tag,0.5
+geopolitics,supplier-risk,tag,0.5
+geopolitics,supply-chain,tag,0.5
+geopolitics,support,tag,0.5
+geopolitics,support-services,tag,0.5
+geopolitics,sustainability,tag,0.5
+geopolitics,tariff-war,tag,0.5
+geopolitics,tariffs,tag,0.5
+geopolitics,taxii,tag,0.5
+geopolitics,temporal-analysis,tag,0.5
+geopolitics,terrain-change,tag,0.5
+geopolitics,tests,tag,0.5
+geopolitics,texas,tag,0.5
+geopolitics,text-cnn,tag,0.5
+geopolitics,text-extraction,tag,0.5
+geopolitics,text-processing,tag,0.5
+geopolitics,textbook,tag,0.5
+geopolitics,themes,tag,0.5
+geopolitics,threat-hunting,tag,0.5
+geopolitics,threat-intel,tag,0.5
+geopolitics,tidyverse,tag,0.5
+geopolitics,time-series,tag,0.5
+geopolitics,tooling,tag,0.5
+geopolitics,tracker,tag,0.5
+geopolitics,tracking,tag,0.5
+geopolitics,trade,tag,0.5
+geopolitics,trade-agreements,tag,0.5
+geopolitics,trade-data,tag,0.5
+geopolitics,trade-model,tag,0.5
+geopolitics,trade-policy,tag,0.5
+geopolitics,trade-war,tag,0.5
+geopolitics,transformers,tag,0.5
+geopolitics,translation,tag,0.5
+geopolitics,transparency,tag,0.5
+geopolitics,transport,tag,0.5
+geopolitics,treaties,tag,0.5
+geopolitics,twitter,tag,0.5
+geopolitics,uk,tag,0.5
+geopolitics,ukraine,tag,0.5
+geopolitics,un,tag,0.5
+geopolitics,uncertainty,tag,0.5
+geopolitics,unhcr,tag,0.5
+geopolitics,us-china,tag,0.5
+geopolitics,us-politics,tag,0.5
+geopolitics,us-treasury,tag,0.5
+geopolitics,vector-data,tag,0.5
+geopolitics,verification,tag,0.5
+geopolitics,vessel-detection,tag,0.5
+geopolitics,vessel-monitoring,tag,0.5
+geopolitics,vessel-research,tag,0.5
+geopolitics,vessel-search,tag,0.5
+geopolitics,vessel-tracking,tag,0.5
+geopolitics,video-analytics,tag,0.5
+geopolitics,views,tag,0.5
+geopolitics,violent-conflict,tag,0.5
+geopolitics,visualization,tag,0.5
+geopolitics,volunteer-coordination,tag,0.5
+geopolitics,voting,tag,0.5
+geopolitics,voting-information,tag,0.5
+geopolitics,war-prediction,tag,0.5
+geopolitics,war-room,tag,0.5
+geopolitics,watchlists,tag,0.5
+geopolitics,weapons,tag,0.5
+geopolitics,web-scraping,tag,0.5
+geopolitics,west-asia,tag,0.5
+geopolitics,word-embeddings,tag,0.5
+geopolitics,world-intelligence,tag,0.5
+geopolitics,world-map,tag,0.5
+geopolitics,world-monitor,tag,0.5
+geopolitics,wti,tag,0.5
+geopolitics,zero-shot,tag,0.5
+geopolitics,acled api client,category,0.6
+geopolitics,acled data access,category,0.6
+geopolitics,ais gateway,category,0.6
+geopolitics,ais video fusion,category,0.6
+geopolitics,api documentation site,category,0.6
+geopolitics,apt report collection,category,0.6
+geopolitics,asylum flow visualization,category,0.6
+geopolitics,attack surface mapping,category,0.6
+geopolitics,automated ais tracking,category,0.6
+geopolitics,bias browser extension,category,0.6
+geopolitics,bias dataset,category,0.6
+geopolitics,bot detection,category,0.6
+geopolitics,campaign finance api,category,0.6
+geopolitics,change detection,category,0.6
+geopolitics,claim detection,category,0.6
+geopolitics,compliance api,category,0.6
+geopolitics,compliance scanning system,category,0.6
+geopolitics,conflict analysis,category,0.6
+geopolitics,conflict dashboard,category,0.6
+geopolitics,conflict forecasting,category,0.6
+geopolitics,conflict intelligence,category,0.6
+geopolitics,conflict mapping,category,0.6
+geopolitics,conflict monitoring,category,0.6
+geopolitics,conflict visualization,category,0.6
+geopolitics,coordinate transformations,category,0.6
+geopolitics,democracy dataset access,category,0.6
+geopolitics,democracy metrics,category,0.6
+geopolitics,displacement dataset,category,0.6
+geopolitics,earth observation,category,0.6
+geopolitics,earth observation agents,category,0.6
+geopolitics,earth science copilot,category,0.6
+geopolitics,economic statecraft textbook,category,0.6
+geopolitics,election data pipeline,category,0.6
+geopolitics,election info platform,category,0.6
+geopolitics,election results data,category,0.6
+geopolitics,election results dataset,category,0.6
+geopolitics,energy scenarios,category,0.6
+geopolitics,energy security study,category,0.6
+geopolitics,energy supply chains,category,0.6
+geopolitics,entity matching,category,0.6
+geopolitics,eu legislation dataset,category,0.6
+geopolitics,ev supply chains,category,0.6
+geopolitics,event data access,category,0.6
+geopolitics,event data ontology,category,0.6
+geopolitics,event forecasting,category,0.6
+geopolitics,export code classifier,category,0.6
+geopolitics,export controls tool,category,0.6
+geopolitics,fact-checking platform,category,0.6
+geopolitics,fake news detection,category,0.6
+geopolitics,fishing api client,category,0.6
+geopolitics,fishing effort dashboard,category,0.6
+geopolitics,forecast evaluation,category,0.6
+geopolitics,forecasting toolkit,category,0.6
+geopolitics,fusion proliferation study,category,0.6
+geopolitics,gas geopolitics,category,0.6
+geopolitics,geoai platform,category,0.6
+geopolitics,geoai toolkit,category,0.6
+geopolitics,geoint platform,category,0.6
+geopolitics,geospatial catalog,category,0.6
+geopolitics,geospatial ml platform,category,0.6
+geopolitics,geospatial rag,category,0.6
+geopolitics,geospatial segmentation,category,0.6
+geopolitics,global intelligence,category,0.6
+geopolitics,government data scraper,category,0.6
+geopolitics,graph benchmark,category,0.6
+geopolitics,headline analysis,category,0.6
+geopolitics,iaea data extract,category,0.6
+geopolitics,ideal point estimation,category,0.6
+geopolitics,ideology classification,category,0.6
+geopolitics,ideology prediction,category,0.6
+geopolitics,insar processing,category,0.6
+geopolitics,intelligence mcp server,category,0.6
+geopolitics,legal case archive,category,0.6
+geopolitics,legal data platform,category,0.6
+geopolitics,legal data scraper,category,0.6
+geopolitics,legal graph preprocessing,category,0.6
+geopolitics,legal nlp benchmark,category,0.6
+geopolitics,legal resource directory,category,0.6
+geopolitics,legal text extraction,category,0.6
+geopolitics,legislative data api,category,0.6
+geopolitics,legislative data backend,category,0.6
+geopolitics,lng trade analysis,category,0.6
+geopolitics,marine monitoring system,category,0.6
+geopolitics,maritime anomaly detection,category,0.6
+geopolitics,migration data map,category,0.6
+geopolitics,migration data visualization,category,0.6
+geopolitics,mineral data infrastructure,category,0.6
+geopolitics,mineral logistics,category,0.6
+geopolitics,mineral supply chains,category,0.6
+geopolitics,minerals in africa,category,0.6
+geopolitics,misinformation research,category,0.6
+geopolitics,misp modules,category,0.6
+geopolitics,misp python client,category,0.6
+geopolitics,missile test visualizer,category,0.6
+geopolitics,multilingual legal dataset,category,0.6
+geopolitics,neutral news ordering,category,0.6
+geopolitics,news bias dataset,category,0.6
+geopolitics,news bias explorer,category,0.6
+geopolitics,news corpus,category,0.6
+geopolitics,news monitoring,category,0.6
+geopolitics,nuclear effects calculator,category,0.6
+geopolitics,nuclear effects modeling,category,0.6
+geopolitics,nuclear escalation model,category,0.6
+geopolitics,nuclear reactor framework,category,0.6
+geopolitics,observable analysis engine,category,0.6
+geopolitics,oil forecasting,category,0.6
+geopolitics,oil geopolitics,category,0.6
+geopolitics,oil market monitor,category,0.6
+geopolitics,opencti connectors,category,0.6
+geopolitics,opencti python client,category,0.6
+geopolitics,osint automation,category,0.6
+geopolitics,osint cli framework,category,0.6
+geopolitics,osint command center,category,0.6
+geopolitics,osint fork,category,0.6
+geopolitics,osint framework,category,0.6
+geopolitics,osint gui framework,category,0.6
+geopolitics,osint module pack,category,0.6
+geopolitics,osint recon tool,category,0.6
+geopolitics,osint resource list,category,0.6
+geopolitics,osint tool directory,category,0.6
+geopolitics,parliament monitoring,category,0.6
+geopolitics,parliament scraper,category,0.6
+geopolitics,parliament voting data,category,0.6
+geopolitics,participatory democracy,category,0.6
+geopolitics,passive subdomain tool,category,0.6
+geopolitics,photogrammetry toolkit,category,0.6
+geopolitics,photonuclear data library,category,0.6
+geopolitics,political data toolkit,category,0.6
+geopolitics,political stance dataset,category,0.6
+geopolitics,propaganda detection,category,0.6
+geopolitics,raster io library,category,0.6
+geopolitics,reactor depletion software,category,0.6
+geopolitics,reception point map,category,0.6
+geopolitics,reconnaissance framework,category,0.6
+geopolitics,recursive osint scanner,category,0.6
+geopolitics,refugee analysis notebook,category,0.6
+geopolitics,refugee connectivity,category,0.6
+geopolitics,refugee info site,category,0.6
+geopolitics,refugee service map,category,0.6
+geopolitics,refugee services map,category,0.6
+geopolitics,refugee support api,category,0.6
+geopolitics,regional conflict monitor,category,0.6
+geopolitics,risk analysis framework,category,0.6
+geopolitics,roll call analysis,category,0.6
+geopolitics,rumor fact-checking,category,0.6
+geopolitics,sanctions analysis,category,0.6
+geopolitics,sanctions api,category,0.6
+geopolitics,sanctions data,category,0.6
+geopolitics,sanctions lists,category,0.6
+geopolitics,sanctions screening,category,0.6
+geopolitics,sanctions screening backend,category,0.6
+geopolitics,sanctions search,category,0.6
+geopolitics,sar vessel detection,category,0.6
+geopolitics,satellite imagery api,category,0.6
+geopolitics,satellite imagery tools,category,0.6
+geopolitics,scenario modeling,category,0.6
+geopolitics,shoreline mapping,category,0.6
+geopolitics,spanish legal lm,category,0.6
+geopolitics,stance detection,category,0.6
+geopolitics,stance detection model,category,0.6
+geopolitics,stance prediction,category,0.6
+geopolitics,stance robustness experiments,category,0.6
+geopolitics,stix connector library,category,0.6
+geopolitics,stix intelligence corpus,category,0.6
+geopolitics,stix python apis,category,0.6
+geopolitics,sudan conflict analysis,category,0.6
+geopolitics,tariff analysis model,category,0.6
+geopolitics,tariff analysis notebook,category,0.6
+geopolitics,tariff backend service,category,0.6
+geopolitics,tariff data analysis,category,0.6
+geopolitics,tariff war model,category,0.6
+geopolitics,taxii client library,category,0.6
+geopolitics,threat hunting toolkit,category,0.6
+geopolitics,threat intelligence platform,category,0.6
+geopolitics,trade policy analysis,category,0.6
+geopolitics,trade policy model,category,0.6
+geopolitics,trade war tracker,category,0.6
+geopolitics,translation aid,category,0.6
+geopolitics,treaty corpus,category,0.6
+geopolitics,un alliance mapping,category,0.6
+geopolitics,un voting analysis,category,0.6
+geopolitics,un voting data,category,0.6
+geopolitics,un voting visualizer,category,0.6
+geopolitics,unhcr report templates,category,0.6
+geopolitics,unhcr theme package,category,0.6
+geopolitics,vector gis library,category,0.6
+geopolitics,vessel analytics app,category,0.6
+geopolitics,vessel research toolkit,category,0.6
+geopolitics,vessel search tool,category,0.6
+geopolitics,vessel tracking app,category,0.6
+geopolitics,volunteer support platform,category,0.6
+geopolitics,voting behavior site,category,0.6
+geopolitics,voting map generator,category,0.6
+geopolitics,world intelligence dashboard,category,0.6
+geopolitics,world situation monitor,category,0.6
+healthcare,healthcare,domain_name,1.0
+healthcare,clinical-nlp-text-mining,sub_domain,0.8
+healthcare,clinical-trials-research,sub_domain,0.8
+healthcare,dental-specialty-clinics,sub_domain,0.8
+healthcare,drug-discovery-molecular-design,sub_domain,0.8
+healthcare,ehr-practice-management,sub_domain,0.8
+healthcare,epidemiology-disease-surveillance,sub_domain,0.8
+healthcare,fhir-health-interoperability,sub_domain,0.8
+healthcare,genomics-bioinformatics,sub_domain,0.8
+healthcare,health-data-privacy-deidentification,sub_domain,0.8
+healthcare,health-data-standards-terminologies,sub_domain,0.8
+healthcare,hospital-operations-scheduling,sub_domain,0.8
+healthcare,lab-information-systems,sub_domain,0.8
+healthcare,medical-ai-diagnostics,sub_domain,0.8
+healthcare,medical-education-simulation,sub_domain,0.8
+healthcare,medical-imaging-radiology,sub_domain,0.8
+healthcare,mental-health-behavioral,sub_domain,0.8
+healthcare,pharmacy-medication-management,sub_domain,0.8
+healthcare,public-health-population-analytics,sub_domain,0.8
+healthcare,telemedicine-remote-care,sub_domain,0.8
+healthcare,wearable-iot-health,sub_domain,0.8
+healthcare,anatomy,tag,0.5
+healthcare,bed-management,tag,0.5
+healthcare,behavioral-health,tag,0.5
+healthcare,bioinformatics,tag,0.5
+healthcare,cbt,tag,0.5
+healthcare,cheminformatics,tag,0.5
+healthcare,clinical-notes,tag,0.5
+healthcare,clinical-trials,tag,0.5
+healthcare,coding,tag,0.5
+healthcare,data-capture,tag,0.5
+healthcare,de-identification,tag,0.5
+healthcare,decision-support,tag,0.5
+healthcare,demographics,tag,0.5
+healthcare,dental,tag,0.5
+healthcare,diagnostics,tag,0.5
+healthcare,dicom,tag,0.5
+healthcare,docking,tag,0.5
+healthcare,drug-discovery,tag,0.5
+healthcare,drug-safety,tag,0.5
+healthcare,education,tag,0.5
+healthcare,ehr,tag,0.5
+healthcare,emr,tag,0.5
+healthcare,entity-extraction,tag,0.5
+healthcare,epidemiology,tag,0.5
+healthcare,equity,tag,0.5
+healthcare,fhir,tag,0.5
+healthcare,genomics,tag,0.5
+healthcare,hipaa,tag,0.5
+healthcare,hl7,tag,0.5
+healthcare,hospital-ops,tag,0.5
+healthcare,imaging,tag,0.5
+healthcare,integration,tag,0.5
+healthcare,interoperability,tag,0.5
+healthcare,iot,tag,0.5
+healthcare,lab,tag,0.5
+healthcare,lab-workflows,tag,0.5
+healthcare,lims,tag,0.5
+healthcare,lis,tag,0.5
+healthcare,loinc,tag,0.5
+healthcare,medical-ai,tag,0.5
+healthcare,medication,tag,0.5
+healthcare,mental-health,tag,0.5
+healthcare,modeling,tag,0.5
+healthcare,nlp,tag,0.5
+healthcare,omop,tag,0.5
+healthcare,ontologies,tag,0.5
+healthcare,outbreaks,tag,0.5
+healthcare,pathology,tag,0.5
+healthcare,patient-flow,tag,0.5
+healthcare,patient-records,tag,0.5
+healthcare,pharmacy,tag,0.5
+healthcare,pipelines,tag,0.5
+healthcare,population-health,tag,0.5
+healthcare,practice-management,tag,0.5
+healthcare,prescribing,tag,0.5
+healthcare,privacy,tag,0.5
+healthcare,public-health,tag,0.5
+healthcare,radiology,tag,0.5
+healthcare,recruitment,tag,0.5
+healthcare,remote-monitoring,tag,0.5
+healthcare,research,tag,0.5
+healthcare,scheduling,tag,0.5
+healthcare,screening,tag,0.5
+healthcare,segmentation,tag,0.5
+healthcare,sensors,tag,0.5
+healthcare,simulation,tag,0.5
+healthcare,snomed,tag,0.5
+healthcare,specialty-clinics,tag,0.5
+healthcare,specimen-tracking,tag,0.5
+healthcare,standards,tag,0.5
+healthcare,surveillance,tag,0.5
+healthcare,synthetic-data,tag,0.5
+healthcare,telemedicine,tag,0.5
+healthcare,terminology,tag,0.5
+healthcare,variant-calling,tag,0.5
+healthcare,video,tag,0.5
+healthcare,virtual-care,tag,0.5
+healthcare,virtual-patient,tag,0.5
+healthcare,virtual-screening,tag,0.5
+healthcare,vocabularies,tag,0.5
+healthcare,wearables,tag,0.5
+healthcare,"clinical nlp, entity extraction, coding & text mining",category,0.6
+healthcare,"clinical trials, trial management, recruitment & research tooling",category,0.6
+healthcare,"dental, ophthalmology & specialty clinic systems",category,0.6
+healthcare,"drug discovery, molecular design, docking & virtual screening",category,0.6
+healthcare,"electronic health records (ehr), clinical documentation & practice management",category,0.6
+healthcare,"epidemiology, outbreak tracking, contact tracing & disease surveillance",category,0.6
+healthcare,"fhir, hl7 servers, integration engines & health interoperability",category,0.6
+healthcare,"genomics, sequencing pipelines, variant calling & genome browsers",category,0.6
+healthcare,"health data privacy, de-identification, synthetic data & hipaa tooling",category,0.6
+healthcare,"health data standards, terminologies, ontologies & vocabulary tooling",category,0.6
+healthcare,"hospital operations, scheduling, bed management & patient flow",category,0.6
+healthcare,"lab information systems (lis), specimen tracking & lab workflows",category,0.6
+healthcare,"medical ai, diagnostics, pathology ai & clinical decision support",category,0.6
+healthcare,"medical education, anatomy viewers, surgical simulation & virtual patients",category,0.6
+healthcare,"medical imaging, radiology, dicom viewers & segmentation",category,0.6
+healthcare,"mental health, behavioral health, cbt, mood tracking & crisis support",category,0.6
+healthcare,"pharmacy, prescriptions, drug interaction checking & medication management",category,0.6
+healthcare,"public health, population analytics, health equity & demographic modeling",category,0.6
+healthcare,"telemedicine, video consultation, remote monitoring & virtual care",category,0.6
+healthcare,"wearables, sensor pipelines, device bridges & iot health",category,0.6
+legal,legal,domain_name,1.0
+legal,access-to-justice-civic-tech,sub_domain,0.8
+legal,alternative-dispute-resolution,sub_domain,0.8
+legal,aml-kyc-identity,sub_domain,0.8
+legal,compliance-regulatory-automation,sub_domain,0.8
+legal,contract-analysis-clm,sub_domain,0.8
+legal,corporate-governance-entity-mgmt,sub_domain,0.8
+legal,court-case-management,sub_domain,0.8
+legal,curated-lists-meta-sweep,sub_domain,0.8
+legal,digital-forensics-litigation,sub_domain,0.8
+legal,e-discovery-document-review,sub_domain,0.8
+legal,immigration-visa-processing,sub_domain,0.8
+legal,ip-patent-trademark,sub_domain,0.8
+legal,legal-ai-nlp,sub_domain,0.8
+legal,legal-analytics-prediction,sub_domain,0.8
+legal,legal-document-automation,sub_domain,0.8
+legal,legal-knowledge-ontologies,sub_domain,0.8
+legal,legal-practice-management,sub_domain,0.8
+legal,legal-research-case-law,sub_domain,0.8
+legal,privacy-data-protection,sub_domain,0.8
+legal,smart-contracts-legal,sub_domain,0.8
+legal,tax-compliance-automation,sub_domain,0.8
+legal,access,tag,0.5
+legal,access-to-justice,tag,0.5
+legal,accord-project,tag,0.5
+legal,agreement,tag,0.5
+legal,akoma-ntoso,tag,0.5
+legal,aml,tag,0.5
+legal,arbitration,tag,0.5
+legal,audit-controls,tag,0.5
+legal,awesome-list,tag,0.5
+legal,billing,tag,0.5
+legal,board-governance,tag,0.5
+legal,cap-table,tag,0.5
+legal,case-intake,tag,0.5
+legal,case-law,tag,0.5
+legal,chain-of-custody,tag,0.5
+legal,citation,tag,0.5
+legal,civic-tech,tag,0.5
+legal,clause-extraction,tag,0.5
+legal,clause-review,tag,0.5
+legal,clm,tag,0.5
+legal,compliance,tag,0.5
+legal,computable-contracts,tag,0.5
+legal,consent,tag,0.5
+legal,contract,tag,0.5
+legal,contract-analysis,tag,0.5
+legal,contract-templates,tag,0.5
+legal,corporate-governance,tag,0.5
+legal,court,tag,0.5
+legal,court-case-management,tag,0.5
+legal,court-data,tag,0.5
+legal,digital-forensics,tag,0.5
+legal,discovery,tag,0.5
+legal,dispute-resolution,tag,0.5
+legal,docassemble,tag,0.5
+legal,docket-management,tag,0.5
+legal,docket-mining,tag,0.5
+legal,dockets,tag,0.5
+legal,document-automation,tag,0.5
+legal,document-review,tag,0.5
+legal,dsar,tag,0.5
+legal,e-discovery,tag,0.5
+legal,e-filing,tag,0.5
+legal,e-signature,tag,0.5
+legal,entity-management,tag,0.5
+legal,evidence,tag,0.5
+legal,evidence-management,tag,0.5
+legal,filing,tag,0.5
+legal,filing-automation,tag,0.5
+legal,form-assembly,tag,0.5
+legal,form-automation,tag,0.5
+legal,gdpr,tag,0.5
+legal,identity-verification,tag,0.5
+legal,immigration,tag,0.5
+legal,ip-analytics,tag,0.5
+legal,judge-analytics,tag,0.5
+legal,judicial-workflow,tag,0.5
+legal,knowledge-graph,tag,0.5
+legal,kyc,tag,0.5
+legal,legal-ai,tag,0.5
+legal,legal-aid,tag,0.5
+legal,legal-analytics,tag,0.5
+legal,legal-data,tag,0.5
+legal,legal-nlp,tag,0.5
+legal,legal-ontology,tag,0.5
+legal,litigation-support,tag,0.5
+legal,lkif,tag,0.5
+legal,matter-management,tag,0.5
+legal,mediation,tag,0.5
+legal,odr,tag,0.5
+legal,ontology,tag,0.5
+legal,outcome-prediction,tag,0.5
+legal,patent-search,tag,0.5
+legal,pii-redaction,tag,0.5
+legal,policy-as-code,tag,0.5
+legal,practice-management,tag,0.5
+legal,prior-art,tag,0.5
+legal,privacy,tag,0.5
+legal,privilege-review,tag,0.5
+legal,redaction,tag,0.5
+legal,redlining,tag,0.5
+legal,regulatory,tag,0.5
+legal,regulatory-change,tag,0.5
+legal,rules-engine,tag,0.5
+legal,sanctions,tag,0.5
+legal,self-help,tag,0.5
+legal,smart-contracts,tag,0.5
+legal,tax,tag,0.5
+legal,tax-compliance,tag,0.5
+legal,timekeeping,tag,0.5
+legal,trademark,tag,0.5
+legal,vat,tag,0.5
+legal,visa-processing,tag,0.5
+legal,"access to justice / civic tech — legal aid, self-help, pro bono, guided court forms",category,0.6
+legal,"alternative dispute resolution — odr, arbitration, mediation, settlement workflow tooling",category,0.6
+legal,"aml / kyc / identity — sanctions screening, watchlists, identity verification for compliance",category,0.6
+legal,"compliance / regulatory automation — policy-as-code, audit mapping, regulatory change tracking",category,0.6
+legal,"contract analysis / clm — review, clause extraction, redlining, contract intelligence",category,0.6
+legal,"corporate governance / entity management — entity registries, board workflows, cap-table standards",category,0.6
+legal,"court / case management — docketing, e-filing, case tracking, judicial workflow",category,0.6
+legal,"curated lists / meta sweep — awesome lists, github topics, canonical meta-sources",category,0.6
+legal,"digital forensics / litigation — chain of custody, evidence management, forensic support for cases",category,0.6
+legal,"e-discovery / document review — litigation review workflows, privilege, redaction, evidence review",category,0.6
+legal,"immigration / visa processing — case intake, immigration workflows, filing and tracking",category,0.6
+legal,"ip / patent / trademark — prior art search, patent analytics, trademark tooling",category,0.6
+legal,"legal ai / nlp — legal bert, ner, clause extraction, summarization, citation tooling",category,0.6
+legal,"legal analytics / prediction — docket mining, judge analytics, citation graphs, outcome models",category,0.6
+legal,"legal document automation — guided interviews, form assembly, e-sign, drafting workflows",category,0.6
+legal,"legal knowledge / ontologies — legal schemas, knowledge graphs, akoma ntoso, lkif",category,0.6
+legal,"legal practice management — law-firm matter management, billing, time tracking, operations",category,0.6
+legal,"legal research / case law — opinions, citations, court data, dockets, scrapers",category,0.6
+legal,"privacy / data protection — gdpr, ccpa, dsar, consent, privacy engineering",category,0.6
+legal,"smart contracts / legal — computable contracts, legal clause templates, agreement execution",category,0.6
+legal,"tax compliance / automation — tax rules engines, filing workflows, jurisdictional calculations",category,0.6
+sustainability,sustainability,domain_name,1.0
+sustainability,air-quality-emissions,sub_domain,0.8
+sustainability,biodiversity-monitoring,sub_domain,0.8
+sustainability,carbon-accounting-ghg,sub_domain,0.8
+sustainability,circular-economy-waste,sub_domain,0.8
+sustainability,climate-data-analysis,sub_domain,0.8
+sustainability,climate-finance,sub_domain,0.8
+sustainability,energy-modeling-simulation,sub_domain,0.8
+sustainability,environmental-justice,sub_domain,0.8
+sustainability,esg-reporting-compliance,sub_domain,0.8
+sustainability,green-building-certification,sub_domain,0.8
+sustainability,life-cycle-assessment,sub_domain,0.8
+sustainability,ocean-climate,sub_domain,0.8
+sustainability,remote-sensing-land-use,sub_domain,0.8
+sustainability,renewable-energy-optimization,sub_domain,0.8
+sustainability,smart-grid-demand-response,sub_domain,0.8
+sustainability,supply-chain-sustainability,sub_domain,0.8
+sustainability,sustainability-dashboards-viz,sub_domain,0.8
+sustainability,sustainable-agriculture,sub_domain,0.8
+sustainability,sustainable-transport,sub_domain,0.8
+sustainability,water-resource-management,sub_domain,0.8
+sustainability,air-quality,tag,0.5
+sustainability,bioacoustics,tag,0.5
+sustainability,biodiversity,tag,0.5
+sustainability,blue-carbon,tag,0.5
+sustainability,breeam,tag,0.5
+sustainability,building-energy,tag,0.5
+sustainability,camera-trap,tag,0.5
+sustainability,carbon-accounting,tag,0.5
+sustainability,carbon-credit,tag,0.5
+sustainability,carbon-footprint,tag,0.5
+sustainability,circular-economy,tag,0.5
+sustainability,climate-data,tag,0.5
+sustainability,climate-finance,tag,0.5
+sustainability,climate-risk,tag,0.5
+sustainability,climate-visualization,tag,0.5
+sustainability,cmip,tag,0.5
+sustainability,community-impact,tag,0.5
+sustainability,crop-modeling,tag,0.5
+sustainability,csrd,tag,0.5
+sustainability,data-portal,tag,0.5
+sustainability,deforestation,tag,0.5
+sustainability,demand-response,tag,0.5
+sustainability,dispersion-modeling,tag,0.5
+sustainability,downscaling,tag,0.5
+sustainability,embodied-carbon,tag,0.5
+sustainability,emissions,tag,0.5
+sustainability,energy-modeling,tag,0.5
+sustainability,energy-planning,tag,0.5
+sustainability,energyplus,tag,0.5
+sustainability,environmental-impact,tag,0.5
+sustainability,environmental-justice,tag,0.5
+sustainability,equity,tag,0.5
+sustainability,era5,tag,0.5
+sustainability,esg,tag,0.5
+sustainability,ev-charging,tag,0.5
+sustainability,ev-routing,tag,0.5
+sustainability,exposure-mapping,tag,0.5
+sustainability,ghg,tag,0.5
+sustainability,green-bonds,tag,0.5
+sustainability,green-building,tag,0.5
+sustainability,grid-simulation,tag,0.5
+sustainability,hydrology,tag,0.5
+sustainability,inventory,tag,0.5
+sustainability,issb,tag,0.5
+sustainability,kpi-dashboard,tag,0.5
+sustainability,land-cover,tag,0.5
+sustainability,lca,tag,0.5
+sustainability,leed,tag,0.5
+sustainability,life-cycle,tag,0.5
+sustainability,load-forecasting,tag,0.5
+sustainability,marine-carbon,tag,0.5
+sustainability,material-flow,tag,0.5
+sustainability,microgrid,tag,0.5
+sustainability,mobility,tag,0.5
+sustainability,ndvi,tag,0.5
+sustainability,ocean-acidification,tag,0.5
+sustainability,ocean-climate,tag,0.5
+sustainability,precision-agriculture,tag,0.5
+sustainability,public-transit,tag,0.5
+sustainability,recycling,tag,0.5
+sustainability,regenerative-agriculture,tag,0.5
+sustainability,remote-sensing,tag,0.5
+sustainability,renewable-energy,tag,0.5
+sustainability,scope-3,tag,0.5
+sustainability,sdg,tag,0.5
+sustainability,smart-grid,tag,0.5
+sustainability,soil-carbon,tag,0.5
+sustainability,species-monitoring,tag,0.5
+sustainability,storage-optimization,tag,0.5
+sustainability,supply-chain,tag,0.5
+sustainability,tcfd,tag,0.5
+sustainability,traceability,tag,0.5
+sustainability,transport,tag,0.5
+sustainability,waste-tracking,tag,0.5
+sustainability,water-modeling,tag,0.5
+sustainability,water-quality,tag,0.5
+sustainability,watershed,tag,0.5
+sustainability,"air quality / emissions — pollution monitoring, atmospheric modeling, emissions inventories",category,0.6
+sustainability,"biodiversity monitoring — species detection, camera traps, bioacoustics, ebird and inaturalist",category,0.6
+sustainability,carbon accounting / ghg — carbon footprint calculators and scope 1/2/3 tracking,category,0.6
+sustainability,"circular economy / waste — material flow analysis, recycling optimization, waste tracking",category,0.6
+sustainability,"climate data analysis — climate datasets, downscaling, cmip and era5 processors",category,0.6
+sustainability,"climate finance — green bond analytics, carbon credit markets, climate risk portfolios",category,0.6
+sustainability,"energy modeling / simulation — building energy models, grid simulation, renewable forecasting",category,0.6
+sustainability,"environmental justice — exposure mapping, equity analysis, community impact tools",category,0.6
+sustainability,esg reporting / compliance — esg aggregation and csrd/tcfd/issb reporting tooling,category,0.6
+sustainability,green building certification — leed/breeam tools and building material databases,category,0.6
+sustainability,life cycle assessment — lca databases and environmental impact calculators,category,0.6
+sustainability,"ocean / climate — ocean acidification, marine carbon, blue economy tools",category,0.6
+sustainability,remote sensing / land use — satellite imagery for deforestation and land cover change,category,0.6
+sustainability,"renewable energy optimization — solar and wind siting, microgrid planning, storage optimization",category,0.6
+sustainability,"smart grid / demand response — energy flexibility, demand forecasting, ev charging optimization",category,0.6
+sustainability,"supply chain sustainability — scope 3 traceability, deforestation-free supply chains, fair trade tracking",category,0.6
+sustainability,"sustainability dashboards / visualization — sdg trackers, environmental kpi dashboards, data portals",category,0.6
+sustainability,"sustainable agriculture — precision agriculture, soil carbon, crop modeling",category,0.6
+sustainability,"sustainable transport — ev routing, public transit optimization, mobility-as-a-service",category,0.6
+sustainability,"water resource management — hydrological modeling, water quality, watershed analysis",category,0.6
+telecoms,telecoms,domain_name,1.0
+telecoms,3gpp-compliance,sub_domain,0.8
+telecoms,3gpp-core,sub_domain,0.8
+telecoms,4g,sub_domain,0.8
+telecoms,4g-5g-core,sub_domain,0.8
+telecoms,4g-5g-core-network,sub_domain,0.8
+telecoms,4g-core,sub_domain,0.8
+telecoms,4g-epc,sub_domain,0.8
+telecoms,4g-lte,sub_domain,0.8
+telecoms,5g-core,sub_domain,0.8
+telecoms,5g-core-interfaces,sub_domain,0.8
+telecoms,5g-core-network,sub_domain,0.8
+telecoms,5g-multicast-broadcast,sub_domain,0.8
+telecoms,5g-network-slicing,sub_domain,0.8
+telecoms,5g-ran,sub_domain,0.8
+telecoms,5g-ran-simulation,sub_domain,0.8
+telecoms,5g-ran-testing,sub_domain,0.8
+telecoms,5g-standalone-core,sub_domain,0.8
+telecoms,5g-transport,sub_domain,0.8
+telecoms,5g-transport-validation,sub_domain,0.8
+telecoms,5g-user-plane,sub_domain,0.8
+telecoms,5gc-testing,sub_domain,0.8
+telecoms,6g-simulation,sub_domain,0.8
+telecoms,access-gateway,sub_domain,0.8
+telecoms,agentic-netops,sub_domain,0.8
+telecoms,anomaly-detection,sub_domain,0.8
+telecoms,antenna-control,sub_domain,0.8
+telecoms,api-benchmarking,sub_domain,0.8
+telecoms,api-load-testing,sub_domain,0.8
+telecoms,api-stress-testing,sub_domain,0.8
+telecoms,api-testing,sub_domain,0.8
+telecoms,arista-eos,sub_domain,0.8
+telecoms,asset-administration-shell,sub_domain,0.8
+telecoms,asterisk,sub_domain,0.8
+telecoms,auto-discovery,sub_domain,0.8
+telecoms,bandwidth-measurement,sub_domain,0.8
+telecoms,baseband,sub_domain,0.8
+telecoms,baseband-processing,sub_domain,0.8
+telecoms,bgp,sub_domain,0.8
+telecoms,bgp-telemetry,sub_domain,0.8
+telecoms,billing,sub_domain,0.8
+telecoms,bitcoin-sync,sub_domain,0.8
+telecoms,blockchain-over-satellite,sub_domain,0.8
+telecoms,call-flow-generation,sub_domain,0.8
+telecoms,call-processing,sub_domain,0.8
+telecoms,carrier-grade-lte-5g,sub_domain,0.8
+telecoms,cdr-processing,sub_domain,0.8
+telecoms,cellular-protocol-analysis,sub_domain,0.8
+telecoms,change-detection,sub_domain,0.8
+telecoms,channel-modeling,sub_domain,0.8
+telecoms,chaos-engineering,sub_domain,0.8
+telecoms,cisco-mdt,sub_domain,0.8
+telecoms,cisco-nexus,sub_domain,0.8
+telecoms,cisco-pyats,sub_domain,0.8
+telecoms,clos-fabric,sub_domain,0.8
+telecoms,cloud-edge-orchestration,sub_domain,0.8
+telecoms,cloud-native,sub_domain,0.8
+telecoms,cloud-native-networking,sub_domain,0.8
+telecoms,cloud-native-nfv,sub_domain,0.8
+telecoms,cloud-native-ran,sub_domain,0.8
+telecoms,cloud-native-telco,sub_domain,0.8
+telecoms,cloud-native-telephony,sub_domain,0.8
+telecoms,cloud-native-vnf,sub_domain,0.8
+telecoms,cnf,sub_domain,0.8
+telecoms,cnf-lifecycle,sub_domain,0.8
+telecoms,comparative-testing,sub_domain,0.8
+telecoms,compliance-auditing,sub_domain,0.8
+telecoms,connectivity-testing,sub_domain,0.8
+telecoms,container-workload-management,sub_domain,0.8
+telecoms,containerized-nos,sub_domain,0.8
+telecoms,containerized-ran-core,sub_domain,0.8
+telecoms,containerlab,sub_domain,0.8
+telecoms,core-stress-testing,sub_domain,0.8
+telecoms,cscf,sub_domain,0.8
+telecoms,csp-platform,sub_domain,0.8
+telecoms,cu-du-split,sub_domain,0.8
+telecoms,data-center-networking,sub_domain,0.8
+telecoms,data-modeling,sub_domain,0.8
+telecoms,data-plane,sub_domain,0.8
+telecoms,data-plane-management,sub_domain,0.8
+telecoms,deep-packet-inspection,sub_domain,0.8
+telecoms,degraded-network-conditions,sub_domain,0.8
+telecoms,device-abstraction,sub_domain,0.8
+telecoms,device-classification,sub_domain,0.8
+telecoms,device-discovery,sub_domain,0.8
+telecoms,devops-testing,sub_domain,0.8
+telecoms,diameter,sub_domain,0.8
+telecoms,diameter-signaling,sub_domain,0.8
+telecoms,discrete-event,sub_domain,0.8
+telecoms,distributed-alerting,sub_domain,0.8
+telecoms,distributed-mininet,sub_domain,0.8
+telecoms,distributed-testing,sub_domain,0.8
+telecoms,docker-telemetry,sub_domain,0.8
+telecoms,dockerfiles,sub_domain,0.8
+telecoms,dpdk,sub_domain,0.8
+telecoms,dvb-s2,sub_domain,0.8
+telecoms,e2ap,sub_domain,0.8
+telecoms,ebpf,sub_domain,0.8
+telecoms,ebpf-networking,sub_domain,0.8
+telecoms,ebpf-upf,sub_domain,0.8
+telecoms,edge-computing,sub_domain,0.8
+telecoms,edge-kubernetes,sub_domain,0.8
+telecoms,edge-load-balancing,sub_domain,0.8
+telecoms,elk-stack,sub_domain,0.8
+telecoms,enb-simulation,sub_domain,0.8
+telecoms,end-to-end-mobile-network,sub_domain,0.8
+telecoms,enterprise-networking,sub_domain,0.8
+telecoms,epc,sub_domain,0.8
+telecoms,epc-integration,sub_domain,0.8
+telecoms,etsi-mano,sub_domain,0.8
+telecoms,event-streaming,sub_domain,0.8
+telecoms,evpn,sub_domain,0.8
+telecoms,failure-analysis,sub_domain,0.8
+telecoms,fault-injection,sub_domain,0.8
+telecoms,fault-management,sub_domain,0.8
+telecoms,flow-accounting,sub_domain,0.8
+telecoms,flow-analytics,sub_domain,0.8
+telecoms,flow-collection,sub_domain,0.8
+telecoms,flow-monitoring,sub_domain,0.8
+telecoms,flow-table,sub_domain,0.8
+telecoms,flowspec,sub_domain,0.8
+telecoms,forward-error-correction,sub_domain,0.8
+telecoms,forwarding-plane-analysis,sub_domain,0.8
+telecoms,free5gc,sub_domain,0.8
+telecoms,fronthaul,sub_domain,0.8
+telecoms,genie-parsers,sub_domain,0.8
+telecoms,gnb,sub_domain,0.8
+telecoms,gnb-ue-emulation,sub_domain,0.8
+telecoms,gnmi-automation,sub_domain,0.8
+telecoms,gnmi-netconf,sub_domain,0.8
+telecoms,gradiant-lab5g,sub_domain,0.8
+telecoms,grpc-automation,sub_domain,0.8
+telecoms,grpc-benchmarking,sub_domain,0.8
+telecoms,grpc-streaming,sub_domain,0.8
+telecoms,grpc-testing,sub_domain,0.8
+telecoms,gsm,sub_domain,0.8
+telecoms,gtp-tunneling,sub_domain,0.8
+telecoms,helm-charts,sub_domain,0.8
+telecoms,helm-orchestration,sub_domain,0.8
+telecoms,hep-protocol,sub_domain,0.8
+telecoms,high-performance-dataplane,sub_domain,0.8
+telecoms,high-performance-vswitch,sub_domain,0.8
+telecoms,home-network,sub_domain,0.8
+telecoms,http-benchmarking,sub_domain,0.8
+telecoms,http-traffic-generation,sub_domain,0.8
+telecoms,hyperscaler-infrastructure,sub_domain,0.8
+telecoms,ice,sub_domain,0.8
+telecoms,ietf,sub_domain,0.8
+telecoms,igp-topology,sub_domain,0.8
+telecoms,impairment-testing,sub_domain,0.8
+telecoms,ims-volte,sub_domain,0.8
+telecoms,ims-volte-vonr,sub_domain,0.8
+telecoms,industry-4-0,sub_domain,0.8
+telecoms,infrastructure-as-code,sub_domain,0.8
+telecoms,infrastructure-management,sub_domain,0.8
+telecoms,infrastructure-modeling,sub_domain,0.8
+telecoms,infrastructure-monitoring,sub_domain,0.8
+telecoms,infrastructure-visibility,sub_domain,0.8
+telecoms,interoperability-testing,sub_domain,0.8
+telecoms,inventory-orchestration,sub_domain,0.8
+telecoms,ios-xe,sub_domain,0.8
+telecoms,ios-xr,sub_domain,0.8
+telecoms,iot-device-management,sub_domain,0.8
+telecoms,iot-orchestration,sub_domain,0.8
+telecoms,ip-performance,sub_domain,0.8
+telecoms,ip-routing,sub_domain,0.8
+telecoms,kamailio,sub_domain,0.8
+telecoms,kubernetes,sub_domain,0.8
+telecoms,kubernetes-cni,sub_domain,0.8
+telecoms,kubernetes-edge,sub_domain,0.8
+telecoms,kubernetes-monitoring,sub_domain,0.8
+telecoms,kubernetes-network-emulation,sub_domain,0.8
+telecoms,kubernetes-network-functions,sub_domain,0.8
+telecoms,kubernetes-networking,sub_domain,0.8
+telecoms,kubernetes-sidecar,sub_domain,0.8
+telecoms,kubernetes-telecom,sub_domain,0.8
+telecoms,l1-phy,sub_domain,0.8
+telecoms,lab-automation,sub_domain,0.8
+telecoms,large-scale-topology,sub_domain,0.8
+telecoms,latency-benchmarking,sub_domain,0.8
+telecoms,latency-measurement,sub_domain,0.8
+telecoms,layer2-layer3,sub_domain,0.8
+telecoms,legacy-toolset,sub_domain,0.8
+telecoms,lightning-payments,sub_domain,0.8
+telecoms,lightweight-core,sub_domain,0.8
+telecoms,load-testing,sub_domain,0.8
+telecoms,lte,sub_domain,0.8
+telecoms,lte-epc,sub_domain,0.8
+telecoms,lte-ran,sub_domain,0.8
+telecoms,manet,sub_domain,0.8
+telecoms,mb-upf,sub_domain,0.8
+telecoms,media-processing,sub_domain,0.8
+telecoms,message-transmission,sub_domain,0.8
+telecoms,microservice-load-testing,sub_domain,0.8
+telecoms,microservice-networking,sub_domain,0.8
+telecoms,mno-federation,sub_domain,0.8
+telecoms,mobile-core-network,sub_domain,0.8
+telecoms,mobility,sub_domain,0.8
+telecoms,modcod,sub_domain,0.8
+telecoms,model-driven-telemetry,sub_domain,0.8
+telecoms,model-validation,sub_domain,0.8
+telecoms,mpls,sub_domain,0.8
+telecoms,multi-generation-interworking,sub_domain,0.8
+telecoms,multi-protocol,sub_domain,0.8
+telecoms,multi-protocol-routing,sub_domain,0.8
+telecoms,multi-protocol-telecom-lab,sub_domain,0.8
+telecoms,multi-protocol-testing,sub_domain,0.8
+telecoms,multi-ue,sub_domain,0.8
+telecoms,multi-vendor,sub_domain,0.8
+telecoms,multi-vendor-config,sub_domain,0.8
+telecoms,multi-vendor-interop,sub_domain,0.8
+telecoms,multi-vendor-netconf,sub_domain,0.8
+telecoms,multi-vendor-nms,sub_domain,0.8
+telecoms,multi-vendor-nos,sub_domain,0.8
+telecoms,multi-vendor-orchestration,sub_domain,0.8
+telecoms,multi-vendor-topology,sub_domain,0.8
+telecoms,multitenant-voip,sub_domain,0.8
+telecoms,netconf,sub_domain,0.8
+telecoms,netconf-restconf,sub_domain,0.8
+telecoms,netsim,sub_domain,0.8
+telecoms,network-backup,sub_domain,0.8
+telecoms,network-chaos,sub_domain,0.8
+telecoms,network-configuration-automation,sub_domain,0.8
+telecoms,network-configuration-verification,sub_domain,0.8
+telecoms,network-control-plane,sub_domain,0.8
+telecoms,network-device-state,sub_domain,0.8
+telecoms,network-digital-twin,sub_domain,0.8
+telecoms,network-element-simulation,sub_domain,0.8
+telecoms,network-emulation,sub_domain,0.8
+telecoms,network-emulator,sub_domain,0.8
+telecoms,network-flow,sub_domain,0.8
+telecoms,network-flow-analytics,sub_domain,0.8
+telecoms,network-function-prototyping,sub_domain,0.8
+telecoms,network-function-virtualization,sub_domain,0.8
+telecoms,network-functions,sub_domain,0.8
+telecoms,network-lab,sub_domain,0.8
+telecoms,network-lab-automation,sub_domain,0.8
+telecoms,network-lab-orchestration,sub_domain,0.8
+telecoms,network-model,sub_domain,0.8
+telecoms,network-modeling,sub_domain,0.8
+telecoms,network-observability,sub_domain,0.8
+telecoms,network-operating-system,sub_domain,0.8
+telecoms,network-orchestration,sub_domain,0.8
+telecoms,network-os,sub_domain,0.8
+telecoms,network-os-emulation,sub_domain,0.8
+telecoms,network-programmability,sub_domain,0.8
+telecoms,network-protocols,sub_domain,0.8
+telecoms,network-security,sub_domain,0.8
+telecoms,network-service-lifecycle,sub_domain,0.8
+telecoms,network-service-orchestration,sub_domain,0.8
+telecoms,network-simulation,sub_domain,0.8
+telecoms,network-slicing,sub_domain,0.8
+telecoms,network-switching,sub_domain,0.8
+telecoms,network-test-automation,sub_domain,0.8
+telecoms,network-testing,sub_domain,0.8
+telecoms,network-throughput,sub_domain,0.8
+telecoms,network-topology-orchestration,sub_domain,0.8
+telecoms,network-topology-testing,sub_domain,0.8
+telecoms,network-traffic-analysis,sub_domain,0.8
+telecoms,network-traffic-monitoring,sub_domain,0.8
+telecoms,network-troubleshooting,sub_domain,0.8
+telecoms,nfv-dataplane,sub_domain,0.8
+telecoms,nfv-mano,sub_domain,0.8
+telecoms,nfv-performance-testing,sub_domain,0.8
+telecoms,ngap,sub_domain,0.8
+telecoms,ngap-nas,sub_domain,0.8
+telecoms,nms,sub_domain,0.8
+telecoms,nokia-sr-linux,sub_domain,0.8
+telecoms,non-terrestrial-network,sub_domain,0.8
+telecoms,nornir,sub_domain,0.8
+telecoms,nos-management-plane,sub_domain,0.8
+telecoms,nso,sub_domain,0.8
+telecoms,ntn-integration,sub_domain,0.8
+telecoms,nxos-telemetry,sub_domain,0.8
+telecoms,o-ran,sub_domain,0.8
+telecoms,observium,sub_domain,0.8
+telecoms,odtn,sub_domain,0.8
+telecoms,offline-analysis,sub_domain,0.8
+telecoms,online-charging,sub_domain,0.8
+telecoms,open-networking,sub_domain,0.8
+telecoms,open-ran-testbed,sub_domain,0.8
+telecoms,openconfig-gnmi,sub_domain,0.8
+telecoms,openstack,sub_domain,0.8
+telecoms,optical-transport,sub_domain,0.8
+telecoms,oran,sub_domain,0.8
+telecoms,osmocom,sub_domain,0.8
+telecoms,ospf-isis,sub_domain,0.8
+telecoms,otg-standard,sub_domain,0.8
+telecoms,p4-programmable-dataplane,sub_domain,0.8
+telecoms,p4-programmable-switch,sub_domain,0.8
+telecoms,packet-capture,sub_domain,0.8
+telecoms,packet-forwarding,sub_domain,0.8
+telecoms,packet-processing,sub_domain,0.8
+telecoms,performance-benchmarking,sub_domain,0.8
+telecoms,phy-layer-visualization,sub_domain,0.8
+telecoms,pre-deployment-testing,sub_domain,0.8
+telecoms,private-network,sub_domain,0.8
+telecoms,private-network-experiments,sub_domain,0.8
+telecoms,programmable-network-functions,sub_domain,0.8
+telecoms,programmable-pbx,sub_domain,0.8
+telecoms,programmable-routing,sub_domain,0.8
+telecoms,prometheus,sub_domain,0.8
+telecoms,protocol-benchmarking,sub_domain,0.8
+telecoms,proxy-minion,sub_domain,0.8
+telecoms,qos-simulation,sub_domain,0.8
+telecoms,quic,sub_domain,0.8
+telecoms,radio-access-network,sub_domain,0.8
+telecoms,radius,sub_domain,0.8
+telecoms,ran-core-integration,sub_domain,0.8
+telecoms,ran-emulation,sub_domain,0.8
+telecoms,ran-intelligence,sub_domain,0.8
+telecoms,ran-simulation,sub_domain,0.8
+telecoms,real-time-communications,sub_domain,0.8
+telecoms,real-time-monitoring,sub_domain,0.8
+telecoms,rel17-mbs,sub_domain,0.8
+telecoms,research-networking,sub_domain,0.8
+telecoms,resilience-testing,sub_domain,0.8
+telecoms,resiliency-testing,sub_domain,0.8
+telecoms,resource-constrained-edge,sub_domain,0.8
+telecoms,restconf-datastore,sub_domain,0.8
+telecoms,rf-toolbox,sub_domain,0.8
+telecoms,ric,sub_domain,0.8
+telecoms,ric-integration,sub_domain,0.8
+telecoms,route-injection,sub_domain,0.8
+telecoms,route-policy,sub_domain,0.8
+telecoms,router-firewall,sub_domain,0.8
+telecoms,routing,sub_domain,0.8
+telecoms,routing-protocol-validation,sub_domain,0.8
+telecoms,routing-stack,sub_domain,0.8
+telecoms,rtc-troubleshooting,sub_domain,0.8
+telecoms,rtp-media,sub_domain,0.8
+telecoms,rtp-proxy,sub_domain,0.8
+telecoms,rust-telecom,sub_domain,0.8
+telecoms,saltstack-orchestration,sub_domain,0.8
+telecoms,satellite,sub_domain,0.8
+telecoms,satellite-backhaul,sub_domain,0.8
+telecoms,satellite-ground-station,sub_domain,0.8
+telecoms,scalable-emulation,sub_domain,0.8
+telecoms,sd-ran,sub_domain,0.8
+telecoms,sdk-generation,sub_domain,0.8
+telecoms,sdn,sub_domain,0.8
+telecoms,sdn-control-plane,sub_domain,0.8
+telecoms,sdn-data-plane,sub_domain,0.8
+telecoms,sdn-emulation,sub_domain,0.8
+telecoms,sdn-orchestration,sub_domain,0.8
+telecoms,sdr,sub_domain,0.8
+telecoms,sdr-containerized,sub_domain,0.8
+telecoms,security-testing,sub_domain,0.8
+telecoms,segment-routing,sub_domain,0.8
+telecoms,server-monitoring,sub_domain,0.8
+telecoms,service-based-architecture,sub_domain,0.8
+telecoms,service-health,sub_domain,0.8
+telecoms,service-platform,sub_domain,0.8
+telecoms,sionna,sub_domain,0.8
+telecoms,sip-media,sub_domain,0.8
+telecoms,sip-monitoring,sub_domain,0.8
+telecoms,sip-provider,sub_domain,0.8
+telecoms,sip-proxy,sub_domain,0.8
+telecoms,sip-signaling,sub_domain,0.8
+telecoms,sip-switching,sub_domain,0.8
+telecoms,sip-testing,sub_domain,0.8
+telecoms,sip-webrtc-bridging,sub_domain,0.8
+telecoms,slice-aware-qos,sub_domain,0.8
+telecoms,smo,sub_domain,0.8
+telecoms,snmp-discovery,sub_domain,0.8
+telecoms,snmp-monitoring,sub_domain,0.8
+telecoms,snmp-polling,sub_domain,0.8
+telecoms,software-defined-networking,sub_domain,0.8
+telecoms,software-switch,sub_domain,0.8
+telecoms,speedtest,sub_domain,0.8
+telecoms,srsepc,sub_domain,0.8
+telecoms,srslte,sub_domain,0.8
+telecoms,srsran,sub_domain,0.8
+telecoms,ss7-sigtran,sub_domain,0.8
+telecoms,standalone-5g,sub_domain,0.8
+telecoms,status-dashboard,sub_domain,0.8
+telecoms,subscriber-management,sub_domain,0.8
+telecoms,swagger,sub_domain,0.8
+telecoms,switch-os,sub_domain,0.8
+telecoms,sysrepo,sub_domain,0.8
+telecoms,tapi,sub_domain,0.8
+telecoms,tcp-simulation,sub_domain,0.8
+telecoms,telecom-api-evaluation,sub_domain,0.8
+telecoms,telecom-load-testing,sub_domain,0.8
+telecoms,telemetry,sub_domain,0.8
+telecoms,telemetry-decoding,sub_domain,0.8
+telecoms,telemetry-mirroring,sub_domain,0.8
+telecoms,telephony,sub_domain,0.8
+telecoms,telephony-carrier,sub_domain,0.8
+telecoms,telephony-integration,sub_domain,0.8
+telecoms,telephony-platform,sub_domain,0.8
+telecoms,telstra,sub_domain,0.8
+telecoms,tig-stack,sub_domain,0.8
+telecoms,topology-emulation,sub_domain,0.8
+telecoms,topology-management,sub_domain,0.8
+telecoms,traffic-analysis,sub_domain,0.8
+telecoms,traffic-analytics,sub_domain,0.8
+telecoms,traffic-engineering,sub_domain,0.8
+telecoms,traffic-generator,sub_domain,0.8
+telecoms,traffic-simulation,sub_domain,0.8
+telecoms,transcoding,sub_domain,0.8
+telecoms,transport-layer,sub_domain,0.8
+telecoms,ttcn3-testing,sub_domain,0.8
+telecoms,turn-stun,sub_domain,0.8
+telecoms,ue-emulation,sub_domain,0.8
+telecoms,ue-simulation,sub_domain,0.8
+telecoms,ueransim,sub_domain,0.8
+telecoms,umts,sub_domain,0.8
+telecoms,unified-communications,sub_domain,0.8
+telecoms,unified-monitoring,sub_domain,0.8
+telecoms,upf,sub_domain,0.8
+telecoms,upf-deployment,sub_domain,0.8
+telecoms,uptime-visibility,sub_domain,0.8
+telecoms,user-plane-function,sub_domain,0.8
+telecoms,userspace-forwarding,sub_domain,0.8
+telecoms,ves,sub_domain,0.8
+telecoms,virtual-router,sub_domain,0.8
+telecoms,virtual-switching,sub_domain,0.8
+telecoms,vnf-lifecycle,sub_domain,0.8
+telecoms,voice-over-lte,sub_domain,0.8
+telecoms,voip,sub_domain,0.8
+telecoms,voip-gateway,sub_domain,0.8
+telecoms,voip-infrastructure,sub_domain,0.8
+telecoms,voip-load-testing,sub_domain,0.8
+telecoms,voip-observability,sub_domain,0.8
+telecoms,voip-routing,sub_domain,0.8
+telecoms,volte,sub_domain,0.8
+telecoms,vpn-gateway,sub_domain,0.8
+telecoms,vpp,sub_domain,0.8
+telecoms,vpp-dataplane,sub_domain,0.8
+telecoms,webrtc,sub_domain,0.8
+telecoms,wifi-emulation,sub_domain,0.8
+telecoms,wireless-routing,sub_domain,0.8
+telecoms,wireless-sdn,sub_domain,0.8
+telecoms,wireless-security,sub_domain,0.8
+telecoms,xapp,sub_domain,0.8
+telecoms,xdp-dataplane,sub_domain,0.8
+telecoms,yang-datastore,sub_domain,0.8
+telecoms,yang-modeling,sub_domain,0.8
+telecoms,yang-netconf-management,sub_domain,0.8
+telecoms,yang-telemetry,sub_domain,0.8
+trading,trading,domain_name,1.0
+trading,ai-ml-for-trading,sub_domain,0.8
+trading,backtesting-frameworks,sub_domain,0.8
+trading,broker-exchange-connectors,sub_domain,0.8
+trading,charting-visualization,sub_domain,0.8
+trading,crypto-defi-dex-tools,sub_domain,0.8
+trading,live-algo-execution-engines,sub_domain,0.8
+trading,market-data-feeds,sub_domain,0.8
+trading,options-derivatives,sub_domain,0.8
+trading,order-book-market-microstructure,sub_domain,0.8
+trading,paper-trading-simulation,sub_domain,0.8
+trading,portfolio-risk-management,sub_domain,0.8
+trading,quant-research-notebooks,sub_domain,0.8
+trading,sentiment-alternative-data,sub_domain,0.8
+trading,technical-analysis-libraries,sub_domain,0.8
+trading,trading-bots-strategy-frameworks,sub_domain,0.8
+trading,allocation,tag,0.5
+trading,alpha-research,tag,0.5
+trading,alternative-data,tag,0.5
+trading,automation,tag,0.5
+trading,backtesting,tag,0.5
+trading,broker-api,tag,0.5
+trading,candlesticks,tag,0.5
+trading,charting,tag,0.5
+trading,connectors,tag,0.5
+trading,data-ingestion,tag,0.5
+trading,defi,tag,0.5
+trading,derivatives,tag,0.5
+trading,dex,tag,0.5
+trading,exchange-api,tag,0.5
+trading,execution,tag,0.5
+trading,finbert,tag,0.5
+trading,flashbots,tag,0.5
+trading,historical-data,tag,0.5
+trading,indicators,tag,0.5
+trading,live-trading,tag,0.5
+trading,machine-learning,tag,0.5
+trading,market-data,tag,0.5
+trading,market-microstructure,tag,0.5
+trading,matching-engine,tag,0.5
+trading,mev,tag,0.5
+trading,news-analytics,tag,0.5
+trading,notebooks,tag,0.5
+trading,options,tag,0.5
+trading,order-book,tag,0.5
+trading,order-routing,tag,0.5
+trading,paper-trading,tag,0.5
+trading,portfolio,tag,0.5
+trading,quant-research,tag,0.5
+trading,quant-trading,tag,0.5
+trading,quantlib,tag,0.5
+trading,real-time-feeds,tag,0.5
+trading,reinforcement-learning,tag,0.5
+trading,risk-management,tag,0.5
+trading,sentiment,tag,0.5
+trading,signal-generation,tag,0.5
+trading,simulation,tag,0.5
+trading,stocktwits,tag,0.5
+trading,strategy-framework,tag,0.5
+trading,strategy-simulation,tag,0.5
+trading,technical-analysis,tag,0.5
+trading,trading,tag,0.5
+trading,trading-bot,tag,0.5
+trading,uniswap,tag,0.5
+trading,virtual-broker,tag,0.5
+trading,visualization,tag,0.5
+trading,volatility,tag,0.5
+trading,backtesting framework,category,0.6
+trading,defi trading sdk,category,0.6
+trading,exchange/broker connector,category,0.6
+trading,financial charting library,category,0.6
+trading,market data feed,category,0.6
+trading,ml trading framework,category,0.6
+trading,options analytics library,category,0.6
+trading,order book engine,category,0.6
+trading,paper trading simulator,category,0.6
+trading,portfolio optimization,category,0.6
+trading,quant research toolkit,category,0.6
+trading,sentiment & alt data,category,0.6
+trading,technical analysis library,category,0.6
+trading,trading bot framework,category,0.6
+trading,trading execution engine,category,0.6

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/davidcico/enhanced-event-driven-backtester",
+  "name": "davidcico/enhanced-event-driven-backtester",
+  "description": "In this repository, an event-driven backtester is implemented based on QuantStart articles. The backtester is programmed in Python featuring numerous improvements, in terms of coding structure, data handling, and simple trading strategies.",
+  "sub_domain": "backtesting-frameworks",
+  "score": 5,
+  "score_rationale": "Explicit event-driven backtester with a clear framework orientation and useful implementation detail.",
+  "stars": 69,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2021-05-03",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 44.8,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "In this repository, an event-driven backtester is implemented based on QuantStart articles. The backtester is...",
+  "slug": "davidcico-enhanced-event-driven-backtester"
+}

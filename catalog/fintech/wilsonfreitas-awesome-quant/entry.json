@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/wilsonfreitas/awesome-quant",
+  "name": "wilsonfreitas/awesome-quant",
+  "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
+  "sub_domain": "financial-market-data",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 25101,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 65.2,
+  "discovery_score": 5,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions",
+    "quant"
+  ],
+  "category": "Financial Market Data",
+  "summary": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
+  "slug": "wilsonfreitas-awesome-quant"
+}

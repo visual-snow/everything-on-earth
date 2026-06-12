@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/payment-components/demo-iso20022",
+  "name": "payment-components/demo-iso20022",
+  "description": "Demo project using ISO20022 Message validation library",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; penalized for demo-style signals.",
+  "stars": 35,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 36.5,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "Demo project using ISO20022 Message validation library",
+  "slug": "payment-components-demo-iso20022"
+}

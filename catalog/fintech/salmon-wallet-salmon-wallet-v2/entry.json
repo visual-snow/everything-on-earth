@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/salmon-wallet/salmon-wallet-v2",
+  "name": "salmon-wallet/salmon-wallet-v2",
+  "description": "Self-custodial, open-source & community-owned Solana wallet",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 26,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-29",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 29.5,
+  "discovery_score": 3,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Self-custodial, open-source & community-owned Solana wallet",
+  "slug": "salmon-wallet-salmon-wallet-v2"
+}

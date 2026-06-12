@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/quantweb3-com/nexustrader",
+  "name": "quantweb3-com/nexustrader",
+  "description": "NexusTrader is a professional-grade open-source quantitative trading platform",
+  "sub_domain": "financial-market-data",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 555,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 28.0,
+  "discovery_score": 1,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "NexusTrader is a professional-grade open-source quantitative trading platform",
+  "slug": "quantweb3-com-nexustrader"
+}

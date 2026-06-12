@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/codseg/openproctor",
+  "name": "Codseg/openproctor",
+  "description": "An open-source proctoring library.",
+  "sub_domain": "assessment-testing",
+  "score": 6,
+  "score_rationale": "Proctoring-focused library that fits exam-integrity workflows, though it is less complete than the dedicated browser and server tools.",
+  "stars": 4,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2024-09-12",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 41.6,
+  "discovery_score": 6,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "An open-source proctoring library.",
+  "slug": "codseg-openproctor"
+}

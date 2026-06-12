@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rogendo/mental-health-chatbot",
+  "name": "Rogendo/Mental-health-Chatbot",
+  "description": "A multilingual bot designed to provide emotional support and assistance to individuals struggling with mental health issues.",
+  "sub_domain": "mental-health-behavioral",
+  "score": 8,
+  "score_rationale": "Direct emotional-support chatbot with multilingual assistance and explicit mental-health positioning.",
+  "stars": 215,
+  "language": "CSS",
+  "license": null,
+  "last_activity": "2025-01-21",
+  "found_in_domains": [
+    "mental-health-behavioral"
+  ],
+  "quality_score": 66.7,
+  "discovery_score": 8,
+  "tags": [
+    "mental-health",
+    "behavioral-health",
+    "cbt",
+    "screening"
+  ],
+  "category": "Mental Health, Behavioral Health, CBT, Mood Tracking & Crisis Support",
+  "summary": "A multilingual bot designed to provide emotional support and assistance to individuals struggling with mental health issues.",
+  "slug": "rogendo-mental-health-chatbot"
+}

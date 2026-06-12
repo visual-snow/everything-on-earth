@@ -1,0 +1,26 @@
+[
+  {
+    "repo_url": "https://github.com/Lumiwealth/lumibot",
+    "name": "Lumiwealth/lumibot",
+    "description": "Backtesting and Trading Bots Made Easy for Crypto, Stocks, Options, Futures, FOREX and more",
+    "sub_domain": "paper-trading-simulation",
+    "score": 9,
+    "score_rationale": "Serious trading library with explicit paper trading account support plus backtesting and live execution paths.",
+    "stars": 1304,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "last_activity": "2026-03-18"
+  },
+  {
+    "repo_url": "https://github.com/paperinvest/mcp-server",
+    "name": "paperinvest/mcp-server",
+    "description": "Official MCP server for Paper's trading platform - enables AI assistants to interact with Paper's API",
+    "sub_domain": "paper-trading-simulation",
+    "score": 8,
+    "score_rationale": "Direct paper-trading API surface for fetching quotes, placing paper orders, and inspecting portfolios.",
+    "stars": 22,
+    "language": "JavaScript",
+    "license": "MIT",
+    "last_activity": "2025-09-19"
+  }
+]

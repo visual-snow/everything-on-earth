@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/funkelab/synful_fafb",
+  "name": "funkelab/synful_fafb",
+  "description": "Predicted synaptic partners for the full adult fly brain (FAFB) EM dataset.",
+  "sub_domain": "connectomics",
+  "score": 9,
+  "score_rationale": "Connectomics dataset access layer centered on whole-brain EM synapse predictions and circuit reconstruction.",
+  "stars": 8,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2021-04-15",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 61.6,
+  "discovery_score": 9,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "Predicted synaptic partners for the full adult fly brain (FAFB) EM dataset.",
+  "slug": "funkelab-synful-fafb"
+}

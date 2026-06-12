@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opensourcephysics/tracker",
+  "name": "OpenSourcePhysics/tracker",
+  "description": "Video analysis and modeling tool built on the Open Source Physics framework.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 8,
+  "score_rationale": "Widely used educational physics-analysis tool that supports experiment and lab workflows.",
+  "stars": 285,
+  "language": "Java",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 67.7,
+  "discovery_score": 8,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Video analysis and modeling tool built on the Open Source Physics framework.",
+  "slug": "opensourcephysics-tracker"
+}

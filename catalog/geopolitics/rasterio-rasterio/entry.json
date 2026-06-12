@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/rasterio/rasterio",
+  "name": "rasterio/rasterio",
+  "description": "Rasterio reads and writes geospatial raster datasets",
+  "stars": 2499,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "sub_domain": "geoint-tools",
+  "score": 8,
+  "score_rationale": "Foundational raster IO library that underpins imagery and geospatial analysis tooling.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 75.2,
+  "tags": [
+    "raster-data",
+    "geospatial",
+    "imagery",
+    "io"
+  ],
+  "category": "Raster IO Library",
+  "summary": "Core library for reading and writing geospatial raster datasets.",
+  "slug": "rasterio-rasterio"
+}

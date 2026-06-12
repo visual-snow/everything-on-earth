@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/goplasmatic/mxmessage",
+  "name": "goplasmatic/mxmessage",
+  "description": "ISO20022 MX Message library",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 6,
+  "language": "Rust",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-19",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "ISO20022 MX Message library",
+  "slug": "goplasmatic-mxmessage"
+}

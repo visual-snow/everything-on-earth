@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/xy-chen16/epiagent",
+  "name": "xy-chen16/epiagent",
+  "description": "A foundation model for single-cell epigenomic data",
+  "sub_domain": "epigenomics",
+  "score": 8,
+  "score_rationale": "A newer single-cell epigenomic foundation model that is highly relevant, but still has a smaller track record than the canonical tools.",
+  "stars": 60,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-06",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 62.3,
+  "discovery_score": 8,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "A foundation model for single-cell epigenomic data",
+  "slug": "xy-chen16-epiagent"
+}

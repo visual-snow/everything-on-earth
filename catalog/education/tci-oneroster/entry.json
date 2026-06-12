@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tci/oneroster",
+  "name": "TCI/OneRoster",
+  "description": "API wrapper for the OneRoster API.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 6,
+  "score_rationale": "Straightforward OneRoster client wrapper that fits roster sync and school data integration workflows.",
+  "stars": 4,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2025-10-27",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 41.6,
+  "discovery_score": 6,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "API wrapper for the OneRoster API.",
+  "slug": "tci-oneroster"
+}

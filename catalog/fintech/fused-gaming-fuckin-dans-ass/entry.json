@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/fused-gaming/fuckin-dans-ass",
+  "name": "fused-gaming/fuckin-dans-ass",
+  "description": "Blockchain forensic analysis toolkit for tracking illegal operations and on-chain fraud. Complete investigation framework with transaction analysis, address attribution, and evidence report generation.",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": "ISC",
+  "last_activity": "2025-12-19",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev",
+    "fraud"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Blockchain forensic analysis toolkit for tracking illegal operations and on-chain fraud. Complete investigation framework with transactio...",
+  "slug": "fused-gaming-fuckin-dans-ass"
+}

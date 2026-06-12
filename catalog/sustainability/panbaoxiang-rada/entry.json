@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/panbaoxiang/rada",
+  "name": "panbaoxiang/rada",
+  "description": "Regularized Adversarial Domain Adaptation -- data-driven correction of climate model biases",
+  "sub_domain": "climate-data-analysis",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 11,
+  "language": "Mathematica",
+  "license": "MIT",
+  "last_activity": "2022-09-11",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 32.6,
+  "discovery_score": 4,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "Regularized Adversarial Domain Adaptation -- data-driven correction of climate model biases",
+  "slug": "panbaoxiang-rada"
+}

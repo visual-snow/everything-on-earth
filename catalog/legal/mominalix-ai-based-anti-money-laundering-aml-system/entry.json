@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/mominalix/ai-based-anti-money-laundering-aml-system",
+  "name": "mominalix/ai-based-anti-money-laundering-aml-system",
+  "description": "A production-ready AML compliance platform that uses machine learning and AI to detect financial crimes in real-time. Built with microservices architecture, it analyzes transaction patterns, screens against sanctions lists, and automatically generates regulatory reports using OpenAI integration.",
+  "sub_domain": "aml-kyc-identity",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 5,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-06-08",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification",
+    "compliance",
+    "regulatory"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "A production-ready AML compliance platform that uses machine learning and AI to detect financial crimes in real-time. Built with microser...",
+  "slug": "mominalix-ai-based-anti-money-laundering-aml-system"
+}

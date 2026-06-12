@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/opensource-emr/telemedicine",
+  "name": "opensource-emr/Telemedicine",
+  "description": "This is a free open source telemedicine project which helps doctors and patients connect via video call.",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 8,
+  "score_rationale": "Core telemedicine app with video consult and chat features, plus a modest history of use and community interest.",
+  "stars": 112,
+  "language": "CSS",
+  "license": null,
+  "last_activity": "2023-08-06",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 64.4,
+  "discovery_score": 8,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video",
+    "emr",
+    "patient-records"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "This is a free open source telemedicine project which helps doctors and patients connect via video call.",
+  "slug": "opensource-emr-telemedicine"
+}

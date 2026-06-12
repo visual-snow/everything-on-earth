@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/rsepulveda911112/headline-stance-detection",
+  "name": "rsepulveda911112/Headline-Stance-Detection",
+  "description": "Headline stance detection for evaluating whether a headline agrees with a target claim or topic.",
+  "sub_domain": "political-text-nlp",
+  "score": 8,
+  "score_rationale": "A focused stance-detection project that is more directly useful than the lower-signal language-specific entries.",
+  "stars": 18,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2021-10-28",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 58.2,
+  "tags": [
+    "headline-analysis",
+    "stance-detection",
+    "claim-matching"
+  ],
+  "category": "Headline Analysis",
+  "summary": "Checks whether headlines agree with a target claim or topic.",
+  "slug": "rsepulveda911112-headline-stance-detection"
+}

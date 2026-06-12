@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jact/openclinic",
+  "name": "jact/openclinic",
+  "description": "OpenClinic is an easy to use, open source, medical records system written in PHP.",
+  "sub_domain": "ehr-practice-management",
+  "score": 6,
+  "score_rationale": "Small but clearly relevant medical-records system for clinics and private doctors.",
+  "stars": 41,
+  "language": "PHP",
+  "license": "GPL-2.0",
+  "last_activity": "2019-10-01",
+  "found_in_domains": [
+    "ehr-practice-management"
+  ],
+  "quality_score": 49.0,
+  "discovery_score": 6,
+  "tags": [
+    "ehr",
+    "emr",
+    "patient-records",
+    "practice-management"
+  ],
+  "category": "Electronic Health Records (EHR), Clinical Documentation & Practice Management",
+  "summary": "OpenClinic is an easy to use, open source, medical records system written in PHP.",
+  "slug": "jact-openclinic"
+}

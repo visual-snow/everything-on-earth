@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/krish567366/submicro-execution-engine",
+  "name": "krish567366/submicro-execution-engine",
+  "description": "Sub-microsecond bare-metal execution engine with deterministic replay, lock-free order path, and hardware-timestamped latency measurement.",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 9,
+  "score_rationale": "Very strong low-latency execution and replay design for microstructure work.",
+  "stars": 90,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2026-01-25",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 69.7,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "Sub-microsecond bare-metal execution engine with deterministic replay, lock-free order path, and...",
+  "slug": "krish567366-submicro-execution-engine"
+}

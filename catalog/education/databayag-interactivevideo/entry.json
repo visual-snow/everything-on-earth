@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/databayag/interactivevideo",
+  "name": "DatabayAG/InteractiveVideo",
+  "description": "ILIAS Interactive Video Plugin",
+  "sub_domain": "video-lecture-platforms",
+  "score": 5,
+  "score_rationale": "Interactive educational video plugin used inside an LMS ecosystem.",
+  "stars": 27,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "video-lecture-platforms"
+  ],
+  "quality_score": 41.6,
+  "discovery_score": 5,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation",
+    "interactive"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "ILIAS Interactive Video Plugin",
+  "slug": "databayag-interactivevideo"
+}

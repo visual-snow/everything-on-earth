@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/hospitalrun/hospitalrun-server",
+  "name": "hospitalrun/hospitalrun-server",
+  "description": "Backend for HospitalRun.",
+  "sub_domain": "ehr-practice-management",
+  "score": 8,
+  "score_rationale": "Core backend for the same EMR product, directly relevant to clinical workflow management.",
+  "stars": 884,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2023-01-09",
+  "found_in_domains": [
+    "ehr-practice-management",
+    "hospital-operations-scheduling"
+  ],
+  "quality_score": 71.6,
+  "discovery_score": 8,
+  "tags": [
+    "ehr",
+    "emr",
+    "patient-records",
+    "practice-management"
+  ],
+  "category": "Electronic Health Records (EHR), Clinical Documentation & Practice Management",
+  "summary": "Backend for HospitalRun.",
+  "slug": "hospitalrun-hospitalrun-server"
+}

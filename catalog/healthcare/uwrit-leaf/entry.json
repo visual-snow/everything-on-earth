@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/uwrit/leaf",
+  "name": "uwrit/leaf",
+  "description": "Leaf Clinical Data Explorer",
+  "sub_domain": "clinical-trials-research",
+  "score": 8,
+  "score_rationale": "Useful clinical data exploration layer for research and feasibility-style analysis.",
+  "stars": 101,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "last_activity": "2025-11-03",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 64.1,
+  "discovery_score": 8,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Leaf Clinical Data Explorer",
+  "slug": "uwrit-leaf"
+}

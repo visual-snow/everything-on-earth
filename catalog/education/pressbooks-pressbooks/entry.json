@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pressbooks/pressbooks",
+  "name": "pressbooks/pressbooks",
+  "description": "Open-source book publishing software used to create and publish open educational resources.",
+  "sub_domain": "curriculum-authoring",
+  "score": 9,
+  "score_rationale": "One of the clearest OER publishing platforms in scope, with direct support for educator-authored books and multi-format publishing.",
+  "stars": 446,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "curriculum-authoring"
+  ],
+  "quality_score": 75.2,
+  "discovery_score": 9,
+  "tags": [
+    "curriculum",
+    "authoring",
+    "oer",
+    "courseware"
+  ],
+  "category": "Curriculum, Content Authoring, OER Publishing & Interactive Courseware",
+  "summary": "Open-source book publishing software used to create and publish open educational resources.",
+  "slug": "pressbooks-pressbooks"
+}

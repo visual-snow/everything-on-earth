@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/gersteinlab/genai4drug",
+  "name": "gersteinlab/GenAI4Drug",
+  "description": "[Briefings in Bioinformatics] A Survey of Generative AI for de novo Drug Design",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 6,
+  "score_rationale": "Useful survey/reference repo for generative drug design, but less of a production toolchain.",
+  "stars": 96,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-11-30",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 51.9,
+  "discovery_score": 6,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening",
+    "bioinformatics"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "[Briefings in Bioinformatics] A Survey of Generative AI for de novo Drug Design",
+  "slug": "gersteinlab-genai4drug"
+}

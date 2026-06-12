@@ -1,0 +1,14 @@
+{
+  "slug": "hapifhir-hapi-fhir",
+  "name": "hapifhir/hapi-fhir",
+  "what_it_is": "HAPI FHIR is a Java library and server framework for building HL7 FHIR clients and servers, providing both a plain/facade server mode and a full JPA server with its own relational-database schema covering FHIR DSTU2 through R5.",
+  "components": ["Core model and parser", "Generic and Annotation REST clients", "Plain/Facade server", "JPA persistence layer", "JAX-RS server", "Master Data Management (patient matching)", "Subscription engine", "CDS Hooks integration", "International Patient Summary", "Async batch job framework", "Instance validator", "OpenAPI/Swagger UI", "CLI tool", "HFQL query language", "Spring Boot auto-configuration"],
+  "protocols": ["FHIR DSTU2/DSTU3/R4/R4B/R5", "FHIR REST (JSON and XML)", "CDS Hooks", "SMART on FHIR", "HFQL"],
+  "measurement": ["Search result caching with configurable TTL", "Elasticsearch/Lucene full-text index", "Batch job progress tracking"],
+  "configuration": ["Spring datasource settings", "Hibernate dialect selection (Postgres/H2/Oracle/MSSQL/Cockroach)", "JPA storage settings", "MDM settings", "Partitioning configuration", "Full-text indexing backend"],
+  "modes": ["Plain Server (Facade)", "JPA Server (relational DB)", "JAX-RS Server", "Client Generic/Annotation modes", "Multitenant/partitioned", "MDM mode"],
+  "constraints": ["Requires relational database; Elasticsearch is supplementary only", "MySQL/MariaDB deprecated due to poor performance", "Partitioned server uses single shared ID pool", "External references rejected by default", "Referential integrity enforced at application layer only"],
+  "docker_services": ["hapi-fhir-jpaserver-start", "postgres"],
+  "notable_absences": ["No built-in OAuth2/OIDC server", "No native GraphQL server", "No Kafka subscription transport in core"],
+  "fault_injection": ["Cascading delete interceptor", "Retry on version conflict interceptor"]
+}

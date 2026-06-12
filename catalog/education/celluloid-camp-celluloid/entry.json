@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/celluloid-camp/celluloid",
+  "name": "celluloid-camp/celluloid",
+  "description": "Celluloid is an open source collaborative video annotation app for educational organizations",
+  "sub_domain": "collaborative-learning",
+  "score": 8,
+  "score_rationale": "Education-focused collaborative video annotation workflow with clear classroom use cases.",
+  "stars": 24,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "collaborative-learning"
+  ],
+  "quality_score": 59.2,
+  "discovery_score": 8,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "Celluloid is an open source collaborative video annotation app for educational organizations",
+  "slug": "celluloid-camp-celluloid"
+}

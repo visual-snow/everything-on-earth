@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opendigitalradio/odr-dabmux-gui",
+  "name": "opendigitalradio/odr-dabmux-gui",
+  "description": "A Configuration and Control UI for ODR-DabMux",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 2,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2024-12-21",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 9.8,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "A Configuration and Control UI for ODR-DabMux",
+  "slug": "opendigitalradio-odr-dabmux-gui"
+}

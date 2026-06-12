@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/arq5x/bedtools2",
+  "name": "arq5x/bedtools2",
+  "description": "bedtools - the swiss army knife for genome arithmetic",
+  "sub_domain": "genomics",
+  "score": 10,
+  "score_rationale": "Canonical interval and genome-arithmetic toolkit used across nearly every serious genomics workflow.",
+  "stars": 1027,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-03-11",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 84.1,
+  "discovery_score": 10,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "bedtools - the swiss army knife for genome arithmetic",
+  "slug": "arq5x-bedtools2"
+}

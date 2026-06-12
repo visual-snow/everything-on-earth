@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ccsb-scripps/autodock-gpu",
+  "name": "ccsb-scripps/AutoDock-GPU",
+  "description": "AutoDock for GPUs and other accelerators",
+  "sub_domain": "structural-biology",
+  "score": 9,
+  "score_rationale": "A canonical AutoDock implementation optimized for modern accelerators, still squarely focused on docking.",
+  "stars": 573,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-10",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 76.1,
+  "discovery_score": 9,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "AutoDock for GPUs and other accelerators",
+  "slug": "ccsb-scripps-autodock-gpu"
+}

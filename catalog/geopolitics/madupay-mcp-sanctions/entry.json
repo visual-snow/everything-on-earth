@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/madupay/mcp-sanctions",
+  "name": "madupay/mcp-sanctions",
+  "description": "No description provided.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-04-24",
+  "sub_domain": "sanctions-compliance",
+  "score": 7,
+  "score_rationale": "MCP server for sanctions screening, useful but more infrastructure-specific.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 45.8,
+  "tags": [
+    "sanctions-screening",
+    "mcp",
+    "ai-tools",
+    "compliance"
+  ],
+  "category": "Sanctions Screening",
+  "summary": "MCP server for sanctions screening workflows.",
+  "slug": "madupay-mcp-sanctions"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/poisotlab/speciesdistributiontoolkit.jl",
+  "name": "PoisotLab/SpeciesDistributionToolkit.jl",
+  "description": "Work with species distributions in Julia",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "Useful Julia toolkit for species-distribution workflows and bioclimatic modeling.",
+  "stars": 26,
+  "language": "Julia",
+  "license": null,
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 59.5,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Work with species distributions in Julia",
+  "slug": "poisotlab-speciesdistributiontoolkit-jl"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/accordproject/ergo",
+  "name": "accordproject/ergo",
+  "description": "Programming Language for Smart Legal Contracts",
+  "sub_domain": "smart-contracts-legal",
+  "score": 4,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; has some GitHub adoption; archived repo penalty.",
+  "stars": 166,
+  "language": "Coq",
+  "license": "Apache-2.0",
+  "last_activity": "2023-04-09",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 41.8,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract-analysis"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Programming Language for Smart Legal Contracts",
+  "slug": "accordproject-ergo"
+}

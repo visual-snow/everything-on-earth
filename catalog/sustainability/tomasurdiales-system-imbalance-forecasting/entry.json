@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tomasurdiales/system_imbalance_forecasting",
+  "name": "tomasurdiales/system_imbalance_forecasting",
+  "description": "Forecasting Grid System Imbalance. MSc thesis work",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-31",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "Forecasting Grid System Imbalance. MSc thesis work",
+  "slug": "tomasurdiales-system-imbalance-forecasting"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/genometools/genometools",
+  "name": "genometools/genometools",
+  "description": "GenomeTools genome analysis system.",
+  "sub_domain": "genomics",
+  "score": 7,
+  "score_rationale": "Mature genome analysis system with broad utility for GFF3, repeats, and other core annotation tasks.",
+  "stars": 335,
+  "language": "C",
+  "license": "NOASSERTION",
+  "last_activity": "2025-11-10",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 62.2,
+  "discovery_score": 7,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "GenomeTools genome analysis system.",
+  "slug": "genometools-genometools"
+}

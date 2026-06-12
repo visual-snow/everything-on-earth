@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ash-project/ash_double_entry",
+  "name": "ash-project/ash_double_entry",
+  "description": "A customizable double entry bookkeeping system backed by Ash resources.",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 26,
+  "language": "Elixir",
+  "license": null,
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 35.5,
+  "discovery_score": 4,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "A customizable double entry bookkeeping system backed by Ash resources.",
+  "slug": "ash-project-ash-double-entry"
+}

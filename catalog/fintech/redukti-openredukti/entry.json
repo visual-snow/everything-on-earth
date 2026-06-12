@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/redukti/openredukti",
+  "name": "redukti/openredukti",
+  "description": "OpenRedukti is a C++ library for Interest Rate Swaps and Fras, supports bootstrapping of Interest Rate Curves, computing NPV and sensitivities using automatic/algorithmic differentiation. It provides a scripting environment in Python and Ravi (a Lua dialect).",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+  "stars": 10,
+  "language": "C",
+  "license": "GPL-3.0",
+  "last_activity": "2023-07-28",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 44.3,
+  "discovery_score": 6,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "OpenRedukti is a C++ library for Interest Rate Swaps and Fras, supports bootstrapping of Interest Rate Curves, computing NPV and sensitiv...",
+  "slug": "redukti-openredukti"
+}

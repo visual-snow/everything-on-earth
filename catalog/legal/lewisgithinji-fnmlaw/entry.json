@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lewisgithinji/fnmlaw",
+  "name": "lewisgithinji/fnmlaw",
+  "description": "Professional corporate website for FNM Law Advocates LLP, a Nairobi-based law firm specializing in comprehensive legal services. This production-ready Next.js 14 application demonstrates modern web development practices, sophisticated UI/UX design for professional services, and enterprise-level frontend architecture.",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-11-29",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "Professional corporate website for FNM Law Advocates LLP, a Nairobi-based law firm specializing in comprehensive legal services. This pro...",
+  "slug": "lewisgithinji-fnmlaw"
+}

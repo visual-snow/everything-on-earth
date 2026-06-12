@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rhinestonewtf/awesome-modular-accounts",
+  "name": "rhinestonewtf/awesome-modular-accounts",
+  "description": "\ud83d\udcd6 A curated list of resources dedicated to Modular Smart Accounts",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for awesome-style signals.",
+  "stars": 78,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-08-20",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 21.2,
+  "discovery_score": 1,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "\ud83d\udcd6 A curated list of resources dedicated to Modular Smart Accounts",
+  "slug": "rhinestonewtf-awesome-modular-accounts"
+}

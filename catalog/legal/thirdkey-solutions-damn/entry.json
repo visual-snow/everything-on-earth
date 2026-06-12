@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/thirdkey-solutions/damn",
+  "name": "thirdkey-solutions/damn",
+  "description": "Decentralized Arbitration and Mediation Network Proposal",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 50,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2021-10-26",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 37.7,
+  "discovery_score": 4,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "Decentralized Arbitration and Mediation Network Proposal",
+  "slug": "thirdkey-solutions-damn"
+}

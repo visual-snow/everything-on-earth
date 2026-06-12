@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/daisybio/openlabframework",
+  "name": "daisybio/OpenLabFramework",
+  "description": "A open source framework for research data management. DEMO at https://dockerhts.compbio.sdu.dk/OpenLabFramework/login/auth",
+  "sub_domain": "lab-information-systems",
+  "score": 4,
+  "score_rationale": "Useful lab data management framework, but it is broader and less LIS-specific than the core systems above.",
+  "stars": 21,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2017-06-13",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 34.7,
+  "discovery_score": 4,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "A open source framework for research data management. DEMO at https://dockerhts.compbio.sdu.dk/OpenLabFramework/login/auth",
+  "slug": "daisybio-openlabframework"
+}

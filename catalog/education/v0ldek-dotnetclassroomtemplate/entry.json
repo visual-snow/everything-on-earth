@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/v0ldek/dotnetclassroomtemplate",
+  "name": "V0ldek/DotnetClassroomTemplate",
+  "description": "Template for autograding enabled .NET projects in GitHub Classroom.",
+  "sub_domain": "interactive-coding-education",
+  "score": 3,
+  "score_rationale": "Useful starter template for classroom autograding, but narrow in scope and age.",
+  "stars": 9,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2022-01-15",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 26.0,
+  "discovery_score": 3,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "classroom",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "Template for autograding enabled .NET projects in GitHub Classroom.",
+  "slug": "v0ldek-dotnetclassroomtemplate"
+}

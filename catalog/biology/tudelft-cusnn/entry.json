@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tudelft/cusnn",
+  "name": "tudelft/cusnn",
+  "description": "Spiking Neural Networks in C++ with strong GPU acceleration through CUDA",
+  "sub_domain": "computational-neuroscience",
+  "score": 8,
+  "score_rationale": "Clear spiking-neural-network simulator that is squarely in the neuroscience modeling lane, even if maintenance is older.",
+  "stars": 136,
+  "language": "Cuda",
+  "license": "GPL-3.0",
+  "last_activity": "2020-07-03",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 65.1,
+  "discovery_score": 8,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Spiking Neural Networks in C++ with strong GPU acceleration through CUDA",
+  "slug": "tudelft-cusnn"
+}

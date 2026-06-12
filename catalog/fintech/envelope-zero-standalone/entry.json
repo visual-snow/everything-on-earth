@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/envelope-zero/standalone",
+  "name": "envelope-zero/standalone",
+  "description": "A standalone version of Envelope Zero for easy use",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 7,
+  "language": "Go",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 25.2,
+  "discovery_score": 3,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "A standalone version of Envelope Zero for easy use",
+  "slug": "envelope-zero-standalone"
+}

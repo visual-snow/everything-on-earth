@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mpieva/quicksand",
+  "name": "mpieva/quicksand",
+  "description": "A pipeline for the analysis of sedimentary ancient mtDNA.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 9,
+  "score_rationale": "Highly targeted to sedimentary ancient DNA and squarely inside the requested subdomain.",
+  "stars": 15,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2026-02-09",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 63.6,
+  "discovery_score": 9,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "A pipeline for the analysis of sedimentary ancient mtDNA.",
+  "slug": "mpieva-quicksand"
+}

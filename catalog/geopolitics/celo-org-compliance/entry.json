@@ -1,0 +1,20 @@
+{
+  "repo_url": "https://github.com/celo-org/compliance",
+  "name": "celo-org/compliance",
+  "description": "No description provided.",
+  "stars": 7,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-21",
+  "sub_domain": "sanctions-compliance",
+  "score": 7,
+  "score_rationale": "Compliance data package and OFAC feed helper, relevant but narrower in scope.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 49.2,
+  "tags": [],
+  "category": "",
+  "summary": "",
+  "slug": "celo-org-compliance"
+}

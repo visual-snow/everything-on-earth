@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sky-ecosystem/mips",
+  "name": "sky-ecosystem/mips",
+  "description": "Maker Improvement Proposals (MIPs)",
+  "sub_domain": "climate-finance",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 75,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2024-09-05",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 21.0,
+  "discovery_score": 1,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "Maker Improvement Proposals (MIPs)",
+  "slug": "sky-ecosystem-mips"
+}

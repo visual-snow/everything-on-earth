@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/alleninstitute/human_neuron_ih",
+  "name": "alleninstitute/human_neuron_ih",
+  "description": "This repository contains the simulation code to run single neuron simulations in the early version of bmtk (https://github.com/AllenInstitute/bmtk)",
+  "sub_domain": "computational-neuroscience",
+  "score": 4,
+  "score_rationale": "Still relevant as a neuroscience simulation example, but it is narrow, old, and tied to an early BMTK workflow.",
+  "stars": 1,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2020-09-08",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "This repository contains the simulation code to run single neuron simulations in the early version of bmtk (https://github.com/AllenInsti...",
+  "slug": "alleninstitute-human-neuron-ih"
+}

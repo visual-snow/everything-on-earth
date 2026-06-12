@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/marbl/verkko",
+  "name": "marbl/verkko",
+  "description": "Telomere-to-telomere assembly of accurate long reads (PacBio HiFi, Oxford Nanopore Duplex, HERRO corrected Oxford Nanopore Simplex) and Oxford Nanopore ultra-long reads.",
+  "sub_domain": "genomics",
+  "score": 10,
+  "score_rationale": "Flagship telomere-to-telomere assembler for combining HiFi and ultralong reads, highly relevant for modern genome assembly.",
+  "stars": 384,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 80.7,
+  "discovery_score": 10,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis",
+    "pacbio",
+    "nanopore"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Telomere-to-telomere assembly of accurate long reads (PacBio HiFi, Oxford Nanopore Duplex, HERRO corrected Oxford Nanopore Simplex) and O...",
+  "slug": "marbl-verkko"
+}

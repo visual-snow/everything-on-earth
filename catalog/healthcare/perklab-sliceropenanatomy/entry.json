@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/perklab/sliceropenanatomy",
+  "name": "PerkLab/SlicerOpenAnatomy",
+  "description": "Slicer Open Anatomy extension provides tools for loading, manipulating, exporting and visualizing the Open Anatomy Project's atlases in 3D Slicer.",
+  "sub_domain": "medical-education-simulation",
+  "score": 9,
+  "score_rationale": "Core open anatomy extension for 3D anatomy visualization and export workflows.",
+  "stars": 26,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-10-08",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 65.5,
+  "discovery_score": 9,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "Slicer Open Anatomy extension provides tools for loading, manipulating, exporting and visualizing the Open Anatomy Project's atlases in 3...",
+  "slug": "perklab-sliceropenanatomy"
+}

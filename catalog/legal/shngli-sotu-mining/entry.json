@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shngli/sotu-mining",
+  "name": "shngli/sotu-mining",
+  "description": "Text mining of State of the Union speeches with Python and R",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2015-11-02",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "Text mining of State of the Union speeches with Python and R",
+  "slug": "shngli-sotu-mining"
+}

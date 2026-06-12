@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/zijianni/spotclean",
+  "name": "zijianni/SpotClean",
+  "description": "R package for decontaminating the spot swapping effect and recovering true expression in spatial transcriptomics data",
+  "sub_domain": "spatial-omics",
+  "score": 8,
+  "score_rationale": "Specialized spatial transcriptomics decontamination tool targeting spot-swapping artifacts.",
+  "stars": 36,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-01-13",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 60.5,
+  "discovery_score": 8,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq",
+    "transcriptomics"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "R package for decontaminating the spot swapping effect and recovering true expression in spatial transcriptomics data",
+  "slug": "zijianni-spotclean"
+}

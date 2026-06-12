@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/arelle/arelle",
+  "name": "arelle/arelle",
+  "description": "Arelle open source XBRL platform",
+  "sub_domain": "financial-data-standards",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 182,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 42.1,
+  "discovery_score": 4,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "Arelle open source XBRL platform",
+  "slug": "arelle-arelle"
+}

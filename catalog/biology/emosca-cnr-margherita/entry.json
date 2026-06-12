@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/emosca-cnr/margherita",
+  "name": "emosca-cnr/margheRita",
+  "description": "margheRita: LC-MS/MS SWATH metabolomics data analysis and confident metabolite identification based on a spectral library of reference standards",
+  "sub_domain": "metabolomics",
+  "score": 7,
+  "score_rationale": "It is highly relevant to LC-MS/MS metabolomics identification, but the repo is small and looks more specialized than foundational.",
+  "stars": 1,
+  "language": "R",
+  "license": "",
+  "last_activity": "2026-02-19",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "margheRita: LC-MS/MS SWATH metabolomics data analysis and confident metabolite identification based on a spectral library of reference st...",
+  "slug": "emosca-cnr-margherita"
+}

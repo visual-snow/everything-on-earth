@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/or-dept-environmental-quality/wic",
+  "name": "or-dept-environmental-quality/wic",
+  "description": "The Waste Impact Calculator (WIC) is a framework for estimating the life cycle environmental impacts of solid waste, and projecting the impact consequences of waste management decisions. See https://or-dept-environmental-quality.github.io/wic/.",
+  "sub_domain": "life-cycle-assessment",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": "GPL-3.0",
+  "last_activity": "2023-04-12",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "The Waste Impact Calculator (WIC) is a framework for estimating the life cycle environmental impacts of solid waste, and projecting the i...",
+  "slug": "or-dept-environmental-quality-wic"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vishalmysore/agenticrulesengine",
+  "name": "vishalmysore/agenticrulesengine",
+  "description": "Agentic AI Business Rules Engine",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 1,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2026-02-02",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "Agentic AI Business Rules Engine",
+  "slug": "vishalmysore-agenticrulesengine"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/andim/pyrepseq",
+  "name": "andim/pyrepseq",
+  "description": "Python library for immune repertoire analysis",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Modern, active Python library for immune repertoire analysis with a clean domain fit.",
+  "stars": 17,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 58.0,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Python library for immune repertoire analysis",
+  "slug": "andim-pyrepseq"
+}

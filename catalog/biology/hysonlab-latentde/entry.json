@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hysonlab/latentde",
+  "name": "hysonlab/latentde",
+  "description": "LatentDE: Latent-based Directed Evolution for Protein Sequence Design",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 8,
+  "score_rationale": "A focused latent-space directed-evolution approach for protein sequence design.",
+  "stars": 38,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-04-02",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 60.7,
+  "discovery_score": 8,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "LatentDE: Latent-based Directed Evolution for Protein Sequence Design",
+  "slug": "hysonlab-latentde"
+}

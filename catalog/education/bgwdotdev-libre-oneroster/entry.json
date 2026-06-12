@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bgwdotdev/libre-oneroster",
+  "name": "bgwdotdev/libre-oneroster",
+  "description": "A free and libre implementation of the OneRoster API spec in Rust, with server, CLI, and library components.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 8,
+  "score_rationale": "Direct OneRoster server implementation for school rostering and SIS synchronization.",
+  "stars": 3,
+  "language": "Rust",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-04-26",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 52.8,
+  "discovery_score": 8,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "A free and libre implementation of the OneRoster API spec in Rust, with server, CLI, and library components.",
+  "slug": "bgwdotdev-libre-oneroster"
+}

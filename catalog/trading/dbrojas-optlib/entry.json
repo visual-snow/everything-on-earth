@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/dbrojas/optlib",
+  "name": "dbrojas/optlib",
+  "description": "A library for financial options pricing written in Python.",
+  "sub_domain": "options-derivatives",
+  "score": 9,
+  "score_rationale": "Directly focused on options pricing in Python, making it a clean match for derivation, valuation, and model comparison work.",
+  "stars": 1349,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-11-18",
+  "found_in_domains": [
+    "options-derivatives"
+  ],
+  "quality_score": 79.0,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "A library for financial options pricing written in Python.",
+  "slug": "dbrojas-optlib"
+}

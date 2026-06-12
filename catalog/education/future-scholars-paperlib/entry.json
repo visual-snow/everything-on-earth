@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/future-scholars/paperlib",
+  "name": "Future-Scholars/paperlib",
+  "description": "An open-source academic paper management tool.",
+  "sub_domain": "research-academic-publishing",
+  "score": 8,
+  "score_rationale": "Academic paper manager and reference workflow tool with strong fit for scholarship use.",
+  "stars": 2150,
+  "language": "TypeScript",
+  "license": "GNU General Public License v3.0",
+  "last_activity": "2026-02-21",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 74.7,
+  "discovery_score": 8,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "An open-source academic paper management tool.",
+  "slug": "future-scholars-paperlib"
+}

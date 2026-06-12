@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/medizininformatik-initiative/fhir-ontology-generator",
+  "name": "medizininformatik-initiative/fhir-ontology-generator",
+  "description": "No description provided.",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 5,
+  "score_rationale": "Ontology generation tooling tied to FHIR workflows; relevant to standards and terminology generation, though description metadata is sparse.",
+  "stars": 4,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 5,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "fhir"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "No description provided.",
+  "slug": "medizininformatik-initiative-fhir-ontology-generator"
+}

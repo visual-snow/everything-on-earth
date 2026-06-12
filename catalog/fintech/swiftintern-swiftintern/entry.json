@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/swiftintern/swiftintern",
+  "name": "swiftintern/swiftintern",
+  "description": "Internship platform made on SwiftMVC framework",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 6,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2017-02-28",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 12.8,
+  "discovery_score": 1,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "Internship platform made on SwiftMVC framework",
+  "slug": "swiftintern-swiftintern"
+}

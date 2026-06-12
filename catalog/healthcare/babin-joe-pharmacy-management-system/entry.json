@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/babin-joe/pharmacy-management-system",
+  "name": "BABIN-JOE/Pharmacy-Management-System",
+  "description": "The Pharmacy Management System is a complete desktop application developed in Python with Tkinter, designed to streamline day-to-day operations in a pharmacy. It provides an intuitive interface to manage medicine inventory, customer billing, and purchase records, reducing manual errors and improving efficiency in medical stores.",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 8,
+  "score_rationale": "Direct pharmacy workflow coverage with inventory, billing, and purchase tracking in an actively updated project.",
+  "stars": 8,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-10-08",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 55.6,
+  "discovery_score": 8,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "The Pharmacy Management System is a complete desktop application developed in Python with Tkinter, designed to streamline day-to-day oper...",
+  "slug": "babin-joe-pharmacy-management-system"
+}

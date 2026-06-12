@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/manoharvit/financial-bi-tool",
+  "name": "ManoharVit/Financial-BI-Tool",
+  "description": "End-to-end web scraping and NLP to extract financial news for sentiment analysis, crucial business events, gauges market sentiment and keyword extraction, using Amazon as a case study. This tool identifies key business events and market sentiment, providing valuable insights into corporate dynamics",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 7,
+  "score_rationale": "Business-intelligence framing with financial news scraping and sentiment extraction, useful for alternative-data workflows.",
+  "stars": 1,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-01-23",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 44.4,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "End-to-end web scraping and NLP to extract financial news for sentiment analysis, crucial business events...",
+  "slug": "manoharvit-financial-bi-tool"
+}

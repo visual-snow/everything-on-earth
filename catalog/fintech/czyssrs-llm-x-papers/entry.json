@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/czyssrs/llm_x_papers",
+  "name": "czyssrs/llm_x_papers",
+  "description": "Continually-updated reading list of LLM papers in Finance, Healthcare, and Law",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text.",
+  "stars": 54,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2025-02-10",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 37.9,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Continually-updated reading list of LLM papers in Finance, Healthcare, and Law",
+  "slug": "czyssrs-llm-x-papers"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/raspberrypifoundation/blockly",
+  "name": "RaspberryPiFoundation/blockly",
+  "description": "The web-based visual programming editor.",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Widely used visual programming editor that underpins many beginner coding and classroom tools.",
+  "stars": 13354,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 87.0,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "The web-based visual programming editor.",
+  "slug": "raspberrypifoundation-blockly"
+}

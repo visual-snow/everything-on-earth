@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sperekrestova/pillchecker-api",
+  "name": "SPerekrestova/pillchecker-api",
+  "description": "Medication interaction checker API (OpenMed + RxNorm + DrugBank)",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 8,
+  "score_rationale": "Highly relevant medication-safety component for interaction checking and RxNorm-backed drug lookup.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "Medication interaction checker API (OpenMed + RxNorm + DrugBank)",
+  "slug": "sperekrestova-pillchecker-api"
+}

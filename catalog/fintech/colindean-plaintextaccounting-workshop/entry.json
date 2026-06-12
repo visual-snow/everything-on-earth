@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/colindean/plaintextaccounting_workshop",
+  "name": "colindean/plaintextaccounting_workshop",
+  "description": "An Introduction and Then Some to Plain Text Accounting with Ledger",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 65,
+  "language": "Makefile",
+  "license": "NOASSERTION",
+  "last_activity": "2021-04-27",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 44.6,
+  "discovery_score": 5,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger",
+    "ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "An Introduction and Then Some to Plain Text Accounting with Ledger",
+  "slug": "colindean-plaintextaccounting-workshop"
+}

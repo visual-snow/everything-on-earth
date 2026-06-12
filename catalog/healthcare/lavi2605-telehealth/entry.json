@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lavi2605/telehealth",
+  "name": "Lavi2605/telehealth",
+  "description": "The Telehealth Innovation project is a comprehensive telehealth platform that leverages digital communication, remote monitoring, and virtual consultations to deliver quality healthcare services.",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 7,
+  "score_rationale": "Broad telehealth platform spanning consults and monitoring, which maps closely to the target subdomain.",
+  "stars": 0,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2025-03-30",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "The Telehealth Innovation project is a comprehensive telehealth platform that leverages digital communication, remote monitoring, and vir...",
+  "slug": "lavi2605-telehealth"
+}

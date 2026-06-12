@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/yanglinyi/finnlp-progress",
+  "name": "yanglinyi/finnlp-progress",
+  "description": "NLP progress in Fintech. A repository to track the progress in Natural Language Processing (NLP) related to the domain of Finance, including the datasets, papers, and current state-of-the-art results for the most popular tasks.",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 7,
+  "score_rationale": "Finance NLP progress tracker that maps directly to news/sentiment signals used in trading.",
+  "stars": 379,
+  "language": null,
+  "license": null,
+  "last_activity": "2022-04-18",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 62.6,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "NLP progress in Fintech. A repository to track the progress in Natural Language Processing (NLP) related to...",
+  "slug": "yanglinyi-finnlp-progress"
+}

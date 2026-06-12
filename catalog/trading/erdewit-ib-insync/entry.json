@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/erdewit/ib_insync",
+  "name": "erdewit/ib_insync",
+  "description": "Python sync/async framework for Interactive Brokers API",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 8,
+  "score_rationale": "Classic Interactive Brokers sync/async framework that remains a reference integration layer despite being archived.",
+  "stars": 3236,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2024-03-14",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 76.1,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "Python sync/async framework for Interactive Brokers API",
+  "slug": "erdewit-ib-insync"
+}

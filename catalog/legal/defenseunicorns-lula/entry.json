@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/defenseunicorns/lula",
+  "name": "defenseunicorns/lula",
+  "description": "A tool for managing compliance as code in your GitHub repositories. :unicorn:",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+  "stars": 26,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 41.5,
+  "discovery_score": 5,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "A tool for managing compliance as code in your GitHub repositories. :unicorn:",
+  "slug": "defenseunicorns-lula"
+}

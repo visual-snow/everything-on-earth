@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nabute/saas_billing",
+  "name": "nabute/saas_billing",
+  "description": "A billing app for a SaaS platform that supports multiple subscription tiers and handles recurring billing.",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 4,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2024-08-25",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "A billing app for a SaaS platform that supports multiple subscription tiers and handles recurring billing.",
+  "slug": "nabute-saas-billing"
+}

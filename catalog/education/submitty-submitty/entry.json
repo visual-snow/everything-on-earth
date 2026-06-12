@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/submitty/submitty",
+  "name": "Submitty/Submitty",
+  "description": "Homework submission, automated grading, and TA grading system.",
+  "sub_domain": "assessment-testing",
+  "score": 8,
+  "score_rationale": "Educational grading and assessment infrastructure with some integrity-relevant overlap.",
+  "stars": 759,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 71.0,
+  "discovery_score": 8,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity",
+    "grading"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Homework submission, automated grading, and TA grading system.",
+  "slug": "submitty-submitty"
+}

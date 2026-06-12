@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wangzhe3224/awesome-systematic-trading",
+  "name": "wangzhe3224/awesome-systematic-trading",
+  "description": "A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock, Futures, Options, CFDs, FX, and more | \u91cf\u5316\u4ea4\u6613 | \u91cf\u5316\u6295\u8d44",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 1 domain term in repo text; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 3737,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 58.6,
+  "discovery_score": 5,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock, Futures, Options, CFDs, FX, a...",
+  "slug": "wangzhe3224-awesome-systematic-trading"
+}

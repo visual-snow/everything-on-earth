@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/barrriwa/vfsauto",
+  "name": "barrriwa/vfsauto",
+  "description": "Automation script built with Browser Automation Studio (BAS) to monitor and book visa appointment slots on VFS Global websites. It includes advanced interaction and anti-detection features, as well as optional Telegram notifications.",
+  "sub_domain": "immigration-visa-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 5,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-09-23",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "Automation script built with Browser Automation Studio (BAS) to monitor and book visa appointment slots on VFS Global websites. It includ...",
+  "slug": "barrriwa-vfsauto"
+}

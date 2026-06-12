@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/cuemacro/findatapy",
+  "name": "cuemacro/findatapy",
+  "description": "Python library to download market data via Bloomberg, Eikon, Quandl, Yahoo etc.",
+  "sub_domain": "market-data-feeds",
+  "score": 4,
+  "score_rationale": "Relevant data-ingestion layer that unifies multiple market data sources for research and analysis.",
+  "stars": 2007,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "market-data-feeds"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "market-data",
+    "data-ingestion",
+    "real-time-feeds"
+  ],
+  "category": "Market Data Feed",
+  "summary": "Python library to download market data via Bloomberg, Eikon, Quandl, Yahoo etc.",
+  "slug": "cuemacro-findatapy"
+}

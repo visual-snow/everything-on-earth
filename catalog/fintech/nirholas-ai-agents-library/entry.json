@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nirholas/ai-agents-library",
+  "name": "nirholas/ai-agents-library",
+  "description": "A comprehensive collection of specialized AI agents with universal compatibility. Works with any AI platform that supports agent indexes - no vendor lock-in, no platform restrictions.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 24,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-02-13",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 17.2,
+  "discovery_score": 1,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "A comprehensive collection of specialized AI agents with universal compatibility. Works with any AI platform that supports agent indexes...",
+  "slug": "nirholas-ai-agents-library"
+}

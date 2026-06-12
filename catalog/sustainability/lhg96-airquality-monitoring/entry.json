@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lhg96/airquality-monitoring",
+  "name": "lhg96/airquality-monitoring",
+  "description": "Open-source air quality monitoring platform with ESP32 IoT device, multi-sensor calibration, and REST API server. Complete solution from hardware to cloud deployment.",
+  "sub_domain": "air-quality-emissions",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 2,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-12-11",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Open-source air quality monitoring platform with ESP32 IoT device, multi-sensor calibration, and REST API server. Complete solution from...",
+  "slug": "lhg96-airquality-monitoring"
+}

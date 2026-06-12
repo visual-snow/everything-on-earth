@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rwthanalytics/moodle-local_learning_analytics",
+  "name": "rwthanalytics/moodle-local_learning_analytics",
+  "description": "Moodle plugin for learning analytics and reporting.",
+  "sub_domain": "analytics-learning-dashboards",
+  "score": 8,
+  "score_rationale": "Direct LMS-embedded analytics tooling with recent activity and a tight fit for educational workflows.",
+  "stars": 25,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2025-05-26",
+  "found_in_domains": [
+    "analytics-learning-dashboards"
+  ],
+  "quality_score": 59.3,
+  "discovery_score": 8,
+  "tags": [
+    "analytics",
+    "dashboards",
+    "engagement",
+    "early-alerts"
+  ],
+  "category": "Analytics, Learning Dashboards, Engagement Metrics & Early Alerts",
+  "summary": "Moodle plugin for learning analytics and reporting.",
+  "slug": "rwthanalytics-moodle-local-learning-analytics"
+}

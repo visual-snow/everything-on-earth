@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/zhengfj1994/metex",
+  "name": "zhengfj1994/MetEx",
+  "description": "MetEx is a tool to extract and annotate metabolites from liquid chromatography\u2013mass spectrometry data.",
+  "sub_domain": "metabolomics",
+  "score": 8,
+  "score_rationale": "It matches the LC-MS metabolite extraction and annotation use case directly, which is central to the requested scope.",
+  "stars": 18,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2023-11-14",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 58.2,
+  "discovery_score": 8,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "MetEx is a tool to extract and annotate metabolites from liquid chromatography\u2013mass spectrometry data.",
+  "slug": "zhengfj1994-metex"
+}

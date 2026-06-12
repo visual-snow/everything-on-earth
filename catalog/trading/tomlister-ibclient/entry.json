@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tomlister/ibclient",
+  "name": "tomlister/ibclient",
+  "description": "IBKR Client Portal Web API Wrapper for Go",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 5,
+  "score_rationale": "Go Interactive Brokers client library; niche but directly within the connector scope.",
+  "stars": 7,
+  "language": "Go",
+  "license": "GPL-3.0",
+  "last_activity": "2021-01-14",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 37.2,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "IBKR Client Portal Web API Wrapper for Go",
+  "slug": "tomlister-ibclient"
+}

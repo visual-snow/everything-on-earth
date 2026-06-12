@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/octopustakopi/binance_l3_est",
+  "name": "OctopusTakopi/binance_l3_est",
+  "description": "Uses L2 data's change in time to estimate a L3 order book microstructure on Binance",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 8,
+  "score_rationale": "Specialized L3 estimation from L2 data for exchange microstructure analysis.",
+  "stars": 207,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 66.5,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "Uses L2 data's change in time to estimate a L3 order book microstructure on Binance",
+  "slug": "octopustakopi-binance-l3-est"
+}

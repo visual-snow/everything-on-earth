@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/biocro/biocro",
+  "name": "biocro/biocro",
+  "description": "Crop growth model that predicts plant development from crop-specific parameters and environmental data.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 10,
+  "score_rationale": "A direct crop growth modeling framework with explicit plant physiology and crop-specific modules, making it a core agricultural biology tool.",
+  "stars": 47,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "climate-biology",
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 73.4,
+  "discovery_score": 10,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Crop growth model that predicts plant development from crop-specific parameters and environmental data.",
+  "slug": "biocro-biocro"
+}

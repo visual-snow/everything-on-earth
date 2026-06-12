@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pragathish07/online_speech_therapist",
+  "name": "pragathish07/Online_Speech_therapist",
+  "description": "Project that helps users find a speech therapist for their kids and improve their speech by doing various inbuilt activities",
+  "sub_domain": "special-education-therapy",
+  "score": 4,
+  "score_rationale": "Speech-support and activity workflow for children, though narrower and less specialized than the strongest AAC repos.",
+  "stars": 3,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-03-10",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "Project that helps users find a speech therapist for their kids and improve their speech by doing various inbuilt activities",
+  "slug": "pragathish07-online-speech-therapist"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mediaeater/swarm-at-ledger",
+  "name": "Mediaeater/swarm-at-ledger",
+  "description": "Public settlement ledger for swarm.at \u2014 901 hash-chained entries, 76 types",
+  "sub_domain": "reconciliation-settlement",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching",
+    "ledger"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Public settlement ledger for swarm.at \u2014 901 hash-chained entries, 76 types",
+  "slug": "mediaeater-swarm-at-ledger"
+}

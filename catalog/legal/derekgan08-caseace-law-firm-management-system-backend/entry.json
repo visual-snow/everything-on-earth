@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/derekgan08/caseace-law-firm-management-system-backend",
+  "name": "derekgan08/caseace-law-firm-management-system-backend",
+  "description": "CaseAce - A backend solution for case and staff management in law firms, built with Node.js and Express",
+  "sub_domain": "legal-practice-management",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text.",
+  "stars": 18,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2024-12-21",
+  "found_in_domains": [
+    "court-case-management",
+    "immigration-visa-processing",
+    "legal-practice-management"
+  ],
+  "quality_score": 40.2,
+  "discovery_score": 5,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "CaseAce - A backend solution for case and staff management in law firms, built with Node.js and Express",
+  "slug": "derekgan08-caseace-law-firm-management-system-backend"
+}

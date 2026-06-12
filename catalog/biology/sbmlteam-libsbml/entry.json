@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sbmlteam/libsbml",
+  "name": "sbmlteam/libsbml",
+  "description": "LibSBML is a native library for reading, writing and manipulating files and data streams containing the Systems Biology Markup Language (SBML). It offers language bindings for C, C++, C#, Java, JavaScript, MATLAB, Perl, PHP, Python, R and Ruby.",
+  "sub_domain": "systems-biology",
+  "score": 10,
+  "score_rationale": "Foundational SBML library and binding ecosystem used across mechanistic systems-biology tooling.",
+  "stars": 54,
+  "language": "C++",
+  "license": "Other",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 73.9,
+  "discovery_score": 10,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "LibSBML is a native library for reading, writing and manipulating files and data streams containing the Systems Biology Markup Language (...",
+  "slug": "sbmlteam-libsbml"
+}

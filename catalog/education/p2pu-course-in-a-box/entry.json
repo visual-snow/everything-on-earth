@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/p2pu/course-in-a-box",
+  "name": "p2pu/course-in-a-box",
+  "description": "An open-source project for creating online courses, built by P2PU.",
+  "sub_domain": "curriculum-authoring",
+  "score": 6,
+  "score_rationale": "Focused on course creation rather than generic hosting, but lighter-weight and narrower than the strongest authoring suites.",
+  "stars": 103,
+  "language": "SCSS",
+  "license": "MIT",
+  "last_activity": "2025-04-22",
+  "found_in_domains": [
+    "curriculum-authoring"
+  ],
+  "quality_score": 52.1,
+  "discovery_score": 6,
+  "tags": [
+    "curriculum",
+    "authoring",
+    "oer",
+    "courseware"
+  ],
+  "category": "Curriculum, Content Authoring, OER Publishing & Interactive Courseware",
+  "summary": "An open-source project for creating online courses, built by P2PU.",
+  "slug": "p2pu-course-in-a-box"
+}

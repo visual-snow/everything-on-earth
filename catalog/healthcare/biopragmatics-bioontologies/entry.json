@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biopragmatics/bioontologies",
+  "name": "biopragmatics/bioontologies",
+  "description": "\ud83c\udff7\ufe0f Unified access to biomedical ontologies",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 6,
+  "score_rationale": "Unified access layer for biomedical ontologies; relevant infrastructure for ontology consumption and querying.",
+  "stars": 11,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-04",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 44.6,
+  "discovery_score": 6,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "\ud83c\udff7\ufe0f Unified access to biomedical ontologies",
+  "slug": "biopragmatics-bioontologies"
+}

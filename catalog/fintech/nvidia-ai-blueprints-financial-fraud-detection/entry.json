@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nvidia-ai-blueprints/financial-fraud-detection",
+  "name": "nvidia-ai-blueprints/financial-fraud-detection",
+  "description": "No description provided.",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 42,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 31.1,
+  "discovery_score": 3,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "No description provided.",
+  "slug": "nvidia-ai-blueprints-financial-fraud-detection"
+}

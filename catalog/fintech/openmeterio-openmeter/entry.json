@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openmeterio/openmeter",
+  "name": "openmeterio/openmeter",
+  "description": "Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing.",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 7,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1880,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 68.2,
+  "discovery_score": 7,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing.",
+  "slug": "openmeterio-openmeter"
+}

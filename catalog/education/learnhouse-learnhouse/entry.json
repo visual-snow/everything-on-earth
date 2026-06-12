@@ -1,0 +1,31 @@
+{
+  "repo_url": "https://github.com/learnhouse/learnhouse",
+  "name": "learnhouse/learnhouse",
+  "description": "Open-source learning platform with AI features, analytics, assignments, and interactive learning tools.",
+  "sub_domain": "adaptive-learning",
+  "score": 9,
+  "score_rationale": "Education-first platform that explicitly includes AI, analytics, and learner-facing personalization.",
+  "stars": 1333,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lms",
+    "adaptive-learning",
+    "collaborative-learning",
+    "curriculum-authoring"
+  ],
+  "quality_score": 79.0,
+  "discovery_score": 9,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment",
+    "adaptive-learning",
+    "tutoring"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "Open-source learning platform with AI features, analytics, assignments, and interactive learning tools.",
+  "slug": "learnhouse-learnhouse"
+}

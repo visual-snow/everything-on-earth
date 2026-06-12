@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sysbiochalmers/singlecelltoolbox",
+  "name": "sysbiochalmers/singlecelltoolbox",
+  "description": "Contains general code for handling single-cell RNA-Seq data in Matlab. Also contains some functions for bulk data some additional general functions.",
+  "sub_domain": "transcriptomics",
+  "score": 5,
+  "score_rationale": "Transcriptomics-focused MATLAB toolbox for single-cell RNA-seq handling, though it is broader and less specialized than the leading packages.",
+  "stars": 1,
+  "language": "MATLAB",
+  "license": "MIT",
+  "last_activity": "2021-10-18",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Contains general code for handling single-cell RNA-Seq data in Matlab. Also contains some functions for bulk data some additional general...",
+  "slug": "sysbiochalmers-singlecelltoolbox"
+}

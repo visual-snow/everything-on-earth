@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wesleyscholl/arbitra",
+  "name": "wesleyscholl/arbitra",
+  "description": "Python-driven Arbitrator \ud83d\ude80\ud83d\udcbc \u2013 A powerful solution for managing complex operations with precision! Built to deliver efficiency and reliability.",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-11-20",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "Python-driven Arbitrator \ud83d\ude80\ud83d\udcbc \u2013 A powerful solution for managing complex operations with precision! Built to deliver efficiency and reliabi...",
+  "slug": "wesleyscholl-arbitra"
+}

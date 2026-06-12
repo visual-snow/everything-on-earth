@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cico643/telemedicine",
+  "name": "cico643/telemedicine",
+  "description": "A Full-stack Telemedicine Web Application",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 7,
+  "score_rationale": "Full-stack telemedicine workflow with booking and medical history handling, making it a practical fit.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2022-08-08",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 7,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "A Full-stack Telemedicine Web Application",
+  "slug": "cico643-telemedicine"
+}

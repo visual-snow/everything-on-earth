@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kaittah/routeoptimization",
+  "name": "kaittah/routeoptimization",
+  "description": "A case study on optimizing on-demand restaurant delivery",
+  "sub_domain": "sustainable-transport",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2020-10-03",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "A case study on optimizing on-demand restaurant delivery",
+  "slug": "kaittah-routeoptimization"
+}

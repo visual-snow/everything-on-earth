@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/genn-team/genn",
+  "name": "genn-team/genn",
+  "description": "GeNN is a GPU-enhanced Neuronal Network simulation environment based on code generation for Nvidia CUDA and AMD HIP.",
+  "sub_domain": "computational-neuroscience",
+  "score": 9,
+  "score_rationale": "Canonical GPU-accelerated neuronal network simulator with a clear computational neuroscience focus.",
+  "stars": 271,
+  "language": "C++",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 73.5,
+  "discovery_score": 9,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "GeNN is a GPU-enhanced Neuronal Network simulation environment based on code generation for Nvidia CUDA and AMD HIP.",
+  "slug": "genn-team-genn"
+}

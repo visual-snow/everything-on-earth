@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/g3i/lxhive",
+  "name": "g3i/lxHive",
+  "description": "A lightweight Experience API Learning Record Store.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 5,
+  "score_rationale": "Lean xAPI LRS option that is directly relevant to learning telemetry and statement storage.",
+  "stars": 78,
+  "language": "PHP",
+  "license": "GPL-2.0",
+  "last_activity": "2025-04-15",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 45.2,
+  "discovery_score": 5,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "A lightweight Experience API Learning Record Store.",
+  "slug": "g3i-lxhive"
+}

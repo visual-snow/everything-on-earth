@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cidarlab/cello",
+  "name": "cidarlab/cello",
+  "description": "Genetic circuit design automation",
+  "sub_domain": "synthetic-biology",
+  "score": 10,
+  "score_rationale": "Core genetic circuit design automation project with direct synthetic-biology relevance and long-standing ecosystem value.",
+  "stars": 861,
+  "language": "Java",
+  "license": "BSD-2-Clause",
+  "last_activity": "2022-09-19",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 83.5,
+  "discovery_score": 10,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "Genetic circuit design automation",
+  "slug": "cidarlab-cello"
+}

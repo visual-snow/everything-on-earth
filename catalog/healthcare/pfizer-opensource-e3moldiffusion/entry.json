@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pfizer-opensource/e3moldiffusion",
+  "name": "pfizer-opensource/e3moldiffusion",
+  "description": "Research repository for diffusion based structure based drug design",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 7,
+  "score_rationale": "Relevant diffusion-based structure-based design research code with direct molecular generation ties.",
+  "stars": 28,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2025-03-12",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 53.7,
+  "discovery_score": 7,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "Research repository for diffusion based structure based drug design",
+  "slug": "pfizer-opensource-e3moldiffusion"
+}

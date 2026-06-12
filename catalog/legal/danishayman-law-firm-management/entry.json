@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/danishayman/law-firm-management",
+  "name": "danishayman/law-firm-management",
+  "description": "The Law Firm Management System is a comprehensive software solution designed to streamline administrative tasks, client management, and case organization within law firms.",
+  "sub_domain": "legal-practice-management",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 0,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2025-01-27",
+  "found_in_domains": [
+    "legal-practice-management"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "The Law Firm Management System is a comprehensive software solution designed to streamline administrative tasks, client management, and c...",
+  "slug": "danishayman-law-firm-management"
+}

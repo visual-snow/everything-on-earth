@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/isce-framework/isce2",
+  "name": "isce-framework/isce2",
+  "description": "InSAR Scientific Computing Environment version 2",
+  "stars": 630,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-05-27",
+  "sub_domain": "geoint-tools",
+  "score": 8,
+  "score_rationale": "Core InSAR processing environment for geospatial intelligence and terrain-change analysis.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 70.4,
+  "tags": [
+    "insar",
+    "radar",
+    "terrain-change",
+    "geospatial"
+  ],
+  "category": "InSAR Processing",
+  "summary": "Scientific computing environment for InSAR and terrain-change analysis.",
+  "slug": "isce-framework-isce2"
+}

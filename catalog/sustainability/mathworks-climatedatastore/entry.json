@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mathworks/climatedatastore",
+  "name": "mathworks/climatedatastore",
+  "description": "Climate Data Store Toolbox for MATLAB",
+  "sub_domain": "climate-data-analysis",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 44,
+  "language": "MATLAB",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-29",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 3,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "Climate Data Store Toolbox for MATLAB",
+  "slug": "mathworks-climatedatastore"
+}

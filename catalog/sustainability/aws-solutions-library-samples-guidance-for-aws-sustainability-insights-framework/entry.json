@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aws-solutions-library-samples/guidance-for-aws-sustainability-insights-framework",
+  "name": "aws-solutions-library-samples/guidance-for-aws-sustainability-insights-framework",
+  "description": "This Guidance demonstrates how you can automate your carbon footprint tracking with the Sustainability Insights Framework (SIF) on AWS",
+  "sub_domain": "esg-reporting-compliance",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 29,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2024-10-20",
+  "found_in_domains": [
+    "esg-reporting-compliance"
+  ],
+  "quality_score": 35.8,
+  "discovery_score": 4,
+  "tags": [
+    "esg",
+    "csrd",
+    "tcfd",
+    "issb"
+  ],
+  "category": "ESG Reporting / Compliance \u2014 ESG aggregation and CSRD/TCFD/ISSB reporting tooling",
+  "summary": "This Guidance demonstrates how you can automate your carbon footprint tracking with the Sustainability Insights Framework (SIF) on AWS",
+  "slug": "aws-solutions-library-samples-guidance-for-aws-sustainability-insights-framework"
+}

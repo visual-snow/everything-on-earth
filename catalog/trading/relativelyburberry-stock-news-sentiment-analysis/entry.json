@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/relativelyburberry/stock-news-sentiment-analysis",
+  "name": "RelativelyBurberry/Stock-News-Sentiment-Analysis",
+  "description": "A Python-based financial news sentiment analysis system that scrapes stock headlines from FinViz, analyzes them using NLTK VADER, and visualizes sentiment trends across multiple tech stocks. Built on Kaggle.",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 7,
+  "score_rationale": "Practical FinViz headline scraping with sentiment visualization, but still a lightweight notebook project.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-12-14",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 44.4,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "A Python-based financial news sentiment analysis system that scrapes stock headlines from FinViz, analyzes...",
+  "slug": "relativelyburberry-stock-news-sentiment-analysis"
+}

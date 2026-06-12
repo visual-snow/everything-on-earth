@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ahmedfahad04/empower",
+  "name": "ahmedfahad04/EmPower",
+  "description": "EmPower is a specialized learning tool for autistic children. Instructors create tailored lessons and assessments, while students access engaging content. We focus on behavior, speech, and social interaction, fostering inclusive education.",
+  "sub_domain": "accessibility-inclusive-education",
+  "score": 7,
+  "score_rationale": "Directly targets autistic learners with tailored lessons and inclusive education features, which is a strong special-education fit.",
+  "stars": 3,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-02-29",
+  "found_in_domains": [
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 46.8,
+  "discovery_score": 7,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "EmPower is a specialized learning tool for autistic children. Instructors create tailored lessons and assessments, while students access...",
+  "slug": "ahmedfahad04-empower"
+}

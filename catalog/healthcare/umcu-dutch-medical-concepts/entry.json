@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/umcu/dutch-medical-concepts",
+  "name": "umcu/dutch-medical-concepts",
+  "description": "Instructions and code to create for a table of UMLS, SNOMED or HPO concepts containing Dutch medical names, usable in named entity recognition and linking methods such MedCAT.",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 4,
+  "score_rationale": "Localized concept table generation from UMLS/SNOMED/HPO; useful mapping support, but a narrower niche project.",
+  "stars": 11,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2023-01-20",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 32.6,
+  "discovery_score": 4,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "snomed"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "Instructions and code to create for a table of UMLS, SNOMED or HPO concepts containing Dutch medical names, usable in named entity recogn...",
+  "slug": "umcu-dutch-medical-concepts"
+}

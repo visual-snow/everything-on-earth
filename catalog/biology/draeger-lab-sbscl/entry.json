@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/draeger-lab/sbscl",
+  "name": "draeger-lab/SBSCL",
+  "description": "The Systems Biology Simulation Core Library (SBSCL) provides an efficient and exhaustive Java implementation of methods to interpret the content of models encoded in the Systems Biology Markup Language (SBML) and its numerical solution.",
+  "sub_domain": "systems-biology",
+  "score": 9,
+  "score_rationale": "SBML simulation core library with explicit systems-biology simulation and numerical-solution support.",
+  "stars": 25,
+  "language": "HTML",
+  "license": "LGPL-3.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 65.3,
+  "discovery_score": 9,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "The Systems Biology Simulation Core Library (SBSCL) provides an efficient and exhaustive Java implementation of methods to interpret the...",
+  "slug": "draeger-lab-sbscl"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/makism/dyconnmap",
+  "name": "makism/dyconnmap",
+  "description": "A dynamic connectome mapping module in Python.",
+  "sub_domain": "connectomics",
+  "score": 7,
+  "score_rationale": "Relevant connectome-analysis library for time-varying functional connectivity, though not neuron-reconstruction focused.",
+  "stars": 111,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2023-07-24",
+  "found_in_domains": [
+    "connectomics"
+  ],
+  "quality_score": 58.4,
+  "discovery_score": 7,
+  "tags": [
+    "connectomics",
+    "neuronal-reconstruction",
+    "synapse-segmentation",
+    "em-imaging"
+  ],
+  "category": "Connectomics \u2014 neural circuit reconstruction and brain mapping",
+  "summary": "A dynamic connectome mapping module in Python.",
+  "slug": "makism-dyconnmap"
+}

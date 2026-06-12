@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/med-air/surrol",
+  "name": "med-air/SurRoL",
+  "description": "An open-source reinforcement learning centered and dVRK compatible platform for surgical robot learning.",
+  "sub_domain": "medical-education-simulation",
+  "score": 7,
+  "score_rationale": "Open surgical robotics environment that is relevant to simulation and training.",
+  "stars": 237,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-08-11",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 61.0,
+  "discovery_score": 7,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "An open-source reinforcement learning centered and dVRK compatible platform for surgical robot learning.",
+  "slug": "med-air-surrol"
+}

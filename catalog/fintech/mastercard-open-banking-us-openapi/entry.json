@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mastercard/open-banking-us-openapi",
+  "name": "mastercard/open-banking-us-openapi",
+  "description": "The OpenAPI specification for Mastercard Open Banking APIs (\ud83c\uddfa\ud83c\uddf8), along with a suite of tests using a generated API client and the Test Drive sandbox.",
+  "sub_domain": "open-banking-psd2",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 55,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 3,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "The OpenAPI specification for Mastercard Open Banking APIs (\ud83c\uddfa\ud83c\uddf8), along with a suite of tests using a generated API client and the Test Dr...",
+  "slug": "mastercard-open-banking-us-openapi"
+}

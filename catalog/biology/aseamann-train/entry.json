@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aseamann/train",
+  "name": "Aseamann/TRain",
+  "description": "TRain: T-cell Receptor automated immunoinformatics",
+  "sub_domain": "immunoinformatics",
+  "score": 6,
+  "score_rationale": "TCR automation tool that fits immunoinformatics workflows, but it is niche and lightly adopted.",
+  "stars": 3,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2024-11-17",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 6,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "TRain: T-cell Receptor automated immunoinformatics",
+  "slug": "aseamann-train"
+}

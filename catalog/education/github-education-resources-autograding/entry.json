@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/github-education-resources/autograding",
+  "name": "github-education-resources/autograding",
+  "description": "GitHub Education Auto-grading and Feedback for GitHub Classroom",
+  "sub_domain": "interactive-coding-education",
+  "score": 8,
+  "score_rationale": "Direct GitHub Classroom autograding resource for teaching workflows.",
+  "stars": 59,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-05-02",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 62.2,
+  "discovery_score": 8,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "grading",
+    "classroom"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "GitHub Education Auto-grading and Feedback for GitHub Classroom",
+  "slug": "github-education-resources-autograding"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/datachain-ai/datachain",
+  "name": "datachain-ai/datachain",
+  "description": "Analytics, Versioning and ETL for multimodal data: video, audio, PDFs, images",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 2730,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 57.5,
+  "discovery_score": 5,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Analytics, Versioning and ETL for multimodal data: video, audio, PDFs, images",
+  "slug": "datachain-ai-datachain"
+}

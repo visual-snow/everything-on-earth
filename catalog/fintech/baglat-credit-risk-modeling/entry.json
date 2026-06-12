@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/baglat/credit-risk-modeling",
+  "name": "baglat/credit-risk-modeling",
+  "description": "Estimated Expected Loss by modelling PD, LGD and EAD and created a scorecard to identify customers that can default on a given consumer loan in future and estimated capital requirement (Capital Adequacy or regulatory capital) using Basel II and Basel III regulations. Used consumer loan dataset on Kaggle from year 2007-2015 issued by LendingClub company. Used pre-processing techniques such as Weight of Evidence, Fine classing and Coarse Classing before building a Probability Density model. Received an AUC score of 73%.",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text; penalized for dataset-style signals.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2020-07-23",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "Estimated Expected Loss by modelling PD, LGD and EAD and created a scorecard to identify customers that can default on a given consumer l...",
+  "slug": "baglat-credit-risk-modeling"
+}

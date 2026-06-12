@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/illinois/autograding",
+  "name": "illinois/autograding",
+  "description": "GitHub Action-based Autograding, compatible with education/autograding",
+  "sub_domain": "interactive-coding-education",
+  "score": 5,
+  "score_rationale": "Useful classroom autograding implementation, but narrower and less central than the GitHub Education resources.",
+  "stars": 3,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-03-11",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 34.8,
+  "discovery_score": 5,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "GitHub Action-based Autograding, compatible with education/autograding",
+  "slug": "illinois-autograding"
+}

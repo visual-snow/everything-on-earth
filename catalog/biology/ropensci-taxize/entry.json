@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ropensci/taxize",
+  "name": "ropensci/taxize",
+  "description": "A taxonomic toolbelt for R.",
+  "sub_domain": "biodiversity-informatics",
+  "score": 10,
+  "score_rationale": "Canonical multi-source taxonomy package for resolving names and taxonomic hierarchies across biodiversity workflows.",
+  "stars": 300,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2026-02-17",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 79.8,
+  "discovery_score": 10,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "A taxonomic toolbelt for R.",
+  "slug": "ropensci-taxize"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/apilayer/marketstack",
+  "name": "apilayer/marketstack",
+  "description": "Free Real-Time, Intraday & Historical Stock Market Data API",
+  "sub_domain": "financial-market-data",
+  "score": 1,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; archived repo penalty.",
+  "stars": 77,
+  "language": null,
+  "license": null,
+  "last_activity": "2020-06-14",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 21.1,
+  "discovery_score": 1,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "Free Real-Time, Intraday & Historical Stock Market Data API",
+  "slug": "apilayer-marketstack"
+}

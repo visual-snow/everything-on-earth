@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/green-software-foundation/carbon-aware-sdk",
+  "name": "green-software-foundation/carbon-aware-sdk",
+  "description": "Carbon-Aware SDK",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 576,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2025-12-18",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 46.1,
+  "discovery_score": 4,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "Carbon-Aware SDK",
+  "slug": "green-software-foundation-carbon-aware-sdk"
+}

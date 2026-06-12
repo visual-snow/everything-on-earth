@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/bigbluebutton/bigbluebutton",
+  "name": "bigbluebutton/bigbluebutton",
+  "description": "A complete web conferencing system for virtual classes and more!",
+  "sub_domain": "classroom-management",
+  "score": 9,
+  "score_rationale": "Strong virtual-classroom fit with teacher-facing controls, screen sharing, breakout rooms, polling, and learning analytics.",
+  "stars": 9065,
+  "language": "JavaScript",
+  "license": "LGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "accessibility-inclusive-education",
+    "classroom-management"
+  ],
+  "quality_score": 85.7,
+  "discovery_score": 9,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning",
+    "classroom",
+    "device-management"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "A complete web conferencing system for virtual classes and more!",
+  "slug": "bigbluebutton-bigbluebutton"
+}

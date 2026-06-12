@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/aktionariat/contracts",
+  "name": "aktionariat/contracts",
+  "description": "The public repository for all smart contracts used by Aktionariat.",
+  "sub_domain": "smart-contracts-legal",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 17,
+  "language": "Solidity",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 34.0,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract-analysis"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "The public repository for all smart contracts used by Aktionariat.",
+  "slug": "aktionariat-contracts"
+}

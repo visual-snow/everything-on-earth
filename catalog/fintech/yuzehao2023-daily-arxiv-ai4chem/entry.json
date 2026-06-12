@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yuzehao2023/daily-arxiv-ai4chem",
+  "name": "yuzehao2023/daily-arxiv-ai4chem",
+  "description": "\ud83c\udf93Automatically Update AI4Chem Papers Daily using Github Actions",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 21,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 16.7,
+  "discovery_score": 1,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "\ud83c\udf93Automatically Update AI4Chem Papers Daily using Github Actions",
+  "slug": "yuzehao2023-daily-arxiv-ai4chem"
+}

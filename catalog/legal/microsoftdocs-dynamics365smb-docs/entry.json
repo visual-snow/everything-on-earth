@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/microsoftdocs/dynamics365smb-docs",
+  "name": "microsoftdocs/dynamics365smb-docs",
+  "description": "Welcome to the repository for the application help content for Dynamics 365 Business Central! This repo gives you access to the source files for the enduser Learn More content. It also provides a way for you to actively contribute to the current Business Central content.",
+  "sub_domain": "tax-compliance-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 143,
+  "language": "HTML",
+  "license": "CC-BY-4.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 23.3,
+  "discovery_score": 1,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat",
+    "access"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "Welcome to the repository for the application help content for Dynamics 365 Business Central! This repo gives you access to the source fi...",
+  "slug": "microsoftdocs-dynamics365smb-docs"
+}

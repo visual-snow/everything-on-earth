@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/4337mafia/awesome-account-abstraction",
+  "name": "4337mafia/awesome-account-abstraction",
+  "description": "\ud83d\udcd6 A curated list of resources dedicated to Account Abstraction (EIP-4337)",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 1006,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2025-11-05",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 54.0,
+  "discovery_score": 5,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization",
+    "account-abstraction"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "\ud83d\udcd6 A curated list of resources dedicated to Account Abstraction (EIP-4337)",
+  "slug": "4337mafia-awesome-account-abstraction"
+}

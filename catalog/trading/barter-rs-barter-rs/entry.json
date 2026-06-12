@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/barter-rs/barter-rs",
+  "name": "barter-rs/barter-rs",
+  "description": "Open-source Rust framework for building event-driven live-trading & backtesting systems",
+  "sub_domain": "trading-bots-strategy-frameworks",
+  "score": 9,
+  "score_rationale": "Modern event-driven live-trading and backtesting framework with clear platform-level scope.",
+  "stars": 2031,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "live-algo-execution-engines",
+    "trading-bots-strategy-frameworks"
+  ],
+  "quality_score": 80.5,
+  "tags": [
+    "trading-bot",
+    "strategy-framework",
+    "automation",
+    "backtesting"
+  ],
+  "category": "Trading Bot Framework",
+  "summary": "Open-source Rust framework for building event-driven live-trading & backtesting systems",
+  "slug": "barter-rs-barter-rs"
+}

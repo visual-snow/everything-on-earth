@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/geopandas/geopandas",
+  "name": "geopandas/geopandas",
+  "description": "Python tools for geographic data",
+  "stars": 5072,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-23",
+  "sub_domain": "geoint-tools",
+  "score": 7,
+  "score_rationale": "Core vector geospatial library for spatial analysis and operational GEOINT work.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 71.6,
+  "tags": [
+    "vector-data",
+    "geospatial",
+    "python",
+    "spatial-analysis"
+  ],
+  "category": "Vector GIS Library",
+  "summary": "Python tools for working with geographic vector data.",
+  "slug": "geopandas-geopandas"
+}

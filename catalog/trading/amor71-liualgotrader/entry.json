@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/amor71/liualgotrader",
+  "name": "amor71/LiuAlgoTrader",
+  "description": "Framework for algorithmic trading",
+  "sub_domain": "trading-bots-strategy-frameworks",
+  "score": 8,
+  "score_rationale": "General algorithmic-trading framework with direct bot-runtime relevance.",
+  "stars": 890,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-08-13",
+  "found_in_domains": [
+    "trading-bots-strategy-frameworks"
+  ],
+  "quality_score": 71.6,
+  "tags": [
+    "trading-bot",
+    "strategy-framework",
+    "automation"
+  ],
+  "category": "Trading Bot Framework",
+  "summary": "Framework for algorithmic trading",
+  "slug": "amor71-liualgotrader"
+}

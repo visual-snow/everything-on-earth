@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/overhangio/tutor-cairn",
+  "name": "overhangio/tutor-cairn",
+  "description": "Open edX plugin that collects learning events into dashboards out of the box.",
+  "sub_domain": "analytics-learning-dashboards",
+  "score": 8,
+  "score_rationale": "Strong match for education analytics infrastructure, especially for Open edX dashboarding and event collection.",
+  "stars": 12,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-01-16",
+  "found_in_domains": [
+    "analytics-learning-dashboards"
+  ],
+  "quality_score": 56.9,
+  "discovery_score": 8,
+  "tags": [
+    "analytics",
+    "dashboards",
+    "engagement",
+    "early-alerts"
+  ],
+  "category": "Analytics, Learning Dashboards, Engagement Metrics & Early Alerts",
+  "summary": "Open edX plugin that collects learning events into dashboards out of the box.",
+  "slug": "overhangio-tutor-cairn"
+}

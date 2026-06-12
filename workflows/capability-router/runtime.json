@@ -1,0 +1,22 @@
+{
+  "workflow": "capability-router",
+  "stages": [
+    "load_context",
+    "classify",
+    "route"
+  ],
+  "roles": [
+    "classifier"
+  ],
+  "artifacts": {
+    "routing_index": "capability-graph/exports/csv/domain-routing.csv",
+    "capability_registry": "capability-graph/ontology/capability-registry.json",
+    "graph": "capability-graph/graph/graph.json",
+    "route_decision": "route-decision.json"
+  },
+  "invariants": {
+    "classifier_uses_structured_candidates": true,
+    "no_skill_load_without_generated_asset": true,
+    "deterministic_routing_index": true
+  }
+}

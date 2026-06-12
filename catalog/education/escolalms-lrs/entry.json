@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/escolalms/lrs",
+  "name": "EscolaLMS/LRS",
+  "description": "xAPI Learning Record Stores.",
+  "sub_domain": "edtech-infrastructure",
+  "score": 6,
+  "score_rationale": "Small but direct xAPI LRS implementation aimed at education workflows.",
+  "stars": 7,
+  "language": "PHP",
+  "license": "MIT",
+  "last_activity": "2024-07-10",
+  "found_in_domains": [
+    "edtech-infrastructure"
+  ],
+  "quality_score": 43.2,
+  "discovery_score": 6,
+  "tags": [
+    "lti",
+    "xapi",
+    "scorm",
+    "rostering"
+  ],
+  "category": "EdTech Infrastructure, LTI, xAPI, SCORM, SSO, Rostering & Data Sync",
+  "summary": "xAPI Learning Record Stores.",
+  "slug": "escolalms-lrs"
+}

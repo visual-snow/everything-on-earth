@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openmhealth/shimmer",
+  "name": "openmhealth/shimmer",
+  "description": "An application for reading health data from third-party APIs.",
+  "sub_domain": "wearable-iot-health",
+  "score": 7,
+  "score_rationale": "Health-data ingestion and API consolidation are foundational to wearable-health pipelines even though the project is older.",
+  "stars": 460,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2021-05-18",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 63.3,
+  "discovery_score": 7,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "An application for reading health data from third-party APIs.",
+  "slug": "openmhealth-shimmer"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/open-aac/aac-metrics",
+  "name": "open-aac/aac-metrics",
+  "description": "A tool for analysing and comparing grid-based AAC board sets",
+  "sub_domain": "special-education-therapy",
+  "score": 7,
+  "score_rationale": "Useful support tooling for evaluating AAC board sets used in communication and learning programs.",
+  "stars": 4,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2025-02-05",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 47.6,
+  "discovery_score": 7,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "A tool for analysing and comparing grid-based AAC board sets",
+  "slug": "open-aac-aac-metrics"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jpshanno/climate_response",
+  "name": "jpshanno/climate_response",
+  "description": "Climate Response Models for Black Ash Wetlands",
+  "sub_domain": "climate-biology",
+  "score": 9,
+  "score_rationale": "It is a direct climate-response modeling repo for a biological wetland system.",
+  "stars": 0,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2022-08-02",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "Climate Response Models for Black Ash Wetlands",
+  "slug": "jpshanno-climate-response"
+}

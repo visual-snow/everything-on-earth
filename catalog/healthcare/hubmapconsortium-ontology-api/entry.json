@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hubmapconsortium/ontology-api",
+  "name": "hubmapconsortium/ontology-api",
+  "description": "The HuBMAP Ontology Service",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 5,
+  "score_rationale": "Ontology service with UMLS-backed cross-referencing, relevant as a biomedical ontology API even if not a dedicated terminology server.",
+  "stars": 5,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2022-11-16",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 36.2,
+  "discovery_score": 5,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "The HuBMAP Ontology Service",
+  "slug": "hubmapconsortium-ontology-api"
+}

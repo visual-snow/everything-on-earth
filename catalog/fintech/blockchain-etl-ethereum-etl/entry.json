@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/blockchain-etl/ethereum-etl",
+  "name": "blockchain-etl/ethereum-etl",
+  "description": "Python scripts for ETL (extract, transform and load) jobs for Ethereum blocks, transactions, ERC20 / ERC721 tokens, transfers, receipts, logs, contracts, internal transactions. Data is available in Google BigQuery https://goo.gl/oY5BCQ",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption.",
+  "stars": 3124,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-01-25",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 58.0,
+  "discovery_score": 5,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Python scripts for ETL (extract, transform and load) jobs for Ethereum blocks, transactions, ERC20 / ERC721 tokens, transfers, receipts,...",
+  "slug": "blockchain-etl-ethereum-etl"
+}

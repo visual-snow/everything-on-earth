@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/babelomics/sftool",
+  "name": "babelomics/sftool",
+  "description": "Secondary Findings tool",
+  "sub_domain": "clinical-genomics",
+  "score": 7,
+  "score_rationale": "Secondary findings handling is a clinical genomics use case and this repo is directly oriented around that workflow.",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-02-12",
+  "found_in_domains": [
+    "clinical-genomics"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "clinical-genomics",
+    "genomics",
+    "variant-interpretation",
+    "acmg"
+  ],
+  "category": "Clinical Genomics \u2014 variant interpretation and pharmacogenomics",
+  "summary": "Secondary Findings tool",
+  "slug": "babelomics-sftool"
+}

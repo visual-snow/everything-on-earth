@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/formancehq/ledger",
+  "name": "formancehq/ledger",
+  "description": "The programmable open source core ledger for fintech",
+  "sub_domain": "core-banking-ledger",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1176,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "core-banking-ledger"
+  ],
+  "quality_score": 60.6,
+  "discovery_score": 6,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "The programmable open source core ledger for fintech",
+  "slug": "formancehq-ledger"
+}

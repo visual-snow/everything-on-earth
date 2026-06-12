@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/p254/jane-street-trading-bot",
+  "name": "p254/jane-street-trading-bot",
+  "description": "Trading bot which executed trades on a simulated marketplace run on the Amazon EC2 during the Jane Street electronic trading competition",
+  "sub_domain": "paper-trading-simulation",
+  "score": 8,
+  "score_rationale": "Built for a simulated marketplace in the Jane Street electronic trading competition.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2017-09-26",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "Trading bot which executed trades on a simulated marketplace run on the Amazon EC2 during the Jane Street...",
+  "slug": "p254-jane-street-trading-bot"
+}

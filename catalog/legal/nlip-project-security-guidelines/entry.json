@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nlip-project/security_guidelines",
+  "name": "nlip-project/security_guidelines",
+  "description": "NLIP\u2019s Security Guidelines and Best Practices is the companion to the NLIP core specification, brought to you by the NLIP Security Working Group.",
+  "sub_domain": "e-discovery-document-review",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 5,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2025-08-27",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 12.2,
+  "discovery_score": 1,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "NLIP\u2019s Security Guidelines and Best Practices is the companion to the NLIP core specification, brought to you by the NLIP Security Workin...",
+  "slug": "nlip-project-security-guidelines"
+}

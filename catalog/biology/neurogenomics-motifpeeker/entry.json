@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/neurogenomics/motifpeeker",
+  "name": "neurogenomics/motifpeeker",
+  "description": "Benchmark Epigenomic Profiling Methods with Motif Enrichment as Key Metric",
+  "sub_domain": "epigenomics",
+  "score": 5,
+  "score_rationale": "Useful for evaluating epigenomic profiling methods, but it is more of a benchmark harness than a primary analysis package.",
+  "stars": 2,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "Benchmark Epigenomic Profiling Methods with Motif Enrichment as Key Metric",
+  "slug": "neurogenomics-motifpeeker"
+}

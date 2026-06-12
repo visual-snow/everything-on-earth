@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/michaelcarloh/option-pricing",
+  "name": "michaelcarloh/option-pricing",
+  "description": "This repository contains various models and techniques for pricing financial options. The focus is on implementing the Black-Scholes model and some of its extensions (e.g. Heston) , visualizing implied volatility surfaces, and utilizing Monte Carlo simulations for exotic option pricing. PYPI pckg: https://pypi.org/project/tiny-pricing-utils/1.0.3/",
+  "sub_domain": "options-derivatives",
+  "score": 7,
+  "score_rationale": "Useful notebook-style implementation covering pricing models, exotic options, and implied volatility surfaces, though it is more educational than production-grade.",
+  "stars": 6,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-03-17",
+  "found_in_domains": [
+    "options-derivatives"
+  ],
+  "quality_score": 48.8,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "This repository contains various models and techniques for pricing financial options. The focus is on...",
+  "slug": "michaelcarloh-option-pricing"
+}

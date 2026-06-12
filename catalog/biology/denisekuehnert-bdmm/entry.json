@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/denisekuehnert/bdmm",
+  "name": "denisekuehnert/bdmm",
+  "description": "Phylodynamics with migration for quantifying population structure from genomic data.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 8,
+  "score_rationale": "Specialized phylodynamic migration framework that stays close to the subdomain, but it is smaller and less active than the major tools.",
+  "stars": 5,
+  "language": "Java",
+  "license": "GPL-3.0",
+  "last_activity": "2023-12-06",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 54.2,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Phylodynamics with migration for quantifying population structure from genomic data.",
+  "slug": "denisekuehnert-bdmm"
+}

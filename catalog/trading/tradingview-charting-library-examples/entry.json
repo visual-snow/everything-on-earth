@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tradingview/charting-library-examples",
+  "name": "tradingview/charting-library-examples",
+  "description": "Examples of Charting Library integrations with other libraries, frameworks and data transports",
+  "sub_domain": "charting-visualization",
+  "score": 9,
+  "score_rationale": "Official examples for TradingView chart integrations, which is highly relevant to trading visualization workflows.",
+  "stars": 1797,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-12-02",
+  "found_in_domains": [
+    "charting-visualization"
+  ],
+  "quality_score": 80.0,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "Examples of Charting Library integrations with other libraries, frameworks and data transports",
+  "slug": "tradingview-charting-library-examples"
+}

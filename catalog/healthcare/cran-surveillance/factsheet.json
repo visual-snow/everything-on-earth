@@ -1,0 +1,60 @@
+{
+  "slug": "cran-surveillance",
+  "name": "cran/surveillance",
+  "what_it_is": "An R package implementing statistical methods for temporal and spatio-temporal modeling and prospective monitoring of infectious disease count data. It provides aberration detection algorithms, endemic-epidemic regression models, and tools for nowcasting reporting delays.",
+  "components": [
+    "sts (surveillance time series) S4 data class for multivariate count time series",
+    "Prospective outbreak detection algorithms (farringtonFlexible, categoricalCUSUM, algo.glrnb, algo.bayes, algo.cdc, earsC, boda, bodaDelay)",
+    "hhh4() endemic-epidemic model for multivariate areal count time series",
+    "twinSIR() SIR event history model for fixed-population point processes",
+    "twinstim() self-exciting spatio-temporal point process model",
+    "nowcast() reporting-delay adjustment and backprojection (backprojNP)",
+    "Calibration and scoring rules (DSS, LogS, RPS)",
+    "Simulation utilities (sts_creation, hhh4 simulate, twinSIR simulate, twinstim simulate)",
+    "Visualization: temporal, spatial, and spatio-temporal plots; animation support"
+  ],
+  "protocols": [],
+  "measurement": [
+    "Observed case counts per time unit and region",
+    "Alarm threshold (upperbound) exceedance",
+    "Proper scoring rules: Dawid-Sebastiani Score (DSS), Log Score (logs), Ranked Probability Score (RPS)",
+    "Calibration test z-statistic and p-value",
+    "One-step-ahead predictive distributions from hhh4",
+    "Nowcast prediction intervals for occurred-but-not-yet-reported events",
+    "Log-likelihood and AIC/BIC from endemic-epidemic model fits"
+  ],
+  "configuration": [
+    "farringtonFlexible: lookback years, half-window width, reweighting flag, time-trend inclusion, GLM family",
+    "hhh4 control: AR/NE/endemic formula components, lag, neighbourhood weight matrix, family, optimizer settings, random effects",
+    "nowcast: aggregation unit, maximum delay, moving window, prior distribution, MCMC settings",
+    "twinstim: endemic and epidemic formula, spatial/temporal interaction functions, epidemic link function",
+    "twinSIR: penalized likelihood smoothing parameter, covariate matrices",
+    "Simulation: outbreak sizes, outbreak dates, reporting delay density, overdispersion, seasonality harmonics"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Prospective (online) outbreak detection on count time series",
+    "Retrospective endemic-epidemic modeling and inference",
+    "Nowcasting with reporting-delay adjustment",
+    "Simulation of outbreak-contaminated count time series",
+    "Spatio-temporal point process modeling (twinstim)",
+    "SIR event-history modeling for fixed populations (twinSIR)"
+  ],
+  "constraints": [
+    "R >= 3.6.0 is required; no Python, Julia, or standalone binary interface is provided",
+    "hhh4 requires at least one lagged observation; the first time point cannot be modeled",
+    "nowcast bayes.trunc.ddcp method requires the runjags package and JAGS to be installed separately",
+    "No REST API, streaming interface, or network protocols; all computation is in-process R session only",
+    "No contact tracing, phylogenetic, or genomic analysis functionality",
+    "No dashboard or web UI; visualization is R plots only"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No REST or gRPC API; purely an R library",
+    "No real-time data ingestion or database connectors",
+    "No contact tracing functionality",
+    "No phylogenetic or genomic analysis",
+    "No dashboard or web UI",
+    "No Docker or containerization support"
+  ]
+}

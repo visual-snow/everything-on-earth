@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/georgezbh/optionpricing",
+  "name": "georgezbh/optionpricing",
+  "description": "GBHPricingLibrary",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 2,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2021-09-21",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 9.8,
+  "discovery_score": 1,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "GBHPricingLibrary",
+  "slug": "georgezbh-optionpricing"
+}

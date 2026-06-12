@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/goldspanlabs/optopsy",
+  "name": "goldspanlabs/optopsy",
+  "description": "A nimble options research and backtesting library for Python",
+  "sub_domain": "options-derivatives",
+  "score": 9,
+  "score_rationale": "Purpose-built for options research and backtesting, which is a strong fit for strategy evaluation and payoff analysis.",
+  "stars": 1296,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "options-derivatives"
+  ],
+  "quality_score": 78.9,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility",
+    "backtesting"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "A nimble options research and backtesting library for Python",
+  "slug": "goldspanlabs-optopsy"
+}

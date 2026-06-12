@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/hananebendisari/artvault",
+  "name": "hananebendisari/artvault",
+  "description": "Decentralized escrow system for creative projects with milestone-based payments and validation",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2025-07-26",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring",
+    "payments"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "Decentralized escrow system for creative projects with milestone-based payments and validation",
+  "slug": "hananebendisari-artvault"
+}

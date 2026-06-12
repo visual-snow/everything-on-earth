@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ryan-rhys/eb1a",
+  "name": "ryan-rhys/eb1a",
+  "description": "EB1A Green Card Template for Self-Petition",
+  "sub_domain": "immigration-visa-processing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for template-style signals.",
+  "stars": 86,
+  "language": "TeX",
+  "license": "NOASSERTION",
+  "last_activity": "2025-11-17",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 21.5,
+  "discovery_score": 1,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "EB1A Green Card Template for Self-Petition",
+  "slug": "ryan-rhys-eb1a"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/soedinglab/pmgen",
+  "name": "soedinglab/PMGen",
+  "description": "peptide-MHC modeling, binding prediction, and protein design.",
+  "sub_domain": "immunoinformatics",
+  "score": 8,
+  "score_rationale": "Explicit peptide-MHC modeling and binding design toolkit that stays squarely in the immunology domain.",
+  "stars": 21,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 58.7,
+  "discovery_score": 8,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "peptide-MHC modeling, binding prediction, and protein design.",
+  "slug": "soedinglab-pmgen"
+}

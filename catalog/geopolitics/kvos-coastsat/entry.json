@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/kvos/coastsat",
+  "name": "kvos/CoastSat",
+  "description": "Global shoreline mapping tool from satellite imagery",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 8,
+  "score_rationale": "Shoreline mapping toolkit useful for coastal and border-adjacent maritime analysis.",
+  "stars": 852,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 71.4,
+  "tags": [
+    "shoreline",
+    "satellite-imagery",
+    "coastal",
+    "mapping"
+  ],
+  "category": "Shoreline Mapping",
+  "summary": "Maps global shorelines from satellite imagery.",
+  "slug": "kvos-coastsat"
+}

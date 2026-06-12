@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wglab/nanocaller",
+  "name": "wglab/nanocaller",
+  "description": "Variant calling tool for long-read sequencing data",
+  "sub_domain": "long-read-sequencing",
+  "score": 8,
+  "score_rationale": "Long-read variant caller aimed at ONT and PacBio-style data.",
+  "stars": 117,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-03-19",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 64.6,
+  "discovery_score": 8,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "Variant calling tool for long-read sequencing data",
+  "slug": "wglab-nanocaller"
+}

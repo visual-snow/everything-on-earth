@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yashpurbhe123/forecasting_system",
+  "name": "yashpurbhe123/forecasting_system",
+  "description": "This project provides an AI-driven demand forecasting tool for hyperlocal delivery businesses. It analyzes historical sales data to predict monthly product sales, accounting for seasonal trends. By optimizing inventory management, it reduces overstocking and stockouts, enhancing customer satisfaction and efficiency.",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 6,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-03-24",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 30.8,
+  "discovery_score": 4,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "This project provides an AI-driven demand forecasting tool for hyperlocal delivery businesses. It analyzes historical sales data to predi...",
+  "slug": "yashpurbhe123-forecasting-system"
+}

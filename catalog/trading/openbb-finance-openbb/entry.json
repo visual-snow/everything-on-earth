@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openbb-finance/openbb",
+  "name": "openbb-finance/openbb",
+  "description": "Financial data platform for analysts, quants and AI agents.",
+  "sub_domain": "charting-visualization",
+  "score": 9,
+  "score_rationale": "Broad finance platform with rich analytical and visualization surfaces, though not a pure charting library.",
+  "stars": 63526,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "market-data-feeds",
+    "charting-visualization"
+  ],
+  "quality_score": 92.4,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "Financial data platform for analysts, quants and AI agents.",
+  "slug": "openbb-finance-openbb"
+}

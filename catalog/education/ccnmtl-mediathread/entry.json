@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ccnmtl/mediathread",
+  "name": "ccnmtl/mediathread",
+  "description": "Django application for multimedia annotations facilitating collaboration on video and image analysis.",
+  "sub_domain": "video-lecture-platforms",
+  "score": 6,
+  "score_rationale": "Strong education-oriented multimedia annotation platform used in teaching and analysis.",
+  "stars": 88,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "video-lecture-platforms"
+  ],
+  "quality_score": 51.6,
+  "discovery_score": 6,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "Django application for multimedia annotations facilitating collaboration on video and image analysis.",
+  "slug": "ccnmtl-mediathread"
+}

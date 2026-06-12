@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/chaidiscovery/chai-lab",
+  "name": "chaidiscovery/chai-lab",
+  "description": "Chai-1, SOTA model for biomolecular structure prediction",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 7,
+  "score_rationale": "Biomolecular structure prediction is adjacent but highly useful for structure-based drug design workflows.",
+  "stars": 1907,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 68.2,
+  "discovery_score": 7,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening",
+    "lab"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "Chai-1, SOTA model for biomolecular structure prediction",
+  "slug": "chaidiscovery-chai-lab"
+}

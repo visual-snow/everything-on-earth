@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dependablesystemslab/etainter",
+  "name": "dependablesystemslab/etainter",
+  "description": "eTainter is an automated static taint analysis tool for detecting gas-related vulnerabilities in smart contracts.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 21,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2023-07-24",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 16.7,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "eTainter is an automated static taint analysis tool for detecting gas-related vulnerabilities in smart contracts.",
+  "slug": "dependablesystemslab-etainter"
+}

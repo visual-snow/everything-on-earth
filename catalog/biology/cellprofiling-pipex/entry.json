@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cellprofiling/pipex",
+  "name": "cellprofiling/pipex",
+  "description": "A pipeline to transform images into valuable analysis items",
+  "sub_domain": "biomedical-imaging",
+  "score": 8,
+  "score_rationale": "PIPEX is a concrete CODEX and cell-segmentation workflow with downstream analysis and QuPath/TissUUmaps integration.",
+  "stars": 18,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-06-18",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 58.2,
+  "discovery_score": 8,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "A pipeline to transform images into valuable analysis items",
+  "slug": "cellprofiling-pipex"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/compound-finance/compound-protocol",
+  "name": "compound-finance/compound-protocol",
+  "description": "The Compound On-Chain Protocol",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 2021,
+  "language": "TypeScript",
+  "license": "BSD-3-Clause",
+  "last_activity": "2024-06-10",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 62.4,
+  "discovery_score": 6,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "The Compound On-Chain Protocol",
+  "slug": "compound-finance-compound-protocol"
+}

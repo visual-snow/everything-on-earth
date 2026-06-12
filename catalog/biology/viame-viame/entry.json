@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/viame/viame",
+  "name": "VIAME/VIAME",
+  "description": "Video and Image Analytics for Multiple Environments",
+  "sub_domain": "marine-biology",
+  "score": 10,
+  "score_rationale": "Canonical multi-environment video and image analytics stack used directly in marine ecology and ocean monitoring.",
+  "stars": 331,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 80.2,
+  "discovery_score": 10,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "Video and Image Analytics for Multiple Environments",
+  "slug": "viame-viame"
+}

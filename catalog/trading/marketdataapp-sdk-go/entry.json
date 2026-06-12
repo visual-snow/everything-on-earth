@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/marketdataapp/sdk-go",
+  "name": "MarketDataApp/sdk-go",
+  "description": "Market Data's Official Go SDK",
+  "sub_domain": "market-data-feeds",
+  "score": 6,
+  "score_rationale": "Official SDK for obtaining real-time and historical financial data; narrower than the canonical open-source wrappers but still clearly on-scope.",
+  "stars": 10,
+  "language": "Go",
+  "license": "MIT",
+  "last_activity": null,
+  "found_in_domains": [
+    "market-data-feeds"
+  ],
+  "quality_score": 44.3,
+  "tags": [
+    "market-data",
+    "data-ingestion",
+    "real-time-feeds"
+  ],
+  "category": "Market Data Feed",
+  "summary": "Market Data's Official Go SDK",
+  "slug": "marketdataapp-sdk-go"
+}

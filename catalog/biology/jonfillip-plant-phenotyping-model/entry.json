@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jonfillip/plant_phenotyping_model",
+  "name": "jonfillip/plant_phenotyping_model",
+  "description": "Jupyter notebook project for two-stage deep learning-based tomato phenotyping in vertical farms.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "A concrete plant phenotyping workflow built around tomato trait detection and analysis in a controlled agricultural setting.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-03-08",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Jupyter notebook project for two-stage deep learning-based tomato phenotyping in vertical farms.",
+  "slug": "jonfillip-plant-phenotyping-model"
+}

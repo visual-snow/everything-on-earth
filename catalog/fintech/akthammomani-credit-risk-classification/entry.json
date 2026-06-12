@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/akthammomani/credit_risk_classification",
+  "name": "akthammomani/credit_risk_classification",
+  "description": "Classification Modeling: Probability of Default",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 2,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2022-01-24",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 5,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "Classification Modeling: Probability of Default",
+  "slug": "akthammomani-credit-risk-classification"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/arcadexyz/arcade-protocol",
+  "name": "arcadexyz/arcade-protocol",
+  "description": "Core Arcade.xyz Lending Protocol",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 17,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-06-28",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 34.0,
+  "discovery_score": 4,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "Core Arcade.xyz Lending Protocol",
+  "slug": "arcadexyz-arcade-protocol"
+}

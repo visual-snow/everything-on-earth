@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/uic-indexlab/news-ordering",
+  "name": "UIC-InDeXLab/news-ordering",
+  "description": "Project focused on maximizing neutrality in news ordering.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 7,
+  "score_rationale": "It addresses neutrality in news presentation, which is adjacent to bias and propaganda analysis.",
+  "stars": 4,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-07-16",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 47.6,
+  "tags": [
+    "news-ordering",
+    "neutrality",
+    "ranking",
+    "media-bias"
+  ],
+  "category": "Neutral News Ordering",
+  "summary": "Explores algorithms for maximizing neutrality in news ordering.",
+  "slug": "uic-indexlab-news-ordering"
+}

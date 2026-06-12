@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/enablebanking/openbankingjsexamples",
+  "name": "enablebanking/openbankingjsexamples",
+  "description": "Sample JavaScript code showing how to use Open banking APIs (PSD2 AISP & PISP) using enable:Banking JS library",
+  "sub_domain": "open-banking-psd2",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; archived repo penalty.",
+  "stars": 18,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2024-03-07",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 22.2,
+  "discovery_score": 2,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "Sample JavaScript code showing how to use Open banking APIs (PSD2 AISP & PISP) using enable:Banking JS library",
+  "slug": "enablebanking-openbankingjsexamples"
+}

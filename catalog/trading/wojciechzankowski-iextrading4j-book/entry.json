@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/wojciechzankowski/iextrading4j-book",
+  "name": "WojciechZankowski/iextrading4j-book",
+  "description": "IEX Trading open source incremental Order Book implementation",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 7,
+  "score_rationale": "Incremental order-book implementation for IEX-style market data.",
+  "stars": 18,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2023-12-05",
+  "found_in_domains": [
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 52.2,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "IEX Trading open source incremental Order Book implementation",
+  "slug": "wojciechzankowski-iextrading4j-book"
+}

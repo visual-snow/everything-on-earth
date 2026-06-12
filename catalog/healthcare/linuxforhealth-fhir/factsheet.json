@@ -1,0 +1,14 @@
+{
+  "slug": "linuxforhealth-fhir",
+  "name": "LinuxForHealth/FHIR",
+  "what_it_is": "Modular Java implementation of the HL7 FHIR specification (R4 and R4B) running on OpenLiberty, offering a REST API, extended operations, multi-tenancy, and pluggable persistence. Formerly the IBM FHIR Server.",
+  "components": ["JAX-RS REST API on OpenLiberty", "R4B object model and parsers", "JDBC persistence layer", "Schema deployment CLI", "Bulk data import/export", "CADF audit log service", "SMART-on-FHIR interceptor", "Terminology service ($expand, $lookup, $subsumes)", "FHIRPath 2.0.0 engine", "Java FHIR client", "CQL quality measure evaluation", "Conformance profiles (US Core, mCODE, CARIN BB, Da Vinci)"],
+  "protocols": ["FHIR R4 and R4B REST", "HTTPS", "WebSocket notifications", "Kafka (notifications and audit)", "NATS Streaming", "SMART-on-FHIR/OAuth 2.0", "JDBC over PostgreSQL/Derby/Citus", "S3/Azure Blob/IBM COS", "FHIRPath 2.0.0", "CADF audit format"],
+  "modes": ["Single-tenant embedded Derby (dev)", "Multi-tenant PostgreSQL (production)", "Multi-tenant Citus (experimental)", "Payload offload (Azure Blob/IBM COS/Cassandra)", "Bulk export/import", "SMART-on-FHIR authorization", "CQL quality measure evaluation"],
+  "constraints": ["Requires Java 11 (OpenJDK 11)", "Embedded Derby not for production; PostgreSQL required", "Payload offloading must be configured before data ingestion", "Bulk import/export skips persistence interceptors and notifications", "Schema must be deployed by FHIRADMIN user"],
+  "docker_services": ["fhir-server", "postgres", "azurite (optional)"],
+  "notable_absences": ["No built-in OAuth2 server", "No built-in Kafka/NATS broker", "No CDS Hooks", "No topic-based FHIR Subscription", "No UI or data browser"],
+  "measurement": ["Healthcheck endpoint", "Liberty logs", "Bulk job status polling", "CADF audit events", "JMH benchmarks"],
+  "configuration": ["fhir-server-config.json per tenant", "server.xml (OpenLiberty)", "Datasource drop-ins", "Notification channel selection", "Audit service selection", "Bulk storage providers", "Custom search parameters per tenant"],
+  "fault_injection": []
+}

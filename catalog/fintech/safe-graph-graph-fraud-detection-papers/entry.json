@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/safe-graph/graph-fraud-detection-papers",
+  "name": "safe-graph/graph-fraud-detection-papers",
+  "description": "A curated list of Graph/Transformer-based fraud, anomaly, and outlier detection papers & resources",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1798,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-01-31",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 62.0,
+  "discovery_score": 6,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "A curated list of Graph/Transformer-based fraud, anomaly, and outlier detection papers & resources",
+  "slug": "safe-graph-graph-fraud-detection-papers"
+}

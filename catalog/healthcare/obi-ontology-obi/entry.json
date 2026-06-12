@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/obi-ontology/obi",
+  "name": "obi-ontology/obi",
+  "description": "The Ontology for Biomedical Investigations",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 6,
+  "score_rationale": "Important biomedical ontology project with direct relevance to standards and ontology maintenance, though not a tooling repo.",
+  "stars": 101,
+  "language": "Python",
+  "license": "CC-BY-4.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 52.1,
+  "discovery_score": 6,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "The Ontology for Biomedical Investigations",
+  "slug": "obi-ontology-obi"
+}

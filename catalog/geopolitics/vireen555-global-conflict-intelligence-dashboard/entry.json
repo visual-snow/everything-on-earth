@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/vireen555/global-conflict-intelligence-dashboard",
+  "name": "Vireen555/global-conflict-intelligence-dashboard",
+  "description": "Hybrid conflict intelligence dashboard built with Python, Streamlit, GDELT, ACLED, and GitHub Actions to monitor recent war-news signals and structured conflict patterns.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "sub_domain": "conflict-event-tracking",
+  "score": 9,
+  "score_rationale": "Strong real-time conflict dashboard that explicitly fuses GDELT and conflict signals.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 56.4,
+  "tags": [
+    "conflict-intelligence",
+    "gdelt",
+    "acled",
+    "dashboard"
+  ],
+  "category": "Conflict Intelligence",
+  "summary": "Hybrid dashboard for war news signals and structured conflict patterns.",
+  "slug": "vireen555-global-conflict-intelligence-dashboard"
+}

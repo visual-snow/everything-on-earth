@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/noahweber1/sbol-diffusion",
+  "name": "noahweber1/sbol-diffusion",
+  "description": "Text-Prompt Guided Stable Diffusion for Genetic Circuit Design in SBOL",
+  "sub_domain": "synthetic-biology",
+  "score": 9,
+  "score_rationale": "Directly targets genetic circuit design in SBOL and is tightly aligned with emerging synthetic-biology design workflows.",
+  "stars": 2,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-05-13",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 57.8,
+  "discovery_score": 9,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "Text-Prompt Guided Stable Diffusion for Genetic Circuit Design in SBOL",
+  "slug": "noahweber1-sbol-diffusion"
+}

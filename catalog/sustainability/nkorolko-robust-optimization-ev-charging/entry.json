@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nkorolko/robust_optimization_ev_charging",
+  "name": "nkorolko/robust_optimization_ev_charging",
+  "description": "No description provided.",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 9,
+  "language": "Julia",
+  "license": null,
+  "last_activity": "2016-08-06",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 26.0,
+  "discovery_score": 3,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "No description provided.",
+  "slug": "nkorolko-robust-optimization-ev-charging"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mic-dkfz/rptk",
+  "name": "MIC-DKFZ/RPTK",
+  "description": "The Radiomics Processing Toolkit (RPTK) is an automated self-optimizing Framework which can be used as a task-agnostic pipeline to predict radiomics-based biomarkers for any binary classification problem.",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 7,
+  "score_rationale": "Relevant radiomics toolkit with a narrower footprint than pyradiomics but still directly in scope.",
+  "stars": 8,
+  "language": "Python",
+  "license": "EUPL-1.2",
+  "last_activity": "2025-10-24",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 7,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "The Radiomics Processing Toolkit (RPTK) is an automated self-optimizing Framework which can be used as a task-agnostic pipeline to predic...",
+  "slug": "mic-dkfz-rptk"
+}

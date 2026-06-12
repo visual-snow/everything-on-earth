@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bigbio/quantms",
+  "name": "bigbio/quantms",
+  "description": "Quantitative mass spectrometry workflow. Currently supports proteomics experiments with complex experimental designs for DDA-LFQ, DDA-Isobaric and DIA-LFQ quantification.",
+  "sub_domain": "proteomics",
+  "score": 9,
+  "score_rationale": "A modern quantitative proteomics workflow that spans multiple common MS experimental designs.",
+  "stars": 68,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 68.7,
+  "discovery_score": 9,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "Quantitative mass spectrometry workflow. Currently supports proteomics experiments with complex experimental designs for DDA-LFQ, DDA-Iso...",
+  "slug": "bigbio-quantms"
+}

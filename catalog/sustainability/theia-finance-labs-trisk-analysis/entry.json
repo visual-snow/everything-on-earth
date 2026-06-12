@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/theia-finance-labs/trisk.analysis",
+  "name": "theia-finance-labs/trisk.analysis",
+  "description": "Utility functions to use Trisk",
+  "sub_domain": "climate-finance",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "R",
+  "license": "LGPL-3.0",
+  "last_activity": "2026-02-12",
+  "found_in_domains": [
+    "climate-finance"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "climate-finance",
+    "green-bonds",
+    "carbon-credit",
+    "climate-risk"
+  ],
+  "category": "Climate Finance \u2014 green bond analytics, carbon credit markets, climate risk portfolios",
+  "summary": "Utility functions to use Trisk",
+  "slug": "theia-finance-labs-trisk-analysis"
+}

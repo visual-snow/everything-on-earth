@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/e-clearing-net/ochp",
+  "name": "e-clearing-net/OCHP",
+  "description": "Open Clearing House Protocol",
+  "sub_domain": "reconciliation-settlement",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 47,
+  "language": "XSLT",
+  "license": "MIT",
+  "last_activity": "2024-05-02",
+  "found_in_domains": [
+    "reconciliation-settlement"
+  ],
+  "quality_score": 37.4,
+  "discovery_score": 4,
+  "tags": [
+    "reconciliation",
+    "settlement",
+    "clearing",
+    "transaction-matching"
+  ],
+  "category": "Reconciliation / Settlement",
+  "summary": "Open Clearing House Protocol",
+  "slug": "e-clearing-net-ochp"
+}

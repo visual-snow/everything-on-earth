@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tomkurian01/swiftparser",
+  "name": "tomkurian01/swiftparser",
+  "description": "C# Library to parse the SWIFT MT Financial Messages.",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 30,
+  "language": "C#",
+  "license": null,
+  "last_activity": "2015-03-18",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 35.9,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "C# Library to parse the SWIFT MT Financial Messages.",
+  "slug": "tomkurian01-swiftparser"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/epam/indigo",
+  "name": "epam/Indigo",
+  "description": "Universal cheminformatics toolkit, utilities and database search tools",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 8,
+  "score_rationale": "Broad cheminformatics toolkit with useful search and molecule manipulation capabilities.",
+  "stars": 378,
+  "language": "C++",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 68.6,
+  "discovery_score": 8,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "Universal cheminformatics toolkit, utilities and database search tools",
+  "slug": "epam-indigo"
+}

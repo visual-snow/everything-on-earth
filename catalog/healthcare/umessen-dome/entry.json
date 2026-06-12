@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/umessen/dome",
+  "name": "UMEssen/DOME",
+  "description": "An Encoder based Model for Deidentification of Medical Entities in Clinical Documents",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 8,
+  "score_rationale": "Targeted clinical document de-identification model and research code.",
+  "stars": 3,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-01-24",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 52.8,
+  "discovery_score": 8,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "An Encoder based Model for Deidentification of Medical Entities in Clinical Documents",
+  "slug": "umessen-dome"
+}

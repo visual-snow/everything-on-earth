@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/the-virtual-brain/tvb-root",
+  "name": "the-virtual-brain/tvb-root",
+  "description": "Main codebase for The Virtual Brain large-scale brain network modeling platform.",
+  "sub_domain": "computational-neuroscience",
+  "score": 8,
+  "score_rationale": "Cross-cutting large-scale brain network modeling platform that complements simulator-centric neuroscience tooling.",
+  "stars": 169,
+  "language": "Jupyter Notebook",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-13",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 65.8,
+  "discovery_score": 8,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Main codebase for The Virtual Brain large-scale brain network modeling platform.",
+  "slug": "the-virtual-brain-tvb-root"
+}

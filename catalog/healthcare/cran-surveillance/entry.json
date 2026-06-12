@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cran/surveillance",
+  "name": "cran/surveillance",
+  "description": ":exclamation: This is a read-only mirror of the CRAN R package repository.  surveillance - Temporal and Spatio-Temporal Modeling and Monitoring of Epidemic Phenomena. Homepage: https://surveillance.R-Forge.R-project.org/",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 10,
+  "score_rationale": "Foundational R package for temporal and spatio-temporal monitoring of epidemic phenomena.",
+  "stars": 11,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-06-25",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 68.6,
+  "discovery_score": 10,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": ":exclamation: This is a read-only mirror of the CRAN R package repository.  surveillance - Temporal and Spatio-Temporal Modeling and Moni...",
+  "slug": "cran-surveillance"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hl7/v2-to-fhir",
+  "name": "HL7/v2-to-fhir",
+  "description": "HL7 v2 to FHIR implementation work.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 9,
+  "score_rationale": "Directly addresses a common interoperability problem: converting HL7 v2 content into FHIR.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "HL7 v2 to FHIR implementation work.",
+  "slug": "hl7-v2-to-fhir"
+}

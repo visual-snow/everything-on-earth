@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/ohnlp/omop_mcp",
+  "name": "OHNLP/omop_mcp",
+  "description": "Model Context Protocol (MCP) server for mapping clinical terminology to Observational Medical Outcomes Partnership (OMOP) concepts using Large Language Models",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 5,
+  "score_rationale": "Terminology mapping helper for OMOP concepts; relevant to standards workflows, but more of an assistant service than core infrastructure.",
+  "stars": 34,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-02-19",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 42.4,
+  "discovery_score": 5,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "omop"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "Model Context Protocol (MCP) server for mapping clinical terminology to Observational Medical Outcomes Partnership (OMOP) concepts using...",
+  "slug": "ohnlp-omop-mcp"
+}

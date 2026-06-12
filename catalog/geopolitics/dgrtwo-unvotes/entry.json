@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dgrtwo/unvotes",
+  "name": "dgrtwo/unvotes",
+  "description": "United Nations General Assembly Voting Data.",
+  "sub_domain": "network-alliance-analysis",
+  "score": 10,
+  "score_rationale": "This is a canonical UNGA voting dataset package and is central to alliance analysis.",
+  "stars": 69,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2021-03-09",
+  "found_in_domains": [
+    "network-alliance-analysis"
+  ],
+  "quality_score": 74.8,
+  "tags": [
+    "un",
+    "voting",
+    "general-assembly",
+    "diplomacy",
+    "data"
+  ],
+  "category": "UN Voting Data",
+  "summary": "R package for UN General Assembly vote data.",
+  "slug": "dgrtwo-unvotes"
+}

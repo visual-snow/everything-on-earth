@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lh3/bwa",
+  "name": "lh3/bwa",
+  "description": "Burrow-Wheeler Aligner for short-read alignment (see minimap2 for long-read alignment)",
+  "sub_domain": "genomics",
+  "score": 9,
+  "score_rationale": "Foundational short-read aligner that still anchors many WGS and variant-calling pipelines.",
+  "stars": 1718,
+  "language": "C",
+  "license": "GPL-3.0",
+  "last_activity": "2025-03-22",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 79.9,
+  "discovery_score": 9,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Burrow-Wheeler Aligner for short-read alignment (see minimap2 for long-read alignment)",
+  "slug": "lh3-bwa"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/adorsys/xs2a-connector-examples",
+  "name": "adorsys/xs2a-connector-examples",
+  "description": "Open Source implementation of XS2A connector",
+  "sub_domain": "open-banking-psd2",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for examples-style signals.",
+  "stars": 17,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2025-03-27",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 28.0,
+  "discovery_score": 3,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "Open Source implementation of XS2A connector",
+  "slug": "adorsys-xs2a-connector-examples"
+}

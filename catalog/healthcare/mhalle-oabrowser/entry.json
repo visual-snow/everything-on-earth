@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mhalle/oabrowser",
+  "name": "mhalle/oabrowser",
+  "description": "This repository hosts the source code for the Open Anatomy Browser (OABrowser), a web-based viewer for anatomy atlases.",
+  "sub_domain": "medical-education-simulation",
+  "score": 8,
+  "score_rationale": "WebGL anatomy atlas browser with strong fit for anatomy viewing and education.",
+  "stars": 29,
+  "language": null,
+  "license": null,
+  "last_activity": "2018-10-03",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 59.8,
+  "discovery_score": 8,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "This repository hosts the source code for the Open Anatomy Browser (OABrowser), a web-based viewer for anatomy atlases.",
+  "slug": "mhalle-oabrowser"
+}

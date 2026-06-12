@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/huangnengcsu/blockpolish",
+  "name": "huangnengcsu/blockpolish",
+  "description": "BlockPolish: accurate polishing of long-read assembly via block divide-and-conquer",
+  "sub_domain": "long-read-sequencing",
+  "score": 7,
+  "score_rationale": "Assembly polishing tool built specifically for long-read contig refinement.",
+  "stars": 17,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-06-15",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 52.0,
+  "discovery_score": 7,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "BlockPolish: accurate polishing of long-read assembly via block divide-and-conquer",
+  "slug": "huangnengcsu-blockpolish"
+}

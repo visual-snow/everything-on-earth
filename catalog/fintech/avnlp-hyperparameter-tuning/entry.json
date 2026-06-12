@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/avnlp/hyperparameter-tuning",
+  "name": "avnlp/hyperparameter-tuning",
+  "description": "Effect of Optimizer Selection and Hyperparameter Tuning on Training Efficiency and LLM Performance",
+  "sub_domain": "financial-ai-nlp",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 4,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-04-16",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 11.6,
+  "discovery_score": 1,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Effect of Optimizer Selection and Hyperparameter Tuning on Training Efficiency and LLM Performance",
+  "slug": "avnlp-hyperparameter-tuning"
+}

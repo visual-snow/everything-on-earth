@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/luismurao/nichetoolbox",
+  "name": "luismurao/nichetoolbox",
+  "description": "The package aims to facilitate the process of building niche models and estimate the species distributions.",
+  "sub_domain": "ecology-conservation",
+  "score": 6,
+  "score_rationale": "Older but still relevant niche-modeling toolbox with direct species-distribution utility.",
+  "stars": 6,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2018-07-28",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 6,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "The package aims to facilitate the process of building niche models and estimate the species distributions.",
+  "slug": "luismurao-nichetoolbox"
+}

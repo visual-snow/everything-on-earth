@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shikhargupta/spiking-neural-network",
+  "name": "shikhargupta/spiking-neural-network",
+  "description": "Pure python implementation of SNN",
+  "sub_domain": "computational-neuroscience",
+  "score": 6,
+  "score_rationale": "A direct spiking-neural-network implementation that is still biology-facing despite looking like a compact demo repo.",
+  "stars": 1182,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2022-07-29",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 60.6,
+  "discovery_score": 6,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Pure python implementation of SNN",
+  "slug": "shikhargupta-spiking-neural-network"
+}

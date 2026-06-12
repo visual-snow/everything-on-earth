@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/john-walkoe/uspto_ptab_mcp",
+  "name": "john-walkoe/uspto_ptab_mcp",
+  "description": "High-performance MCP server for USPTO Patent Trial and Appeal Board (PTAB) with context reduction, progressive disclosure workflows, and seamless cross-MCP integration",
+  "sub_domain": "ip-patent-trademark",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "High-performance MCP server for USPTO Patent Trial and Appeal Board (PTAB) with context reduction, progressive disclosure workflows, and...",
+  "slug": "john-walkoe-uspto-ptab-mcp"
+}

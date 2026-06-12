@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/opencivicdata/pupa",
+  "name": "opencivicdata/pupa",
+  "description": "framework for scraping legislative/government data",
+  "sub_domain": "election-governance-data",
+  "score": 9,
+  "score_rationale": "Pupa is a core scraper framework for legislative and government data ingestion.",
+  "stars": 89,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-11-17",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 69.6,
+  "tags": [
+    "civic-data",
+    "scraping",
+    "government-data",
+    "pipelines"
+  ],
+  "category": "Government Data Scraper",
+  "summary": "Framework for scraping and normalizing legislative and government data.",
+  "slug": "opencivicdata-pupa"
+}

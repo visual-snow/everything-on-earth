@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/epiforecasts/epinow2",
+  "name": "epiforecasts/EpiNow2",
+  "description": "Estimate Realtime Case Counts and Time-varying Epidemiological Parameters",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 10,
+  "score_rationale": "Canonical nowcasting and epidemiological parameter estimation library; directly central to outbreak surveillance workflows.",
+  "stars": 133,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 77.0,
+  "discovery_score": 10,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Estimate Realtime Case Counts and Time-varying Epidemiological Parameters",
+  "slug": "epiforecasts-epinow2"
+}

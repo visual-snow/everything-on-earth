@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pierluigirossi86/vineyardutils",
+  "name": "pierluigirossi86/VineyardUtils",
+  "description": "A Python package for digital agriculture in vineyard-related activities",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "Specialized vineyard analytics package that fits digital agriculture and crop operations.",
+  "stars": 0,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2024-08-31",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 50.4,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "A Python package for digital agriculture in vineyard-related activities",
+  "slug": "pierluigirossi86-vineyardutils"
+}

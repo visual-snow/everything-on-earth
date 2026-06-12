@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mathias-ammon/tessif-phd",
+  "name": "mathias-ammon/tessif-phd",
+  "description": "Tessif as it was developed during the lead developer's time at the Hamburg University of Technology",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-03-26",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "Tessif as it was developed during the lead developer's time at the Hamburg University of Technology",
+  "slug": "mathias-ammon-tessif-phd"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gbif/checklistbank",
+  "name": "gbif/checklistbank",
+  "description": "GBIF Checklist Bank",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "This is GBIF's checklist and classification backbone, so it fits taxonomy database and taxon workflow coverage well.",
+  "stars": 36,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "biodiversity-informatics"
+  ],
+  "quality_score": 60.5,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "GBIF Checklist Bank",
+  "slug": "gbif-checklistbank"
+}

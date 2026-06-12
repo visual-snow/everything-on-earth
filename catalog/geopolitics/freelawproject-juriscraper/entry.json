@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/freelawproject/juriscraper",
+  "name": "freelawproject/juriscraper",
+  "description": "An API to scrape American court websites for metadata.",
+  "sub_domain": "international-law-treaties",
+  "score": 9,
+  "score_rationale": "This is a high-signal legal-corpus ingestion tool that pulls structured court metadata at scale.",
+  "stars": 556,
+  "language": "HTML",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 76.0,
+  "tags": [
+    "courts",
+    "legal-data",
+    "scraping",
+    "metadata"
+  ],
+  "category": "Legal Data Scraper",
+  "summary": "Scrapes American court websites for structured case metadata.",
+  "slug": "freelawproject-juriscraper"
+}

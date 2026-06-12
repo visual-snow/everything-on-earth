@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/live-codes/livecodes",
+  "name": "live-codes/livecodes",
+  "description": "A Code Playground That Just Works!",
+  "sub_domain": "interactive-coding-education",
+  "score": 7,
+  "score_rationale": "General code playground that is useful for teaching, demos, and interactive experimentation.",
+  "stars": 1416,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 67.2,
+  "discovery_score": 7,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "A Code Playground That Just Works!",
+  "slug": "live-codes-livecodes"
+}

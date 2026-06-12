@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/edrys-labs/edrys-lite",
+  "name": "edrys-labs/edrys-Lite",
+  "description": "Browser-based peer-to-peer remote laboratory platform for live classrooms and remote equipment access.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 8,
+  "score_rationale": "Clear remote-lab and live-classroom fit, with an education-oriented browser-first workflow.",
+  "stars": 4,
+  "language": "TypeScript",
+  "license": "MPL-2.0",
+  "last_activity": "2026-02-09",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 53.6,
+  "discovery_score": 8,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Browser-based peer-to-peer remote laboratory platform for live classrooms and remote equipment access.",
+  "slug": "edrys-labs-edrys-lite"
+}

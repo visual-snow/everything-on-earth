@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maninc/fedena",
+  "name": "maninc/fedena",
+  "description": "Project Fedena open source school management system based on Ruby on Rails.",
+  "sub_domain": "sis",
+  "score": 6,
+  "score_rationale": "Canonical name in school management, but this repo is stale and lower-confidence than the leading SIS projects.",
+  "stars": 13,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2016-05-24",
+  "found_in_domains": [
+    "sis"
+  ],
+  "quality_score": 45.2,
+  "discovery_score": 6,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "Project Fedena open source school management system based on Ruby on Rails.",
+  "slug": "maninc-fedena"
+}

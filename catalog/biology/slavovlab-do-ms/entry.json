@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/slavovlab/do-ms",
+  "name": "SlavovLab/DO-MS",
+  "description": "An modular and extensible app for visualization of mass spectrometry data and optimization of data acquisition.",
+  "sub_domain": "proteomics",
+  "score": 82,
+  "score_rationale": "Useful proteomics QC and acquisition-optimization utility with lab-facing workflows.",
+  "stars": 27,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2025-03-17",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 503.6,
+  "discovery_score": 82,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "An modular and extensible app for visualization of mass spectrometry data and optimization of data acquisition.",
+  "slug": "slavovlab-do-ms"
+}

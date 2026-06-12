@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hsalis/salislabcode",
+  "name": "hsalis/salislabcode",
+  "description": "Models, design algorithms, and other software related to Salis lab publications",
+  "sub_domain": "synthetic-biology",
+  "score": 9,
+  "score_rationale": "Contains multiple design tools for promoters, mRNA stability, assembly, and other synthetic genetic systems.",
+  "stars": 37,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-11-06",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 66.6,
+  "discovery_score": 9,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "Models, design algorithms, and other software related to Salis lab publications",
+  "slug": "hsalis-salislabcode"
+}

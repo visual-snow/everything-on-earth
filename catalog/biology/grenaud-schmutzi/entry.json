@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/grenaud/schmutzi",
+  "name": "grenaud/schmutzi",
+  "description": "Maximum a posteriori contamination estimation and mitochondrial consensus calling for ancient samples.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 10,
+  "score_rationale": "Core contamination-control utility for mitochondrial aDNA datasets and a long-established standard.",
+  "stars": 23,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-11-04",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 71.0,
+  "discovery_score": 10,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Maximum a posteriori contamination estimation and mitochondrial consensus calling for ancient samples.",
+  "slug": "grenaud-schmutzi"
+}

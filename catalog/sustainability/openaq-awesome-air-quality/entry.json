@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openaq/awesome-air-quality",
+  "name": "openaq/awesome-air-quality",
+  "description": "An awesome list of air quality resources.",
+  "sub_domain": "air-quality-emissions",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for awesome-style signals.",
+  "stars": 68,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2025-06-02",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 26.7,
+  "discovery_score": 2,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "An awesome list of air quality resources.",
+  "slug": "openaq-awesome-air-quality"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/plantbreeding/brapi",
+  "name": "plantbreeding/BrAPI",
+  "description": "Repository for version control of the BrAPI specifications",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 8,
+  "score_rationale": "A key breeding-data interoperability spec and implementation repo for plant breeding workflows.",
+  "stars": 69,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-10",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 62.8,
+  "discovery_score": 8,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Repository for version control of the BrAPI specifications",
+  "slug": "plantbreeding-brapi"
+}

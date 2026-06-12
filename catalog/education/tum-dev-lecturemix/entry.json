@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tum-dev/lecturemix",
+  "name": "TUM-Dev/LectureMix",
+  "description": "An open-source live-streaming stack for recording and streaming lectures.",
+  "sub_domain": "video-lecture-platforms",
+  "score": 8,
+  "score_rationale": "Directly targets lecture recording and live lecture streaming.",
+  "stars": 5,
+  "language": "Go",
+  "license": "GPL-2.0",
+  "last_activity": "2025-10-23",
+  "found_in_domains": [
+    "video-lecture-platforms"
+  ],
+  "quality_score": 54.2,
+  "discovery_score": 8,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "An open-source live-streaming stack for recording and streaming lectures.",
+  "slug": "tum-dev-lecturemix"
+}

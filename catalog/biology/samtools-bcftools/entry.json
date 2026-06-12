@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/samtools/bcftools",
+  "name": "samtools/bcftools",
+  "description": "This is the official development repository for BCFtools. See installation instructions and other documentation here http://samtools.github.io/bcftools/howtos/install.html",
+  "sub_domain": "genomics",
+  "score": 10,
+  "score_rationale": "Essential companion to samtools for VCF/BCF manipulation, variant calling, and downstream genomics analysis.",
+  "stars": 851,
+  "language": "C",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 83.4,
+  "discovery_score": 10,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "This is the official development repository for BCFtools. See installation instructions and other documentation here http://samtools.gith...",
+  "slug": "samtools-bcftools"
+}

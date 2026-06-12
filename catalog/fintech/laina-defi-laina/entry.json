@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/laina-defi/laina",
+  "name": "laina-defi/laina",
+  "description": "DeFi lending & borrowing platform built on Stellar",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 9,
+  "language": "Rust",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 4,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "DeFi lending & borrowing platform built on Stellar",
+  "slug": "laina-defi-laina"
+}

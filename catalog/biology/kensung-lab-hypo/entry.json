@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kensung-lab/hypo",
+  "name": "kensung-lab/hypo",
+  "description": "HyPo: Super Fast & Accurate Polisher for Long Read Genome Assemblies",
+  "sub_domain": "long-read-sequencing",
+  "score": 7,
+  "score_rationale": "Fast, accurate long-read assembly polisher, albeit with an older maintenance cadence.",
+  "stars": 66,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2020-02-23",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 56.6,
+  "discovery_score": 7,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "HyPo: Super Fast & Accurate Polisher for Long Read Genome Assemblies",
+  "slug": "kensung-lab-hypo"
+}

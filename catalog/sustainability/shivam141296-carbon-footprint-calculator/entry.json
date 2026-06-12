@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shivam141296/carbon-footprint-calculator",
+  "name": "shivam141296/carbon-footprint-calculator",
+  "description": "App is divided into two parts--Carbon footprint Calculation and Vehicular Route Optimization. To run vehicular route optimisation click on car icon on main page of app and you need to install that vehicular route app from my another project Vehicular Route Optimization because it is different app.",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 7,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2018-12-13",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "App is divided into two parts--Carbon footprint Calculation and Vehicular Route Optimization. To run vehicular route optimisation click o...",
+  "slug": "shivam141296-carbon-footprint-calculator"
+}

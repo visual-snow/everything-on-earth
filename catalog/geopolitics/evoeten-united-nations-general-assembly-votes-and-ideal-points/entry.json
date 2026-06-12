@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/evoeten/united-nations-general-assembly-votes-and-ideal-points",
+  "name": "evoeten/United-Nations-General-Assembly-Votes-and-Ideal-Points",
+  "description": "Code to produce ideal point estimates for United Nations General Assembly votes, including issue specific ideal points.",
+  "sub_domain": "network-alliance-analysis",
+  "score": 9,
+  "score_rationale": "Ideal-point estimation from UNGA votes is a direct method for measuring diplomatic alignment.",
+  "stars": 32,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2024-04-08",
+  "found_in_domains": [
+    "network-alliance-analysis"
+  ],
+  "quality_score": 66.1,
+  "tags": [
+    "un",
+    "voting",
+    "ideal-points",
+    "diplomacy",
+    "analysis"
+  ],
+  "category": "Ideal Point Estimation",
+  "summary": "Computes UNGA ideal points from vote records.",
+  "slug": "evoeten-united-nations-general-assembly-votes-and-ideal-points"
+}

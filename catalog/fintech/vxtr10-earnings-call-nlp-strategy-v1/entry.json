@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vxtr10/earnings-call-nlp-strategy-v1",
+  "name": "vxtr10/earnings-call-nlp-strategy-v1",
+  "description": "Find correlation between earnings call transcripts and stock price movements (V1)",
+  "sub_domain": "financial-ai-nlp",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-11-19",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Find correlation between earnings call transcripts and stock price movements (V1)",
+  "slug": "vxtr10-earnings-call-nlp-strategy-v1"
+}

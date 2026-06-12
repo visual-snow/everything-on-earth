@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/irs-public/tax-withholding-estimator",
+  "name": "irs-public/tax-withholding-estimator",
+  "description": "IRS Tax Withholding Estimator",
+  "sub_domain": "tax-compliance-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 64,
+  "language": "Scala",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "tax-compliance-automation"
+  ],
+  "quality_score": 20.5,
+  "discovery_score": 1,
+  "tags": [
+    "tax-compliance",
+    "rules-engine",
+    "filing-automation",
+    "vat",
+    "tax"
+  ],
+  "category": "Tax Compliance / Automation \u2014 tax rules engines, filing workflows, jurisdictional calculations",
+  "summary": "IRS Tax Withholding Estimator",
+  "slug": "irs-public-tax-withholding-estimator"
+}

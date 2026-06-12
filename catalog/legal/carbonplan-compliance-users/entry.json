@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/carbonplan/compliance-users",
+  "name": "carbonplan/compliance-users",
+  "description": "A simple tool for querying CA compliance data",
+  "sub_domain": "corporate-governance-entity-mgmt",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-02",
+  "found_in_domains": [
+    "corporate-governance-entity-mgmt"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "corporate-governance",
+    "entity-management",
+    "cap-table",
+    "board-governance",
+    "compliance"
+  ],
+  "category": "Corporate Governance / Entity Management \u2014 entity registries, board workflows, cap-table standards",
+  "summary": "A simple tool for querying CA compliance data",
+  "slug": "carbonplan-compliance-users"
+}

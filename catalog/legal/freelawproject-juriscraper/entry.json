@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/freelawproject/juriscraper",
+  "name": "freelawproject/juriscraper",
+  "description": "An API to scrape American court websites for metadata.",
+  "sub_domain": "legal-research-case-law",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 556,
+  "language": "HTML",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "legal-research-case-law",
+    "court-case-management"
+  ],
+  "quality_score": 52.0,
+  "discovery_score": 5,
+  "tags": [
+    "case-law",
+    "citation",
+    "court-data",
+    "dockets",
+    "court"
+  ],
+  "category": "Legal Research / Case Law \u2014 opinions, citations, court data, dockets, scrapers",
+  "summary": "An API to scrape American court websites for metadata.",
+  "slug": "freelawproject-juriscraper"
+}

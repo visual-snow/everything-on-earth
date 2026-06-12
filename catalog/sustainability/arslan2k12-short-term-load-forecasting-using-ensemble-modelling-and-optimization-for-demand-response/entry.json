@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/arslan2k12/short-term-load-forecasting-using-ensemble-modelling-and-optimization-for-demand-response",
+  "name": "arslan2k12/short-term-load-forecasting-using-ensemble-modelling-and-optimization-for-demand-response",
+  "description": "forecasting and optimization - Coded in Python",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "stars": 25,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2020-01-10",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 41.3,
+  "discovery_score": 5,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "forecasting and optimization - Coded in Python",
+  "slug": "arslan2k12-short-term-load-forecasting-using-ensemble-modelling-and-optimization-for-demand-response"
+}

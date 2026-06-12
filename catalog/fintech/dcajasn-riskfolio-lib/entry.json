@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dcajasn/riskfolio-lib",
+  "name": "dcajasn/riskfolio-lib",
+  "description": "Portfolio Optimization and Quantitative Strategic Asset Allocation in Python",
+  "sub_domain": "portfolio-optimization-allocation",
+  "score": 9,
+  "score_rationale": "Matched 3 queries; contains 4 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 3832,
+  "language": "C++",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "portfolio-optimization-allocation"
+  ],
+  "quality_score": 82.7,
+  "discovery_score": 9,
+  "tags": [
+    "portfolio",
+    "optimization",
+    "asset-allocation",
+    "risk-parity"
+  ],
+  "category": "Portfolio Optimization / Allocation",
+  "summary": "Portfolio Optimization and Quantitative Strategic Asset Allocation in Python",
+  "slug": "dcajasn-riskfolio-lib"
+}

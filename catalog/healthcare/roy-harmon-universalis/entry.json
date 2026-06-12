@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/roy-harmon/universalis",
+  "name": "roy-harmon/UniversaLIS",
+  "description": "UniversaLIS is a laboratory information system (LIS) for ASTM/CLSI-compliant clinical laboratory analyzers using serial and TCP connections.",
+  "sub_domain": "lab-information-systems",
+  "score": 7,
+  "score_rationale": "Specific LIS for analyzer integration and clinical lab devices; strong fit even though it is smaller than the major LIS platforms.",
+  "stars": 52,
+  "language": "C#",
+  "license": null,
+  "last_activity": "2025-08-01",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 55.8,
+  "discovery_score": 7,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "UniversaLIS is a laboratory information system (LIS) for ASTM/CLSI-compliant clinical laboratory analyzers using serial and TCP connections.",
+  "slug": "roy-harmon-universalis"
+}

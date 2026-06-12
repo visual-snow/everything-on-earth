@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/alice-si/delamp",
+  "name": "alice-si/delamp",
+  "description": "Decentralized Legal Agreement Marketplace Protocol",
+  "sub_domain": "smart-contracts-legal",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "CSS",
+  "license": "GPL-3.0",
+  "last_activity": "2020-09-04",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "agreement"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Decentralized Legal Agreement Marketplace Protocol",
+  "slug": "alice-si-delamp"
+}

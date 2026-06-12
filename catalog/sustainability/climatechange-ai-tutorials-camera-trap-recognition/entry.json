@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/climatechange-ai-tutorials/camera-trap-recognition",
+  "name": "climatechange-ai-tutorials/camera-trap-recognition",
+  "description": "The greatest logistical barrier to long-term wildlife monitoring with camera traps is the overwhelming amount of human labor needed to annotate thousands or millions of images for ecological analysis. In this tutorial, learn how to train a deep learning model to automatically identify animals in camera trap images.",
+  "sub_domain": "biodiversity-monitoring",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; penalized for tutorial-style signals.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2024-06-13",
+  "found_in_domains": [
+    "biodiversity-monitoring"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "biodiversity",
+    "camera-trap",
+    "bioacoustics",
+    "species-monitoring"
+  ],
+  "category": "Biodiversity Monitoring \u2014 species detection, camera traps, bioacoustics, eBird and iNaturalist",
+  "summary": "The greatest logistical barrier to long-term wildlife monitoring with camera traps is the overwhelming amount of human labor needed to an...",
+  "slug": "climatechange-ai-tutorials-camera-trap-recognition"
+}

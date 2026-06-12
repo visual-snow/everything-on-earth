@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/khanghoj/epipaleomix",
+  "name": "KHanghoj/epiPALEOMIX",
+  "description": "A fast, accurate, and automatic pipeline for generating nucleosome and methylation maps from high throughput sequencing data underlying ancient samples.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 8,
+  "score_rationale": "Niche but clearly ancient-sample specific, with a paleogenomic epigenetics angle.",
+  "stars": 3,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2020-02-27",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 52.8,
+  "discovery_score": 8,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "A fast, accurate, and automatic pipeline for generating nucleosome and methylation maps from high throughput sequencing data underlying a...",
+  "slug": "khanghoj-epipaleomix"
+}

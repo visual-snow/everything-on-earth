@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gu-datalab/stance-detection-ke-mlm",
+  "name": "GU-DataLab/stance-detection-KE-MLM",
+  "description": "Official implementation of a knowledge-enhanced masked language model for stance detection in the political domain.",
+  "sub_domain": "political-text-nlp",
+  "score": 9,
+  "score_rationale": "It is a focused political stance-detection implementation tied to a peer-reviewed paper.",
+  "stars": 39,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2021-10-26",
+  "found_in_domains": [
+    "political-text-nlp"
+  ],
+  "quality_score": 66.8,
+  "tags": [
+    "political",
+    "stance-detection",
+    "bert",
+    "mlm",
+    "nlp"
+  ],
+  "category": "Stance Detection Model",
+  "summary": "Knowledge-enhanced MLM for political stance detection.",
+  "slug": "gu-datalab-stance-detection-ke-mlm"
+}

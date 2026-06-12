@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openhands/openhands",
+  "name": "openhands/openhands",
+  "description": "\ud83d\ude4c OpenHands: AI-Driven Development",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 69743,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 50.7,
+  "discovery_score": 2,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "\ud83d\ude4c OpenHands: AI-Driven Development",
+  "slug": "openhands-openhands"
+}

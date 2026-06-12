@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/divyaraj1997/optimizing-electric-vehicle-charging-stations-and-distributed-generators-in-smart-grids",
+  "name": "divyaraj1997/optimizing-electric-vehicle-charging-stations-and-distributed-generators-in-smart-grids",
+  "description": "Optimizing Electric Vehicle Charging Stations and Distributed Generators in Smart Grids",
+  "sub_domain": "smart-grid-demand-response",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-07-14",
+  "found_in_domains": [
+    "smart-grid-demand-response"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "smart-grid",
+    "demand-response",
+    "load-forecasting",
+    "ev-charging"
+  ],
+  "category": "Smart Grid / Demand Response \u2014 energy flexibility, demand forecasting, EV charging optimization",
+  "summary": "Optimizing Electric Vehicle Charging Stations and Distributed Generators in Smart Grids",
+  "slug": "divyaraj1997-optimizing-electric-vehicle-charging-stations-and-distributed-generators-in-smart-grids"
+}

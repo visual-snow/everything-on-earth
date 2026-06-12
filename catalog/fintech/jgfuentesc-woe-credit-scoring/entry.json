@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jgfuentesc/woe_credit_scoring",
+  "name": "jgfuentesc/woe_credit_scoring",
+  "description": "Tools for Credit Scoring",
+  "sub_domain": "credit-scoring-risk-modeling",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 28,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-20",
+  "found_in_domains": [
+    "credit-scoring-risk-modeling"
+  ],
+  "quality_score": 35.7,
+  "discovery_score": 4,
+  "tags": [
+    "credit",
+    "risk-modeling",
+    "scorecards",
+    "underwriting"
+  ],
+  "category": "Credit Scoring / Risk Modeling",
+  "summary": "Tools for Credit Scoring",
+  "slug": "jgfuentesc-woe-credit-scoring"
+}

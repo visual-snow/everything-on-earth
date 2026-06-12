@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/circlesubi/blockchain-indexer",
+  "name": "circlesubi/blockchain-indexer",
+  "description": "Imports all Circles events into a Postgres database",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 7,
+  "language": "C#",
+  "license": null,
+  "last_activity": "2024-11-16",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Imports all Circles events into a Postgres database",
+  "slug": "circlesubi-blockchain-indexer"
+}

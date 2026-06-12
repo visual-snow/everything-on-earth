@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cmu-delphi/www-covidcast",
+  "name": "cmu-delphi/www-covidcast",
+  "description": "Front end for interactive visualizations powering the COVIDcast website.",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 8,
+  "score_rationale": "Primary visualization frontend for COVIDcast surveillance data.",
+  "stars": 13,
+  "language": "Svelte",
+  "license": "MIT",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 57.2,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "Front end for interactive visualizations powering the COVIDcast website.",
+  "slug": "cmu-delphi-www-covidcast"
+}

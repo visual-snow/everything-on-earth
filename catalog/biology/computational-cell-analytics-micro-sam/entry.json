@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/computational-cell-analytics/micro-sam",
+  "name": "computational-cell-analytics/micro-sam",
+  "description": "Segment Anything for Microscopy",
+  "sub_domain": "biomedical-imaging",
+  "score": 9,
+  "score_rationale": "micro-sam adapts segmentation-foundation-model ideas directly to microscopy and bioimage analysis.",
+  "stars": 666,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 76.6,
+  "discovery_score": 9,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Segment Anything for Microscopy",
+  "slug": "computational-cell-analytics-micro-sam"
+}

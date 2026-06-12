@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/arshsingh/sanctions",
+  "name": "arshsingh/sanctions",
+  "description": "simple JSON API to check individual/entity names against multiple sources",
+  "stars": 5,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-02-20",
+  "sub_domain": "sanctions-compliance",
+  "score": 8,
+  "score_rationale": "Unified sanctions JSON API that consolidates multiple watchlists into one service.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 54.2,
+  "tags": [
+    "sanctions-api",
+    "entity-screening",
+    "watchlists",
+    "json-api"
+  ],
+  "category": "Sanctions API",
+  "summary": "JSON API for checking names against multiple sanctions sources.",
+  "slug": "arshsingh-sanctions"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ma-gilles/recovar",
+  "name": "ma-gilles/recovar",
+  "description": "No description provided.",
+  "sub_domain": "structural-biology",
+  "score": 9,
+  "score_rationale": "A strong cryo-EM/cryo-ET heterogeneity analysis toolkit with active development and a direct biological use case.",
+  "stars": 37,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 66.6,
+  "discovery_score": 9,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "No description provided.",
+  "slug": "ma-gilles-recovar"
+}

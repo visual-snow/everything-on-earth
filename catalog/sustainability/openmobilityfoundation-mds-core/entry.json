@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openmobilityfoundation/mds-core",
+  "name": "openmobilityfoundation/mds-core",
+  "description": "An implementation of an MDS Agency Server written in Typescript",
+  "sub_domain": "sustainable-transport",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; archived repo penalty.",
+  "stars": 34,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2021-10-28",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 18.4,
+  "discovery_score": 1,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "An implementation of an MDS Agency Server written in Typescript",
+  "slug": "openmobilityfoundation-mds-core"
+}

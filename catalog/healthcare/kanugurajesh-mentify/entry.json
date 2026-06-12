@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kanugurajesh/mentify",
+  "name": "kanugurajesh/Mentify",
+  "description": "An all in one solution for mental health issues",
+  "sub_domain": "mental-health-behavioral",
+  "score": 7,
+  "score_rationale": "Broad but clearly targeted mental-health product with a product-shaped codebase and solid open-source presence.",
+  "stars": 30,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2024-03-28",
+  "found_in_domains": [
+    "mental-health-behavioral"
+  ],
+  "quality_score": 53.9,
+  "discovery_score": 7,
+  "tags": [
+    "mental-health",
+    "behavioral-health",
+    "cbt",
+    "screening"
+  ],
+  "category": "Mental Health, Behavioral Health, CBT, Mood Tracking & Crisis Support",
+  "summary": "An all in one solution for mental health issues",
+  "slug": "kanugurajesh-mentify"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wang-lin-boop/geminimol",
+  "name": "wang-lin-boop/geminimol",
+  "description": "Incorporation of conformational space profile into molecular representation learning, and its application to drug discovery, including virtual screening, target identification, and QSAR.",
+  "sub_domain": "cheminformatics",
+  "score": 9,
+  "score_rationale": "Directly targets ligand-based drug discovery, virtual screening, target identification, and QSAR with a concrete implementation and benchmark workflow.",
+  "stars": 67,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-07-20",
+  "found_in_domains": [
+    "cheminformatics"
+  ],
+  "quality_score": 68.7,
+  "discovery_score": 9,
+  "tags": [
+    "cheminformatics",
+    "smiles",
+    "qsar",
+    "drug-discovery"
+  ],
+  "category": "Cheminformatics \u2014 drug discovery and molecular fingerprints",
+  "summary": "Incorporation of conformational space profile into molecular representation learning, and its application to drug discovery, including vi...",
+  "slug": "wang-lin-boop-geminimol"
+}

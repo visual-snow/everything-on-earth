@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dnarchery/dnarchery",
+  "name": "DNArchery/DNArchery",
+  "description": "A free and open-source DNA Sequencing/Visualization software for bioinformatics research.",
+  "sub_domain": "genomics",
+  "score": 3,
+  "score_rationale": "Small but real DNA sequencing and visualization toolkit, though it looks more like a niche hackathon-era project than core genomics infrastructure.",
+  "stars": 62,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2023-07-01",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 3,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "A free and open-source DNA Sequencing/Visualization software for bioinformatics research.",
+  "slug": "dnarchery-dnarchery"
+}

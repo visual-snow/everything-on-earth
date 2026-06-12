@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/rotki/rotki",
+  "name": "rotki/rotki",
+  "description": "A portfolio tracking, analytics, accounting and management application that protects your privacy",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 3749,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 40.6,
+  "discovery_score": 2,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin",
+    "portfolio"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "A portfolio tracking, analytics, accounting and management application that protects your privacy",
+  "slug": "rotki-rotki"
+}

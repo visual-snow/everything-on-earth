@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/pritk99/legal-documentation-assistant",
+  "name": "pritk99/legal-documentation-assistant",
+  "description": "Simplifying legal documentation for individuals and small businesses",
+  "sub_domain": "e-discovery-document-review",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 44,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-04-22",
+  "found_in_domains": [
+    "e-discovery-document-review",
+    "legal-document-automation"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 3,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "Simplifying legal documentation for individuals and small businesses",
+  "slug": "pritk99-legal-documentation-assistant"
+}

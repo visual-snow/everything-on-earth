@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/epiforecasts/episoon",
+  "name": "epiforecasts/EpiSoon",
+  "description": "Short-horizon forecasts of the effective reproduction number.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 8,
+  "score_rationale": "Useful short-term reproduction-number forecasting tool, though the repository is comparatively small and more limited in scope.",
+  "stars": 7,
+  "language": "HTML",
+  "license": "NOASSERTION",
+  "last_activity": "2025-06-19",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 55.2,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Short-horizon forecasts of the effective reproduction number.",
+  "slug": "epiforecasts-episoon"
+}

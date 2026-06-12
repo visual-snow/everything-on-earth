@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gromacs/gromacs",
+  "name": "gromacs/gromacs",
+  "description": "Public/backup repository of the GROMACS molecular simulation toolkit. Please do not mine the metadata blindly; we use https://gitlab.com/gromacs/gromacs for code review and issue tracking.",
+  "sub_domain": "structural-biology",
+  "score": 10,
+  "score_rationale": "The canonical open-source molecular dynamics toolkit and a foundational biomolecular simulation platform.",
+  "stars": 883,
+  "language": "C++",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 83.6,
+  "discovery_score": 10,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Public/backup repository of the GROMACS molecular simulation toolkit. Please do not mine the metadata blindly; we use https://gitlab.com/...",
+  "slug": "gromacs-gromacs"
+}

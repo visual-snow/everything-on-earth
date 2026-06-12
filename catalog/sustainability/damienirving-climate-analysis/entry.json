@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/damienirving/climate-analysis",
+  "name": "damienirving/climate-analysis",
+  "description": "Code used for the analysis and visualisation of climate data during my PhD",
+  "sub_domain": "ocean-climate",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 40,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2017-08-09",
+  "found_in_domains": [
+    "ocean-climate"
+  ],
+  "quality_score": 30.9,
+  "discovery_score": 3,
+  "tags": [
+    "ocean-climate",
+    "blue-carbon",
+    "marine-carbon",
+    "ocean-acidification"
+  ],
+  "category": "Ocean / Climate \u2014 ocean acidification, marine carbon, blue economy tools",
+  "summary": "Code used for the analysis and visualisation of climate data during my PhD",
+  "slug": "damienirving-climate-analysis"
+}

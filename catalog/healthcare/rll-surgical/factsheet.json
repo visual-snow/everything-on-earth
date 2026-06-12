@@ -1,0 +1,14 @@
+{
+  "slug": "rll-surgical",
+  "name": "rll/surgical (DOOSim)",
+  "what_it_is": "A research simulator for deformable one-dimensional objects (DOOs) such as surgical suture, rope, and hair, based on the Discrete Elastic Rods model, intended to support perception, manipulation, and motion planning for robotic surgical assistants.",
+  "components": ["DiscreteRods physics engine", "MotionPlanning (SQP optimizer and RRT planner)", "Stereo vision thread tracking", "Raven II robot UDP interface", "Collision objects (Box, Capsule, EndEffector, Needle)", "StateRecorder/TrajectoryRecorder"],
+  "protocols": ["UDP sockets for haptic device state exchange", "UDP sockets for Raven II robot commands"],
+  "measurement": ["Energy convergence threshold", "Bend/twist/stretch coefficients", "Adaptive mesh refinement angle thresholds"],
+  "configuration": ["ISOTROPIC compile-time flag", "COLLISION_CHECKING flag", "OpenMP parallelism", "SQP trajectory data paths"],
+  "modes": ["Isotropic rod simulation", "Anisotropic rod simulation", "Haptic teleoperation", "Autonomous experiment runner", "RRT motion planning", "SQP closed-loop control", "Stereo vision tracking"],
+  "constraints": ["Ubuntu 10.10+ and Mac OS X only; requires Eigen2, OpenCV 2.1, GLUT, GLE, Bullet Physics, Boost", "Abandoned in 2011; no license file; no package manager; raw Makefile only"],
+  "docker_services": [],
+  "notable_absences": ["No Docker", "No license", "No ROS integration despite stub", "No unit tests or CI", "No tissue/organ simulation; 1D thread objects only"],
+  "fault_injection": []
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/danielma/veelope",
+  "name": "danielma/veelope",
+  "description": "Envelope budgeting system",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 4,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2023-01-24",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 29.6,
+  "discovery_score": 4,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "Envelope budgeting system",
+  "slug": "danielma-veelope"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/the-swarm-corporation/atlas",
+  "name": "the-swarm-corporation/atlas",
+  "description": "ATLAS is a sophisticated real-time risk analysis system designed for institutional-grade market risk assessment. Built with high-frequency trading (HFT) capabilities and advanced machine learning techniques, ATLAS provides continuous volatility predictions and risk metrics using both historical patterns and real-time market data.",
+  "sub_domain": "portfolio-risk-management",
+  "score": 5,
+  "score_rationale": "Institutional-style risk analysis system with continuous volatility and risk-metric emphasis.",
+  "stars": 18,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-01-13",
+  "found_in_domains": [
+    "portfolio-risk-management"
+  ],
+  "quality_score": 40.2,
+  "tags": [
+    "portfolio",
+    "risk-management",
+    "allocation",
+    "market-data"
+  ],
+  "category": "Portfolio Optimization",
+  "summary": "ATLAS is a sophisticated real-time risk analysis system designed for institutional-grade market risk...",
+  "slug": "the-swarm-corporation-atlas"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pcingola/snpeff",
+  "name": "pcingola/SnpEff",
+  "description": "Genome variant annotation and effect prediction tool.",
+  "sub_domain": "genomics",
+  "score": 9,
+  "score_rationale": "Canonical variant annotation and effect prediction tool with broad historical adoption in genomics workflows.",
+  "stars": 303,
+  "language": "Java",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-09",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 73.9,
+  "discovery_score": 9,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Genome variant annotation and effect prediction tool.",
+  "slug": "pcingola-snpeff"
+}

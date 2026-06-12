@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/compomics/searchgui",
+  "name": "CompOmics/searchgui",
+  "description": "Highly adaptable common interface for proteomics search and de novo engines",
+  "sub_domain": "proteomics",
+  "score": 9,
+  "score_rationale": "Canonical proteomics search orchestrator for running multiple peptide search and de novo engines from one interface.",
+  "stars": 46,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2025-08-15",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 67.4,
+  "discovery_score": 9,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "Highly adaptable common interface for proteomics search and de novo engines",
+  "slug": "compomics-searchgui"
+}

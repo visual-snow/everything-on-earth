@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/prowide/prowide-core",
+  "name": "prowide/prowide-core",
+  "description": "Model and parsers for all SWIFT MT (FIN) messages",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 273,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 43.5,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "Model and parsers for all SWIFT MT (FIN) messages",
+  "slug": "prowide-prowide-core"
+}

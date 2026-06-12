@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wildlifedatasets/wildlife-datasets",
+  "name": "WildlifeDatasets/wildlife-datasets",
+  "description": "WildlifeDatasets: An open-source toolkit for animal re-identification",
+  "sub_domain": "ecology-conservation",
+  "score": 9,
+  "score_rationale": "Purpose-built conservation toolkit for animal re-identification and ecological monitoring.",
+  "stars": 168,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 71.8,
+  "discovery_score": 9,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "WildlifeDatasets: An open-source toolkit for animal re-identification",
+  "slug": "wildlifedatasets-wildlife-datasets"
+}

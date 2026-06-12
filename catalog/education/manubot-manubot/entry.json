@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/manubot/manubot",
+  "name": "manubot/manubot",
+  "description": "Python utilities for Manubot: Manuscripts, open and automated",
+  "sub_domain": "research-academic-publishing",
+  "score": 9,
+  "score_rationale": "Automated manuscript generation and scholarly publishing workflow used widely in open science.",
+  "stars": 467,
+  "language": "Python",
+  "license": "Other",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 75.4,
+  "discovery_score": 9,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "Python utilities for Manubot: Manuscripts, open and automated",
+  "slug": "manubot-manubot"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/atmoschem/emissv",
+  "name": "atmoschem/emissv",
+  "description": "Create and processing emissions for numeric air quality models",
+  "sub_domain": "air-quality-emissions",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 46,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-11-21",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 37.4,
+  "discovery_score": 4,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Create and processing emissions for numeric air quality models",
+  "slug": "atmoschem-emissv"
+}

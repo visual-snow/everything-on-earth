@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dforce-network/amm",
+  "name": "dforce-network/amm",
+  "description": "No description provided.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2023-06-06",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "No description provided.",
+  "slug": "dforce-network-amm"
+}

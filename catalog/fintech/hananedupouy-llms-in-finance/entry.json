@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hananedupouy/llms-in-finance",
+  "name": "hananedupouy/llms-in-finance",
+  "description": "LLMs in Finance - Generative AI - AI Agents",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 850,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-02-23",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 47.4,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "LLMs in Finance - Generative AI - AI Agents",
+  "slug": "hananedupouy-llms-in-finance"
+}

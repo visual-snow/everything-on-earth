@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ozekik/awesome-ontology",
+  "name": "ozekik/awesome-ontology",
+  "description": "A curated list of ontology things",
+  "sub_domain": "financial-data-standards",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 517,
+  "language": null,
+  "license": "CC-BY-4.0",
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "financial-data-standards"
+  ],
+  "quality_score": 39.7,
+  "discovery_score": 3,
+  "tags": [
+    "xbrl",
+    "fpml",
+    "fibo",
+    "financial-ontology"
+  ],
+  "category": "Financial Data Standards",
+  "summary": "A curated list of ontology things",
+  "slug": "ozekik-awesome-ontology"
+}

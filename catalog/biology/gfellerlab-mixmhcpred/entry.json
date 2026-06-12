@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gfellerlab/mixmhcpred",
+  "name": "GfellerLab/MixMHCpred",
+  "description": "HLA-I ligand predictor",
+  "sub_domain": "immunoinformatics",
+  "score": 9,
+  "score_rationale": "Well-known HLA-I ligand predictor with direct relevance to epitope and neoantigen workflows.",
+  "stars": 44,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 67.2,
+  "discovery_score": 9,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "HLA-I ligand predictor",
+  "slug": "gfellerlab-mixmhcpred"
+}

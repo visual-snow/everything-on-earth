@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lyh6560new/botmoe",
+  "name": "lyh6560new/BotMoE",
+  "description": "The code for \"BotMoE: Twitter Bot Detection with Community-Aware Mixtures of Modal-Specific Experts\".",
+  "sub_domain": "social-media-influence",
+  "score": 9,
+  "score_rationale": "A current Twitter bot-detection paper implementation that is more relevant than the resource-list style entries.",
+  "stars": 26,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-09-16",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 65.5,
+  "tags": [
+    "bot-detection",
+    "mixture-of-experts",
+    "twitter",
+    "graph-learning"
+  ],
+  "category": "Bot Detection",
+  "summary": "Community-aware mixture-of-experts model for Twitter bot detection.",
+  "slug": "lyh6560new-botmoe"
+}

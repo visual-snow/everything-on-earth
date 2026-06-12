@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/compatibl/quantlibadjoint",
+  "name": "compatibl/quantlibadjoint",
+  "description": "QuantLib with adjoint algorithmic differentiation (AAD)",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 49,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2016-03-17",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 31.6,
+  "discovery_score": 3,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "QuantLib with adjoint algorithmic differentiation (AAD)",
+  "slug": "compatibl-quantlibadjoint"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/conorosully/legal-case-prediction",
+  "name": "conorosully/legal-case-prediction",
+  "description": "MSc. Dissertation: using machine learning to predict judicial decisions of the ECHR",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text.",
+  "stars": 14,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2021-01-26",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 39.4,
+  "discovery_score": 5,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction",
+    "judicial-workflow"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "MSc. Dissertation: using machine learning to predict judicial decisions of the ECHR",
+  "slug": "conorosully-legal-case-prediction"
+}

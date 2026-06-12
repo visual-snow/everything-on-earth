@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yoshishima/stock_data",
+  "name": "yoshishima/stock_data",
+  "description": "List of Stock Symbols with CUSIP ID number",
+  "sub_domain": "financial-market-data",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 19,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-08-12",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 16.4,
+  "discovery_score": 1,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "List of Stock Symbols with CUSIP ID number",
+  "slug": "yoshishima-stock-data"
+}

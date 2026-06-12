@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gs1-germany/greenpaper_eudeforestationregulation",
+  "name": "gs1-germany/greenpaper_eudeforestationregulation",
+  "description": "GS1 Germany Green Paper on how GS1 standards can contribute to meet the EUDR's requirements",
+  "sub_domain": "supply-chain-sustainability",
+  "score": 1,
+  "score_rationale": "Matched 2 queries; shows little direct domain terminology; penalized for paper-style signals; archived repo penalty.",
+  "stars": 3,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2025-06-17",
+  "found_in_domains": [
+    "supply-chain-sustainability"
+  ],
+  "quality_score": 10.8,
+  "discovery_score": 1,
+  "tags": [
+    "supply-chain",
+    "traceability",
+    "scope-3",
+    "deforestation"
+  ],
+  "category": "Supply Chain Sustainability \u2014 scope 3 traceability, deforestation-free supply chains, fair trade tracking",
+  "summary": "GS1 Germany Green Paper on how GS1 standards can contribute to meet the EUDR's requirements",
+  "slug": "gs1-germany-greenpaper-eudeforestationregulation"
+}

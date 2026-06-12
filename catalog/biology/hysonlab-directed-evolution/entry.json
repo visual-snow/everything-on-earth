@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hysonlab/directed_evolution",
+  "name": "hysonlab/directed_evolution",
+  "description": "Protein Design by Machine Learning guided Directed Evolution",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 8,
+  "score_rationale": "Directly implements machine-learning-guided directed evolution for protein design.",
+  "stars": 48,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 61.5,
+  "discovery_score": 8,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Protein Design by Machine Learning guided Directed Evolution",
+  "slug": "hysonlab-directed-evolution"
+}

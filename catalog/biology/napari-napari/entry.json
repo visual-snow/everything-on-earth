@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/napari/napari",
+  "name": "napari/napari",
+  "description": "napari: a fast, interactive, multi-dimensional image viewer for python",
+  "sub_domain": "biomedical-imaging",
+  "score": 8,
+  "score_rationale": "napari is a canonical imaging viewer and plugin platform that is widely used across biological imaging workflows.",
+  "stars": 2612,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 75.3,
+  "discovery_score": 8,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "napari: a fast, interactive, multi-dimensional image viewer for python",
+  "slug": "napari-napari"
+}

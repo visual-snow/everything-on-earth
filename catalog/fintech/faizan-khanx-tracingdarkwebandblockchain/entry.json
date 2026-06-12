@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/faizan-khanx/tracingdarkwebandblockchain",
+  "name": "faizan-khanx/tracingdarkwebandblockchain",
+  "description": "This repository presents a detailed case study on tracking cryptocurrency transactions and uncovering dark web operations. Using open-source intelligence (OSINT) tools and blockchain forensics, we trace Bitcoin transactions, identify hidden connections between onion sites, and track funds to cryptocurrency exchanges like Binance.",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 33,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2025-04-14",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 36.3,
+  "discovery_score": 4,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "This repository presents a detailed case study on tracking cryptocurrency transactions and uncovering dark web operations. Using open-sou...",
+  "slug": "faizan-khanx-tracingdarkwebandblockchain"
+}

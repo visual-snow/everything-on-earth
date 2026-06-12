@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mkearney/tweetbotornot",
+  "name": "mkearney/tweetbotornot",
+  "description": "R package for classifying Twitter accounts as bots or not bots using machine learning.",
+  "sub_domain": "social-media-influence",
+  "score": 10,
+  "score_rationale": "This is a widely used bot-detection package with direct relevance to influence analysis.",
+  "stars": 387,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2021-10-20",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 80.7,
+  "tags": [
+    "bot-detection",
+    "twitter",
+    "r-package",
+    "machine-learning"
+  ],
+  "category": "Bot Detection",
+  "summary": "R package for classifying Twitter accounts as bots.",
+  "slug": "mkearney-tweetbotornot"
+}

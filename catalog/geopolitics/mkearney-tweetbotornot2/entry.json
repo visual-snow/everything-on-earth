@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mkearney/tweetbotornot2",
+  "name": "mkearney/tweetbotornot2",
+  "description": "R package for detecting Twitter bots, extending the original tweetbotornot approach.",
+  "sub_domain": "social-media-influence",
+  "score": 9,
+  "score_rationale": "It is a strong follow-on bot detector for Twitter account analysis.",
+  "stars": 93,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2021-10-20",
+  "found_in_domains": [
+    "social-media-influence"
+  ],
+  "quality_score": 69.8,
+  "tags": [
+    "bot-detection",
+    "twitter",
+    "r-package",
+    "classification"
+  ],
+  "category": "Bot Detection",
+  "summary": "Extended R package for Twitter bot detection.",
+  "slug": "mkearney-tweetbotornot2"
+}

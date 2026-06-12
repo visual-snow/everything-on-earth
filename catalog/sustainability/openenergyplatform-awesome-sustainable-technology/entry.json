@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openenergyplatform/awesome-sustainable-technology",
+  "name": "openenergyplatform/awesome-sustainable-technology",
+  "description": "Open development environments to preserve global energy supply and vital natural resources",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 1,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for awesome-style signals; fork penalty.",
+  "stars": 49,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2021-03-16",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 19.6,
+  "discovery_score": 1,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "Open development environments to preserve global energy supply and vital natural resources",
+  "slug": "openenergyplatform-awesome-sustainable-technology"
+}

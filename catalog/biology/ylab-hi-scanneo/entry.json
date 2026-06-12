@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ylab-hi/scanneo",
+  "name": "ylab-hi/ScanNeo",
+  "description": "A pipeline for identifying indel derived neoantigens using RNA-Seq data",
+  "sub_domain": "immunoinformatics",
+  "score": 7,
+  "score_rationale": "Relevant indel neoantigen pipeline with a clear immunology target, but it is older and niche.",
+  "stars": 30,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2022-08-29",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 53.9,
+  "discovery_score": 7,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "A pipeline for identifying indel derived neoantigens using RNA-Seq data",
+  "slug": "ylab-hi-scanneo"
+}

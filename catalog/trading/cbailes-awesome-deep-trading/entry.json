@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/cbailes/awesome-deep-trading",
+  "name": "cbailes/awesome-deep-trading",
+  "description": "List of awesome resources for machine learning-based algorithmic trading",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 6,
+  "score_rationale": "Deep-trading resource list; relevant but not an implementation target.",
+  "stars": 1844,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2023-08-08",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 62.1,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "List of awesome resources for machine learning-based algorithmic trading",
+  "slug": "cbailes-awesome-deep-trading"
+}

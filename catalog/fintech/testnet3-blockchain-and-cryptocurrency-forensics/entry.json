@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/testnet3/blockchain-and-cryptocurrency-forensics",
+  "name": "testnet3/blockchain-and-cryptocurrency-forensics",
+  "description": "Blockchain & Cryptocurrency Forensics",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2022-05-17",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Blockchain & Cryptocurrency Forensics",
+  "slug": "testnet3-blockchain-and-cryptocurrency-forensics"
+}

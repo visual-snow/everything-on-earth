@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/intelowlproject/intelowl",
+  "name": "intelowlproject/IntelOwl",
+  "description": "IntelOwl: manage your Threat Intelligence at scale",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 9,
+  "score_rationale": "Threat-intelligence enrichment platform that automates analysis across many indicators and services.",
+  "stars": 4514,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 83.2,
+  "tags": [
+    "threat-intel",
+    "enrichment",
+    "analysis",
+    "automation"
+  ],
+  "category": "Threat Intelligence Platform",
+  "summary": "Tool for managing threat intelligence enrichment and analysis at scale.",
+  "slug": "intelowlproject-intelowl"
+}

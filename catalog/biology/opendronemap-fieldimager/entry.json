@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opendronemap/fieldimager",
+  "name": "OpenDroneMap/FIELDimageR",
+  "description": "FIELDimageR: A R package to analyze orthomosaic images from agricultural field trials. This package is a compilation of functions to analyze pos-mosaicking images from research fields, and allows to: crop the image; remove soil effect; build vegetation indices; rotate the image; build the plot shapefile; extract information for each plot; and evaluate stand count, canopy percentage, and plant height.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 9,
+  "score_rationale": "A mature field-trial phenotyping workflow for orthomosaics, plot extraction, and trait measurement in breeding experiments.",
+  "stars": 264,
+  "language": "R",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-08",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 73.4,
+  "discovery_score": 9,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "FIELDimageR: A R package to analyze orthomosaic images from agricultural field trials. This package is a compilation of functions to anal...",
+  "slug": "opendronemap-fieldimager"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nf-core/eager",
+  "name": "nf-core/eager",
+  "description": "A fully reproducible and state-of-the-art ancient DNA analysis pipeline",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 7,
+  "score_rationale": "Specialized but important genomics workflow for ancient DNA analysis.",
+  "stars": 200,
+  "language": "Nextflow",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 60.4,
+  "discovery_score": 7,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "A fully reproducible and state-of-the-art ancient DNA analysis pipeline",
+  "slug": "nf-core-eager"
+}

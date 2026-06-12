@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/freeyourgadget/gadgetbridge",
+  "name": "Freeyourgadget/Gadgetbridge",
+  "description": "We are on codeberg.org now! https://codeberg.org/Freeyourgadget/Gadgetbridge - Gadgetbridge - A free and cloudless replacement for your gadget vendors' closed source Android applications. Supports Pebble, Mi Band, Liveview, HPlus and more.",
+  "sub_domain": "wearable-iot-health",
+  "score": 10,
+  "score_rationale": "Core wearable bridge project for pulling data from many consumer devices without vendor cloud dependence; highly central to wearable health ingestion.",
+  "stars": 4485,
+  "language": "Java",
+  "license": "AGPL-3.0",
+  "last_activity": "2024-12-23",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 89.2,
+  "discovery_score": 10,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "We are on codeberg.org now! https://codeberg.org/Freeyourgadget/Gadgetbridge - Gadgetbridge - A free and cloudless replacement for your g...",
+  "slug": "freeyourgadget-gadgetbridge"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/freelanguagetools/vocabsieve",
+  "name": "FreeLanguageTools/vocabsieve",
+  "description": "Simple sentence mining tool for language learning.",
+  "sub_domain": "language-learning",
+  "score": 8,
+  "score_rationale": "Targets sentence mining and vocabulary capture, which maps directly to learner vocabulary training.",
+  "stars": 510,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-08-15",
+  "found_in_domains": [
+    "language-learning"
+  ],
+  "quality_score": 69.7,
+  "discovery_score": 8,
+  "tags": [
+    "language-learning",
+    "flashcards",
+    "vocabulary",
+    "reading-support"
+  ],
+  "category": "Language Learning, Vocabulary Training, Reading Support & Speaking Practice",
+  "summary": "Simple sentence mining tool for language learning.",
+  "slug": "freelanguagetools-vocabsieve"
+}

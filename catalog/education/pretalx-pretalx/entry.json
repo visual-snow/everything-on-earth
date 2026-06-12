@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pretalx/pretalx",
+  "name": "pretalx/pretalx",
+  "description": "Conference planning tool: CfP, scheduling, speaker management",
+  "sub_domain": "research-academic-publishing",
+  "score": 8,
+  "score_rationale": "Conference submission and scheduling workflow used for scholarly and academic events.",
+  "stars": 887,
+  "language": "Python",
+  "license": "Other",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 71.6,
+  "discovery_score": 8,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "Conference planning tool: CfP, scheduling, speaker management",
+  "slug": "pretalx-pretalx"
+}

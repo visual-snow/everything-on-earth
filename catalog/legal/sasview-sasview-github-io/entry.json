@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sasview/sasview.github.io",
+  "name": "sasview/sasview.github.io",
+  "description": "This is the official website of the SasView project",
+  "sub_domain": "access-to-justice-civic-tech",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "access-to-justice-civic-tech"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "access-to-justice",
+    "legal-aid",
+    "self-help",
+    "civic-tech"
+  ],
+  "category": "Access to Justice / Civic Tech \u2014 legal aid, self-help, pro bono, guided court forms",
+  "summary": "This is the official website of the SasView project",
+  "slug": "sasview-sasview-github-io"
+}

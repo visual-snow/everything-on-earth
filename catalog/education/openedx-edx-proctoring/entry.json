@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openedx/edx-proctoring",
+  "name": "openedx/edx-proctoring",
+  "description": "Proctoring support for Open edX assessments.",
+  "sub_domain": "assessment-testing",
+  "score": 7,
+  "score_rationale": "Assessment-adjacent proctoring module used to enforce exam integrity in education.",
+  "stars": 67,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 56.7,
+  "discovery_score": 7,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Proctoring support for Open edX assessments.",
+  "slug": "openedx-edx-proctoring"
+}

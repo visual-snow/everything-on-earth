@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/theidari/fraud_anomaly_detection",
+  "name": "theidari/fraud_anomaly_detection",
+  "description": "This GitHub repository provides a comprehensive set of tools and algorithms for detecting fraud anomalies in various data sources. Fraudulent activities can have severe consequences, impacting businesses and individuals alike. With this repository, we aim to empower researchers with effective techniques to identify and prevent fraudulent behavior.",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 2,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2023-08-16",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "This GitHub repository provides a comprehensive set of tools and algorithms for detecting fraud anomalies in various data sources. Fraudu...",
+  "slug": "theidari-fraud-anomaly-detection"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pacificbiosciences/pbmm2",
+  "name": "pacificbiosciences/pbmm2",
+  "description": "A minimap2 frontend for PacBio native data formats",
+  "sub_domain": "long-read-sequencing",
+  "score": 9,
+  "score_rationale": "PacBio's minimap2 frontend for native formats makes it central to PacBio analysis.",
+  "stars": 211,
+  "language": "Raku",
+  "license": "BSD-3-Clause-Clear",
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 72.6,
+  "discovery_score": 9,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "A minimap2 frontend for PacBio native data formats",
+  "slug": "pacificbiosciences-pbmm2"
+}

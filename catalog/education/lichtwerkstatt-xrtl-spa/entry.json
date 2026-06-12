@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lichtwerkstatt/xrtl_spa",
+  "name": "Lichtwerkstatt/XRTL_SPA",
+  "description": "Single-page application for XR Twin Lab remote access to photonics experimental setups.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 8,
+  "score_rationale": "Education-facing remote experiment platform with XR support and explicit lab access goals.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 51.8,
+  "discovery_score": 8,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Single-page application for XR Twin Lab remote access to photonics experimental setups.",
+  "slug": "lichtwerkstatt-xrtl-spa"
+}

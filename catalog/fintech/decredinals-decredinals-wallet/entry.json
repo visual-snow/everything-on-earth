@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/decredinals/decredinals-wallet",
+  "name": "decredinals/decredinals-wallet",
+  "description": "Decredinals Wallet for Decred",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Decredinals Wallet for Decred",
+  "slug": "decredinals-decredinals-wallet"
+}

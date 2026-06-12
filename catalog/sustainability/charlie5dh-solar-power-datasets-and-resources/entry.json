@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/charlie5dh/solar-power-datasets-and-resources",
+  "name": "charlie5dh/solar-power-datasets-and-resources",
+  "description": "Resources about solar power systems for data science",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 84,
+  "language": null,
+  "license": null,
+  "last_activity": "2023-06-27",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 3,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "Resources about solar power systems for data science",
+  "slug": "charlie5dh-solar-power-datasets-and-resources"
+}

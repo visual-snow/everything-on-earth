@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/solidusio-contrib/solidus_klarna_payments",
+  "name": "solidusio-contrib/solidus_klarna_payments",
+  "description": "Klarna Payments gateway for Solidus.",
+  "sub_domain": "payment-processing-gateways",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 8,
+  "language": "Ruby",
+  "license": "Apache-2.0",
+  "last_activity": "2023-07-19",
+  "found_in_domains": [
+    "payment-processing-gateways"
+  ],
+  "quality_score": 31.6,
+  "discovery_score": 4,
+  "tags": [
+    "payments",
+    "payment-gateway",
+    "checkout",
+    "payment-routing"
+  ],
+  "category": "Payment Processing / Gateways",
+  "summary": "Klarna Payments gateway for Solidus.",
+  "slug": "solidusio-contrib-solidus-klarna-payments"
+}

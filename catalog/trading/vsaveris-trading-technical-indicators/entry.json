@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/vsaveris/trading-technical-indicators",
+  "name": "vsaveris/trading-technical-indicators",
+  "description": "Trading Technical Indicators python library",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 3,
+  "score_rationale": "Small but directly relevant indicator library; fits the TA library bucket even if it is less established.",
+  "stars": 144,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-11-23",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 35.3,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "Trading Technical Indicators python library",
+  "slug": "vsaveris-trading-technical-indicators"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sisar-lab/edulite",
+  "name": "SiSaR-Lab/EduLite",
+  "description": "A lightweight, open-source digital education platform built for accessibility, simplicity, and student-first experiences \u2013 even on slow internet.",
+  "sub_domain": "accessibility-inclusive-education",
+  "score": 8,
+  "score_rationale": "Explicitly built for accessibility and student-first delivery, with a strong education-first focus and low-bandwidth usability.",
+  "stars": 16,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-13",
+  "found_in_domains": [
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 57.8,
+  "discovery_score": 8,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "A lightweight, open-source digital education platform built for accessibility, simplicity, and student-first experiences \u2013 even on slow i...",
+  "slug": "sisar-lab-edulite"
+}

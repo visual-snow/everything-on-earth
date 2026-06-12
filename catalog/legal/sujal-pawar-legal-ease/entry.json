@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/sujal-pawar/legal-ease",
+  "name": "sujal-pawar/legal-ease",
+  "description": "Legal-Ease is an innovative AI-driven platform designed to simplify legal processes and improve access to justice. This product addresses the complexities and inefficiencies in the legal system through technology.",
+  "sub_domain": "access-to-justice-civic-tech",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-10-30",
+  "found_in_domains": [
+    "access-to-justice-civic-tech"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "access-to-justice",
+    "legal-aid",
+    "self-help",
+    "civic-tech",
+    "access"
+  ],
+  "category": "Access to Justice / Civic Tech \u2014 legal aid, self-help, pro bono, guided court forms",
+  "summary": "Legal-Ease is an innovative AI-driven platform designed to simplify legal processes and improve access to justice. This product addresses...",
+  "slug": "sujal-pawar-legal-ease"
+}

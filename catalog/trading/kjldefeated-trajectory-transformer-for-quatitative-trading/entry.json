@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/kjldefeated/trajectory-transformer-for-quatitative-trading",
+  "name": "kjldefeated/trajectory-transformer-for-quatitative-trading",
+  "description": "NYCU Intro2AI Final Project",
+  "sub_domain": "ai-ml-for-trading",
+  "score": 6,
+  "score_rationale": "Student-level trajectory-transformer trading prototype; still thematically relevant.",
+  "stars": 21,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-06-05",
+  "found_in_domains": [
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 46.7,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "reinforcement-learning"
+  ],
+  "category": "ML Trading Framework",
+  "summary": "NYCU Intro2AI Final Project",
+  "slug": "kjldefeated-trajectory-transformer-for-quatitative-trading"
+}

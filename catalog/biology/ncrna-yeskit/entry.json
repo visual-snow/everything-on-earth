@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ncrna/yeskit",
+  "name": "ncrna/yeskit",
+  "description": "Yet another single-cell analysis toolkit",
+  "sub_domain": "transcriptomics",
+  "score": 7,
+  "score_rationale": "Small but bona fide single-cell analysis toolkit with topics spanning clustering, differential expression, and visualization.",
+  "stars": 9,
+  "language": "HTML",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-07",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 50.0,
+  "discovery_score": 7,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Yet another single-cell analysis toolkit",
+  "slug": "ncrna-yeskit"
+}

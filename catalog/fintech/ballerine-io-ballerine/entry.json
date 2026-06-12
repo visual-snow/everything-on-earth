@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ballerine-io/ballerine",
+  "name": "ballerine-io/ballerine",
+  "description": "Open-source infrastructure and data orchestration platform for risk decisioning",
+  "sub_domain": "aml-kyc-identity",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 2369,
+  "language": "TypeScript",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 39.0,
+  "discovery_score": 2,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity"
+  ],
+  "category": "AML / KYC / Identity",
+  "summary": "Open-source infrastructure and data orchestration platform for risk decisioning",
+  "slug": "ballerine-io-ballerine"
+}

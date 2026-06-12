@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cylab-tw/bluelight",
+  "name": "cylab-tw/bluelight",
+  "description": "a browser-based DICOM viewer",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 7,
+  "score_rationale": "Practical browser-based DICOM viewer; smaller than OHIF but clearly relevant to the subdomain.",
+  "stars": 148,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 59.4,
+  "discovery_score": 7,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "a browser-based DICOM viewer",
+  "slug": "cylab-tw-bluelight"
+}

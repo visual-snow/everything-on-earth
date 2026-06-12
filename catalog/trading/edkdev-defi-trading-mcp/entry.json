@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/edkdev/defi-trading-mcp",
+  "name": "edkdev/defi-trading-mcp",
+  "description": "DeFi Trading Agent MCP Server - Transform your AI into an autonomous crypto trading agent",
+  "sub_domain": "crypto-defi-dex-tools",
+  "score": 6,
+  "score_rationale": "Trading agent surface for DeFi automation; useful adjacent tooling.",
+  "stars": 42,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2025-08-05",
+  "found_in_domains": [
+    "crypto-defi-dex-tools"
+  ],
+  "quality_score": 49.1,
+  "tags": [
+    "defi",
+    "dex",
+    "mev"
+  ],
+  "category": "DeFi Trading SDK",
+  "summary": "DeFi Trading Agent MCP Server - Transform your AI into an autonomous crypto trading agent",
+  "slug": "edkdev-defi-trading-mcp"
+}

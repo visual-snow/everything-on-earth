@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lightdock/lightdock",
+  "name": "lightdock/lightdock",
+  "description": "Protein-protein, protein-peptide and protein-DNA docking framework based on the GSO algorithm",
+  "sub_domain": "structural-biology",
+  "score": 9,
+  "score_rationale": "A mature, clearly biological docking framework covering protein-protein, protein-peptide, and protein-DNA interactions.",
+  "stars": 387,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-09-16",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 74.7,
+  "discovery_score": 9,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Protein-protein, protein-peptide and protein-DNA docking framework based on the GSO algorithm",
+  "slug": "lightdock-lightdock"
+}

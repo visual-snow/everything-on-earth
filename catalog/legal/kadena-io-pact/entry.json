@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/kadena-io/pact",
+  "name": "kadena-io/pact",
+  "description": "The Pact Smart Contract Language",
+  "sub_domain": "smart-contracts-legal",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption; archived repo penalty.",
+  "stars": 608,
+  "language": "Haskell",
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-10-10",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 40.3,
+  "discovery_score": 3,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "The Pact Smart Contract Language",
+  "slug": "kadena-io-pact"
+}

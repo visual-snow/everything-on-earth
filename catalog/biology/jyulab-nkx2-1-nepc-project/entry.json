@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jyulab/nkx2-1_nepc_project",
+  "name": "jyulab/nkx2-1_nepc_project",
+  "description": "Code for the NKX2-1 paper, organized by assay type and covering ATAC-seq, ChIP-seq, Hi-C, Multiome, scNanoRNA-seq, and DNA methylation analyses.",
+  "sub_domain": "epigenomics",
+  "score": 7,
+  "score_rationale": "Broad multi-omic cancer analysis repo with clear ATAC-seq, ChIP-seq, and methylation content, but it is tied to one study.",
+  "stars": 4,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-06-06",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 47.6,
+  "discovery_score": 7,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "Code for the NKX2-1 paper, organized by assay type and covering ATAC-seq, ChIP-seq, Hi-C, Multiome, scNanoRNA-seq, and DNA methylation an...",
+  "slug": "jyulab-nkx2-1-nepc-project"
+}

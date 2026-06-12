@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kroneckerbio/kroneckerbio",
+  "name": "kroneckerbio/kroneckerbio",
+  "description": "KroneckerBio modelling toolbox for systems biology",
+  "sub_domain": "systems-biology",
+  "score": 7,
+  "score_rationale": "Compact modeling toolbox for systems biology with direct support for building mechanistic models.",
+  "stars": 16,
+  "language": "MATLAB",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 51.8,
+  "discovery_score": 7,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "KroneckerBio modelling toolbox for systems biology",
+  "slug": "kroneckerbio-kroneckerbio"
+}

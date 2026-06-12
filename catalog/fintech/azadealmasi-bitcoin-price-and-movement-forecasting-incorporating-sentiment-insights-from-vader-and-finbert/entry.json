@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/azadealmasi/bitcoin-price-and-movement-forecasting-incorporating-sentiment-insights-from-vader-and-finbert",
+  "name": "azadealmasi/bitcoin-price-and-movement-forecasting-incorporating-sentiment-insights-from-vader-and-finbert",
+  "description": "This project contains a Transformer-based deep learning model specifically designed for sentiment analysis in the field of cryptocurrency. The model is trained to analyze sentiment and emotions in finance-related news articles and predict their impact on cryptocurrency portfolio performance.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 3,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2024-04-03",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 34.8,
+  "discovery_score": 5,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm",
+    "portfolio"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "This project contains a Transformer-based deep learning model specifically designed for sentiment analysis in the field of cryptocurrency...",
+  "slug": "azadealmasi-bitcoin-price-and-movement-forecasting-incorporating-sentiment-insights-from-vader-and-finbert"
+}

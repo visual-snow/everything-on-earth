@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shubhamkumarnigam/realistic_ljp",
+  "name": "shubhamkumarnigam/realistic_ljp",
+  "description": "Rethinking Legal Judgment Prediction in a Realistic Scenario in the Era of Large Language Models",
+  "sub_domain": "legal-analytics-prediction",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 3,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-11-16",
+  "found_in_domains": [
+    "legal-analytics-prediction"
+  ],
+  "quality_score": 28.8,
+  "discovery_score": 4,
+  "tags": [
+    "legal-analytics",
+    "docket-mining",
+    "judge-analytics",
+    "outcome-prediction"
+  ],
+  "category": "Legal Analytics / Prediction \u2014 docket mining, judge analytics, citation graphs, outcome models",
+  "summary": "Rethinking Legal Judgment Prediction in a Realistic Scenario in the Era of Large Language Models",
+  "slug": "shubhamkumarnigam-realistic-ljp"
+}

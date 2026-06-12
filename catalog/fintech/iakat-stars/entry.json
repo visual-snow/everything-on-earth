@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/iakat/stars",
+  "name": "iakat/stars",
+  "description": "iakat/stars - An awesome list of my starred repositories",
+  "sub_domain": "open-banking-psd2",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for awesome-style signals.",
+  "stars": 26,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 17.5,
+  "discovery_score": 1,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "iakat/stars - An awesome list of my starred repositories",
+  "slug": "iakat-stars"
+}

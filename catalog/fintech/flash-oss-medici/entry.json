@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/flash-oss/medici",
+  "name": "flash-oss/medici",
+  "description": "Double-entry accounting system for nodejs + mongoose",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 340,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-07-11",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 50.3,
+  "discovery_score": 5,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Double-entry accounting system for nodejs + mongoose",
+  "slug": "flash-oss-medici"
+}

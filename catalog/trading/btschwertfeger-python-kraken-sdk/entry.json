@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/btschwertfeger/python-kraken-sdk",
+  "name": "btschwertfeger/python-kraken-sdk",
+  "description": "Command-line tool and SDK to access the Kraken Crypto Asset Exchange API (Spot, xStocks, and Futures, REST and Websocket API)",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 8,
+  "score_rationale": "Dedicated Kraken SDK with a direct broker/exchange connector role.",
+  "stars": 81,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 63.3,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "Command-line tool and SDK to access the Kraken Crypto Asset Exchange API (Spot, xStocks, and Futures, REST...",
+  "slug": "btschwertfeger-python-kraken-sdk"
+}

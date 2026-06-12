@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pontussk/pmdtools",
+  "name": "pontussk/PMDtools",
+  "description": "Compute postmortem damage patterns and decontaminate ancient genomes",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 9,
+  "score_rationale": "Focused postmortem-damage filter that directly targets aDNA authenticity and cleanup.",
+  "stars": 19,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2021-04-20",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 64.4,
+  "discovery_score": 9,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Compute postmortem damage patterns and decontaminate ancient genomes",
+  "slug": "pontussk-pmdtools"
+}

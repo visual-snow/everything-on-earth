@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mlcolab/psi-kt",
+  "name": "mlcolab/psi-kt",
+  "description": "Official code for predictive, scalable, and interpretable knowledge tracing on structured domains.",
+  "sub_domain": "adaptive-learning",
+  "score": 8,
+  "score_rationale": "Direct knowledge-tracing work with strong relevance to learner modeling and personalization.",
+  "stars": 7,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2024-03-23",
+  "found_in_domains": [
+    "adaptive-learning"
+  ],
+  "quality_score": 55.2,
+  "discovery_score": 8,
+  "tags": [
+    "adaptive-learning",
+    "tutoring",
+    "mastery",
+    "knowledge-tracing"
+  ],
+  "category": "Adaptive Learning, Personalization, Knowledge Tracing & AI Tutoring",
+  "summary": "Official code for predictive, scalable, and interpretable knowledge tracing on structured domains.",
+  "slug": "mlcolab-psi-kt"
+}

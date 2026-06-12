@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pfeiffermicha/imhotep",
+  "name": "PfeifferMicha/imhotep",
+  "description": "A Virtual-Reality framework used for visualizing medical data for surgeons. It is compatible with the Oculus Rift and the HTC Vive.",
+  "sub_domain": "medical-education-simulation",
+  "score": 7,
+  "score_rationale": "Medical VR project with clear educational simulation relevance.",
+  "stars": 32,
+  "language": null,
+  "license": null,
+  "last_activity": "2019-02-18",
+  "found_in_domains": [
+    "medical-education-simulation"
+  ],
+  "quality_score": 54.1,
+  "discovery_score": 7,
+  "tags": [
+    "education",
+    "simulation",
+    "anatomy",
+    "virtual-patient"
+  ],
+  "category": "Medical Education, Anatomy Viewers, Surgical Simulation & Virtual Patients",
+  "summary": "A Virtual-Reality framework used for visualizing medical data for surgeons. It is compatible with the Oculus Rift and the HTC Vive.",
+  "slug": "pfeiffermicha-imhotep"
+}

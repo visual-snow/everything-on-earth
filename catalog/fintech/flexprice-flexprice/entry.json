@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/flexprice/flexprice",
+  "name": "flexprice/flexprice",
+  "description": "Usage-based pricing and billing for developers \ud83d\udd13 Cloud or self-hosted \u2699\ufe0f No-code UI \ud83d\udcb0 Realtime usage metering \ud83c\udf9f Credits & top-ups \ud83d\udd11 Control feature access",
+  "sub_domain": "billing-subscription-invoicing",
+  "score": 7,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 3549,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "billing-subscription-invoicing"
+  ],
+  "quality_score": 70.4,
+  "discovery_score": 7,
+  "tags": [
+    "billing",
+    "subscriptions",
+    "invoicing",
+    "usage-metering"
+  ],
+  "category": "Billing / Subscription / Invoicing",
+  "summary": "Usage-based pricing and billing for developers \ud83d\udd13 Cloud or self-hosted \u2699\ufe0f No-code UI \ud83d\udcb0 Realtime usage metering \ud83c\udf9f Credits & top-ups \ud83d\udd11 Contr...",
+  "slug": "flexprice-flexprice"
+}

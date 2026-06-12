@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rdkit/rdkit",
+  "name": "rdkit/rdkit",
+  "description": "The official sources for the RDKit library",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 10,
+  "score_rationale": "Foundational cheminformatics library used across molecular design, property calculation, and screening workflows.",
+  "stars": 3354,
+  "language": "HTML",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 88.2,
+  "discovery_score": 10,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "The official sources for the RDKit library",
+  "slug": "rdkit-rdkit"
+}

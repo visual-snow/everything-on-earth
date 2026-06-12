@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/abeellab/jaxkineticmodel",
+  "name": "AbeelLab/jaxkineticmodel",
+  "description": "Building, simulating, and training systems biology models using JAX/Diffrax",
+  "sub_domain": "systems-biology",
+  "score": 8,
+  "score_rationale": "JAX/Diffrax-based toolkit for building, simulating, and training systems-biology models.",
+  "stars": 8,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2025-11-24",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 55.6,
+  "discovery_score": 8,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "Building, simulating, and training systems biology models using JAX/Diffrax",
+  "slug": "abeellab-jaxkineticmodel"
+}

@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/stratequeue/stratequeue",
+  "name": "stratequeue/stratequeue",
+  "description": "The fastest way from backtest to live trading.",
+  "sub_domain": "backtesting-frameworks",
+  "score": 6,
+  "score_rationale": "Backtest-to-live trading framework with direct positioning in the event-driven trading workflow.",
+  "stars": 171,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-12-30",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 53.9,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "The fastest way from backtest to live trading.",
+  "slug": "stratequeue-stratequeue"
+}

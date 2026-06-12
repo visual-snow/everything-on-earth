@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nicholasjemblow/envelofy",
+  "name": "nicholasjemblow/envelofy",
+  "description": "Personal Finance enhanced by AI",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 17,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2025-03-14",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 34.0,
+  "discovery_score": 4,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "Personal Finance enhanced by AI",
+  "slug": "nicholasjemblow-envelofy"
+}

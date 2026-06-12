@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cidarlab/celloucf2sbol",
+  "name": "cidarlab/celloucf2sbol",
+  "description": "API to convert Cello UCF to SBOL",
+  "sub_domain": "synthetic-biology",
+  "score": 7,
+  "score_rationale": "Narrow but directly useful interoperability layer between Cello and the SBOL ecosystem.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": "BSD-2-Clause",
+  "last_activity": "2017-05-29",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "API to convert Cello UCF to SBOL",
+  "slug": "cidarlab-celloucf2sbol"
+}

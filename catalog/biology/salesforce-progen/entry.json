@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/salesforce/progen",
+  "name": "salesforce/progen",
+  "description": "Official release of the ProGen models",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 8,
+  "score_rationale": "A foundational protein-sequence generation model that is directly relevant to protein engineering workflows.",
+  "stars": 695,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2023-08-04",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 70.7,
+  "discovery_score": 8,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Official release of the ProGen models",
+  "slug": "salesforce-progen"
+}

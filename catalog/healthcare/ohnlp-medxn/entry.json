@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ohnlp/medxn",
+  "name": "OHNLP/MedXN",
+  "description": "MedXN is a medication normalization system built upon Apache UIMA framework.",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 6,
+  "score_rationale": "Useful medication normalization tooling that supports extraction and RxNorm mapping from text.",
+  "stars": 25,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2024-01-24",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 47.3,
+  "discovery_score": 6,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "MedXN is a medication normalization system built upon Apache UIMA framework.",
+  "slug": "ohnlp-medxn"
+}

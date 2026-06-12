@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lmdu/dockey",
+  "name": "lmdu/dockey",
+  "description": "an integrated tool for molecular docking and virtual screening",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 6,
+  "score_rationale": "Practical docking and virtual screening tool, though narrower and less established than the core engines.",
+  "stars": 78,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-06-19",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 51.2,
+  "discovery_score": 6,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "an integrated tool for molecular docking and virtual screening",
+  "slug": "lmdu-dockey"
+}

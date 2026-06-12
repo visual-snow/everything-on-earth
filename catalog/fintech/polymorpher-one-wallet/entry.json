@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/polymorpher/one-wallet",
+  "name": "polymorpher/one-wallet",
+  "description": "1wallet | Modulo OTP Wallet - unconventional keyless, non-custodial wallet secured by Google Authenticator. EVM-compatible, smart contract operated, with composable security.",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 114,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2024-09-19",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 46.5,
+  "discovery_score": 5,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "1wallet | Modulo OTP Wallet - unconventional keyless, non-custodial wallet secured by Google Authenticator. EVM-compatible, smart contrac...",
+  "slug": "polymorpher-one-wallet"
+}

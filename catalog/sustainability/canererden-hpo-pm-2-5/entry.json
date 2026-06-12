@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/canererden/hpo_pm_2_5",
+  "name": "canererden/hpo_pm_2_5",
+  "description": "Paper: https://link.springer.com/article/10.1007/s13762-023-04763-6",
+  "sub_domain": "air-quality-emissions",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for paper-style signals.",
+  "stars": 7,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-12-31",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 13.2,
+  "discovery_score": 1,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "Paper: https://link.springer.com/article/10.1007/s13762-023-04763-6",
+  "slug": "canererden-hpo-pm-2-5"
+}

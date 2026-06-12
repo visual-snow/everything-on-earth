@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sysbiochalmers/ecfactory",
+  "name": "sysbiochalmers/ecfactory",
+  "description": "A constraint-based method for prediction of metabolic engineering targets using ecModels of metabolism",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Directly supports pathway engineering by identifying engineering targets for metabolite production.",
+  "stars": 12,
+  "language": "MATLAB",
+  "license": "GPL-3.0",
+  "last_activity": "2025-02-12",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 56.9,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "A constraint-based method for prediction of metabolic engineering targets using ecModels of metabolism",
+  "slug": "sysbiochalmers-ecfactory"
+}

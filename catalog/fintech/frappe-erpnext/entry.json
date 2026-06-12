@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/frappe/erpnext",
+  "name": "frappe/erpnext",
+  "description": "Free and Open Source Enterprise Resource Planning (ERP)",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 32452,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 48.1,
+  "discovery_score": 2,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Free and Open Source Enterprise Resource Planning (ERP)",
+  "slug": "frappe-erpnext"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/duneanalytics/spellbook",
+  "name": "duneanalytics/spellbook",
+  "description": "SQL views for Dune",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 1474,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 37.4,
+  "discovery_score": 2,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "SQL views for Dune",
+  "slug": "duneanalytics-spellbook"
+}

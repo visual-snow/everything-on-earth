@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lgai-research/panorama",
+  "name": "lgai-research/panorama",
+  "description": "PANORAMA: A dataset of U.S. patent examination records designed to capture the complete patent examination process",
+  "sub_domain": "ip-patent-trademark",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for dataset-style signals.",
+  "stars": 3,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-10-22",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 16.8,
+  "discovery_score": 2,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "PANORAMA: A dataset of U.S. patent examination records designed to capture the complete patent examination process",
+  "slug": "lgai-research-panorama"
+}

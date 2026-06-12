@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gjpelletier/pyoae",
+  "name": "gjpelletier/pyoae",
+  "description": "Python tools for analysis of Ocean Alkalinity Enhancement and Ocean Acidification",
+  "sub_domain": "ocean-climate",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-07-07",
+  "found_in_domains": [
+    "ocean-climate"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "ocean-climate",
+    "blue-carbon",
+    "marine-carbon",
+    "ocean-acidification"
+  ],
+  "category": "Ocean / Climate \u2014 ocean acidification, marine carbon, blue economy tools",
+  "summary": "Python tools for analysis of Ocean Alkalinity Enhancement and Ocean Acidification",
+  "slug": "gjpelletier-pyoae"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/staticshreyas/attendance-portal",
+  "name": "staticshreyas/Attendance-Portal",
+  "description": "We have developed a cutting-edge attendance recorder. Using face recognition, you can easily record attendance and have access to in-depth analysis and a wide range of functionalities.",
+  "sub_domain": "classroom-management",
+  "score": 7,
+  "score_rationale": "Clear attendance-focused classroom workflow with teacher-facing recording and analytics, and a strong match for school attendance use.",
+  "stars": 117,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2023-06-14",
+  "found_in_domains": [
+    "classroom-management"
+  ],
+  "quality_score": 58.6,
+  "discovery_score": 7,
+  "tags": [
+    "classroom",
+    "device-management",
+    "monitoring",
+    "scheduling"
+  ],
+  "category": "Classroom Management, Device Supervision, Screen Monitoring & Scheduling",
+  "summary": "We have developed a cutting-edge attendance recorder. Using face recognition, you can easily record attendance and have access to in-dept...",
+  "slug": "staticshreyas-attendance-portal"
+}

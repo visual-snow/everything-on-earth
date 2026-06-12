@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/mcorts/ais-ship-tracking-receiver",
+  "name": "McOrts/AIS-ship-tracking-receiver",
+  "description": "Marine traffic monitoring system based on AIS for Marine Traffic",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 8,
+  "score_rationale": "AIS ship-tracking receiver for maritime surveillance and vessel monitoring.",
+  "stars": 24,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 59.2,
+  "tags": [
+    "ais",
+    "maritime-surveillance",
+    "vessel-monitoring",
+    "security"
+  ],
+  "category": "Marine Monitoring System",
+  "summary": "AIS-based marine traffic monitoring system for vessel surveillance.",
+  "slug": "mcorts-ais-ship-tracking-receiver"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/gibbonedu/core",
+  "name": "GibbonEdu/core",
+  "description": "Gibbon is a flexible, open source school management platform designed to make life better for teachers, students, parents and leaders.",
+  "sub_domain": "sis",
+  "score": 10,
+  "score_rationale": "Canonical school management platform with parent, student, and teacher workflows; broad SIS coverage and strong project maturity.",
+  "stars": 591,
+  "language": "PHP",
+  "license": "GNU GPLv3",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "sis"
+  ],
+  "quality_score": 82.2,
+  "discovery_score": 10,
+  "tags": [
+    "sis",
+    "attendance",
+    "transcripts",
+    "enrollment"
+  ],
+  "category": "Student Information Systems (SIS), Attendance, Transcripts & Parent Portals",
+  "summary": "Gibbon is a flexible, open source school management platform designed to make life better for teachers, students, parents and leaders.",
+  "slug": "gibbonedu-core"
+}

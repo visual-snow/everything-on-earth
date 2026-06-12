@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/manifoldscholar/manifold",
+  "name": "ManifoldScholar/manifold",
+  "description": "Transforming scholarly publications into living digital works.",
+  "sub_domain": "research-academic-publishing",
+  "score": 8,
+  "score_rationale": "Digital scholarship and publishing platform for long-form academic work.",
+  "stars": 252,
+  "language": "JavaScript",
+  "license": "GNU General Public License v3.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 67.2,
+  "discovery_score": 8,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "Transforming scholarly publications into living digital works.",
+  "slug": "manifoldscholar-manifold"
+}

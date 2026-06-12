@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/microsoftdocs/dynamics365-guidance",
+  "name": "microsoftdocs/dynamics365-guidance",
+  "description": "No description provided.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 29,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 17.8,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "No description provided.",
+  "slug": "microsoftdocs-dynamics365-guidance"
+}

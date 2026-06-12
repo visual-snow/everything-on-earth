@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rsandx/alphasuite",
+  "name": "rsandx/alphasuite",
+  "description": "AlphaSuite is an open-source quantitative analysis platform that gives you the power to build, test, and deploy professional-grade trading strategies. It's designed for traders and analysts who want to move beyond simple backtests and develop a genuine, data-driven edge in the financial markets.",
+  "sub_domain": "financial-market-data",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 202,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-03",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 24.5,
+  "discovery_score": 1,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "AlphaSuite is an open-source quantitative analysis platform that gives you the power to build, test, and deploy professional-grade tradin...",
+  "slug": "rsandx-alphasuite"
+}

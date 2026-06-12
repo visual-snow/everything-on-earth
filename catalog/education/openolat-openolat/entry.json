@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openolat/openolat",
+  "name": "OpenOLAT/OpenOLAT",
+  "description": "Learning Management System OpenOlat",
+  "sub_domain": "lms",
+  "score": 7,
+  "score_rationale": "Direct LMS project, though smaller than the major platforms in this set.",
+  "stars": 414,
+  "language": "Java",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lms"
+  ],
+  "quality_score": 62.9,
+  "discovery_score": 7,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "Learning Management System OpenOlat",
+  "slug": "openolat-openolat"
+}

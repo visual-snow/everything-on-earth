@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/sammchardy/python-binance",
+  "name": "sammchardy/python-binance",
+  "description": "Binance Exchange API python implementation for automated trading",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 9,
+  "score_rationale": "Widely used Binance API client with a clear exchange-connector role and strong adoption.",
+  "stars": 7111,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 84.8,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "Binance Exchange API python implementation for automated trading",
+  "slug": "sammchardy-python-binance"
+}

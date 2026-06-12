@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/project-slot/handson",
+  "name": "project-slot/HandsOn",
+  "description": "Educational augmented-reality lab simulator with AI assistance for scientific experiments.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 8,
+  "score_rationale": "Strong experiment-oriented learning fit with virtual lab sandbox, AR interaction, and teaching use cases.",
+  "stars": 2,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2023-12-15",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 51.8,
+  "discovery_score": 8,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Educational augmented-reality lab simulator with AI assistance for scientific experiments.",
+  "slug": "project-slot-handson"
+}

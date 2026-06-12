@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/lballabio/quantlib",
+  "name": "lballabio/QuantLib",
+  "description": "The QuantLib C++ library",
+  "sub_domain": "options-derivatives",
+  "score": 10,
+  "score_rationale": "Canonical open-source library for pricing, modeling, trading, and risk management in derivatives; the strongest anchor repo for this subdomain.",
+  "stars": 6904,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "options-derivatives"
+  ],
+  "quality_score": 90.7,
+  "tags": [
+    "options",
+    "derivatives",
+    "volatility",
+    "quantlib"
+  ],
+  "category": "Options Analytics Library",
+  "summary": "The QuantLib C++ library",
+  "slug": "lballabio-quantlib"
+}

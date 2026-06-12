@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/project-monai/slicermonaiviz",
+  "name": "Project-MONAI/SlicerMONAIViz",
+  "description": "MONAIViz - 3D Slicer Extension",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 8,
+  "score_rationale": "Useful 3D Slicer extension that bridges MONAI workflows into radiology and segmentation use cases.",
+  "stars": 26,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-05",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 59.5,
+  "discovery_score": 8,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "MONAIViz - 3D Slicer Extension",
+  "slug": "project-monai-slicermonaiviz"
+}

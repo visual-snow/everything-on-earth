@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/blingenf/copydetect",
+  "name": "blingenf/copydetect",
+  "description": "Code plagiarism detection tool.",
+  "sub_domain": "assessment-testing",
+  "score": 6,
+  "score_rationale": "Relevant plagiarism-detection utility for student code submissions.",
+  "stars": 323,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-04-06",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 56.1,
+  "discovery_score": 6,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Code plagiarism detection tool.",
+  "slug": "blingenf-copydetect"
+}

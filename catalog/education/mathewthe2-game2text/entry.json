@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mathewthe2/game2text",
+  "name": "mathewthe2/Game2Text",
+  "description": "Complete toolbox for gamifying language learning.",
+  "sub_domain": "language-learning",
+  "score": 6,
+  "score_rationale": "Learner-facing language practice tool, but more specialized and less central than the core learning apps above.",
+  "stars": 275,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2023-09-19",
+  "found_in_domains": [
+    "language-learning"
+  ],
+  "quality_score": 55.5,
+  "discovery_score": 6,
+  "tags": [
+    "language-learning",
+    "flashcards",
+    "vocabulary",
+    "reading-support"
+  ],
+  "category": "Language Learning, Vocabulary Training, Reading Support & Speaking Practice",
+  "summary": "Complete toolbox for gamifying language learning.",
+  "slug": "mathewthe2-game2text"
+}

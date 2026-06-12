@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/irs-public/direct-file",
+  "name": "irs-public/direct-file",
+  "description": "Direct File",
+  "sub_domain": "tax-calculation-filing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 4528,
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "last_activity": "2025-06-05",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 41.2,
+  "discovery_score": 2,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Direct File",
+  "slug": "irs-public-direct-file"
+}

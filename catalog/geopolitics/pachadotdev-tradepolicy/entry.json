@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/pachadotdev/tradepolicy",
+  "name": "pachadotdev/tradepolicy",
+  "description": "Replication of 'An Advanced Guide To Trade Policy Analysis'.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 8,
+  "score_rationale": "Strong trade-policy analysis package with direct relevance to trade modeling.",
+  "stars": 7,
+  "language": "Stata",
+  "license": "CC-BY-4.0",
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 55.2,
+  "tags": [
+    "trade-policy",
+    "economic-modeling",
+    "stata",
+    "analysis"
+  ],
+  "category": "Trade Policy Analysis",
+  "summary": "Replication repo for a trade policy analysis guide.",
+  "slug": "pachadotdev-tradepolicy"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/oemof/tespy",
+  "name": "oemof/tespy",
+  "description": "Thermal Engineering Systems in Python (TESPy). This package provides a powerful simulation toolkit for thermodynamic modeling of thermal engineering plants such as power plants, heat pumps or refrigeration machines.",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 377,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 44.6,
+  "discovery_score": 4,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "Thermal Engineering Systems in Python (TESPy). This package provides a powerful simulation toolkit for thermodynamic modeling of thermal...",
+  "slug": "oemof-tespy"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/freelawproject/courtlistener",
+  "name": "freelawproject/courtlistener",
+  "description": "A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings.",
+  "sub_domain": "international-law-treaties",
+  "score": 9,
+  "score_rationale": "CourtListener is a major legal archive and API surface for court opinions and filings.",
+  "stars": 876,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 77.5,
+  "tags": [
+    "courts",
+    "legal-archive",
+    "case-law",
+    "filings"
+  ],
+  "category": "Legal Case Archive",
+  "summary": "Searchable archive and API for opinions, arguments, judges, and filings.",
+  "slug": "freelawproject-courtlistener"
+}

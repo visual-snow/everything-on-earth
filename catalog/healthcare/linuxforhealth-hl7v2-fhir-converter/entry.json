@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/linuxforhealth/hl7v2-fhir-converter",
+  "name": "LinuxForHealth/hl7v2-fhir-converter",
+  "description": "LinuxForHealth HL7 to FHIR Converter.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 9,
+  "score_rationale": "Direct conversion tooling for HL7 v2 to FHIR payloads.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "LinuxForHealth HL7 to FHIR Converter.",
+  "slug": "linuxforhealth-hl7v2-fhir-converter"
+}

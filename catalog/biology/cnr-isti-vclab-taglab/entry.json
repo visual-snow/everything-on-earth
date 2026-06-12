@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cnr-isti-vclab/taglab",
+  "name": "cnr-isti-vclab/TagLab",
+  "description": "A CNN based image segmentation tool oriented to marine data analysis",
+  "sub_domain": "marine-biology",
+  "score": 9,
+  "score_rationale": "Current marine image segmentation tool for coral and benthic data, with clear reuse across reef annotation and analysis workflows.",
+  "stars": 109,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 70.3,
+  "discovery_score": 9,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "A CNN based image segmentation tool oriented to marine data analysis",
+  "slug": "cnr-isti-vclab-taglab"
+}

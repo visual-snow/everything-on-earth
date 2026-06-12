@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/protein-engineering-framework/merge",
+  "name": "protein-engineering-framework/merge",
+  "description": "An evolutionary probability-based hybrid model to support protein engineering campaigns",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 8,
+  "score_rationale": "Clearly targets protein engineering campaigns and sequence-function modeling rather than a broad methodology repo.",
+  "stars": 10,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2024-09-03",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 56.3,
+  "discovery_score": 8,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "An evolutionary probability-based hybrid model to support protein engineering campaigns",
+  "slug": "protein-engineering-framework-merge"
+}

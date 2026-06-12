@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cdubiel08/earnings-calls-nlp",
+  "name": "cdubiel08/earnings-calls-nlp",
+  "description": "Machine Learning Natural Language Processing analysis of earnings call transcripts for logistic regression classification to make 'buy', 'sell' or 'hold' calls on stocks.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 70,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2023-05-09",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 32.8,
+  "discovery_score": 3,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Machine Learning Natural Language Processing analysis of earnings call transcripts for logistic regression classification to make 'buy',...",
+  "slug": "cdubiel08-earnings-calls-nlp"
+}

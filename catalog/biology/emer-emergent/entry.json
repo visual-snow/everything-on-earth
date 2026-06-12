@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/emer/emergent",
+  "name": "emer/emergent",
+  "description": "Biologically based neural network simulations of the brain written in Go with a 3D GUI powered by Cogent Core.",
+  "sub_domain": "computational-neuroscience",
+  "score": 9,
+  "score_rationale": "Biologically grounded brain-simulation framework with explicit neuroscience modeling and visualization support.",
+  "stars": 231,
+  "language": "Go",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-02-12",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 72.9,
+  "discovery_score": 9,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Biologically based neural network simulations of the brain written in Go with a 3D GUI powered by Cogent Core.",
+  "slug": "emer-emergent"
+}

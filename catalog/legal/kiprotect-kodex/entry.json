@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/kiprotect/kodex",
+  "name": "kiprotect/kodex",
+  "description": "A privacy and security engineering toolkit: Discover, understand, pseudonymize, anonymize, encrypt and securely share sensitive and personal data: Privacy and security as code.",
+  "sub_domain": "privacy-data-protection",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 123,
+  "language": "Go",
+  "license": "AGPL-3.0",
+  "last_activity": "2024-08-11",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 46.7,
+  "discovery_score": 5,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "A privacy and security engineering toolkit: Discover, understand, pseudonymize, anonymize, encrypt and securely share sensitive and perso...",
+  "slug": "kiprotect-kodex"
+}

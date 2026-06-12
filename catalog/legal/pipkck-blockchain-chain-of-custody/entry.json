@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/pipkck/blockchain-chain-of-custody",
+  "name": "pipkck/blockchain-chain-of-custody",
+  "description": "A blockchain-based chain of custody system for forensic evidence that would record and verify the history of evidence items in a secure and tamper-proof way.",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 0,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-05-26",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support",
+    "evidence"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "A blockchain-based chain of custody system for forensic evidence that would record and verify the history of evidence items in a secure a...",
+  "slug": "pipkck-blockchain-chain-of-custody"
+}

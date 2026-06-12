@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mrmaxent/maxent",
+  "name": "mrmaxent/maxent",
+  "description": "Maximum entropy modelling of species geographic distributions.",
+  "sub_domain": "ecology-conservation",
+  "score": 10,
+  "score_rationale": "Canonical maximum-entropy SDM implementation and the reference package for presence-only niche modeling.",
+  "stars": 259,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2024-01-11",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 79.3,
+  "discovery_score": 10,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Maximum entropy modelling of species geographic distributions.",
+  "slug": "mrmaxent-maxent"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mroeck/carbenmats-buildings",
+  "name": "mroeck/carbenmats-buildings",
+  "description": "A Global Database on Whole Life Carbon, Energy and Material Intensity of Buildings (CarbEnMats-Buildings)",
+  "sub_domain": "green-building-certification",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 13,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2024-08-14",
+  "found_in_domains": [
+    "green-building-certification"
+  ],
+  "quality_score": 33.2,
+  "discovery_score": 4,
+  "tags": [
+    "green-building",
+    "leed",
+    "breeam",
+    "embodied-carbon"
+  ],
+  "category": "Green Building Certification \u2014 LEED/BREEAM tools and building material databases",
+  "summary": "A Global Database on Whole Life Carbon, Energy and Material Intensity of Buildings (CarbEnMats-Buildings)",
+  "slug": "mroeck-carbenmats-buildings"
+}

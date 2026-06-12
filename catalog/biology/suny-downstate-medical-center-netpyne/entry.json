@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/suny-downstate-medical-center/netpyne",
+  "name": "suny-downstate-medical-center/netpyne",
+  "description": "A Python package to facilitate the development, parallel simulation, optimization and analysis of multiscale biological neuronal networks in NEURON.",
+  "sub_domain": "computational-neuroscience",
+  "score": 9,
+  "score_rationale": "Widely used NEURON-centered toolkit for building, simulating, and analyzing biologically grounded neuronal networks.",
+  "stars": 167,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-18",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 71.8,
+  "discovery_score": 9,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "A Python package to facilitate the development, parallel simulation, optimization and analysis of multiscale biological neuronal networks...",
+  "slug": "suny-downstate-medical-center-netpyne"
+}

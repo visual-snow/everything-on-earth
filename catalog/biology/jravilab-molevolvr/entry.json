@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jravilab/molevolvr",
+  "name": "jravilab/molevolvr",
+  "description": "An R Package for characterizing proteins using molecular evolution and phylogeny",
+  "sub_domain": "phylogenetics",
+  "score": 7,
+  "score_rationale": "It is a domain-relevant molecular evolution package, but it is more of an analysis framework than a direct tree-building engine.",
+  "stars": 7,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-12-19",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 49.2,
+  "discovery_score": 7,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "An R Package for characterizing proteins using molecular evolution and phylogeny",
+  "slug": "jravilab-molevolvr"
+}

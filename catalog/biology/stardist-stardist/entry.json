@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stardist/stardist",
+  "name": "stardist/stardist",
+  "description": "StarDist - Object Detection with Star-convex Shapes",
+  "sub_domain": "biomedical-imaging",
+  "score": 9,
+  "score_rationale": "StarDist is a core nuclei and cell instance-segmentation method that is heavily used in microscopy and histology.",
+  "stars": 1190,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-02-14",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 78.6,
+  "discovery_score": 9,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "StarDist - Object Detection with Star-convex Shapes",
+  "slug": "stardist-stardist"
+}

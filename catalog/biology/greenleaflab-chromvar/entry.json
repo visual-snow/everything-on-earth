@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/greenleaflab/chromvar",
+  "name": "GreenleafLab/chromVAR",
+  "description": "chromatin Variability Across Regions (of the genome!)",
+  "sub_domain": "epigenomics",
+  "score": 9,
+  "score_rationale": "Canonical ATAC-seq accessibility variability analysis package used across single-cell and bulk epigenomics.",
+  "stars": 185,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2024-07-10",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 72.2,
+  "discovery_score": 9,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "chromatin Variability Across Regions (of the genome!)",
+  "slug": "greenleaflab-chromvar"
+}

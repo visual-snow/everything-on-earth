@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/graasp/graasp-builder",
+  "name": "graasp/graasp-builder",
+  "description": "Web client for the Graasp Platform.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 8,
+  "score_rationale": "Core education-platform client for assembling classroom resources and lab-adjacent learning experiences.",
+  "stars": 5,
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-01-23",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 54.2,
+  "discovery_score": 8,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Web client for the Graasp Platform.",
+  "slug": "graasp-graasp-builder"
+}

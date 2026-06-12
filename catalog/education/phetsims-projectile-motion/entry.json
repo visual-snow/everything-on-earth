@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/phetsims/projectile-motion",
+  "name": "phetsims/projectile-motion",
+  "description": "\"Projectile Motion\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Official PhET simulation repo for a canonical learner-facing physics classroom activity.",
+  "stars": 14,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 63.4,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning",
+    "interactive"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "\"Projectile Motion\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "slug": "phetsims-projectile-motion"
+}

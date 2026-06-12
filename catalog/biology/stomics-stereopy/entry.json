@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/stomics/stereopy",
+  "name": "STOmics/Stereopy",
+  "description": "A toolkit of spatial transcriptomic analysis.",
+  "sub_domain": "spatial-omics",
+  "score": 89,
+  "score_rationale": "Spatial transcriptomics toolkit with direct analysis and visualization features.",
+  "stars": 274,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "spatial-omics"
+  ],
+  "quality_score": 553.5,
+  "discovery_score": 89,
+  "tags": [
+    "spatial-omics",
+    "spatial-transcriptomics",
+    "visium",
+    "slide-seq"
+  ],
+  "category": "Spatial Omics \u2014 spatial transcriptomics and spatial proteomics",
+  "summary": "A toolkit of spatial transcriptomic analysis.",
+  "slug": "stomics-stereopy"
+}

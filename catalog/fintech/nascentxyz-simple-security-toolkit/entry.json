@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nascentxyz/simple-security-toolkit",
+  "name": "nascentxyz/simple-security-toolkit",
+  "description": "A collection of practical security-focused guides and checklists for smart contract development",
+  "sub_domain": "smart-contract-security",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1219,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2023-11-15",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 60.7,
+  "discovery_score": 6,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A collection of practical security-focused guides and checklists for smart contract development",
+  "slug": "nascentxyz-simple-security-toolkit"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/adaptlearning/adapt_authoring",
+  "name": "adaptlearning/adapt_authoring",
+  "description": "A server-based user interface for authoring eLearning courses using the Adapt framework.",
+  "sub_domain": "curriculum-authoring",
+  "score": 9,
+  "score_rationale": "Purpose-built course authoring tool with strong fit for interactive curriculum creation and exportable eLearning content.",
+  "stars": 553,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-12",
+  "found_in_domains": [
+    "curriculum-authoring"
+  ],
+  "quality_score": 75.9,
+  "discovery_score": 9,
+  "tags": [
+    "curriculum",
+    "authoring",
+    "oer",
+    "courseware"
+  ],
+  "category": "Curriculum, Content Authoring, OER Publishing & Interactive Courseware",
+  "summary": "A server-based user interface for authoring eLearning courses using the Adapt framework.",
+  "slug": "adaptlearning-adapt-authoring"
+}

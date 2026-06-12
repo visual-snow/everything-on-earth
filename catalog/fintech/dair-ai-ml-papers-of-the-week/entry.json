@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dair-ai/ml-papers-of-the-week",
+  "name": "dair-ai/ml-papers-of-the-week",
+  "description": "\ud83d\udd25Highlighting the top ML papers every week.",
+  "sub_domain": "open-banking-psd2",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 12261,
+  "language": null,
+  "license": null,
+  "last_activity": "2025-07-20",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 44.7,
+  "discovery_score": 2,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "\ud83d\udd25Highlighting the top ML papers every week.",
+  "slug": "dair-ai-ml-papers-of-the-week"
+}

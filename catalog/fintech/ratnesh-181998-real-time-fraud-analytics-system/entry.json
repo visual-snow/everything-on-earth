@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ratnesh-181998/real-time-fraud-analytics-system",
+  "name": "ratnesh-181998/real-time-fraud-analytics-system",
+  "description": "The Real-Time Fraud Analytics System is designed to detect fraudulent transactions in real-time for fintech applications. The system processes up to 10,000 transactions per second with sub-100ms latency | https://github.com/Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "The Real-Time Fraud Analytics System is designed to detect fraudulent transactions in real-time for fintech applications. The system proc...",
+  "slug": "ratnesh-181998-real-time-fraud-analytics-system"
+}

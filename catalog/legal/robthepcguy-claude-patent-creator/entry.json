@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/robthepcguy/claude-patent-creator",
+  "name": "robthepcguy/claude-patent-creator",
+  "description": "USPTO patent creation system with MCP server + Claude Code plugin. Hybrid RAG search over   MPEP/USC/CFR, BigQuery access to 76M+ patents, automated 35 USC 112 compliance checks, prior   art search, diagram generation. GPU-accelerated with skills and autonomous agents.",
+  "sub_domain": "ip-patent-trademark",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+  "stars": 47,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 49.4,
+  "discovery_score": 6,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics",
+    "access",
+    "compliance"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "USPTO patent creation system with MCP server + Claude Code plugin. Hybrid RAG search over   MPEP/USC/CFR, BigQuery access to 76M+ patents...",
+  "slug": "robthepcguy-claude-patent-creator"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/benoror/taxi-driver",
+  "name": "benoror/taxi-driver",
+  "description": "\ud83d\ude96 A flexible & international Tax Engine Node.js Microservice",
+  "sub_domain": "tax-calculation-filing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 2,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2022-12-09",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 21.8,
+  "discovery_score": 3,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "\ud83d\ude96 A flexible & international Tax Engine Node.js Microservice",
+  "slug": "benoror-taxi-driver"
+}

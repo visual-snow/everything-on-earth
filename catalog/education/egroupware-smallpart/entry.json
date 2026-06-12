@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/egroupware/smallpart",
+  "name": "EGroupware/smallpart",
+  "description": "Video-based Interactive Didactics & Observation for Teaching and Coaching",
+  "sub_domain": "video-lecture-platforms",
+  "score": 6,
+  "score_rationale": "Educational video analysis and reflection tool built around teaching workflows.",
+  "stars": 5,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "video-lecture-platforms"
+  ],
+  "quality_score": 42.2,
+  "discovery_score": 6,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation",
+    "interactive"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "Video-based Interactive Didactics & Observation for Teaching and Coaching",
+  "slug": "egroupware-smallpart"
+}

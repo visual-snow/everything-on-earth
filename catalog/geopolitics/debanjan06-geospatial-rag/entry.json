@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/debanjan06/geospatial-rag",
+  "name": "debanjan06/geospatial-rag",
+  "description": "AI Framework for Remote Sensing Image Analysis using RAG - 88%+ accuracy, multi-modal queries, ChatGPT-like interface",
+  "stars": 13,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-07-27",
+  "sub_domain": "geoint-tools",
+  "score": 7,
+  "score_rationale": "Specialized AI framework for remote sensing and geospatial analysis.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 51.2,
+  "tags": [
+    "remote-sensing",
+    "rag",
+    "geospatial-ai",
+    "multimodal"
+  ],
+  "category": "Geospatial RAG",
+  "summary": "AI framework for remote-sensing analysis with multimodal RAG queries.",
+  "slug": "debanjan06-geospatial-rag"
+}

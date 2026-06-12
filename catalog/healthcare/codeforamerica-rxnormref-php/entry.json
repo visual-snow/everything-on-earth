@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/codeforamerica/rxnormref_php",
+  "name": "codeforamerica/rxNormRef_php",
+  "description": "Web Application for rxNorm API - Semantic Drug Reference Tool",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 5,
+  "score_rationale": "Relevant semantic drug reference tool, but it is an older utility rather than a broader management platform.",
+  "stars": 8,
+  "language": "PHP",
+  "license": null,
+  "last_activity": "2011-08-10",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 37.6,
+  "discovery_score": 5,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "Web Application for rxNorm API - Semantic Drug Reference Tool",
+  "slug": "codeforamerica-rxnormref-php"
+}

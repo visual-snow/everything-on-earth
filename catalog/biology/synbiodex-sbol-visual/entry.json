@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/synbiodex/sbol-visual",
+  "name": "SynBioDex/SBOL-visual",
+  "description": "The reference implementation of the SBOL Visual standard",
+  "sub_domain": "synthetic-biology",
+  "score": 9,
+  "score_rationale": "Reference implementation for SBOL Visual, central to standardized genetic design diagrams.",
+  "stars": 37,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2025-08-22",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 66.6,
+  "discovery_score": 9,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "The reference implementation of the SBOL Visual standard",
+  "slug": "synbiodex-sbol-visual"
+}

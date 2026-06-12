@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/merck/biophi",
+  "name": "Merck/BioPhi",
+  "description": "BioPhi is an open-source antibody design platform. It features methods for automated antibody humanization (Sapiens), humanness evaluation (Oasis) and an interface for computer-assisted antibody sequence design.",
+  "sub_domain": "immunoinformatics",
+  "score": 10,
+  "score_rationale": "Open-source antibody design platform with automated humanization, humanness evaluation, and sequence design support.",
+  "stars": 230,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-05-13",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 78.9,
+  "discovery_score": 10,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "BioPhi is an open-source antibody design platform. It features methods for automated antibody humanization (Sapiens), humanness evaluatio...",
+  "slug": "merck-biophi"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/irs-public/fact-graph",
+  "name": "irs-public/fact-graph",
+  "description": "Fact Graph",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 392,
+  "language": "Scala",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-24",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 26.8,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Fact Graph",
+  "slug": "irs-public-fact-graph"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ukhomeoffice/visa-processing-times-tool",
+  "name": "ukhomeoffice/visa-processing-times-tool",
+  "description": "A HOF app that calculates the expected SLA time for a visa application",
+  "sub_domain": "immigration-visa-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "A HOF app that calculates the expected SLA time for a visa application",
+  "slug": "ukhomeoffice-visa-processing-times-tool"
+}

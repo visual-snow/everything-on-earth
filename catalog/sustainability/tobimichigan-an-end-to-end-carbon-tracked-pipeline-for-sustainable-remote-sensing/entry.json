@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tobimichigan/an-end-to-end-carbon-tracked-pipeline-for-sustainable-remote-sensing",
+  "name": "tobimichigan/an-end-to-end-carbon-tracked-pipeline-for-sustainable-remote-sensing",
+  "description": "An End-to-End Carbon-Tracked Pipeline for Sustainable Remote-Sensing: From Chunked Loading to Environmental Impact Quantification",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-10-28",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": "An End-to-End Carbon-Tracked Pipeline for Sustainable Remote-Sensing: From Chunked Loading to Environmental Impact Quantification",
+  "slug": "tobimichigan-an-end-to-end-carbon-tracked-pipeline-for-sustainable-remote-sensing"
+}

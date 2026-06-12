@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ruidlpm/pathphynder",
+  "name": "ruidlpm/pathPhynder",
+  "description": "A workflow for integrating ancient lineages into present-day phylogenies.",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 9,
+  "score_rationale": "Directly serves paleogenomic lineage placement, which is a common downstream ancient-DNA task.",
+  "stars": 32,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2025-07-07",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 66.1,
+  "discovery_score": 9,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "A workflow for integrating ancient lineages into present-day phylogenies.",
+  "slug": "ruidlpm-pathphynder"
+}

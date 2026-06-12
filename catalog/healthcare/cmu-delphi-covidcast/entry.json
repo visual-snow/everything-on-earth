@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cmu-delphi/covidcast",
+  "name": "cmu-delphi/covidcast",
+  "description": "R and Python packages supporting Delphi's COVIDcast effort.",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 9,
+  "score_rationale": "Core Delphi package suite for COVIDcast data access and epidemiological signals.",
+  "stars": 35,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-02-23",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 66.5,
+  "discovery_score": 9,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "R and Python packages supporting Delphi's COVIDcast effort.",
+  "slug": "cmu-delphi-covidcast"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/bairwa25/air_quality",
+  "name": "bairwa25/air_quality",
+  "description": "This is IOT Based Air Pollution Monitoring System that measures indoor harmful gases present in the air like Carbon Dioxide(CO2) using an MQ135 gas sensor and Carbon Monoxide(CO) using an MQ7 sensor. It will show the air quality in PPM(Parts Per Million) on the LCD and as well as on Thingspeak so that we can monitor it very easily in PPM.",
+  "sub_domain": "air-quality-emissions",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 17,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2021-10-08",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 34.0,
+  "discovery_score": 4,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory",
+    "ghg"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "This is IOT Based Air Pollution Monitoring System that measures indoor harmful gases present in the air like Carbon Dioxide(CO2) using an...",
+  "slug": "bairwa25-air-quality"
+}

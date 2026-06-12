@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cyberaula/vish",
+  "name": "CyberAula/vish",
+  "description": "ViSH, an open source e-Learning platform",
+  "sub_domain": "video-lecture-platforms",
+  "score": 6,
+  "score_rationale": "Education platform with explicit audio/video resource support and classroom/Moodle integration.",
+  "stars": 138,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2024-04-07",
+  "found_in_domains": [
+    "video-lecture-platforms"
+  ],
+  "quality_score": 53.1,
+  "discovery_score": 6,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "ViSH, an open source e-Learning platform",
+  "slug": "cyberaula-vish"
+}

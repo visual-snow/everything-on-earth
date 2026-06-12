@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/luxfi/mpc",
+  "name": "luxfi/mpc",
+  "description": "\u25bc LUX multi-party compute nodes / wallet service using CGGMP21, FROST protocol",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 0,
+  "language": "Go",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 20.4,
+  "discovery_score": 3,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "\u25bc LUX multi-party compute nodes / wallet service using CGGMP21, FROST protocol",
+  "slug": "luxfi-mpc"
+}

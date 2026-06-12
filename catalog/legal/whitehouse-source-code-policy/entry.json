@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/whitehouse/source-code-policy",
+  "name": "whitehouse/source-code-policy",
+  "description": "Federal Source Code Policy",
+  "sub_domain": "immigration-visa-processing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption; archived repo penalty.",
+  "stars": 248,
+  "language": "CSS",
+  "license": "NOASSERTION",
+  "last_activity": "2018-08-28",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 25.2,
+  "discovery_score": 1,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "Federal Source Code Policy",
+  "slug": "whitehouse-source-code-policy"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/meteoinfo/emips",
+  "name": "meteoinfo/emips",
+  "description": "EMission Inventory Processing System",
+  "sub_domain": "air-quality-emissions",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 9,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-06-24",
+  "found_in_domains": [
+    "air-quality-emissions"
+  ],
+  "quality_score": 26.0,
+  "discovery_score": 3,
+  "tags": [
+    "air-quality",
+    "emissions",
+    "dispersion-modeling",
+    "inventory"
+  ],
+  "category": "Air Quality / Emissions \u2014 pollution monitoring, atmospheric modeling, emissions inventories",
+  "summary": "EMission Inventory Processing System",
+  "slug": "meteoinfo-emips"
+}

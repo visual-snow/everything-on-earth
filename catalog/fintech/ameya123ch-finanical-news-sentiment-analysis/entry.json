@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ameya123ch/finanical_news_sentiment_analysis",
+  "name": "ameya123ch/finanical_news_sentiment_analysis",
+  "description": "Financial news sentiment analysis is a method used to analyze the sentiment expressed in financial news articles, such as those published by news outlets,  blogs, and social media platforms. The analysis involves using natural language processing techniques to identify the sentiment expressed in the text and categorize it as positive or negative",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 7,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-04-14",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Financial news sentiment analysis is a method used to analyze the sentiment expressed in financial news articles, such as those published...",
+  "slug": "ameya123ch-finanical-news-sentiment-analysis"
+}

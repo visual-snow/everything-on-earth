@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ibexa/fieldtype-richtext",
+  "name": "ibexa/fieldtype-richtext",
+  "description": "No description provided.",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 6,
+  "language": "PHP",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 12.8,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "No description provided.",
+  "slug": "ibexa-fieldtype-richtext"
+}

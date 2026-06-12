@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/google/fhir",
+  "name": "google/fhir",
+  "description": "FHIR Protocol Buffers.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 6,
+  "score_rationale": "Useful library layer for FHIR data handling, but less central than server or engine projects.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 38.4,
+  "discovery_score": 6,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "FHIR Protocol Buffers.",
+  "slug": "google-fhir"
+}

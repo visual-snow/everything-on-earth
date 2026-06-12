@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/michaelfaerber/ukraine-news-bias",
+  "name": "michaelfaerber/ukraine-news-bias",
+  "description": "Multidimensional dataset for analyzing and detecting news bias based on crowdsourcing.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 8,
+  "score_rationale": "It is a purpose-built news-bias dataset with geopolitical relevance.",
+  "stars": 9,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2020-11-19",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 56.0,
+  "tags": [
+    "news-bias",
+    "dataset",
+    "crowdsourcing",
+    "ukraine"
+  ],
+  "category": "News Bias Dataset",
+  "summary": "Crowdsourced dataset for analyzing and detecting news bias.",
+  "slug": "michaelfaerber-ukraine-news-bias"
+}

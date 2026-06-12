@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/google/deepvariant",
+  "name": "google/deepvariant",
+  "description": "DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next-generation DNA sequencing data.",
+  "sub_domain": "genomics",
+  "score": 10,
+  "score_rationale": "State-of-the-art deep-learning variant caller for short-read and long-read DNA sequencing, with broad adoption and active maintenance.",
+  "stars": 3664,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "genomics",
+    "long-read-sequencing"
+  ],
+  "quality_score": 88.5,
+  "discovery_score": 10,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next-generation DNA sequencing data.",
+  "slug": "google-deepvariant"
+}

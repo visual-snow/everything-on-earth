@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/immcantation/presto",
+  "name": "immcantation/presto",
+  "description": "pRESTO is part of the Immcantation analysis framework for Adaptive Immune Receptor Repertoire sequencing (AIRR-seq). pRESTO is a bioinformatics toolkit for processing high-throughput lymphocyte receptor sequencing data.",
+  "sub_domain": "immunoinformatics",
+  "score": 9,
+  "score_rationale": "Core AIRR-seq processing toolkit in the Immcantation ecosystem, making it highly relevant for repertoire workflows.",
+  "stars": 0,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-02-16",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "pRESTO is part of the Immcantation analysis framework for Adaptive Immune Receptor Repertoire sequencing (AIRR-seq). pRESTO is a bioinfor...",
+  "slug": "immcantation-presto"
+}

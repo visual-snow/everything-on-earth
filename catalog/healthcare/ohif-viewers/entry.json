@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ohif/viewers",
+  "name": "OHIF/Viewers",
+  "description": "OHIF zero-footprint DICOM viewer and oncology specific Lesion Tracker, plus shared extension packages",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 10,
+  "score_rationale": "Core open-source radiology viewer stack and one of the most important DICOM frontends in the ecosystem.",
+  "stars": 4096,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 88.9,
+  "discovery_score": 10,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "OHIF zero-footprint DICOM viewer and oncology specific Lesion Tracker, plus shared extension packages",
+  "slug": "ohif-viewers"
+}

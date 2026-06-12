@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/onaio/fhir-web",
+  "name": "onaio/fhir-web",
+  "description": "FHIR web project.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 5,
+  "score_rationale": "Relevant FHIR-facing application, but less foundational than the primary servers and engines.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "FHIR web project.",
+  "slug": "onaio-fhir-web"
+}

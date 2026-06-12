@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/synbiodex/pysbol2",
+  "name": "SynBioDex/pySBOL2",
+  "description": "A pure Python implementation of the SBOL standard.",
+  "sub_domain": "synthetic-biology",
+  "score": 9,
+  "score_rationale": "Widely used Python implementation of SBOL 2 and a canonical interoperability layer.",
+  "stars": 22,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-03-27",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 64.9,
+  "discovery_score": 9,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "A pure Python implementation of the SBOL standard.",
+  "slug": "synbiodex-pysbol2"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/community-scripts/proxmoxve",
+  "name": "community-scripts/proxmoxve",
+  "description": "Proxmox VE Helper-Scripts (Community Edition)",
+  "sub_domain": "e-discovery-document-review",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 27283,
+  "language": "Shell",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 47.5,
+  "discovery_score": 2,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "Proxmox VE Helper-Scripts (Community Edition)",
+  "slug": "community-scripts-proxmoxve"
+}

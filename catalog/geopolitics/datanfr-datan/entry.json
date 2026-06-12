@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/datanfr/datan",
+  "name": "datanfr/datan",
+  "description": "Datan is a website anlaysing the voting behaviour of French MPs.",
+  "sub_domain": "network-alliance-analysis",
+  "score": 8,
+  "score_rationale": "It is a live voting-behavior analysis platform with direct relevance to bloc and alliance studies.",
+  "stars": 59,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "network-alliance-analysis"
+  ],
+  "quality_score": 62.2,
+  "tags": [
+    "france",
+    "mps",
+    "voting",
+    "parliament",
+    "analytics"
+  ],
+  "category": "Voting Behavior Site",
+  "summary": "Analyzes the voting behavior of French MPs.",
+  "slug": "datanfr-datan"
+}

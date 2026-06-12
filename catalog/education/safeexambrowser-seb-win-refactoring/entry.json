@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/safeexambrowser/seb-win-refactoring",
+  "name": "SafeExamBrowser/seb-win-refactoring",
+  "description": "Safe Exam Browser for Windows.",
+  "sub_domain": "assessment-testing",
+  "score": 10,
+  "score_rationale": "Direct exam-lockdown browser for Windows and the highest-priority Safe Exam Browser repository in scope.",
+  "stars": 290,
+  "language": "C#",
+  "license": "MPL-2.0",
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 79.7,
+  "discovery_score": 10,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Safe Exam Browser for Windows.",
+  "slug": "safeexambrowser-seb-win-refactoring"
+}

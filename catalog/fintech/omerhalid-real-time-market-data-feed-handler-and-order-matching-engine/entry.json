@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/omerhalid/real-time-market-data-feed-handler-and-order-matching-engine",
+  "name": "omerhalid/real-time-market-data-feed-handler-and-order-matching-engine",
+  "description": "High-Frequency Trading (HFT) order matching engine optimized for low latency. Features NUMA-aware memory allocation, thread pinning, RDTSC timestamps, lock-free SPSC queues, async logging, and UDP busy polling. Built with C++20 for Linux production environments.",
+  "sub_domain": "financial-market-data",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 22,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2025-11-10",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 34.9,
+  "discovery_score": 4,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "High-Frequency Trading (HFT) order matching engine optimized for low latency. Features NUMA-aware memory allocation, thread pinning, RDTS...",
+  "slug": "omerhalid-real-time-market-data-feed-handler-and-order-matching-engine"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/chamilo/chamilo-lms",
+  "name": "chamilo/chamilo-lms",
+  "description": "Chamilo is a learning management system focused on ease of use and accessibility",
+  "sub_domain": "lms",
+  "score": 9,
+  "score_rationale": "Clear LMS scope with direct emphasis on accessibility and general education workflows.",
+  "stars": 932,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lms"
+  ],
+  "quality_score": 77.8,
+  "discovery_score": 9,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment",
+    "accessibility"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "Chamilo is a learning management system focused on ease of use and accessibility",
+  "slug": "chamilo-chamilo-lms"
+}

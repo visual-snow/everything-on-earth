@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/smartcontractkit/defi-minimal",
+  "name": "smartcontractkit/defi-minimal",
+  "description": "This repo is dedicated to making minimal repos of existing defi primatives.",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 493,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2022-10-18",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 45.5,
+  "discovery_score": 4,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "This repo is dedicated to making minimal repos of existing defi primatives.",
+  "slug": "smartcontractkit-defi-minimal"
+}

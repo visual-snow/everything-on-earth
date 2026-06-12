@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/blnkfinance/blnk",
+  "name": "blnkfinance/blnk",
+  "description": "Blnk is an open-source ledger & financial core for shipping fintech products fast.",
+  "sub_domain": "core-banking-ledger",
+  "score": 7,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text; has some GitHub adoption.",
+  "stars": 385,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "core-banking-ledger",
+    "financial-data-standards"
+  ],
+  "quality_score": 62.7,
+  "discovery_score": 7,
+  "tags": [
+    "ledger",
+    "core-banking",
+    "double-entry",
+    "transaction-engine"
+  ],
+  "category": "Core Banking / Ledger",
+  "summary": "Blnk is an open-source ledger & financial core for shipping fintech products fast.",
+  "slug": "blnkfinance-blnk"
+}

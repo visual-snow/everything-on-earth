@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/0xperp/awesome-amm",
+  "name": "0xperp/awesome-amm",
+  "description": "Collection of AMMs, Orderbooks, and everything in between",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 2,
+  "score_rationale": "Matched 3 queries; shows little direct domain terminology; has some GitHub adoption; penalized for awesome-style signals.",
+  "stars": 339,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-08-06",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 2,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "Collection of AMMs, Orderbooks, and everything in between",
+  "slug": "0xperp-awesome-amm"
+}

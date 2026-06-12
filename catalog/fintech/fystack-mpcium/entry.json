@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fystack/mpcium",
+  "name": "fystack/mpcium",
+  "description": "Open-source MPC wallet infra. Effortlessly launch distributed crypto wallets with MPC technology in minutes",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 142,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 41.2,
+  "discovery_score": 4,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "Open-source MPC wallet infra. Effortlessly launch distributed crypto wallets with MPC technology in minutes",
+  "slug": "fystack-mpcium"
+}

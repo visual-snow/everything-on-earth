@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pslmodels/tax-calculator",
+  "name": "pslmodels/tax-calculator",
+  "description": "USA Federal Individual Income and Payroll Tax Microsimulation Model",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 297,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 25.8,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "USA Federal Individual Income and Payroll Tax Microsimulation Model",
+  "slug": "pslmodels-tax-calculator"
+}

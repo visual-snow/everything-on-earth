@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/freelawproject/courtlistener",
+  "name": "freelawproject/courtlistener",
+  "description": "A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial financial records, and federal filings.",
+  "sub_domain": "legal-research-case-law",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 876,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "legal-research-case-law",
+    "court-case-management"
+  ],
+  "quality_score": 59.5,
+  "discovery_score": 6,
+  "tags": [
+    "case-law",
+    "citation",
+    "court-data",
+    "dockets",
+    "court",
+    "judicial-workflow"
+  ],
+  "category": "Legal Research / Case Law \u2014 opinions, citations, court data, dockets, scrapers",
+  "summary": "A fully-searchable and accessible archive of court data including growing repositories of opinions, oral arguments, judges, judicial fina...",
+  "slug": "freelawproject-courtlistener"
+}

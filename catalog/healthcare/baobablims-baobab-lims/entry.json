@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/baobablims/baobab.lims",
+  "name": "BaobabLims/baobab.lims",
+  "description": "Baobab LIMS is an open-source laboratory information management system (LIMS)",
+  "sub_domain": "lab-information-systems",
+  "score": 8,
+  "score_rationale": "Direct open-source LIMS product with solid relevance to specimen tracking and lab operations.",
+  "stars": 89,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2022-06-30",
+  "found_in_domains": [
+    "lab-information-systems"
+  ],
+  "quality_score": 63.6,
+  "discovery_score": 8,
+  "tags": [
+    "lis",
+    "lims",
+    "specimen-tracking",
+    "lab-workflows"
+  ],
+  "category": "Lab Information Systems (LIS), Specimen Tracking & Lab Workflows",
+  "summary": "Baobab LIMS is an open-source laboratory information management system (LIMS)",
+  "slug": "baobablims-baobab-lims"
+}

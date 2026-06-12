@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/jayan110105/opthadoc",
+  "name": "jayan110105/OpthaDoc",
+  "description": "A comprehensive Flutter application for ophthalmologists to manage patient records, schedule appointments, and organize medical camps using Firebase.",
+  "sub_domain": "dental-specialty-clinics",
+  "score": 4,
+  "score_rationale": "Specialty-clinic mobile app for ophthalmology, useful for the broader sub-domain but still a small project.",
+  "stars": 2,
+  "language": "Dart",
+  "license": null,
+  "last_activity": "2024-12-04",
+  "found_in_domains": [
+    "dental-specialty-clinics"
+  ],
+  "quality_score": 27.8,
+  "discovery_score": 4,
+  "tags": [
+    "specialty-clinics",
+    "practice-management",
+    "patient-records"
+  ],
+  "category": "Dental, Ophthalmology & Specialty Clinic Systems",
+  "summary": "A comprehensive Flutter application for ophthalmologists to manage patient records, schedule appointments, and organize medical camps usi...",
+  "slug": "jayan110105-opthadoc"
+}

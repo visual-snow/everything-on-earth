@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/kbhujbal/trident-synthetic_aperture_radar_maritime_vessel_detection_yolov8",
+  "name": "kbhujbal/Trident-synthetic_aperture_radar_maritime_vessel_detection_yolov8",
+  "description": "\ud83d\udce1 Production-grade maritime surveillance system for detecting ships in Synthetic Aperture Radar (SAR) imagery using YOLOv8-OBB (Oriented Bounding Boxes) and Lee speckle filtering. Handles the unique challenges of radar imagery: multiplicative noise and arbitrarily-oriented vessels.",
+  "sub_domain": "maritime-border-monitoring",
+  "score": 8,
+  "score_rationale": "SAR-based maritime surveillance and ship-detection pipeline.",
+  "stars": 23,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "maritime-border-monitoring"
+  ],
+  "quality_score": 59.0,
+  "tags": [
+    "sar",
+    "vessel-detection",
+    "computer-vision",
+    "maritime"
+  ],
+  "category": "SAR Vessel Detection",
+  "summary": "Detects ships in SAR imagery with oriented bounding boxes.",
+  "slug": "kbhujbal-trident-synthetic-aperture-radar-maritime-vessel-detection-yolov8"
+}

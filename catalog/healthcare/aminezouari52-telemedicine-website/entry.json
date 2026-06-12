@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/aminezouari52/telemedicine-website",
+  "name": "aminezouari52/telemedicine-website",
+  "description": "A Real-time text-based consultations between doctors and patients.",
+  "sub_domain": "telemedicine-remote-care",
+  "score": 5,
+  "score_rationale": "Real-time doctor-patient consultation is on target, though this is a compact app rather than a broader platform.",
+  "stars": 8,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-01",
+  "found_in_domains": [
+    "telemedicine-remote-care"
+  ],
+  "quality_score": 37.6,
+  "discovery_score": 5,
+  "tags": [
+    "telemedicine",
+    "virtual-care",
+    "remote-monitoring",
+    "video",
+    "patient-records"
+  ],
+  "category": "Telemedicine, Video Consultation, Remote Monitoring & Virtual Care",
+  "summary": "A Real-time text-based consultations between doctors and patients.",
+  "slug": "aminezouari52-telemedicine-website"
+}

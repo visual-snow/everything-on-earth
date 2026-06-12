@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aave/aip",
+  "name": "aave/aip",
+  "description": "Aave Improvement Proposals",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption; archived repo penalty.",
+  "stars": 102,
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "last_activity": "2023-08-16",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 28.1,
+  "discovery_score": 2,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "Aave Improvement Proposals",
+  "slug": "aave-aip"
+}

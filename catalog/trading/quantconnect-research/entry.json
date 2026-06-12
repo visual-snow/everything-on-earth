@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/quantconnect/research",
+  "name": "QuantConnect/Research",
+  "description": "Open sourced research notebooks by the QuantConnect team.",
+  "sub_domain": "quant-research-notebooks",
+  "score": 10,
+  "score_rationale": "Canonical notebook-first quant research workspace with strong fit for reusable market research.",
+  "stars": 727,
+  "language": "Jupyter Notebook",
+  "license": "Apache-2.0",
+  "last_activity": "2024-05-17",
+  "found_in_domains": [
+    "quant-research-notebooks"
+  ],
+  "quality_score": 82.9,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "Open sourced research notebooks by the QuantConnect team.",
+  "slug": "quantconnect-research"
+}

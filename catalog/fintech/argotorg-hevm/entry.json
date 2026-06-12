@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/argotorg/hevm",
+  "name": "argotorg/hevm",
+  "description": "Symbolic and concrete EVM execution engine",
+  "sub_domain": "smart-contract-security",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 331,
+  "language": "Haskell",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 50.2,
+  "discovery_score": 5,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Symbolic and concrete EVM execution engine",
+  "slug": "argotorg-hevm"
+}

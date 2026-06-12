@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/misp/misp",
+  "name": "MISP/MISP",
+  "description": "MISP (core software) - Open Source Threat Intelligence and Sharing Platform",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 10,
+  "score_rationale": "Widely used open-source threat intelligence sharing platform with strong operational CTI coverage.",
+  "stars": 6198,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 90.3,
+  "tags": [
+    "threat-intel",
+    "platform",
+    "sharing",
+    "misp"
+  ],
+  "category": "Threat Intelligence Platform",
+  "summary": "Open source threat intelligence sharing platform.",
+  "slug": "misp-misp"
+}

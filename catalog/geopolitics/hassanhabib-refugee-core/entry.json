@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hassanhabib/refugee.core",
+  "name": "hassanhabib/Refugee.Core",
+  "description": "This is an API to help support refugees everywhere around the world.",
+  "sub_domain": "migration-refugee-data",
+  "score": 8,
+  "score_rationale": "API project aimed at refugee-focused service workflows.",
+  "stars": 16,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-10-17",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 57.8,
+  "tags": [
+    "refugees",
+    "api",
+    "support-services",
+    "global"
+  ],
+  "category": "Refugee Support API",
+  "summary": "API for building services that support refugees worldwide.",
+  "slug": "hassanhabib-refugee-core"
+}

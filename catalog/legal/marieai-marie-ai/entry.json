@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/marieai/marie-ai",
+  "name": "marieai/marie-ai",
+  "description": "Complex data extraction and orchestration framework designed for processing unstructured documents. It integrates AI-powered document pipelines (GenAI, LLM, VLLM) into your applications, supporting various tasks such as document cleanup, optical character recognition (OCR),  classification,  splitting, named entity recognition, and form processing",
+  "sub_domain": "legal-ai-nlp",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 84,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "legal-ai-nlp"
+  ],
+  "quality_score": 33.4,
+  "discovery_score": 3,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "Complex data extraction and orchestration framework designed for processing unstructured documents. It integrates AI-powered document pip...",
+  "slug": "marieai-marie-ai"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/unhcr/jetson",
+  "name": "unhcr/Jetson",
+  "description": "http://jetson.unhcr.org",
+  "sub_domain": "migration-refugee-data",
+  "score": 8,
+  "score_rationale": "UNHCR-associated notebook repo for refugee and displacement analysis.",
+  "stars": 26,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-05-26",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 59.5,
+  "tags": [
+    "unhcr",
+    "displacement",
+    "analysis",
+    "notebook"
+  ],
+  "category": "Refugee Analysis Notebook",
+  "summary": "UNHCR notebook repo for refugee and displacement analysis.",
+  "slug": "unhcr-jetson"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wicg/attribution-reporting-api",
+  "name": "wicg/attribution-reporting-api",
+  "description": "Attribution Reporting API",
+  "sub_domain": "open-banking-psd2",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 455,
+  "language": "Bikeshed",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 27.3,
+  "discovery_score": 1,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "Attribution Reporting API",
+  "slug": "wicg-attribution-reporting-api"
+}

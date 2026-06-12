@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mukul975/privacy-data-protection-skills",
+  "name": "mukul975/privacy-data-protection-skills",
+  "description": "282+ structured privacy & data protection skills for AI agents. GDPR, CCPA, EU AI Act, HIPAA, LGPD, PIPL, DPDP Act.",
+  "sub_domain": "privacy-data-protection",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 37,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "privacy-data-protection"
+  ],
+  "quality_score": 36.6,
+  "discovery_score": 4,
+  "tags": [
+    "privacy",
+    "gdpr",
+    "dsar",
+    "pii-redaction"
+  ],
+  "category": "Privacy / Data Protection \u2014 GDPR, CCPA, DSAR, consent, privacy engineering",
+  "summary": "282+ structured privacy & data protection skills for AI agents. GDPR, CCPA, EU AI Act, HIPAA, LGPD, PIPL, DPDP Act.",
+  "slug": "mukul975-privacy-data-protection-skills"
+}

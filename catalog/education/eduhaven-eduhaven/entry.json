@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eduhaven/eduhaven",
+  "name": "EduHaven/EduHaven",
+  "description": "Student-centric learning platform with real-time collaboration, analytics, notes, and gamification.",
+  "sub_domain": "gamification-engagement",
+  "score": 9,
+  "score_rationale": "Strong education-first platform that combines study workflows with streaks, badges, rewards, and leaderboards for ongoing engagement.",
+  "stars": 76,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-10-31",
+  "found_in_domains": [
+    "gamification-engagement"
+  ],
+  "quality_score": 69.1,
+  "discovery_score": 9,
+  "tags": [
+    "gamification",
+    "badges",
+    "leaderboards",
+    "engagement"
+  ],
+  "category": "Gamification, Badges, Leaderboards, Educational Games & Classroom Engagement",
+  "summary": "Student-centric learning platform with real-time collaboration, analytics, notes, and gamification.",
+  "slug": "eduhaven-eduhaven"
+}

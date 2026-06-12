@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/philterd/philter",
+  "name": "philterd/philter",
+  "description": "Philter is an API-based application to identify and manipulate (redact, anonymize, and more) PII, PHI, and other sensitive information.",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 9,
+  "score_rationale": "Turnkey redaction and anonymization platform for PII/PHI with recent releases and clear healthcare fit.",
+  "stars": 36,
+  "language": "CSS",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-26",
+  "found_in_domains": [
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 66.5,
+  "discovery_score": 9,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "Philter is an API-based application to identify and manipulate (redact, anonymize, and more) PII, PHI, and other sensitive information.",
+  "slug": "philterd-philter"
+}

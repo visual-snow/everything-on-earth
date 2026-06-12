@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/maduc7/histopathology-datasets",
+  "name": "maduc7/histopathology-datasets",
+  "description": "Ressources of histopathology datasets",
+  "sub_domain": "biomedical-imaging",
+  "score": 5,
+  "score_rationale": "This repo is a histopathology dataset index, which is biologically relevant but not itself an analysis tool.",
+  "stars": 535,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 51.8,
+  "discovery_score": 5,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "Ressources of histopathology datasets",
+  "slug": "maduc7-histopathology-datasets"
+}

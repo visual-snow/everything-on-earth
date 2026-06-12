@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ranaroussi/yfinance",
+  "name": "ranaroussi/yfinance",
+  "description": "Download market data from Yahoo! Finance's API",
+  "sub_domain": "financial-market-data",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 22331,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 70.8,
+  "discovery_score": 6,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "Download market data from Yahoo! Finance's API",
+  "slug": "ranaroussi-yfinance"
+}

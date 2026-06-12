@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/hasnaintypes/lawbotics",
+  "name": "hasnaintypes/lawbotics",
+  "description": "LawBotics v2 is an AI-powered legal contract analysis platform that combines machine learning with modern web technologies to automate legal document review and clause extraction.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 6,
+  "score_rationale": "Matched 2 queries; contains 4 domain terms in repo text.",
+  "stars": 17,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-08-11",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 46.0,
+  "discovery_score": 6,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining",
+    "contract"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "LawBotics v2 is an AI-powered legal contract analysis platform that combines machine learning with modern web technologies to automate le...",
+  "slug": "hasnaintypes-lawbotics"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/genotek/classifycnv",
+  "name": "genotek/classifycnv",
+  "description": "ClassifyCNV: a tool for clinical annotation of copy-number variants",
+  "sub_domain": "clinical-genomics",
+  "score": 9,
+  "score_rationale": "It is explicitly built for clinical CNV annotation and fits the variant interpretation workflow squarely.",
+  "stars": 73,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2023-06-26",
+  "found_in_domains": [
+    "clinical-genomics"
+  ],
+  "quality_score": 69.0,
+  "discovery_score": 9,
+  "tags": [
+    "clinical-genomics",
+    "genomics",
+    "variant-interpretation",
+    "acmg"
+  ],
+  "category": "Clinical Genomics \u2014 variant interpretation and pharmacogenomics",
+  "summary": "ClassifyCNV: a tool for clinical annotation of copy-number variants",
+  "slug": "genotek-classifycnv"
+}

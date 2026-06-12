@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/slalam/clinical-codes-lookup",
+  "name": "slalam/clinical-codes-lookup",
+  "description": "Python based metadata search engine for SNOMED CT, LOINC, ICD-10, medications, procedures, surgeries and biobank samples",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 6,
+  "score_rationale": "Terminology lookup and coding support are directly useful for clinical coding NLP.",
+  "stars": 0,
+  "language": "HTML",
+  "license": "GPL-2.0",
+  "last_activity": "2022-05-04",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 38.4,
+  "discovery_score": 6,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding",
+    "snomed",
+    "loinc"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "Python based metadata search engine for SNOMED CT, LOINC, ICD-10, medications, procedures, surgeries and biobank samples",
+  "slug": "slalam-clinical-codes-lookup"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/raidionics/raidionics-slicer",
+  "name": "raidionics/Raidionics-Slicer",
+  "description": "3D Slicer plugin for automatic segmentation and generation of standardized clinical reports for the most common brain tumors, using MRI volumes",
+  "sub_domain": "medical-imaging-radiology",
+  "score": 7,
+  "score_rationale": "Specialized segmentation and reporting extension for clinical MRI workflows inside 3D Slicer.",
+  "stars": 16,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2025-11-10",
+  "found_in_domains": [
+    "medical-imaging-radiology"
+  ],
+  "quality_score": 51.8,
+  "discovery_score": 7,
+  "tags": [
+    "dicom",
+    "imaging",
+    "radiology",
+    "segmentation"
+  ],
+  "category": "Medical Imaging, Radiology, DICOM Viewers & Segmentation",
+  "summary": "3D Slicer plugin for automatic segmentation and generation of standardized clinical reports for the most common brain tumors, using MRI v...",
+  "slug": "raidionics-raidionics-slicer"
+}

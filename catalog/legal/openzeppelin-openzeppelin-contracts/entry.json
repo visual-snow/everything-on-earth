@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/openzeppelin/openzeppelin-contracts",
+  "name": "openzeppelin/openzeppelin-contracts",
+  "description": "OpenZeppelin Contracts is a library for secure smart contract development.",
+  "sub_domain": "smart-contracts-legal",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 27037,
+  "language": "Solidity",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 71.5,
+  "discovery_score": 6,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract-analysis",
+    "contract"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "OpenZeppelin Contracts is a library for secure smart contract development.",
+  "slug": "openzeppelin-openzeppelin-contracts"
+}

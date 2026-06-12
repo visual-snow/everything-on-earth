@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mahesh-maan/awesome-patent-retrieval",
+  "name": "mahesh-maan/awesome-patent-retrieval",
+  "description": "Curated list of resources for processing patent data",
+  "sub_domain": "ip-patent-trademark",
+  "score": 4,
+  "score_rationale": "Matched 3 queries; contains 1 domain term in repo text; penalized for awesome-style signals.",
+  "stars": 96,
+  "language": null,
+  "license": null,
+  "last_activity": "2024-06-10",
+  "found_in_domains": [
+    "ip-patent-trademark"
+  ],
+  "quality_score": 39.9,
+  "discovery_score": 4,
+  "tags": [
+    "patent-search",
+    "trademark",
+    "prior-art",
+    "ip-analytics"
+  ],
+  "category": "IP / Patent / Trademark \u2014 prior art search, patent analytics, trademark tooling",
+  "summary": "Curated list of resources for processing patent data",
+  "slug": "mahesh-maan-awesome-patent-retrieval"
+}

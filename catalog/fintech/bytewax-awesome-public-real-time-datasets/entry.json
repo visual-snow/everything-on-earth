@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bytewax/awesome-public-real-time-datasets",
+  "name": "bytewax/awesome-public-real-time-datasets",
+  "description": "A list of publicly available datasets with real-time data maintained by the team at bytewax.io",
+  "sub_domain": "financial-market-data",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 2374,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2025-12-21",
+  "found_in_domains": [
+    "financial-market-data"
+  ],
+  "quality_score": 33.0,
+  "discovery_score": 1,
+  "tags": [
+    "market-data",
+    "research-terminal",
+    "symbol-master",
+    "corporate-actions"
+  ],
+  "category": "Financial Market Data",
+  "summary": "A list of publicly available datasets with real-time data maintained by the team at bytewax.io",
+  "slug": "bytewax-awesome-public-real-time-datasets"
+}

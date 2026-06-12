@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yezhengstat/car-t_histone",
+  "name": "yezhengstat/car-t_histone",
+  "description": "Reproducible CUT&RUN and RNA-seq code for histone-mark analyses in CAR-T cells.",
+  "sub_domain": "epigenomics",
+  "score": 7,
+  "score_rationale": "Well-documented histone-mark and CUT&RUN analysis code for a real biological study, but the scope is still a single project.",
+  "stars": 1,
+  "language": "Jupyter Notebook",
+  "license": "GPL-3.0",
+  "last_activity": "2024-01-29",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "Reproducible CUT&RUN and RNA-seq code for histone-mark analyses in CAR-T cells.",
+  "slug": "yezhengstat-car-t-histone"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "hl7-fhir",
+  "name": "HL7/fhir",
+  "what_it_is": "The authoritative source repository for the HL7 FHIR specification, used by core editors to build and publish the official FHIR standard. It is a specification publisher, not a runtime implementation.",
+  "components": ["Gradle-based build system", "Specification source data", "Validation runner", "Archive generator", "Web publication formatter"],
+  "protocols": ["FHIR (defines the standard)"],
+  "measurement": [],
+  "configuration": ["--offline flag", "-nogen (validation only)", "-noarchive", "-web (HL7-ready publication)", "-diff (round-trip diff)", "-name (page title)"],
+  "modes": ["Full publish (default)", "Validation-only (-nogen)", "Web publication (-web)"],
+  "constraints": ["Minimum 16 GB RAM required to build locally", "Build takes ~20 minutes", "Changes must go through HL7 Jira approval; direct PRs not intended", "-web and -noarchive flags restricted to core editors"],
+  "docker_services": [],
+  "notable_absences": ["No runtime server or API endpoints", "No Docker", "No SDK or client library", "No reference implementation"],
+  "fault_injection": []
+}

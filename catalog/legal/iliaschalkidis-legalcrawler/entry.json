@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/iliaschalkidis/legalcrawler",
+  "name": "iliaschalkidis/legalcrawler",
+  "description": "LegalCrawler: A tool for automated scraping of English legal corpora",
+  "sub_domain": "legal-research-case-law",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 62,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-08-18",
+  "found_in_domains": [
+    "legal-research-case-law"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 3,
+  "tags": [
+    "case-law",
+    "citation",
+    "court-data",
+    "dockets"
+  ],
+  "category": "Legal Research / Case Law \u2014 opinions, citations, court data, dockets, scrapers",
+  "summary": "LegalCrawler: A tool for automated scraping of English legal corpora",
+  "slug": "iliaschalkidis-legalcrawler"
+}

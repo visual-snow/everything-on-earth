@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/cyfrin/security-and-auditing-full-course-s23",
+  "name": "cyfrin/security-and-auditing-full-course-s23",
+  "description": "The ultimate, most advanced, security, DeFi, assembly, web3 auditor course ever created.",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has strong GitHub adoption; penalized for course-style signals.",
+  "stars": 1864,
+  "language": "Solidity",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-03",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 50.2,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification",
+    "defi"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "The ultimate, most advanced, security, DeFi, assembly, web3 auditor course ever created.",
+  "slug": "cyfrin-security-and-auditing-full-course-s23"
+}

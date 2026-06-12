@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/repobee/repobee",
+  "name": "repobee/repobee",
+  "description": "CLI tool for managing Git repositories on GitHub and GitLab in the context of education",
+  "sub_domain": "classroom-management",
+  "score": 9,
+  "score_rationale": "Teacher-led assignment workflow tool for creating, cloning, updating, and reviewing student repos across GitHub and GitLab.",
+  "stars": 80,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-03-24",
+  "found_in_domains": [
+    "classroom-management"
+  ],
+  "quality_score": 69.3,
+  "discovery_score": 9,
+  "tags": [
+    "classroom",
+    "device-management",
+    "monitoring",
+    "scheduling"
+  ],
+  "category": "Classroom Management, Device Supervision, Screen Monitoring & Scheduling",
+  "summary": "CLI tool for managing Git repositories on GitHub and GitLab in the context of education",
+  "slug": "repobee-repobee"
+}

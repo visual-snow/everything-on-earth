@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/databricks-industry-solutions/reg-reporting",
+  "name": "databricks-industry-solutions/reg-reporting",
+  "description": "In this regulatory reporting solution accelerator, we demonstrate how Delta Live Tables can guarantee the acquisition and processing of regulatory data in real time to accommodate regulatory SLAs. With Delta Sharing and Delta Live Tables combined, analysts gain real-time confidence in the quality of regulatory data being transmitted.",
+  "sub_domain": "regulatory-reporting-compliance",
+  "stars": 5,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2024-03-09",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "found_in_domains": [
+    "regulatory-reporting-compliance"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "regulatory-reporting",
+    "regtech",
+    "compliance",
+    "trade-reporting"
+  ],
+  "category": "Regulatory Reporting / Compliance",
+  "summary": "In this regulatory reporting solution accelerator, we demonstrate how Delta Live Tables can guarantee the acquisition and processing of r...",
+  "slug": "databricks-industry-solutions-reg-reporting"
+}

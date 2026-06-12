@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/andy90/immunogenicity_predictor",
+  "name": "andy90/immunogenicity_predictor",
+  "description": "T cell epitope Immunogenicity Predictor",
+  "sub_domain": "immunoinformatics",
+  "score": 6,
+  "score_rationale": "Direct T-cell epitope immunogenicity predictor that is on-topic but smaller and less active.",
+  "stars": 4,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2020-08-26",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 41.6,
+  "discovery_score": 6,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "T cell epitope Immunogenicity Predictor",
+  "slug": "andy90-immunogenicity-predictor"
+}

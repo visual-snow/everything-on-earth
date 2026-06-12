@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opentrials/registers",
+  "name": "opentrials/registers",
+  "description": "A Data Package which is a database of public and private registers of clinical trials.",
+  "sub_domain": "clinical-trials-research",
+  "score": 6,
+  "score_rationale": "Relevant trial-register aggregation package with clear registry-data value, but limited breadth and age.",
+  "stars": 35,
+  "language": null,
+  "license": null,
+  "last_activity": "2016-04-05",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 48.5,
+  "discovery_score": 6,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "A Data Package which is a database of public and private registers of clinical trials.",
+  "slug": "opentrials-registers"
+}

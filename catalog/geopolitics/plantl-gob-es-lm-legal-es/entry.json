@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/plantl-gob-es/lm-legal-es",
+  "name": "PlanTL-GOB-ES/lm-legal-es",
+  "description": "Language Models for the legal domain in Spanish done @ BSC-TEMU within the \"Plan de las Tecnolog\u00edas del Lenguaje\" (Plan-TL).",
+  "sub_domain": "international-law-treaties",
+  "score": 7,
+  "score_rationale": "It is a reusable legal-domain language-model stack that complements treaty and corpus workflows.",
+  "stars": 30,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2022-11-17",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 53.9,
+  "tags": [
+    "spanish",
+    "legal-nlp",
+    "language-models",
+    "bert"
+  ],
+  "category": "Spanish Legal LM",
+  "summary": "Spanish legal-domain language models for specialized NLP workflows.",
+  "slug": "plantl-gob-es-lm-legal-es"
+}

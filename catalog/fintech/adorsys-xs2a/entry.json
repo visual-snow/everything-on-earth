@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/adorsys/xs2a",
+  "name": "adorsys/xs2a",
+  "description": "Open Source NextGenPSD2 XS2A Implementation from adorsys.",
+  "sub_domain": "open-banking-psd2",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 149,
+  "language": "Java",
+  "license": "AGPL-3.0",
+  "last_activity": "2025-04-28",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 41.4,
+  "discovery_score": 4,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "Open Source NextGenPSD2 XS2A Implementation from adorsys.",
+  "slug": "adorsys-xs2a"
+}

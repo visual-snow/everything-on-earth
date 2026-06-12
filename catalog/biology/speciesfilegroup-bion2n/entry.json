@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/speciesfilegroup/bion2n",
+  "name": "speciesfilegroup/bion2n",
+  "description": "Biology Node2Node (BioN2N) is an open source project to develop biodiversity informatics nodes for the n8n.io workflow automation platform",
+  "sub_domain": "biodiversity-informatics",
+  "score": 8,
+  "score_rationale": "It packages biodiversity informatics integrations as workflow nodes, which is directly useful for taxonomic and occurrence automation.",
+  "stars": 11,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-07-24",
+  "found_in_domains": [
+    "bioinformatics-pipelines",
+    "biodiversity-informatics"
+  ],
+  "quality_score": 56.6,
+  "discovery_score": 8,
+  "tags": [
+    "biodiversity",
+    "gbif",
+    "occurrence-data",
+    "taxonomy"
+  ],
+  "category": "Biodiversity Informatics \u2014 species occurrence and taxonomy databases",
+  "summary": "Biology Node2Node (BioN2N) is an open source project to develop biodiversity informatics nodes for the n8n.io workflow automation platform",
+  "slug": "speciesfilegroup-bion2n"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rothamsted/agri-schemas",
+  "name": "rothamsted/agri-schemas",
+  "description": "Linked data schemas and ontologies for agrifood and plant biology, with reusable ETL tooling.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 7,
+  "score_rationale": "The repo targets agricultural and plant-biological data interoperability, which makes it useful ag-bio infrastructure rather than generic schema work.",
+  "stars": 5,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 48.2,
+  "discovery_score": 7,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "Linked data schemas and ontologies for agrifood and plant biology, with reusable ETL tooling.",
+  "slug": "rothamsted-agri-schemas"
+}

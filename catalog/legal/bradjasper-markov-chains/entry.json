@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bradjasper/markov-chains",
+  "name": "bradjasper/markov-chains",
+  "description": "Experiments with Markov Chains",
+  "sub_domain": "smart-contracts-legal",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 23,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2023-02-12",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 17.0,
+  "discovery_score": 1,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Experiments with Markov Chains",
+  "slug": "bradjasper-markov-chains"
+}

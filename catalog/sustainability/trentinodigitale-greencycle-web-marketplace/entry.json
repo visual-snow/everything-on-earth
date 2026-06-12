@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/trentinodigitale/greencycle-web-marketplace",
+  "name": "trentinodigitale/greencycle-web-marketplace",
+  "description": "A digital platform to support Circular Economy in the ALPINE SPACE",
+  "sub_domain": "circular-economy-waste",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": null,
+  "license": "EUPL-1.2",
+  "last_activity": "2020-04-24",
+  "found_in_domains": [
+    "circular-economy-waste"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "circular-economy",
+    "material-flow",
+    "recycling",
+    "waste-tracking"
+  ],
+  "category": "Circular Economy / Waste \u2014 material flow analysis, recycling optimization, waste tracking",
+  "summary": "A digital platform to support Circular Economy in the ALPINE SPACE",
+  "slug": "trentinodigitale-greencycle-web-marketplace"
+}

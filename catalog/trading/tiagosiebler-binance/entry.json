@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/tiagosiebler/binance",
+  "name": "tiagosiebler/binance",
+  "description": "Node.js & JavaScript SDK for Binance REST APIs & WebSockets, with TypeScript & browser support, integration tests, beautification & more.",
+  "sub_domain": "broker-exchange-connectors",
+  "score": 7,
+  "score_rationale": "TypeScript/JavaScript Binance REST and WebSocket SDK for exchange connectivity.",
+  "stars": 914,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "broker-exchange-connectors"
+  ],
+  "quality_score": 65.7,
+  "tags": [
+    "exchange-api",
+    "broker-api",
+    "connectors"
+  ],
+  "category": "Exchange/Broker Connector",
+  "summary": "Node.js & JavaScript SDK for Binance REST APIs & WebSockets, with TypeScript & browser support, integration...",
+  "slug": "tiagosiebler-binance"
+}

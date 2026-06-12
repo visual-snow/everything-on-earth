@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/iliaschalkidis/legalcrawler",
+  "name": "iliaschalkidis/LegalCrawler",
+  "description": "LegalCrawler: A tool for automated scraping of English legal corpora",
+  "sub_domain": "international-law-treaties",
+  "score": 9,
+  "score_rationale": "It is a direct legal-corpus scraping tool rather than a one-off dataset notebook.",
+  "stars": 62,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-08-18",
+  "found_in_domains": [
+    "international-law-treaties"
+  ],
+  "quality_score": 68.4,
+  "tags": [
+    "legal-data",
+    "web-scraping",
+    "corpus",
+    "international-law"
+  ],
+  "category": "Legal Data Scraper",
+  "summary": "Automates scraping of English legal corpora for downstream analysis.",
+  "slug": "iliaschalkidis-legalcrawler"
+}

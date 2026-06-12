@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/likhithaavvarri/farmchainx",
+  "name": "likhithaavvarri/farmchainx",
+  "description": "FarmChainX, a web-based farm supply chain application with role-based authentication (Farmer, Distributor, Consumer, Admin) using Spring Boot, MySQL, and Spring Security with JWT. Implemented secure user registration and scalability.",
+  "sub_domain": "supply-chain-sustainability",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2025-12-03",
+  "found_in_domains": [
+    "supply-chain-sustainability"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "supply-chain",
+    "traceability",
+    "scope-3",
+    "deforestation"
+  ],
+  "category": "Supply Chain Sustainability \u2014 scope 3 traceability, deforestation-free supply chains, fair trade tracking",
+  "summary": "FarmChainX, a web-based farm supply chain application with role-based authentication (Farmer, Distributor, Consumer, Admin) using Spring...",
+  "slug": "likhithaavvarri-farmchainx"
+}

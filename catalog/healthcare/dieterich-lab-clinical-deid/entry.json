@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/dieterich-lab/clinical_deid",
+  "name": "dieterich-lab/clinical_deid",
+  "description": "De-Identification of Clinical Admission Notes using BiLSTM and Embedded Languages Models (ELMo) as Word Representation",
+  "sub_domain": "clinical-nlp-text-mining",
+  "score": 7,
+  "score_rationale": "Explicit clinical note de-identification project with standard NLP framing.",
+  "stars": 4,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2020-12-18",
+  "found_in_domains": [
+    "clinical-nlp-text-mining"
+  ],
+  "quality_score": 47.6,
+  "discovery_score": 7,
+  "tags": [
+    "nlp",
+    "clinical-notes",
+    "entity-extraction",
+    "coding",
+    "lab"
+  ],
+  "category": "Clinical NLP, Entity Extraction, Coding & Text Mining",
+  "summary": "De-Identification of Clinical Admission Notes using BiLSTM and Embedded Languages Models (ELMo) as Word Representation",
+  "slug": "dieterich-lab-clinical-deid"
+}

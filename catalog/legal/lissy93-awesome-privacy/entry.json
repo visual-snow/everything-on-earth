@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lissy93/awesome-privacy",
+  "name": "lissy93/awesome-privacy",
+  "description": "\ud83e\udd84  A curated list of privacy & security-focused software and services",
+  "sub_domain": "curated-lists-meta-sweep",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 9111,
+  "language": "Astro",
+  "license": "CC0-1.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 61.7,
+  "discovery_score": 5,
+  "tags": [
+    "awesome-list",
+    "legal-data",
+    "legal-nlp",
+    "privacy"
+  ],
+  "category": "Curated Lists / Meta Sweep \u2014 awesome lists, GitHub topics, canonical meta-sources",
+  "summary": "\ud83e\udd84  A curated list of privacy & security-focused software and services",
+  "slug": "lissy93-awesome-privacy"
+}

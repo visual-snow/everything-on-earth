@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/legal-nlp-ekstep/legal_ner",
+  "name": "legal-nlp-ekstep/legal_ner",
+  "description": "OpenNyAI is a mission aimed at developing open source software and datasets to catalyze the creation of AI-powered solutions to improve access to justice in India. Legal NER is one the AI component developed under this mission",
+  "sub_domain": "legal-ai-nlp",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 94,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-05-15",
+  "found_in_domains": [
+    "legal-ai-nlp",
+    "legal-research-case-law"
+  ],
+  "quality_score": 33.8,
+  "discovery_score": 3,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation",
+    "access",
+    "access-to-justice"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "OpenNyAI is a mission aimed at developing open source software and datasets to catalyze the creation of AI-powered solutions to improve a...",
+  "slug": "legal-nlp-ekstep-legal-ner"
+}

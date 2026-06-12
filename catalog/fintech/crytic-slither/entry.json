@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/crytic/slither",
+  "name": "crytic/slither",
+  "description": "Static Analyzer for Solidity and Vyper",
+  "sub_domain": "smart-contract-security",
+  "score": 7,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 6174,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 72.3,
+  "discovery_score": 7,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "Static Analyzer for Solidity and Vyper",
+  "slug": "crytic-slither"
+}

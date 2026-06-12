@@ -1,0 +1,73 @@
+{
+  "slug": "clinicedc-edc",
+  "name": "clinicedc/edc",
+  "what_it_is": "A Django-based electronic data capture (EDC) framework for building multisite, randomized longitudinal clinical trials; used in production for NIH-funded HIV, diabetes, and hypertension trials across Africa. It is an eSource system rather than a traditional EDC, collecting data at point-of-care into electronic CRFs with embedded validation.",
+  "components": [
+    "edc-consent (informed consent management)",
+    "edc-randomization (treatment arm assignment)",
+    "edc-appointment (visit scheduling with window periods)",
+    "edc-visit-schedule (visit/CRF schedule definitions)",
+    "edc-crf (electronic case report forms)",
+    "edc-lab (specimen requisition and reference range grading)",
+    "edc-adverse-event (AE/SAE tracking)",
+    "edc-screening (eligibility screening)",
+    "edc-pharmacy (study drug dispensing)",
+    "edc-dashboard (subject and data manager dashboards)",
+    "edc-export (data export)",
+    "edc-notification (email/SMS notifications)",
+    "edc-auth (role-based permissions)",
+    "edc-identifier (participant ID generation)",
+    "edc-pdf-reports (PDF report generation)",
+    "edc-qareports (online QA tooling)",
+    "edc-vitals (vitals recording)",
+    "edc-egfr (eGFR calculation)",
+    "edc-glucose (glucose measurement)",
+    "edc-unblinding (treatment unblinding)"
+  ],
+  "protocols": [
+    "HTTPS",
+    "MySQL wire protocol",
+    "Redis protocol",
+    "AMQP (Celery for async tasks)",
+    "REST (djangorestframework)",
+    "S3 (backup archives)",
+    "CUPS (label/barcode printing)"
+  ],
+  "measurement": [
+    "Lab result grading against CTCAE/DAIDS reference ranges",
+    "eGFR calculation",
+    "Glucose measurement",
+    "Vitals recording",
+    "QA reports and online quality assurance"
+  ],
+  "configuration": [
+    "Named visit schedules linked to consent version",
+    "Window period constraints per timepoint",
+    "Metadata rules for adaptive data collection",
+    "Per-device role assignment for multisite deployments",
+    "Field-level encryption keys",
+    "Celery workers per environment"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Live (production) deployment",
+    "UAT deployment",
+    "Debug/development deployment",
+    "Offline/remote site mode",
+    "Scheduled vs unscheduled visit mode"
+  ],
+  "constraints": [
+    "Requires Python 3.12+ and Django 5.2+; MySQL 8+ is the only supported database",
+    "Field-level encryption keys must be backed up separately; loss renders encrypted data unrecoverable",
+    "Celery with Redis required for async tasks; not designed for synchronous-only production operation",
+    "Consent versioning tightly coupled to data collection; CRF permissions enforced by consent period lifecycle",
+    "No docker-compose; deploys on bare-metal Ubuntu with systemd, Nginx, and MySQL"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No HL7/FHIR integration",
+    "No offline-first/PWA support at application level",
+    "No CDISC ODM/SDTM export",
+    "No Docker deployment"
+  ]
+}

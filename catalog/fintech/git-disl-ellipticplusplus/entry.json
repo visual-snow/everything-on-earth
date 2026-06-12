@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/git-disl/ellipticplusplus",
+  "name": "git-disl/ellipticplusplus",
+  "description": "Elliptic++ Dataset: A Graph Network of Bitcoin Blockchain Transactions and Wallet Addresses",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption; penalized for dataset-style signals.",
+  "stars": 136,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2023-11-25",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 35.1,
+  "discovery_score": 3,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev",
+    "wallet"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Elliptic++ Dataset: A Graph Network of Bitcoin Blockchain Transactions and Wallet Addresses",
+  "slug": "git-disl-ellipticplusplus"
+}

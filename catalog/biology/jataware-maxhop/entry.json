@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jataware/maxhop",
+  "name": "jataware/maxhop",
+  "description": "Run locust maxent model from the command line.",
+  "sub_domain": "ecology-conservation",
+  "score": 7,
+  "score_rationale": "Locust-focused Maxent CLI that is squarely in ecological niche modeling territory.",
+  "stars": 2,
+  "language": "R",
+  "license": null,
+  "last_activity": "2024-03-05",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 45.8,
+  "discovery_score": 7,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Run locust maxent model from the command line.",
+  "slug": "jataware-maxhop"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hubiodatalab/druggen",
+  "name": "HUBioDataLab/DrugGEN",
+  "description": "Official implementation of DrugGEN: Target Specific De Novo Design of Drug Candidate Molecules with Graph Transformer-based Generative Adversarial Networks",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 7,
+  "score_rationale": "Clear de novo molecular generation project for target-specific drug design.",
+  "stars": 92,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2025-10-30",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 57.7,
+  "discovery_score": 7,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "Official implementation of DrugGEN: Target Specific De Novo Design of Drug Candidate Molecules with Graph Transformer-based Generative Ad...",
+  "slug": "hubiodatalab-druggen"
+}

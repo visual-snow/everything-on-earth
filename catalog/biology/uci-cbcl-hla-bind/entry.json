@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/uci-cbcl/hla-bind",
+  "name": "uci-cbcl/HLA-bind",
+  "description": "Amino acid embedding and Convolutional Neural Network for HLA Class I-peptide binding prediction",
+  "sub_domain": "immunoinformatics",
+  "score": 6,
+  "score_rationale": "Early HLA class I binding CNN that is clearly on-topic but dated and comparatively narrow.",
+  "stars": 26,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2017-08-03",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 47.5,
+  "discovery_score": 6,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Amino acid embedding and Convolutional Neural Network for HLA Class I-peptide binding prediction",
+  "slug": "uci-cbcl-hla-bind"
+}

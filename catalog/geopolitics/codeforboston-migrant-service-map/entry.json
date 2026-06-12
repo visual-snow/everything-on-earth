@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/codeforboston/migrant_service_map",
+  "name": "codeforboston/migrant_service_map",
+  "description": "Refugees welcome",
+  "sub_domain": "migration-refugee-data",
+  "score": 9,
+  "score_rationale": "Service map for migrants and refugees with direct support-finding utility.",
+  "stars": 25,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-09-01",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 65.3,
+  "tags": [
+    "migration",
+    "refugees",
+    "service-map",
+    "humanitarian"
+  ],
+  "category": "Refugee Service Map",
+  "summary": "Maps services and support resources for migrants and refugees.",
+  "slug": "codeforboston-migrant-service-map"
+}

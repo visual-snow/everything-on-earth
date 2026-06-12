@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nau-ccl/epymorph",
+  "name": "NAU-CCL/Epymorph",
+  "description": "Python framework for spatial disease spread and metapopulation modeling.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 9,
+  "score_rationale": "Focused spatial disease-modeling package for metapopulation spread and calibration workflows.",
+  "stars": 8,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 61.6,
+  "discovery_score": 9,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "Python framework for spatial disease spread and metapopulation modeling.",
+  "slug": "nau-ccl-epymorph"
+}

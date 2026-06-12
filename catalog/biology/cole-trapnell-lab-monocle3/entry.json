@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cole-trapnell-lab/monocle3",
+  "name": "cole-trapnell-lab/monocle3",
+  "description": "Single-cell trajectory analysis in R",
+  "sub_domain": "transcriptomics",
+  "score": 9,
+  "score_rationale": "Canonical single-cell trajectory and pseudotime analysis package with a strong transcriptomics focus.",
+  "stars": 445,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-08",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 75.2,
+  "discovery_score": 9,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Single-cell trajectory analysis in R",
+  "slug": "cole-trapnell-lab-monocle3"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eth-lre/mwptutor",
+  "name": "eth-lre/MWPTutor",
+  "description": "No description provided.",
+  "sub_domain": "adaptive-learning",
+  "score": 6,
+  "score_rationale": "Targeted tutoring repo for math word problems, which fits the adaptive-learning and learner-feedback niche.",
+  "stars": 6,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-06-27",
+  "found_in_domains": [
+    "adaptive-learning"
+  ],
+  "quality_score": 42.8,
+  "discovery_score": 6,
+  "tags": [
+    "adaptive-learning",
+    "tutoring",
+    "mastery",
+    "knowledge-tracing"
+  ],
+  "category": "Adaptive Learning, Personalization, Knowledge Tracing & AI Tutoring",
+  "summary": "No description provided.",
+  "slug": "eth-lre-mwptutor"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/microsoft/msticpy",
+  "name": "microsoft/msticpy",
+  "description": "Microsoft Threat Intelligence Security Tools",
+  "sub_domain": "cyber-geopolitics-threat-intel",
+  "score": 8,
+  "score_rationale": "Microsoft\u2019s threat-intelligence toolkit for hunting, enrichment, and operational analysis workflows.",
+  "stars": 1954,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "cyber-geopolitics-threat-intel"
+  ],
+  "quality_score": 74.3,
+  "tags": [
+    "threat-hunting",
+    "enrichment",
+    "python",
+    "microsoft"
+  ],
+  "category": "Threat Hunting Toolkit",
+  "summary": "Microsoft toolkit for threat hunting, enrichment, and analysis workflows.",
+  "slug": "microsoft-msticpy"
+}

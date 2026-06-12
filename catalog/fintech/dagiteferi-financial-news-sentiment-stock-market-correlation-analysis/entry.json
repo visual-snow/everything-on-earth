@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dagiteferi/financial-news-sentiment-stock-market-correlation-analysis",
+  "name": "dagiteferi/financial-news-sentiment-stock-market-correlation-analysis",
+  "description": "Analyze financial news sentiment and its correlation with stock market movements. Use NLP, sentiment analysis, and financial analytics to uncover insights for enhanced financial forecasting and innovative investment strategies.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 15,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-05-22",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 39.6,
+  "discovery_score": 5,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Analyze financial news sentiment and its correlation with stock market movements. Use NLP, sentiment analysis, and financial analytics to...",
+  "slug": "dagiteferi-financial-news-sentiment-stock-market-correlation-analysis"
+}

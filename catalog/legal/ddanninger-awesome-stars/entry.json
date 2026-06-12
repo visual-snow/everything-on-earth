@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ddanninger/awesome-stars",
+  "name": "ddanninger/awesome-stars",
+  "description": "A curated list of my GitHub stars by stargazed",
+  "sub_domain": "legal-document-automation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; penalized for awesome-style signals.",
+  "stars": 3,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 10.8,
+  "discovery_score": 1,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "A curated list of my GitHub stars by stargazed",
+  "slug": "ddanninger-awesome-stars"
+}

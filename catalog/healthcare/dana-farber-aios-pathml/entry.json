@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dana-farber-aios/pathml",
+  "name": "Dana-Farber-AIOS/pathml",
+  "description": "Tools for computational pathology",
+  "sub_domain": "medical-ai-diagnostics",
+  "score": 8,
+  "score_rationale": "Practical pathology tooling from a reputable lab with ongoing activity and direct diagnostic relevance.",
+  "stars": 445,
+  "language": "Python",
+  "license": "GPL-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "medical-ai-diagnostics"
+  ],
+  "quality_score": 69.2,
+  "discovery_score": 8,
+  "tags": [
+    "medical-ai",
+    "diagnostics",
+    "decision-support",
+    "pathology"
+  ],
+  "category": "Medical AI, Diagnostics, Pathology AI & Clinical Decision Support",
+  "summary": "Tools for computational pathology",
+  "slug": "dana-farber-aios-pathml"
+}

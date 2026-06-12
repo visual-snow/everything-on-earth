@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/clickhouse/stockhouse",
+  "name": "clickhouse/stockhouse",
+  "description": "Stock and Crypto real-time market data visualization demo",
+  "sub_domain": "charting-visualization",
+  "score": 8,
+  "score_rationale": "Direct market visualization demo with stock and crypto data, clearly in-scope for trading dashboards.",
+  "stars": 48,
+  "language": "Vue",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "charting-visualization"
+  ],
+  "quality_score": 61.5,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks",
+    "market-data"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "Stock and Crypto real-time market data visualization demo",
+  "slug": "clickhouse-stockhouse"
+}

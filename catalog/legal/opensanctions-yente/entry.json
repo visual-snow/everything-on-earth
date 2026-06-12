@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opensanctions/yente",
+  "name": "opensanctions/yente",
+  "description": "API for OpenSanctions with support for entity search and bulk matching of data collections. Supports Reconciliation API spec.",
+  "sub_domain": "aml-kyc-identity",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 126,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "aml-kyc-identity"
+  ],
+  "quality_score": 40.8,
+  "discovery_score": 4,
+  "tags": [
+    "aml",
+    "kyc",
+    "sanctions",
+    "identity-verification"
+  ],
+  "category": "AML / KYC / Identity \u2014 sanctions screening, watchlists, identity verification for compliance",
+  "summary": "API for OpenSanctions with support for entity search and bulk matching of data collections. Supports Reconciliation API spec.",
+  "slug": "opensanctions-yente"
+}

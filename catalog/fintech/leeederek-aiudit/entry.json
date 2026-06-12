@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/leeederek/aiudit",
+  "name": "leeederek/aiudit",
+  "description": "A(i)udit is an open-source tool that gracefully adds security best practices earlier in the developer loop to help write safer, more secure smart contracts",
+  "sub_domain": "smart-contract-security",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 8,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-06-25",
+  "found_in_domains": [
+    "smart-contract-security"
+  ],
+  "quality_score": 31.6,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "security",
+    "fuzzing",
+    "formal-verification"
+  ],
+  "category": "Smart Contract Security",
+  "summary": "A(i)udit is an open-source tool that gracefully adds security best practices earlier in the developer loop to help write safer, more secu...",
+  "slug": "leeederek-aiudit"
+}

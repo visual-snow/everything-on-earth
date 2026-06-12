@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/codezohaib/lawyercasemanagement",
+  "name": "codezohaib/lawyercasemanagement",
+  "description": "The Lawyer Case Management System is like a super-organized helper for lawyers. It's made for Ubaid Ullah Khattak, who wanted a way to keep track of cases easily. This system makes it smooth to manage cases, clients, and all the legal stuff, so lawyers can do their job better.",
+  "sub_domain": "legal-practice-management",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 4 domain terms in repo text.",
+  "stars": 3,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2025-10-08",
+  "found_in_domains": [
+    "legal-practice-management"
+  ],
+  "quality_score": 34.8,
+  "discovery_score": 5,
+  "tags": [
+    "practice-management",
+    "matter-management",
+    "timekeeping",
+    "billing"
+  ],
+  "category": "Legal Practice Management \u2014 law-firm matter management, billing, time tracking, operations",
+  "summary": "The Lawyer Case Management System is like a super-organized helper for lawyers. It's made for Ubaid Ullah Khattak, who wanted a way to ke...",
+  "slug": "codezohaib-lawyercasemanagement"
+}

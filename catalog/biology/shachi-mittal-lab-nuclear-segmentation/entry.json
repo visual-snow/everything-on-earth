@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shachi-mittal-lab/nuclear_segmentation",
+  "name": "shachi-mittal-lab/nuclear_segmentation",
+  "description": "A benchmarking and evaluation workflow for nuclear segmentation platforms in multiplexed immunofluorescence.",
+  "sub_domain": "biomedical-imaging",
+  "score": 6,
+  "score_rationale": "This repo is a useful evaluation harness for nuclear segmentation methods in multiplexed immunofluorescence imaging.",
+  "stars": 4,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2025-05-30",
+  "found_in_domains": [
+    "biomedical-imaging"
+  ],
+  "quality_score": 41.6,
+  "discovery_score": 6,
+  "tags": [
+    "biomedical-imaging",
+    "bioimage",
+    "microscopy",
+    "histopathology"
+  ],
+  "category": "Biomedical Imaging \u2014 microscopy, histopathology, cell segmentation",
+  "summary": "A benchmarking and evaluation workflow for nuclear segmentation platforms in multiplexed immunofluorescence.",
+  "slug": "shachi-mittal-lab-nuclear-segmentation"
+}

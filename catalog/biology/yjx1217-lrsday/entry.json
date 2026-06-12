@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/yjx1217/lrsday",
+  "name": "yjx1217/lrsday",
+  "description": "LRSDAY: Long-read Sequencing Data Analysis for Yeasts",
+  "sub_domain": "long-read-sequencing",
+  "score": 7,
+  "score_rationale": "Yeast-focused long-read sequencing analysis toolkit with a clear biology use case.",
+  "stars": 34,
+  "language": "Perl",
+  "license": "MIT",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 54.4,
+  "discovery_score": 7,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "LRSDAY: Long-read Sequencing Data Analysis for Yeasts",
+  "slug": "yjx1217-lrsday"
+}

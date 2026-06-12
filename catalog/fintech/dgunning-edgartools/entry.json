@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/dgunning/edgartools",
+  "name": "dgunning/edgartools",
+  "description": "Python library to access and analyze SEC Edgar filings, XBRL financial statements, 10-K, 10-Q, and 8-K reports",
+  "sub_domain": "financial-document-processing",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1896,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "sec filing xbrl extraction open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 62.2,
+  "discovery_score": 6,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Python library to access and analyze SEC Edgar filings, XBRL financial statements, 10-K, 10-Q, and 8-K reports",
+  "slug": "dgunning-edgartools"
+}

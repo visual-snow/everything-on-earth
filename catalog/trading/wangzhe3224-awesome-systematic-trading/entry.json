@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/wangzhe3224/awesome-systematic-trading",
+  "name": "wangzhe3224/awesome-systematic-trading",
+  "description": "A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock, Futures, Options, CFDs, FX, and more | \u91cf\u5316\u4ea4\u6613 | \u91cf\u5316\u6295\u8d44",
+  "sub_domain": "backtesting-frameworks",
+  "score": 8,
+  "score_rationale": "Another major systematic-trading index with strong coverage of backtesting engines and practical tooling.",
+  "stars": 3731,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "backtesting-frameworks",
+    "ai-ml-for-trading"
+  ],
+  "quality_score": 76.6,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock...",
+  "slug": "wangzhe3224-awesome-systematic-trading"
+}

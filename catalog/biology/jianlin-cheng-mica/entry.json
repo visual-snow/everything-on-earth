@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jianlin-cheng/mica",
+  "name": "jianlin-cheng/mica",
+  "description": "MICA: multimodal deep learning integration of cryo-EM and AlphaFold3 for high-accuracy protein structure determination",
+  "sub_domain": "structural-biology",
+  "score": 8,
+  "score_rationale": "A targeted cryo-EM plus AlphaFold3 modeling workflow for protein structure determination, which fits the structural-biology brief well.",
+  "stars": 5,
+  "language": "C",
+  "license": "MIT",
+  "last_activity": "2025-11-12",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 54.2,
+  "discovery_score": 8,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "MICA: multimodal deep learning integration of cryo-EM and AlphaFold3 for high-accuracy protein structure determination",
+  "slug": "jianlin-cheng-mica"
+}

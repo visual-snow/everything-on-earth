@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/phetsims/balancing-chemical-equations",
+  "name": "phetsims/balancing-chemical-equations",
+  "description": "\"Balancing Chemical Equations\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "sub_domain": "k12-stem",
+  "score": 9,
+  "score_rationale": "Official PhET simulation repo for a canonical learner-facing chemistry classroom activity.",
+  "stars": 3,
+  "language": "TypeScript",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "k12-stem"
+  ],
+  "quality_score": 58.8,
+  "discovery_score": 9,
+  "tags": [
+    "k12",
+    "stem",
+    "simulations",
+    "student-learning",
+    "interactive"
+  ],
+  "category": "K-12 Learning, STEM Education, Simulations & Kid-Friendly Programming",
+  "summary": "\"Balancing Chemical Equations\" is an educational simulation in HTML5, by PhET Interactive Simulations.",
+  "slug": "phetsims-balancing-chemical-equations"
+}

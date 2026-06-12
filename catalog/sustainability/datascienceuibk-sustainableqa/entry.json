@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/datascienceuibk/sustainableqa",
+  "name": "datascienceuibk/sustainableqa",
+  "description": "SustainableQA: A Comprehensive Question Answering Dataset for Corporate Sustainability and EU Taxonomy Reporting",
+  "sub_domain": "esg-reporting-compliance",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; penalized for dataset-style signals.",
+  "stars": 41,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "esg-reporting-compliance"
+  ],
+  "quality_score": 31.0,
+  "discovery_score": 3,
+  "tags": [
+    "esg",
+    "csrd",
+    "tcfd",
+    "issb"
+  ],
+  "category": "ESG Reporting / Compliance \u2014 ESG aggregation and CSRD/TCFD/ISSB reporting tooling",
+  "summary": "SustainableQA: A Comprehensive Question Answering Dataset for Corporate Sustainability and EU Taxonomy Reporting",
+  "slug": "datascienceuibk-sustainableqa"
+}

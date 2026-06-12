@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/synbiodex/sbol-validator",
+  "name": "SynBioDex/SBOL-Validator",
+  "description": "A web application to validate SBOL files",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Essential SBOL validation service used to check design-file correctness in the ecosystem.",
+  "stars": 9,
+  "language": "HTML",
+  "license": null,
+  "last_activity": "2026-02-21",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 56.0,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "A web application to validate SBOL files",
+  "slug": "synbiodex-sbol-validator"
+}

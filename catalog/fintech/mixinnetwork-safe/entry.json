@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/mixinnetwork/safe",
+  "name": "mixinnetwork/safe",
+  "description": "\ud83c\udfe6 A multiplex cold wallet with multisig and MPC.",
+  "sub_domain": "wallet-infra-tokenization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 24,
+  "language": "Go",
+  "license": "Apache-2.0",
+  "last_activity": "2026-02-28",
+  "found_in_domains": [
+    "wallet-infra-tokenization"
+  ],
+  "quality_score": 35.2,
+  "discovery_score": 4,
+  "tags": [
+    "wallet",
+    "multisig",
+    "erc-4337",
+    "tokenization"
+  ],
+  "category": "Wallet Infrastructure / Tokenization",
+  "summary": "\ud83c\udfe6 A multiplex cold wallet with multisig and MPC.",
+  "slug": "mixinnetwork-safe"
+}

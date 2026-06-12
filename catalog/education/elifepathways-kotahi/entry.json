@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/elifepathways/kotahi",
+  "name": "eLifePathways/Kotahi",
+  "description": "Collaborative scholarly publishing and peer review platform.",
+  "sub_domain": "research-academic-publishing",
+  "score": 8,
+  "score_rationale": "Directly targets collaborative peer review and scholarly publishing workflows; description had to be inferred because the GitHub repo description is empty.",
+  "stars": 13,
+  "language": "JavaScript",
+  "license": "Other",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "research-academic-publishing"
+  ],
+  "quality_score": 57.2,
+  "discovery_score": 8,
+  "tags": [
+    "journals",
+    "peer-review",
+    "publishing",
+    "references"
+  ],
+  "category": "Research, Academic Publishing, Journal Platforms, Peer Review & References",
+  "summary": "Collaborative scholarly publishing and peer review platform.",
+  "slug": "elifepathways-kotahi"
+}

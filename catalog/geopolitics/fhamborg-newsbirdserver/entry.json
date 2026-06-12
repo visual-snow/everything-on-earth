@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/fhamborg/newsbirdserver",
+  "name": "fhamborg/NewsBirdServer",
+  "description": "Matrix-based news aggregation tool for exploring media bias.",
+  "sub_domain": "media-bias-propaganda",
+  "score": 8,
+  "score_rationale": "It directly targets media-bias exploration and narrative comparison across outlets.",
+  "stars": 20,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2018-06-26",
+  "found_in_domains": [
+    "media-bias-propaganda"
+  ],
+  "quality_score": 58.6,
+  "tags": [
+    "news-bias",
+    "aggregation",
+    "media-analysis",
+    "java"
+  ],
+  "category": "News Bias Explorer",
+  "summary": "Matrix-based news aggregation tool for exploring media bias.",
+  "slug": "fhamborg-newsbirdserver"
+}

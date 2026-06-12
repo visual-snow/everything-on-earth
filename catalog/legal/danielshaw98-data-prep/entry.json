@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/danielshaw98/data-prep",
+  "name": "danielshaw98/data-prep",
+  "description": "Data Prep for LLM Distillation Project. Training a Small Language Model using the phi-3.5 model, focused on processing Mergers & Acquisitions contracts. The trained model allows users to query and retrieve specific clauses from contracts. The model is now available on Hugging Face for others to access and use.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 2,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-10-23",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 9.8,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining",
+    "access"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "Data Prep for LLM Distillation Project. Training a Small Language Model using the phi-3.5 model, focused on processing Mergers & Acquisit...",
+  "slug": "danielshaw98-data-prep"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ablab/spades",
+  "name": "ablab/spades",
+  "description": "SPAdes Genome Assembler",
+  "sub_domain": "genomics-bioinformatics",
+  "score": 8,
+  "score_rationale": "Major genome assembler used across bacterial, viral, and metagenomic assembly workflows.",
+  "stars": 919,
+  "language": "C++",
+  "license": null,
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "genomics-bioinformatics"
+  ],
+  "quality_score": 71.7,
+  "discovery_score": 8,
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "variant-calling",
+    "pipelines"
+  ],
+  "category": "Genomics, Sequencing Pipelines, Variant Calling & Genome Browsers",
+  "summary": "SPAdes Genome Assembler",
+  "slug": "ablab-spades"
+}

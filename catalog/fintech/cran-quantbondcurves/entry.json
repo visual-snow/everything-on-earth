@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cran/quantbondcurves",
+  "name": "cran/quantbondcurves",
+  "description": ":exclamation:\u00a0This\u00a0is\u00a0a\u00a0read-only\u00a0mirror\u00a0of\u00a0the\u00a0CRAN\u00a0R\u00a0package\u00a0repository.  QuantBondCurves\u00a0\u2014\u00a0Calculates\u00a0Bond\u00a0Values\u00a0and\u00a0Interest\u00a0Rate\u00a0Curves\u00a0for\u00a0Finance",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-07-06",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": ":exclamation:\u00a0This\u00a0is\u00a0a\u00a0read-only\u00a0mirror\u00a0of\u00a0the\u00a0CRAN\u00a0R\u00a0package\u00a0repository.  QuantBondCurves\u00a0\u2014\u00a0Calculates\u00a0Bond\u00a0Values\u00a0and\u00a0Interest\u00a0Rate\u00a0Cu...",
+  "slug": "cran-quantbondcurves"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/vertcoin-project/blockchain-indexer",
+  "name": "vertcoin-project/blockchain-indexer",
+  "description": "A C++ based indexer for blockfiles that works on Bitcoin and its derivatives https://blkidx.org/",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 10,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2022-01-27",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 4,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev",
+    "derivatives"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "A C++ based indexer for blockfiles that works on Bitcoin and its derivatives https://blkidx.org/",
+  "slug": "vertcoin-project-blockchain-indexer"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tomasrubin/yield-curve-forecasting",
+  "name": "tomasrubin/yield-curve-forecasting",
+  "description": "This repository provides the implementation of a handful of forecasting methods in yield curve modelling.",
+  "sub_domain": "quant-pricing-derivatives",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 28,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-01-22",
+  "found_in_domains": [
+    "quant-pricing-derivatives"
+  ],
+  "quality_score": 35.7,
+  "discovery_score": 4,
+  "tags": [
+    "quant",
+    "derivatives",
+    "greeks",
+    "yield-curve"
+  ],
+  "category": "Quant Pricing / Derivatives",
+  "summary": "This repository provides the implementation of a handful of forecasting methods in yield curve modelling.",
+  "slug": "tomasrubin-yield-curve-forecasting"
+}

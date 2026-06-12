@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/edsel-skoltech/awesome_crop_models",
+  "name": "edsel-skoltech/awesome_crop_models",
+  "description": "\ud83c\udf3e\ud83c\udf3d Awesome lists about all crop simulation models",
+  "sub_domain": "sustainable-agriculture",
+  "score": 1,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for awesome-style signals; archived repo penalty.",
+  "stars": 59,
+  "language": null,
+  "license": "CC0-1.0",
+  "last_activity": "2021-11-04",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 20.2,
+  "discovery_score": 1,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "\ud83c\udf3e\ud83c\udf3d Awesome lists about all crop simulation models",
+  "slug": "edsel-skoltech-awesome-crop-models"
+}

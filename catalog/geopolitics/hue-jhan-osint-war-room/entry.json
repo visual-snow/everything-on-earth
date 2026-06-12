@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hue-jhan/osint-war-room",
+  "name": "Hue-Jhan/OSINT-War-Room",
+  "description": "War Tactical dashboard designed for tracking global conflicts, military movements, and geopolitical events in real-time, it aggregates many OSINT feeds into a single, customizable, and interactive command center.",
+  "stars": 5,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2026-03-06",
+  "sub_domain": "conflict-event-tracking",
+  "score": 8,
+  "score_rationale": "Tactical conflict-monitoring dashboard with real-time geopolitical event focus.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 54.2,
+  "tags": [
+    "osint",
+    "war-room",
+    "conflict-monitoring",
+    "dashboard"
+  ],
+  "category": "OSINT Command Center",
+  "summary": "OSINT war room for tracking conflicts, military movements, and geopolitics.",
+  "slug": "hue-jhan-osint-war-room"
+}

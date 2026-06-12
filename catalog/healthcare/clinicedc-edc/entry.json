@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/clinicedc/edc",
+  "name": "clinicedc/edc",
+  "description": "A framework for multisite longitudinal clinical trials built on Django",
+  "sub_domain": "clinical-trials-research",
+  "score": 9,
+  "score_rationale": "Directly aimed at multisite clinical trial execution and study data collection.",
+  "stars": 34,
+  "language": "Shell",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-03",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 66.4,
+  "discovery_score": 9,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "A framework for multisite longitudinal clinical trials built on Django",
+  "slug": "clinicedc-edc"
+}

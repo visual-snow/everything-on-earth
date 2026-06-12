@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/jupyterlite/jupyterlite",
+  "name": "jupyterlite/jupyterlite",
+  "description": "Wasm powered Jupyter running in the browser",
+  "sub_domain": "interactive-coding-education",
+  "score": 8,
+  "score_rationale": "Browser-based notebook environment that is widely used for education and self-contained sandboxes.",
+  "stars": 4790,
+  "language": "TypeScript",
+  "license": "BSD-3-Clause",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 77.4,
+  "discovery_score": 8,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "Wasm powered Jupyter running in the browser",
+  "slug": "jupyterlite-jupyterlite"
+}

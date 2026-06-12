@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/pratikpv/google_news_scraper_and_sentiment_analyzer",
+  "name": "pratikpv/google_news_scraper_and_sentiment_analyzer",
+  "description": "Downloads news articles from Google news and uses pre-trained NLP models to perform sentiment analysis",
+  "sub_domain": "sentiment-alternative-data",
+  "score": 7,
+  "score_rationale": "Useful general news-scraping sentiment utility; relevant when adapted to market-news screening.",
+  "stars": 61,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-02-27",
+  "found_in_domains": [
+    "sentiment-alternative-data"
+  ],
+  "quality_score": 56.3,
+  "tags": [
+    "sentiment",
+    "alternative-data",
+    "news-analytics"
+  ],
+  "category": "Sentiment & Alt Data",
+  "summary": "Downloads news articles from Google news and uses pre-trained NLP models to perform sentiment analysis",
+  "slug": "pratikpv-google-news-scraper-and-sentiment-analyzer"
+}

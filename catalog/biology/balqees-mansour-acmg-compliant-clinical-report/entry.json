@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/balqees-mansour/acmg-compliant-clinical-report",
+  "name": "balqees-mansour/acmg-compliant-clinical-report",
+  "description": "Variant annotation and clinical report generation pipeline using VEP and ACMG guidelines.",
+  "sub_domain": "clinical-genomics",
+  "score": 8,
+  "score_rationale": "This is a direct ACMG-aligned reporting pipeline, albeit still a prototype with limited maturity.",
+  "stars": 2,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2024-04-19",
+  "found_in_domains": [
+    "clinical-genomics"
+  ],
+  "quality_score": 51.8,
+  "discovery_score": 8,
+  "tags": [
+    "clinical-genomics",
+    "genomics",
+    "variant-interpretation",
+    "acmg"
+  ],
+  "category": "Clinical Genomics \u2014 variant interpretation and pharmacogenomics",
+  "summary": "Variant annotation and clinical report generation pipeline using VEP and ACMG guidelines.",
+  "slug": "balqees-mansour-acmg-compliant-clinical-report"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/envato/double_entry",
+  "name": "envato/double_entry",
+  "description": "A double-entry accounting system for Ruby applications.",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has some GitHub adoption.",
+  "stars": 453,
+  "language": "Ruby",
+  "license": "MIT",
+  "last_activity": "2026-01-05",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 51.3,
+  "discovery_score": 5,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "A double-entry accounting system for Ruby applications.",
+  "slug": "envato-double-entry"
+}

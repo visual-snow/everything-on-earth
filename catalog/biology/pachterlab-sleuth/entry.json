@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/pachterlab/sleuth",
+  "name": "pachterlab/sleuth",
+  "description": "Differential analysis of RNA-Seq",
+  "sub_domain": "transcriptomics",
+  "score": 9,
+  "score_rationale": "Established transcript-level differential analysis companion for kallisto-based RNA-seq workflows.",
+  "stars": 312,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2025-05-28",
+  "found_in_domains": [
+    "transcriptomics"
+  ],
+  "quality_score": 74.0,
+  "discovery_score": 9,
+  "tags": [
+    "transcriptomics",
+    "rna-seq",
+    "single-cell",
+    "differential-expression"
+  ],
+  "category": "Transcriptomics \u2014 RNA-seq and single-cell RNA-seq analysis",
+  "summary": "Differential analysis of RNA-Seq",
+  "slug": "pachterlab-sleuth"
+}

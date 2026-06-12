@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/endurantdevs/drug-api",
+  "name": "EndurantDevs/drug-api",
+  "description": "US Drugs API based on OpenFDA data, RxNorm and other sources",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 6,
+  "score_rationale": "Relevant drug reference API for medication lookup and normalization, though not a full pharmacy system.",
+  "stars": 7,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 43.2,
+  "discovery_score": 6,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "US Drugs API based on OpenFDA data, RxNorm and other sources",
+  "slug": "endurantdevs-drug-api"
+}

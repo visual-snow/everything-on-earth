@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/madfish-solutions/yupana-protocol-core",
+  "name": "madfish-solutions/yupana-protocol-core",
+  "description": "Open-source lending protocol built on top of Tezos blockchain",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 7,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2023-12-20",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 31.2,
+  "discovery_score": 4,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "Open-source lending protocol built on top of Tezos blockchain",
+  "slug": "madfish-solutions-yupana-protocol-core"
+}

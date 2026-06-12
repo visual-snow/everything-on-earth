@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vdemichev/diann-rpackage",
+  "name": "vdemichev/diann-rpackage",
+  "description": "Report processing and protein quantification for MS-based proteomics",
+  "sub_domain": "proteomics",
+  "score": 7,
+  "score_rationale": "Useful downstream companion for DIA proteomics reporting and protein-level quantification.",
+  "stars": 52,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2023-06-29",
+  "found_in_domains": [
+    "proteomics"
+  ],
+  "quality_score": 55.8,
+  "discovery_score": 7,
+  "tags": [
+    "proteomics",
+    "mass-spectrometry",
+    "peptide-identification",
+    "protein-quantification"
+  ],
+  "category": "Proteomics \u2014 protein structure prediction and mass spectrometry analysis",
+  "summary": "Report processing and protein quantification for MS-based proteomics",
+  "slug": "vdemichev-diann-rpackage"
+}

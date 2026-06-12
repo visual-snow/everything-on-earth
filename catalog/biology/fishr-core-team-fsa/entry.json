@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/fishr-core-team/fsa",
+  "name": "fishR-Core-Team/FSA",
+  "description": "FSA (Fisheries Stock Assessment) package provides R functions to conduct typical introductory fisheries analyses.",
+  "sub_domain": "marine-biology",
+  "score": 8,
+  "score_rationale": "Canonical fisheries analysis package with broad reusable functions for stock assessment and introductory fisheries workflows.",
+  "stars": 73,
+  "language": "R",
+  "license": "GPL-2.0",
+  "last_activity": "2026-02-20",
+  "found_in_domains": [
+    "marine-biology"
+  ],
+  "quality_score": 63.0,
+  "discovery_score": 8,
+  "tags": [
+    "marine-biology",
+    "ocean-microbiome",
+    "plankton",
+    "fisheries"
+  ],
+  "category": "Marine Biology \u2014 ocean monitoring, fisheries, coral reef analysis",
+  "summary": "FSA (Fisheries Stock Assessment) package provides R functions to conduct typical introductory fisheries analyses.",
+  "slug": "fishr-core-team-fsa"
+}

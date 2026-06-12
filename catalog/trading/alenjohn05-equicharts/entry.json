@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/alenjohn05/equicharts",
+  "name": "alenjohn05/equicharts",
+  "description": "EquiCharts is a open-source Stock Charting Widget built entirely with pure TypeScript. Designed with speed and efficiency in mind, it operates with no external dependencies, ensuring fast rendering and smooth interactions for your financial data visualizations.",
+  "sub_domain": "charting-visualization",
+  "score": 8,
+  "score_rationale": "Purpose-built stock charting widget with a clear finance visualization focus.",
+  "stars": 30,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2024-08-11",
+  "found_in_domains": [
+    "charting-visualization"
+  ],
+  "quality_score": 59.9,
+  "tags": [
+    "charting",
+    "visualization",
+    "candlesticks"
+  ],
+  "category": "Financial Charting Library",
+  "summary": "EquiCharts is a open-source Stock Charting Widget built entirely with pure TypeScript. Designed with speed...",
+  "slug": "alenjohn05-equicharts"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/toncenter/ton-indexer",
+  "name": "toncenter/ton-indexer",
+  "description": "TON Indexer system to store and serve blockchain data using SQL-database",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 100,
+  "language": "C++",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 46.0,
+  "discovery_score": 5,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "TON Indexer system to store and serve blockchain data using SQL-database",
+  "slug": "toncenter-ton-indexer"
+}

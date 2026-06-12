@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/sourish97/real-time-classroom-monitoring-system",
+  "name": "Sourish97/Real-Time-Classroom-Monitoring-System",
+  "description": "A real time system for classrooms for attendance and gathering attention data of each student",
+  "sub_domain": "classroom-management",
+  "score": 7,
+  "score_rationale": "Classroom monitoring plus attendance and attention tracking aligns closely with teacher supervision use cases.",
+  "stars": 11,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2025-04-16",
+  "found_in_domains": [
+    "classroom-management"
+  ],
+  "quality_score": 50.6,
+  "discovery_score": 7,
+  "tags": [
+    "classroom",
+    "device-management",
+    "monitoring",
+    "scheduling"
+  ],
+  "category": "Classroom Management, Device Supervision, Screen Monitoring & Scheduling",
+  "summary": "A real time system for classrooms for attendance and gathering attention data of each student",
+  "slug": "sourish97-real-time-classroom-monitoring-system"
+}

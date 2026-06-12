@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nickdrummond/ontology-browser",
+  "name": "nickdrummond/ontology-browser",
+  "description": "Browser OWL and Open Data online",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 5,
+  "score_rationale": "Browser for ontology content; relevant to terminology navigation but broader and less healthcare-specific than the top matches.",
+  "stars": 7,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-03-19",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 37.2,
+  "discovery_score": 5,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "Browser OWL and Open Data online",
+  "slug": "nickdrummond-ontology-browser"
+}

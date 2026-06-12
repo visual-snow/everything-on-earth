@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/iclighthouse/icdex",
+  "name": "iclighthouse/icdex",
+  "description": "A truly on-chain orderbook Dex.",
+  "sub_domain": "amm-dex-trading-infra",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 17,
+  "language": "Motoko",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-20",
+  "found_in_domains": [
+    "amm-dex-trading-infra"
+  ],
+  "quality_score": 28.0,
+  "discovery_score": 3,
+  "tags": [
+    "amm",
+    "dex",
+    "routing",
+    "market-making"
+  ],
+  "category": "AMM / DEX Trading Infrastructure",
+  "summary": "A truly on-chain orderbook Dex.",
+  "slug": "iclighthouse-icdex"
+}

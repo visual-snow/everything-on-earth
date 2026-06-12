@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/daveskender/stock.indicators",
+  "name": "daveskender/stock.indicators",
+  "description": "Stock Indicators for .NET is a C# NuGet package that transforms raw equity, commodity, forex, or cryptocurrency financial market price quotes into technical indicators and trading insights. You'll need this essential data in the investment tools that you're building for algorithmic trading, technical analysis, machine learning, or visual charting.",
+  "sub_domain": "technical-analysis-libraries",
+  "score": 5,
+  "score_rationale": "Major .NET technical indicator library with explicit indicator and trading-insight scope.",
+  "stars": 1189,
+  "language": "C#",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "technical-analysis-libraries"
+  ],
+  "quality_score": 54.6,
+  "tags": [
+    "technical-analysis",
+    "indicators",
+    "signal-generation"
+  ],
+  "category": "Technical Analysis Library",
+  "summary": "Stock Indicators for .NET is a C# NuGet package that transforms raw equity, commodity, forex, or...",
+  "slug": "daveskender-stock-indicators"
+}

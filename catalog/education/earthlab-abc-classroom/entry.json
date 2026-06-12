@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/earthlab/abc-classroom",
+  "name": "earthlab/abc-classroom",
+  "description": "Tools to automate github classroom and autograding workflows",
+  "sub_domain": "interactive-coding-education",
+  "score": 7,
+  "score_rationale": "Classroom-focused tooling for GitHub Classroom and nbgrader-driven assignment workflows.",
+  "stars": 29,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2023-06-27",
+  "found_in_domains": [
+    "interactive-coding-education"
+  ],
+  "quality_score": 53.8,
+  "discovery_score": 7,
+  "tags": [
+    "coding",
+    "playgrounds",
+    "sandboxes",
+    "autograding",
+    "classroom",
+    "interactive"
+  ],
+  "category": "Interactive Coding Education, Browser IDEs, Sandboxes & Code Playgrounds",
+  "summary": "Tools to automate github classroom and autograding workflows",
+  "slug": "earthlab-abc-classroom"
+}

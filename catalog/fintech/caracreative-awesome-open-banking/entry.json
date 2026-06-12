@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/caracreative/awesome-open-banking",
+  "name": "caracreative/awesome-open-banking",
+  "description": "A collection of awesome Open Banking APIs",
+  "sub_domain": "open-banking-psd2",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for awesome-style signals.",
+  "stars": 25,
+  "language": null,
+  "license": "MIT",
+  "last_activity": "2019-12-01",
+  "found_in_domains": [
+    "open-banking-psd2"
+  ],
+  "quality_score": 23.3,
+  "discovery_score": 2,
+  "tags": [
+    "open-banking",
+    "psd2",
+    "account-aggregation",
+    "embedded-finance"
+  ],
+  "category": "Open Banking / PSD2",
+  "summary": "A collection of awesome Open Banking APIs",
+  "slug": "caracreative-awesome-open-banking"
+}

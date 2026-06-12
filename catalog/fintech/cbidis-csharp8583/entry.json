@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cbidis/csharp8583",
+  "name": "cbidis/csharp8583",
+  "description": "C# Implementation of the ISO-8583 banking protocol",
+  "sub_domain": "financial-messaging-protocols",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 27,
+  "language": "C#",
+  "license": "LGPL-2.1",
+  "last_activity": "2024-06-01",
+  "found_in_domains": [
+    "financial-messaging-protocols"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 4,
+  "tags": [
+    "swift",
+    "fix",
+    "iso-20022",
+    "iso-8583"
+  ],
+  "category": "Financial Messaging Protocols",
+  "summary": "C# Implementation of the ISO-8583 banking protocol",
+  "slug": "cbidis-csharp8583"
+}

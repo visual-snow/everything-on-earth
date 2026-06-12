@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/sepinf-inc/iped",
+  "name": "sepinf-inc/iped",
+  "description": "IPED Digital Forensic Tool. It is an open source software that can be used to process and analyze digital evidence, often seized at crime scenes by law enforcement or in a corporate investigation by private examiners.",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 2474,
+  "language": "Java",
+  "license": "NOASSERTION",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 63.1,
+  "discovery_score": 6,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support",
+    "evidence"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "IPED Digital Forensic Tool. It is an open source software that can be used to process and analyze digital evidence, often seized at crime...",
+  "slug": "sepinf-inc-iped"
+}

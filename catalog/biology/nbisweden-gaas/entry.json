@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nbisweden/gaas",
+  "name": "NBISweden/GAAS",
+  "description": "Genome Assembly and Annotation Service code",
+  "sub_domain": "genomics",
+  "score": 6,
+  "score_rationale": "Useful annotation-service suite and knowledge base, though less focused than the best-in-class genomics tools above.",
+  "stars": 217,
+  "language": "Perl",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-27",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 54.7,
+  "discovery_score": 6,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Genome Assembly and Annotation Service code",
+  "slug": "nbisweden-gaas"
+}

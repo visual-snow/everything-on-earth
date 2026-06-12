@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/ranaroussi/quantstats",
+  "name": "ranaroussi/quantstats",
+  "description": "Portfolio analytics for quants, written in Python",
+  "sub_domain": "quant-research-notebooks",
+  "score": 9,
+  "score_rationale": "Popular reusable portfolio analytics stack that is heavily used alongside notebook-based research workflows.",
+  "stars": 6888,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-13",
+  "found_in_domains": [
+    "quant-research-notebooks"
+  ],
+  "quality_score": 84.7,
+  "tags": [
+    "quant-research",
+    "alpha-research",
+    "notebooks",
+    "portfolio"
+  ],
+  "category": "Quant Research Toolkit",
+  "summary": "Portfolio analytics for quants, written in Python",
+  "slug": "ranaroussi-quantstats"
+}

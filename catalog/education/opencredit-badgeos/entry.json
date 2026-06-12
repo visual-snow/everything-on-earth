@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/opencredit/badgeos",
+  "name": "opencredit/badgeos",
+  "description": "BadgeOS is a plugin to WordPress that allows you to easily create badges and set up the steps and achievements users take to earn them. Badges are Mozilla OBI compatible and sharable via Credly.",
+  "sub_domain": "credentialing-certification",
+  "score": 8,
+  "score_rationale": "Widely used WordPress badge and achievement system for learning programs; direct Open Badges fit.",
+  "stars": 97,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2023-03-03",
+  "found_in_domains": [
+    "credentialing-certification"
+  ],
+  "quality_score": 63.9,
+  "discovery_score": 8,
+  "tags": [
+    "credentialing",
+    "certification",
+    "open-badges",
+    "microcredentials",
+    "badges"
+  ],
+  "category": "Credentialing, Certification, Open Badges, Diplomas & Micro-Credentials",
+  "summary": "BadgeOS is a plugin to WordPress that allows you to easily create badges and set up the steps and achievements users take to earn them. B...",
+  "slug": "opencredit-badgeos"
+}

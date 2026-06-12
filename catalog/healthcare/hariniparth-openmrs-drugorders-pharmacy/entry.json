@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hariniparth/openmrs-drugorders-pharmacy",
+  "name": "HariniParth/OpenMRS-DrugOrders-Pharmacy",
+  "description": "E-prescription and Pharmacy software system",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 5,
+  "score_rationale": "Relevant pharmacy and drug-order module built on top of OpenMRS, but narrower and older than the top-tier matches.",
+  "stars": 21,
+  "language": "Java",
+  "license": null,
+  "last_activity": "2021-07-14",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 40.7,
+  "discovery_score": 5,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "E-prescription and Pharmacy software system",
+  "slug": "hariniparth-openmrs-drugorders-pharmacy"
+}

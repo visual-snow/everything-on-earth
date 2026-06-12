@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/flixopt/flixopt",
+  "name": "flixopt/flixopt",
+  "description": "Vector based Energy Optimization Framework",
+  "sub_domain": "renewable-energy-optimization",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 17,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 34.0,
+  "discovery_score": 4,
+  "tags": [
+    "renewable-energy",
+    "microgrid",
+    "storage-optimization",
+    "energy-planning"
+  ],
+  "category": "Renewable Energy Optimization \u2014 solar and wind siting, microgrid planning, storage optimization",
+  "summary": "Vector based Energy Optimization Framework",
+  "slug": "flixopt-flixopt"
+}

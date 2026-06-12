@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cmu-delphi/epipredict",
+  "name": "cmu-delphi/epipredict",
+  "description": "R tools for epidemiological predictive modeling pipelines.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 9,
+  "score_rationale": "Focused epidemiological prediction framework for building forecasting pipelines on panel and time-series data.",
+  "stars": 17,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2025-09-19",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 64.0,
+  "discovery_score": 9,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "R tools for epidemiological predictive modeling pipelines.",
+  "slug": "cmu-delphi-epipredict"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/tbd54566975/sanctions-checker",
+  "name": "TBD54566975/sanctions-checker",
+  "description": "Experimental sanctions checker app for checking if a person is on a sanctions list with fuzzy string logic",
+  "stars": 0,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2023-11-07",
+  "sub_domain": "sanctions-compliance",
+  "score": 7,
+  "score_rationale": "Direct sanctions checker with fuzzy list-matching logic.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 44.4,
+  "tags": [
+    "sanctions-screening",
+    "fuzzy-matching",
+    "list-screening",
+    "compliance"
+  ],
+  "category": "Sanctions Screening",
+  "summary": "Fuzzy sanctions-list checker for people screening.",
+  "slug": "tbd54566975-sanctions-checker"
+}

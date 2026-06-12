@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/biosim-research-group/vslab",
+  "name": "BioSIM-Research-Group/vsLab",
+  "description": "VsLab\u2014An implementation for virtual high-throughput screening using AutoDock and VMD.",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 4,
+  "score_rationale": "Older but still relevant virtual-screening implementation built around AutoDock and VMD.",
+  "stars": 5,
+  "language": "Tcl",
+  "license": null,
+  "last_activity": "2019-10-22",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 30.2,
+  "discovery_score": 4,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "VsLab\u2014An implementation for virtual high-throughput screening using AutoDock and VMD.",
+  "slug": "biosim-research-group-vslab"
+}

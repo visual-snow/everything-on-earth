@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mikolmogorov/flye",
+  "name": "mikolmogorov/flye",
+  "description": "De novo assembler for single molecule sequencing reads using repeat graphs",
+  "sub_domain": "long-read-sequencing",
+  "score": 10,
+  "score_rationale": "Canonical de novo assembler for single-molecule long reads with broad biological use.",
+  "stars": 910,
+  "language": "C",
+  "license": "NOASSERTION",
+  "last_activity": "2025-05-02",
+  "found_in_domains": [
+    "genomics",
+    "long-read-sequencing"
+  ],
+  "quality_score": 83.7,
+  "discovery_score": 10,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "De novo assembler for single molecule sequencing reads using repeat graphs",
+  "slug": "mikolmogorov-flye"
+}

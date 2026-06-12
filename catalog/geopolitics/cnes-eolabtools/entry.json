@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/cnes/eolabtools",
+  "name": "CNES/eolabtools",
+  "description": "Various tools for satellite imagery analysis",
+  "stars": 1,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-12-03",
+  "sub_domain": "geoint-tools",
+  "score": 8,
+  "score_rationale": "Useful satellite imagery analysis tooling from a major space agency context.",
+  "found_in_domains": [
+    "geoint-tools"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "satellite-imagery",
+    "remote-sensing",
+    "tooling",
+    "python"
+  ],
+  "category": "Satellite Imagery Tools",
+  "summary": "Tools for satellite imagery analysis and processing.",
+  "slug": "cnes-eolabtools"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/epiverse-trace/epidemics",
+  "name": "epiverse-trace/epidemics",
+  "description": "A library of published compartmental epidemic models, and classes to represent demographic structure, non-pharmaceutical interventions, and vaccination regimes, to compose epidemic scenarios.",
+  "sub_domain": "epidemiology-disease-surveillance",
+  "score": 9,
+  "score_rationale": "Core epidemic-scenario modeling library for outbreak analytics and intervention simulation.",
+  "stars": 17,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-01",
+  "found_in_domains": [
+    "epidemiology-disease-surveillance"
+  ],
+  "quality_score": 64.0,
+  "discovery_score": 9,
+  "tags": [
+    "epidemiology",
+    "surveillance",
+    "outbreaks",
+    "modeling"
+  ],
+  "category": "Epidemiology, Outbreak Tracking, Contact Tracing & Disease Surveillance",
+  "summary": "A library of published compartmental epidemic models, and classes to represent demographic structure, non-pharmaceutical interventions, a...",
+  "slug": "epiverse-trace-epidemics"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dalinvip/awesome-law-nlp-research-work",
+  "name": "dalinvip/awesome-law-nlp-research-work",
+  "description": "Awesome Law NLP Research Work, Paper, Competition, Onlline System",
+  "sub_domain": "curated-lists-meta-sweep",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption; penalized for awesome, paper-style signals.",
+  "stars": 413,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2023-03-20",
+  "found_in_domains": [
+    "curated-lists-meta-sweep"
+  ],
+  "quality_score": 32.9,
+  "discovery_score": 2,
+  "tags": [
+    "awesome-list",
+    "legal-data",
+    "legal-nlp",
+    "privacy"
+  ],
+  "category": "Curated Lists / Meta Sweep \u2014 awesome lists, GitHub topics, canonical meta-sources",
+  "summary": "Awesome Law NLP Research Work, Paper, Competition, Onlline System",
+  "slug": "dalinvip-awesome-law-nlp-research-work"
+}

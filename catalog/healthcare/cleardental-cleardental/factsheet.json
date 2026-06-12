@@ -1,0 +1,14 @@
+{
+  "slug": "cleardental-cleardental",
+  "name": "ClearDental",
+  "what_it_is": "Open-source Linux desktop dental practice management suite built with Qt/QML; all ~60 application modules install on each node alongside a shared backend and a lightweight daemon for automated background tasks.",
+  "components": ["Shared QML backend library", "Background daemon (SMS, eligibility checks)", "Scheduling modules", "Radiograph/photograph acquisition", "Billing and insurance claims", "Hard tissue and perio charting", "Clinical exam modules", "Procedure-specific modules (RCT, extraction, prophy, etc.)", "Messaging (SMS via VoIP.ms)", "Production reports"],
+  "protocols": ["DentalXChange API (claims/submit)", "EDS EDI clearinghouse REST", "VoIP.ms SMS gateway", "MassHealth eligibility HTML scraping", "Git for audit trail"],
+  "measurement": ["Procedure history queries", "Eligibility status from MassHealth", "Claim counters", "Production reports", "Insurance payment review"],
+  "configuration": ["INI preferences (users, locations, credentials)", "DentalXChange credentials", "EDS EDI credentials", "VoIP.ms SMS credentials", "Patient data directory"],
+  "modes": ["Interactive desktop mode", "Daemon/cron mode (background tasks)", "Pre-estimate vs actual claim submission"],
+  "constraints": ["Linux-only; no macOS or Windows", "Minimum 1920x1080 display", "Qt 5.14+ and libusb required", "Manage Preferences must be configured before any module works", "Version 1.0 in maintenance mode; v2.0 not production-ready"],
+  "docker_services": [],
+  "notable_absences": ["No Docker", "No DICOM", "No HL7/FHIR", "No X12 EDI", "No auth/access control layer", "No automated tests"],
+  "fault_injection": []
+}

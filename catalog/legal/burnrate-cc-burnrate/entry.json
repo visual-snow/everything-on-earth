@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/burnrate-cc/burnrate",
+  "name": "burnrate-cc/burnrate",
+  "description": "A logistics war MMO for Claude Code. The front doesn't feed itself.",
+  "sub_domain": "contract-analysis-clm",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 4,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2026-01-30",
+  "found_in_domains": [
+    "contract-analysis-clm"
+  ],
+  "quality_score": 11.6,
+  "discovery_score": 1,
+  "tags": [
+    "contract-analysis",
+    "clm",
+    "clause-review",
+    "redlining"
+  ],
+  "category": "Contract Analysis / CLM \u2014 review, clause extraction, redlining, contract intelligence",
+  "summary": "A logistics war MMO for Claude Code. The front doesn't feed itself.",
+  "slug": "burnrate-cc-burnrate"
+}

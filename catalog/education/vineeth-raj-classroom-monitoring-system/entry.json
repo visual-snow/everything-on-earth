@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vineeth-raj/classroom-monitoring-system",
+  "name": "vineeth-raj/Classroom-Monitoring-System",
+  "description": "Making the classroom smart using deep learning and Internet of Things",
+  "sub_domain": "classroom-management",
+  "score": 6,
+  "score_rationale": "Classroom monitoring and smart-classroom automation are directly adjacent to teacher supervision workflows.",
+  "stars": 10,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2021-01-22",
+  "found_in_domains": [
+    "classroom-management"
+  ],
+  "quality_score": 44.3,
+  "discovery_score": 6,
+  "tags": [
+    "classroom",
+    "device-management",
+    "monitoring",
+    "scheduling"
+  ],
+  "category": "Classroom Management, Device Supervision, Screen Monitoring & Scheduling",
+  "summary": "Making the classroom smart using deep learning and Internet of Things",
+  "slug": "vineeth-raj-classroom-monitoring-system"
+}

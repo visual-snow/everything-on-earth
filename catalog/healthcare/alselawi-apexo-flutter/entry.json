@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/alselawi/apexo-flutter",
+  "name": "alselawi/apexo-flutter",
+  "description": "Dental clinic management software",
+  "sub_domain": "dental-specialty-clinics",
+  "score": 8,
+  "score_rationale": "Direct dental clinic management application with recent updates and a clear product focus.",
+  "stars": 56,
+  "language": "Dart",
+  "license": "GPL-3.0",
+  "last_activity": "2025-01-26",
+  "found_in_domains": [
+    "dental-specialty-clinics"
+  ],
+  "quality_score": 62.0,
+  "discovery_score": 8,
+  "tags": [
+    "specialty-clinics",
+    "practice-management",
+    "dental"
+  ],
+  "category": "Dental, Ophthalmology & Specialty Clinic Systems",
+  "summary": "Dental clinic management software",
+  "slug": "alselawi-apexo-flutter"
+}

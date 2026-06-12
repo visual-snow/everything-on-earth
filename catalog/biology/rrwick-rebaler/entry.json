@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rrwick/rebaler",
+  "name": "rrwick/rebaler",
+  "description": "reference-based long read assemblies of bacterial genomes",
+  "sub_domain": "long-read-sequencing",
+  "score": 5,
+  "score_rationale": "Reference-based long-read bacterial assembly tool, but older and more niche than the core assemblers.",
+  "stars": 51,
+  "language": "Python",
+  "license": "GPL-3.0",
+  "last_activity": "2021-08-09",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 43.7,
+  "discovery_score": 5,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "reference-based long read assemblies of bacterial genomes",
+  "slug": "rrwick-rebaler"
+}

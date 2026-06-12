@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/elucidatainc/elmaven",
+  "name": "elucidatainc/elmaven",
+  "description": "LC-MS data processing tool for large-scale metabolomics experiments.",
+  "sub_domain": "metabolomics",
+  "score": 9,
+  "score_rationale": "This is a direct LC-MS metabolomics processing tool with clear scope, strong relevance, and solid adoption.",
+  "stars": 92,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2022-07-11",
+  "found_in_domains": [
+    "metabolomics"
+  ],
+  "quality_score": 69.7,
+  "discovery_score": 9,
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "lc-ms",
+    "pathway-analysis"
+  ],
+  "category": "Metabolomics \u2014 metabolite identification and pathway analysis",
+  "summary": "LC-MS data processing tool for large-scale metabolomics experiments.",
+  "slug": "elucidatainc-elmaven"
+}

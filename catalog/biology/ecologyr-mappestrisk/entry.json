@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ecologyr/mappestrisk",
+  "name": "ecologyr/mappestrisk",
+  "description": "Create Maps Forecasting Risk of Pest Occurrence",
+  "sub_domain": "climate-biology",
+  "score": 8,
+  "score_rationale": "It forecasts pest occurrence risk, which is directly relevant to climate-linked agroecology and phenology work.",
+  "stars": 3,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-04",
+  "found_in_domains": [
+    "climate-biology"
+  ],
+  "quality_score": 52.8,
+  "discovery_score": 8,
+  "tags": [
+    "climate-biology",
+    "phenology",
+    "ecological-forecasting",
+    "species-climate"
+  ],
+  "category": "Climate Biology \u2014 phenology and climate-species interaction models",
+  "summary": "Create Maps Forecasting Risk of Pest Occurrence",
+  "slug": "ecologyr-mappestrisk"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dauparas/proteinmpnn",
+  "name": "dauparas/ProteinMPNN",
+  "description": "Code for the ProteinMPNN paper",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 9,
+  "score_rationale": "One of the most canonical protein sequence design models and widely used in protein engineering workflows.",
+  "stars": 1673,
+  "language": "Jupyter Notebook",
+  "license": "MIT",
+  "last_activity": "2024-08-14",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 79.8,
+  "discovery_score": 9,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Code for the ProteinMPNN paper",
+  "slug": "dauparas-proteinmpnn"
+}

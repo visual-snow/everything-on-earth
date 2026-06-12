@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eupassarinho/soil-carbon-and-spectroscopy-with-pls-and-lasso",
+  "name": "eupassarinho/soil-carbon-and-spectroscopy-with-pls-and-lasso",
+  "description": "R scripts for predicting soil organic carbon using soil spectral library from visible, near-infrared and shortwave-infrared (VNIR) and middle-infrared (MIR) using LASSO and PLS regression methods and the target-oriented cross-validation strategy.",
+  "sub_domain": "sustainable-agriculture",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 9,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2023-08-20",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 4,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "R scripts for predicting soil organic carbon using soil spectral library from visible, near-infrared and shortwave-infrared (VNIR) and mi...",
+  "slug": "eupassarinho-soil-carbon-and-spectroscopy-with-pls-and-lasso"
+}

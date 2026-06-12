@@ -1,0 +1,14 @@
+{
+  "slug": "wardle-hades",
+  "name": "wardle/hades",
+  "what_it_is": "A lightweight HL7 FHIR R4 terminology server written in Clojure that wraps the hermes SNOMED CT library, exposing SNOMED CT via standard FHIR terminology REST operations. Read-only by design.",
+  "components": ["Jetty HTTP server with FHIR routes", "JSON/XML FHIR resource format module", "Pluggable codesystem/valueset provider interface", "hermes SNOMED CT backend", "HAPI FHIR library for data model"],
+  "protocols": ["HL7 FHIR R4 REST API", "HTTP/JSON", "HTTP/XML"],
+  "measurement": [],
+  "configuration": ["SNOMED DB file path", "HTTP port", "hermes version must match hades version series"],
+  "modes": ["Read-only FHIR terminology server", "Library mode (planned)"],
+  "constraints": ["SNOMED CT database must be pre-built with hermes before starting", "hermes version must match hades version", "Only SNOMED CT supported; other codesystems are roadmap", "No write/mutate operations; immutable design", "XML support depends on HAPI FHIR library"],
+  "docker_services": [],
+  "notable_absences": ["$translate not yet implemented", "$closure not yet implemented", "$validate-code not yet implemented", "No Docker", "No authentication/authorization", "No LOINC, ICD-10, or other codesystems"],
+  "fault_injection": []
+}

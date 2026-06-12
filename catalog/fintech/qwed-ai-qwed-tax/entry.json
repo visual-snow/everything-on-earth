@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/qwed-ai/qwed-tax",
+  "name": "qwed-ai/qwed-tax",
+  "description": "Deterministic Verification for Payroll, Tax, and Withholding Compliance using Z3 and Decimal Math. Stop AI from hallucinating tax liability.",
+  "sub_domain": "tax-calculation-filing",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 1,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 8.4,
+  "discovery_score": 1,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": "Deterministic Verification for Payroll, Tax, and Withholding Compliance using Z3 and Decimal Math. Stop AI from hallucinating tax liability.",
+  "slug": "qwed-ai-qwed-tax"
+}

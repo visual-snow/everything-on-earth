@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/valeriansaliou/node-sales-tax",
+  "name": "valeriansaliou/node-sales-tax",
+  "description": ":moneybag: International sales tax calculator for Node (offline, but provides optional online VAT number fraud check). Tax rates are kept up-to-date.",
+  "sub_domain": "tax-calculation-filing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; has some GitHub adoption.",
+  "stars": 333,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-10-31",
+  "found_in_domains": [
+    "tax-calculation-filing"
+  ],
+  "quality_score": 44.2,
+  "discovery_score": 4,
+  "tags": [
+    "tax",
+    "calculation",
+    "filing",
+    "multi-jurisdiction",
+    "fraud"
+  ],
+  "category": "Tax Calculation / Filing",
+  "summary": ":moneybag: International sales tax calculator for Node (offline, but provides optional online VAT number fraud check). Tax rates are kept...",
+  "slug": "valeriansaliou-node-sales-tax"
+}

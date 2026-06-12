@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/llsourcell/instantlegaldotai",
+  "name": "llsourcell/instantlegaldotai",
+  "description": "Full-stack web app that generates legal documents with AI",
+  "sub_domain": "legal-document-automation",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 155,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2025-08-19",
+  "found_in_domains": [
+    "legal-document-automation"
+  ],
+  "quality_score": 47.5,
+  "discovery_score": 5,
+  "tags": [
+    "document-automation",
+    "docassemble",
+    "form-assembly",
+    "e-signature"
+  ],
+  "category": "Legal Document Automation \u2014 guided interviews, form assembly, e-sign, drafting workflows",
+  "summary": "Full-stack web app that generates legal documents with AI",
+  "slug": "llsourcell-instantlegaldotai"
+}

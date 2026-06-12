@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/johnbaums/rmaxent",
+  "name": "johnbaums/rmaxent",
+  "description": "Tools for working with Maxent in R.",
+  "sub_domain": "ecology-conservation",
+  "score": 8,
+  "score_rationale": "Useful R tooling for fitting and post-processing Maxent models inside SDM pipelines.",
+  "stars": 53,
+  "language": "R",
+  "license": null,
+  "last_activity": "2024-10-09",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 61.9,
+  "discovery_score": 8,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "Tools for working with Maxent in R.",
+  "slug": "johnbaums-rmaxent"
+}

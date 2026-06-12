@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/matkollar/invoice_ocr_app",
+  "name": "matkollar/invoice_ocr_app",
+  "description": "Web application for recognizing and managing data from Slovak invoices.",
+  "sub_domain": "financial-document-processing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 59,
+  "language": "JavaScript",
+  "query_hits": 1,
+  "matched_queries": [
+    "invoice ocr open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 32.2,
+  "discovery_score": 3,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing",
+    "invoicing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "Web application for recognizing and managing data from Slovak invoices.",
+  "slug": "matkollar-invoice-ocr-app"
+}

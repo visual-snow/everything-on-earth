@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/bioc/diffbind",
+  "name": "bioc/DiffBind",
+  "description": "This is a read-only mirror of the git repos at https://bioconductor.org",
+  "sub_domain": "epigenomics",
+  "score": 9,
+  "score_rationale": "Canonical differential binding analysis package for ChIP-seq and related peak-based epigenomic assays.",
+  "stars": 1,
+  "language": "R",
+  "license": null,
+  "last_activity": "2025-10-30",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 56.4,
+  "discovery_score": 9,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "This is a read-only mirror of the git repos at https://bioconductor.org",
+  "slug": "bioc-diffbind"
+}

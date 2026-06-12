@@ -1,0 +1,88 @@
+{
+  "slug": "freeyourgadget-gadgetbridge",
+  "name": "Freeyourgadget/Gadgetbridge",
+  "what_it_is": "Gadgetbridge is an Android application (API 21+) that acts as a cloud-free, vendor-independent companion app for Bluetooth wearables, headphones, scales, trackers, and other gadgets. It communicates directly with devices over Bluetooth without requiring vendor accounts or sending data to external servers.",
+  "components": [
+    "Android foreground service for persistent BLE/Bluetooth Classic device connections",
+    "GreenDAO SQLite database for local activity and health data storage",
+    "Charts/dashboard UI for visualizing health metrics",
+    "Device protocol implementations per vendor (Pebble, Huami/Xiaomi, Garmin, Huawei/Honor, Fossil, Sony, Bangle.js, and many others)",
+    "Notification listener service for forwarding Android notifications to devices",
+    "Intent API for third-party app integration and automation",
+    "Health Connect integration layer for exporting data to Android Health Connect",
+    "Internet Helper add-on interface for Pebble app store and watchface access",
+    "Firmware/watchface installer per device family",
+    "ZIP export/import for database backup and restore"
+  ],
+  "protocols": [
+    "Bluetooth Low Energy (BLE/GATT)",
+    "Bluetooth Classic (RFCOMM)",
+    "Pebble protocol",
+    "HPlus protocol",
+    "Bangle.js protocol",
+    "Casio protocol",
+    "FitPro protocol",
+    "Garmin protocol (including Garmin Protobuf and FIT file format)",
+    "Moyoung protocol",
+    "Ultrahuman protocol",
+    "ZeTime protocol",
+    "Galaxy Buds protocol",
+    "Xiaomi/Huami Protobuf (Zepp OS)"
+  ],
+  "measurement": [
+    "Step count and distance",
+    "Heart rate (continuous, resting, recovery)",
+    "Heart Rate Variability (HRV)",
+    "Blood oxygen saturation (SpO2)",
+    "Sleep stages (light, deep, REM, restless moments)",
+    "Stress/body energy score",
+    "Calories (active and total)",
+    "VO2 Max",
+    "PAI (Personal Activity Intelligence)",
+    "ECG (raw data, device-dependent)",
+    "Blood pressure (supported scales/meters)",
+    "Blood glucose (OneTouch meters)",
+    "Weight (scales)",
+    "GPS tracks for outdoor workouts",
+    "Respiratory rate",
+    "Temperature (body and environmental, device-dependent)"
+  ],
+  "configuration": [
+    "Per-device notification filtering and forwarding rules",
+    "Alarm management",
+    "Weather provider selection",
+    "Calendar sync settings with event filtering",
+    "Always-on heart rate monitoring interval",
+    "Workout detection sensitivity",
+    "Transliteration language for non-latin characters",
+    "Measurement units (imperial/metric)",
+    "Reconnect timeout and behavior",
+    "Health Connect sync toggles"
+  ],
+  "fault_injection": [],
+  "modes": [
+    "Normal mode: persistent background service with automatic reconnect",
+    "Debug mode: verbose logging, packet inspection, raw data fetch",
+    "Nightly build flavor with more frequent updates"
+  ],
+  "constraints": [
+    "Android-only; no iOS, desktop, or server component",
+    "Requires Android 5.0 (API 21) or higher",
+    "No cloud sync; all data stays local on-device unless user explicitly exports",
+    "Device support is community-contributed and varies widely in completeness per model",
+    "ECG and some health features can be activated but raw data may have no UI for some devices",
+    "Pebble app store and watchface features require the optional Internet Helper add-on",
+    "Vendor firmware updates may break existing protocol implementations",
+    "No multi-user or remote-monitoring server component; single-phone, single-database architecture"
+  ],
+  "docker_services": [],
+  "notable_absences": [
+    "No cloud backend or server component of any kind",
+    "No web UI or REST API for data access",
+    "No Docker or containerized deployment",
+    "No iOS or cross-platform desktop client",
+    "No built-in data sharing or multi-device synchronization across phones",
+    "No real-time streaming export to external time-series databases",
+    "No built-in ECG interpretation or medical analysis; raw data only"
+  ]
+}

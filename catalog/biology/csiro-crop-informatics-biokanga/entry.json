@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/csiro-crop-informatics/biokanga",
+  "name": "csiro-crop-informatics/biokanga",
+  "description": "High-performance bioinformatics toolkit for next-generation sequencing analytics, maintained by a crop informatics team.",
+  "sub_domain": "agricultural-biology-agtech",
+  "score": 7,
+  "score_rationale": "Although broad in bioinformatics scope, its crop-informatics context and NGS tooling make it relevant to agricultural genomics work.",
+  "stars": 23,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2019-04-24",
+  "found_in_domains": [
+    "agricultural-biology-agtech"
+  ],
+  "quality_score": 53.0,
+  "discovery_score": 7,
+  "tags": [
+    "agtech",
+    "crop-genomics",
+    "plant-phenotyping",
+    "precision-agriculture"
+  ],
+  "category": "Agricultural Biology / AgTech \u2014 crop genomics and plant phenotyping",
+  "summary": "High-performance bioinformatics toolkit for next-generation sequencing analytics, maintained by a crop informatics team.",
+  "slug": "csiro-crop-informatics-biokanga"
+}

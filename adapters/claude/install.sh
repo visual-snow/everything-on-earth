@@ -10,6 +10,9 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
 MC_DEST="$HOME/.claude/skills/massive-crawl"
 MAP_DEST="$HOME/.claude/skills/map-capabilities"
+ROUTER_DEST="$HOME/.claude/skills/capability-router"
+DOMAIN_TELECOMS_DEST="$HOME/.claude/skills/domain-telecoms"
+SUPERCHARGE_DEST="$HOME/.claude/skills/supercharge"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -23,7 +26,7 @@ copy_skill() {
 }
 
 if [[ "${1:-}" == "--uninstall" ]]; then
-  rm -rf "$MC_DEST" "$MAP_DEST"
+  rm -rf "$MC_DEST" "$MAP_DEST" "$ROUTER_DEST" "$DOMAIN_TELECOMS_DEST" "$SUPERCHARGE_DEST"
   echo -e "${GREEN}Removed Claude wrapper skills from ~/.claude/skills.${NC}"
   echo "Project-local hooks remain managed by $REPO_ROOT/.claude/settings.local.json"
   exit 0
@@ -36,10 +39,16 @@ fi
 
 copy_skill "$REPO_ROOT/adapters/claude/skills/massive-crawl/SKILL.md" "$MC_DEST"
 copy_skill "$REPO_ROOT/adapters/claude/skills/map-capabilities/SKILL.md" "$MAP_DEST"
+copy_skill "$REPO_ROOT/adapters/claude/skills/capability-router/SKILL.md" "$ROUTER_DEST"
+copy_skill "$REPO_ROOT/adapters/claude/skills/domain-telecoms/SKILL.md" "$DOMAIN_TELECOMS_DEST"
+copy_skill "$REPO_ROOT/adapters/claude/skills/supercharge/SKILL.md" "$SUPERCHARGE_DEST"
 
 echo -e "${GREEN}Installed Claude wrapper skills.${NC}"
 echo "massive-crawl -> $MC_DEST/SKILL.md"
 echo "map-capabilities -> $MAP_DEST/SKILL.md"
+echo "capability-router -> $ROUTER_DEST/SKILL.md"
+echo "domain-telecoms -> $DOMAIN_TELECOMS_DEST/SKILL.md"
+echo "supercharge -> $SUPERCHARGE_DEST/SKILL.md"
 echo ""
 echo "Project-local hook config lives at:"
 echo "  $REPO_ROOT/.claude/settings.local.json"

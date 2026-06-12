@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/techblitzdev/techblitz",
+  "name": "techblitzdev/TechBlitz",
+  "description": "Learning to code made free and accessible to everyone.",
+  "sub_domain": "accessibility-inclusive-education",
+  "score": 6,
+  "score_rationale": "Education tool for learning to code with an explicit accessibility angle and moderate adoption.",
+  "stars": 434,
+  "language": "TypeScript",
+  "license": "Apache-2.0",
+  "last_activity": "2025-05-10",
+  "found_in_domains": [
+    "accessibility-inclusive-education"
+  ],
+  "quality_score": 57.1,
+  "discovery_score": 6,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "Learning to code made free and accessible to everyone.",
+  "slug": "techblitzdev-techblitz"
+}

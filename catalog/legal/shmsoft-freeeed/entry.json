@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/shmsoft/freeeed",
+  "name": "shmsoft/freeeed",
+  "description": "Open source eDiscovery",
+  "sub_domain": "e-discovery-document-review",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has some GitHub adoption.",
+  "stars": 132,
+  "language": "HTML",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-13",
+  "found_in_domains": [
+    "e-discovery-document-review"
+  ],
+  "quality_score": 23.0,
+  "discovery_score": 1,
+  "tags": [
+    "e-discovery",
+    "document-review",
+    "privilege-review",
+    "redaction"
+  ],
+  "category": "E-Discovery / Document Review \u2014 litigation review workflows, privilege, redaction, evidence review",
+  "summary": "Open source eDiscovery",
+  "slug": "shmsoft-freeeed"
+}

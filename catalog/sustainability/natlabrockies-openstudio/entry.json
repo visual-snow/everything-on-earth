@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/natlabrockies/openstudio",
+  "name": "natlabrockies/openstudio",
+  "description": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced daylight analysis using Radiance.",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text; has some GitHub adoption.",
+  "stars": 590,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "energy-modeling-simulation"
+  ],
+  "quality_score": 58.2,
+  "discovery_score": 6,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "OpenStudio is a cross-platform collection of software tools to support whole building energy modeling using EnergyPlus and advanced dayli...",
+  "slug": "natlabrockies-openstudio"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/nt-williams/rxnorm",
+  "name": "nt-williams/rxnorm",
+  "description": "R interface to NLM RxNorm API to get drug names and class based on RxCUI",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 6,
+  "score_rationale": "Relevant RxNorm helper for drug naming and class normalization in medication workflows.",
+  "stars": 30,
+  "language": "R",
+  "license": "GPL-3.0",
+  "last_activity": "2025-03-25",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 47.9,
+  "discovery_score": 6,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "R interface to NLM RxNorm API to get drug names and class based on RxCUI",
+  "slug": "nt-williams-rxnorm"
+}

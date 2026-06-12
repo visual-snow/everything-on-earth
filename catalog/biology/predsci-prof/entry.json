@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/predsci/prof",
+  "name": "predsci/PROF",
+  "description": "R package for forecasting infectious-disease incidence.",
+  "sub_domain": "epidemiology-disease-modeling",
+  "score": 8,
+  "score_rationale": "Clear respiratory-disease forecasting package, but smaller and less active than the major forecasting libraries.",
+  "stars": 4,
+  "language": "R",
+  "license": "MIT",
+  "last_activity": "2024-11-22",
+  "found_in_domains": [
+    "epidemiology-disease-modeling"
+  ],
+  "quality_score": 53.6,
+  "discovery_score": 8,
+  "tags": [
+    "epidemiology",
+    "sir",
+    "outbreak-modeling",
+    "phylodynamics"
+  ],
+  "category": "Epidemiology & Disease Modeling \u2014 outbreak tracking and compartment models",
+  "summary": "R package for forecasting infectious-disease incidence.",
+  "slug": "predsci-prof"
+}

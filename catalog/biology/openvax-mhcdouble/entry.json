@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openvax/mhcdouble",
+  "name": "openvax/mhcdouble",
+  "description": "Class II MHC binding and antigen processing prediction",
+  "sub_domain": "immunoinformatics",
+  "score": 6,
+  "score_rationale": "A valid class II binding and antigen-processing predictor, but it is old and lightly maintained.",
+  "stars": 5,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2017-08-21",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 42.2,
+  "discovery_score": 6,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "Class II MHC binding and antigen processing prediction",
+  "slug": "openvax-mhcdouble"
+}

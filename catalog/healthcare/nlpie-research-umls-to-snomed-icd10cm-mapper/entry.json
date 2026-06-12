@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/nlpie-research/umls-to-snomed-icd10cm-mapper",
+  "name": "nlpie-research/umls-to-snomed-icd10cm-mapper",
+  "description": "UMLS to SNOMED CT and ICD-10-CM mapping tool: A Python script for generating JSON files containing mappings between UMLS CUIs and SNOMED CT or ICD-10-CM codes using the UMLS Metathesaurus. Supports exact match, broad relations, and parent-child hierarchy mapping methods.",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 7,
+  "score_rationale": "Targeted terminology mapping utility for UMLS, SNOMED CT, and ICD-10-CM with direct relevance to terminology crosswalks.",
+  "stars": 15,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-02-11",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 51.6,
+  "discovery_score": 7,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "snomed"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": "UMLS to SNOMED CT and ICD-10-CM mapping tool: A Python script for generating JSON files containing mappings between UMLS CUIs and SNOMED...",
+  "slug": "nlpie-research-umls-to-snomed-icd10cm-mapper"
+}

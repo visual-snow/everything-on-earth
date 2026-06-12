@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/omarrsakr/pharmacy-management",
+  "name": "OmarrSakr/Pharmacy-Management",
+  "description": "Pharmacy Management \ud83d\udc8a A static desktop application built using C# And Database designed for managing pharmacy operations. It features multiple modules to handle various aspects of pharmacy management, including agent management, billing, medicine tracking, and manufacturer records.",
+  "sub_domain": "pharmacy-medication-management",
+  "score": 7,
+  "score_rationale": "Directly targeted at pharmacy operations, including medicine tracking and billing workflows.",
+  "stars": 4,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2025-09-23",
+  "found_in_domains": [
+    "pharmacy-medication-management"
+  ],
+  "quality_score": 47.6,
+  "discovery_score": 7,
+  "tags": [
+    "pharmacy",
+    "medication",
+    "prescribing",
+    "drug-safety"
+  ],
+  "category": "Pharmacy, Prescriptions, Drug Interaction Checking & Medication Management",
+  "summary": "Pharmacy Management \ud83d\udc8a A static desktop application built using C# And Database designed for managing pharmacy operations. It features mul...",
+  "slug": "omarrsakr-pharmacy-management"
+}

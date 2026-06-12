@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hl7/davinci-ecdx",
+  "name": "HL7/davinci-ecdx",
+  "description": "FHIR IG for Electronic Clinical Data Exchange.",
+  "sub_domain": "fhir-health-interoperability",
+  "score": 7,
+  "score_rationale": "Important FHIR implementation guide for data exchange workflows.",
+  "stars": null,
+  "language": null,
+  "license": null,
+  "last_activity": null,
+  "found_in_domains": [
+    "fhir-health-interoperability"
+  ],
+  "quality_score": 44.4,
+  "discovery_score": 7,
+  "tags": [
+    "fhir",
+    "hl7",
+    "interoperability",
+    "integration"
+  ],
+  "category": "FHIR, HL7 Servers, Integration Engines & Health Interoperability",
+  "summary": "FHIR IG for Electronic Clinical Data Exchange.",
+  "slug": "hl7-davinci-ecdx"
+}

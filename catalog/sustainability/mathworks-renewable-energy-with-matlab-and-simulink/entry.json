@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mathworks/renewable-energy-with-matlab-and-simulink",
+  "name": "mathworks/renewable-energy-with-matlab-and-simulink",
+  "description": "\u200b\u200bThis is a repository of MATLAB and Simulink based teaching and research content related to renewable energy.\u200b",
+  "sub_domain": "energy-modeling-simulation",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 2 domain terms in repo text.",
+  "stars": 5,
+  "language": null,
+  "license": "BSD-3-Clause",
+  "last_activity": "2025-05-07",
+  "found_in_domains": [
+    "energy-modeling-simulation",
+    "renewable-energy-optimization"
+  ],
+  "quality_score": 36.2,
+  "discovery_score": 5,
+  "tags": [
+    "energy-modeling",
+    "energyplus",
+    "grid-simulation",
+    "building-energy"
+  ],
+  "category": "Energy Modeling / Simulation \u2014 building energy models, grid simulation, renewable forecasting",
+  "summary": "\u200b\u200bThis is a repository of MATLAB and Simulink based teaching and research content related to renewable energy.\u200b",
+  "slug": "mathworks-renewable-energy-with-matlab-and-simulink"
+}

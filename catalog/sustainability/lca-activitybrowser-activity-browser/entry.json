@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/lca-activitybrowser/activity-browser",
+  "name": "lca-activitybrowser/activity-browser",
+  "description": "GUI for brightway2",
+  "sub_domain": "life-cycle-assessment",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 201,
+  "language": "JavaScript",
+  "license": "LGPL-3.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "life-cycle-assessment"
+  ],
+  "quality_score": 48.4,
+  "discovery_score": 5,
+  "tags": [
+    "lca",
+    "life-cycle",
+    "environmental-impact",
+    "embodied-carbon"
+  ],
+  "category": "Life Cycle Assessment \u2014 LCA databases and environmental impact calculators",
+  "summary": "GUI for brightway2",
+  "slug": "lca-activitybrowser-activity-browser"
+}

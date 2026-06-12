@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/cboard-org/cboard",
+  "name": "cboard-org/cboard",
+  "description": "Augmentative and Alternative Communication (AAC) system with text-to-speech for the browser",
+  "sub_domain": "special-education-therapy",
+  "score": 10,
+  "score_rationale": "Core AAC platform for learning and communication support; broad, direct fit for special education settings.",
+  "stars": 732,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2026-03-18",
+  "found_in_domains": [
+    "accessibility-inclusive-education",
+    "special-education-therapy"
+  ],
+  "quality_score": 82.9,
+  "discovery_score": 10,
+  "tags": [
+    "accessibility",
+    "captioning",
+    "aac",
+    "inclusive-learning",
+    "special-education",
+    "speech-therapy"
+  ],
+  "category": "Accessibility, Inclusive Education, Captioning, AAC & Learning Support",
+  "summary": "Augmentative and Alternative Communication (AAC) system with text-to-speech for the browser",
+  "slug": "cboard-org-cboard"
+}

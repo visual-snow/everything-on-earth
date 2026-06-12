@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/beckn/pulse-specification",
+  "name": "beckn/pulse-specification",
+  "description": "Adaptation of beckn protocol for online dispute resolution",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 5,
+  "score_rationale": "Matched 2 queries; contains 3 domain terms in repo text.",
+  "stars": 3,
+  "language": null,
+  "license": "NOASSERTION",
+  "last_activity": "2024-08-05",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 34.8,
+  "discovery_score": 5,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "Adaptation of beckn protocol for online dispute resolution",
+  "slug": "beckn-pulse-specification"
+}

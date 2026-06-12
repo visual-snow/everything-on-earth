@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tagtag/pcaufeopsdhm",
+  "name": "tagtag/pcaufeopsdhm",
+  "description": "This is a sample souce code to perform analysis in the paper \"Tensor decomposition and principal component analysis-based unsupervised feature extraction outperforms state-of-the-art methods when applied to histone modification profiles \"",
+  "sub_domain": "epigenomics",
+  "score": 4,
+  "score_rationale": "Paper-specific sample code for histone modification profiling that is useful for reproducibility but not broadly reusable.",
+  "stars": 0,
+  "language": "R",
+  "license": null,
+  "last_activity": "2022-10-02",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "This is a sample souce code to perform analysis in the paper \"Tensor decomposition and principal component analysis-based unsupervised fe...",
+  "slug": "tagtag-pcaufeopsdhm"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/drivendataorg/zamba",
+  "name": "drivendataorg/zamba",
+  "description": "A Python package for identifying hundreds of kinds of animals, training custom models, and estimating distance from camera trap videos and images",
+  "sub_domain": "ecology-conservation",
+  "score": 9,
+  "score_rationale": "Mature wildlife camera-trap package with direct conservation and ecology use cases.",
+  "stars": 151,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-15",
+  "found_in_domains": [
+    "ecology-conservation"
+  ],
+  "quality_score": 71.5,
+  "discovery_score": 9,
+  "tags": [
+    "ecology",
+    "conservation",
+    "species-distribution",
+    "maxent"
+  ],
+  "category": "Ecology & Conservation \u2014 species distribution and population modeling",
+  "summary": "A Python package for identifying hundreds of kinds of animals, training custom models, and estimating distance from camera trap videos an...",
+  "slug": "drivendataorg-zamba"
+}

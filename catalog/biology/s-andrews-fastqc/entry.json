@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/s-andrews/fastqc",
+  "name": "s-andrews/FastQC",
+  "description": "A quality control analysis tool for high throughput sequencing data",
+  "sub_domain": "genomics",
+  "score": 9,
+  "score_rationale": "Widely used first-pass sequencing QC tool that remains a standard part of read-preprocessing workflows.",
+  "stars": 589,
+  "language": "Java",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-20",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 76.2,
+  "discovery_score": 9,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "A quality control analysis tool for high throughput sequencing data",
+  "slug": "s-andrews-fastqc"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/joaquinbejar/orderbook-rs",
+  "name": "joaquinbejar/OrderBook-rs",
+  "description": "A high-performance, thread-safe limit order book implementation written in Rust. This project provides a comprehensive order matching engine designed for low-latency trading systems, with a focus on concurrent access patterns and lock-free data structures.",
+  "sub_domain": "order-book-market-microstructure",
+  "score": 10,
+  "score_rationale": "Direct low-latency order-book engine with lock-free concurrency.",
+  "stars": 317,
+  "language": "Rust",
+  "license": "MIT",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "live-algo-execution-engines",
+    "order-book-market-microstructure"
+  ],
+  "quality_score": 80.0,
+  "tags": [
+    "order-book",
+    "market-microstructure",
+    "matching-engine"
+  ],
+  "category": "Order Book Engine",
+  "summary": "A high-performance, thread-safe limit order book implementation written in Rust. This project provides a...",
+  "slug": "joaquinbejar-orderbook-rs"
+}

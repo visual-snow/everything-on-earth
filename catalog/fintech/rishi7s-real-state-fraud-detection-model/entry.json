@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rishi7s/real-state-fraud-detection-model",
+  "name": "rishi7s/real-state-fraud-detection-model",
+  "description": "Unsupervised Machine Learning Fraud Model on New York Property Valuation Data using Python",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "stars": 0,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2021-04-28",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "Unsupervised Machine Learning Fraud Model on New York Property Valuation Data using Python",
+  "slug": "rishi7s-real-state-fraud-detection-model"
+}

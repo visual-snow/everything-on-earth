@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/tanghaibao/jcvi",
+  "name": "tanghaibao/jcvi",
+  "description": "Python library to facilitate genome assembly, annotation, and comparative genomics",
+  "sub_domain": "genomics",
+  "score": 8,
+  "score_rationale": "Broad Python toolkit for assembly, annotation, synteny, and comparative genomics with active maintenance and clear utility.",
+  "stars": 893,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "genomics"
+  ],
+  "quality_score": 71.6,
+  "discovery_score": 8,
+  "tags": [
+    "genomics",
+    "variant-calling",
+    "genome-assembly",
+    "sequence-analysis"
+  ],
+  "category": "Genomics \u2014 sequence analysis, variant calling, genome assembly",
+  "summary": "Python library to facilitate genome assembly, annotation, and comparative genomics",
+  "slug": "tanghaibao-jcvi"
+}

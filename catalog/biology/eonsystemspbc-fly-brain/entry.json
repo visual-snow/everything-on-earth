@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/eonsystemspbc/fly-brain",
+  "name": "eonsystemspbc/fly-brain",
+  "description": "Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips",
+  "sub_domain": "computational-neuroscience",
+  "score": 9,
+  "score_rationale": "Directly targets Drosophila brain emulation with multiple neuroscience simulation backends and hardware targets.",
+  "stars": 262,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "computational-neuroscience"
+  ],
+  "quality_score": 73.4,
+  "discovery_score": 9,
+  "tags": [
+    "computational-neuroscience",
+    "neuron",
+    "brian2",
+    "nest"
+  ],
+  "category": "Computational Neuroscience \u2014 brain simulation and neural modeling",
+  "summary": "Emulation of the Drosophila Fly brain: Brian2, Brian2CUDA, PyTorch, NEST GPU, and neuromorphic chips",
+  "slug": "eonsystemspbc-fly-brain"
+}

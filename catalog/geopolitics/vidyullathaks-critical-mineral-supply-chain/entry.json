@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/vidyullathaks/critical-mineral-supply-chain",
+  "name": "vidyullathaks/Critical-Mineral-Supply-Chain",
+  "description": "Capstone project on the resilience and sustainability of a cobalt supply chain.",
+  "sub_domain": "energy-geopolitics",
+  "score": 8,
+  "score_rationale": "Direct critical-minerals supply-chain analysis with clear energy-transition relevance.",
+  "stars": 0,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-02-01",
+  "found_in_domains": [
+    "energy-geopolitics"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "critical-minerals",
+    "cobalt",
+    "supply-chain",
+    "resilience"
+  ],
+  "category": "Mineral Supply Chains",
+  "summary": "Cobalt supply-chain model for critical-mineral resilience analysis.",
+  "slug": "vidyullathaks-critical-mineral-supply-chain"
+}

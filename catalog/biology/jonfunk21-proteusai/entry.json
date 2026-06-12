@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jonfunk21/proteusai",
+  "name": "jonfunk21/proteusai",
+  "description": "ProteusAI is a library for the machine learning driven engineering of proteins. The library enables workflows from protein structure prediction, prediction of mutational effects to protein ligand interactions powered by artificial intelligence.",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 8,
+  "score_rationale": "A focused protein-engineering library with end-to-end ML workflows for mutational effects and related design tasks.",
+  "stars": 81,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2025-09-11",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 63.3,
+  "discovery_score": 8,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "ProteusAI is a library for the machine learning driven engineering of proteins. The library enables workflows from protein structure pred...",
+  "slug": "jonfunk21-proteusai"
+}

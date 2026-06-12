@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/opendigitalradio/odr-dabmux",
+  "name": "opendigitalradio/odr-dabmux",
+  "description": "ODR-DabMux is a DAB (Digital Audio Broadcasting) multiplexer, part of the ODR-mmbTools.",
+  "sub_domain": "alternative-dispute-resolution",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology.",
+  "stars": 51,
+  "language": "C++",
+  "license": "NOASSERTION",
+  "last_activity": "2026-02-25",
+  "found_in_domains": [
+    "alternative-dispute-resolution"
+  ],
+  "quality_score": 19.7,
+  "discovery_score": 1,
+  "tags": [
+    "odr",
+    "arbitration",
+    "mediation",
+    "dispute-resolution"
+  ],
+  "category": "Alternative Dispute Resolution \u2014 ODR, arbitration, mediation, settlement workflow tooling",
+  "summary": "ODR-DabMux is a DAB (Digital Audio Broadcasting) multiplexer, part of the ODR-mmbTools.",
+  "slug": "opendigitalradio-odr-dabmux"
+}

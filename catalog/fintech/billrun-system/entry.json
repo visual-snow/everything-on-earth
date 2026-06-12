@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/billrun/system",
+  "name": "billrun/system",
+  "description": "BillRun - Open Source Billing and Fraud Detection System",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 125,
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 46.8,
+  "discovery_score": 5,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring",
+    "billing"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "BillRun - Open Source Billing and Fraud Detection System",
+  "slug": "billrun-system"
+}

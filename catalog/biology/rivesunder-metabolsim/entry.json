@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rivesunder/metabolsim",
+  "name": "rivesunder/metabolsim",
+  "description": "Biochemical Network Modelling Tool",
+  "sub_domain": "systems-biology",
+  "score": 5,
+  "score_rationale": "Small but direct biochemical-network modeling tool for metabolic system simulation.",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2022-12-16",
+  "found_in_domains": [
+    "systems-biology"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "systems-biology",
+    "sbml",
+    "pathway-modeling",
+    "network-biology"
+  ],
+  "category": "Systems Biology \u2014 network modeling and pathway simulation",
+  "summary": "Biochemical Network Modelling Tool",
+  "slug": "rivesunder-metabolsim"
+}

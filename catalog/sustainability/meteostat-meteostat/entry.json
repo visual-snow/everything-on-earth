@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/meteostat/meteostat",
+  "name": "meteostat/meteostat",
+  "description": "Access and analyze historical weather and climate data with Python.",
+  "sub_domain": "climate-data-analysis",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has some GitHub adoption.",
+  "stars": 626,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-21",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 52.4,
+  "discovery_score": 5,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "Access and analyze historical weather and climate data with Python.",
+  "slug": "meteostat-meteostat"
+}

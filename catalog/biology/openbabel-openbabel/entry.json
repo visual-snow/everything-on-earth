@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/openbabel/openbabel",
+  "name": "openbabel/openbabel",
+  "description": "Open Babel is a chemical toolbox designed to speak the many languages of chemical data.",
+  "sub_domain": "cheminformatics",
+  "score": 9,
+  "score_rationale": "A canonical chemical toolkit for format conversion, molecular file handling, SMARTS search, and coordinate generation in cheminformatics pipelines.",
+  "stars": 1295,
+  "language": "C++",
+  "license": "GPL-2.0",
+  "last_activity": "2025-03-04",
+  "found_in_domains": [
+    "cheminformatics"
+  ],
+  "quality_score": 78.9,
+  "discovery_score": 9,
+  "tags": [
+    "cheminformatics",
+    "smiles",
+    "qsar",
+    "drug-discovery"
+  ],
+  "category": "Cheminformatics \u2014 drug discovery and molecular fingerprints",
+  "summary": "Open Babel is a chemical toolbox designed to speak the many languages of chemical data.",
+  "slug": "openbabel-openbabel"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/teltek/galicaster",
+  "name": "teltek/Galicaster",
+  "description": "The Galicaster Project is an open initiative to provide flexible, state-of-the-art solutions for recording educational multimedia contents like lectures and conferences.",
+  "sub_domain": "video-lecture-platforms",
+  "score": 9,
+  "score_rationale": "Lecture recording stack focused on educational multimedia capture workflows.",
+  "stars": 36,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2024-07-30",
+  "found_in_domains": [
+    "video-lecture-platforms"
+  ],
+  "quality_score": 66.5,
+  "discovery_score": 9,
+  "tags": [
+    "lecture-capture",
+    "video-learning",
+    "streaming",
+    "annotation"
+  ],
+  "category": "Video, Lecture Capture, Streaming, Annotation & Video-Based Learning",
+  "summary": "The Galicaster Project is an open initiative to provide flexible, state-of-the-art solutions for recording educational multimedia content...",
+  "slug": "teltek-galicaster"
+}

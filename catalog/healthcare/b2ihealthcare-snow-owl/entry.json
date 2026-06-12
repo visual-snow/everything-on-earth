@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/b2ihealthcare/snow-owl",
+  "name": "b2ihealthcare/snow-owl",
+  "description": ":owl: Snow Owl Terminology Server - a production-ready, scalable, FHIR Terminology Service compliant server that supports SNOMED CT International and Extensions, LOINC, RxNorm, UMLS, ICD-10/11, custom code systems and many others",
+  "sub_domain": "health-data-standards-terminologies",
+  "score": 10,
+  "score_rationale": "Core open-source terminology server with SNOMED CT, LOINC, RxNorm, UMLS, and ICD support; one of the most complete infrastructure projects in this subdomain.",
+  "stars": 286,
+  "language": "Java",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "health-data-standards-terminologies"
+  ],
+  "quality_score": 79.7,
+  "discovery_score": 10,
+  "tags": [
+    "terminology",
+    "standards",
+    "ontologies",
+    "vocabularies",
+    "fhir",
+    "snomed"
+  ],
+  "category": "Health Data Standards, Terminologies, Ontologies & Vocabulary Tooling",
+  "summary": ":owl: Snow Owl Terminology Server - a production-ready, scalable, FHIR Terminology Service compliant server that supports SNOMED CT Inter...",
+  "slug": "b2ihealthcare-snow-owl"
+}

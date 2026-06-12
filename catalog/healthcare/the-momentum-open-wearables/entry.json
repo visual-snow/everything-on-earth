@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/the-momentum/open-wearables",
+  "name": "the-momentum/open-wearables",
+  "description": "Self-hosted platform to unify wearable health data through one AI-ready API.",
+  "sub_domain": "wearable-iot-health",
+  "score": 10,
+  "score_rationale": "Directly targets wearable health data aggregation and exposes an AI-ready API; this is an essential fit for the subdomain.",
+  "stars": 1103,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 84.3,
+  "discovery_score": 10,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "Self-hosted platform to unify wearable health data through one AI-ready API.",
+  "slug": "the-momentum-open-wearables"
+}

@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/sakaiproject/sakai",
+  "name": "sakaiproject/sakai",
+  "description": "Sakai is a freely available, feature-rich technology solution for learning, teaching, research and collaboration. Sakai is an open source software suite developed by a diverse and global adopter community.",
+  "sub_domain": "lms",
+  "score": 9,
+  "score_rationale": "Established LMS suite used for learning, teaching, and collaboration with clear institutional education focus.",
+  "stars": 1208,
+  "language": "Java",
+  "license": "ECL-2.0",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "lms",
+    "collaborative-learning"
+  ],
+  "quality_score": 78.7,
+  "discovery_score": 9,
+  "tags": [
+    "lms",
+    "course-delivery",
+    "grading",
+    "enrollment",
+    "collaboration",
+    "peer-review"
+  ],
+  "category": "Learning Management Systems (LMS), Course Delivery, Grading & Enrollment",
+  "summary": "Sakai is a freely available, feature-rich technology solution for learning, teaching, research and collaboration. Sakai is an open source...",
+  "slug": "sakaiproject-sakai"
+}

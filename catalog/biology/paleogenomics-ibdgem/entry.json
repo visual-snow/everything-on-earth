@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/paleogenomics/ibdgem",
+  "name": "Paleogenomics/IBDGem",
+  "description": "Program for positive genetic identification and IBD detection from low-coverage sequencing data",
+  "sub_domain": "ancient-dna-paleogenomics",
+  "score": 7,
+  "score_rationale": "Relevant to paleogenomic low-coverage analysis, but less specialized than the core aDNA processing tools.",
+  "stars": 6,
+  "language": "C",
+  "license": "NOASSERTION",
+  "last_activity": "2024-09-04",
+  "found_in_domains": [
+    "ancient-dna-paleogenomics"
+  ],
+  "quality_score": 48.8,
+  "discovery_score": 7,
+  "tags": [
+    "ancient-dna",
+    "paleogenomics",
+    "archaeogenomics",
+    "contamination-detection"
+  ],
+  "category": "Ancient DNA / Paleogenomics \u2014 aDNA processing and contamination detection",
+  "summary": "Program for positive genetic identification and IBD detection from low-coverage sequencing data",
+  "slug": "paleogenomics-ibdgem"
+}

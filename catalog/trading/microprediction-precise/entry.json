@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/microprediction/precise",
+  "name": "microprediction/precise",
+  "description": "World beating online covariance and portfolio construction.",
+  "sub_domain": "portfolio-risk-management",
+  "score": 7,
+  "score_rationale": "Portfolio construction plus covariance estimation, useful for risk-aware allocation research.",
+  "stars": 319,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2025-10-13",
+  "found_in_domains": [
+    "portfolio-risk-management"
+  ],
+  "quality_score": 62.0,
+  "tags": [
+    "portfolio",
+    "risk-management",
+    "allocation"
+  ],
+  "category": "Portfolio Optimization",
+  "summary": "World beating online covariance and portfolio construction.",
+  "slug": "microprediction-precise"
+}

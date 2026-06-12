@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/rosettacommons/rfdiffusion",
+  "name": "rosettacommons/rfdiffusion",
+  "description": "Code for running RFdiffusion",
+  "sub_domain": "protein-engineering-directed-evolution",
+  "score": 9,
+  "score_rationale": "A canonical generative protein design model that underpins many modern design pipelines.",
+  "stars": 2795,
+  "language": "Python",
+  "license": "NOASSERTION",
+  "last_activity": "2025-11-20",
+  "found_in_domains": [
+    "protein-engineering-directed-evolution"
+  ],
+  "quality_score": 81.6,
+  "discovery_score": 9,
+  "tags": [
+    "protein-engineering",
+    "directed-evolution",
+    "protein-design",
+    "enzyme-engineering"
+  ],
+  "category": "Protein Engineering / Directed Evolution \u2014 ML for protein design",
+  "summary": "Code for running RFdiffusion",
+  "slug": "rosettacommons-rfdiffusion"
+}

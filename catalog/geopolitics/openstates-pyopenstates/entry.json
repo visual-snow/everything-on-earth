@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openstates/pyopenstates",
+  "name": "openstates/pyopenstates",
+  "description": "A Python module for accessing the Open States API",
+  "sub_domain": "election-governance-data",
+  "score": 9,
+  "score_rationale": "This is the primary client for a major state-legislature API and is more reusable than thin wrappers.",
+  "stars": 31,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2023-08-22",
+  "found_in_domains": [
+    "election-governance-data"
+  ],
+  "quality_score": 66.0,
+  "tags": [
+    "elections",
+    "state-legislatures",
+    "civic-data",
+    "api"
+  ],
+  "category": "Legislative Data API",
+  "summary": "Python client for the Open States API and state-legislature data.",
+  "slug": "openstates-pyopenstates"
+}

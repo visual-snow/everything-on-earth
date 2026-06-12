@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/marc-shade/fraud-detection-mcp",
+  "name": "marc-shade/fraud-detection-mcp",
+  "description": "Advanced fraud detection MCP server with behavioral biometrics, real-time anomaly detection, and explainable AI for comprehensive fraud prevention",
+  "sub_domain": "fraud-detection-prevention",
+  "score": 5,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text.",
+  "stars": 4,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2026-02-22",
+  "found_in_domains": [
+    "fraud-detection-prevention"
+  ],
+  "quality_score": 35.6,
+  "discovery_score": 5,
+  "tags": [
+    "fraud",
+    "anomaly-detection",
+    "risk-scoring",
+    "transaction-monitoring"
+  ],
+  "category": "Fraud Detection / Prevention",
+  "summary": "Advanced fraud detection MCP server with behavioral biometrics, real-time anomaly detection, and explainable AI for comprehensive fraud p...",
+  "slug": "marc-shade-fraud-detection-mcp"
+}

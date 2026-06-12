@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/serversideup/financial-freedom",
+  "name": "serversideup/financial-freedom",
+  "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 An open source alternative to Mint, YNAB, and more. Stay on budget and build wealth without sacrificing your privacy.",
+  "sub_domain": "personal-finance-budgeting",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 2830,
+  "language": "Vue",
+  "license": "GPL-3.0",
+  "last_activity": "2026-02-21",
+  "found_in_domains": [
+    "personal-finance-budgeting"
+  ],
+  "quality_score": 39.6,
+  "discovery_score": 2,
+  "tags": [
+    "personal-finance",
+    "budgeting",
+    "expense-tracking",
+    "envelope-budgeting"
+  ],
+  "category": "Personal Finance / Budgeting",
+  "summary": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 An open source alternative to Mint, YNAB, and more. Stay on budget and build wealth without sacrificing your privacy.",
+  "slug": "serversideup-financial-freedom"
+}

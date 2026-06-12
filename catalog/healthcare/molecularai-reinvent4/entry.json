@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/molecularai/reinvent4",
+  "name": "MolecularAI/REINVENT4",
+  "description": "AI molecular design tool for de novo design, scaffold hopping, R-group replacement, linker design and molecule optimization.",
+  "sub_domain": "drug-discovery-molecular-design",
+  "score": 9,
+  "score_rationale": "Core generative design platform for de novo molecular optimization and scaffold manipulation.",
+  "stars": 713,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-01-21",
+  "found_in_domains": [
+    "drug-discovery-molecular-design"
+  ],
+  "quality_score": 76.8,
+  "discovery_score": 9,
+  "tags": [
+    "drug-discovery",
+    "cheminformatics",
+    "docking",
+    "virtual-screening"
+  ],
+  "category": "Drug Discovery, Molecular Design, Docking & Virtual Screening",
+  "summary": "AI molecular design tool for de novo design, scaffold hopping, R-group replacement, linker design and molecule optimization.",
+  "slug": "molecularai-reinvent4"
+}

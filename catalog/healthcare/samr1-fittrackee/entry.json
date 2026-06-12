@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/samr1/fittrackee",
+  "name": "SamR1/FitTrackee",
+  "description": "Self-hosted outdoor activity tracker :bicyclist:",
+  "sub_domain": "wearable-iot-health",
+  "score": 4,
+  "score_rationale": "Activity tracking is wearable-adjacent and useful for fitness-health workflows, but it is not primarily a device bridge.",
+  "stars": 1087,
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "wearable-iot-health"
+  ],
+  "quality_score": 48.3,
+  "discovery_score": 4,
+  "tags": [
+    "wearables",
+    "sensors",
+    "iot",
+    "remote-monitoring"
+  ],
+  "category": "Wearables, Sensor Pipelines, Device Bridges & IoT Health",
+  "summary": "Self-hosted outdoor activity tracker :bicyclist:",
+  "slug": "samr1-fittrackee"
+}

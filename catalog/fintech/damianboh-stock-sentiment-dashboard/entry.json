@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/damianboh/stock_sentiment_dashboard",
+  "name": "damianboh/stock_sentiment_dashboard",
+  "description": "Web app which displays the daily and hourly sentiments for a stock (user to enter ticker as input).  Stock sentiments are determined from financial headlines scraped from the web.",
+  "sub_domain": "financial-ai-nlp",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 10,
+  "language": "Jupyter Notebook",
+  "license": null,
+  "last_activity": "2022-09-26",
+  "found_in_domains": [
+    "financial-ai-nlp"
+  ],
+  "quality_score": 32.3,
+  "discovery_score": 4,
+  "tags": [
+    "financial-ai",
+    "financial-nlp",
+    "sentiment",
+    "llm"
+  ],
+  "category": "Financial AI / NLP",
+  "summary": "Web app which displays the daily and hourly sentiments for a stock (user to enter ticker as input).  Stock sentiments are determined from...",
+  "slug": "damianboh-stock-sentiment-dashboard"
+}

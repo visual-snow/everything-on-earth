@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jenniferlu717/bracken",
+  "name": "jenniferlu717/Bracken",
+  "description": "Bracken (Bayesian Reestimation of Abundance with KrakEN) is a highly accurate statistical method that computes the abundance of species in DNA sequences from a metagenomics sample.",
+  "sub_domain": "metagenomics",
+  "score": 9,
+  "score_rationale": "Standard companion abundance-estimation tool for Kraken-based metagenomic profiling.",
+  "stars": 339,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-16",
+  "found_in_domains": [
+    "metagenomics"
+  ],
+  "quality_score": 74.3,
+  "discovery_score": 9,
+  "tags": [
+    "metagenomics",
+    "microbiome",
+    "taxonomic-classification",
+    "shotgun-sequencing"
+  ],
+  "category": "Metagenomics \u2014 microbiome analysis and taxonomic classification",
+  "summary": "Bracken (Bayesian Reestimation of Abundance with KrakEN) is a highly accurate statistical method that computes the abundance of species i...",
+  "slug": "jenniferlu717-bracken"
+}

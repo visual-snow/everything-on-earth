@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/blockchain-etl/ethereum2-etl",
+  "name": "blockchain-etl/ethereum2-etl",
+  "description": "Python scripts for ETL (extract, transform and load) jobs for Ethereum 2.0 beacon blocks, attestations, deposits, slashings, validators, committees. Data is available in Google BigQuery",
+  "sub_domain": "blockchain-analytics-indexing",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 74,
+  "language": "Python",
+  "license": "MIT",
+  "last_activity": "2023-03-29",
+  "found_in_domains": [
+    "blockchain-analytics-indexing"
+  ],
+  "quality_score": 33.0,
+  "discovery_score": 3,
+  "tags": [
+    "blockchain-analytics",
+    "indexing",
+    "subgraph",
+    "mev"
+  ],
+  "category": "Blockchain Analytics / Indexing",
+  "summary": "Python scripts for ETL (extract, transform and load) jobs for Ethereum 2.0 beacon blocks, attestations, deposits, slashings, validators,...",
+  "slug": "blockchain-etl-ethereum2-etl"
+}

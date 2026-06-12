@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cran/cowfootr",
+  "name": "cran/cowfootr",
+  "description": ":exclamation:\u00a0This\u00a0is\u00a0a\u00a0read-only\u00a0mirror\u00a0of\u00a0the\u00a0CRAN\u00a0R\u00a0package\u00a0repository.  cowfootR\u00a0\u2014\u00a0Dairy\u00a0Farm\u00a0Carbon\u00a0Footprint\u00a0Assessment.\u00a0Homepage:\u00a0https://github.com/juanmarcosmoreno-arch/cowfootR,\u00a0https://juanmarcosmoreno-arch.github.io/cowfootR/  Report\u00a0bugs\u00a0for\u00a0this\u00a0package:\u00a0https://github.com/juanmarcosmoreno-arch/cowfootR/i ...",
+  "sub_domain": "carbon-accounting-ghg",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "R",
+  "license": "NOASSERTION",
+  "last_activity": "2026-01-13",
+  "found_in_domains": [
+    "carbon-accounting-ghg"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "carbon-accounting",
+    "ghg",
+    "scope-3",
+    "carbon-footprint"
+  ],
+  "category": "Carbon Accounting / GHG \u2014 carbon footprint calculators and scope 1/2/3 tracking",
+  "summary": ":exclamation:\u00a0This\u00a0is\u00a0a\u00a0read-only\u00a0mirror\u00a0of\u00a0the\u00a0CRAN\u00a0R\u00a0package\u00a0repository.  cowfootR\u00a0\u2014\u00a0Dairy\u00a0Farm\u00a0Carbon\u00a0Footprint\u00a0Assessment.\u00a0Homepage:...",
+  "slug": "cran-cowfootr"
+}

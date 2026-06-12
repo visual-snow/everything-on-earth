@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/meirwah/awesome-incident-response",
+  "name": "meirwah/awesome-incident-response",
+  "description": "A curated list of tools for incident response",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 1,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption; penalized for awesome-style signals.",
+  "stars": 8905,
+  "language": null,
+  "license": "Apache-2.0",
+  "last_activity": "2024-07-18",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 37.6,
+  "discovery_score": 1,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "A curated list of tools for incident response",
+  "slug": "meirwah-awesome-incident-response"
+}

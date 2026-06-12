@@ -1,0 +1,24 @@
+{
+  "repo_url": "https://github.com/gbeced/pyalgotrade",
+  "name": "gbeced/pyalgotrade",
+  "description": "Python Algorithmic Trading Library",
+  "sub_domain": "backtesting-frameworks",
+  "score": 8,
+  "score_rationale": "Classic Python algorithmic trading and backtesting library that is still a canonical reference point.",
+  "stars": 4643,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-22",
+  "found_in_domains": [
+    "backtesting-frameworks"
+  ],
+  "quality_score": 77.3,
+  "tags": [
+    "backtesting",
+    "strategy-simulation",
+    "quant-trading"
+  ],
+  "category": "Backtesting Framework",
+  "summary": "Python Algorithmic Trading Library",
+  "slug": "gbeced-pyalgotrade"
+}

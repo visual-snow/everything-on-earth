@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/trade-tariff/trade-tariff-api-docs",
+  "name": "trade-tariff/trade-tariff-api-docs",
+  "description": "Documentation site for the trade tariff API and related customs endpoints.",
+  "sub_domain": "economic-statecraft-trade",
+  "score": 6,
+  "score_rationale": "Useful supporting docs for a real tariff platform, though not the core engine.",
+  "stars": 4,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "economic-statecraft-trade"
+  ],
+  "quality_score": 41.6,
+  "tags": [
+    "tariffs",
+    "api-docs",
+    "customs",
+    "documentation"
+  ],
+  "category": "API Documentation Site",
+  "summary": "Documentation site for the trade tariff API and customs endpoints.",
+  "slug": "trade-tariff-trade-tariff-api-docs"
+}

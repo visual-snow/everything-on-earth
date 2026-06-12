@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/legal-nlp-ekstep/rhetorical-role-baseline",
+  "name": "legal-nlp-ekstep/rhetorical-role-baseline",
+  "description": "OpenNyAI is a mission aimed at developing open source software and datasets to catalyze the creation of AI-powered solutions to improve access to justice in India. BUILD is the first benchmark dataset created by OpenNyAI",
+  "sub_domain": "legal-ai-nlp",
+  "score": 1,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for benchmark, dataset-style signals.",
+  "stars": 43,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2024-04-17",
+  "found_in_domains": [
+    "legal-ai-nlp"
+  ],
+  "quality_score": 19.1,
+  "discovery_score": 1,
+  "tags": [
+    "legal-ai",
+    "legal-nlp",
+    "clause-extraction",
+    "citation",
+    "access",
+    "access-to-justice"
+  ],
+  "category": "Legal AI / NLP \u2014 legal BERT, NER, clause extraction, summarization, citation tooling",
+  "summary": "OpenNyAI is a mission aimed at developing open source software and datasets to catalyze the creation of AI-powered solutions to improve a...",
+  "slug": "legal-nlp-ekstep-rhetorical-role-baseline"
+}

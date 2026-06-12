@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/wildcard/lovewords-boards",
+  "name": "wildcard/lovewords-boards",
+  "description": "Community-contributed communication boards for LoveWords AAC",
+  "sub_domain": "special-education-therapy",
+  "score": 5,
+  "score_rationale": "Board library for AAC users; narrower than a full app but directly useful for classroom communication.",
+  "stars": 0,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-01-24",
+  "found_in_domains": [
+    "special-education-therapy"
+  ],
+  "quality_score": 32.4,
+  "discovery_score": 5,
+  "tags": [
+    "special-education",
+    "speech-therapy",
+    "autism-support",
+    "aac"
+  ],
+  "category": "Special Education, AAC, Speech Therapy, Autism & Therapy Support Tools",
+  "summary": "Community-contributed communication boards for LoveWords AAC",
+  "slug": "wildcard-lovewords-boards"
+}

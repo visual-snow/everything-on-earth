@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/webpa/webpa",
+  "name": "WebPA/WebPA",
+  "description": "Web PA - open source online peer assessment tool",
+  "sub_domain": "collaborative-learning",
+  "score": 8,
+  "score_rationale": "Peer assessment system designed for student groupwork and team-based learning.",
+  "stars": 36,
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-12",
+  "found_in_domains": [
+    "collaborative-learning"
+  ],
+  "quality_score": 60.5,
+  "discovery_score": 8,
+  "tags": [
+    "collaboration",
+    "peer-review",
+    "whiteboards",
+    "wikis",
+    "assessment"
+  ],
+  "category": "Collaborative Learning, Peer Review, Whiteboards, Wikis & Group Work",
+  "summary": "Web PA - open source online peer assessment tool",
+  "slug": "webpa-webpa"
+}

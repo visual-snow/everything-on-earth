@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/dodona-edu/dolos",
+  "name": "dodona-edu/dolos",
+  "description": "Source code plagiarism detection for educational workflows.",
+  "sub_domain": "assessment-testing",
+  "score": 9,
+  "score_rationale": "Clearly aligned with academic integrity and student code plagiarism detection.",
+  "stars": 334,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "assessment-testing"
+  ],
+  "quality_score": 74.2,
+  "discovery_score": 9,
+  "tags": [
+    "assessment",
+    "exams",
+    "autograding",
+    "academic-integrity"
+  ],
+  "category": "Assessment, Testing, Exam Creation, Auto-Grading & Academic Integrity",
+  "summary": "Source code plagiarism detection for educational workflows.",
+  "slug": "dodona-edu-dolos"
+}

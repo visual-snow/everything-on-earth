@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/btschwertfeger/biasadjustcxx",
+  "name": "btschwertfeger/biasadjustcxx",
+  "description": "Bias correction command-line tool for climatic research written in C++",
+  "sub_domain": "climate-data-analysis",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 9,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2025-11-13",
+  "found_in_domains": [
+    "climate-data-analysis"
+  ],
+  "quality_score": 32.0,
+  "discovery_score": 4,
+  "tags": [
+    "climate-data",
+    "cmip",
+    "era5",
+    "downscaling"
+  ],
+  "category": "Climate Data Analysis \u2014 climate datasets, downscaling, CMIP and ERA5 processors",
+  "summary": "Bias correction command-line tool for climatic research written in C++",
+  "slug": "btschwertfeger-biasadjustcxx"
+}

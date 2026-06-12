@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/mrice/solidity-legal-contracts",
+  "name": "mrice/solidity-legal-contracts",
+  "description": "Creating legal binding smart contracts (or trying to)",
+  "sub_domain": "smart-contracts-legal",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 21,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2018-05-26",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 34.7,
+  "discovery_score": 4,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract-analysis"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "Creating legal binding smart contracts (or trying to)",
+  "slug": "mrice-solidity-legal-contracts"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cmb-chula/mhcseqnet",
+  "name": "cmb-chula/MHCSeqNet",
+  "description": "A Python tool for prediction MHC ligand",
+  "sub_domain": "immunoinformatics",
+  "score": 7,
+  "score_rationale": "Direct MHC ligand prediction tool that is clearly in scope, but it is older than the top-tier binders.",
+  "stars": 34,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2019-02-10",
+  "found_in_domains": [
+    "immunoinformatics"
+  ],
+  "quality_score": 54.4,
+  "discovery_score": 7,
+  "tags": [
+    "immunoinformatics",
+    "epitope-prediction",
+    "hla",
+    "neoantigen"
+  ],
+  "category": "Immunoinformatics \u2014 epitope prediction and antibody design",
+  "summary": "A Python tool for prediction MHC ligand",
+  "slug": "cmb-chula-mhcseqnet"
+}

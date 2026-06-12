@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/hmcts/ia-case-api",
+  "name": "hmcts/ia-case-api",
+  "description": "Immigration & Asylum case API",
+  "sub_domain": "immigration-visa-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 13,
+  "language": "Java",
+  "license": "MIT",
+  "last_activity": "2026-03-25",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 33.2,
+  "discovery_score": 4,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "Immigration & Asylum case API",
+  "slug": "hmcts-ia-case-api"
+}

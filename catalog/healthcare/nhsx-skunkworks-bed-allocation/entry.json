@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/nhsx/skunkworks-bed-allocation",
+  "name": "nhsx/skunkworks-bed-allocation",
+  "description": "NHS AI Lab Skunkworks project: Bed Allocation",
+  "sub_domain": "hospital-operations-scheduling",
+  "score": 8,
+  "score_rationale": "Direct bed-allocation tooling from NHS AI Lab, which is tightly aligned to hospital operations and patient placement.",
+  "stars": 29,
+  "language": "SCSS",
+  "license": "MIT",
+  "last_activity": "2022-07-20",
+  "found_in_domains": [
+    "hospital-operations-scheduling"
+  ],
+  "quality_score": 59.8,
+  "discovery_score": 8,
+  "tags": [
+    "hospital-ops",
+    "scheduling",
+    "bed-management",
+    "patient-flow",
+    "lab"
+  ],
+  "category": "Hospital Operations, Scheduling, Bed Management & Patient Flow",
+  "summary": "NHS AI Lab Skunkworks project: Bed Allocation",
+  "slug": "nhsx-skunkworks-bed-allocation"
+}

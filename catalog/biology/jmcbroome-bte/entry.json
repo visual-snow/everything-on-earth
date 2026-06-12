@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/jmcbroome/bte",
+  "name": "jmcbroome/bte",
+  "description": "Cython API for the Mutation Annotated Tree (MAT) Online Phylogenetics Toolkit",
+  "sub_domain": "phylogenetics",
+  "score": 8,
+  "score_rationale": "It is a specialized API around a phylogenetics toolkit rather than a generic utility, so it remains clearly biology-facing.",
+  "stars": 14,
+  "language": "Cython",
+  "license": "MIT",
+  "last_activity": "2025-05-28",
+  "found_in_domains": [
+    "phylogenetics"
+  ],
+  "quality_score": 57.4,
+  "discovery_score": 8,
+  "tags": [
+    "phylogenetics",
+    "molecular-evolution",
+    "tree-inference",
+    "phylogenomics"
+  ],
+  "category": "Phylogenetics \u2014 tree building and molecular evolution",
+  "summary": "Cython API for the Mutation Annotated Tree (MAT) Online Phylogenetics Toolkit",
+  "slug": "jmcbroome-bte"
+}

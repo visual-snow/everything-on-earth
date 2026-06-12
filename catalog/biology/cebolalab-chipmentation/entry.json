@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/cebolalab/chipmentation",
+  "name": "cebolalab/chipmentation",
+  "description": "Analysis pipeline for ChIPmentation data",
+  "sub_domain": "epigenomics",
+  "score": 6,
+  "score_rationale": "A concrete histone ChIP-seq pipeline for the ChIPmentation assay, though it is small and dated.",
+  "stars": 2,
+  "language": null,
+  "license": null,
+  "last_activity": "2021-06-24",
+  "found_in_domains": [
+    "epigenomics"
+  ],
+  "quality_score": 39.8,
+  "discovery_score": 6,
+  "tags": [
+    "epigenomics",
+    "atac-seq",
+    "chip-seq",
+    "dna-methylation"
+  ],
+  "category": "Epigenomics \u2014 DNA methylation, chromatin accessibility, histone modifications",
+  "summary": "Analysis pipeline for ChIPmentation data",
+  "slug": "cebolalab-chipmentation"
+}

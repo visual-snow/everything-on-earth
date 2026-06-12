@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/ayushjhax/zephron-protocol",
+  "name": "ayushjhax/zephron-protocol",
+  "description": "Zephron Protocol is a unified ecosystem that transforms physical gold into a liquid on-chain asset, enabling users to instantly borrow against their holdings.",
+  "sub_domain": "defi-lending-borrowing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_activity": "2025-11-18",
+  "found_in_domains": [
+    "defi-lending-borrowing"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "defi",
+    "lending",
+    "borrowing",
+    "stablecoin"
+  ],
+  "category": "DeFi Lending / Borrowing",
+  "summary": "Zephron Protocol is a unified ecosystem that transforms physical gold into a liquid on-chain asset, enabling users to instantly borrow ag...",
+  "slug": "ayushjhax-zephron-protocol"
+}

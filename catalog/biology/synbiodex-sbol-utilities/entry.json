@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/synbiodex/sbol-utilities",
+  "name": "SynBioDex/SBOL-utilities",
+  "description": "Command-line utilities and scripts for manipulating SBOL data",
+  "sub_domain": "synthetic-biology",
+  "score": 8,
+  "score_rationale": "Useful command-line toolkit for SBOL manipulation and ecosystem workflows.",
+  "stars": 19,
+  "language": "JavaScript",
+  "license": null,
+  "last_activity": "2025-11-20",
+  "found_in_domains": [
+    "synthetic-biology"
+  ],
+  "quality_score": 58.4,
+  "discovery_score": 8,
+  "tags": [
+    "synthetic-biology",
+    "genetic-circuits",
+    "dna-assembly",
+    "metabolic-engineering"
+  ],
+  "category": "Synthetic Biology \u2014 genetic circuit design and DNA assembly",
+  "summary": "Command-line utilities and scripts for manipulating SBOL data",
+  "slug": "synbiodex-sbol-utilities"
+}

@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/sciro24/world-conflict-map",
+  "name": "sciro24/World-Conflict-Map",
+  "description": "Real-time global conflict monitor. Powered by GDELT data, Next.js, and interactive maps.",
+  "stars": 1,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2026-01-19",
+  "sub_domain": "conflict-event-tracking",
+  "score": 8,
+  "score_rationale": "Purpose-built conflict visualization dashboard and a strong fit for event tracking.",
+  "found_in_domains": [
+    "conflict-event-tracking"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "conflict-monitoring",
+    "gdelt",
+    "nextjs",
+    "map"
+  ],
+  "category": "Conflict Visualization",
+  "summary": "Real-time conflict map powered by GDELT and interactive views.",
+  "slug": "sciro24-world-conflict-map"
+}

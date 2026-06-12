@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/haddocking/haddock3",
+  "name": "haddocking/haddock3",
+  "description": "Official repo of the modular BioExcel version of HADDOCK",
+  "sub_domain": "structural-biology",
+  "score": 10,
+  "score_rationale": "The current official HADDOCK implementation and a canonical protein-protein docking anchor.",
+  "stars": 229,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "structural-biology"
+  ],
+  "quality_score": 78.9,
+  "discovery_score": 10,
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "molecular-dynamics",
+    "docking"
+  ],
+  "category": "Structural Biology \u2014 cryo-EM, molecular dynamics, docking",
+  "summary": "Official repo of the modular BioExcel version of HADDOCK",
+  "slug": "haddocking-haddock3"
+}

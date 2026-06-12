@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/birollab/goldpolish",
+  "name": "birollab/goldpolish",
+  "description": "GoldPolish (aka GoldRush-Edit) is a long read sequence polisher used in the GoldRush assembler",
+  "sub_domain": "long-read-sequencing",
+  "score": 7,
+  "score_rationale": "Long-read assembly polisher used in the GoldRush ecosystem, so it fits the consensus and polishing niche.",
+  "stars": 8,
+  "language": "C++",
+  "license": "GPL-3.0",
+  "last_activity": "2026-03-11",
+  "found_in_domains": [
+    "long-read-sequencing"
+  ],
+  "quality_score": 49.6,
+  "discovery_score": 7,
+  "tags": [
+    "long-read",
+    "nanopore",
+    "pacbio",
+    "iso-seq"
+  ],
+  "category": "Long-read Sequencing \u2014 Oxford Nanopore and PacBio tools",
+  "summary": "GoldPolish (aka GoldRush-Edit) is a long read sequence polisher used in the GoldRush assembler",
+  "slug": "birollab-goldpolish"
+}

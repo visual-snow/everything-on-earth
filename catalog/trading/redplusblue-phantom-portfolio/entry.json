@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/redplusblue/phantom-portfolio",
+  "name": "redplusblue/phantom-portfolio",
+  "description": "Phantom Portfolio: A simple, real-time stock market sandbox application.",
+  "sub_domain": "paper-trading-simulation",
+  "score": 9,
+  "score_rationale": "Real-time stock market sandbox application.",
+  "stars": 1,
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "last_activity": "2025-12-14",
+  "found_in_domains": [
+    "paper-trading-simulation"
+  ],
+  "quality_score": 56.4,
+  "tags": [
+    "paper-trading",
+    "simulation",
+    "virtual-broker",
+    "portfolio"
+  ],
+  "category": "Paper Trading Simulator",
+  "summary": "Phantom Portfolio: A simple, real-time stock market sandbox application.",
+  "slug": "redplusblue-phantom-portfolio"
+}

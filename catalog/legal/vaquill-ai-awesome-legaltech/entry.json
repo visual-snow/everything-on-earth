@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vaquill-ai/awesome-legaltech",
+  "name": "vaquill-ai/awesome-legaltech",
+  "description": "A curated list of awesome LegalTech resources - open source platforms, AI models, MCP servers, companies, datasets, and tools for the global legal ecosystem.",
+  "sub_domain": "legal-research-case-law",
+  "score": 2,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text; penalized for awesome-style signals.",
+  "stars": 5,
+  "language": null,
+  "license": null,
+  "last_activity": "2026-03-12",
+  "found_in_domains": [
+    "legal-research-case-law"
+  ],
+  "quality_score": 18.2,
+  "discovery_score": 2,
+  "tags": [
+    "case-law",
+    "citation",
+    "court-data",
+    "dockets"
+  ],
+  "category": "Legal Research / Case Law \u2014 opinions, citations, court data, dockets, scrapers",
+  "summary": "A curated list of awesome LegalTech resources - open source platforms, AI models, MCP servers, companies, datasets, and tools for the glo...",
+  "slug": "vaquill-ai-awesome-legaltech"
+}

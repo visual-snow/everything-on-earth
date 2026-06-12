@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/microsoft/advocacyplatform",
+  "name": "microsoft/advocacyplatform",
+  "description": "The Advocacy Platform is a cloud solution to automate the acquisition of case decisions, court hearings and location information from the EOIR hotline. Additionally, this solution helps NGOs working with Asylum seeker families at risk of deportation to allocate legal professionals/volunteers more efficiently.",
+  "sub_domain": "immigration-visa-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 23,
+  "language": "C#",
+  "license": "MIT",
+  "last_activity": "2023-10-09",
+  "found_in_domains": [
+    "immigration-visa-processing"
+  ],
+  "quality_score": 35.0,
+  "discovery_score": 4,
+  "tags": [
+    "immigration",
+    "visa-processing",
+    "case-intake",
+    "form-automation",
+    "court"
+  ],
+  "category": "Immigration / Visa Processing \u2014 case intake, immigration workflows, filing and tracking",
+  "summary": "The Advocacy Platform is a cloud solution to automate the acquisition of case decisions, court hearings and location information from the...",
+  "slug": "microsoft-advocacyplatform"
+}

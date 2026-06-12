@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/vroom-project/vroom",
+  "name": "vroom-project/vroom",
+  "description": "Vehicle Routing Open-source Optimization Machine",
+  "sub_domain": "sustainable-transport",
+  "score": 6,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text; has strong GitHub adoption.",
+  "stars": 1692,
+  "language": "C++",
+  "license": "BSD-2-Clause",
+  "last_activity": "2026-03-17",
+  "found_in_domains": [
+    "sustainable-transport"
+  ],
+  "quality_score": 61.8,
+  "discovery_score": 6,
+  "tags": [
+    "transport",
+    "ev-routing",
+    "public-transit",
+    "mobility"
+  ],
+  "category": "Sustainable Transport \u2014 EV routing, public transit optimization, mobility-as-a-service",
+  "summary": "Vehicle Routing Open-source Optimization Machine",
+  "slug": "vroom-project-vroom"
+}

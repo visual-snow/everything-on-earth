@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/accordproject/aws-qldb-lambda",
+  "name": "accordproject/aws-qldb-lambda",
+  "description": "[INCUBATION] Accord Project Smart Legal Contracts on AWS",
+  "sub_domain": "smart-contracts-legal",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 5 domain terms in repo text; archived repo penalty.",
+  "stars": 9,
+  "language": "JavaScript",
+  "license": "Apache-2.0",
+  "last_activity": "2022-11-08",
+  "found_in_domains": [
+    "smart-contracts-legal"
+  ],
+  "quality_score": 26.0,
+  "discovery_score": 3,
+  "tags": [
+    "smart-contracts",
+    "computable-contracts",
+    "accord-project",
+    "contract-templates",
+    "contract-analysis"
+  ],
+  "category": "Smart Contracts / Legal \u2014 computable contracts, legal clause templates, agreement execution",
+  "summary": "[INCUBATION] Accord Project Smart Legal Contracts on AWS",
+  "slug": "accordproject-aws-qldb-lambda"
+}

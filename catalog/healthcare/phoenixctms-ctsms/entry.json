@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/phoenixctms/ctsms",
+  "name": "phoenixctms/ctsms",
+  "description": "Phoenix CTMS - the ultimative CTMS/PRS/CDMS.",
+  "sub_domain": "clinical-trials-research",
+  "score": 9,
+  "score_rationale": "Full CTMS/PRS/CDMS stack with direct relevance to trial operations and subject tracking.",
+  "stars": 68,
+  "language": "Java",
+  "license": "LGPL-2.1",
+  "last_activity": "2026-03-24",
+  "found_in_domains": [
+    "clinical-trials-research"
+  ],
+  "quality_score": 68.7,
+  "discovery_score": 9,
+  "tags": [
+    "clinical-trials",
+    "research",
+    "recruitment",
+    "data-capture"
+  ],
+  "category": "Clinical Trials, Trial Management, Recruitment & Research Tooling",
+  "summary": "Phoenix CTMS - the ultimative CTMS/PRS/CDMS.",
+  "slug": "phoenixctms-ctsms"
+}

@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/harshisharma04/eduai",
+  "name": "HarshiSharma04/EduAi",
+  "description": "AI-driven personalized learning application with various learning features.",
+  "sub_domain": "adaptive-learning",
+  "score": 7,
+  "score_rationale": "Directly frames itself as personalized learning software and stays squarely within the education scope.",
+  "stars": 11,
+  "language": "Dart",
+  "license": "MIT",
+  "last_activity": "2025-07-28",
+  "found_in_domains": [
+    "adaptive-learning"
+  ],
+  "quality_score": 50.6,
+  "discovery_score": 7,
+  "tags": [
+    "adaptive-learning",
+    "tutoring",
+    "mastery",
+    "knowledge-tracing"
+  ],
+  "category": "Adaptive Learning, Personalization, Knowledge Tracing & AI Tutoring",
+  "summary": "AI-driven personalized learning application with various learning features.",
+  "slug": "harshisharma04-eduai"
+}

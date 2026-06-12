@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/openstreetmap-polska/ua-2022-map",
+  "name": "openstreetmap-polska/ua-2022-map",
+  "description": "Map of reception points for refugees near Polish-Ukrainian border",
+  "sub_domain": "migration-refugee-data",
+  "score": 8,
+  "score_rationale": "Operational reception-point map for refugees near the Polish-Ukrainian border.",
+  "stars": 38,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_activity": "2025-12-02",
+  "found_in_domains": [
+    "migration-refugee-data"
+  ],
+  "quality_score": 60.7,
+  "tags": [
+    "refugees",
+    "maps",
+    "border",
+    "humanitarian"
+  ],
+  "category": "Reception Point Map",
+  "summary": "Maps refugee reception points near the Polish-Ukrainian border.",
+  "slug": "openstreetmap-polska-ua-2022-map"
+}

@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/funkeomolere/grc-framework-update-tracker",
+  "name": "funkeomolere/grc-framework-update-tracker",
+  "description": "Automated GRC intelligence dashboard tracking cybersecurity threats, regulatory updates, and vulnerabilities.",
+  "sub_domain": "compliance-regulatory-automation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "license": null,
+  "last_activity": "2026-03-06",
+  "found_in_domains": [
+    "compliance-regulatory-automation"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "compliance",
+    "policy-as-code",
+    "regulatory-change",
+    "audit-controls",
+    "regulatory"
+  ],
+  "category": "Compliance / Regulatory Automation \u2014 policy-as-code, audit mapping, regulatory change tracking",
+  "summary": "Automated GRC intelligence dashboard tracking cybersecurity threats, regulatory updates, and vulnerabilities.",
+  "slug": "funkeomolere-grc-framework-update-tracker"
+}

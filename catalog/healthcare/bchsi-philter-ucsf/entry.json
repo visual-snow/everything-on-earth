@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/bchsi/philter-ucsf",
+  "name": "BCHSI/philter-ucsf",
+  "description": "Philter is a command-line based clinical text de-identification software that removes protected health information (PHI) from any plain text file.",
+  "sub_domain": "health-data-privacy-deidentification",
+  "score": 9,
+  "score_rationale": "Directly on-subdomain clinical text de-identification tool focused on PHI removal.",
+  "stars": 152,
+  "language": "Python",
+  "license": "BSD-3-Clause",
+  "last_activity": "2023-09-29",
+  "found_in_domains": [
+    "clinical-nlp-text-mining",
+    "health-data-privacy-deidentification"
+  ],
+  "quality_score": 71.5,
+  "discovery_score": 9,
+  "tags": [
+    "privacy",
+    "de-identification",
+    "synthetic-data",
+    "hipaa"
+  ],
+  "category": "Health Data Privacy, De-identification, Synthetic Data & HIPAA Tooling",
+  "summary": "Philter is a command-line based clinical text de-identification software that removes protected health information (PHI) from any plain t...",
+  "slug": "bchsi-philter-ucsf"
+}

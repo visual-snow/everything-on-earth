@@ -1,0 +1,27 @@
+{
+  "repo_url": "https://github.com/callumbeer/dems",
+  "name": "callumbeer/dems",
+  "description": "DEMS to Manage the Chain of Custody of Evidence within Policing",
+  "sub_domain": "digital-forensics-litigation",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 3 domain terms in repo text.",
+  "stars": 0,
+  "language": "HTML",
+  "license": "MIT",
+  "last_activity": "2022-05-06",
+  "found_in_domains": [
+    "digital-forensics-litigation"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "digital-forensics",
+    "chain-of-custody",
+    "evidence-management",
+    "litigation-support",
+    "evidence"
+  ],
+  "category": "Digital Forensics / Litigation \u2014 chain of custody, evidence management, forensic support for cases",
+  "summary": "DEMS to Manage the Chain of Custody of Evidence within Policing",
+  "slug": "callumbeer-dems"
+}

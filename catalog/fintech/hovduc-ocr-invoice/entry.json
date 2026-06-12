@@ -1,0 +1,28 @@
+{
+  "repo_url": "https://github.com/hovduc/ocr-invoice",
+  "name": "hovduc/ocr-invoice",
+  "description": "An intelligent OCR system for automated invoice data extraction from Vietnamese retail receipts. The project combines traditional deep learning pipelines (PaddleOCR, DB text detection, VGG-Transformer recognition, LayoutXLM for key information extraction) with a modern Gemini-Flash VLM alternative for simpler, faster, and more accurate extraction.",
+  "sub_domain": "financial-document-processing",
+  "score": 4,
+  "score_rationale": "Matched 1 query; contains 2 domain terms in repo text.",
+  "stars": 1,
+  "language": "Python",
+  "query_hits": 1,
+  "matched_queries": [
+    "invoice ocr open source github"
+  ],
+  "found_in_domains": [
+    "financial-document-processing"
+  ],
+  "quality_score": 26.4,
+  "discovery_score": 4,
+  "tags": [
+    "document-processing",
+    "ocr",
+    "xbrl",
+    "statement-parsing"
+  ],
+  "category": "Financial Document Processing",
+  "summary": "An intelligent OCR system for automated invoice data extraction from Vietnamese retail receipts. The project combines traditional deep le...",
+  "slug": "hovduc-ocr-invoice"
+}

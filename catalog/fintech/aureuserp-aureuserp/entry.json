@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/aureuserp/aureuserp",
+  "name": "aureuserp/aureuserp",
+  "description": "Free and Open Source ERP platform",
+  "sub_domain": "accounting-bookkeeping",
+  "score": 2,
+  "score_rationale": "Matched 1 query; shows little direct domain terminology; has strong GitHub adoption.",
+  "stars": 9972,
+  "language": "PHP",
+  "license": "MIT",
+  "last_activity": "2026-03-23",
+  "found_in_domains": [
+    "accounting-bookkeeping"
+  ],
+  "quality_score": 44.0,
+  "discovery_score": 2,
+  "tags": [
+    "accounting",
+    "bookkeeping",
+    "double-entry",
+    "general-ledger"
+  ],
+  "category": "Accounting / Bookkeeping",
+  "summary": "Free and Open Source ERP platform",
+  "slug": "aureuserp-aureuserp"
+}

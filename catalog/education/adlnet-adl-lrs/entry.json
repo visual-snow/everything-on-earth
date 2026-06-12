@@ -1,0 +1,29 @@
+{
+  "repo_url": "https://github.com/adlnet/adl_lrs",
+  "name": "adlnet/ADL_LRS",
+  "description": "ADL's open-source learning record store for xAPI statements.",
+  "sub_domain": "analytics-learning-dashboards",
+  "score": 9,
+  "score_rationale": "Directly relevant xAPI LRS with active maintenance and a clear education analytics role.",
+  "stars": 331,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_activity": "2025-06-13",
+  "found_in_domains": [
+    "analytics-learning-dashboards",
+    "edtech-infrastructure"
+  ],
+  "quality_score": 74.2,
+  "discovery_score": 9,
+  "tags": [
+    "analytics",
+    "dashboards",
+    "engagement",
+    "early-alerts",
+    "lti",
+    "xapi"
+  ],
+  "category": "Analytics, Learning Dashboards, Engagement Metrics & Early Alerts",
+  "summary": "ADL's open-source learning record store for xAPI statements.",
+  "slug": "adlnet-adl-lrs"
+}

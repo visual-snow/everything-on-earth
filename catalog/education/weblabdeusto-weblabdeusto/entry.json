@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/weblabdeusto/weblabdeusto",
+  "name": "weblabdeusto/weblabdeusto",
+  "description": "Remote laboratory management framework for sharing and operating physical labs over the web.",
+  "sub_domain": "virtual-labs-simulations",
+  "score": 10,
+  "score_rationale": "Canonical remote laboratory platform with explicit education use and experiment sharing.",
+  "stars": 41,
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "last_activity": "2023-05-01",
+  "found_in_domains": [
+    "virtual-labs-simulations"
+  ],
+  "quality_score": 73.0,
+  "discovery_score": 10,
+  "tags": [
+    "virtual-labs",
+    "simulations",
+    "remote-labs",
+    "science-learning"
+  ],
+  "category": "Virtual Labs, Remote Labs, Science Simulations & Experiment Platforms",
+  "summary": "Remote laboratory management framework for sharing and operating physical labs over the web.",
+  "slug": "weblabdeusto-weblabdeusto"
+}

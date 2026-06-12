@@ -1,0 +1,25 @@
+{
+  "repo_url": "https://github.com/hackclub/ofac-sl-api",
+  "name": "hackclub/ofac-sl-api",
+  "description": "A REST API for searching the U.S. Treasury's Office of Foreign Assets Control (OFAC) sanctions lists.",
+  "stars": 0,
+  "language": "TypeScript",
+  "license": null,
+  "last_activity": "2025-12-31",
+  "sub_domain": "sanctions-compliance",
+  "score": 8,
+  "score_rationale": "Clean REST API for OFAC list search with strong utility for compliance workflows.",
+  "found_in_domains": [
+    "sanctions-compliance"
+  ],
+  "quality_score": 50.4,
+  "tags": [
+    "ofac",
+    "rest-api",
+    "sanctions-screening",
+    "us-treasury"
+  ],
+  "category": "Sanctions API",
+  "summary": "REST API for searching OFAC sanctions lists.",
+  "slug": "hackclub-ofac-sl-api"
+}

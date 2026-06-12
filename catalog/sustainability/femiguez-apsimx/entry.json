@@ -1,0 +1,26 @@
+{
+  "repo_url": "https://github.com/femiguez/apsimx",
+  "name": "femiguez/apsimx",
+  "description": "R package for APSIM-X",
+  "sub_domain": "sustainable-agriculture",
+  "score": 3,
+  "score_rationale": "Matched 1 query; contains 1 domain term in repo text.",
+  "stars": 64,
+  "language": "R",
+  "license": null,
+  "last_activity": "2026-01-15",
+  "found_in_domains": [
+    "sustainable-agriculture"
+  ],
+  "quality_score": 32.5,
+  "discovery_score": 3,
+  "tags": [
+    "precision-agriculture",
+    "soil-carbon",
+    "crop-modeling",
+    "regenerative-agriculture"
+  ],
+  "category": "Sustainable Agriculture \u2014 precision agriculture, soil carbon, crop modeling",
+  "summary": "R package for APSIM-X",
+  "slug": "femiguez-apsimx"
+}
